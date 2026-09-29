@@ -1,0 +1,89 @@
+{
+  "animationId": "monster.reed-crawler.idle",
+  "version": "1.down-left-v1",
+  "sheet": {
+    "width": 1256,
+    "height": 313
+  },
+  "frames": [
+    {
+      "frameId": "down_left.0",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 313,
+        "height": 313
+      },
+      "anchor": {
+        "x": 156.5,
+        "y": 256.65999999999997
+      }
+    },
+    {
+      "frameId": "down_left.1",
+      "rect": {
+        "x": 314,
+        "y": 0,
+        "width": 314,
+        "height": 313
+      },
+      "anchor": {
+        "x": 157.0,
+        "y": 256.65999999999997
+      }
+    },
+    {
+      "frameId": "down_left.2",
+      "rect": {
+        "x": 628,
+        "y": 0,
+        "width": 313,
+        "height": 313
+      },
+      "anchor": {
+        "x": 156.5,
+        "y": 256.65999999999997
+      }
+    },
+    {
+      "frameId": "down_left.3",
+      "rect": {
+        "x": 942,
+        "y": 0,
+        "width": 314,
+        "height": 313
+      },
+      "anchor": {
+        "x": 157.0,
+        "y": 256.65999999999997
+      }
+    }
+  ],
+  "clips": [
+    {
+      "clipId": "idle.down_left",
+      "action": "idle",
+      "direction": "down_left",
+      "frames": [
+        {
+          "frameId": "down_left.0",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.1",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.2",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.3",
+          "durationMs": 125
+        }
+      ],
+      "loop": true,
+      "nextClipId": null
+    }
+  ]
+}

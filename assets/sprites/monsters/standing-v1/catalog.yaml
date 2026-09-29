@@ -2,33 +2,33 @@ version: 1
 status: runtime-registered
 runtimeRegistered: true
 assets:
-  - id: slime
-    sheet: slime-idle-v1.png
-    animation: slime-idle-v1.animation.json
-  - id: beast
-    sheet: beast-idle-v2.png
-    animation: beast-idle-v2.animation.json
-  - id: giant
-    sheet: giant-idle-v1.png
-    animation: giant-idle-v1.animation.json
-  - id: field-rabbit
-    sheet: field-rabbit-idle-v1.png
-    animation: field-rabbit-idle-v1.animation.json
-  - id: stone-crab
-    sheet: stone-crab-idle-v1.png
-    animation: stone-crab-idle-v1.animation.json
-  - id: ridge-boar
-    sheet: ridge-boar-idle-v1.png
-    animation: ridge-boar-idle-v1.animation.json
-  - id: lantern-moth
-    sheet: lantern-moth-idle-v1.png
-    animation: lantern-moth-idle-v1.animation.json
-  - id: reed-crawler
-    sheet: reed-crawler-idle-v1.png
-    animation: reed-crawler-idle-v1.animation.json
-  - id: ash-fox
-    sheet: ash-fox-idle-v1.png
-    animation: ash-fox-idle-v1.animation.json
-  - id: crystal-lizard
-    sheet: crystal-lizard-idle-v1.png
-    animation: crystal-lizard-idle-v1.animation.json
+- id: slime
+  sheet: down-left-v1/slime-idle-v1.png
+  animation: down-left-v1/slime-idle-v1.animation.json
+- id: beast
+  sheet: down-left-v1/beast-idle-v2.png
+  animation: down-left-v1/beast-idle-v2.animation.json
+- id: giant
+  sheet: down-left-v1/giant-idle-v1.png
+  animation: down-left-v1/giant-idle-v1.animation.json
+- id: field-rabbit
+  sheet: down-left-v1/field-rabbit-idle-v1.png
+  animation: down-left-v1/field-rabbit-idle-v1.animation.json
+- id: stone-crab
+  sheet: down-left-v1/stone-crab-idle-v1.png
+  animation: down-left-v1/stone-crab-idle-v1.animation.json
+- id: ridge-boar
+  sheet: down-left-v1/ridge-boar-idle-v1.png
+  animation: down-left-v1/ridge-boar-idle-v1.animation.json
+- id: lantern-moth
+  sheet: down-left-v1/lantern-moth-idle-v1.png
+  animation: down-left-v1/lantern-moth-idle-v1.animation.json
+- id: reed-crawler
+  sheet: down-left-v1/reed-crawler-idle-v1.png
+  animation: down-left-v1/reed-crawler-idle-v1.animation.json
+- id: ash-fox
+  sheet: down-left-v1/ash-fox-idle-v1.png
+  animation: down-left-v1/ash-fox-idle-v1.animation.json
+- id: crystal-lizard
+  sheet: down-left-v1/crystal-lizard-idle-v1.png
+  animation: down-left-v1/crystal-lizard-idle-v1.animation.json
