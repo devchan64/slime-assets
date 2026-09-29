@@ -654,3 +654,19 @@ assets:
     processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
     approval: 사용자 크롭 결과를 보강대 나무 타일로 추가 승인
   license: 별도 재사용 허가 미부여
+- managementId: tile.buildings.roof.wood
+  version: '3'
+  name: 통나무 수직 배열 나무 지붕 타일
+  path: assets/tiles/buildings/roof/common/wood-roof-v3.png
+  frontend_path: src/assets/world/common/buildings/wood-roof-v3.png
+  sha256: dad396783aeeff901983aa7963877ac81f2dc535173221bc9f0a3109d983c5a3
+  width: 441
+  height: 462
+  source:
+    repository: slime-workflow
+    generation_id: 2026-09-29_16-57-18-01d9d879
+    artifact: border-crop.png
+    model_id: Qwen/Qwen-Image-2512
+    processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
+    approval: 사용자 크롭 결과로 나무 지붕 교체 및 나무 건물 적용 승인
+  license: 별도 재사용 허가 미부여
