@@ -643,3 +643,19 @@ assets:
     processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
     approval: 사용자 크롭 결과로 나무 지붕 교체 및 나무 건물 적용 승인
   license: 별도 재사용 허가 미부여
+- managementId: tile.terrain.road.packed-dirt
+  version: '1'
+  name: 돌이 섞인 단단한 흙도로 타일
+  path: assets/tiles/terrain/dirt/common/packed-dirt-road-v1.png
+  frontend_path: src/assets/terrain/roads/packed-dirt-road-v1.png
+  sha256: 35d978fd6a7a535782198be475dd93dbea9c743a5256514ad9070914566fe844
+  width: 419
+  height: 418
+  source:
+    repository: slime-workflow
+    generation_id: 2026-09-29_18-16-42-c32bb567
+    artifact: border-crop.png
+    model_id: Qwen/Qwen-Image-Edit-2511
+    processing: 심벌·텍스트 제거 후 안쪽 경계 기준 1% 올림 보더 크롭
+    approval: 사용자 흙도로 타일 채택 및 필드 도로 일부 활용 승인
+  license: 별도 재사용 허가 미부여
