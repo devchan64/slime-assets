@@ -369,33 +369,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/isloon/buildings/wood-door-v1.source.json
-- managementId: image.frontend.src.assets.world.isloon.buildings.wood-large-window-wall-v1.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/isloon/wood-large-window-wall-v1.png
-  frontend_path: src/assets/world/isloon/buildings/wood-large-window-wall-v1.png
-  sha256: 1b30db90893f4504bbca06e0f9c729992e0967acf3f54766a0a382c19e0918cb
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/buildings/wood-large-window-wall-v1.png
-- managementId: image.world.isloon.wood-plain-wall-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/isloon/wood-plain-wall-v1.png
-  frontend_path: src/assets/world/isloon/buildings/wood-plain-wall-v1.png
-  sha256: 52a9d30122b823392d571f5d18a9602ce6ae6bcf2b80760dbd27c8a2b6cca706
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/buildings/wood-plain-wall-v1.png
-- managementId: metadata.frontend.src.assets.world.isloon.buildings.wood-plain-wall-v1.source.json
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/isloon/wood-plain-wall-v1.source.json
-  frontend_path: src/assets/world/isloon/buildings/wood-plain-wall-v1.source.json
-  sha256: 42236e583c91b89513ea637634c2517fcac515a5ea3e37fcea8cac73b59242a9
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/buildings/wood-plain-wall-v1.source.json
 - managementId: image.frontend.src.assets.world.isloon.buildings.wood-roof-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/buildings/roof/isloon/wood-roof-v1.png
@@ -423,33 +396,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/isloon/buildings/wood-roof-v2.source.json
-- managementId: image.frontend.src.assets.world.isloon.buildings.wood-small-window-wall-v1.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/isloon/wood-small-window-wall-v1.png
-  frontend_path: src/assets/world/isloon/buildings/wood-small-window-wall-v1.png
-  sha256: a0adadb8ee1eb3a84cefdf60b4b86a7cc679632d38698169d2e55ee2af6232ac
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/buildings/wood-small-window-wall-v1.png
-- managementId: image.frontend.src.assets.world.isloon.buildings.wood-wall-crossbar-v1.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/isloon/wood-wall-crossbar-v1.png
-  frontend_path: src/assets/world/isloon/buildings/wood-wall-crossbar-v1.png
-  sha256: 70bf751e370585a34143dd9ac774932be56cfacec23896c39da50d3b536c4dab
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/buildings/wood-wall-crossbar-v1.png
-- managementId: metadata.frontend.src.assets.world.isloon.buildings.wood-wall-crossbar-v1.source.json
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/isloon/wood-wall-crossbar-v1.source.json
-  frontend_path: src/assets/world/isloon/buildings/wood-wall-crossbar-v1.source.json
-  sha256: 4f7525613e571a3383bb8e701525429e8e9527ed157c3f7b5ae536dbb167c554
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/buildings/wood-wall-crossbar-v1.source.json
 - managementId: image.frontend.src.assets.world.isloon.buildings.workshop-door-v2.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/buildings/door/isloon/workshop-door-v2.png
@@ -646,3 +592,19 @@ assets:
     approval: 사용자 정사각형 석재 원본으로 v2 교체 및 돌온재 길드회관 사용
   license: 별도 재사용 허가 미부여
   frontend_path: src/assets/world/stonewarm/buildings/red-stone-roof-v2.png
+- managementId: tile.buildings.wall.wood
+  version: '2'
+  name: 통나무 수평 배열 벽 타일
+  path: assets/tiles/buildings/wall/common/wood-wall-v2.png
+  frontend_path: src/assets/world/common/buildings/wood-wall-v2.png
+  sha256: a769af976e198aa8f1d07429e52d8beb7bb328dbce6e8f59f22c8892c5c5eee9
+  width: 464
+  height: 462
+  source:
+    repository: slime-workflow
+    generation_id: 2026-09-29_13-03-51-34a6f0ba
+    artifact: border-crop.png
+    model_id: Qwen/Qwen-Image-2512
+    processing: 암부 채널 차이 5 허용, 안쪽 경계 기준 1% 보더 크롭
+    approval: 사용자 나무 벽 타일 통합 채택
+  license: 별도 재사용 허가 미부여
