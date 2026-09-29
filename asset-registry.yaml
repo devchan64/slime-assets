@@ -630,3 +630,19 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/terrain/marble-paving-v1.png
+- managementId: tile.buildings.roof.red-stone
+  version: '2'
+  name: 붉은 석재 지붕 타일
+  path: assets/tiles/buildings/roof/common/red-stone-roof-v2.png
+  sha256: 44e70c213ff5b69af96035971f9033856473a01832d688f9d341e5d620b9ffe3
+  width: 512
+  height: 512
+  source:
+    repository: slime-workflow
+    generation_id: 2026-09-29_12-08-34-29dc94ad
+    artifact: result.png
+    model_id: Qwen/Qwen-Image-2512
+    processing: 생성 원본 그대로 사용, 보더 크롭 없음
+    approval: 사용자 정사각형 석재 원본으로 v2 교체 및 돌온재 길드회관 사용
+  license: 별도 재사용 허가 미부여
+  frontend_path: src/assets/world/stonewarm/buildings/red-stone-roof-v2.png
