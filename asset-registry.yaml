@@ -2,7 +2,7 @@ schema_version: 1
 assets:
 - managementId: image.frontend.src.assets.terrain.cliffs.dew-meadow-cliff-face-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/dew-meadow-cliff-face-v1.png
+  path: assets/tiles/terrain/blocked/dew-meadow-cliff-face-v1.png
   frontend_path: src/assets/terrain/cliffs/dew-meadow-cliff-face-v1.png
   sha256: c3067751642888ccfb8fe8c7ce014107b6ea9fe29f7226a64f4ed1c34b610fb5
   source:
@@ -29,7 +29,7 @@ assets:
     path: src/assets/terrain/extension-v1/ash-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.boulder-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/boulder-128.webp
+  path: assets/tiles/terrain/blocked/boulder-128.webp
   frontend_path: src/assets/terrain/extension-v1/boulder-128.webp
   sha256: 65f74c4a6786f7fab068b4ba6980a9d0cedde987ccd149ec36d92a8fc4c44922
   source:
@@ -92,7 +92,7 @@ assets:
     path: src/assets/terrain/extension-v1/stone-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.tree-base-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/tree-base-128.webp
+  path: assets/tiles/terrain/blocked/tree-base-128.webp
   frontend_path: src/assets/terrain/extension-v1/tree-base-128.webp
   sha256: bc87125e869290fa2cdb035431a62860faa5e203721d228babc589dfa91897d0
   source:
@@ -146,7 +146,7 @@ assets:
     path: src/assets/terrain/road-v3.webp
 - managementId: image.frontend.src.assets.terrain.water-v3.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/water-v3.png
+  path: assets/tiles/terrain/blocked/water-v3.png
   frontend_path: src/assets/terrain/water-v3.png
   sha256: 14294b9c0d4651fd0eff58e98013acc950fb073c43414b7b5985eecc169a7773
   source:
@@ -155,7 +155,7 @@ assets:
     path: src/assets/terrain/water-v3.png
 - managementId: image.frontend.src.assets.terrain.water-v3.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/water-v3.webp
+  path: assets/tiles/terrain/blocked/water-v3.webp
   frontend_path: src/assets/terrain/water-v3.webp
   sha256: fce409971bb0dd69502b306d6e9f5627a656ca44a4ccdaf75255daeac54c4f5b
   source:

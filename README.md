@@ -10,7 +10,7 @@ SLIME 게임에서 채택한 공개 에셋의 관리 저장소다.
 | `assets/sprites/` | 캐릭터·몬스터·오브젝트·이펙트 스프라이트와 재생 메타데이터 |
 | `assets/maps/` | 게임 실행용 맵 데이터와 에셋 참조 |
 
-관리 ID·버전·경로·해시는 `asset-registry.yaml`에서 관리한다. 프론트엔드의 지형·마을 타일과 건물 표면 이미지 및 출처 sidecar 90개를 이관했다. `assets/tiles/terrain/road/`·`assets/tiles/terrain/non-road/`, `assets/tiles/buildings/<재질>/`에서 관리하며 등록부에 기존 ID, 원본 커밋, 전달 경로와 SHA-256을 보존한다. 프론트엔드에는 해시로 고정한 배포용 사본만 유지한다.
+관리 ID·버전·경로·해시는 `asset-registry.yaml`에서 관리한다. 프론트엔드의 지형·마을 타일과 건물 표면 이미지 및 출처 sidecar 90개를 이관했다. `assets/tiles/terrain/road/`·`assets/tiles/terrain/non-road/`·`assets/tiles/terrain/blocked/`, `assets/tiles/buildings/<재질>/`에서 관리하며 등록부에 기존 ID, 원본 커밋, 전달 경로와 SHA-256을 보존한다. 프론트엔드에는 해시로 고정한 배포용 사본만 유지한다.
 
 ## 등록 원칙
 
