@@ -1040,3 +1040,24 @@ assets:
     revision: 2026-09-29_23-57-11-7cd2df31
     previous_source_path: assets/sprites/characters/default/walk-v2/versions/20260929T144323-c0809460/walk-v2.png
     coordinates_sha256: 952c35bdd0f32b0c180e2f8aa8ddd354e5a120fd2e9e3a8c13902abe3533c1f1
+- managementId: frontend.ui.animation-labels.yaml
+  version: v1
+  path: assets/ui/animation-labels.yaml
+  sha256: 7cd7818caf4d2dec79a133e8e9eef806e8f1e1df5393c3eb8c175b8676c2b341
+  source:
+    repository: slime-frontend
+    path: src/assets/animation-labels.yaml
+- managementId: frontend.ui.cutins.yaml
+  version: v1
+  path: assets/ui/cutins.yaml
+  sha256: 3861a99a517b021fab5d1ed7db30345ec11390dda86d71ea11c8ef11e6f6ee7a
+  source:
+    repository: slime-frontend
+    path: src/assets/cutins.yaml
+- managementId: frontend.ui.login.slime-welcome-v4.png
+  version: v1
+  path: assets/ui/login/slime-welcome-v4.png
+  sha256: d0e0ee50f661b50812cc4560a26f60ff40eef65265756c7340d96495c5437490
+  source:
+    repository: slime-frontend
+    path: src/assets/login/slime-welcome-v4.png

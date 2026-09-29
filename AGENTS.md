@@ -43,3 +43,8 @@
 ## Structure Sprite Ownership
 - 구조물 스프라이트 원본은 `assets/sprites/structures/`에서 관리하고 등록부에 출처·버전·SHA-256을 보존한다.
 - 프론트의 `src/assets/structures/`는 `sprite-assets.lock.yaml`에 등록된 빌드용 전달 사본이며 Git에서 제외한다.
+
+## Direct Asset Consumption
+- 에셋 원본은 인접 `slime-assets/assets/`를 직접 참조한다. 프론트엔드의 `src/assets/`·`assets/` 전달 사본은 폐기한다. 위 전달 사본 규칙보다 이 규칙이 우선한다.
+- 잠금 목록의 `path`는 논리 식별 경로이며 `source_path`와 SHA-256으로 원본을 검증한다. 준비 명령은 사본을 생성하지 않는다. UI 이미지·라벨·컷인 설정도 `assets/ui/`에서 관리하며 `ui-assets.lock.yaml`로 검증한다.
+- Vite 개발 서버는 원본을 제공하고 배포 빌드는 해시 파일명으로 정적 파일을 번들링한다. 배포 후에는 로컬 저장소 경로에 의존하지 않는다.
