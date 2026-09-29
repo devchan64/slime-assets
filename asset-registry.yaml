@@ -659,3 +659,18 @@ assets:
     processing: 심벌·텍스트 제거 후 안쪽 경계 기준 1% 올림 보더 크롭
     approval: 사용자 흙도로 타일 채택 및 필드 도로 일부 활용 승인
   license: 별도 재사용 허가 미부여
+- managementId: tile.terrain.road.stone-slab
+  version: '1'
+  name: 균열있는 회색 석판도로 타일
+  path: assets/tiles/terrain/stone/common/stone-slab-road-v1.png
+  sha256: 64aca1b4d6887ebb81ba3cc85e78d21b59d81de5b08708435ab2714c81a82205
+  width: 451
+  height: 454
+  source:
+    repository: slime-workflow
+    generation_id: 2026-09-29_22-09-22-601afec8
+    artifact: border-crop.png
+    model_id: Qwen/Qwen-Image-2512
+    processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
+    approval: 사용자 석판도로 타일 추가 승인
+  license: 별도 재사용 허가 미부여
