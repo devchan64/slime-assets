@@ -2,7 +2,7 @@ schema_version: 1
 assets:
 - managementId: image.frontend.src.assets.terrain.cliffs.dew-meadow-cliff-face-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/cliff/dew-meadow-cliff-face-v1.png
+  path: assets/tiles/terrain/non-road/dew-meadow-cliff-face-v1.png
   frontend_path: src/assets/terrain/cliffs/dew-meadow-cliff-face-v1.png
   sha256: c3067751642888ccfb8fe8c7ce014107b6ea9fe29f7226a64f4ed1c34b610fb5
   source:
@@ -11,7 +11,7 @@ assets:
     path: src/assets/terrain/cliffs/dew-meadow-cliff-face-v1.png
 - managementId: image.frontend.src.assets.terrain.dew-v3.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/dew/dew-v3.webp
+  path: assets/tiles/terrain/non-road/dew-v3.webp
   frontend_path: src/assets/terrain/dew-v3.webp
   sha256: c42b470ce3952cc8315bce3838244c0bc16698b5d9269377e373e226eff2ad8d
   source:
@@ -20,7 +20,7 @@ assets:
     path: src/assets/terrain/dew-v3.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.ash-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/ash/ash-128.webp
+  path: assets/tiles/terrain/non-road/ash-128.webp
   frontend_path: src/assets/terrain/extension-v1/ash-128.webp
   sha256: 74822b6dd6afaf2868848a97942480a50e1c3e6d82ca3864c779986ff5048014
   source:
@@ -29,7 +29,7 @@ assets:
     path: src/assets/terrain/extension-v1/ash-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.boulder-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/boulder/boulder-128.webp
+  path: assets/tiles/terrain/non-road/boulder-128.webp
   frontend_path: src/assets/terrain/extension-v1/boulder-128.webp
   sha256: 65f74c4a6786f7fab068b4ba6980a9d0cedde987ccd149ec36d92a8fc4c44922
   source:
@@ -38,7 +38,7 @@ assets:
     path: src/assets/terrain/extension-v1/boulder-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.gravel-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/gravel/gravel-128.webp
+  path: assets/tiles/terrain/non-road/gravel-128.webp
   frontend_path: src/assets/terrain/extension-v1/gravel-128.webp
   sha256: 3c824aa396055e32e3c68d38229c7958503e0e74fbee2bd7e11c1253a4002e67
   source:
@@ -47,7 +47,7 @@ assets:
     path: src/assets/terrain/extension-v1/gravel-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.leaf-litter-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/leaf-litter/leaf-litter-128.webp
+  path: assets/tiles/terrain/non-road/leaf-litter-128.webp
   frontend_path: src/assets/terrain/extension-v1/leaf-litter-128.webp
   sha256: a913de242e99c33cd02bf98d4475cd5945af89cdd78ce305f55369f5fadb9e29
   source:
@@ -56,7 +56,7 @@ assets:
     path: src/assets/terrain/extension-v1/leaf-litter-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.moss-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/moss/moss-128.webp
+  path: assets/tiles/terrain/non-road/moss-128.webp
   frontend_path: src/assets/terrain/extension-v1/moss-128.webp
   sha256: a263a08cdb2b04da4afff93653253a6f9e3b7df4be15924d7a940800c6c3b9ec
   source:
@@ -65,7 +65,7 @@ assets:
     path: src/assets/terrain/extension-v1/moss-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.mud-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/mud/mud-128.webp
+  path: assets/tiles/terrain/non-road/mud-128.webp
   frontend_path: src/assets/terrain/extension-v1/mud-128.webp
   sha256: af9d22e904510854a8a598213067bf69fddf7d98254843973c81b5f173a12aed
   source:
@@ -74,7 +74,7 @@ assets:
     path: src/assets/terrain/extension-v1/mud-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.reed-bed-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/reed-bed/reed-bed-128.webp
+  path: assets/tiles/terrain/non-road/reed-bed-128.webp
   frontend_path: src/assets/terrain/extension-v1/reed-bed-128.webp
   sha256: e3403694372c352877c21d1f240d3b31e0c785179959a5168665513f7f944cd4
   source:
@@ -83,7 +83,7 @@ assets:
     path: src/assets/terrain/extension-v1/reed-bed-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.stone-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/stone/stone-128.webp
+  path: assets/tiles/terrain/non-road/stone-128.webp
   frontend_path: src/assets/terrain/extension-v1/stone-128.webp
   sha256: 99636cb984decb0f25952676cd0a7f5f19f460f1715d8256c0c70c83d761760b
   source:
@@ -92,7 +92,7 @@ assets:
     path: src/assets/terrain/extension-v1/stone-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.tree-base-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/tree-base/tree-base-128.webp
+  path: assets/tiles/terrain/non-road/tree-base-128.webp
   frontend_path: src/assets/terrain/extension-v1/tree-base-128.webp
   sha256: bc87125e869290fa2cdb035431a62860faa5e203721d228babc589dfa91897d0
   source:
@@ -101,7 +101,7 @@ assets:
     path: src/assets/terrain/extension-v1/tree-base-128.webp
 - managementId: image.frontend.src.assets.terrain.flowers-v3.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/flowers/flowers-v3.png
+  path: assets/tiles/terrain/non-road/flowers-v3.png
   frontend_path: src/assets/terrain/flowers-v3.png
   sha256: 20df9098136a8b652d6802093544d0e0096f841880328d566ee68b35f52afb77
   source:
@@ -110,7 +110,7 @@ assets:
     path: src/assets/terrain/flowers-v3.png
 - managementId: image.frontend.src.assets.terrain.flowers-v3.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/flowers/flowers-v3.webp
+  path: assets/tiles/terrain/non-road/flowers-v3.webp
   frontend_path: src/assets/terrain/flowers-v3.webp
   sha256: 80f38fead4691177825ed98ac75b12b0e271bcf7d21b9ec832dd23f8dcb96570
   source:
@@ -119,7 +119,7 @@ assets:
     path: src/assets/terrain/flowers-v3.webp
 - managementId: image.frontend.src.assets.terrain.grass-v3.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/grass/grass-v3.png
+  path: assets/tiles/terrain/non-road/grass-v3.png
   frontend_path: src/assets/terrain/grass-v3.png
   sha256: 065dbb4f83c8e8edb889f20cb7559950c83eb7b1f70e22389dcc116d9479a9f1
   source:
@@ -128,7 +128,7 @@ assets:
     path: src/assets/terrain/grass-v3.png
 - managementId: image.frontend.src.assets.terrain.meadow-backdrop-v2.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/meadow-backdrop/meadow-backdrop-v2.webp
+  path: assets/tiles/terrain/non-road/meadow-backdrop-v2.webp
   frontend_path: src/assets/terrain/meadow-backdrop-v2.webp
   sha256: f1eec0b07c1a9a14f199f7610be5b54468ee837fd6b92364ca3c491174ea29be
   source:
@@ -146,7 +146,7 @@ assets:
     path: src/assets/terrain/road-v3.webp
 - managementId: image.frontend.src.assets.terrain.water-v3.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/water/water-v3.png
+  path: assets/tiles/terrain/non-road/water-v3.png
   frontend_path: src/assets/terrain/water-v3.png
   sha256: 14294b9c0d4651fd0eff58e98013acc950fb073c43414b7b5985eecc169a7773
   source:
@@ -155,7 +155,7 @@ assets:
     path: src/assets/terrain/water-v3.png
 - managementId: image.frontend.src.assets.terrain.water-v3.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/water/water-v3.webp
+  path: assets/tiles/terrain/non-road/water-v3.webp
   frontend_path: src/assets/terrain/water-v3.webp
   sha256: fce409971bb0dd69502b306d6e9f5627a656ca44a4ccdaf75255daeac54c4f5b
   source:
@@ -218,7 +218,7 @@ assets:
     path: src/assets/world/isloon/buildings/marble-small-window-wall-v1.png
 - managementId: image.world.isloon.grass-mud-frame-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/grass/isloon/grass-mud-frame-v1.png
+  path: assets/tiles/terrain/non-road/grass-mud-frame-v1.png
   frontend_path: src/assets/world/isloon/terrain/grass-mud-frame-v1.png
   sha256: ddaa5af6d107e96b2f81df66f4f67dee98308e4d759a821759312ba5e96bf6dd
   source:
@@ -227,7 +227,7 @@ assets:
     path: src/assets/world/isloon/terrain/grass-mud-frame-v1.png
 - managementId: metadata.frontend.src.assets.world.isloon.terrain.grass-mud-frame-v1.source.json
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/grass/isloon/grass-mud-frame-v1.source.json
+  path: assets/tiles/terrain/non-road/grass-mud-frame-v1.source.json
   frontend_path: src/assets/world/isloon/terrain/grass-mud-frame-v1.source.json
   sha256: ddad4598230c16e24755a4af226404d136ccd126a9222401e30785454b2c2c64
   source:
@@ -236,7 +236,7 @@ assets:
     path: src/assets/world/isloon/terrain/grass-mud-frame-v1.source.json
 - managementId: image.frontend.src.assets.world.isloon.terrain.limestone-floor-type-a-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/limestone/isloon/limestone-floor-type-a-v1.png
+  path: assets/tiles/terrain/road/limestone-floor-type-a-v1.png
   frontend_path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.png
   sha256: b6bc4dce7a385cecbfa5db28949b560d8182e6c6fb7c74f3e4dac45f5ad17d87
   source:
@@ -245,7 +245,7 @@ assets:
     path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.png
 - managementId: metadata.frontend.src.assets.world.isloon.terrain.limestone-floor-type-a-v1.source.json
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/limestone/isloon/limestone-floor-type-a-v1.source.json
+  path: assets/tiles/terrain/road/limestone-floor-type-a-v1.source.json
   frontend_path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.source.json
   sha256: 10d5f6ee117da8af269e5d03d3f40870bfccfd3ba1df5a1d914e626c3749d93d
   source:
@@ -254,7 +254,7 @@ assets:
     path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.source.json
 - managementId: image.world.reedhaven.dirt-road-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/dirt/reedhaven/dirt-road-v1.png
+  path: assets/tiles/terrain/road/dirt-road-v1.png
   frontend_path: src/assets/world/reedhaven/terrain/dirt-road-v1.png
   sha256: 2fe0b1494ec0669db50ab2269bd1d01e7ffd11a295ceb9f45db95f481a00e3cf
   source:
@@ -335,7 +335,7 @@ assets:
     path: src/assets/world/stonewarm/buildings/stone-wall-v1.png
 - managementId: image.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/rock/stonewarm/exposed-rock-ground-v1.png
+  path: assets/tiles/terrain/non-road/exposed-rock-ground-v1.png
   frontend_path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.png
   sha256: 8ac13e1cadc74292ac9db958b480be15ec74de6a0da2d7774e6d782c5b7609ac
   source:
@@ -344,7 +344,7 @@ assets:
     path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.png
 - managementId: metadata.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.source.json
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/rock/stonewarm/exposed-rock-ground-v1.source.json
+  path: assets/tiles/terrain/non-road/exposed-rock-ground-v1.source.json
   frontend_path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.source.json
   sha256: 6a1d1d05a475ce038cbd161ea5ae5c0f98cf5307e40404faa3a4a6abd6621498
   source:
@@ -353,7 +353,7 @@ assets:
     path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.source.json
 - managementId: image.world.stonewarm.gravel-paving-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/gravel/stonewarm/gravel-paving-v1.png
+  path: assets/tiles/terrain/road/gravel-paving-v1.png
   frontend_path: src/assets/world/stonewarm/terrain/gravel-paving-v1.png
   sha256: 4bb194670b227d92da9ea0e6e0280e08279bb60abfac9594fc97cb3bd0e417d3
   source:
@@ -362,7 +362,7 @@ assets:
     path: src/assets/world/stonewarm/terrain/gravel-paving-v1.png
 - managementId: image.world.stonewarm.marble-paving-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/marble/stonewarm/marble-paving-v1.png
+  path: assets/tiles/terrain/road/marble-paving-v1.png
   frontend_path: src/assets/world/stonewarm/terrain/marble-paving-v1.png
   sha256: 98a707024ebd8518f0714c28dc38954f45fec16a3fb30a7b4b2d272f91764825
   source:
@@ -466,7 +466,7 @@ assets:
 - managementId: tile.terrain.road.packed-dirt
   version: '1'
   name: 돌이 섞인 단단한 흙도로 타일
-  path: assets/tiles/terrain/dirt/common/packed-dirt-road-v1.png
+  path: assets/tiles/terrain/road/packed-dirt-road-v1.png
   frontend_path: src/assets/terrain/roads/packed-dirt-road-v1.png
   sha256: 35d978fd6a7a535782198be475dd93dbea9c743a5256514ad9070914566fe844
   width: 419
@@ -482,7 +482,7 @@ assets:
 - managementId: tile.terrain.road.stone-slab
   version: '1'
   name: 균열있는 회색 석판도로 타일
-  path: assets/tiles/terrain/stone/common/stone-slab-road-v1.png
+  path: assets/tiles/terrain/road/stone-slab-road-v1.png
   sha256: 64aca1b4d6887ebb81ba3cc85e78d21b59d81de5b08708435ab2714c81a82205
   width: 451
   height: 454
@@ -784,7 +784,7 @@ assets:
     path: src/assets/characters/default/cutins/default-punch-v1.png
 - managementId: image.frontend.src.assets.terrain.grass-v4.png
   version: 427f2b1106970466b3a21688a26f5ba89859cfb6
-  path: assets/tiles/terrain/grass/grass-v4.png
+  path: assets/tiles/terrain/non-road/grass-v4.png
   frontend_path: src/assets/terrain/grass-v4.png
   sha256: d93edbf5ee109ba3d614ae0292135bd8722a4e15ecb637b5747759850afb093a
   source:
@@ -793,7 +793,7 @@ assets:
     path: src/assets/terrain/grass-v4.png
 - managementId: metadata.frontend.src.assets.terrain.grass-v4.source.json
   version: 427f2b1106970466b3a21688a26f5ba89859cfb6
-  path: assets/tiles/terrain/grass/grass-v4.source.json
+  path: assets/tiles/terrain/non-road/grass-v4.source.json
   frontend_path: src/assets/terrain/grass-v4.source.json
   sha256: 5e2c1e866f2245c0f6dccd75a76fb75675c118695bdea24222f989f4857b5a89
   source:
@@ -884,7 +884,7 @@ assets:
 - managementId: tile.terrain.road.brick
   version: '1'
   name: 황토 벽돌 도로 타일
-  path: assets/tiles/terrain/road/common/brick-road-v1.png
+  path: assets/tiles/terrain/road/brick-road-v1.png
   sha256: 240a3a87bed3bb32b4ce458356559b34193ed4cc25ee1d4afb03f64b5561b8d3
   width: 445
   height: 459

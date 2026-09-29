@@ -52,3 +52,7 @@
 ## Building Tile Material Organization
 - 문·지붕·벽 타일은 마을과 무관한 공용 에셋이며 `slime-assets/assets/tiles/buildings/<material>/`에서 관리한다. 마을별·common·door·roof·wall 하위 폴더를 만들지 않는다.
 - 재질은 `wood`, `stone`, `red-stone`, `marble` 등으로 구분한다. 마을·건물별 선택은 맵 설정에서 관리하며 같은 원본을 복제하지 않는다. 기존 관리 ID·버전·출처·SHA-256은 경로 이전 시 유지한다.
+
+## Terrain Tile Organization
+- 지형 타일은 `slime-assets/assets/tiles/terrain/road/`(도로)와 `slime-assets/assets/tiles/terrain/non-road/`(비도로)로 구분한다. 도로에는 흙길·벽돌길·석판·포장 타일을, 비도로에는 풀·물·노출 바위·절벽 등 나머지 지형을 둔다. 마을별 하위 경로는 만들지 않는다.
+- 경로 변경 시 등록부·잠금 목록·게임과 검수 참조를 함께 갱신하고 기존 ID·버전·출처·SHA-256을 유지한다.
