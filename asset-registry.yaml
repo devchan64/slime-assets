@@ -608,3 +608,18 @@ assets:
     processing: 암부 채널 차이 5 허용, 안쪽 경계 기준 1% 보더 크롭
     approval: 사용자 나무 벽 타일 통합 채택
   license: 별도 재사용 허가 미부여
+- managementId: tile.buildings.wall.wood-window
+  version: '1'
+  name: 하늘색 창문 포함 나무 벽 타일
+  path: assets/tiles/buildings/wall/common/wood-window-wall-v1.png
+  sha256: ca85feac1c1b9203ecb882a572600d4122b5f0f05cc1e945cab132bb4695509b
+  width: 464
+  height: 460
+  source:
+    repository: slime-workflow
+    generation_id: 2026-09-29_14-48-38-01b7d341
+    artifact: border-crop.png
+    model_id: Qwen/Qwen-Image-Edit-2511
+    processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
+    approval: 사용자 크롭 결과를 창문 포함 나무 벽 타일로 추가 승인
+  license: 별도 재사용 허가 미부여
