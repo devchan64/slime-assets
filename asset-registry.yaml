@@ -164,7 +164,7 @@ assets:
     path: src/assets/terrain/water-v3.webp
 - managementId: image.frontend.src.assets.world.isloon.buildings.marble-large-window-wall-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/isloon/marble-large-window-wall-v1.png
+  path: assets/tiles/buildings/marble/marble-large-window-wall-v1.png
   frontend_path: src/assets/world/isloon/buildings/marble-large-window-wall-v1.png
   sha256: cb74be69643edf7376117cf7370b39952833995fee9c39c3f143b7cfd7b685f3
   source:
@@ -173,7 +173,7 @@ assets:
     path: src/assets/world/isloon/buildings/marble-large-window-wall-v1.png
 - managementId: image.frontend.src.assets.world.isloon.buildings.marble-plain-wall-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/isloon/marble-plain-wall-v1.png
+  path: assets/tiles/buildings/marble/marble-plain-wall-v1.png
   frontend_path: src/assets/world/isloon/buildings/marble-plain-wall-v1.png
   sha256: f8319908753ad4ee8886478ca5c8a573e12c9102730143f164d498db40597fbe
   source:
@@ -182,7 +182,7 @@ assets:
     path: src/assets/world/isloon/buildings/marble-plain-wall-v1.png
 - managementId: image.world.isloon.marble-roof-v2
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/roof/isloon/marble-roof-v2.png
+  path: assets/tiles/buildings/marble/marble-roof-v2.png
   frontend_path: src/assets/world/isloon/buildings/marble-roof-v2.png
   sha256: 09b4864101575829f5b417d05e4994d07283f361b79ab2719f3c8cea0e1724cd
   source:
@@ -191,7 +191,7 @@ assets:
     path: src/assets/world/isloon/buildings/marble-roof-v2.png
 - managementId: metadata.frontend.src.assets.world.isloon.buildings.marble-roof-v2.source.json
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/roof/isloon/marble-roof-v2.source.json
+  path: assets/tiles/buildings/marble/marble-roof-v2.source.json
   frontend_path: src/assets/world/isloon/buildings/marble-roof-v2.source.json
   sha256: a279902bf505c872a5b50500d459c270c8f6648a218a7ad64a47d42b38397bd8
   source:
@@ -200,7 +200,7 @@ assets:
     path: src/assets/world/isloon/buildings/marble-roof-v2.source.json
 - managementId: image.frontend.src.assets.world.isloon.buildings.marble-small-door-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/door/isloon/marble-small-door-v1.png
+  path: assets/tiles/buildings/marble/marble-small-door-v1.png
   frontend_path: src/assets/world/isloon/buildings/marble-small-door-v1.png
   sha256: c2a3727f4d962eced1d0f7f35e681884328563a39ea7ccdc505a0457c98484e3
   source:
@@ -209,7 +209,7 @@ assets:
     path: src/assets/world/isloon/buildings/marble-small-door-v1.png
 - managementId: image.frontend.src.assets.world.isloon.buildings.marble-small-window-wall-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/isloon/marble-small-window-wall-v1.png
+  path: assets/tiles/buildings/marble/marble-small-window-wall-v1.png
   frontend_path: src/assets/world/isloon/buildings/marble-small-window-wall-v1.png
   sha256: 23cab9d740332678d9acb34a542705238b0122d68eb34fc5b8a04d6e3d4393da
   source:
@@ -263,7 +263,7 @@ assets:
     path: src/assets/world/reedhaven/terrain/dirt-road-v1.png
 - managementId: image.world.stonewarm.stone-door-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/door/stonewarm/stone-door-v1.png
+  path: assets/tiles/buildings/stone/stone-door-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-door-v1.png
   sha256: 8a43285d6c08f41d9e84707657551685571373fef5926185e75a4de98d9073c0
   source:
@@ -272,7 +272,7 @@ assets:
     path: src/assets/world/stonewarm/buildings/stone-door-v1.png
 - managementId: image.world.stonewarm.stone-large-window-wall-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/common/stone-large-window-wall-v1.png
+  path: assets/tiles/buildings/stone/stone-large-window-wall-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-large-window-wall-v1.png
   sha256: 888bf25ead962029cb0579ca1ebe44a5b97c85ce85c10a92a4cbefbeb0312585
   source:
@@ -281,7 +281,7 @@ assets:
     path: src/assets/world/stonewarm/buildings/stone-large-window-wall-v1.png
 - managementId: image.world.stonewarm.stone-roof-v1
   version: 567c84f26b880bce0558dcb4e38818eef757770c
-  path: assets/tiles/buildings/roof/stonewarm/stone-roof-v1.png
+  path: assets/tiles/buildings/stone/stone-roof-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-roof-v1.png
   sha256: b9df367699d24583b0e80f29bd048f63ae57ecb6da9a77b7b47330e603f02dff
   source:
@@ -290,7 +290,7 @@ assets:
     path: src/assets/world/stonewarm/buildings/stone-roof-v1.png
 - managementId: metadata.frontend.src.assets.world.stonewarm.buildings.stone-roof-v1.source.json
   version: 567c84f26b880bce0558dcb4e38818eef757770c
-  path: assets/tiles/buildings/roof/stonewarm/stone-roof-v1.source.json
+  path: assets/tiles/buildings/stone/stone-roof-v1.source.json
   frontend_path: src/assets/world/stonewarm/buildings/stone-roof-v1.source.json
   sha256: 4c55e3a846ef143a861595655a625170be1a8474c100a0577a8ea0cfb7ea9dd3
   source:
@@ -299,7 +299,7 @@ assets:
     path: src/assets/world/stonewarm/buildings/stone-roof-v1.source.json
 - managementId: image.world.stonewarm.stone-small-window-wall-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/common/stone-small-window-wall-v1.png
+  path: assets/tiles/buildings/stone/stone-small-window-wall-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-small-window-wall-v1.png
   sha256: 063c3ecf4c6d706553348e0dbccb4d58d7cadef0caaf761cfaf0a34d4e2c356f
   source:
@@ -308,7 +308,7 @@ assets:
     path: src/assets/world/stonewarm/buildings/stone-small-window-wall-v1.png
 - managementId: image.frontend.src.assets.world.stonewarm.buildings.stone-wall-crossbar-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/common/stone-wall-crossbar-v1.png
+  path: assets/tiles/buildings/stone/stone-wall-crossbar-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.png
   sha256: b3da143fbed722dbb134cd1953255bf7cfa88444042a99e37e0b80e6c7dd8ce4
   source:
@@ -317,7 +317,7 @@ assets:
     path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.png
 - managementId: metadata.frontend.src.assets.world.stonewarm.buildings.stone-wall-crossbar-v1.source.json
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/common/stone-wall-crossbar-v1.source.json
+  path: assets/tiles/buildings/stone/stone-wall-crossbar-v1.source.json
   frontend_path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.source.json
   sha256: 9de6f11146ce4e2bc6ca06db21009bfe8e578148cc3025922995f661b608a122
   source:
@@ -326,7 +326,7 @@ assets:
     path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.source.json
 - managementId: image.world.stonewarm.stone-wall-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/wall/common/stone-wall-v1.png
+  path: assets/tiles/buildings/stone/stone-wall-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-wall-v1.png
   sha256: 699f4e740cf388cd4c786bb60531799e961473b53c946081c078a79866436aaa
   source:
@@ -372,7 +372,7 @@ assets:
 - managementId: tile.buildings.roof.red-stone
   version: '2'
   name: 붉은 석재 지붕 타일
-  path: assets/tiles/buildings/roof/common/red-stone-roof-v2.png
+  path: assets/tiles/buildings/red-stone/red-stone-roof-v2.png
   sha256: 44e70c213ff5b69af96035971f9033856473a01832d688f9d341e5d620b9ffe3
   width: 512
   height: 512
@@ -388,7 +388,7 @@ assets:
 - managementId: tile.buildings.wall.wood
   version: '2'
   name: 통나무 수평 배열 벽 타일
-  path: assets/tiles/buildings/wall/common/wood-wall-v2.png
+  path: assets/tiles/buildings/wood/wood-wall-v2.png
   frontend_path: src/assets/world/common/buildings/wood-wall-v2.png
   sha256: a769af976e198aa8f1d07429e52d8beb7bb328dbce6e8f59f22c8892c5c5eee9
   width: 464
@@ -404,7 +404,7 @@ assets:
 - managementId: tile.buildings.wall.wood-window
   version: '1'
   name: 하늘색 창문 포함 나무 벽 타일
-  path: assets/tiles/buildings/wall/common/wood-window-wall-v1.png
+  path: assets/tiles/buildings/wood/wood-window-wall-v1.png
   sha256: ca85feac1c1b9203ecb882a572600d4122b5f0f05cc1e945cab132bb4695509b
   width: 464
   height: 460
@@ -419,7 +419,7 @@ assets:
 - managementId: tile.buildings.wall.wood-door
   version: '1'
   name: 빨간 아치형 대문 포함 나무 벽 타일
-  path: assets/tiles/buildings/wall/common/wood-door-wall-v1.png
+  path: assets/tiles/buildings/wood/wood-door-wall-v1.png
   frontend_path: src/assets/world/common/buildings/wood-door-wall-v1.png
   sha256: d0fbf17c5f6f1d6af32196476d270af469907df638c829adbb76467a2f5bc37f
   width: 464
@@ -435,7 +435,7 @@ assets:
 - managementId: tile.buildings.wall.wood-crossbar
   version: '1'
   name: X자 보강대 나무 벽 타일
-  path: assets/tiles/buildings/wall/common/wood-crossbar-wall-v1.png
+  path: assets/tiles/buildings/wood/wood-crossbar-wall-v1.png
   sha256: 7766b27f8e82f2f708afa420efa1a6dcf45c7840002d6d473b327ef3abfb0808
   width: 464
   height: 459
@@ -450,7 +450,7 @@ assets:
 - managementId: tile.buildings.roof.wood
   version: '3'
   name: 통나무 수직 배열 나무 지붕 타일
-  path: assets/tiles/buildings/roof/common/wood-roof-v3.png
+  path: assets/tiles/buildings/wood/wood-roof-v3.png
   frontend_path: src/assets/world/common/buildings/wood-roof-v3.png
   sha256: dad396783aeeff901983aa7963877ac81f2dc535173221bc9f0a3109d983c5a3
   width: 441

@@ -48,3 +48,7 @@
 - 에셋 원본은 인접 `slime-assets/assets/`를 직접 참조한다. 프론트엔드의 `src/assets/`·`assets/` 전달 사본은 폐기한다. 위 전달 사본 규칙보다 이 규칙이 우선한다.
 - 잠금 목록의 `path`는 논리 식별 경로이며 `source_path`와 SHA-256으로 원본을 검증한다. 준비 명령은 사본을 생성하지 않는다. UI 이미지·라벨·컷인 설정도 `assets/ui/`에서 관리하며 `ui-assets.lock.yaml`로 검증한다.
 - Vite 개발 서버는 원본을 제공하고 배포 빌드는 해시 파일명으로 정적 파일을 번들링한다. 배포 후에는 로컬 저장소 경로에 의존하지 않는다.
+
+## Building Tile Material Organization
+- 문·지붕·벽 타일은 마을과 무관한 공용 에셋이며 `slime-assets/assets/tiles/buildings/<material>/`에서 관리한다. 마을별·common·door·roof·wall 하위 폴더를 만들지 않는다.
+- 재질은 `wood`, `stone`, `red-stone`, `marble` 등으로 구분한다. 마을·건물별 선택은 맵 설정에서 관리하며 같은 원본을 복제하지 않는다. 기존 관리 ID·버전·출처·SHA-256은 경로 이전 시 유지한다.
