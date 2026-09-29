@@ -755,60 +755,6 @@ assets:
     repository: slime-frontend
     commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
     path: src/assets/characters/default/walk-v2/walk-v2.png
-- managementId: image.frontend.src.assets.monsters.beast-v1.png
-  version: 43b20a24357c0ce848861eedd951e23a2a39ec34
-  path: assets/sprites/monsters/beast-v1.png
-  frontend_path: src/assets/monsters/beast-v1.png
-  sha256: 46078340c8fea1dd9484ddd3076c711dab2069de65fffc0f6c5f68172b87685a
-  source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/monsters/beast-v1.png
-- managementId: image.frontend.src.assets.monsters.beast-v2.png
-  version: 43b20a24357c0ce848861eedd951e23a2a39ec34
-  path: assets/sprites/monsters/beast-v2.png
-  frontend_path: src/assets/monsters/beast-v2.png
-  sha256: 6618dbce79207151788890b734d8f24b1e7049104a36ae24d81e6f0e05f3fc77
-  source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/monsters/beast-v2.png
-- managementId: image.frontend.src.assets.monsters.giant-v1.png
-  version: 43b20a24357c0ce848861eedd951e23a2a39ec34
-  path: assets/sprites/monsters/giant-v1.png
-  frontend_path: src/assets/monsters/giant-v1.png
-  sha256: 465eb1d7118a845fbac5878b5b76f4f25a6f17378d374aafcf3bea4367ffbf76
-  source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/monsters/giant-v1.png
-- managementId: image.frontend.src.assets.monsters.giant-v2.png
-  version: 43b20a24357c0ce848861eedd951e23a2a39ec34
-  path: assets/sprites/monsters/giant-v2.png
-  frontend_path: src/assets/monsters/giant-v2.png
-  sha256: 66c47c7b7277fab18deeeb8ca936dcb2bade922ecb01f7e14ad321f0baabcd2d
-  source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/monsters/giant-v2.png
-- managementId: image.frontend.src.assets.monsters.slime-v1.png
-  version: 43b20a24357c0ce848861eedd951e23a2a39ec34
-  path: assets/sprites/monsters/slime-v1.png
-  frontend_path: src/assets/monsters/slime-v1.png
-  sha256: 72f43e70f383dc69910a1b7699a2d668e90b1e9bdb5207e006a800aa967b5b8e
-  source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/monsters/slime-v1.png
-- managementId: image.frontend.src.assets.monsters.slime-v2.png
-  version: 43b20a24357c0ce848861eedd951e23a2a39ec34
-  path: assets/sprites/monsters/slime-v2.png
-  frontend_path: src/assets/monsters/slime-v2.png
-  sha256: af9b83f3928a61b701f1e8059a6aaaa1c93d5529ce51d96b7438c32ec1486e69
-  source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/monsters/slime-v2.png
 - managementId: sprite.metadata.monsters.standing-v1.ash-fox-idle-v1.animation.json
   version: 43b20a24357c0ce848861eedd951e23a2a39ec34
   path: assets/sprites/monsters/standing-v1/ash-fox-idle-v1.animation.json
@@ -998,3 +944,21 @@ assets:
     repository: slime-frontend
     commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
     path: src/assets/monsters/standing-v1/stone-crab-idle-v1.png
+- managementId: image.frontend.src.assets.structures.ward-tower-v1.png
+  version: 4ff4bd45163ad19c06169603757b108aa25a5302
+  path: assets/sprites/structures/ward-tower-v1.png
+  frontend_path: src/assets/structures/ward-tower-v1.png
+  sha256: 9a9dbe7e9184c0d8fd53f07e0f5cfd04bef87b0893f623b458effa0f557a6d03
+  source:
+    repository: slime-frontend
+    commit: 4ff4bd45163ad19c06169603757b108aa25a5302
+    path: src/assets/structures/ward-tower-v1.png
+- managementId: image.frontend.src.assets.cutins.characters.default-punch-v1.png
+  version: 5ae07ea2f4b69c1a7376967d8dea450f72569936
+  path: assets/sprites/characters/default/cutins/default-punch-v1.png
+  frontend_path: src/assets/characters/default/cutins/default-punch-v1.png
+  sha256: 1439db1d819c579cd065c79d9b3da41d9439f280f5a4be27c437fbffc51a45b9
+  source:
+    repository: slime-frontend
+    commit: 5ae07ea2f4b69c1a7376967d8dea450f72569936
+    path: src/assets/characters/default/cutins/default-punch-v1.png
