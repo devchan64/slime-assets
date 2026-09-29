@@ -1,2 +1,812 @@
 schema_version: 1
-assets: []
+assets:
+- managementId: image.frontend.src.assets.terrain.cliffs.dew-meadow-cliff-face-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/cliff/dew-meadow-cliff-face-v1.png
+  frontend_path: src/assets/terrain/cliffs/dew-meadow-cliff-face-v1.png
+  sha256: c3067751642888ccfb8fe8c7ce014107b6ea9fe29f7226a64f4ed1c34b610fb5
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/cliffs/dew-meadow-cliff-face-v1.png
+- managementId: image.frontend.src.assets.terrain.dew-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/dew/dew-v2.png
+  frontend_path: src/assets/terrain/dew-v2.png
+  sha256: 930f4600cd65dc1514db19c7f246751147e159cc54d76d076f4f3d41b9b845a3
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/dew-v2.png
+- managementId: image.frontend.src.assets.terrain.dew-v3.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/dew/dew-v3.png
+  frontend_path: src/assets/terrain/dew-v3.png
+  sha256: a070c8d2ef6fd33a97daaa21ef2ae01f1d4a4d05018301a7d5b08e44aab245e4
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/dew-v3.png
+- managementId: image.frontend.src.assets.terrain.dew-v3.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/dew/dew-v3.webp
+  frontend_path: src/assets/terrain/dew-v3.webp
+  sha256: c42b470ce3952cc8315bce3838244c0bc16698b5d9269377e373e226eff2ad8d
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/dew-v3.webp
+- managementId: image.frontend.src.assets.terrain.dew.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/dew/dew.webp
+  frontend_path: src/assets/terrain/dew.webp
+  sha256: 1dbfb228363148e68f867c72f4afe2ee18e526615ecfe1fe680c46fa1c7ac21b
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/dew.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.ash-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/ash/ash-128.webp
+  frontend_path: src/assets/terrain/extension-v1/ash-128.webp
+  sha256: 74822b6dd6afaf2868848a97942480a50e1c3e6d82ca3864c779986ff5048014
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/ash-128.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.boulder-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/boulder/boulder-128.webp
+  frontend_path: src/assets/terrain/extension-v1/boulder-128.webp
+  sha256: 65f74c4a6786f7fab068b4ba6980a9d0cedde987ccd149ec36d92a8fc4c44922
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/boulder-128.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.gravel-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/gravel/gravel-128.webp
+  frontend_path: src/assets/terrain/extension-v1/gravel-128.webp
+  sha256: 3c824aa396055e32e3c68d38229c7958503e0e74fbee2bd7e11c1253a4002e67
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/gravel-128.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.leaf-litter-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/leaf-litter/leaf-litter-128.webp
+  frontend_path: src/assets/terrain/extension-v1/leaf-litter-128.webp
+  sha256: a913de242e99c33cd02bf98d4475cd5945af89cdd78ce305f55369f5fadb9e29
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/leaf-litter-128.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.moss-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/moss/moss-128.webp
+  frontend_path: src/assets/terrain/extension-v1/moss-128.webp
+  sha256: a263a08cdb2b04da4afff93653253a6f9e3b7df4be15924d7a940800c6c3b9ec
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/moss-128.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.mud-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/mud/mud-128.webp
+  frontend_path: src/assets/terrain/extension-v1/mud-128.webp
+  sha256: af9d22e904510854a8a598213067bf69fddf7d98254843973c81b5f173a12aed
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/mud-128.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.paving-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/paving/paving-128.webp
+  frontend_path: src/assets/terrain/extension-v1/paving-128.webp
+  sha256: 387a8c8cf72168a0f20f5fffd3ff3ca78c82edebc3b17afb40f01fb7a5d6d873
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/paving-128.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.reed-bed-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/reed-bed/reed-bed-128.webp
+  frontend_path: src/assets/terrain/extension-v1/reed-bed-128.webp
+  sha256: e3403694372c352877c21d1f240d3b31e0c785179959a5168665513f7f944cd4
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/reed-bed-128.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.stone-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/stone/stone-128.webp
+  frontend_path: src/assets/terrain/extension-v1/stone-128.webp
+  sha256: 99636cb984decb0f25952676cd0a7f5f19f460f1715d8256c0c70c83d761760b
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/stone-128.webp
+- managementId: image.frontend.src.assets.terrain.extension-v1.tree-base-128.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/tree-base/tree-base-128.webp
+  frontend_path: src/assets/terrain/extension-v1/tree-base-128.webp
+  sha256: bc87125e869290fa2cdb035431a62860faa5e203721d228babc589dfa91897d0
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/extension-v1/tree-base-128.webp
+- managementId: image.frontend.src.assets.terrain.flowers-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/flowers/flowers-v2.png
+  frontend_path: src/assets/terrain/flowers-v2.png
+  sha256: 0f7743029f7bf680af8ba264873587b5f5c1a83b712ce6729861b7ad7df609cd
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/flowers-v2.png
+- managementId: image.frontend.src.assets.terrain.flowers-v2.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/flowers/flowers-v2.webp
+  frontend_path: src/assets/terrain/flowers-v2.webp
+  sha256: be15e06d9d9ba4896bf53b7e2fbd99aad359381cd3b2d274d3435b74cf299cad
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/flowers-v2.webp
+- managementId: image.frontend.src.assets.terrain.flowers-v3.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/flowers/flowers-v3.png
+  frontend_path: src/assets/terrain/flowers-v3.png
+  sha256: 20df9098136a8b652d6802093544d0e0096f841880328d566ee68b35f52afb77
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/flowers-v3.png
+- managementId: image.frontend.src.assets.terrain.flowers-v3.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/flowers/flowers-v3.webp
+  frontend_path: src/assets/terrain/flowers-v3.webp
+  sha256: 80f38fead4691177825ed98ac75b12b0e271bcf7d21b9ec832dd23f8dcb96570
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/flowers-v3.webp
+- managementId: image.frontend.src.assets.terrain.flowers.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/flowers/flowers.webp
+  frontend_path: src/assets/terrain/flowers.webp
+  sha256: f5c415a6fe2f4e44e6560b28fd2b34720bd49d72b732b2fbbe81dc8e60112c6b
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/flowers.webp
+- managementId: image.frontend.src.assets.terrain.grass-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/grass/grass-v2.png
+  frontend_path: src/assets/terrain/grass-v2.png
+  sha256: 933dbea30e41d35c5f70ecd46d6205f849fd2bd5e0b3c0d9ff8ebbdad315322b
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/grass-v2.png
+- managementId: image.frontend.src.assets.terrain.grass-v2.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/grass/grass-v2.webp
+  frontend_path: src/assets/terrain/grass-v2.webp
+  sha256: df51be08ccd1bc23cd47bf653fa0c64f64b59304e1c27fc78c7416858be2a667
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/grass-v2.webp
+- managementId: image.frontend.src.assets.terrain.grass-v3.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/grass/grass-v3.png
+  frontend_path: src/assets/terrain/grass-v3.png
+  sha256: 065dbb4f83c8e8edb889f20cb7559950c83eb7b1f70e22389dcc116d9479a9f1
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/grass-v3.png
+- managementId: image.frontend.src.assets.terrain.grass-v3.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/grass/grass-v3.webp
+  frontend_path: src/assets/terrain/grass-v3.webp
+  sha256: d401339efc14de24615bdbc024146f0674c0564edb974b45098819d59c577aef
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/grass-v3.webp
+- managementId: image.frontend.src.assets.terrain.grass.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/grass/grass.webp
+  frontend_path: src/assets/terrain/grass.webp
+  sha256: 38a22220b5765002507805ccdf1e95cc0eac7ce529cdd0ad0b2f491b075fa2e2
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/grass.webp
+- managementId: image.frontend.src.assets.terrain.meadow-backdrop-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/meadow-backdrop/meadow-backdrop-v2.png
+  frontend_path: src/assets/terrain/meadow-backdrop-v2.png
+  sha256: e0636eb0aa9a75459696ca5960eebfc484ecbc1acc2496a76fa5a766385e7a30
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/meadow-backdrop-v2.png
+- managementId: image.frontend.src.assets.terrain.meadow-backdrop-v2.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/meadow-backdrop/meadow-backdrop-v2.webp
+  frontend_path: src/assets/terrain/meadow-backdrop-v2.webp
+  sha256: f1eec0b07c1a9a14f199f7610be5b54468ee837fd6b92364ca3c491174ea29be
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/meadow-backdrop-v2.webp
+- managementId: image.frontend.src.assets.terrain.meadow-backdrop.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/meadow-backdrop/meadow-backdrop.webp
+  frontend_path: src/assets/terrain/meadow-backdrop.webp
+  sha256: 1c4d942d5c62685797714017d84ca8ba8e03a9b5d351b0dded2e0b86dd32b6ad
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/meadow-backdrop.webp
+- managementId: image.frontend.src.assets.terrain.road-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/road/road-v2.png
+  frontend_path: src/assets/terrain/road-v2.png
+  sha256: 575b58635c02183f3fb58829beb30464ac5785434d68778d7a4cb922ebd3dbdc
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/road-v2.png
+- managementId: image.frontend.src.assets.terrain.road-v2.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/road/road-v2.webp
+  frontend_path: src/assets/terrain/road-v2.webp
+  sha256: c37f81ca9d3b591d98a32126bf8041f7433f2a10f290cbb5a4ba2fd40dff5d7d
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/road-v2.webp
+- managementId: image.frontend.src.assets.terrain.road-v3.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/road/road-v3.png
+  frontend_path: src/assets/terrain/road-v3.png
+  sha256: 53b952e05dc9f173203c32c0a8e3839290bc93f2650c321c71a9becf6b47a5ed
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/road-v3.png
+- managementId: image.frontend.src.assets.terrain.road-v3.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/road/road-v3.webp
+  frontend_path: src/assets/terrain/road-v3.webp
+  sha256: d3d5a4f50b68c03a767417aba89349867655069f509fb7acef6f031cfe9e125a
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/road-v3.webp
+- managementId: image.frontend.src.assets.terrain.road.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/road/road.webp
+  frontend_path: src/assets/terrain/road.webp
+  sha256: 3e7ba013654fb546fa068997ad2f9116741b955e6cf21d23bdf52e8db23f2167
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/road.webp
+- managementId: image.frontend.src.assets.terrain.water-v2.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/water/water-v2.webp
+  frontend_path: src/assets/terrain/water-v2.webp
+  sha256: 6f63acb862aa80dded8708afd0dfc6b03676e0dd7364f7898f4c18c8748052fd
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/water-v2.webp
+- managementId: image.frontend.src.assets.terrain.water-v3.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/water/water-v3.png
+  frontend_path: src/assets/terrain/water-v3.png
+  sha256: 14294b9c0d4651fd0eff58e98013acc950fb073c43414b7b5985eecc169a7773
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/water-v3.png
+- managementId: image.frontend.src.assets.terrain.water-v3.webp
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/water/water-v3.webp
+  frontend_path: src/assets/terrain/water-v3.webp
+  sha256: fce409971bb0dd69502b306d6e9f5627a656ca44a4ccdaf75255daeac54c4f5b
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/terrain/water-v3.webp
+- managementId: image.frontend.src.assets.world.isloon.buildings.bookshop-door-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/door/isloon/bookshop-door-v2.png
+  frontend_path: src/assets/world/isloon/buildings/bookshop-door-v2.png
+  sha256: aff0862f369b6e4a5c29a099790775870706daf50a0248a1ed20505fc64eec8b
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/bookshop-door-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.bookshop-roof-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/bookshop-roof-v2.png
+  frontend_path: src/assets/world/isloon/buildings/bookshop-roof-v2.png
+  sha256: 65032fbce5ff49b5661a05dc4520d6fa23913b66b0ea1c132d1c623e74608f58
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/bookshop-roof-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.bookshop-wall-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/bookshop-wall-v2.png
+  frontend_path: src/assets/world/isloon/buildings/bookshop-wall-v2.png
+  sha256: 79f92f59d9c884092b53780ddccfb9e485342c39cd881b50c74be42b94d53c92
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/bookshop-wall-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.guild-door-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/door/isloon/guild-door-v2.png
+  frontend_path: src/assets/world/isloon/buildings/guild-door-v2.png
+  sha256: 3982302253b406c84086b3c8b2f2a47331d428bd7eed4f5dd14d2cf48330d5e6
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/guild-door-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.guild-roof-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/guild-roof-v2.png
+  frontend_path: src/assets/world/isloon/buildings/guild-roof-v2.png
+  sha256: adc545d5df55b133d8a7c29405baa81e028b6a4737db2646953694dc6ec1b9cb
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/guild-roof-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.guild-wall-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/guild-wall-v2.png
+  frontend_path: src/assets/world/isloon/buildings/guild-wall-v2.png
+  sha256: f84456256099a92fb18f833a7957b487d5b9581b9716a228d08c50a00ca9400d
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/guild-wall-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.inn-door-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/door/isloon/inn-door-v2.png
+  frontend_path: src/assets/world/isloon/buildings/inn-door-v2.png
+  sha256: c87c70995d220a20257078816b401478c33a26ec891c0273af2c7b51502ce8a7
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/inn-door-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.inn-roof-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/inn-roof-v2.png
+  frontend_path: src/assets/world/isloon/buildings/inn-roof-v2.png
+  sha256: e9e22401354c4954cb7e9e979f89eb6ee826b78b6ba94a8f3d11498d75b3dbba
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/inn-roof-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.inn-wall-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/inn-wall-v2.png
+  frontend_path: src/assets/world/isloon/buildings/inn-wall-v2.png
+  sha256: f91b5ed91d124a1e9f297cb4370e19c6a42565a04a026b8a9071aa5667f0596a
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/inn-wall-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.marble-large-window-wall-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/marble-large-window-wall-v1.png
+  frontend_path: src/assets/world/isloon/buildings/marble-large-window-wall-v1.png
+  sha256: cb74be69643edf7376117cf7370b39952833995fee9c39c3f143b7cfd7b685f3
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/marble-large-window-wall-v1.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.marble-plain-wall-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/marble-plain-wall-v1.png
+  frontend_path: src/assets/world/isloon/buildings/marble-plain-wall-v1.png
+  sha256: f8319908753ad4ee8886478ca5c8a573e12c9102730143f164d498db40597fbe
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/marble-plain-wall-v1.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.marble-roof-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/marble-roof-v1.png
+  frontend_path: src/assets/world/isloon/buildings/marble-roof-v1.png
+  sha256: 5bae0bbd49d980768bbbfdf0b6088d635c9ad6c28d8178bc6c80eb4777469a6b
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/marble-roof-v1.png
+- managementId: image.world.isloon.marble-roof-v2
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/marble-roof-v2.png
+  frontend_path: src/assets/world/isloon/buildings/marble-roof-v2.png
+  sha256: 09b4864101575829f5b417d05e4994d07283f361b79ab2719f3c8cea0e1724cd
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/marble-roof-v2.png
+- managementId: metadata.frontend.src.assets.world.isloon.buildings.marble-roof-v2.source.json
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/marble-roof-v2.source.json
+  frontend_path: src/assets/world/isloon/buildings/marble-roof-v2.source.json
+  sha256: a279902bf505c872a5b50500d459c270c8f6648a218a7ad64a47d42b38397bd8
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/marble-roof-v2.source.json
+- managementId: image.frontend.src.assets.world.isloon.buildings.marble-small-door-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/door/isloon/marble-small-door-v1.png
+  frontend_path: src/assets/world/isloon/buildings/marble-small-door-v1.png
+  sha256: c2a3727f4d962eced1d0f7f35e681884328563a39ea7ccdc505a0457c98484e3
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/marble-small-door-v1.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.marble-small-window-wall-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/marble-small-window-wall-v1.png
+  frontend_path: src/assets/world/isloon/buildings/marble-small-window-wall-v1.png
+  sha256: 23cab9d740332678d9acb34a542705238b0122d68eb34fc5b8a04d6e3d4393da
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/marble-small-window-wall-v1.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.market-door-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/door/isloon/market-door-v2.png
+  frontend_path: src/assets/world/isloon/buildings/market-door-v2.png
+  sha256: 9792b16df4dd7c99caba5a250dbb8b3e81f42e8bf247e6a322724590fbdecf83
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/market-door-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.market-roof-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/market-roof-v2.png
+  frontend_path: src/assets/world/isloon/buildings/market-roof-v2.png
+  sha256: 6a72e98e2b9f3c45fa1d83f02798215666604c844ee6210fc18567ca4cfd3aff
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/market-roof-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.market-wall-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/market-wall-v2.png
+  frontend_path: src/assets/world/isloon/buildings/market-wall-v2.png
+  sha256: 69c8f5e23bf8645a084df5e7ecef9b00d39c8d678f0ac89138a05008ead2fa2d
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/market-wall-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.roof-timber-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/roof-timber-v1.png
+  frontend_path: src/assets/world/isloon/buildings/roof-timber-v1.png
+  sha256: c2847c1deaf09473683f4ff94d0b4a30b476562cee934a76b09094559b4f2264
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/roof-timber-v1.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.wall-timber-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/wall-timber-v1.png
+  frontend_path: src/assets/world/isloon/buildings/wall-timber-v1.png
+  sha256: 45d0cb1bf6abd505fb8c6d7e0ce3e501c99c02f19e86393d8b5c20779b3b0476
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wall-timber-v1.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.wood-door-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/door/isloon/wood-door-v1.png
+  frontend_path: src/assets/world/isloon/buildings/wood-door-v1.png
+  sha256: 41e19d3ca4b5c202649323baa918f19bbea14b23aa042c06abdb00b6330c6857
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-door-v1.png
+- managementId: metadata.frontend.src.assets.world.isloon.buildings.wood-door-v1.source.json
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/door/isloon/wood-door-v1.source.json
+  frontend_path: src/assets/world/isloon/buildings/wood-door-v1.source.json
+  sha256: 1d2751d7f06b08c514d96d5cef5e335e4b6332db277494382ec5a36062bcad47
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-door-v1.source.json
+- managementId: image.frontend.src.assets.world.isloon.buildings.wood-large-window-wall-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/wood-large-window-wall-v1.png
+  frontend_path: src/assets/world/isloon/buildings/wood-large-window-wall-v1.png
+  sha256: 1b30db90893f4504bbca06e0f9c729992e0967acf3f54766a0a382c19e0918cb
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-large-window-wall-v1.png
+- managementId: image.world.isloon.wood-plain-wall-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/wood-plain-wall-v1.png
+  frontend_path: src/assets/world/isloon/buildings/wood-plain-wall-v1.png
+  sha256: 52a9d30122b823392d571f5d18a9602ce6ae6bcf2b80760dbd27c8a2b6cca706
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-plain-wall-v1.png
+- managementId: metadata.frontend.src.assets.world.isloon.buildings.wood-plain-wall-v1.source.json
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/wood-plain-wall-v1.source.json
+  frontend_path: src/assets/world/isloon/buildings/wood-plain-wall-v1.source.json
+  sha256: 42236e583c91b89513ea637634c2517fcac515a5ea3e37fcea8cac73b59242a9
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-plain-wall-v1.source.json
+- managementId: image.frontend.src.assets.world.isloon.buildings.wood-roof-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/wood-roof-v1.png
+  frontend_path: src/assets/world/isloon/buildings/wood-roof-v1.png
+  sha256: 38ef6614ae9d3fe63b58fb006e5c7576797f2dd16570f0c4e03ba89df8322f08
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-roof-v1.png
+- managementId: image.world.isloon.wood-roof-v2
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/wood-roof-v2.png
+  frontend_path: src/assets/world/isloon/buildings/wood-roof-v2.png
+  sha256: 6ec06223c826e1e82a887a19dc745abeceac984382eab98cf0149cd3dd8f44b8
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-roof-v2.png
+- managementId: metadata.frontend.src.assets.world.isloon.buildings.wood-roof-v2.source.json
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/wood-roof-v2.source.json
+  frontend_path: src/assets/world/isloon/buildings/wood-roof-v2.source.json
+  sha256: 57962016b33fa33a5865a0f5a48215c8615a49eb06f3bfa5e95028fb1d5b517a
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-roof-v2.source.json
+- managementId: image.frontend.src.assets.world.isloon.buildings.wood-small-window-wall-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/wood-small-window-wall-v1.png
+  frontend_path: src/assets/world/isloon/buildings/wood-small-window-wall-v1.png
+  sha256: a0adadb8ee1eb3a84cefdf60b4b86a7cc679632d38698169d2e55ee2af6232ac
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-small-window-wall-v1.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.wood-wall-crossbar-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/wood-wall-crossbar-v1.png
+  frontend_path: src/assets/world/isloon/buildings/wood-wall-crossbar-v1.png
+  sha256: 70bf751e370585a34143dd9ac774932be56cfacec23896c39da50d3b536c4dab
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-wall-crossbar-v1.png
+- managementId: metadata.frontend.src.assets.world.isloon.buildings.wood-wall-crossbar-v1.source.json
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/wood-wall-crossbar-v1.source.json
+  frontend_path: src/assets/world/isloon/buildings/wood-wall-crossbar-v1.source.json
+  sha256: 4f7525613e571a3383bb8e701525429e8e9527ed157c3f7b5ae536dbb167c554
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/wood-wall-crossbar-v1.source.json
+- managementId: image.frontend.src.assets.world.isloon.buildings.workshop-door-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/door/isloon/workshop-door-v2.png
+  frontend_path: src/assets/world/isloon/buildings/workshop-door-v2.png
+  sha256: 31e884f90e67d4b48f406b5d52195c0161a21a83f18d83ce50c42f56c1473946
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/workshop-door-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.workshop-roof-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/roof/isloon/workshop-roof-v2.png
+  frontend_path: src/assets/world/isloon/buildings/workshop-roof-v2.png
+  sha256: 44998ef4dacb3edea7944c3c990ad447a20c9fec4f0d613e0220c80ad0f9f9d0
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/workshop-roof-v2.png
+- managementId: image.frontend.src.assets.world.isloon.buildings.workshop-wall-v2.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/isloon/workshop-wall-v2.png
+  frontend_path: src/assets/world/isloon/buildings/workshop-wall-v2.png
+  sha256: 164fd6208c222f6de09f2894c1f36c384aa2881a957e3711ec85b53f3ed6e319
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/buildings/workshop-wall-v2.png
+- managementId: image.world.isloon.grass-mud-frame-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/grass/isloon/grass-mud-frame-v1.png
+  frontend_path: src/assets/world/isloon/terrain/grass-mud-frame-v1.png
+  sha256: ddaa5af6d107e96b2f81df66f4f67dee98308e4d759a821759312ba5e96bf6dd
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/terrain/grass-mud-frame-v1.png
+- managementId: metadata.frontend.src.assets.world.isloon.terrain.grass-mud-frame-v1.source.json
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/grass/isloon/grass-mud-frame-v1.source.json
+  frontend_path: src/assets/world/isloon/terrain/grass-mud-frame-v1.source.json
+  sha256: ddad4598230c16e24755a4af226404d136ccd126a9222401e30785454b2c2c64
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/terrain/grass-mud-frame-v1.source.json
+- managementId: image.frontend.src.assets.world.isloon.terrain.limestone-floor-type-a-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/limestone/isloon/limestone-floor-type-a-v1.png
+  frontend_path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.png
+  sha256: b6bc4dce7a385cecbfa5db28949b560d8182e6c6fb7c74f3e4dac45f5ad17d87
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.png
+- managementId: metadata.frontend.src.assets.world.isloon.terrain.limestone-floor-type-a-v1.source.json
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/limestone/isloon/limestone-floor-type-a-v1.source.json
+  frontend_path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.source.json
+  sha256: 10d5f6ee117da8af269e5d03d3f40870bfccfd3ba1df5a1d914e626c3749d93d
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.source.json
+- managementId: image.world.reedhaven.dirt-road-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/dirt/reedhaven/dirt-road-v1.png
+  frontend_path: src/assets/world/reedhaven/terrain/dirt-road-v1.png
+  sha256: 2fe0b1494ec0669db50ab2269bd1d01e7ffd11a295ceb9f45db95f481a00e3cf
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/reedhaven/terrain/dirt-road-v1.png
+- managementId: image.world.stonewarm.stone-door-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/door/stonewarm/stone-door-v1.png
+  frontend_path: src/assets/world/stonewarm/buildings/stone-door-v1.png
+  sha256: 8a43285d6c08f41d9e84707657551685571373fef5926185e75a4de98d9073c0
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/buildings/stone-door-v1.png
+- managementId: image.world.stonewarm.stone-large-window-wall-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/stonewarm/stone-large-window-wall-v1.png
+  frontend_path: src/assets/world/stonewarm/buildings/stone-large-window-wall-v1.png
+  sha256: 888bf25ead962029cb0579ca1ebe44a5b97c85ce85c10a92a4cbefbeb0312585
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/buildings/stone-large-window-wall-v1.png
+- managementId: image.world.stonewarm.stone-roof-v1
+  version: 567c84f26b880bce0558dcb4e38818eef757770c
+  path: assets/tiles/buildings/roof/stonewarm/stone-roof-v1.png
+  frontend_path: src/assets/world/stonewarm/buildings/stone-roof-v1.png
+  sha256: b9df367699d24583b0e80f29bd048f63ae57ecb6da9a77b7b47330e603f02dff
+  source:
+    repository: slime-frontend
+    commit: 567c84f26b880bce0558dcb4e38818eef757770c
+    path: src/assets/world/stonewarm/buildings/stone-roof-v1.png
+- managementId: metadata.frontend.src.assets.world.stonewarm.buildings.stone-roof-v1.source.json
+  version: 567c84f26b880bce0558dcb4e38818eef757770c
+  path: assets/tiles/buildings/roof/stonewarm/stone-roof-v1.source.json
+  frontend_path: src/assets/world/stonewarm/buildings/stone-roof-v1.source.json
+  sha256: 4c55e3a846ef143a861595655a625170be1a8474c100a0577a8ea0cfb7ea9dd3
+  source:
+    repository: slime-frontend
+    commit: 567c84f26b880bce0558dcb4e38818eef757770c
+    path: src/assets/world/stonewarm/buildings/stone-roof-v1.source.json
+- managementId: image.world.stonewarm.stone-small-window-wall-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/stonewarm/stone-small-window-wall-v1.png
+  frontend_path: src/assets/world/stonewarm/buildings/stone-small-window-wall-v1.png
+  sha256: 063c3ecf4c6d706553348e0dbccb4d58d7cadef0caaf761cfaf0a34d4e2c356f
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/buildings/stone-small-window-wall-v1.png
+- managementId: image.frontend.src.assets.world.stonewarm.buildings.stone-wall-crossbar-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/stonewarm/stone-wall-crossbar-v1.png
+  frontend_path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.png
+  sha256: b3da143fbed722dbb134cd1953255bf7cfa88444042a99e37e0b80e6c7dd8ce4
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.png
+- managementId: metadata.frontend.src.assets.world.stonewarm.buildings.stone-wall-crossbar-v1.source.json
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/stonewarm/stone-wall-crossbar-v1.source.json
+  frontend_path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.source.json
+  sha256: 9de6f11146ce4e2bc6ca06db21009bfe8e578148cc3025922995f661b608a122
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.source.json
+- managementId: image.world.stonewarm.stone-wall-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/buildings/wall/stonewarm/stone-wall-v1.png
+  frontend_path: src/assets/world/stonewarm/buildings/stone-wall-v1.png
+  sha256: 699f4e740cf388cd4c786bb60531799e961473b53c946081c078a79866436aaa
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/buildings/stone-wall-v1.png
+- managementId: image.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.png
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/rock/stonewarm/exposed-rock-ground-v1.png
+  frontend_path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.png
+  sha256: 8ac13e1cadc74292ac9db958b480be15ec74de6a0da2d7774e6d782c5b7609ac
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.png
+- managementId: metadata.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.source.json
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/rock/stonewarm/exposed-rock-ground-v1.source.json
+  frontend_path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.source.json
+  sha256: 6a1d1d05a475ce038cbd161ea5ae5c0f98cf5307e40404faa3a4a6abd6621498
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.source.json
+- managementId: image.world.stonewarm.gravel-paving-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/gravel/stonewarm/gravel-paving-v1.png
+  frontend_path: src/assets/world/stonewarm/terrain/gravel-paving-v1.png
+  sha256: 4bb194670b227d92da9ea0e6e0280e08279bb60abfac9594fc97cb3bd0e417d3
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/terrain/gravel-paving-v1.png
+- managementId: image.world.stonewarm.marble-paving-b-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/marble/stonewarm/marble-paving-b-v1.png
+  frontend_path: src/assets/world/stonewarm/terrain/marble-paving-b-v1.png
+  sha256: 479fbbb96adde0c5c248f195b22659f0937c44f9ffce02e6b3cdfc1f51b92524
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/terrain/marble-paving-b-v1.png
+- managementId: image.world.stonewarm.marble-paving-c-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/marble/stonewarm/marble-paving-c-v1.png
+  frontend_path: src/assets/world/stonewarm/terrain/marble-paving-c-v1.png
+  sha256: 9030145c6a263b4133e23e49581854befa8a527ad97f1bd81dfe21c19e2caf29
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/terrain/marble-paving-c-v1.png
+- managementId: image.world.stonewarm.marble-paving-v1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  path: assets/tiles/terrain/marble/stonewarm/marble-paving-v1.png
+  frontend_path: src/assets/world/stonewarm/terrain/marble-paving-v1.png
+  sha256: 98a707024ebd8518f0714c28dc38954f45fec16a3fb30a7b4b2d272f91764825
+  source:
+    repository: slime-frontend
+    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+    path: src/assets/world/stonewarm/terrain/marble-paving-v1.png
