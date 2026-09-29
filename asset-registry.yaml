@@ -992,3 +992,21 @@ assets:
     revision: 20260929T144323-c0809460
     source_digest: 56e2762f5328ce14d0c9d4d166ac874b36263f51037e1d886da0622f1b77a0b3
     previous_source_path: assets/sprites/characters/default/walk-v2/walk-v2.png
+- managementId: image.frontend.src.assets.terrain.grass-v4.png
+  version: 427f2b1106970466b3a21688a26f5ba89859cfb6
+  path: assets/tiles/terrain/grass/grass-v4.png
+  frontend_path: src/assets/terrain/grass-v4.png
+  sha256: d93edbf5ee109ba3d614ae0292135bd8722a4e15ecb637b5747759850afb093a
+  source:
+    repository: slime-frontend
+    commit: 427f2b1106970466b3a21688a26f5ba89859cfb6
+    path: src/assets/terrain/grass-v4.png
+- managementId: metadata.frontend.src.assets.terrain.grass-v4.source.json
+  version: 427f2b1106970466b3a21688a26f5ba89859cfb6
+  path: assets/tiles/terrain/grass/grass-v4.source.json
+  frontend_path: src/assets/terrain/grass-v4.source.json
+  sha256: 5e2c1e866f2245c0f6dccd75a76fb75675c118695bdea24222f989f4857b5a89
+  source:
+    repository: slime-frontend
+    commit: 427f2b1106970466b3a21688a26f5ba89859cfb6
+    path: src/assets/terrain/grass-v4.source.json

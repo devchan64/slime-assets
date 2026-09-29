@@ -1,0 +1,48 @@
+{
+  "generation_id": "2026-09-29_09-48-35-8230064d",
+  "source_path": "slime-workflow/.tmp/test/qwen-image-2512/tile-map/2026-09-29_09-48-35-8230064d/result.png",
+  "source_sha256": "5b0f6bbc5f8467c34ceaa4ebaf6088cc1935331dcb269c27ad0dc2cc71bf3dec",
+  "asset_sha256": "d93edbf5ee109ba3d614ae0292135bd8722a4e15ecb637b5747759850afb093a",
+  "source_size": [
+    512,
+    512
+  ],
+  "crop_box": [
+    41,
+    41,
+    468,
+    470
+  ],
+  "normalized_size": [
+    256,
+    256
+  ],
+  "processing": "민감도 상향 경계 검출의 1% 올림 보더 크롭 결과를 Lanczos로 256×256 정규화",
+  "usage": "잔디 타일",
+  "border_trace": {
+    "function": "tools.review.common.image_borders.crop_inner_border",
+    "inner_bounds": [
+      46,
+      46,
+      463,
+      465
+    ],
+    "texture_size": [
+      417,
+      419
+    ],
+    "border_ratio": 0.01,
+    "border_pixels_before_resize": [
+      5,
+      5
+    ],
+    "color_difference_threshold": 12,
+    "transition_run": 2
+  },
+  "crop_source_path": "slime-workflow/.tmp/test/tile-inner-border-crop/2026-09-29_10-42-24/crop-sensitive-border-1-percent.png",
+  "crop_source_sha256": "71190eb218f5eef0000512a2128052c0050c1985761ad069cc0d7734e0f32b8b",
+  "crop_source_size": [
+    427,
+    429
+  ]
+}
