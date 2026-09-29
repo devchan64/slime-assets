@@ -1,0 +1,29 @@
+version: 2
+runtimeAdopted: true
+sourceRepository: slime-workflow
+sourceReport: report/walking-four-directions-imagegen-20260928-224548
+sourceSheets:
+- direction: down_left
+  path: down_left/sprite-sheet-6x384.png
+  sha256: 8cef40aa844a42e5fa6560905b1dec9cecfcdfc71e4c87cb6bea810ef9d9b5d4
+- direction: down_right
+  path: down_right/sprite-sheet-6x384.png
+  sha256: 144af96f9c62becccfe25264c0ccd47670702d2fd9f9a5f3dc6b393445c70d48
+- direction: up_left
+  path: up_left/sprite-sheet-6x384.png
+  sha256: 38c5314270654c1d30b3d95433992b0b806857ae435b894e183cd823590dc094
+- direction: up_right
+  path: up_right/walking-up-right-sheet-6x384.png
+  sha256: 4e45bfa3e853a110d80b49bd78ebbee393a413a6f607e8f36fd1590fa0cac94f
+image: walk-v2.png
+sha256: a8ae7e7c50b130c53c19dc7660e28d566092115aa4708d1376d623936debbea0
+referenceBodyHeight: 352
+sourceFrameOrder:
+- 1
+- 5
+- 9
+- 13
+- 17
+- 21
+operation: 원본 RGBA 픽셀을 변경하지 않고 방향별 시트를 6열 4행으로 배치
+approval: 사용자의 기본 캐릭터 걷기 게임 반영 지시
