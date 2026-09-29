@@ -9,24 +9,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/cliffs/dew-meadow-cliff-face-v1.png
-- managementId: image.frontend.src.assets.terrain.dew-v2.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/dew/dew-v2.png
-  frontend_path: src/assets/terrain/dew-v2.png
-  sha256: 930f4600cd65dc1514db19c7f246751147e159cc54d76d076f4f3d41b9b845a3
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/dew-v2.png
-- managementId: image.frontend.src.assets.terrain.dew-v3.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/dew/dew-v3.png
-  frontend_path: src/assets/terrain/dew-v3.png
-  sha256: a070c8d2ef6fd33a97daaa21ef2ae01f1d4a4d05018301a7d5b08e44aab245e4
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/dew-v3.png
 - managementId: image.frontend.src.assets.terrain.dew-v3.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/dew/dew-v3.webp
@@ -36,15 +18,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/dew-v3.webp
-- managementId: image.frontend.src.assets.terrain.dew.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/dew/dew.webp
-  frontend_path: src/assets/terrain/dew.webp
-  sha256: 1dbfb228363148e68f867c72f4afe2ee18e526615ecfe1fe680c46fa1c7ac21b
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/dew.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.ash-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/ash/ash-128.webp
@@ -99,15 +72,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/extension-v1/mud-128.webp
-- managementId: image.frontend.src.assets.terrain.extension-v1.paving-128.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/paving/paving-128.webp
-  frontend_path: src/assets/terrain/extension-v1/paving-128.webp
-  sha256: 387a8c8cf72168a0f20f5fffd3ff3ca78c82edebc3b17afb40f01fb7a5d6d873
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/extension-v1/paving-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.reed-bed-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/reed-bed/reed-bed-128.webp
@@ -135,24 +99,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/extension-v1/tree-base-128.webp
-- managementId: image.frontend.src.assets.terrain.flowers-v2.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/flowers/flowers-v2.png
-  frontend_path: src/assets/terrain/flowers-v2.png
-  sha256: 0f7743029f7bf680af8ba264873587b5f5c1a83b712ce6729861b7ad7df609cd
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/flowers-v2.png
-- managementId: image.frontend.src.assets.terrain.flowers-v2.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/flowers/flowers-v2.webp
-  frontend_path: src/assets/terrain/flowers-v2.webp
-  sha256: be15e06d9d9ba4896bf53b7e2fbd99aad359381cd3b2d274d3435b74cf299cad
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/flowers-v2.webp
 - managementId: image.frontend.src.assets.terrain.flowers-v3.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/flowers/flowers-v3.png
@@ -171,33 +117,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/flowers-v3.webp
-- managementId: image.frontend.src.assets.terrain.flowers.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/flowers/flowers.webp
-  frontend_path: src/assets/terrain/flowers.webp
-  sha256: f5c415a6fe2f4e44e6560b28fd2b34720bd49d72b732b2fbbe81dc8e60112c6b
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/flowers.webp
-- managementId: image.frontend.src.assets.terrain.grass-v2.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/grass/grass-v2.png
-  frontend_path: src/assets/terrain/grass-v2.png
-  sha256: 933dbea30e41d35c5f70ecd46d6205f849fd2bd5e0b3c0d9ff8ebbdad315322b
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/grass-v2.png
-- managementId: image.frontend.src.assets.terrain.grass-v2.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/grass/grass-v2.webp
-  frontend_path: src/assets/terrain/grass-v2.webp
-  sha256: df51be08ccd1bc23cd47bf653fa0c64f64b59304e1c27fc78c7416858be2a667
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/grass-v2.webp
 - managementId: image.frontend.src.assets.terrain.grass-v3.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/grass/grass-v3.png
@@ -207,33 +126,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/grass-v3.png
-- managementId: image.frontend.src.assets.terrain.grass-v3.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/grass/grass-v3.webp
-  frontend_path: src/assets/terrain/grass-v3.webp
-  sha256: d401339efc14de24615bdbc024146f0674c0564edb974b45098819d59c577aef
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/grass-v3.webp
-- managementId: image.frontend.src.assets.terrain.grass.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/grass/grass.webp
-  frontend_path: src/assets/terrain/grass.webp
-  sha256: 38a22220b5765002507805ccdf1e95cc0eac7ce529cdd0ad0b2f491b075fa2e2
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/grass.webp
-- managementId: image.frontend.src.assets.terrain.meadow-backdrop-v2.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/meadow-backdrop/meadow-backdrop-v2.png
-  frontend_path: src/assets/terrain/meadow-backdrop-v2.png
-  sha256: e0636eb0aa9a75459696ca5960eebfc484ecbc1acc2496a76fa5a766385e7a30
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/meadow-backdrop-v2.png
 - managementId: image.frontend.src.assets.terrain.meadow-backdrop-v2.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/meadow-backdrop/meadow-backdrop-v2.webp
@@ -243,42 +135,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/meadow-backdrop-v2.webp
-- managementId: image.frontend.src.assets.terrain.meadow-backdrop.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/meadow-backdrop/meadow-backdrop.webp
-  frontend_path: src/assets/terrain/meadow-backdrop.webp
-  sha256: 1c4d942d5c62685797714017d84ca8ba8e03a9b5d351b0dded2e0b86dd32b6ad
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/meadow-backdrop.webp
-- managementId: image.frontend.src.assets.terrain.road-v2.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/road-v2.png
-  frontend_path: src/assets/terrain/road-v2.png
-  sha256: 575b58635c02183f3fb58829beb30464ac5785434d68778d7a4cb922ebd3dbdc
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/road-v2.png
-- managementId: image.frontend.src.assets.terrain.road-v2.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/road-v2.webp
-  frontend_path: src/assets/terrain/road-v2.webp
-  sha256: c37f81ca9d3b591d98a32126bf8041f7433f2a10f290cbb5a4ba2fd40dff5d7d
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/road-v2.webp
-- managementId: image.frontend.src.assets.terrain.road-v3.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/road-v3.png
-  frontend_path: src/assets/terrain/road-v3.png
-  sha256: 53b952e05dc9f173203c32c0a8e3839290bc93f2650c321c71a9becf6b47a5ed
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/road-v3.png
 - managementId: image.frontend.src.assets.terrain.road-v3.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/road/road-v3.webp
@@ -288,24 +144,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/road-v3.webp
-- managementId: image.frontend.src.assets.terrain.road.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/road.webp
-  frontend_path: src/assets/terrain/road.webp
-  sha256: 3e7ba013654fb546fa068997ad2f9116741b955e6cf21d23bdf52e8db23f2167
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/road.webp
-- managementId: image.frontend.src.assets.terrain.water-v2.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/water/water-v2.webp
-  frontend_path: src/assets/terrain/water-v2.webp
-  sha256: 6f63acb862aa80dded8708afd0dfc6b03676e0dd7364f7898f4c18c8748052fd
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/water-v2.webp
 - managementId: image.frontend.src.assets.terrain.water-v3.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/water/water-v3.png
@@ -783,24 +621,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/terrain/gravel-paving-v1.png
-- managementId: image.world.stonewarm.marble-paving-b-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/marble/stonewarm/marble-paving-b-v1.png
-  frontend_path: src/assets/world/stonewarm/terrain/marble-paving-b-v1.png
-  sha256: 479fbbb96adde0c5c248f195b22659f0937c44f9ffce02e6b3cdfc1f51b92524
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/terrain/marble-paving-b-v1.png
-- managementId: image.world.stonewarm.marble-paving-c-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/marble/stonewarm/marble-paving-c-v1.png
-  frontend_path: src/assets/world/stonewarm/terrain/marble-paving-c-v1.png
-  sha256: 9030145c6a263b4133e23e49581854befa8a527ad97f1bd81dfe21c19e2caf29
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/terrain/marble-paving-c-v1.png
 - managementId: image.world.stonewarm.marble-paving-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/marble/stonewarm/marble-paving-v1.png
