@@ -36,3 +36,7 @@ SLIME 게임에서 채택한 공개 에셋의 관리 저장소다.
 ## 맵 원본 직접 참조
 
 `assets/maps/`의 `city_layouts`, `field_tiles`, `field_waypoints`, `terrain`, `map_spawns`, `map_names`가 맵 원본입니다. 139개 YAML의 관리 ID·버전·출처·해시를 등록부에 보존합니다. 백엔드는 잠금 목록을 검증해 직접 읽으며, 관리도구도 같은 원본을 직접 제공합니다. 백엔드 설정 및 워크플로우 맵 JSON 사본을 중복 관리하지 않습니다.
+
+## 배경 이미지 분류
+
+맵 뒤에 표시하는 배경 이미지는 `assets/backgrounds/`에서 관리합니다. 반복 배치하는 지형 타일의 `assets/tiles/`와 구분하며 관리 ID·버전·출처·해시는 등록부에서 유지합니다.
