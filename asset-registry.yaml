@@ -1087,25 +1087,25 @@ assets:
     path: config/city_layouts/index.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.iseulon
-  version: v2
+  version: v3
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 41a0d671b4bdc03884ef82eebf94cc90258a427e13e8544991967b9e2110b1c5
+  sha256: ee19045dccf89a4bce76f93a54e014e9ff4c7ddf38851265603e749b11a0bd36
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.reedhaven
-  version: v2
+  version: v3
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 4e7f5043e824d834ef48602917cefbbfb11a32b25065537b89c7527eb9b9fdc0
+  sha256: f17929cff423fca29438a5922548f147787071a96628c4b61484292e74bf02a0
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.stonewarm
-  version: v1
+  version: v2
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: 6e8930e282c3c07066e68b32279345902b2f8dc9e6779975acd3e975c5909968
+  sha256: d1e210963624ffbcc74dae6371dcfb80eb1935c5f1d262da644b7634e93d840e
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
