@@ -573,7 +573,7 @@ assets:
   license: 별도 재사용 허가 미부여
 - managementId: sprite.metadata.characters.default.idle-v6.idle-v6.animation.json
   version: down-left-v1
-  path: assets/sprites/characters/default/idle-v6/down-left-v1/idle-v6.animation.json
+  path: assets/characters/default/animations/idle-v6/down-left-v1/idle-v6.animation.json
   frontend_path: src/assets/characters/default/idle-v6/idle-v6.animation.json
   sha256: 457c1e006e7f41c5f97ff5a8ae4f297bbdb64d583e19b07146d1e2da2c133102
   source:
@@ -584,7 +584,7 @@ assets:
     extractedFromSha256: ebe291fcd6ad093806254370ed2a3e84037e193f534b72c400702d16d13064c7
 - managementId: image.character.default.idle-v6.sheet
   version: down-left-v1
-  path: assets/sprites/characters/default/idle-v6/down-left-v1/idle-v6.png
+  path: assets/characters/default/animations/idle-v6/down-left-v1/idle-v6.png
   frontend_path: src/assets/characters/default/idle-v6/idle-v6.png
   sha256: 664651d552dbdcdd3b630fe7a9e706f0b1526db9ae105700b791fa409cffa237
   source:
@@ -595,7 +595,7 @@ assets:
     extractedFromSha256: 5919714f071d9c5db55b6f200eb8350fe5611dc8ad3d8484a33912c4bdbfb61a
 - managementId: sprite.metadata.characters.default.idle-v6.source.json
   version: down-left-v1
-  path: assets/sprites/characters/default/idle-v6/down-left-v1/source.json
+  path: assets/characters/default/animations/idle-v6/down-left-v1/source.json
   frontend_path: src/assets/characters/default/idle-v6/source.json
   sha256: bba8a8b5bcf7f853aeb4c77266984df6301c7ad3f4ae3db703014103dd9346e7
   source:
@@ -606,7 +606,7 @@ assets:
     extractedFromSha256: 5add069cafdb956472bd4b634a5a84227e97515f2d4cbe926c5f81b127a37234
 - managementId: sprite.metadata.characters.default.rest-v2.rest-v2.animation.json
   version: down-left-v1
-  path: assets/sprites/characters/default/rest-v2/down-left-v1/rest-v2.animation.json
+  path: assets/characters/default/animations/rest-v2/down-left-v1/rest-v2.animation.json
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.animation.json
   sha256: b7c9ef31e38af4e9a983899e2954413936d91dfe4a44ec2b2badf57cfa7477ff
   source:
@@ -617,7 +617,7 @@ assets:
     extractedFromSha256: 36bc35d84dbd1ea568c08bd34a1898bb7fcc4a03d337b1e1165372b5f884ea83
 - managementId: image.frontend.src.assets.characters.character-default-white-shirt-rest-v2.rest-v2.png
   version: down-left-v1
-  path: assets/sprites/characters/default/rest-v2/down-left-v1/rest-v2.png
+  path: assets/characters/default/animations/rest-v2/down-left-v1/rest-v2.png
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.png
   sha256: 100a07d5f54835ce89b84bab348a8c9c1a772ef30a13caebe508a301cc3af162
   source:
@@ -628,7 +628,7 @@ assets:
     extractedFromSha256: 941244a65dec0200a470557cf6040fb1e6e3f67c1695b4b45ddc442372fa2687
 - managementId: sprite.metadata.characters.default.rest-v2.source.json
   version: down-left-v1
-  path: assets/sprites/characters/default/rest-v2/down-left-v1/source.json
+  path: assets/characters/default/animations/rest-v2/down-left-v1/source.json
   frontend_path: src/assets/characters/default/rest-v2/source.json
   sha256: 6099507e6dd8a6df7a91b46854a2fb651e24045e133a10d25ab5e4f7b5e32b82
   source:
@@ -917,7 +917,7 @@ assets:
     path: src/assets/structures/ward-tower-v1.png
 - managementId: image.frontend.src.assets.cutins.characters.default-punch-v1.png
   version: 5ae07ea2f4b69c1a7376967d8dea450f72569936
-  path: assets/sprites/characters/default/cutins/default-punch-v1.png
+  path: assets/characters/default/battle-cutins/default-punch-v1.png
   frontend_path: src/assets/characters/default/cutins/default-punch-v1.png
   sha256: 1439db1d819c579cd065c79d9b3da41d9439f280f5a4be27c437fbffc51a45b9
   source:
@@ -925,41 +925,41 @@ assets:
     commit: 5ae07ea2f4b69c1a7376967d8dea450f72569936
     path: src/assets/characters/default/cutins/default-punch-v1.png
 - managementId: sprite.metadata.characters.default.walk-v2.source.yaml
-  version: down-left-v1
-  path: assets/sprites/characters/default/walk-v2/down-left-v1/source.yaml
+  version: down-left-8frames-v1
+  path: assets/characters/default/animations/walk-v2/down-left-8frames-v1/source.yaml
   frontend_path: src/assets/characters/default/walk-v2/source.yaml
-  sha256: df3705cb44308d8c127d1ccc85c03484760e16f97923931ec5acf382484ed6d1
+  sha256: 401d66006be77908b4adf244a9135d20101b12a9863ebb111dc142480f037643
   source:
     repository: slime-workflow
-    revision: 2026-09-29_23-57-11-7cd2df31
-    previous_source_path: assets/sprites/characters/default/walk-v2/versions/20260929T144323-c0809460/source.yaml
-    coordinates_sha256: 952c35bdd0f32b0c180e2f8aa8ddd354e5a120fd2e9e3a8c13902abe3533c1f1
-    extractedFromPath: assets/sprites/characters/default/walk-v2/versions/2026-09-29_23-57-11-7cd2df31/source.yaml
-    extractedFromSha256: 5a2a8e5ae966145c9ead554339287d401bf4fd506494c7dd4290b9da6798adb5
+    revision: 2026-10-01_08-12-33
+    path: .tmp/test/walking-eight-frame-imagegen/2026-10-01_08-12-33/walking-down-left-8frames-v2.png
+    sha256: 4af24a9638aa042a27c975ed34189efb8768812d01454eca2fce9c4ce4646797
+    operation: 사용자 채택 ImageGen 8프레임, 384px 셀 패킹
+    previous_version: down-left-v1
 - managementId: sprite.metadata.characters.default.walk-v2.walk-v2.animation.json
-  version: down-left-v1
-  path: assets/sprites/characters/default/walk-v2/down-left-v1/walk-v2.animation.json
+  version: down-left-8frames-v1
+  path: assets/characters/default/animations/walk-v2/down-left-8frames-v1/walk-v2.animation.json
   frontend_path: src/assets/characters/default/walk-v2/walk-v2.animation.json
-  sha256: 0b6112fb5b4f6a95658a1ec0cd91530ef3f2763041061a9dbe8c6a316d533b7d
+  sha256: 6bf59ccdbde41b625ee97c2c3e7011dc036803820c621eb0c2cb92d68737813a
   source:
     repository: slime-workflow
-    revision: 2026-09-29_23-57-11-7cd2df31
-    previous_source_path: assets/sprites/characters/default/walk-v2/versions/20260929T144323-c0809460/walk-v2.animation.json
-    coordinates_sha256: 952c35bdd0f32b0c180e2f8aa8ddd354e5a120fd2e9e3a8c13902abe3533c1f1
-    extractedFromPath: assets/sprites/characters/default/walk-v2/versions/2026-09-29_23-57-11-7cd2df31/walk-v2.animation.json
-    extractedFromSha256: d633380550bad07c56a75e5b6badb4d8a747953c95e231abdedf34a0b76a648f
+    revision: 2026-10-01_08-12-33
+    path: .tmp/test/walking-eight-frame-imagegen/2026-10-01_08-12-33/walking-down-left-8frames-v2.png
+    sha256: 4af24a9638aa042a27c975ed34189efb8768812d01454eca2fce9c4ce4646797
+    operation: 사용자 채택 ImageGen 8프레임, 384px 셀 패킹
+    previous_version: down-left-v1
 - managementId: image.character.default.walk.imagegen-v2
-  version: down-left-v1
-  path: assets/sprites/characters/default/walk-v2/down-left-v1/walk-v2.png
+  version: down-left-8frames-v1
+  path: assets/characters/default/animations/walk-v2/down-left-8frames-v1/walk-v2.png
   frontend_path: src/assets/characters/default/walk-v2/walk-v2.png
-  sha256: a9b21ecdbd40a3ae9b92cc9c82b1bda48ea34c9b55aeb3dc36e7d5a69bd846e1
+  sha256: 2d0609bc09878bda647c3881c01bd64e7a8ca8510c6bb00c60989973cf1e4034
   source:
     repository: slime-workflow
-    revision: 2026-09-29_23-57-11-7cd2df31
-    previous_source_path: assets/sprites/characters/default/walk-v2/versions/20260929T144323-c0809460/walk-v2.png
-    coordinates_sha256: 952c35bdd0f32b0c180e2f8aa8ddd354e5a120fd2e9e3a8c13902abe3533c1f1
-    extractedFromPath: assets/sprites/characters/default/walk-v2/versions/2026-09-29_23-57-11-7cd2df31/walk-v2.png
-    extractedFromSha256: 8dc36a5eba26cb44bd3151618b38a775924032a82d8d3decb9d43ad8f0785fa0
+    revision: 2026-10-01_08-12-33
+    path: .tmp/test/walking-eight-frame-imagegen/2026-10-01_08-12-33/walking-down-left-8frames-v2.png
+    sha256: 4af24a9638aa042a27c975ed34189efb8768812d01454eca2fce9c4ce4646797
+    operation: 사용자 채택 ImageGen 8프레임, 384px 셀 패킹
+    previous_version: down-left-v1
 - managementId: frontend.ui.animation-labels.yaml
   version: v1
   path: assets/ui/animation-labels.yaml
