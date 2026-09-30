@@ -199,23 +199,49 @@ assets:
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/reedhaven/terrain/dirt-road-v1.png
 - managementId: image.world.stonewarm.stone-door-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
   path: assets/tiles/buildings/stone/stone-door-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-door-v1.png
-  sha256: 8a43285d6c08f41d9e84707657551685571373fef5926185e75a4de98d9073c0
+  sha256: 19d3d321953e8dab7d2e8658541c5618ea36286ee71372f7f43971011b0bc09b
   source:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/buildings/stone-door-v1.png
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 8a43285d6c08f41d9e84707657551685571373fef5926185e75a4de98d9073c0
+      input_version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
 - managementId: image.world.stonewarm.stone-large-window-wall-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
   path: assets/tiles/buildings/stone/stone-large-window-wall-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-large-window-wall-v1.png
-  sha256: 888bf25ead962029cb0579ca1ebe44a5b97c85ce85c10a92a4cbefbeb0312585
+  sha256: 3393356fd9c31975e5155da5e381c8ad1c02e7bc04f2832891d84d97de4068ad
   source:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/buildings/stone-large-window-wall-v1.png
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 888bf25ead962029cb0579ca1ebe44a5b97c85ce85c10a92a4cbefbeb0312585
+      input_version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
 - managementId: image.world.stonewarm.stone-roof-v1
   version: 567c84f26b880bce0558dcb4e38818eef757770c
   path: assets/tiles/buildings/stone/stone-roof-v1.png
@@ -235,14 +261,27 @@ assets:
     commit: 567c84f26b880bce0558dcb4e38818eef757770c
     path: src/assets/world/stonewarm/buildings/stone-roof-v1.source.json
 - managementId: image.world.stonewarm.stone-small-window-wall-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
   path: assets/tiles/buildings/stone/stone-small-window-wall-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-small-window-wall-v1.png
-  sha256: 063c3ecf4c6d706553348e0dbccb4d58d7cadef0caaf761cfaf0a34d4e2c356f
+  sha256: d334d14f30c3bfe4e64280b4568f07146912b46dfd06d327e6eead52b9226700
   source:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/buildings/stone-small-window-wall-v1.png
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 063c3ecf4c6d706553348e0dbccb4d58d7cadef0caaf761cfaf0a34d4e2c356f
+      input_version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
 - managementId: image.frontend.src.assets.world.stonewarm.buildings.stone-wall-crossbar-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/buildings/stone/stone-wall-crossbar-v1.png
@@ -262,14 +301,27 @@ assets:
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.source.json
 - managementId: image.world.stonewarm.stone-wall-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
   path: assets/tiles/buildings/stone/stone-wall-v1.png
   frontend_path: src/assets/world/stonewarm/buildings/stone-wall-v1.png
-  sha256: 699f4e740cf388cd4c786bb60531799e961473b53c946081c078a79866436aaa
+  sha256: f4f5fb5c107bdfd3dba2c7d4242bb83a0b5adaa7452e7889922c476ba8aa4f44
   source:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/buildings/stone-wall-v1.png
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 699f4e740cf388cd4c786bb60531799e961473b53c946081c078a79866436aaa
+      input_version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
 - managementId: image.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/non-road/exposed-rock-ground-v1.png
@@ -307,12 +359,12 @@ assets:
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/terrain/marble-paving-v1.png
 - managementId: tile.buildings.roof.red-stone
-  version: '2'
+  version: 2.256-v1
   name: 붉은 석재 지붕 타일
   path: assets/tiles/buildings/red-stone/red-stone-roof-v2.png
-  sha256: 44e70c213ff5b69af96035971f9033856473a01832d688f9d341e5d620b9ffe3
-  width: 512
-  height: 512
+  sha256: 96d5adea2eea42ccea7c38853ce7a0cbf1371d6c47997f71ebc2c5fe8ae34f1d
+  width: 256
+  height: 256
   source:
     repository: slime-workflow
     generation_id: 2026-09-29_12-08-34-29dc94ad
@@ -320,16 +372,27 @@ assets:
     model_id: Qwen/Qwen-Image-2512
     processing: 생성 원본 그대로 사용, 보더 크롭 없음
     approval: 사용자 정사각형 석재 원본으로 v2 교체 및 돌온재 길드회관 사용
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 44e70c213ff5b69af96035971f9033856473a01832d688f9d341e5d620b9ffe3
+      input_version: '2'
+      output_size:
+      - 256
+      - 256
   license: 별도 재사용 허가 미부여
   frontend_path: src/assets/world/stonewarm/buildings/red-stone-roof-v2.png
 - managementId: tile.buildings.wall.wood
-  version: '2'
+  version: 2.256-v1
   name: 통나무 수평 배열 벽 타일
   path: assets/tiles/buildings/wood/wood-wall-v2.png
   frontend_path: src/assets/world/common/buildings/wood-wall-v2.png
-  sha256: a769af976e198aa8f1d07429e52d8beb7bb328dbce6e8f59f22c8892c5c5eee9
-  width: 464
-  height: 462
+  sha256: 56c51c9a169a6dbc651c4826f4fb006bf2a769ed3cabcaef74bc29a0b2e8565f
+  width: 256
+  height: 256
   source:
     repository: slime-workflow
     generation_id: 2026-09-29_13-03-51-34a6f0ba
@@ -337,14 +400,25 @@ assets:
     model_id: Qwen/Qwen-Image-2512
     processing: 암부 채널 차이 5 허용, 안쪽 경계 기준 1% 보더 크롭
     approval: 사용자 나무 벽 타일 통합 채택
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 464
+      - 462
+      input_sha256: a769af976e198aa8f1d07429e52d8beb7bb328dbce6e8f59f22c8892c5c5eee9
+      input_version: '2'
+      output_size:
+      - 256
+      - 256
   license: 별도 재사용 허가 미부여
 - managementId: tile.buildings.wall.wood-window
-  version: '1'
+  version: 1.256-v1
   name: 하늘색 창문 포함 나무 벽 타일
   path: assets/tiles/buildings/wood/wood-window-wall-v1.png
-  sha256: ca85feac1c1b9203ecb882a572600d4122b5f0f05cc1e945cab132bb4695509b
-  width: 464
-  height: 460
+  sha256: b9d78cb1550fd570bfe86a8ee3c09ae5cc1820cd00d29d0c4108e28fab68c060
+  width: 256
+  height: 256
   source:
     repository: slime-workflow
     generation_id: 2026-09-29_14-48-38-01b7d341
@@ -352,15 +426,26 @@ assets:
     model_id: Qwen/Qwen-Image-Edit-2511
     processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
     approval: 사용자 크롭 결과를 창문 포함 나무 벽 타일로 추가 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 464
+      - 460
+      input_sha256: ca85feac1c1b9203ecb882a572600d4122b5f0f05cc1e945cab132bb4695509b
+      input_version: '1'
+      output_size:
+      - 256
+      - 256
   license: 별도 재사용 허가 미부여
 - managementId: tile.buildings.wall.wood-door
-  version: '1'
+  version: 1.256-v1
   name: 빨간 아치형 대문 포함 나무 벽 타일
   path: assets/tiles/buildings/wood/wood-door-wall-v1.png
   frontend_path: src/assets/world/common/buildings/wood-door-wall-v1.png
-  sha256: d0fbf17c5f6f1d6af32196476d270af469907df638c829adbb76467a2f5bc37f
-  width: 464
-  height: 455
+  sha256: df65131b57d185567e5dc66eb0d2ea34b6d69e8008587934cb82b28139e58fb5
+  width: 256
+  height: 256
   source:
     repository: slime-workflow
     generation_id: 2026-09-29_16-09-30-1f25667d
@@ -368,14 +453,25 @@ assets:
     model_id: Qwen/Qwen-Image-Edit-2511
     processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
     approval: 사용자 문 포함 나무벽 타일 채택 및 나무벽 건물 출입문 적용 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 464
+      - 455
+      input_sha256: d0fbf17c5f6f1d6af32196476d270af469907df638c829adbb76467a2f5bc37f
+      input_version: '1'
+      output_size:
+      - 256
+      - 256
   license: 별도 재사용 허가 미부여
 - managementId: tile.buildings.wall.wood-crossbar
-  version: '1'
+  version: 1.256-v1
   name: X자 보강대 나무 벽 타일
   path: assets/tiles/buildings/wood/wood-crossbar-wall-v1.png
-  sha256: 7766b27f8e82f2f708afa420efa1a6dcf45c7840002d6d473b327ef3abfb0808
-  width: 464
-  height: 459
+  sha256: 433d77a7c419182eae11282546b793c757af995c1ab5702d294bc7a5f16a0e4b
+  width: 256
+  height: 256
   source:
     repository: slime-workflow
     generation_id: 2026-09-29_16-30-23-c0c88df7
@@ -383,15 +479,26 @@ assets:
     model_id: Qwen/Qwen-Image-Edit-2511
     processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
     approval: 사용자 크롭 결과를 보강대 나무 타일로 추가 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 464
+      - 459
+      input_sha256: 7766b27f8e82f2f708afa420efa1a6dcf45c7840002d6d473b327ef3abfb0808
+      input_version: '1'
+      output_size:
+      - 256
+      - 256
   license: 별도 재사용 허가 미부여
 - managementId: tile.buildings.roof.wood
-  version: '3'
+  version: 3.256-v1
   name: 통나무 수직 배열 나무 지붕 타일
   path: assets/tiles/buildings/wood/wood-roof-v3.png
   frontend_path: src/assets/world/common/buildings/wood-roof-v3.png
-  sha256: dad396783aeeff901983aa7963877ac81f2dc535173221bc9f0a3109d983c5a3
-  width: 441
-  height: 462
+  sha256: 681ce79c9df5a69f7b826d33beb939a25dbf06e89b93d3d45365c0bf17011034
+  width: 256
+  height: 256
   source:
     repository: slime-workflow
     generation_id: 2026-09-29_16-57-18-01d9d879
@@ -399,15 +506,26 @@ assets:
     model_id: Qwen/Qwen-Image-2512
     processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
     approval: 사용자 크롭 결과로 나무 지붕 교체 및 나무 건물 적용 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 441
+      - 462
+      input_sha256: dad396783aeeff901983aa7963877ac81f2dc535173221bc9f0a3109d983c5a3
+      input_version: '3'
+      output_size:
+      - 256
+      - 256
   license: 별도 재사용 허가 미부여
 - managementId: tile.terrain.road.packed-dirt
-  version: '1'
+  version: 1.256-v1
   name: 돌이 섞인 단단한 흙도로 타일
   path: assets/tiles/terrain/road/packed-dirt-road-v1.png
   frontend_path: src/assets/terrain/roads/packed-dirt-road-v1.png
-  sha256: 35d978fd6a7a535782198be475dd93dbea9c743a5256514ad9070914566fe844
-  width: 419
-  height: 418
+  sha256: 64ccb96f5c19eb1215563559992aab8814170b068fc59ae4a72e5ce9205bb230
+  width: 256
+  height: 256
   source:
     repository: slime-workflow
     generation_id: 2026-09-29_18-16-42-c32bb567
@@ -415,14 +533,25 @@ assets:
     model_id: Qwen/Qwen-Image-Edit-2511
     processing: 심벌·텍스트 제거 후 안쪽 경계 기준 1% 올림 보더 크롭
     approval: 사용자 흙도로 타일 채택 및 필드 도로 일부 활용 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 419
+      - 418
+      input_sha256: 35d978fd6a7a535782198be475dd93dbea9c743a5256514ad9070914566fe844
+      input_version: '1'
+      output_size:
+      - 256
+      - 256
   license: 별도 재사용 허가 미부여
 - managementId: tile.terrain.road.stone-slab
-  version: '1'
+  version: 1.256-v1
   name: 균열있는 회색 석판도로 타일
   path: assets/tiles/terrain/road/stone-slab-road-v1.png
-  sha256: 64aca1b4d6887ebb81ba3cc85e78d21b59d81de5b08708435ab2714c81a82205
-  width: 451
-  height: 454
+  sha256: 64d8d156b010bf1a8ed918a46e56769bb1691dfbeb6d4197dcac8b12a6adfbd8
+  width: 256
+  height: 256
   source:
     repository: slime-workflow
     generation_id: 2026-09-29_22-09-22-601afec8
@@ -430,6 +559,17 @@ assets:
     model_id: Qwen/Qwen-Image-2512
     processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
     approval: 사용자 석판도로 타일 추가 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 451
+      - 454
+      input_sha256: 64aca1b4d6887ebb81ba3cc85e78d21b59d81de5b08708435ab2714c81a82205
+      input_version: '1'
+      output_size:
+      - 256
+      - 256
   license: 별도 재사용 허가 미부여
 - managementId: sprite.metadata.characters.default.idle-v6.idle-v6.animation.json
   version: down-left-v1
@@ -806,12 +946,12 @@ assets:
     repository: slime-frontend
     path: src/assets/login/slime-welcome-v4.png
 - managementId: tile.terrain.road.brick
-  version: '1'
+  version: 1.256-v1
   name: 황토 벽돌 도로 타일
   path: assets/tiles/terrain/road/brick-road-v1.png
-  sha256: 240a3a87bed3bb32b4ce458356559b34193ed4cc25ee1d4afb03f64b5561b8d3
-  width: 445
-  height: 459
+  sha256: 7dfd6cfd59a5564ab67f75f8bfb8fa70a99d5573006b368dbbb73e01fc952fc4
+  width: 256
+  height: 256
   source:
     repository: slime-workflow
     generation_id: 2026-09-30_00-13-25-5f69447f
@@ -819,12 +959,23 @@ assets:
     model_id: Qwen/Qwen-Image-2512
     processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
     approval: 사용자 벽돌 도로 타일 채택
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 445
+      - 459
+      input_sha256: 240a3a87bed3bb32b4ce458356559b34193ed4cc25ee1d4afb03f64b5561b8d3
+      input_version: '1'
+      output_size:
+      - 256
+      - 256
   license: 별도 재사용 허가 미부여
 - managementId: image.terrain.grass
-  version: v5
+  version: v5.256-v1
   path: assets/tiles/terrain/non-road/grass-v5.png
   frontend_path: src/assets/terrain/grass-v5.png
-  sha256: 2ecfa4037acbd97ea2e29f2836479a23be689dff32334ac8d41487661a3dc49a
+  sha256: b4cb6f1003e366a06396012bd0279e59859db2a0becdb3a4cd7552feb7d4a19a
   source:
     repository: slime-workflow
     generationId: 2026-09-30_16-59-52-3aef866b
@@ -832,26 +983,65 @@ assets:
     output: single-tile.png
     operation: 9칸 생성·중앙 몰딩 기계식 크롭·512 참조 재생성
     approval: 사용자 잔디·잔디 진흙·유사 잔디 통합 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 2ecfa4037acbd97ea2e29f2836479a23be689dff32334ac8d41487661a3dc49a
+      input_version: v5
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
 - managementId: image.terrain.wildflowers
-  version: v1
+  version: v1.256-v1
   path: assets/tiles/terrain/non-road/wildflowers-v1.png
-  sha256: 7bd0abaf01a5542083a8487f02f12ec7929e4f01ae1a1dc251fabe3afcad5687
+  sha256: 3f409c198b27bc1c27521a7c208142fa7ef693f0056b507820735096659c5940
   source:
     repository: slime-workflow
     generationId: 2026-09-30_18-24-08-8f023c1a
     sourceGenerationId: 2026-09-30_18-11-46-f291face
     output: result.png
     approval: 사용자 들꽃 바닥 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 7bd0abaf01a5542083a8487f02f12ec7929e4f01ae1a1dc251fabe3afcad5687
+      input_version: v1
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
 - managementId: image.terrain.cactus
-  version: v1
+  version: v1.256-v1
   path: assets/tiles/terrain/blocked/cactus-v1.png
-  sha256: ac72f4126f6e4b8a95b41d1770394777c063c8a8a6915531b05f64989e1ee70e
+  sha256: 547b2062e4bff7e4203b3cb9964a9c98b7b23ad208e63699f94c6641a4507eb5
   source:
     repository: slime-workflow
     generationId: 2026-09-30_18-38-20-e800bd88
     sourceGenerationId: 2026-09-30_18-29-45-caf5e331
     output: result.png
     approval: 사용자 선인장 타일 등록·맵 적용 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: ac72f4126f6e4b8a95b41d1770394777c063c8a8a6915531b05f64989e1ee70e
+      input_version: v1
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
 - managementId: config.city-layouts.index
   version: v1
   path: assets/maps/city_layouts/index.yaml
@@ -1965,31 +2155,70 @@ assets:
     path: config/map_names/wind-hills.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: image.terrain.shallow-water
-  version: v1
+  version: v1.256-v1
   path: assets/tiles/terrain/blocked/shallow-water-v1.png
-  sha256: e584233a5cc40d588d0867e76844f9e1c635d7d257b1e81fb4b36e49b3e39aa4
+  sha256: 867ee2a5bc239cd26308d33c78d4574fc664aeca40a6248b62ac62fac0994a20
   source:
     repository: slime-workflow
     generationId: 2026-09-30_20-53-25-60414950
     sourceGenerationId: 2026-09-30_19-36-32-72da50ce
     output: result.png
     approval: 사용자 얕은 물 타일 등록·맵 지정 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: e584233a5cc40d588d0867e76844f9e1c635d7d257b1e81fb4b36e49b3e39aa4
+      input_version: v1
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
 - managementId: image.terrain.deep-water
-  version: v1
+  version: v1.256-v1
   path: assets/tiles/terrain/blocked/deep-water-v1.png
-  sha256: d10e5ca3e54aad29a6d8d2f840f20ebd88011dddf73bee8eed50fff91c8458bc
+  sha256: ace3780690683a07716b9c9175b7db47b5e07955549566a21e9362051af2811a
   source:
     repository: slime-workflow
     generationId: 2026-09-30_21-07-43-8ae24c49
     sourceGenerationId: 2026-09-30_20-57-36-5a294f5e
     output: result.png
     approval: 사용자 깊은 물 타일 등록·맵 적용 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: d10e5ca3e54aad29a6d8d2f840f20ebd88011dddf73bee8eed50fff91c8458bc
+      input_version: v1
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
 - managementId: image.terrain.dry-soil-branches
-  version: v1
+  version: v1.256-v1
   path: assets/tiles/terrain/non-road/dry-soil-branches-v1.png
-  sha256: d8971343804d7b4e31529533cc799b79f5f85b4b930ff668b4665048883567ec
+  sha256: f6c70b2f3cc1c47cd2d0301733874c091e7ba88c3c7bfa7d8b5c9ba63ff1d2c3
   source:
     repository: slime-workflow
     generationId: 2026-09-30_22-47-08-bf132882
     output: single-tile.png
     approval: 사용자 정식 타일 등록·맵 적용 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: d8971343804d7b4e31529533cc799b79f5f85b4b930ff668b4665048883567ec
+      input_version: v1
+      output_size:
+      - 256
+      - 256
+  width: 256
+  height: 256
