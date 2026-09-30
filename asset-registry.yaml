@@ -2346,3 +2346,25 @@ assets:
       output_size:
       - 256
       - 256
+- managementId: tile.buildings.wood-olive-door
+  version: v1
+  path: assets/tiles/buildings/wood/wood-olive-door-wall-v1.png
+  name: 올리브색 아치형 대문 포함 나무 벽 타일
+  width: 256
+  height: 256
+  sha256: feb18b79b34d52b7bbb12b8cdcc673c12a524ef823150b23970dd800bb8c0368
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_23-34-51-4ecb0ce1
+    output: result.png
+    approval: 사용자 맵 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 9592adbccc91c7bb30b8306cb49c92f838943a7114b6fba6f5f4cfd316962aee
+      output_size:
+      - 256
+      - 256
