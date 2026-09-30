@@ -1,0 +1,83 @@
+managementId: config.terrain.battlefields.meadow-dew-ponds
+data:
+  columns: 12
+  rows: 10
+  elevations:
+  - '111100001111'
+  - '111100001111'
+  - '111100001111'
+  - '111100001111'
+  - '111100001111'
+  - '111100001111'
+  - '111100001111'
+  - '111100001111'
+  - '111100001111'
+  - '111100001111'
+  name: 이슬 연못
+  description: 남북 연못 사이의 중앙 통로와 외곽 우회로.
+  terrain:
+  - gggggggggggg
+  - ggggwwwwgggg
+  - ddddwwwwdddd
+  - ddddwwwwdddd
+  - pppppppppppp
+  - pppppppppppp
+  - ddddwwwwdddd
+  - ddddwwwwdddd
+  - ggggwwwwgggg
+  - gggggggggggg
+  allySpawns:
+  - - 1
+    - 3
+  - - 1
+    - 4
+  - - 1
+    - 5
+  - - 1
+    - 6
+  enemySpawns:
+  - - 10
+    - 3
+  - - 10
+    - 4
+  - - 10
+    - 5
+  - - 10
+    - 6
+  elevationTiles:
+  - id: meadow-dew-ponds-link-1
+    kind: stairs
+    asset: stone-step-tile
+    cell:
+    - 3
+    - 4
+    lower:
+    - 4
+    - 4
+  - id: meadow-dew-ponds-link-2
+    kind: stairs
+    asset: stone-step-tile
+    cell:
+    - 8
+    - 5
+    lower:
+    - 7
+    - 5
+  - id: meadow-dew-ponds-link-3
+    kind: stairs
+    asset: stone-step-tile
+    cell:
+    - 3
+    - 0
+    lower:
+    - 4
+    - 0
+  - id: meadow-dew-ponds-link-4
+    kind: stairs
+    asset: stone-step-tile
+    cell:
+    - 8
+    - 9
+    lower:
+    - 7
+    - 9

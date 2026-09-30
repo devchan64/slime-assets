@@ -1,0 +1,47 @@
+managementId: config.terrain.battlefields.lantern-wood-encounter
+data:
+  columns: 12
+  rows: 10
+  elevations:
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  elevationTiles: []
+  name: 등불 숲 조우 전장
+  description: 작은 숲섬을 잇는 굽은 밝은 길 — 중앙 진입과 측면 우회를 선택
+  terrain:
+  - llllllllllll
+  - llllllllllll
+  - llllyyllllll
+  - llllllllllll
+  - llllllllllll
+  - llllllllllll
+  - llllllllllll
+  - lllfffffflll
+  - llllllllllll
+  - llllllllllll
+  allySpawns:
+  - - 1
+    - 3
+  - - 1
+    - 4
+  - - 1
+    - 5
+  - - 1
+    - 6
+  enemySpawns:
+  - - 10
+    - 3
+  - - 10
+    - 4
+  - - 10
+    - 5
+  - - 10
+    - 6

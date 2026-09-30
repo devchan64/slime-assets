@@ -1,0 +1,47 @@
+managementId: config.terrain.battlefields.clover-bank-encounter
+data:
+  columns: 12
+  rows: 10
+  elevations:
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  elevationTiles: []
+  name: 세잎 둔덕 조우 전장
+  description: 꽃이 둘러싼 세 잎 모양 공터 — 중앙 진입과 측면 우회를 선택
+  terrain:
+  - ffffffffffff
+  - fffbffffffff
+  - ffffffffffff
+  - fffffbbfffff
+  - fffppppppfff
+  - ffffffffffff
+  - fffffbbfffff
+  - ffffffffffff
+  - ffffffffffff
+  - ffffffffffff
+  allySpawns:
+  - - 1
+    - 3
+  - - 1
+    - 4
+  - - 1
+    - 5
+  - - 1
+    - 6
+  enemySpawns:
+  - - 10
+    - 3
+  - - 10
+    - 4
+  - - 10
+    - 5
+  - - 10
+    - 6

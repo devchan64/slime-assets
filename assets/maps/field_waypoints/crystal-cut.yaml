@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.crystal-cut
+data:
+  connections:
+  - id: crystal-cut-to-broken-quarry
+    name: 남쪽 웨이포인트
+    target: broken-quarry
+    direction: south
+    targetWaypointId: broken-quarry-to-crystal-cut
+    edgeOffset: 16
+  - id: crystal-cut-to-dry-creek
+    name: 동쪽 웨이포인트
+    target: dry-creek
+    direction: east
+    targetWaypointId: dry-creek-to-crystal-cut
+    edgeOffset: 16

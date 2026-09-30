@@ -1,0 +1,52 @@
+managementId: config.terrain.index
+data:
+  version: 4
+  includes:
+    maps:
+      meadow: maps/meadow.yaml
+      grove: maps/grove.yaml
+      mist-lake: maps/mist-lake.yaml
+      wind-hills: maps/wind-hills.yaml
+      ash-edge: maps/ash-edge.yaml
+      boar-ridge: maps/boar-ridge.yaml
+      broken-quarry: maps/broken-quarry.yaml
+      cinder-path: maps/cinder-path.yaml
+      clover-bank: maps/clover-bank.yaml
+      crystal-cut: maps/crystal-cut.yaml
+      dawn-overlook: maps/dawn-overlook.yaml
+      dry-creek: maps/dry-creek.yaml
+      fallen-canopy: maps/fallen-canopy.yaml
+      lantern-wood: maps/lantern-wood.yaml
+      moss-clearing: maps/moss-clearing.yaml
+      old-orchard: maps/old-orchard.yaml
+      pebble-shore: maps/pebble-shore.yaml
+      reed-crossing: maps/reed-crossing.yaml
+      root-trail: maps/root-trail.yaml
+      silver-marsh: maps/silver-marsh.yaml
+    battlefields:
+      meadow-crossroads: battlefields/meadow-crossroads.yaml
+      meadow-dew-ponds: battlefields/meadow-dew-ponds.yaml
+      meadow-flower-knolls: battlefields/meadow-flower-knolls.yaml
+      meadow-rock-pass: battlefields/meadow-rock-pass.yaml
+      meadow-thicket-bend: battlefields/meadow-thicket-bend.yaml
+      meadow-guardian-ring: battlefields/meadow-guardian-ring.yaml
+      ash-edge-encounter: battlefields/ash-edge-encounter.yaml
+      boar-ridge-encounter: battlefields/boar-ridge-encounter.yaml
+      broken-quarry-encounter: battlefields/broken-quarry-encounter.yaml
+      cinder-path-encounter: battlefields/cinder-path-encounter.yaml
+      clover-bank-encounter: battlefields/clover-bank-encounter.yaml
+      crystal-cut-encounter: battlefields/crystal-cut-encounter.yaml
+      dawn-overlook-encounter: battlefields/dawn-overlook-encounter.yaml
+      dry-creek-encounter: battlefields/dry-creek-encounter.yaml
+      fallen-canopy-encounter: battlefields/fallen-canopy-encounter.yaml
+      grove-encounter: battlefields/grove-encounter.yaml
+      lantern-wood-encounter: battlefields/lantern-wood-encounter.yaml
+      meadow-encounter: battlefields/meadow-encounter.yaml
+      mist-lake-encounter: battlefields/mist-lake-encounter.yaml
+      moss-clearing-encounter: battlefields/moss-clearing-encounter.yaml
+      old-orchard-encounter: battlefields/old-orchard-encounter.yaml
+      pebble-shore-encounter: battlefields/pebble-shore-encounter.yaml
+      reed-crossing-encounter: battlefields/reed-crossing-encounter.yaml
+      root-trail-encounter: battlefields/root-trail-encounter.yaml
+      silver-marsh-encounter: battlefields/silver-marsh-encounter.yaml
+      wind-hills-encounter: battlefields/wind-hills-encounter.yaml

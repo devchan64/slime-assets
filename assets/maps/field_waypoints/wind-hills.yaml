@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.wind-hills
+data:
+  connections:
+  - id: gate-north
+    name: 북쪽 웨이포인트
+    target: meadow
+    direction: north
+    targetWaypointId: gate-south
+    edgeOffset: center
+  - id: wind-hills-to-boar-ridge
+    name: 남쪽 웨이포인트
+    target: boar-ridge
+    direction: south
+    targetWaypointId: boar-ridge-to-wind-hills
+    edgeOffset: 16

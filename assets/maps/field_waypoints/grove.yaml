@@ -1,0 +1,21 @@
+managementId: config.field-waypoints.grove
+data:
+  connections:
+  - id: gate-east
+    name: 동쪽 웨이포인트
+    target: meadow
+    direction: east
+    targetWaypointId: gate
+    edgeOffset: 2
+  - id: grove-to-old-orchard
+    name: 서쪽 웨이포인트
+    target: old-orchard
+    direction: west
+    targetWaypointId: old-orchard-to-grove
+    edgeOffset: 16
+  - id: grove-to-root-trail
+    name: 북쪽 웨이포인트
+    target: root-trail
+    direction: north
+    targetWaypointId: root-trail-to-grove
+    edgeOffset: 16

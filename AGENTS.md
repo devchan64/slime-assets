@@ -56,3 +56,8 @@
 ## Terrain Tile Organization
 - 지형 타일은 `slime-assets/assets/tiles/terrain/road/`(도로)·`slime-assets/assets/tiles/terrain/non-road/`(통행 가능한 비도로)·`slime-assets/assets/tiles/terrain/blocked/`(진입 불가)로 구분한다. 도로에는 흙길·벽돌길·석판·포장 타일을, 비도로에는 풀·노출 바위 지면 등을, 진입 불가에는 물·큰 바위·나무 밑동·절벽 벽면을 둔다. 실제 셀 통행 판정은 백엔드 맵 데이터를 따른다. 마을별 하위 경로는 만들지 않는다.
 - 경로 변경 시 등록부·잠금 목록·게임과 검수 참조를 함께 갱신하고 기존 ID·버전·출처·SHA-256을 유지한다.
+
+## Map Original Direct Consumption
+- 맵 배치·통행·연결·시작점·이름의 관리 원본은 `slime-assets/assets/maps/`다. 기존 백엔드 `config/`의 맵 원본 및 워크플로우 검수용 맵 JSON 사본은 폐기한다. 위 맵 데이터 소유권·검수 게시 사본 규칙보다 이 규칙이 우선한다.
+- 백엔드는 `map-data.lock.yaml`으로 해시를 검증하여 원본을 직접 읽고 버전이 있는 HTTP API로 게임에 제공한다. 관리도구도 에셋 등록부의 동일 원본 YAML과 타일 이미지를 직접 읽어 제공하며 맵·타일 사본을 만들지 않는다.
+- 설계 문서와 생성·컴파일 결과는 기획·후보 자료다. 원본 갱신은 에셋 저장소 등록부와 소비자 잠금 목록을 함께 수정한다. 배포 시 원본 경로는 `SLIME_MAP_ASSET_ROOT`로 명시하며 누락 시 즉시 실패한다.

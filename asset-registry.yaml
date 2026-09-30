@@ -878,3 +878,1125 @@ assets:
     sourceGenerationId: 2026-09-30_18-11-46-f291face
     output: result.png
     approval: 사용자 들꽃 바닥 타일 등록 승인
+- managementId: image.terrain.cactus
+  version: v1
+  path: assets/tiles/terrain/blocked/cactus-v1.png
+  sha256: ac72f4126f6e4b8a95b41d1770394777c063c8a8a6915531b05f64989e1ee70e
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_18-38-20-e800bd88
+    sourceGenerationId: 2026-09-30_18-29-45-caf5e331
+    output: result.png
+    approval: 사용자 선인장 타일 등록·맵 적용 승인
+- managementId: config.city-layouts.index
+  version: v1
+  path: assets/maps/city_layouts/index.yaml
+  sha256: a220d2a4bfddc4062fd367d4df6ea447fe39f0df4d81d7a5ee5b73f354e18a42
+  source:
+    repository: slime-backend
+    path: config/city_layouts/index.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.city-layouts.iseulon
+  version: v1
+  path: assets/maps/city_layouts/iseulon.yaml
+  sha256: fd1f74ed40dc59fba22b71ffe975efdceb3a81e66cd76c5246754602f41bd236
+  source:
+    repository: slime-backend
+    path: config/city_layouts/iseulon.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.city-layouts.reedhaven
+  version: v1
+  path: assets/maps/city_layouts/reedhaven.yaml
+  sha256: 9a8ecf9913a22829e550475d4fb4d5f7f448c05ced9916e40dc8656ee952a37b
+  source:
+    repository: slime-backend
+    path: config/city_layouts/reedhaven.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.city-layouts.stonewarm
+  version: v1
+  path: assets/maps/city_layouts/stonewarm.yaml
+  sha256: 6e8930e282c3c07066e68b32279345902b2f8dc9e6779975acd3e975c5909968
+  source:
+    repository: slime-backend
+    path: config/city_layouts/stonewarm.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.ash-edge
+  version: v1
+  path: assets/maps/field_tiles/ash-edge.yaml
+  sha256: 1745af55049e8e10e86e29a90b7c7c4c6b327e0f90f472f081143977d8a33acb
+  source:
+    repository: slime-backend
+    path: config/field_tiles/ash-edge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.boar-ridge
+  version: v1
+  path: assets/maps/field_tiles/boar-ridge.yaml
+  sha256: 259ad6d9c6a0dc6613ec960ea653f12ff3fafd8effb92046085a57bbc4e19df6
+  source:
+    repository: slime-backend
+    path: config/field_tiles/boar-ridge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.broken-quarry
+  version: v1
+  path: assets/maps/field_tiles/broken-quarry.yaml
+  sha256: a16ac25df53f7477ea11eae6fa8a4cbfe915e3e9945daae9466e1cc20e38d840
+  source:
+    repository: slime-backend
+    path: config/field_tiles/broken-quarry.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.cinder-path
+  version: v1
+  path: assets/maps/field_tiles/cinder-path.yaml
+  sha256: 8a8a867bbf36aa50f43464d62a7afc3ce167fccaac0eedcd809b8b07afe55395
+  source:
+    repository: slime-backend
+    path: config/field_tiles/cinder-path.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.clover-bank
+  version: v1
+  path: assets/maps/field_tiles/clover-bank.yaml
+  sha256: 155495149e4f3db869d37668644124bc71637df6762090f28307e27d77c2d4e7
+  source:
+    repository: slime-backend
+    path: config/field_tiles/clover-bank.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.codes
+  version: v1
+  path: assets/maps/field_tiles/codes.yaml
+  sha256: 01d49f03347814df4c8482e9fe4deef399268b25c253b3c9a020520ef7497c0e
+  source:
+    repository: slime-backend
+    path: config/field_tiles/codes.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.crystal-cut
+  version: v1
+  path: assets/maps/field_tiles/crystal-cut.yaml
+  sha256: 1668bcc6ad1cdd55976d44e0aa2ef9f5a47d9fdff9b7db0aa5d5cba5b5e1b6c4
+  source:
+    repository: slime-backend
+    path: config/field_tiles/crystal-cut.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.dawn-overlook
+  version: v1
+  path: assets/maps/field_tiles/dawn-overlook.yaml
+  sha256: 65520c8f9b4d9ab51916f949aa97e653cd09d70b61923552c88fd605083b7dc0
+  source:
+    repository: slime-backend
+    path: config/field_tiles/dawn-overlook.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.dry-creek
+  version: v1
+  path: assets/maps/field_tiles/dry-creek.yaml
+  sha256: 60e998ed8cdb5c0936f5c79a99fe54bb4a533b4efc7c6b652e6bd8414484756f
+  source:
+    repository: slime-backend
+    path: config/field_tiles/dry-creek.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.fallen-canopy
+  version: v1
+  path: assets/maps/field_tiles/fallen-canopy.yaml
+  sha256: 5d341d498dd2c747f91ff4c5c2879e45b8c2f4149ed540b2ac9178a1e87f294d
+  source:
+    repository: slime-backend
+    path: config/field_tiles/fallen-canopy.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.grove
+  version: v1
+  path: assets/maps/field_tiles/grove.yaml
+  sha256: 3050e1bc8a896b3b6647a89f066f0e5cd78ca67620f9ee02ca738c8f7b63f3a1
+  source:
+    repository: slime-backend
+    path: config/field_tiles/grove.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.index
+  version: v1
+  path: assets/maps/field_tiles/index.yaml
+  sha256: 42d54f4b84d87f6e35f9b6301d27616413d84a6f49dd7e831fe7c732ff47af0e
+  source:
+    repository: slime-backend
+    path: config/field_tiles/index.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.lantern-wood
+  version: v1
+  path: assets/maps/field_tiles/lantern-wood.yaml
+  sha256: 0d86a5c185a57da6f6ead581831b64445fe35766addffddeb1b291b4495bd57a
+  source:
+    repository: slime-backend
+    path: config/field_tiles/lantern-wood.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.meadow
+  version: v1
+  path: assets/maps/field_tiles/meadow.yaml
+  sha256: 43fb3516d8c3778192e07a16df420045eb34542f9e7b7fbbeb1d858ed8cb0cf9
+  source:
+    repository: slime-backend
+    path: config/field_tiles/meadow.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.mist-lake
+  version: v1
+  path: assets/maps/field_tiles/mist-lake.yaml
+  sha256: 5b6abe5b6c3df8e5a95229fa9becd764a8d187dbd359bfac82f04ed14e160783
+  source:
+    repository: slime-backend
+    path: config/field_tiles/mist-lake.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.moss-clearing
+  version: v1
+  path: assets/maps/field_tiles/moss-clearing.yaml
+  sha256: 6cdedc0cd220739c3a6ef806e01aa4e928bc61e6bdd76c6101151d48d0f0f7be
+  source:
+    repository: slime-backend
+    path: config/field_tiles/moss-clearing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.old-orchard
+  version: v1
+  path: assets/maps/field_tiles/old-orchard.yaml
+  sha256: 3676b417ef413efb5b781e414a95c039b6c55c6cafee7a6865d8faf1df645753
+  source:
+    repository: slime-backend
+    path: config/field_tiles/old-orchard.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.pebble-shore
+  version: v1
+  path: assets/maps/field_tiles/pebble-shore.yaml
+  sha256: 820fefd8aeaa05610b02b0984d67d34fc90db0d4c49a461f4d3bef4db47a0530
+  source:
+    repository: slime-backend
+    path: config/field_tiles/pebble-shore.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.reed-crossing
+  version: v1
+  path: assets/maps/field_tiles/reed-crossing.yaml
+  sha256: a2f7cf9db71965eb5b6eba3a6f041fb5340c8b67e4edfef89dd1059883664c31
+  source:
+    repository: slime-backend
+    path: config/field_tiles/reed-crossing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.root-trail
+  version: v1
+  path: assets/maps/field_tiles/root-trail.yaml
+  sha256: 7850eebc9d4016f82db939e1bd8db6ac4129b05f29a1a0b834a4b5da98e73375
+  source:
+    repository: slime-backend
+    path: config/field_tiles/root-trail.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.silver-marsh
+  version: v1
+  path: assets/maps/field_tiles/silver-marsh.yaml
+  sha256: 5b491b00cc46e704602c621704ce3205386d45005619629b8fd84f373db98603
+  source:
+    repository: slime-backend
+    path: config/field_tiles/silver-marsh.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-tiles.wind-hills
+  version: v1
+  path: assets/maps/field_tiles/wind-hills.yaml
+  sha256: ed5a70a631066133803bc206a6fde33f592253df6ca6fb850596b0d6593bb50b
+  source:
+    repository: slime-backend
+    path: config/field_tiles/wind-hills.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.ash-edge
+  version: v1
+  path: assets/maps/field_waypoints/ash-edge.yaml
+  sha256: fdc2e5c708937158709ba9a8e0c2048635f513147ec650b378ac1e72bf9aa98a
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/ash-edge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.boar-ridge
+  version: v1
+  path: assets/maps/field_waypoints/boar-ridge.yaml
+  sha256: 9f26c3725420f0e82e54f608c481c8c67146ad67e25db9521daef628a3c03263
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/boar-ridge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.broken-quarry
+  version: v1
+  path: assets/maps/field_waypoints/broken-quarry.yaml
+  sha256: ab2037405442a4f7e4add80d86635163c7a052ea6908d437684e20141a02c4d8
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/broken-quarry.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.cinder-path
+  version: v1
+  path: assets/maps/field_waypoints/cinder-path.yaml
+  sha256: e7212801e0f1a1da5b054a21530f60809822df8698204be2f69b9f42550ab9cd
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/cinder-path.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.clover-bank
+  version: v1
+  path: assets/maps/field_waypoints/clover-bank.yaml
+  sha256: a42b5afb84410e0787390c268e24d1905666e6a72124ec776dac6e0d24571ba3
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/clover-bank.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.crystal-cut
+  version: v1
+  path: assets/maps/field_waypoints/crystal-cut.yaml
+  sha256: 19f95a24a0e1bf823ec39b415fd337cfe174b0e8a2c48b6751bf99f66714eac2
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/crystal-cut.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.dawn-overlook
+  version: v1
+  path: assets/maps/field_waypoints/dawn-overlook.yaml
+  sha256: 16bb24906e2eca63279be7978a7b622916b6e9b42f1a85ea8c3494aa09a8152b
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/dawn-overlook.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.dry-creek
+  version: v1
+  path: assets/maps/field_waypoints/dry-creek.yaml
+  sha256: 9d9e6754191c7fd327a8cbf6796b8ff7585e4987e62801d816a4875d517b1815
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/dry-creek.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.fallen-canopy
+  version: v1
+  path: assets/maps/field_waypoints/fallen-canopy.yaml
+  sha256: 975647106197a6749b37e43891d54bdc9f25845c654042f9bbbd1931724ee4ec
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/fallen-canopy.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.grove
+  version: v1
+  path: assets/maps/field_waypoints/grove.yaml
+  sha256: 425b150f88404aa544ec1a75fb72332ac3138cdf45d73eb3fe87bb78bbf39165
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/grove.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.index
+  version: v1
+  path: assets/maps/field_waypoints/index.yaml
+  sha256: 7e95b26022d9ccc1db14fb8fae75c25ff64967664552a6fe5a5147678414e502
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/index.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.lantern-wood
+  version: v1
+  path: assets/maps/field_waypoints/lantern-wood.yaml
+  sha256: 403ead01eed353462be5f2c6010fb681abfede2abab4922a80acd41dab3a3dff
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/lantern-wood.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.meadow
+  version: v1
+  path: assets/maps/field_waypoints/meadow.yaml
+  sha256: 856832db6b575832cddc32c54c3cc07e5465921f53847112984959814d0739c9
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/meadow.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.mist-lake
+  version: v1
+  path: assets/maps/field_waypoints/mist-lake.yaml
+  sha256: 3bc75d7c5e9835996d507cfdf6e90a165af324e31d0554e9181df9e320120bd3
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/mist-lake.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.moss-clearing
+  version: v1
+  path: assets/maps/field_waypoints/moss-clearing.yaml
+  sha256: ca2d3ac1036edd3394a4bfb6d20c3364a6e7a2ce65128f36e128a220d2f658ed
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/moss-clearing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.old-orchard
+  version: v1
+  path: assets/maps/field_waypoints/old-orchard.yaml
+  sha256: 561eb0c1a86bb8b14edea1452e6d8e8da4f1bd01213dc5194ab5635176f9e5eb
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/old-orchard.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.pebble-shore
+  version: v1
+  path: assets/maps/field_waypoints/pebble-shore.yaml
+  sha256: a4e8c303c5bc2f93725a407267baa0463db59e42107888d3a3ac410b03ff788f
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/pebble-shore.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.reed-crossing
+  version: v1
+  path: assets/maps/field_waypoints/reed-crossing.yaml
+  sha256: 849ab4a4fbfa405d4d435e08de70e8bbd289d86d9d18a23f683547edc95b15c7
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/reed-crossing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.root-trail
+  version: v1
+  path: assets/maps/field_waypoints/root-trail.yaml
+  sha256: 28e71326adf437b063b36edea333f5367853662a3ad5cac071bb71a8278efb3d
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/root-trail.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.silver-marsh
+  version: v1
+  path: assets/maps/field_waypoints/silver-marsh.yaml
+  sha256: 0ccc6a127f6c636d047466279634823919a59797a1703c5681f5263380b8aef4
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/silver-marsh.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.field-waypoints.wind-hills
+  version: v1
+  path: assets/maps/field_waypoints/wind-hills.yaml
+  sha256: bbd02ae9c85457b415eec2cb222823919548f2499be564afc40dd9014c0fdae5
+  source:
+    repository: slime-backend
+    path: config/field_waypoints/wind-hills.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.ash-edge-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/ash-edge-encounter.yaml
+  sha256: a6099a13a7c8b42218a0f239a4f93c8b23860427af3a93b5903521075b30ad6d
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/ash-edge-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.boar-ridge-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/boar-ridge-encounter.yaml
+  sha256: c6c4083a212520566260c4ac9a6537e37fdb6614cf27ecefce7fb77bf8e7ca1c
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/boar-ridge-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.broken-quarry-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/broken-quarry-encounter.yaml
+  sha256: 63a1dfd367827dcb108436c339482fe3754bb3caa6ba2191b7471c572f1741ff
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/broken-quarry-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.cinder-path-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/cinder-path-encounter.yaml
+  sha256: c45cfe1653dc65dae21ce3385738bef739682fa4aa74d1dbde4d94ece67b0fa2
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/cinder-path-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.clover-bank-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/clover-bank-encounter.yaml
+  sha256: 0183083518d87c4703222e8cca5b22a161efaa2f1162ecd566f6cb23ecac2277
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/clover-bank-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.crystal-cut-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/crystal-cut-encounter.yaml
+  sha256: 5cd42cc696d2b2cae57ce90a0f7f15103a169d8ba65737f1e9e43867407a1617
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/crystal-cut-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.dawn-overlook-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/dawn-overlook-encounter.yaml
+  sha256: 1d53025389eb9be2c1f6daa99c9c048c86741280c6388d436f9655193d4456de
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/dawn-overlook-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.dry-creek-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/dry-creek-encounter.yaml
+  sha256: fbe80ad074dc29f4137f4247d296092a5289890d572710eed8fdbc75f7edc545
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/dry-creek-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.fallen-canopy-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/fallen-canopy-encounter.yaml
+  sha256: 7b4ba65126fd5b9616a18ec1631b484758d220b384075449007f94cd585fc066
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/fallen-canopy-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.grove-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/grove-encounter.yaml
+  sha256: 3deb1f4f24b613ab3110570f09eacb3e62b63f7e57778dc4b29982c1c2273dd7
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/grove-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.lantern-wood-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/lantern-wood-encounter.yaml
+  sha256: c6d47b4d88e346cf91cd8e9f73cf20aea86eaad77e4f8de00e7f309a52d6c488
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/lantern-wood-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.meadow-crossroads
+  version: v1
+  path: assets/maps/terrain/battlefields/meadow-crossroads.yaml
+  sha256: 331a1e9918a48cc07f366f98c2d5b3dafeb05d13d86fe36fd475e75eed1617de
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/meadow-crossroads.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.meadow-dew-ponds
+  version: v1
+  path: assets/maps/terrain/battlefields/meadow-dew-ponds.yaml
+  sha256: 9cbbeb826602326ed59c699e2fb623a5d017ae25d1d9d26d2ad78e461fe2509b
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/meadow-dew-ponds.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.meadow-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/meadow-encounter.yaml
+  sha256: 2a9b4c2a01f693237a8e83ca4d7f4faf3776728be0dbeb224df786b803b9696f
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/meadow-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.meadow-flower-knolls
+  version: v1
+  path: assets/maps/terrain/battlefields/meadow-flower-knolls.yaml
+  sha256: 7ed89d817cf6d711cf06db38605fa2982c608af629b42076c0af4f3e97e04b8b
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/meadow-flower-knolls.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.meadow-guardian-ring
+  version: v1
+  path: assets/maps/terrain/battlefields/meadow-guardian-ring.yaml
+  sha256: 2e219ad6b94782a7841057104d5c84b2f3effdcbbf801b5d9dcfb679da04b994
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/meadow-guardian-ring.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.meadow-rock-pass
+  version: v1
+  path: assets/maps/terrain/battlefields/meadow-rock-pass.yaml
+  sha256: 9571a925138ec436d4e4dc8e0044d5348bc8002a05250bc65ebeac5813e0c229
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/meadow-rock-pass.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.meadow-thicket-bend
+  version: v1
+  path: assets/maps/terrain/battlefields/meadow-thicket-bend.yaml
+  sha256: c073b24af5770c090c3e4a6294ea3d482a5a5bbf9f6f628dcf228ab9f6d3ae3d
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/meadow-thicket-bend.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.mist-lake-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/mist-lake-encounter.yaml
+  sha256: d60ce8bb8ecc625d534fb6f3fa6c5923630afbf3b31e1d86f69f74379c68ca1a
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/mist-lake-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.moss-clearing-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/moss-clearing-encounter.yaml
+  sha256: 841a77cec81783b391e0ae89148b13d9f2bb164ce3c934ad5e05b5780c1b365f
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/moss-clearing-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.old-orchard-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/old-orchard-encounter.yaml
+  sha256: 77f84d1687bd072ad87d1d5db740382ed0edafc93312377133170745142171aa
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/old-orchard-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.pebble-shore-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/pebble-shore-encounter.yaml
+  sha256: 7b3f7cce952279a55f3d6f3124b837620dc694a9c1dc891b197344c435155b7b
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/pebble-shore-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.reed-crossing-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/reed-crossing-encounter.yaml
+  sha256: b0444ddba87bc3488825679bbbb5c74c3dece96792a66ff6dced9263aae3f144
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/reed-crossing-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.root-trail-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/root-trail-encounter.yaml
+  sha256: f7747eb5282b947422e9c8dba0d573ea062b660a3e8a0bdfcc451e2d1242ee96
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/root-trail-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.silver-marsh-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/silver-marsh-encounter.yaml
+  sha256: 1417fff8cc60d014213be78781607ca92160ab4b7c5b6283dfe84f6fe55150ce
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/silver-marsh-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.battlefields.wind-hills-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/wind-hills-encounter.yaml
+  sha256: 0e164283d74dbcc76c098514a92b9cf93aacf3461dfa46f7992ff22f14e09f57
+  source:
+    repository: slime-backend
+    path: config/terrain/battlefields/wind-hills-encounter.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.index
+  version: v1
+  path: assets/maps/terrain/index.yaml
+  sha256: bc428fa090662b3327007e12bdad08bc46da6d98a9b8e8ef9371cd246af46ef2
+  source:
+    repository: slime-backend
+    path: config/terrain/index.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.ash-edge
+  version: v1
+  path: assets/maps/terrain/maps/ash-edge.yaml
+  sha256: 7f3d579edfe6f50823452000852a865c5d4de37d3d69054d5b863badc6027b20
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/ash-edge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.boar-ridge
+  version: v1
+  path: assets/maps/terrain/maps/boar-ridge.yaml
+  sha256: 207dde76e6c97d0807e9164b904d49d143a84393e309631e593f6be8188856dc
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/boar-ridge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.broken-quarry
+  version: v1
+  path: assets/maps/terrain/maps/broken-quarry.yaml
+  sha256: f763e70145eb18b0d5379337f51d857cfce1ef25759a7381e952b6121303362b
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/broken-quarry.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.cinder-path
+  version: v1
+  path: assets/maps/terrain/maps/cinder-path.yaml
+  sha256: 4e881f7a96b5c37a0b492e040f038c9e20cb545cf46c1d208719d3495f98e734
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/cinder-path.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.clover-bank
+  version: v1
+  path: assets/maps/terrain/maps/clover-bank.yaml
+  sha256: abb03a86a192cbab168813d9300af084f4ff61124aa45531c6b12fdec5a2d7ba
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/clover-bank.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.crystal-cut
+  version: v1
+  path: assets/maps/terrain/maps/crystal-cut.yaml
+  sha256: 019e2ab820b827fc6fe0180ee01140424ab410d182ab677a756b65fba0d14011
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/crystal-cut.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.dawn-overlook
+  version: v1
+  path: assets/maps/terrain/maps/dawn-overlook.yaml
+  sha256: 0b65370229e831fd234ccb703a51f99020d37f151be0fa2bc8db315220f95638
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/dawn-overlook.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.dry-creek
+  version: v1
+  path: assets/maps/terrain/maps/dry-creek.yaml
+  sha256: cd9c2977abdb3bd9a6b16cfdb21b66d7ce20249ac6711b62c42408dba50d7715
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/dry-creek.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.fallen-canopy
+  version: v1
+  path: assets/maps/terrain/maps/fallen-canopy.yaml
+  sha256: 23e1728d9391dce43a1ac77adfad2d76aaf4919d35bdb64d1958b52f94af59e9
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/fallen-canopy.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.grove
+  version: v1
+  path: assets/maps/terrain/maps/grove.yaml
+  sha256: cca639214bd42a4ff39e010e3f95f2529f2671c521ce2b6c42f49e43d660a63d
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/grove.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.lantern-wood
+  version: v1
+  path: assets/maps/terrain/maps/lantern-wood.yaml
+  sha256: 83c071711d0015bf724d0ea9c62cdb21bbf55ba8cad2b185f286cdec28e275dd
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/lantern-wood.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.meadow
+  version: v1
+  path: assets/maps/terrain/maps/meadow.yaml
+  sha256: 9015824388d950fe0039ff28027cc7b717130daf9f05287e6af9f2e8321b680f
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/meadow.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.mist-lake
+  version: v1
+  path: assets/maps/terrain/maps/mist-lake.yaml
+  sha256: bc3822a127692a6aa8291d67a6c2b2b9beacce25b0b31bc3c357c537ea553e38
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/mist-lake.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.moss-clearing
+  version: v1
+  path: assets/maps/terrain/maps/moss-clearing.yaml
+  sha256: f5b53ade7400060ac4fc17b66a403ce3a8a7b09eec59076932ee57f7c3bc82e4
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/moss-clearing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.old-orchard
+  version: v1
+  path: assets/maps/terrain/maps/old-orchard.yaml
+  sha256: 7a074590d23745acc125e8a03f58cf0e93138f5d599aaad72cdc4300113a4cdc
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/old-orchard.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.pebble-shore
+  version: v1
+  path: assets/maps/terrain/maps/pebble-shore.yaml
+  sha256: b3f56d7f8024fb32d300adcefefcee438382f01cc2125247004f32a69988438a
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/pebble-shore.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.reed-crossing
+  version: v1
+  path: assets/maps/terrain/maps/reed-crossing.yaml
+  sha256: 64d061fa63072a035c142404af06398ad8aeffe8cd8a7f872fd16d73c2b9bf78
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/reed-crossing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.root-trail
+  version: v1
+  path: assets/maps/terrain/maps/root-trail.yaml
+  sha256: cb380f3e530ce96aee8d9a7de80023062ba0f7cb0572e251c0dbc54c3617dda2
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/root-trail.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.silver-marsh
+  version: v1
+  path: assets/maps/terrain/maps/silver-marsh.yaml
+  sha256: 28a2a5dfbad57052c062a3277b7dbc0a3a7b0616bdeea00c3f426f98a0384296
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/silver-marsh.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.terrain.maps.wind-hills
+  version: v1
+  path: assets/maps/terrain/maps/wind-hills.yaml
+  sha256: 5919ab0f4cc217ef9a949cacb465e35ff1ec4eaee0a3320c0aba237393ec3087
+  source:
+    repository: slime-backend
+    path: config/terrain/maps/wind-hills.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.ash-edge
+  version: v1
+  path: assets/maps/map_spawns/ash-edge.yaml
+  sha256: c26b87556d0a56b66fd85825ace9c9ef8cfa4211176a7fc09b16ede530ffce39
+  source:
+    repository: slime-backend
+    path: config/map_spawns/ash-edge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.boar-ridge
+  version: v1
+  path: assets/maps/map_spawns/boar-ridge.yaml
+  sha256: 85c4af731eae468fe0a24427a0e8751dac842dcd719bbe7ce1cdde65176ea431
+  source:
+    repository: slime-backend
+    path: config/map_spawns/boar-ridge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.broken-quarry
+  version: v1
+  path: assets/maps/map_spawns/broken-quarry.yaml
+  sha256: 81ec207723f0e638c75233bd31feef71f316f64f567e75579f03e31330066fdd
+  source:
+    repository: slime-backend
+    path: config/map_spawns/broken-quarry.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.cinder-path
+  version: v1
+  path: assets/maps/map_spawns/cinder-path.yaml
+  sha256: 501fac81126ce8d3fc471785c3a5071f3592dded0b0ce07e50dbc7df1f1c0d90
+  source:
+    repository: slime-backend
+    path: config/map_spawns/cinder-path.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.clover-bank
+  version: v1
+  path: assets/maps/map_spawns/clover-bank.yaml
+  sha256: c917b889fd837d6f4de4d9535d413fe85ad310e6958b553c3b8d5ad1c2ae91c3
+  source:
+    repository: slime-backend
+    path: config/map_spawns/clover-bank.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.crystal-cut
+  version: v1
+  path: assets/maps/map_spawns/crystal-cut.yaml
+  sha256: 438d0f96e8348ae7fb43c547fb6f357474965825b133dca1a16e8d80c7bfa0b1
+  source:
+    repository: slime-backend
+    path: config/map_spawns/crystal-cut.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.dawn-overlook
+  version: v1
+  path: assets/maps/map_spawns/dawn-overlook.yaml
+  sha256: 4de1d06d7605e35bc082a5b8041adb0fc1ec1baa4480320fc48dc2b0b15759ec
+  source:
+    repository: slime-backend
+    path: config/map_spawns/dawn-overlook.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.dry-creek
+  version: v1
+  path: assets/maps/map_spawns/dry-creek.yaml
+  sha256: dfa6ce1e6afa7e32e5b014cce8dbf49531b3a4f8ba458dc75a91720091e267be
+  source:
+    repository: slime-backend
+    path: config/map_spawns/dry-creek.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.fallen-canopy
+  version: v1
+  path: assets/maps/map_spawns/fallen-canopy.yaml
+  sha256: a15dc1286bd5acd8340a13039adc52c4080bf916f150c5a9e483b691f923802f
+  source:
+    repository: slime-backend
+    path: config/map_spawns/fallen-canopy.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.grove
+  version: v1
+  path: assets/maps/map_spawns/grove.yaml
+  sha256: a7c29b80d705a98a09e539e42e61a95c7db95f3901ebc7266f3642f91da3e4ed
+  source:
+    repository: slime-backend
+    path: config/map_spawns/grove.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.index
+  version: v1
+  path: assets/maps/map_spawns/index.yaml
+  sha256: 94ad00f31dacc0c2721ca737ad7736d69324739f0c2d01770324e473263b433b
+  source:
+    repository: slime-backend
+    path: config/map_spawns/index.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.lantern-wood
+  version: v1
+  path: assets/maps/map_spawns/lantern-wood.yaml
+  sha256: fc21778bc842eb04dcb37bd33bfef208405588f9a59242961a7d19b2b43fd1ae
+  source:
+    repository: slime-backend
+    path: config/map_spawns/lantern-wood.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.meadow
+  version: v1
+  path: assets/maps/map_spawns/meadow.yaml
+  sha256: a8d2ad783b66016d42d7baf17d4a710701514f17face492edd1bd6879270b51a
+  source:
+    repository: slime-backend
+    path: config/map_spawns/meadow.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.mist-lake
+  version: v1
+  path: assets/maps/map_spawns/mist-lake.yaml
+  sha256: 392b9502bd555cae776126aa3880d5ce082f735b11c9a4261cbde2140cd595eb
+  source:
+    repository: slime-backend
+    path: config/map_spawns/mist-lake.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.moss-clearing
+  version: v1
+  path: assets/maps/map_spawns/moss-clearing.yaml
+  sha256: 5147b57f5bef53e5bf8def0d196c650790e1b239ca097b9aadb09990d4c8252d
+  source:
+    repository: slime-backend
+    path: config/map_spawns/moss-clearing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.old-orchard
+  version: v1
+  path: assets/maps/map_spawns/old-orchard.yaml
+  sha256: a8fbb8e57522e6b62ca2312579bf0a26803084adba58417253cbc1ae2ce4fa55
+  source:
+    repository: slime-backend
+    path: config/map_spawns/old-orchard.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.pebble-shore
+  version: v1
+  path: assets/maps/map_spawns/pebble-shore.yaml
+  sha256: 67e25a86be06e5b80f051ef47f8942355ed2713556909b7072894deca5cfa750
+  source:
+    repository: slime-backend
+    path: config/map_spawns/pebble-shore.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.reed-crossing
+  version: v1
+  path: assets/maps/map_spawns/reed-crossing.yaml
+  sha256: 3a2ef980f5ee6f6ef3ed63715cdbdec3b8df75ab91822f99c6fabd9b7cdb00e5
+  source:
+    repository: slime-backend
+    path: config/map_spawns/reed-crossing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.root-trail
+  version: v1
+  path: assets/maps/map_spawns/root-trail.yaml
+  sha256: 8e827f29d766f376facca8d6fb339e06c5fcd9ef1c63a2e96f60088c44b0d97d
+  source:
+    repository: slime-backend
+    path: config/map_spawns/root-trail.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.silver-marsh
+  version: v1
+  path: assets/maps/map_spawns/silver-marsh.yaml
+  sha256: 6b755763b6f338455ebd1a89844a9a7856bf6a042c0316c115362014aff7894e
+  source:
+    repository: slime-backend
+    path: config/map_spawns/silver-marsh.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-spawns.wind-hills
+  version: v1
+  path: assets/maps/map_spawns/wind-hills.yaml
+  sha256: 2230239b3741d83bef6a7bb61eb8d0c122831ea281fa227b816752ced4dcc459
+  source:
+    repository: slime-backend
+    path: config/map_spawns/wind-hills.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.ash-edge
+  version: v1
+  path: assets/maps/map_names/ash-edge.yaml
+  sha256: 2224342cc084da2014477318b028ea2bbd4dbc1ff6738e2fe6b1373e92d09b9e
+  source:
+    repository: slime-backend
+    path: config/map_names/ash-edge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.boar-ridge
+  version: v1
+  path: assets/maps/map_names/boar-ridge.yaml
+  sha256: b7023519afe7e9bc6322f8c98283b072bd42a43480d52ea54c846282424f067b
+  source:
+    repository: slime-backend
+    path: config/map_names/boar-ridge.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.broken-quarry
+  version: v1
+  path: assets/maps/map_names/broken-quarry.yaml
+  sha256: 8c73d8bbd756ea28b771274ed7c89b48a1183c65d0f43013c23450d327d1ef23
+  source:
+    repository: slime-backend
+    path: config/map_names/broken-quarry.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.cinder-path
+  version: v1
+  path: assets/maps/map_names/cinder-path.yaml
+  sha256: d854a2d22140b617ba21dc34e4abdebf999f0b394497462e657e29c2982f3d9b
+  source:
+    repository: slime-backend
+    path: config/map_names/cinder-path.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.clover-bank
+  version: v1
+  path: assets/maps/map_names/clover-bank.yaml
+  sha256: b85c067fa92c0f44968ed354984570f4a11acf3f2deb1b89bae44f741c81b564
+  source:
+    repository: slime-backend
+    path: config/map_names/clover-bank.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.crystal-cut
+  version: v1
+  path: assets/maps/map_names/crystal-cut.yaml
+  sha256: 78dfd283bffcf2ab3a06000e63fb7d140cf53ae3fb10a18473e7ea7f13bfcedf
+  source:
+    repository: slime-backend
+    path: config/map_names/crystal-cut.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.dawn-overlook
+  version: v1
+  path: assets/maps/map_names/dawn-overlook.yaml
+  sha256: 6080df4d997418c47bc8c80c28294818e9154368ec85ed2c22a82f0c032ab92e
+  source:
+    repository: slime-backend
+    path: config/map_names/dawn-overlook.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.dry-creek
+  version: v1
+  path: assets/maps/map_names/dry-creek.yaml
+  sha256: 6136db9f858ce7e32348e9da90b62cbf36f6c7868b2ef8bb152fe25e19a1cc18
+  source:
+    repository: slime-backend
+    path: config/map_names/dry-creek.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.fallen-canopy
+  version: v1
+  path: assets/maps/map_names/fallen-canopy.yaml
+  sha256: 749239f78a5dbe9a3d1ea06b195531c1678c6a8ce2ea2600423f3883d7d4ad8a
+  source:
+    repository: slime-backend
+    path: config/map_names/fallen-canopy.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.grove
+  version: v1
+  path: assets/maps/map_names/grove.yaml
+  sha256: 792f08fbcc02bbd953be44d18be682835c4e023447eaa867fa0c4cf7777dfc36
+  source:
+    repository: slime-backend
+    path: config/map_names/grove.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.index
+  version: v1
+  path: assets/maps/map_names/index.yaml
+  sha256: 7bcf73c4cba4d4574e45063e71fb86153399036e1785879961d2819b4303db05
+  source:
+    repository: slime-backend
+    path: config/map_names/index.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.iseulon
+  version: v1
+  path: assets/maps/map_names/iseulon.yaml
+  sha256: 767b41d91615978e397774b63cf044026d5670cf3d53de733466cfdd9fa5b16b
+  source:
+    repository: slime-backend
+    path: config/map_names/iseulon.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.lantern-wood
+  version: v1
+  path: assets/maps/map_names/lantern-wood.yaml
+  sha256: 983352a58e0b7b4fa2af6642864863d91d12ebdb203f41777498e949f5daff94
+  source:
+    repository: slime-backend
+    path: config/map_names/lantern-wood.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.meadow
+  version: v1
+  path: assets/maps/map_names/meadow.yaml
+  sha256: 5d5d68c35d7dc53e9c47e438d0f6f562900a9bd389ae98e104958b5fd0e6bd19
+  source:
+    repository: slime-backend
+    path: config/map_names/meadow.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.mist-lake
+  version: v1
+  path: assets/maps/map_names/mist-lake.yaml
+  sha256: e1474132ce6d7497a960f6c42fbe8dfce35d61794d306878475f9c90b957e3e4
+  source:
+    repository: slime-backend
+    path: config/map_names/mist-lake.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.moss-clearing
+  version: v1
+  path: assets/maps/map_names/moss-clearing.yaml
+  sha256: b7c02589c2eba6664aa23c7fc2f5f304884dab6a280eb608ce7824805f89d7ed
+  source:
+    repository: slime-backend
+    path: config/map_names/moss-clearing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.old-orchard
+  version: v1
+  path: assets/maps/map_names/old-orchard.yaml
+  sha256: 2e023edec0860003c823791b6896cbdf4d433bb4268bbabcb7868ba2e7238414
+  source:
+    repository: slime-backend
+    path: config/map_names/old-orchard.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.pebble-shore
+  version: v1
+  path: assets/maps/map_names/pebble-shore.yaml
+  sha256: 7d314c51e4e32053e3e12773cc0a7f74f46822c3dbddda67e5f0e9b1bc3ba3da
+  source:
+    repository: slime-backend
+    path: config/map_names/pebble-shore.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.reed-crossing
+  version: v1
+  path: assets/maps/map_names/reed-crossing.yaml
+  sha256: 57545625ef578f15931e302e146f221b90609508eecd77087404181597f97120
+  source:
+    repository: slime-backend
+    path: config/map_names/reed-crossing.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.reedhaven
+  version: v1
+  path: assets/maps/map_names/reedhaven.yaml
+  sha256: 9f1c16d74145ea4bd1a3a5ef1f56aface3816c3fcc2fd3b3fd8cde00f1ddad15
+  source:
+    repository: slime-backend
+    path: config/map_names/reedhaven.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.root-trail
+  version: v1
+  path: assets/maps/map_names/root-trail.yaml
+  sha256: dad9492b0014b6ce139bbc144ab7c5ce5b500f51404ceea17f4f792f3895286d
+  source:
+    repository: slime-backend
+    path: config/map_names/root-trail.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.silver-marsh
+  version: v1
+  path: assets/maps/map_names/silver-marsh.yaml
+  sha256: aa9dbf03f30b8428ff173aa8cc83a9c0de61cf2297f52c173f22cc28d9f7ebab
+  source:
+    repository: slime-backend
+    path: config/map_names/silver-marsh.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.stonewarm
+  version: v1
+  path: assets/maps/map_names/stonewarm.yaml
+  sha256: 37f1b6d80672cef2a015c255c46647923d41e53487ca72bf1abe9badb583f9a6
+  source:
+    repository: slime-backend
+    path: config/map_names/stonewarm.yaml
+    operation: 맵 배치·통행 원본 이전
+- managementId: config.map-names.wind-hills
+  version: v1
+  path: assets/maps/map_names/wind-hills.yaml
+  sha256: d2f0a86a30a83677b3a3dddf17b94b8354588557f1921251ad99fdbdad10709c
+  source:
+    repository: slime-backend
+    path: config/map_names/wind-hills.yaml
+    operation: 맵 배치·통행 원본 이전

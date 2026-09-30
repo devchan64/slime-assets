@@ -1,0 +1,21 @@
+managementId: config.field-waypoints.mist-lake
+data:
+  connections:
+  - id: gate
+    name: 서쪽 웨이포인트
+    target: meadow
+    direction: west
+    targetWaypointId: gate-east
+    edgeOffset: center
+  - id: mist-lake-to-reed-crossing
+    name: 북쪽 웨이포인트
+    target: reed-crossing
+    direction: north
+    targetWaypointId: reed-crossing-to-mist-lake
+    edgeOffset: 16
+  - id: mist-lake-to-silver-marsh
+    name: 동쪽 웨이포인트
+    target: silver-marsh
+    direction: east
+    targetWaypointId: silver-marsh-to-mist-lake
+    edgeOffset: 16

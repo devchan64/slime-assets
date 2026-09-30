@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.dry-creek
+data:
+  connections:
+  - id: dry-creek-to-crystal-cut
+    name: 서쪽 웨이포인트
+    target: crystal-cut
+    direction: west
+    targetWaypointId: crystal-cut-to-dry-creek
+    edgeOffset: 16
+  - id: dry-creek-to-pebble-shore
+    name: 북쪽 웨이포인트
+    target: pebble-shore
+    direction: north
+    targetWaypointId: pebble-shore-to-dry-creek
+    edgeOffset: 16

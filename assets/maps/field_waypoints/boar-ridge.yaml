@@ -1,0 +1,21 @@
+managementId: config.field-waypoints.boar-ridge
+data:
+  connections:
+  - id: boar-ridge-to-wind-hills
+    name: 북쪽 웨이포인트
+    target: wind-hills
+    direction: north
+    targetWaypointId: wind-hills-to-boar-ridge
+    edgeOffset: 16
+  - id: boar-ridge-to-broken-quarry
+    name: 동쪽 웨이포인트
+    target: broken-quarry
+    direction: east
+    targetWaypointId: broken-quarry-to-boar-ridge
+    edgeOffset: 16
+  - id: boar-ridge-to-ash-edge
+    name: 서쪽 웨이포인트
+    target: ash-edge
+    direction: west
+    targetWaypointId: ash-edge-to-boar-ridge
+    edgeOffset: 16

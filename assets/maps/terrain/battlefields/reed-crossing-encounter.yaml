@@ -1,0 +1,47 @@
+managementId: config.terrain.battlefields.reed-crossing-encounter
+data:
+  columns: 12
+  rows: 10
+  elevations:
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  elevationTiles: []
+  name: 갈대 여울 조우 전장
+  description: 북서·남동 수역 사이 마른 대각 둑 — 중앙 진입과 측면 우회를 선택
+  terrain:
+  - uuuuuuuuuuuu
+  - uuuuuuuuuuuu
+  - uuuuwwuuuuuu
+  - uuuuuwuuuuuu
+  - uuuuuuuuuuuu
+  - uuuuuuuuuuuu
+  - uuuuuuwuuuuu
+  - uuuffffffuuu
+  - uuuuuuuuuuuu
+  - uuuuuuuuuuuu
+  allySpawns:
+  - - 1
+    - 3
+  - - 1
+    - 4
+  - - 1
+    - 5
+  - - 1
+    - 6
+  enemySpawns:
+  - - 10
+    - 3
+  - - 10
+    - 4
+  - - 10
+    - 5
+  - - 10
+    - 6

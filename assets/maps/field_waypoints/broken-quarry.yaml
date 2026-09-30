@@ -1,0 +1,21 @@
+managementId: config.field-waypoints.broken-quarry
+data:
+  connections:
+  - id: broken-quarry-to-boar-ridge
+    name: 서쪽 웨이포인트
+    target: boar-ridge
+    direction: west
+    targetWaypointId: boar-ridge-to-broken-quarry
+    edgeOffset: 16
+  - id: broken-quarry-to-crystal-cut
+    name: 북쪽 웨이포인트
+    target: crystal-cut
+    direction: north
+    targetWaypointId: crystal-cut-to-broken-quarry
+    edgeOffset: 16
+  - id: broken-quarry-to-stonewarm
+    name: 남쪽 웨이포인트
+    target: stonewarm
+    direction: south
+    targetWaypointId: stonewarm-to-broken-quarry
+    edgeOffset: 16

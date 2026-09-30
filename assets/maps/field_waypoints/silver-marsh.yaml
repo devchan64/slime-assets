@@ -1,0 +1,21 @@
+managementId: config.field-waypoints.silver-marsh
+data:
+  connections:
+  - id: silver-marsh-to-mist-lake
+    name: 서쪽 웨이포인트
+    target: mist-lake
+    direction: west
+    targetWaypointId: mist-lake-to-silver-marsh
+    edgeOffset: 16
+  - id: silver-marsh-to-pebble-shore
+    name: 남쪽 웨이포인트
+    target: pebble-shore
+    direction: south
+    targetWaypointId: pebble-shore-to-silver-marsh
+    edgeOffset: 16
+  - id: silver-marsh-to-lantern-wood
+    name: 북쪽 웨이포인트
+    target: lantern-wood
+    direction: north
+    targetWaypointId: lantern-wood-to-silver-marsh
+    edgeOffset: 16

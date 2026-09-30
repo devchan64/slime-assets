@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.ash-edge
+data:
+  connections:
+  - id: ash-edge-to-boar-ridge
+    name: 동쪽 웨이포인트
+    target: boar-ridge
+    direction: east
+    targetWaypointId: boar-ridge-to-ash-edge
+    edgeOffset: 16
+  - id: ash-edge-to-cinder-path
+    name: 남쪽 웨이포인트
+    target: cinder-path
+    direction: south
+    targetWaypointId: cinder-path-to-ash-edge
+    edgeOffset: 16

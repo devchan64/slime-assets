@@ -1,0 +1,109 @@
+# 자동 생성: scripts/compile_city_layouts.py
+# 원본 SHA256: 3cf041085783f724c9da6451f8b5e04f01790250dfd35ca1323e115f7e83185e
+managementId: config.city-layouts.stonewarm
+data:
+  version: 1
+  cityId: stonewarm
+  columns: 24
+  rows: 24
+  safeTown: true
+  terrainRows:
+  - vvvbbbbbbbvvpvvbbbbbbbvv
+  - vvvbbbbbbbvvpvvbbbbbbbvv
+  - vvvvvvvvvvvvpvvvvvvvvvvv
+  - bbvvvvvvvvvvpvvvvvvvvvbb
+  - bbvvvvvvvvvvpvvvvvvvvvbb
+  - bbvvvvvpvvvvpvvvvpvvvvbb
+  - bbvvvvvpvvvvpvvvvpvvvvbb
+  - bbvvvvvpvvvvpvvvvpvvvvbb
+  - bbvvvvvpppppppppvpvvvvbb
+  - bbvvvvvpppppppppvpvvvvbb
+  - bbvvvvvpppppppppvpvvvvbb
+  - bbvvvvvpppppppppvpvvvvbb
+  - bbvvvvvpppppppppvpvvvvbb
+  - bbvvvvvpppppppppppvvvvbb
+  - bbvvvvvpppppppppvvvvvvbb
+  - bbvvvvvpppppppppvvvvvvbb
+  - bbvvvvvpvvvvpvvvvvvvvvbb
+  - bbvvvvvpvvvvpvvvvvvvvvbb
+  - vvvvvvvpvvvvvvvvvvvvvvbb
+  - vvvvvvvpvvvvvvvvvvvvvvbb
+  - vvvvvvvvvvvvvvvvvvvvvvvv
+  - vvvvvvvvvvvvvvvvvvvvvvvv
+  - vvvvvvvvvvvvvvvvvvvvvvvv
+  - vvvvvvvvvvvvvvvvvvvvvvvv
+  startPoint:
+    column: 12
+    row: 13
+  buildings:
+  - id: stonewarm-guild
+    name: 길드 회관
+    facilityId: stonewarm-guild
+    origin:
+      column: 3
+      row: 4
+    width: 2
+    height: 4
+    floors: 1
+    entrance:
+      column: 5
+      row: 6
+    facing: east
+  - id: stonewarm-bookshop
+    name: 서점
+    facilityId: stonewarm-bookshop
+    origin:
+      column: 18
+      row: 4
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 17
+      row: 5
+    facing: west
+  - id: stonewarm-inn
+    name: 여관
+    facilityId: stonewarm-inn
+    origin:
+      column: 3
+      row: 18
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 5
+      row: 19
+    facing: east
+  - id: stonewarm-workshop
+    name: 대장간·공방
+    facilityId: stonewarm-workshop
+    origin:
+      column: 11
+      row: 18
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 12
+      row: 17
+    facing: north
+  - id: stonewarm-market
+    name: 시장
+    facilityId: stonewarm-market
+    origin:
+      column: 18
+      row: 12
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 17
+      row: 13
+    facing: west
+  connections:
+  - column: 12
+    row: 0
+    id: stonewarm-to-broken-quarry
+    target: broken-quarry
+    direction: north

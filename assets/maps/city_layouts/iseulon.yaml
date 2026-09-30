@@ -1,0 +1,119 @@
+# 자동 생성: scripts/compile_city_layouts.py
+# 원본 SHA256: 0b80ca6eac65db254a340d4c31a91b65514be54e92aae11ea767a16c938c99d3
+managementId: config.city-layouts.iseulon
+data:
+  version: 1
+  cityId: iseulon
+  columns: 24
+  rows: 24
+  safeTown: true
+  terrainRows:
+  - gggggggggggggggggggggggg
+  - gggggggggggggggggggggggg
+  - gggggggggggggggggggggggg
+  - gggggggggggggggggggggggg
+  - gggggggggggggggggggggggg
+  - gggggggggggggggggggggggg
+  - gggggggggggggggggggggggg
+  - ggggggpppppppppppppggggg
+  - ggggggpppppppppppppggggg
+  - ggggggggppppppppgggggggg
+  - ggggggggpppwwpppgggggggg
+  - ggggggggpppwwpppgggggggg
+  - ggggggggppppppppgggggggg
+  - ggggggggppppppppgggggggg
+  - ggggggggppppppppgggggggg
+  - gggggggppppppppppggggggg
+  - gggggggppppppppppggggggg
+  - gggggggggggppggggggggggg
+  - gggggggggggppppppppggggg
+  - gggggggggggppggggggggggg
+  - gggggggggggppggggggggggg
+  - gggggggggggppggggggggggg
+  - gggggggggggppggggggggggg
+  - gggggggggggppggggggggggg
+  startPoint:
+    column: 12
+    row: 13
+  buildings:
+  - id: iseulon-guild
+    name: 길드 회관
+    facilityId: iseulon-guild
+    origin:
+      column: 5
+      row: 4
+    width: 2
+    height: 3
+    floors: 2
+    entrance:
+      column: 6
+      row: 7
+    facing: south
+  - id: iseulon-bookshop
+    name: 서점
+    facilityId: iseulon-bookshop
+    origin:
+      column: 17
+      row: 4
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 18
+      row: 7
+    facing: south
+  - id: iseulon-inn
+    name: 여관
+    facilityId: iseulon-inn
+    origin:
+      column: 3
+      row: 15
+    width: 4
+    height: 3
+    floors: 1
+    entrance:
+      column: 7
+      row: 16
+    facing: east
+  - id: iseulon-workshop
+    name: 대장간·공방
+    facilityId: iseulon-workshop
+    origin:
+      column: 17
+      row: 14
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 16
+      row: 15
+    facing: west
+  - id: iseulon-market
+    name: 시장
+    facilityId: iseulon-market
+    origin:
+      column: 17
+      row: 19
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 18
+      row: 18
+    facing: north
+  connections:
+  - column: 0
+    row: 12
+    id: iseulon-to-moss-clearing
+    target: moss-clearing
+    direction: west
+  - column: 23
+    row: 12
+    id: iseulon-to-lantern-wood
+    target: lantern-wood
+    direction: east
+  - column: 12
+    row: 23
+    id: iseulon-to-meadow
+    target: meadow
+    direction: south

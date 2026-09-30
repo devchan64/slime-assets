@@ -1,0 +1,109 @@
+# 자동 생성: scripts/compile_city_layouts.py
+# 원본 SHA256: 6e4bb34c49dde35f391c667f8146017f4b565510c78e223cbb57ffdc3a2c7fa4
+managementId: config.city-layouts.reedhaven
+data:
+  version: 1
+  cityId: reedhaven
+  columns: 24
+  rows: 24
+  safeTown: true
+  terrainRows:
+  - gggggggggggggggggggwwwww
+  - gggggggggggggggggggwwwww
+  - gggggggggggggggggrrwwwww
+  - gggggggggggggggggrrwwwww
+  - gggggggggggggggggrrwwwww
+  - gggggggggggggggggrrwwwww
+  - gggggpggggggpggggrrwwwww
+  - gggggpgpppppppppprrwwwww
+  - gggggpgpppppppppprrwwwww
+  - gggggpgppppppppppggwwwww
+  - gggggpgppppppppppggwwwww
+  - pppppppppppppppppppwwwww
+  - pppppppppppppppppppwwwww
+  - pppppppppppppppppppwwwww
+  - gggggggppppppppppggwwwww
+  - gggggggpgggggpgggggwwwww
+  - gggggggpgggggggggggwwwww
+  - gggggggpgggggggggrrwwwww
+  - gggggggpgggggggggrrwwwww
+  - gggggggggggggggggrrwwwww
+  - gggggggggggggggggrrwwwww
+  - gggggggggggggggggrrwwwww
+  - gggggggggggggggggrrwwwww
+  - gggggggggggggggggggwwwww
+  startPoint:
+    column: 12
+    row: 13
+  buildings:
+  - id: reedhaven-guild
+    name: 길드 회관
+    facilityId: reedhaven-guild
+    origin:
+      column: 4
+      row: 4
+    width: 2
+    height: 2
+    floors: 1
+    entrance:
+      column: 5
+      row: 6
+    facing: south
+  - id: reedhaven-bookshop
+    name: 서점
+    facilityId: reedhaven-bookshop
+    origin:
+      column: 11
+      row: 3
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 12
+      row: 6
+    facing: south
+  - id: reedhaven-inn
+    name: 여관
+    facilityId: reedhaven-inn
+    origin:
+      column: 5
+      row: 17
+    width: 2
+    height: 6
+    floors: 1
+    entrance:
+      column: 7
+      row: 18
+    facing: east
+  - id: reedhaven-workshop
+    name: 대장간·공방
+    facilityId: reedhaven-workshop
+    origin:
+      column: 12
+      row: 16
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 13
+      row: 15
+    facing: north
+  - id: reedhaven-market
+    name: 시장
+    facilityId: reedhaven-market
+    origin:
+      column: 11
+      row: 8
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 12
+      row: 11
+    facing: south
+  connections:
+  - column: 0
+    row: 12
+    id: reedhaven-to-reed-crossing
+    target: reed-crossing
+    direction: west

@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.old-orchard
+data:
+  connections:
+  - id: old-orchard-to-grove
+    name: 동쪽 웨이포인트
+    target: grove
+    direction: east
+    targetWaypointId: grove-to-old-orchard
+    edgeOffset: 16
+  - id: old-orchard-to-clover-bank
+    name: 남쪽 웨이포인트
+    target: clover-bank
+    direction: south
+    targetWaypointId: clover-bank-to-old-orchard
+    edgeOffset: 16

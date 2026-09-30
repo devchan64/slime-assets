@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.moss-clearing
+data:
+  connections:
+  - id: moss-clearing-to-root-trail
+    name: 남쪽 웨이포인트
+    target: root-trail
+    direction: south
+    targetWaypointId: root-trail-to-moss-clearing
+    edgeOffset: 16
+  - id: moss-clearing-to-iseulon
+    name: 동쪽 웨이포인트
+    target: iseulon
+    direction: east
+    targetWaypointId: iseulon-to-moss-clearing
+    edgeOffset: 16

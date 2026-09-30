@@ -1,0 +1,9 @@
+managementId: config.field-waypoints.dawn-overlook
+data:
+  connections:
+  - id: dawn-overlook-to-fallen-canopy
+    name: 북쪽 웨이포인트
+    target: fallen-canopy
+    direction: north
+    targetWaypointId: fallen-canopy-to-dawn-overlook
+    edgeOffset: 16

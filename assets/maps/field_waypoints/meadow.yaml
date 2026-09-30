@@ -1,0 +1,27 @@
+managementId: config.field-waypoints.meadow
+data:
+  connections:
+  - id: gate
+    name: 서쪽 웨이포인트
+    target: grove
+    direction: west
+    targetWaypointId: gate-east
+    edgeOffset: 2
+  - id: gate-east
+    name: 동쪽 웨이포인트
+    target: mist-lake
+    direction: east
+    targetWaypointId: gate
+    edgeOffset: center
+  - id: gate-south
+    name: 남쪽 웨이포인트
+    target: wind-hills
+    direction: south
+    targetWaypointId: gate-north
+    edgeOffset: center
+  - id: gate-north
+    name: 북쪽 웨이포인트
+    target: iseulon
+    direction: north
+    targetWaypointId: iseulon-to-meadow
+    edgeOffset: center

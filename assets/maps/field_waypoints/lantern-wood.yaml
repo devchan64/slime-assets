@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.lantern-wood
+data:
+  connections:
+  - id: lantern-wood-to-iseulon
+    name: 서쪽 웨이포인트
+    target: iseulon
+    direction: west
+    targetWaypointId: iseulon-to-lantern-wood
+    edgeOffset: 16
+  - id: lantern-wood-to-silver-marsh
+    name: 남쪽 웨이포인트
+    target: silver-marsh
+    direction: south
+    targetWaypointId: silver-marsh-to-lantern-wood
+    edgeOffset: 16

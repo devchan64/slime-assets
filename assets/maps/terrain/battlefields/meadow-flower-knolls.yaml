@@ -1,0 +1,83 @@
+managementId: config.terrain.battlefields.meadow-flower-knolls
+data:
+  columns: 12
+  rows: 10
+  elevations:
+  - '000000000000'
+  - '000000000000'
+  - '001111000000'
+  - '001111011110'
+  - '001111011110'
+  - '001111011110'
+  - '001111011110'
+  - '000000011110'
+  - '000000000000'
+  - '000000000000'
+  name: 들꽃 둔덕
+  description: 꽃밭 속 수풀 섬을 사이에 두고 진입로를 선택하는 전장.
+  terrain:
+  - ffffffffffff
+  - pppppppppppp
+  - ffffffffffff
+  - fffttfffffff
+  - fffftfffffff
+  - ffffffftffff
+  - fffffffttfff
+  - ffffffffffff
+  - pppppppppppp
+  - ffffffffffff
+  allySpawns:
+  - - 1
+    - 3
+  - - 1
+    - 4
+  - - 1
+    - 5
+  - - 1
+    - 6
+  enemySpawns:
+  - - 10
+    - 3
+  - - 10
+    - 4
+  - - 10
+    - 5
+  - - 10
+    - 6
+  elevationTiles:
+  - id: meadow-flower-knolls-link-1
+    kind: stairs
+    asset: stone-step-tile
+    cell:
+    - 2
+    - 2
+    lower:
+    - 2
+    - 1
+  - id: meadow-flower-knolls-link-2
+    kind: stairs
+    asset: stone-step-tile
+    cell:
+    - 5
+    - 6
+    lower:
+    - 6
+    - 6
+  - id: meadow-flower-knolls-link-3
+    kind: stairs
+    asset: stone-step-tile
+    cell:
+    - 7
+    - 4
+    lower:
+    - 6
+    - 4
+  - id: meadow-flower-knolls-link-4
+    kind: stairs
+    asset: stone-step-tile
+    cell:
+    - 10
+    - 7
+    lower:
+    - 10
+    - 8

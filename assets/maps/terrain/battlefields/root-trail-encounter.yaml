@@ -1,0 +1,47 @@
+managementId: config.terrain.battlefields.root-trail-encounter
+data:
+  columns: 12
+  rows: 10
+  elevations:
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  elevationTiles: []
+  name: 뿌리 오솔길 조우 전장
+  description: 엇갈린 뿌리 군락 사이로 연결되는 작은 통로 — 중앙 진입과 측면 우회를 선택
+  terrain:
+  - mmmmmmmmmmmm
+  - mmmmmymmmmmm
+  - mmmymymmmmmm
+  - mmmmmmmmmmmm
+  - mmmffffffmmm
+  - mmmmmmmmmmmm
+  - mmmmmmmmmmmm
+  - mmmmmymmmmmm
+  - mmmmmymmmmmm
+  - mmmmmmmmmmmm
+  allySpawns:
+  - - 1
+    - 3
+  - - 1
+    - 4
+  - - 1
+    - 5
+  - - 1
+    - 6
+  enemySpawns:
+  - - 10
+    - 3
+  - - 10
+    - 4
+  - - 10
+    - 5
+  - - 10
+    - 6

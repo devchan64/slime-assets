@@ -1,0 +1,47 @@
+managementId: config.terrain.battlefields.boar-ridge-encounter
+data:
+  columns: 12
+  rows: 10
+  elevations:
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  elevationTiles: []
+  name: 강모 능선 조우 전장
+  description: 두 세로 능선과 중앙 횡단 틈 — 중앙 진입과 측면 우회를 선택
+  terrain:
+  - ssssssssssss
+  - ssbppppppsss
+  - sssssbssssss
+  - ssssssssssss
+  - ssssssssssss
+  - ssssssssssss
+  - ssssssssssss
+  - sssssbssssss
+  - sssssbssssss
+  - ssssssssssss
+  allySpawns:
+  - - 1
+    - 3
+  - - 1
+    - 4
+  - - 1
+    - 5
+  - - 1
+    - 6
+  enemySpawns:
+  - - 10
+    - 3
+  - - 10
+    - 4
+  - - 10
+    - 5
+  - - 10
+    - 6

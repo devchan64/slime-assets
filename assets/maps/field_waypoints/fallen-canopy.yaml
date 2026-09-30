@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.fallen-canopy
+data:
+  connections:
+  - id: fallen-canopy-to-cinder-path
+    name: 동쪽 웨이포인트
+    target: cinder-path
+    direction: east
+    targetWaypointId: cinder-path-to-fallen-canopy
+    edgeOffset: 16
+  - id: fallen-canopy-to-dawn-overlook
+    name: 남쪽 웨이포인트
+    target: dawn-overlook
+    direction: south
+    targetWaypointId: dawn-overlook-to-fallen-canopy
+    edgeOffset: 16

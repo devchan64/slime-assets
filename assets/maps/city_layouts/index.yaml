@@ -1,0 +1,9 @@
+# 자동 생성: scripts/compile_city_layouts.py
+managementId: config.city-layouts.index
+data:
+  version: 1
+  includes:
+    layouts:
+      iseulon: iseulon.yaml
+      reedhaven: reedhaven.yaml
+      stonewarm: stonewarm.yaml

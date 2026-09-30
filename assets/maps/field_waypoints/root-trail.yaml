@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.root-trail
+data:
+  connections:
+  - id: root-trail-to-grove
+    name: 남쪽 웨이포인트
+    target: grove
+    direction: south
+    targetWaypointId: grove-to-root-trail
+    edgeOffset: 16
+  - id: root-trail-to-moss-clearing
+    name: 북쪽 웨이포인트
+    target: moss-clearing
+    direction: north
+    targetWaypointId: moss-clearing-to-root-trail
+    edgeOffset: 16

@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.reed-crossing
+data:
+  connections:
+  - id: reed-crossing-to-mist-lake
+    name: 남쪽 웨이포인트
+    target: mist-lake
+    direction: south
+    targetWaypointId: mist-lake-to-reed-crossing
+    edgeOffset: 16
+  - id: reed-crossing-to-reedhaven
+    name: 동쪽 웨이포인트
+    target: reedhaven
+    direction: east
+    targetWaypointId: reedhaven-to-reed-crossing
+    edgeOffset: 16
