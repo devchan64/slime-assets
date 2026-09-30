@@ -925,9 +925,9 @@ assets:
     path: config/field_tiles/clover-bank.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.codes
-  version: v3
+  version: v4
   path: assets/maps/field_tiles/codes.yaml
-  sha256: f78b2d1c8f0e795c835e633fc0b4c777479915f9bb682effdfc64f288aac3be8
+  sha256: 40f1e01633bd93fc3e20381caa08ced0892a10d18f8f20e5878ae2a0158985da
   source:
     repository: slime-backend
     path: config/field_tiles/codes.yaml
@@ -949,9 +949,9 @@ assets:
     path: config/field_tiles/dawn-overlook.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.dry-creek
-  version: v1
+  version: v2
   path: assets/maps/field_tiles/dry-creek.yaml
-  sha256: 60e998ed8cdb5c0936f5c79a99fe54bb4a533b4efc7c6b652e6bd8414484756f
+  sha256: ad3c2e2609abd6d5d1d4e8df92fa3c843745aeb7bb224759958cfd8406ae9e5a
   source:
     repository: slime-backend
     path: config/field_tiles/dry-creek.yaml
@@ -1984,3 +1984,12 @@ assets:
     sourceGenerationId: 2026-09-30_20-57-36-5a294f5e
     output: result.png
     approval: 사용자 깊은 물 타일 등록·맵 적용 승인
+- managementId: image.terrain.dry-soil-branches
+  version: v1
+  path: assets/tiles/terrain/non-road/dry-soil-branches-v1.png
+  sha256: d8971343804d7b4e31529533cc799b79f5f85b4b930ff668b4665048883567ec
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_22-47-08-bf132882
+    output: single-tile.png
+    approval: 사용자 정식 타일 등록·맵 적용 승인
