@@ -1,9 +1,9 @@
 {
   "animationId": "monster.reed-crawler.idle",
-  "version": "1.down-left-v1",
+  "version": "2.imagegen-eight-frames",
   "sheet": {
-    "width": 1256,
-    "height": 313
+    "width": 1774,
+    "height": 887
   },
   "frames": [
     {
@@ -11,51 +11,103 @@
       "rect": {
         "x": 0,
         "y": 0,
-        "width": 313,
-        "height": 313
+        "width": 444,
+        "height": 414
       },
       "anchor": {
-        "x": 156.5,
-        "y": 256.65999999999997
+        "x": 214.0,
+        "y": 411
       }
     },
     {
       "frameId": "down_left.1",
       "rect": {
-        "x": 314,
+        "x": 444,
         "y": 0,
-        "width": 314,
-        "height": 313
+        "width": 443,
+        "height": 414
       },
       "anchor": {
-        "x": 157.0,
-        "y": 256.65999999999997
+        "x": 221.5,
+        "y": 411
       }
     },
     {
       "frameId": "down_left.2",
       "rect": {
-        "x": 628,
+        "x": 887,
         "y": 0,
-        "width": 313,
-        "height": 313
+        "width": 443,
+        "height": 414
       },
       "anchor": {
-        "x": 156.5,
-        "y": 256.65999999999997
+        "x": 215.5,
+        "y": 413
       }
     },
     {
       "frameId": "down_left.3",
       "rect": {
-        "x": 942,
+        "x": 1330,
         "y": 0,
-        "width": 314,
-        "height": 313
+        "width": 444,
+        "height": 414
       },
       "anchor": {
-        "x": 157.0,
-        "y": 256.65999999999997
+        "x": 213.5,
+        "y": 411
+      }
+    },
+    {
+      "frameId": "down_left.4",
+      "rect": {
+        "x": 0,
+        "y": 414,
+        "width": 444,
+        "height": 473
+      },
+      "anchor": {
+        "x": 219.5,
+        "y": 437
+      }
+    },
+    {
+      "frameId": "down_left.5",
+      "rect": {
+        "x": 444,
+        "y": 414,
+        "width": 443,
+        "height": 473
+      },
+      "anchor": {
+        "x": 221.5,
+        "y": 438
+      }
+    },
+    {
+      "frameId": "down_left.6",
+      "rect": {
+        "x": 887,
+        "y": 414,
+        "width": 443,
+        "height": 473
+      },
+      "anchor": {
+        "x": 212.5,
+        "y": 438
+      }
+    },
+    {
+      "frameId": "down_left.7",
+      "rect": {
+        "x": 1330,
+        "y": 414,
+        "width": 444,
+        "height": 473
+      },
+      "anchor": {
+        "x": 213.0,
+        "y": 438
       }
     }
   ],
@@ -79,6 +131,22 @@
         },
         {
           "frameId": "down_left.3",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.4",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.5",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.6",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.7",
           "durationMs": 125
         }
       ],

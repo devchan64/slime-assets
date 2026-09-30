@@ -1,9 +1,9 @@
 {
   "animationId": "monster.ridge-boar.idle",
-  "version": "1.down-left-v1",
+  "version": "2.imagegen-eight-frames",
   "sheet": {
-    "width": 1256,
-    "height": 313
+    "width": 1774,
+    "height": 887
   },
   "frames": [
     {
@@ -11,51 +11,103 @@
       "rect": {
         "x": 0,
         "y": 0,
-        "width": 313,
-        "height": 313
+        "width": 444,
+        "height": 424
       },
       "anchor": {
-        "x": 156.5,
-        "y": 256.65999999999997
+        "x": 220.0,
+        "y": 423
       }
     },
     {
       "frameId": "down_left.1",
       "rect": {
-        "x": 314,
+        "x": 444,
         "y": 0,
-        "width": 314,
-        "height": 313
+        "width": 443,
+        "height": 424
       },
       "anchor": {
-        "x": 157.0,
-        "y": 256.65999999999997
+        "x": 217.0,
+        "y": 423
       }
     },
     {
       "frameId": "down_left.2",
       "rect": {
-        "x": 628,
+        "x": 887,
         "y": 0,
-        "width": 313,
-        "height": 313
+        "width": 443,
+        "height": 424
       },
       "anchor": {
-        "x": 156.5,
-        "y": 256.65999999999997
+        "x": 206.5,
+        "y": 423
       }
     },
     {
       "frameId": "down_left.3",
       "rect": {
-        "x": 942,
+        "x": 1330,
         "y": 0,
-        "width": 314,
-        "height": 313
+        "width": 444,
+        "height": 424
       },
       "anchor": {
-        "x": 157.0,
-        "y": 256.65999999999997
+        "x": 217.0,
+        "y": 423
+      }
+    },
+    {
+      "frameId": "down_left.4",
+      "rect": {
+        "x": 0,
+        "y": 424,
+        "width": 444,
+        "height": 463
+      },
+      "anchor": {
+        "x": 220.5,
+        "y": 439
+      }
+    },
+    {
+      "frameId": "down_left.5",
+      "rect": {
+        "x": 444,
+        "y": 424,
+        "width": 443,
+        "height": 463
+      },
+      "anchor": {
+        "x": 217.0,
+        "y": 439
+      }
+    },
+    {
+      "frameId": "down_left.6",
+      "rect": {
+        "x": 887,
+        "y": 424,
+        "width": 443,
+        "height": 463
+      },
+      "anchor": {
+        "x": 210.0,
+        "y": 439
+      }
+    },
+    {
+      "frameId": "down_left.7",
+      "rect": {
+        "x": 1330,
+        "y": 424,
+        "width": 444,
+        "height": 463
+      },
+      "anchor": {
+        "x": 218.0,
+        "y": 439
       }
     }
   ],
@@ -79,6 +131,22 @@
         },
         {
           "frameId": "down_left.3",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.4",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.5",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.6",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.7",
           "durationMs": 125
         }
       ],

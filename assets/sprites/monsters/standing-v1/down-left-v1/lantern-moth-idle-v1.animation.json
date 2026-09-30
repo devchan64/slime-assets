@@ -1,9 +1,9 @@
 {
   "animationId": "monster.lantern-moth.idle",
-  "version": "1.down-left-v1",
+  "version": "2.imagegen-eight-frames",
   "sheet": {
-    "width": 1256,
-    "height": 313
+    "width": 1774,
+    "height": 887
   },
   "frames": [
     {
@@ -11,51 +11,103 @@
       "rect": {
         "x": 0,
         "y": 0,
-        "width": 313,
-        "height": 313
+        "width": 445,
+        "height": 444
       },
       "anchor": {
-        "x": 156.5,
-        "y": 256.65999999999997
+        "x": 180,
+        "y": 395
       }
     },
     {
       "frameId": "down_left.1",
       "rect": {
-        "x": 314,
+        "x": 445,
         "y": 0,
-        "width": 314,
-        "height": 313
+        "width": 442,
+        "height": 444
       },
       "anchor": {
-        "x": 157.0,
-        "y": 256.65999999999997
+        "x": 175,
+        "y": 395
       }
     },
     {
       "frameId": "down_left.2",
       "rect": {
-        "x": 628,
+        "x": 887,
         "y": 0,
-        "width": 313,
-        "height": 313
+        "width": 443,
+        "height": 444
       },
       "anchor": {
-        "x": 156.5,
-        "y": 256.65999999999997
+        "x": 171,
+        "y": 395
       }
     },
     {
       "frameId": "down_left.3",
       "rect": {
-        "x": 942,
+        "x": 1330,
         "y": 0,
-        "width": 314,
-        "height": 313
+        "width": 444,
+        "height": 444
       },
       "anchor": {
-        "x": 157.0,
-        "y": 256.65999999999997
+        "x": 170,
+        "y": 395
+      }
+    },
+    {
+      "frameId": "down_left.4",
+      "rect": {
+        "x": 0,
+        "y": 444,
+        "width": 480,
+        "height": 443
+      },
+      "anchor": {
+        "x": 200,
+        "y": 359
+      }
+    },
+    {
+      "frameId": "down_left.5",
+      "rect": {
+        "x": 480,
+        "y": 444,
+        "width": 430,
+        "height": 443
+      },
+      "anchor": {
+        "x": 155,
+        "y": 359
+      }
+    },
+    {
+      "frameId": "down_left.6",
+      "rect": {
+        "x": 910,
+        "y": 444,
+        "width": 430,
+        "height": 443
+      },
+      "anchor": {
+        "x": 160,
+        "y": 359
+      }
+    },
+    {
+      "frameId": "down_left.7",
+      "rect": {
+        "x": 1340,
+        "y": 444,
+        "width": 434,
+        "height": 443
+      },
+      "anchor": {
+        "x": 178,
+        "y": 359
       }
     }
   ],
@@ -79,6 +131,22 @@
         },
         {
           "frameId": "down_left.3",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.4",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.5",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.6",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.7",
           "durationMs": 125
         }
       ],
