@@ -605,10 +605,10 @@ assets:
     extractedFromPath: assets/sprites/monsters/standing-v1/beast-idle-v2.png
     extractedFromSha256: 6997eff87fe99d43234bd0a88d947aa84b94a6f1dd9d8fc2ec67fc72332eb3e5
 - managementId: sprite.metadata.monsters.standing-v1.catalog.yaml
-  version: down-left-v1
+  version: slime-idle-v2
   path: assets/sprites/monsters/standing-v1/catalog.yaml
   frontend_path: src/assets/monsters/standing-v1/catalog.yaml
-  sha256: 7c84c55d9823018229423ca9643d38bc90c4f545854a53039f20d2be725e16d5
+  sha256: 51169e77071aac0c772729b3b6a7b3f3a51460bb9cb6de4b5becb92437e53565
   source:
     repository: slime-frontend
     commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
@@ -746,27 +746,31 @@ assets:
     extractedFromPath: assets/sprites/monsters/standing-v1/ridge-boar-idle-v1.png
     extractedFromSha256: 93048924dda465939995fae42bc4edb939fcf3cc4474293f323bb1bbf3c8ed9b
 - managementId: sprite.metadata.monsters.standing-v1.slime-idle-v1.animation.json
-  version: down-left-v1
-  path: assets/sprites/monsters/standing-v1/down-left-v1/slime-idle-v1.animation.json
+  version: '2'
+  path: assets/sprites/monsters/standing-v1/down-left-v1/slime-idle-v2.animation.json
   frontend_path: src/assets/monsters/standing-v1/slime-idle-v1.animation.json
-  sha256: ae0b91aeb3061e12d54ce09d8cf64ef62fc4083a020f5d4e08d9852e00e15c3a
+  sha256: 93918eb04e4e4703d3c94ff93c11056694d22d97977bcaa8f09bbe41c7f701fa
   source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/monsters/standing-v1/slime-idle-v1.animation.json
-    extractedFromPath: assets/sprites/monsters/standing-v1/slime-idle-v1.animation.json
-    extractedFromSha256: 7e90dec75f45e4009d17a68d773fef4050321b79e3b795875481a8bfe262ed2d
+    repository: slime-workflow
+    generationId: slime-idle-imagegen/2026-09-30_08-58-51
+    tool: image_gen built-in
+    referenceSha256: 52ef66df3ec44f25742135e8f03708ba42068f45f4a8c1c1c5fa7438e35e3ec6
+    generatedSha256: 19fbc56f15519962e5a027d712bcbd749e1c0eb8eac168a2035ddbe94e781a9c
+    operation: 8프레임 공통 배율·바닥 정렬, 256px 셀, 8fps
+    approval: 사용자 8프레임 슬라임 교체 적용 승인
 - managementId: image.frontend.src.assets.monsters.standing-v1.slime-idle-v1.png
-  version: down-left-v1
-  path: assets/sprites/monsters/standing-v1/down-left-v1/slime-idle-v1.png
+  version: '2'
+  path: assets/sprites/monsters/standing-v1/down-left-v1/slime-idle-v2.png
   frontend_path: src/assets/monsters/standing-v1/slime-idle-v1.png
-  sha256: 52ef66df3ec44f25742135e8f03708ba42068f45f4a8c1c1c5fa7438e35e3ec6
+  sha256: e1f502d736925c3230bcc17c692753a1ed569f50ce17264df3d71d1906451aa9
   source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/monsters/standing-v1/slime-idle-v1.png
-    extractedFromPath: assets/sprites/monsters/standing-v1/slime-idle-v1.png
-    extractedFromSha256: 49f3406198138dde492cadfc46fae245e84652ae25642ff1c1b3a21cfbddfdea
+    repository: slime-workflow
+    generationId: slime-idle-imagegen/2026-09-30_08-58-51
+    tool: image_gen built-in
+    referenceSha256: 52ef66df3ec44f25742135e8f03708ba42068f45f4a8c1c1c5fa7438e35e3ec6
+    generatedSha256: 19fbc56f15519962e5a027d712bcbd749e1c0eb8eac168a2035ddbe94e781a9c
+    operation: 8프레임 공통 배율·바닥 정렬, 256px 셀, 8fps
+    approval: 사용자 8프레임 슬라임 교체 적용 승인
 - managementId: sprite.metadata.monsters.standing-v1.stone-crab-idle-v1.animation.json
   version: down-left-v1
   path: assets/sprites/monsters/standing-v1/down-left-v1/stone-crab-idle-v1.animation.json
