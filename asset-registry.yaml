@@ -117,15 +117,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/flowers-v3.webp
-- managementId: image.frontend.src.assets.terrain.grass-v3.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/grass-v3.png
-  frontend_path: src/assets/terrain/grass-v3.png
-  sha256: 065dbb4f83c8e8edb889f20cb7559950c83eb7b1f70e22389dcc116d9479a9f1
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/grass-v3.png
 - managementId: image.frontend.src.assets.terrain.meadow-backdrop-v2.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/non-road/meadow-backdrop-v2.webp
@@ -216,24 +207,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/isloon/buildings/marble-small-window-wall-v1.png
-- managementId: image.world.isloon.grass-mud-frame-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/grass-mud-frame-v1.png
-  frontend_path: src/assets/world/isloon/terrain/grass-mud-frame-v1.png
-  sha256: ddaa5af6d107e96b2f81df66f4f67dee98308e4d759a821759312ba5e96bf6dd
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/terrain/grass-mud-frame-v1.png
-- managementId: metadata.frontend.src.assets.world.isloon.terrain.grass-mud-frame-v1.source.json
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/grass-mud-frame-v1.source.json
-  frontend_path: src/assets/world/isloon/terrain/grass-mud-frame-v1.source.json
-  sha256: ddad4598230c16e24755a4af226404d136ccd126a9222401e30785454b2c2c64
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/terrain/grass-mud-frame-v1.source.json
 - managementId: image.frontend.src.assets.world.isloon.terrain.limestone-floor-type-a-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/road/limestone-floor-type-a-v1.png
@@ -811,24 +784,6 @@ assets:
     repository: slime-frontend
     commit: 5ae07ea2f4b69c1a7376967d8dea450f72569936
     path: src/assets/characters/default/cutins/default-punch-v1.png
-- managementId: image.frontend.src.assets.terrain.grass-v4.png
-  version: 427f2b1106970466b3a21688a26f5ba89859cfb6
-  path: assets/tiles/terrain/non-road/grass-v4.png
-  frontend_path: src/assets/terrain/grass-v4.png
-  sha256: d93edbf5ee109ba3d614ae0292135bd8722a4e15ecb637b5747759850afb093a
-  source:
-    repository: slime-frontend
-    commit: 427f2b1106970466b3a21688a26f5ba89859cfb6
-    path: src/assets/terrain/grass-v4.png
-- managementId: metadata.frontend.src.assets.terrain.grass-v4.source.json
-  version: 427f2b1106970466b3a21688a26f5ba89859cfb6
-  path: assets/tiles/terrain/non-road/grass-v4.source.json
-  frontend_path: src/assets/terrain/grass-v4.source.json
-  sha256: 5e2c1e866f2245c0f6dccd75a76fb75675c118695bdea24222f989f4857b5a89
-  source:
-    repository: slime-frontend
-    commit: 427f2b1106970466b3a21688a26f5ba89859cfb6
-    path: src/assets/terrain/grass-v4.source.json
 - managementId: sprite.metadata.characters.default.walk-v2.source.yaml
   version: down-left-v1
   path: assets/sprites/characters/default/walk-v2/down-left-v1/source.yaml
@@ -901,3 +856,15 @@ assets:
     processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
     approval: 사용자 벽돌 도로 타일 채택
   license: 별도 재사용 허가 미부여
+- managementId: image.terrain.grass
+  version: v5
+  path: assets/tiles/terrain/non-road/grass-v5.png
+  frontend_path: src/assets/terrain/grass-v5.png
+  sha256: 2ecfa4037acbd97ea2e29f2836479a23be689dff32334ac8d41487661a3dc49a
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_16-59-52-3aef866b
+    stage: stage-3-redraw
+    output: single-tile.png
+    operation: 9칸 생성·중앙 몰딩 기계식 크롭·512 참조 재생성
+    approval: 사용자 잔디·잔디 진흙·유사 잔디 통합 승인
