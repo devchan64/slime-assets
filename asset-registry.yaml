@@ -2288,3 +2288,25 @@ assets:
       output_size:
       - 256
       - 256
+- managementId: image.terrain.dry-soil-grass
+  version: v1
+  path: assets/tiles/terrain/non-road/dry-soil-grass-v1.png
+  name: 마른 흙과 마른 잔디
+  width: 256
+  height: 256
+  sha256: 096fa2694e5c532d84ad7bfcf3aab777e4f4fc83b180dc17885d2b283a833f02
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_23-26-30-b5fb354f
+    output: single-tile.png
+    approval: 사용자 맵 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: e2902711ffcee111f97018809f816c951b2a82a7dd1f8e9e1dd861491649b9b4
+      output_size:
+      - 256
+      - 256
