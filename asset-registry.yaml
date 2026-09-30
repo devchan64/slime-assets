@@ -135,24 +135,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/road-v3.webp
-- managementId: image.frontend.src.assets.terrain.water-v3.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/blocked/water-v3.png
-  frontend_path: src/assets/terrain/water-v3.png
-  sha256: 14294b9c0d4651fd0eff58e98013acc950fb073c43414b7b5985eecc169a7773
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/water-v3.png
-- managementId: image.frontend.src.assets.terrain.water-v3.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/blocked/water-v3.webp
-  frontend_path: src/assets/terrain/water-v3.webp
-  sha256: fce409971bb0dd69502b306d6e9f5627a656ca44a4ccdaf75255daeac54c4f5b
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/water-v3.webp
 - managementId: image.frontend.src.assets.world.isloon.buildings.marble-large-window-wall-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/buildings/marble/marble-large-window-wall-v1.png
@@ -897,17 +879,17 @@ assets:
     path: config/city_layouts/index.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.iseulon
-  version: v1
+  version: v2
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: fd1f74ed40dc59fba22b71ffe975efdceb3a81e66cd76c5246754602f41bd236
+  sha256: 41a0d671b4bdc03884ef82eebf94cc90258a427e13e8544991967b9e2110b1c5
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.reedhaven
-  version: v1
+  version: v2
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 9a8ecf9913a22829e550475d4fb4d5f7f448c05ced9916e40dc8656ee952a37b
+  sha256: 4e7f5043e824d834ef48602917cefbbfb11a32b25065537b89c7527eb9b9fdc0
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -961,9 +943,9 @@ assets:
     path: config/field_tiles/clover-bank.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.codes
-  version: v1
+  version: v3
   path: assets/maps/field_tiles/codes.yaml
-  sha256: 01d49f03347814df4c8482e9fe4deef399268b25c253b3c9a020520ef7497c0e
+  sha256: f78b2d1c8f0e795c835e633fc0b4c777479915f9bb682effdfc64f288aac3be8
   source:
     repository: slime-backend
     path: config/field_tiles/codes.yaml
@@ -1057,17 +1039,17 @@ assets:
     path: config/field_tiles/old-orchard.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.pebble-shore
-  version: v1
+  version: v2
   path: assets/maps/field_tiles/pebble-shore.yaml
-  sha256: 820fefd8aeaa05610b02b0984d67d34fc90db0d4c49a461f4d3bef4db47a0530
+  sha256: 5b62793d708bb26a6be631ed1b7280514927118c83a01e6c60af65a931d52466
   source:
     repository: slime-backend
     path: config/field_tiles/pebble-shore.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.reed-crossing
-  version: v1
+  version: v3
   path: assets/maps/field_tiles/reed-crossing.yaml
-  sha256: a2f7cf9db71965eb5b6eba3a6f041fb5340c8b67e4edfef89dd1059883664c31
+  sha256: b5ed858c5f4e85e9d4b11693c11b15b833478b7bd8e5b2818b7a58c8a544026e
   source:
     repository: slime-backend
     path: config/field_tiles/reed-crossing.yaml
@@ -1081,9 +1063,9 @@ assets:
     path: config/field_tiles/root-trail.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.silver-marsh
-  version: v1
+  version: v2
   path: assets/maps/field_tiles/silver-marsh.yaml
-  sha256: 5b491b00cc46e704602c621704ce3205386d45005619629b8fd84f373db98603
+  sha256: ed2c8ca8c07b012b02a6a8c1c487b4217c96fdffa6647f310580de92c5c76656
   source:
     repository: slime-backend
     path: config/field_tiles/silver-marsh.yaml
@@ -2000,3 +1982,23 @@ assets:
     repository: slime-backend
     path: config/map_names/wind-hills.yaml
     operation: 맵 배치·통행 원본 이전
+- managementId: image.terrain.shallow-water
+  version: v1
+  path: assets/tiles/terrain/blocked/shallow-water-v1.png
+  sha256: e584233a5cc40d588d0867e76844f9e1c635d7d257b1e81fb4b36e49b3e39aa4
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_20-53-25-60414950
+    sourceGenerationId: 2026-09-30_19-36-32-72da50ce
+    output: result.png
+    approval: 사용자 얕은 물 타일 등록·맵 지정 승인
+- managementId: image.terrain.deep-water
+  version: v1
+  path: assets/tiles/terrain/blocked/deep-water-v1.png
+  sha256: d10e5ca3e54aad29a6d8d2f840f20ebd88011dddf73bee8eed50fff91c8458bc
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_21-07-43-8ae24c49
+    sourceGenerationId: 2026-09-30_20-57-36-5a294f5e
+    output: result.png
+    approval: 사용자 깊은 물 타일 등록·맵 적용 승인
