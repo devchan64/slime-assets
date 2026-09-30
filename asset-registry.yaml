@@ -1079,13 +1079,13 @@ assets:
   width: 256
   height: 256
 - managementId: config.city-layouts.index
-  version: v1
+  version: v2
   path: assets/maps/city_layouts/index.yaml
-  sha256: a220d2a4bfddc4062fd367d4df6ea447fe39f0df4d81d7a5ee5b73f354e18a42
+  sha256: 3895d8f7c1a139b8a945929cefd41ad4fb5e3adf19031de0b30c515e14158fd6
   source:
-    repository: slime-backend
-    path: config/city_layouts/index.yaml
-    operation: 맵 배치·통행 원본 이전
+    repository: slime-assets
+    path: assets/maps/city_layouts/index.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.city-layouts.iseulon
   version: v3
   path: assets/maps/city_layouts/iseulon.yaml
@@ -1199,13 +1199,13 @@ assets:
     path: config/field_tiles/grove.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.index
-  version: v1
+  version: v2
   path: assets/maps/field_tiles/index.yaml
-  sha256: 42d54f4b84d87f6e35f9b6301d27616413d84a6f49dd7e831fe7c732ff47af0e
+  sha256: ba2ede6e053c55fc5704df6b7c68c5cc4194e1426082e44802514402d609912c
   source:
-    repository: slime-backend
-    path: config/field_tiles/index.yaml
-    operation: 맵 배치·통행 원본 이전
+    repository: slime-assets
+    path: assets/maps/field_tiles/index.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.field-tiles.lantern-wood
   version: v1
   path: assets/maps/field_tiles/lantern-wood.yaml
@@ -1239,21 +1239,21 @@ assets:
     path: config/field_tiles/moss-clearing.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.old-orchard
-  version: v1
-  path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: 3676b417ef413efb5b781e414a95c039b6c55c6cafee7a6865d8faf1df645753
-  source:
-    repository: slime-backend
-    path: config/field_tiles/old-orchard.yaml
-    operation: 맵 배치·통행 원본 이전
-- managementId: config.field-tiles.pebble-shore
   version: v2
-  path: assets/maps/field_tiles/pebble-shore.yaml
-  sha256: 5b62793d708bb26a6be631ed1b7280514927118c83a01e6c60af65a931d52466
+  path: assets/maps/field_tiles/old-orchard.yaml
+  sha256: d3a0f31e239409ee1dac464407b42617089410cf08027b392a5908587e6dab11
   source:
-    repository: slime-backend
-    path: config/field_tiles/pebble-shore.yaml
-    operation: 맵 배치·통행 원본 이전
+    repository: slime-assets
+    path: assets/maps/field_tiles/old-orchard.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
+- managementId: config.field-tiles.pebble-shore
+  version: v3
+  path: assets/maps/field_tiles/pebble-shore.yaml
+  sha256: 01315251a694d8c7dcdffd1f043231b2e345ae3c0f4f421284e2e9ef6d6acacc
+  source:
+    repository: slime-assets
+    path: assets/maps/field_tiles/pebble-shore.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.field-tiles.reed-crossing
   version: v3
   path: assets/maps/field_tiles/reed-crossing.yaml
@@ -1367,13 +1367,13 @@ assets:
     path: config/field_waypoints/grove.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-waypoints.index
-  version: v1
+  version: v2
   path: assets/maps/field_waypoints/index.yaml
-  sha256: 7e95b26022d9ccc1db14fb8fae75c25ff64967664552a6fe5a5147678414e502
+  sha256: 1858afda779eacb5f0ba9d3a3590c2fc8a83d89962448729600e217aae68c9ca
   source:
-    repository: slime-backend
-    path: config/field_waypoints/index.yaml
-    operation: 맵 배치·통행 원본 이전
+    repository: slime-assets
+    path: assets/maps/field_waypoints/index.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.field-waypoints.lantern-wood
   version: v1
   path: assets/maps/field_waypoints/lantern-wood.yaml
@@ -1407,21 +1407,21 @@ assets:
     path: config/field_waypoints/moss-clearing.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-waypoints.old-orchard
-  version: v1
+  version: v2
   path: assets/maps/field_waypoints/old-orchard.yaml
-  sha256: 561eb0c1a86bb8b14edea1452e6d8e8da4f1bd01213dc5194ab5635176f9e5eb
+  sha256: fedaa9f3f951fdc792411767b0f733774a2396fe9dcc6b05257f4c64401336e7
   source:
-    repository: slime-backend
-    path: config/field_waypoints/old-orchard.yaml
-    operation: 맵 배치·통행 원본 이전
+    repository: slime-assets
+    path: assets/maps/field_waypoints/old-orchard.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.field-waypoints.pebble-shore
-  version: v1
+  version: v2
   path: assets/maps/field_waypoints/pebble-shore.yaml
-  sha256: a4e8c303c5bc2f93725a407267baa0463db59e42107888d3a3ac410b03ff788f
+  sha256: 386a47f318ede09b9eab990ecdb30e04e79bc3b024e707b008a4df11a5cdac23
   source:
-    repository: slime-backend
-    path: config/field_waypoints/pebble-shore.yaml
-    operation: 맵 배치·통행 원본 이전
+    repository: slime-assets
+    path: assets/maps/field_waypoints/pebble-shore.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.field-waypoints.reed-crossing
   version: v1
   path: assets/maps/field_waypoints/reed-crossing.yaml
@@ -1663,13 +1663,13 @@ assets:
     path: config/terrain/battlefields/wind-hills-encounter.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.index
-  version: v1
+  version: v2
   path: assets/maps/terrain/index.yaml
-  sha256: bc428fa090662b3327007e12bdad08bc46da6d98a9b8e8ef9371cd246af46ef2
+  sha256: ac2b6725677a55f6d8d7c1d9330c642c9df44548dabd5e294f32e23183fe289b
   source:
-    repository: slime-backend
-    path: config/terrain/index.yaml
-    operation: 맵 배치·통행 원본 이전
+    repository: slime-assets
+    path: assets/maps/terrain/index.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.terrain.maps.ash-edge
   version: v1
   path: assets/maps/terrain/maps/ash-edge.yaml
@@ -1911,13 +1911,13 @@ assets:
     path: config/map_spawns/grove.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.map-spawns.index
-  version: v1
+  version: v2
   path: assets/maps/map_spawns/index.yaml
-  sha256: 94ad00f31dacc0c2721ca737ad7736d69324739f0c2d01770324e473263b433b
+  sha256: c4e4c9ee14d4df8355ec40277e44d1bdf7e0f77725877ea1e33a3d70207b494c
   source:
-    repository: slime-backend
-    path: config/map_spawns/index.yaml
-    operation: 맵 배치·통행 원본 이전
+    repository: slime-assets
+    path: assets/maps/map_spawns/index.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.map-spawns.lantern-wood
   version: v1
   path: assets/maps/map_spawns/lantern-wood.yaml
@@ -2079,13 +2079,13 @@ assets:
     path: config/map_names/grove.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.map-names.index
-  version: v1
+  version: v2
   path: assets/maps/map_names/index.yaml
-  sha256: 7bcf73c4cba4d4574e45063e71fb86153399036e1785879961d2819b4303db05
+  sha256: 78ff4d9696ad4bf01f816f5c968b3de499e7afb48a30fb71cde1bb8a8892baf1
   source:
-    repository: slime-backend
-    path: config/map_names/index.yaml
-    operation: 맵 배치·통행 원본 이전
+    repository: slime-assets
+    path: assets/maps/map_names/index.yaml
+    operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.map-names.iseulon
   version: v1
   path: assets/maps/map_names/iseulon.yaml
@@ -2368,3 +2368,275 @@ assets:
       output_size:
       - 256
       - 256
+- managementId: config.city-layouts.grainstead
+  version: v2
+  path: assets/maps/city_layouts/grainstead.yaml
+  sha256: eb1820ee317a6dc9bf3ca55a30ee75cd17a3cea020edf35f20590ce9064233aa
+  source:
+    repository: slime-assets
+    path: assets/maps/city_layouts/grainstead.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.city-layouts.saltford
+  version: v2
+  path: assets/maps/city_layouts/saltford.yaml
+  sha256: 2b0cbf2cfb87145ac3fd6a2972d62819c4f1e1c52455decd373c7effbfa42ad7
+  source:
+    repository: slime-assets
+    path: assets/maps/city_layouts/saltford.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-tiles.brine-bank
+  version: v1
+  path: assets/maps/field_tiles/brine-bank.yaml
+  sha256: a43550ab21686bda3a09ebcf7b1278472f2795b1d197084f3678e79464796b1f
+  source:
+    repository: slime-assets
+    path: assets/maps/field_tiles/brine-bank.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-tiles.granary-flats
+  version: v1
+  path: assets/maps/field_tiles/granary-flats.yaml
+  sha256: 381b85572a8eeb4f2f81db3ccdb4605201be34444ffe2c30eb32b4f5b64f3668
+  source:
+    repository: slime-assets
+    path: assets/maps/field_tiles/granary-flats.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-tiles.mill-ridge
+  version: v1
+  path: assets/maps/field_tiles/mill-ridge.yaml
+  sha256: 1de469e127d1afe3c52c79772593f475815c84b6258d9d21e42cf4974ffe15bf
+  source:
+    repository: slime-assets
+    path: assets/maps/field_tiles/mill-ridge.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-tiles.salt-causeway
+  version: v1
+  path: assets/maps/field_tiles/salt-causeway.yaml
+  sha256: 07783689ef9889649e8fc59eec992baf18caec72dc6c004b4e42bf360a2bf018
+  source:
+    repository: slime-assets
+    path: assets/maps/field_tiles/salt-causeway.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-tiles.salt-flat
+  version: v1
+  path: assets/maps/field_tiles/salt-flat.yaml
+  sha256: affbbd2107ea30a5e541eb4485c2a5a24827921a6fea0aec21baf54772f739e5
+  source:
+    repository: slime-assets
+    path: assets/maps/field_tiles/salt-flat.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-tiles.windrow-road
+  version: v1
+  path: assets/maps/field_tiles/windrow-road.yaml
+  sha256: 46dc2e4b8f0d768991dffdfcf1728791f0c5dc4ead74bebfabb0a6800babce06
+  source:
+    repository: slime-assets
+    path: assets/maps/field_tiles/windrow-road.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-waypoints.brine-bank
+  version: v1
+  path: assets/maps/field_waypoints/brine-bank.yaml
+  sha256: f1f8cda16998093bd43385443f800fc7ae17a072fa8c89aa80d250d87e37fdb8
+  source:
+    repository: slime-assets
+    path: assets/maps/field_waypoints/brine-bank.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-waypoints.granary-flats
+  version: v1
+  path: assets/maps/field_waypoints/granary-flats.yaml
+  sha256: 3070c33e79148e07ab5d8c9a239f3ff23a03e74fca5091c9c1d12cb319a47bdd
+  source:
+    repository: slime-assets
+    path: assets/maps/field_waypoints/granary-flats.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-waypoints.mill-ridge
+  version: v1
+  path: assets/maps/field_waypoints/mill-ridge.yaml
+  sha256: d040a7a9afe2eb9725b200549e77eebd01fde9e6b60ea387a61f659bf57a7c82
+  source:
+    repository: slime-assets
+    path: assets/maps/field_waypoints/mill-ridge.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-waypoints.salt-causeway
+  version: v1
+  path: assets/maps/field_waypoints/salt-causeway.yaml
+  sha256: e7a820ee20a17bb80cef00ce8c16464c126d0cb9518c00063f8af075d82f696e
+  source:
+    repository: slime-assets
+    path: assets/maps/field_waypoints/salt-causeway.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-waypoints.salt-flat
+  version: v1
+  path: assets/maps/field_waypoints/salt-flat.yaml
+  sha256: c0e75e340b7c28fdbcc602cc6d85e724292afb40f6d375682856786ae6098f27
+  source:
+    repository: slime-assets
+    path: assets/maps/field_waypoints/salt-flat.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.field-waypoints.windrow-road
+  version: v1
+  path: assets/maps/field_waypoints/windrow-road.yaml
+  sha256: 7d6fc1742362d61c634962ea2a4552c47982f25393cce861bfefc435b69e3c16
+  source:
+    repository: slime-assets
+    path: assets/maps/field_waypoints/windrow-road.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-names.brine-bank
+  version: v1
+  path: assets/maps/map_names/brine-bank.yaml
+  sha256: d6d9b402d53e891ba3d4d4f683b3ed08963a256a090af5ea324b7ab1a12734c8
+  source:
+    repository: slime-assets
+    path: assets/maps/map_names/brine-bank.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-names.grainstead
+  version: v1
+  path: assets/maps/map_names/grainstead.yaml
+  sha256: 837ebbf0dfc5ee85d37e6c4c31d8c6225683b6bc83633a389a4f565d7c391b9b
+  source:
+    repository: slime-assets
+    path: assets/maps/map_names/grainstead.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-names.granary-flats
+  version: v1
+  path: assets/maps/map_names/granary-flats.yaml
+  sha256: 1ca97332b09155bfc3f1e71c893da3bd9acb6215bce959501d0f801511743b82
+  source:
+    repository: slime-assets
+    path: assets/maps/map_names/granary-flats.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-names.mill-ridge
+  version: v1
+  path: assets/maps/map_names/mill-ridge.yaml
+  sha256: 11f296e662603622cf63521e4f4c0fc557d047638860576459f0a9a0a8fe93ce
+  source:
+    repository: slime-assets
+    path: assets/maps/map_names/mill-ridge.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-names.salt-causeway
+  version: v1
+  path: assets/maps/map_names/salt-causeway.yaml
+  sha256: ce4d84c13b57eb17c0b9a7e1d40febb9ed080c26c6c387ce82c3f29196fe97d9
+  source:
+    repository: slime-assets
+    path: assets/maps/map_names/salt-causeway.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-names.salt-flat
+  version: v1
+  path: assets/maps/map_names/salt-flat.yaml
+  sha256: 124293cb1ea8021fca97406920af3a8a3e1583be28d2dac27febe84a4fa72785
+  source:
+    repository: slime-assets
+    path: assets/maps/map_names/salt-flat.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-names.saltford
+  version: v1
+  path: assets/maps/map_names/saltford.yaml
+  sha256: 3c0c4fe0a5932c117046ebf2c4c937dcd422dc7668f027cd47492b07ce172164
+  source:
+    repository: slime-assets
+    path: assets/maps/map_names/saltford.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-names.windrow-road
+  version: v1
+  path: assets/maps/map_names/windrow-road.yaml
+  sha256: 4ed45af17229d219419cd4a628264d7e715d85ed8af3ffb07cd7d2a965ef2901
+  source:
+    repository: slime-assets
+    path: assets/maps/map_names/windrow-road.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-spawns.brine-bank
+  version: v1
+  path: assets/maps/map_spawns/brine-bank.yaml
+  sha256: 5db771ed9b90aec4cb502c4c224b4368adc474b4ddafda71874a4fbd60065ef2
+  source:
+    repository: slime-assets
+    path: assets/maps/map_spawns/brine-bank.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-spawns.granary-flats
+  version: v1
+  path: assets/maps/map_spawns/granary-flats.yaml
+  sha256: 3400615504f6bcf306ddcbb79fc74b7d983d2796d8bf2330cd0bcfc78dbdf74a
+  source:
+    repository: slime-assets
+    path: assets/maps/map_spawns/granary-flats.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-spawns.mill-ridge
+  version: v1
+  path: assets/maps/map_spawns/mill-ridge.yaml
+  sha256: ad13180daf39ccf62019e5c019c48408cb2d790bc2cce3e8c2a56006be3a295a
+  source:
+    repository: slime-assets
+    path: assets/maps/map_spawns/mill-ridge.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-spawns.salt-causeway
+  version: v1
+  path: assets/maps/map_spawns/salt-causeway.yaml
+  sha256: 829ce676d1322929400fdc37b23dea3451664e6247c687202d5fe549fa0b6eea
+  source:
+    repository: slime-assets
+    path: assets/maps/map_spawns/salt-causeway.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-spawns.salt-flat
+  version: v1
+  path: assets/maps/map_spawns/salt-flat.yaml
+  sha256: 26d2ef8c9241133d9d4dcc5b3f6604cfc56b26e7b81e65368c99ff919f6790b7
+  source:
+    repository: slime-assets
+    path: assets/maps/map_spawns/salt-flat.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.map-spawns.windrow-road
+  version: v1
+  path: assets/maps/map_spawns/windrow-road.yaml
+  sha256: 4bc3d80bf8fa331d5546e6901836a09e8dc571b3fad3c7f31f6e5f9e63d6dbc9
+  source:
+    repository: slime-assets
+    path: assets/maps/map_spawns/windrow-road.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.terrain.maps.brine-bank
+  version: v1
+  path: assets/maps/terrain/maps/brine-bank.yaml
+  sha256: 52512da52d821311094a870b7bbf50300d72e6439fecfa7703ec149e6297073b
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/maps/brine-bank.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.terrain.maps.granary-flats
+  version: v1
+  path: assets/maps/terrain/maps/granary-flats.yaml
+  sha256: 2b6d2253cb3eb6837254d6ec93d1fb266368725f8c22364cc1f7f4b3509bb161
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/maps/granary-flats.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.terrain.maps.mill-ridge
+  version: v1
+  path: assets/maps/terrain/maps/mill-ridge.yaml
+  sha256: 7dc9e974bee4f3d0d67183bbbfaeabe904e0619b78b5fd56d71aa649f536ccdd
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/maps/mill-ridge.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.terrain.maps.salt-causeway
+  version: v1
+  path: assets/maps/terrain/maps/salt-causeway.yaml
+  sha256: 066cebc984e978b301a9aec4394e0809f9e507c06de1d99a4320ec3fb0f296cf
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/maps/salt-causeway.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.terrain.maps.salt-flat
+  version: v1
+  path: assets/maps/terrain/maps/salt-flat.yaml
+  sha256: debdb09d7ea9561bfa5a41837d08b2f84b11aea381489352e3ed32fe352b0b21
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/maps/salt-flat.yaml
+    operation: 런타임 맵 원본 작성
+- managementId: config.terrain.maps.windrow-road
+  version: v1
+  path: assets/maps/terrain/maps/windrow-road.yaml
+  sha256: b13a02eff9886cdcb1661f1002610abe5da0dff97043cb5e4d4bf9460e6ccf7c
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/maps/windrow-road.yaml
+    operation: 런타임 맵 원본 작성

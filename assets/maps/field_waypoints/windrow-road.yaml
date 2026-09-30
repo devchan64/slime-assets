@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.windrow-road
+data:
+  connections:
+  - id: windrow-road-to-old-orchard
+    target: old-orchard
+    direction: east
+    name: 동쪽 웨이포인트
+    targetWaypointId: old-orchard-to-windrow-road
+    edgeOffset: 16
+  - id: windrow-road-to-granary-flats
+    target: granary-flats
+    direction: west
+    name: 서쪽 웨이포인트
+    targetWaypointId: granary-flats-to-windrow-road
+    edgeOffset: 16

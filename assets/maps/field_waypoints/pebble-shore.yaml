@@ -13,3 +13,9 @@ data:
     direction: south
     targetWaypointId: dry-creek-to-pebble-shore
     edgeOffset: 16
+  - id: pebble-shore-to-brine-bank
+    target: brine-bank
+    direction: east
+    name: 동쪽 웨이포인트
+    targetWaypointId: brine-bank-to-pebble-shore
+    edgeOffset: 16

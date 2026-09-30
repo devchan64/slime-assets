@@ -1,0 +1,112 @@
+managementId: config.city-layouts.grainstead
+data:
+  version: 1
+  cityId: grainstead
+  columns: 24
+  rows: 24
+  safeTown: true
+  terrainRows:
+  - gggggggggggpppgggggggggg
+  - gggggggggggpppgggggggggg
+  - gggggggggggpppgggggggggg
+  - gggggggggggpppgggggggggg
+  - gggggggggggpppgggggggggg
+  - gggggggggggpppgggggggggg
+  - ggggpppppppppppppggggggg
+  - gggggggggggpppgggggggggg
+  - gggggggggggpppgggggggggg
+  - gggggggggggpppgggggggggg
+  - gggggggggggpppgggggggggg
+  - gggppppppppppppppppppppp
+  - gggppppppppppppppppppppp
+  - gggppppppppppppppppppppp
+  - gggggggggggpppgggggggggg
+  - ggggppppppppppgggggggggg
+  - gggggggggggpppppppgggggg
+  - gggggggggggpppgggggggggg
+  - gggggggggggpppgggggggggg
+  - ghhggggggggggggggggggggg
+  - ghhggggggggggggggggggggg
+  - ghhggggggggggggggggggggg
+  - ghhggggggggggggggggggggg
+  - gggggggggggggggggggggggg
+  startPoint:
+    column: 12
+    row: 13
+  buildings:
+  - id: grainstead-guild
+    name: 길드 회관
+    facilityId: grainstead-guild
+    origin:
+      column: 3
+      row: 3
+    width: 4
+    height: 3
+    floors: 1
+    entrance:
+      column: 4
+      row: 6
+    facing: south
+  - id: grainstead-bookshop
+    name: 서점
+    facilityId: grainstead-bookshop
+    origin:
+      column: 15
+      row: 3
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 16
+      row: 6
+    facing: south
+  - id: grainstead-inn
+    name: 여관
+    facilityId: grainstead-inn
+    origin:
+      column: 3
+      row: 16
+    width: 3
+    height: 4
+    floors: 1
+    entrance:
+      column: 4
+      row: 15
+    facing: north
+  - id: grainstead-workshop
+    name: 대장간·공방
+    facilityId: grainstead-workshop
+    origin:
+      column: 16
+      row: 17
+    width: 4
+    height: 3
+    floors: 1
+    entrance:
+      column: 17
+      row: 16
+    facing: north
+  - id: grainstead-market
+    name: 시장
+    facilityId: grainstead-market
+    origin:
+      column: 16
+      row: 9
+    width: 3
+    height: 2
+    floors: 1
+    entrance:
+      column: 17
+      row: 11
+    facing: south
+  connections:
+  - id: grainstead-to-granary-flats
+    target: granary-flats
+    direction: east
+    column: 23
+    row: 12
+  - id: grainstead-to-mill-ridge
+    target: mill-ridge
+    direction: north
+    column: 12
+    row: 0

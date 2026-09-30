@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.brine-bank
+data:
+  connections:
+  - id: brine-bank-to-pebble-shore
+    target: pebble-shore
+    direction: west
+    name: 서쪽 웨이포인트
+    targetWaypointId: pebble-shore-to-brine-bank
+    edgeOffset: 16
+  - id: brine-bank-to-salt-causeway
+    target: salt-causeway
+    direction: east
+    name: 동쪽 웨이포인트
+    targetWaypointId: salt-causeway-to-brine-bank
+    edgeOffset: 16

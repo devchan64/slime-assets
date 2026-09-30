@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.salt-causeway
+data:
+  connections:
+  - id: salt-causeway-to-brine-bank
+    target: brine-bank
+    direction: west
+    name: 서쪽 웨이포인트
+    targetWaypointId: brine-bank-to-salt-causeway
+    edgeOffset: 16
+  - id: salt-causeway-to-saltford
+    target: saltford
+    direction: east
+    name: 동쪽 웨이포인트
+    targetWaypointId: saltford-to-salt-causeway
+    edgeOffset: 16

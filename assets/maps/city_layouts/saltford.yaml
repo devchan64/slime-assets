@@ -1,0 +1,112 @@
+managementId: config.city-layouts.saltford
+data:
+  version: 1
+  cityId: saltford
+  columns: 24
+  rows: 24
+  safeTown: true
+  terrainRows:
+  - vvvvvvvvvvvpppvvvvvvvvvv
+  - vvvvvvvvvvvpppvvvvvvvvvv
+  - vvvvvvvvvvvpppvvvvvvvvvv
+  - vvvvvvvvvvvpppvvvvvvhhvv
+  - vvvvvvvvvvvpppvvvvvvhhvv
+  - vvvvvvvvvvvpppvvvvvvhhvv
+  - vvvvvvvvvvvppppppvvvhhvv
+  - vvvvppppppppppvvvvvvhhvv
+  - vvvvvvvvvvvpppvvvvvvhhvv
+  - vvvvvvvvvvvpppvvvvvvvvvv
+  - vvvvvvvvvvvpppvvvvvvvvvv
+  - pppppppppppppppppppvvvvv
+  - pppppppppppppppppppvvvvv
+  - pppppppppppppppppppvvvvv
+  - vvvvpppppppppppppvvvvvvv
+  - vvvvvvvvvvvpppvvvvvvvvvv
+  - vvvvvvvvvvvpppvvvvvvvvvv
+  - vvvvvvvvvvvpppvvvvvvvvvv
+  - vvvvvvvvvvvpppvvvvvvvvvv
+  - vvvvvvvvvvvvvvvvvvvvvvvv
+  - hhhhhhhhhhhhhhhhhhhhhhhh
+  - hhhhhhhhhhhhhhhhhhhhhhhh
+  - qqqqqqqqqqqqqqqqqqqqqqqq
+  - qqqqqqqqqqqqqqqqqqqqqqqq
+  startPoint:
+    column: 12
+    row: 13
+  buildings:
+  - id: saltford-guild
+    name: 길드 회관
+    facilityId: saltford-guild
+    origin:
+      column: 3
+      row: 4
+    width: 4
+    height: 3
+    floors: 1
+    entrance:
+      column: 4
+      row: 7
+    facing: south
+  - id: saltford-bookshop
+    name: 서점
+    facilityId: saltford-bookshop
+    origin:
+      column: 15
+      row: 3
+    width: 2
+    height: 3
+    floors: 1
+    entrance:
+      column: 16
+      row: 6
+    facing: south
+  - id: saltford-inn
+    name: 여관
+    facilityId: saltford-inn
+    origin:
+      column: 3
+      row: 15
+    width: 4
+    height: 3
+    floors: 1
+    entrance:
+      column: 4
+      row: 14
+    facing: north
+  - id: saltford-workshop
+    name: 대장간·공방
+    facilityId: saltford-workshop
+    origin:
+      column: 15
+      row: 15
+    width: 4
+    height: 3
+    floors: 1
+    entrance:
+      column: 16
+      row: 14
+    facing: north
+  - id: saltford-market
+    name: 시장
+    facilityId: saltford-market
+    origin:
+      column: 15
+      row: 9
+    width: 3
+    height: 2
+    floors: 1
+    entrance:
+      column: 16
+      row: 11
+    facing: south
+  connections:
+  - id: saltford-to-salt-causeway
+    target: salt-causeway
+    direction: west
+    column: 0
+    row: 12
+  - id: saltford-to-salt-flat
+    target: salt-flat
+    direction: north
+    column: 12
+    row: 0

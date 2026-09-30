@@ -1,0 +1,9 @@
+managementId: config.field-waypoints.mill-ridge
+data:
+  connections:
+  - id: mill-ridge-to-grainstead
+    target: grainstead
+    direction: south
+    name: 남쪽 웨이포인트
+    targetWaypointId: grainstead-to-mill-ridge
+    edgeOffset: 16

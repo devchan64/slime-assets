@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.granary-flats
+data:
+  connections:
+  - id: granary-flats-to-windrow-road
+    target: windrow-road
+    direction: east
+    name: 동쪽 웨이포인트
+    targetWaypointId: windrow-road-to-granary-flats
+    edgeOffset: 16
+  - id: granary-flats-to-grainstead
+    target: grainstead
+    direction: west
+    name: 서쪽 웨이포인트
+    targetWaypointId: grainstead-to-granary-flats
+    edgeOffset: 16

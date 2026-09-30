@@ -1,0 +1,9 @@
+managementId: config.field-waypoints.salt-flat
+data:
+  connections:
+  - id: salt-flat-to-saltford
+    target: saltford
+    direction: south
+    name: 남쪽 웨이포인트
+    targetWaypointId: saltford-to-salt-flat
+    edgeOffset: 16

@@ -13,3 +13,9 @@ data:
     direction: south
     targetWaypointId: clover-bank-to-old-orchard
     edgeOffset: 16
+  - id: old-orchard-to-windrow-road
+    target: windrow-road
+    direction: west
+    name: 서쪽 웨이포인트
+    targetWaypointId: windrow-road-to-old-orchard
+    edgeOffset: 16
