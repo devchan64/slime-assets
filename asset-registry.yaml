@@ -868,3 +868,13 @@ assets:
     output: single-tile.png
     operation: 9칸 생성·중앙 몰딩 기계식 크롭·512 참조 재생성
     approval: 사용자 잔디·잔디 진흙·유사 잔디 통합 승인
+- managementId: image.terrain.wildflowers
+  version: v1
+  path: assets/tiles/terrain/non-road/wildflowers-v1.png
+  sha256: 7bd0abaf01a5542083a8487f02f12ec7929e4f01ae1a1dc251fabe3afcad5687
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_18-24-08-8f023c1a
+    sourceGenerationId: 2026-09-30_18-11-46-f291face
+    output: result.png
+    approval: 사용자 들꽃 바닥 타일 등록 승인
