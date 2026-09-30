@@ -2222,3 +2222,69 @@ assets:
       - 256
   width: 256
   height: 256
+- managementId: image.terrain.dry-soil-leaves
+  version: v1
+  path: assets/tiles/terrain/non-road/dry-soil-leaves-v1.png
+  name: 마른 흙과 마른 낙엽
+  width: 256
+  height: 256
+  sha256: 51a592439f61cbb4713f86978fda48a1b5d9868118643fd7d781b3a830b697f2
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_23-02-13-d40b00f2
+    output: single-tile.png
+    approval: 사용자 맵 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: d1eac480831d45361fafa0536b2efcf16a26bd4e03568a36eef0195c6f99d495
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.dry-soil-branches
+  version: v2
+  path: assets/tiles/terrain/non-road/dry-soil-branches-v2.png
+  name: 마른 흙과 마른 나무가지
+  width: 256
+  height: 256
+  sha256: 9ef1d3a80cbbf6535e48c47f1590b19d08e56abdfcd0c5d07b0680eb4fc5edc5
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_23-05-27-ea2a6ea4
+    output: single-tile.png
+    approval: 사용자 맵 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 3eba3ffe284b3de71081be3c1535abf4574e961931fd04dc29af86fe261b9bad
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.dry-soil-branches
+  version: v3
+  path: assets/tiles/terrain/non-road/dry-soil-branches-v3.png
+  name: 마른 흙과 마른 나무가지
+  width: 256
+  height: 256
+  sha256: 3203ca73101c5ddc5f43a7cac7e12ef5f08e51a91103e162b739e1c8f442aa49
+  source:
+    repository: slime-workflow
+    generationId: 2026-09-30_23-05-30-5a5cbcd9
+    output: single-tile.png
+    approval: 사용자 맵 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 1a80831d4c452358f2e219020d674b90345e8c79c70fe3d4b6b41a7afc4aebe6
+      output_size:
+      - 256
+      - 256
