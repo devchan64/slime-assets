@@ -1,0 +1,157 @@
+{
+  "animationId": "monster.mist-frog.idle",
+  "version": "1.imagegen-eight-frames",
+  "sheet": {
+    "width": 1774,
+    "height": 887
+  },
+  "frames": [
+    {
+      "frameId": "down_left.0",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 444,
+        "height": 444
+      },
+      "anchor": {
+        "x": 231.0,
+        "y": 395
+      }
+    },
+    {
+      "frameId": "down_left.1",
+      "rect": {
+        "x": 444,
+        "y": 0,
+        "width": 443,
+        "height": 444
+      },
+      "anchor": {
+        "x": 230.0,
+        "y": 395
+      }
+    },
+    {
+      "frameId": "down_left.2",
+      "rect": {
+        "x": 887,
+        "y": 0,
+        "width": 443,
+        "height": 444
+      },
+      "anchor": {
+        "x": 229.5,
+        "y": 395
+      }
+    },
+    {
+      "frameId": "down_left.3",
+      "rect": {
+        "x": 1330,
+        "y": 0,
+        "width": 444,
+        "height": 444
+      },
+      "anchor": {
+        "x": 229.0,
+        "y": 395
+      }
+    },
+    {
+      "frameId": "down_left.4",
+      "rect": {
+        "x": 0,
+        "y": 444,
+        "width": 444,
+        "height": 443
+      },
+      "anchor": {
+        "x": 231.5,
+        "y": 394
+      }
+    },
+    {
+      "frameId": "down_left.5",
+      "rect": {
+        "x": 444,
+        "y": 444,
+        "width": 443,
+        "height": 443
+      },
+      "anchor": {
+        "x": 230.5,
+        "y": 394
+      }
+    },
+    {
+      "frameId": "down_left.6",
+      "rect": {
+        "x": 887,
+        "y": 444,
+        "width": 443,
+        "height": 443
+      },
+      "anchor": {
+        "x": 230.0,
+        "y": 394
+      }
+    },
+    {
+      "frameId": "down_left.7",
+      "rect": {
+        "x": 1330,
+        "y": 444,
+        "width": 444,
+        "height": 443
+      },
+      "anchor": {
+        "x": 230.5,
+        "y": 394
+      }
+    }
+  ],
+  "clips": [
+    {
+      "clipId": "idle.down_left",
+      "action": "idle",
+      "direction": "down_left",
+      "frames": [
+        {
+          "frameId": "down_left.0",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.1",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.2",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.3",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.4",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.5",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.6",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.7",
+          "durationMs": 125
+        }
+      ],
+      "loop": true,
+      "nextClipId": null
+    }
+  ]
+}

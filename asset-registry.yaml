@@ -696,10 +696,10 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.standing-v1.catalog.yaml
-  version: slime-idle-v2
+  version: 2.expanded-species
   path: assets/sprites/monsters/standing-v1/catalog.yaml
   frontend_path: src/assets/monsters/standing-v1/catalog.yaml
-  sha256: 51169e77071aac0c772729b3b6a7b3f3a51460bb9cb6de4b5becb92437e53565
+  sha256: 3ccf9d7fd3052b3f02b8f798ae66dfcbf8c026956f1a8cda8dc480040a362e0f
   source:
     repository: slime-frontend
     commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
@@ -967,16 +967,16 @@ assets:
     operation: 사용자 채택 ImageGen 8프레임, 384px 셀 패킹
     previous_version: down-left-v1
 - managementId: frontend.ui.animation-labels.yaml
-  version: v1
+  version: 2.expanded-species
   path: assets/ui/animation-labels.yaml
-  sha256: 7cd7818caf4d2dec79a133e8e9eef806e8f1e1df5393c3eb8c175b8676c2b341
+  sha256: 0031bc4f95a9e480699fdf4523d3426a6fe8722ef35c4e03741b3ea553926339
   source:
     repository: slime-frontend
     path: src/assets/animation-labels.yaml
 - managementId: frontend.ui.cutins.yaml
-  version: v1
+  version: 2.expanded-species
   path: assets/ui/cutins.yaml
-  sha256: 3861a99a517b021fab5d1ed7db30345ec11390dda86d71ea11c8ef11e6f6ee7a
+  sha256: 68839bd550424322eeabc9781ccf3d8cd470f6432d63906172283f2a5364271b
   source:
     repository: slime-frontend
     path: src/assets/cutins.yaml
@@ -2646,3 +2646,103 @@ assets:
     repository: slime-assets
     path: assets/maps/terrain/maps/windrow-road.yaml
     operation: 런타임 맵 원본 작성
+- managementId: image.monsters.moss-turtle.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/moss-turtle-idle-v1.png
+  sha256: 8cfd43954bb54499d56fb8b41383d57d4c3b4301bf45654e73d41b813f757011
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/moss-turtle
+    generator: imagegen
+    frames: 8
+    fps: 8
+- managementId: sprite.metadata.monsters.moss-turtle.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/moss-turtle-idle-v1.animation.json
+  sha256: b536e61bea315ecec319c528380872afd7d97802054f9d8e2243c213afea2193
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/moss-turtle
+    generator: imagegen
+    frames: 8
+    fps: 8
+- managementId: image.monsters.mist-frog.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/mist-frog-idle-v1.png
+  sha256: e7d10a139c6f14a391ddb2245dae41e7386f399a10a87073fed40afdfba5cec2
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/mist-frog
+    generator: imagegen
+    frames: 8
+    fps: 8
+- managementId: sprite.metadata.monsters.mist-frog.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/mist-frog-idle-v1.animation.json
+  sha256: 1acec492f59da19caea0e70e2d9b9eb2e1d6aaa66e20aab3b1a7367ca17e2068
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/mist-frog
+    generator: imagegen
+    frames: 8
+    fps: 8
+- managementId: image.monsters.sand-scorpion.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/sand-scorpion-idle-v1.png
+  sha256: 6c763b5f4ad0ee455ddd8f752aa0439ba23441a375b10623f574192eab2246ec
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/sand-scorpion
+    generator: imagegen
+    frames: 8
+    fps: 8
+- managementId: sprite.metadata.monsters.sand-scorpion.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/sand-scorpion-idle-v1.animation.json
+  sha256: e8e8b20ee05672c47f7ef985a2d65c0090b2eccfcadb9d778f0c14894d3d946d
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/sand-scorpion
+    generator: imagegen
+    frames: 8
+    fps: 8
+- managementId: image.monsters.ember-hedgehog.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/ember-hedgehog-idle-v1.png
+  sha256: 732f29efdaf7d290f840532e4cbf06294888d1d5ba20ad0b4fa5a3970406b303
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/ember-hedgehog
+    generator: imagegen
+    frames: 8
+    fps: 8
+- managementId: sprite.metadata.monsters.ember-hedgehog.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/ember-hedgehog-idle-v1.animation.json
+  sha256: 2f7977a1175ae919cc6e69fd08209342572c3e79dfe472ab49bf00372ef99f8c
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/ember-hedgehog
+    generator: imagegen
+    frames: 8
+    fps: 8
+- managementId: image.monsters.crystal-bat.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/crystal-bat-idle-v1.png
+  sha256: 5d85bd185bbb2c4f689253eb4cc5f84099e0d23a7a9aad965848131699d3b3d8
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/crystal-bat
+    generator: imagegen
+    frames: 8
+    fps: 8
+- managementId: sprite.metadata.monsters.crystal-bat.idle
+  version: v1
+  path: assets/sprites/monsters/standing-v1/down-left-v1/crystal-bat-idle-v1.animation.json
+  sha256: b73abe01b870650f8a51749a0bbb49c20abf5a1ab0bf6db79e6085b5be3b4b07
+  source:
+    repository: slime-workflow
+    generationId: new-monster-species/2026-10-01_11-53-13/crystal-bat
+    generator: imagegen
+    frames: 8
+    fps: 8
