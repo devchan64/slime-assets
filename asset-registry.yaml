@@ -611,38 +611,41 @@ assets:
     operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
     previous_version: down-left-v1
 - managementId: sprite.metadata.characters.default.rest-v2.rest-v2.animation.json
-  version: down-left-v1
-  path: assets/characters/default/animations/rest-v2/down-left-v1/rest-v2.animation.json
+  version: down-left-entry-exit-v1
+  path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1/rest-v2.animation.json
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.animation.json
-  sha256: b7c9ef31e38af4e9a983899e2954413936d91dfe4a44ec2b2badf57cfa7477ff
+  sha256: 6dd934e7000a2f3de42ad103a3f04a2192cf44255e24bbd2e351c72512a1f667
   source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/characters/default/rest-v2/rest-v2.animation.json
-    extractedFromPath: assets/sprites/characters/default/rest-v2/rest-v2.animation.json
-    extractedFromSha256: 36bc35d84dbd1ea568c08bd34a1898bb7fcc4a03d337b1e1165372b5f884ea83
+    repository: slime-workflow
+    revision: 2026-10-01_15-18-46
+    path: .tmp/test/rest-batch-refinement-imagegen/2026-10-01_15-18-46/combined-384.png
+    sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
+    operation: 사용자 승인 휴식 진입·해제 시트 교체
+    previous_version: down-left-v1
 - managementId: image.frontend.src.assets.characters.character-default-white-shirt-rest-v2.rest-v2.png
-  version: down-left-v1
-  path: assets/characters/default/animations/rest-v2/down-left-v1/rest-v2.png
+  version: down-left-entry-exit-v1
+  path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1/rest-v2.png
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.png
-  sha256: 100a07d5f54835ce89b84bab348a8c9c1a772ef30a13caebe508a301cc3af162
+  sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
   source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/characters/default/rest-v2/rest-v2.png
-    extractedFromPath: assets/sprites/characters/default/rest-v2/rest-v2.png
-    extractedFromSha256: 941244a65dec0200a470557cf6040fb1e6e3f67c1695b4b45ddc442372fa2687
+    repository: slime-workflow
+    revision: 2026-10-01_15-18-46
+    path: .tmp/test/rest-batch-refinement-imagegen/2026-10-01_15-18-46/combined-384.png
+    sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
+    operation: 사용자 승인 휴식 진입·해제 시트 교체
+    previous_version: down-left-v1
 - managementId: sprite.metadata.characters.default.rest-v2.source.json
-  version: down-left-v1
-  path: assets/characters/default/animations/rest-v2/down-left-v1/source.json
+  version: down-left-entry-exit-v1
+  path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1/source.json
   frontend_path: src/assets/characters/default/rest-v2/source.json
-  sha256: 6099507e6dd8a6df7a91b46854a2fb651e24045e133a10d25ab5e4f7b5e32b82
+  sha256: 28905f7c0c5d942c9d76dc78abcffb07caf37f96bba13fc164c5f2c0f035cf55
   source:
-    repository: slime-frontend
-    commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
-    path: src/assets/characters/default/rest-v2/source.json
-    extractedFromPath: assets/sprites/characters/default/rest-v2/source.json
-    extractedFromSha256: 610d60ea4dc4b6ed5ecb908cc5f7242276499c6346303968ed1930870ece0e93
+    repository: slime-workflow
+    revision: 2026-10-01_15-18-46
+    path: .tmp/test/rest-batch-refinement-imagegen/2026-10-01_15-18-46/combined-384.png
+    sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
+    operation: 사용자 승인 휴식 진입·해제 시트 교체
+    previous_version: down-left-v1
 - managementId: sprite.metadata.monsters.standing-v1.ash-fox-idle-v1.animation.json
   version: ash-fox-idle-v1-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/ash-fox-idle-v1.animation.json

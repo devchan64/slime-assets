@@ -1,0 +1,19 @@
+{
+  "referenceBodyHeight": 353,
+  "gameBodyHeight": 80,
+  "version": "down-left-entry-exit-v1",
+  "image": "rest-v2.png",
+  "sha256": "54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2",
+  "directionOrder": [
+    "down_left"
+  ],
+  "operation": "사용자 채택 ImageGen 4프레임 묶음 통합 정리; 진입 13장 마지막 고정·해제 8장 완료 후 기본 대기; 384px·8 FPS",
+  "sourceImageSha256": "30dbae141d1573c4d632d3ad8853dc131eeba49dc06f12480845a0db4c907e86",
+  "playback": {
+    "enterAction": "rest-entry",
+    "holdAction": "idle",
+    "exitAction": "rest-exit",
+    "afterExitAnimationId": "character.default.white-shirt.idle",
+    "afterExitClipId": "idle.down_left"
+  }
+}
