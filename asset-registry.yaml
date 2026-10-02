@@ -27,15 +27,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/extension-v1/ash-128.webp
-- managementId: image.frontend.src.assets.terrain.extension-v1.boulder-128.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/blocked/boulder-128.webp
-  frontend_path: src/assets/terrain/extension-v1/boulder-128.webp
-  sha256: 65f74c4a6786f7fab068b4ba6980a9d0cedde987ccd149ec36d92a8fc4c44922
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/extension-v1/boulder-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.gravel-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/non-road/gravel-128.webp
@@ -45,15 +36,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/extension-v1/gravel-128.webp
-- managementId: image.frontend.src.assets.terrain.extension-v1.leaf-litter-128.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/leaf-litter-128.webp
-  frontend_path: src/assets/terrain/extension-v1/leaf-litter-128.webp
-  sha256: a913de242e99c33cd02bf98d4475cd5945af89cdd78ce305f55369f5fadb9e29
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/extension-v1/leaf-litter-128.webp
 - managementId: image.frontend.src.assets.terrain.extension-v1.moss-128.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/non-road/moss-128.webp
@@ -4327,6 +4309,94 @@ assets:
       input_size:
       - 455
       - 446
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.boulder-type-a
+  version: v1
+  path: assets/tiles/terrain/blocked/boulder-type-a-v1.png
+  name: 바위로 막힌 바닥 A
+  width: 256
+  height: 256
+  sha256: ee0749bbe52c112a8dd8e68195481802603b3000c728e5388acf9e301c6d56d2
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_23-26-13-5487ef21
+    output: result.png
+    approval: 사용자 바위 장애물 A/B/C 교체 승인
+    input_sha256: ee4ba805b9f5fc52514e478bd5047e3d06c9eee9bf4eb1b50f095a6264e6894d
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.boulder-type-b
+  version: v1
+  path: assets/tiles/terrain/blocked/boulder-type-b-v1.png
+  name: 바위로 막힌 바닥 B
+  width: 256
+  height: 256
+  sha256: 55126075abbd6c149df61755f9eeef285e838f55c5299b78ccf79df8c8a756dd
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_23-26-08-f130556d
+    output: result.png
+    approval: 사용자 바위 장애물 A/B/C 교체 승인
+    input_sha256: 169c1e7beef9628440a6fbd77eee08358966cd3215d736f96dbb31d9edf77398
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.boulder-type-c
+  version: v1
+  path: assets/tiles/terrain/blocked/boulder-type-c-v1.png
+  name: 바위로 막힌 바닥 C
+  width: 256
+  height: 256
+  sha256: d4fbc06ee951f76a7e255c30aed479309dc3fd90f4886cef10d68d5217401fd3
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_23-26-03-e55c534d
+    output: result.png
+    approval: 사용자 바위 장애물 A/B/C 교체 승인
+    input_sha256: 1f7f6f9913198eafd58944b1248c8f52857a019be2300c0ea2fa8c7d89f4c80d
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.leaf-litter
+  version: v1
+  path: assets/tiles/terrain/non-road/leaf-litter-v1.png
+  name: 낙엽 바닥
+  width: 256
+  height: 256
+  sha256: 40f61b5d00e473628cbd9e672ef68e671c034ee4574b0798284174ff276ac631
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_23-32-51-3b200f00
+    output: result.png
+    approval: 사용자 낙엽 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 4b6573e3a728f3c609e7fd42f2a196e82ee17bccb2e848f4608710f08efac9d4
       output_size:
       - 256
       - 256
