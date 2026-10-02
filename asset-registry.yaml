@@ -171,24 +171,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/isloon/buildings/marble-small-window-wall-v1.png
-- managementId: image.frontend.src.assets.world.isloon.terrain.limestone-floor-type-a-v1.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/limestone-floor-type-a-v1.png
-  frontend_path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.png
-  sha256: b6bc4dce7a385cecbfa5db28949b560d8182e6c6fb7c74f3e4dac45f5ad17d87
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.png
-- managementId: metadata.frontend.src.assets.world.isloon.terrain.limestone-floor-type-a-v1.source.json
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/limestone-floor-type-a-v1.source.json
-  frontend_path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.source.json
-  sha256: 10d5f6ee117da8af269e5d03d3f40870bfccfd3ba1df5a1d914e626c3749d93d
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/terrain/limestone-floor-type-a-v1.source.json
 - managementId: image.world.reedhaven.dirt-road-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/terrain/road/dirt-road-v1.png
@@ -340,24 +322,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.source.json
-- managementId: image.world.stonewarm.gravel-paving-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/gravel-paving-v1.png
-  frontend_path: src/assets/world/stonewarm/terrain/gravel-paving-v1.png
-  sha256: 4bb194670b227d92da9ea0e6e0280e08279bb60abfac9594fc97cb3bd0e417d3
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/terrain/gravel-paving-v1.png
-- managementId: image.world.stonewarm.marble-paving-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/marble-paving-v1.png
-  frontend_path: src/assets/world/stonewarm/terrain/marble-paving-v1.png
-  sha256: 98a707024ebd8518f0714c28dc38954f45fec16a3fb30a7b4b2d272f91764825
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/terrain/marble-paving-v1.png
 - managementId: tile.buildings.roof.red-stone
   version: 2.256-v1
   name: 붉은 석재 지붕 타일
@@ -539,32 +503,6 @@ assets:
       - 419
       - 418
       input_sha256: 35d978fd6a7a535782198be475dd93dbea9c743a5256514ad9070914566fe844
-      input_version: '1'
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
-- managementId: tile.terrain.road.stone-slab
-  version: 1.256-v1
-  name: 균열있는 회색 석판도로 타일
-  path: assets/tiles/terrain/road/stone-slab-road-v1.png
-  sha256: 64d8d156b010bf1a8ed918a46e56769bb1691dfbeb6d4197dcac8b12a6adfbd8
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-09-29_22-09-22-601afec8
-    artifact: border-crop.png
-    model_id: Qwen/Qwen-Image-2512
-    processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
-    approval: 사용자 석판도로 타일 추가 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 451
-      - 454
-      input_sha256: 64aca1b4d6887ebb81ba3cc85e78d21b59d81de5b08708435ab2714c81a82205
       input_version: '1'
       output_size:
       - 256
@@ -1015,54 +953,6 @@ assets:
       - 256
       - 256
   license: 별도 재사용 허가 미부여
-- managementId: image.terrain.grass
-  version: v5.256-v1
-  path: assets/tiles/terrain/non-road/grass-v5.png
-  frontend_path: src/assets/terrain/grass-v5.png
-  sha256: b4cb6f1003e366a06396012bd0279e59859db2a0becdb3a4cd7552feb7d4a19a
-  source:
-    repository: slime-workflow
-    generationId: 2026-09-30_16-59-52-3aef866b
-    stage: stage-3-redraw
-    output: single-tile.png
-    operation: 9칸 생성·중앙 몰딩 기계식 크롭·512 참조 재생성
-    approval: 사용자 잔디·잔디 진흙·유사 잔디 통합 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 2ecfa4037acbd97ea2e29f2836479a23be689dff32334ac8d41487661a3dc49a
-      input_version: v5
-      output_size:
-      - 256
-      - 256
-  width: 256
-  height: 256
-- managementId: image.terrain.wildflowers
-  version: v1.256-v1
-  path: assets/tiles/terrain/non-road/wildflowers-v1.png
-  sha256: 3f409c198b27bc1c27521a7c208142fa7ef693f0056b507820735096659c5940
-  source:
-    repository: slime-workflow
-    generationId: 2026-09-30_18-24-08-8f023c1a
-    sourceGenerationId: 2026-09-30_18-11-46-f291face
-    output: result.png
-    approval: 사용자 들꽃 바닥 타일 등록 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 7bd0abaf01a5542083a8487f02f12ec7929e4f01ae1a1dc251fabe3afcad5687
-      input_version: v1
-      output_size:
-      - 256
-      - 256
-  width: 256
-  height: 256
 - managementId: image.terrain.cactus
   version: v1.256-v1
   path: assets/tiles/terrain/blocked/cactus-v1.png
@@ -2198,52 +2088,6 @@ assets:
     repository: slime-backend
     path: config/map_names/wind-hills.yaml
     operation: 맵 배치·통행 원본 이전
-- managementId: image.terrain.shallow-water
-  version: v1.256-v1
-  path: assets/tiles/terrain/blocked/shallow-water-v1.png
-  sha256: 867ee2a5bc239cd26308d33c78d4574fc664aeca40a6248b62ac62fac0994a20
-  source:
-    repository: slime-workflow
-    generationId: 2026-09-30_20-53-25-60414950
-    sourceGenerationId: 2026-09-30_19-36-32-72da50ce
-    output: result.png
-    approval: 사용자 얕은 물 타일 등록·맵 지정 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: e584233a5cc40d588d0867e76844f9e1c635d7d257b1e81fb4b36e49b3e39aa4
-      input_version: v1
-      output_size:
-      - 256
-      - 256
-  width: 256
-  height: 256
-- managementId: image.terrain.deep-water
-  version: v1.256-v1
-  path: assets/tiles/terrain/blocked/deep-water-v1.png
-  sha256: ace3780690683a07716b9c9175b7db47b5e07955549566a21e9362051af2811a
-  source:
-    repository: slime-workflow
-    generationId: 2026-09-30_21-07-43-8ae24c49
-    sourceGenerationId: 2026-09-30_20-57-36-5a294f5e
-    output: result.png
-    approval: 사용자 깊은 물 타일 등록·맵 적용 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: d10e5ca3e54aad29a6d8d2f840f20ebd88011dddf73bee8eed50fff91c8458bc
-      input_version: v1
-      output_size:
-      - 256
-      - 256
-  width: 256
-  height: 256
 - managementId: image.terrain.dry-soil-branches
   version: v1.256-v1
   path: assets/tiles/terrain/non-road/dry-soil-branches-v1.png
@@ -4308,3 +4152,181 @@ assets:
     path: .tmp/test/expression-generator/2026-10-02_00-20-50-13683d32/result.png
     sha256: 05fdf18f00dd5a01a94136640bcbad00eb00a9230b274fd94ddb6a98331d63fe
     operation: '사용자 채택 여성 캐릭터 표정: 하품'
+- managementId: image.terrain.transparent-shallow-water
+  version: v1
+  path: assets/tiles/terrain/blocked/transparent-shallow-water-v1.png
+  name: 투명한 얕은물
+  width: 256
+  height: 256
+  sha256: f9ba967e446bd64dcdea6c6b50dcc5cf0ce1b56a686f9dcdf38e92abd32fe74e
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_22-50-13-6978dcb2
+    output: result.png
+    approval: 사용자 얕은물 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 35d2cc1aaabcbbaf48a157152735b804f140f5f4b7daebdd3038370c7c0c1f13
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.transparent-deep-water
+  version: v1
+  path: assets/tiles/terrain/blocked/transparent-deep-water-v1.png
+  name: 투명한 깊은물
+  width: 256
+  height: 256
+  sha256: bf6258940791e5fc10040497ecd108614305719fce3f72edd5fa72ac774420b8
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_22-50-19-b3b118b3
+    output: result.png
+    approval: 사용자 깊은물 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 627a36e7d393ceb0051db99fde96d80cf7becf49e2e6e75c0d9ce3467af84a8e
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.marble-road
+  version: v1
+  path: assets/tiles/terrain/road/marble-road-v1.png
+  name: 대리석 도로
+  width: 256
+  height: 256
+  sha256: 871f47e388832f4ab571060e6007ca7649fdfb364d6aaf656cc8a162aadbf274
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_22-52-24-f2a28162
+    output: result.png
+    approval: 사용자 대리석 도로 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 160f245ea1ea5bde79b465123a25588a9187b48506df1bbe908dbf5185895464
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.stone-road
+  version: v1
+  path: assets/tiles/terrain/road/stone-road-v1.png
+  name: 석재 도로
+  width: 256
+  height: 256
+  sha256: f7f0a47a2da78fa78cde4e5cd2847ee6ac9ab59cf4980b2c30d50be7a77c4fee
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_22-55-48-9ad74222
+    output: result.png
+    approval: 사용자 석재 도로 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 8fb8baf2470afd4ec9c71eac2afafcd107907469f40d6812bfbb54db59f6268e
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.wildflowers
+  version: v2
+  path: assets/tiles/terrain/non-road/wildflowers-v2.png
+  name: 꽃 바닥
+  width: 256
+  height: 256
+  sha256: a1f7da5feb922013aa8ffe893415c8eaf0e42ff6945ce7fbb22acae463d6a6c8
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_22-58-39-3fbfe969
+    output: result.png
+    approval: 사용자 꽃 바닥 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: a1599f55574b33b913c87e5092b99b2f0a8cec24acfa9595f43038199b23f511
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.grass-type-a
+  version: v1
+  path: assets/tiles/terrain/non-road/grass-type-a-v1.png
+  name: 잔디 바닥 A
+  width: 256
+  height: 256
+  sha256: f9a1a5bf0c4784c590cab71e27aea18ae936797507520fe0aff4562e1877e0a9
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_23-10-11-b3e6a56d
+    output: result.png
+    approval: 사용자 외곽 보존 크롭 채택 및 잔디 A/B 교체 승인
+    crop:
+      generation_id: 2026-10-02_23-10-11-b3e6a56d
+      source_sha256: 688ed4af007850a26d63b683e302ba319999f5f9b6eae566ac83092493259361
+      crop_bounds:
+      - 26
+      - 29
+      - 485
+      - 480
+      size:
+      - 459
+      - 451
+      padding: 3
+      output_sha256: 37902345eacf975d23178ddc2bf1355b0aac0e2cc3a9f6b3fc2e3503e05f9507
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 459
+      - 451
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.grass-type-b
+  version: v1
+  path: assets/tiles/terrain/non-road/grass-type-b-v1.png
+  name: 잔디 바닥 B
+  width: 256
+  height: 256
+  sha256: cdb5ade64e1ab031ab30b8718422afb6218d8caa26ccba85108f33a80b70bb01
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_23-10-06-6ec0364d
+    output: result.png
+    approval: 사용자 외곽 보존 크롭 채택 및 잔디 A/B 교체 승인
+    crop:
+      generation_id: 2026-10-02_23-10-06-6ec0364d
+      source_sha256: e213627bb32d55917749d99de9e1f85a224dde555670aae26abdf4f896c53da9
+      crop_bounds:
+      - 27
+      - 32
+      - 482
+      - 478
+      size:
+      - 455
+      - 446
+      padding: 3
+      output_sha256: 91be48dfa53bbf7a77180954e362667d5317f1bdac1d6aab06c996979eb8ce7c
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 455
+      - 446
+      output_size:
+      - 256
+      - 256
