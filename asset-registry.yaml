@@ -320,44 +320,65 @@ assets:
       - 256
   license: 별도 재사용 허가 미부여
 - managementId: sprite.metadata.characters.default.idle-v6.idle-v6.animation.json
-  version: down-left-8frames-v1
-  path: assets/characters/default/animations/idle-v6/down-left-8frames-v1/idle-v6.animation.json
+  version: down-left-8frames-v2
+  path: assets/characters/default/animations/idle-v6/down-left-8frames-v2/idle-v6.animation.json
   frontend_path: src/assets/characters/default/idle-v6/idle-v6.animation.json
-  sha256: da91770d4d188f47a093e1ef62189fffdcc5bcf1785002aa611de883a6421da2
+  sha256: 5138051e62ee053e2b048529e7bba0e1ed5abd0d3ae10b4153a13ddb358ebbbc
   source:
     repository: slime-workflow
-    revision: 2026-10-01_10-35-10
-    path: .tmp/test/standing-eight-frame-imagegen/2026-10-01_10-35-10/standing-down-left-8frames-384.png
-    sha256: 16ac424221b172b49305738c81c9920993fbf69b54cee3e3d3acbf7668b466c6
-    generation_id: 2026-10-01_09-24-12-f1cdb83f
-    operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
-    previous_version: down-left-v1
+    revision: 20261002T163954-0f9b5fd8
+    path: .local/sprite-editor/53ffb435505f092219fbc231/20261002T163954-0f9b5fd8.png
+    sha256: 0a3ee00b38b61dc092df23b0a3847202ef650fd9b98a5305da0393245b21eadc
+    operation: 사용자 채택 스프라이트 편집본 적용
+    previous_version: down-left-8frames-v1
+    previous_source:
+      repository: slime-workflow
+      revision: 2026-10-01_10-35-10
+      path: .tmp/test/standing-eight-frame-imagegen/2026-10-01_10-35-10/standing-down-left-8frames-384.png
+      sha256: 16ac424221b172b49305738c81c9920993fbf69b54cee3e3d3acbf7668b466c6
+      generation_id: 2026-10-01_09-24-12-f1cdb83f
+      operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
+      previous_version: down-left-v1
 - managementId: image.character.default.idle-v6.sheet
-  version: down-left-8frames-v1
-  path: assets/characters/default/animations/idle-v6/down-left-8frames-v1/idle-v6.png
+  version: down-left-8frames-v2
+  path: assets/characters/default/animations/idle-v6/down-left-8frames-v2/idle-v6.png
   frontend_path: src/assets/characters/default/idle-v6/idle-v6.png
-  sha256: 16ac424221b172b49305738c81c9920993fbf69b54cee3e3d3acbf7668b466c6
+  sha256: 0a3ee00b38b61dc092df23b0a3847202ef650fd9b98a5305da0393245b21eadc
   source:
     repository: slime-workflow
-    revision: 2026-10-01_10-35-10
-    path: .tmp/test/standing-eight-frame-imagegen/2026-10-01_10-35-10/standing-down-left-8frames-384.png
-    sha256: 16ac424221b172b49305738c81c9920993fbf69b54cee3e3d3acbf7668b466c6
-    generation_id: 2026-10-01_09-24-12-f1cdb83f
-    operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
-    previous_version: down-left-v1
+    revision: 20261002T163954-0f9b5fd8
+    path: .local/sprite-editor/53ffb435505f092219fbc231/20261002T163954-0f9b5fd8.png
+    sha256: 0a3ee00b38b61dc092df23b0a3847202ef650fd9b98a5305da0393245b21eadc
+    operation: 사용자 채택 스프라이트 편집본 적용
+    previous_version: down-left-8frames-v1
+    previous_source:
+      repository: slime-workflow
+      revision: 2026-10-01_10-35-10
+      path: .tmp/test/standing-eight-frame-imagegen/2026-10-01_10-35-10/standing-down-left-8frames-384.png
+      sha256: 16ac424221b172b49305738c81c9920993fbf69b54cee3e3d3acbf7668b466c6
+      generation_id: 2026-10-01_09-24-12-f1cdb83f
+      operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
+      previous_version: down-left-v1
 - managementId: sprite.metadata.characters.default.idle-v6.source.json
-  version: down-left-8frames-v1
-  path: assets/characters/default/animations/idle-v6/down-left-8frames-v1/source.json
+  version: down-left-8frames-v2
+  path: assets/characters/default/animations/idle-v6/down-left-8frames-v2/source.json
   frontend_path: src/assets/characters/default/idle-v6/source.json
-  sha256: 500f348db575eb4a14d9945f1b41c84f6214000fd9d8dfd39077565c26f67e7d
+  sha256: f52a3e79ca499892f405615fa0637287078b8f6727d116df0b63a5c347671503
   source:
     repository: slime-workflow
-    revision: 2026-10-01_10-35-10
-    path: .tmp/test/standing-eight-frame-imagegen/2026-10-01_10-35-10/standing-down-left-8frames-384.png
-    sha256: 16ac424221b172b49305738c81c9920993fbf69b54cee3e3d3acbf7668b466c6
-    generation_id: 2026-10-01_09-24-12-f1cdb83f
-    operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
-    previous_version: down-left-v1
+    revision: 20261002T163954-0f9b5fd8
+    path: .local/sprite-editor/53ffb435505f092219fbc231/20261002T163954-0f9b5fd8.png
+    sha256: 0a3ee00b38b61dc092df23b0a3847202ef650fd9b98a5305da0393245b21eadc
+    operation: 사용자 채택 스프라이트 편집본 적용
+    previous_version: down-left-8frames-v1
+    previous_source:
+      repository: slime-workflow
+      revision: 2026-10-01_10-35-10
+      path: .tmp/test/standing-eight-frame-imagegen/2026-10-01_10-35-10/standing-down-left-8frames-384.png
+      sha256: 16ac424221b172b49305738c81c9920993fbf69b54cee3e3d3acbf7668b466c6
+      generation_id: 2026-10-01_09-24-12-f1cdb83f
+      operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
+      previous_version: down-left-v1
 - managementId: sprite.metadata.characters.default.rest-v2.rest-v2.animation.json
   version: down-left-entry-exit-v1
   path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1/rest-v2.animation.json
