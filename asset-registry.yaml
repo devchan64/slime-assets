@@ -4224,3 +4224,45 @@ assets:
       output_size:
       - 256
       - 256
+- managementId: image.terrain.cliff-rock-face-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/cliff-rock-face-v1.png
+  name: 고도 측면 암벽
+  width: 256
+  height: 256
+  sha256: eb1328182be97db1d4a2fff140903574ca332e4c07675be8de799504eeeefd93
+  source:
+    repository: slime-workflow
+    generator: OpenAI built-in imagegen
+    generationId: exec-37ae7c4b-05fa-4d27-8ffc-2a2ee42d500a
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 1254
+      - 1254
+      input_sha256: 60c356ed38d511f56656c5d5ab380ea5ad59a082affc5338143803edaa27afbf
+      output_size:
+      - 256
+      - 256
+- managementId: image.effects.battle.impact-burst-v1
+  version: v1
+  path: assets/sprites/effects/battle/impact-burst-v1.png
+  name: 전투 충돌 섬광
+  width: 256
+  height: 256
+  sha256: 735881e9eed20a33cbc33cb7e9e5c83d3864a33b725d3cb9eae90e9b15aac874
+  source:
+    repository: slime-workflow
+    generator: OpenAI built-in imagegen
+    generationId: exec-4fca0b9c-1ec7-4355-837b-c43a7e6c8d6d
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 1254
+      - 1254
+      input_sha256: 46911983ec7f8b067bc324c20b5fc4e5342df55e23e34c64d6563561a331ce87
+      output_size:
+      - 256
+      - 256
