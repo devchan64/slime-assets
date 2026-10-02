@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: surprise
+label_ko: 놀람
+version: v1
+image: female-surprise-v1.png
+sha256: 66616c42b92e35f8e270f357cb5e2563abf73ea8cbfa7cfdfa9a7f0efde751f9
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-44-4298a896
+  path: .tmp/test/expression-generator/2026-10-02_00-20-44-4298a896/result.png
+  sha256: 66616c42b92e35f8e270f357cb5e2563abf73ea8cbfa7cfdfa9a7f0efde751f9
+  operation: '사용자 채택 여성 캐릭터 표정: 놀람'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 94f55f89330a1f36bd19683a5b008d7c9ba0e13875e66b756c8b322754f53e77

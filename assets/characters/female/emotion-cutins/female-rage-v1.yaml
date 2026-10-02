@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: rage
+label_ko: 격노
+version: v1
+image: female-rage-v1.png
+sha256: f05bcb25eb6efa7d6d722d69fc0a22ec1c31856972d6c4cd6ca2668a895bd202
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-38-ea83d622
+  path: .tmp/test/expression-generator/2026-10-02_00-20-38-ea83d622/result.png
+  sha256: f05bcb25eb6efa7d6d722d69fc0a22ec1c31856972d6c4cd6ca2668a895bd202
+  operation: '사용자 채택 여성 캐릭터 표정: 격노'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 2b8684390df07947fe5ecd81007a22cf3785ff5e8f6b408255fd54a88e5d43ab

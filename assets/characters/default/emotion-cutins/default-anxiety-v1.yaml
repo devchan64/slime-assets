@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: anxiety
+label_ko: 불안
+version: v1
+image: default-anxiety-v1.png
+sha256: f74c04d6da845c57007842a85f3c6a08508a6e7fb09fdc9f11e05fc3c73f3bca
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-57-87d7e615
+  path: .tmp/test/expression-generator/2026-10-01_23-30-57-87d7e615/result.png
+  sha256: f74c04d6da845c57007842a85f3c6a08508a6e7fb09fdc9f11e05fc3c73f3bca
+  operation: '사용자 채택 기본 캐릭터 표정: 불안'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 4e00d5450a27ff2eaf434a43284ed522e332aa9fc2b42e0b10bafcb81219d293

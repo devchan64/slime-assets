@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: disgust
+label_ko: 혐오
+version: v1
+image: female-disgust-v1.png
+sha256: 6daf79bdbfbab63136bdf5dd523eb76647ef928c4e3ece9c2bb9e63b55132ee1
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-39-9f5b34fb
+  path: .tmp/test/expression-generator/2026-10-02_00-20-39-9f5b34fb/result.png
+  sha256: 6daf79bdbfbab63136bdf5dd523eb76647ef928c4e3ece9c2bb9e63b55132ee1
+  operation: '사용자 채택 여성 캐릭터 표정: 혐오'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 8cf517fb46c49f029b769e32c171de3ffe21d8f6aabd4de90820f95dc386abb4

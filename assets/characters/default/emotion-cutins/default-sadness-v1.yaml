@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: sadness
+label_ko: 슬픔
+version: v1
+image: default-sadness-v1.png
+sha256: a911693d31630ac3b4601e8f33a9d6f422c0b7c95a454607a7c50b6e378ef165
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-59-13b83f95
+  path: .tmp/test/expression-generator/2026-10-01_23-30-59-13b83f95/result.png
+  sha256: a911693d31630ac3b4601e8f33a9d6f422c0b7c95a454607a7c50b6e378ef165
+  operation: '사용자 채택 기본 캐릭터 표정: 슬픔'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 146cc7e9992e51c1e8fcdfa8f9be281fafb5079c0864944940d8be97bb58f59e

@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: wonder
+label_ko: 경이로움
+version: v1
+image: female-wonder-v1.png
+sha256: c7d06a7e1cd5464a091b462e451ad467fc7610547371c86977afee5c23a616ee
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-44-f3585060
+  path: .tmp/test/expression-generator/2026-10-02_00-20-44-f3585060/result.png
+  sha256: c7d06a7e1cd5464a091b462e451ad467fc7610547371c86977afee5c23a616ee
+  operation: '사용자 채택 여성 캐릭터 표정: 경이로움'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 436003197964be0dcd3b85cb1149e4d4b8946110cd795a26ba527423ad8d9ef1

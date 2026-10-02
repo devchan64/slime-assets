@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: melancholy
+label_ko: 우울한 표정
+version: v1
+image: default-melancholy-v1.png
+sha256: b47c7d6ec322418457a8d0b0cd18f1d0627fe3609d5084ba428dbc4070a792a5
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-59-9b3bd39b
+  path: .tmp/test/expression-generator/2026-10-01_23-30-59-9b3bd39b/result.png
+  sha256: b47c7d6ec322418457a8d0b0cd18f1d0627fe3609d5084ba428dbc4070a792a5
+  operation: '사용자 채택 기본 캐릭터 표정: 우울한 표정'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 0f53b14aee0be7ddfa1dc58dce93f0cf587b8d08a0ae2201c899142bf3dedd87

@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: yawn
+label_ko: 하품
+version: v1
+image: default-yawn-v1.png
+sha256: a9090e3febfd09cbdb362496fbd4779cdffa96fc21eb7407a41ac53854d9e801
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-31-05-7d8aa7d7
+  path: .tmp/test/expression-generator/2026-10-01_23-31-05-7d8aa7d7/result.png
+  sha256: a9090e3febfd09cbdb362496fbd4779cdffa96fc21eb7407a41ac53854d9e801
+  operation: '사용자 채택 기본 캐릭터 표정: 하품'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: ccff7462442cdc552c125b6992d17283a0df3c8cdcf0d96eb13f6db8d1e79f69

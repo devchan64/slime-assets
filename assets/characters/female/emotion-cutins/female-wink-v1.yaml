@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: wink
+label_ko: 윙크
+version: v1
+image: female-wink-v1.png
+sha256: 1c4ca740b4fc80599e369c2eb79597606ff6050ceefb3c9558476b042fb2efda
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-49-6296d430
+  path: .tmp/test/expression-generator/2026-10-02_00-20-49-6296d430/result.png
+  sha256: 1c4ca740b4fc80599e369c2eb79597606ff6050ceefb3c9558476b042fb2efda
+  operation: '사용자 채택 여성 캐릭터 표정: 윙크'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 3760724f1b61d90fae582a5b19dc012603f58cf31a6a21399b5900e7bbadc34d

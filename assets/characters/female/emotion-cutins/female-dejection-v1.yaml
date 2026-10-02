@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: dejection
+label_ko: 낙담
+version: v1
+image: female-dejection-v1.png
+sha256: eb2323210918d515edbd135f02bd33956b2e58acb7ac7297be286c3039ae2f10
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-42-a815262e
+  path: .tmp/test/expression-generator/2026-10-02_00-20-42-a815262e/result.png
+  sha256: eb2323210918d515edbd135f02bd33956b2e58acb7ac7297be286c3039ae2f10
+  operation: '사용자 채택 여성 캐릭터 표정: 낙담'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 82968f1c6f138f7b2c9bf6c7acf9843ee9100ee4ec1274289c62d109cf4fa960

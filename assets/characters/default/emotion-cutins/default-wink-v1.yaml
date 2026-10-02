@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: wink
+label_ko: 윙크
+version: v1
+image: default-wink-v1.png
+sha256: 1e7f52559c29a6b310185098232de3a23a6d7d28a43bce78f8ed2d25ac1a05e2
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-31-04-e5d44bfe
+  path: .tmp/test/expression-generator/2026-10-01_23-31-04-e5d44bfe/result.png
+  sha256: 1e7f52559c29a6b310185098232de3a23a6d7d28a43bce78f8ed2d25ac1a05e2
+  operation: '사용자 채택 기본 캐릭터 표정: 윙크'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 3760724f1b61d90fae582a5b19dc012603f58cf31a6a21399b5900e7bbadc34d

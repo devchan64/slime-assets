@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: disdain
+label_ko: 경멸
+version: v1
+image: default-disdain-v1.png
+sha256: c214218e4c97ef696ba56749178e695719d6d3602498d4160497c8e400585aea
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-56-1f835f35
+  path: .tmp/test/expression-generator/2026-10-01_23-30-56-1f835f35/result.png
+  sha256: c214218e4c97ef696ba56749178e695719d6d3602498d4160497c8e400585aea
+  operation: '사용자 채택 기본 캐릭터 표정: 경멸'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 7977e82bfd9118b5a88146334d606a33f7fb3230bf02ffc830b7f04ebd6771ca

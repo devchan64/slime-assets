@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: revulsion
+label_ko: 극심한 혐오
+version: v1
+image: default-revulsion-v1.png
+sha256: 5c694be2e23d58a908e31ed222f2398e8a209cca00b0b4e2d860e5e10449543e
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-57-f21bb47e
+  path: .tmp/test/expression-generator/2026-10-01_23-30-57-f21bb47e/result.png
+  sha256: 5c694be2e23d58a908e31ed222f2398e8a209cca00b0b4e2d860e5e10449543e
+  operation: '사용자 채택 기본 캐릭터 표정: 극심한 혐오'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 352c0299642c16ed6a5fbeecdfb2a9615f712743999e5078f41e8785af59b616

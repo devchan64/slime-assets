@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: hurt_feelings
+label_ko: 서운함
+version: v1
+image: default-hurt_feelings-v1.png
+sha256: 1fdcf2d99d970c1f404ea1520d483118727a0ad9564354cc22061fc9c40adc45
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-31-01-a277858e
+  path: .tmp/test/expression-generator/2026-10-01_23-31-01-a277858e/result.png
+  sha256: 1fdcf2d99d970c1f404ea1520d483118727a0ad9564354cc22061fc9c40adc45
+  operation: '사용자 채택 기본 캐릭터 표정: 서운함'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 9ab0875cf7bc3e120e0c77fb25544e42cb4d186ed59bf08964fb797303da63b8

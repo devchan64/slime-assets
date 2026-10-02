@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: terror
+label_ko: 극도의 공포
+version: v1
+image: default-terror-v1.png
+sha256: 61094ed724b102a5b2bd0120722a3d6544c371c552b591d74fca13fd16e77fbf
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-58-640a06cf
+  path: .tmp/test/expression-generator/2026-10-01_23-30-58-640a06cf/result.png
+  sha256: 61094ed724b102a5b2bd0120722a3d6544c371c552b591d74fca13fd16e77fbf
+  operation: '사용자 채택 기본 캐릭터 표정: 극도의 공포'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: be8458059b75d122652218fdb60c0f06f833fb45593da9a17c26353a6729cce8

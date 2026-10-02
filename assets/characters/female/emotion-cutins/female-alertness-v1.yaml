@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: alertness
+label_ko: 주의 집중
+version: v1
+image: female-alertness-v1.png
+sha256: 94c62a301ce57c942f6601146d0f257e60d03a0b5509ceda08f12c94005ba0a3
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-44-4bb996c8
+  path: .tmp/test/expression-generator/2026-10-02_00-20-44-4bb996c8/result.png
+  sha256: 94c62a301ce57c942f6601146d0f257e60d03a0b5509ceda08f12c94005ba0a3
+  operation: '사용자 채택 여성 캐릭터 표정: 주의 집중'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 4dc213d627dcb338b0e357103f577657d913365e39aa0c06417afd7406c80a69

@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: skeptical
+label_ko: 의심
+version: v1
+image: default-skeptical-v1.png
+sha256: 5bed5af86736b01c16b434913f0e16de3b45527d3de3ec5b9eb636ade3a7b859
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-31-03-7bc72a29
+  path: .tmp/test/expression-generator/2026-10-01_23-31-03-7bc72a29/result.png
+  sha256: 5bed5af86736b01c16b434913f0e16de3b45527d3de3ec5b9eb636ade3a7b859
+  operation: '사용자 채택 기본 캐릭터 표정: 의심'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: deffa17ffa1bcbe43745881e21b44ee68a53ec0be9373b7ba7cbef5a32dd69ab

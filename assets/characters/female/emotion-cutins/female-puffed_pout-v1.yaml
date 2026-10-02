@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: puffed_pout
+label_ko: 볼 부푼 삐짐
+version: v1
+image: female-puffed_pout-v1.png
+sha256: eca02112864076293749623f9370ad90962d93200002bf2379f46003a7b81516
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-49-35e34d67
+  path: .tmp/test/expression-generator/2026-10-02_00-20-49-35e34d67/result.png
+  sha256: eca02112864076293749623f9370ad90962d93200002bf2379f46003a7b81516
+  operation: '사용자 채택 여성 캐릭터 표정: 볼 부푼 삐짐'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: d8a1f6c300df3a9c2bbe2d81ffded18e907b88006ea66c93ed3dfec6e39f376b

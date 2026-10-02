@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: anger
+label_ko: 분노
+version: v1
+image: default-anger-v1.png
+sha256: 2ba2e1458e0290b92c9969e3448405aabcca56ac17ed7a39ed8ad43fd4565db2
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-55-6a817431
+  path: .tmp/test/expression-generator/2026-10-01_23-30-55-6a817431/result.png
+  sha256: 2ba2e1458e0290b92c9969e3448405aabcca56ac17ed7a39ed8ad43fd4565db2
+  operation: '사용자 채택 기본 캐릭터 표정: 분노'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 8bf925ca5951f4a87b8b8c6bea5ae14d9010379c894ac105e835b6396310c1d2

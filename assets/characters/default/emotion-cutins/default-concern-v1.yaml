@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: concern
+label_ko: 걱정
+version: v1
+image: default-concern-v1.png
+sha256: 8e2dbb33722378d1a015c07d966da954bf3dd0544cf08511087f23362ac813f9
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-57-b5b87f39
+  path: .tmp/test/expression-generator/2026-10-01_23-30-57-b5b87f39/result.png
+  sha256: 8e2dbb33722378d1a015c07d966da954bf3dd0544cf08511087f23362ac813f9
+  operation: '사용자 채택 기본 캐릭터 표정: 걱정'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: c9c36246b77fce7b3e5fd8c61f266b4680a833352884f4f0ad7ee1736fa58488

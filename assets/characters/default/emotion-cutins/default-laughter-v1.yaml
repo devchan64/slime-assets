@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: laughter
+label_ko: 큰 웃음
+version: v1
+image: default-laughter-v1.png
+sha256: 5eceb9b335adb4183b895fcea6adbd76128513aa8573d2a5168279b83f716eed
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-59-b8e54aea
+  path: .tmp/test/expression-generator/2026-10-01_23-30-59-b8e54aea/result.png
+  sha256: 5eceb9b335adb4183b895fcea6adbd76128513aa8573d2a5168279b83f716eed
+  operation: '사용자 채택 기본 캐릭터 표정: 큰 웃음'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: cf2a5109bbbf56d0082f58ee612aea4995828ab2c5abee40edff646ef48f431c

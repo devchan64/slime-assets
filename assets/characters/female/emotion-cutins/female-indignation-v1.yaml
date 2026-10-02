@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: indignation
+label_ko: 분개
+version: v1
+image: female-indignation-v1.png
+sha256: 8f7306e37d664bce4b4bef1f938dfa0e70a20de0c53ee3814c9217b38630c950
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-38-dea57e42
+  path: .tmp/test/expression-generator/2026-10-02_00-20-38-dea57e42/result.png
+  sha256: 8f7306e37d664bce4b4bef1f938dfa0e70a20de0c53ee3814c9217b38630c950
+  operation: '사용자 채택 여성 캐릭터 표정: 분개'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 591fe1984c3c65afcaec0bd8fd51316669aa7cebef1ae702c173be01fbf079af

@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: sternness
+label_ko: 엄격함
+version: v1
+image: female-sternness-v1.png
+sha256: cc1ae82341517750adf6f81b6dc6fed4a63914b3866f66f489508d4f7a5d30ac
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-37-9c37d255
+  path: .tmp/test/expression-generator/2026-10-02_00-20-37-9c37d255/result.png
+  sha256: cc1ae82341517750adf6f81b6dc6fed4a63914b3866f66f489508d4f7a5d30ac
+  operation: '사용자 채택 여성 캐릭터 표정: 엄격함'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 34fd343627043f7432c483b47a0f93f06877cbe7ed3f3235a6ac2ee1aa270dc1

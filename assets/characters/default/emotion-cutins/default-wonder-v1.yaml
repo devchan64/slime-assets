@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: wonder
+label_ko: 경이로움
+version: v1
+image: default-wonder-v1.png
+sha256: 4c7bfe822d588f804a332411dac1b1a796987f13468c1684daba0b792e29f1ae
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-31-00-b0f7e666
+  path: .tmp/test/expression-generator/2026-10-01_23-31-00-b0f7e666/result.png
+  sha256: 4c7bfe822d588f804a332411dac1b1a796987f13468c1684daba0b792e29f1ae
+  operation: '사용자 채택 기본 캐릭터 표정: 경이로움'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 436003197964be0dcd3b85cb1149e4d4b8946110cd795a26ba527423ad8d9ef1

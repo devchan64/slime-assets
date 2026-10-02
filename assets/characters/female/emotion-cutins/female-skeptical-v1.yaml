@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: skeptical
+label_ko: 의심
+version: v1
+image: female-skeptical-v1.png
+sha256: fb6684b6c1c0151096c9f83e32601e349d3dad64dfefafecc1be131cb34e3aeb
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-48-971f73dd
+  path: .tmp/test/expression-generator/2026-10-02_00-20-48-971f73dd/result.png
+  sha256: fb6684b6c1c0151096c9f83e32601e349d3dad64dfefafecc1be131cb34e3aeb
+  operation: '사용자 채택 여성 캐릭터 표정: 의심'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: deffa17ffa1bcbe43745881e21b44ee68a53ec0be9373b7ba7cbef5a32dd69ab

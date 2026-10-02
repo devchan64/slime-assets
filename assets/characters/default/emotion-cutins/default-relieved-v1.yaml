@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: relieved
+label_ko: 안도
+version: v1
+image: default-relieved-v1.png
+sha256: 4cb3f51498070ebb5e11794d9c557b2eb581ac85fd3ff30882ab9f7f1a5fa7e2
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-31-04-b4846da0
+  path: .tmp/test/expression-generator/2026-10-01_23-31-04-b4846da0/result.png
+  sha256: 4cb3f51498070ebb5e11794d9c557b2eb581ac85fd3ff30882ab9f7f1a5fa7e2
+  operation: '사용자 채택 기본 캐릭터 표정: 안도'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: f6aa6f23e53597e3f39fc0412d16fb7c87e8a293c695a2ccafda0d69a9df860a

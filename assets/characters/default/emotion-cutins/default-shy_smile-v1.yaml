@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: shy_smile
+label_ko: 수줍은 미소
+version: v1
+image: default-shy_smile-v1.png
+sha256: 288cf0ccc41c7527b491632788ac7a1ee6bbce732b404fc7416d20cc5d30dc49
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-31-02-561a7d69
+  path: .tmp/test/expression-generator/2026-10-01_23-31-02-561a7d69/result.png
+  sha256: 288cf0ccc41c7527b491632788ac7a1ee6bbce732b404fc7416d20cc5d30dc49
+  operation: '사용자 채택 기본 캐릭터 표정: 수줍은 미소'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 8acab5ba7b40eb27ff181e09b49a83f476108f113d01a9bcef3185467993f645

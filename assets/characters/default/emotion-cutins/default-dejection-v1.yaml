@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: default
+expression_id: dejection
+label_ko: 낙담
+version: v1
+image: default-dejection-v1.png
+sha256: 4b4599430bb50c6bf2686b916f4fb55e6f7342506cb1a34329edf41bb8c6f57e
+source:
+  repository: slime-workflow
+  revision: 2026-10-01_23-30-59-6cb4cadd
+  path: .tmp/test/expression-generator/2026-10-01_23-30-59-6cb4cadd/result.png
+  sha256: 4b4599430bb50c6bf2686b916f4fb55e6f7342506cb1a34329edf41bb8c6f57e
+  operation: '사용자 채택 기본 캐릭터 표정: 낙담'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: c66fe4d1a446b84248c9cee413c5d843b5f35f821ce2763f8cd51363a43e86f4
+prompt_sha256: 82968f1c6f138f7b2c9bf6c7acf9843ee9100ee4ec1274289c62d109cf4fa960

@@ -1,0 +1,19 @@
+schema_version: 1
+character_id: female
+expression_id: melancholy
+label_ko: 우울한 표정
+version: v1
+image: female-melancholy-v1.png
+sha256: 750a301daadc5b9b832ade5a08fadce94bd8157f1264e1e80491b14befa09471
+source:
+  repository: slime-workflow
+  revision: 2026-10-02_00-20-43-5686a1fa
+  path: .tmp/test/expression-generator/2026-10-02_00-20-43-5686a1fa/result.png
+  sha256: 750a301daadc5b9b832ade5a08fadce94bd8157f1264e1e80491b14befa09471
+  operation: '사용자 채택 여성 캐릭터 표정: 우울한 표정'
+model_id: Qwen/Qwen-Image-Edit-2511
+model_revision: 6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9
+steps: 4
+seed: 10107
+reference_sha256: 9298aebb7995715bc8eb508a1a2857db4dcfc51b0b35c8740cf54d05e27497fb
+prompt_sha256: 0f53b14aee0be7ddfa1dc58dce93f0cf587b8d08a0ae2201c899142bf3dedd87
