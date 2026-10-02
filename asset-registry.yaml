@@ -9,15 +9,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/meadow-backdrop-v2.webp
-- managementId: image.frontend.src.assets.terrain.road-v3.webp
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/road-v3.webp
-  frontend_path: src/assets/terrain/road-v3.webp
-  sha256: d3d5a4f50b68c03a767417aba89349867655069f509fb7acef6f031cfe9e125a
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/terrain/road-v3.webp
 - managementId: image.frontend.src.assets.world.isloon.buildings.marble-large-window-wall-v1.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/tiles/buildings/marble/marble-large-window-wall-v1.png
@@ -72,15 +63,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/isloon/buildings/marble-small-window-wall-v1.png
-- managementId: image.world.reedhaven.dirt-road-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/road/dirt-road-v1.png
-  frontend_path: src/assets/world/reedhaven/terrain/dirt-road-v1.png
-  sha256: 2fe0b1494ec0669db50ab2269bd1d01e7ffd11a295ceb9f45db95f481a00e3cf
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/reedhaven/terrain/dirt-road-v1.png
 - managementId: image.world.stonewarm.stone-door-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
   path: assets/tiles/buildings/stone/stone-door-v1.png
@@ -378,33 +360,6 @@ assets:
       - 512
       - 512
       input_sha256: 024776650163d4087cb6a7d2715b5ae54c44dae3e5285aeccb59625811dbbefa
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
-- managementId: tile.terrain.road.packed-dirt
-  version: 1.256-v1
-  name: 돌이 섞인 단단한 흙도로 타일
-  path: assets/tiles/terrain/road/packed-dirt-road-v1.png
-  frontend_path: src/assets/terrain/roads/packed-dirt-road-v1.png
-  sha256: 64ccb96f5c19eb1215563559992aab8814170b068fc59ae4a72e5ce9205bb230
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-09-29_18-16-42-c32bb567
-    artifact: border-crop.png
-    model_id: Qwen/Qwen-Image-Edit-2511
-    processing: 심벌·텍스트 제거 후 안쪽 경계 기준 1% 올림 보더 크롭
-    approval: 사용자 흙도로 타일 채택 및 필드 도로 일부 활용 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 419
-      - 418
-      input_sha256: 35d978fd6a7a535782198be475dd93dbea9c743a5256514ad9070914566fe844
-      input_version: '1'
       output_size:
       - 256
       - 256
@@ -828,32 +783,6 @@ assets:
   source:
     repository: slime-frontend
     path: src/assets/login/slime-welcome-v4.png
-- managementId: tile.terrain.road.brick
-  version: 1.256-v1
-  name: 황토 벽돌 도로 타일
-  path: assets/tiles/terrain/road/brick-road-v1.png
-  sha256: 7dfd6cfd59a5564ab67f75f8bfb8fa70a99d5573006b368dbbb73e01fc952fc4
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-09-30_00-13-25-5f69447f
-    artifact: border-crop.png
-    model_id: Qwen/Qwen-Image-2512
-    processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
-    approval: 사용자 벽돌 도로 타일 채택
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 445
-      - 459
-      input_sha256: 240a3a87bed3bb32b4ce458356559b34193ed4cc25ee1d4afb03f64b5561b8d3
-      input_version: '1'
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
 - managementId: config.city-layouts.index
   version: v2
   path: assets/maps/city_layouts/index.yaml
@@ -4205,6 +4134,138 @@ assets:
       - 512
       - 512
       input_sha256: 0296d84ebef8b705a99b242eaae8ee1dbb0dd9f2b657414361d6d0bb6fc7d8ae
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.dry-ground-tree-stump
+  version: v1
+  path: assets/tiles/terrain/blocked/dry-ground-tree-stump-v1.png
+  name: 마른땅 나무 밑동 타일
+  width: 256
+  height: 256
+  sha256: 5fb1da73cf457863f3886c35c5b87a7fb7db712600762010247dd16c58e92e6c
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-02_23-57-17-bdbc2987
+    output: result.png
+    approval: 사용자 마른땅 나무 밑동 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 964b086b95c3867ec48641022e0ba9e6948aaf53578c5b88ecf9ec03f4a28dbc
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.swamp-water
+  version: v1
+  path: assets/tiles/terrain/blocked/swamp-water-v1.png
+  name: 늪지대 수면 타일
+  width: 256
+  height: 256
+  sha256: abe5649e02fc72298215494d36e69ca7cc265d7ff0ea836a4a1313059be5180d
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-03_00-19-25-3fc927a5
+    output: result.png
+    approval: 사용자 늪지대 수면 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: a46f19632e605c7a7e46e92e12f316d4740f20e34b6dbae84c7cf7e7be8059fe
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.dry-soil-pebble-road
+  version: v1
+  path: assets/tiles/terrain/road/dry-soil-pebble-road-v1.png
+  name: 마른 흙 자갈 도로 타일
+  width: 256
+  height: 256
+  sha256: a39cde643774e814d4ed224021290ac11d81c25de928e0215167b27d6a8129e9
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-03_00-22-00-ac6e5543
+    output: result.png
+    approval: 사용자 마른 흙 자갈 도로 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 03f5f738d9ae50495c440d2996b7de0631c82fab3cfc1677daed14d0b79ca1c9
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.soil-pebble-road
+  version: v1
+  path: assets/tiles/terrain/road/soil-pebble-road-v1.png
+  name: 흙 자갈 도로 타일
+  width: 256
+  height: 256
+  sha256: 3927bf3fe9e0d6548473c14e9d0aa72ce99ebacce6af765b6b4503b343fddff0
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-03_00-22-10-928ac268
+    output: result.png
+    approval: 사용자 흙 자갈 도로 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 524720760e90806b447c31c72f6843ca6d396d9a831157ff5255e8482122aba3
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.broken-stone-slab-road
+  version: v1
+  path: assets/tiles/terrain/road/broken-stone-slab-road-v1.png
+  name: 조각난 석판 도로 타일
+  width: 256
+  height: 256
+  sha256: 28aeb7f188e4ad4a834fc50d99125a57694f87998d38d6431e0e90b37ddede67
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-03_00-23-23-6037d2cf
+    output: result.png
+    approval: 사용자 조각난 석판 도로 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 7eedf58e360d9b4a65db719d26624ee786d7c99dad7f850207721f6a29451112
+      output_size:
+      - 256
+      - 256
+- managementId: image.terrain.mossy-stone-road
+  version: v1
+  path: assets/tiles/terrain/road/mossy-stone-road-v1.png
+  name: 이끼 낀 석재 도로 타일
+  width: 256
+  height: 256
+  sha256: 5c31c136468f65dc810c4918b6794d96f9fcaf2eebfe83a4face992938ad37cd
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-03_00-28-10-8d808d6f
+    output: result.png
+    approval: 사용자 이끼 낀 석재 도로 타일 등록 승인
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 06af9789449a30b31d4ba8e0b12d784fa7f435c0485fdbf5a69ae284a2a7dfed
       output_size:
       - 256
       - 256
