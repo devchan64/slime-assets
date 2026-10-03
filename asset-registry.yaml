@@ -741,7 +741,7 @@ assets:
 - managementId: frontend.ui.animation-labels.yaml
   version: 2.expanded-species
   path: assets/ui/animation-labels.yaml
-  sha256: 0031bc4f95a9e480699fdf4523d3426a6fe8722ef35c4e03741b3ea553926339
+  sha256: b19761664b5be247e6880076a032da60222e50af0979e426a8b383513972603e
   source:
     repository: slime-frontend
     path: src/assets/animation-labels.yaml
@@ -4287,3 +4287,90 @@ assets:
       output_size:
       - 256
       - 256
+- managementId: image.character.female.idle-v1.sheet
+  version: down-left-8frames-v2
+  path: assets/characters/female/animations/idle-v1/down-left-8frames-v2/idle-v1.png
+  sha256: d582075c2e7fbf28ebfd28c3580384df357990cdcd1d83a02e9db640cc05d8ab
+  source:
+    repository: slime-workflow
+    editor_revision: 20261003T033230-dae47ddd
+    previous_path: assets/characters/female/animations/idle-v1/down-left-8frames-v1
+- managementId: sprite.metadata.characters.female.idle-v1.animation.json
+  version: down-left-8frames-v2
+  path: assets/characters/female/animations/idle-v1/down-left-8frames-v2/idle-v1.animation.json
+  sha256: 4436cd09e8fefb93153593cc6aef66d351081958d1ab0534d8a9297f8d9d7e0f
+  source:
+    repository: slime-workflow
+    editor_revision: 20261003T033230-dae47ddd
+    previous_path: assets/characters/female/animations/idle-v1/down-left-8frames-v1
+- managementId: sprite.metadata.characters.female.idle-v1.source.yaml
+  version: down-left-8frames-v2
+  path: assets/characters/female/animations/idle-v1/down-left-8frames-v2/source.yaml
+  sha256: 016a8cdc3e4a4c0cea52c6966bdedf495cfb05736fdac438c82a113bf0cfe036
+  source:
+    repository: slime-workflow
+    editor_revision: 20261003T033230-dae47ddd
+    previous_path: assets/characters/female/animations/idle-v1/down-left-8frames-v1
+- managementId: image.character.female.rest-v1.sheet
+  version: down-left-entry-exit-v1
+  path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1/rest-v1.png
+  sha256: e37154a2031a03fc5e1d5fef712c8a4a91e294c47f78afbdf0c2f7d285db1fe7
+  source:
+    repository: slime-workflow
+    path: .tmp/test/female-rest-text-poses/2026-10-03_09-54-24/female-rest-21frames.png
+    sha256: 3ec073e8838095d059a497d67c3dbbf9f4710f81c2a551727aecac6a1ca90410
+    generation_id: a9320066-f151-4750-9a64-e1ae079fd06d
+    operation: 사용자 채택 · 384px 21프레임 · 공통 배율과 지면 정렬 · 진입 후 고정·해제 후 여성 대기
+- managementId: sprite.metadata.characters.female.rest-v1.animation.json
+  version: down-left-entry-exit-v1
+  path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1/rest-v1.animation.json
+  sha256: e04b84e961e003758e9be9a5e229304b5c24c10c5ccfeb03d9b725f202d9997f
+  source:
+    repository: slime-workflow
+    path: .tmp/test/female-rest-text-poses/2026-10-03_09-54-24/female-rest-21frames.png
+    sha256: 3ec073e8838095d059a497d67c3dbbf9f4710f81c2a551727aecac6a1ca90410
+    generation_id: a9320066-f151-4750-9a64-e1ae079fd06d
+    operation: 사용자 채택 · 384px 21프레임 · 공통 배율과 지면 정렬 · 진입 후 고정·해제 후 여성 대기
+- managementId: sprite.metadata.characters.female.rest-v1.source.yaml
+  version: down-left-entry-exit-v1
+  path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1/source.yaml
+  sha256: c7e2aa0a5064eaa50d433e2269023f04fc1ec84fce2a2cacba052ac7b2ea5e13
+  source:
+    repository: slime-workflow
+    path: .tmp/test/female-rest-text-poses/2026-10-03_09-54-24/female-rest-21frames.png
+    sha256: 3ec073e8838095d059a497d67c3dbbf9f4710f81c2a551727aecac6a1ca90410
+    generation_id: a9320066-f151-4750-9a64-e1ae079fd06d
+    operation: 사용자 채택 · 384px 21프레임 · 공통 배율과 지면 정렬 · 진입 후 고정·해제 후 여성 대기
+- managementId: image.terrain.ramp-earth-stone-wall-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/ramp-earth-stone-wall-v1.png
+  sha256: 7a5a0cb33ee79f4b482b4f60a71e5ac2fa6488381310c7728e47db091808db14
+  source:
+    repository: slime-workflow
+    path: .tmp/test/map-ramp-texture/2026-10-03_10-27-50/ramp-earth-stone-256.png
+    generation_id: 91708760-e584-4b9a-bfde-5d110f6d1256
+    operation: ImageGen 경사로 벽면 텍스처·256px 사용자 채택
+- managementId: sprite.characters.female.walk-v1.source.yaml
+  version: down-left-12frames-v1
+  path: assets/characters/female/animations/walk-v1/down-left-12frames-v1/source.yaml
+  sha256: 3454a5d9a7e88929a0d4da2e334b049711471e73e77f386a2aab78339ebbb985
+  source:
+    repository: slime-workflow
+    path: /home/cbsim/ws/slime-workflow/.tmp/test/female-walk-identity-imagegen/2026-10-03_12-35-36
+    generation_id: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
+- managementId: sprite.characters.female.walk-v1.walk-v1.animation.json
+  version: down-left-12frames-v1
+  path: assets/characters/female/animations/walk-v1/down-left-12frames-v1/walk-v1.animation.json
+  sha256: 774bd75e8eb2afdbc5296e74afd638751b4aa1a0cbb4e7ae9b3dcccb725fe96c
+  source:
+    repository: slime-workflow
+    path: /home/cbsim/ws/slime-workflow/.tmp/test/female-walk-identity-imagegen/2026-10-03_12-35-36
+    generation_id: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
+- managementId: sprite.characters.female.walk-v1.walk-v1.png
+  version: down-left-12frames-v1
+  path: assets/characters/female/animations/walk-v1/down-left-12frames-v1/walk-v1.png
+  sha256: 969e8e7bbc0eda5b0d09de2a93e22ac2c0f1b1ed9da96be27f5f6ff4f095b04c
+  source:
+    repository: slime-workflow
+    path: /home/cbsim/ws/slime-workflow/.tmp/test/female-walk-identity-imagegen/2026-10-03_12-35-36
+    generation_id: exec-3be21d66-e8d4-45cb-b636-34078c53d49e

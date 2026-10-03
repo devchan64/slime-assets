@@ -1,0 +1,211 @@
+version: down-left-entry-exit-v1
+image: rest-v1.png
+sha256: e37154a2031a03fc5e1d5fef712c8a4a91e294c47f78afbdf0c2f7d285db1fe7
+referenceBodyHeight: 360
+gameBodyHeight: 80
+directionOrder:
+- down_left
+sourceImageSha256: 3ec073e8838095d059a497d67c3dbbf9f4710f81c2a551727aecac6a1ca90410
+generationId: a9320066-f151-4750-9a64-e1ae079fd06d
+operation: 사용자 채택 · 384px 21프레임 · 공통 배율과 지면 정렬 · 진입 후 고정·해제 후 여성 대기
+playback:
+  enterAction: rest-entry
+  holdAction: idle
+  exitAction: rest-exit
+  afterExitAnimationId: character.female.gray-outfit.idle
+  afterExitClipId: idle.down_left
+normalization:
+  scale: 1.1009174311926606
+  anchor:
+  - 192
+  - 376
+  frames:
+  - frame: 0
+    sourceBounds:
+    - 120
+    - 8
+    - 242
+    - 335
+    offset:
+    - 125
+    - 16
+  - frame: 1
+    sourceBounds:
+    - 374
+    - 10
+    - 514
+    - 330
+    offset:
+    - 115
+    - 24
+  - frame: 2
+    sourceBounds:
+    - 633
+    - 30
+    - 780
+    - 330
+    offset:
+    - 111
+    - 46
+  - frame: 3
+    sourceBounds:
+    - 889
+    - 62
+    - 1043
+    - 330
+    offset:
+    - 107
+    - 81
+  - frame: 4
+    sourceBounds:
+    - 1144
+    - 106
+    - 1303
+    - 330
+    offset:
+    - 104
+    - 129
+  - frame: 5
+    sourceBounds:
+    - 1395
+    - 106
+    - 1568
+    - 330
+    offset:
+    - 97
+    - 129
+  - frame: 6
+    sourceBounds:
+    - 1609
+    - 115
+    - 1856
+    - 330
+    offset:
+    - 56
+    - 139
+  - frame: 7
+    sourceBounds:
+    - 41
+    - 347
+    - 299
+    - 549
+    offset:
+    - 50
+    - 154
+  - frame: 8
+    sourceBounds:
+    - 367
+    - 348
+    - 519
+    - 551
+    offset:
+    - 108
+    - 153
+  - frame: 9
+    sourceBounds:
+    - 630
+    - 345
+    - 777
+    - 550
+    offset:
+    - 111
+    - 150
+  - frame: 10
+    sourceBounds:
+    - 892
+    - 348
+    - 1037
+    - 548
+    offset:
+    - 112
+    - 156
+  - frame: 11
+    sourceBounds:
+    - 1151
+    - 352
+    - 1290
+    - 546
+    offset:
+    - 116
+    - 162
+  - frame: 12
+    sourceBounds:
+    - 1410
+    - 354
+    - 1547
+    - 545
+    offset:
+    - 116
+    - 166
+  - frame: 13
+    sourceBounds:
+    - 1657
+    - 352
+    - 1813
+    - 545
+    offset:
+    - 106
+    - 164
+  - frame: 14
+    sourceBounds:
+    - 74
+    - 606
+    - 249
+    - 807
+    offset:
+    - 96
+    - 155
+  - frame: 15
+    sourceBounds:
+    - 378
+    - 612
+    - 538
+    - 802
+    offset:
+    - 104
+    - 167
+  - frame: 16
+    sourceBounds:
+    - 650
+    - 618
+    - 812
+    - 803
+    offset:
+    - 103
+    - 172
+  - frame: 17
+    sourceBounds:
+    - 903
+    - 569
+    - 1056
+    - 807
+    offset:
+    - 108
+    - 114
+  - frame: 18
+    sourceBounds:
+    - 1152
+    - 555
+    - 1310
+    - 811
+    offset:
+    - 105
+    - 94
+  - frame: 19
+    sourceBounds:
+    - 1442
+    - 548
+    - 1565
+    - 811
+    offset:
+    - 124
+    - 86
+  - frame: 20
+    sourceBounds:
+    - 1706
+    - 547
+    - 1810
+    - 817
+    offset:
+    - 135
+    - 79

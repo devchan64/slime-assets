@@ -1,0 +1,131 @@
+version: down-left-12frames-v1
+image: walk-v1.png
+sha256: 969e8e7bbc0eda5b0d09de2a93e22ac2c0f1b1ed9da96be27f5f6ff4f095b04c
+referenceBodyHeight: 360
+gameBodyHeight: 80
+directionOrder:
+- down_left
+generationId: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
+poseReport: report/female-walking-down-left-20261003-115021
+normalization:
+  status: completed
+  sourceGeneration: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
+  poseReport: report/female-walking-down-left-20261003-115021
+  cellSize: 384
+  frameCount: 12
+  columns: 4
+  rows: 3
+  fps: 8
+  scale: 1.019830028328612
+  frames:
+  - frame: 0
+    offset:
+    - -13
+    - 7
+    cell:
+    - 0
+    - 0
+    - 384
+    - 384
+  - frame: 1
+    offset:
+    - 2
+    - 7
+    cell:
+    - 384
+    - 0
+    - 384
+    - 384
+  - frame: 2
+    offset:
+    - 22
+    - 8
+    cell:
+    - 768
+    - 0
+    - 384
+    - 384
+  - frame: 3
+    offset:
+    - 26
+    - 8
+    cell:
+    - 1152
+    - 0
+    - 384
+    - 384
+  - frame: 4
+    offset:
+    - -18
+    - 16
+    cell:
+    - 0
+    - 384
+    - 384
+    - 384
+  - frame: 5
+    offset:
+    - -6
+    - 18
+    cell:
+    - 384
+    - 384
+    - 384
+    - 384
+  - frame: 6
+    offset:
+    - 4
+    - 16
+    cell:
+    - 768
+    - 384
+    - 384
+    - 384
+  - frame: 7
+    offset:
+    - 17
+    - 17
+    cell:
+    - 1152
+    - 384
+    - 384
+    - 384
+  - frame: 8
+    offset:
+    - -16
+    - 25
+    cell:
+    - 0
+    - 768
+    - 384
+    - 384
+  - frame: 9
+    offset:
+    - 4
+    - 22
+    cell:
+    - 384
+    - 768
+    - 384
+    - 384
+  - frame: 10
+    offset:
+    - 24
+    - 22
+    cell:
+    - 768
+    - 768
+    - 384
+    - 384
+  - frame: 11
+    offset:
+    - 28
+    - 24
+    cell:
+    - 1152
+    - 768
+    - 384
+    - 384
+  promptSha256: 770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398
+  sheetSha256: 969e8e7bbc0eda5b0d09de2a93e22ac2c0f1b1ed9da96be27f5f6ff4f095b04c
+operation: 사용자 승인 여성 걷기 시트 등록

@@ -1,0 +1,170 @@
+version: down-left-8frames-v2
+image: idle-v1.png
+sha256: d582075c2e7fbf28ebfd28c3580384df357990cdcd1d83a02e9db640cc05d8ab
+referenceBodyHeight: 360
+gameBodyHeight: 80
+directionOrder:
+- down_left
+sourceImageSha256: f38c41ed8f292cb0e397718239a92d41b34a4389d8befb3b72f3da44e9bd1014
+generationId: a0ada1d4-6e80-48f1-a6d6-e25d72246bdb
+operation: 사용자 지정 스프라이트 편집본 적용
+normalization:
+  scale: 0.8352668213457076
+  anchor:
+  - 192
+  - 376
+  frames:
+  - frame: 0
+    sourceBounds:
+    - 146
+    - 11
+    - 301
+    - 440
+    offset:
+    - 5
+    - 8
+  - frame: 1
+    sourceBounds:
+    - 145
+    - 11
+    - 301
+    - 440
+    offset:
+    - 6
+    - 8
+  - frame: 2
+    sourceBounds:
+    - 145
+    - 11
+    - 301
+    - 440
+    offset:
+    - 6
+    - 8
+  - frame: 3
+    sourceBounds:
+    - 146
+    - 11
+    - 301
+    - 440
+    offset:
+    - 5
+    - 8
+  - frame: 4
+    sourceBounds:
+    - 146
+    - 9
+    - 302
+    - 440
+    offset:
+    - 5
+    - 9
+  - frame: 5
+    sourceBounds:
+    - 146
+    - 9
+    - 301
+    - 440
+    offset:
+    - 6
+    - 9
+  - frame: 6
+    sourceBounds:
+    - 146
+    - 9
+    - 301
+    - 440
+    offset:
+    - 5
+    - 9
+  - frame: 7
+    sourceBounds:
+    - 146
+    - 9
+    - 301
+    - 440
+    offset:
+    - 5
+    - 9
+editorRevision: 20261003T033230-dae47ddd
+editorSource: /home/cbsim/ws/slime-workflow/.local/sprite-editor/0e4a49bcb9f9c3f5a81eb877/20261003T033230-dae47ddd.json
+editorDocument:
+  version: 3
+  source: asset:character.female.gray-outfit.idle
+  output:
+    cellSize: 384
+    targetHeight: 360
+  frames:
+    down_left.0:
+      center: 192
+      floor: 340
+      head: 17
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 24
+      scale: 1
+    down_left.1:
+      center: 192
+      floor: 340
+      head: 17
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 24
+      scale: 1
+    down_left.2:
+      center: 192
+      floor: 340
+      head: 17
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 24
+      scale: 1
+    down_left.3:
+      center: 192
+      floor: 340
+      head: 17
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 24
+      scale: 1
+    down_left.4:
+      center: 192
+      floor: 340
+      head: 17
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 24
+      scale: 1
+    down_left.5:
+      center: 192
+      floor: 340
+      head: 17
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 24
+      scale: 1
+    down_left.6:
+      center: 192
+      floor: 340
+      head: 17
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 24
+      scale: 1
+    down_left.7:
+      center: 192
+      floor: 340
+      head: 17
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 24
+      scale: 1
+previousSource: assets/characters/female/animations/idle-v1/down-left-8frames-v1

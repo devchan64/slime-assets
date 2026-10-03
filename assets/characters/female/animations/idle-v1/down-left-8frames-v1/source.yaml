@@ -1,0 +1,88 @@
+version: down-left-8frames-v1
+image: idle-v1.png
+sha256: 2827cf74f8e87a3dbb8293d07cf76526508b671aec912c2838a44c592a038ebb
+referenceBodyHeight: 360
+gameBodyHeight: 80
+directionOrder:
+- down_left
+sourceImageSha256: f38c41ed8f292cb0e397718239a92d41b34a4389d8befb3b72f3da44e9bd1014
+generationId: a0ada1d4-6e80-48f1-a6d6-e25d72246bdb
+operation: 사용자 채택 · 384px 8프레임 · 공통 배율과 발 하단 정렬 · 8fps 반복
+normalization:
+  scale: 0.8352668213457076
+  anchor:
+  - 192
+  - 376
+  frames:
+  - frame: 0
+    sourceBounds:
+    - 146
+    - 11
+    - 301
+    - 440
+    offset:
+    - 5
+    - 8
+  - frame: 1
+    sourceBounds:
+    - 145
+    - 11
+    - 301
+    - 440
+    offset:
+    - 6
+    - 8
+  - frame: 2
+    sourceBounds:
+    - 145
+    - 11
+    - 301
+    - 440
+    offset:
+    - 6
+    - 8
+  - frame: 3
+    sourceBounds:
+    - 146
+    - 11
+    - 301
+    - 440
+    offset:
+    - 5
+    - 8
+  - frame: 4
+    sourceBounds:
+    - 146
+    - 9
+    - 302
+    - 440
+    offset:
+    - 5
+    - 9
+  - frame: 5
+    sourceBounds:
+    - 146
+    - 9
+    - 301
+    - 440
+    offset:
+    - 6
+    - 9
+  - frame: 6
+    sourceBounds:
+    - 146
+    - 9
+    - 301
+    - 440
+    offset:
+    - 5
+    - 9
+  - frame: 7
+    sourceBounds:
+    - 146
+    - 9
+    - 301
+    - 440
+    offset:
+    - 5
+    - 9
