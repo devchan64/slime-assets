@@ -4407,3 +4407,10 @@ assets:
   source:
     generator: imagegen
     generationId: exec-6c0ca614-4a15-4b25-ba7d-c858bad98f6c
+- managementId: ui.guard-centers
+  version: v1
+  path: assets/ui/guard-centers.yaml
+  sha256: d4dd3e5dbe15445dfd389b8bfe61f4a08207fa2f8b46b95b68cb5130cafb8223
+  source:
+    repository: slime-assets
+    path: assets/ui/guard-centers.yaml
