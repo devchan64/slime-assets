@@ -4414,3 +4414,13 @@ assets:
   source:
     repository: slime-assets
     path: assets/ui/guard-centers.yaml
+- managementId: image.characters.female.battle-cutins.roundhouse-kick
+  version: v1
+  path: assets/characters/female/battle-cutins/female-roundhouse-kick-v1.png
+  sha256: 563b08d6f0d9d4d585252f8500e501dd9e5d76ca83cdd998ac902f18177e8ad0
+  source:
+    repository: slime-workflow
+    revision: 2026-10-03_21-26-23
+    path: .tmp/test/battle-cutins/2026-10-03_21-26-23/female-roundhouse-kick-v1.png
+    sha256: 563b08d6f0d9d4d585252f8500e501dd9e5d76ca83cdd998ac902f18177e8ad0
+    operation: 사용자 승인 여성 코스튬 일반 공격 태권도 돌려차기 컷인, 투명 PNG 512x512
