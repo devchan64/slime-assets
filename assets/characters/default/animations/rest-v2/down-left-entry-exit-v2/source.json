@@ -1,0 +1,241 @@
+{
+  "referenceBodyHeight": 353,
+  "gameBodyHeight": 80,
+  "version": "down-left-entry-exit-v2",
+  "image": "rest-v2.png",
+  "sha256": "8db749f3adfc8e6646df750edb352aa383da67d3e4dd38542ebbbc4f698b9542",
+  "directionOrder": [
+    "down_left"
+  ],
+  "operation": "사용자 채택 ImageGen 4프레임 묶음 통합 정리; 진입 13장 마지막 고정·해제 8장 완료 후 기본 대기; 384px·8 FPS",
+  "sourceImageSha256": "30dbae141d1573c4d632d3ad8853dc131eeba49dc06f12480845a0db4c907e86",
+  "playback": {
+    "enterAction": "rest-entry",
+    "holdAction": "idle",
+    "exitAction": "rest-exit",
+    "afterExitAnimationId": "character.default.white-shirt.idle",
+    "afterExitClipId": "idle.down_left"
+  },
+  "editorRevision": "20261003T041118-05507be2",
+  "editorDocument": {
+    "version": 3,
+    "source": "asset:character.default.white-shirt.rest",
+    "output": {
+      "cellSize": 384,
+      "targetHeight": 353
+    },
+    "frames": {
+      "down_left.0": {
+        "center": 192,
+        "floor": 370,
+        "head": 21,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.1": {
+        "center": 192,
+        "floor": 370,
+        "head": 32,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.2": {
+        "center": 192,
+        "floor": 370,
+        "head": 61,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.3": {
+        "center": 192,
+        "floor": 370,
+        "head": 85,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.4": {
+        "center": 192,
+        "floor": 371,
+        "head": 133,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 35,
+        "scale": 1
+      },
+      "down_left.5": {
+        "center": 192,
+        "floor": 370,
+        "head": 143,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.6": {
+        "center": 192,
+        "floor": 371,
+        "head": 142,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 35,
+        "scale": 1
+      },
+      "down_left.7": {
+        "center": 192,
+        "floor": 370,
+        "head": 127,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.8": {
+        "center": 192,
+        "floor": 370,
+        "head": 113,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.9": {
+        "center": 192,
+        "floor": 370,
+        "head": 126,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.10": {
+        "center": 192,
+        "floor": 370,
+        "head": 128,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.11": {
+        "center": 192,
+        "floor": 371,
+        "head": 128,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 35,
+        "scale": 1
+      },
+      "down_left.12": {
+        "center": 192,
+        "floor": 371,
+        "head": 136,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 35,
+        "scale": 1
+      },
+      "down_left.13": {
+        "center": 192,
+        "floor": 371,
+        "head": 136,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 35,
+        "scale": 1
+      },
+      "down_left.14": {
+        "center": 192,
+        "floor": 370,
+        "head": 133,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.15": {
+        "center": 192,
+        "floor": 371,
+        "head": 133,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 35,
+        "scale": 1
+      },
+      "down_left.16": {
+        "center": 192,
+        "floor": 370,
+        "head": 145,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.17": {
+        "center": 192,
+        "floor": 370,
+        "head": 134,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.18": {
+        "center": 192,
+        "floor": 371,
+        "head": 92,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 35,
+        "scale": 1
+      },
+      "down_left.19": {
+        "center": 192,
+        "floor": 370,
+        "head": 56,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 36,
+        "scale": 1
+      },
+      "down_left.20": {
+        "center": 192,
+        "floor": 371,
+        "head": 38,
+        "anchorX": 192,
+        "anchorY": 376,
+        "x": 0,
+        "y": 35,
+        "scale": 1
+      }
+    }
+  },
+  "previousSource": "assets/characters/default/animations/rest-v2/down-left-entry-exit-v1"
+}

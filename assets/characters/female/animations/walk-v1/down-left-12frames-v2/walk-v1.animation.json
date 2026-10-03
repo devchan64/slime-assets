@@ -1,0 +1,225 @@
+{
+  "animationId": "character.female.gray-outfit.walk",
+  "version": "down-left-12frames-v2",
+  "sheet": {
+    "width": 4608,
+    "height": 384
+  },
+  "frames": [
+    {
+      "frameId": "down_left.0",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.1",
+      "rect": {
+        "x": 384,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.2",
+      "rect": {
+        "x": 768,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.3",
+      "rect": {
+        "x": 1152,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.4",
+      "rect": {
+        "x": 1536,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.5",
+      "rect": {
+        "x": 1920,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.6",
+      "rect": {
+        "x": 2304,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.7",
+      "rect": {
+        "x": 2688,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.8",
+      "rect": {
+        "x": 3072,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.9",
+      "rect": {
+        "x": 3456,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.10",
+      "rect": {
+        "x": 3840,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    },
+    {
+      "frameId": "down_left.11",
+      "rect": {
+        "x": 4224,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 192.0,
+        "y": 346
+      }
+    }
+  ],
+  "clips": [
+    {
+      "clipId": "walk.down_left",
+      "action": "walk",
+      "direction": "down_left",
+      "frames": [
+        {
+          "frameId": "down_left.0",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.1",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.2",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.3",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.4",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.5",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.6",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.7",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.8",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.9",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.10",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.11",
+          "durationMs": 125
+        }
+      ],
+      "loop": true,
+      "nextClipId": null
+    }
+  ]
+}

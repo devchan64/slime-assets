@@ -1,0 +1,131 @@
+version: down-left-12frames-v1
+image: walk-12frames-v1.png
+sha256: 9ebb4056e86caf398038c74be481463acf470ca461d3eb2d716802bdbb668e2e
+referenceBodyHeight: 360
+gameBodyHeight: 80
+directionOrder:
+- down_left
+generationId: exec-296beb29-4112-4f9e-836a-1eef69d0f694
+poseReport: .tmp/test/character-animation/2026-10-03_12-26-54/2026-10-03_12-26-54-e4ba021b
+normalization:
+  status: completed
+  sourceGeneration: exec-296beb29-4112-4f9e-836a-1eef69d0f694
+  poseReport: .tmp/test/character-animation/2026-10-03_12-26-54/2026-10-03_12-26-54-e4ba021b
+  cellSize: 384
+  frameCount: 12
+  columns: 4
+  rows: 3
+  fps: 8
+  scale: 1.0495626822157433
+  frames:
+  - frame: 0
+    offset:
+    - 4
+    - -3
+    cell:
+    - 0
+    - 0
+    - 384
+    - 384
+  - frame: 1
+    offset:
+    - 0
+    - -3
+    cell:
+    - 384
+    - 0
+    - 384
+    - 384
+  - frame: 2
+    offset:
+    - 4
+    - -2
+    cell:
+    - 768
+    - 0
+    - 384
+    - 384
+  - frame: 3
+    offset:
+    - 0
+    - -1
+    cell:
+    - 1152
+    - 0
+    - 384
+    - 384
+  - frame: 4
+    offset:
+    - 5
+    - 2
+    cell:
+    - 0
+    - 384
+    - 384
+    - 384
+  - frame: 5
+    offset:
+    - -4
+    - 2
+    cell:
+    - 384
+    - 384
+    - 384
+    - 384
+  - frame: 6
+    offset:
+    - -8
+    - 3
+    cell:
+    - 768
+    - 384
+    - 384
+    - 384
+  - frame: 7
+    offset:
+    - -3
+    - 4
+    cell:
+    - 1152
+    - 384
+    - 384
+    - 384
+  - frame: 8
+    offset:
+    - 4
+    - 9
+    cell:
+    - 0
+    - 768
+    - 384
+    - 384
+  - frame: 9
+    offset:
+    - 8
+    - 8
+    cell:
+    - 384
+    - 768
+    - 384
+    - 384
+  - frame: 10
+    offset:
+    - 14
+    - 8
+    cell:
+    - 768
+    - 768
+    - 384
+    - 384
+  - frame: 11
+    offset:
+    - 6
+    - 9
+    cell:
+    - 1152
+    - 768
+    - 384
+    - 384
+  promptSha256: 770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398
+  sheetSha256: 9ebb4056e86caf398038c74be481463acf470ca461d3eb2d716802bdbb668e2e
+operation: 사용자 승인 기본 걷기 시트 등록

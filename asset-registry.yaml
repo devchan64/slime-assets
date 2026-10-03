@@ -380,10 +380,10 @@ assets:
       operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
       previous_version: down-left-v1
 - managementId: sprite.metadata.characters.default.rest-v2.rest-v2.animation.json
-  version: down-left-entry-exit-v1
-  path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1/rest-v2.animation.json
+  version: down-left-entry-exit-v2
+  path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v2/rest-v2.animation.json
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.animation.json
-  sha256: 6dd934e7000a2f3de42ad103a3f04a2192cf44255e24bbd2e351c72512a1f667
+  sha256: 02c43036a3b966a8aae03d9388e12322f8e9561836f2d5404cd159e0b61558e8
   source:
     repository: slime-workflow
     revision: 2026-10-01_15-18-46
@@ -391,11 +391,13 @@ assets:
     sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
     operation: 사용자 승인 휴식 진입·해제 시트 교체
     previous_version: down-left-v1
+    editor_revision: 20261003T041118-05507be2
+    previous_path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1
 - managementId: image.frontend.src.assets.characters.character-default-white-shirt-rest-v2.rest-v2.png
-  version: down-left-entry-exit-v1
-  path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1/rest-v2.png
+  version: down-left-entry-exit-v2
+  path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v2/rest-v2.png
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.png
-  sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
+  sha256: 8db749f3adfc8e6646df750edb352aa383da67d3e4dd38542ebbbc4f698b9542
   source:
     repository: slime-workflow
     revision: 2026-10-01_15-18-46
@@ -403,11 +405,13 @@ assets:
     sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
     operation: 사용자 승인 휴식 진입·해제 시트 교체
     previous_version: down-left-v1
+    editor_revision: 20261003T041118-05507be2
+    previous_path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1
 - managementId: sprite.metadata.characters.default.rest-v2.source.json
-  version: down-left-entry-exit-v1
-  path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1/source.json
+  version: down-left-entry-exit-v2
+  path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v2/source.json
   frontend_path: src/assets/characters/default/rest-v2/source.json
-  sha256: 28905f7c0c5d942c9d76dc78abcffb07caf37f96bba13fc164c5f2c0f035cf55
+  sha256: b907b536fc58f44062cd26d9e2b50f81e5ae6f0736c9a8199705b7262db7eca1
   source:
     repository: slime-workflow
     revision: 2026-10-01_15-18-46
@@ -415,6 +419,8 @@ assets:
     sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
     operation: 사용자 승인 휴식 진입·해제 시트 교체
     previous_version: down-left-v1
+    editor_revision: 20261003T041118-05507be2
+    previous_path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1
 - managementId: sprite.metadata.monsters.standing-v1.ash-fox-idle-v1.animation.json
   version: ash-fox-idle-v1-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/ash-fox-idle-v1.animation.json
@@ -702,46 +708,10 @@ assets:
     repository: slime-frontend
     commit: 5ae07ea2f4b69c1a7376967d8dea450f72569936
     path: src/assets/characters/default/cutins/default-punch-v1.png
-- managementId: sprite.metadata.characters.default.walk-v2.source.yaml
-  version: down-left-8frames-v1
-  path: assets/characters/default/animations/walk-v2/down-left-8frames-v1/source.yaml
-  frontend_path: src/assets/characters/default/walk-v2/source.yaml
-  sha256: 401d66006be77908b4adf244a9135d20101b12a9863ebb111dc142480f037643
-  source:
-    repository: slime-workflow
-    revision: 2026-10-01_08-12-33
-    path: .tmp/test/walking-eight-frame-imagegen/2026-10-01_08-12-33/walking-down-left-8frames-v2.png
-    sha256: 4af24a9638aa042a27c975ed34189efb8768812d01454eca2fce9c4ce4646797
-    operation: 사용자 채택 ImageGen 8프레임, 384px 셀 패킹
-    previous_version: down-left-v1
-- managementId: sprite.metadata.characters.default.walk-v2.walk-v2.animation.json
-  version: down-left-8frames-v1
-  path: assets/characters/default/animations/walk-v2/down-left-8frames-v1/walk-v2.animation.json
-  frontend_path: src/assets/characters/default/walk-v2/walk-v2.animation.json
-  sha256: 6bf59ccdbde41b625ee97c2c3e7011dc036803820c621eb0c2cb92d68737813a
-  source:
-    repository: slime-workflow
-    revision: 2026-10-01_08-12-33
-    path: .tmp/test/walking-eight-frame-imagegen/2026-10-01_08-12-33/walking-down-left-8frames-v2.png
-    sha256: 4af24a9638aa042a27c975ed34189efb8768812d01454eca2fce9c4ce4646797
-    operation: 사용자 채택 ImageGen 8프레임, 384px 셀 패킹
-    previous_version: down-left-v1
-- managementId: image.character.default.walk.imagegen-v2
-  version: down-left-8frames-v1
-  path: assets/characters/default/animations/walk-v2/down-left-8frames-v1/walk-v2.png
-  frontend_path: src/assets/characters/default/walk-v2/walk-v2.png
-  sha256: 2d0609bc09878bda647c3881c01bd64e7a8ca8510c6bb00c60989973cf1e4034
-  source:
-    repository: slime-workflow
-    revision: 2026-10-01_08-12-33
-    path: .tmp/test/walking-eight-frame-imagegen/2026-10-01_08-12-33/walking-down-left-8frames-v2.png
-    sha256: 4af24a9638aa042a27c975ed34189efb8768812d01454eca2fce9c4ce4646797
-    operation: 사용자 채택 ImageGen 8프레임, 384px 셀 패킹
-    previous_version: down-left-v1
 - managementId: frontend.ui.animation-labels.yaml
   version: 2.expanded-species
   path: assets/ui/animation-labels.yaml
-  sha256: b19761664b5be247e6880076a032da60222e50af0979e426a8b383513972603e
+  sha256: 8226ac3803846193179790014b4837679a81fbfa32589548f8e5559c173899f3
   source:
     repository: slime-frontend
     path: src/assets/animation-labels.yaml
@@ -4312,35 +4282,41 @@ assets:
     editor_revision: 20261003T033230-dae47ddd
     previous_path: assets/characters/female/animations/idle-v1/down-left-8frames-v1
 - managementId: image.character.female.rest-v1.sheet
-  version: down-left-entry-exit-v1
-  path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1/rest-v1.png
-  sha256: e37154a2031a03fc5e1d5fef712c8a4a91e294c47f78afbdf0c2f7d285db1fe7
+  version: down-left-entry-exit-v2
+  path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v2/rest-v1.png
+  sha256: 551cd4d617f2c5f08b6c681c882436576f8d25eaf1693dcc9ac67064bf9f6401
   source:
     repository: slime-workflow
     path: .tmp/test/female-rest-text-poses/2026-10-03_09-54-24/female-rest-21frames.png
     sha256: 3ec073e8838095d059a497d67c3dbbf9f4710f81c2a551727aecac6a1ca90410
     generation_id: a9320066-f151-4750-9a64-e1ae079fd06d
     operation: 사용자 채택 · 384px 21프레임 · 공통 배율과 지면 정렬 · 진입 후 고정·해제 후 여성 대기
+    editor_revision: 20261003T041514-3d4309cf
+    previous_path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1
 - managementId: sprite.metadata.characters.female.rest-v1.animation.json
-  version: down-left-entry-exit-v1
-  path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1/rest-v1.animation.json
-  sha256: e04b84e961e003758e9be9a5e229304b5c24c10c5ccfeb03d9b725f202d9997f
+  version: down-left-entry-exit-v2
+  path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v2/rest-v1.animation.json
+  sha256: 05b3eb167f4e1e5b709655a1390f738ef0776fb159fe37f744e240ccb1294161
   source:
     repository: slime-workflow
     path: .tmp/test/female-rest-text-poses/2026-10-03_09-54-24/female-rest-21frames.png
     sha256: 3ec073e8838095d059a497d67c3dbbf9f4710f81c2a551727aecac6a1ca90410
     generation_id: a9320066-f151-4750-9a64-e1ae079fd06d
     operation: 사용자 채택 · 384px 21프레임 · 공통 배율과 지면 정렬 · 진입 후 고정·해제 후 여성 대기
+    editor_revision: 20261003T041514-3d4309cf
+    previous_path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1
 - managementId: sprite.metadata.characters.female.rest-v1.source.yaml
-  version: down-left-entry-exit-v1
-  path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1/source.yaml
-  sha256: c7e2aa0a5064eaa50d433e2269023f04fc1ec84fce2a2cacba052ac7b2ea5e13
+  version: down-left-entry-exit-v2
+  path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v2/source.yaml
+  sha256: 1875ae2baf7e748745e61101cd3586bda83fe982786a65c3ae87083d479d8832
   source:
     repository: slime-workflow
     path: .tmp/test/female-rest-text-poses/2026-10-03_09-54-24/female-rest-21frames.png
     sha256: 3ec073e8838095d059a497d67c3dbbf9f4710f81c2a551727aecac6a1ca90410
     generation_id: a9320066-f151-4750-9a64-e1ae079fd06d
     operation: 사용자 채택 · 384px 21프레임 · 공통 배율과 지면 정렬 · 진입 후 고정·해제 후 여성 대기
+    editor_revision: 20261003T041514-3d4309cf
+    previous_path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1
 - managementId: image.terrain.ramp-earth-stone-wall-v1
   version: v1
   path: assets/tiles/terrain/blocked/ramp-earth-stone-wall-v1.png
@@ -4351,26 +4327,62 @@ assets:
     generation_id: 91708760-e584-4b9a-bfde-5d110f6d1256
     operation: ImageGen 경사로 벽면 텍스처·256px 사용자 채택
 - managementId: sprite.characters.female.walk-v1.source.yaml
-  version: down-left-12frames-v1
-  path: assets/characters/female/animations/walk-v1/down-left-12frames-v1/source.yaml
-  sha256: 3454a5d9a7e88929a0d4da2e334b049711471e73e77f386a2aab78339ebbb985
+  version: down-left-12frames-v2
+  path: assets/characters/female/animations/walk-v1/down-left-12frames-v2/source.yaml
+  sha256: b1528803ccb93aa1e7e7a52822fd6777ff3be248ddeee49ecbf6d15e1a75db5a
   source:
     repository: slime-workflow
     path: /home/cbsim/ws/slime-workflow/.tmp/test/female-walk-identity-imagegen/2026-10-03_12-35-36
     generation_id: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
+    editor_revision: 20261003T041629-5d1e579d
+    previous_path: assets/characters/female/animations/walk-v1/down-left-12frames-v1
 - managementId: sprite.characters.female.walk-v1.walk-v1.animation.json
-  version: down-left-12frames-v1
-  path: assets/characters/female/animations/walk-v1/down-left-12frames-v1/walk-v1.animation.json
-  sha256: 774bd75e8eb2afdbc5296e74afd638751b4aa1a0cbb4e7ae9b3dcccb725fe96c
+  version: down-left-12frames-v2
+  path: assets/characters/female/animations/walk-v1/down-left-12frames-v2/walk-v1.animation.json
+  sha256: 7b7887a9f53ef57cf167827eab2236e8910dc74532717b62eff9b7b29ed955df
   source:
     repository: slime-workflow
     path: /home/cbsim/ws/slime-workflow/.tmp/test/female-walk-identity-imagegen/2026-10-03_12-35-36
     generation_id: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
+    editor_revision: 20261003T041629-5d1e579d
+    previous_path: assets/characters/female/animations/walk-v1/down-left-12frames-v1
 - managementId: sprite.characters.female.walk-v1.walk-v1.png
-  version: down-left-12frames-v1
-  path: assets/characters/female/animations/walk-v1/down-left-12frames-v1/walk-v1.png
-  sha256: 969e8e7bbc0eda5b0d09de2a93e22ac2c0f1b1ed9da96be27f5f6ff4f095b04c
+  version: down-left-12frames-v2
+  path: assets/characters/female/animations/walk-v1/down-left-12frames-v2/walk-v1.png
+  sha256: 25e4a4cc54180aba8f4a52636ec762786fb0aaac7ef828b0a01da36c8da08709
   source:
     repository: slime-workflow
     path: /home/cbsim/ws/slime-workflow/.tmp/test/female-walk-identity-imagegen/2026-10-03_12-35-36
     generation_id: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
+    editor_revision: 20261003T041629-5d1e579d
+    previous_path: assets/characters/female/animations/walk-v1/down-left-12frames-v1
+- managementId: sprite.characters.default.walk-12frames-v1.source.yaml
+  version: down-left-12frames-v2
+  path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2/source.yaml
+  sha256: 569d3f063f760940c107a6f91b3b7d3bf2ddb50f065ed5daca3b24fb79954aad
+  source:
+    repository: slime-workflow
+    path: /home/cbsim/ws/slime-workflow/.tmp/test/default-walk-identity-imagegen/2026-10-03_12-55-15
+    generation_id: exec-296beb29-4112-4f9e-836a-1eef69d0f694
+    editor_revision: 20261003T041242-9ec914b6
+    previous_path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v1
+- managementId: sprite.characters.default.walk-12frames-v1.walk-12frames-v1.animation.json
+  version: down-left-12frames-v2
+  path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2/walk-12frames-v1.animation.json
+  sha256: d8a3ffd97ed56551b1b75f03a37bc2b3f30217cd60e12b8168f83fad93158fb7
+  source:
+    repository: slime-workflow
+    path: /home/cbsim/ws/slime-workflow/.tmp/test/default-walk-identity-imagegen/2026-10-03_12-55-15
+    generation_id: exec-296beb29-4112-4f9e-836a-1eef69d0f694
+    editor_revision: 20261003T041242-9ec914b6
+    previous_path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v1
+- managementId: sprite.characters.default.walk-12frames-v1.walk-12frames-v1.png
+  version: down-left-12frames-v2
+  path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2/walk-12frames-v1.png
+  sha256: 7b9cfa7c4ac13f1080cc9e83786d96cb21039e6b2dd94d34ad9955fd3088b097
+  source:
+    repository: slime-workflow
+    path: /home/cbsim/ws/slime-workflow/.tmp/test/default-walk-identity-imagegen/2026-10-03_12-55-15
+    generation_id: exec-296beb29-4112-4f9e-836a-1eef69d0f694
+    editor_revision: 20261003T041242-9ec914b6
+    previous_path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v1

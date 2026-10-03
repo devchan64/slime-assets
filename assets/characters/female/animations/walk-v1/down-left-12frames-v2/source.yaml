@@ -1,0 +1,248 @@
+version: down-left-12frames-v2
+image: walk-v1.png
+sha256: 25e4a4cc54180aba8f4a52636ec762786fb0aaac7ef828b0a01da36c8da08709
+referenceBodyHeight: 360
+gameBodyHeight: 80
+directionOrder:
+- down_left
+generationId: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
+poseReport: report/female-walking-down-left-20261003-115021
+normalization:
+  status: completed
+  sourceGeneration: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
+  poseReport: report/female-walking-down-left-20261003-115021
+  cellSize: 384
+  frameCount: 12
+  columns: 4
+  rows: 3
+  fps: 8
+  scale: 1.019830028328612
+  frames:
+  - frame: 0
+    offset:
+    - -13
+    - 7
+    cell:
+    - 0
+    - 0
+    - 384
+    - 384
+  - frame: 1
+    offset:
+    - 2
+    - 7
+    cell:
+    - 384
+    - 0
+    - 384
+    - 384
+  - frame: 2
+    offset:
+    - 22
+    - 8
+    cell:
+    - 768
+    - 0
+    - 384
+    - 384
+  - frame: 3
+    offset:
+    - 26
+    - 8
+    cell:
+    - 1152
+    - 0
+    - 384
+    - 384
+  - frame: 4
+    offset:
+    - -18
+    - 16
+    cell:
+    - 0
+    - 384
+    - 384
+    - 384
+  - frame: 5
+    offset:
+    - -6
+    - 18
+    cell:
+    - 384
+    - 384
+    - 384
+    - 384
+  - frame: 6
+    offset:
+    - 4
+    - 16
+    cell:
+    - 768
+    - 384
+    - 384
+    - 384
+  - frame: 7
+    offset:
+    - 17
+    - 17
+    cell:
+    - 1152
+    - 384
+    - 384
+    - 384
+  - frame: 8
+    offset:
+    - -16
+    - 25
+    cell:
+    - 0
+    - 768
+    - 384
+    - 384
+  - frame: 9
+    offset:
+    - 4
+    - 22
+    cell:
+    - 384
+    - 768
+    - 384
+    - 384
+  - frame: 10
+    offset:
+    - 24
+    - 22
+    cell:
+    - 768
+    - 768
+    - 384
+    - 384
+  - frame: 11
+    offset:
+    - 28
+    - 24
+    cell:
+    - 1152
+    - 768
+    - 384
+    - 384
+  promptSha256: 770c2d18aa4ec3159f46da461ef452972949942ff4f6a9771044485faa146398
+  sheetSha256: 969e8e7bbc0eda5b0d09de2a93e22ac2c0f1b1ed9da96be27f5f6ff4f095b04c
+operation: 사용자 승인 여성 걷기 시트 등록
+editorRevision: 20261003T041629-5d1e579d
+editorDocument:
+  version: 3
+  source: asset:character.female.gray-outfit.walk
+  output:
+    cellSize: 384
+    targetHeight: 360
+  frames:
+    down_left.0:
+      center: 192
+      floor: 375
+      head: 26
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.1:
+      center: 192
+      floor: 375
+      head: 25
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.2:
+      center: 192
+      floor: 375
+      head: 25
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.3:
+      center: 192
+      floor: 375
+      head: 26
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.4:
+      center: 192
+      floor: 375
+      head: 16
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.5:
+      center: 192
+      floor: 375
+      head: 18
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.6:
+      center: 192
+      floor: 375
+      head: 29
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.7:
+      center: 192
+      floor: 375
+      head: 31
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.8:
+      center: 192
+      floor: 375
+      head: 33
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.9:
+      center: 192
+      floor: 375
+      head: 30
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.10:
+      center: 192
+      floor: 375
+      head: 31
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+    down_left.11:
+      center: 192
+      floor: 375
+      head: 33
+      anchorX: 192
+      anchorY: 376
+      x: 0
+      y: 31
+      scale: 1
+previousSource: assets/characters/female/animations/walk-v1/down-left-12frames-v1
