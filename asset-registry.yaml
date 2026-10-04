@@ -1,5 +1,16 @@
 schema_version: 1
 assets:
+- managementId: image.effects.field.safe-barrier-aura-v2-source
+  version: source-v2
+  path: assets/sprites/effects/safe-barrier/safe-barrier-aura-v2-source.png
+  name: 타워 안전지대 연속 오러 벽 시트
+  width: 1774
+  height: 887
+  sha256: 4c5f78db08f5675da707adbeb9d7739dde5ffc8cde034ffe75a10e8601bdd43c
+  source:
+    repository: codex-imagegen
+    artifact: exec-48f2920f-f688-4997-be98-aa9070ee1175.png
+    processing: 4x2 8프레임 수직 오러 벽; 표시 높이와 불투명도는 공용 렌더러 프로필에서 관리
 - managementId: image.effects.field.safe-barrier-aura-v1-source
   version: source-v1
   path: assets/sprites/effects/safe-barrier/safe-barrier-aura-v1-source.png
