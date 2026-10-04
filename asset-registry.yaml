@@ -1,5 +1,16 @@
 schema_version: 1
 assets:
+- managementId: image.effects.field.rest-recovery-v1-source
+  version: source-v1
+  path: assets/sprites/effects/rest/rest-recovery-v1-source.png
+  name: 필드 휴식 회복 효과 원본 시트
+  width: 1254
+  height: 1254
+  sha256: 5ebc13e35891bbc6c2541388fa670c02d5e50e7aeeed3d711641c542ea8d992f
+  source:
+    repository: codex-imagegen
+    artifact: exec-f16b3c83-0b89-4aa6-9be4-2132a919a0da.png
+    processing: 4x4 16프레임 휴식 효과 원본; 런타임 표시는 64x64px 프레임 계약을 따른다
 - managementId: image.frontend.src.assets.terrain.meadow-backdrop-v2.webp
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
   path: assets/backgrounds/meadow-backdrop-v2.webp
