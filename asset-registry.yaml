@@ -1,5 +1,16 @@
 schema_version: 1
 assets:
+- managementId: image.effects.field.safe-barrier-aura-v1-source
+  version: source-v1
+  path: assets/sprites/effects/safe-barrier/safe-barrier-aura-v1-source.png
+  name: 타워 안전지대 오러 벽 원본 시트
+  width: 1774
+  height: 887
+  sha256: a1094133b25aacc8768fee1d77bae736b87c027f3d144782d2620dcfc2043d35
+  source:
+    repository: codex-imagegen
+    artifact: exec-2096a56b-9055-4555-90ef-73b22b585ba4.png
+    processing: 4x2 8프레임 안전 경계 오러 벽 원본; 런타임 표시는 64x64px 프레임·25px 높이 계약을 따른다
 - managementId: image.effects.field.rest-recovery-v1-source
   version: source-v1
   path: assets/sprites/effects/rest/rest-recovery-v1-source.png
