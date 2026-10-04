@@ -1,5 +1,14 @@
 schema_version: 1
 assets:
+- managementId: sprite.metadata.characters.default.idle-v6.anchor-v3
+  version: down-left-8frames-v3
+  path: assets/characters/default/animations/idle-v6/down-left-8frames-v2/idle-v6-anchor-v3.animation.json
+  sha256: 5f8e3ee3731ff66026e14e7e13f813861f323a56b1ea30b23e6e31ab7fcb3abc
+  source:
+    repository: slime-workflow
+    revision: 2026-10-04_21-07-31-d8f2ff34
+    path: .tmp/test/animation-anchor-edits/2026-10-04_21-07-31/2026-10-04_21-07-31-d8f2ff34/coordinates.json
+    operation: 기본 캐릭터 대기 8프레임 앵커를 사용자 저장 좌표 198,355로 교체
 - managementId: image.effects.field.safe-barrier-aura-v2-source
   version: source-v2
   path: assets/sprites/effects/safe-barrier/safe-barrier-aura-v2-source.png
