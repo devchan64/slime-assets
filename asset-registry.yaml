@@ -185,11 +185,15 @@ assets:
   width: 256
   height: 256
 - managementId: image.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1-64
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1-128-restored
   path: assets/tiles/terrain/non-road/exposed-rock-ground-v1.png
   frontend_path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.png
-  sha256: 702d06ce3585f7eaab01d65341e4e6c552cafe246507341a6ef4d3d2ed3b837d
+  sha256: 9dfc1bb461144435f657216494229dc32350b82b5d8b52f8c9cd69418fe695a8
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 9dfc1bb461144435f657216494229dc32350b82b5d8b52f8c9cd69418fe695a8
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 9dfc1bb461144435f657216494229dc32350b82b5d8b52f8c9cd69418fe695a8
     repository: slime-frontend
@@ -202,7 +206,7 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-  width: 64
+  width: 128
   height: 128
 - managementId: metadata.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.source.json
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
@@ -3925,13 +3929,17 @@ assets:
     sha256: 05fdf18f00dd5a01a94136640bcbad00eb00a9230b274fd94ddb6a98331d63fe
     operation: '사용자 채택 여성 캐릭터 표정: 하품'
 - managementId: image.terrain.transparent-shallow-water
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/blocked/transparent-shallow-water-v1.png
   name: 투명한 얕은물
-  width: 64
-  height: 64
-  sha256: ef8dd9e088894c8d0a46568fa90cb8db5f7d96910948a96df4fd9b700dc3787d
+  width: 128
+  height: 128
+  sha256: 45f693ce43e0e01d58f313573106dc64415a75d8cceb872dc8c839d33a1ea542
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 45f693ce43e0e01d58f313573106dc64415a75d8cceb872dc8c839d33a1ea542
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 45f693ce43e0e01d58f313573106dc64415a75d8cceb872dc8c839d33a1ea542
     repository: slime-workflow
@@ -3956,13 +3964,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.transparent-deep-water
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/blocked/transparent-deep-water-v1.png
   name: 투명한 깊은물
-  width: 64
-  height: 64
-  sha256: 928f91766110e1fc9477dc10bbee9e0cd4896837db34c67cc37eba200ed7f101
+  width: 128
+  height: 128
+  sha256: dee17dccfe1ebbe1fc17a0bb6036e97f7f13349cb08d250ceaac641deed89fd6
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: dee17dccfe1ebbe1fc17a0bb6036e97f7f13349cb08d250ceaac641deed89fd6
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: dee17dccfe1ebbe1fc17a0bb6036e97f7f13349cb08d250ceaac641deed89fd6
     repository: slime-workflow
@@ -4016,13 +4028,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.marble-circular-road
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/road/marble-circular-road-v1.png
   name: 원형 패턴 대리석 도로
-  width: 64
-  height: 64
-  sha256: bcea93cb7eeedb14936b27e84bbe78dfd9fdcd8109fb97aa13a3128aa673d363
+  width: 128
+  height: 128
+  sha256: 4816d6fd3795932f02755099cb28f6d260224e0194ebd7e00c7dfa23c76ff0fc
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 4816d6fd3795932f02755099cb28f6d260224e0194ebd7e00c7dfa23c76ff0fc
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 4816d6fd3795932f02755099cb28f6d260224e0194ebd7e00c7dfa23c76ff0fc
     repository: slime-workflow
@@ -4076,13 +4092,17 @@ assets:
       - 128
       - 128
 - managementId: image.terrain.limestone-road
-  version: v3-64
+  version: v3-128-restored
   path: assets/tiles/terrain/road/limestone-road-v3.png
   name: 어두운 석회석 도로
-  width: 64
-  height: 64
-  sha256: a1a0d8996c8bde7e6cfac3250fedeac727941e013316306cf7fc783a782e251a
+  width: 128
+  height: 128
+  sha256: 01b4a77f291c059096420a7a5af8deb30008c7f74a4d5a4efb9854ed96c6ef05
   source:
+    restored_git_commit: d25414308753bec8dc58af83f78e48ff06d64d7f
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 01b4a77f291c059096420a7a5af8deb30008c7f74a4d5a4efb9854ed96c6ef05
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 01b4a77f291c059096420a7a5af8deb30008c7f74a4d5a4efb9854ed96c6ef05
     repository: slime-workflow
@@ -4103,13 +4123,17 @@ assets:
       - 128
       - 128
 - managementId: image.terrain.ochre-pebble-road
-  version: v2-64
+  version: v2-128-restored
   path: assets/tiles/terrain/road/ochre-pebble-road-v1.png
   name: 황토 다색 조약돌 도로
-  width: 64
-  height: 64
-  sha256: e65bc9c28125684015dd0c185064385b9e866d0f0b4610a2f132f4ea60e3d9df
+  width: 128
+  height: 128
+  sha256: 8a5706ccdb7ca4ffe01cdfe14f2756a7ab3050dc58aba80b530a2bfc6a6e1406
   source:
+    restored_git_commit: 24c7189ab085d556a71547ecf6e2c0da7b93fe67
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 8a5706ccdb7ca4ffe01cdfe14f2756a7ab3050dc58aba80b530a2bfc6a6e1406
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 8a5706ccdb7ca4ffe01cdfe14f2756a7ab3050dc58aba80b530a2bfc6a6e1406
     repository: slime-workflow
@@ -4255,13 +4279,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.leaf-litter
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/non-road/leaf-litter-v1.png
   name: 낙엽 바닥
-  width: 64
-  height: 64
-  sha256: 151adba26c9a2f33ff9f90def64feb8405e5e0ad1983b3711ce7a37bc04f24f6
+  width: 128
+  height: 128
+  sha256: c8ba5ea5324838da06066f253174ba857d891189e10c0536aa4baf826730aae8
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: c8ba5ea5324838da06066f253174ba857d891189e10c0536aa4baf826730aae8
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: c8ba5ea5324838da06066f253174ba857d891189e10c0536aa4baf826730aae8
     repository: slime-workflow
@@ -4286,13 +4314,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.sand-cactus-type-a
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/blocked/sand-cactus-type-a-v1.png
   name: 모래 선인장 타일 A
-  width: 64
-  height: 64
-  sha256: 0a6b38d268407f6d9b0f602c1e693cff95562ceda63a5732ed15420f5bae4289
+  width: 128
+  height: 128
+  sha256: c14562779139b4bed2bcdab30a319b32247b77e343c076acc27ccd5e3b34784c
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: c14562779139b4bed2bcdab30a319b32247b77e343c076acc27ccd5e3b34784c
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: c14562779139b4bed2bcdab30a319b32247b77e343c076acc27ccd5e3b34784c
     repository: slime-workflow
@@ -4317,13 +4349,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.sand-cactus-type-b
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/blocked/sand-cactus-type-b-v1.png
   name: 모래 선인장 타일 B
-  width: 64
-  height: 64
-  sha256: 084e4887582b55c746f31ccc081500f528cf58df26f74f6fe66e3559aa8d5091
+  width: 128
+  height: 128
+  sha256: 8ac15925fcca64933cbc62778d1cc54d38f0ae5c73a187416de5cb7c71851426
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 8ac15925fcca64933cbc62778d1cc54d38f0ae5c73a187416de5cb7c71851426
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 8ac15925fcca64933cbc62778d1cc54d38f0ae5c73a187416de5cb7c71851426
     repository: slime-workflow
@@ -4348,13 +4384,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.dry-ground-tree-stump
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/blocked/dry-ground-tree-stump-v1.png
   name: 마른땅 나무 밑동 타일
-  width: 64
-  height: 64
-  sha256: c923d259911b61516abd2a083584306a9dbdba05722da3e4125eb3ed3f73e3e9
+  width: 128
+  height: 128
+  sha256: 06708710d0ae3f979d812cd95c5e5cc39f545f68d7e06d41c87e15463c5656a2
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 06708710d0ae3f979d812cd95c5e5cc39f545f68d7e06d41c87e15463c5656a2
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 06708710d0ae3f979d812cd95c5e5cc39f545f68d7e06d41c87e15463c5656a2
     repository: slime-workflow
@@ -4379,13 +4419,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.swamp-water
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/blocked/swamp-water-v1.png
   name: 늪지대 수면 타일
-  width: 64
-  height: 64
-  sha256: 67c56a58f62e5fa7c197bfa373ad2c4b15c835b0a7412da7e057f45f77358dce
+  width: 128
+  height: 128
+  sha256: 6f9fba41aa276d660cc6ec39eff9e127ad07812792ba6e9b330aca192c5f364c
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 6f9fba41aa276d660cc6ec39eff9e127ad07812792ba6e9b330aca192c5f364c
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 6f9fba41aa276d660cc6ec39eff9e127ad07812792ba6e9b330aca192c5f364c
     repository: slime-workflow
@@ -4501,13 +4545,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.mossy-stone-road
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/road/mossy-stone-road-v1.png
   name: 이끼 낀 석재 도로 타일
-  width: 64
-  height: 64
-  sha256: 0a87298bea028067ae22a5637a3164dd2187fc66f44f6f3a72b5c9b58cf8b2c7
+  width: 128
+  height: 128
+  sha256: c95479a4da9033fd25b1392e4961b51fd9a443dab1af35bb5d2c19dca34eae6e
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: c95479a4da9033fd25b1392e4961b51fd9a443dab1af35bb5d2c19dca34eae6e
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: c95479a4da9033fd25b1392e4961b51fd9a443dab1af35bb5d2c19dca34eae6e
     repository: slime-workflow
@@ -4532,13 +4580,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.cliff-rock-face-v1
-  version: v1-64-brightness50
+  version: v1-128-restored-brightness50
   path: assets/tiles/terrain/blocked/cliff-rock-face-v1.png
   name: 고도 측면 암벽
-  width: 64
-  height: 64
-  sha256: 378f4d4b001bc0dacebcd56a871255f6c2a78d49fdc4ff1056d3342a5a688f66
+  width: 128
+  height: 128
+  sha256: 64b1b09167eb1db1fc975d25d8e5d6f25ef0a0bee01f45aa3bb4e3d3929e0bca
   source:
+    restored_git_commit: 3609f820ec72814cd7ec6a8e186a38b585addcc9
+    restored_git_operation: Git 고해상도 원본을 128px로 축소 및 밝기 50% 적용
+    restore_128_operation: 축소 전 원본에서 128×128 복원 및 밝기 50% 적용
+    restore_128_input_sha256: eb1328182be97db1d4a2fff140903574ca332e4c07675be8de799504eeeefd93
     brightness_operation: 사용자 복구 원본 기준 밝기 0.5배 조정
     brightness_input_sha256: 42de9289c265b6c7dbb30d8042f489d9ceff783c38438ab9d7868cee452d4fab
     resize_64_operation: 사용자 지정 지형 측벽·계단 원본 64×64 Lanczos 축소
@@ -4638,10 +4690,14 @@ assets:
     editor_revision: 20261003T041514-3d4309cf
     previous_path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1
 - managementId: image.terrain.ramp-earth-stone-wall-v1
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/blocked/ramp-earth-stone-wall-v1.png
-  sha256: 648a8463b704989d169622f4f82d9c7e710080fc3047896b80a70d18fcd86f82
+  sha256: 908700bc55fae722eaa8ca98a42be0a48099e3026880159bcb5d09a72dc9262f
   source:
+    restored_git_commit: 8e902b46037026565c9d7c52e150f15e413d5feb
+    restored_git_operation: Git 고해상도 원본을 128px로 축소
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 7a5a0cb33ee79f4b482b4f60a71e5ac2fa6488381310c7728e47db091808db14
     resize_64_operation: 사용자 지정 지형 측벽·계단 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 7a5a0cb33ee79f4b482b4f60a71e5ac2fa6488381310c7728e47db091808db14
     repository: slime-workflow
@@ -4747,13 +4803,17 @@ assets:
     sha256: 563b08d6f0d9d4d585252f8500e501dd9e5d76ca83cdd998ac902f18177e8ad0
     operation: 사용자 승인 여성 코스튬 일반 공격 태권도 돌려차기 컷인, 투명 PNG 512x512
 - managementId: image.terrain.dry-soil-grass-v1
-  version: v1-64
+  version: v1-128-restored
   path: assets/tiles/terrain/non-road/dry-soil-grass-v1.png
   name: 마른 흙과 풀 바닥
-  width: 64
-  height: 64
-  sha256: d3afeebaaa8639e4f4e962f2d7d417bf52b75f3eb590ef25260622020d156309
+  width: 128
+  height: 128
+  sha256: 9dedba99909ceb6eefbcdab89d69d72bfeee40e08224441845c33b6e4b0c82a9
   source:
+    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
+    restored_git_operation: Git 128×128 원본 바이트 복원
+    restore_128_operation: 축소 전 원본에서 128×128 복원
+    restore_128_input_sha256: 9dedba99909ceb6eefbcdab89d69d72bfeee40e08224441845c33b6e4b0c82a9
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 9dedba99909ceb6eefbcdab89d69d72bfeee40e08224441845c33b6e4b0c82a9
     repository: slime-workflow
@@ -4800,3 +4860,27 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
+- managementId: image.terrain.grass-ground
+  version: v1-128-restored
+  path: assets/tiles/terrain/non-road/grass-ground-v1.png
+  name: 잔디 지면
+  width: 128
+  height: 128
+  sha256: 7e6c5a1ab9471a4380aa281a0cb1bd8cd767e1f02bfddeba055b9e9b4d9a937e
+  source:
+    restore_128_operation: 고해상도 원본 미확인으로 현재 64×64에서 Lanczos 확대
+    restore_128_input_sha256: 11e35631936e8df565394e875e08b885afb70dba61425bd8481068c7c6612c2a
+    repository: slime-workflow
+    generationId: 2026-10-07_20-39-38-9ddd4b75
+    output: result.png
+    input_size:
+    - 512
+    - 512
+    input_sha256: dd4d4165452e965dad3c54cf7aca185226a5532aedd61e946a8f4e9cabc55227
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      output_size:
+      - 64
+      - 64
+    approval: 사용자 잔디 바닥 타일 등록 및 기존 타일 대체 승인
