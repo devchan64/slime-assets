@@ -185,11 +185,13 @@ assets:
   width: 256
   height: 256
 - managementId: image.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1-128
+  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1-64
   path: assets/tiles/terrain/non-road/exposed-rock-ground-v1.png
   frontend_path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.png
-  sha256: 9dfc1bb461144435f657216494229dc32350b82b5d8b52f8c9cd69418fe695a8
+  sha256: 702d06ce3585f7eaab01d65341e4e6c552cafe246507341a6ef4d3d2ed3b837d
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 9dfc1bb461144435f657216494229dc32350b82b5d8b52f8c9cd69418fe695a8
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.png
@@ -200,7 +202,7 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-  width: 128
+  width: 64
   height: 128
 - managementId: metadata.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.source.json
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
@@ -3923,13 +3925,15 @@ assets:
     sha256: 05fdf18f00dd5a01a94136640bcbad00eb00a9230b274fd94ddb6a98331d63fe
     operation: '사용자 채택 여성 캐릭터 표정: 하품'
 - managementId: image.terrain.transparent-shallow-water
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/blocked/transparent-shallow-water-v1.png
   name: 투명한 얕은물
-  width: 128
-  height: 128
-  sha256: 45f693ce43e0e01d58f313573106dc64415a75d8cceb872dc8c839d33a1ea542
+  width: 64
+  height: 64
+  sha256: ef8dd9e088894c8d0a46568fa90cb8db5f7d96910948a96df4fd9b700dc3787d
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 45f693ce43e0e01d58f313573106dc64415a75d8cceb872dc8c839d33a1ea542
     repository: slime-workflow
     generationId: 2026-10-02_22-50-13-6978dcb2
     output: result.png
@@ -3952,13 +3956,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.transparent-deep-water
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/blocked/transparent-deep-water-v1.png
   name: 투명한 깊은물
-  width: 128
-  height: 128
-  sha256: dee17dccfe1ebbe1fc17a0bb6036e97f7f13349cb08d250ceaac641deed89fd6
+  width: 64
+  height: 64
+  sha256: 928f91766110e1fc9477dc10bbee9e0cd4896837db34c67cc37eba200ed7f101
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: dee17dccfe1ebbe1fc17a0bb6036e97f7f13349cb08d250ceaac641deed89fd6
     repository: slime-workflow
     generationId: 2026-10-02_22-50-19-b3b118b3
     output: result.png
@@ -4010,13 +4016,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.marble-circular-road
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/road/marble-circular-road-v1.png
   name: 원형 패턴 대리석 도로
-  width: 128
-  height: 128
-  sha256: 4816d6fd3795932f02755099cb28f6d260224e0194ebd7e00c7dfa23c76ff0fc
+  width: 64
+  height: 64
+  sha256: bcea93cb7eeedb14936b27e84bbe78dfd9fdcd8109fb97aa13a3128aa673d363
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 4816d6fd3795932f02755099cb28f6d260224e0194ebd7e00c7dfa23c76ff0fc
     repository: slime-workflow
     generationId: 2026-10-07_13-09-49-2844afc8
     output: result.png
@@ -4068,13 +4076,15 @@ assets:
       - 128
       - 128
 - managementId: image.terrain.limestone-road
-  version: v3-128
+  version: v3-64
   path: assets/tiles/terrain/road/limestone-road-v3.png
   name: 어두운 석회석 도로
-  width: 128
-  height: 128
-  sha256: 01b4a77f291c059096420a7a5af8deb30008c7f74a4d5a4efb9854ed96c6ef05
+  width: 64
+  height: 64
+  sha256: a1a0d8996c8bde7e6cfac3250fedeac727941e013316306cf7fc783a782e251a
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 01b4a77f291c059096420a7a5af8deb30008c7f74a4d5a4efb9854ed96c6ef05
     repository: slime-workflow
     generationId: 2026-10-07_19-24-03-1c71d9b7
     output: result.png
@@ -4093,13 +4103,15 @@ assets:
       - 128
       - 128
 - managementId: image.terrain.ochre-pebble-road
-  version: v2-128
+  version: v2-64
   path: assets/tiles/terrain/road/ochre-pebble-road-v1.png
   name: 황토 다색 조약돌 도로
-  width: 128
-  height: 128
-  sha256: 8a5706ccdb7ca4ffe01cdfe14f2756a7ab3050dc58aba80b530a2bfc6a6e1406
+  width: 64
+  height: 64
+  sha256: e65bc9c28125684015dd0c185064385b9e866d0f0b4610a2f132f4ea60e3d9df
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 8a5706ccdb7ca4ffe01cdfe14f2756a7ab3050dc58aba80b530a2bfc6a6e1406
     repository: slime-workflow
     generationId: 2026-10-07_19-15-18-54af4832
     output: result.png
@@ -4144,13 +4156,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.boulder-type-a
-  version: v1-128
-  path: assets/tiles/terrain/blocked/boulder-type-a-v1.png
+  version: v1-64
+  path: assets/retired/tiles/terrain/blocked/boulder-type-a-v1-retired.png
   name: 바위로 막힌 바닥 A
-  width: 128
-  height: 128
-  sha256: 3a2b5c1c6f134b8b1a076abd35f74f635855c1e31ae15f4833f93be6dc02eb4c
+  width: 64
+  height: 64
+  sha256: 8fe72266448e31b9ec6dad1b7a24822145b22ac2866781673eeb70bbe6507272
   source:
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.white-wildflower-grass-v1
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 3a2b5c1c6f134b8b1a076abd35f74f635855c1e31ae15f4833f93be6dc02eb4c
     repository: slime-workflow
     generationId: 2026-10-02_23-26-13-5487ef21
     output: result.png
@@ -4173,13 +4189,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.boulder-type-b
-  version: v1-128
-  path: assets/tiles/terrain/blocked/boulder-type-b-v1.png
+  version: v1-64
+  path: assets/retired/tiles/terrain/blocked/boulder-type-b-v1-retired.png
   name: 바위로 막힌 바닥 B
-  width: 128
-  height: 128
-  sha256: 7fa9b9717e53f434c138c980181875bf97538b1356cc8fdc511b47f59705b233
+  width: 64
+  height: 64
+  sha256: b2f7313960f856f8b8a5da3696e0d63c6d040f21d88d1728817e3255c4b984bb
   source:
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.white-wildflower-grass-v1
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 7fa9b9717e53f434c138c980181875bf97538b1356cc8fdc511b47f59705b233
     repository: slime-workflow
     generationId: 2026-10-02_23-26-08-f130556d
     output: result.png
@@ -4202,13 +4222,17 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.boulder-type-c
-  version: v1-128
-  path: assets/tiles/terrain/blocked/boulder-type-c-v1.png
+  version: v1-64
+  path: assets/retired/tiles/terrain/blocked/boulder-type-c-v1-retired.png
   name: 바위로 막힌 바닥 C
-  width: 128
-  height: 128
-  sha256: e22e0e6071a45db93c1e157c761c7e86b44debf808becc613e9333485d6ceee0
+  width: 64
+  height: 64
+  sha256: 3990def864bc7b02e3ebc94e5dbe885dca76ccc5b879fa6e8e3b5fab56cb3166
   source:
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.white-wildflower-grass-v1
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: e22e0e6071a45db93c1e157c761c7e86b44debf808becc613e9333485d6ceee0
     repository: slime-workflow
     generationId: 2026-10-02_23-26-03-e55c534d
     output: result.png
@@ -4231,13 +4255,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.leaf-litter
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/non-road/leaf-litter-v1.png
   name: 낙엽 바닥
-  width: 128
-  height: 128
-  sha256: c8ba5ea5324838da06066f253174ba857d891189e10c0536aa4baf826730aae8
+  width: 64
+  height: 64
+  sha256: 151adba26c9a2f33ff9f90def64feb8405e5e0ad1983b3711ce7a37bc04f24f6
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: c8ba5ea5324838da06066f253174ba857d891189e10c0536aa4baf826730aae8
     repository: slime-workflow
     generationId: 2026-10-02_23-32-51-3b200f00
     output: result.png
@@ -4260,13 +4286,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.sand-cactus-type-a
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/blocked/sand-cactus-type-a-v1.png
   name: 모래 선인장 타일 A
-  width: 128
-  height: 128
-  sha256: c14562779139b4bed2bcdab30a319b32247b77e343c076acc27ccd5e3b34784c
+  width: 64
+  height: 64
+  sha256: 0a6b38d268407f6d9b0f602c1e693cff95562ceda63a5732ed15420f5bae4289
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: c14562779139b4bed2bcdab30a319b32247b77e343c076acc27ccd5e3b34784c
     repository: slime-workflow
     generationId: 2026-10-02_23-41-02-8836a3e5
     output: result.png
@@ -4289,13 +4317,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.sand-cactus-type-b
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/blocked/sand-cactus-type-b-v1.png
   name: 모래 선인장 타일 B
-  width: 128
-  height: 128
-  sha256: 8ac15925fcca64933cbc62778d1cc54d38f0ae5c73a187416de5cb7c71851426
+  width: 64
+  height: 64
+  sha256: 084e4887582b55c746f31ccc081500f528cf58df26f74f6fe66e3559aa8d5091
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 8ac15925fcca64933cbc62778d1cc54d38f0ae5c73a187416de5cb7c71851426
     repository: slime-workflow
     generationId: 2026-10-02_23-42-49-c6775d5b
     output: result.png
@@ -4318,13 +4348,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.dry-ground-tree-stump
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/blocked/dry-ground-tree-stump-v1.png
   name: 마른땅 나무 밑동 타일
-  width: 128
-  height: 128
-  sha256: 06708710d0ae3f979d812cd95c5e5cc39f545f68d7e06d41c87e15463c5656a2
+  width: 64
+  height: 64
+  sha256: c923d259911b61516abd2a083584306a9dbdba05722da3e4125eb3ed3f73e3e9
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 06708710d0ae3f979d812cd95c5e5cc39f545f68d7e06d41c87e15463c5656a2
     repository: slime-workflow
     generationId: 2026-10-02_23-57-17-bdbc2987
     output: result.png
@@ -4347,13 +4379,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.swamp-water
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/blocked/swamp-water-v1.png
   name: 늪지대 수면 타일
-  width: 128
-  height: 128
-  sha256: 6f9fba41aa276d660cc6ec39eff9e127ad07812792ba6e9b330aca192c5f364c
+  width: 64
+  height: 64
+  sha256: 67c56a58f62e5fa7c197bfa373ad2c4b15c835b0a7412da7e057f45f77358dce
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 6f9fba41aa276d660cc6ec39eff9e127ad07812792ba6e9b330aca192c5f364c
     repository: slime-workflow
     generationId: 2026-10-03_00-19-25-3fc927a5
     output: result.png
@@ -4467,13 +4501,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.mossy-stone-road
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/road/mossy-stone-road-v1.png
   name: 이끼 낀 석재 도로 타일
-  width: 128
-  height: 128
-  sha256: c95479a4da9033fd25b1392e4961b51fd9a443dab1af35bb5d2c19dca34eae6e
+  width: 64
+  height: 64
+  sha256: 0a87298bea028067ae22a5637a3164dd2187fc66f44f6f3a72b5c9b58cf8b2c7
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: c95479a4da9033fd25b1392e4961b51fd9a443dab1af35bb5d2c19dca34eae6e
     repository: slime-workflow
     generationId: 2026-10-03_00-28-10-8d808d6f
     output: result.png
@@ -4496,13 +4532,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.cliff-rock-face-v1
-  version: v1
+  version: v1-64
   path: assets/tiles/terrain/blocked/cliff-rock-face-v1.png
   name: 고도 측면 암벽
-  width: 256
-  height: 256
-  sha256: eb1328182be97db1d4a2fff140903574ca332e4c07675be8de799504eeeefd93
+  width: 64
+  height: 64
+  sha256: 42de9289c265b6c7dbb30d8042f489d9ceff783c38438ab9d7868cee452d4fab
   source:
+    resize_64_operation: 사용자 지정 지형 측벽·계단 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: eb1328182be97db1d4a2fff140903574ca332e4c07675be8de799504eeeefd93
     repository: slime-workflow
     generator: OpenAI built-in imagegen
     generationId: exec-37ae7c4b-05fa-4d27-8ffc-2a2ee42d500a
@@ -4598,10 +4636,12 @@ assets:
     editor_revision: 20261003T041514-3d4309cf
     previous_path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1
 - managementId: image.terrain.ramp-earth-stone-wall-v1
-  version: v1
+  version: v1-64
   path: assets/tiles/terrain/blocked/ramp-earth-stone-wall-v1.png
-  sha256: 7a5a0cb33ee79f4b482b4f60a71e5ac2fa6488381310c7728e47db091808db14
+  sha256: 648a8463b704989d169622f4f82d9c7e710080fc3047896b80a70d18fcd86f82
   source:
+    resize_64_operation: 사용자 지정 지형 측벽·계단 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 7a5a0cb33ee79f4b482b4f60a71e5ac2fa6488381310c7728e47db091808db14
     repository: slime-workflow
     path: .tmp/test/map-ramp-texture/2026-10-03_10-27-50/ramp-earth-stone-256.png
     generation_id: 91708760-e584-4b9a-bfde-5d110f6d1256
@@ -4705,13 +4745,15 @@ assets:
     sha256: 563b08d6f0d9d4d585252f8500e501dd9e5d76ca83cdd998ac902f18177e8ad0
     operation: 사용자 승인 여성 코스튬 일반 공격 태권도 돌려차기 컷인, 투명 PNG 512x512
 - managementId: image.terrain.dry-soil-grass-v1
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/non-road/dry-soil-grass-v1.png
   name: 마른 흙과 풀 바닥
-  width: 128
-  height: 128
-  sha256: 9dedba99909ceb6eefbcdab89d69d72bfeee40e08224441845c33b6e4b0c82a9
+  width: 64
+  height: 64
+  sha256: d3afeebaaa8639e4f4e962f2d7d417bf52b75f3eb590ef25260622020d156309
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: 9dedba99909ceb6eefbcdab89d69d72bfeee40e08224441845c33b6e4b0c82a9
     repository: slime-workflow
     generationId: 2026-10-06_22-59-13-168835f4
     output: result.png
@@ -4725,13 +4767,15 @@ assets:
       - 512
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.white-wildflower-grass-v1
-  version: v1-128
+  version: v1-64
   path: assets/tiles/terrain/non-road/white-wildflower-grass-v1.png
   name: 흰 들꽃 잔디
-  width: 128
-  height: 128
-  sha256: f641a342042ddc5d47050c6b9e965bc2e889a2a300080d809dd5b4a3137c0b31
+  width: 64
+  height: 64
+  sha256: c95909696f2730c33137777531b78b757c5a0407825187fc30225384b4664885
   source:
+    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
+    resize_64_input_sha256: f641a342042ddc5d47050c6b9e965bc2e889a2a300080d809dd5b4a3137c0b31
     repository: slime-workflow
     generationId: 2026-10-07_06-15-33-6bbfda20
     output: result.png
