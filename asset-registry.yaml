@@ -4039,10 +4039,10 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-- managementId: image.terrain.limestone-road
+- managementId: image.terrain.limestone-road-v2-retired
   version: v2-128
-  path: assets/tiles/terrain/road/limestone-road-v2.png
-  name: 어두운 석회석 도로
+  path: assets/retired/tiles/terrain/road/limestone-road-v2-retired.png
+  name: 어두운 석회석 도로 (폐기)
   width: 128
   height: 128
   sha256: d23fe26c2dd518e57e31e7b6e3ec4299f341624a23bf4aa8cba6a53608d2419b
@@ -4050,7 +4050,9 @@ assets:
     repository: slime-workflow
     generationId: 2026-10-07_17-51-12-7d720535
     output: result.png
-    approval: 사용자 어두운 석회석 도로 타일 등록 및 기존 석회석 도로 대체 승인
+    approval: 사용자 석회석 도로 v3로 대체 승인
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.limestone-road
     replaces:
       logical_asset_path: assets/world/isloon/terrain/limestone-floor-type-a-v1.png
       source_path: assets/tiles/terrain/road/stone-road-v1.png
@@ -4062,6 +4064,31 @@ assets:
       - 512
       - 512
       input_sha256: 2a75d312b49078c3a1e75d786d75bba384e368e18ad90cecae5322bcccea9ea9
+      output_size:
+      - 128
+      - 128
+- managementId: image.terrain.limestone-road
+  version: v3-128
+  path: assets/tiles/terrain/road/limestone-road-v3.png
+  name: 어두운 석회석 도로
+  width: 128
+  height: 128
+  sha256: 01b4a77f291c059096420a7a5af8deb30008c7f74a4d5a4efb9854ed96c6ef05
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-07_19-24-03-1c71d9b7
+    output: result.png
+    approval: 사용자 석회석 도로 타일 교체 승인
+    replaces:
+      management_id: image.terrain.limestone-road-v2-retired
+      source_path: assets/retired/tiles/terrain/road/limestone-road-v2-retired.png
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 046f42636a80c9bcbdc3a72ba2c5d9239eb049d6f4673307ea6386f8ef3e3fec
       output_size:
       - 128
       - 128
