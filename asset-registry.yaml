@@ -306,6 +306,31 @@ assets:
       - 256
       - 256
   license: 별도 재사용 허가 미부여
+- managementId: tile.buildings.wall.wood-panel
+  version: 1.256-v1
+  name: 대형 목재 패널 벽면 타일
+  path: assets/tiles/buildings/wood/wood-panel-wall-v1.png
+  sha256: 6b4c173ca3970e972bb44c9f62d3cabb217402c25a74a8ee565bb7a468d119d5
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-07_12-05-16-f1b9d4d9
+    artifact: result.png
+    model_id: Qwen/Qwen-Image-2.1
+    processing: 512px 생성 결과를 LANCZOS로 256px 정규화; 4행 대형 목재 패널, 탑뷰·반복 패턴·부드러운 음영 보정 적용
+    approval: 사용자 승인 공용 건물 목재 패널 벽면 타일 등록
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 80eb6473c9f43b546174b7ce98f9e648e7296d107fde2f129a877d2601699659
+      output_size:
+      - 256
+      - 256
+  license: 별도 재사용 허가 미부여
 - managementId: tile.buildings.wall.wood-window
   version: 1.256-v1
   name: 하늘색 창문 포함 나무 벽 타일
@@ -3953,6 +3978,29 @@ assets:
       output_size:
       - 256
       - 256
+- managementId: image.terrain.marble-circular-road
+  version: v1
+  path: assets/tiles/terrain/road/marble-circular-road-v1.png
+  name: 원형 패턴 대리석 도로
+  width: 256
+  height: 256
+  sha256: f5b7581639ec24f778ce0576caa976245d4f4b3306997d0ba7f0fd7c510cfd79
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-07_13-09-49-2844afc8
+    output: result.png
+    approval: 사용자 대리석 도로 타일 등록 승인
+    processing: 원형 세그먼트 대리석, 탑뷰·반복 패턴·부드러운 음영 보정 적용
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 73349e7e1365c120353477c0b58ceaa1f84c560d03642f9179b26903730efb98
+      output_size:
+      - 256
+      - 256
 - managementId: image.terrain.stone-road
   version: v1
   path: assets/tiles/terrain/road/stone-road-v1.png
@@ -3972,74 +4020,6 @@ assets:
       - 512
       - 512
       input_sha256: 8fb8baf2470afd4ec9c71eac2afafcd107907469f40d6812bfbb54db59f6268e
-      output_size:
-      - 256
-      - 256
-- managementId: image.terrain.grass-type-a
-  version: v1
-  path: assets/tiles/terrain/non-road/grass-type-a-v1.png
-  name: 잔디 바닥 A
-  width: 256
-  height: 256
-  sha256: f9a1a5bf0c4784c590cab71e27aea18ae936797507520fe0aff4562e1877e0a9
-  source:
-    repository: slime-workflow
-    generationId: 2026-10-02_23-10-11-b3e6a56d
-    output: result.png
-    approval: 사용자 외곽 보존 크롭 채택 및 잔디 A/B 교체 승인
-    crop:
-      generation_id: 2026-10-02_23-10-11-b3e6a56d
-      source_sha256: 688ed4af007850a26d63b683e302ba319999f5f9b6eae566ac83092493259361
-      crop_bounds:
-      - 26
-      - 29
-      - 485
-      - 480
-      size:
-      - 459
-      - 451
-      padding: 3
-      output_sha256: 37902345eacf975d23178ddc2bf1355b0aac0e2cc3a9f6b3fc2e3503e05f9507
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 459
-      - 451
-      output_size:
-      - 256
-      - 256
-- managementId: image.terrain.grass-type-b
-  version: v1
-  path: assets/tiles/terrain/non-road/grass-type-b-v1.png
-  name: 잔디 바닥 B
-  width: 256
-  height: 256
-  sha256: cdb5ade64e1ab031ab30b8718422afb6218d8caa26ccba85108f33a80b70bb01
-  source:
-    repository: slime-workflow
-    generationId: 2026-10-02_23-10-06-6ec0364d
-    output: result.png
-    approval: 사용자 외곽 보존 크롭 채택 및 잔디 A/B 교체 승인
-    crop:
-      generation_id: 2026-10-02_23-10-06-6ec0364d
-      source_sha256: e213627bb32d55917749d99de9e1f85a224dde555670aae26abdf4f896c53da9
-      crop_bounds:
-      - 27
-      - 32
-      - 482
-      - 478
-      size:
-      - 455
-      - 446
-      padding: 3
-      output_sha256: 91be48dfa53bbf7a77180954e362667d5317f1bdac1d6aab06c996979eb8ce7c
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 455
-      - 446
       output_size:
       - 256
       - 256
@@ -4516,3 +4496,39 @@ assets:
     path: .tmp/test/battle-cutins/2026-10-03_21-26-23/female-roundhouse-kick-v1.png
     sha256: 563b08d6f0d9d4d585252f8500e501dd9e5d76ca83cdd998ac902f18177e8ad0
     operation: 사용자 승인 여성 코스튬 일반 공격 태권도 돌려차기 컷인, 투명 PNG 512x512
+- managementId: image.terrain.dry-soil-grass-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/dry-soil-grass-v1.png
+  name: 마른 흙과 풀 바닥
+  width: 512
+  height: 512
+  sha256: 1544cd6571b7f69ac54669fbaa4c577d40b01514d7738962c5cd9ff4a706637e
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-06_22-59-13-168835f4
+    output: result.png
+    approval: 사용자 맵 타일 등록 승인
+    operation: 생성 원본 그대로 등록
+- managementId: image.terrain.white-wildflower-grass-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/white-wildflower-grass-v1.png
+  name: 흰 들꽃 잔디
+  width: 256
+  height: 256
+  sha256: 6c18f7d5c483777f5aed7bf15501241f404fe7d5f852e2e8481dabaff346a003
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-07_06-15-33-6bbfda20
+    output: result.png
+    approval: 사용자 맵 타일 등록 승인
+    operation: 512px 생성 결과를 LANCZOS로 256px 정규화
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: b02371fdffe3fe6d008101efe40b5e824bb4cc8072cd7abb805104534f274497
+      output_size:
+      - 256
+      - 256
