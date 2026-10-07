@@ -229,6 +229,31 @@ assets:
       - 256
   license: 별도 재사용 허가 미부여
   frontend_path: src/assets/world/stonewarm/buildings/red-stone-roof-v2.png
+- managementId: tile.buildings.wall.red-stone-brick
+  version: 1.256-v1
+  name: 붉은 벽돌 벽 타일
+  path: assets/tiles/buildings/red-stone/red-stone-brick-wall-v1.png
+  sha256: f2ecd3430352093e8ee2ee0b5475d0b7cd571dd9217422142831d6aa7ef3dd99
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-07_10-20-21-84341784
+    artifact: result.png
+    model_id: Qwen/Qwen-Image-2.1
+    processing: 512px 생성 결과를 LANCZOS로 256px 정규화
+    approval: 사용자 승인 건물용 붉은 벽돌 벽 타일 등록
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 0feb4925ce8e79e2bcbb6cbe31011a699d15f936fb6653f14ac048252c4bea09
+      output_size:
+      - 256
+      - 256
+  license: 별도 재사용 허가 미부여
 - managementId: tile.buildings.wall.wood
   version: 2.256-v1
   name: 통나무 수평 배열 벽 타일
