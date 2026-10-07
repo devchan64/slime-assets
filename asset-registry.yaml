@@ -254,6 +254,31 @@ assets:
       - 256
       - 256
   license: 별도 재사용 허가 미부여
+- managementId: tile.buildings.wall.marble-block
+  version: 1.256-v1
+  name: 대리석 블록 벽면 타일
+  path: assets/tiles/buildings/marble/marble-block-wall-v1.png
+  sha256: 362aae54c538e906d1ec241199c1ed978fae68a750bf69ecd63b4469d5894dfe
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-07_11-34-06-539b2a4a
+    artifact: result.png
+    model_id: Qwen/Qwen-Image-2.1
+    processing: 512px 생성 결과를 LANCZOS로 256px 정규화; 4행 대형 블록, 탑뷰·반복 패턴·부드러운 음영 보정 적용
+    approval: 사용자 승인 공용 건물 대리석 벽면 타일 등록
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 33f96d72cc9733e79b5f1c7412788e7e47cfacc0b74f437a306212db406c086a
+      output_size:
+      - 256
+      - 256
+  license: 별도 재사용 허가 미부여
 - managementId: tile.buildings.wall.wood
   version: 2.256-v1
   name: 통나무 수평 배열 벽 타일
