@@ -4065,6 +4065,28 @@ assets:
       output_size:
       - 128
       - 128
+- managementId: image.terrain.ochre-pebble-road
+  version: v1-128
+  path: assets/tiles/terrain/road/ochre-pebble-road-v1.png
+  name: 황토 다색 조약돌 도로
+  width: 128
+  height: 128
+  sha256: bd16b7d26304cea656e957b8be7eb2b585e201a8ed2191cb2a9098cf9719d4c0
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-07_19-15-18-54af4832
+    output: result.png
+    approval: 사용자 황토 다색 조약돌 도로 타일 지정
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      input_sha256: 54b467df6aeeaf147a665375b8324221d0adcc4735b0b7f2a75983ec3fd8f1dd
+      output_size:
+      - 128
+      - 128
 - managementId: image.terrain.stone-road
   version: v1-128
   path: assets/tiles/terrain/road/stone-road-v1.png
@@ -4328,8 +4350,8 @@ assets:
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.dry-soil-pebble-road
   version: v1-128
-  path: assets/tiles/terrain/road/dry-soil-pebble-road-v1.png
-  name: 마른 흙 자갈 도로 타일
+  path: assets/retired/tiles/terrain/road/dry-soil-pebble-road-v1-retired.png
+  name: 마른 흙 자갈 도로 타일 (폐기)
   width: 128
   height: 128
   sha256: cbac882132690a8a286a66c28684305d856f6da25afd4484a7f1ac90fb424708
@@ -4337,7 +4359,9 @@ assets:
     repository: slime-workflow
     generationId: 2026-10-03_00-22-00-ac6e5543
     output: result.png
-    approval: 사용자 마른 흙 자갈 도로 타일 등록 승인
+    approval: 사용자 황토 다색 조약돌 도로로 대체 승인
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.ochre-pebble-road
     normalization:
       operation: resize
       resampling: LANCZOS
@@ -4357,8 +4381,8 @@ assets:
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.soil-pebble-road
   version: v1-128
-  path: assets/tiles/terrain/road/soil-pebble-road-v1.png
-  name: 흙 자갈 도로 타일
+  path: assets/retired/tiles/terrain/road/soil-pebble-road-v1-retired.png
+  name: 흙 자갈 도로 타일 (폐기)
   width: 128
   height: 128
   sha256: 61b48de21f5411c9bca6e52ad67c3719df5241a20aef5254dc66b60dc2df5689
@@ -4366,7 +4390,9 @@ assets:
     repository: slime-workflow
     generationId: 2026-10-03_00-22-10-928ac268
     output: result.png
-    approval: 사용자 흙 자갈 도로 타일 등록 승인
+    approval: 사용자 황토 다색 조약돌 도로로 대체 승인
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.ochre-pebble-road
     normalization:
       operation: resize
       resampling: LANCZOS
