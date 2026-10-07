@@ -1,0 +1,17 @@
+version: down-left-12frames-v3
+image: walk-12frames-v1.png
+sha256: b3afadc30eaf6fdb5e819521d617b5035539fb0e60a9632b2ccd8b53f6d02a35
+referenceBodyHeight: 360
+gameBodyHeight: 80
+directionOrder:
+- down_left
+operation: 사용자가 첨부·채택한 가벼운 보호구 기본 캐릭터 걷기 시트 원본 등록
+sourceFile: codex-clipboard-0c9fa5eb-02fa-4c0b-892f-61d49e010697.png
+previousSource: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2
+normalization:
+  cellSize: 384
+  frameCount: 12
+  columns: 4
+  rows: 3
+  fps: 8
+  operation: 첨부 원본 픽셀 그대로 사용; 기존 재생 시간과 앵커 유지

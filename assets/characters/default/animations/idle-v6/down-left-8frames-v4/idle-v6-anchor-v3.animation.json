@@ -1,0 +1,157 @@
+{
+  "animationId": "character.default.white-shirt.idle",
+  "version": "down-left-8frames-v4",
+  "sheet": {
+    "width": 1536,
+    "height": 768
+  },
+  "frames": [
+    {
+      "frameId": "down_left.0",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 198,
+        "y": 355
+      }
+    },
+    {
+      "frameId": "down_left.1",
+      "rect": {
+        "x": 384,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 198,
+        "y": 355
+      }
+    },
+    {
+      "frameId": "down_left.2",
+      "rect": {
+        "x": 768,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 198,
+        "y": 355
+      }
+    },
+    {
+      "frameId": "down_left.3",
+      "rect": {
+        "x": 1152,
+        "y": 0,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 198,
+        "y": 355
+      }
+    },
+    {
+      "frameId": "down_left.4",
+      "rect": {
+        "x": 0,
+        "y": 384,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 198,
+        "y": 355
+      }
+    },
+    {
+      "frameId": "down_left.5",
+      "rect": {
+        "x": 384,
+        "y": 384,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 198,
+        "y": 355
+      }
+    },
+    {
+      "frameId": "down_left.6",
+      "rect": {
+        "x": 768,
+        "y": 384,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 198,
+        "y": 355
+      }
+    },
+    {
+      "frameId": "down_left.7",
+      "rect": {
+        "x": 1152,
+        "y": 384,
+        "width": 384,
+        "height": 384
+      },
+      "anchor": {
+        "x": 198,
+        "y": 355
+      }
+    }
+  ],
+  "clips": [
+    {
+      "clipId": "idle.down_left",
+      "action": "idle",
+      "direction": "down_left",
+      "frames": [
+        {
+          "frameId": "down_left.0",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.1",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.2",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.3",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.4",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.5",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.6",
+          "durationMs": 125
+        },
+        {
+          "frameId": "down_left.7",
+          "durationMs": 125
+        }
+      ],
+      "loop": true,
+      "nextClipId": null
+    }
+  ]
+}
