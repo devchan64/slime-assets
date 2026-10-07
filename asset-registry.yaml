@@ -56,15 +56,62 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/meadow-backdrop-v2.webp
-- managementId: metadata.frontend.src.assets.world.isloon.buildings.marble-roof-v2.source.json
+- managementId: metadata.frontend.src.assets.world.isloon.buildings.marble-roof-v2-retired.source.json
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/marble/marble-roof-v2.source.json
+  path: assets/retired/tiles/buildings/marble/marble-roof-v2-retired.source.json
   frontend_path: src/assets/world/isloon/buildings/marble-roof-v2.source.json
   sha256: a279902bf505c872a5b50500d459c270c8f6648a218a7ad64a47d42b38397bd8
   source:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/isloon/buildings/marble-roof-v2.source.json
+    lifecycle_status: retired
+    replaced_by_management_id: tile.buildings.roof.marble-v3
+    retirement_reason: 사용자 승인 대리석 석판 지붕 원본으로 대체
+- managementId: tile.buildings.roof.marble-v3
+  version: 2026-10-07_22-34-09-19d076e8-256
+  name: 대리석 석판 지붕 타일
+  path: assets/tiles/buildings/marble/marble-roof-v3.png
+  sha256: a653e26b0c9f2c8233a880cb1be2e486b1dab89b715755d2be2cb70ed04fc2ba
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-07_22-34-09-19d076e8
+    artifact: result.png
+    input_sha256: a4e5e141d601c535dbcb4cf5770489ab7177b57884c24a6ed634f1b5054d173e
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 256
+      - 256
+    approval: 사용자 건물용 대리석 지붕 타일 등록 승인
+- managementId: image.terrain.wind-swept-sand-ground-v1
+  version: 2026-10-07_22-34-18-e5582002-128
+  name: 바람결 모래 바닥
+  path: assets/tiles/terrain/non-road/wind-swept-sand-ground-v1.png
+  sha256: d4d5abbad763bb21b54095f65cf0d3757b900f4b30d26d76c8915c258915b753
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-07_22-34-18-e5582002
+    artifact: result.png
+    input_sha256: 205e8c85f149f15ca14801191f71103da5c73b318359aa50f69dfd6b95afe95a
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 모래 바닥 타일 등록 승인
 - managementId: image.world.stonewarm.stone-door-v1
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
   path: assets/tiles/buildings/stone/stone-door-v1.png
@@ -485,6 +532,29 @@ assets:
       - 256
       - 256
   license: 별도 재사용 허가 미부여
+- managementId: sprite.metadata.characters.default.idle-v6.idle-v6-v2-retired.animation.json
+  version: down-left-8frames-v2
+  path: assets/retired/characters/default/animations/idle-v6/down-left-8frames-v2/idle-v6.animation.json
+  frontend_path: src/assets/characters/default/idle-v6/idle-v6.animation.json
+  sha256: 5138051e62ee053e2b048529e7bba0e1ed5abd0d3ae10b4153a13ddb358ebbbc
+  source:
+    repository: slime-workflow
+    revision: 20261002T163954-0f9b5fd8
+    path: .local/sprite-editor/53ffb435505f092219fbc231/20261002T163954-0f9b5fd8.png
+    sha256: 0a3ee00b38b61dc092df23b0a3847202ef650fd9b98a5305da0393245b21eadc
+    operation: 사용자 채택 스프라이트 편집본 적용
+    previous_version: down-left-8frames-v1
+    previous_source:
+      repository: slime-workflow
+      revision: 2026-10-01_10-35-10
+      path: .tmp/test/standing-eight-frame-imagegen/2026-10-01_10-35-10/standing-down-left-8frames-384.png
+      sha256: 16ac424221b172b49305738c81c9920993fbf69b54cee3e3d3acbf7668b466c6
+      generation_id: 2026-10-01_09-24-12-f1cdb83f
+      operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
+      previous_version: down-left-v1
+    lifecycle_status: retired
+    replaced_by_management_id: image.character.default.idle-v6.sheet
+    retirement_reason: 현재 down-left-8frames-v4 시트와 앵커 메타데이터로 대체
 - managementId: image.character.default.idle-v6.sheet
   version: down-left-8frames-v4
   path: assets/characters/default/animations/idle-v6/down-left-8frames-v4/idle-v6.png
@@ -5015,27 +5085,3 @@ assets:
       - 128
       - 128
     approval: 사용자 선명 윤곽 잔디 타일 등록 및 기존 타일 대체 승인
-
-- managementId: sprite.metadata.characters.default.idle-v6.idle-v6-v2-retired.animation.json
-  version: down-left-8frames-v2
-  path: assets/retired/characters/default/animations/idle-v6/down-left-8frames-v2/idle-v6.animation.json
-  frontend_path: src/assets/characters/default/idle-v6/idle-v6.animation.json
-  sha256: 5138051e62ee053e2b048529e7bba0e1ed5abd0d3ae10b4153a13ddb358ebbbc
-  source:
-    repository: slime-workflow
-    revision: 20261002T163954-0f9b5fd8
-    path: .local/sprite-editor/53ffb435505f092219fbc231/20261002T163954-0f9b5fd8.png
-    sha256: 0a3ee00b38b61dc092df23b0a3847202ef650fd9b98a5305da0393245b21eadc
-    operation: 사용자 채택 스프라이트 편집본 적용
-    previous_version: down-left-8frames-v1
-    previous_source:
-      repository: slime-workflow
-      revision: 2026-10-01_10-35-10
-      path: .tmp/test/standing-eight-frame-imagegen/2026-10-01_10-35-10/standing-down-left-8frames-384.png
-      sha256: 16ac424221b172b49305738c81c9920993fbf69b54cee3e3d3acbf7668b466c6
-      generation_id: 2026-10-01_09-24-12-f1cdb83f
-      operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
-      previous_version: down-left-v1
-    lifecycle_status: retired
-    replaced_by_management_id: image.character.default.idle-v6.sheet
-    retirement_reason: 현재 down-left-8frames-v4 시트와 앵커 메타데이터로 대체
