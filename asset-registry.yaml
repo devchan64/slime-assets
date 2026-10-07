@@ -4532,13 +4532,15 @@ assets:
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.cliff-rock-face-v1
-  version: v1-64
+  version: v1-64-brightness50
   path: assets/tiles/terrain/blocked/cliff-rock-face-v1.png
   name: 고도 측면 암벽
   width: 64
   height: 64
-  sha256: 42de9289c265b6c7dbb30d8042f489d9ceff783c38438ab9d7868cee452d4fab
+  sha256: 378f4d4b001bc0dacebcd56a871255f6c2a78d49fdc4ff1056d3342a5a688f66
   source:
+    brightness_operation: 사용자 복구 원본 기준 밝기 0.5배 조정
+    brightness_input_sha256: 42de9289c265b6c7dbb30d8042f489d9ceff783c38438ab9d7868cee452d4fab
     resize_64_operation: 사용자 지정 지형 측벽·계단 원본 64×64 Lanczos 축소
     resize_64_input_sha256: eb1328182be97db1d4a2fff140903574ca332e4c07675be8de799504eeeefd93
     repository: slime-workflow
