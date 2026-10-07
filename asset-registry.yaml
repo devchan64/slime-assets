@@ -184,9 +184,9 @@ assets:
       - 256
   width: 256
   height: 256
-- managementId: image.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.png
+- managementId: image.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1-retired.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1-128-restored
-  path: assets/tiles/terrain/non-road/exposed-rock-ground-v1.png
+  path: assets/retired/tiles/terrain/non-road/exposed-rock-ground-v1-retired.png
   frontend_path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.png
   sha256: 9dfc1bb461144435f657216494229dc32350b82b5d8b52f8c9cd69418fe695a8
   source:
@@ -206,17 +206,45 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.stonewarm-mossy-ruin-ground-v2
+    retirement_reason: 사용자 승인 이끼 낀 유적 바닥 타일로 대체
   width: 128
   height: 128
-- managementId: metadata.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1.source.json
+- managementId: metadata.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1-retired.source.json
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/terrain/non-road/exposed-rock-ground-v1.source.json
+  path: assets/retired/tiles/terrain/non-road/exposed-rock-ground-v1-retired.source.json
   frontend_path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.source.json
   sha256: 6a1d1d05a475ce038cbd161ea5ae5c0f98cf5307e40404faa3a4a6abd6621498
   source:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/world/stonewarm/terrain/exposed-rock-ground-v1.source.json
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.stonewarm-mossy-ruin-ground-v2
+    retirement_reason: 사용자 승인 이끼 낀 유적 바닥 타일로 대체
+- managementId: image.terrain.stonewarm-mossy-ruin-ground-v2
+  version: 2026-10-07_21-09-17-137d2576-128
+  name: 돌온재 이끼 낀 유적 바닥
+  path: assets/tiles/terrain/non-road/exposed-rock-ground-v2.png
+  sha256: 970f8c6a5a22747698df8f26af976306b12715540a8eed31b04d0387e795cd9b
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-07_21-09-17-137d2576
+    artifact: result.png
+    input_sha256: aec21785d7e7a0bb580ef2b5a5e4fd733bcaf9d47a303d1dd28a86995f4fe8be
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 노출 암반 지면 타일 대체 승인
 - managementId: tile.buildings.roof.red-stone
   version: 2.256-v1
   name: 붉은 석재 지붕 타일
@@ -3928,10 +3956,10 @@ assets:
     path: .tmp/test/expression-generator/2026-10-02_00-20-50-13683d32/result.png
     sha256: 05fdf18f00dd5a01a94136640bcbad00eb00a9230b274fd94ddb6a98331d63fe
     operation: '사용자 채택 여성 캐릭터 표정: 하품'
-- managementId: image.terrain.transparent-shallow-water
+- managementId: image.terrain.transparent-shallow-water-v1-retired
   version: v1-128-restored
-  path: assets/tiles/terrain/blocked/transparent-shallow-water-v1.png
-  name: 투명한 얕은물
+  path: assets/retired/tiles/terrain/blocked/transparent-shallow-water-v1-retired.png
+  name: 투명한 얕은물 (폐기)
   width: 128
   height: 128
   sha256: 45f693ce43e0e01d58f313573106dc64415a75d8cceb872dc8c839d33a1ea542
@@ -3963,6 +3991,31 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.transparent-shallow-water-v2
+    retirement_reason: 사용자 승인 돌 바닥이 비치는 얕은물 타일로 대체
+- managementId: image.terrain.transparent-shallow-water-v2
+  version: v2-128
+  path: assets/tiles/terrain/blocked/transparent-shallow-water-v2.png
+  name: 돌 바닥이 비치는 얕은물
+  width: 128
+  height: 128
+  sha256: 9fdeafcd40e45787b964f0ddf49f7ff2dddad96470942f7c6a52afba5515f106
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-07_21-06-53-7eaba9de
+    output: result.png
+    input_size:
+    - 512
+    - 512
+    input_sha256: 0885f78467dc41fbb554d412b9cf38d3176528728dd72928811f568b3e33b89b
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 얕은물 타일 등록 및 기존 타일 대체 승인
 - managementId: image.terrain.transparent-deep-water
   version: v1-128-restored
   path: assets/tiles/terrain/blocked/transparent-deep-water-v1.png
@@ -3998,10 +4051,10 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-- managementId: image.terrain.marble-road
+- managementId: image.terrain.marble-road-v1-retired
   version: v1-128
-  path: assets/tiles/terrain/road/marble-road-v1.png
-  name: 대리석 도로
+  path: assets/retired/tiles/terrain/road/marble-road-v1-retired.png
+  name: 대리석 도로 (폐기)
   width: 128
   height: 128
   sha256: 02ee8dfc999e2ed34f30a18a90e59fd04be785af56c352a04180c1b9bea1308c
@@ -4009,7 +4062,9 @@ assets:
     repository: slime-workflow
     generationId: 2026-10-02_22-52-24-f2a28162
     output: result.png
-    approval: 사용자 대리석 도로 타일 등록 승인
+    approval: 사용자 원형 패턴 대리석 도로로 대체 승인
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.marble-circular-road
     normalization:
       operation: resize
       resampling: LANCZOS
@@ -4079,7 +4134,7 @@ assets:
     replaced_by_management_id: image.terrain.limestone-road
     replaces:
       logical_asset_path: assets/world/isloon/terrain/limestone-floor-type-a-v1.png
-      source_path: assets/tiles/terrain/road/stone-road-v1.png
+      source_path: assets/retired/tiles/terrain/road/stone-road-v1-retired.png
       reason: 기존 원본은 다른 지면 논리 타일과 공유되어 유지
     normalization:
       operation: resize
@@ -4150,10 +4205,10 @@ assets:
       output_size:
       - 128
       - 128
-- managementId: image.terrain.stone-road
+- managementId: image.terrain.stone-road-v1-retired
   version: v1-128
-  path: assets/tiles/terrain/road/stone-road-v1.png
-  name: 석재 도로
+  path: assets/retired/tiles/terrain/road/stone-road-v1-retired.png
+  name: 석재 도로 (폐기)
   width: 128
   height: 128
   sha256: c3494eeefd4ee3b01d055f1c11c1b131dc6b878ab95829c066274b8ec8df0288
@@ -4161,7 +4216,9 @@ assets:
     repository: slime-workflow
     generationId: 2026-10-02_22-55-48-9ad74222
     output: result.png
-    approval: 사용자 석재 도로 타일 등록 승인
+    approval: 사용자 석회석 도로 v3로 대체 승인
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.limestone-road
     normalization:
       operation: resize
       resampling: LANCZOS
@@ -4188,7 +4245,7 @@ assets:
   sha256: 8fe72266448e31b9ec6dad1b7a24822145b22ac2866781673eeb70bbe6507272
   source:
     lifecycle_status: retired
-    replaced_by_management_id: image.terrain.white-wildflower-grass-v1
+    replaced_by_management_id: image.terrain.grass-ground-v2
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 3a2b5c1c6f134b8b1a076abd35f74f635855c1e31ae15f4833f93be6dc02eb4c
     repository: slime-workflow
@@ -4221,7 +4278,7 @@ assets:
   sha256: b2f7313960f856f8b8a5da3696e0d63c6d040f21d88d1728817e3255c4b984bb
   source:
     lifecycle_status: retired
-    replaced_by_management_id: image.terrain.white-wildflower-grass-v1
+    replaced_by_management_id: image.terrain.grass-ground-v2
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: 7fa9b9717e53f434c138c980181875bf97538b1356cc8fdc511b47f59705b233
     repository: slime-workflow
@@ -4254,7 +4311,7 @@ assets:
   sha256: 3990def864bc7b02e3ebc94e5dbe885dca76ccc5b879fa6e8e3b5fab56cb3166
   source:
     lifecycle_status: retired
-    replaced_by_management_id: image.terrain.white-wildflower-grass-v1
+    replaced_by_management_id: image.terrain.grass-ground-v2
     resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
     resize_64_input_sha256: e22e0e6071a45db93c1e157c761c7e86b44debf808becc613e9333485d6ceee0
     repository: slime-workflow
@@ -4278,10 +4335,10 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-- managementId: image.terrain.leaf-litter
+- managementId: image.terrain.leaf-litter-v1-retired
   version: v1-128-restored
-  path: assets/tiles/terrain/non-road/leaf-litter-v1.png
-  name: 낙엽 바닥
+  path: assets/retired/tiles/terrain/non-road/leaf-litter-v1-retired.png
+  name: 낙엽 바닥 (폐기)
   width: 128
   height: 128
   sha256: c8ba5ea5324838da06066f253174ba857d891189e10c0536aa4baf826730aae8
@@ -4313,6 +4370,31 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.leaf-litter-v2
+    retirement_reason: 사용자 승인 일러스트 낙엽 바닥 타일로 대체
+- managementId: image.terrain.leaf-litter-v2
+  version: v2-128
+  path: assets/tiles/terrain/non-road/leaf-litter-v2.png
+  name: 일러스트 낙엽 바닥
+  width: 128
+  height: 128
+  sha256: c83b23c3afe52e4db00d97ce272be167e7e26e304f1793c62bae4494e5fe76ec
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-07_20-58-44-33667a85
+    output: result.png
+    input_size:
+    - 512
+    - 512
+    input_sha256: 172618dd81b5872be16f63252f51f196274d025c00140ebe768640e2347756f7
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 일러스트 낙엽 바닥 타일 등록 및 기존 타일 대체 승인
 - managementId: image.terrain.sand-cactus-type-a
   version: v1-128-restored
   path: assets/tiles/terrain/blocked/sand-cactus-type-a-v1.png
@@ -4515,10 +4597,10 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-- managementId: image.terrain.broken-stone-slab-road
+- managementId: image.terrain.broken-stone-slab-road-v1-retired
   version: v1-128
-  path: assets/tiles/terrain/road/broken-stone-slab-road-v1.png
-  name: 조각난 석판 도로 타일
+  path: assets/retired/tiles/terrain/road/broken-stone-slab-road-v1-retired.png
+  name: 조각난 석판 도로 타일 (폐기)
   width: 128
   height: 128
   sha256: b2c0ac765a08e33d54c6073cb99d1a1cae8300f7fa551ae743b17f5d8545d553
@@ -4526,7 +4608,9 @@ assets:
     repository: slime-workflow
     generationId: 2026-10-03_00-23-23-6037d2cf
     output: result.png
-    approval: 사용자 조각난 석판 도로 타일 등록 승인
+    approval: 사용자 석회석 도로 v3로 대체 승인
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.limestone-road
     normalization:
       operation: resize
       resampling: LANCZOS
@@ -4544,10 +4628,10 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-- managementId: image.terrain.mossy-stone-road
+- managementId: image.terrain.mossy-stone-road-v1-retired
   version: v1-128-restored
-  path: assets/tiles/terrain/road/mossy-stone-road-v1.png
-  name: 이끼 낀 석재 도로 타일
+  path: assets/retired/tiles/terrain/road/mossy-stone-road-v1-retired.png
+  name: 이끼 낀 석재 도로 타일 (폐기)
   width: 128
   height: 128
   sha256: c95479a4da9033fd25b1392e4961b51fd9a443dab1af35bb5d2c19dca34eae6e
@@ -4579,6 +4663,8 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
 - managementId: image.terrain.cliff-rock-face-v1
   version: v1-128-restored-brightness50
   path: assets/tiles/terrain/blocked/cliff-rock-face-v1.png
@@ -4828,10 +4914,10 @@ assets:
       - 512
       - 512
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-- managementId: image.terrain.white-wildflower-grass-v1
+- managementId: image.terrain.white-wildflower-grass-v1-retired
   version: v1-64
-  path: assets/tiles/terrain/non-road/white-wildflower-grass-v1.png
-  name: 흰 들꽃 잔디
+  path: assets/retired/tiles/terrain/non-road/white-wildflower-grass-v1-retired.png
+  name: 흰 들꽃 잔디 (폐기)
   width: 64
   height: 64
   sha256: c95909696f2730c33137777531b78b757c5a0407825187fc30225384b4664885
@@ -4860,10 +4946,13 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-- managementId: image.terrain.grass-ground
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.grass-ground-v2
+    retirement_reason: 사용자 승인 잔디 바닥 타일로 대체
+- managementId: image.terrain.grass-ground-v1-retired
   version: v1-128-restored
-  path: assets/tiles/terrain/non-road/grass-ground-v1.png
-  name: 잔디 지면
+  path: assets/retired/tiles/terrain/non-road/grass-ground-v1-retired.png
+  name: 잔디 지면 (폐기)
   width: 128
   height: 128
   sha256: 7e6c5a1ab9471a4380aa281a0cb1bd8cd767e1f02bfddeba055b9e9b4d9a937e
@@ -4884,3 +4973,28 @@ assets:
       - 64
       - 64
     approval: 사용자 잔디 바닥 타일 등록 및 기존 타일 대체 승인
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.grass-ground-v2
+    retirement_reason: 사용자 승인 선명 윤곽 잔디 타일로 대체
+- managementId: image.terrain.grass-ground-v2
+  version: v2-128
+  path: assets/tiles/terrain/non-road/grass-ground-v2.png
+  name: 선명 윤곽 잔디 지면
+  width: 128
+  height: 128
+  sha256: 5f9b342aa092b85e81831ecd03efb724bdff4dc5c69f963c7d5f272fc758ef05
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-07_21-08-08-6f7748d6
+    output: result.png
+    input_size:
+    - 512
+    - 512
+    input_sha256: df22dcfa2309a2f912eee0cd7930b58d6da19afcd5ee5c64a869b32ce0218079
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 선명 윤곽 잔디 타일 등록 및 기존 타일 대체 승인
