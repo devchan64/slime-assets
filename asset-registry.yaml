@@ -4016,10 +4016,10 @@ assets:
       - 128
       - 128
     approval: 사용자 얕은물 타일 등록 및 기존 타일 대체 승인
-- managementId: image.terrain.transparent-deep-water
+- managementId: image.terrain.transparent-deep-water-v1-retired
   version: v1-128-restored
-  path: assets/tiles/terrain/blocked/transparent-deep-water-v1.png
-  name: 투명한 깊은물
+  path: assets/retired/tiles/terrain/blocked/transparent-deep-water-v1-retired.png
+  name: 투명한 깊은물 (폐기)
   width: 128
   height: 128
   sha256: dee17dccfe1ebbe1fc17a0bb6036e97f7f13349cb08d250ceaac641deed89fd6
@@ -4051,6 +4051,31 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.opaque-deep-water-v2
+    retirement_reason: 사용자 승인 바닥이 보이지 않는 깊은 물 타일로 대체
+- managementId: image.terrain.opaque-deep-water-v2
+  version: 2026-10-07_21-34-08-cacfb621-128
+  path: assets/tiles/terrain/blocked/transparent-deep-water-v2.png
+  name: 불투명 깊은 물
+  width: 128
+  height: 128
+  sha256: 3982b3fac2ddf0145b2bac111b37b7b7a029344f05834c0c23ac59612e9091b3
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-07_21-34-08-cacfb621
+    artifact: result.png
+    input_sha256: 0da98a0e730bcff8d8e8e49477452270ce3605f3f29d87d8bc8a1012bd855a65
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 바닥이 보이지 않는 깊은 물 타일 대체 승인
 - managementId: image.terrain.marble-road-v1-retired
   version: v1-128
   path: assets/retired/tiles/terrain/road/marble-road-v1-retired.png
