@@ -4093,24 +4093,24 @@ assets:
       - 128
       - 128
 - managementId: image.terrain.ochre-pebble-road
-  version: v1-128
+  version: v2-128
   path: assets/tiles/terrain/road/ochre-pebble-road-v1.png
   name: 황토 다색 조약돌 도로
   width: 128
   height: 128
-  sha256: bd16b7d26304cea656e957b8be7eb2b585e201a8ed2191cb2a9098cf9719d4c0
+  sha256: 8a5706ccdb7ca4ffe01cdfe14f2756a7ab3050dc58aba80b530a2bfc6a6e1406
   source:
     repository: slime-workflow
     generationId: 2026-10-07_19-15-18-54af4832
     output: result.png
-    approval: 사용자 황토 다색 조약돌 도로 타일 지정
+    approval: 사용자 현재 이미지 128×128 축소 및 새 버전 등록 승인
     normalization:
       operation: resize
       resampling: LANCZOS
       input_size:
       - 512
       - 512
-      input_sha256: 54b467df6aeeaf147a665375b8324221d0adcc4735b0b7f2a75983ec3fd8f1dd
+      input_sha256: 0cc201f147a6b4af4dd1e6e08617ae46017d5f4d7f91039090465409cdd3587b
       output_size:
       - 128
       - 128
