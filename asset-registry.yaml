@@ -4533,6 +4533,190 @@ assets:
       - 128
       - 128
     approval: 사용자 일러스트 낙엽 바닥 타일 등록 및 기존 타일 대체 승인
+- managementId: image.terrain.autumn-leaf-litter-v1
+  version: 2026-10-09_16-18-17-9c6d164e-128
+  path: assets/tiles/terrain/non-road/autumn-leaf-litter-v1.png
+  name: 가을 낙엽 바닥 타일
+  width: 128
+  height: 128
+  sha256: 6ce0346eb6c9ec9d8e2a09e43997b591d4de7df540d4d6f676edb17d031f1569
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-18-17-9c6d164e
+    artifact: result.png
+    input_sha256: a3696d05189d1842324f844b7f36e11ce5424031bf3ccbc243f00e9189ad49aa
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 가을 낙엽 바닥 타일 등록 승인
+- managementId: image.terrain.pebble-shore-ground-v1
+  version: 2026-10-09_16-18-17-4961d8c1-128
+  path: assets/tiles/terrain/non-road/pebble-shore-ground-v1.png
+  name: 자갈 해안 바닥 타일
+  width: 128
+  height: 128
+  sha256: a86a004db48c56af6467a5ae33628115ec757265262a18272b3239aeb677c190
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-18-17-4961d8c1
+    artifact: result.png
+    input_sha256: 7c2168036db0b93fc972e9748762fbaeeaa9932798eead53f268987b3ff0f670
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 자갈 해안 바닥 타일 등록 승인
+- managementId: image.terrain.mossy-ruin-ground-v1
+  version: 2026-10-09_16-18-16-1583b501-128
+  path: assets/tiles/terrain/non-road/mossy-ruin-ground-v1.png
+  name: 이끼 낀 유적 바닥 타일
+  width: 128
+  height: 128
+  sha256: c994c9c0cdb932e273f03c5f1904ac010d9dc09b820b64219b90f2daa8075a6c
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-18-16-1583b501
+    artifact: result.png
+    input_sha256: 42c986e5f87b79e8de47b93c62495154b6e6a0cfb466970454ea0a477451e1bc
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 이끼 낀 유적 바닥 타일 등록 승인
+- managementId: image.terrain.dark-humus-ground-v1
+  version: 2026-10-09_16-18-17-9419d291-128
+  path: assets/tiles/terrain/non-road/dark-humus-ground-v1.png
+  name: 어두운 부식토 바닥 타일
+  width: 128
+  height: 128
+  sha256: 4a57a3c9365c2a034cbb256c36bc874495e4b1238e7fd791d905213683835a51
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-18-17-9419d291
+    artifact: result.png
+    input_sha256: 615ec98345f5b4d46b79a19d9fa7682a8ae26d63680a91404bdbd24963c7ca85
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 어두운 부식토 바닥 타일 등록 승인
+- managementId: image.terrain.frost-grass-ground-v1
+  version: 2026-10-09_16-18-17-7ee5c1da-128
+  path: assets/tiles/terrain/non-road/frost-grass-ground-v1.png
+  name: 서리 잔디 바닥 타일
+  width: 128
+  height: 128
+  sha256: e416b3e728fa6f8a5035b98a607e8fcaf832d09c491f5cf9229b5cad171f501d
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-18-17-7ee5c1da
+    artifact: result.png
+    input_sha256: 4c047b649d8f90ef00bf07bb6a67f583213d139fd2abb36e131c28deeee8df7b
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 서리 잔디 바닥 타일 등록 승인
+- managementId: image.terrain.cracked-dry-earth-ground-v1
+  version: 2026-10-09_16-18-18-818135b9-128
+  path: assets/tiles/terrain/non-road/cracked-dry-earth-ground-v1.png
+  name: 갈라진 건조 토양 바닥 타일
+  width: 128
+  height: 128
+  sha256: b17d52093972ff288ac0658d8e5ec446e472727e92d29ad2dfb19bcd55c02738
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-18-18-818135b9
+    artifact: result.png
+    input_sha256: 664e901430df7c63be03f85c61b4202d9cd580acffa1a0cf48fbe545bb54a191
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 갈라진 건조 토양 바닥 타일 등록 승인
+- managementId: image.terrain.wildflower-meadow-ground-v1
+  version: 2026-10-09_16-18-18-dcf4b4f2-128
+  path: assets/tiles/terrain/non-road/wildflower-meadow-ground-v1.png
+  name: 야생화 초원 바닥 타일
+  width: 128
+  height: 128
+  sha256: c5da6468b2d25fe228f5b51f456b5cc8472c692075673fd75ae5746f56d4cc9c
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-18-18-dcf4b4f2
+    artifact: result.png
+    input_sha256: e0248c1a09e49ed89e1fccb019b133aad527a77e62c2e289662a21fc7c93a9f5
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 야생화 초원 바닥 타일 등록 승인
+- managementId: image.terrain.shallow-reed-water-ground-v1
+  version: 2026-10-09_16-18-18-93dde5ec-128
+  path: assets/tiles/terrain/non-road/shallow-reed-water-ground-v1.png
+  name: 얕은 갈대 물 바닥 타일
+  width: 128
+  height: 128
+  sha256: f693390843478673d547ffab46efc59dd2ea1d9a8979f66d049b133ffce3f502
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-18-18-93dde5ec
+    artifact: result.png
+    input_sha256: c7817e0569192571e27a42a3718555f8e8eef84d779088513f49167f66f93c9f
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 얕은 갈대 물 바닥 타일 등록 승인
+- managementId: image.terrain.volcanic-ash-ground-v1
+  version: 2026-10-09_16-18-18-03912ec1-128
+  path: assets/tiles/terrain/non-road/volcanic-ash-ground-v1.png
+  name: 화산재 바닥 타일
+  width: 128
+  height: 128
+  sha256: b48d072573d93e1e0ecef29fb1b326d8b76293a8df132494ee8ec64ebf96a340
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-18-18-03912ec1
+    artifact: result.png
+    input_sha256: bb1cb04d84a572e968a20c0dc239bfa17f4ea9aec717d2f5b2fe85b3e814b8bd
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 화산재 바닥 타일 등록 승인
+- managementId: image.terrain.round-fieldstone-ground-v1
+  version: 2026-10-09_16-22-41-7b8e6250-128
+  path: assets/tiles/terrain/non-road/round-fieldstone-ground-v1.png
+  name: 둥근 들돌 바닥 타일
+  width: 128
+  height: 128
+  sha256: c9cf9884c3b6daf5eea48b74346be80116a27480266fd1a73d67bc9b8c92e325
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-22-41-7b8e6250
+    artifact: result.png
+    input_sha256: bcdf2e5bc1c62ed55d47ac0bc79c32dd8917fcccd7f9cdc2a81607c72258f3f7
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 둥근 들돌 바닥 타일 등록 승인
+- managementId: image.terrain.frosted-grass-ground-v1
+  version: 2026-10-09_15-40-55-fb1992b9-128
+  path: assets/tiles/terrain/non-road/frosted-grass-ground-v1.png
+  name: 서리 낀 풀밭 바닥 타일
+  width: 128
+  height: 128
+  sha256: 8c5fd8c64d77d3a9863377e3b4d3fa26692af9f2ed74e256058183033fc77f04
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_15-40-55-fb1992b9
+    artifact: result.png
+    input_sha256: adadf30ce4167837b7363641efcabcdff3e5ad086ba7074e7726c55a46561892
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 서리 낀 풀밭 바닥 타일 등록 승인
+- managementId: image.terrain.sandy-scrub-ground-v1
+  version: 2026-10-09_15-40-54-1d53e719-128
+  path: assets/tiles/terrain/non-road/sandy-scrub-ground-v1.png
+  name: 모래 관목 바닥 타일
+  width: 128
+  height: 128
+  sha256: e5e78914cc1e1a0001857540838b037e5b11d380a690e22fcbe6ca11a5b9f246
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_15-40-54-1d53e719
+    artifact: result.png
+    input_sha256: 303f79b0c0bd31d20de1c98b974bb63fa67f5cca54cfe99a8656221eeff8fa62
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 모래 관목 바닥 타일 등록 승인
 - managementId: image.terrain.sand-cactus-type-a
   version: v1-128-restored
   path: assets/tiles/terrain/blocked/sand-cactus-type-a-v1.png
