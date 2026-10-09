@@ -374,10 +374,10 @@ assets:
       - 256
       - 256
   license: 별도 재사용 허가 미부여
-- managementId: tile.buildings.door.red-stone-brick-gate-v1
+- managementId: tile.buildings.door.red-stone-brick-gate-v1-retired
   version: 2026-10-09_16-04-17-5c2667d7-256
-  name: 붉은 벽돌 중앙 대문 타일
-  path: assets/tiles/buildings/red-stone/red-stone-brick-gate-v1.png
+  name: 붉은 벽돌 중앙 대문 타일 (폐기)
+  path: assets/retired/tiles/buildings/red-stone/red-stone-brick-gate-v1-retired.png
   sha256: c3d348092d3cab1fa18b4c893fc6b008c82f843e1d673590bcbcafb04d7c1f58
   width: 256
   height: 256
@@ -396,7 +396,94 @@ assets:
       - 256
       - 256
     approval: 사용자 승인 참조 보존 붉은 벽돌 중앙 대문 타일 등록
+    lifecycle_status: retired
+    replaced_by_management_id: tile.buildings.door.red-stone-brick-gate-v2
+    retirement_reason: 사용자 승인 바닥선에 맞춘 대문 타일로 대체
   license: 별도 재사용 허가 미부여
+- managementId: tile.buildings.door.red-stone-brick-gate-v2
+  version: 2026-10-09_16-25-26-497cbe1c-256
+  name: 붉은 벽돌 바닥선 중앙 대문 타일
+  path: assets/tiles/buildings/red-stone/red-stone-brick-gate-v2.png
+  sha256: 288e88f9d32841995493d96b419233a5f053624508ac82d3222e984f33acd2d0
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-25-26-497cbe1c
+    artifact: result.png
+    input_sha256: c3beafa7c2d99b90c67c2b2c97846825a7959e42d2618860c7b2839c5ee5c8b4
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [256, 256]}
+    approval: 사용자 승인 바닥선에 맞춘 붉은 벽돌 대문 타일 등록
+- managementId: tile.buildings.wall.adobe-mudbrick-v1
+  version: 2026-10-09_16-22-41-0fa5eb71-256
+  name: 어도비 흙벽돌 벽면 타일
+  path: assets/tiles/buildings/adobe/adobe-mudbrick-wall-v1.png
+  sha256: 818e9358f201f36616d915c41f9409d61fa3d22edd686ee1f6e5917375d33d57
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-22-41-0fa5eb71
+    artifact: result.png
+    input_sha256: a7219f65985eb84232b4a94ec0461d23673b6083a2cac3e86631738d7a62eb30
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [256, 256]}
+    approval: 사용자 어도비 흙벽돌 벽면 타일 등록 승인
+- managementId: tile.buildings.wall.mossy-ancient-stone-v1
+  version: 2026-10-09_16-22-41-89ac0f1b-256
+  name: 이끼 낀 고대 석재 벽면 타일
+  path: assets/tiles/buildings/stone/mossy-ancient-stone-wall-v1.png
+  sha256: d6688c131fd9bcb1fe47f8a45f07bc1434b282a2d3ed70a93fd023c3991b870a
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-22-41-89ac0f1b
+    artifact: result.png
+    input_sha256: 8b4f9dddc451e2ec6a3961a24bd759277998801108fb1232ac51804a572b3cf0
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [256, 256]}
+    approval: 사용자 이끼 낀 고대 석재 벽면 타일 등록 승인
+- managementId: tile.buildings.wall.white-plaster-timber-v1
+  version: 2026-10-09_16-22-41-553ec52a-256
+  name: 흰 미장 목재 골조 벽면 타일
+  path: assets/tiles/buildings/wood/white-plaster-timber-wall-v1.png
+  sha256: 8b4b6d91af1cd68ad6200499530c4d03eca824a0d25de303100ad1c6fa948f45
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-22-41-553ec52a
+    artifact: result.png
+    input_sha256: 2c922fa50f00a8d42cc34eec5308ae3f0372d6135201932713fce1bdb6be08b2
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [256, 256]}
+    approval: 사용자 흰 미장 목재 골조 벽면 타일 등록 승인
+- managementId: tile.buildings.wall.dark-basalt-v1
+  version: 2026-10-09_16-22-40-c17379e9-256
+  name: 어두운 현무암 벽면 타일
+  path: assets/tiles/buildings/stone/dark-basalt-wall-v1.png
+  sha256: 337ea1bd97a9efd155cc72dc519224d316ebc208a15ab95a61dd39fecfe1b7f6
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-22-40-c17379e9
+    artifact: result.png
+    input_sha256: 642e3cebb6a4277bec267e8417c2b6c0d7955eae276402695218dd5791cd238a
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [256, 256]}
+    approval: 사용자 어두운 현무암 벽면 타일 등록 승인
+- managementId: tile.buildings.wall.limestone-ashlar-v1
+  version: 2026-10-09_16-22-40-492d9fc9-256
+  name: 석회석 애슐러 벽면 타일
+  path: assets/tiles/buildings/stone/limestone-ashlar-wall-v1.png
+  sha256: c60cbb7dd0e55167f628d59b2add9c989d7bab49cf491ee4e5f1ac0a041756c8
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-22-40-492d9fc9
+    artifact: result.png
+    input_sha256: b87ba0485756bbca509f5efdd66c8b4a3484ca8dcb4a273e3800e91caf88a7df
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [256, 256]}
+    approval: 사용자 석회석 애슐러 벽면 타일 등록 승인
 - managementId: tile.buildings.wall.marble-block
   version: 1.256-v1
   name: 대리석 블록 벽면 타일
@@ -422,6 +509,90 @@ assets:
       - 256
       - 256
   license: 별도 재사용 허가 미부여
+- managementId: image.terrain.dark-basalt-paver-road-v1
+  version: 2026-10-09_21-12-50-c6ea8c74-128
+  name: 어두운 현무암 포장석 도로 타일
+  path: assets/tiles/terrain/road/dark-basalt-paver-road-v1.png
+  sha256: 46c617f921a2d70ceda48ad1777964f764c5e16db893282d802d0a4426bd2122
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_21-12-50-c6ea8c74
+    artifact: result.png
+    input_sha256: 25eafeeb9858e3d31a5abec2b8876494dd8205939bb4c9216d015d52bb9f7f8a
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 어두운 현무암 포장석 도로 타일 등록 승인
+- managementId: image.terrain.granite-slab-road-v1
+  version: 2026-10-09_21-12-50-524f3c16-128
+  name: 화강암 석판 도로 타일
+  path: assets/tiles/terrain/road/granite-slab-road-v1.png
+  sha256: 6fe50deab581a2dccd9752acfbe8f83865ae8b9e1c65cb9343148cc38e462a89
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_21-12-50-524f3c16
+    artifact: result.png
+    input_sha256: 96a96c6bdc26ece0c2632fc16e1610e218b5a6d22acc14e1c59523c8ed1d3d79
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 화강암 석판 도로 타일 등록 승인
+- managementId: tile.buildings.door.red-stone-brick-gate-v3
+  version: 2026-10-09_21-25-10-ae05749f-256
+  name: 붉은 벽돌 대형 중앙 대문 타일
+  path: assets/tiles/buildings/red-stone/red-stone-brick-gate-v3.png
+  sha256: 14d3e46c3c2f6e270f8352e3c1fe041b025242e9a5a86ceb912f18632e9bc46b
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_21-25-10-ae05749f
+    artifact: result.png
+    input_sha256: b8c052135f8f36136f9f9494ac9a8ede9923d709dfe5ea2b4d1ea4eaa8f3175d
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [768, 768], output_size: [256, 256]}
+    approval: 사용자 승인 화면 너비 약 70% 대형 중앙 대문 건물 타일 등록
+- managementId: image.terrain.limestone-mosaic-road-v1
+  version: 2026-10-09_21-36-37-139d9808-128
+  name: 대형 석회석 모자이크 도로 타일
+  path: assets/tiles/terrain/road/limestone-mosaic-road-v1.png
+  sha256: dc9ef4bcfe81e4e2bf8348c04ff211cc84e4fcfed7434cf49a5c0b86eacce12f
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_21-36-37-139d9808
+    artifact: result.png
+    input_sha256: f8670c3a35fa93d44ced15e576669cafd362bc9c60c3e6d85a15cc742962a6a3
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 승인 대형 석회석 모자이크 도로 타일 등록
+- managementId: image.terrain.ochre-pebble-road-v2
+  version: 2026-10-09_21-36-37-899b5438-128
+  name: 대형 황토 자갈 도로 타일
+  path: assets/tiles/terrain/road/ochre-pebble-road-v2.png
+  sha256: 5ef3445fcb6bc5b8f1ba481603c362c2dd2dfadf7d77ae668d55035448cc9603
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_21-36-37-899b5438
+    artifact: result.png
+    input_sha256: c1437e22b1f35ef91d26e9ab58a36622b34c5c0c3e9e2da2ef51691de14d5322
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [128, 128]}
+    approval: 사용자 승인 대형 황토 자갈 도로 타일 등록
+- managementId: tile.buildings.wall.red-stone-sky-blue-window-v1
+  version: 2026-10-09_21-47-23-ee3eb394-256
+  name: 붉은 벽돌 하늘색 창문 벽면 타일
+  path: assets/tiles/buildings/red-stone/red-stone-sky-blue-window-wall-v1.png
+  sha256: 11e8cc3fefd6c0237e398210e07c366029523131507ac87113d4124cb34e8357
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_21-47-23-ee3eb394
+    artifact: result.png
+    input_sha256: d79a7ca0439a91b63918fe7f9ba8088dd32c1caa30c608dcc115db597807ee60
+    normalization: {operation: resize, resampling: LANCZOS, input_size: [512, 512], output_size: [256, 256]}
+    approval: 사용자 승인 하늘색 창문 붉은 벽돌 건물 벽 타일 등록
 - managementId: tile.buildings.wall.wood
   version: 2.256-v1
   name: 통나무 수평 배열 벽 타일
