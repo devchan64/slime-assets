@@ -1183,9 +1183,9 @@ assets:
     path: assets/maps/city_layouts/index.yaml
     operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.city-layouts.iseulon
-  version: v3
+  version: v6
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: ee19045dccf89a4bce76f93a54e014e9ff4c7ddf38851265603e749b11a0bd36
+  sha256: eabdc70804c612086c6219945a47e82e30ae89974db79d399695f2e6026e7aab
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
