@@ -1191,9 +1191,9 @@ assets:
     path: config/city_layouts/iseulon.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.reedhaven
-  version: v3
+  version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: f17929cff423fca29438a5922548f147787071a96628c4b61484292e74bf02a0
+  sha256: 3fe971d621c77e5b9e69768995dd436d9a10dc301e3598a708e650b39229a7fc
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -5493,7 +5493,7 @@ assets:
     retirement_reason: 사용자 승인 선명 윤곽 잔디 타일로 대체
 - managementId: image.terrain.grass-ground-v2
   version: v2-128
-  path: assets/tiles/terrain/non-road/grass-ground-v2.png
+  path: assets/retired/tiles/terrain/non-road/grass-ground-v2-retired.png
   name: 선명 윤곽 잔디 지면
   width: 128
   height: 128
@@ -5513,3 +5513,28 @@ assets:
       - 128
       - 128
     approval: 사용자 선명 윤곽 잔디 타일 등록 및 기존 타일 대체 승인
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.wildflower-meadow-ground-v1
+    retirement_reason: 사용자 지정 야생화 초원 타일로 대체
+- managementId: image.terrain.marsh-reed-clumps-v1
+  version: 2026-10-09_23-57-29-765b5345-128
+  path: assets/tiles/terrain/non-road/marsh-reed-clumps-v1.png
+  name: 물가 갈대 군락 타일
+  width: 128
+  height: 128
+  sha256: 9546dbad00f71698001b44dfc801e92f3476a4bd66281a2b7a2bcbd2761bade4
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_23-57-29-765b5345
+    artifact: result.png
+    input_sha256: 997e9bd9a8b98b0375afd659028968e1923193cd6eae03ee5d94531ed093ccf3
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 물가 갈대 군락 타일 등록 승인
