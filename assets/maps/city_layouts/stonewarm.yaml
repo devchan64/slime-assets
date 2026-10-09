@@ -1,5 +1,3 @@
-# 자동 생성: scripts/compile_city_layouts.py
-# 원본 SHA256: 9ff9c7b92847ae59de1c13eeb73e869371f329c07a99f9fff1d96ce9a7ac046f
 managementId: config.city-layouts.stonewarm
 data:
   version: 1
@@ -10,27 +8,27 @@ data:
   terrainRows:
   - vvvbbbbbbbvvpvvbbbbbbbvv
   - vvvbbbbbbbvvpvvbbbbbbbvv
-  - vvvvvvvvvvvvpvvvvvvvvvvv
-  - bbvvvvvvvvvvpvvvvvvvvvbb
-  - bbvvvvvvvvvvpvvvvvvvvvbb
-  - bbvvvvvpvvvvpvvvvpvvvvbb
-  - bbvvvvvpvvvvpvvvvpvvvvbb
-  - bbvvvvvpvvvvpvvvvpvvvvbb
-  - bbvvvvvpppppppppvpvvvvbb
-  - bbvvvvvpppppppppvpvvvvbb
-  - bbvvvvvpppppppppvpvvvvbb
-  - bbvvvvvpppppppppvpvvvvbb
-  - bbvvvvvpppppppppvpvvvvbb
-  - bbvvvvvpppppppppppvvvvbb
-  - bbvvvvvpppppppppvvvvvvbb
-  - bbvvvvvpppppppppvvvvvvbb
-  - bbvvvvvpvvvvpvvvvvvvvvbb
-  - bbvvvvvpvvvvpvvvvvvvvvbb
-  - vvvvvvvpvvvvvvvvvvvvvvbb
-  - vvvvvvvpvvvvvvvvvvvvvvbb
-  - vvvvvvvvvvvvvvvvvvvvvvvv
-  - vvvvvvvvvvvvvvvvvvvvvvvv
-  - vvvvvvvvvvvvvvvvvvvvvvvv
+  - vvvvvvvvvvvvpvsssssssvvv
+  - bbvvvvvvvvvvpvsssssssvbb
+  - bbvvvvvvvvvvpvsssssssvbb
+  - bbvvvvvvvvvvpvssspsssvbb
+  - bbvvvpppppppppppppsssvbb
+  - bbvvvvvvvpppppppspsssvbb
+  - bbvddddddpppppppspsssvbb
+  - bbvddddddpppppppspsssvbb
+  - bbvddddddvvvpvssspsssvbb
+  - bbvddddddvvvpvvvvpvvvvbb
+  - bbvddddddvvvpvvvvpvvvvbb
+  - bbvddpppppppppppppvvvvbb
+  - bbvddpdddpppppppvvvvvvbb
+  - bbvddpdddpppppppssssssbb
+  - bbvddpdddpppppppssssssbb
+  - bbvvvpvvvvvvpvvvssssssbb
+  - vvvvvpvvvvvvvvvvssssssbb
+  - vvvvvpvddddddddddsssssbb
+  - vvvvvvvddddddddddsssssvv
+  - vvvvvvvddddddddddsssssvv
+  - vvvvvvvddddddddddvvvvvvv
   - vvvvvvvvvvvvvvvvvvvvvvvv
   startPoint:
     column: 12
@@ -56,7 +54,7 @@ data:
       column: 18
       row: 4
     width: 2
-    height: 3
+    height: 4
     floors: 1
     entrance:
       column: 17
@@ -69,7 +67,7 @@ data:
       column: 3
       row: 18
     width: 2
-    height: 3
+    height: 4
     floors: 1
     entrance:
       column: 5
@@ -81,8 +79,8 @@ data:
     origin:
       column: 11
       row: 18
-    width: 2
-    height: 3
+    width: 4
+    height: 2
     floors: 1
     entrance:
       column: 12
@@ -95,7 +93,7 @@ data:
       column: 18
       row: 12
     width: 2
-    height: 3
+    height: 4
     floors: 1
     entrance:
       column: 17
