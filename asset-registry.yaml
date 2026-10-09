@@ -297,10 +297,10 @@ assets:
       - 128
       - 128
     approval: 사용자 노출 암반 지면 타일 대체 승인
-- managementId: tile.buildings.roof.red-stone
+- managementId: tile.buildings.roof.red-stone-v2-retired
   version: 2.256-v1
   name: 붉은 석재 지붕 타일
-  path: assets/tiles/buildings/red-stone/red-stone-roof-v2.png
+  path: assets/retired/tiles/buildings/red-stone/red-stone-roof-v2-retired.png
   sha256: 96d5adea2eea42ccea7c38853ce7a0cbf1371d6c47997f71ebc2c5fe8ae34f1d
   width: 256
   height: 256
@@ -322,8 +322,33 @@ assets:
       output_size:
       - 256
       - 256
+    lifecycle_status: retired
+    replaced_by_management_id: tile.buildings.roof.red-stone-v3
+    retirement_reason: 사용자 승인 테라코타 석판 지붕 타일로 대체
   license: 별도 재사용 허가 미부여
   frontend_path: src/assets/world/stonewarm/buildings/red-stone-roof-v2.png
+- managementId: tile.buildings.roof.red-stone-v3
+  version: 2026-10-09_15-26-49-44be078f-256
+  name: 붉은 석재 테라코타 지붕 타일
+  path: assets/tiles/buildings/red-stone/red-stone-roof-v3.png
+  sha256: d0036e010f24f4ed3725d49b46a54413294b3488f42cece92ba9728a40068fb8
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_15-26-49-44be078f
+    artifact: result.png
+    input_sha256: 0300df006a0eacf3fe2697f381f0b9802ad10faf3af4480bc0073ea86acbaaf5
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 256
+      - 256
+    approval: 사용자 붉은 석재 지붕 v2 대체 승인
 - managementId: tile.buildings.wall.red-stone-brick
   version: 1.256-v1
   name: 붉은 벽돌 벽 타일
@@ -348,6 +373,29 @@ assets:
       output_size:
       - 256
       - 256
+  license: 별도 재사용 허가 미부여
+- managementId: tile.buildings.door.red-stone-brick-gate-v1
+  version: 2026-10-09_16-04-17-5c2667d7-256
+  name: 붉은 벽돌 중앙 대문 타일
+  path: assets/tiles/buildings/red-stone/red-stone-brick-gate-v1.png
+  sha256: c3d348092d3cab1fa18b4c893fc6b008c82f843e1d673590bcbcafb04d7c1f58
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_16-04-17-5c2667d7
+    artifact: result.png
+    input_sha256: f8381b0c145b77d7f6497b4676f048a867e59b2d41630c06b5910b1a321c34b9
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 256
+      - 256
+    approval: 사용자 승인 참조 보존 붉은 벽돌 중앙 대문 타일 등록
   license: 별도 재사용 허가 미부여
 - managementId: tile.buildings.wall.marble-block
   version: 1.256-v1
@@ -4590,10 +4638,10 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-- managementId: image.terrain.swamp-water
+- managementId: image.terrain.swamp-water-v1-retired
   version: v1-128-restored
-  path: assets/tiles/terrain/blocked/swamp-water-v1.png
-  name: 늪지대 수면 타일
+  path: assets/retired/tiles/terrain/blocked/swamp-water-v1-retired.png
+  name: 늪지대 수면 타일 (폐기)
   width: 128
   height: 128
   sha256: 6f9fba41aa276d660cc6ec39eff9e127ad07812792ba6e9b330aca192c5f364c
@@ -4625,6 +4673,31 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
+    lifecycle_status: retired
+    replaced_by_management_id: image.terrain.murky-swamp-water-v2
+    retirement_reason: 사용자 승인 탁한 늪 수면 타일로 대체
+- managementId: image.terrain.murky-swamp-water-v2
+  version: 2026-10-09_15-35-29-1b67f210-128
+  name: 탁한 늪지대 수면
+  path: assets/tiles/terrain/blocked/swamp-water-v2.png
+  sha256: 21efb8b2ec0b733c3265e432d10c78dd80132db3c8117eac7724000785edbe2a
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-09_15-35-29-1b67f210
+    artifact: result.png
+    input_sha256: c1ca54aaf72e7a2a81601bfc45bcbc81cf3dd6fa1fdf6ecde5a8a56e6290a476
+    normalization:
+      operation: resize
+      resampling: LANCZOS
+      input_size:
+      - 512
+      - 512
+      output_size:
+      - 128
+      - 128
+    approval: 사용자 늪지대 바닥 타일 v2 등록 승인
 - managementId: image.terrain.dry-soil-pebble-road
   version: v1-128
   path: assets/retired/tiles/terrain/road/dry-soil-pebble-road-v1-retired.png
