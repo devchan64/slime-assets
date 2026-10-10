@@ -1303,41 +1303,41 @@ assets:
     path: config/city_layouts/stonewarm.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.ash-edge
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/ash-edge.yaml
-  sha256: 3367524f6d0a22058d1fda628bb4e9e9ad878ed9fe62ede19680a40925c6bccb
+  sha256: 79605074c393f0c143ecb8595d8c2a822f257198db04839bc39e46907f9a7a7a
   source:
     repository: slime-backend
     path: config/field_tiles/ash-edge.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.boar-ridge
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/boar-ridge.yaml
-  sha256: 0ba0a619ee51bd5cfbf1d51d5b5a5fd0d6a75c41ce6787d1f51c0725804d4b72
+  sha256: ffddcbf71a4f8f1766f88c5ee1474d03646c088c29bd7ac4ee7a93aa2960f808
   source:
     repository: slime-backend
     path: config/field_tiles/boar-ridge.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.broken-quarry
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: cc0f78972ab946fd2ed00f608845234c3bded183b2dd292004ab905a8839d28d
+  sha256: 9159b0cec2a64da5ba9ce48b06355ece27012192418cf0bee57100f7215526db
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.cinder-path
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/cinder-path.yaml
-  sha256: dc49f09336c90bf4478cf8c3cc4878526279ff1ba6f3e1afc4ceef8370d186bc
+  sha256: 426f4020771bbcb0cb6484457c66fc3b97d9f25ad8182255c95c86ebe263dd36
   source:
     repository: slime-backend
     path: config/field_tiles/cinder-path.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.clover-bank
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/clover-bank.yaml
-  sha256: 19db9a5947a362f82dd5b19b918fd5e50af7212ef92fb2e20adbeb59ecbe00a0
+  sha256: f5f87312c349c6c006dd1a18030e363667cb64446eb71ed54da640c4be7610aa
   source:
     repository: slime-backend
     path: config/field_tiles/clover-bank.yaml
@@ -1351,41 +1351,41 @@ assets:
     path: config/field_tiles/codes.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.crystal-cut
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: a1008cda733596386ced0956fe53ede3c719376453421788122c679daa933c6b
+  sha256: 8130ba43c77224aa528401d5b0d266c6612229ccc6fb8dea005a4933651d6228
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.dawn-overlook
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/dawn-overlook.yaml
-  sha256: 7e60d54786e67450c447a3b1c0af87229cd6983f64c8b292468725183aa243d9
+  sha256: c72a517794e06851e83dfaf05b58202f67be4a5fa2e67688d29f865344345470
   source:
     repository: slime-backend
     path: config/field_tiles/dawn-overlook.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.dry-creek
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/dry-creek.yaml
-  sha256: 3cd265616b453a2b82bf2cdb813d3d76e14d02e3898cde583d33261e88278d79
+  sha256: db410be92b30d6b18b4c1ec6c52f53a8e4c64516f6f89c0707b13f5ee197e1ba
   source:
     repository: slime-backend
     path: config/field_tiles/dry-creek.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.fallen-canopy
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/fallen-canopy.yaml
-  sha256: 6cdeff50af736333444933390b0a29280cc030bae129599b6bac020ea7f2d0b0
+  sha256: c6c8bf45246c810c5dd8f486d91150c2a914ecc0b2f51008db19b39e220dcb8a
   source:
     repository: slime-backend
     path: config/field_tiles/fallen-canopy.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.grove
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/grove.yaml
-  sha256: e6ccda4d990b4d0a869ec7039587c12c680af6ebfcb59b1e57aabc26c6250304
+  sha256: df6ad5f3c64fe8d7ba6918da26c874025cbcbc5987b19a6ee18f2cb8e0c075e9
   source:
     repository: slime-backend
     path: config/field_tiles/grove.yaml
@@ -1399,81 +1399,81 @@ assets:
     path: assets/maps/field_tiles/index.yaml
     operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.field-tiles.lantern-wood
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/lantern-wood.yaml
-  sha256: 528e8739f55ec20f129a8e056c43bc00e83bb51a74bb9bdbce916414e9aafc29
+  sha256: 1111b05b40d7a4b176f7e145f933abaaa4d84c2cc0aa6f583d4b623bb0f5a1fe
   source:
     repository: slime-backend
     path: config/field_tiles/lantern-wood.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.meadow
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/meadow.yaml
-  sha256: 5d0d246f4c3ea11e7b4192b61a2cfd149e3704958293ad1f3501090539f8bd94
+  sha256: 4ac7caf6f356d5e53eeaa33159f39c5699cf590598400ee16fefc4fe033980ff
   source:
     repository: slime-backend
     path: config/field_tiles/meadow.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.mist-lake
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/mist-lake.yaml
-  sha256: d8cc3ec03456f32ac5a3bb126a3f321eda6095c8f5f9a3881a4cbdccedee62de
+  sha256: 57777bc6e22ac40f8219b5328416bcecc15a966c167d9960048386c53d2ce03e
   source:
     repository: slime-backend
     path: config/field_tiles/mist-lake.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.moss-clearing
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/moss-clearing.yaml
-  sha256: bf07694b2a52efe67f8240c986b29408eb02f11558b35fd6870fe9bbbe962da7
+  sha256: a655e62b16c9346e88511c72da38e65c6019653611cddb0d06a36d5595bd2f13
   source:
     repository: slime-backend
     path: config/field_tiles/moss-clearing.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.old-orchard
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: 83072a50bef75dba6932bf66dc4b4902e8b32bd4f39c8011e55da995484a4699
+  sha256: 90f01d0a196ffc2816943098098a2cbcd67527fdf0fb9181873fde735c71acec
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/old-orchard.yaml
     operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.field-tiles.pebble-shore
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/pebble-shore.yaml
-  sha256: f23e9f0c69a4cdab830e7112ad8badb219acb8e000dd7962cf7180b3536f968e
+  sha256: 193c48a59d3a32692c5f1dc9d8e03620ff29e2d882a27bd3f372ba6b4b22d47c
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/pebble-shore.yaml
     operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.field-tiles.reed-crossing
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/reed-crossing.yaml
-  sha256: 1c1937cf09e811bd379fd25ebe29eb5dcd602293be5d0531ca02ea1ef421f4d7
+  sha256: 02a705319f93dec7c985cdeb709f8dea0052d1d019ff16803cfef0de84f95caa
   source:
     repository: slime-backend
     path: config/field_tiles/reed-crossing.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.root-trail
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/root-trail.yaml
-  sha256: 0deaaace749be258c2a60c5fe0433b97660df9c4f1cd11a54ad083bacb68de8a
+  sha256: bdc2ef26c0bf2e47b7260a61257d97ce04b9ac97b157f35bfb6227116b652a09
   source:
     repository: slime-backend
     path: config/field_tiles/root-trail.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.silver-marsh
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/silver-marsh.yaml
-  sha256: e955f80d2798169b97c6b4d18a08715868d789f1bfb5c1c5fa4ee5ea1a4c2236
+  sha256: ea27e2a3ac2cdca48baa650a6496e47d1b8f5e411c416e9fbf6e11efa08279c4
   source:
     repository: slime-backend
     path: config/field_tiles/silver-marsh.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.wind-hills
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/wind-hills.yaml
-  sha256: d2577a029644a476abf81bf2f76c93f4f74d750fb7bceda02ea8dd44e187f361
+  sha256: 4e5e2c40823edae8a4b9761722ccf5c13cfacde07b1a7fea1f6fe89b9ae09bb7
   source:
     repository: slime-backend
     path: config/field_tiles/wind-hills.yaml
@@ -2421,49 +2421,49 @@ assets:
     path: assets/maps/city_layouts/saltford.yaml
     operation: 런타임 맵 원본 작성
 - managementId: config.field-tiles.brine-bank
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/brine-bank.yaml
-  sha256: b43ffa3883166d2f4ef4c7586b8b3632dbbd23f8f14f1f79d08f135eb5976beb
+  sha256: 33237865a46138c1ee41dd716e820333432969674545a83f59065fb3694135a8
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/brine-bank.yaml
     operation: 런타임 맵 원본 작성
 - managementId: config.field-tiles.granary-flats
-  version: farmland-v3
+  version: field-objects-v1
   path: assets/maps/field_tiles/granary-flats.yaml
-  sha256: 8cbe6dad05b44bdb99c95ebf3f226b0e677af2cb4d4b0ee125f0e8c39467f70f
+  sha256: 082b01bdeed1570fe10c0fcf103d3ae2f3c6127ccd391c25347ccd715e9dae6b
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/granary-flats.yaml
     operation: 런타임 맵 원본 작성
 - managementId: config.field-tiles.mill-ridge
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/mill-ridge.yaml
-  sha256: b9b1ceb7fb1a996643a12e57f5dbb0d98fe76ab33f88eadc852999ec97ac12d3
+  sha256: ebbe29efea3fb0575e018af21bbe7e16adedb0b7f5a2246e287ea8f6f26cf381
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/mill-ridge.yaml
     operation: 런타임 맵 원본 작성
 - managementId: config.field-tiles.salt-causeway
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/salt-causeway.yaml
-  sha256: 20ec61d8b3aaa13cd8388df6403a4f5954452a9972d933a5ba415203811365bc
+  sha256: c45cd5f9118a54a6576739b24bc680ce78d472cc664d3ad56029e6d9504bfc19
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/salt-causeway.yaml
     operation: 런타임 맵 원본 작성
 - managementId: config.field-tiles.salt-flat
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/salt-flat.yaml
-  sha256: 63a5e21559dff3627be8bba99d1eeb5b3dd6e6579f5c86099f9e85239c91a8e2
+  sha256: 70b14535b25801bca0d208108a9f3e8e5b086610a8296111b7b27b674cd33022
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/salt-flat.yaml
     operation: 런타임 맵 원본 작성
 - managementId: config.field-tiles.windrow-road
-  version: field-detail-v2
+  version: field-objects-v1
   path: assets/maps/field_tiles/windrow-road.yaml
-  sha256: ea8d85921398acf2ea561e53f776af8230840eccc61e0d5c9a6572b85bd93529
+  sha256: 593941cdc95c64346e07c5c982b7ba84fa4ac13e401096141e14b20223e230fd
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/windrow-road.yaml
@@ -5752,4 +5752,17 @@ assets:
     generationId: 2026-10-10_16-48-58-1a01f615
     output: result.png
     sha256: 339c7e32fb17e3280938b6f70aa2772f046023d6b1e54f5ca46045929b7ae4d9
+    operation: 사용자 승인 생성 결과를 128×128 Lanczos 축소
+- managementId: image.terrain.fallen-orchard-fruit-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/fallen-orchard-fruit-v1.png
+  name: 과수원 낙과 바닥
+  width: 128
+  height: 128
+  sha256: d60bf3ac6e7e54436ed13cbb475dbf6d16c5e9773b41a10caad31d14c1ec4fa7
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-10_17-05-18-b33de73a
+    output: result.png
+    sha256: cdc2fdc30679d97094e3b7af2533844c665f7c914142c6f30ae477e0b25cce01
     operation: 사용자 승인 생성 결과를 128×128 Lanczos 축소
