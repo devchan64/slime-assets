@@ -1433,7 +1433,7 @@ assets:
 - managementId: config.field-tiles.old-orchard
   version: field-objects-v1
   path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: 90f01d0a196ffc2816943098098a2cbcd67527fdf0fb9181873fde735c71acec
+  sha256: 4cef8753256a0485647522e455ab56ee53b552a1ddfb212d403caf8a833af5f6
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/old-orchard.yaml
@@ -5134,41 +5134,6 @@ assets:
       - 256
       - 256
     resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
-- managementId: image.terrain.dry-ground-tree-stump
-  version: v1-128-restored
-  path: assets/tiles/terrain/blocked/dry-ground-tree-stump-v1.png
-  name: 마른땅 나무 밑동 타일
-  width: 128
-  height: 128
-  sha256: 06708710d0ae3f979d812cd95c5e5cc39f545f68d7e06d41c87e15463c5656a2
-  source:
-    restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
-    restored_git_operation: Git 128×128 원본 바이트 복원
-    restore_128_operation: 축소 전 원본에서 128×128 복원
-    restore_128_input_sha256: 06708710d0ae3f979d812cd95c5e5cc39f545f68d7e06d41c87e15463c5656a2
-    resize_64_operation: 사용자 지정 맵 타일 원본 64×64 Lanczos 축소
-    resize_64_input_sha256: 06708710d0ae3f979d812cd95c5e5cc39f545f68d7e06d41c87e15463c5656a2
-    repository: slime-workflow
-    generationId: 2026-10-02_23-57-17-bdbc2987
-    output: result.png
-    approval: 사용자 마른땅 나무 밑동 타일 등록 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 964b086b95c3867ec48641022e0ba9e6948aaf53578c5b88ecf9ec03f4a28dbc
-      output_size:
-      - 256
-      - 256
-    resize_128_origin:
-      version: v1
-      sha256: 5fb1da73cf457863f3886c35c5b87a7fb7db712600762010247dd16c58e92e6c
-      size:
-      - 256
-      - 256
-    resize_128_operation: 바닥 타일 원본 128×128 Lanczos 축소
 - managementId: image.terrain.swamp-water-v1-retired
   version: v1-128-restored
   path: assets/retired/tiles/terrain/blocked/swamp-water-v1-retired.png
@@ -5766,3 +5731,68 @@ assets:
     output: result.png
     sha256: cdc2fdc30679d97094e3b7af2533844c665f7c914142c6f30ae477e0b25cce01
     operation: 사용자 승인 생성 결과를 128×128 Lanczos 축소
+- managementId: image.scenery.orchard-apple-tree-v1
+  version: v1
+  path: assets/sprites/structures/orchard-apple-tree-v1.png
+  name: 사과나무
+  width: 512
+  height: 512
+  sha256: 6bafec0f8858d94ab832ecb1c23a289590f5c604ebb4c892b5af023b39f4d474
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-10_17-35-08-735daaa6
+    output: result.png
+    sha256: 6bafec0f8858d94ab832ecb1c23a289590f5c604ebb4c892b5af023b39f4d474
+    operation: 사용자 승인 투명 원본 그대로 등록
+- managementId: image.scenery.orchard-dead-tree-v1
+  version: v1
+  path: assets/sprites/structures/orchard-dead-tree-v1.png
+  name: 고사목
+  width: 512
+  height: 512
+  sha256: 7f6d32a9f666a1ba21afb62124da500764d1145df9f68e6a9d183e9e2048ac74
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-10_17-31-46-dca9147c
+    output: result.png
+    sha256: 7f6d32a9f666a1ba21afb62124da500764d1145df9f68e6a9d183e9e2048ac74
+    operation: 사용자 승인 투명 원본 그대로 등록
+- managementId: image.scenery.orchard-autumn-tree-v1
+  version: v1
+  path: assets/sprites/structures/orchard-autumn-tree-v1.png
+  name: 가을 과수
+  width: 512
+  height: 512
+  sha256: 2891145eaa38788b80d3865a24110223788fc390dcd4d5dadfc01338a7950b4e
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-10_17-31-46-a6ff230c
+    output: result.png
+    sha256: 2891145eaa38788b80d3865a24110223788fc390dcd4d5dadfc01338a7950b4e
+    operation: 사용자 승인 투명 원본 그대로 등록
+- managementId: image.scenery.orchard-young-tree-v1
+  version: v1
+  path: assets/sprites/structures/orchard-young-tree-v1.png
+  name: 어린 과수
+  width: 512
+  height: 512
+  sha256: 9b8ca45e30535fd43565cfd942256ad0ba433392615d86a9ba647aa33b840fa5
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-10_17-31-46-92429bc9
+    output: result.png
+    sha256: 9b8ca45e30535fd43565cfd942256ad0ba433392615d86a9ba647aa33b840fa5
+    operation: 사용자 승인 투명 원본 그대로 등록
+- managementId: image.scenery.orchard-old-tree-v1
+  version: v1
+  path: assets/sprites/structures/orchard-old-tree-v1.png
+  name: 오래된 과수
+  width: 512
+  height: 512
+  sha256: 29f57bd686992b9f90f7dd5f9ed59c4cf0338ab0faf294bf1d43fab575deb85c
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-10_17-31-46-4fc07ee3
+    output: result.png
+    sha256: 29f57bd686992b9f90f7dd5f9ed59c4cf0338ab0faf294bf1d43fab575deb85c
+    operation: 사용자 승인 투명 원본 그대로 등록

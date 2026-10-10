@@ -3,39 +3,639 @@ data:
   rows:
   - gggggggggggggggggggggggggggggggg
   - gggggggggggggggggggggggggggggggg
-  - gggggggggggggggggggggggggggggggg
-  - gggggggggggggggggggggggggggggggg
-  - ggglllllglllllgggggglllllglllllg
-  - gggllmllgllmllggggggllmllgllmllg
-  - ggglmtmlglmtmlgggggglmtmlglmtmlg
-  - gggllmllgllmllggggggllmllgllmllg
-  - ggglllllglllllgggggglllllglllllg
-  - gggggggggggggggggggggggggggggggg
-  - ggglllllglllllgggggglllllglllllg
-  - gggllmllgllmllggggggllmllgllmllg
-  - ggglmtmlglmemlgggggglmtmlglmtmlg
-  - gggllmllgllmllggggggllmllgllmllg
-  - ggglllllgllllleeeeeglllllglllllg
+  - ggmllllllllllllmgggmllllllllllll
+  - gggllllllmmmmmmgggggllllllllllll
+  - gglllllllmmmmmmlggglllllllllllll
+  - gggllllllmmllmmgggggllllllllllll
+  - ggglltllllltlllggggglltllllltlll
+  - ggglmmmmmlmmmmmlgggglmmmmmlmmmmm
+  - gggmmmmmmmmmeeemggggmmmlllmmmmmm
+  - ggllllmmmmmmeeelgggllllllllllmmm
+  - ggglllgggmmmlllggggglllggglllggg
+  - gglllmmllmmmllllgggllllllllleelg
+  - ggggmtmglllelllggggggltlgggetegg
+  - glllmmmllllllllgggllllllmmleeeee
+  - glmlmlllmmmmlmeeeeemlmlmmmlllmem
   - ggggggggggggggeeeeeggggggggggggg
   - pppppppppppppppppppppppppppppppp
   - ggggggggggggggepppeggggggggggggg
-  - ggggggggggggggeepeeggggggggggggg
-  - ggggggggggggggggpggggggggggggggg
-  - ggglllllglllllggpggglllllglllllg
-  - gggllmllgllmllggpgggllmllgllmllg
-  - ggglmtmlglmtmlggpggglmemlglmtmlg
-  - gggllmllgllmllggpgggllmllgllmllg
-  - ggglllllglllllggpggglllllglllllg
-  - ggggggggggggggggpggggggggggggggg
-  - ggglllllglllllggpggglllllglllllg
-  - gggllmllgllmllggpgggllmllgllmllg
-  - ggglmtmlglmtmlggpggglmtmlglmtmlg
-  - gggllmllgllmllggpgggllmllgllmllg
-  - ggglllllglllllggpggglllllglllllg
-  - ggggggggggggggggpggggggggggggggg
+  - gggllllllllllleepeegllllllllllll
+  - gggllllllmmmmmmgpgggllleeellllll
+  - gglllllllmmmmmmgpgglllleeellllll
+  - gglmmmmmmmmmmmmgpgmlmmmmmmmmmmmm
+  - gggmltlmmmltlmmgpgmmmmemmmmltlmm
+  - gggllllllllllmmgpglmmmlmmmllllee
+  - gggggglllgggmmmgpggmmmgmmmgggeee
+  - gglllllllmmmmmmgpgglllllllllleee
+  - ggglllgggmmmggggpggglllllllllggg
+  - gglllllllmmmmlggpggllleelllllllg
+  - gmllmtmlllmtmllgpgmllmtmlllmtmlg
+  - gmmmlllllmmmmllgpgmmmeeeeemlllmg
+  - glmmmllllllllllgpglmmmleeellllmg
+  - ggmmmglllggglllgpggmmmgeeegggggg
   objects:
   - id: ward-tower
     kind: ward-tower
     position:
       column: 16
       row: 16
+  - id: orchard-tree-1
+    kind: decoration
+    position:
+      column: 5
+      row: 6
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-2
+    kind: decoration
+    position:
+      column: 11
+      row: 6
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-3
+    kind: decoration
+    position:
+      column: 22
+      row: 6
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-4
+    kind: decoration
+    position:
+      column: 28
+      row: 6
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-5
+    kind: decoration
+    position:
+      column: 5
+      row: 12
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-6
+    kind: decoration
+    position:
+      column: 22
+      row: 12
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-7
+    kind: decoration
+    position:
+      column: 28
+      row: 12
+    textureKey: orchard-dead-tree-v1
+    displayHeight: 135
+    anchorX: 0.5
+    anchorY: 0.9375
+    tileAnchor: center
+  - id: orchard-tree-8
+    kind: decoration
+    position:
+      column: 5
+      row: 22
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-9
+    kind: decoration
+    position:
+      column: 11
+      row: 22
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-10
+    kind: decoration
+    position:
+      column: 28
+      row: 22
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-11
+    kind: decoration
+    position:
+      column: 5
+      row: 28
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-12
+    kind: decoration
+    position:
+      column: 11
+      row: 28
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-13
+    kind: decoration
+    position:
+      column: 22
+      row: 28
+    textureKey: orchard-dead-tree-v1
+    displayHeight: 135
+    anchorX: 0.5
+    anchorY: 0.9375
+    tileAnchor: center
+  - id: orchard-tree-14
+    kind: decoration
+    position:
+      column: 28
+      row: 28
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-15
+    kind: decoration
+    position:
+      column: 4
+      row: 4
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-16
+    kind: decoration
+    position:
+      column: 10
+      row: 4
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-17
+    kind: decoration
+    position:
+      column: 21
+      row: 4
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-18
+    kind: decoration
+    position:
+      column: 27
+      row: 4
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-19
+    kind: decoration
+    position:
+      column: 4
+      row: 10
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-20
+    kind: decoration
+    position:
+      column: 10
+      row: 10
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-21
+    kind: decoration
+    position:
+      column: 21
+      row: 10
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-22
+    kind: decoration
+    position:
+      column: 27
+      row: 10
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-23
+    kind: decoration
+    position:
+      column: 4
+      row: 20
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-24
+    kind: decoration
+    position:
+      column: 10
+      row: 20
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-25
+    kind: decoration
+    position:
+      column: 21
+      row: 20
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-26
+    kind: decoration
+    position:
+      column: 27
+      row: 20
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-27
+    kind: decoration
+    position:
+      column: 4
+      row: 26
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-28
+    kind: decoration
+    position:
+      column: 10
+      row: 26
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-29
+    kind: decoration
+    position:
+      column: 21
+      row: 26
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-30
+    kind: decoration
+    position:
+      column: 27
+      row: 26
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-31
+    kind: decoration
+    position:
+      column: 12
+      row: 14
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-32
+    kind: decoration
+    position:
+      column: 24
+      row: 23
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-33
+    kind: decoration
+    position:
+      column: 13
+      row: 11
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-34
+    kind: decoration
+    position:
+      column: 9
+      row: 13
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-35
+    kind: decoration
+    position:
+      column: 20
+      row: 23
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-36
+    kind: decoration
+    position:
+      column: 24
+      row: 20
+    textureKey: orchard-dead-tree-v1
+    displayHeight: 135
+    anchorX: 0.5
+    anchorY: 0.9375
+    tileAnchor: center
+  - id: orchard-tree-37
+    kind: decoration
+    position:
+      column: 7
+      row: 4
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-38
+    kind: decoration
+    position:
+      column: 13
+      row: 4
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-39
+    kind: decoration
+    position:
+      column: 24
+      row: 4
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-40
+    kind: decoration
+    position:
+      column: 30
+      row: 4
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-41
+    kind: decoration
+    position:
+      column: 7
+      row: 8
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-42
+    kind: decoration
+    position:
+      column: 13
+      row: 8
+    textureKey: orchard-dead-tree-v1
+    displayHeight: 135
+    anchorX: 0.5
+    anchorY: 0.9375
+    tileAnchor: center
+  - id: orchard-tree-43
+    kind: decoration
+    position:
+      column: 24
+      row: 8
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-44
+    kind: decoration
+    position:
+      column: 30
+      row: 8
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-45
+    kind: decoration
+    position:
+      column: 3
+      row: 14
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-46
+    kind: decoration
+    position:
+      column: 20
+      row: 14
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-47
+    kind: decoration
+    position:
+      column: 24
+      row: 14
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-48
+    kind: decoration
+    position:
+      column: 30
+      row: 14
+    textureKey: orchard-dead-tree-v1
+    displayHeight: 135
+    anchorX: 0.5
+    anchorY: 0.9375
+    tileAnchor: center
+  - id: orchard-tree-49
+    kind: decoration
+    position:
+      column: 7
+      row: 20
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-50
+    kind: decoration
+    position:
+      column: 13
+      row: 20
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-51
+    kind: decoration
+    position:
+      column: 30
+      row: 20
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-52
+    kind: decoration
+    position:
+      column: 7
+      row: 24
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-53
+    kind: decoration
+    position:
+      column: 13
+      row: 24
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-54
+    kind: decoration
+    position:
+      column: 30
+      row: 24
+    textureKey: orchard-dead-tree-v1
+    displayHeight: 135
+    anchorX: 0.5
+    anchorY: 0.9375
+    tileAnchor: center
+  - id: orchard-tree-55
+    kind: decoration
+    position:
+      column: 24
+      row: 26
+    textureKey: orchard-apple-tree-v1
+    displayHeight: 160
+    anchorX: 0.5
+    anchorY: 0.966796875
+    tileAnchor: center
+  - id: orchard-tree-56
+    kind: decoration
+    position:
+      column: 3
+      row: 30
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-57
+    kind: decoration
+    position:
+      column: 7
+      row: 30
+    textureKey: orchard-autumn-tree-v1
+    displayHeight: 150
+    anchorX: 0.5
+    anchorY: 0.880859375
+    tileAnchor: center
+  - id: orchard-tree-58
+    kind: decoration
+    position:
+      column: 13
+      row: 30
+    textureKey: orchard-old-tree-v1
+    displayHeight: 155
+    anchorX: 0.5
+    anchorY: 0.912109375
+    tileAnchor: center
+  - id: orchard-tree-59
+    kind: decoration
+    position:
+      column: 20
+      row: 30
+    textureKey: orchard-young-tree-v1
+    displayHeight: 115
+    anchorX: 0.5
+    anchorY: 0.931640625
+    tileAnchor: center
+  - id: orchard-tree-60
+    kind: decoration
+    position:
+      column: 24
+      row: 30
+    textureKey: orchard-dead-tree-v1
+    displayHeight: 135
+    anchorX: 0.5
+    anchorY: 0.9375
+    tileAnchor: center
