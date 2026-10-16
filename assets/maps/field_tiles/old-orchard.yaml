@@ -639,3 +639,49 @@ data:
     anchorX: 0.5
     anchorY: 0.9375
     tileAnchor: center
+  - id: bush-trial-19-15
+    kind: billboard
+    position:
+      column: 19
+      row: 15
+    tileAnchor: center
+    textureKey: bush-billboard-v2
+    frameSize: 128
+    displayHeight: 80
+    anchorX: 0.5
+    anchorY: 0.9
+  - id: bush-trial-20-15
+    kind: billboard
+    position:
+      column: 20
+      row: 15
+    tileAnchor: center
+    textureKey: bush-billboard-v2
+    frameSize: 128
+    displayHeight: 80
+    anchorX: 0.5
+    anchorY: 0.9
+  - id: bush-trial-21-15
+    kind: billboard
+    position:
+      column: 21
+      row: 15
+    tileAnchor: center
+    textureKey: bush-billboard-v2
+    frameSize: 128
+    displayHeight: 80
+    anchorX: 0.5
+    anchorY: 0.9
+  groundOverrides:
+  - position:
+      column: 19
+      row: 15
+    textureKey: bush-ground-v1
+  - position:
+      column: 20
+      row: 15
+    textureKey: bush-ground-v1
+  - position:
+      column: 21
+      row: 15
+    textureKey: bush-ground-v1

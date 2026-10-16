@@ -1433,7 +1433,7 @@ assets:
 - managementId: config.field-tiles.old-orchard
   version: retire-stump-v1
   path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: 8d3ecb97db32ea86317610cd8d7f414616d9ed02d82dcc5c20606a2b5809a577
+  sha256: c55747e9b9193f084457f1523e6d89b29acf3cf1e5675b059b3951cda777871a
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/old-orchard.yaml
@@ -5913,3 +5913,29 @@ assets:
     output: result.png
     sha256: a8c19778c464803d0aa10f9fbf09c99223e03a7d4400f526f98497a98b1b7bfa
     operation: 사용자 승인 생성 결과를 128×128 Lanczos 축소
+- managementId: image.scenery.bush-billboard-v2
+  version: v2
+  path: assets/sprites/structures/bush-billboard-v2.png
+  sha256: 944d43bdf256a2fc626b484c4707f4c6e5fa212fc8a53e3960b94afc45562477
+  source:
+    repository: codex-imagegen
+    artifact: exec-811e0197-7285-4ddc-97d1-08a13f2a16ad.png
+    operation: '사용자 규격 변경: 분리 원본에서 프레임당 128×128로 축소, 뒤·앞 2프레임의 256×128 시트 등록'
+- managementId: metadata.scenery.bush-billboard-v2
+  version: v2
+  path: assets/sprites/structures/bush-billboard-v2.yaml
+  sha256: e4cf161f57b3e41643cc27058f123b177e3a22b90cc9b4f1ce00b9434d3db30c
+  source:
+    repository: codex-imagegen
+    artifact: exec-811e0197-7285-4ddc-97d1-08a13f2a16ad.png
+    operation: '사용자 규격 변경: 분리 원본에서 프레임당 128×128로 축소, 뒤·앞 2프레임의 256×128 시트 등록'
+- managementId: image.terrain.bush-ground-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/bush-ground-v1.png
+  width: 128
+  height: 128
+  sha256: 650885693f27f06cca6de3a9de5f57a50841937773e595c1e649e3306fec1f9f
+  source:
+    repository: codex-imagegen
+    artifact: exec-8ffc49cb-b043-406b-9770-16dce3727394.png
+    operation: 승인된 수풀 시험용 지면을 원본에서 128×128로 축소
