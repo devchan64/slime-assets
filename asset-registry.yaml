@@ -1433,7 +1433,7 @@ assets:
 - managementId: config.field-tiles.old-orchard
   version: retire-stump-v1
   path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: 20a5631c515046afd880943c86686f9e141dc4250b655eb4b784555b6cacb914
+  sha256: 276500f4fe8f6398ec99505f1af68c315aef8456ab4b2cc33b04ead3e1a4051a
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/old-orchard.yaml
@@ -5939,3 +5939,211 @@ assets:
     repository: codex-imagegen
     artifact: exec-8ffc49cb-b043-406b-9770-16dce3727394.png
     operation: 승인된 수풀 시험용 지면을 원본에서 128×128로 축소
+- managementId: image.scenery.grass-clump-v1
+  version: v1
+  path: assets/sprites/structures/grass-clump-v1.png
+  sha256: 1f7b8bc98930e86b1bf64cd3ce74fb61cf9f9a5b17e2c2b3d69d375592b2c448
+  source:
+    repository: codex-imagegen
+    artifact: grass-clump-v1-source.png
+    operation: 사용자 채택 투명 스프라이트 128×128
+- managementId: image.scenery.wildflower-clump-v1
+  version: v1
+  path: assets/sprites/structures/wildflower-clump-v1.png
+  sha256: 688494d907de38f1778e7a93e2c03ea3e27cdb611b8927f28044eca3eae366aa
+  source:
+    repository: codex-imagegen
+    artifact: wildflower-clump-v1-source.png
+    operation: 사용자 채택 투명 스프라이트 128×128
+- managementId: image.scenery.dry-branches-v1
+  version: v1
+  path: assets/sprites/structures/dry-branches-v1.png
+  sha256: 26f31d886a1cda365584bcd039b16f12696e5b78313ca2f338d8b21cbbccf314
+  source:
+    repository: codex-imagegen
+    artifact: dry-branches-v1-source.png
+    operation: 사용자 채택 투명 스프라이트 128×128
+- managementId: image.terrain.orchard-soil-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/orchard-soil-v1.png
+  sha256: dd2ab7b120d9abfea5c74fb3536b0591cd1cf03caf6bd4675220870e43b75c74
+  source:
+    repository: codex-imagegen
+    artifact: orchard-soil-v1-source.png
+    operation: 사용자 채택 공용 지면 128×128
+- managementId: image.terrain.orchard-grass-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/orchard-grass-v1.png
+  sha256: 35d1c4decda530d9c19cb28fa96c12a30d77004f83ff0c0b7bf30652c1923be1
+  source:
+    repository: codex-imagegen
+    artifact: orchard-grass-v1-source.png
+    operation: 사용자 채택 공용 지면 128×128
+- managementId: image.terrain.orchard-grass-soil-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/orchard-grass-soil-v1.png
+  sha256: f896d071283929c1c599b029c335fb9bdcb263e741a9f639839976d86256b331
+  source:
+    repository: codex-imagegen
+    artifact: orchard-grass-soil-v1-source.png
+    operation: 사용자 채택 공용 지면 128×128
+- managementId: image.scenery.fern-clump-v1
+  version: v1
+  path: assets/sprites/structures/fern-clump-v1.png
+  sha256: d7219450475760836b44b1f870f0d99cb2df43529f72f0b5d6796acc91e46608
+  source:
+    repository: codex-imagegen
+    artifact: exec-a3078947-b80c-4685-96b5-87fed7e87f40.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.dry-grass-v1
+  version: v1
+  path: assets/sprites/structures/dry-grass-v1.png
+  sha256: c961ae351e096f7b85a7dc421ea199565e88f500c2ca98035709c8dd90180d29
+  source:
+    repository: codex-imagegen
+    artifact: exec-e045b8ee-55eb-4d39-ab97-c648f4e9abb8.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.clover-clump-v1
+  version: v1
+  path: assets/sprites/structures/clover-clump-v1.png
+  sha256: f1c9860a7449d98be3f4211d690cf3edb27e74cb716b5e4efef589978f9fa8e0
+  source:
+    repository: codex-imagegen
+    artifact: exec-bb176593-6b4b-41ed-ba2a-73b27fa6fa5f.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.broadleaf-weed-v1
+  version: v1
+  path: assets/sprites/structures/broadleaf-weed-v1.png
+  sha256: 7bce7359211d678f0960dc12f7f0efde5208c8a5106937c1343d1a01a6691acd
+  source:
+    repository: codex-imagegen
+    artifact: exec-b13bcf87-84c9-457e-b885-eac92fdccc5f.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.seed-grass-v1
+  version: v1
+  path: assets/sprites/structures/seed-grass-v1.png
+  sha256: b360befdd5a6913f08ef5d561dfc1a78d258b55a01f48841c3fff705818cad0b
+  source:
+    repository: codex-imagegen
+    artifact: exec-00f57056-762e-4d7a-a6e5-cb888d98a27b.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.blue-wildflowers-v1
+  version: v1
+  path: assets/sprites/structures/blue-wildflowers-v1.png
+  sha256: 7e57ee127945018db6a94882fec19498ecbd3b4c7201d56fe47220c15d1aebb5
+  source:
+    repository: codex-imagegen
+    artifact: exec-a4737301-f774-47ad-a3a0-1d2216de40e8.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.white-daisies-v1
+  version: v1
+  path: assets/sprites/structures/white-daisies-v1.png
+  sha256: 3c2835f19166802bae774b93905e01f6b6751c587434867faef96c7b60d06105
+  source:
+    repository: codex-imagegen
+    artifact: exec-1fc60795-697a-4664-9011-6d6aaafe5361.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.yellow-dandelions-v1
+  version: v1
+  path: assets/sprites/structures/yellow-dandelions-v1.png
+  sha256: aeafaadb10a989fefb0c5c923485512fde4fc973f16447eb26c037009778a976
+  source:
+    repository: codex-imagegen
+    artifact: exec-64716960-7049-41a2-a85d-2a714a531e64.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.berry-shrub-v1
+  version: v1
+  path: assets/sprites/structures/berry-shrub-v1.png
+  sha256: 4055c1141424793c00c0230c427e639857d263d8a65eb198039fea53f3037ae4
+  source:
+    repository: codex-imagegen
+    artifact: exec-33fdd721-d7bd-4820-ac98-4ebeb7391a66.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.dry-shrub-v1
+  version: v1
+  path: assets/sprites/structures/dry-shrub-v1.png
+  sha256: 91c5301674b2949e746d557a19458f3f2725537ad35f856917cf4da638930d70
+  source:
+    repository: codex-imagegen
+    artifact: exec-bab71d51-691d-403b-add1-17634519918c.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.old-stump-v1
+  version: v1
+  path: assets/sprites/structures/old-stump-v1.png
+  sha256: 9284ab35a5b8616ba45fa28ce0d6c938e4f9da5666bf367883051672d38a680f
+  source:
+    repository: codex-imagegen
+    artifact: exec-5dcdae82-0c7c-4f54-b0e4-63eeee75a57a.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.hollow-log-v1
+  version: v1
+  path: assets/sprites/structures/hollow-log-v1.png
+  sha256: e9965589e9097782fc84566ff7e6836e162fcb4d970b3ff346c96d154b108ac8
+  source:
+    repository: codex-imagegen
+    artifact: exec-68afc473-aece-4c4c-99c3-ffe350446a1f.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.exposed-root-v1
+  version: v1
+  path: assets/sprites/structures/exposed-root-v1.png
+  sha256: f882db602e5b897376fa628f11aa6fd0d7d2bacb22d73f02b4d587e0fcef6897
+  source:
+    repository: codex-imagegen
+    artifact: exec-3eb90b77-0cb4-49c4-8e98-9c5f3487af72.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.mushroom-cluster-v1
+  version: v1
+  path: assets/sprites/structures/mushroom-cluster-v1.png
+  sha256: 98338d0bd77b9646cc9363e2329ae07e5f7967d42519ffda443c70fb86ce0653
+  source:
+    repository: codex-imagegen
+    artifact: exec-c1d457c3-d940-4011-96d3-a15fd8e46020.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.fallen-leaves-v1
+  version: v1
+  path: assets/sprites/structures/fallen-leaves-v1.png
+  sha256: e43788f4fe5163c272efb49db8987afa7c96ba97b32e5fc50a70695ce8d71521
+  source:
+    repository: codex-imagegen
+    artifact: exec-c64b4736-cdf3-448d-8370-375fef1fb63b.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.fallen-apples-v1
+  version: v1
+  path: assets/sprites/structures/fallen-apples-v1.png
+  sha256: f304433bfabf81187c1d22d47d019589d6fec88b576b6318ce32a6b86cd9f900
+  source:
+    repository: codex-imagegen
+    artifact: exec-35599789-02f2-4e25-b811-995f2eed5967.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.ivy-clump-v1
+  version: v1
+  path: assets/sprites/structures/ivy-clump-v1.png
+  sha256: c521c7ae0594996cfb30b2b7b9401c71704e1e75479dd12eb15178a1e7b56178
+  source:
+    repository: codex-imagegen
+    artifact: exec-3ec1f46f-a4fb-4218-a08a-015fb749878b.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.young-sapling-v1
+  version: v1
+  path: assets/sprites/structures/young-sapling-v1.png
+  sha256: 4f28e4fadf3a6fec7c94978a9cfa752aed1e9ba97e4e6702ef16af86a3096efc
+  source:
+    repository: codex-imagegen
+    artifact: exec-13d542ef-659b-4283-9d3f-43d8ae98df69.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.bramble-clump-v1
+  version: v1
+  path: assets/sprites/structures/bramble-clump-v1.png
+  sha256: a75f03464e2241122815f7e507af20b13dcbbd8caee07c9ab0bc75c76f53d59b
+  source:
+    repository: codex-imagegen
+    artifact: exec-73f6880f-5f64-433f-ab7a-727c4243aa38.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.sorrel-clump-v1
+  version: v1
+  path: assets/sprites/structures/sorrel-clump-v1.png
+  sha256: 65fe25020e8317cf6f7db235d4e954c2cc3466e3859145d50819e1fdcdb86b9c
+  source:
+    repository: codex-imagegen
+    artifact: exec-2fa01353-1498-4b21-ae1e-feb424c5e100.png
+    operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
