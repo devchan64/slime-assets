@@ -728,8 +728,7 @@ assets:
     generation_id: 2026-10-07_12-05-16-f1b9d4d9
     artifact: result.png
     model_id: Qwen/Qwen-Image-2.1
-    processing: 512px 생성 결과를 LANCZOS로 256px 정규화; 4행 대형 목재 패널, 탑뷰·반복 패턴·부드러운 음영 보정
-      적용
+    processing: 512px 생성 결과를 LANCZOS로 256px 정규화; 4행 대형 목재 패널, 탑뷰·반복 패턴·부드러운 음영 보정 적용
     approval: 사용자 승인 공용 건물 목재 패널 벽면 타일 등록
     normalization:
       operation: resize
@@ -1433,7 +1432,7 @@ assets:
 - managementId: config.field-tiles.old-orchard
   version: retire-stump-v1
   path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: 276500f4fe8f6398ec99505f1af68c315aef8456ab4b2cc33b04ead3e1a4051a
+  sha256: 1a714df6c11712e5209b1879dd766a09bdc9fc78355d36332b95fe488bc7e01f
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/old-orchard.yaml
@@ -6147,3 +6146,613 @@ assets:
     repository: codex-imagegen
     artifact: exec-2fa01353-1498-4b21-ae1e-feb424c5e100.png
     operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
+- managementId: image.scenery.fern-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/fern-variant-1-v1.png
+  sha256: 3a3a51f767786b63fa31375453d473cc7cd4a2085a36f9b49d85dff353be63ff
+  source:
+    repository: codex-imagegen
+    artifact: exec-46680398-b7b2-4867-98c6-c6d5a8f40eaa.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.fern-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/fern-variant-2-v1.png
+  sha256: 31c095f125f1e74c6137c18e42053c940863fc1a9ca64bdf85dda9240d5e83e1
+  source:
+    repository: codex-imagegen
+    artifact: exec-123f7990-666b-4026-9293-c8cdd79c7c50.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.fern-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/fern-variant-3-v1.png
+  sha256: af0317d06b55a2c1f3742e8b82487953b2ce4766e903e80f19d898d5bbc08908
+  source:
+    repository: codex-imagegen
+    artifact: exec-6f083b57-2155-4d89-b586-8be88b989641.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.dry-grass-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/dry-grass-variant-1-v1.png
+  sha256: dce7d9242c4965e339849cbaf13125614b479ee29ac3e3bea0111d10481d6762
+  source:
+    repository: codex-imagegen
+    artifact: exec-a6a278a4-9f44-40e5-acc3-9cd52bd790e6.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.dry-grass-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/dry-grass-variant-2-v1.png
+  sha256: 2dd19fe0e4c129cd0857c5f365c368603e14a571e21faaa8d19ade7be2f984dc
+  source:
+    repository: codex-imagegen
+    artifact: exec-fd9e86e3-04ce-44c1-a52a-004773dcba72.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.dry-grass-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/dry-grass-variant-3-v1.png
+  sha256: 9ea2735e93e7d2ee173ad528c39d481549987fe80f77477bfcd169874584a13a
+  source:
+    repository: codex-imagegen
+    artifact: exec-6c6a54fc-dd14-4f82-bb01-e466c4715053.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.clover-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/clover-variant-1-v1.png
+  sha256: ad9d880505792baa0830af0a5040e29a56cc2ec7634cabb26f601179d53e5097
+  source:
+    repository: codex-imagegen
+    artifact: exec-58299f70-72bd-41ab-bba6-78059b531d43.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.clover-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/clover-variant-2-v1.png
+  sha256: 43a7967ef05caf40793dd1bb4bf8bb466826e3790661d343cfc004083dbc3803
+  source:
+    repository: codex-imagegen
+    artifact: exec-f64777f7-0d8e-48dc-a756-077d54eef0a9.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.clover-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/clover-variant-3-v1.png
+  sha256: f25b43a0548b8331768b887d1ae0f5c6d99428b1866ab4ee8b9e2797033fd38d
+  source:
+    repository: codex-imagegen
+    artifact: exec-c74264b8-5c26-4550-88fa-f157320b6595.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.broadleaf-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/broadleaf-variant-1-v1.png
+  sha256: 8582b79f92b5fcd2e748fa72cd52560b40eb8cfcb550666cc7d42ff798530431
+  source:
+    repository: codex-imagegen
+    artifact: exec-dd893d0c-3e3a-4ed1-ae5f-1473cae9e127.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.broadleaf-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/broadleaf-variant-2-v1.png
+  sha256: c1ad4524cae17bd3f869e6f99080674ed1ee99d434aaecd49f855f17c17ceee7
+  source:
+    repository: codex-imagegen
+    artifact: exec-0009a7b8-69ae-41d6-a2b0-5e7fc53297e6.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.broadleaf-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/broadleaf-variant-3-v1.png
+  sha256: 38a47c1502d2b8a0482d51145b73ef9e4d6e214e88ec3932a6b6887fdc5cd380
+  source:
+    repository: codex-imagegen
+    artifact: exec-d717eaa9-310b-4c05-b1aa-fb566c6e4e4d.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.seed-grass-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/seed-grass-variant-1-v1.png
+  sha256: 8a412c926aa299f233e554ac4bcbdfc568886199965381f0378dc02badfae3b3
+  source:
+    repository: codex-imagegen
+    artifact: exec-f4a25c9d-1326-4526-bba1-49e68f27aa80.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.seed-grass-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/seed-grass-variant-2-v1.png
+  sha256: 4ad5a874aec42e05c3e4503bb2319a6d24c53e38e9231bc69b5c2b624b7de136
+  source:
+    repository: codex-imagegen
+    artifact: exec-320c8f34-86c4-4bd6-9d1c-1eac4b66aa97.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.seed-grass-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/seed-grass-variant-3-v1.png
+  sha256: 878e0700d8eb7474d2556781426f195537733ecb9be8e99e5d4375af0d4791f4
+  source:
+    repository: codex-imagegen
+    artifact: exec-3be6324c-f685-4ab6-adfc-22f12938ed2c.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.blue-flower-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/blue-flower-variant-1-v1.png
+  sha256: cdd522651ff79b4f606f7bb9fac823c75a5aaf57d38f3b67ccd2e4c462f129f1
+  source:
+    repository: codex-imagegen
+    artifact: exec-6d517afd-43d8-4247-b1ac-87ffa20bf7d9.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.blue-flower-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/blue-flower-variant-2-v1.png
+  sha256: 83438df43a2b6cd221c4364faa5c111359a836c9b8ff42d8bf14b96fdee0830e
+  source:
+    repository: codex-imagegen
+    artifact: exec-986fbe76-d596-42d0-8988-db2a3b38d870.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.blue-flower-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/blue-flower-variant-3-v1.png
+  sha256: d0ed72ed09e5648fb5e93b4cfdf653e8486941be79bd7e0bd91c063158c10498
+  source:
+    repository: codex-imagegen
+    artifact: exec-23c51e8f-82b7-4e0e-9f0a-092a9a986283.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.daisy-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/daisy-variant-1-v1.png
+  sha256: a2cd11a192ce1a0dc4134d9e475f43828349f9980bdea15229f9da8bcdc4d020
+  source:
+    repository: codex-imagegen
+    artifact: exec-d0b50787-6722-465a-b31e-7c05b3df11ad.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.daisy-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/daisy-variant-2-v1.png
+  sha256: 428ecb937df5a990a22ac2e39164771a25f331999ed7c4b9f9150203152fc70b
+  source:
+    repository: codex-imagegen
+    artifact: exec-688c39d3-9566-4b19-a556-2fafbe726c26.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.daisy-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/daisy-variant-3-v1.png
+  sha256: 261134bfbbe497f74bdb1a0589e7a7ea9be23c64cadd7adb9f6baa80ff51ae2d
+  source:
+    repository: codex-imagegen
+    artifact: exec-31bd14f3-eefc-4a58-a4c6-28b1bff5d45d.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.dandelion-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/dandelion-variant-1-v1.png
+  sha256: ea1c98b2b905ee9c18ed210c4148ad495831b18cff5cc8faf583aab21abb069c
+  source:
+    repository: codex-imagegen
+    artifact: exec-f52da1ea-1327-48cd-98a4-3c0067e85f91.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.dandelion-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/dandelion-variant-2-v1.png
+  sha256: d7c184da48b1bb8a46b0a661114d68b978942b1bf9026e4a02b10ddf8841d7ab
+  source:
+    repository: codex-imagegen
+    artifact: exec-d36806a5-5f6e-454d-89fb-36bc7cc1d86d.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.dandelion-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/dandelion-variant-3-v1.png
+  sha256: 58362d0b92cae8f656ac38a98a140af2afebd6ee3922ed32eddeaa237535e131
+  source:
+    repository: codex-imagegen
+    artifact: exec-54677f0e-2034-472c-b14e-77ccf33be85d.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.berry-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/berry-variant-1-v1.png
+  sha256: 87be57a99badd438e5c6500b2179c0792468fda4c62d11e955b5a75eebeb2b88
+  source:
+    repository: codex-imagegen
+    artifact: exec-9c774ad9-397e-4c9f-b06b-35c11fda206a.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.berry-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/berry-variant-2-v1.png
+  sha256: 28dc32f1c9ec2387d25cf620db71260a00eeb71129a8983a3fa83c6b9b1a65ac
+  source:
+    repository: codex-imagegen
+    artifact: exec-ba94e235-34b3-4066-91da-d480568b3f11.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.berry-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/berry-variant-3-v1.png
+  sha256: 963fc407edcd0802387c799de91c45a0d40644bb927b62610fb9610a93758705
+  source:
+    repository: codex-imagegen
+    artifact: exec-bd940f7a-302a-4a16-b450-f08dbc3a3ad2.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.dry-shrub-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/dry-shrub-variant-1-v1.png
+  sha256: 675ce054b3d1b9d1895b0eb7ae4bc2d159297ba176de80cb35c350f89cb48c6d
+  source:
+    repository: codex-imagegen
+    artifact: exec-77217aa7-fad6-41a9-aade-14f2149c1116.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.dry-shrub-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/dry-shrub-variant-2-v1.png
+  sha256: d062ba3a517989cd820c79702dbb0ce279274a2dfd787e618bd75a5fb97d4e29
+  source:
+    repository: codex-imagegen
+    artifact: exec-8d261341-cc5e-4867-ad68-6ca8e69ae8a2.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.dry-shrub-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/dry-shrub-variant-3-v1.png
+  sha256: 5ba6ae513f41e97ba7f3c5fb0dc3bddbddde4d9dda4544fff99134c229f68b17
+  source:
+    repository: codex-imagegen
+    artifact: exec-2d6ddbfa-b7b0-4e06-b468-bc96f091a372.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.stump-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/stump-variant-1-v1.png
+  sha256: 71b197fc00d72f36aa2b6cdadedf615be0fa182930ab8d55380bc60283828e9a
+  source:
+    repository: codex-imagegen
+    artifact: exec-8976a225-23c4-4cdf-b23f-87285b37baa9.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.stump-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/stump-variant-2-v1.png
+  sha256: 86e8b705a4abd95f50b282cb67e007f284737cbf31127456f8168848cd322c06
+  source:
+    repository: codex-imagegen
+    artifact: exec-38b3c7a2-b216-46ed-91e8-b4436df74890.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.stump-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/stump-variant-3-v1.png
+  sha256: a6fe58821c8211dde47521608bd2811c3b640055229899f997b5b57dd381239f
+  source:
+    repository: codex-imagegen
+    artifact: exec-e9346820-30f7-4633-812b-ef7a8e49ee4b.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.log-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/log-variant-1-v1.png
+  sha256: 100cbc613f84e84bd20b385a216bd8467456fb61f8464042cc6d14c7b54d4f9f
+  source:
+    repository: codex-imagegen
+    artifact: exec-e583adda-c5f4-41f7-a96f-9e1650c26c2e.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.log-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/log-variant-2-v1.png
+  sha256: 1738132855a1b1c06708e8946a79f8fc30638c11afde727ffac22a3883a56569
+  source:
+    repository: codex-imagegen
+    artifact: exec-c53c4036-d8fd-4f6f-b026-170e38b63531.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.log-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/log-variant-3-v1.png
+  sha256: d9b84abef758bc340c85f453fa877b129f2907346ae47c1c08fa9f9e63ac35e8
+  source:
+    repository: codex-imagegen
+    artifact: exec-eb336508-c22d-463c-a77c-2f7fe46a824c.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.root-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/root-variant-1-v1.png
+  sha256: 1b870717420fa350ca7e5fb458b39f4bc4cd03417302f9e6f7ff5481f3b3e1aa
+  source:
+    repository: codex-imagegen
+    artifact: exec-e217d813-693d-4980-89c3-e61bf58a4af7.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.root-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/root-variant-2-v1.png
+  sha256: 17adcfb3cfa42f811e0cbf0a1d71052624b99004f3b546ceb0e7fa8a4fc55e9e
+  source:
+    repository: codex-imagegen
+    artifact: exec-f0ccfe88-99f3-4505-8b91-a1ae58ab2f47.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.root-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/root-variant-3-v1.png
+  sha256: ccf33d0038846e864afa2d2ac1adcc17a45618c16a56915a3d965abb91d49883
+  source:
+    repository: codex-imagegen
+    artifact: exec-1de799d3-403e-43a0-96e6-e99f306d7cdb.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.mushroom-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/mushroom-variant-1-v1.png
+  sha256: d9f8ee4b2d2403c79f2b88bd42ced22fafe0be9631f276b498c92b351778d539
+  source:
+    repository: codex-imagegen
+    artifact: exec-b78d0ea1-7f40-4a72-857d-286be32a9646.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.mushroom-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/mushroom-variant-2-v1.png
+  sha256: f197de051fa2c327b2ac63bfb83cd454e6d4872df54e70fd10f5d64192152f90
+  source:
+    repository: codex-imagegen
+    artifact: exec-cbd9f0ab-a8dc-48f9-aaa4-cf9126ab55d8.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.mushroom-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/mushroom-variant-3-v1.png
+  sha256: 0bb20fee04bc8b4d2cf7073d90b0eb5f208913532ffe01d0ba5bffcc77a0214c
+  source:
+    repository: codex-imagegen
+    artifact: exec-e904a7ff-8326-4038-a04c-914aa28b2646.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.leaves-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/leaves-variant-1-v1.png
+  sha256: bf6b701041fabca947c856d12a96b4e9035786fd35290953dbeb78dd8be44728
+  source:
+    repository: codex-imagegen
+    artifact: exec-213c1642-acab-42d9-b606-1dc0956e401c.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.leaves-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/leaves-variant-2-v1.png
+  sha256: bbe3803ce0dd9d45baffc6e44c0d74aee0c72db828baf40cc18625f10fde5308
+  source:
+    repository: codex-imagegen
+    artifact: exec-c15d340e-417c-4410-941f-57de5269c3c0.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.leaves-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/leaves-variant-3-v1.png
+  sha256: 709be0fcb04674c0ea425cbe93b0081a67b5fc3f16ae546606791e635ac0dc78
+  source:
+    repository: codex-imagegen
+    artifact: exec-395fe003-aab2-4daf-8628-d53da583e97f.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.apples-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/apples-variant-1-v1.png
+  sha256: 4408ada6cea98ec52ff48d96ac7775e02c471c69745652e7d62c25613c3e11b9
+  source:
+    repository: codex-imagegen
+    artifact: exec-559199df-57ff-4484-9dd1-c67c11857eb8.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.apples-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/apples-variant-2-v1.png
+  sha256: f65d3f913d555c5c6c565876cab92002440a41132ab9552453196895ee7bb9c3
+  source:
+    repository: codex-imagegen
+    artifact: exec-53297e51-4f44-45aa-acc0-e610bd8ae386.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.apples-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/apples-variant-3-v1.png
+  sha256: 12d25833493bd17dd8e5ccda563fbfec6d9967a60b5eef1258a64fa72f58a7c5
+  source:
+    repository: codex-imagegen
+    artifact: exec-d6fdd346-4870-4358-8db3-9a3d43ef5399.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.ivy-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/ivy-variant-1-v1.png
+  sha256: 2ee8a17a3c50f5f1d168490cafbfd995bebefeb0339efd4fb0153c74e7d53807
+  source:
+    repository: codex-imagegen
+    artifact: exec-4fcba43a-6ac2-4aa8-a357-2b0ba588bdc1.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.ivy-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/ivy-variant-2-v1.png
+  sha256: 0182d1fbafe9b21a4d028a76c642bd388595d92286eb5d7dc94947d4816660e0
+  source:
+    repository: codex-imagegen
+    artifact: exec-00432668-368b-45a7-afc9-03481e2b3c8b.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.ivy-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/ivy-variant-3-v1.png
+  sha256: 1ddb0d9045555b7da57d0faa7e115b4b960a579d1dce0c32c8fa3c91c446fb58
+  source:
+    repository: codex-imagegen
+    artifact: exec-6fab5ca0-2861-4f8d-82db-7baf889b9325.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.sapling-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/sapling-variant-1-v1.png
+  sha256: 23e149d8165c8109748e2855e8586fa178826a27af4b25f6a3304e9243f1b7b5
+  source:
+    repository: codex-imagegen
+    artifact: exec-c21b7628-0260-4e8c-a4f9-6fab102d8e47.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.sapling-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/sapling-variant-2-v1.png
+  sha256: 2223e85e558fdd418e172d1098dcfddd9a3e290a71e2a50b7cebf3d4b7892938
+  source:
+    repository: codex-imagegen
+    artifact: exec-17a708df-36d2-45c1-955a-398e42d6df6d.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.sapling-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/sapling-variant-3-v1.png
+  sha256: bb23186639a5f6af28326ede1f41f2d7c4d145a5277a9fe8a71d4064440903f3
+  source:
+    repository: codex-imagegen
+    artifact: exec-8dae9152-1033-43ec-abb2-ada4da51aa3e.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.bramble-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/bramble-variant-1-v1.png
+  sha256: eb70ab839761ccc7b76b902d99d279eaba8dbcc2ed182660247ae4d5613f33a1
+  source:
+    repository: codex-imagegen
+    artifact: exec-f2533f4b-d774-42b8-b505-724f1011aa59.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.bramble-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/bramble-variant-2-v1.png
+  sha256: 715202f429f261ac471063e9e4968d1e9da1a967864f594a0f601dd666078bb6
+  source:
+    repository: codex-imagegen
+    artifact: exec-454c70f1-f23b-4562-be8d-4f666ae8f142.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.bramble-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/bramble-variant-3-v1.png
+  sha256: 59a2cfaeceff4010b5360614ea2cf8e10efd88beb8dcb1e78f09b51260d4a0a4
+  source:
+    repository: codex-imagegen
+    artifact: exec-0b735b3d-b0ba-4db5-9ed9-15af05ec6d72.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.sorrel-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/sorrel-variant-1-v1.png
+  sha256: 4b7332cbd841e95cb9ef8f706fafc6187697de4d85e407ee5524c8406570bb32
+  source:
+    repository: codex-imagegen
+    artifact: exec-26070eb0-4f44-40ce-be79-47a569a45a9a.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.sorrel-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/sorrel-variant-2-v1.png
+  sha256: 6297891950e7f504cba31e4879b326964bdb5a8b59de408a948fab0ec487e282
+  source:
+    repository: codex-imagegen
+    artifact: exec-b2dc5e5b-041f-4d82-8f60-11d27784ddc6.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.sorrel-variant-3-v1
+  version: v1
+  path: assets/sprites/structures/sorrel-variant-3-v1.png
+  sha256: 27c15ed834b20b96a058eb641be4bcc2523fea2d545883166f2f448928fecb7f
+  source:
+    repository: codex-imagegen
+    artifact: exec-6b6add4a-807e-4af7-a150-0f7d935bcf68.png
+    operation: 과수원 식생 80종 확장, 128×128
+- managementId: image.scenery.orchard-apple-tree-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/orchard-apple-tree-variant-1-v1.png
+  name: 과수원 apple 나무 변형 1
+  width: 1254
+  height: 1254
+  sha256: 498358b6484db354259f53d95484b37e73a5319e6e5c481e9154f1eff210d4e1
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-6d0ecd42-57df-40d6-bc7b-260be6f0d0df.png
+    sha256: 498358b6484db354259f53d95484b37e73a5319e6e5c481e9154f1eff210d4e1
+    operation: 나무 빌보드 5종을 15종으로 확장
+- managementId: image.scenery.orchard-apple-tree-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/orchard-apple-tree-variant-2-v1.png
+  name: 과수원 apple 나무 변형 2
+  width: 1254
+  height: 1254
+  sha256: 6481e584049238cbd73fc6ff30bd7791eb8ce017bf3f25aea3556ccc40aeb424
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-a3b15fb7-8965-426a-b270-b6d8c16bf3df.png
+    sha256: 6481e584049238cbd73fc6ff30bd7791eb8ce017bf3f25aea3556ccc40aeb424
+    operation: 나무 빌보드 5종을 15종으로 확장
+- managementId: image.scenery.orchard-dead-tree-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/orchard-dead-tree-variant-1-v1.png
+  name: 과수원 dead 나무 변형 1
+  width: 1254
+  height: 1254
+  sha256: d42d5fda4cc1950433fff323a6ad95b51821614b12673add289856098d1f1daf
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-1c52ef30-6be0-4b16-98ac-0d140f06dc4a.png
+    sha256: d42d5fda4cc1950433fff323a6ad95b51821614b12673add289856098d1f1daf
+    operation: 나무 빌보드 5종을 15종으로 확장
+- managementId: image.scenery.orchard-dead-tree-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/orchard-dead-tree-variant-2-v1.png
+  name: 과수원 dead 나무 변형 2
+  width: 1254
+  height: 1254
+  sha256: 2c32f5dc064ee31c69e6a74a6e6599448579a98e01cd52a85b3511cbe97ac6c6
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-1b258c32-a4b4-4332-a179-c7ac4bf415ee.png
+    sha256: 2c32f5dc064ee31c69e6a74a6e6599448579a98e01cd52a85b3511cbe97ac6c6
+    operation: 나무 빌보드 5종을 15종으로 확장
+- managementId: image.scenery.orchard-autumn-tree-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/orchard-autumn-tree-variant-1-v1.png
+  name: 과수원 autumn 나무 변형 1
+  width: 1254
+  height: 1254
+  sha256: cfde8c20a495b229d877fc5eb2174086009b4b518c95be1f4d2dc4f2d02470ed
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-f01879e2-9468-49a7-a2ef-a45a57877f50.png
+    sha256: cfde8c20a495b229d877fc5eb2174086009b4b518c95be1f4d2dc4f2d02470ed
+    operation: 나무 빌보드 5종을 15종으로 확장
+- managementId: image.scenery.orchard-autumn-tree-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/orchard-autumn-tree-variant-2-v1.png
+  name: 과수원 autumn 나무 변형 2
+  width: 1254
+  height: 1254
+  sha256: df9a0b682993535c9053fc4e46b582a5555805c8c7a929f534b1f570477bc37f
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-89da371f-22cf-4f00-a014-c8743e435f91.png
+    sha256: df9a0b682993535c9053fc4e46b582a5555805c8c7a929f534b1f570477bc37f
+    operation: 나무 빌보드 5종을 15종으로 확장
+- managementId: image.scenery.orchard-young-tree-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/orchard-young-tree-variant-1-v1.png
+  name: 과수원 young 나무 변형 1
+  width: 1254
+  height: 1254
+  sha256: 93744d10a16ee5803d7f19814d9edd0585e5c978fba94231e2d7a7ffc017990f
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-3042ca95-617d-4c3f-99b1-406d70ca3f38.png
+    sha256: 93744d10a16ee5803d7f19814d9edd0585e5c978fba94231e2d7a7ffc017990f
+    operation: 나무 빌보드 5종을 15종으로 확장
+- managementId: image.scenery.orchard-young-tree-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/orchard-young-tree-variant-2-v1.png
+  name: 과수원 young 나무 변형 2
+  width: 1254
+  height: 1254
+  sha256: c05c2b0550968e99bd54d847f7f5362f2e2fc6653493680d3c9836dbbab66506
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-6c784a60-c858-48a6-8678-a017db2501bc.png
+    sha256: c05c2b0550968e99bd54d847f7f5362f2e2fc6653493680d3c9836dbbab66506
+    operation: 나무 빌보드 5종을 15종으로 확장
+- managementId: image.scenery.orchard-old-tree-variant-1-v1
+  version: v1
+  path: assets/sprites/structures/orchard-old-tree-variant-1-v1.png
+  name: 과수원 old 나무 변형 1
+  width: 1254
+  height: 1254
+  sha256: ff4159461cd34f7b404f158682928d72bde3162165afba88b671105f3248d59e
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-aca84646-316b-4029-8893-7478149517ad.png
+    sha256: ff4159461cd34f7b404f158682928d72bde3162165afba88b671105f3248d59e
+    operation: 나무 빌보드 5종을 15종으로 확장
+- managementId: image.scenery.orchard-old-tree-variant-2-v1
+  version: v1
+  path: assets/sprites/structures/orchard-old-tree-variant-2-v1.png
+  name: 과수원 old 나무 변형 2
+  width: 1254
+  height: 1254
+  sha256: a376dc38675c88863ee0f1d5163c15c16f7c81b84c85ea813e28e96cf9b44d65
+  source:
+    repository: slime-workflow
+    generationId: codex-imagegen-tree-variants-2026-10-17
+    output: exec-0db91fda-ae21-468f-a03b-104b612e8e7b.png
+    sha256: a376dc38675c88863ee0f1d5163c15c16f7c81b84c85ea813e28e96cf9b44d65
+    operation: 나무 빌보드 5종을 15종으로 확장
