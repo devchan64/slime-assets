@@ -1251,7 +1251,7 @@ assets:
 - managementId: frontend.ui.animation-labels.yaml
   version: 2.expanded-species
   path: assets/ui/animation-labels.yaml
-  sha256: 8226ac3803846193179790014b4837679a81fbfa32589548f8e5559c173899f3
+  sha256: 1284411683c9849b28ea5e8db103a93b1572e968213c5de47bd307766965d941
   source:
     repository: slime-frontend
     path: src/assets/animation-labels.yaml
@@ -7030,15 +7030,22 @@ assets:
     sha256: f3f6fd0cf8603b0326108a63a6a972031e3feeaf9e77a7ba0dd324c9f15d01ef
     operation: 큰 형태 식생 빌보드 보강
 - managementId: image.scenery.waypoint-guide-v1
-  version: v1
-  path: assets/billboards/waypoint-guide-v1.png
-  name: 나무 이정표 안내 4프레임
-  width: 1254
-  height: 1254
-  sha256: c76d8d46769c69d7b6d122e2ec6cb84c06cbc5594d6a5dded4035d5804c539e4
+  version: v2
+  path: assets/billboards/waypoint-guide-v2.png
+  name: 나무 이정표 안내 6프레임
+  width: 1536
+  height: 1024
+  sha256: d64ab1a7f6172095b9b03e98817b15cdc7b138ef56d7cbf06eb694ba95fd00c3
   source:
     repository: slime-workflow
-    generationId: codex-imagegen-waypoint-guide-2026-10-17
-    output: exec-ac6d439e-e842-4bb2-b4ae-0d60330409d4.png
-    sha256: c76d8d46769c69d7b6d122e2ec6cb84c06cbc5594d6a5dded4035d5804c539e4
-    operation: 나무 이정표와 천 표식 2×2 애니메이션 시트 생성
+    generationId: codex-imagegen-waypoint-six-frame-2026-10-17
+    output: exec-16853dd5-371e-4f1c-b08b-247009258e85.png
+    sha256: d64ab1a7f6172095b9b03e98817b15cdc7b138ef56d7cbf06eb694ba95fd00c3
+    operation: 3×2 6프레임 재생성, 기존 4프레임 폐기
+- managementId: animation.scenery.waypoint-guide
+  version: v2
+  path: assets/billboards/waypoint-guide-v2.animation.json
+  sha256: 33a83788b3579f1a027387f267fb1d42d4598adb5d43180d97ad56cdca3c0060
+  source:
+    repository: slime-workflow
+    operation: 6프레임 4fps 반복 재생과 하단 앵커 등록
