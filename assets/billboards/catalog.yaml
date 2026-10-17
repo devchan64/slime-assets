@@ -16,7 +16,8 @@ reference_contract:
   - source
   - width
   - height
-  map_references: textureKey 직접 참조의 파일별 출현 수이며 화면 표시 수나 런타임 자동 배치를 뜻하지 않는다. 맵 변경 시 다시 확인한다.
+  map_references: textureKey 직접 참조의 파일별 출현 수이며 화면 표시 수나 런타임 자동 배치를 뜻하지 않는다. 맵 변경 시
+    다시 확인한다.
   features: 계열 설명은 등록 명칭·파일 계열과 제작 결과를 기준으로 한다. 변형별 세부 외형은 원본 PNG를 확인한다.
   usage: 권장 시각 용도이며 충돌·통행·상호작용 기능을 부여하지 않는다.
   status: 참조가 없어도 폐기 상태를 뜻하지 않는다. 런타임 카탈로그 및 간접 참조는 별도 확인한다.
@@ -788,6 +789,46 @@ families:
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
+  town-reedhaven-reed-tall:
+    category: vegetation
+    name: 키 큰 황금 갈대
+    features:
+    - 키 큰 황금 갈대의 긴 줄기와 선명한 이삭
+    uses:
+    - 갈대나루 물가·둑 아래 군락
+    - 도로와 출입구를 비운 수변 배치
+  town-reedhaven-reed-young:
+    category: vegetation
+    name: 어린 녹색 갈대 군락
+    features:
+    - 어린 녹색 갈대 군락의 긴 줄기와 선명한 이삭
+    uses:
+    - 갈대나루 물가·둑 아래 군락
+    - 도로와 출입구를 비운 수변 배치
+  town-reedhaven-reed-windswept:
+    category: vegetation
+    name: 바람에 기운 갈대
+    features:
+    - 바람에 기운 갈대의 긴 줄기와 선명한 이삭
+    uses:
+    - 갈대나루 물가·둑 아래 군락
+    - 도로와 출입구를 비운 수변 배치
+  town-reedhaven-reed-autumn:
+    category: vegetation
+    name: 가을빛 갈대 군락
+    features:
+    - 가을빛 갈대 군락의 긴 줄기와 선명한 이삭
+    uses:
+    - 갈대나루 물가·둑 아래 군락
+    - 도로와 출입구를 비운 수변 배치
+  town-reedhaven-reed-silver:
+    category: vegetation
+    name: 은빛 이삭 갈대
+    features:
+    - 은빛 이삭 갈대의 긴 줄기와 선명한 이삭
+    uses:
+    - 갈대나루 물가·둑 아래 군락
+    - 도로와 출입구를 비운 수변 배치
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -907,11 +948,11 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
 - texture_key: broadleaf-variant-2-v1
   family: broadleaf
@@ -921,11 +962,11 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
 - texture_key: broadleaf-variant-3-v1
   family: broadleaf
@@ -987,8 +1028,6 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
 - texture_key: clover-variant-3-v1
   family: clover
   asset_ref:
@@ -1178,7 +1217,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
 - texture_key: fern-variant-2-v1
   family: fern
   asset_ref:
@@ -1186,15 +1225,13 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
 - texture_key: fern-variant-3-v1
   family: fern
   asset_ref:
     management_id: image.scenery.fern-variant-3-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
 - texture_key: grass-clump-v1
   family: grass
   asset_ref:
@@ -1290,9 +1327,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.mushroom-variant-1-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
 - texture_key: mushroom-variant-2-v1
   family: mushroom
   asset_ref:
@@ -1443,10 +1478,10 @@ billboards:
     management_id: image.scenery.orchard-chunky-fern-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 33
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
 - texture_key: orchard-chunky-flower-v1
   family: orchard-chunky-flower
   asset_ref:
@@ -1619,12 +1654,12 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 2
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -1645,12 +1680,12 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 2
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -1671,12 +1706,12 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 2
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -1775,9 +1810,9 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
 - texture_key: sorrel-variant-1-v1
   family: sorrel
@@ -1787,12 +1822,12 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 2
 - texture_key: sorrel-variant-2-v1
   family: sorrel
   asset_ref:
@@ -1801,9 +1836,9 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
 - texture_key: sorrel-variant-3-v1
   family: sorrel
@@ -1963,12 +1998,12 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
 - texture_key: town-handcart-v1
   family: town-handcart
   asset_ref:
@@ -1977,9 +2012,9 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
 - texture_key: town-harvest-cart-v1
   family: town-harvest-cart
@@ -1999,12 +2034,12 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 5
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 15
 - texture_key: town-herb-rack-v1
   family: town-herb-rack
   asset_ref:
@@ -2012,7 +2047,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 7
 - texture_key: town-iseulon-jelly-counter-v1
   family: town-iseulon-jelly-counter
   asset_ref:
@@ -2083,9 +2118,9 @@ billboards:
     management_id: image.scenery.town-layered-sign-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
 - texture_key: town-low-fence-v1
   family: town-low-fence
@@ -2097,21 +2132,21 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 7
 - texture_key: town-low-reeds-v1
   family: town-low-reeds
   asset_ref:
     management_id: image.scenery.town-low-reeds-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 5
   - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 3
+  - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 3
 - texture_key: town-metal-bin-v1
   family: town-metal-bin
@@ -2151,12 +2186,12 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 3
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 7
 - texture_key: town-reed-bundles-v1
   family: town-reed-bundles
   asset_ref:
@@ -2164,15 +2199,13 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 6
 - texture_key: town-reedhaven-blue-marsh-iris-v1
   family: town-reedhaven-blue-marsh-iris
   asset_ref:
     management_id: image.scenery.town-reedhaven-blue-marsh-iris-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
 - texture_key: town-reedhaven-broad-marsh-fern-v1
   family: town-reedhaven-broad-marsh-fern
   asset_ref:
@@ -2180,7 +2213,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 20
 - texture_key: town-reedhaven-fiber-workbench-v1
   family: town-reedhaven-fiber-workbench
   asset_ref:
@@ -2196,7 +2229,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 14
 - texture_key: town-reedhaven-river-sedge-tuft-v1
   family: town-reedhaven-river-sedge-tuft
   asset_ref:
@@ -2204,7 +2237,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 9
 - texture_key: town-reedhaven-water-mint-bush-v1
   family: town-reedhaven-water-mint-bush
   asset_ref:
@@ -2212,7 +2245,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 17
 - texture_key: town-reedhaven-water-record-v1
   family: town-reedhaven-water-record
   asset_ref:
@@ -2228,7 +2261,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 17
 - texture_key: town-repair-rack-v1
   family: town-repair-rack
   asset_ref:
@@ -2427,12 +2460,12 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 3
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 15
 - texture_key: waypoint-guide-v2
   family: waypoint-guide
   asset_ref:
@@ -2475,3 +2508,43 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 25
+- texture_key: town-reedhaven-reed-tall-v1
+  family: town-reedhaven-reed-tall
+  asset_ref:
+    management_id: image.scenery.town-reedhaven-reed-tall-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 6
+- texture_key: town-reedhaven-reed-young-v1
+  family: town-reedhaven-reed-young
+  asset_ref:
+    management_id: image.scenery.town-reedhaven-reed-young-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 6
+- texture_key: town-reedhaven-reed-windswept-v1
+  family: town-reedhaven-reed-windswept
+  asset_ref:
+    management_id: image.scenery.town-reedhaven-reed-windswept-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 8
+- texture_key: town-reedhaven-reed-autumn-v1
+  family: town-reedhaven-reed-autumn
+  asset_ref:
+    management_id: image.scenery.town-reedhaven-reed-autumn-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 7
+- texture_key: town-reedhaven-reed-silver-v1
+  family: town-reedhaven-reed-silver
+  asset_ref:
+    management_id: image.scenery.town-reedhaven-reed-silver-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 5

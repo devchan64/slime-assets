@@ -603,7 +603,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 18255bd8a8dd36d544c7473893cf6db783ef2ddfa92e886f76fd2cb08fcfee32
+  sha256: db854833a6a350536857ced4976e3c2e5cd734ad88b078001958041b596dc8ee
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -7018,3 +7018,58 @@ assets:
     repository: codex-imagegen
     artifact: exec-fe16e0ae-da87-4453-ae38-7001729fa6d2.png
     operation: 일반 주택 투명 스프라이트 추가 및 마을 적용
+- managementId: image.scenery.town-reedhaven-reed-tall-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-reed-tall-v1.png
+  name: 키 큰 황금 갈대
+  width: 1254
+  height: 1254
+  sha256: b6dc4b38f9a4a0a06f5ff28e3153e57b7075903132d181a57ae2c6428bf0343e
+  source:
+    repository: codex-imagegen
+    artifact: exec-56839227-bdc7-44d6-8516-04ab13235976.png
+    operation: 갈대나루 수변 갈대 빌보드 생성
+- managementId: image.scenery.town-reedhaven-reed-young-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-reed-young-v1.png
+  name: 어린 녹색 갈대 군락
+  width: 1254
+  height: 1254
+  sha256: 503363bc90703d3986dd8b6a3da22ad5539226ea97779ebfe159434adc6edb0a
+  source:
+    repository: codex-imagegen
+    artifact: exec-a469f024-6d50-434f-9786-b6d098514f82.png
+    operation: 갈대나루 수변 갈대 빌보드 생성
+- managementId: image.scenery.town-reedhaven-reed-windswept-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-reed-windswept-v1.png
+  name: 바람에 기운 갈대
+  width: 1254
+  height: 1254
+  sha256: 316db7f77b45c75ec0a74f945b78d061df913b56a377808303b01b9b16c168cb
+  source:
+    repository: codex-imagegen
+    artifact: exec-ca8e1c1e-8858-4690-943e-fb3ca85c0ce9.png
+    operation: 갈대나루 수변 갈대 빌보드 생성
+- managementId: image.scenery.town-reedhaven-reed-autumn-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-reed-autumn-v1.png
+  name: 가을빛 갈대 군락
+  width: 1254
+  height: 1254
+  sha256: ca37fd3883438f48478196c8b2aaed4bb7c5f0cc8936ffc3cb6b07f79ed4a35b
+  source:
+    repository: codex-imagegen
+    artifact: exec-ced7bd3a-054f-4154-8b0e-8f39fe0a2e8d.png
+    operation: 갈대나루 수변 갈대 빌보드 생성
+- managementId: image.scenery.town-reedhaven-reed-silver-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-reed-silver-v1.png
+  name: 은빛 이삭 갈대
+  width: 1254
+  height: 1254
+  sha256: 2b11714f359558bc8a1df755d1f98d233ae00e3531d1c7c21b04e51e6354be7a
+  source:
+    repository: codex-imagegen
+    artifact: exec-7fae1700-b0f7-4c0d-8b5b-157e4264c4e1.png
+    operation: 갈대나루 수변 갈대 빌보드 생성
