@@ -7506,3 +7506,21 @@ assets:
     repository: codex-imagegen
     artifact: exec-8bd01166-c586-40ff-91b5-c71698a87632.png
     operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: animation.scenery.waypoint-guide
+  version: v3
+  path: assets/billboards/waypoint-guide-v3.animation.json
+  sha256: 23921e543a29f3d9c3cd0e0c6989963f8108cf90cc4fff6cf11124e15ca54c91
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-17_21-08-13-df1e5c88
+    operation: 검수 승인된 6프레임 앵커 적용
+- managementId: image.scenery.waypoint-guide-v1
+  version: v3
+  path: assets/billboards/waypoint-guide-v3.png
+  width: 1536
+  height: 1024
+  sha256: d64ab1a7f6172095b9b03e98817b15cdc7b138ef56d7cbf06eb694ba95fd00c3
+  source:
+    repository: slime-workflow
+    generationId: 2026-10-17_21-08-13-df1e5c88
+    operation: 앵커 v3 메타데이터와 동일 버전 시트 연결, 이미지 변경 없음
