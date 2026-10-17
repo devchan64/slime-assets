@@ -66,3 +66,6 @@
 - 캐릭터 원본은 `assets/characters/<character>/animations/`, `battle-cutins/`, `emotion-cutins/`로 구분한다. 기본 캐릭터는 `default`다. 이 규칙은 기존 `assets/sprites/characters/` 경로보다 우선한다.
 - 애니메이션 시트·재생·앵커·출처 메타데이터와 불변 버전은 `animations/`에서 함께 관리한다. 전투 컷인과 감정 컷인은 각각의 폴더에 두며, 아직 에셋이 없는 폴더는 `.gitkeep`으로 유지한다.
 - 경로 이전 시 관리 ID·버전·이미지 해시·과거 출처를 유지하고 등록부·프론트엔드 잠금 목록·직접 참조·관리도구를 함께 갱신한다. 몬스터·구조물 경로는 유지한다.
+
+## Billboard Asset Organization
+- 나무·식생·지면 장식 빌보드 원본은 `slime-assets/assets/billboards/`에서 관리한다. 구조물 경로와 구분하고 관리 ID·버전·출처·이미지 해시는 유지한다. 등록부·스프라이트 잠금 목록·카탈로그는 동일한 원본 경로를 참조한다.
