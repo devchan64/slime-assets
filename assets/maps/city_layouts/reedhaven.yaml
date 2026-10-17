@@ -1,40 +1,38 @@
-# 자동 생성: scripts/compile_city_layouts.py
-# 원본 SHA256: 3af9a3694296aafd53504dd20b2bd059331f535b618fd4f54c8c5db2b64b27d2
 managementId: config.city-layouts.reedhaven
 data:
-  version: 1
+  version: 2
   cityId: reedhaven
   columns: 24
   rows: 24
   safeTown: true
   terrainRows:
-  - gggggggggggggggggggrhqqq
-  - gggggggggggggggggggrhqqq
-  - ggggggggggggggggggrrhqqq
-  - ggggggggggggggggggrrhqqq
-  - gggggggggggggggggrrhqqqq
-  - gggggggggggggggggrrhqqqq
-  - gggggpggggpppppgggrhqqqq
-  - gggggppppppppppppprhqqqq
-  - gggggpggggpggggggprhqqqq
-  - gggggpggggpggggggprhqqqq
-  - gggggpggggpggggggpgghqqq
-  - gggggpggggpppppggpgghqqq
-  - pppppppppppppppppppghqqq
-  - gggggggpggpppppggpgghqqq
-  - gggggggpggpppppggpgghqqq
-  - gggggggpgggggpgggpgghqqq
-  - gggggggpgggggggggprhqqqq
-  - gggggggpgggggggggprhqqqq
-  - gggggggpgggggggggprhqqqq
-  - gggggggggggggggggprhqqqq
-  - gggggggggggggggggprhqqqq
-  - gggggggggggggggggrrhqqqq
-  - ggggggggggggggggggrhqqqq
-  - ggggggggggggggggggrhqqqq
+  - wggggggggggggggggggggggw
+  - wggggggggggggggggggggggw
+  - wggggggggggggggggggggggw
+  - wggpppppgggggggpppppgggw
+  - wggpppppgggggggpppppgggw
+  - wggpppppgggggggpppppgggw
+  - wggpppppgggggggpppppgggw
+  - wggpppppppppppppppppgggw
+  - wgggggggpppppppggggggggw
+  - wgggggggppppppppppppgggw
+  - wgggggggppppppppppppgggw
+  - wgggggggppppppppppppgggw
+  - ppppppppppppppppppppgggw
+  - wgggggggppppppppppppgggw
+  - wgggggggpppppppggggggggw
+  - wgppppppppppppppppppgggw
+  - wgppppppgggpgggpppppgggw
+  - wgppppppppppppppppppgggw
+  - wgppppppgggggggpppppgggw
+  - wgppppppgggggggpppppgggw
+  - wggggggggggggggggggggggw
+  - wggggggggggggggggggggggw
+  - wggggggggggggggggggggggw
+  - wggggggggggggggggggggggw
   startPoint:
-    column: 12
-    row: 13
+    column: 11
+    row: 12
   buildings:
   - id: reedhaven-guild
     name: 길드 회관
@@ -42,65 +40,90 @@ data:
     origin:
       column: 4
       row: 4
-    width: 2
-    height: 2
+    width: 3
+    height: 3
     floors: 1
     entrance:
       column: 5
-      row: 6
+      row: 7
     facing: south
+    sprite:
+      textureKey: town-reedhaven-guild-v1
+      anchorX: 0.501196
+      anchorY: 0.84689
+      contentWidth: 0.964115
   - id: reedhaven-bookshop
     name: 서점
     facilityId: reedhaven-bookshop
     origin:
-      column: 11
-      row: 3
-    width: 2
+      column: 16
+      row: 4
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 12
-      row: 6
+      column: 17
+      row: 7
     facing: south
+    sprite:
+      textureKey: town-reedhaven-bookshop-v1
+      anchorX: 0.520335
+      anchorY: 0.881978
+      contentWidth: 0.935407
   - id: reedhaven-inn
     name: 여관
     facilityId: reedhaven-inn
     origin:
-      column: 5
-      row: 17
-    width: 2
-    height: 6
+      column: 3
+      row: 16
+    width: 4
+    height: 3
     floors: 1
     entrance:
       column: 7
-      row: 18
+      row: 17
     facing: east
+    sprite:
+      textureKey: town-reedhaven-inn-v1
+      anchorX: 0.503589
+      anchorY: 0.898724
+      contentWidth: 0.9689
   - id: reedhaven-workshop
     name: 대장간·공방
     facilityId: reedhaven-workshop
     origin:
-      column: 12
+      column: 16
       row: 16
-    width: 2
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 13
-      row: 15
-    facing: north
+      column: 19
+      row: 17
+    facing: east
+    sprite:
+      textureKey: town-reedhaven-workshop-v1
+      anchorX: 0.499601
+      anchorY: 0.84051
+      contentWidth: 0.944976
   - id: reedhaven-market
     name: 시장
     facilityId: reedhaven-market
     origin:
-      column: 11
-      row: 8
-    width: 2
+      column: 16
+      row: 10
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 12
-      row: 11
+      column: 17
+      row: 13
     facing: south
+    sprite:
+      textureKey: town-reedhaven-market-v1
+      anchorX: 0.507576
+      anchorY: 0.847687
+      contentWidth: 0.922648
   connections:
   - column: 0
     row: 12

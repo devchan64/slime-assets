@@ -1,104 +1,129 @@
 managementId: config.city-layouts.saltford
 data:
-  version: 1
+  version: 2
   cityId: saltford
   columns: 24
   rows: 24
   safeTown: true
   terrainRows:
-  - vvvvvvvvvvvvpvvvvvvvvvvv
-  - vvvvvvvvvvvvpvvvvvvvvvvv
-  - vvddddddddvvpvvvvvvvddvv
-  - vvddddddddvvpvvvvvvvddvv
-  - vvdvvvvdddvvpvvvvvvvddvv
-  - vvdvvvvdddvvpvvvvvvvddvv
-  - vvdvvvvdddvvpppppvvvddvv
-  - vvddpppppppppvvvvvvvddvv
-  - vvddppppppvvpvvvvvvvddvv
-  - vvddppppppvvpvvvvvvvddvv
-  - vvddppppppvvpvvvvvvvddvv
-  - vvddddddddvvpvvvpvvvddvv
-  - ppppppppppppppppppppddvv
-  - vvddddddddvvpvvpppppddvv
-  - vvddpppppppppppppvvvddvv
-  - vvdvvvvdddvvpvvvvvvvddvv
-  - vvdvvvvdddvvpvvvvvvvddvv
-  - vvdvvvvdddvvpvvvvvvvddvv
-  - vvppppppppppppppppppppvv
-  - ssssssssssssssssssssssss
-  - hhhhhhhhhhhhhhhhhhhhhhhh
-  - hhhhhhhhhhhhhhhhhhhhhhhh
-  - qqqqqqqqqqqqqqqqqqqqqqqq
-  - qqqqqqqqqqqqqqqqqqqqqqqq
+  - wggggggggggppggggggggggw
+  - wggggggggggpgggggggggggw
+  - wggggggggggpgggggggggggw
+  - wggpppppgggpgggpppppgggw
+  - wggpppppgggpgggpppppgggw
+  - wggpppppgggpgggpppppgggw
+  - wggpppppgggpgggpppppgggw
+  - wggpppppppppppppppppgggw
+  - wgggggggpppppppggggggggw
+  - wgggggggppppppppppppgggw
+  - wgggggggppppppppppppgggw
+  - wgggggggppppppppppppgggw
+  - ppppppppppppppppppppgggw
+  - wgggggggppppppppppppgggw
+  - wgggggggpppppppggggggggw
+  - wgppppppppppppppppppgggw
+  - wgppppppgggpgggpppppgggw
+  - wgppppppppppppppppppgggw
+  - wgppppppgggggggpppppgggw
+  - wgppppppgggggggpppppgggw
+  - wggggggggggggggggggggggw
+  - wggggggggggggggggggggggw
+  - wggggggggggggggggggggggw
+  - wggggggggggggggggggggggw
   startPoint:
-    column: 12
-    row: 13
+    column: 11
+    row: 12
   buildings:
   - id: saltford-guild
     name: 길드 회관
     facilityId: saltford-guild
     origin:
-      column: 3
+      column: 4
       row: 4
-    width: 4
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 4
+      column: 5
       row: 7
     facing: south
+    sprite:
+      textureKey: town-saltford-guild-v1
+      anchorX: 0.507576
+      anchorY: 0.905104
+      contentWidth: 0.905104
   - id: saltford-bookshop
     name: 서점
     facilityId: saltford-bookshop
     origin:
-      column: 15
-      row: 3
-    width: 2
+      column: 16
+      row: 4
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 16
-      row: 6
+      column: 17
+      row: 7
     facing: south
+    sprite:
+      textureKey: town-saltford-bookshop-v1
+      anchorX: 0.50638
+      anchorY: 0.936204
+      contentWidth: 0.85327
   - id: saltford-inn
     name: 여관
     facilityId: saltford-inn
     origin:
       column: 3
-      row: 15
+      row: 16
     width: 4
     height: 3
     floors: 1
     entrance:
-      column: 4
-      row: 14
-    facing: north
+      column: 7
+      row: 17
+    facing: east
+    sprite:
+      textureKey: town-saltford-inn-v1
+      anchorX: 0.502791
+      anchorY: 0.923445
+      contentWidth: 0.865231
   - id: saltford-workshop
     name: 대장간·공방
     facilityId: saltford-workshop
     origin:
-      column: 15
-      row: 15
-    width: 4
+      column: 16
+      row: 16
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 16
-      row: 14
-    facing: north
+      column: 19
+      row: 17
+    facing: east
+    sprite:
+      textureKey: town-saltford-workshop-v1
+      anchorX: 0.508373
+      anchorY: 0.91547
+      contentWidth: 0.941786
   - id: saltford-market
     name: 시장
     facilityId: saltford-market
     origin:
-      column: 15
-      row: 9
+      column: 16
+      row: 10
     width: 3
-    height: 2
+    height: 3
     floors: 1
     entrance:
-      column: 16
-      row: 11
+      column: 17
+      row: 13
     facing: south
+    sprite:
+      textureKey: town-saltford-market-v1
+      anchorX: 0.507177
+      anchorY: 0.876396
+      contentWidth: 0.961722
   connections:
   - id: saltford-to-salt-causeway
     target: salt-causeway

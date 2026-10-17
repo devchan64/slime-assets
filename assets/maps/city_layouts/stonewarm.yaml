@@ -1,104 +1,129 @@
 managementId: config.city-layouts.stonewarm
 data:
-  version: 1
+  version: 2
   cityId: stonewarm
   columns: 24
   rows: 24
   safeTown: true
   terrainRows:
-  - vvvbbbbbbbvvpvvbbbbbbbvv
-  - vvvbbbbbbbvvpvvbbbbbbbvv
-  - vvvvvvvvvvvvpvsssssssvvv
-  - bbvvvvvvvvvvpvsssssssvbb
-  - bbvvvvvvvvvvpvsssssssvbb
-  - bbvvvvvvvvvvpvssspsssvbb
-  - bbvvvpppppppppppppsssvbb
-  - bbvvvvvvvpppppppspsssvbb
-  - bbvddddddpppppppspsssvbb
-  - bbvddddddpppppppspsssvbb
-  - bbvddddddvvvpvssspsssvbb
-  - bbvddddddvvvpvvvvpvvvvbb
-  - bbvddddddvvvpvvvvpvvvvbb
-  - bbvddpppppppppppppvvvvbb
-  - bbvddpdddpppppppvvvvvvbb
-  - bbvddpdddpppppppssssssbb
-  - bbvddpdddpppppppssssssbb
-  - bbvvvpvvvvvvpvvvssssssbb
-  - vvvvvpvvvvvvvvvvssssssbb
-  - vvvvvpvddddddddddsssssbb
-  - vvvvvvvddddddddddsssssvv
-  - vvvvvvvddddddddddsssssvv
-  - vvvvvvvddddddddddvvvvvvv
-  - vvvvvvvvvvvvvvvvvvvvvvvv
+  - sssssssssssppsssssssssss
+  - ssssssssssspssssssssssss
+  - ssssssssssspssssssssssss
+  - ssspppppssspssspppppssss
+  - ssspppppssspssspppppssss
+  - ssspppppppppssspppppssss
+  - ssspppppssspssspppppssss
+  - ssspppppssspppppppppssss
+  - sssssssspppppppsssssssss
+  - ssssssssppppppppppppssss
+  - ssssssssppppppppppppssss
+  - ssssssssppppppppppppssss
+  - ssssssssppppppppppppssss
+  - ssssssssppppppppppppssss
+  - sssssssspppppppsssssssss
+  - ssppppppppppppppppppssss
+  - ssppppppssspssspppppssss
+  - ssppppppppppppppppppssss
+  - ssppppppssssssspppppssss
+  - ssppppppssssssspppppssss
+  - ssssssssssssssssssssssss
+  - ssssssssssssssssssssssss
+  - ssssssssssssssssssssssss
+  - ssssssssssssssssssssssss
   startPoint:
-    column: 12
-    row: 13
+    column: 11
+    row: 12
   buildings:
   - id: stonewarm-guild
     name: 길드 회관
     facilityId: stonewarm-guild
     origin:
-      column: 3
+      column: 4
       row: 4
-    width: 2
-    height: 4
+    width: 3
+    height: 3
     floors: 1
     entrance:
-      column: 5
-      row: 6
+      column: 7
+      row: 5
     facing: east
+    sprite:
+      textureKey: town-stonewarm-guild-v1
+      anchorX: 0.500797
+      anchorY: 0.892344
+      contentWidth: 0.92185
   - id: stonewarm-bookshop
     name: 서점
     facilityId: stonewarm-bookshop
     origin:
-      column: 18
+      column: 16
       row: 4
-    width: 2
-    height: 4
+    width: 3
+    height: 3
     floors: 1
     entrance:
       column: 17
-      row: 5
-    facing: west
+      row: 7
+    facing: south
+    sprite:
+      textureKey: town-stonewarm-bookshop-v1
+      anchorX: 0.505183
+      anchorY: 0.923445
+      contentWidth: 0.905104
   - id: stonewarm-inn
     name: 여관
     facilityId: stonewarm-inn
     origin:
       column: 3
-      row: 18
-    width: 2
-    height: 4
+      row: 16
+    width: 4
+    height: 3
     floors: 1
     entrance:
-      column: 5
-      row: 19
+      column: 7
+      row: 17
     facing: east
+    sprite:
+      textureKey: town-stonewarm-inn-v1
+      anchorX: 0.507576
+      anchorY: 0.874003
+      contentWidth: 0.900319
   - id: stonewarm-workshop
     name: 대장간·공방
     facilityId: stonewarm-workshop
     origin:
-      column: 11
-      row: 18
-    width: 4
-    height: 2
+      column: 16
+      row: 16
+    width: 3
+    height: 3
     floors: 1
     entrance:
-      column: 12
+      column: 19
       row: 17
-    facing: north
+    facing: east
+    sprite:
+      textureKey: town-stonewarm-workshop-v1
+      anchorX: 0.50319
+      anchorY: 0.88437
+      contentWidth: 0.958533
   - id: stonewarm-market
     name: 시장
     facilityId: stonewarm-market
     origin:
-      column: 18
-      row: 12
-    width: 2
-    height: 4
+      column: 16
+      row: 10
+    width: 3
+    height: 3
     floors: 1
     entrance:
       column: 17
       row: 13
-    facing: west
+    facing: south
+    sprite:
+      textureKey: town-stonewarm-market-v1
+      anchorX: 0.503987
+      anchorY: 0.885965
+      contentWidth: 0.940989
   connections:
   - column: 12
     row: 0

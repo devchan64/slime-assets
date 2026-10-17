@@ -1,8 +1,6 @@
-# 자동 생성: scripts/compile_city_layouts.py
-# 원본 SHA256: 1a19c8b97211bbffdcc1c1a4d11d56394b3027565e08e0e4963b46c7d7acb920
 managementId: config.city-layouts.iseulon
 data:
-  version: 1
+  version: 2
   cityId: iseulon
   columns: 24
   rows: 24
@@ -11,96 +9,121 @@ data:
   - gggggggggggggggggggggggg
   - gggggggggggggggggggggggg
   - gggggggggggggggggggggggg
-  - gggggggggggggggggggggggg
-  - gggggggggggggggggggggggg
-  - gggggggggggggggggggggggg
-  - gggggggggggggggggggggggg
-  - ggggggpppppppppppppggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggppppppppgggggggg
-  - ggggggggppphhpppgggggggg
-  - ggggggggppphhpppgggggggg
+  - gggpppppgggggggpppppgggg
+  - gggpppppgggggggpppppgggg
+  - gggpppppgggggggpppppgggg
+  - gggpppppgggggggpppppgggg
+  - gggpppppppppppppppppgggg
+  - ggggggggpppppppggggggggg
+  - ggggggggppppppppppppgggg
+  - ggggggggppppppppppppgggg
+  - ggggggggppppppppppppgggg
   - pppppppppppppppppppppppp
-  - ggggggggppppppppgggggggg
-  - ggggggggppppppppgggggggg
-  - ggggggggpgggpggppggggggg
-  - gggggggppgggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpppppppggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
+  - ggggggggppppppppppppgggg
+  - ggggggggpppppppggggggggg
+  - ggppppppppppppppppppgggg
+  - ggppppppgggpgggpppppgggg
+  - ggppppppppppppppppppgggg
+  - ggppppppgggpgggpppppgggg
+  - ggppppppgggpgggpppppgggg
+  - gggggggggggpgggggggggggg
+  - gggggggggggpgggggggggggg
+  - gggggggggggpgggggggggggg
+  - gggggggggggppggggggggggg
   startPoint:
-    column: 12
-    row: 13
+    column: 11
+    row: 12
   buildings:
   - id: iseulon-guild
     name: 길드 회관
     facilityId: iseulon-guild
     origin:
-      column: 5
+      column: 4
       row: 4
-    width: 2
+    width: 3
     height: 3
     floors: 2
     entrance:
-      column: 6
+      column: 5
       row: 7
     facing: south
+    sprite:
+      textureKey: town-iseulon-guild-v1
+      anchorX: 0.504785
+      anchorY: 0.905901
+      contentWidth: 0.926635
   - id: iseulon-bookshop
     name: 서점
     facilityId: iseulon-bookshop
     origin:
-      column: 17
+      column: 16
       row: 4
-    width: 2
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 18
+      column: 17
       row: 7
     facing: south
+    sprite:
+      textureKey: town-iseulon-bookshop-v1
+      anchorX: 0.509968
+      anchorY: 0.895534
+      contentWidth: 0.831738
   - id: iseulon-inn
     name: 여관
     facilityId: iseulon-inn
     origin:
       column: 3
-      row: 15
+      row: 16
     width: 4
     height: 3
     floors: 1
     entrance:
       column: 7
-      row: 16
+      row: 17
     facing: east
+    sprite:
+      textureKey: town-iseulon-inn-v1
+      anchorX: 0.507974
+      anchorY: 0.816587
+      contentWidth: 0.942584
   - id: iseulon-workshop
     name: 대장간·공방
     facilityId: iseulon-workshop
     origin:
-      column: 17
-      row: 14
-    width: 2
+      column: 16
+      row: 16
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 16
-      row: 15
-    facing: west
+      column: 19
+      row: 17
+    facing: east
+    sprite:
+      textureKey: town-iseulon-workshop-v1
+      anchorX: 0.49681
+      anchorY: 0.828549
+      contentWidth: 0.956938
   - id: iseulon-market
     name: 시장
     facilityId: iseulon-market
     origin:
-      column: 17
-      row: 19
-    width: 2
+      column: 16
+      row: 10
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 18
-      row: 18
-    facing: north
+      column: 17
+      row: 13
+    facing: south
+    sprite:
+      textureKey: town-iseulon-market-v1
+      anchorX: 0.507974
+      anchorY: 0.855662
+      contentWidth: 0.91866
   connections:
   - column: 0
     row: 12

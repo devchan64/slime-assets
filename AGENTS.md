@@ -49,9 +49,9 @@
 - 잠금 목록의 `path`는 논리 식별 경로이며 `source_path`와 SHA-256으로 원본을 검증한다. 준비 명령은 사본을 생성하지 않는다. UI 이미지·라벨·컷인 설정도 `assets/ui/`에서 관리하며 `ui-assets.lock.yaml`로 검증한다.
 - Vite 개발 서버는 원본을 제공하고 배포 빌드는 해시 파일명으로 정적 파일을 번들링한다. 배포 후에는 로컬 저장소 경로에 의존하지 않는다.
 
-## Building Tile Material Organization
-- 문·지붕·벽 타일은 마을과 무관한 공용 에셋이며 `slime-assets/assets/tiles/buildings/<material>/`에서 관리한다. 마을별·common·door·roof·wall 하위 폴더를 만들지 않는다.
-- 재질은 `wood`, `stone`, `red-stone`, `marble` 등으로 구분한다. 마을·건물별 선택은 맵 설정에서 관리하며 같은 원본을 복제하지 않는다. 기존 관리 ID·버전·출처·SHA-256은 경로 이전 시 유지한다.
+## Building Sprite Standard
+- 건물용 벽·문·창문·지붕 타일은 폐기한다. 신규 건물은 `slime-assets/assets/sprites/structures/`의 완성형 스프라이트로 등록하고 사용한다.
+- 지형용 바닥·절벽 타일과 건물 스프라이트는 구분하며, 블록 조립용 건물 타일 카탈로그·프리팹·로딩을 재도입하지 않는다.
 
 ## Terrain Tile Organization
 - 지형 타일은 `slime-assets/assets/tiles/terrain/road/`(도로)·`slime-assets/assets/tiles/terrain/non-road/`(통행 가능한 비도로)·`slime-assets/assets/tiles/terrain/blocked/`(진입 불가)로 구분한다. 도로에는 흙길·벽돌길·석판·포장 타일을, 비도로에는 풀·노출 바위 지면 등을, 진입 불가에는 물·큰 바위·나무 밑동·절벽 벽면을 둔다. 실제 셀 통행 판정은 백엔드 맵 데이터를 따른다. 마을별 하위 경로는 만들지 않는다.

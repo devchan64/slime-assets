@@ -1,104 +1,129 @@
 managementId: config.city-layouts.grainstead
 data:
-  version: 1
+  version: 2
   cityId: grainstead
   columns: 24
   rows: 24
   safeTown: true
   terrainRows:
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - ggggpppppppppppppggggggg
-  - ggggpppppgggpggggggggggg
-  - ggggpppppgggpggggggggggg
-  - ggggpppppgggpggggggggggg
-  - ggggpppppgggpggggggggggg
-  - ggggpgggggggpggggpgggggg
-  - ggggpppppppppppppppppppp
-  - ggggggggggggpggppppggggg
-  - ggggggggggggpggppppggggg
-  - ggggpppppppppggppppggggg
-  - ggggggggggggppppppgggggg
-  - ggggggggggggpggggggggggg
-  - ggggggggggggpggggggggggg
-  - gggggggggggggggggggggggg
-  - ghhggggggggggggggggggggg
-  - ghhggggggggggggggggggggg
-  - ghhggggggggggggggggggggg
-  - gggggggggggggggggggggggg
+  - dddddddddddppddddddddddd
+  - dddddddddddpdddddddddddd
+  - dddddddddddpdddddddddddd
+  - dddpppppdddpdddpppppdddd
+  - dddpppppdddpdddpppppdddd
+  - dddpppppdddpdddpppppdddd
+  - dddpppppdddpdddpppppdddd
+  - dddpppppppppppppppppdddd
+  - ddddddddpppppppddddddddd
+  - ddddddddppppppppppppdddd
+  - ddddddddppppppppppppdddd
+  - ddddddddppppppppppppdddd
+  - ddddddddpppppppppppppppp
+  - ddddddddppppppppppppdddd
+  - ddddddddpppppppddddddddd
+  - ddppppppppppppppppppdddd
+  - ddppppppdddpdddpppppdddd
+  - ddppppppppppppppppppdddd
+  - ddppppppdddddddpppppdddd
+  - ddppppppdddddddpppppdddd
+  - dddddddddddddddddddddddd
+  - dddddddddddddddddddddddd
+  - dddddddddddddddddddddddd
+  - dddddddddddddddddddddddd
   startPoint:
-    column: 12
-    row: 13
+    column: 11
+    row: 12
   buildings:
   - id: grainstead-guild
     name: 길드 회관
     facilityId: grainstead-guild
     origin:
-      column: 3
-      row: 3
-    width: 4
+      column: 4
+      row: 4
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 4
-      row: 6
+      column: 5
+      row: 7
     facing: south
+    sprite:
+      textureKey: town-grainstead-guild-v1
+      anchorX: 0.507177
+      anchorY: 0.898724
+      contentWidth: 0.937799
   - id: grainstead-bookshop
     name: 서점
     facilityId: grainstead-bookshop
     origin:
-      column: 15
-      row: 3
-    width: 2
+      column: 16
+      row: 4
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 16
-      row: 6
+      column: 17
+      row: 7
     facing: south
+    sprite:
+      textureKey: town-grainstead-bookshop-v1
+      anchorX: 0.511164
+      anchorY: 0.893939
+      contentWidth: 0.880383
   - id: grainstead-inn
     name: 여관
     facilityId: grainstead-inn
     origin:
       column: 3
       row: 16
-    width: 3
-    height: 4
+    width: 4
+    height: 3
     floors: 1
     entrance:
-      column: 4
-      row: 15
-    facing: north
+      column: 7
+      row: 17
+    facing: east
+    sprite:
+      textureKey: town-grainstead-inn-v1
+      anchorX: 0.500399
+      anchorY: 0.920255
+      contentWidth: 0.967305
   - id: grainstead-workshop
     name: 대장간·공방
     facilityId: grainstead-workshop
     origin:
       column: 16
-      row: 17
-    width: 4
+      row: 16
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 17
-      row: 16
-    facing: north
+      column: 19
+      row: 17
+    facing: east
+    sprite:
+      textureKey: town-grainstead-workshop-v1
+      anchorX: 0.503987
+      anchorY: 0.889952
+      contentWidth: 0.945774
   - id: grainstead-market
     name: 시장
     facilityId: grainstead-market
     origin:
       column: 16
-      row: 9
+      row: 10
     width: 3
-    height: 2
+    height: 3
     floors: 1
     entrance:
       column: 17
-      row: 11
+      row: 13
     facing: south
+    sprite:
+      textureKey: town-grainstead-market-v1
+      anchorX: 0.508772
+      anchorY: 0.861244
+      contentWidth: 0.923445
   connections:
   - id: grainstead-to-granary-flats
     target: granary-flats

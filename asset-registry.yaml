@@ -56,40 +56,6 @@ assets:
     repository: slime-frontend
     commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
     path: src/assets/terrain/meadow-backdrop-v2.webp
-- managementId: metadata.frontend.src.assets.world.isloon.buildings.marble-roof-v2-retired.source.json
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/retired/tiles/buildings/marble/marble-roof-v2-retired.source.json
-  frontend_path: src/assets/world/isloon/buildings/marble-roof-v2.source.json
-  sha256: a279902bf505c872a5b50500d459c270c8f6648a218a7ad64a47d42b38397bd8
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/isloon/buildings/marble-roof-v2.source.json
-    lifecycle_status: retired
-    replaced_by_management_id: tile.buildings.roof.marble-v3
-    retirement_reason: 사용자 승인 대리석 석판 지붕 원본으로 대체
-- managementId: tile.buildings.roof.marble-v3
-  version: 2026-10-07_22-34-09-19d076e8-256
-  name: 대리석 석판 지붕 타일
-  path: assets/tiles/buildings/marble/marble-roof-v3.png
-  sha256: a653e26b0c9f2c8233a880cb1be2e486b1dab89b715755d2be2cb70ed04fc2ba
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-07_22-34-09-19d076e8
-    artifact: result.png
-    input_sha256: a4e5e141d601c535dbcb4cf5770489ab7177b57884c24a6ed634f1b5054d173e
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 건물용 대리석 지붕 타일 등록 승인
 - managementId: image.terrain.wind-swept-sand-ground-v1
   version: 2026-10-07_22-34-18-e5582002-128
   name: 바람결 모래 바닥
@@ -112,130 +78,6 @@ assets:
       - 128
       - 128
     approval: 사용자 모래 바닥 타일 등록 승인
-- managementId: image.world.stonewarm.stone-door-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
-  path: assets/tiles/buildings/stone/stone-door-v1.png
-  frontend_path: src/assets/world/stonewarm/buildings/stone-door-v1.png
-  sha256: 19d3d321953e8dab7d2e8658541c5618ea36286ee71372f7f43971011b0bc09b
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/buildings/stone-door-v1.png
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 8a43285d6c08f41d9e84707657551685571373fef5926185e75a4de98d9073c0
-      input_version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-      output_size:
-      - 256
-      - 256
-  width: 256
-  height: 256
-- managementId: image.world.stonewarm.stone-large-window-wall-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
-  path: assets/tiles/buildings/stone/stone-large-window-wall-v1.png
-  frontend_path: src/assets/world/stonewarm/buildings/stone-large-window-wall-v1.png
-  sha256: 3393356fd9c31975e5155da5e381c8ad1c02e7bc04f2832891d84d97de4068ad
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/buildings/stone-large-window-wall-v1.png
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 888bf25ead962029cb0579ca1ebe44a5b97c85ce85c10a92a4cbefbeb0312585
-      input_version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-      output_size:
-      - 256
-      - 256
-  width: 256
-  height: 256
-- managementId: image.world.stonewarm.stone-roof-v1
-  version: 567c84f26b880bce0558dcb4e38818eef757770c
-  path: assets/tiles/buildings/stone/stone-roof-v1.png
-  frontend_path: src/assets/world/stonewarm/buildings/stone-roof-v1.png
-  sha256: b9df367699d24583b0e80f29bd048f63ae57ecb6da9a77b7b47330e603f02dff
-  source:
-    repository: slime-frontend
-    commit: 567c84f26b880bce0558dcb4e38818eef757770c
-    path: src/assets/world/stonewarm/buildings/stone-roof-v1.png
-- managementId: metadata.frontend.src.assets.world.stonewarm.buildings.stone-roof-v1.source.json
-  version: 567c84f26b880bce0558dcb4e38818eef757770c
-  path: assets/tiles/buildings/stone/stone-roof-v1.source.json
-  frontend_path: src/assets/world/stonewarm/buildings/stone-roof-v1.source.json
-  sha256: 4c55e3a846ef143a861595655a625170be1a8474c100a0577a8ea0cfb7ea9dd3
-  source:
-    repository: slime-frontend
-    commit: 567c84f26b880bce0558dcb4e38818eef757770c
-    path: src/assets/world/stonewarm/buildings/stone-roof-v1.source.json
-- managementId: image.world.stonewarm.stone-small-window-wall-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
-  path: assets/tiles/buildings/stone/stone-small-window-wall-v1.png
-  frontend_path: src/assets/world/stonewarm/buildings/stone-small-window-wall-v1.png
-  sha256: d334d14f30c3bfe4e64280b4568f07146912b46dfd06d327e6eead52b9226700
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/buildings/stone-small-window-wall-v1.png
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 063c3ecf4c6d706553348e0dbccb4d58d7cadef0caaf761cfaf0a34d4e2c356f
-      input_version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-      output_size:
-      - 256
-      - 256
-  width: 256
-  height: 256
-- managementId: image.frontend.src.assets.world.stonewarm.buildings.stone-wall-crossbar-v1.png
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/stone/stone-wall-crossbar-v1.png
-  frontend_path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.png
-  sha256: b3da143fbed722dbb134cd1953255bf7cfa88444042a99e37e0b80e6c7dd8ce4
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.png
-- managementId: metadata.frontend.src.assets.world.stonewarm.buildings.stone-wall-crossbar-v1.source.json
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-  path: assets/tiles/buildings/stone/stone-wall-crossbar-v1.source.json
-  frontend_path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.source.json
-  sha256: 9de6f11146ce4e2bc6ca06db21009bfe8e578148cc3025922995f661b608a122
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/buildings/stone-wall-crossbar-v1.source.json
-- managementId: image.world.stonewarm.stone-wall-v1
-  version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1.256-v1
-  path: assets/tiles/buildings/stone/stone-wall-v1.png
-  frontend_path: src/assets/world/stonewarm/buildings/stone-wall-v1.png
-  sha256: f4f5fb5c107bdfd3dba2c7d4242bb83a0b5adaa7452e7889922c476ba8aa4f44
-  source:
-    repository: slime-frontend
-    commit: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-    path: src/assets/world/stonewarm/buildings/stone-wall-v1.png
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 699f4e740cf388cd4c786bb60531799e961473b53c946081c078a79866436aaa
-      input_version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1
-      output_size:
-      - 256
-      - 256
-  width: 256
-  height: 256
 - managementId: image.frontend.src.assets.world.stonewarm.terrain.exposed-rock-ground-v1-retired.png
   version: 1c2d8220fa7903ccd7f6b6cc555a97cabaa0dad1-128-restored
   path: assets/retired/tiles/terrain/non-road/exposed-rock-ground-v1-retired.png
@@ -297,266 +139,6 @@ assets:
       - 128
       - 128
     approval: 사용자 노출 암반 지면 타일 대체 승인
-- managementId: tile.buildings.roof.red-stone-v2-retired
-  version: 2.256-v1
-  name: 붉은 석재 지붕 타일
-  path: assets/retired/tiles/buildings/red-stone/red-stone-roof-v2-retired.png
-  sha256: 96d5adea2eea42ccea7c38853ce7a0cbf1371d6c47997f71ebc2c5fe8ae34f1d
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-09-29_12-08-34-29dc94ad
-    artifact: result.png
-    model_id: Qwen/Qwen-Image-2512
-    processing: 생성 원본 그대로 사용, 보더 크롭 없음
-    approval: 사용자 정사각형 석재 원본으로 v2 교체 및 돌온재 길드회관 사용
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 44e70c213ff5b69af96035971f9033856473a01832d688f9d341e5d620b9ffe3
-      input_version: '2'
-      output_size:
-      - 256
-      - 256
-    lifecycle_status: retired
-    replaced_by_management_id: tile.buildings.roof.red-stone-v3
-    retirement_reason: 사용자 승인 테라코타 석판 지붕 타일로 대체
-  license: 별도 재사용 허가 미부여
-  frontend_path: src/assets/world/stonewarm/buildings/red-stone-roof-v2.png
-- managementId: tile.buildings.roof.red-stone-v3
-  version: 2026-10-09_15-26-49-44be078f-256
-  name: 붉은 석재 테라코타 지붕 타일
-  path: assets/tiles/buildings/red-stone/red-stone-roof-v3.png
-  sha256: d0036e010f24f4ed3725d49b46a54413294b3488f42cece92ba9728a40068fb8
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_15-26-49-44be078f
-    artifact: result.png
-    input_sha256: 0300df006a0eacf3fe2697f381f0b9802ad10faf3af4480bc0073ea86acbaaf5
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 붉은 석재 지붕 v2 대체 승인
-- managementId: tile.buildings.wall.red-stone-brick
-  version: 1.256-v1
-  name: 붉은 벽돌 벽 타일
-  path: assets/tiles/buildings/red-stone/red-stone-brick-wall-v1.png
-  sha256: f2ecd3430352093e8ee2ee0b5475d0b7cd571dd9217422142831d6aa7ef3dd99
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-07_10-20-21-84341784
-    artifact: result.png
-    model_id: Qwen/Qwen-Image-2.1
-    processing: 512px 생성 결과를 LANCZOS로 256px 정규화
-    approval: 사용자 승인 건물용 붉은 벽돌 벽 타일 등록
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 0feb4925ce8e79e2bcbb6cbe31011a699d15f936fb6653f14ac048252c4bea09
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
-- managementId: tile.buildings.door.red-stone-brick-gate-v1-retired
-  version: 2026-10-09_16-04-17-5c2667d7-256
-  name: 붉은 벽돌 중앙 대문 타일 (폐기)
-  path: assets/retired/tiles/buildings/red-stone/red-stone-brick-gate-v1-retired.png
-  sha256: c3d348092d3cab1fa18b4c893fc6b008c82f843e1d673590bcbcafb04d7c1f58
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_16-04-17-5c2667d7
-    artifact: result.png
-    input_sha256: f8381b0c145b77d7f6497b4676f048a867e59b2d41630c06b5910b1a321c34b9
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 승인 참조 보존 붉은 벽돌 중앙 대문 타일 등록
-    lifecycle_status: retired
-    replaced_by_management_id: tile.buildings.door.red-stone-brick-gate-v2
-    retirement_reason: 사용자 승인 바닥선에 맞춘 대문 타일로 대체
-  license: 별도 재사용 허가 미부여
-- managementId: tile.buildings.door.red-stone-brick-gate-v2
-  version: 2026-10-09_16-25-26-497cbe1c-256
-  name: 붉은 벽돌 바닥선 중앙 대문 타일
-  path: assets/tiles/buildings/red-stone/red-stone-brick-gate-v2.png
-  sha256: 288e88f9d32841995493d96b419233a5f053624508ac82d3222e984f33acd2d0
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_16-25-26-497cbe1c
-    artifact: result.png
-    input_sha256: c3beafa7c2d99b90c67c2b2c97846825a7959e42d2618860c7b2839c5ee5c8b4
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 승인 바닥선에 맞춘 붉은 벽돌 대문 타일 등록
-- managementId: tile.buildings.wall.adobe-mudbrick-v1
-  version: 2026-10-09_16-22-41-0fa5eb71-256
-  name: 어도비 흙벽돌 벽면 타일
-  path: assets/tiles/buildings/adobe/adobe-mudbrick-wall-v1.png
-  sha256: 818e9358f201f36616d915c41f9409d61fa3d22edd686ee1f6e5917375d33d57
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_16-22-41-0fa5eb71
-    artifact: result.png
-    input_sha256: a7219f65985eb84232b4a94ec0461d23673b6083a2cac3e86631738d7a62eb30
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 어도비 흙벽돌 벽면 타일 등록 승인
-- managementId: tile.buildings.wall.mossy-ancient-stone-v1
-  version: 2026-10-09_16-22-41-89ac0f1b-256
-  name: 이끼 낀 고대 석재 벽면 타일
-  path: assets/tiles/buildings/stone/mossy-ancient-stone-wall-v1.png
-  sha256: d6688c131fd9bcb1fe47f8a45f07bc1434b282a2d3ed70a93fd023c3991b870a
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_16-22-41-89ac0f1b
-    artifact: result.png
-    input_sha256: 8b4f9dddc451e2ec6a3961a24bd759277998801108fb1232ac51804a572b3cf0
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 이끼 낀 고대 석재 벽면 타일 등록 승인
-- managementId: tile.buildings.wall.white-plaster-timber-v1
-  version: 2026-10-09_16-22-41-553ec52a-256
-  name: 흰 미장 목재 골조 벽면 타일
-  path: assets/tiles/buildings/wood/white-plaster-timber-wall-v1.png
-  sha256: 8b4b6d91af1cd68ad6200499530c4d03eca824a0d25de303100ad1c6fa948f45
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_16-22-41-553ec52a
-    artifact: result.png
-    input_sha256: 2c922fa50f00a8d42cc34eec5308ae3f0372d6135201932713fce1bdb6be08b2
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 흰 미장 목재 골조 벽면 타일 등록 승인
-- managementId: tile.buildings.wall.dark-basalt-v1
-  version: 2026-10-09_16-22-40-c17379e9-256
-  name: 어두운 현무암 벽면 타일
-  path: assets/tiles/buildings/stone/dark-basalt-wall-v1.png
-  sha256: 337ea1bd97a9efd155cc72dc519224d316ebc208a15ab95a61dd39fecfe1b7f6
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_16-22-40-c17379e9
-    artifact: result.png
-    input_sha256: 642e3cebb6a4277bec267e8417c2b6c0d7955eae276402695218dd5791cd238a
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 어두운 현무암 벽면 타일 등록 승인
-- managementId: tile.buildings.wall.limestone-ashlar-v1
-  version: 2026-10-09_16-22-40-492d9fc9-256
-  name: 석회석 애슐러 벽면 타일
-  path: assets/tiles/buildings/stone/limestone-ashlar-wall-v1.png
-  sha256: c60cbb7dd0e55167f628d59b2add9c989d7bab49cf491ee4e5f1ac0a041756c8
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_16-22-40-492d9fc9
-    artifact: result.png
-    input_sha256: b87ba0485756bbca509f5efdd66c8b4a3484ca8dcb4a273e3800e91caf88a7df
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 석회석 애슐러 벽면 타일 등록 승인
-- managementId: tile.buildings.wall.marble-block
-  version: 1.256-v1
-  name: 대리석 블록 벽면 타일
-  path: assets/tiles/buildings/marble/marble-block-wall-v1.png
-  sha256: 362aae54c538e906d1ec241199c1ed978fae68a750bf69ecd63b4469d5894dfe
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-07_11-34-06-539b2a4a
-    artifact: result.png
-    model_id: Qwen/Qwen-Image-2.1
-    processing: 512px 생성 결과를 LANCZOS로 256px 정규화; 4행 대형 블록, 탑뷰·반복 패턴·부드러운 음영 보정 적용
-    approval: 사용자 승인 공용 건물 대리석 벽면 타일 등록
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 33f96d72cc9733e79b5f1c7412788e7e47cfacc0b74f437a306212db406c086a
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
 - managementId: image.terrain.dark-basalt-paver-road-v1
   version: 2026-10-09_21-12-50-c6ea8c74-128
   name: 어두운 현무암 포장석 도로 타일
@@ -601,28 +183,6 @@ assets:
       - 128
       - 128
     approval: 사용자 화강암 석판 도로 타일 등록 승인
-- managementId: tile.buildings.door.red-stone-brick-gate-v3
-  version: 2026-10-09_21-25-10-ae05749f-256
-  name: 붉은 벽돌 대형 중앙 대문 타일
-  path: assets/tiles/buildings/red-stone/red-stone-brick-gate-v3.png
-  sha256: 14d3e46c3c2f6e270f8352e3c1fe041b025242e9a5a86ceb912f18632e9bc46b
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_21-25-10-ae05749f
-    artifact: result.png
-    input_sha256: b8c052135f8f36136f9f9494ac9a8ede9923d709dfe5ea2b4d1ea4eaa8f3175d
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 768
-      - 768
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 승인 화면 너비 약 70% 대형 중앙 대문 건물 타일 등록
 - managementId: image.terrain.limestone-mosaic-road-v1
   version: 2026-10-09_21-36-37-139d9808-128
   name: 대형 석회석 모자이크 도로 타일
@@ -667,185 +227,6 @@ assets:
       - 128
       - 128
     approval: 사용자 승인 대형 황토 자갈 도로 타일 등록
-- managementId: tile.buildings.wall.red-stone-sky-blue-window-v1
-  version: 2026-10-09_21-47-23-ee3eb394-256
-  name: 붉은 벽돌 하늘색 창문 벽면 타일
-  path: assets/tiles/buildings/red-stone/red-stone-sky-blue-window-wall-v1.png
-  sha256: 11e8cc3fefd6c0237e398210e07c366029523131507ac87113d4124cb34e8357
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-09_21-47-23-ee3eb394
-    artifact: result.png
-    input_sha256: d79a7ca0439a91b63918fe7f9ba8088dd32c1caa30c608dcc115db597807ee60
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      output_size:
-      - 256
-      - 256
-    approval: 사용자 승인 하늘색 창문 붉은 벽돌 건물 벽 타일 등록
-- managementId: tile.buildings.wall.wood
-  version: 2.256-v1
-  name: 통나무 수평 배열 벽 타일
-  path: assets/tiles/buildings/wood/wood-wall-v2.png
-  frontend_path: src/assets/world/common/buildings/wood-wall-v2.png
-  sha256: 56c51c9a169a6dbc651c4826f4fb006bf2a769ed3cabcaef74bc29a0b2e8565f
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-09-29_13-03-51-34a6f0ba
-    artifact: border-crop.png
-    model_id: Qwen/Qwen-Image-2512
-    processing: 암부 채널 차이 5 허용, 안쪽 경계 기준 1% 보더 크롭
-    approval: 사용자 나무 벽 타일 통합 채택
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 464
-      - 462
-      input_sha256: a769af976e198aa8f1d07429e52d8beb7bb328dbce6e8f59f22c8892c5c5eee9
-      input_version: '2'
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
-- managementId: tile.buildings.wall.wood-panel
-  version: 1.256-v1
-  name: 대형 목재 패널 벽면 타일
-  path: assets/tiles/buildings/wood/wood-panel-wall-v1.png
-  sha256: 6b4c173ca3970e972bb44c9f62d3cabb217402c25a74a8ee565bb7a468d119d5
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-07_12-05-16-f1b9d4d9
-    artifact: result.png
-    model_id: Qwen/Qwen-Image-2.1
-    processing: 512px 생성 결과를 LANCZOS로 256px 정규화; 4행 대형 목재 패널, 탑뷰·반복 패턴·부드러운 음영 보정 적용
-    approval: 사용자 승인 공용 건물 목재 패널 벽면 타일 등록
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 80eb6473c9f43b546174b7ce98f9e648e7296d107fde2f129a877d2601699659
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
-- managementId: tile.buildings.wall.wood-window
-  version: 1.256-v1
-  name: 하늘색 창문 포함 나무 벽 타일
-  path: assets/tiles/buildings/wood/wood-window-wall-v1.png
-  sha256: b9d78cb1550fd570bfe86a8ee3c09ae5cc1820cd00d29d0c4108e28fab68c060
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-09-29_14-48-38-01b7d341
-    artifact: border-crop.png
-    model_id: Qwen/Qwen-Image-Edit-2511
-    processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
-    approval: 사용자 크롭 결과를 창문 포함 나무 벽 타일로 추가 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 464
-      - 460
-      input_sha256: ca85feac1c1b9203ecb882a572600d4122b5f0f05cc1e945cab132bb4695509b
-      input_version: '1'
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
-- managementId: tile.buildings.wall.wood-door
-  version: 1.256-v1
-  name: 빨간 아치형 대문 포함 나무 벽 타일
-  path: assets/tiles/buildings/wood/wood-door-wall-v1.png
-  frontend_path: src/assets/world/common/buildings/wood-door-wall-v1.png
-  sha256: df65131b57d185567e5dc66eb0d2ea34b6d69e8008587934cb82b28139e58fb5
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-09-29_16-09-30-1f25667d
-    artifact: border-crop.png
-    model_id: Qwen/Qwen-Image-Edit-2511
-    processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
-    approval: 사용자 문 포함 나무벽 타일 채택 및 나무벽 건물 출입문 적용 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 464
-      - 455
-      input_sha256: d0fbf17c5f6f1d6af32196476d270af469907df638c829adbb76467a2f5bc37f
-      input_version: '1'
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
-- managementId: tile.buildings.wall.wood-crossbar
-  version: 1.256-v1
-  name: X자 보강대 나무 벽 타일
-  path: assets/tiles/buildings/wood/wood-crossbar-wall-v1.png
-  sha256: 433d77a7c419182eae11282546b793c757af995c1ab5702d294bc7a5f16a0e4b
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-09-29_16-30-23-c0c88df7
-    artifact: border-crop.png
-    model_id: Qwen/Qwen-Image-Edit-2511
-    processing: 안쪽 경계 기준 가로·세로 1% 올림 보더 크롭
-    approval: 사용자 크롭 결과를 보강대 나무 타일로 추가 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 464
-      - 459
-      input_sha256: 7766b27f8e82f2f708afa420efa1a6dcf45c7840002d6d473b327ef3abfb0808
-      input_version: '1'
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
-- managementId: tile.buildings.roof.wood
-  version: 4.256-v1
-  name: 나무판자 지붕 타일
-  path: assets/tiles/buildings/wood/wood-roof-v4.png
-  frontend_path: src/assets/world/common/buildings/wood-roof-v4.png
-  sha256: 2b9351fff8a262cd9479ccffd5c98a393286c8642ad5d21a6ee60120cad919a2
-  width: 256
-  height: 256
-  source:
-    repository: slime-workflow
-    generation_id: 2026-10-01_23-06-18-a7bbd0e4
-    artifact: result.png
-    model_id: Qwen/Qwen-Image-2512
-    processing: 256×256 기본 타일 규격으로 LANCZOS 축소
-    approval: 사용자 나무 지붕 타일 교체 및 기존 타일 삭제 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 024776650163d4087cb6a7d2715b5ae54c44dae3e5285aeccb59625811dbbefa
-      output_size:
-      - 256
-      - 256
-  license: 별도 재사용 허가 미부여
 - managementId: sprite.metadata.characters.default.idle-v6.idle-v6-v2-retired.animation.json
   version: down-left-8frames-v2
   path: assets/retired/characters/default/animations/idle-v6/down-left-8frames-v2/idle-v6.animation.json
@@ -1280,7 +661,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v6
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: eabdc70804c612086c6219945a47e82e30ae89974db79d399695f2e6026e7aab
+  sha256: 710d7fe63b4434a6616d36d6a98f66abe3a3c43748489cc9136a6207760e40f0
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -1288,7 +669,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 3fe971d621c77e5b9e69768995dd436d9a10dc301e3598a708e650b39229a7fc
+  sha256: 1d3691b6855814da97afc565bc31fd0368544c4841aeb6ee6256d7005c19086f
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -1296,7 +677,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: 453eba30f4b350b0cbb634da015ce23b97cfeaa1319808f6f12fe0273cb2c29f
+  sha256: 2ef2a5a9befefe15748e9e0bba4ad501b68d7c01b4d5b854ccc2441475690936
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -2381,32 +1762,10 @@ assets:
     repository: slime-backend
     path: config/map_names/wind-hills.yaml
     operation: 맵 배치·통행 원본 이전
-- managementId: tile.buildings.wood-olive-door
-  version: v1
-  path: assets/tiles/buildings/wood/wood-olive-door-wall-v1.png
-  name: 올리브색 아치형 대문 포함 나무 벽 타일
-  width: 256
-  height: 256
-  sha256: feb18b79b34d52b7bbb12b8cdcc673c12a524ef823150b23970dd800bb8c0368
-  source:
-    repository: slime-workflow
-    generationId: 2026-09-30_23-34-51-4ecb0ce1
-    output: result.png
-    approval: 사용자 맵 타일 등록 승인
-    normalization:
-      operation: resize
-      resampling: LANCZOS
-      input_size:
-      - 512
-      - 512
-      input_sha256: 9592adbccc91c7bb30b8306cb49c92f838943a7114b6fba6f5f4cfd316962aee
-      output_size:
-      - 256
-      - 256
 - managementId: config.city-layouts.grainstead
   version: v3
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 676ac481c76f4fc336c87fafb9a4bed1aa57313bb8ecfffff6cd2b757c35d72b
+  sha256: 8934bee16219d1a0b77550e330042e17754ba50bba0ac46949795910eeae2f41
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -2414,7 +1773,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: ffb4840aa19f70606c6d15323787471dafcb05c9395b51027d5e7bd57cd0acb3
+  sha256: 4cb5db08fec3157799796082e32b0f197e3d953c60cf5568d1943a8964705d8d
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -7049,3 +6408,253 @@ assets:
   source:
     repository: slime-workflow
     operation: 6프레임 4fps 반복 재생과 하단 앵커 등록
+- managementId: image.scenery.town.iseulon-guild
+  version: v1
+  path: assets/sprites/structures/town-iseulon-guild-v1.png
+  width: 1254
+  height: 1254
+  sha256: ada5bfd520cbf645dfe2fec05e035ecb8df0f54f59b333896e485b06c7f7bdef
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.iseulon-bookshop
+  version: v1
+  path: assets/sprites/structures/town-iseulon-bookshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: 0434f54aeef1f4ae3a1438da739260fe851462b5bf5765b8196a6f01a86e9889
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.iseulon-inn
+  version: v1
+  path: assets/sprites/structures/town-iseulon-inn-v1.png
+  width: 1254
+  height: 1254
+  sha256: dcba5cddf6f72fd1bd15b614d72e081d35cd80c518a01105ebb5d1d22cd333ba
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.iseulon-workshop
+  version: v1
+  path: assets/sprites/structures/town-iseulon-workshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: 6154bddde0ce6913d9c81251ef3666fa82f69bd82a71a0320f0fa86168038395
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.iseulon-market
+  version: v1
+  path: assets/sprites/structures/town-iseulon-market-v1.png
+  width: 1254
+  height: 1254
+  sha256: 389e40c9590a51f1a87f64541d79b8d8d290fe0187fa8471097fadf1bbd92c5c
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.reedhaven-guild
+  version: v1
+  path: assets/sprites/structures/town-reedhaven-guild-v1.png
+  width: 1254
+  height: 1254
+  sha256: beed11b185202ca3d669c31cac5ce5667e1e7bd61e5f58e1bdf151bb5cd66125
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.reedhaven-bookshop
+  version: v1
+  path: assets/sprites/structures/town-reedhaven-bookshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: a5fe8144aa6afc2a5cd2c77f9e01d9971ad6c92ec332af26d36e5067d71ebbe0
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.reedhaven-inn
+  version: v1
+  path: assets/sprites/structures/town-reedhaven-inn-v1.png
+  width: 1254
+  height: 1254
+  sha256: f62d9fc579020536646fb644f02711989e8c6687d64572e1d83a7c159f4ca651
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.reedhaven-workshop
+  version: v1
+  path: assets/sprites/structures/town-reedhaven-workshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: 312462efa8a455277d861e46e242f05e4c99d2beb5c6c0f058455761b7b8daa1
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.reedhaven-market
+  version: v1
+  path: assets/sprites/structures/town-reedhaven-market-v1.png
+  width: 1254
+  height: 1254
+  sha256: a46cde9f0ad1da801899377858bdf05827280f097da1fbc312596c80e81be8ab
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.stonewarm-guild
+  version: v1
+  path: assets/sprites/structures/town-stonewarm-guild-v1.png
+  width: 1254
+  height: 1254
+  sha256: c92d0f9cb368907dbdea5c71974eabf01467da15209db3a29befffaab4ff55b3
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.stonewarm-bookshop
+  version: v1
+  path: assets/sprites/structures/town-stonewarm-bookshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: 5d2378003b12e43f48e84080faae539bb9a6ac842f1fbb4b249c4ddaac87c80a
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.stonewarm-inn
+  version: v1
+  path: assets/sprites/structures/town-stonewarm-inn-v1.png
+  width: 1254
+  height: 1254
+  sha256: 31f3bba253b65e98f2bbd5f6000d0f0a3d6819bcf112e9794eefc2c1edddc524
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.stonewarm-workshop
+  version: v1
+  path: assets/sprites/structures/town-stonewarm-workshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: 6b306101d14ef03b83572354ed18a48172de17e70771a05a22f1a1bf09340b13
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.stonewarm-market
+  version: v1
+  path: assets/sprites/structures/town-stonewarm-market-v1.png
+  width: 1254
+  height: 1254
+  sha256: 7e5ae4702dfeabf2733d9b28ce46be70e00aa5e3a0fb7e4422c39efb88e82d44
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.grainstead-guild
+  version: v1
+  path: assets/sprites/structures/town-grainstead-guild-v1.png
+  width: 1254
+  height: 1254
+  sha256: d33a446968e52caabfc1e0a840a622c49cebfaca71e869ff5ec02b248598381d
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.grainstead-bookshop
+  version: v1
+  path: assets/sprites/structures/town-grainstead-bookshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: 4b4ee5605eb405cb42a434ec09b42dbdd436ba98e7eeaa0678b7f2fafd55da24
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.grainstead-inn
+  version: v1
+  path: assets/sprites/structures/town-grainstead-inn-v1.png
+  width: 1254
+  height: 1254
+  sha256: e7d29c60109531bf690eb404b372e6bab09d6d6a8245c041187e946132d43651
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.grainstead-workshop
+  version: v1
+  path: assets/sprites/structures/town-grainstead-workshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: 1bf059c3e4ae91e442cff6ca44c89ee5afd0113338a7268ea93a770718191a97
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.grainstead-market
+  version: v1
+  path: assets/sprites/structures/town-grainstead-market-v1.png
+  width: 1254
+  height: 1254
+  sha256: d7a85c04a7b1f35e9998a6d025d39c70525b4f91bd52ab524aa6dae3bee9d7d9
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.saltford-guild
+  version: v1
+  path: assets/sprites/structures/town-saltford-guild-v1.png
+  width: 1254
+  height: 1254
+  sha256: 6f81f849e2abf3c229d7d1dafc62835a1dcfcdfe1f54087252f2bc40159899c2
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.saltford-bookshop
+  version: v1
+  path: assets/sprites/structures/town-saltford-bookshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: bdb119da5f71c0ae86a1753e032741a29e4a2a88a8e779c64249bad361dddcb8
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.saltford-inn
+  version: v1
+  path: assets/sprites/structures/town-saltford-inn-v1.png
+  width: 1254
+  height: 1254
+  sha256: 0ddfc4ae5bf90557f7bfe114558ead403e2879adc7252df315a314cf64db32cc
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.saltford-workshop
+  version: v1
+  path: assets/sprites/structures/town-saltford-workshop-v1.png
+  width: 1254
+  height: 1254
+  sha256: ad7fcc20d667abfa3212531955b57f0c5ef7a75b43bb042d41dfeb38e44f7b41
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
+- managementId: image.scenery.town.saltford-market
+  version: v1
+  path: assets/sprites/structures/town-saltford-market-v1.png
+  width: 1254
+  height: 1254
+  sha256: cb3780e766e313ce1636bf5c37d639209982b541c319c1b82eea42185ace36be
+  source:
+    repository: codex-imagegen
+    operation: 도시 건물 단일 스프라이트 생성
+    revision: '2026-10-17'
