@@ -1,6 +1,6 @@
 managementId: config.city-layouts.reedhaven
 data:
-  version: 9
+  version: 12
   cityId: reedhaven
   columns: 24
   rows: 24
@@ -9,26 +9,26 @@ data:
   - wggggggggggggggggggggggw
   - wggggggggggggggggggggggw
   - wggggggggggggggggggggggw
-  - wggpppppgggggggpppppgggw
-  - wggpppppgggggggpppppgggw
-  - wggppppppgggpggpppppgggw
-  - wggppppppgggpggpppppgggw
-  - wggpppppppppppppppppgggw
-  - wgggggggpppppppggggggggw
-  - wgggggggppppppppppppgggw
-  - wgggggggppppppppppppgggw
-  - wgggggggppppppppppppgggw
-  - ppppppppppppppppppppgggw
-  - wgggggggppppppppppppgggw
-  - wgggggggpppppppggggggggw
-  - wgppppppppppppppppppgggw
-  - wgppppppgggpgggpppppgggw
-  - wgppppppppppppppppppgggw
-  - wgppppppgggggggpppppgggw
-  - wgppppppgggggggpppppgggw
-  - wggggggggggggggggggggggw
-  - wggggggggggggggggggggggw
-  - wggggggggggggggggggggggw
+  - wpgggggggggggggpppppppgw
+  - wpgggggggggggggpgggggggw
+  - wpggggggppppppppgggggggw
+  - wpggggggpggggggggggggggw
+  - wppppppppggggggggpgggggw
+  - wgggggpggggggggggpgggggw
+  - wgggggpggggggggpppgggggw
+  - wpggpgpggggggggpggggpggw
+  - wpggpgpgggpppggpggggpggw
+  - ppppppppppppppppggggpggw
+  - wggggggpggpppggppppppggw
+  - wggggggpgggggggggggpgggw
+  - wggggggpgggggggggggpgggw
+  - wggggggpgggggggggggpgggw
+  - wggggggpgggggggggggpgggw
+  - wggggggpgggggggggggggggw
+  - wggggggpgggggggggggggggw
+  - wggggggpgggggggggggggggw
+  - wggggggpgggggggggggggggw
+  - wpppppppgggggggggggggggw
   - wggggggggggggggggggggggw
   startPoint:
     column: 11
@@ -162,6 +162,158 @@ data:
       anchorX: 0.533918
       anchorY: 0.989992
       contentWidth: 0.894055
+  - id: reedhaven-residence-03
+    name: 일반 주택 3
+    kind: residence
+    facilityId: null
+    origin:
+      column: 1
+      row: 1
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 1
+      row: 3
+    facing: south
+    sprite:
+      textureKey: town-common-stone-house-v1
+      anchorX: 0.480564
+      anchorY: 0.979983
+      contentWidth: 0.961128
+  - id: reedhaven-residence-04
+    name: 일반 주택 4
+    kind: residence
+    facilityId: null
+    origin:
+      column: 17
+      row: 1
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 17
+      row: 3
+    facing: south
+    sprite:
+      textureKey: town-common-timber-house-v1
+      anchorX: 0.495489
+      anchorY: 0.979695
+      contentWidth: 0.990977
+  - id: reedhaven-residence-05
+    name: 일반 주택 5
+    kind: residence
+    facilityId: null
+    origin:
+      column: 21
+      row: 1
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 21
+      row: 3
+    facing: south
+    sprite:
+      textureKey: town-reedhaven-reed-house-v1
+      anchorX: 0.531631
+      anchorY: 0.975813
+      contentWidth: 0.926067
+  - id: reedhaven-residence-06
+    name: 일반 주택 6
+    kind: residence
+    facilityId: null
+    origin:
+      column: 1
+      row: 8
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 1
+      row: 10
+    facing: south
+    sprite:
+      textureKey: town-common-stone-house-v1
+      anchorX: 0.480564
+      anchorY: 0.979983
+      contentWidth: 0.961128
+  - id: reedhaven-residence-07
+    name: 일반 주택 7
+    kind: residence
+    facilityId: null
+    origin:
+      column: 4
+      row: 8
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 4
+      row: 10
+    facing: south
+    sprite:
+      textureKey: town-common-timber-house-v1
+      anchorX: 0.495489
+      anchorY: 0.979695
+      contentWidth: 0.990977
+  - id: reedhaven-residence-08
+    name: 일반 주택 8
+    kind: residence
+    facilityId: null
+    origin:
+      column: 20
+      row: 8
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 20
+      row: 10
+    facing: south
+    sprite:
+      textureKey: town-reedhaven-dike-house-v1
+      anchorX: 0.533918
+      anchorY: 0.989992
+      contentWidth: 0.894055
+  - id: reedhaven-residence-09
+    name: 일반 주택 9
+    kind: residence
+    facilityId: null
+    origin:
+      column: 1
+      row: 20
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 1
+      row: 22
+    facing: south
+    sprite:
+      textureKey: town-common-stone-house-v1
+      anchorX: 0.480564
+      anchorY: 0.979983
+      contentWidth: 0.961128
+  - id: reedhaven-residence-10
+    name: 일반 주택 10
+    kind: residence
+    facilityId: null
+    origin:
+      column: 5
+      row: 20
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 5
+      row: 22
+    facing: south
+    sprite:
+      textureKey: town-common-timber-house-v1
+      anchorX: 0.495489
+      anchorY: 0.979695
+      contentWidth: 0.990977
   connections:
   - column: 0
     row: 12
@@ -193,7 +345,7 @@ data:
     kind: decoration
     position:
       column: 20
-      row: 3
+      row: 2
     textureKey: orchard-young-tree-variant-2-v2
     displayHeight: 220.0
     anchorX: 0.5
@@ -202,7 +354,7 @@ data:
   - id: reedhaven-garden-4
     kind: decoration
     position:
-      column: 2
+      column: 3
       row: 9
     textureKey: orchard-young-tree-v2
     displayHeight: 220.0
@@ -273,7 +425,7 @@ data:
     kind: decoration
     position:
       column: 17
-      row: 1
+      row: 0
     textureKey: blue-flower-variant-2-v1
     displayHeight: 64.0
     anchorX: 0.5
@@ -282,7 +434,7 @@ data:
   - id: reedhaven-garden-12
     kind: decoration
     position:
-      column: 18
+      column: 19
       row: 2
     textureKey: town-low-reeds-v1
     displayHeight: 82.0
@@ -292,8 +444,8 @@ data:
   - id: reedhaven-garden-13
     kind: decoration
     position:
-      column: 1
-      row: 4
+      column: 2
+      row: 5
     textureKey: sorrel-variant-2-v1
     displayHeight: 44.0
     anchorX: 0.5
@@ -303,7 +455,7 @@ data:
     kind: decoration
     position:
       column: 2
-      row: 5
+      row: 4
     textureKey: sorrel-variant-3-v1
     displayHeight: 44.0
     anchorX: 0.5
@@ -312,8 +464,8 @@ data:
   - id: reedhaven-garden-15
     kind: decoration
     position:
-      column: 1
-      row: 7
+      column: 2
+      row: 6
     textureKey: broadleaf-variant-1-v1
     displayHeight: 64.0
     anchorX: 0.5
@@ -343,7 +495,7 @@ data:
     kind: decoration
     position:
       column: 21
-      row: 8
+      row: 7
     textureKey: fern-clump-v1
     displayHeight: 64.0
     anchorX: 0.5
@@ -412,7 +564,7 @@ data:
   - id: reedhaven-garden-25
     kind: decoration
     position:
-      column: 7
+      column: 8
       row: 21
     textureKey: sorrel-clump-v1
     displayHeight: 44.0
@@ -502,7 +654,7 @@ data:
   - id: reedhaven-prop-1
     kind: decoration
     position:
-      column: 2
+      column: 14
       row: 4
     textureKey: town-layered-sign-v1
     displayHeight: 130.0
@@ -512,8 +664,8 @@ data:
   - id: reedhaven-prop-2
     kind: decoration
     position:
-      column: 2
-      row: 6
+      column: 16
+      row: 2
     textureKey: town-record-chest-v1
     displayHeight: 95.0
     anchorX: 0.5
@@ -522,7 +674,7 @@ data:
   - id: reedhaven-prop-3
     kind: decoration
     position:
-      column: 2
+      column: 3
       row: 8
     textureKey: town-ground-lantern-v1
     displayHeight: 95.0
@@ -543,7 +695,7 @@ data:
     kind: decoration
     position:
       column: 14
-      row: 5
+      row: 6
     textureKey: town-herb-rack-v1
     displayHeight: 130.0
     anchorX: 0.5
@@ -552,7 +704,7 @@ data:
   - id: reedhaven-prop-6
     kind: decoration
     position:
-      column: 14
+      column: 13
       row: 6
     textureKey: town-reed-bundles-v1
     displayHeight: 95.0
@@ -572,8 +724,8 @@ data:
   - id: reedhaven-prop-8
     kind: decoration
     position:
-      column: 20
-      row: 6
+      column: 19
+      row: 8
     textureKey: town-herb-planter-v1
     displayHeight: 75.0
     anchorX: 0.5
@@ -582,8 +734,8 @@ data:
   - id: reedhaven-prop-9
     kind: decoration
     position:
-      column: 20
-      row: 9
+      column: 18
+      row: 8
     textureKey: town-herb-rack-v1
     displayHeight: 130.0
     anchorX: 0.5
@@ -592,8 +744,8 @@ data:
   - id: reedhaven-prop-10
     kind: decoration
     position:
-      column: 20
-      row: 11
+      column: 19
+      row: 12
     textureKey: town-reed-bundles-v1
     displayHeight: 95.0
     anchorX: 0.5
@@ -602,7 +754,7 @@ data:
   - id: reedhaven-prop-11
     kind: decoration
     position:
-      column: 21
+      column: 14
       row: 10
     textureKey: town-handcart-v1
     displayHeight: 95.0
@@ -622,8 +774,8 @@ data:
   - id: reedhaven-prop-14
     kind: decoration
     position:
-      column: 18
-      row: 20
+      column: 15
+      row: 2
     textureKey: town-record-chest-v1
     displayHeight: 95.0
     anchorX: 0.5
@@ -653,7 +805,7 @@ data:
     kind: decoration
     position:
       column: 1
-      row: 20
+      row: 19
     textureKey: town-wood-bench-v1
     displayHeight: 95.0
     anchorX: 0.5
@@ -662,7 +814,7 @@ data:
   - id: reedhaven-prop-18
     kind: decoration
     position:
-      column: 6
+      column: 4
       row: 20
     textureKey: town-low-fence-v1
     displayHeight: 75.0
@@ -672,7 +824,7 @@ data:
   - id: reedhaven-prop-19
     kind: decoration
     position:
-      column: 8
+      column: 5
       row: 19
     textureKey: town-wood-bench-v1
     displayHeight: 95.0
@@ -682,8 +834,8 @@ data:
   - id: reedhaven-prop-20
     kind: decoration
     position:
-      column: 8
-      row: 21
+      column: 3
+      row: 20
     textureKey: town-herb-planter-v1
     displayHeight: 75.0
     anchorX: 0.5
@@ -692,7 +844,7 @@ data:
   - id: reedhaven-life-scene
     kind: decoration
     position:
-      column: 13
+      column: 15
       row: 6
     textureKey: town-reedhaven-water-record-v1
     displayHeight: 155.0
@@ -702,8 +854,8 @@ data:
   - id: reedhaven-life-scene-addition
     kind: decoration
     position:
-      column: 20
-      row: 16
+      column: 16
+      row: 8
     textureKey: town-reedhaven-fiber-workbench-v1
     displayHeight: 140.0
     anchorX: 0.5
@@ -713,7 +865,7 @@ data:
     kind: decoration
     position:
       column: 5
-      row: 10
+      row: 11
     textureKey: fern-variant-1-v1
     displayHeight: 64.0
     anchorX: 0.5
@@ -722,7 +874,7 @@ data:
   - id: reedhaven-garden-infill-2
     kind: decoration
     position:
-      column: 6
+      column: 7
       row: 10
     textureKey: fern-variant-2-v1
     displayHeight: 64.0
@@ -752,7 +904,7 @@ data:
   - id: reedhaven-blue-marsh-iris
     kind: decoration
     position:
-      column: 14
+      column: 11
       row: 4
     textureKey: town-reedhaven-blue-marsh-iris-v1
     displayHeight: 58.0
@@ -798,4 +950,1374 @@ data:
     displayHeight: 58.0
     anchorX: 0.504573
     anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-home-1-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 7
+      row: 3
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-1-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 8
+      row: 2
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-home-2-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 11
+      row: 3
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-2-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 12
+      row: 2
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-home-3-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 1
+      row: 0
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-3-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 2
+      row: 0
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-home-4-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 15
+      row: 1
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-4-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 16
+      row: 0
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-home-5-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 20
+      row: 1
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-5-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 21
+      row: 0
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-home-6-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 2
+      row: 11
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-6-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 3
+      row: 6
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-home-7-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 7
+      row: 8
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-7-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 3
+      row: 5
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-home-8-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 20
+      row: 7
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-8-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 19
+      row: 7
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-home-9-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 2
+      row: 19
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-9-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 1
+      row: 17
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-home-10-town-herb-planter-v1
+    kind: decoration
+    position:
+      column: 4
+      row: 19
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-home-10-town-wood-bench-v1
+    kind: decoration
+    position:
+      column: 6
+      row: 19
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-atmosphere-001
+    kind: decoration
+    position:
+      column: 5
+      row: 0
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-002
+    kind: decoration
+    position:
+      column: 22
+      row: 4
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-003
+    kind: decoration
+    position:
+      column: 15
+      row: 15
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-004
+    kind: decoration
+    position:
+      column: 8
+      row: 16
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-005
+    kind: decoration
+    position:
+      column: 22
+      row: 9
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-atmosphere-006
+    kind: decoration
+    position:
+      column: 14
+      row: 18
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-007
+    kind: decoration
+    position:
+      column: 4
+      row: 23
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-008
+    kind: decoration
+    position:
+      column: 9
+      row: 23
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-009
+    kind: decoration
+    position:
+      column: 14
+      row: 23
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-010
+    kind: decoration
+    position:
+      column: 4
+      row: 3
+    textureKey: town-record-chest-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.937
+    tileAnchor: center
+  - id: reedhaven-atmosphere-011
+    kind: decoration
+    position:
+      column: 19
+      row: 23
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-012
+    kind: decoration
+    position:
+      column: 11
+      row: 0
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-013
+    kind: decoration
+    position:
+      column: 4
+      row: 1
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-014
+    kind: decoration
+    position:
+      column: 18
+      row: 14
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-015
+    kind: decoration
+    position:
+      column: 7
+      row: 6
+    textureKey: town-low-fence-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: reedhaven-atmosphere-016
+    kind: decoration
+    position:
+      column: 14
+      row: 16
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-017
+    kind: decoration
+    position:
+      column: 19
+      row: 19
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-018
+    kind: decoration
+    position:
+      column: 6
+      row: 23
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-019
+    kind: decoration
+    position:
+      column: 11
+      row: 23
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-020
+    kind: decoration
+    position:
+      column: 5
+      row: 15
+    textureKey: town-herb-rack-v1
+    displayHeight: 130.0
+    anchorX: 0.5
+    anchorY: 0.94577
+    tileAnchor: center
+  - id: reedhaven-atmosphere-021
+    kind: decoration
+    position:
+      column: 21
+      row: 23
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-022
+    kind: decoration
+    position:
+      column: 8
+      row: 0
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-023
+    kind: decoration
+    position:
+      column: 21
+      row: 11
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-024
+    kind: decoration
+    position:
+      column: 15
+      row: 19
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-025
+    kind: decoration
+    position:
+      column: 2
+      row: 23
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-atmosphere-026
+    kind: decoration
+    position:
+      column: 18
+      row: 20
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-027
+    kind: decoration
+    position:
+      column: 17
+      row: 23
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-028
+    kind: decoration
+    position:
+      column: 14
+      row: 0
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-029
+    kind: decoration
+    position:
+      column: 19
+      row: 0
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-030
+    kind: decoration
+    position:
+      column: 17
+      row: 19
+    textureKey: town-reed-bundles-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.96013
+    tileAnchor: center
+  - id: reedhaven-atmosphere-031
+    kind: decoration
+    position:
+      column: 5
+      row: 2
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-032
+    kind: decoration
+    position:
+      column: 6
+      row: 14
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-033
+    kind: decoration
+    position:
+      column: 16
+      row: 14
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.504573
+    anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-atmosphere-034
+    kind: decoration
+    position:
+      column: 8
+      row: 18
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.504573
+    anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-atmosphere-035
+    kind: decoration
+    position:
+      column: 7
+      row: 4
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-atmosphere-036
+    kind: decoration
+    position:
+      column: 13
+      row: 11
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-037
+    kind: decoration
+    position:
+      column: 4
+      row: 13
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-038
+    kind: decoration
+    position:
+      column: 14
+      row: 13
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-039
+    kind: decoration
+    position:
+      column: 20
+      row: 15
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-040
+    kind: decoration
+    position:
+      column: 17
+      row: 15
+    textureKey: town-record-chest-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.937
+    tileAnchor: center
+  - id: reedhaven-atmosphere-041
+    kind: decoration
+    position:
+      column: 12
+      row: 7
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-042
+    kind: decoration
+    position:
+      column: 8
+      row: 9
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-043
+    kind: decoration
+    position:
+      column: 22
+      row: 12
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-044
+    kind: decoration
+    position:
+      column: 22
+      row: 17
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-045
+    kind: decoration
+    position:
+      column: 19
+      row: 6
+    textureKey: town-low-fence-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: reedhaven-atmosphere-046
+    kind: decoration
+    position:
+      column: 12
+      row: 22
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-047
+    kind: decoration
+    position:
+      column: 22
+      row: 22
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-048
+    kind: decoration
+    position:
+      column: 1
+      row: 13
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-049
+    kind: decoration
+    position:
+      column: 13
+      row: 17
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-050
+    kind: decoration
+    position:
+      column: 15
+      row: 17
+    textureKey: town-herb-rack-v1
+    displayHeight: 130.0
+    anchorX: 0.5
+    anchorY: 0.94577
+    tileAnchor: center
+  - id: reedhaven-atmosphere-051
+    kind: decoration
+    position:
+      column: 22
+      row: 20
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-052
+    kind: decoration
+    position:
+      column: 18
+      row: 22
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-053
+    kind: decoration
+    position:
+      column: 11
+      row: 6
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-054
+    kind: decoration
+    position:
+      column: 9
+      row: 17
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-055
+    kind: decoration
+    position:
+      column: 22
+      row: 0
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-atmosphere-056
+    kind: decoration
+    position:
+      column: 10
+      row: 22
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-057
+    kind: decoration
+    position:
+      column: 9
+      row: 8
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-058
+    kind: decoration
+    position:
+      column: 14
+      row: 8
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-059
+    kind: decoration
+    position:
+      column: 10
+      row: 20
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-060
+    kind: decoration
+    position:
+      column: 18
+      row: 9
+    textureKey: town-reed-bundles-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.96013
+    tileAnchor: center
+  - id: reedhaven-atmosphere-061
+    kind: decoration
+    position:
+      column: 20
+      row: 20
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-062
+    kind: decoration
+    position:
+      column: 13
+      row: 21
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-063
+    kind: decoration
+    position:
+      column: 13
+      row: 9
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-064
+    kind: decoration
+    position:
+      column: 8
+      row: 14
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.504573
+    anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-atmosphere-065
+    kind: decoration
+    position:
+      column: 6
+      row: 3
+    textureKey: town-low-fence-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: reedhaven-atmosphere-066
+    kind: decoration
+    position:
+      column: 10
+      row: 18
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-067
+    kind: decoration
+    position:
+      column: 20
+      row: 18
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-068
+    kind: decoration
+    position:
+      column: 13
+      row: 19
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-069
+    kind: decoration
+    position:
+      column: 15
+      row: 23
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.504573
+    anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-atmosphere-070
+    kind: decoration
+    position:
+      column: 19
+      row: 11
+    textureKey: town-record-chest-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.937
+    tileAnchor: center
+  - id: reedhaven-atmosphere-071
+    kind: decoration
+    position:
+      column: 12
+      row: 0
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-072
+    kind: decoration
+    position:
+      column: 12
+      row: 10
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-073
+    kind: decoration
+    position:
+      column: 22
+      row: 10
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.504573
+    anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-atmosphere-074
+    kind: decoration
+    position:
+      column: 2
+      row: 15
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-075
+    kind: decoration
+    position:
+      column: 22
+      row: 8
+    textureKey: town-low-fence-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: reedhaven-atmosphere-076
+    kind: decoration
+    position:
+      column: 10
+      row: 16
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-077
+    kind: decoration
+    position:
+      column: 9
+      row: 19
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-078
+    kind: decoration
+    position:
+      column: 3
+      row: 0
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-079
+    kind: decoration
+    position:
+      column: 13
+      row: 15
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.504573
+    anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-atmosphere-080
+    kind: decoration
+    position:
+      column: 2
+      row: 17
+    textureKey: town-herb-rack-v1
+    displayHeight: 130.0
+    anchorX: 0.5
+    anchorY: 0.94577
+    tileAnchor: center
+  - id: reedhaven-atmosphere-081
+    kind: decoration
+    position:
+      column: 12
+      row: 18
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.504573
+    anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-atmosphere-082
+    kind: decoration
+    position:
+      column: 8
+      row: 20
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-083
+    kind: decoration
+    position:
+      column: 11
+      row: 21
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-084
+    kind: decoration
+    position:
+      column: 7
+      row: 23
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-085
+    kind: decoration
+    position:
+      column: 10
+      row: 7
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: reedhaven-atmosphere-086
+    kind: decoration
+    position:
+      column: 9
+      row: 0
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-087
+    kind: decoration
+    position:
+      column: 15
+      row: 7
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-088
+    kind: decoration
+    position:
+      column: 9
+      row: 15
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-089
+    kind: decoration
+    position:
+      column: 12
+      row: 16
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-090
+    kind: decoration
+    position:
+      column: 19
+      row: 4
+    textureKey: town-reed-bundles-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.96013
+    tileAnchor: center
+  - id: reedhaven-atmosphere-091
+    kind: decoration
+    position:
+      column: 14
+      row: 20
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.504573
+    anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-atmosphere-092
+    kind: decoration
+    position:
+      column: 13
+      row: 23
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-093
+    kind: decoration
+    position:
+      column: 3
+      row: 11
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-094
+    kind: decoration
+    position:
+      column: 8
+      row: 11
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-095
+    kind: decoration
+    position:
+      column: 3
+      row: 21
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-atmosphere-096
+    kind: decoration
+    position:
+      column: 11
+      row: 17
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-097
+    kind: decoration
+    position:
+      column: 5
+      row: 13
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-098
+    kind: decoration
+    position:
+      column: 11
+      row: 8
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-099
+    kind: decoration
+    position:
+      column: 12
+      row: 20
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-100
+    kind: decoration
+    position:
+      column: 4
+      row: 15
+    textureKey: town-record-chest-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.937
+    tileAnchor: center
+  - id: reedhaven-atmosphere-101
+    kind: decoration
+    position:
+      column: 10
+      row: 9
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-102
+    kind: decoration
+    position:
+      column: 22
+      row: 13
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-103
+    kind: decoration
+    position:
+      column: 14
+      row: 22
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-104
+    kind: decoration
+    position:
+      column: 9
+      row: 10
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.504573
+    anchorY: 0.979983
+    tileAnchor: center
+  - id: reedhaven-atmosphere-105
+    kind: decoration
+    position:
+      column: 10
+      row: 3
+    textureKey: town-low-fence-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: reedhaven-atmosphere-106
+    kind: decoration
+    position:
+      column: 11
+      row: 2
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-107
+    kind: decoration
+    position:
+      column: 20
+      row: 5
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-108
+    kind: decoration
+    position:
+      column: 9
+      row: 13
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-109
+    kind: decoration
+    position:
+      column: 12
+      row: 14
+    textureKey: town-reedhaven-willow-leaf-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.500381
+    anchorY: 0.957465
+    tileAnchor: center
+  - id: reedhaven-atmosphere-110
+    kind: decoration
+    position:
+      column: 3
+      row: 4
+    textureKey: town-herb-rack-v1
+    displayHeight: 130.0
+    anchorX: 0.5
+    anchorY: 0.94577
+    tileAnchor: center
+  - id: reedhaven-atmosphere-111
+    kind: decoration
+    position:
+      column: 6
+      row: 0
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-112
+    kind: decoration
+    position:
+      column: 14
+      row: 11
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
+    tileAnchor: center
+  - id: reedhaven-atmosphere-113
+    kind: decoration
+    position:
+      column: 11
+      row: 15
+    textureKey: town-reedhaven-broad-marsh-fern-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.983319
+    tileAnchor: center
+  - id: reedhaven-atmosphere-114
+    kind: decoration
+    position:
+      column: 14
+      row: 14
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-115
+    kind: decoration
+    position:
+      column: 19
+      row: 9
+    textureKey: town-low-fence-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: reedhaven-atmosphere-116
+    kind: decoration
+    position:
+      column: 20
+      row: 16
+    textureKey: town-reedhaven-reed-flower-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.497771
+    anchorY: 0.976884
+    tileAnchor: center
+  - id: reedhaven-atmosphere-117
+    kind: decoration
+    position:
+      column: 18
+      row: 0
+    textureKey: town-reedhaven-water-mint-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.501119
+    anchorY: 0.952259
     tileAnchor: center

@@ -595,7 +595,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v6
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 9187a3e123ffbcae209a398000402fa5f13ea10d30082c7d1a6fe8f76811ec77
+  sha256: 50ceb8aad70ca22b83d68f2a8d5c769dd4818505f0bef81550fb6f260d8b8a85
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -603,7 +603,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 7a1e06bf5b14a1c68a2019c90bd22960ead53e6dad67dda558a0de6c55d0bef2
+  sha256: 18255bd8a8dd36d544c7473893cf6db783ef2ddfa92e886f76fd2cb08fcfee32
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -611,7 +611,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: a221744730af19074c4570d35ff016a0f3c8c9587ddd0cc147674b614cbbbdf6
+  sha256: a00df813a5a9e22fbcab259ede8c051434ba2c2d552545f5bf0cc38c3d62f22d
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -1699,7 +1699,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 325aee563e0426d80ccf256d54ea338aef7c274eb348fc20545932d12869c945
+  sha256: 1c0f7ac8014e639cd465f7b8b92a2a244acb0a23bb121457f5d54927bfc41d8d
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -1707,7 +1707,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: 1f39a275baccc7d22a9a22295adf3faebf20deb5601be21a7f045cbde4f20a47
+  sha256: 0bc45fd1482da90f978c8be76f80c06b244dc119a62a5e3fcb863d3e189a553b
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -6998,3 +6998,23 @@ assets:
     repository: slime-workflow
     path: .tmp/test/terrain-base-materials/2026-10-17/frost-ground-v1-source.png
     operation: ImageGen 생성 원본을 128x128 LANCZOS 축소, 사용자 맵 적용 승인
+- managementId: image.scenery.town.common-timber-house
+  version: v1
+  path: assets/sprites/structures/town-common-timber-house-v1.png
+  width: 1330
+  height: 1182
+  sha256: 89fac3070d68fad6b144f803d57f51ce00a88447bdd83b3d3cad52175071a6b2
+  source:
+    repository: codex-imagegen
+    artifact: exec-fbc907a8-2c22-46bd-98aa-d5448450c149.png
+    operation: 일반 주택 투명 스프라이트 추가 및 마을 적용
+- managementId: image.scenery.town.common-stone-house
+  version: v1
+  path: assets/sprites/structures/town-common-stone-house-v1.png
+  width: 1312
+  height: 1199
+  sha256: a0d39ba99b733feaeb0ca44a2f7b15d64334651f9e4b89910bf98a8661ecced7
+  source:
+    repository: codex-imagegen
+    artifact: exec-fe16e0ae-da87-4453-ae38-7001729fa6d2.png
+    operation: 일반 주택 투명 스프라이트 추가 및 마을 적용
