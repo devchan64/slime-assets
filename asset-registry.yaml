@@ -661,7 +661,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v6
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 3937264542a7731f365a85e2f1140aabb3d08a0e50cb881fd4878fd900398045
+  sha256: 9187a3e123ffbcae209a398000402fa5f13ea10d30082c7d1a6fe8f76811ec77
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -669,7 +669,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 509d28ebe89296dfd403b4d41ac59f9a6bf45dff5191cc12da22eb95967c971e
+  sha256: 7a1e06bf5b14a1c68a2019c90bd22960ead53e6dad67dda558a0de6c55d0bef2
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -677,7 +677,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: 1c43623b3bc0dfb10b40acb9c8eec2fbe07671fa6950c73dd88e3cabe2be7746
+  sha256: a221744730af19074c4570d35ff016a0f3c8c9587ddd0cc147674b614cbbbdf6
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -1765,7 +1765,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 00635209f573e80df76863013d8a1ea5fb443b8857977dda5491dd622f1ac403
+  sha256: 325aee563e0426d80ccf256d54ea338aef7c274eb348fc20545932d12869c945
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -1773,7 +1773,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: 9e3b7c81e49bd94f12d19117a99e6d26b64f7008720f56602cbe35e1dad2b4bf
+  sha256: 1f39a275baccc7d22a9a22295adf3faebf20deb5601be21a7f045cbde4f20a47
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -6966,3 +6966,543 @@ assets:
     repository: codex-imagegen
     artifact: exec-36e85fac-2339-4c58-9eab-07e0a8773bec.png
     processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-iseulon-jelly-counter-v1
+  version: v1
+  path: assets/billboards/town-iseulon-jelly-counter-v1.png
+  name: 이슬온 젤리 조리·검수대
+  width: 1254
+  height: 1254
+  sha256: 70bbd62ccb0effc210889a7ec1e43be946d0d22b9c0221ec9ae609bf054f9a16
+  source:
+    repository: codex-imagegen
+    artifact: exec-dd71a950-6f60-4fab-a794-ac6ca8ba668a.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town-reedhaven-water-record-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-water-record-v1.png
+  name: 갈대나루 물길 기록 벽
+  width: 1254
+  height: 1254
+  sha256: fbcd0648525321ae67b3f4470734d9a6dc6d0c59a50357ad4825b29fe66c9a3e
+  source:
+    repository: codex-imagegen
+    artifact: exec-c655f35a-6ac1-4314-a0b4-d4e29bba35ac.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town-stonewarm-repair-process-v1
+  version: v1
+  path: assets/billboards/town-stonewarm-repair-process-v1.png
+  name: 돌온재 수리 공정대
+  width: 1254
+  height: 1254
+  sha256: 9b78421c58a72c4e725ccb9fac6b402aef0b85a6ed6d211d125069fbe10f0fd1
+  source:
+    repository: codex-imagegen
+    artifact: exec-40c50e60-9277-4a76-b89a-8e6f4deb6c4d.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town-grainstead-milling-dispatch-v1
+  version: v1
+  path: assets/billboards/town-grainstead-milling-dispatch-v1.png
+  name: 곡온벌 제분·출고대
+  width: 1254
+  height: 1254
+  sha256: a9a4e2a819925cbffa8fb40e241e4c5fb6d5c3cdf68db65a58b4474aa10b8667
+  source:
+    repository: codex-imagegen
+    artifact: exec-5f686798-f75f-4e29-80de-bfba253541af.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town-saltford-cargo-weighing-v1
+  version: v1
+  path: assets/billboards/town-saltford-cargo-weighing-v1.png
+  name: 소금여울 화물 계량대
+  width: 1254
+  height: 1254
+  sha256: 7c4fdf12ae2753bdf66705050596a7f19cb705861c8b1070580a63a3548cdc8d
+  source:
+    repository: codex-imagegen
+    artifact: exec-da6f37e5-a1a9-479a-840f-ee68dddbfa39.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town-iseulon-material-training-v1
+  version: v1
+  path: assets/billboards/town-iseulon-material-training-v1.png
+  name: 이슬온 회수 재료 교육대
+  width: 1536
+  height: 1024
+  sha256: 53509388f2584f78e1062202753226e9cdbbaac04d28b5f01e7a05b229ed95ff
+  source:
+    repository: codex-imagegen
+    artifact: exec-9c9133e4-f071-4cd1-a22a-7aefc9b4289b.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town-reedhaven-fiber-workbench-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-fiber-workbench-v1.png
+  name: 갈대나루 갈대섬유 작업대
+  width: 1536
+  height: 1024
+  sha256: b63708da69cff2da1aa72291c5f9500ee8f4b21a2eb6f43df9cf64672a326516
+  source:
+    repository: codex-imagegen
+    artifact: exec-676cbda0-02f8-4260-9001-3109c05e1afc.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town-stonewarm-repair-handover-v1
+  version: v1
+  path: assets/billboards/town-stonewarm-repair-handover-v1.png
+  name: 돌온재 수리품 인계 선반
+  width: 1298
+  height: 1212
+  sha256: 00dc5f9467bd184d658833fc8783e81de12c3f7a885c9894123a811d80eb5958
+  source:
+    repository: codex-imagegen
+    artifact: exec-bbcc31d3-ebb1-44b0-a813-8e007de3ae3f.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town-grainstead-grain-drying-v1
+  version: v1
+  path: assets/billboards/town-grainstead-grain-drying-v1.png
+  name: 곡온벌 곡물 건조대
+  width: 1374
+  height: 1145
+  sha256: a86cb2e2ddae0411f1582c0b9bb1a7fb75590e2b938f5930d0df28cf79b32e75
+  source:
+    repository: codex-imagegen
+    artifact: exec-8c7922ac-cbe9-4fc1-9016-e1486079f590.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town-saltford-wet-cargo-drying-v1
+  version: v1
+  path: assets/billboards/town-saltford-wet-cargo-drying-v1.png
+  name: 소금여울 젖은 포대 건조대
+  width: 1536
+  height: 1024
+  sha256: 73a7e006a035ae5e8725b24d4f8375a48441a5309e98fd632a3ae7482f61a9d7
+  source:
+    repository: codex-imagegen
+    artifact: exec-aa6158f5-fd04-4c95-981b-224657aaf30a.png
+    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+- managementId: image.scenery.town.iseulon-garden-house
+  version: v1
+  path: assets/sprites/structures/town-iseulon-garden-house-v1.png
+  width: 1312
+  height: 1199
+  sha256: 9d09c45dad85fecc7073382985a911c97b1036b8a4d191ccd0678949b23639fe
+  source:
+    repository: codex-imagegen
+    artifact: exec-50602b23-c6de-4153-bbc1-4b8dbec339d1.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town.iseulon-courtyard-house
+  version: v1
+  path: assets/sprites/structures/town-iseulon-courtyard-house-v1.png
+  width: 1303
+  height: 1207
+  sha256: 4a73bbc44ef7faff498fd426789f795f433f43fc59fb84a30682574aabf406b8
+  source:
+    repository: codex-imagegen
+    artifact: exec-f41715a4-0be9-45bc-aeba-70cd909d57b3.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town.reedhaven-reed-house
+  version: v1
+  path: assets/sprites/structures/town-reedhaven-reed-house-v1.png
+  width: 1312
+  height: 1199
+  sha256: 9c218bb25a2f555f5d1b1b4014375f14c008f3de51acccd260070e2a018ae39f
+  source:
+    repository: codex-imagegen
+    artifact: exec-35dd066b-9dad-4937-acbf-84b3e2eb3fff.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town.reedhaven-dike-house
+  version: v1
+  path: assets/sprites/structures/town-reedhaven-dike-house-v1.png
+  width: 1312
+  height: 1199
+  sha256: 1dc0f6519ed39faef4f5a84138aaa4f2f85721e7293c4afebe81474daeabf388
+  source:
+    repository: codex-imagegen
+    artifact: exec-e42893f1-b2df-4c2d-a563-29ef324afc1b.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town.stonewarm-mason-house
+  version: v1
+  path: assets/sprites/structures/town-stonewarm-mason-house-v1.png
+  width: 1312
+  height: 1199
+  sha256: 38b980b6133e7a4d3ffc88bd24787650197307235337c60d8d4bf48ccd678a38
+  source:
+    repository: codex-imagegen
+    artifact: exec-1be9994e-ff7f-4121-b3ba-260e9733a02e.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town.stonewarm-hearth-house
+  version: v1
+  path: assets/sprites/structures/town-stonewarm-hearth-house-v1.png
+  width: 1312
+  height: 1199
+  sha256: 1c64f216360487a64206224ee48b8c5a6bd087cee2974e89a5678f97009c569e
+  source:
+    repository: codex-imagegen
+    artifact: exec-9fa42f94-5afd-41f2-83bb-856660c53a61.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town.grainstead-farm-house
+  version: v1
+  path: assets/sprites/structures/town-grainstead-farm-house-v1.png
+  width: 1383
+  height: 1137
+  sha256: f2e2dc250bca7d2966c8d9b53c9a6e3369e27b863b2cec880956564482f58a58
+  source:
+    repository: codex-imagegen
+    artifact: exec-2194b39c-0dbb-4f4a-b0ba-0fc761a056d4.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town.grainstead-mill-house
+  version: v1
+  path: assets/sprites/structures/town-grainstead-mill-house-v1.png
+  width: 1309
+  height: 1201
+  sha256: 952f6f3725c4678f03a124ffb1cfbcf3902ce14d45b4de7caed552d162637621
+  source:
+    repository: codex-imagegen
+    artifact: exec-168d4fda-6b32-4e83-951c-fd0acee1ec2f.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town.saltford-shore-house
+  version: v1
+  path: assets/sprites/structures/town-saltford-shore-house-v1.png
+  width: 1294
+  height: 1216
+  sha256: 9d982caaf6477a30d015951ec75e5f314ce62f6c34d12df783a206ab5b445c67
+  source:
+    repository: codex-imagegen
+    artifact: exec-d34f664c-33ae-4b6b-ae64-c7709c8d22cc.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town.saltford-dry-house
+  version: v1
+  path: assets/sprites/structures/town-saltford-dry-house-v1.png
+  width: 1312
+  height: 1199
+  sha256: 31d92767986f812a692b2852d7ee7ec6fd4eabe6f6bcee65ecf77179822871a2
+  source:
+    repository: codex-imagegen
+    artifact: exec-e70e1598-3833-4a5e-ab9e-84dbb03dd382.png
+    operation: 일반 주택 단일 투명 스프라이트 생성
+- managementId: image.scenery.town-iseulon-round-rose-shrub-v1
+  version: v1
+  path: assets/billboards/town-iseulon-round-rose-shrub-v1.png
+  name: 분홍 장미 관목
+  width: 1374
+  height: 1145
+  sha256: d6f54c17412d0ce3e61ba73c223d8b007d902114d791a640fd0bf2690ac668da
+  source:
+    repository: codex-imagegen
+    artifact: exec-b2f2d755-4d4c-4c60-a409-40adec91030e.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-iseulon-white-bloom-hedge-v1
+  version: v1
+  path: assets/billboards/town-iseulon-white-bloom-hedge-v1.png
+  name: 흰꽃 생울타리
+  width: 1536
+  height: 1024
+  sha256: eb6a271c169c50774772ae53e18b3a8ca22ffab80a234ab8e6ac76abed60a5fe
+  source:
+    repository: codex-imagegen
+    artifact: exec-30876c33-e4df-4d06-9ccf-fdd78064fc6f.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-iseulon-lemon-herb-clump-v1
+  version: v1
+  path: assets/billboards/town-iseulon-lemon-herb-clump-v1.png
+  name: 넓은잎 허브
+  width: 1312
+  height: 1199
+  sha256: 79e2dced5b3ae59f621a5542b1f7557e5356eeaac45bf6dc3abb5865beac6b3a
+  source:
+    repository: codex-imagegen
+    artifact: exec-b68e9a6b-9991-4e3a-89f5-591949dcb10f.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-iseulon-red-berry-bush-v1
+  version: v1
+  path: assets/billboards/town-iseulon-red-berry-bush-v1.png
+  name: 붉은 열매 관목
+  width: 1312
+  height: 1199
+  sha256: 25808737ed53b8ce65ec12c6a33086232153af86fd78662519ab68e40e451267
+  source:
+    repository: codex-imagegen
+    artifact: exec-858a98df-f7df-4b4e-a3c5-a873524ecc4b.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-iseulon-violet-garden-tuft-v1
+  version: v1
+  path: assets/billboards/town-iseulon-violet-garden-tuft-v1.png
+  name: 보랏빛 정원 꽃
+  width: 1380
+  height: 1140
+  sha256: a8bc4ef64096655c7907a51846744b5099b63083820c5481414957bb96b75ee7
+  source:
+    repository: codex-imagegen
+    artifact: exec-2a9f4eb4-ad27-4ded-9e24-a31a5148ed01.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-iseulon-soft-fern-cluster-v1
+  version: v1
+  path: assets/billboards/town-iseulon-soft-fern-cluster-v1.png
+  name: 연녹색 고사리
+  width: 1385
+  height: 1136
+  sha256: a1ebba142b29a4c8ea64a83b58bb90d033ff3c07f46783c9124c8def832b23cb
+  source:
+    repository: codex-imagegen
+    artifact: exec-2fee95cd-b5aa-4bae-a123-52f7d602f439.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-reedhaven-reed-flower-clump-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-reed-flower-clump-v1.png
+  name: 크림빛 갈대꽃
+  width: 1346
+  height: 1168
+  sha256: e939e5f3c2dce287c3a383d7040178ab9d81bd8f64390ca80ebf0486748c2a7a
+  source:
+    repository: codex-imagegen
+    artifact: exec-d60359f7-99fe-4ad9-9c02-9721a57c2940.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-reedhaven-blue-marsh-iris-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-blue-marsh-iris-v1.png
+  name: 푸른 습지 붓꽃
+  width: 1374
+  height: 1145
+  sha256: 4622fb2e824d85fe0ccac64626990f999df4fd20c149426453ca4c2dfbbbc83f
+  source:
+    repository: codex-imagegen
+    artifact: exec-356dea05-720a-475a-b299-2de04d1a9c56.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-reedhaven-water-mint-bush-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-water-mint-bush-v1.png
+  name: 물가 박하 관목
+  width: 1341
+  height: 1173
+  sha256: 152f8d09f89f8cb223e6623408ea6e73ca8fa1d2763b6f9c97a7ea1b030434db
+  source:
+    repository: codex-imagegen
+    artifact: exec-197c71c9-7c0d-4a93-bcec-074dbf9137ca.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-reedhaven-broad-marsh-fern-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-broad-marsh-fern-v1.png
+  name: 넓은잎 습지 고사리
+  width: 1312
+  height: 1199
+  sha256: 0dd9bd99ea6e62399775471843f51e183912400c7c933658bfacaf1115bb215e
+  source:
+    repository: codex-imagegen
+    artifact: exec-876ba3cb-bf8b-4607-aebd-77604551b10a.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-reedhaven-willow-leaf-shrub-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-willow-leaf-shrub-v1.png
+  name: 버들잎 관목
+  width: 1312
+  height: 1199
+  sha256: 97ef3e055dd8a52bd734a479f3ccf5efbaf6336114b7ed630763e67984f54417
+  source:
+    repository: codex-imagegen
+    artifact: exec-54e30392-305d-4a9b-b7eb-1f972f346c40.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-reedhaven-river-sedge-tuft-v1
+  version: v1
+  path: assets/billboards/town-reedhaven-river-sedge-tuft-v1.png
+  name: 물가 사초
+  width: 1312
+  height: 1199
+  sha256: 682bc21be913db8690343ad9ee881d372102794ad638f9c41fe920089b0a13ab
+  source:
+    repository: codex-imagegen
+    artifact: exec-e904f9eb-d34e-4af9-b5d6-3c650a381eef.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-stonewarm-silver-sage-shrub-v1
+  version: v1
+  path: assets/billboards/town-stonewarm-silver-sage-shrub-v1.png
+  name: 은빛 세이지
+  width: 1374
+  height: 1145
+  sha256: 44d55767005ad9dde3974e1946b0261c72b11268bcc2e8def988b2398ead2609
+  source:
+    repository: codex-imagegen
+    artifact: exec-689d576a-de8c-4d9b-aa60-21d9fa6a3b70.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-stonewarm-rust-heather-bush-v1
+  version: v1
+  path: assets/billboards/town-stonewarm-rust-heather-bush-v1.png
+  name: 갈색 헤더
+  width: 1374
+  height: 1145
+  sha256: 98122fe15d1fc26f75e047a2d784326e234e03de07258b53936a855ba3bad3d2
+  source:
+    repository: codex-imagegen
+    artifact: exec-578b65b3-0297-4929-996e-913180afa86a.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-stonewarm-stone-thyme-cushion-v1
+  version: v1
+  path: assets/billboards/town-stonewarm-stone-thyme-cushion-v1.png
+  name: 낮은 백리향
+  width: 1536
+  height: 1024
+  sha256: 904c97f90bbfc526798ae1a680689a66716a52bb72daea1521c8e0be168977f4
+  source:
+    repository: codex-imagegen
+    artifact: exec-0c713038-ecc4-4f4a-b1ca-4b7484bd8bb1.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-stonewarm-sturdy-juniper-shrub-v1
+  version: v1
+  path: assets/billboards/town-stonewarm-sturdy-juniper-shrub-v1.png
+  name: 작은 향나무 관목
+  width: 1536
+  height: 1024
+  sha256: 63f8f48cbaa0ffd9212f9d882823d2330b91639969434091a43a18e34ac7cb70
+  source:
+    repository: codex-imagegen
+    artifact: exec-7a56c101-55df-495a-a850-4ec0b0f58599.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-stonewarm-copper-leaf-bush-v1
+  version: v1
+  path: assets/billboards/town-stonewarm-copper-leaf-bush-v1.png
+  name: 구릿빛 잎 관목
+  width: 1402
+  height: 1122
+  sha256: 2868e7870e52c16d581ff7078554d4ac3fbdf04f772f735ff81cb8924de99b6f
+  source:
+    repository: codex-imagegen
+    artifact: exec-dd0e92e4-52a5-4304-8f62-a12bb36d2a1e.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-stonewarm-dry-golden-grass-v1
+  version: v1
+  path: assets/billboards/town-stonewarm-dry-golden-grass-v1.png
+  name: 마른 금빛 풀
+  width: 1305
+  height: 1206
+  sha256: bf88f3a7e8f46f7b7600dea2710a6283abdf14a746aa89928492759fcc9c75b0
+  source:
+    repository: codex-imagegen
+    artifact: exec-fba809f4-f934-4b0a-b50f-cb89f142640b.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-grainstead-field-clover-cushion-v1
+  version: v1
+  path: assets/billboards/town-grainstead-field-clover-cushion-v1.png
+  name: 클로버 꽃밭
+  width: 1312
+  height: 1199
+  sha256: 4b4d6e97a4e7bcfb50b71ac1c6199a234ad3d8d3434844e1c91d932144be732f
+  source:
+    repository: codex-imagegen
+    artifact: exec-66614cc0-4ba6-46f6-b33d-a6bc6d52d331.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-grainstead-golden-meadow-tuft-v1
+  version: v1
+  path: assets/billboards/town-grainstead-golden-meadow-tuft-v1.png
+  name: 금빛 들풀
+  width: 1202
+  height: 1308
+  sha256: 429283507079469b26499fab279288d3aa8b91bc00b47b0d82bcd96565a549a9
+  source:
+    repository: codex-imagegen
+    artifact: exec-d04b4ebc-e191-47b7-b45b-1fcf834ec1a2.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-grainstead-hazel-leaf-shrub-v1
+  version: v1
+  path: assets/billboards/town-grainstead-hazel-leaf-shrub-v1.png
+  name: 개암잎 관목
+  width: 1374
+  height: 1145
+  sha256: 52429a3a001fc3df01de5231f6f973a072f7980e0225f86b341d60c751d27c3a
+  source:
+    repository: codex-imagegen
+    artifact: exec-3ebec34a-27f7-4f61-a4e8-58e305035b25.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-grainstead-white-field-daisy-v1
+  version: v1
+  path: assets/billboards/town-grainstead-white-field-daisy-v1.png
+  name: 흰 들국화
+  width: 1312
+  height: 1199
+  sha256: 1c40497bac35a9d85826096096ee096eb32de0dfc784922bf6badb155b12d668
+  source:
+    repository: codex-imagegen
+    artifact: exec-8f4446d6-c5f9-4ec1-bce1-42649a6ba195.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-grainstead-wild-raspberry-bush-v1
+  version: v1
+  path: assets/billboards/town-grainstead-wild-raspberry-bush-v1.png
+  name: 산딸기 관목
+  width: 1312
+  height: 1199
+  sha256: 2c70c34b87a794225b49432d9ba670b13d2f138ab264854c510c36e511184fb6
+  source:
+    repository: codex-imagegen
+    artifact: exec-2c773152-6419-463e-b2bc-9c91346a896f.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-grainstead-green-field-hedge-v1
+  version: v1
+  path: assets/billboards/town-grainstead-green-field-hedge-v1.png
+  name: 초록 들울타리
+  width: 1536
+  height: 1024
+  sha256: 1b47ec97b5235dc0e8a63aff0940d63825ca4a001aad0123f4899e333c10cd52
+  source:
+    repository: codex-imagegen
+    artifact: exec-40f98685-f7a7-45dd-8873-2bd7affc2b98.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-saltford-coastal-silver-shrub-v1
+  version: v1
+  path: assets/billboards/town-saltford-coastal-silver-shrub-v1.png
+  name: 해안 은빛 관목
+  width: 1356
+  height: 1160
+  sha256: f777cc2e5d2063323aec87808b5a29a0b3fc624b6dca13112a82f815e8d0636c
+  source:
+    repository: codex-imagegen
+    artifact: exec-d075eb79-a86b-43e0-9309-c915d4c1170e.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-saltford-salt-marsh-grass-v1
+  version: v1
+  path: assets/billboards/town-saltford-salt-marsh-grass-v1.png
+  name: 염습지 풀
+  width: 1216
+  height: 1293
+  sha256: 3fa7f43b03f2351671dcd967e3e0d63e271949916b818b731fb22ddbf0614a4f
+  source:
+    repository: codex-imagegen
+    artifact: exec-e2871284-c805-439d-975c-f58aec89a5f1.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-saltford-sea-lavender-clump-v1
+  version: v1
+  path: assets/billboards/town-saltford-sea-lavender-clump-v1.png
+  name: 해안 보라꽃
+  width: 1312
+  height: 1199
+  sha256: dd83ac4cd28c2302eaf67aca16dcdb6ff220cb3d2eef2cae4f4dd745cc794a07
+  source:
+    repository: codex-imagegen
+    artifact: exec-3baf3008-d8d5-4b9d-a704-727353b5f104.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-saltford-thick-leaf-bush-v1
+  version: v1
+  path: assets/billboards/town-saltford-thick-leaf-bush-v1.png
+  name: 두꺼운잎 관목
+  width: 1374
+  height: 1145
+  sha256: ab311b4eff7ef874775b15d42e787114dd439906ecfc43369b974a55b0152bd8
+  source:
+    repository: codex-imagegen
+    artifact: exec-fbaaedab-5223-4616-80ba-77cac0f484bb.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-saltford-pale-coastal-heather-v1
+  version: v1
+  path: assets/billboards/town-saltford-pale-coastal-heather-v1.png
+  name: 연분홍 해안 헤더
+  width: 1307
+  height: 1203
+  sha256: 1419d40f829f5e8da581c35d5b4cf8c8d05c36e7e9e32e7451ddd2ab6720eafd
+  source:
+    repository: codex-imagegen
+    artifact: exec-6a840a18-c941-4099-ab94-8fd3a2e50459.png
+    operation: 마을 식생·관목 투명 스프라이트 생성
+- managementId: image.scenery.town-saltford-wind-bent-sedge-v1
+  version: v1
+  path: assets/billboards/town-saltford-wind-bent-sedge-v1.png
+  name: 바람결 사초
+  width: 1536
+  height: 1024
+  sha256: 0c43ab2d9d2622a36aa2ef75631d0832b9c7209cc6fe548d3fa9569e9cee7d34
+  source:
+    repository: codex-imagegen
+    artifact: exec-8bd01166-c586-40ff-91b5-c71698a87632.png
+    operation: 마을 식생·관목 투명 스프라이트 생성

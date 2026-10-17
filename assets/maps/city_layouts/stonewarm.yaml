@@ -1,6 +1,6 @@
 managementId: config.city-layouts.stonewarm
 data:
-  version: 3
+  version: 9
   cityId: stonewarm
   columns: 24
   rows: 24
@@ -11,9 +11,9 @@ data:
   - ssssssssssspssssssssssss
   - ssspppppssspssspppppssss
   - ssspppppssspssspppppssss
-  - ssspppppppppssspppppssss
-  - ssspppppssspssspppppssss
-  - ssspppppssspppppppppssss
+  - sssppppppppppsspppppssss
+  - sssppppppssppsspppppssss
+  - sssppppppsspppppppppssss
   - sssssssspppppppsssssssss
   - ssssssssppppppppppppssss
   - ssssssssppppppppppppssss
@@ -124,6 +124,44 @@ data:
       anchorX: 0.503987
       anchorY: 0.885965
       contentWidth: 0.940989
+  - id: stonewarm-mason-house
+    name: 일반 주택 가
+    kind: residence
+    facilityId: null
+    origin:
+      column: 8
+      row: 3
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 8
+      row: 5
+    facing: south
+    sprite:
+      textureKey: town-stonewarm-mason-house-v1
+      anchorX: 0.536204
+      anchorY: 0.971643
+      contentWidth: 0.854421
+  - id: stonewarm-hearth-house
+    name: 일반 주택 나
+    kind: residence
+    facilityId: null
+    origin:
+      column: 12
+      row: 3
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 12
+      row: 5
+    facing: south
+    sprite:
+      textureKey: town-stonewarm-hearth-house-v1
+      anchorX: 0.523628
+      anchorY: 0.963303
+      contentWidth: 0.830793
   connections:
   - column: 12
     row: 0
@@ -137,7 +175,7 @@ data:
       column: 3
       row: 2
     textureKey: orchard-old-tree-v2
-    displayHeight: 150.0
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -146,8 +184,8 @@ data:
     position:
       column: 9
       row: 2
-    textureKey: orchard-old-tree-v2
-    displayHeight: 150.0
+    textureKey: orchard-old-tree-variant-1-v2
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -156,8 +194,8 @@ data:
     position:
       column: 20
       row: 3
-    textureKey: orchard-old-tree-v2
-    displayHeight: 150.0
+    textureKey: orchard-old-tree-variant-2-v2
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -167,7 +205,7 @@ data:
       column: 2
       row: 9
     textureKey: orchard-old-tree-v2
-    displayHeight: 150.0
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -176,8 +214,8 @@ data:
     position:
       column: 21
       row: 19
-    textureKey: orchard-old-tree-v2
-    displayHeight: 150.0
+    textureKey: orchard-old-tree-variant-1-v2
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -186,8 +224,8 @@ data:
     position:
       column: 4
       row: 21
-    textureKey: orchard-old-tree-v2
-    displayHeight: 150.0
+    textureKey: orchard-old-tree-variant-2-v2
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -196,130 +234,130 @@ data:
     position:
       column: 6
       row: 1
-    textureKey: dry-grass-v1
-    displayHeight: 42.0
+    textureKey: dry-grass-variant-1-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.83594
     tileAnchor: center
   - id: stonewarm-garden-8
     kind: decoration
     position:
       column: 7
       row: 1
-    textureKey: dry-grass-v1
-    displayHeight: 42.0
+    textureKey: dry-grass-variant-2-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.79688
     tileAnchor: center
   - id: stonewarm-garden-9
     kind: decoration
     position:
       column: 7
       row: 2
-    textureKey: dry-grass-v1
-    displayHeight: 42.0
+    textureKey: seed-grass-variant-1-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.80469
     tileAnchor: center
   - id: stonewarm-garden-10
     kind: decoration
     position:
       column: 16
       row: 1
-    textureKey: dry-shrub-v1
-    displayHeight: 42.0
+    textureKey: dry-shrub-variant-1-v1
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.89844
     tileAnchor: center
   - id: stonewarm-garden-11
     kind: decoration
     position:
       column: 17
       row: 1
-    textureKey: dry-shrub-v1
-    displayHeight: 42.0
+    textureKey: dry-shrub-variant-2-v1
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.78125
     tileAnchor: center
   - id: stonewarm-garden-12
     kind: decoration
     position:
       column: 18
       row: 2
-    textureKey: dry-shrub-v1
-    displayHeight: 42.0
+    textureKey: dry-grass-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.79688
     tileAnchor: center
   - id: stonewarm-garden-13
     kind: decoration
     position:
       column: 1
       row: 4
-    textureKey: hollow-log-v1
-    displayHeight: 42.0
+    textureKey: dry-grass-variant-3-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.9375
     tileAnchor: center
   - id: stonewarm-garden-14
     kind: decoration
     position:
       column: 2
       row: 5
-    textureKey: hollow-log-v1
-    displayHeight: 42.0
+    textureKey: broadleaf-variant-1-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.82812
     tileAnchor: center
   - id: stonewarm-garden-15
     kind: decoration
     position:
       column: 1
       row: 7
-    textureKey: hollow-log-v1
-    displayHeight: 42.0
+    textureKey: sorrel-variant-1-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.875
     tileAnchor: center
   - id: stonewarm-garden-16
     kind: decoration
     position:
       column: 21
       row: 5
-    textureKey: old-stump-v1
-    displayHeight: 42.0
+    textureKey: dry-shrub-variant-3-v1
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.875
     tileAnchor: center
   - id: stonewarm-garden-17
     kind: decoration
     position:
       column: 22
       row: 6
-    textureKey: old-stump-v1
-    displayHeight: 42.0
+    textureKey: seed-grass-variant-2-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.92188
     tileAnchor: center
   - id: stonewarm-garden-18
     kind: decoration
     position:
       column: 21
       row: 8
-    textureKey: old-stump-v1
-    displayHeight: 42.0
+    textureKey: dry-grass-variant-1-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.83594
     tileAnchor: center
   - id: stonewarm-garden-19
     kind: decoration
     position:
       column: 2
       row: 14
-    textureKey: dry-grass-v1
-    displayHeight: 42.0
+    textureKey: orchard-chunky-grass-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.87576
     tileAnchor: center
   - id: stonewarm-garden-20
     kind: decoration
@@ -327,29 +365,29 @@ data:
       column: 3
       row: 14
     textureKey: dry-grass-v1
-    displayHeight: 42.0
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.79688
     tileAnchor: center
   - id: stonewarm-garden-21
     kind: decoration
     position:
       column: 1
       row: 16
-    textureKey: dry-grass-v1
-    displayHeight: 42.0
+    textureKey: sorrel-variant-2-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.97656
     tileAnchor: center
   - id: stonewarm-garden-22
     kind: decoration
     position:
       column: 21
       row: 14
-    textureKey: dry-shrub-v1
-    displayHeight: 42.0
+    textureKey: orchard-chunky-dryshrub-v1
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.94435
     tileAnchor: center
   - id: stonewarm-garden-23
     kind: decoration
@@ -357,197 +395,407 @@ data:
       column: 22
       row: 15
     textureKey: dry-shrub-v1
-    displayHeight: 42.0
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.80469
     tileAnchor: center
   - id: stonewarm-garden-24
     kind: decoration
     position:
       column: 21
       row: 16
-    textureKey: dry-shrub-v1
-    displayHeight: 42.0
+    textureKey: broadleaf-variant-3-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.94531
     tileAnchor: center
   - id: stonewarm-garden-25
     kind: decoration
     position:
       column: 7
       row: 21
-    textureKey: hollow-log-v1
-    displayHeight: 42.0
+    textureKey: seed-grass-variant-3-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.83594
     tileAnchor: center
   - id: stonewarm-garden-26
     kind: decoration
     position:
       column: 8
       row: 22
-    textureKey: hollow-log-v1
-    displayHeight: 42.0
+    textureKey: dry-grass-variant-2-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.79688
     tileAnchor: center
   - id: stonewarm-garden-27
     kind: decoration
     position:
       column: 9
       row: 21
-    textureKey: hollow-log-v1
-    displayHeight: 42.0
+    textureKey: clover-variant-1-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.78906
     tileAnchor: center
   - id: stonewarm-garden-28
     kind: decoration
     position:
       column: 15
       row: 21
-    textureKey: old-stump-v1
-    displayHeight: 42.0
+    textureKey: dry-shrub-variant-1-v1
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.89844
     tileAnchor: center
   - id: stonewarm-garden-29
     kind: decoration
     position:
       column: 16
       row: 22
-    textureKey: old-stump-v1
-    displayHeight: 42.0
+    textureKey: broadleaf-variant-2-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.80469
     tileAnchor: center
   - id: stonewarm-garden-30
     kind: decoration
     position:
       column: 17
       row: 21
-    textureKey: old-stump-v1
-    displayHeight: 42.0
+    textureKey: dry-grass-variant-3-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.9375
     tileAnchor: center
   - id: stonewarm-garden-31
     kind: decoration
     position:
       column: 19
       row: 21
-    textureKey: dry-grass-v1
-    displayHeight: 42.0
+    textureKey: dry-grass-variant-1-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.83594
     tileAnchor: center
   - id: stonewarm-garden-32
     kind: decoration
     position:
       column: 20
       row: 22
-    textureKey: dry-grass-v1
-    displayHeight: 42.0
+    textureKey: seed-grass-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.84375
     tileAnchor: center
   - id: stonewarm-garden-33
     kind: decoration
     position:
       column: 21
       row: 21
-    textureKey: dry-grass-v1
-    displayHeight: 42.0
+    textureKey: sorrel-clump-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.92188
     tileAnchor: center
   - id: stonewarm-prop-1
     kind: decoration
     position:
-      column: 20
-      row: 10
-    textureKey: town-grindstone-v1
-    displayHeight: 55.0
+      column: 2
+      row: 4
+    textureKey: town-notice-board-v1
+    displayHeight: 130.0
     anchorX: 0.5
-    anchorY: 0.87799
+    anchorY: 0.95933
     tileAnchor: center
   - id: stonewarm-prop-2
     kind: decoration
     position:
-      column: 21
-      row: 17
+      column: 2
+      row: 6
     textureKey: town-metal-bin-v1
-    displayHeight: 55.0
+    displayHeight: 95.0
     anchorX: 0.5
     anchorY: 0.86603
     tileAnchor: center
   - id: stonewarm-prop-3
     kind: decoration
     position:
-      column: 14
-      row: 20
-    textureKey: town-charcoal-stack-v1
-    displayHeight: 55.0
+      column: 2
+      row: 8
+    textureKey: town-ground-lantern-v1
+    displayHeight: 95.0
     anchorX: 0.5
-    anchorY: 0.80941
+    anchorY: 0.874
     tileAnchor: center
   - id: stonewarm-prop-4
     kind: decoration
     position:
-      column: 2
-      row: 6
-    textureKey: town-repair-rack-v1
-    displayHeight: 55.0
+      column: 14
+      row: 3
+    textureKey: town-record-chest-v1
+    displayHeight: 95.0
     anchorX: 0.5
-    anchorY: 0.86762
+    anchorY: 0.937
     tileAnchor: center
   - id: stonewarm-prop-5
     kind: decoration
     position:
       column: 14
       row: 5
-    textureKey: town-ore-basket-v1
-    displayHeight: 55.0
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
     anchorX: 0.5
-    anchorY: 0.83892
+    anchorY: 0.91069
     tileAnchor: center
   - id: stonewarm-prop-6
     kind: decoration
     position:
-      column: 8
-      row: 18
-    textureKey: town-wood-bench-v1
-    displayHeight: 55.0
+      column: 14
+      row: 6
+    textureKey: town-ore-basket-v1
+    displayHeight: 75.0
     anchorX: 0.5
-    anchorY: 0.91069
+    anchorY: 0.83892
     tileAnchor: center
   - id: stonewarm-prop-7
     kind: decoration
     position:
-      column: 9
-      row: 20
-    textureKey: town-low-fence-v1
-    displayHeight: 55.0
+      column: 20
+      row: 4
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
     anchorX: 0.5
-    anchorY: 0.8453
+    anchorY: 0.85407
     tileAnchor: center
   - id: stonewarm-prop-8
     kind: decoration
     position:
       column: 20
-      row: 7
+      row: 6
     textureKey: town-ground-lantern-v1
-    displayHeight: 55.0
+    displayHeight: 95.0
     anchorX: 0.5
     anchorY: 0.874
     tileAnchor: center
   - id: stonewarm-prop-9
     kind: decoration
     position:
-      column: 9
-      row: 4
+      column: 20
+      row: 9
+    textureKey: town-metal-bin-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.86603
+    tileAnchor: center
+  - id: stonewarm-prop-10
+    kind: decoration
+    position:
+      column: 20
+      row: 11
+    textureKey: town-ore-basket-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.83892
+    tileAnchor: center
+  - id: stonewarm-prop-11
+    kind: decoration
+    position:
+      column: 21
+      row: 10
+    textureKey: town-handcart-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.89633
+    tileAnchor: center
+  - id: stonewarm-prop-12
+    kind: decoration
+    position:
+      column: 20
+      row: 16
+    textureKey: town-grindstone-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.87799
+    tileAnchor: center
+  - id: stonewarm-prop-14
+    kind: decoration
+    position:
+      column: 18
+      row: 20
+    textureKey: town-charcoal-stack-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.80941
+    tileAnchor: center
+  - id: stonewarm-prop-15
+    kind: decoration
+    position:
+      column: 16
+      row: 20
+    textureKey: town-metal-bin-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.86603
+    tileAnchor: center
+  - id: stonewarm-prop-16
+    kind: decoration
+    position:
+      column: 1
+      row: 18
     textureKey: town-herb-planter-v1
-    displayHeight: 55.0
+    displayHeight: 75.0
     anchorX: 0.5
     anchorY: 0.85407
+    tileAnchor: center
+  - id: stonewarm-prop-17
+    kind: decoration
+    position:
+      column: 1
+      row: 20
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: stonewarm-prop-18
+    kind: decoration
+    position:
+      column: 6
+      row: 20
+    textureKey: town-low-fence-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: stonewarm-prop-19
+    kind: decoration
+    position:
+      column: 8
+      row: 19
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: stonewarm-prop-20
+    kind: decoration
+    position:
+      column: 8
+      row: 21
+    textureKey: town-charcoal-stack-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.80941
+    tileAnchor: center
+  - id: stonewarm-life-scene
+    kind: decoration
+    position:
+      column: 14
+      row: 19
+    textureKey: town-stonewarm-repair-process-v1
+    displayHeight: 155.0
+    anchorX: 0.5
+    anchorY: 0.94896
+    tileAnchor: center
+  - id: stonewarm-life-scene-addition
+    kind: decoration
+    position:
+      column: 21
+      row: 18
+    textureKey: town-stonewarm-repair-handover-v1
+    displayHeight: 140.0
+    anchorX: 0.5
+    anchorY: 0.99092
+    tileAnchor: center
+  - id: stonewarm-garden-infill-1
+    kind: decoration
+    position:
+      column: 5
+      row: 10
+    textureKey: dry-grass-variant-1-v1
+    displayHeight: 64.0
+    anchorX: 0.5
+    anchorY: 0.83594
+    tileAnchor: center
+  - id: stonewarm-garden-infill-2
+    kind: decoration
+    position:
+      column: 6
+      row: 10
+    textureKey: dry-grass-variant-2-v1
+    displayHeight: 64.0
+    anchorX: 0.5
+    anchorY: 0.79688
+    tileAnchor: center
+  - id: stonewarm-garden-infill-4
+    kind: decoration
+    position:
+      column: 14
+      row: 2
+    textureKey: dry-shrub-variant-2-v1
+    displayHeight: 82.0
+    anchorX: 0.5
+    anchorY: 0.78125
+    tileAnchor: center
+  - id: stonewarm-silver-sage-shrub
+    kind: decoration
+    position:
+      column: 10
+      row: 4
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.509461
+    anchorY: 0.924891
+    tileAnchor: center
+  - id: stonewarm-rust-heather-bush
+    kind: decoration
+    position:
+      column: 14
+      row: 4
+    textureKey: town-stonewarm-rust-heather-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.511281
+    anchorY: 0.959825
+    tileAnchor: center
+  - id: stonewarm-stone-thyme-cushion
+    kind: decoration
+    position:
+      column: 9
+      row: 6
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+    displayHeight: 58.0
+    anchorX: 0.511068
+    anchorY: 0.917969
+    tileAnchor: center
+  - id: stonewarm-sturdy-juniper-shrub
+    kind: decoration
+    position:
+      column: 13
+      row: 2
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.514648
+    anchorY: 0.957031
+    tileAnchor: center
+  - id: stonewarm-copper-leaf-bush
+    kind: decoration
+    position:
+      column: 10
+      row: 1
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.50107
+    anchorY: 0.954545
+    tileAnchor: center
+  - id: stonewarm-dry-golden-grass
+    kind: decoration
+    position:
+      column: 13
+      row: 1
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    displayHeight: 58.0
+    anchorX: 0.505747
+    anchorY: 0.985075
     tileAnchor: center

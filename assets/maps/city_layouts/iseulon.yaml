@@ -1,6 +1,6 @@
 managementId: config.city-layouts.iseulon
 data:
-  version: 3
+  version: 9
   cityId: iseulon
   columns: 24
   rows: 24
@@ -11,8 +11,8 @@ data:
   - gggggggggggggggggggggggg
   - gggpppppgggggggpppppgggg
   - gggpppppgggggggpppppgggg
-  - gggpppppgggggggpppppgggg
-  - gggpppppgggggggpppppgggg
+  - gggppppppgggpggpppppgggg
+  - gggppppppgggpggpppppgggg
   - gggpppppppppppppppppgggg
   - ggggggggpppppppggggggggg
   - ggggggggppppppppppppgggg
@@ -124,6 +124,44 @@ data:
       anchorX: 0.507974
       anchorY: 0.855662
       contentWidth: 0.91866
+  - id: iseulon-garden-house
+    name: 일반 주택 가
+    kind: residence
+    facilityId: null
+    origin:
+      column: 8
+      row: 3
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 8
+      row: 5
+    facing: south
+    sprite:
+      textureKey: town-iseulon-garden-house-v1
+      anchorX: 0.541159
+      anchorY: 0.972477
+      contentWidth: 0.859756
+  - id: iseulon-courtyard-house
+    name: 일반 주택 나
+    kind: residence
+    facilityId: null
+    origin:
+      column: 12
+      row: 3
+    width: 2
+    height: 2
+    floors: 2
+    entrance:
+      column: 12
+      row: 5
+    facing: south
+    sprite:
+      textureKey: town-iseulon-courtyard-house-v1
+      anchorX: 0.532233
+      anchorY: 0.96686
+      contentWidth: 0.869532
   connections:
   - column: 0
     row: 12
@@ -147,7 +185,7 @@ data:
       column: 3
       row: 2
     textureKey: orchard-young-tree-v2
-    displayHeight: 150.0
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -157,7 +195,7 @@ data:
       column: 9
       row: 2
     textureKey: orchard-young-tree-variant-1-v2
-    displayHeight: 150.0
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -166,8 +204,8 @@ data:
     position:
       column: 20
       row: 3
-    textureKey: orchard-young-tree-v2
-    displayHeight: 150.0
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -176,8 +214,8 @@ data:
     position:
       column: 2
       row: 9
-    textureKey: orchard-young-tree-variant-1-v2
-    displayHeight: 150.0
+    textureKey: orchard-young-tree-v2
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -186,8 +224,8 @@ data:
     position:
       column: 21
       row: 19
-    textureKey: orchard-young-tree-v2
-    displayHeight: 150.0
+    textureKey: orchard-young-tree-variant-1-v2
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -196,8 +234,8 @@ data:
     position:
       column: 4
       row: 21
-    textureKey: orchard-young-tree-variant-1-v2
-    displayHeight: 150.0
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 220.0
     anchorX: 0.5
     anchorY: 0.94
     tileAnchor: center
@@ -206,120 +244,110 @@ data:
     position:
       column: 6
       row: 1
-    textureKey: white-daisies-v1
-    displayHeight: 42.0
+    textureKey: daisy-variant-1-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.86719
     tileAnchor: center
   - id: iseulon-garden-8
     kind: decoration
     position:
       column: 7
       row: 1
-    textureKey: white-daisies-v1
-    displayHeight: 42.0
+    textureKey: daisy-variant-2-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.85156
     tileAnchor: center
   - id: iseulon-garden-9
     kind: decoration
     position:
       column: 7
       row: 2
-    textureKey: white-daisies-v1
-    displayHeight: 42.0
+    textureKey: clover-variant-1-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.78906
     tileAnchor: center
   - id: iseulon-garden-10
     kind: decoration
     position:
       column: 16
       row: 1
-    textureKey: yellow-dandelions-v1
-    displayHeight: 42.0
+    textureKey: dandelion-variant-1-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.82812
     tileAnchor: center
   - id: iseulon-garden-11
     kind: decoration
     position:
       column: 17
       row: 1
-    textureKey: yellow-dandelions-v1
-    displayHeight: 42.0
+    textureKey: dandelion-variant-3-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.85938
     tileAnchor: center
   - id: iseulon-garden-12
     kind: decoration
     position:
       column: 18
       row: 2
-    textureKey: yellow-dandelions-v1
-    displayHeight: 42.0
+    textureKey: grass-clump-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.8125
     tileAnchor: center
   - id: iseulon-garden-13
     kind: decoration
     position:
       column: 1
       row: 4
-    textureKey: clover-clump-v1
-    displayHeight: 42.0
+    textureKey: clover-variant-2-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.75
     tileAnchor: center
   - id: iseulon-garden-14
     kind: decoration
     position:
       column: 2
       row: 5
-    textureKey: clover-clump-v1
-    displayHeight: 42.0
+    textureKey: sorrel-variant-1-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.875
     tileAnchor: center
   - id: iseulon-garden-15
     kind: decoration
     position:
       column: 1
       row: 7
-    textureKey: clover-clump-v1
-    displayHeight: 42.0
+    textureKey: clover-variant-3-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.86719
     tileAnchor: center
   - id: iseulon-garden-16
     kind: decoration
     position:
       column: 21
       row: 5
-    textureKey: berry-shrub-v1
-    displayHeight: 42.0
+    textureKey: berry-variant-1-v1
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.88281
     tileAnchor: center
   - id: iseulon-garden-17
     kind: decoration
     position:
       column: 22
       row: 6
-    textureKey: berry-shrub-v1
-    displayHeight: 42.0
+    textureKey: berry-variant-2-v1
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
-    tileAnchor: center
-  - id: iseulon-garden-18
-    kind: decoration
-    position:
-      column: 21
-      row: 8
-    textureKey: berry-shrub-v1
-    displayHeight: 42.0
-    anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.75
     tileAnchor: center
   - id: iseulon-garden-19
     kind: decoration
@@ -327,29 +355,29 @@ data:
       column: 2
       row: 14
     textureKey: white-daisies-v1
-    displayHeight: 42.0
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.78906
     tileAnchor: center
   - id: iseulon-garden-20
     kind: decoration
     position:
       column: 3
       row: 14
-    textureKey: white-daisies-v1
-    displayHeight: 42.0
+    textureKey: daisy-variant-3-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.90625
     tileAnchor: center
   - id: iseulon-garden-21
     kind: decoration
     position:
       column: 1
       row: 16
-    textureKey: white-daisies-v1
-    displayHeight: 42.0
+    textureKey: town-herb-planter-v1
+    displayHeight: 74.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.85407
     tileAnchor: center
   - id: iseulon-garden-22
     kind: decoration
@@ -357,29 +385,29 @@ data:
       column: 21
       row: 14
     textureKey: yellow-dandelions-v1
-    displayHeight: 42.0
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.85156
     tileAnchor: center
   - id: iseulon-garden-23
     kind: decoration
     position:
       column: 22
       row: 15
-    textureKey: yellow-dandelions-v1
-    displayHeight: 42.0
+    textureKey: wildflower-clump-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.79688
     tileAnchor: center
   - id: iseulon-garden-24
     kind: decoration
     position:
       column: 21
       row: 16
-    textureKey: yellow-dandelions-v1
-    displayHeight: 42.0
+    textureKey: grass-clump-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.8125
     tileAnchor: center
   - id: iseulon-garden-25
     kind: decoration
@@ -387,69 +415,69 @@ data:
       column: 7
       row: 21
     textureKey: clover-clump-v1
-    displayHeight: 42.0
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.76562
     tileAnchor: center
   - id: iseulon-garden-26
     kind: decoration
     position:
       column: 8
       row: 22
-    textureKey: clover-clump-v1
-    displayHeight: 42.0
+    textureKey: sorrel-variant-2-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.97656
     tileAnchor: center
   - id: iseulon-garden-27
     kind: decoration
     position:
       column: 9
       row: 21
-    textureKey: clover-clump-v1
-    displayHeight: 42.0
+    textureKey: clover-variant-1-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.78906
     tileAnchor: center
   - id: iseulon-garden-28
     kind: decoration
     position:
       column: 15
       row: 21
-    textureKey: berry-shrub-v1
-    displayHeight: 42.0
+    textureKey: berry-variant-3-v1
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.86719
     tileAnchor: center
   - id: iseulon-garden-29
     kind: decoration
     position:
       column: 16
       row: 22
-    textureKey: berry-shrub-v1
-    displayHeight: 42.0
+    textureKey: orchard-chunky-shrub-v1
+    displayHeight: 82.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.93843
     tileAnchor: center
   - id: iseulon-garden-30
     kind: decoration
     position:
       column: 17
       row: 21
-    textureKey: berry-shrub-v1
-    displayHeight: 42.0
+    textureKey: sorrel-clump-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.92188
     tileAnchor: center
   - id: iseulon-garden-31
     kind: decoration
     position:
       column: 19
       row: 21
-    textureKey: white-daisies-v1
-    displayHeight: 42.0
+    textureKey: orchard-chunky-flower-v1
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.98341
     tileAnchor: center
   - id: iseulon-garden-32
     kind: decoration
@@ -457,107 +485,317 @@ data:
       column: 20
       row: 22
     textureKey: white-daisies-v1
-    displayHeight: 42.0
+    displayHeight: 64.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.78906
     tileAnchor: center
   - id: iseulon-garden-33
     kind: decoration
     position:
       column: 21
       row: 21
-    textureKey: white-daisies-v1
-    displayHeight: 42.0
+    textureKey: clover-variant-2-v1
+    displayHeight: 44.0
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.75
     tileAnchor: center
   - id: iseulon-prop-1
     kind: decoration
     position:
-      column: 20
-      row: 10
-    textureKey: town-delivery-crates-v1
-    displayHeight: 55.0
+      column: 2
+      row: 4
+    textureKey: town-notice-board-v1
+    displayHeight: 130.0
     anchorX: 0.5
-    anchorY: 0.93939
-    tileAnchor: center
-  - id: iseulon-prop-2
-    kind: decoration
-    position:
-      column: 21
-      row: 17
-    textureKey: town-handcart-v1
-    displayHeight: 55.0
-    anchorX: 0.5
-    anchorY: 0.89633
+    anchorY: 0.95933
     tileAnchor: center
   - id: iseulon-prop-3
     kind: decoration
     position:
-      column: 14
-      row: 20
-    textureKey: town-food-stall-v1
-    displayHeight: 55.0
+      column: 2
+      row: 8
+    textureKey: town-ground-lantern-v1
+    displayHeight: 95.0
     anchorX: 0.5
-    anchorY: 0.9362
+    anchorY: 0.874
     tileAnchor: center
   - id: iseulon-prop-4
     kind: decoration
     position:
-      column: 2
-      row: 6
-    textureKey: town-notice-board-v1
-    displayHeight: 85.0
+      column: 14
+      row: 3
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
     anchorX: 0.5
-    anchorY: 0.95933
+    anchorY: 0.85407
     tileAnchor: center
   - id: iseulon-prop-5
     kind: decoration
     position:
       column: 14
       row: 5
-    textureKey: town-herb-planter-v1
-    displayHeight: 55.0
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
     anchorX: 0.5
-    anchorY: 0.85407
+    anchorY: 0.91069
     tileAnchor: center
   - id: iseulon-prop-6
     kind: decoration
     position:
-      column: 8
-      row: 18
-    textureKey: town-wood-bench-v1
-    displayHeight: 55.0
+      column: 14
+      row: 6
+    textureKey: town-record-chest-v1
+    displayHeight: 95.0
     anchorX: 0.5
-    anchorY: 0.91069
+    anchorY: 0.937
     tileAnchor: center
   - id: iseulon-prop-7
     kind: decoration
     position:
-      column: 9
-      row: 20
-    textureKey: town-low-fence-v1
-    displayHeight: 55.0
+      column: 20
+      row: 4
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
     anchorX: 0.5
-    anchorY: 0.8453
+    anchorY: 0.85407
     tileAnchor: center
   - id: iseulon-prop-8
     kind: decoration
     position:
       column: 20
-      row: 7
+      row: 6
     textureKey: town-ground-lantern-v1
-    displayHeight: 55.0
+    displayHeight: 95.0
     anchorX: 0.5
     anchorY: 0.874
     tileAnchor: center
   - id: iseulon-prop-9
     kind: decoration
     position:
-      column: 9
-      row: 5
+      column: 20
+      row: 9
+    textureKey: town-food-stall-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.9362
+    tileAnchor: center
+  - id: iseulon-prop-10
+    kind: decoration
+    position:
+      column: 20
+      row: 11
+    textureKey: town-delivery-crates-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.93939
+    tileAnchor: center
+  - id: iseulon-prop-11
+    kind: decoration
+    position:
+      column: 21
+      row: 10
+    textureKey: town-handcart-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.89633
+    tileAnchor: center
+  - id: iseulon-prop-12
+    kind: decoration
+    position:
+      column: 20
+      row: 16
+    textureKey: town-repair-rack-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.86762
+    tileAnchor: center
+  - id: iseulon-prop-13
+    kind: decoration
+    position:
+      column: 21
+      row: 18
+    textureKey: town-charcoal-stack-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.80941
+    tileAnchor: center
+  - id: iseulon-prop-14
+    kind: decoration
+    position:
+      column: 18
+      row: 20
+    textureKey: town-handcart-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.89633
+    tileAnchor: center
+  - id: iseulon-prop-15
+    kind: decoration
+    position:
+      column: 16
+      row: 20
+    textureKey: town-delivery-crates-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.93939
+    tileAnchor: center
+  - id: iseulon-prop-16
+    kind: decoration
+    position:
+      column: 1
+      row: 18
     textureKey: town-herb-planter-v1
-    displayHeight: 55.0
+    displayHeight: 75.0
     anchorX: 0.5
     anchorY: 0.85407
+    tileAnchor: center
+  - id: iseulon-prop-17
+    kind: decoration
+    position:
+      column: 1
+      row: 20
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: iseulon-prop-18
+    kind: decoration
+    position:
+      column: 6
+      row: 20
+    textureKey: town-low-fence-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: iseulon-prop-19
+    kind: decoration
+    position:
+      column: 8
+      row: 19
+    textureKey: town-wood-bench-v1
+    displayHeight: 95.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: iseulon-prop-20
+    kind: decoration
+    position:
+      column: 8
+      row: 21
+    textureKey: town-herb-planter-v1
+    displayHeight: 75.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center
+  - id: iseulon-life-scene
+    kind: decoration
+    position:
+      column: 21
+      row: 8
+    textureKey: town-iseulon-jelly-counter-v1
+    displayHeight: 155.0
+    anchorX: 0.5
+    anchorY: 0.92185
+    tileAnchor: center
+  - id: iseulon-life-scene-addition
+    kind: decoration
+    position:
+      column: 2
+      row: 6
+    textureKey: town-iseulon-material-training-v1
+    displayHeight: 140.0
+    anchorX: 0.5
+    anchorY: 0.9873
+    tileAnchor: center
+  - id: iseulon-garden-infill-1
+    kind: decoration
+    position:
+      column: 5
+      row: 10
+    textureKey: daisy-variant-1-v1
+    displayHeight: 64.0
+    anchorX: 0.5
+    anchorY: 0.86719
+    tileAnchor: center
+  - id: iseulon-garden-infill-2
+    kind: decoration
+    position:
+      column: 6
+      row: 10
+    textureKey: daisy-variant-2-v1
+    displayHeight: 64.0
+    anchorX: 0.5
+    anchorY: 0.85156
+    tileAnchor: center
+  - id: iseulon-garden-infill-4
+    kind: decoration
+    position:
+      column: 14
+      row: 2
+    textureKey: dandelion-variant-3-v1
+    displayHeight: 64.0
+    anchorX: 0.5
+    anchorY: 0.85938
+    tileAnchor: center
+  - id: iseulon-round-rose-shrub
+    kind: decoration
+    position:
+      column: 10
+      row: 4
+    textureKey: town-iseulon-round-rose-shrub-v1
+    displayHeight: 80.0
+    anchorX: 0.49818
+    anchorY: 0.959825
+    tileAnchor: center
+  - id: iseulon-white-bloom-hedge
+    kind: decoration
+    position:
+      column: 14
+      row: 4
+    textureKey: town-iseulon-white-bloom-hedge-v1
+    displayHeight: 80.0
+    anchorX: 0.50293
+    anchorY: 0.883789
+    tileAnchor: center
+  - id: iseulon-lemon-herb-clump
+    kind: decoration
+    position:
+      column: 9
+      row: 6
+    textureKey: town-iseulon-lemon-herb-clump-v1
+    displayHeight: 58.0
+    anchorX: 0.501143
+    anchorY: 0.938282
+    tileAnchor: center
+  - id: iseulon-red-berry-bush
+    kind: decoration
+    position:
+      column: 13
+      row: 2
+    textureKey: town-iseulon-red-berry-bush-v1
+    displayHeight: 80.0
+    anchorX: 0.502287
+    anchorY: 0.944954
+    tileAnchor: center
+  - id: iseulon-violet-garden-tuft
+    kind: decoration
+    position:
+      column: 10
+      row: 1
+    textureKey: town-iseulon-violet-garden-tuft-v1
+    displayHeight: 58.0
+    anchorX: 0.505435
+    anchorY: 0.914912
+    tileAnchor: center
+  - id: iseulon-soft-fern-cluster
+    kind: decoration
+    position:
+      column: 13
+      row: 1
+    textureKey: town-iseulon-soft-fern-cluster-v1
+    displayHeight: 58.0
+    anchorX: 0.500361
+    anchorY: 0.962148
     tileAnchor: center
