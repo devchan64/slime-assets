@@ -1,6 +1,6 @@
 managementId: config.city-layouts.reedhaven
 data:
-  version: 2
+  version: 3
   cityId: reedhaven
   columns: 24
   rows: 24
@@ -130,3 +130,424 @@ data:
     id: reedhaven-to-reed-crossing
     target: reed-crossing
     direction: west
+  objects:
+  - id: reedhaven-garden-1
+    kind: decoration
+    position:
+      column: 3
+      row: 2
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-2
+    kind: decoration
+    position:
+      column: 9
+      row: 2
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-3
+    kind: decoration
+    position:
+      column: 20
+      row: 3
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-4
+    kind: decoration
+    position:
+      column: 2
+      row: 9
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-5
+    kind: decoration
+    position:
+      column: 21
+      row: 19
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-6
+    kind: decoration
+    position:
+      column: 4
+      row: 21
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-7
+    kind: decoration
+    position:
+      column: 6
+      row: 1
+    textureKey: fern-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-8
+    kind: decoration
+    position:
+      column: 7
+      row: 1
+    textureKey: fern-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-9
+    kind: decoration
+    position:
+      column: 7
+      row: 2
+    textureKey: fern-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-10
+    kind: decoration
+    position:
+      column: 16
+      row: 1
+    textureKey: blue-wildflowers-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-11
+    kind: decoration
+    position:
+      column: 17
+      row: 1
+    textureKey: blue-wildflowers-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-12
+    kind: decoration
+    position:
+      column: 18
+      row: 2
+    textureKey: blue-wildflowers-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-13
+    kind: decoration
+    position:
+      column: 1
+      row: 4
+    textureKey: sorrel-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-14
+    kind: decoration
+    position:
+      column: 2
+      row: 5
+    textureKey: sorrel-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-15
+    kind: decoration
+    position:
+      column: 1
+      row: 7
+    textureKey: sorrel-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-16
+    kind: decoration
+    position:
+      column: 21
+      row: 5
+    textureKey: ivy-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-17
+    kind: decoration
+    position:
+      column: 22
+      row: 6
+    textureKey: ivy-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-18
+    kind: decoration
+    position:
+      column: 21
+      row: 8
+    textureKey: ivy-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-19
+    kind: decoration
+    position:
+      column: 2
+      row: 14
+    textureKey: fern-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-20
+    kind: decoration
+    position:
+      column: 3
+      row: 14
+    textureKey: fern-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-21
+    kind: decoration
+    position:
+      column: 1
+      row: 16
+    textureKey: fern-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-22
+    kind: decoration
+    position:
+      column: 21
+      row: 14
+    textureKey: blue-wildflowers-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-23
+    kind: decoration
+    position:
+      column: 22
+      row: 15
+    textureKey: blue-wildflowers-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-24
+    kind: decoration
+    position:
+      column: 21
+      row: 16
+    textureKey: blue-wildflowers-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-25
+    kind: decoration
+    position:
+      column: 7
+      row: 21
+    textureKey: sorrel-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-26
+    kind: decoration
+    position:
+      column: 8
+      row: 22
+    textureKey: sorrel-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-27
+    kind: decoration
+    position:
+      column: 9
+      row: 21
+    textureKey: sorrel-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-28
+    kind: decoration
+    position:
+      column: 15
+      row: 21
+    textureKey: ivy-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-29
+    kind: decoration
+    position:
+      column: 16
+      row: 22
+    textureKey: ivy-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-30
+    kind: decoration
+    position:
+      column: 17
+      row: 21
+    textureKey: ivy-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-31
+    kind: decoration
+    position:
+      column: 19
+      row: 21
+    textureKey: fern-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-32
+    kind: decoration
+    position:
+      column: 20
+      row: 22
+    textureKey: fern-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-garden-33
+    kind: decoration
+    position:
+      column: 21
+      row: 21
+    textureKey: fern-clump-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: reedhaven-prop-1
+    kind: decoration
+    position:
+      column: 20
+      row: 10
+    textureKey: town-reed-bundles-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.96013
+    tileAnchor: center
+  - id: reedhaven-prop-2
+    kind: decoration
+    position:
+      column: 21
+      row: 17
+    textureKey: town-herb-rack-v1
+    displayHeight: 85.0
+    anchorX: 0.5
+    anchorY: 0.94577
+    tileAnchor: center
+  - id: reedhaven-prop-3
+    kind: decoration
+    position:
+      column: 14
+      row: 20
+    textureKey: town-record-chest-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.937
+    tileAnchor: center
+  - id: reedhaven-prop-4
+    kind: decoration
+    position:
+      column: 2
+      row: 6
+    textureKey: town-layered-sign-v1
+    displayHeight: 85.0
+    anchorX: 0.5
+    anchorY: 0.90989
+    tileAnchor: center
+  - id: reedhaven-prop-5
+    kind: decoration
+    position:
+      column: 14
+      row: 5
+    textureKey: town-low-reeds-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.86443
+    tileAnchor: center
+  - id: reedhaven-prop-6
+    kind: decoration
+    position:
+      column: 8
+      row: 18
+    textureKey: town-wood-bench-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: reedhaven-prop-7
+    kind: decoration
+    position:
+      column: 9
+      row: 20
+    textureKey: town-low-fence-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: reedhaven-prop-8
+    kind: decoration
+    position:
+      column: 20
+      row: 7
+    textureKey: town-ground-lantern-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.874
+    tileAnchor: center
+  - id: reedhaven-prop-9
+    kind: decoration
+    position:
+      column: 9
+      row: 5
+    textureKey: town-herb-planter-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center

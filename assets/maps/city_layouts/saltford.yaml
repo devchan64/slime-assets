@@ -1,6 +1,6 @@
 managementId: config.city-layouts.saltford
 data:
-  version: 2
+  version: 3
   cityId: saltford
   columns: 24
   rows: 24
@@ -135,3 +135,424 @@ data:
     direction: north
     column: 12
     row: 0
+  objects:
+  - id: saltford-garden-1
+    kind: decoration
+    position:
+      column: 3
+      row: 2
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-2
+    kind: decoration
+    position:
+      column: 9
+      row: 2
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-3
+    kind: decoration
+    position:
+      column: 20
+      row: 3
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-4
+    kind: decoration
+    position:
+      column: 2
+      row: 9
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-5
+    kind: decoration
+    position:
+      column: 21
+      row: 19
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-6
+    kind: decoration
+    position:
+      column: 4
+      row: 21
+    textureKey: orchard-young-tree-variant-2-v2
+    displayHeight: 150.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-7
+    kind: decoration
+    position:
+      column: 6
+      row: 1
+    textureKey: dry-grass-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-8
+    kind: decoration
+    position:
+      column: 7
+      row: 1
+    textureKey: dry-grass-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-9
+    kind: decoration
+    position:
+      column: 7
+      row: 2
+    textureKey: dry-grass-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-10
+    kind: decoration
+    position:
+      column: 16
+      row: 1
+    textureKey: broadleaf-weed-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-11
+    kind: decoration
+    position:
+      column: 17
+      row: 1
+    textureKey: broadleaf-weed-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-12
+    kind: decoration
+    position:
+      column: 18
+      row: 2
+    textureKey: broadleaf-weed-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-13
+    kind: decoration
+    position:
+      column: 1
+      row: 4
+    textureKey: dry-shrub-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-14
+    kind: decoration
+    position:
+      column: 2
+      row: 5
+    textureKey: dry-shrub-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-15
+    kind: decoration
+    position:
+      column: 1
+      row: 7
+    textureKey: dry-shrub-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-16
+    kind: decoration
+    position:
+      column: 21
+      row: 5
+    textureKey: white-daisies-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-17
+    kind: decoration
+    position:
+      column: 22
+      row: 6
+    textureKey: white-daisies-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-18
+    kind: decoration
+    position:
+      column: 21
+      row: 8
+    textureKey: white-daisies-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-19
+    kind: decoration
+    position:
+      column: 2
+      row: 14
+    textureKey: dry-grass-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-20
+    kind: decoration
+    position:
+      column: 3
+      row: 14
+    textureKey: dry-grass-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-21
+    kind: decoration
+    position:
+      column: 1
+      row: 16
+    textureKey: dry-grass-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-22
+    kind: decoration
+    position:
+      column: 21
+      row: 14
+    textureKey: broadleaf-weed-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-23
+    kind: decoration
+    position:
+      column: 22
+      row: 15
+    textureKey: broadleaf-weed-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-24
+    kind: decoration
+    position:
+      column: 21
+      row: 16
+    textureKey: broadleaf-weed-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-25
+    kind: decoration
+    position:
+      column: 7
+      row: 21
+    textureKey: dry-shrub-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-26
+    kind: decoration
+    position:
+      column: 8
+      row: 22
+    textureKey: dry-shrub-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-27
+    kind: decoration
+    position:
+      column: 9
+      row: 21
+    textureKey: dry-shrub-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-28
+    kind: decoration
+    position:
+      column: 15
+      row: 21
+    textureKey: white-daisies-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-29
+    kind: decoration
+    position:
+      column: 16
+      row: 22
+    textureKey: white-daisies-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-30
+    kind: decoration
+    position:
+      column: 17
+      row: 21
+    textureKey: white-daisies-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-31
+    kind: decoration
+    position:
+      column: 19
+      row: 21
+    textureKey: dry-grass-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-32
+    kind: decoration
+    position:
+      column: 20
+      row: 22
+    textureKey: dry-grass-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-garden-33
+    kind: decoration
+    position:
+      column: 21
+      row: 21
+    textureKey: dry-grass-v1
+    displayHeight: 42.0
+    anchorX: 0.5
+    anchorY: 0.94
+    tileAnchor: center
+  - id: saltford-prop-1
+    kind: decoration
+    position:
+      column: 20
+      row: 10
+    textureKey: town-salt-barrels-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.86284
+    tileAnchor: center
+  - id: saltford-prop-2
+    kind: decoration
+    position:
+      column: 21
+      row: 17
+    textureKey: town-fish-rack-v1
+    displayHeight: 85.0
+    anchorX: 0.5
+    anchorY: 0.96332
+    tileAnchor: center
+  - id: saltford-prop-3
+    kind: decoration
+    position:
+      column: 14
+      row: 20
+    textureKey: town-rope-crates-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.90989
+    tileAnchor: center
+  - id: saltford-prop-4
+    kind: decoration
+    position:
+      column: 2
+      row: 6
+    textureKey: town-coastal-stall-v1
+    displayHeight: 85.0
+    anchorX: 0.5
+    anchorY: 0.96651
+    tileAnchor: center
+  - id: saltford-prop-5
+    kind: decoration
+    position:
+      column: 14
+      row: 5
+    textureKey: town-saltmarsh-plants-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.82217
+    tileAnchor: center
+  - id: saltford-prop-6
+    kind: decoration
+    position:
+      column: 8
+      row: 18
+    textureKey: town-wood-bench-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.91069
+    tileAnchor: center
+  - id: saltford-prop-7
+    kind: decoration
+    position:
+      column: 9
+      row: 20
+    textureKey: town-low-fence-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.8453
+    tileAnchor: center
+  - id: saltford-prop-8
+    kind: decoration
+    position:
+      column: 20
+      row: 7
+    textureKey: town-ground-lantern-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.874
+    tileAnchor: center
+  - id: saltford-prop-9
+    kind: decoration
+    position:
+      column: 9
+      row: 5
+    textureKey: town-herb-planter-v1
+    displayHeight: 55.0
+    anchorX: 0.5
+    anchorY: 0.85407
+    tileAnchor: center

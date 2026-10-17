@@ -661,7 +661,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v6
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 710d7fe63b4434a6616d36d6a98f66abe3a3c43748489cc9136a6207760e40f0
+  sha256: 3937264542a7731f365a85e2f1140aabb3d08a0e50cb881fd4878fd900398045
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -669,7 +669,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 1d3691b6855814da97afc565bc31fd0368544c4841aeb6ee6256d7005c19086f
+  sha256: 509d28ebe89296dfd403b4d41ac59f9a6bf45dff5191cc12da22eb95967c971e
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -677,7 +677,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: 2ef2a5a9befefe15748e9e0bba4ad501b68d7c01b4d5b854ccc2441475690936
+  sha256: 1c43623b3bc0dfb10b40acb9c8eec2fbe07671fa6950c73dd88e3cabe2be7746
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -1765,7 +1765,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 8934bee16219d1a0b77550e330042e17754ba50bba0ac46949795910eeae2f41
+  sha256: 00635209f573e80df76863013d8a1ea5fb443b8857977dda5491dd622f1ac403
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -1773,7 +1773,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: 4cb5db08fec3157799796082e32b0f197e3d953c60cf5568d1943a8964705d8d
+  sha256: 9e3b7c81e49bd94f12d19117a99e6d26b64f7008720f56602cbe35e1dad2b4bf
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -6658,3 +6658,311 @@ assets:
     repository: codex-imagegen
     operation: 도시 건물 단일 스프라이트 생성
     revision: '2026-10-17'
+- managementId: image.scenery.town-delivery-crates-v1
+  version: v1
+  path: assets/billboards/town-delivery-crates-v1.png
+  name: 납품 상자와 바구니
+  width: 1254
+  height: 1254
+  sha256: 5d72d9828c714df2d18ac4f8766cda08db12273758f9ba18b098edd55013f198
+  source:
+    repository: codex-imagegen
+    artifact: exec-6de1a13b-adad-4584-b43c-f2bfb65e828f.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-handcart-v1
+  version: v1
+  path: assets/billboards/town-handcart-v1.png
+  name: 작은 손수레
+  width: 1254
+  height: 1254
+  sha256: f33836c0f86eea4c72f8d3bc2d589446759cdba9a17b77567215eb8f5996420b
+  source:
+    repository: codex-imagegen
+    artifact: exec-4a8b9523-a5d0-4ab5-acc4-cf70f849e82b.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-food-stall-v1
+  version: v1
+  path: assets/billboards/town-food-stall-v1.png
+  name: 식량 진열대
+  width: 1254
+  height: 1254
+  sha256: 9b4ce2769967da3ac9dcff120277b12b5002f5509ac382b3db2d01abb9783b32
+  source:
+    repository: codex-imagegen
+    artifact: exec-8c37bcc6-4c5e-4c0b-8941-4d87b2bedc84.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-notice-board-v1
+  version: v1
+  path: assets/billboards/town-notice-board-v1.png
+  name: 목재 의뢰 게시판
+  width: 1254
+  height: 1254
+  sha256: 9f92cced5d05c556d3487addabb47bf68a2ca262086fe6b56a5e2a78cf8aff43
+  source:
+    repository: codex-imagegen
+    artifact: exec-7de0d998-fdc8-47f5-9993-0869fc40e273.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-reed-bundles-v1
+  version: v1
+  path: assets/billboards/town-reed-bundles-v1.png
+  name: 갈대 섬유 묶음
+  width: 1254
+  height: 1254
+  sha256: 272d2df19d975d0b25ea3050d90971676efab2781dea6c447f46747388025589
+  source:
+    repository: codex-imagegen
+    artifact: exec-44a14772-2643-4918-a95b-b6c247a23448.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-herb-rack-v1
+  version: v1
+  path: assets/billboards/town-herb-rack-v1.png
+  name: 약초 건조대
+  width: 1254
+  height: 1254
+  sha256: 6b2ce2c623a0d8b0d547478e4ec1f7405b7a004bcd4e7544a64d66f4afd35a26
+  source:
+    repository: codex-imagegen
+    artifact: exec-411b0315-bfba-45c8-8fe0-edd9bd7750a4.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-record-chest-v1
+  version: v1
+  path: assets/billboards/town-record-chest-v1.png
+  name: 기록 보관 상자
+  width: 1254
+  height: 1254
+  sha256: 2aab53fb9c8bc6b3b4943eb9df10573dbd8fcfed912fdac83903704688414e0b
+  source:
+    repository: codex-imagegen
+    artifact: exec-dbe1dec8-e651-4ae7-874a-9175053e5f6e.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-layered-sign-v1
+  version: v1
+  path: assets/billboards/town-layered-sign-v1.png
+  name: 겹친 기록 안내판
+  width: 1254
+  height: 1254
+  sha256: 81a9efcdf36999a55f2df2e447b29eb041ae3396b677cfad49ed72b1af57b185
+  source:
+    repository: codex-imagegen
+    artifact: exec-2d2bbdc8-a75f-4661-96bc-9c3293ff4672.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-grindstone-v1
+  version: v1
+  path: assets/billboards/town-grindstone-v1.png
+  name: 수동 숫돌 작업대
+  width: 1254
+  height: 1254
+  sha256: 88b0e93896563b46398d0d54a78c320fcbb48736c3e50f6f465c50357d283b31
+  source:
+    repository: codex-imagegen
+    artifact: exec-9669625a-9de0-4099-a28c-825850f6531d.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-metal-bin-v1
+  version: v1
+  path: assets/billboards/town-metal-bin-v1.png
+  name: 금속 재료 분류함
+  width: 1254
+  height: 1254
+  sha256: 23bc3851a758e802e9502cfdb9647f962f4d9973d53aed96fb148d08381f61ef
+  source:
+    repository: codex-imagegen
+    artifact: exec-8dc500c7-f71f-40b2-b9bc-e6922ddf7ac1.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-charcoal-stack-v1
+  version: v1
+  path: assets/billboards/town-charcoal-stack-v1.png
+  name: 숯 자루와 장작
+  width: 1254
+  height: 1254
+  sha256: e70e072b593b01e8884cb0be2213c578ceeded4f6a3ad001d666dcdc5506fac0
+  source:
+    repository: codex-imagegen
+    artifact: exec-48bb6fd3-bed1-4632-8cee-89a001606f1a.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-repair-rack-v1
+  version: v1
+  path: assets/billboards/town-repair-rack-v1.png
+  name: 수리 도구 거치대
+  width: 1254
+  height: 1254
+  sha256: 62ac515a395ae2f692c8882dcbc337bd5cba2632bd96ba27a7afead33082ce35
+  source:
+    repository: codex-imagegen
+    artifact: exec-a1b9b2de-771a-4722-8ab4-390ff9ab2d72.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-grain-sacks-v1
+  version: v1
+  path: assets/billboards/town-grain-sacks-v1.png
+  name: 곡물 자루
+  width: 1254
+  height: 1254
+  sha256: 5ab4f4fe468324325d01c771270fdab5b92f123c557a4d0034790a18a5fa6460
+  source:
+    repository: codex-imagegen
+    artifact: exec-d010d755-61b8-4025-aa55-dbf7be76c0bc.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-straw-sheaves-v1
+  version: v1
+  path: assets/billboards/town-straw-sheaves-v1.png
+  name: 볏단 묶음
+  width: 1254
+  height: 1254
+  sha256: f218d23917d873789b32d660650d928ac70db9bd5b8a12765577999fbc4639f6
+  source:
+    repository: codex-imagegen
+    artifact: exec-fdf53963-5d50-4983-b686-a7195d35b3c5.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-threshing-bench-v1
+  version: v1
+  path: assets/billboards/town-threshing-bench-v1.png
+  name: 수동 탈곡 작업대
+  width: 1254
+  height: 1254
+  sha256: 3b0f76f6d19429e2404964535a9f8c90498eb0ed04b06dd12b621b76fdfb709f
+  source:
+    repository: codex-imagegen
+    artifact: exec-72c73726-450a-44ab-847a-eca5d780b664.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-harvest-cart-v1
+  version: v1
+  path: assets/billboards/town-harvest-cart-v1.png
+  name: 수확 운반 수레
+  width: 1254
+  height: 1254
+  sha256: 6035ab0e8f6018bbbc98bfa62959b97dd27805f2e68afb628a1191927570f72b
+  source:
+    repository: codex-imagegen
+    artifact: exec-eca0f8d6-deef-4d72-89c5-389412315223.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-salt-barrels-v1
+  version: v1
+  path: assets/billboards/town-salt-barrels-v1.png
+  name: 소금 자루와 통
+  width: 1254
+  height: 1254
+  sha256: 63523fee5b4f0ecaec78c80939d1ea75bd47dde09196edd54e9621d93e6aaa97
+  source:
+    repository: codex-imagegen
+    artifact: exec-f2062a84-9c7f-4299-b492-d83acd56fc6f.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-fish-rack-v1
+  version: v1
+  path: assets/billboards/town-fish-rack-v1.png
+  name: 보존식 건조대
+  width: 1254
+  height: 1254
+  sha256: 1fda69813f761194460c35e05a92b247a025d2e9233e4fe38f2b7e62b840cae6
+  source:
+    repository: codex-imagegen
+    artifact: exec-e0802bac-7e23-4900-88f8-6b4cbd0393ab.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-rope-crates-v1
+  version: v1
+  path: assets/billboards/town-rope-crates-v1.png
+  name: 밧줄과 운반 상자
+  width: 1254
+  height: 1254
+  sha256: 507eae1405e8ea5365807010b90f07be516acfeaa3095e1081b9b77b2c922ab1
+  source:
+    repository: codex-imagegen
+    artifact: exec-b48b526c-2b2e-460a-a2f4-e0e49d8ad76a.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-coastal-stall-v1
+  version: v1
+  path: assets/billboards/town-coastal-stall-v1.png
+  name: 해안 소형 진열대
+  width: 1254
+  height: 1254
+  sha256: efe85afcaf375e36f6c659b5aab04711b8550eb417dafec1d820f0b6b7831d75
+  source:
+    repository: codex-imagegen
+    artifact: exec-224cfe6b-bc7e-4453-aa1f-bd7de56ff0ad.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-wood-bench-v1
+  version: v1
+  path: assets/billboards/town-wood-bench-v1.png
+  name: 목재 벤치
+  width: 1254
+  height: 1254
+  sha256: 5ce52d440d13545007caf905261aaa618e557f320dc5e9e70fdffcb81531bf08
+  source:
+    repository: codex-imagegen
+    artifact: exec-85e30b06-0bdd-4879-9d6f-c7a86728978b.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-low-fence-v1
+  version: v1
+  path: assets/billboards/town-low-fence-v1.png
+  name: 낮은 목재 울타리
+  width: 1254
+  height: 1254
+  sha256: c563a532dc382b0cf3e4ec09ca59858bcd6480648a33341d06b7f8ca0d8587ce
+  source:
+    repository: codex-imagegen
+    artifact: exec-7cf1c345-3609-4d06-82ef-f831c09e3e7c.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-ground-lantern-v1
+  version: v1
+  path: assets/billboards/town-ground-lantern-v1.png
+  name: 지면 설치 등불
+  width: 1254
+  height: 1254
+  sha256: 9d82b3e6f0aeab56d94cb7e9874a550ad822395212b416c24c6f2a6b10549fb4
+  source:
+    repository: codex-imagegen
+    artifact: exec-85c82b5f-85e0-4337-80a6-4f592b81f4a0.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-herb-planter-v1
+  version: v1
+  path: assets/billboards/town-herb-planter-v1.png
+  name: 꽃과 약초 화분
+  width: 1254
+  height: 1254
+  sha256: fc09508e478d2423b0c14b96e872ce93aff368072cd4984898b3e781dc776749
+  source:
+    repository: codex-imagegen
+    artifact: exec-fcb240fe-3474-4565-ab8b-2e9429dcd1e3.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-low-reeds-v1
+  version: v1
+  path: assets/billboards/town-low-reeds-v1.png
+  name: 낮은 갈대 군락
+  width: 1254
+  height: 1254
+  sha256: 369de6ccea789f8d7e9cc6cca6ee4fc5a6b221279969a2a07705fd72b3ae794b
+  source:
+    repository: codex-imagegen
+    artifact: exec-bf4b140b-1df2-4372-88bb-a1018b057c4e.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-ore-basket-v1
+  version: v1
+  path: assets/billboards/town-ore-basket-v1.png
+  name: 광석 선별 바구니
+  width: 1254
+  height: 1254
+  sha256: 80f21881929114332e1d876baae053d29d3661f534ee0e124d3ac97fb49ca4e8
+  source:
+    repository: codex-imagegen
+    artifact: exec-dfaf8ae8-886e-44fa-8738-1cd09b3cf97f.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-vegetable-planter-v1
+  version: v1
+  path: assets/billboards/town-vegetable-planter-v1.png
+  name: 채소 재배 상자
+  width: 1254
+  height: 1254
+  sha256: f363d1ae95d8a782d81117d00ef23d2109230639f221737d7a90993a7fa0f048
+  source:
+    repository: codex-imagegen
+    artifact: exec-78ca3a06-ab00-4770-bf2f-4a208c446b34.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
+- managementId: image.scenery.town-saltmarsh-plants-v1
+  version: v1
+  path: assets/billboards/town-saltmarsh-plants-v1.png
+  name: 염생식물 군락
+  width: 1254
+  height: 1254
+  sha256: 2a2b3ca7f1782d320f2dc3639826bfd76f9b4a4dd7120d3a229f85f9b4719bdc
+  source:
+    repository: codex-imagegen
+    artifact: exec-36e85fac-2339-4c58-9eab-07e0a8773bec.png
+    processing: 투명 배경 생성 원본; 마을 공용 빌보드
