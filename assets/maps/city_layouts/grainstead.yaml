@@ -1,6 +1,6 @@
 managementId: config.city-layouts.grainstead
 data:
-  version: 12
+  version: 13
   cityId: grainstead
   columns: 24
   rows: 24
@@ -48,10 +48,10 @@ data:
       row: 7
     facing: south
     sprite:
-      textureKey: town-grainstead-guild-v1
-      anchorX: 0.507177
-      anchorY: 0.898724
-      contentWidth: 0.937799
+      textureKey: town-grainstead-guild-v2
+      anchorX: 0.459662
+      anchorY: 0.961676
+      contentWidth: 0.81883
   - id: grainstead-bookshop
     name: 서점
     facilityId: grainstead-bookshop
@@ -66,10 +66,10 @@ data:
       row: 7
     facing: south
     sprite:
-      textureKey: town-grainstead-bookshop-v1
-      anchorX: 0.511164
-      anchorY: 0.893939
-      contentWidth: 0.880383
+      textureKey: town-grainstead-bookshop-v2
+      anchorX: 0.505872
+      anchorY: 0.964349
+      contentWidth: 0.741084
   - id: grainstead-inn
     name: 여관
     facilityId: grainstead-inn
@@ -84,10 +84,10 @@ data:
       row: 17
     facing: east
     sprite:
-      textureKey: town-grainstead-inn-v1
-      anchorX: 0.500399
-      anchorY: 0.920255
-      contentWidth: 0.967305
+      textureKey: town-grainstead-inn-v2
+      anchorX: 0.407387
+      anchorY: 0.97861
+      contentWidth: 0.830243
   - id: grainstead-workshop
     name: 대장간·공방
     facilityId: grainstead-workshop
@@ -102,10 +102,10 @@ data:
       row: 17
     facing: east
     sprite:
-      textureKey: town-grainstead-workshop-v1
-      anchorX: 0.503987
-      anchorY: 0.889952
-      contentWidth: 0.945774
+      textureKey: town-grainstead-workshop-v2
+      anchorX: 0.489862
+      anchorY: 0.960784
+      contentWidth: 0.858773
   - id: grainstead-market
     name: 시장
     facilityId: grainstead-market
@@ -120,10 +120,10 @@ data:
       row: 13
     facing: south
     sprite:
-      textureKey: town-grainstead-market-v1
-      anchorX: 0.508772
-      anchorY: 0.861244
-      contentWidth: 0.923445
+      textureKey: town-grainstead-market-v2
+      anchorX: 0.529997
+      anchorY: 0.981283
+      contentWidth: 0.895863
   - id: grainstead-farm-house
     name: 일반 주택 가
     kind: residence
@@ -139,10 +139,10 @@ data:
       row: 5
     facing: south
     sprite:
-      textureKey: town-grainstead-farm-house-v1
-      anchorX: 0.53543
-      anchorY: 0.974494
-      contentWidth: 0.861171
+      textureKey: town-grainstead-farm-house-v2
+      anchorX: 0.586965
+      anchorY: 0.961676
+      contentWidth: 0.813124
   - id: grainstead-mill-house
     name: 일반 주택 나
     kind: residence
@@ -158,10 +158,10 @@ data:
       row: 5
     facing: south
     sprite:
-      textureKey: town-grainstead-mill-house-v1
-      anchorX: 0.535523
-      anchorY: 0.974188
-      contentWidth: 0.872422
+      textureKey: town-grainstead-mill-house-v2
+      anchorX: 0.544313
+      anchorY: 0.969697
+      contentWidth: 0.71612
   - id: grainstead-residence-03
     name: 일반 주택 3
     kind: residence
@@ -177,10 +177,10 @@ data:
       row: 3
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: grainstead-residence-04
     name: 일반 주택 4
     kind: residence
@@ -196,10 +196,10 @@ data:
       row: 3
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   - id: grainstead-residence-05
     name: 일반 주택 5
     kind: residence
@@ -215,10 +215,10 @@ data:
       row: 3
     facing: south
     sprite:
-      textureKey: town-grainstead-farm-house-v1
-      anchorX: 0.53543
-      anchorY: 0.974494
-      contentWidth: 0.861171
+      textureKey: town-grainstead-farm-house-v2
+      anchorX: 0.586965
+      anchorY: 0.961676
+      contentWidth: 0.813124
   - id: grainstead-residence-06
     name: 일반 주택 6
     kind: residence
@@ -234,10 +234,10 @@ data:
       row: 10
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: grainstead-residence-07
     name: 일반 주택 7
     kind: residence
@@ -253,10 +253,10 @@ data:
       row: 10
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   - id: grainstead-residence-08
     name: 일반 주택 8
     kind: residence
@@ -272,10 +272,10 @@ data:
       row: 10
     facing: south
     sprite:
-      textureKey: town-grainstead-mill-house-v1
-      anchorX: 0.535523
-      anchorY: 0.974188
-      contentWidth: 0.872422
+      textureKey: town-grainstead-mill-house-v2
+      anchorX: 0.544313
+      anchorY: 0.969697
+      contentWidth: 0.71612
   - id: grainstead-residence-09
     name: 일반 주택 9
     kind: residence
@@ -291,10 +291,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: grainstead-residence-10
     name: 일반 주택 10
     kind: residence
@@ -310,10 +310,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   connections:
   - id: grainstead-to-granary-flats
     target: granary-flats

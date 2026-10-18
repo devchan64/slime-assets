@@ -1,6 +1,6 @@
 managementId: config.city-layouts.reedhaven
 data:
-  version: 15
+  version: 16
   cityId: reedhaven
   columns: 24
   rows: 24
@@ -48,10 +48,10 @@ data:
       row: 10
     facing: south
     sprite:
-      textureKey: town-reedhaven-guild-v1
-      anchorX: 0.501196
-      anchorY: 0.84689
-      contentWidth: 0.964115
+      textureKey: town-reedhaven-guild-v2
+      anchorX: 0.544401
+      anchorY: 0.939394
+      contentWidth: 0.863053
   - id: reedhaven-bookshop
     name: 서점
     facilityId: reedhaven-bookshop
@@ -66,10 +66,10 @@ data:
       row: 10
     facing: south
     sprite:
-      textureKey: town-reedhaven-bookshop-v1
-      anchorX: 0.520335
-      anchorY: 0.881978
-      contentWidth: 0.935407
+      textureKey: town-reedhaven-bookshop-v2
+      anchorX: 0.490759
+      anchorY: 0.963458
+      contentWidth: 0.78174
   - id: reedhaven-inn
     name: 여관
     facilityId: reedhaven-inn
@@ -84,10 +84,10 @@ data:
       row: 18
     facing: east
     sprite:
-      textureKey: town-reedhaven-inn-v1
-      anchorX: 0.503589
-      anchorY: 0.898724
-      contentWidth: 0.9689
+      textureKey: town-reedhaven-inn-v2
+      anchorX: 0.659531
+      anchorY: 0.979501
+      contentWidth: 0.845934
   - id: reedhaven-workshop
     name: 대장간·공방
     facilityId: reedhaven-workshop
@@ -102,10 +102,10 @@ data:
       row: 17
     facing: east
     sprite:
-      textureKey: town-reedhaven-workshop-v1
-      anchorX: 0.499601
-      anchorY: 0.84051
-      contentWidth: 0.944976
+      textureKey: town-reedhaven-workshop-v2
+      anchorX: 0.441261
+      anchorY: 0.980469
+      contentWidth: 0.796224
   - id: reedhaven-market
     name: 시장
     facilityId: reedhaven-market
@@ -120,10 +120,10 @@ data:
       row: 17
     facing: south
     sprite:
-      textureKey: town-reedhaven-market-v1
-      anchorX: 0.507576
-      anchorY: 0.847687
-      contentWidth: 0.922648
+      textureKey: town-reedhaven-market-v2
+      anchorX: 0.64901
+      anchorY: 0.953125
+      contentWidth: 0.761719
   - id: reedhaven-reed-house
     name: 일반 주택 가
     kind: residence
@@ -139,10 +139,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-reedhaven-reed-house-v1
-      anchorX: 0.531631
-      anchorY: 0.975813
-      contentWidth: 0.926067
+      textureKey: town-reedhaven-reed-house-v2
+      anchorX: 0.602449
+      anchorY: 0.982175
+      contentWidth: 0.792439
   - id: reedhaven-dike-house
     name: 일반 주택 나
     kind: residence
@@ -158,10 +158,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-reedhaven-dike-house-v1
-      anchorX: 0.533918
-      anchorY: 0.989992
-      contentWidth: 0.894055
+      textureKey: town-reedhaven-dike-house-v2
+      anchorX: 0.58422
+      anchorY: 0.959893
+      contentWidth: 0.737518
   - id: reedhaven-residence-03
     name: 일반 주택 3
     kind: residence
@@ -177,10 +177,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: reedhaven-residence-04
     name: 일반 주택 4
     kind: residence
@@ -196,10 +196,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   - id: reedhaven-residence-05
     name: 일반 주택 5
     kind: residence
@@ -215,10 +215,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-reedhaven-reed-house-v1
-      anchorX: 0.531631
-      anchorY: 0.975813
-      contentWidth: 0.926067
+      textureKey: town-reedhaven-reed-house-v2
+      anchorX: 0.602449
+      anchorY: 0.982175
+      contentWidth: 0.792439
   - id: reedhaven-residence-06
     name: 일반 주택 6
     kind: residence
@@ -234,10 +234,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: reedhaven-residence-07
     name: 일반 주택 7
     kind: residence
@@ -253,10 +253,10 @@ data:
       row: 9
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   - id: reedhaven-residence-08
     name: 일반 주택 8
     kind: residence
@@ -272,10 +272,10 @@ data:
       row: 16
     facing: south
     sprite:
-      textureKey: town-reedhaven-dike-house-v1
-      anchorX: 0.533918
-      anchorY: 0.989992
-      contentWidth: 0.894055
+      textureKey: town-reedhaven-dike-house-v2
+      anchorX: 0.58422
+      anchorY: 0.959893
+      contentWidth: 0.737518
   - id: reedhaven-residence-09
     name: 일반 주택 9
     kind: residence
@@ -291,10 +291,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: reedhaven-residence-10
     name: 일반 주택 10
     kind: residence
@@ -310,10 +310,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   connections:
   - column: 0
     row: 12

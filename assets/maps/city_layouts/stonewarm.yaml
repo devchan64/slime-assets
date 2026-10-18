@@ -1,6 +1,6 @@
 managementId: config.city-layouts.stonewarm
 data:
-  version: 14
+  version: 16
   cityId: stonewarm
   columns: 24
   rows: 24
@@ -48,10 +48,10 @@ data:
       row: 8
     facing: east
     sprite:
-      textureKey: town-stonewarm-guild-v1
-      anchorX: 0.500797
-      anchorY: 0.892344
-      contentWidth: 0.92185
+      textureKey: town-stonewarm-guild-v3
+      anchorX: 0.499752
+      anchorY: 0.917904
+      contentWidth: 0.714702
   - id: stonewarm-bookshop
     name: 서점
     facilityId: stonewarm-bookshop
@@ -66,10 +66,10 @@ data:
       row: 10
     facing: south
     sprite:
-      textureKey: town-stonewarm-bookshop-v1
-      anchorX: 0.505183
-      anchorY: 0.923445
-      contentWidth: 0.905104
+      textureKey: town-stonewarm-bookshop-v3
+      anchorX: 0.505822
+      anchorY: 0.917904
+      contentWidth: 0.699418
   - id: stonewarm-inn
     name: 여관
     facilityId: stonewarm-inn
@@ -84,10 +84,10 @@ data:
       row: 16
     facing: east
     sprite:
-      textureKey: town-stonewarm-inn-v1
-      anchorX: 0.507576
-      anchorY: 0.874003
-      contentWidth: 0.900319
+      textureKey: town-stonewarm-inn-v3
+      anchorX: 0.594972
+      anchorY: 0.957205
+      contentWidth: 0.792576
   - id: stonewarm-workshop
     name: 대장간·공방
     facilityId: stonewarm-workshop
@@ -102,10 +102,10 @@ data:
       row: 19
     facing: east
     sprite:
-      textureKey: town-stonewarm-workshop-v1
-      anchorX: 0.50319
-      anchorY: 0.88437
-      contentWidth: 0.958533
+      textureKey: town-stonewarm-workshop-v3
+      anchorX: 0.503088
+      anchorY: 0.973799
+      contentWidth: 0.805677
   - id: stonewarm-market
     name: 시장
     facilityId: stonewarm-market
@@ -120,10 +120,10 @@ data:
       row: 16
     facing: south
     sprite:
-      textureKey: town-stonewarm-market-v1
-      anchorX: 0.503987
-      anchorY: 0.885965
-      contentWidth: 0.940989
+      textureKey: town-stonewarm-market-v3
+      anchorX: 0.496535
+      anchorY: 0.952838
+      contentWidth: 0.835517
   - id: stonewarm-mason-house
     name: 일반 주택 가
     kind: residence
@@ -139,10 +139,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-stonewarm-mason-house-v1
-      anchorX: 0.536204
-      anchorY: 0.971643
-      contentWidth: 0.854421
+      textureKey: town-stonewarm-mason-house-v3
+      anchorX: 0.499361
+      anchorY: 0.953712
+      contentWidth: 0.763464
   - id: stonewarm-hearth-house
     name: 일반 주택 나
     kind: residence
@@ -158,10 +158,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-stonewarm-hearth-house-v1
-      anchorX: 0.523628
-      anchorY: 0.963303
-      contentWidth: 0.830793
+      textureKey: town-stonewarm-hearth-house-v3
+      anchorX: 0.511437
+      anchorY: 0.947598
+      contentWidth: 0.699418
   - id: stonewarm-residence-03
     name: 일반 주택 3
     kind: residence
@@ -177,10 +177,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: stonewarm-residence-04
     name: 일반 주택 4
     kind: residence
@@ -196,10 +196,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   - id: stonewarm-residence-05
     name: 일반 주택 5
     kind: residence
@@ -215,10 +215,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-stonewarm-mason-house-v1
-      anchorX: 0.536204
-      anchorY: 0.971643
-      contentWidth: 0.854421
+      textureKey: town-stonewarm-mason-house-v3
+      anchorX: 0.499361
+      anchorY: 0.953712
+      contentWidth: 0.763464
   - id: stonewarm-residence-06
     name: 일반 주택 6
     kind: residence
@@ -234,10 +234,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: stonewarm-residence-07
     name: 일반 주택 7
     kind: residence
@@ -253,10 +253,10 @@ data:
       row: 9
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: stonewarm-residence-08
     name: 일반 주택 8
     kind: residence
@@ -272,10 +272,10 @@ data:
       row: 13
     facing: south
     sprite:
-      textureKey: town-stonewarm-hearth-house-v1
-      anchorX: 0.523628
-      anchorY: 0.963303
-      contentWidth: 0.830793
+      textureKey: town-stonewarm-hearth-house-v3
+      anchorX: 0.511437
+      anchorY: 0.947598
+      contentWidth: 0.699418
   - id: stonewarm-residence-09
     name: 일반 주택 9
     kind: residence
@@ -291,10 +291,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: stonewarm-residence-10
     name: 일반 주택 10
     kind: residence
@@ -310,10 +310,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   - id: stonewarm-residence-11
     name: 일반 주택 11
     kind: residence
@@ -329,10 +329,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-stonewarm-mason-house-v1
-      anchorX: 0.536204
-      anchorY: 0.971643
-      contentWidth: 0.854421
+      textureKey: town-stonewarm-mason-house-v3
+      anchorX: 0.499361
+      anchorY: 0.953712
+      contentWidth: 0.763464
   - id: stonewarm-residence-12
     name: 일반 주택 12
     kind: residence
@@ -348,10 +348,10 @@ data:
       row: 20
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   connections:
   - column: 12
     row: 0

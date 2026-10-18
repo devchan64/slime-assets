@@ -595,7 +595,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v6
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: b336098751e583e1ece52b3df02e051079ad42783ca114cebc7a757576a1b98c
+  sha256: 73a922976f418bf4f04893dbf6eb49e1868c803131825a57cecef4a83c83bab1
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -603,7 +603,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: db854833a6a350536857ced4976e3c2e5cd734ad88b078001958041b596dc8ee
+  sha256: 8fbc1d485083c97a391a55d6fb7fa042c1b16a209141b6c1573fe21725d3f4a4
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -611,7 +611,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: 3d46e7a67190e95c9a3f07387e1718f08437c97c2f2529c6f93ad046d4559181
+  sha256: 99d3e342139b7c2b220398a942d256e27bf1ce3db188704709cda1c345f9b207
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -1699,7 +1699,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 1c0f7ac8014e639cd465f7b8b92a2a244acb0a23bb121457f5d54927bfc41d8d
+  sha256: 1363d40207d835c4c3f17f03251f31e2978be54fda69e15a41211833c86b3656
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -1707,7 +1707,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: 0bc45fd1482da90f978c8be76f80c06b244dc119a62a5e3fcb863d3e189a553b
+  sha256: 5a07dcdf5e135322bc39ad42ee4cc0a9dac69d5cbb6ebdcda0573add417b4d31
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -5843,255 +5843,255 @@ assets:
     repository: slime-workflow
     operation: 6프레임 4fps 반복 재생과 하단 앵커 등록
 - managementId: image.scenery.town.iseulon-guild
-  version: v1
-  path: assets/sprites/structures/town-iseulon-guild-v1.png
-  width: 1254
-  height: 1254
-  sha256: ada5bfd520cbf645dfe2fec05e035ecb8df0f54f59b333896e485b06c7f7bdef
+  version: v2
+  path: assets/sprites/structures/town-iseulon-guild-v2.png
+  width: 1402
+  height: 1122
+  sha256: 2778bdaa2a62eb4cf694907df64dea45705a35b50b0d62dc52526caba7bb41ab
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 3×3 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: exec-7d6bb030-4f2d-409e-ad8c-b69173949834.png
 - managementId: image.scenery.town.iseulon-bookshop
-  version: v1
-  path: assets/sprites/structures/town-iseulon-bookshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: 0434f54aeef1f4ae3a1438da739260fe851462b5bf5765b8196a6f01a86e9889
+  version: v2
+  path: assets/sprites/structures/town-iseulon-bookshop-v2.png
+  width: 1402
+  height: 1122
+  sha256: e377715999552481b1c6738ea9484fd07445e2c8a9f7f1020d6c616f4820b1b7
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-iseulon-bookshop-v2.png
 - managementId: image.scenery.town.iseulon-inn
-  version: v1
-  path: assets/sprites/structures/town-iseulon-inn-v1.png
-  width: 1254
-  height: 1254
-  sha256: dcba5cddf6f72fd1bd15b614d72e081d35cd80c518a01105ebb5d1d22cd333ba
+  version: v2
+  path: assets/sprites/structures/town-iseulon-inn-v2.png
+  width: 1402
+  height: 1122
+  sha256: 019c8e1767affe0831355cfa5919fe85dd83c61e9f7e0041e4ed67c326454235
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-iseulon-inn-v2.png
 - managementId: image.scenery.town.iseulon-workshop
-  version: v1
-  path: assets/sprites/structures/town-iseulon-workshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: 6154bddde0ce6913d9c81251ef3666fa82f69bd82a71a0320f0fa86168038395
+  version: v2
+  path: assets/sprites/structures/town-iseulon-workshop-v2.png
+  width: 1402
+  height: 1122
+  sha256: d2e5a97e55a5bc15271aaa02564d0bec5ed651708a5e73d3b85b3ab5c1be44d7
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-iseulon-workshop-v2.png
 - managementId: image.scenery.town.iseulon-market
-  version: v1
-  path: assets/sprites/structures/town-iseulon-market-v1.png
-  width: 1254
-  height: 1254
-  sha256: 389e40c9590a51f1a87f64541d79b8d8d290fe0187fa8471097fadf1bbd92c5c
+  version: v2
+  path: assets/sprites/structures/town-iseulon-market-v2.png
+  width: 1402
+  height: 1122
+  sha256: d17de696f8ba34a701be0bbd995acde4fe994efca27bd106c06a6219c6ae3c08
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-iseulon-market-v2.png
 - managementId: image.scenery.town.reedhaven-guild
-  version: v1
-  path: assets/sprites/structures/town-reedhaven-guild-v1.png
-  width: 1254
-  height: 1254
-  sha256: beed11b185202ca3d669c31cac5ce5667e1e7bd61e5f58e1bdf151bb5cd66125
+  version: v2
+  path: assets/sprites/structures/town-reedhaven-guild-v2.png
+  width: 1402
+  height: 1122
+  sha256: a4ab91bfbdf2031c0bc6e73386073aaa37f226eff35ad35329a6871c58533dc8
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-reedhaven-guild-v2.png
 - managementId: image.scenery.town.reedhaven-bookshop
-  version: v1
-  path: assets/sprites/structures/town-reedhaven-bookshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: a5fe8144aa6afc2a5cd2c77f9e01d9971ad6c92ec332af26d36e5067d71ebbe0
+  version: v2
+  path: assets/sprites/structures/town-reedhaven-bookshop-v2.png
+  width: 1402
+  height: 1122
+  sha256: cbb043f41b325e52a5aeb09bcb529a2fde4469bfe0268501ca72eff6760188d4
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-reedhaven-bookshop-v2.png
 - managementId: image.scenery.town.reedhaven-inn
-  version: v1
-  path: assets/sprites/structures/town-reedhaven-inn-v1.png
-  width: 1254
-  height: 1254
-  sha256: f62d9fc579020536646fb644f02711989e8c6687d64572e1d83a7c159f4ca651
+  version: v2
+  path: assets/sprites/structures/town-reedhaven-inn-v2.png
+  width: 1402
+  height: 1122
+  sha256: bdda106720c1d46ae8ad324ac65f184089936348d36a6b55d631933fc4e27f27
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-reedhaven-inn-v2.png
 - managementId: image.scenery.town.reedhaven-workshop
-  version: v1
-  path: assets/sprites/structures/town-reedhaven-workshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: 312462efa8a455277d861e46e242f05e4c99d2beb5c6c0f058455761b7b8daa1
+  version: v2
+  path: assets/sprites/structures/town-reedhaven-workshop-v2.png
+  width: 1536
+  height: 1024
+  sha256: b9d5d3ca93f8697dd883d113155038fa5165362ed2f0820911caaf9d874fef9f
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-reedhaven-workshop-v2.png
 - managementId: image.scenery.town.reedhaven-market
-  version: v1
-  path: assets/sprites/structures/town-reedhaven-market-v1.png
-  width: 1254
-  height: 1254
-  sha256: a46cde9f0ad1da801899377858bdf05827280f097da1fbc312596c80e81be8ab
+  version: v2
+  path: assets/sprites/structures/town-reedhaven-market-v2.png
+  width: 1536
+  height: 1024
+  sha256: 7ad33011b64945a80a9ed80430f8b4f0b6c4b1179ee11adab7c1978761a07636
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-reedhaven-market-v2.png
 - managementId: image.scenery.town.stonewarm-guild
-  version: v1
-  path: assets/sprites/structures/town-stonewarm-guild-v1.png
-  width: 1254
-  height: 1254
-  sha256: c92d0f9cb368907dbdea5c71974eabf01467da15209db3a29befffaab4ff55b3
+  version: v3
+  path: assets/sprites/structures/town-stonewarm-guild-v3.png
+  width: 1374
+  height: 1145
+  sha256: fe64b50592e03694f0eb18d6c381f7d9d64853fae0b331e0b50f455d1fdaf761
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-stonewarm-guild-v3.png
 - managementId: image.scenery.town.stonewarm-bookshop
-  version: v1
-  path: assets/sprites/structures/town-stonewarm-bookshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: 5d2378003b12e43f48e84080faae539bb9a6ac842f1fbb4b249c4ddaac87c80a
+  version: v3
+  path: assets/sprites/structures/town-stonewarm-bookshop-v3.png
+  width: 1374
+  height: 1145
+  sha256: df633f65c53cbe59fffd1112d0b5d810678d9406f44a01dc4d101b773067a4d6
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-stonewarm-bookshop-v3.png
 - managementId: image.scenery.town.stonewarm-inn
-  version: v1
-  path: assets/sprites/structures/town-stonewarm-inn-v1.png
-  width: 1254
-  height: 1254
-  sha256: 31f3bba253b65e98f2bbd5f6000d0f0a3d6819bcf112e9794eefc2c1edddc524
+  version: v3
+  path: assets/sprites/structures/town-stonewarm-inn-v3.png
+  width: 1374
+  height: 1145
+  sha256: f4542af209fe14350f8aaa56a8baba27a16b1fdd515790b71aa57e08c36a8d32
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-stonewarm-inn-v3.png
 - managementId: image.scenery.town.stonewarm-workshop
-  version: v1
-  path: assets/sprites/structures/town-stonewarm-workshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: 6b306101d14ef03b83572354ed18a48172de17e70771a05a22f1a1bf09340b13
+  version: v3
+  path: assets/sprites/structures/town-stonewarm-workshop-v3.png
+  width: 1374
+  height: 1145
+  sha256: 6720c9afcaf53b51849845195307ae3a2955c8dce2abd43d1e2c7fe79fb640f3
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-stonewarm-workshop-v3.png
 - managementId: image.scenery.town.stonewarm-market
-  version: v1
-  path: assets/sprites/structures/town-stonewarm-market-v1.png
-  width: 1254
-  height: 1254
-  sha256: 7e5ae4702dfeabf2733d9b28ce46be70e00aa5e3a0fb7e4422c39efb88e82d44
+  version: v3
+  path: assets/sprites/structures/town-stonewarm-market-v3.png
+  width: 1374
+  height: 1145
+  sha256: 5f2f4c56f849a780fd2e74dc046492fdef7a1bea45df5d2c8df50afde0ef28b6
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-stonewarm-market-v3.png
 - managementId: image.scenery.town.grainstead-guild
-  version: v1
-  path: assets/sprites/structures/town-grainstead-guild-v1.png
-  width: 1254
-  height: 1254
-  sha256: d33a446968e52caabfc1e0a840a622c49cebfaca71e869ff5ec02b248598381d
+  version: v2
+  path: assets/sprites/structures/town-grainstead-guild-v2.png
+  width: 1402
+  height: 1122
+  sha256: 992042f8bf2b4bd6658c064a12c2a083ff06c4ee2c222367cdc31633537998ff
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-guild-v2.png
 - managementId: image.scenery.town.grainstead-bookshop
-  version: v1
-  path: assets/sprites/structures/town-grainstead-bookshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: 4b4ee5605eb405cb42a434ec09b42dbdd436ba98e7eeaa0678b7f2fafd55da24
+  version: v2
+  path: assets/sprites/structures/town-grainstead-bookshop-v2.png
+  width: 1402
+  height: 1122
+  sha256: f4e47af01d6493a04410a415b411a30608aae5031623a3dc28a8dec1d4ee612d
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-bookshop-v2.png
 - managementId: image.scenery.town.grainstead-inn
-  version: v1
-  path: assets/sprites/structures/town-grainstead-inn-v1.png
-  width: 1254
-  height: 1254
-  sha256: e7d29c60109531bf690eb404b372e6bab09d6d6a8245c041187e946132d43651
+  version: v2
+  path: assets/sprites/structures/town-grainstead-inn-v2.png
+  width: 1402
+  height: 1122
+  sha256: e99243ce2d670dc98886feaf87ade282c4b6b4abc689beead0d7139a8f67077f
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-inn-v2.png
 - managementId: image.scenery.town.grainstead-workshop
-  version: v1
-  path: assets/sprites/structures/town-grainstead-workshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: 1bf059c3e4ae91e442cff6ca44c89ee5afd0113338a7268ea93a770718191a97
+  version: v2
+  path: assets/sprites/structures/town-grainstead-workshop-v2.png
+  width: 1402
+  height: 1122
+  sha256: 38581b34932bc4c1492bc91ca29c8d41e54ac6817c241ca0e0160a53f9827c77
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-workshop-v2.png
 - managementId: image.scenery.town.grainstead-market
-  version: v1
-  path: assets/sprites/structures/town-grainstead-market-v1.png
-  width: 1254
-  height: 1254
-  sha256: d7a85c04a7b1f35e9998a6d025d39c70525b4f91bd52ab524aa6dae3bee9d7d9
+  version: v2
+  path: assets/sprites/structures/town-grainstead-market-v2.png
+  width: 1402
+  height: 1122
+  sha256: 4e51c315f7bc01eceba3c2b4bd3b4770fb96da3ff400d239a122661e256752af
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-market-v2.png
 - managementId: image.scenery.town.saltford-guild
-  version: v1
-  path: assets/sprites/structures/town-saltford-guild-v1.png
-  width: 1254
-  height: 1254
-  sha256: 6f81f849e2abf3c229d7d1dafc62835a1dcfcdfe1f54087252f2bc40159899c2
+  version: v2
+  path: assets/sprites/structures/town-saltford-guild-v2.png
+  width: 1402
+  height: 1122
+  sha256: e2cd9b78a94c44458d90252de5b8138c29c6c27a1fcc0bab4facc6af803d8a84
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-saltford-guild-v2.png
 - managementId: image.scenery.town.saltford-bookshop
-  version: v1
-  path: assets/sprites/structures/town-saltford-bookshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: bdb119da5f71c0ae86a1753e032741a29e4a2a88a8e779c64249bad361dddcb8
+  version: v2
+  path: assets/sprites/structures/town-saltford-bookshop-v2.png
+  width: 1402
+  height: 1122
+  sha256: 7048a97e486f80ecac207dfea4e8b8e1582e214cb887327acc39a4fc0330133e
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-saltford-bookshop-v2.png
 - managementId: image.scenery.town.saltford-inn
-  version: v1
-  path: assets/sprites/structures/town-saltford-inn-v1.png
-  width: 1254
-  height: 1254
-  sha256: 0ddfc4ae5bf90557f7bfe114558ead403e2879adc7252df315a314cf64db32cc
+  version: v2
+  path: assets/sprites/structures/town-saltford-inn-v2.png
+  width: 1402
+  height: 1122
+  sha256: 4a8d4cd73ece40005db519d530fdcb5bb66665990a0e2845d51cc12fe7077221
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-saltford-inn-v2.png
 - managementId: image.scenery.town.saltford-workshop
-  version: v1
-  path: assets/sprites/structures/town-saltford-workshop-v1.png
-  width: 1254
-  height: 1254
-  sha256: ad7fcc20d667abfa3212531955b57f0c5ef7a75b43bb042d41dfeb38e44f7b41
+  version: v2
+  path: assets/sprites/structures/town-saltford-workshop-v2.png
+  width: 1402
+  height: 1122
+  sha256: 33f3c45d73122fa7aedf7df57d8bf1d1aefc6a6d243b4230db1af591840a9bf1
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-saltford-workshop-v2.png
 - managementId: image.scenery.town.saltford-market
-  version: v1
-  path: assets/sprites/structures/town-saltford-market-v1.png
-  width: 1254
-  height: 1254
-  sha256: cb3780e766e313ce1636bf5c37d639209982b541c319c1b82eea42185ace36be
+  version: v2
+  path: assets/sprites/structures/town-saltford-market-v2.png
+  width: 1374
+  height: 1145
+  sha256: fc57a4d3d0dc2f79c329506aeea007d8b7b07957dd77d0853c69ef1efea01450
   source:
     repository: codex-imagegen
-    operation: 도시 건물 단일 스프라이트 생성
-    revision: '2026-10-17'
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-saltford-market-v2.png
 - managementId: image.scenery.town-delivery-crates-v1
   version: v1
   path: assets/billboards/town-delivery-crates-v1.png
@@ -6511,105 +6511,105 @@ assets:
     artifact: exec-aa6158f5-fd04-4c95-981b-224657aaf30a.png
     processing: 세계관 생활 장면 전용 투명 빌보드 원본
 - managementId: image.scenery.town.iseulon-garden-house
-  version: v1
-  path: assets/sprites/structures/town-iseulon-garden-house-v1.png
-  width: 1312
-  height: 1199
-  sha256: 9d09c45dad85fecc7073382985a911c97b1036b8a4d191ccd0678949b23639fe
+  version: v2
+  path: assets/sprites/structures/town-iseulon-garden-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: ca842035daab14d9b6ac5b9ee714c6c6207ecd276d8ccdcbaa23f680e0af8e2c
   source:
     repository: codex-imagegen
-    artifact: exec-50602b23-c6de-4153-bbc1-4b8dbec339d1.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-iseulon-garden-house-v2.png
 - managementId: image.scenery.town.iseulon-courtyard-house
-  version: v1
-  path: assets/sprites/structures/town-iseulon-courtyard-house-v1.png
-  width: 1303
-  height: 1207
-  sha256: 4a73bbc44ef7faff498fd426789f795f433f43fc59fb84a30682574aabf406b8
+  version: v2
+  path: assets/sprites/structures/town-iseulon-courtyard-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: 07d29868941fe050be3ee4aa636dec66280b33838da4281c399d98021124cf1e
   source:
     repository: codex-imagegen
-    artifact: exec-f41715a4-0be9-45bc-aeba-70cd909d57b3.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-iseulon-courtyard-house-v2.png
 - managementId: image.scenery.town.reedhaven-reed-house
-  version: v1
-  path: assets/sprites/structures/town-reedhaven-reed-house-v1.png
-  width: 1312
-  height: 1199
-  sha256: 9c218bb25a2f555f5d1b1b4014375f14c008f3de51acccd260070e2a018ae39f
+  version: v2
+  path: assets/sprites/structures/town-reedhaven-reed-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: 4ab78d26531b7fe72e54476e557078cdb66506c9d5b16cc56a9bff03d8f3cce1
   source:
     repository: codex-imagegen
-    artifact: exec-35dd066b-9dad-4937-acbf-84b3e2eb3fff.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-reedhaven-reed-house-v2.png
 - managementId: image.scenery.town.reedhaven-dike-house
-  version: v1
-  path: assets/sprites/structures/town-reedhaven-dike-house-v1.png
-  width: 1312
-  height: 1199
-  sha256: 1dc0f6519ed39faef4f5a84138aaa4f2f85721e7293c4afebe81474daeabf388
+  version: v2
+  path: assets/sprites/structures/town-reedhaven-dike-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: 43e67a33a7147dcb8b4411c18c20760f19c147a30d6491ea60baeda97033fb80
   source:
     repository: codex-imagegen
-    artifact: exec-e42893f1-b2df-4c2d-a563-29ef324afc1b.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-reedhaven-dike-house-v2.png
 - managementId: image.scenery.town.stonewarm-mason-house
-  version: v1
-  path: assets/sprites/structures/town-stonewarm-mason-house-v1.png
-  width: 1312
-  height: 1199
-  sha256: 38b980b6133e7a4d3ffc88bd24787650197307235337c60d8d4bf48ccd678a38
+  version: v3
+  path: assets/sprites/structures/town-stonewarm-mason-house-v3.png
+  width: 1374
+  height: 1145
+  sha256: e978c15eb33c3a7647d2f3094ee076134217f3c46fbfb58fd61f1447c5511002
   source:
     repository: codex-imagegen
-    artifact: exec-1be9994e-ff7f-4121-b3ba-260e9733a02e.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-stonewarm-mason-house-v3.png
 - managementId: image.scenery.town.stonewarm-hearth-house
-  version: v1
-  path: assets/sprites/structures/town-stonewarm-hearth-house-v1.png
-  width: 1312
-  height: 1199
-  sha256: 1c64f216360487a64206224ee48b8c5a6bd087cee2974e89a5678f97009c569e
+  version: v3
+  path: assets/sprites/structures/town-stonewarm-hearth-house-v3.png
+  width: 1374
+  height: 1145
+  sha256: 25b17fb9633a110a1c2b266d82ce8443dff0e061d94033298d4bea51fe03df9b
   source:
     repository: codex-imagegen
-    artifact: exec-9fa42f94-5afd-41f2-83bb-856660c53a61.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-stonewarm-hearth-house-v3.png
 - managementId: image.scenery.town.grainstead-farm-house
-  version: v1
-  path: assets/sprites/structures/town-grainstead-farm-house-v1.png
-  width: 1383
-  height: 1137
-  sha256: f2e2dc250bca7d2966c8d9b53c9a6e3369e27b863b2cec880956564482f58a58
+  version: v2
+  path: assets/sprites/structures/town-grainstead-farm-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: caa9fea27ac462530b0060d8cd6ffa1155baeab3a0440605e0296957be2a0ae0
   source:
     repository: codex-imagegen
-    artifact: exec-2194b39c-0dbb-4f4a-b0ba-0fc761a056d4.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-farm-house-v2.png
 - managementId: image.scenery.town.grainstead-mill-house
-  version: v1
-  path: assets/sprites/structures/town-grainstead-mill-house-v1.png
-  width: 1309
-  height: 1201
-  sha256: 952f6f3725c4678f03a124ffb1cfbcf3902ce14d45b4de7caed552d162637621
+  version: v2
+  path: assets/sprites/structures/town-grainstead-mill-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: 0e5421d89e1668fc28363fbe5fa6bc06a4a9f21991ab6b1cddce34337f23f798
   source:
     repository: codex-imagegen
-    artifact: exec-168d4fda-6b32-4e83-951c-fd0acee1ec2f.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-mill-house-v2.png
 - managementId: image.scenery.town.saltford-shore-house
-  version: v1
-  path: assets/sprites/structures/town-saltford-shore-house-v1.png
-  width: 1294
-  height: 1216
-  sha256: 9d982caaf6477a30d015951ec75e5f314ce62f6c34d12df783a206ab5b445c67
+  version: v2
+  path: assets/sprites/structures/town-saltford-shore-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: d2afe20a1e87ae0e8d0b74c6fb06054432325cce9e7c4db14a201181b6b371b4
   source:
     repository: codex-imagegen
-    artifact: exec-d34f664c-33ae-4b6b-ae64-c7709c8d22cc.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-saltford-shore-house-v2.png
 - managementId: image.scenery.town.saltford-dry-house
-  version: v1
-  path: assets/sprites/structures/town-saltford-dry-house-v1.png
-  width: 1312
-  height: 1199
-  sha256: 31d92767986f812a692b2852d7ee7ec6fd4eabe6f6bcee65ecf77179822871a2
+  version: v2
+  path: assets/sprites/structures/town-saltford-dry-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: 4787b4fd38ce64fa5bab6b280de50209d5984cee283b6aed499dc23bee962183
   source:
     repository: codex-imagegen
-    artifact: exec-e70e1598-3833-4a5e-ab9e-84dbb03dd382.png
-    operation: 일반 주택 단일 투명 스프라이트 생성
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-saltford-dry-house-v2.png
 - managementId: image.scenery.town-iseulon-round-rose-shrub-v1
   version: v1
   path: assets/billboards/town-iseulon-round-rose-shrub-v1.png
@@ -6999,25 +6999,25 @@ assets:
     path: .tmp/test/terrain-base-materials/2026-10-17/frost-ground-v1-source.png
     operation: ImageGen 생성 원본을 128x128 LANCZOS 축소, 사용자 맵 적용 승인
 - managementId: image.scenery.town.common-timber-house
-  version: v1
-  path: assets/sprites/structures/town-common-timber-house-v1.png
-  width: 1330
-  height: 1182
-  sha256: 89fac3070d68fad6b144f803d57f51ce00a88447bdd83b3d3cad52175071a6b2
+  version: v2
+  path: assets/sprites/structures/town-common-timber-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: fa09aef2c2d330d26ccad74cad8e70b5000a01dd35d6b2702ce90f7f241a3b08
   source:
     repository: codex-imagegen
-    artifact: exec-fbc907a8-2c22-46bd-98aa-d5448450c149.png
-    operation: 일반 주택 투명 스프라이트 추가 및 마을 적용
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-common-timber-house-v2.png
 - managementId: image.scenery.town.common-stone-house
-  version: v1
-  path: assets/sprites/structures/town-common-stone-house-v1.png
-  width: 1312
-  height: 1199
-  sha256: a0d39ba99b733feaeb0ca44a2f7b15d64334651f9e4b89910bf98a8661ecced7
+  version: v2
+  path: assets/sprites/structures/town-common-stone-house-v2.png
+  width: 1402
+  height: 1122
+  sha256: 8abc1260a19fd981442a8b9da3b5f6ba7c81a644577e301ed295c61a3ff23572
   source:
     repository: codex-imagegen
-    artifact: exec-fe16e0ae-da87-4453-ae38-7001729fa6d2.png
-    operation: 일반 주택 투명 스프라이트 추가 및 마을 적용
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-common-stone-house-v2.png
 - managementId: image.scenery.town-reedhaven-reed-tall-v1
   version: v1
   path: assets/billboards/town-reedhaven-reed-tall-v1.png

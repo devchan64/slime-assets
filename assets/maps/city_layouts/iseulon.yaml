@@ -1,6 +1,6 @@
 managementId: config.city-layouts.iseulon
 data:
-  version: 15
+  version: 17
   cityId: iseulon
   columns: 24
   rows: 24
@@ -48,10 +48,10 @@ data:
       row: 8
     facing: south
     sprite:
-      textureKey: town-iseulon-guild-v1
-      anchorX: 0.504785
-      anchorY: 0.905901
-      contentWidth: 0.926635
+      textureKey: town-iseulon-guild-v2
+      anchorX: 0.520685
+      anchorY: 0.97148
+      contentWidth: 0.794579
   - id: iseulon-bookshop
     name: 서점
     facilityId: iseulon-bookshop
@@ -66,10 +66,10 @@ data:
       row: 8
     facing: south
     sprite:
-      textureKey: town-iseulon-bookshop-v1
-      anchorX: 0.509968
-      anchorY: 0.895534
-      contentWidth: 0.831738
+      textureKey: town-iseulon-bookshop-v2
+      anchorX: 0.512689
+      anchorY: 0.934938
+      contentWidth: 0.671897
   - id: iseulon-inn
     name: 여관
     facilityId: iseulon-inn
@@ -84,10 +84,10 @@ data:
       row: 17
     facing: east
     sprite:
-      textureKey: town-iseulon-inn-v1
-      anchorX: 0.507974
-      anchorY: 0.816587
-      contentWidth: 0.942584
+      textureKey: town-iseulon-inn-v2
+      anchorX: 0.635922
+      anchorY: 0.927807
+      contentWidth: 0.900856
   - id: iseulon-workshop
     name: 대장간·공방
     facilityId: iseulon-workshop
@@ -102,10 +102,10 @@ data:
       row: 19
     facing: east
     sprite:
-      textureKey: town-iseulon-workshop-v1
-      anchorX: 0.49681
-      anchorY: 0.828549
-      contentWidth: 0.956938
+      textureKey: town-iseulon-workshop-v2
+      anchorX: 0.443434
+      anchorY: 0.935829
+      contentWidth: 0.841655
   - id: iseulon-market
     name: 시장
     facilityId: iseulon-market
@@ -120,10 +120,10 @@ data:
       row: 16
     facing: south
     sprite:
-      textureKey: town-iseulon-market-v1
-      anchorX: 0.507974
-      anchorY: 0.855662
-      contentWidth: 0.91866
+      textureKey: town-iseulon-market-v2
+      anchorX: 0.533474
+      anchorY: 0.950089
+      contentWidth: 0.910128
   - id: iseulon-garden-house
     name: 일반 주택 가
     kind: residence
@@ -139,10 +139,10 @@ data:
       row: 3
     facing: south
     sprite:
-      textureKey: town-iseulon-garden-house-v1
-      anchorX: 0.541159
-      anchorY: 0.972477
-      contentWidth: 0.859756
+      textureKey: town-iseulon-garden-house-v2
+      anchorX: 0.541369
+      anchorY: 0.977718
+      contentWidth: 0.748217
   - id: iseulon-courtyard-house
     name: 일반 주택 나
     kind: residence
@@ -158,10 +158,10 @@ data:
       row: 3
     facing: south
     sprite:
-      textureKey: town-iseulon-courtyard-house-v1
-      anchorX: 0.532233
-      anchorY: 0.96686
-      contentWidth: 0.869532
+      textureKey: town-iseulon-courtyard-house-v2
+      anchorX: 0.547322
+      anchorY: 0.955437
+      contentWidth: 0.766762
   - id: iseulon-residence-03
     name: 일반 주택 3
     kind: residence
@@ -177,10 +177,10 @@ data:
       row: 3
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: iseulon-residence-04
     name: 일반 주택 4
     kind: residence
@@ -196,10 +196,10 @@ data:
       row: 3
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   - id: iseulon-residence-05
     name: 일반 주택 5
     kind: residence
@@ -215,10 +215,10 @@ data:
       row: 3
     facing: south
     sprite:
-      textureKey: town-iseulon-garden-house-v1
-      anchorX: 0.541159
-      anchorY: 0.972477
-      contentWidth: 0.859756
+      textureKey: town-iseulon-garden-house-v2
+      anchorX: 0.541369
+      anchorY: 0.977718
+      contentWidth: 0.748217
   - id: iseulon-residence-06
     name: 일반 주택 6
     kind: residence
@@ -234,10 +234,10 @@ data:
       row: 7
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   - id: iseulon-residence-07
     name: 일반 주택 7
     kind: residence
@@ -253,10 +253,10 @@ data:
       row: 18
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v1
-      anchorX: 0.495489
-      anchorY: 0.979695
-      contentWidth: 0.990977
+      textureKey: town-common-timber-house-v2
+      anchorX: 0.516157
+      anchorY: 0.975936
+      contentWidth: 0.706134
   - id: iseulon-residence-08
     name: 일반 주택 8
     kind: residence
@@ -272,10 +272,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-iseulon-courtyard-house-v1
-      anchorX: 0.532233
-      anchorY: 0.96686
-      contentWidth: 0.869532
+      textureKey: town-iseulon-courtyard-house-v2
+      anchorX: 0.547322
+      anchorY: 0.955437
+      contentWidth: 0.766762
   - id: iseulon-residence-09
     name: 일반 주택 9
     kind: residence
@@ -291,10 +291,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v1
-      anchorX: 0.480564
-      anchorY: 0.979983
-      contentWidth: 0.961128
+      textureKey: town-common-stone-house-v2
+      anchorX: 0.560271
+      anchorY: 0.980392
+      contentWidth: 0.706847
   connections:
   - column: 0
     row: 12
