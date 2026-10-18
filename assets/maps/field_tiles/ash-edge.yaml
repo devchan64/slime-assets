@@ -206,9 +206,11 @@ data:
       row: 18
     textureKey: ash-edge-scorched-waystone-v1
     displayHeight: 80
-    anchorX: 0.5
-    anchorY: 0.88
+    anchorX: 0.44
+    anchorY: 0.95
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: ash-edge-decoration-18
     kind: decoration
     position:

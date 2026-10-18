@@ -621,7 +621,7 @@ assets:
 - managementId: config.field-tiles.ash-edge
   version: retire-stump-v1
   path: assets/maps/field_tiles/ash-edge.yaml
-  sha256: 54e2a964ef00ef85b6eb5cf313e8ac4a93c89cf59edb35ece84818bafaf81572
+  sha256: 5b8d5265c6902ae08c2ad6a1a50dd8cf10dc533f3fd28a0ba7f54ef19ad5b866
   source:
     repository: slime-backend
     path: config/field_tiles/ash-edge.yaml
@@ -629,7 +629,7 @@ assets:
 - managementId: config.field-tiles.boar-ridge
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/boar-ridge.yaml
-  sha256: eb893b356e489f1d23c2ade19123cb847587085cfb44d4270336d956b54c8cc9
+  sha256: 8dfea1a7ac3d123d73a5928c4b8a0683f78def533be03b8c97057e520f09e974
   source:
     repository: slime-backend
     path: config/field_tiles/boar-ridge.yaml
@@ -1189,7 +1189,7 @@ assets:
 - managementId: config.terrain.maps.boar-ridge
   version: field-detail-v2
   path: assets/maps/terrain/maps/boar-ridge.yaml
-  sha256: d7c80796cdabe196ff8a2d662be9242d57cd7423ae9685e8ddb49227adf8116f
+  sha256: 42a7d898644cf696009a45ee533a36ebb65f4ea6e06dc21834ae2c72384e767e
   source:
     repository: slime-backend
     path: config/terrain/maps/boar-ridge.yaml
@@ -7293,9 +7293,9 @@ assets:
   version: v1
   path: assets/billboards/ash-edge-charred-regrowth-v1.png
   name: 탄화 그루터기와 새순
-  width: 512
-  height: 341
-  sha256: 1838838613d3c51b18f16004b162ea884751619e04bf22e31171b8a0ab30eb19
+  width: 128
+  height: 85
+  sha256: 1cc2409262b2657aeda213b48dc7b3a493d149b7abd4b1d1cd8edc955daa507b
   source:
     repository: slime-workflow
     path: output/imagegen/ash-edge-20261018/ash-edge-charred-regrowth-v1.png
@@ -7304,9 +7304,9 @@ assets:
   version: v1
   path: assets/billboards/ash-edge-decomposer-log-v1.png
   name: 분해 버섯이 붙은 탄 고목
-  width: 512
-  height: 341
-  sha256: 9e870cb18b041f8d3dc5d9353784b510d84eec3c071d9f2cf4084c475209f9a6
+  width: 128
+  height: 85
+  sha256: 3b0b9c42a6ead982a3704bcc37d7530af4c583cad93923a131f60fa81ef8362c
   source:
     repository: slime-workflow
     path: output/imagegen/ash-edge-20261018/ash-edge-decomposer-log-v1.png
@@ -7315,10 +7315,17 @@ assets:
   version: v1
   path: assets/billboards/ash-edge-scorched-waystone-v1.png
   name: 한쪽이 검어진 돌 이정표
-  width: 512
-  height: 341
-  sha256: 1975119c2b8b632ec7367062e314d7598f5c22de6060ca90f44886b761000900
+  width: 128
+  height: 85
+  sha256: 0349d66bc3ef486ad26794566540df50c870be9ebd1d5cda3721c76be8ac6009
   source:
     repository: slime-workflow
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
+- managementId: map.sprite-display-properties
+  version: v1
+  path: assets/maps/sprite-display-properties.yaml
+  sha256: ab7b68f417b9e4a74a3d8fd7cf71619461ab398a6d9cb752d34879af6ca08c38
+  source:
+    type: authored
+    description: 에셋 공통 앵커·바닥 크기·표시 높이
