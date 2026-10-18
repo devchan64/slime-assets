@@ -1,35 +1,35 @@
 managementId: config.city-layouts.reedhaven
 data:
-  version: 16
+  version: 20
   cityId: reedhaven
   columns: 24
   rows: 24
   safeTown: true
   terrainRows:
-  - wggggggggggggggggggggggw
-  - wggggggggggggggggggggggw
-  - wggggggggggggggggggggggw
-  - wggggggggggggggggggggggw
-  - wggpggpggpggggpggpggpggw
-  - wgppppppppppppppppppppgw
-  - wgpggggggggggggggggggpgw
-  - wgpggggggggggggggggggpgw
-  - wgpggggggggggggggggggpgw
-  - wgpggggggggggggggggpppgw
-  - wgpggggpggpppgpggggggpgw
-  - wgpggggpggpppgpggggggpgw
+  - gggggggggggggggggggggpgw
+  - gggggggggggggggggggggpgw
+  - gggggggggggggggggggggggw
+  - gggggggggggggggggggggggw
+  - gggpggpggpggggpggpggppgw
+  - ggppppppppppppppppppppgw
+  - ggpggggggggggggggggggpgw
+  - ggpggggggggggggggggggpgw
+  - ggpggggggggggggggggggpgw
+  - ggpggggggggggggggggpppgw
+  - ggpggggpggpppgpggggggpgw
+  - gpppgggpggpppgpgpppggpgw
   - ppppppppppppppppppppppgw
-  - wgpgggggggpppggggggggpgw
-  - wgpgggggggpppggggggggpgw
-  - wgpggggggggggggggggggpgw
-  - wgpggggggggggggggggpgpgw
-  - wgpggggpggggggggggppppgw
-  - wgpggggpgggggggggggggpgw
-  - wgpggggpgggggggggggggpgw
-  - wgpggggpgggggggggggggpgw
-  - wgpggggpgggggggggggggpgw
-  - wgppppppppppppppppppppgw
-  - wggggggggggggggggggggggw
+  - gpppggggggpppgggpppggpgw
+  - ggpgggggggpppggggggggpgw
+  - ggpggggggggggggggggggpgw
+  - ggpggggggggggggggggpgpgw
+  - ggpggggpggggggggggppppgw
+  - ggpggggpgggggggggggggpgw
+  - ggpgggppgggggggggggggpgw
+  - ggpggggpgggggggggggggpgw
+  - ggpggggpgggggggggggggpgw
+  - ggppppppppppppppppppppgw
+  - gggggggggggggggggggggpgw
   startPoint:
     column: 11
     row: 12
@@ -39,19 +39,19 @@ data:
     facilityId: reedhaven-guild
     origin:
       column: 6
-      row: 7
-    width: 3
-    height: 3
+      row: 8
+    width: 2
+    height: 2
     floors: 1
     entrance:
       column: 7
       row: 10
     facing: south
     sprite:
-      textureKey: town-reedhaven-guild-v2
-      anchorX: 0.544401
-      anchorY: 0.939394
-      contentWidth: 0.863053
+      textureKey: town-reedhaven-guild-v3
+      anchorX: 0.498574
+      anchorY: 0.908297
+      contentWidth: 0.781659
   - id: reedhaven-bookshop
     name: 서점
     facilityId: reedhaven-bookshop
@@ -66,46 +66,46 @@ data:
       row: 10
     facing: south
     sprite:
-      textureKey: town-reedhaven-bookshop-v2
-      anchorX: 0.490759
-      anchorY: 0.963458
-      contentWidth: 0.78174
+      textureKey: town-reedhaven-bookshop-v3
+      anchorX: 0.499669
+      anchorY: 0.944978
+      contentWidth: 0.836972
   - id: reedhaven-inn
     name: 여관
     facilityId: reedhaven-inn
     origin:
       column: 3
-      row: 17
-    width: 4
+      row: 18
+    width: 3
     height: 3
     floors: 1
     entrance:
-      column: 7
-      row: 18
+      column: 6
+      row: 19
     facing: east
     sprite:
-      textureKey: town-reedhaven-inn-v2
-      anchorX: 0.659531
-      anchorY: 0.979501
-      contentWidth: 0.845934
+      textureKey: town-reedhaven-inn-v3
+      anchorX: 0.525473
+      anchorY: 0.922271
+      contentWidth: 0.874818
   - id: reedhaven-workshop
     name: 대장간·공방
     facilityId: reedhaven-workshop
     origin:
-      column: 15
+      column: 16
       row: 16
-    width: 3
-    height: 3
+    width: 2
+    height: 2
     floors: 1
     entrance:
       column: 18
       row: 17
     facing: east
     sprite:
-      textureKey: town-reedhaven-workshop-v2
-      anchorX: 0.441261
-      anchorY: 0.980469
-      contentWidth: 0.796224
+      textureKey: town-reedhaven-workshop-v3
+      anchorX: 0.498965
+      anchorY: 0.91179
+      contentWidth: 0.777293
   - id: reedhaven-market
     name: 시장
     facilityId: reedhaven-market
@@ -120,10 +120,10 @@ data:
       row: 17
     facing: south
     sprite:
-      textureKey: town-reedhaven-market-v2
-      anchorX: 0.64901
-      anchorY: 0.953125
-      contentWidth: 0.761719
+      textureKey: town-reedhaven-market-v3
+      anchorX: 0.502263
+      anchorY: 0.921397
+      contentWidth: 0.793304
   - id: reedhaven-reed-house
     name: 일반 주택 가
     kind: residence
@@ -139,10 +139,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-reedhaven-reed-house-v2
-      anchorX: 0.602449
-      anchorY: 0.982175
-      contentWidth: 0.792439
+      textureKey: town-reedhaven-reed-house-v3
+      anchorX: 0.500103
+      anchorY: 0.935371
+      contentWidth: 0.792576
   - id: reedhaven-dike-house
     name: 일반 주택 나
     kind: residence
@@ -158,10 +158,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-reedhaven-dike-house-v2
-      anchorX: 0.58422
-      anchorY: 0.959893
-      contentWidth: 0.737518
+      textureKey: town-reedhaven-dike-house-v3
+      anchorX: 0.501917
+      anchorY: 0.952838
+      contentWidth: 0.839156
   - id: reedhaven-residence-03
     name: 일반 주택 3
     kind: residence
@@ -177,10 +177,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v2
-      anchorX: 0.560271
-      anchorY: 0.980392
-      contentWidth: 0.706847
+      textureKey: town-reedhaven-plank-house-v3
+      anchorX: 0.499533
+      anchorY: 0.942358
+      contentWidth: 0.806405
   - id: reedhaven-residence-04
     name: 일반 주택 4
     kind: residence
@@ -196,10 +196,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v2
-      anchorX: 0.516157
-      anchorY: 0.975936
-      contentWidth: 0.706134
+      textureKey: town-reedhaven-woven-house-v3
+      anchorX: 0.498675
+      anchorY: 0.920524
+      contentWidth: 0.786754
   - id: reedhaven-residence-05
     name: 일반 주택 5
     kind: residence
@@ -215,10 +215,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-reedhaven-reed-house-v2
-      anchorX: 0.602449
-      anchorY: 0.982175
-      contentWidth: 0.792439
+      textureKey: town-reedhaven-reed-house-v3
+      anchorX: 0.500103
+      anchorY: 0.935371
+      contentWidth: 0.792576
   - id: reedhaven-residence-06
     name: 일반 주택 6
     kind: residence
@@ -234,10 +234,10 @@ data:
       row: 4
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v2
-      anchorX: 0.560271
-      anchorY: 0.980392
-      contentWidth: 0.706847
+      textureKey: town-reedhaven-plank-house-v3
+      anchorX: 0.499533
+      anchorY: 0.942358
+      contentWidth: 0.806405
   - id: reedhaven-residence-07
     name: 일반 주택 7
     kind: residence
@@ -253,10 +253,10 @@ data:
       row: 9
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v2
-      anchorX: 0.516157
-      anchorY: 0.975936
-      contentWidth: 0.706134
+      textureKey: town-reedhaven-woven-house-v3
+      anchorX: 0.498675
+      anchorY: 0.920524
+      contentWidth: 0.786754
   - id: reedhaven-residence-08
     name: 일반 주택 8
     kind: residence
@@ -272,10 +272,10 @@ data:
       row: 16
     facing: south
     sprite:
-      textureKey: town-reedhaven-dike-house-v2
-      anchorX: 0.58422
-      anchorY: 0.959893
-      contentWidth: 0.737518
+      textureKey: town-reedhaven-dike-house-v3
+      anchorX: 0.501917
+      anchorY: 0.952838
+      contentWidth: 0.839156
   - id: reedhaven-residence-09
     name: 일반 주택 9
     kind: residence
@@ -291,10 +291,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-common-stone-house-v2
-      anchorX: 0.560271
-      anchorY: 0.980392
-      contentWidth: 0.706847
+      textureKey: town-reedhaven-plank-house-v3
+      anchorX: 0.499533
+      anchorY: 0.942358
+      contentWidth: 0.806405
   - id: reedhaven-residence-10
     name: 일반 주택 10
     kind: residence
@@ -310,10 +310,10 @@ data:
       row: 22
     facing: south
     sprite:
-      textureKey: town-common-timber-house-v2
-      anchorX: 0.516157
-      anchorY: 0.975936
-      contentWidth: 0.706134
+      textureKey: town-reedhaven-woven-house-v3
+      anchorX: 0.498675
+      anchorY: 0.920524
+      contentWidth: 0.786754
   connections:
   - column: 0
     row: 12
@@ -560,16 +560,6 @@ data:
     displayHeight: 64.0
     anchorX: 0.5
     anchorY: 0.84375
-    tileAnchor: center
-  - id: reedhaven-garden-31
-    kind: decoration
-    position:
-      column: 1
-      row: 11
-    textureKey: fern-clump-v1
-    displayHeight: 64.0
-    anchorX: 0.5
-    anchorY: 0.85156
     tileAnchor: center
   - id: reedhaven-garden-32
     kind: decoration
@@ -844,7 +834,7 @@ data:
   - id: reedhaven-home-2-town-herb-planter-v1
     kind: decoration
     position:
-      column: 21
+      column: 20
       row: 0
     textureKey: town-herb-planter-v1
     displayHeight: 75.0
@@ -965,7 +955,7 @@ data:
     kind: decoration
     position:
       column: 17
-      row: 13
+      row: 10
     textureKey: town-herb-planter-v1
     displayHeight: 75.0
     anchorX: 0.5
@@ -1071,16 +1061,6 @@ data:
     anchorX: 0.501119
     anchorY: 0.952259
     tileAnchor: center
-  - id: reedhaven-atmosphere-008
-    kind: decoration
-    position:
-      column: 3
-      row: 13
-    textureKey: town-reedhaven-broad-marsh-fern-v1
-    displayHeight: 58.0
-    anchorX: 0.501143
-    anchorY: 0.983319
-    tileAnchor: center
   - id: reedhaven-atmosphere-009
     kind: decoration
     position:
@@ -1175,7 +1155,7 @@ data:
     kind: decoration
     position:
       column: 17
-      row: 11
+      row: 7
     textureKey: town-herb-planter-v1
     displayHeight: 75.0
     anchorX: 0.5
@@ -1185,7 +1165,7 @@ data:
     kind: decoration
     position:
       column: 3
-      row: 20
+      row: 21
     textureKey: town-reedhaven-reed-flower-clump-v1
     displayHeight: 58.0
     anchorX: 0.497771
@@ -1200,16 +1180,6 @@ data:
     displayHeight: 80.0
     anchorX: 0.501119
     anchorY: 0.952259
-    tileAnchor: center
-  - id: reedhaven-atmosphere-028
-    kind: decoration
-    position:
-      column: 1
-      row: 13
-    textureKey: town-reedhaven-broad-marsh-fern-v1
-    displayHeight: 58.0
-    anchorX: 0.501143
-    anchorY: 0.983319
     tileAnchor: center
   - id: reedhaven-atmosphere-030
     kind: decoration
@@ -1425,7 +1395,7 @@ data:
     kind: decoration
     position:
       column: 5
-      row: 20
+      row: 21
     textureKey: town-reedhaven-broad-marsh-fern-v1
     displayHeight: 58.0
     anchorX: 0.501143
@@ -1574,8 +1544,8 @@ data:
   - id: reedhaven-atmosphere-071
     kind: decoration
     position:
-      column: 18
-      row: 13
+      column: 15
+      row: 14
     textureKey: town-reedhaven-reed-flower-clump-v1
     displayHeight: 58.0
     anchorX: 0.497771
@@ -1744,8 +1714,8 @@ data:
   - id: reedhaven-atmosphere-091
     kind: decoration
     position:
-      column: 16
-      row: 13
+      column: 13
+      row: 14
     textureKey: town-reedhaven-river-sedge-tuft-v1
     displayHeight: 58.0
     anchorX: 0.504573
@@ -1824,8 +1794,8 @@ data:
   - id: reedhaven-atmosphere-099
     kind: decoration
     position:
-      column: 18
-      row: 11
+      column: 16
+      row: 8
     textureKey: town-reedhaven-willow-leaf-shrub-v1
     displayHeight: 80.0
     anchorX: 0.500381
@@ -1844,27 +1814,17 @@ data:
   - id: reedhaven-atmosphere-101
     kind: decoration
     position:
-      column: 21
+      column: 19
       row: 1
     textureKey: town-reedhaven-reed-flower-clump-v1
     displayHeight: 58.0
     anchorX: 0.497771
     anchorY: 0.976884
     tileAnchor: center
-  - id: reedhaven-atmosphere-102
-    kind: decoration
-    position:
-      column: 3
-      row: 11
-    textureKey: town-reedhaven-water-mint-bush-v1
-    displayHeight: 80.0
-    anchorX: 0.501119
-    anchorY: 0.952259
-    tileAnchor: center
   - id: reedhaven-atmosphere-103
     kind: decoration
     position:
-      column: 21
+      column: 17
       row: 23
     textureKey: town-reedhaven-broad-marsh-fern-v1
     displayHeight: 58.0
@@ -2334,577 +2294,577 @@ data:
   elevations:
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 2
+    - 3
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 2
+    - 3
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 2
+    - 3
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
   - - 0
     - 0
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 4
+    - 4
     - 0
     - 0
