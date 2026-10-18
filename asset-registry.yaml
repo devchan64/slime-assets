@@ -621,7 +621,7 @@ assets:
 - managementId: config.field-tiles.ash-edge
   version: retire-stump-v1
   path: assets/maps/field_tiles/ash-edge.yaml
-  sha256: eee949defd89e5c0765e07ff1c714746993dc10f4d8f3bb2b01492599c52f3cd
+  sha256: 54e2a964ef00ef85b6eb5cf313e8ac4a93c89cf59edb35ece84818bafaf81572
   source:
     repository: slime-backend
     path: config/field_tiles/ash-edge.yaml
@@ -669,7 +669,7 @@ assets:
 - managementId: config.field-tiles.crystal-cut
   version: crystal-cut-materials-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: db3bb2cbfa3be7cb722f73a457ad8191f69135bcc030313011e125f35528582d
+  sha256: 52785391585b31cb39ab2a50875c2a3cf5b1b94405af0475e9c06ec6c9ab5c01
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -749,7 +749,7 @@ assets:
 - managementId: config.field-tiles.old-orchard
   version: retire-stump-v1
   path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: eb633592cb24f7e4813357a491bbdfbb1fd58d2ca3e1c2526811da6e8e0b72a9
+  sha256: 6c121f9a383dc346b21460d6f3ee2bd33a6c9aa1266880c78cf65bbfe301acaa
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/old-orchard.yaml
@@ -789,7 +789,7 @@ assets:
 - managementId: config.field-tiles.wind-hills
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/wind-hills.yaml
-  sha256: de8140799fc9d2cd4e118aee6badd82af1873dfd782b43067e0b1fcfae2c53f4
+  sha256: 51c045484939939c3bbdbbc24d7da379f01e5ffdab3709649647193613736b62
   source:
     repository: slime-backend
     path: config/field_tiles/wind-hills.yaml
@@ -1725,7 +1725,7 @@ assets:
 - managementId: config.field-tiles.granary-flats
   version: shared-material-codes-v1
   path: assets/maps/field_tiles/granary-flats.yaml
-  sha256: 951067339bbdc8afdd9337fde07695dc662763a149b97eefa220ebf250fbf0cc
+  sha256: 85b438f037ed4e37722e201059467c3c340ec115d5dd8889fb0771b2b46a0277
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/granary-flats.yaml
@@ -7289,3 +7289,36 @@ assets:
     repository: codex-imagegen
     operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
     artifact: town-grainstead-mill-house-v3.png
+- managementId: image.scenery.ash-edge-charred-regrowth-v1
+  version: v1
+  path: assets/billboards/ash-edge-charred-regrowth-v1.png
+  name: 탄화 그루터기와 새순
+  width: 512
+  height: 341
+  sha256: 1838838613d3c51b18f16004b162ea884751619e04bf22e31171b8a0ab30eb19
+  source:
+    repository: slime-workflow
+    path: output/imagegen/ash-edge-20261018/ash-edge-charred-regrowth-v1.png
+    operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
+- managementId: image.scenery.ash-edge-decomposer-log-v1
+  version: v1
+  path: assets/billboards/ash-edge-decomposer-log-v1.png
+  name: 분해 버섯이 붙은 탄 고목
+  width: 512
+  height: 341
+  sha256: 9e870cb18b041f8d3dc5d9353784b510d84eec3c071d9f2cf4084c475209f9a6
+  source:
+    repository: slime-workflow
+    path: output/imagegen/ash-edge-20261018/ash-edge-decomposer-log-v1.png
+    operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
+- managementId: image.scenery.ash-edge-scorched-waystone-v1
+  version: v1
+  path: assets/billboards/ash-edge-scorched-waystone-v1.png
+  name: 한쪽이 검어진 돌 이정표
+  width: 512
+  height: 341
+  sha256: 1975119c2b8b632ec7367062e314d7598f5c22de6060ca90f44886b761000900
+  source:
+    repository: slime-workflow
+    path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
+    operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소

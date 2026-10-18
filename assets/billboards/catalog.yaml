@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 189
+  image_count: 197
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-17'
@@ -33,7 +33,8 @@ placement_guidance:
 review_categories:
   vegetation: 식생
   props: 기물
-review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 나무·식생·자연 잔해는 식생, 소품·작업 장면·안내 표시는 기물이다.
+review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 나무·식생·자연 잔해는 식생,
+  소품·작업 장면·안내 표시는 기물이다.
 families:
   orchard-apple-tree:
     category: tree
@@ -942,6 +943,30 @@ families:
     uses:
     - 갈대나루 물가·둑 아래 군락
     - 도로와 출입구를 비운 수변 배치
+  ash-edge-charred-regrowth-v1:
+    category: debris
+    review_category: vegetation
+    name: 탄화 그루터기와 새순
+    features:
+    - 탄화 그루터기와 새순
+    uses:
+    - 야외필드 환경 장식
+  ash-edge-decomposer-log-v1:
+    category: debris
+    review_category: vegetation
+    name: 분해 버섯이 붙은 탄 고목
+    features:
+    - 분해 버섯이 붙은 탄 고목
+    uses:
+    - 야외필드 환경 장식
+  ash-edge-scorched-waystone-v1:
+    category: prop
+    review_category: props
+    name: 한쪽이 검어진 돌 이정표
+    features:
+    - 한쪽이 검어진 돌 이정표
+    uses:
+    - 야외필드 환경 장식
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -1221,6 +1246,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 44
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 4
 - texture_key: dry-grass-variant-1-v1
   family: dry-grass
   asset_ref:
@@ -1233,6 +1260,8 @@ billboards:
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 4
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 8
 - texture_key: dry-grass-variant-2-v1
   family: dry-grass
   asset_ref:
@@ -1245,6 +1274,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 4
 - texture_key: dry-grass-variant-3-v1
   family: dry-grass
   asset_ref:
@@ -1255,6 +1286,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 4
 - texture_key: dry-shrub-v1
   family: dry-shrub
   asset_ref:
@@ -1323,6 +1356,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 6
 - texture_key: fern-variant-1-v1
   family: fern
   asset_ref:
@@ -1331,6 +1366,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 12
 - texture_key: fern-variant-2-v1
   family: fern
   asset_ref:
@@ -1339,12 +1376,16 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 13
 - texture_key: fern-variant-3-v1
   family: fern
   asset_ref:
     management_id: image.scenery.fern-variant-3-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 6
 - texture_key: grass-clump-v1
   family: grass
   asset_ref:
@@ -1355,6 +1396,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 7
 - texture_key: hollow-log-v1
   family: log
   asset_ref:
@@ -1416,7 +1459,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.log-variant-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 1
 - texture_key: log-variant-2-v1
   family: log
   asset_ref:
@@ -1434,13 +1479,17 @@ billboards:
   asset_ref:
     management_id: image.scenery.mushroom-cluster-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 1
 - texture_key: mushroom-variant-1-v1
   family: mushroom
   asset_ref:
     management_id: image.scenery.mushroom-variant-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 1
 - texture_key: mushroom-variant-2-v1
   family: mushroom
   asset_ref:
@@ -1449,12 +1498,16 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 1
 - texture_key: mushroom-variant-3-v1
   family: mushroom
   asset_ref:
     management_id: image.scenery.mushroom-variant-3-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 1
 - texture_key: old-stump-v1
   family: stump
   asset_ref:
@@ -1585,6 +1638,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 27
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 18
 - texture_key: orchard-chunky-fern-v1
   family: orchard-chunky-fern
   asset_ref:
@@ -1595,6 +1650,8 @@ billboards:
     texture_key_occurrences: 33
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 12
 - texture_key: orchard-chunky-flower-v1
   family: orchard-chunky-flower
   asset_ref:
@@ -1617,6 +1674,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 81
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 12
 - texture_key: orchard-chunky-mushroom-v1
   family: orchard-chunky-mushroom
   asset_ref:
@@ -1637,6 +1696,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 25
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 8
 - texture_key: orchard-dead-tree-v1
   family: orchard-dead-tree
   asset_ref:
@@ -1651,6 +1712,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 4
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -1773,6 +1836,8 @@ billboards:
     texture_key_occurrences: 5
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 21
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -1877,6 +1942,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 10
 - texture_key: seed-grass-variant-1-v1
   family: seed-grass
   asset_ref:
@@ -1966,7 +2033,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.stump-variant-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 1
 - texture_key: stump-variant-2-v1
   family: stump
   asset_ref:
@@ -2621,6 +2690,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 25
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 16
 - texture_key: town-reedhaven-reed-tall-v1
   family: town-reedhaven-reed-tall
   asset_ref:
@@ -2661,3 +2732,27 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 5
+- texture_key: ash-edge-charred-regrowth-v1
+  family: ash-edge-charred-regrowth-v1
+  asset_ref:
+    management_id: image.scenery.ash-edge-charred-regrowth-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 7
+- texture_key: ash-edge-decomposer-log-v1
+  family: ash-edge-decomposer-log-v1
+  asset_ref:
+    management_id: image.scenery.ash-edge-decomposer-log-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 5
+- texture_key: ash-edge-scorched-waystone-v1
+  family: ash-edge-scorched-waystone-v1
+  asset_ref:
+    management_id: image.scenery.ash-edge-scorched-waystone-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 1
