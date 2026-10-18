@@ -597,7 +597,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v6
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 4a3d89f50478006186c09960f412f4c67f3e877157dab5b33ecea20cf23a051b
+  sha256: df25dc426f809bc5721c2f5452b751768261a193edb86704db782f280826f219
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -605,7 +605,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 4fcdd5cceb6384f3be2a2d97bd353dca93870f46c6f7e1f2e3bf4a1cbffa1edf
+  sha256: 28914bb455b1254287ac26f022c5caaa72f3166066227d64b0cdc88b1ac30cd7
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -6307,9 +6307,9 @@ assets:
   version: v1
   path: assets/billboards/town-herb-rack-v1.png
   name: 약초 건조대
-  width: 512
-  height: 512
-  sha256: d520c49501986a8fe9f4aacc28402dd103878eff0c8fcdc915b5a5445fe40c8f
+  width: 128
+  height: 128
+  sha256: 68e0410aee01a7ba463eb3a18703a614c6dfeffcc49fa0e03f30ac5227db193d
   source:
     repository: codex-imagegen
     artifact: exec-411b0315-bfba-45c8-8fe0-edd9bd7750a4.png
@@ -6627,12 +6627,12 @@ assets:
   path: assets/billboards/town-reedhaven-fiber-workbench-v1.png
   name: 갈대나루 갈대섬유 작업대
   width: 128
-  height: 85
-  sha256: 2cc5b7a2b945abc68c9750ca6fb3f8d3aae0cb2e5080bb2771ef7c9f8bcf98fc
+  height: 128
+  sha256: 111dd587861185bce33ff7fcee93f2cf0cca7accb655ce28a4c85102581dc457
   source:
     repository: codex-imagegen
-    artifact: exec-676cbda0-02f8-4260-9001-3109c05e1afc.png
-    processing: 세계관 생활 장면 전용 투명 빌보드 원본
+    artifact: exec-4ef345fe-9e67-441d-80fb-fe11d49a0af0.png
+    processing: 갈대 가공 작업대로 디자인 교체 · 투명 알파 유지 · 128px 축소
 - managementId: image.scenery.town-stonewarm-repair-handover-v1
   version: v1
   path: assets/billboards/town-stonewarm-repair-handover-v1.png
