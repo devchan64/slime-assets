@@ -30,9 +30,14 @@ placement_guidance:
   navigation: 재생·프레임·앵커는 animation 메타데이터를 따른다.
   ground_pairing: 하나의 바닥에 여러 빌보드를 조합할 수 있다. 이 색인은 새 타일 매핑이나 자동 배치 규칙을 적용하지 않는다.
   depth: 실제 앵커·높이·앞/중앙/뒤 배치는 맵과 공용 렌더러가 결정한다.
+review_categories:
+  vegetation: 식생
+  props: 기물
+review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 나무·식생·자연 잔해는 식생, 소품·작업 장면·안내 표시는 기물이다.
 families:
   orchard-apple-tree:
     category: tree
+    review_category: vegetation
     name: 사과나무
     features:
     - 열매가 달린 수관과 줄기
@@ -40,6 +45,7 @@ families:
     - 과수 재배 구역의 중심 수목
   orchard-dead-tree:
     category: tree
+    review_category: vegetation
     name: 고사목
     features:
     - 잎이 적고 가지가 드러난 나무
@@ -47,6 +53,7 @@ families:
     - 메마른 구역과 관리되지 않은 가장자리
   orchard-autumn-tree:
     category: tree
+    review_category: vegetation
     name: 가을 과수
     features:
     - 가을색 수관
@@ -54,6 +61,7 @@ families:
     - 계절감이 있는 과수 군락
   orchard-young-tree:
     category: tree
+    review_category: vegetation
     name: 어린 과수
     features:
     - 작은 수관과 가는 줄기
@@ -61,6 +69,7 @@ families:
     - 어린 나무 재배 구역
   orchard-old-tree:
     category: tree
+    review_category: vegetation
     name: 오래된 과수
     features:
     - 굵은 줄기와 넓은 수관
@@ -68,6 +77,7 @@ families:
     - 오래된 과수 구역의 중심
   bush-billboard:
     category: vegetation
+    review_category: vegetation
     name: 앞뒤 분리 수풀
     features:
     - 앞·뒤 두 프레임으로 나뉜 수풀
@@ -75,6 +85,7 @@ families:
     - 캐릭터가 수풀 사이에 서는 깊이 표현
   grass:
     category: vegetation
+    review_category: vegetation
     name: 풀 포기
     features:
     - 좁고 긴 잎의 군집
@@ -82,6 +93,7 @@ families:
     - 초지와 길 가장자리
   wildflower:
     category: vegetation
+    review_category: vegetation
     name: 야생화
     features:
     - 꽃과 잎이 섞인 군집
@@ -89,6 +101,7 @@ families:
     - 초지의 작은 색상 강조
   dry-branches:
     category: debris
+    review_category: vegetation
     name: 마른 가지
     features:
     - 잎 없는 낮은 가지
@@ -96,6 +109,7 @@ families:
     - 건조한 지면의 흔적
   fern:
     category: vegetation
+    review_category: vegetation
     name: 고사리
     features:
     - 갈라진 잎이 퍼진 군집
@@ -103,6 +117,7 @@ families:
     - 숲 가장자리와 습윤한 녹지
   dry-grass:
     category: vegetation
+    review_category: vegetation
     name: 마른 풀
     features:
     - 마른 잎의 포기
@@ -110,6 +125,7 @@ families:
     - 건조한 초지
   clover:
     category: vegetation
+    review_category: vegetation
     name: 클로버
     features:
     - 낮고 둥근 잎 군집
@@ -117,6 +133,7 @@ families:
     - 낮은 초지 채움
   broadleaf:
     category: vegetation
+    review_category: vegetation
     name: 넓은 잎 잡초
     features:
     - 넓은 잎이 방사형으로 퍼짐
@@ -124,6 +141,7 @@ families:
     - 초지의 형태 대비
   seed-grass:
     category: vegetation
+    review_category: vegetation
     name: 이삭 풀
     features:
     - 잎 위로 올라온 이삭
@@ -131,6 +149,7 @@ families:
     - 풀밭의 높이 변화
   blue-flower:
     category: vegetation
+    review_category: vegetation
     name: 푸른 야생화
     features:
     - 푸른 꽃의 군집
@@ -138,6 +157,7 @@ families:
     - 녹지의 차가운 색상 강조
   daisy:
     category: vegetation
+    review_category: vegetation
     name: 흰 들꽃
     features:
     - 밝은 흰 꽃
@@ -145,6 +165,7 @@ families:
     - 길 주변과 정원의 밝은 강조
   dandelion:
     category: vegetation
+    review_category: vegetation
     name: 민들레
     features:
     - 노란 꽃과 낮은 잎
@@ -152,6 +173,7 @@ families:
     - 초지의 노란 색상 강조
   berry:
     category: vegetation
+    review_category: vegetation
     name: 열매 관목
     features:
     - 작은 열매가 달린 관목
@@ -159,6 +181,7 @@ families:
     - 숲과 과수원 가장자리
   dry-shrub:
     category: vegetation
+    review_category: vegetation
     name: 마른 관목
     features:
     - 마른 가지가 뻗은 낮은 관목
@@ -166,6 +189,7 @@ families:
     - 건조 구역의 작은 군집
   stump:
     category: debris
+    review_category: vegetation
     name: 그루터기
     features:
     - 잘린 나무 밑동
@@ -173,6 +197,7 @@ families:
     - 벌목·수목 관리 흔적
   log:
     category: debris
+    review_category: vegetation
     name: 쓰러진 통나무
     features:
     - 가로로 놓인 목재
@@ -180,6 +205,7 @@ families:
     - 숲 바닥의 길쭉한 형태
   root:
     category: debris
+    review_category: vegetation
     name: 노출된 뿌리
     features:
     - 지면으로 뻗은 뿌리
@@ -187,6 +213,7 @@ families:
     - 나무 주변의 지면 연결
   mushroom:
     category: vegetation
+    review_category: vegetation
     name: 버섯
     features:
     - 갓이 모인 군집
@@ -194,6 +221,7 @@ families:
     - 나무 그늘의 작은 포인트
   leaves:
     category: debris
+    review_category: vegetation
     name: 낙엽
     features:
     - 낮게 쌓인 잎
@@ -201,6 +229,7 @@ families:
     - 가을 수목 아래 지면 강조
   apples:
     category: debris
+    review_category: vegetation
     name: 떨어진 사과
     features:
     - 지면에 모인 열매
@@ -208,6 +237,7 @@ families:
     - 사과나무 아래 수확 흔적
   ivy:
     category: vegetation
+    review_category: vegetation
     name: 덩굴
     features:
     - 낮게 퍼진 덩굴 잎
@@ -215,6 +245,7 @@ families:
     - 녹지 가장자리의 연결
   sapling:
     category: vegetation
+    review_category: vegetation
     name: 묘목
     features:
     - 작은 나무 형태
@@ -222,6 +253,7 @@ families:
     - 성장 단계가 다른 수목 배치
   bramble:
     category: vegetation
+    review_category: vegetation
     name: 가시 덤불
     features:
     - 얽힌 가지와 잎
@@ -229,6 +261,7 @@ families:
     - 숲 가장자리의 조밀한 군집
   sorrel:
     category: vegetation
+    review_category: vegetation
     name: 괭이밥
     features:
     - 낮게 퍼진 작은 잎
@@ -236,6 +269,7 @@ families:
     - 초지의 낮은 채움
   orchard-chunky-shrub:
     category: vegetation
+    review_category: vegetation
     name: 큰 형태 관목
     features:
     - 큰 잎 덩어리 중심
@@ -243,6 +277,7 @@ families:
     - 수목 아래 읽기 쉬운 관목
   orchard-chunky-grass:
     category: vegetation
+    review_category: vegetation
     name: 큰 형태 풀
     features:
     - 큰 풀잎 묶음
@@ -250,6 +285,7 @@ families:
     - 축소 화면에서 읽히는 초지
   orchard-chunky-fern:
     category: vegetation
+    review_category: vegetation
     name: 큰 형태 고사리
     features:
     - 큰 고사리 잎
@@ -257,6 +293,7 @@ families:
     - 수목 주변 형태 대비
   orchard-chunky-flower:
     category: vegetation
+    review_category: vegetation
     name: 큰 형태 꽃
     features:
     - 큰 꽃 덩어리
@@ -264,6 +301,7 @@ families:
     - 꽃 군집 강조
   orchard-chunky-mushroom:
     category: vegetation
+    review_category: vegetation
     name: 큰 형태 버섯
     features:
     - 큰 버섯 갓 군집
@@ -271,6 +309,7 @@ families:
     - 그늘 구역 강조
   orchard-chunky-dryshrub:
     category: vegetation
+    review_category: vegetation
     name: 큰 형태 마른 관목
     features:
     - 큰 마른 가지 덩어리
@@ -278,6 +317,7 @@ families:
     - 건조 구역 강조
   waypoint-guide:
     category: navigation
+    review_category: props
     name: 웨이포인트 안내
     features:
     - 목재 안내 표시의 6프레임 시트
@@ -285,6 +325,7 @@ families:
     - 위치 안내 애니메이션
   town-delivery-crates:
     category: prop
+    review_category: props
     name: 납품 상자와 바구니
     features:
     - 묶인 상자와 바구니
@@ -292,6 +333,7 @@ families:
     - 시장·출입구의 운반물
   town-handcart:
     category: prop
+    review_category: props
     name: 작은 손수레
     features:
     - 손잡이와 바퀴가 있는 수레
@@ -299,6 +341,7 @@ families:
     - 시장과 운반 동선 옆
   town-food-stall:
     category: prop
+    review_category: props
     name: 식량 진열대
     features:
     - 식품을 놓은 낮은 작업대
@@ -306,6 +349,7 @@ families:
     - 시장 식품 진열
   town-notice-board:
     category: prop
+    review_category: props
     name: 목재 의뢰 게시판
     features:
     - 목재 판과 붙인 종이
@@ -313,6 +357,7 @@ families:
     - 광장·길드 주변 안내
   town-reed-bundles:
     category: prop
+    review_category: props
     name: 갈대 섬유 묶음
     features:
     - 묶어 쌓은 갈대
@@ -320,6 +365,7 @@ families:
     - 갈대 가공·건조 구역
   town-herb-rack:
     category: prop
+    review_category: props
     name: 약초 건조대
     features:
     - 식물을 매단 거치대
@@ -327,6 +373,7 @@ families:
     - 약초 처리 구역
   town-record-chest:
     category: prop
+    review_category: props
     name: 기록 보관 상자
     features:
     - 기록물을 담은 상자
@@ -334,6 +381,7 @@ families:
     - 서점·기록 공간 주변
   town-layered-sign:
     category: prop
+    review_category: props
     name: 겹친 기록 안내판
     features:
     - 겹쳐 붙인 표식
@@ -341,6 +389,7 @@ families:
     - 기록·안내 구역
   town-grindstone:
     category: prop
+    review_category: props
     name: 수동 숫돌
     features:
     - 회전 숫돌과 받침대
@@ -348,6 +397,7 @@ families:
     - 공방 작업 구역
   town-metal-bin:
     category: prop
+    review_category: props
     name: 금속 분류함
     features:
     - 분류된 금속 재료
@@ -355,6 +405,7 @@ families:
     - 공방 재료 보관
   town-charcoal-stack:
     category: prop
+    review_category: props
     name: 숯과 장작
     features:
     - 연료 자루와 목재 더미
@@ -362,6 +413,7 @@ families:
     - 공방 연료 보관
   town-repair-rack:
     category: prop
+    review_category: props
     name: 수리 도구 거치대
     features:
     - 걸어 둔 수공구
@@ -369,6 +421,7 @@ families:
     - 공방 수리 구역
   town-grain-sacks:
     category: prop
+    review_category: props
     name: 곡물 자루
     features:
     - 묶인 자루와 곡물
@@ -376,6 +429,7 @@ families:
     - 저장·출하 구역
   town-straw-sheaves:
     category: prop
+    review_category: props
     name: 볏단
     features:
     - 묶은 줄기 군집
@@ -383,6 +437,7 @@ families:
     - 수확·건조 구역
   town-threshing-bench:
     category: prop
+    review_category: props
     name: 탈곡 작업대
     features:
     - 곡물을 다루는 수동 작업대
@@ -390,6 +445,7 @@ families:
     - 수확 처리 구역
   town-harvest-cart:
     category: prop
+    review_category: props
     name: 수확 수레
     features:
     - 수확물을 실은 수레
@@ -397,6 +453,7 @@ families:
     - 농업 운반 구역
   town-salt-barrels:
     category: prop
+    review_category: props
     name: 소금 자루와 통
     features:
     - 자루와 저장 통
@@ -404,6 +461,7 @@ families:
     - 염분 재료 저장 구역
   town-fish-rack:
     category: prop
+    review_category: props
     name: 보존식 건조대
     features:
     - 먹거리를 걸어 말리는 틀
@@ -411,6 +469,7 @@ families:
     - 건조·보존 처리 구역
   town-rope-crates:
     category: prop
+    review_category: props
     name: 밧줄과 상자
     features:
     - 감은 밧줄과 운반 상자
@@ -418,6 +477,7 @@ families:
     - 물류 작업 구역
   town-coastal-stall:
     category: prop
+    review_category: props
     name: 해안 진열대
     features:
     - 해안 물품 진열 작업대
@@ -425,6 +485,7 @@ families:
     - 해안 시장
   town-wood-bench:
     category: prop
+    review_category: props
     name: 목재 벤치
     features:
     - 등받이 또는 좌판 목재
@@ -432,6 +493,7 @@ families:
     - 광장·주거지 휴식 공간
   town-low-fence:
     category: prop
+    review_category: props
     name: 낮은 울타리
     features:
     - 낮은 목재 경계
@@ -439,6 +501,7 @@ families:
     - 정원과 작업 공간 구획
   town-ground-lantern:
     category: prop
+    review_category: props
     name: 지면 등불
     features:
     - 받침 위 등불
@@ -446,6 +509,7 @@ families:
     - 입구와 길 주변 표시
   town-herb-planter:
     category: vegetation
+    review_category: vegetation
     name: 약초 화분
     features:
     - 용기에 심은 꽃과 약초
@@ -453,6 +517,7 @@ families:
     - 건물 주변 녹지
   town-low-reeds:
     category: vegetation
+    review_category: vegetation
     name: 낮은 갈대
     features:
     - 낮게 모인 갈대
@@ -460,6 +525,7 @@ families:
     - 물가 분위기의 가장자리
   town-ore-basket:
     category: prop
+    review_category: props
     name: 광석 바구니
     features:
     - 선별한 광석과 바구니
@@ -467,6 +533,7 @@ families:
     - 공방 재료 구역
   town-vegetable-planter:
     category: vegetation
+    review_category: vegetation
     name: 채소 재배 상자
     features:
     - 상자 안 채소
@@ -474,6 +541,7 @@ families:
     - 주거·농업 구역
   town-saltmarsh-plants:
     category: vegetation
+    review_category: vegetation
     name: 염생식물
     features:
     - 해안 식생 군집
@@ -481,6 +549,7 @@ families:
     - 해안 마을 녹지
   town-iseulon-jelly-counter:
     category: scene
+    review_category: props
     name: 젤리 조리·검수대
     features:
     - 젤리 그릇·조리 냄비·틀·저울
@@ -488,6 +557,7 @@ families:
     - 시장 조리와 분량 확인 장면
   town-reedhaven-water-record:
     category: scene
+    review_category: props
     name: 물길 기록 벽
     features:
     - 지도·덧댄 기록·갈대 묶음
@@ -495,6 +565,7 @@ families:
     - 서점 주변 기록 작업 장면
   town-stonewarm-repair-process:
     category: scene
+    review_category: props
     name: 수리 공정대
     features:
     - 수리 단계가 다른 방패·작업 표식
@@ -502,6 +573,7 @@ families:
     - 공방 수리 장면
   town-grainstead-milling-dispatch:
     category: scene
+    review_category: props
     name: 제분·출고대
     features:
     - 수동 맷돌·곡물 건조판·자루
@@ -509,6 +581,7 @@ families:
     - 곡물 처리와 출하 장면
   town-saltford-cargo-weighing:
     category: scene
+    review_category: props
     name: 화물 계량대
     features:
     - 저울·추·화물·소금 자루
@@ -516,6 +589,7 @@ families:
     - 물류 계량 장면
   town-iseulon-material-training:
     category: scene
+    review_category: props
     name: 이슬온 회수 재료 교육대
     features:
     - 젤리 견본·집게·취급 천·그림 카드
@@ -523,6 +597,7 @@ families:
     - 길드 주변 재료 취급 교육 장면
   town-reedhaven-fiber-workbench:
     category: scene
+    review_category: props
     name: 갈대나루 갈대섬유 작업대
     features:
     - 갈대 묶음·직조 틀·미완성 돗자리
@@ -530,6 +605,7 @@ families:
     - 공방 주변 섬유 가공 장면
   town-stonewarm-repair-handover:
     category: scene
+    review_category: props
     name: 돌온재 수리품 인계 선반
     features:
     - 수리 흔적이 있는 방패·가방·인계 표식
@@ -537,6 +613,7 @@ families:
     - 공방의 수리품 인계 장면
   town-grainstead-grain-drying:
     category: scene
+    review_category: props
     name: 곡온벌 곡물 건조대
     features:
     - 높인 건조판·곡물·갈퀴·덮개 천
@@ -544,6 +621,7 @@ families:
     - 제분 구역의 건조 작업 장면
   town-saltford-wet-cargo-drying:
     category: scene
+    review_category: props
     name: 소금여울 젖은 포대 건조대
     features:
     - 젖은 포대·건조 틀·밧줄·물받이
@@ -551,6 +629,7 @@ families:
     - 시장 주변 운송 화물 관리 장면
   town-iseulon-round-rose-shrub:
     category: vegetation
+    review_category: vegetation
     name: 분홍 장미 관목
     features:
     - 분홍 장미 관목의 잎·꽃·줄기 실루엣
@@ -559,6 +638,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-iseulon-white-bloom-hedge:
     category: vegetation
+    review_category: vegetation
     name: 흰꽃 생울타리
     features:
     - 흰꽃 생울타리의 잎·꽃·줄기 실루엣
@@ -567,6 +647,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-iseulon-lemon-herb-clump:
     category: vegetation
+    review_category: vegetation
     name: 넓은잎 허브
     features:
     - 넓은잎 허브의 잎·꽃·줄기 실루엣
@@ -575,6 +656,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-iseulon-red-berry-bush:
     category: vegetation
+    review_category: vegetation
     name: 붉은 열매 관목
     features:
     - 붉은 열매 관목의 잎·꽃·줄기 실루엣
@@ -583,6 +665,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-iseulon-violet-garden-tuft:
     category: vegetation
+    review_category: vegetation
     name: 보랏빛 정원 꽃
     features:
     - 보랏빛 정원 꽃의 잎·꽃·줄기 실루엣
@@ -591,6 +674,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-iseulon-soft-fern-cluster:
     category: vegetation
+    review_category: vegetation
     name: 연녹색 고사리
     features:
     - 연녹색 고사리의 잎·꽃·줄기 실루엣
@@ -599,6 +683,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-reedhaven-reed-flower-clump:
     category: vegetation
+    review_category: vegetation
     name: 크림빛 갈대꽃
     features:
     - 크림빛 갈대꽃의 잎·꽃·줄기 실루엣
@@ -607,6 +692,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-reedhaven-blue-marsh-iris:
     category: vegetation
+    review_category: vegetation
     name: 푸른 습지 붓꽃
     features:
     - 푸른 습지 붓꽃의 잎·꽃·줄기 실루엣
@@ -615,6 +701,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-reedhaven-water-mint-bush:
     category: vegetation
+    review_category: vegetation
     name: 물가 박하 관목
     features:
     - 물가 박하 관목의 잎·꽃·줄기 실루엣
@@ -623,6 +710,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-reedhaven-broad-marsh-fern:
     category: vegetation
+    review_category: vegetation
     name: 넓은잎 습지 고사리
     features:
     - 넓은잎 습지 고사리의 잎·꽃·줄기 실루엣
@@ -631,6 +719,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-reedhaven-willow-leaf-shrub:
     category: vegetation
+    review_category: vegetation
     name: 버들잎 관목
     features:
     - 버들잎 관목의 잎·꽃·줄기 실루엣
@@ -639,6 +728,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-reedhaven-river-sedge-tuft:
     category: vegetation
+    review_category: vegetation
     name: 물가 사초
     features:
     - 물가 사초의 잎·꽃·줄기 실루엣
@@ -647,6 +737,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-stonewarm-silver-sage-shrub:
     category: vegetation
+    review_category: vegetation
     name: 은빛 세이지
     features:
     - 은빛 세이지의 잎·꽃·줄기 실루엣
@@ -655,6 +746,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-stonewarm-rust-heather-bush:
     category: vegetation
+    review_category: vegetation
     name: 갈색 헤더
     features:
     - 갈색 헤더의 잎·꽃·줄기 실루엣
@@ -663,6 +755,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-stonewarm-stone-thyme-cushion:
     category: vegetation
+    review_category: vegetation
     name: 낮은 백리향
     features:
     - 낮은 백리향의 잎·꽃·줄기 실루엣
@@ -671,6 +764,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-stonewarm-sturdy-juniper-shrub:
     category: vegetation
+    review_category: vegetation
     name: 작은 향나무 관목
     features:
     - 작은 향나무 관목의 잎·꽃·줄기 실루엣
@@ -679,6 +773,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-stonewarm-copper-leaf-bush:
     category: vegetation
+    review_category: vegetation
     name: 구릿빛 잎 관목
     features:
     - 구릿빛 잎 관목의 잎·꽃·줄기 실루엣
@@ -687,6 +782,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-stonewarm-dry-golden-grass:
     category: vegetation
+    review_category: vegetation
     name: 마른 금빛 풀
     features:
     - 마른 금빛 풀의 잎·꽃·줄기 실루엣
@@ -695,6 +791,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-grainstead-field-clover-cushion:
     category: vegetation
+    review_category: vegetation
     name: 클로버 꽃밭
     features:
     - 클로버 꽃밭의 잎·꽃·줄기 실루엣
@@ -703,6 +800,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-grainstead-golden-meadow-tuft:
     category: vegetation
+    review_category: vegetation
     name: 금빛 들풀
     features:
     - 금빛 들풀의 잎·꽃·줄기 실루엣
@@ -711,6 +809,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-grainstead-hazel-leaf-shrub:
     category: vegetation
+    review_category: vegetation
     name: 개암잎 관목
     features:
     - 개암잎 관목의 잎·꽃·줄기 실루엣
@@ -719,6 +818,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-grainstead-white-field-daisy:
     category: vegetation
+    review_category: vegetation
     name: 흰 들국화
     features:
     - 흰 들국화의 잎·꽃·줄기 실루엣
@@ -727,6 +827,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-grainstead-wild-raspberry-bush:
     category: vegetation
+    review_category: vegetation
     name: 산딸기 관목
     features:
     - 산딸기 관목의 잎·꽃·줄기 실루엣
@@ -735,6 +836,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-grainstead-green-field-hedge:
     category: vegetation
+    review_category: vegetation
     name: 초록 들울타리
     features:
     - 초록 들울타리의 잎·꽃·줄기 실루엣
@@ -743,6 +845,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-saltford-coastal-silver-shrub:
     category: vegetation
+    review_category: vegetation
     name: 해안 은빛 관목
     features:
     - 해안 은빛 관목의 잎·꽃·줄기 실루엣
@@ -751,6 +854,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-saltford-salt-marsh-grass:
     category: vegetation
+    review_category: vegetation
     name: 염습지 풀
     features:
     - 염습지 풀의 잎·꽃·줄기 실루엣
@@ -759,6 +863,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-saltford-sea-lavender-clump:
     category: vegetation
+    review_category: vegetation
     name: 해안 보라꽃
     features:
     - 해안 보라꽃의 잎·꽃·줄기 실루엣
@@ -767,6 +872,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-saltford-thick-leaf-bush:
     category: vegetation
+    review_category: vegetation
     name: 두꺼운잎 관목
     features:
     - 두꺼운잎 관목의 잎·꽃·줄기 실루엣
@@ -775,6 +881,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-saltford-pale-coastal-heather:
     category: vegetation
+    review_category: vegetation
     name: 연분홍 해안 헤더
     features:
     - 연분홍 해안 헤더의 잎·꽃·줄기 실루엣
@@ -783,6 +890,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-saltford-wind-bent-sedge:
     category: vegetation
+    review_category: vegetation
     name: 바람결 사초
     features:
     - 바람결 사초의 잎·꽃·줄기 실루엣
@@ -791,6 +899,7 @@ families:
     - 통로·문 앞을 비운 군락 배치
   town-reedhaven-reed-tall:
     category: vegetation
+    review_category: vegetation
     name: 키 큰 황금 갈대
     features:
     - 키 큰 황금 갈대의 긴 줄기와 선명한 이삭
@@ -799,6 +908,7 @@ families:
     - 도로와 출입구를 비운 수변 배치
   town-reedhaven-reed-young:
     category: vegetation
+    review_category: vegetation
     name: 어린 녹색 갈대 군락
     features:
     - 어린 녹색 갈대 군락의 긴 줄기와 선명한 이삭
@@ -807,6 +917,7 @@ families:
     - 도로와 출입구를 비운 수변 배치
   town-reedhaven-reed-windswept:
     category: vegetation
+    review_category: vegetation
     name: 바람에 기운 갈대
     features:
     - 바람에 기운 갈대의 긴 줄기와 선명한 이삭
@@ -815,6 +926,7 @@ families:
     - 도로와 출입구를 비운 수변 배치
   town-reedhaven-reed-autumn:
     category: vegetation
+    review_category: vegetation
     name: 가을빛 갈대 군락
     features:
     - 가을빛 갈대 군락의 긴 줄기와 선명한 이삭
@@ -823,6 +935,7 @@ families:
     - 도로와 출입구를 비운 수변 배치
   town-reedhaven-reed-silver:
     category: vegetation
+    review_category: vegetation
     name: 은빛 이삭 갈대
     features:
     - 은빛 이삭 갈대의 긴 줄기와 선명한 이삭

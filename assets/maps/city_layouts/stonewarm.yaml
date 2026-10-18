@@ -695,17 +695,19 @@ data:
       column: 10
       row: 7
     textureKey: town-notice-board-v1
-    displayHeight: 130.0
-    anchorX: 0.5
-    anchorY: 0.95933
+    displayHeight: 130
+    anchorX: 0.44
+    anchorY: 0.92
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-prop-2
     kind: decoration
     position:
-      column: 18
-      row: 17
+      column: 16
+      row: 21
     textureKey: town-metal-bin-v1
-    displayHeight: 95.0
+    displayHeight: 64.0
     anchorX: 0.5
     anchorY: 0.86603
     tileAnchor: center
@@ -726,8 +728,8 @@ data:
       row: 11
     textureKey: town-record-chest-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.937
+    anchorX: 0.47
+    anchorY: 0.84
     tileAnchor: center
   - id: stonewarm-prop-5
     kind: decoration
@@ -735,10 +737,12 @@ data:
       column: 7
       row: 3
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-prop-6
     kind: decoration
     position:
@@ -772,10 +776,10 @@ data:
   - id: stonewarm-prop-9
     kind: decoration
     position:
-      column: 16
-      row: 17
+      column: 17
+      row: 21
     textureKey: town-metal-bin-v1
-    displayHeight: 95.0
+    displayHeight: 64.0
     anchorX: 0.5
     anchorY: 0.86603
     tileAnchor: center
@@ -803,7 +807,7 @@ data:
     kind: decoration
     position:
       column: 15
-      row: 17
+      row: 20
     textureKey: town-grindstone-v1
     displayHeight: 95.0
     anchorX: 0.5
@@ -812,20 +816,20 @@ data:
   - id: stonewarm-prop-14
     kind: decoration
     position:
-      column: 21
-      row: 17
+      column: 23
+      row: 16
     textureKey: town-charcoal-stack-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.80941
+    anchorX: 0.47
+    anchorY: 0.79
     tileAnchor: center
   - id: stonewarm-prop-15
     kind: decoration
     position:
-      column: 19
-      row: 14
+      column: 15
+      row: 21
     textureKey: town-metal-bin-v1
-    displayHeight: 95.0
+    displayHeight: 64.0
     anchorX: 0.5
     anchorY: 0.86603
     tileAnchor: center
@@ -845,30 +849,36 @@ data:
       column: 17
       row: 3
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-prop-18
     kind: decoration
     position:
       column: 20
       row: 3
     textureKey: town-low-fence-v1
-    displayHeight: 75.0
-    anchorX: 0.5
-    anchorY: 0.8453
+    displayHeight: 102
+    anchorX: 0.27
+    anchorY: 0.78
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-prop-19
     kind: decoration
     position:
       column: 23
       row: 3
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-prop-20
     kind: decoration
     position:
@@ -876,8 +886,8 @@ data:
       row: 16
     textureKey: town-charcoal-stack-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.80941
+    anchorX: 0.47
+    anchorY: 0.79
     tileAnchor: center
   - id: stonewarm-life-scene
     kind: decoration
@@ -885,19 +895,23 @@ data:
       column: 21
       row: 16
     textureKey: town-stonewarm-repair-process-v1
-    displayHeight: 155.0
+    displayHeight: 155
     anchorX: 0.5
-    anchorY: 0.94896
+    anchorY: 0.85
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
   - id: stonewarm-life-scene-addition
     kind: decoration
     position:
       column: 19
       row: 21
     textureKey: town-stonewarm-repair-handover-v1
-    displayHeight: 140.0
-    anchorX: 0.5
-    anchorY: 0.99092
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 140
+    anchorX: 0.54
+    anchorY: 0.85
     tileAnchor: center
   - id: stonewarm-garden-infill-1
     kind: decoration
@@ -1005,10 +1019,12 @@ data:
       column: 4
       row: 8
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-2-town-herb-planter-v1
     kind: decoration
     position:
@@ -1025,10 +1041,12 @@ data:
       column: 5
       row: 13
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-3-town-herb-planter-v1
     kind: decoration
     position:
@@ -1045,10 +1063,12 @@ data:
       column: 4
       row: 21
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-4-town-herb-planter-v1
     kind: decoration
     position:
@@ -1065,10 +1085,12 @@ data:
       column: 8
       row: 21
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-5-town-herb-planter-v1
     kind: decoration
     position:
@@ -1085,10 +1107,12 @@ data:
       column: 13
       row: 21
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-6-town-herb-planter-v1
     kind: decoration
     position:
@@ -1105,10 +1129,12 @@ data:
       column: 23
       row: 19
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-7-town-herb-planter-v1
     kind: decoration
     position:
@@ -1125,10 +1151,12 @@ data:
       column: 4
       row: 2
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-8-town-herb-planter-v1
     kind: decoration
     position:
@@ -1145,10 +1173,12 @@ data:
       column: 7
       row: 2
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-9-town-herb-planter-v1
     kind: decoration
     position:
@@ -1165,10 +1195,12 @@ data:
       column: 11
       row: 4
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-10-town-herb-planter-v1
     kind: decoration
     position:
@@ -1185,10 +1217,12 @@ data:
       column: 17
       row: 2
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-11-town-herb-planter-v1
     kind: decoration
     position:
@@ -1205,10 +1239,12 @@ data:
       column: 20
       row: 2
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-home-12-town-herb-planter-v1
     kind: decoration
     position:
@@ -1225,10 +1261,12 @@ data:
       column: 23
       row: 2
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-001
     kind: decoration
     position:
@@ -1275,10 +1313,12 @@ data:
       column: 5
       row: 9
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-006
     kind: decoration
     position:
@@ -1326,8 +1366,8 @@ data:
       row: 11
     textureKey: town-record-chest-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.937
+    anchorX: 0.47
+    anchorY: 0.84
     tileAnchor: center
   - id: stonewarm-atmosphere-011
     kind: decoration
@@ -1375,10 +1415,12 @@ data:
       column: 4
       row: 14
     textureKey: town-low-fence-v1
-    displayHeight: 75.0
-    anchorX: 0.5
-    anchorY: 0.8453
+    displayHeight: 102
+    anchorX: 0.27
+    anchorY: 0.78
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-016
     kind: decoration
     position:
@@ -1426,8 +1468,8 @@ data:
       row: 17
     textureKey: town-charcoal-stack-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.80941
+    anchorX: 0.47
+    anchorY: 0.79
     tileAnchor: center
   - id: stonewarm-atmosphere-021
     kind: decoration
@@ -1526,8 +1568,8 @@ data:
       row: 11
     textureKey: town-record-chest-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.937
+    anchorX: 0.47
+    anchorY: 0.84
     tileAnchor: center
   - id: stonewarm-atmosphere-031
     kind: decoration
@@ -1575,10 +1617,12 @@ data:
       column: 4
       row: 23
     textureKey: town-wood-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.91069
+    displayHeight: 95
+    anchorX: 0.24
+    anchorY: 0.8
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-036
     kind: decoration
     position:
@@ -1622,12 +1666,12 @@ data:
   - id: stonewarm-atmosphere-040
     kind: decoration
     position:
-      column: 22
-      row: 17
+      column: 21
+      row: 21
     textureKey: town-charcoal-stack-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.80941
+    anchorX: 0.47
+    anchorY: 0.79
     tileAnchor: center
   - id: stonewarm-atmosphere-041
     kind: decoration
@@ -1675,10 +1719,12 @@ data:
       column: 8
       row: 23
     textureKey: town-low-fence-v1
-    displayHeight: 75.0
-    anchorX: 0.5
-    anchorY: 0.8453
+    displayHeight: 102
+    anchorX: 0.27
+    anchorY: 0.78
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-046
     kind: decoration
     position:
@@ -1726,8 +1772,8 @@ data:
       row: 9
     textureKey: town-record-chest-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.937
+    anchorX: 0.47
+    anchorY: 0.84
     tileAnchor: center
   - id: stonewarm-atmosphere-051
     kind: decoration
@@ -1775,10 +1821,12 @@ data:
       column: 13
       row: 23
     textureKey: town-low-fence-v1
-    displayHeight: 75.0
-    anchorX: 0.5
-    anchorY: 0.8453
+    displayHeight: 102
+    anchorX: 0.27
+    anchorY: 0.78
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-056
     kind: decoration
     position:
@@ -1826,8 +1874,8 @@ data:
       row: 18
     textureKey: town-charcoal-stack-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.80941
+    anchorX: 0.47
+    anchorY: 0.79
     tileAnchor: center
   - id: stonewarm-atmosphere-061
     kind: decoration
@@ -1875,10 +1923,12 @@ data:
       column: 23
       row: 21
     textureKey: town-low-fence-v1
-    displayHeight: 75.0
-    anchorX: 0.5
-    anchorY: 0.8453
+    displayHeight: 102
+    anchorX: 0.27
+    anchorY: 0.78
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-066
     kind: decoration
     position:
@@ -1926,8 +1976,8 @@ data:
       row: 10
     textureKey: town-record-chest-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.937
+    anchorX: 0.47
+    anchorY: 0.84
     tileAnchor: center
   - id: stonewarm-atmosphere-071
     kind: decoration
@@ -1975,10 +2025,12 @@ data:
       column: 4
       row: 6
     textureKey: town-low-fence-v1
-    displayHeight: 75.0
-    anchorX: 0.5
-    anchorY: 0.8453
+    displayHeight: 102
+    anchorX: 0.27
+    anchorY: 0.78
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-076
     kind: decoration
     position:
@@ -2025,7 +2077,7 @@ data:
       column: 18
       row: 21
     textureKey: town-metal-bin-v1
-    displayHeight: 95.0
+    displayHeight: 64.0
     anchorX: 0.5
     anchorY: 0.86603
     tileAnchor: center
@@ -2126,8 +2178,8 @@ data:
       row: 10
     textureKey: town-record-chest-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.937
+    anchorX: 0.47
+    anchorY: 0.84
     tileAnchor: center
   - id: stonewarm-atmosphere-091
     kind: decoration
@@ -2175,10 +2227,12 @@ data:
       column: 7
       row: 6
     textureKey: town-low-fence-v1
-    displayHeight: 75.0
-    anchorX: 0.5
-    anchorY: 0.8453
+    displayHeight: 102
+    anchorX: 0.27
+    anchorY: 0.78
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-096
     kind: decoration
     position:
@@ -2226,8 +2280,8 @@ data:
       row: 13
     textureKey: town-charcoal-stack-v1
     displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.80941
+    anchorX: 0.47
+    anchorY: 0.79
     tileAnchor: center
   - id: stonewarm-atmosphere-101
     kind: decoration
@@ -2275,10 +2329,12 @@ data:
       column: 10
       row: 2
     textureKey: town-low-fence-v1
-    displayHeight: 75.0
-    anchorX: 0.5
-    anchorY: 0.8453
+    displayHeight: 102
+    anchorX: 0.27
+    anchorY: 0.78
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: stonewarm-atmosphere-106
     kind: decoration
     position:
@@ -2322,8 +2378,8 @@ data:
   - id: stonewarm-atmosphere-110
     kind: decoration
     position:
-      column: 15
-      row: 15
+      column: 21
+      row: 14
     textureKey: town-ore-basket-v1
     displayHeight: 75.0
     anchorX: 0.5

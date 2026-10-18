@@ -613,7 +613,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: 99d3e342139b7c2b220398a942d256e27bf1ce3db188704709cda1c345f9b207
+  sha256: e543f7b2310f839b57c088633ff33945aa0492a3b447cdcb38bdf2b86814bab2
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -6263,9 +6263,9 @@ assets:
   version: v1
   path: assets/billboards/town-handcart-v1.png
   name: 작은 손수레
-  width: 512
-  height: 512
-  sha256: 9577c8a8c942457782d44bd6eca59540c2d442c58cbcf9af1ca2e2395db2e864
+  width: 128
+  height: 128
+  sha256: ef5b86f4716b74b902e08a7ae8737b6cf394b488aac1a241136a92a312b7664e
   source:
     repository: codex-imagegen
     artifact: exec-4a8b9523-a5d0-4ab5-acc4-cf70f849e82b.png
@@ -6285,9 +6285,9 @@ assets:
   version: v1
   path: assets/billboards/town-notice-board-v1.png
   name: 목재 의뢰 게시판
-  width: 512
-  height: 512
-  sha256: 0a945f696c53c080f5480e4fff18f04308d2f37b4775c19fb1a0335c6c4661e1
+  width: 128
+  height: 128
+  sha256: a5ec95543880aa136fdeee514049b85f516ff4a8d6bd3db5349c7c40a756a680
   source:
     repository: codex-imagegen
     artifact: exec-7de0d998-fdc8-47f5-9993-0869fc40e273.png
@@ -6318,9 +6318,9 @@ assets:
   version: v1
   path: assets/billboards/town-record-chest-v1.png
   name: 기록 보관 상자
-  width: 512
-  height: 512
-  sha256: 43ca13ab6d357413aa851e8efc52b1c44a2d9033bfd8498d88a6c4cdcd27ba51
+  width: 128
+  height: 128
+  sha256: b4e44909072994bcd78c57f411cf726f0e51ebbd21d2b545256bf5fadd184a44
   source:
     repository: codex-imagegen
     artifact: exec-dbe1dec8-e651-4ae7-874a-9175053e5f6e.png
@@ -6340,9 +6340,9 @@ assets:
   version: v1
   path: assets/billboards/town-grindstone-v1.png
   name: 수동 숫돌 작업대
-  width: 512
-  height: 512
-  sha256: 7fe7ecff8d506ac6d150fda27a777a9eb15d41ed66358dbee038e1afc5432ce9
+  width: 128
+  height: 128
+  sha256: df7a2fec3eee1b1a92b1ffca0ed71a3407e6c0d7e09760908603042e36bcbba2
   source:
     repository: codex-imagegen
     artifact: exec-9669625a-9de0-4099-a28c-825850f6531d.png
@@ -6351,9 +6351,9 @@ assets:
   version: v1
   path: assets/billboards/town-metal-bin-v1.png
   name: 금속 재료 분류함
-  width: 512
-  height: 512
-  sha256: 96aea4d44693907dc73aaef35f7e26fede0f4305addabe8bea1b05a61b9f1327
+  width: 128
+  height: 128
+  sha256: 2aa2ca1ba233f7484d80c71875de28e9298f1d53d683510dfff41954a053f74f
   source:
     repository: codex-imagegen
     artifact: exec-8dc500c7-f71f-40b2-b9bc-e6922ddf7ac1.png
@@ -6362,9 +6362,9 @@ assets:
   version: v1
   path: assets/billboards/town-charcoal-stack-v1.png
   name: 숯 자루와 장작
-  width: 512
-  height: 512
-  sha256: 0ebf860264088cce01e5c422d661eccb86403bfbefb6d73be57729f48fcb4522
+  width: 128
+  height: 128
+  sha256: ca0e0340288b11a43bc62e099eaededd8e84a8378e2372b796bfdb71e1a4df64
   source:
     repository: codex-imagegen
     artifact: exec-48bb6fd3-bed1-4632-8cee-89a001606f1a.png
@@ -6472,9 +6472,9 @@ assets:
   version: v1
   path: assets/billboards/town-wood-bench-v1.png
   name: 목재 벤치
-  width: 512
-  height: 512
-  sha256: fe7caaa1b37e28fed2f01d0fc35f4b74895ab33e613c692604d32559c69695e1
+  width: 128
+  height: 128
+  sha256: 8d6a48798aee9544df1c1f537e1d56f33fde3bc8296b412bc69b02913982bdec
   source:
     repository: codex-imagegen
     artifact: exec-85e30b06-0bdd-4879-9d6f-c7a86728978b.png
@@ -6483,9 +6483,9 @@ assets:
   version: v1
   path: assets/billboards/town-low-fence-v1.png
   name: 낮은 목재 울타리
-  width: 512
-  height: 512
-  sha256: e0a8cbd2da944aa7a031b0b4050ee37f9e2a00080bb0b5030a7f01802d1ca535
+  width: 128
+  height: 128
+  sha256: bf43cfe34751d02eb65fc5e3750adec8c009cce73b593b66a38eafa21067d5f4
   source:
     repository: codex-imagegen
     artifact: exec-7cf1c345-3609-4d06-82ef-f831c09e3e7c.png
@@ -6494,9 +6494,9 @@ assets:
   version: v1
   path: assets/billboards/town-ground-lantern-v1.png
   name: 지면 설치 등불
-  width: 512
-  height: 512
-  sha256: 11ba306c76543e6503185273023063e456e88bbccaca85783dcce158587fba48
+  width: 128
+  height: 128
+  sha256: d8e68ffbe6bcbb3a0224a0ff0fbc654ea9949b7b9f52ebf3a79564befc329810
   source:
     repository: codex-imagegen
     artifact: exec-85c82b5f-85e0-4337-80a6-4f592b81f4a0.png
@@ -6527,9 +6527,9 @@ assets:
   version: v1
   path: assets/billboards/town-ore-basket-v1.png
   name: 광석 선별 바구니
-  width: 512
-  height: 512
-  sha256: 60d519e3f5925d1311d54612cf5cb52b7c1efee0589b504c44acdc87487c0788
+  width: 128
+  height: 128
+  sha256: 6015061ac5b3d3e3505ed62a71f86b756b15d5c98d5b5249101dd00ea7128bf4
   source:
     repository: codex-imagegen
     artifact: exec-dfaf8ae8-886e-44fa-8738-1cd09b3cf97f.png
@@ -6582,9 +6582,9 @@ assets:
   version: v1
   path: assets/billboards/town-stonewarm-repair-process-v1.png
   name: 돌온재 수리 공정대
-  width: 512
-  height: 512
-  sha256: a14fda6a6fa89e97495e3ef06c1b8a5507a75149e8658cb66770845de0e37b57
+  width: 256
+  height: 256
+  sha256: 38811d518d85d986189cdb54d0f18d833bfc200bd86b2c3550f35e72527bd8bb
   source:
     repository: codex-imagegen
     artifact: exec-40c50e60-9277-4a76-b89a-8e6f4deb6c4d.png
@@ -6637,9 +6637,9 @@ assets:
   version: v1
   path: assets/billboards/town-stonewarm-repair-handover-v1.png
   name: 돌온재 수리품 인계 선반
-  width: 512
-  height: 478
-  sha256: e27227f624be31bbc5a3b3b5266cf7544164032e753f35aaae8a094bee353a07
+  width: 256
+  height: 239
+  sha256: cef6d12507cd36482579e328b98cee517bffb0f0f8785774bfb8da7acb8df689
   source:
     repository: codex-imagegen
     artifact: exec-bbcc31d3-ebb1-44b0-a813-8e007de3ae3f.png
