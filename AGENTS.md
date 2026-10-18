@@ -41,7 +41,7 @@
 - 이번 이관은 등록된 캐릭터 애니메이션 시트와 몬스터 스프라이트에 한정한다. 개별 승인 프레임·외형 기준 이미지·제작 프롬프트는 포함하지 않는다. 채택된 캐릭터 컷인은 `assets/sprites/characters/<캐릭터>/cutins/`에서 원본을 관리한다.
 
 ## Structure Sprite Ownership
-- 구조물 스프라이트 원본은 `assets/sprites/structures/`에서 관리하고 등록부에 출처·버전·SHA-256을 보존한다.
+- 구조물 스프라이트 원본은 `assets/buildings/`에서 관리하고 등록부에 출처·버전·SHA-256을 보존한다.
 - 프론트의 `src/assets/structures/`는 `sprite-assets.lock.yaml`에 등록된 빌드용 전달 사본이며 Git에서 제외한다.
 
 ## Direct Asset Consumption
@@ -50,7 +50,7 @@
 - Vite 개발 서버는 원본을 제공하고 배포 빌드는 해시 파일명으로 정적 파일을 번들링한다. 배포 후에는 로컬 저장소 경로에 의존하지 않는다.
 
 ## Building Sprite Standard
-- 건물용 벽·문·창문·지붕 타일은 폐기한다. 신규 건물은 `slime-assets/assets/sprites/structures/`의 완성형 스프라이트로 등록하고 사용한다.
+- 건물용 벽·문·창문·지붕 타일은 폐기한다. 신규 건물은 `slime-assets/assets/buildings/`의 완성형 스프라이트로 등록하고 사용한다.
 - 지형용 바닥·절벽 타일과 건물 스프라이트는 구분하며, 블록 조립용 건물 타일 카탈로그·프리팹·로딩을 재도입하지 않는다.
 
 ## Terrain Tile Organization

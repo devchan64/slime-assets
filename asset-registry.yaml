@@ -547,7 +547,7 @@ assets:
     fps: 8
 - managementId: image.frontend.src.assets.structures.ward-tower-v1.png
   version: 4ff4bd45163ad19c06169603757b108aa25a5302
-  path: assets/sprites/structures/ward-tower-v1.png
+  path: assets/buildings/ward-tower-v1.png
   frontend_path: src/assets/structures/ward-tower-v1.png
   width: 512
   height: 512
@@ -1701,7 +1701,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: fb0c882ed65d885302c0e4dc3f40b527e70e4499cb34d5503502f7794500f146
+  sha256: 3df0a1e2c15fba369575097deb722153688a3db53234ce2faba862d7477638be
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -1709,7 +1709,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: 5a07dcdf5e135322bc39ad42ee4cc0a9dac69d5cbb6ebdcda0573add417b4d31
+  sha256: 0154dee3d3fbeb0d7349384f8433ee1f74ab5b19ba263f49e4e365e7f273ba13
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -4516,7 +4516,7 @@ assets:
     previous_path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2
 - managementId: sprite.structures.guard-center-wood-v1.png
   version: v1
-  path: assets/sprites/structures/guard-center-wood-v1.png
+  path: assets/buildings/guard-center-wood-v1.png
   width: 512
   height: 341
   sha256: 7939334c25a963b7ae355fd35c0e3a5138a89647735283ffe7f5bad8ad9362b0
@@ -4525,7 +4525,7 @@ assets:
     generationId: exec-65a7de03-ea56-40e1-8165-3093dfe408fc
 - managementId: sprite.structures.guard-center-red-tile-v1.png
   version: v1
-  path: assets/sprites/structures/guard-center-red-tile-v1.png
+  path: assets/buildings/guard-center-red-tile-v1.png
   width: 512
   height: 420
   sha256: f4e4a2de4d82348772fbf81a3c369f01c74d926178a4f603fbaaeaea88663490
@@ -4534,7 +4534,7 @@ assets:
     generationId: exec-c3d09cb6-b254-4057-b78d-20cd0851a8bc
 - managementId: sprite.structures.guard-center-teal-v1.png
   version: v1
-  path: assets/sprites/structures/guard-center-teal-v1.png
+  path: assets/buildings/guard-center-teal-v1.png
   width: 512
   height: 512
   sha256: 85ed8eb8b442f8c74601de7ccf4ac496e6903ee03124b374e4a77cc0069297fe
@@ -4544,7 +4544,7 @@ assets:
 - managementId: ui.guard-centers
   version: v2
   path: assets/ui/guard-centers.yaml
-  sha256: 7d14ea2406449c953cf733f2d30f22e15fb5f4b2dfc94c1312fb6dca3ad1333b
+  sha256: 7152f4b23fbd4bef7ebebeb34e70618c251b7d9e5a73247a28215af88456552c
   source:
     repository: slime-assets
     path: assets/ui/guard-centers.yaml
@@ -6000,7 +6000,7 @@ assets:
     operation: 큰 형태 식생 빌보드 보강
 - managementId: image.scenery.town.iseulon-guild
   version: v2
-  path: assets/sprites/structures/town-iseulon-guild-v2.png
+  path: assets/buildings/town-iseulon-guild-v2.png
   width: 512
   height: 410
   sha256: d7927010add6c3ff5b557820dcabf1a89fd6b8f641da1047743360e3e336564c
@@ -6010,7 +6010,7 @@ assets:
     artifact: exec-7d6bb030-4f2d-409e-ad8c-b69173949834.png
 - managementId: image.scenery.town.iseulon-bookshop
   version: v2
-  path: assets/sprites/structures/town-iseulon-bookshop-v2.png
+  path: assets/buildings/town-iseulon-bookshop-v2.png
   width: 512
   height: 410
   sha256: f770b8b775b63638706a89fb2523d44d539ee19c20d1169cd47a4d75f98133fb
@@ -6020,7 +6020,7 @@ assets:
     artifact: town-iseulon-bookshop-v2.png
 - managementId: image.scenery.town.iseulon-inn
   version: v2
-  path: assets/sprites/structures/town-iseulon-inn-v2.png
+  path: assets/buildings/town-iseulon-inn-v2.png
   width: 512
   height: 410
   sha256: 0f4a6f8668ce6cd73e4c65bed62c2deca35645d745f51e6c34b57d4e03af2d15
@@ -6030,7 +6030,7 @@ assets:
     artifact: town-iseulon-inn-v2.png
 - managementId: image.scenery.town.iseulon-workshop
   version: v2
-  path: assets/sprites/structures/town-iseulon-workshop-v2.png
+  path: assets/buildings/town-iseulon-workshop-v2.png
   width: 512
   height: 410
   sha256: 6e02e9cccd4e6288c5462da83a0821f4fab734f6cc9bfe45dda15c58f5c32372
@@ -6040,7 +6040,7 @@ assets:
     artifact: town-iseulon-workshop-v2.png
 - managementId: image.scenery.town.iseulon-market
   version: v2
-  path: assets/sprites/structures/town-iseulon-market-v2.png
+  path: assets/buildings/town-iseulon-market-v2.png
   width: 512
   height: 410
   sha256: d08e3e8922050f5c705125d4e2aa59883c594d300317c4b1c575eda8e3662770
@@ -6050,7 +6050,7 @@ assets:
     artifact: town-iseulon-market-v2.png
 - managementId: image.scenery.town.reedhaven-guild
   version: v3
-  path: assets/sprites/structures/town-reedhaven-guild-v3.png
+  path: assets/buildings/town-reedhaven-guild-v3.png
   width: 512
   height: 427
   sha256: 3d9e2e1bacada511fbf4d6a6a7c46c6e0d207ada0118dbfe7e5f9a1db292d7e8
@@ -6060,7 +6060,7 @@ assets:
     artifact: town-reedhaven-guild-v3.png
 - managementId: image.scenery.town.reedhaven-bookshop
   version: v3
-  path: assets/sprites/structures/town-reedhaven-bookshop-v3.png
+  path: assets/buildings/town-reedhaven-bookshop-v3.png
   width: 512
   height: 427
   sha256: 89b0cc9fc89c7cfe9e0cbdbbf15c28f51d87c8e96ac2404ee41ce963fa240922
@@ -6070,7 +6070,7 @@ assets:
     artifact: town-reedhaven-bookshop-v3.png
 - managementId: image.scenery.town.reedhaven-inn
   version: v3
-  path: assets/sprites/structures/town-reedhaven-inn-v3.png
+  path: assets/buildings/town-reedhaven-inn-v3.png
   width: 512
   height: 427
   sha256: fbe67164208bea9b8ba9c62cfbe679e82a0b3d82895da331e4b682151e606b04
@@ -6080,7 +6080,7 @@ assets:
     artifact: town-reedhaven-inn-v3.png
 - managementId: image.scenery.town.reedhaven-workshop
   version: v3
-  path: assets/sprites/structures/town-reedhaven-workshop-v3.png
+  path: assets/buildings/town-reedhaven-workshop-v3.png
   width: 512
   height: 427
   sha256: 461b07dc44019435009afe46b8c1b057346e7627d2201074af90e754e9a1170e
@@ -6090,7 +6090,7 @@ assets:
     artifact: town-reedhaven-workshop-v3.png
 - managementId: image.scenery.town.reedhaven-market
   version: v3
-  path: assets/sprites/structures/town-reedhaven-market-v3.png
+  path: assets/buildings/town-reedhaven-market-v3.png
   width: 512
   height: 427
   sha256: 57480e1df4c5c538223765f89ab52984565d1c37df6cef8266f6359a64e49497
@@ -6100,7 +6100,7 @@ assets:
     artifact: town-reedhaven-market-v3.png
 - managementId: image.scenery.town.stonewarm-guild
   version: v3
-  path: assets/sprites/structures/town-stonewarm-guild-v3.png
+  path: assets/buildings/town-stonewarm-guild-v3.png
   width: 512
   height: 427
   sha256: 8d7ef140e2a0719ee1c0c951243341768a09db4949741a3d0b2b968a037bd5a4
@@ -6110,7 +6110,7 @@ assets:
     artifact: town-stonewarm-guild-v3.png
 - managementId: image.scenery.town.stonewarm-bookshop
   version: v3
-  path: assets/sprites/structures/town-stonewarm-bookshop-v3.png
+  path: assets/buildings/town-stonewarm-bookshop-v3.png
   width: 512
   height: 427
   sha256: e420e7f6130ad059e5765cd9106836324ddd833ce680dbb8e15eb56c41e429df
@@ -6120,7 +6120,7 @@ assets:
     artifact: town-stonewarm-bookshop-v3.png
 - managementId: image.scenery.town.stonewarm-inn
   version: v3
-  path: assets/sprites/structures/town-stonewarm-inn-v3.png
+  path: assets/buildings/town-stonewarm-inn-v3.png
   width: 512
   height: 427
   sha256: 6c6ffc822bd4eb7c01d2138615eb64f43d428b5dc8947f52c5503b8402de4bde
@@ -6130,7 +6130,7 @@ assets:
     artifact: town-stonewarm-inn-v3.png
 - managementId: image.scenery.town.stonewarm-workshop
   version: v3
-  path: assets/sprites/structures/town-stonewarm-workshop-v3.png
+  path: assets/buildings/town-stonewarm-workshop-v3.png
   width: 512
   height: 427
   sha256: bc6df700def583993e084748cd75168e206cc4e49da1cecf43233865cd2c1fbc
@@ -6140,7 +6140,7 @@ assets:
     artifact: town-stonewarm-workshop-v3.png
 - managementId: image.scenery.town.stonewarm-market
   version: v3
-  path: assets/sprites/structures/town-stonewarm-market-v3.png
+  path: assets/buildings/town-stonewarm-market-v3.png
   width: 512
   height: 427
   sha256: fd0cfaa9bcd02d9114330181106399e9674f25d9bc8d70e246ceb96377f31002
@@ -6150,7 +6150,7 @@ assets:
     artifact: town-stonewarm-market-v3.png
 - managementId: image.scenery.town.grainstead-guild
   version: v2
-  path: assets/sprites/structures/town-grainstead-guild-v2.png
+  path: assets/buildings/town-grainstead-guild-v2.png
   width: 512
   height: 410
   sha256: d2ddadb2fbcc0c44f45e5cc88331220de51d5d9fce23c7b731710f8f721d078c
@@ -6160,7 +6160,7 @@ assets:
     artifact: town-grainstead-guild-v2.png
 - managementId: image.scenery.town.grainstead-bookshop
   version: v2
-  path: assets/sprites/structures/town-grainstead-bookshop-v2.png
+  path: assets/buildings/town-grainstead-bookshop-v2.png
   width: 512
   height: 410
   sha256: 5b4f0616ace12e3a1eda6cb56395bafac108387f6733b202b5491b0cec636397
@@ -6170,7 +6170,7 @@ assets:
     artifact: town-grainstead-bookshop-v2.png
 - managementId: image.scenery.town.grainstead-inn
   version: v2
-  path: assets/sprites/structures/town-grainstead-inn-v2.png
+  path: assets/buildings/town-grainstead-inn-v2.png
   width: 512
   height: 410
   sha256: b5f9963cd54e6eb8828881cd07aa59eed237233817e0ea3fd9c8dd4178103b57
@@ -6180,7 +6180,7 @@ assets:
     artifact: town-grainstead-inn-v2.png
 - managementId: image.scenery.town.grainstead-workshop
   version: v2
-  path: assets/sprites/structures/town-grainstead-workshop-v2.png
+  path: assets/buildings/town-grainstead-workshop-v2.png
   width: 512
   height: 410
   sha256: ee01fb13c31180b8a30887b3df31b58bc4e63fe35e2d3fa957ee9a0a48a33c84
@@ -6190,7 +6190,7 @@ assets:
     artifact: town-grainstead-workshop-v2.png
 - managementId: image.scenery.town.grainstead-market
   version: v2
-  path: assets/sprites/structures/town-grainstead-market-v2.png
+  path: assets/buildings/town-grainstead-market-v2.png
   width: 512
   height: 410
   sha256: 7390634bf18f367c5f7d181b535a2be7160faad9cb329fc60ae2b3d3ef3b44ef
@@ -6200,7 +6200,7 @@ assets:
     artifact: town-grainstead-market-v2.png
 - managementId: image.scenery.town.saltford-guild
   version: v2
-  path: assets/sprites/structures/town-saltford-guild-v2.png
+  path: assets/buildings/town-saltford-guild-v2.png
   width: 512
   height: 410
   sha256: f1f417c07a060b71392c3c02591afaa1e55ce827800b2a799f619b9dd6704b94
@@ -6210,7 +6210,7 @@ assets:
     artifact: town-saltford-guild-v2.png
 - managementId: image.scenery.town.saltford-bookshop
   version: v2
-  path: assets/sprites/structures/town-saltford-bookshop-v2.png
+  path: assets/buildings/town-saltford-bookshop-v2.png
   width: 512
   height: 410
   sha256: f86e45ef76f8d50556b7da14619b440ed4ef432697a90ad27b917dae183e2ab6
@@ -6220,7 +6220,7 @@ assets:
     artifact: town-saltford-bookshop-v2.png
 - managementId: image.scenery.town.saltford-inn
   version: v2
-  path: assets/sprites/structures/town-saltford-inn-v2.png
+  path: assets/buildings/town-saltford-inn-v2.png
   width: 512
   height: 410
   sha256: 18ecbb626e1e7ac414d89d48812d4de7a95d32bedae2e0744873e7f44c9dadd2
@@ -6230,7 +6230,7 @@ assets:
     artifact: town-saltford-inn-v2.png
 - managementId: image.scenery.town.saltford-workshop
   version: v2
-  path: assets/sprites/structures/town-saltford-workshop-v2.png
+  path: assets/buildings/town-saltford-workshop-v2.png
   width: 512
   height: 410
   sha256: 2d232a5b7894177aac976ff5b9293224134d1f97e58b8a519313f48427da0220
@@ -6240,7 +6240,7 @@ assets:
     artifact: town-saltford-workshop-v2.png
 - managementId: image.scenery.town.saltford-market
   version: v2
-  path: assets/sprites/structures/town-saltford-market-v2.png
+  path: assets/buildings/town-saltford-market-v2.png
   width: 512
   height: 427
   sha256: 16dca786f80ce62b4397fa8b98e9e3b665fdcd5adcfb87ec3e614761e8e2f4fd
@@ -6668,7 +6668,7 @@ assets:
     processing: 세계관 생활 장면 전용 투명 빌보드 원본
 - managementId: image.scenery.town.iseulon-garden-house
   version: v2
-  path: assets/sprites/structures/town-iseulon-garden-house-v2.png
+  path: assets/buildings/town-iseulon-garden-house-v2.png
   width: 512
   height: 410
   sha256: 40428814683e332381cdfba9f86747e5e7ad56bb47cb0a53029b2a3f20f90b9f
@@ -6678,7 +6678,7 @@ assets:
     artifact: town-iseulon-garden-house-v2.png
 - managementId: image.scenery.town.iseulon-courtyard-house
   version: v2
-  path: assets/sprites/structures/town-iseulon-courtyard-house-v2.png
+  path: assets/buildings/town-iseulon-courtyard-house-v2.png
   width: 512
   height: 410
   sha256: f167c07ba32eaa3390f387cca91ec455ab19e3740efa0e76a56b3f375a40a93d
@@ -6688,7 +6688,7 @@ assets:
     artifact: town-iseulon-courtyard-house-v2.png
 - managementId: image.scenery.town.reedhaven-reed-house
   version: v3
-  path: assets/sprites/structures/town-reedhaven-reed-house-v3.png
+  path: assets/buildings/town-reedhaven-reed-house-v3.png
   width: 512
   height: 427
   sha256: 961a4ecc3a12efade122c388dda581d52fc0cc1219a4db17c73eb11ec2bd7e8d
@@ -6698,7 +6698,7 @@ assets:
     artifact: town-reedhaven-reed-house-v3.png
 - managementId: image.scenery.town.reedhaven-dike-house
   version: v3
-  path: assets/sprites/structures/town-reedhaven-dike-house-v3.png
+  path: assets/buildings/town-reedhaven-dike-house-v3.png
   width: 512
   height: 427
   sha256: 95e4b719893c1464d1bd611c8f7e6f9e98bb965df2cfc00409018c515dd01bda
@@ -6708,7 +6708,7 @@ assets:
     artifact: town-reedhaven-dike-house-v3.png
 - managementId: image.scenery.town.stonewarm-mason-house
   version: v3
-  path: assets/sprites/structures/town-stonewarm-mason-house-v3.png
+  path: assets/buildings/town-stonewarm-mason-house-v3.png
   width: 512
   height: 427
   sha256: 127d783e3fa2a8b9979e07946b20cce92c2248e64a3cf8bf60e133e287cf38c7
@@ -6718,7 +6718,7 @@ assets:
     artifact: town-stonewarm-mason-house-v3.png
 - managementId: image.scenery.town.stonewarm-hearth-house
   version: v3
-  path: assets/sprites/structures/town-stonewarm-hearth-house-v3.png
+  path: assets/buildings/town-stonewarm-hearth-house-v3.png
   width: 512
   height: 427
   sha256: 8ab0ea840b281115212ed776423ffae4d378df8b090c764009205ce5e873fab8
@@ -6728,7 +6728,7 @@ assets:
     artifact: town-stonewarm-hearth-house-v3.png
 - managementId: image.scenery.town.grainstead-farm-house
   version: v2
-  path: assets/sprites/structures/town-grainstead-farm-house-v2.png
+  path: assets/buildings/town-grainstead-farm-house-v2.png
   width: 512
   height: 410
   sha256: eb4b8071066749e5bb6c3265ed41419eae4605ed6ab9d1ced87c56970c7357dd
@@ -6738,7 +6738,7 @@ assets:
     artifact: town-grainstead-farm-house-v2.png
 - managementId: image.scenery.town.grainstead-mill-house
   version: v2
-  path: assets/sprites/structures/town-grainstead-mill-house-v2.png
+  path: assets/buildings/town-grainstead-mill-house-v2.png
   width: 512
   height: 410
   sha256: 9dbb3ed56e0b291696ef7aefcd2b93c1a5bfa1985ef32fac0b285db991e6e3fc
@@ -6748,7 +6748,7 @@ assets:
     artifact: town-grainstead-mill-house-v2.png
 - managementId: image.scenery.town.saltford-shore-house
   version: v2
-  path: assets/sprites/structures/town-saltford-shore-house-v2.png
+  path: assets/buildings/town-saltford-shore-house-v2.png
   width: 512
   height: 410
   sha256: fb47087d9d6e57ca0f134685fda9a22a5e4143809db92ddcb19daf0caae6db72
@@ -6758,7 +6758,7 @@ assets:
     artifact: town-saltford-shore-house-v2.png
 - managementId: image.scenery.town.saltford-dry-house
   version: v2
-  path: assets/sprites/structures/town-saltford-dry-house-v2.png
+  path: assets/buildings/town-saltford-dry-house-v2.png
   width: 512
   height: 410
   sha256: 70872229af4c454ef2fbe6bf96317d0730ef26fd40b9f86aba5c28998aaf5b60
@@ -7156,7 +7156,7 @@ assets:
     operation: ImageGen 생성 원본을 128x128 LANCZOS 축소, 사용자 맵 적용 승인
 - managementId: image.scenery.town.common-timber-house
   version: v2
-  path: assets/sprites/structures/town-common-timber-house-v2.png
+  path: assets/buildings/town-common-timber-house-v2.png
   width: 512
   height: 410
   sha256: e4d459b9c04519cd96119ca3468db0c65fe2eeb1ab2d12fc1ed201560113303b
@@ -7166,7 +7166,7 @@ assets:
     artifact: town-common-timber-house-v2.png
 - managementId: image.scenery.town.common-stone-house
   version: v2
-  path: assets/sprites/structures/town-common-stone-house-v2.png
+  path: assets/buildings/town-common-stone-house-v2.png
   width: 512
   height: 410
   sha256: 31582e1da951b32b7289bf89f8a06784cf8f7c362cb9c46c230105da2980ab75
@@ -7231,7 +7231,7 @@ assets:
     operation: 갈대나루 수변 갈대 빌보드 생성
 - managementId: image.scenery.town.reedhaven-woven-house
   version: v3
-  path: assets/sprites/structures/town-reedhaven-woven-house-v3.png
+  path: assets/buildings/town-reedhaven-woven-house-v3.png
   width: 512
   height: 427
   sha256: dd26d4216d83147bbc2bd7f3e5a26164b1e34f3aa92a7707870e09b634c1a32e
@@ -7241,7 +7241,7 @@ assets:
     artifact: town-reedhaven-woven-house-v3.png
 - managementId: image.scenery.town.reedhaven-plank-house
   version: v3
-  path: assets/sprites/structures/town-reedhaven-plank-house-v3.png
+  path: assets/buildings/town-reedhaven-plank-house-v3.png
   width: 512
   height: 427
   sha256: c420cfa525e277bb291d39b422ec2ab6b7030bcc0b79c06b7125e7b5aba822ad
@@ -7251,7 +7251,7 @@ assets:
     artifact: town-reedhaven-plank-house-v3.png
 - managementId: image.scenery.town.grainstead-workshop
   version: v3
-  path: assets/sprites/structures/town-grainstead-workshop-v3.png
+  path: assets/buildings/town-grainstead-workshop-v3.png
   width: 512
   height: 427
   sha256: 479a54e91f83f51d8b05dfc657405a4904ed741935238a7a9f6bcdf13bb9ec01
@@ -7261,7 +7261,7 @@ assets:
     artifact: town-grainstead-workshop-v3.png
 - managementId: image.scenery.town.grainstead-guild
   version: v3
-  path: assets/sprites/structures/town-grainstead-guild-v3.png
+  path: assets/buildings/town-grainstead-guild-v3.png
   width: 512
   height: 427
   sha256: 39af20247199ee70393b9059f2ce95bcade639d0eefea01ad7dd734500526c59
@@ -7271,7 +7271,7 @@ assets:
     artifact: town-grainstead-guild-v3.png
 - managementId: image.scenery.town.grainstead-farm-house
   version: v3
-  path: assets/sprites/structures/town-grainstead-farm-house-v3.png
+  path: assets/buildings/town-grainstead-farm-house-v3.png
   width: 512
   height: 427
   sha256: 08bf83d7559c16c746fee00f26b039571df9a70dc8a8d9a4320cb0ce5723ae99
@@ -7281,7 +7281,7 @@ assets:
     artifact: town-grainstead-farm-house-v3.png
 - managementId: image.scenery.town.grainstead-mill-house
   version: v3
-  path: assets/sprites/structures/town-grainstead-mill-house-v3.png
+  path: assets/buildings/town-grainstead-mill-house-v3.png
   width: 512
   height: 427
   sha256: ae0e84c216ce027c5d977b50cd94f4bb9584d7238611c1741fbff47d0716fce8
