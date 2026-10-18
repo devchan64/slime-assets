@@ -572,50 +572,60 @@ data:
       column: 7
       row: 9
     textureKey: town-straw-sheaves-v1
-    displayHeight: 95.0
-    anchorX: 0.5
+    displayHeight: 95
+    anchorX: 0.45
     anchorY: 0.85407
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-prop-11
     kind: decoration
     position:
       column: 21
       row: 14
     textureKey: town-harvest-cart-v1
-    displayHeight: 95.0
+    displayHeight: 134
     anchorX: 0.5
     anchorY: 0.86364
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
   - id: grainstead-prop-12
     kind: decoration
     position:
       column: 7
       row: 11
     textureKey: town-threshing-bench-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.90909
+    displayHeight: 106
+    anchorX: 0.31
+    anchorY: 0.78
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-prop-13
     kind: decoration
     position:
       column: 20
       row: 19
     textureKey: town-repair-rack-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.86762
+    displayHeight: 125
+    anchorX: 0.35
+    anchorY: 0.77
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-prop-14
     kind: decoration
     position:
       column: 8
       row: 10
     textureKey: town-straw-sheaves-v1
-    displayHeight: 95.0
-    anchorX: 0.5
+    displayHeight: 95
+    anchorX: 0.45
     anchorY: 0.85407
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-prop-18
     kind: decoration
     position:
@@ -642,20 +652,24 @@ data:
       column: 19
       row: 20
     textureKey: town-grainstead-milling-dispatch-v1
-    displayHeight: 155.0
+    displayHeight: 155
     anchorX: 0.5
     anchorY: 0.92344
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
   - id: grainstead-life-scene-addition
     kind: decoration
     position:
       column: 6
       row: 9
     textureKey: town-grainstead-grain-drying-v1
-    displayHeight: 140.0
+    displayHeight: 140
     anchorX: 0.5
     anchorY: 0.96332
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
   - id: grainstead-garden-infill-1
     kind: decoration
     position:
@@ -952,10 +966,12 @@ data:
       column: 21
       row: 18
     textureKey: town-repair-rack-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.86762
+    displayHeight: 125
+    anchorX: 0.35
+    anchorY: 0.77
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-atmosphere-031
     kind: decoration
     position:
@@ -1122,10 +1138,12 @@ data:
       column: 20
       row: 20
     textureKey: town-repair-rack-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.86762
+    displayHeight: 125
+    anchorX: 0.35
+    anchorY: 0.77
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-atmosphere-061
     kind: decoration
     position:
@@ -1242,10 +1260,12 @@ data:
       column: 21
       row: 19
     textureKey: town-repair-rack-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.86762
+    displayHeight: 125
+    anchorX: 0.35
+    anchorY: 0.77
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-atmosphere-081
     kind: decoration
     position:
@@ -1302,10 +1322,12 @@ data:
       column: 18
       row: 20
     textureKey: town-repair-rack-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.86762
+    displayHeight: 125
+    anchorX: 0.35
+    anchorY: 0.77
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-atmosphere-091
     kind: decoration
     position:
@@ -1472,10 +1494,12 @@ data:
       column: 9
       row: 9
     textureKey: town-straw-sheaves-v1
-    displayHeight: 65
-    anchorX: 0.5
+    displayHeight: 95
+    anchorX: 0.45
     anchorY: 0.85407
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-storage-02
     kind: decoration
     position:
@@ -1502,10 +1526,12 @@ data:
       column: 8
       row: 14
     textureKey: town-straw-sheaves-v1
-    displayHeight: 65
-    anchorX: 0.5
+    displayHeight: 95
+    anchorX: 0.45
     anchorY: 0.85407
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-storage-05
     kind: decoration
     position:
@@ -1532,10 +1558,12 @@ data:
       column: 14
       row: 15
     textureKey: town-straw-sheaves-v1
-    displayHeight: 65
-    anchorX: 0.5
+    displayHeight: 95
+    anchorX: 0.45
     anchorY: 0.85407
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-storage-08
     kind: decoration
     position:
@@ -1562,10 +1590,12 @@ data:
       column: 21
       row: 16
     textureKey: town-straw-sheaves-v1
-    displayHeight: 65
-    anchorX: 0.5
+    displayHeight: 95
+    anchorX: 0.45
     anchorY: 0.85407
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: grainstead-storage-11
     kind: decoration
     position:
