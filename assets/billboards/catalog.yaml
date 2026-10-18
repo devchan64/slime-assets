@@ -2466,14 +2466,14 @@ billboards:
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 15
-- texture_key: waypoint-guide-v2
+- texture_key: waypoint-guide-v3
   family: waypoint-guide
   asset_ref:
     management_id: image.scenery.waypoint-guide-v1
-    version: v2
+    version: v3
   map_references: []
   metadata_references:
-  - assets/billboards/waypoint-guide-v2.animation.json
+  - assets/billboards/waypoint-guide-v3.animation.json
 - texture_key: white-daisies-v1
   family: daisy
   asset_ref:
