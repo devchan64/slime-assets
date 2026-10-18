@@ -1,6 +1,6 @@
 managementId: config.city-layouts.saltford
 data:
-  version: 14
+  version: 15
   cityId: saltford
   columns: 24
   rows: 24
@@ -14,9 +14,9 @@ data:
   - wpddddddpppppddddddpdddw
   - wpddddddddppdddddddpdddw
   - wppppppdddppppppppppdddw
-  - wdddddpdddppdddddddpdddw
-  - wdddddpdddppdddddddpdddw
-  - wpddpdpdddppdddddddppddw
+  - wdddpppdddppdddddddpdddw
+  - wdddpppdddppdddddddpdddw
+  - wpddpppdddppppdddddppddw
   - wpddpdpdddpppddddddpdddw
   - ppppppppppppppppdddppppw
   - wppppppppppppppppppppppw
@@ -243,13 +243,13 @@ data:
     kind: residence
     facilityId: null
     origin:
-      column: 4
+      column: 13
       row: 8
     width: 2
     height: 2
     floors: 2
     entrance:
-      column: 4
+      column: 13
       row: 10
     facing: south
     sprite:
@@ -294,20 +294,24 @@ data:
       column: 5
       row: 14
     textureKey: town-saltford-cargo-weighing-v1
-    displayHeight: 155.0
+    displayHeight: 155
     anchorX: 0.5
     anchorY: 0.95534
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
   - id: saltford-life-scene-addition
     kind: decoration
     position:
       column: 14
       row: 18
     textureKey: town-saltford-wet-cargo-drying-v1
-    displayHeight: 140.0
+    displayHeight: 140
     anchorX: 0.5
     anchorY: 0.94043
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
   - id: saltford-prop-4
     kind: decoration
     position:
@@ -324,10 +328,12 @@ data:
       column: 20
       row: 14
     textureKey: town-coastal-stall-v1
-    displayHeight: 130.0
+    displayHeight: 163
     anchorX: 0.5
     anchorY: 0.96651
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
   - id: saltford-prop-12
     kind: decoration
     position:
@@ -374,20 +380,24 @@ data:
       column: 8
       row: 16
     textureKey: town-layered-sign-v1
-    displayHeight: 130.0
-    anchorX: 0.5
-    anchorY: 0.90989
+    displayHeight: 130
+    anchorX: 0.33
+    anchorY: 0.87
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-prop-2
     kind: decoration
     position:
       column: 21
       row: 17
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-prop-3
     kind: decoration
     position:
@@ -424,30 +434,36 @@ data:
       column: 21
       row: 15
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-prop-14
     kind: decoration
     position:
       column: 20
       row: 18
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-prop-15
     kind: decoration
     position:
       column: 4
       row: 19
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-prop-18
     kind: decoration
     position:
@@ -521,7 +537,7 @@ data:
   - id: saltford-home-7-town-wood-bench-v1
     kind: decoration
     position:
-      column: 7
+      column: 15
       row: 9
     textureKey: town-wood-bench-v1
     displayHeight: 95.0
@@ -564,10 +580,12 @@ data:
       column: 6
       row: 19
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-013
     kind: decoration
     position:
@@ -604,10 +622,12 @@ data:
       column: 5
       row: 19
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-022
     kind: decoration
     position:
@@ -644,10 +664,12 @@ data:
       column: 7
       row: 19
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-031
     kind: decoration
     position:
@@ -684,10 +706,12 @@ data:
       column: 6
       row: 21
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-043
     kind: decoration
     position:
@@ -724,10 +748,12 @@ data:
       column: 3
       row: 19
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-052
     kind: decoration
     position:
@@ -764,10 +790,12 @@ data:
       column: 9
       row: 19
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-061
     kind: decoration
     position:
@@ -804,10 +832,12 @@ data:
       column: 21
       row: 16
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-073
     kind: decoration
     position:
@@ -844,10 +874,12 @@ data:
       column: 2
       row: 19
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-082
     kind: decoration
     position:
@@ -884,10 +916,12 @@ data:
       column: 6
       row: 15
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-091
     kind: decoration
     position:
@@ -924,10 +958,12 @@ data:
       column: 20
       row: 16
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-103
     kind: decoration
     position:
@@ -964,10 +1000,12 @@ data:
       column: 9
       row: 18
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-112
     kind: decoration
     position:
@@ -1004,10 +1042,12 @@ data:
       column: 21
       row: 18
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-atmosphere-121
     kind: decoration
     position:
@@ -1024,80 +1064,96 @@ data:
       column: 12
       row: 14
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-dry-storage-02
     kind: decoration
     position:
       column: 13
       row: 14
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-dry-storage-03
     kind: decoration
     position:
       column: 14
       row: 14
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-dry-storage-04
     kind: decoration
     position:
       column: 15
       row: 14
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-dry-storage-05
     kind: decoration
     position:
       column: 12
       row: 15
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-dry-storage-06
     kind: decoration
     position:
       column: 13
       row: 15
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-dry-storage-07
     kind: decoration
     position:
       column: 14
       row: 15
     textureKey: town-salt-barrels-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.86284
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: saltford-dry-storage-08
     kind: decoration
     position:
       column: 15
       row: 15
     textureKey: town-rope-crates-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.90989
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   elevations:
   - - 0
     - 4
