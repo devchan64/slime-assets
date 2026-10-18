@@ -637,10 +637,12 @@ data:
       column: 15
       row: 15
     textureKey: town-reed-bundles-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.96013
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: reedhaven-prop-7
     kind: decoration
     position:
@@ -677,10 +679,12 @@ data:
       column: 13
       row: 15
     textureKey: town-reed-bundles-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.96013
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: reedhaven-prop-11
     kind: decoration
     position:
@@ -697,10 +701,12 @@ data:
       column: 13
       row: 17
     textureKey: town-reed-bundles-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.96013
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: reedhaven-prop-14
     kind: decoration
     position:
@@ -777,20 +783,24 @@ data:
       column: 11
       row: 8
     textureKey: town-reedhaven-water-record-v1
-    displayHeight: 155.0
-    anchorX: 0.5
-    anchorY: 0.94896
+    displayHeight: 155
+    anchorX: 0.38
+    anchorY: 0.89
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: reedhaven-life-scene-addition
     kind: decoration
     position:
       column: 14
       row: 18
     textureKey: town-reedhaven-fiber-workbench-v1
-    displayHeight: 140.0
-    anchorX: 0.5
-    anchorY: 0.98242
+    displayHeight: 140
+    anchorX: 0.42
+    anchorY: 0.81
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: reedhaven-garden-infill-4
     kind: decoration
     position:
@@ -1187,10 +1197,12 @@ data:
       column: 10
       row: 16
     textureKey: town-reed-bundles-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.96013
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: reedhaven-atmosphere-031
     kind: decoration
     position:
@@ -1447,10 +1459,12 @@ data:
       column: 11
       row: 17
     textureKey: town-reed-bundles-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.96013
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: reedhaven-atmosphere-061
     kind: decoration
     position:
@@ -1707,10 +1721,12 @@ data:
       column: 9
       row: 17
     textureKey: town-reed-bundles-v1
-    displayHeight: 95.0
+    displayHeight: 95
     anchorX: 0.5
     anchorY: 0.96013
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: reedhaven-atmosphere-091
     kind: decoration
     position:

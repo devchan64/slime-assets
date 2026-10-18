@@ -597,7 +597,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v6
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 73a922976f418bf4f04893dbf6eb49e1868c803131825a57cecef4a83c83bab1
+  sha256: 5af24f9916f949e664a6d59163b7a0714960fb9d0bc9e594539d96cb77380e5f
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -605,7 +605,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: d17f633c6004d32297c4538d92a381031e714b17dee98d60f4358594781737d0
+  sha256: 4fcdd5cceb6384f3be2a2d97bd353dca93870f46c6f7e1f2e3bf4a1cbffa1edf
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -1701,7 +1701,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 1363d40207d835c4c3f17f03251f31e2978be54fda69e15a41211833c86b3656
+  sha256: a05ca6984cb20bde2fe87a59098aa8d4357db2cdb199391a75e2adfbee38ce7c
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -6252,9 +6252,9 @@ assets:
   version: v1
   path: assets/billboards/town-delivery-crates-v1.png
   name: 납품 상자와 바구니
-  width: 512
-  height: 512
-  sha256: eec119168fea7238f7be3ea29f976c72837ce9cfdf78256d848754880cebbe31
+  width: 128
+  height: 128
+  sha256: 748f650888a9bdd02f2f8ae0ab2a0f951d58a6a7cdce34fb072722526e5f0764
   source:
     repository: codex-imagegen
     artifact: exec-6de1a13b-adad-4584-b43c-f2bfb65e828f.png
@@ -6274,9 +6274,9 @@ assets:
   version: v1
   path: assets/billboards/town-food-stall-v1.png
   name: 식량 진열대
-  width: 512
-  height: 512
-  sha256: 7c524f4e1b251473aa67a7fa1a1b3809a9a2c83a94c834952be516b78c74610a
+  width: 256
+  height: 256
+  sha256: b410b5fe0118a4c05fa10a5d5fc21303dbdf908a77387cf1f191cc6a868a480c
   source:
     repository: codex-imagegen
     artifact: exec-8c37bcc6-4c5e-4c0b-8941-4d87b2bedc84.png
@@ -6296,9 +6296,9 @@ assets:
   version: v1
   path: assets/billboards/town-reed-bundles-v1.png
   name: 갈대 섬유 묶음
-  width: 512
-  height: 512
-  sha256: 285aaf5884cbbea6e07eb7bef439dad3d28ac13caa3fae83a73b67f8447e05ee
+  width: 128
+  height: 128
+  sha256: 129f0a59478828973c63f4ab6d4a0e0eaafec355b22523f6c151db30124d01de
   source:
     repository: codex-imagegen
     artifact: exec-44a14772-2643-4918-a95b-b6c247a23448.png
@@ -6373,9 +6373,9 @@ assets:
   version: v1
   path: assets/billboards/town-repair-rack-v1.png
   name: 수리 도구 거치대
-  width: 512
-  height: 512
-  sha256: 61393be82fe946fb6b3ef2ef8dfdb34f9d9d283c7fc7757ac9bf5a1dd8f22781
+  width: 256
+  height: 256
+  sha256: ce3eb938cbcefe1195cb70b818b200d3906609224971e855254d3f07d0c63f07
   source:
     repository: codex-imagegen
     artifact: exec-a1b9b2de-771a-4722-8ab4-390ff9ab2d72.png
@@ -6406,9 +6406,9 @@ assets:
   version: v1
   path: assets/billboards/town-threshing-bench-v1.png
   name: 수동 탈곡 작업대
-  width: 512
-  height: 512
-  sha256: e8912ae94a8753a248ecfe871ed26eb49df176bc483c5d835cb4bcef0934fdf4
+  width: 128
+  height: 128
+  sha256: 01b5b51cc114ece7fd00076cbc624a815befbdce9c097c05b6ed5365e8ad1768
   source:
     repository: codex-imagegen
     artifact: exec-72c73726-450a-44ab-847a-eca5d780b664.png
@@ -6560,9 +6560,9 @@ assets:
   version: v1
   path: assets/billboards/town-iseulon-jelly-counter-v1.png
   name: 이슬온 젤리 조리·검수대
-  width: 512
-  height: 512
-  sha256: 881ef11b3175c8a94632b3eaf46b5af97e31379560c8c713603b1064d5bc0eb0
+  width: 256
+  height: 256
+  sha256: eeccc4899f1fa3b087cd7e1949e6b661fa75d43fa2e8db09233eb5da2544b2dc
   source:
     repository: codex-imagegen
     artifact: exec-dd71a950-6f60-4fab-a794-ac6ca8ba668a.png
@@ -6571,9 +6571,9 @@ assets:
   version: v1
   path: assets/billboards/town-reedhaven-water-record-v1.png
   name: 갈대나루 물길 기록 벽
-  width: 512
-  height: 512
-  sha256: f0a102bedebc06e919106493f60a48c24835be58a96836dcc83a5b307d35fa8d
+  width: 128
+  height: 128
+  sha256: 1338dd47c35bbd74d2c501695c1f51b4489757864427bf1b67bff1bfc6c93e5b
   source:
     repository: codex-imagegen
     artifact: exec-c655f35a-6ac1-4314-a0b4-d4e29bba35ac.png
@@ -6615,9 +6615,9 @@ assets:
   version: v1
   path: assets/billboards/town-iseulon-material-training-v1.png
   name: 이슬온 회수 재료 교육대
-  width: 512
-  height: 341
-  sha256: 5299c0ae27dda5e17e6cc32501e73bc1b67f940e3fd98affa1ba1a46ef8fd1c1
+  width: 256
+  height: 170
+  sha256: 3c71ad2bded6289c0e9125212da845c1dc74f5ae9342625544651cbf3d25476d
   source:
     repository: codex-imagegen
     artifact: exec-9c9133e4-f071-4cd1-a22a-7aefc9b4289b.png
@@ -6626,9 +6626,9 @@ assets:
   version: v1
   path: assets/billboards/town-reedhaven-fiber-workbench-v1.png
   name: 갈대나루 갈대섬유 작업대
-  width: 512
-  height: 341
-  sha256: ce09ee97f3f2182d2eb058ab5ad6a8cb294f751a40fd5b5c25d0b06984d0d2a9
+  width: 128
+  height: 85
+  sha256: 2cc5b7a2b945abc68c9750ca6fb3f8d3aae0cb2e5080bb2771ef7c9f8bcf98fc
   source:
     repository: codex-imagegen
     artifact: exec-676cbda0-02f8-4260-9001-3109c05e1afc.png
@@ -7249,3 +7249,43 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-reedhaven-plank-house-v3.png
+- managementId: image.scenery.town.grainstead-workshop
+  version: v3
+  path: assets/sprites/structures/town-grainstead-workshop-v3.png
+  width: 512
+  height: 427
+  sha256: 479a54e91f83f51d8b05dfc657405a4904ed741935238a7a9f6bcdf13bb9ec01
+  source:
+    repository: codex-imagegen
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-workshop-v3.png
+- managementId: image.scenery.town.grainstead-guild
+  version: v3
+  path: assets/sprites/structures/town-grainstead-guild-v3.png
+  width: 512
+  height: 427
+  sha256: 39af20247199ee70393b9059f2ce95bcade639d0eefea01ad7dd734500526c59
+  source:
+    repository: codex-imagegen
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-guild-v3.png
+- managementId: image.scenery.town.grainstead-farm-house
+  version: v3
+  path: assets/sprites/structures/town-grainstead-farm-house-v3.png
+  width: 512
+  height: 427
+  sha256: 08bf83d7559c16c746fee00f26b039571df9a70dc8a8d9a4320cb0ce5723ae99
+  source:
+    repository: codex-imagegen
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-farm-house-v3.png
+- managementId: image.scenery.town.grainstead-mill-house
+  version: v3
+  path: assets/sprites/structures/town-grainstead-mill-house-v3.png
+  width: 512
+  height: 427
+  sha256: ae0e84c216ce027c5d977b50cd94f4bb9584d7238611c1741fbff47d0716fce8
+  source:
+    repository: codex-imagegen
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-mill-house-v3.png

@@ -708,10 +708,12 @@ data:
       column: 14
       row: 13
     textureKey: town-food-stall-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.9362
+    displayHeight: 149
+    anchorX: 0.34
+    anchorY: 0.82
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
   - id: iseulon-prop-10
     kind: decoration
     position:
@@ -738,10 +740,12 @@ data:
       column: 17
       row: 18
     textureKey: town-repair-rack-v1
-    displayHeight: 95.0
-    anchorX: 0.5
-    anchorY: 0.86762
+    displayHeight: 122
+    anchorX: 0.39
+    anchorY: 0.76
     tileAnchor: center
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
   - id: iseulon-prop-13
     kind: decoration
     position:
@@ -828,20 +832,24 @@ data:
       column: 16
       row: 10
     textureKey: town-iseulon-jelly-counter-v1
-    displayHeight: 155.0
-    anchorX: 0.5
-    anchorY: 0.92185
+    displayHeight: 155
+    anchorX: 0.17
+    anchorY: 0.76
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
   - id: iseulon-life-scene-addition
     kind: decoration
     position:
       column: 16
       row: 19
     textureKey: town-iseulon-material-training-v1
-    displayHeight: 140.0
-    anchorX: 0.5
-    anchorY: 0.9873
+    displayHeight: 140
+    anchorX: 0.35
+    anchorY: 0.81
     tileAnchor: center
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
   - id: iseulon-garden-infill-1
     kind: decoration
     position:
