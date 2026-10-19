@@ -647,9 +647,9 @@ assets:
     path: config/field_tiles/boar-ridge.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.broken-quarry
-  version: shared-material-codes-v2
+  version: shared-material-codes-v2-quarry-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: 132301a1c6414feca363ae8fbfb806aba3add9f33ab62fa3fb1a5c3dcb1a6222
+  sha256: 490710edbad7da2c17ef72f45627076aeef4a5fb63aa06d9dc677edee1488d2f
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
@@ -1207,9 +1207,9 @@ assets:
     path: config/terrain/maps/boar-ridge.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.broken-quarry
-  version: field-detail-v2
+  version: field-detail-v2-quarry-v1
   path: assets/maps/terrain/maps/broken-quarry.yaml
-  sha256: dc78882ac86ea46aecdb8a9f06238850c27339de387d229efb686f0fef5dcf17
+  sha256: d117653d4f0828d2ae1c5ed06ed78501507e1269091de2ebbce57f480c1646fc
   source:
     repository: slime-backend
     path: config/terrain/maps/broken-quarry.yaml
@@ -4350,12 +4350,12 @@ assets:
     lifecycle_status: retired
     retirement_reason: 사용자 요청으로 폐기
 - managementId: image.terrain.cliff-rock-face-v1
-  version: v2-remote-wall-20261019
+  version: v3-user-edit-20261019
   path: assets/tiles/terrain/blocked/cliff-rock-face-v1.png
   name: 고도 측면 암벽
   width: 128
   height: 128
-  sha256: 951c7a90bb3ba9912a34277447daec58b5bbe112fd31020d2f3bd74efbbf34fe
+  sha256: 3d3ec95162c9eba8341bab748784256cc41f57511341ddc2163aae82a2cb7a1a
   source:
     restored_git_commit: 3609f820ec72814cd7ec6a8e186a38b585addcc9
     restored_git_operation: Git 고해상도 원본을 128px로 축소 및 밝기 50% 적용
@@ -4379,6 +4379,8 @@ assets:
       - 256
       - 256
     wall_update_git_commit: e0c4b79
+    user_edit_previous_sha256: 951c7a90bb3ba9912a34277447daec58b5bbe112fd31020d2f3bd74efbbf34fe
+    user_edit_operation: 사용자가 수정한 암벽 이미지의 원본 해시 재등록
 - managementId: image.effects.battle.impact-burst-v1
   version: v1
   path: assets/sprites/effects/battle/impact-burst-v1.png
@@ -7345,9 +7347,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1
+  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 19699a1d68fe262ccdb0a071fe4f7040c4c4bcfd445e452201a6e29203207254
+  sha256: c0d51075a78216cfa89ceae6cd629460bfa809f42e96c22780d4d6210110d3c2
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
