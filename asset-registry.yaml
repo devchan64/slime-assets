@@ -631,9 +631,9 @@ assets:
     path: config/city_layouts/stonewarm.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.ash-edge
-  version: retire-stump-v1
+  version: retire-stump-v1-contact-expand-v1-contact-relocate-v2
   path: assets/maps/field_tiles/ash-edge.yaml
-  sha256: abbdabc0cc6223c807eebe4a04533128405b6c33e5b94574f82f59d3e909cbd9
+  sha256: a38adb9c21262cf7547a68c86d2cbbf5bd06a8e0bf3fef10dd6b992df3b6bfbf
   source:
     repository: slime-backend
     path: config/field_tiles/ash-edge.yaml
@@ -7347,9 +7347,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3
+  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-nature-double-v1-contact-expand-v1-contact-relocate-v2
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 63614a9c29338442a3acaa2c4c3b84f8a429f97b3451236cd897191de2748495
+  sha256: 4788eccb30f48d765a87d6da9245b1266360ab7e7d12acf469c57fc850c10c8b
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
