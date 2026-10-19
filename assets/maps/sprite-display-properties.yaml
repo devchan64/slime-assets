@@ -1163,22 +1163,22 @@ data:
     displayHeight: 190
   crystal-cut-quartz-shelf-v1:
     anchorX: 0.5
-    anchorY: 0.9
+    anchorY: 0.99
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 160
+    displayHeight: 185
   crystal-cut-quartz-spires-v1:
     anchorX: 0.5
-    anchorY: 0.9
+    anchorY: 0.99
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 190
   crystal-cut-quartz-rubble-v1:
     anchorX: 0.5
     anchorY: 0.9
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 90
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 115
   quarry-stone-cart-v1:
     anchorX: 0.5
     anchorY: 0.94
@@ -1233,3 +1233,33 @@ data:
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 88
+  quarry-cut-blocks-v1:
+    anchorX: 0.5
+    anchorY: 0.83
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 110
+  quarry-broken-slabs-v1:
+    anchorX: 0.5
+    anchorY: 0.83
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 82
+  quarry-stone-chips-v1:
+    anchorX: 0.5
+    anchorY: 0.83
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 57
+  quarry-weathered-boulders-v1:
+    anchorX: 0.5
+    anchorY: 0.94
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 170
+  quarry-collapse-fan-v1:
+    anchorX: 0.39
+    anchorY: 0.86
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 151

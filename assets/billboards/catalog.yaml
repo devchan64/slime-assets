@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 217
+  image_count: 222
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-17'
@@ -1125,6 +1125,46 @@ families:
     - 황금빛 이삭과 짧은 줄기가 모인 군락
     uses:
     - 곡물밭 반복 배치
+  quarry-cut-blocks-v1:
+    category: prop
+    review_category: props
+    name: 절단 석재 적치
+    features:
+    - 절단 석재 적치
+    uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+  quarry-broken-slabs-v1:
+    category: prop
+    review_category: props
+    name: 깨진 채석 판석
+    features:
+    - 깨진 채석 판석
+    uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+  quarry-stone-chips-v1:
+    category: prop
+    review_category: props
+    name: 채석 잔돌 더미
+    features:
+    - 채석 잔돌 더미
+    uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+  quarry-weathered-boulders-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 풍화된 채석장 암괴
+    features:
+    - 풍화된 채석장 암괴
+    uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+  quarry-collapse-fan-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 채석장 붕락 잔해
+    features:
+    - 채석장 붕락 잔해
+    uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -1394,8 +1434,6 @@ billboards:
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 21
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 47
 - texture_key: dry-grass-v1
   family: dry-grass
   asset_ref:
@@ -1416,8 +1454,6 @@ billboards:
     texture_key_occurrences: 44
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 23
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 17
 - texture_key: dry-grass-variant-1-v1
   family: dry-grass
   asset_ref:
@@ -1436,8 +1472,6 @@ billboards:
     texture_key_occurrences: 50
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 32
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 10
 - texture_key: dry-grass-variant-2-v1
   family: dry-grass
   asset_ref:
@@ -1456,8 +1490,6 @@ billboards:
     texture_key_occurrences: 49
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 15
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 19
 - texture_key: dry-grass-variant-3-v1
   family: dry-grass
   asset_ref:
@@ -1479,7 +1511,7 @@ billboards:
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 26
   - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 45
+    texture_key_occurrences: 17
 - texture_key: dry-shrub-v1
   family: dry-shrub
   asset_ref:
@@ -1490,8 +1522,6 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 22
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 6
 - texture_key: dry-shrub-variant-1-v1
   family: dry-shrub
   asset_ref:
@@ -2196,8 +2226,6 @@ billboards:
     texture_key_occurrences: 10
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 22
 - texture_key: seed-grass-variant-1-v1
   family: seed-grass
   asset_ref:
@@ -2878,8 +2906,6 @@ billboards:
     texture_key_occurrences: 7
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 18
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 13
 - texture_key: town-stonewarm-repair-handover-v1
   family: town-stonewarm-repair-handover
   asset_ref:
@@ -2906,8 +2932,6 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 41
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 4
 - texture_key: town-stonewarm-silver-sage-shrub-v1
   family: town-stonewarm-silver-sage-shrub
   asset_ref:
@@ -2922,8 +2946,6 @@ billboards:
     texture_key_occurrences: 74
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 38
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 9
 - texture_key: town-stonewarm-stone-thyme-cushion-v1
   family: town-stonewarm-stone-thyme-cushion
   asset_ref:
@@ -2935,7 +2957,7 @@ billboards:
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 24
   - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 24
+    texture_key_occurrences: 12
 - texture_key: town-stonewarm-sturdy-juniper-shrub-v1
   family: town-stonewarm-sturdy-juniper-shrub
   asset_ref:
@@ -3180,8 +3202,6 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 21
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 45
 - texture_key: cinder-path-basalt-outcrop-v1
   family: cinder-path-basalt-outcrop-v1
   asset_ref:
@@ -3207,7 +3227,7 @@ billboards:
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 10
   - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 7
 - texture_key: crystal-cut-quartz-shelf-v1
   family: crystal-cut-quartz-shelf-v1
   asset_ref:
@@ -3216,8 +3236,6 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 14
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 2
 - texture_key: crystal-cut-quartz-spires-v1
   family: crystal-cut-quartz-spires-v1
   asset_ref:
@@ -3236,8 +3254,6 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 34
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 3
 - texture_key: quarry-stone-cart-v1
   family: quarry-stone-cart
   asset_ref:
@@ -3262,8 +3278,6 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 2
 - texture_key: dawn-overlook-weathered-slabs-v1
   family: dawn-overlook-weathered-slabs-v1
   asset_ref:
@@ -3274,8 +3288,6 @@ billboards:
     texture_key_occurrences: 69
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 64
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 6
 - texture_key: granary-flats-ripe-wheat-v1
   family: ripe-wheat
   asset_ref:
@@ -3284,3 +3296,43 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 263
+- texture_key: quarry-cut-blocks-v1
+  family: quarry-cut-blocks-v1
+  asset_ref:
+    management_id: image.scenery.quarry-cut-blocks-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 6
+- texture_key: quarry-broken-slabs-v1
+  family: quarry-broken-slabs-v1
+  asset_ref:
+    management_id: image.scenery.quarry-broken-slabs-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 30
+- texture_key: quarry-stone-chips-v1
+  family: quarry-stone-chips-v1
+  asset_ref:
+    management_id: image.scenery.quarry-stone-chips-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 55
+- texture_key: quarry-weathered-boulders-v1
+  family: quarry-weathered-boulders-v1
+  asset_ref:
+    management_id: image.scenery.quarry-weathered-boulders-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 13
+- texture_key: quarry-collapse-fan-v1
+  family: quarry-collapse-fan-v1
+  asset_ref:
+    management_id: image.scenery.quarry-collapse-fan-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 16

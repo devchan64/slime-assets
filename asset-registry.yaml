@@ -647,9 +647,9 @@ assets:
     path: config/field_tiles/boar-ridge.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.broken-quarry
-  version: shared-material-codes-v2-quarry-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1
+  version: shared-material-codes-v2-quarry-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-clear-sign-v1
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: 490710edbad7da2c17ef72f45627076aeef4a5fb63aa06d9dc677edee1488d2f
+  sha256: e6b7fb9f3c58808ae003f53d72abf04762fcc21a3a2312594869abc8db27ddc7
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
@@ -1207,9 +1207,9 @@ assets:
     path: config/terrain/maps/boar-ridge.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.broken-quarry
-  version: field-detail-v2-quarry-v1
+  version: field-detail-v2-quarry-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3
   path: assets/maps/terrain/maps/broken-quarry.yaml
-  sha256: d117653d4f0828d2ae1c5ed06ed78501507e1269091de2ebbce57f480c1646fc
+  sha256: 5101e39f9f75c90385a362671253b030c4694d2cd96e24265d58eaa6bf4fcc31
   source:
     repository: slime-backend
     path: config/terrain/maps/broken-quarry.yaml
@@ -7347,9 +7347,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1
+  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3
   path: assets/maps/sprite-display-properties.yaml
-  sha256: c0d51075a78216cfa89ceae6cd629460bfa809f42e96c22780d4d6210110d3c2
+  sha256: 63614a9c29338442a3acaa2c4c3b84f8a429f97b3451236cd897191de2748495
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8167,9 +8167,9 @@ assets:
   version: v1
   path: assets/billboards/quarry-stone-cart-v1.png
   name: 채석장 석재 운반 수레
-  width: 512
-  height: 512
-  sha256: ccbb27c8e265a48a4e8562b36e1ef17b9da0225c086899e845db556516035a9e
+  width: 128
+  height: 128
+  sha256: 60ebf0dd942c64a3826e60f694b854f789962b462d61bdbc663ce45cce6b7e97
   source:
     repository: slime-workflow
     artifact: 2026-10-19_15-41-00-f62cb12d/result.png
@@ -8262,3 +8262,58 @@ assets:
     repository: codex-imagegen
     artifact: exec-d1debb00-e701-4229-9ce2-f94d4ec9e913.png
     processing: 투명 배경 생성 원본
+- managementId: image.scenery.quarry-cut-blocks-v1
+  version: v1
+  path: assets/billboards/quarry-cut-blocks-v1.png
+  name: 절단 석재 적치
+  width: 128
+  height: 128
+  sha256: 12d36ad4378d0676f76d0c340badf0aded227fc0a5e4b3dd7429713a96cd37ae
+  source:
+    repository: codex-imagegen
+    artifact: exec-08310da7-cf19-471d-b3a5-8689886d2095.png
+    processing: 투명 배경 생성 원본을 알파 보존하여 128×128로 축소
+- managementId: image.scenery.quarry-broken-slabs-v1
+  version: v1
+  path: assets/billboards/quarry-broken-slabs-v1.png
+  name: 깨진 채석 판석
+  width: 128
+  height: 128
+  sha256: ea9c48dade6c3528dd82faa71a95251a7bee2e277cdb3b868a8704dc659198dd
+  source:
+    repository: codex-imagegen
+    artifact: exec-8ff3e9dd-7481-427f-8713-bb44d4f3146b.png
+    processing: 투명 배경 생성 원본을 알파 보존하여 128×128로 축소
+- managementId: image.scenery.quarry-stone-chips-v1
+  version: v1
+  path: assets/billboards/quarry-stone-chips-v1.png
+  name: 채석 잔돌 더미
+  width: 128
+  height: 128
+  sha256: 46a2ca8edcdbfeb8024495d7eb2e9bc23237f479ea4d1c5508f47169faab5a59
+  source:
+    repository: codex-imagegen
+    artifact: exec-20251d5a-1f00-420f-add3-1496d3af2cfb.png
+    processing: 투명 배경 생성 원본을 알파 보존하여 128×128로 축소
+- managementId: image.scenery.quarry-weathered-boulders-v1
+  version: v1
+  path: assets/billboards/quarry-weathered-boulders-v1.png
+  name: 풍화된 채석장 암괴
+  width: 128
+  height: 128
+  sha256: 40821da26baad0d681a10468a23975d1633be5c4a8b70a2255b05c496c62ba95
+  source:
+    repository: codex-imagegen
+    artifact: exec-e73f4f80-f993-4055-a44b-fadc7bbe16fb.png
+    processing: 투명 배경 생성 원본을 알파 보존하여 128×128로 축소
+- managementId: image.scenery.quarry-collapse-fan-v1
+  version: v1
+  path: assets/billboards/quarry-collapse-fan-v1.png
+  name: 채석장 붕락 잔해
+  width: 128
+  height: 128
+  sha256: 018e70590b24b940b435281ce3e68540daf4a717dbe9799f0e3ede90dfb1ae18
+  source:
+    repository: codex-imagegen
+    artifact: exec-ff7d925d-a46e-45ed-a629-6aac9491abe4.png
+    processing: 투명 배경 생성 원본을 알파 보존하여 128×128로 축소
