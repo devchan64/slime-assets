@@ -1007,9 +1007,9 @@ assets:
     path: config/terrain/battlefields/cinder-path-encounter.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.battlefields.clover-bank-encounter
-  version: battlefield-minimum-12-v1
+  version: battlefield-minimum-12-v1-korean-name-v2
   path: assets/maps/terrain/battlefields/clover-bank-encounter.yaml
-  sha256: 17f37a1d7d903ad9083e2225ddb34b59f013ec397a8ff5c50fe45cc626be6782
+  sha256: fca54364ecfb3e4648ca9f9d090d06374bb32c0776bfcd2dd4af8c2931ee4eb3
   source:
     repository: slime-backend
     path: config/terrain/battlefields/clover-bank-encounter.yaml
@@ -1551,9 +1551,9 @@ assets:
     path: config/map_names/cinder-path.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.map-names.clover-bank
-  version: v1
+  version: v1-korean-name-v2
   path: assets/maps/map_names/clover-bank.yaml
-  sha256: b85c067fa92c0f44968ed354984570f4a11acf3f2deb1b89bae44f741c81b564
+  sha256: 21d5500c97d92d387ca3109d9a03e23f591b2a5ca1aa900b52bf9d73461bc115
   source:
     repository: slime-backend
     path: config/map_names/clover-bank.yaml
