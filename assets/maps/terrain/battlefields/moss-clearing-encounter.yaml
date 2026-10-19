@@ -1,8 +1,10 @@
 managementId: config.terrain.battlefields.moss-clearing-encounter
 data:
   columns: 12
-  rows: 10
+  rows: 12
   elevations:
+  - '000000000000'
+  - '000000000000'
   - '000000000000'
   - '000000000000'
   - '000000000000'
@@ -25,6 +27,8 @@ data:
   - mmmmmmmmmmmm
   - mmmmmmymmmmm
   - mmmmmmymmmmm
+  - mmmmmmmmmmmm
+  - mmmmmmmmmmmm
   - mmmmmmmmmmmm
   - mmmmmmmmmmmm
   allySpawns:

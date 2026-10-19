@@ -1,8 +1,10 @@
 managementId: config.terrain.battlefields.boar-ridge-encounter
 data:
   columns: 12
-  rows: 10
+  rows: 12
   elevations:
+  - '000000000000'
+  - '000000000000'
   - '000000000000'
   - '000000000000'
   - '000000000000'
@@ -26,6 +28,8 @@ data:
   - ssssssssssss
   - sssssbssssss
   - sssssbssssss
+  - ssssssssssss
+  - ssssssssssss
   - ssssssssssss
   allySpawns:
   - - 1

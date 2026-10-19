@@ -1,9 +1,11 @@
 managementId: config.terrain.battlefields.mountain-basic-2
 data:
   columns: 12
-  rows: 10
+  rows: 12
   terrainMovementVersion: 2
   elevations:
+  - '001122221100'
+  - '001122221100'
   - '001122221100'
   - '001122221100'
   - '001122221100'
@@ -28,6 +30,8 @@ data:
   - BBBBBBsbBBBB
   - sssssssbssss
   - BBBBBBsBBBBB
+  - BBBBBBsBBBBB
+  - BBBBBBsBBBBB
   allySpawns:
   - - 1
     - 3
@@ -45,23 +49,7 @@ data:
     - 5
   - - 2
     - 6
-  - - 3
-    - 3
-  - - 3
-    - 4
-  - - 3
-    - 5
-  - - 3
-    - 6
   enemySpawns:
-  - - 8
-    - 3
-  - - 8
-    - 4
-  - - 8
-    - 5
-  - - 8
-    - 6
   - - 9
     - 3
   - - 9

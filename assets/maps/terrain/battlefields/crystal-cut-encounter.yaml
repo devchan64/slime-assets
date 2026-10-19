@@ -1,8 +1,10 @@
 managementId: config.terrain.battlefields.crystal-cut-encounter
 data:
   columns: 12
-  rows: 10
+  rows: 12
   elevations:
+  - '000000000000'
+  - '000000000000'
   - '000000000000'
   - '000000000000'
   - '000000000000'
@@ -25,6 +27,8 @@ data:
   - ssssssssssss
   - sssssbbsssss
   - sssppppppsss
+  - ssssssssssss
+  - ssssssssssss
   - ssssssssssss
   - ssssssssssss
   allySpawns:

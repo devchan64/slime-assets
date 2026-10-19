@@ -1,7 +1,7 @@
 managementId: config.terrain.battlefields.meadow-flower-knolls
 data:
   columns: 12
-  rows: 10
+  rows: 12
   elevations:
   - '000000000000'
   - '000000000000'
@@ -11,6 +11,8 @@ data:
   - '001111011110'
   - '001111011110'
   - '000000011110'
+  - '000000000000'
+  - '000000000000'
   - '000000000000'
   - '000000000000'
   name: 들꽃 둔덕
@@ -25,6 +27,8 @@ data:
   - fffffffttfff
   - ffffffffffff
   - pppppppppppp
+  - ffffffffffff
+  - ffffffffffff
   - ffffffffffff
   allySpawns:
   - - 1

@@ -1,13 +1,15 @@
 managementId: config.terrain.battlefields.meadow-thicket-bend
 data:
   columns: 12
-  rows: 10
+  rows: 12
   elevations:
   - '111110000000'
   - '111110000000'
   - '111110000000'
   - '111110000000'
   - '111110000000'
+  - '000000011111'
+  - '000000011111'
   - '000000011111'
   - '000000011111'
   - '000000011111'
@@ -25,6 +27,8 @@ data:
   - ppppppgtgffg
   - ffggtggtfggg
   - gggggfftgggg
+  - gggffgggggff
+  - gggffgggggff
   - gggffgggggff
   allySpawns:
   - - 1

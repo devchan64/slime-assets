@@ -1,7 +1,7 @@
 managementId: config.terrain.battlefields.grassland-basic-1
 data:
   columns: 12
-  rows: 10
+  rows: 12
   terrainMovementVersion: 2
   elevations:
   - '000000000000'
@@ -12,6 +12,8 @@ data:
   - '000011110000'
   - '000011110000'
   - '000011110000'
+  - '000000000000'
+  - '000000000000'
   - '000000000000'
   - '000000000000'
   elevationTiles: []
@@ -26,6 +28,8 @@ data:
   - ffffffffffff
   - fggggggfgggg
   - fgggggbbgggg
+  - fggggggfgggg
+  - fggggggfgggg
   - fggggggfgggg
   - fggggggfgggg
   allySpawns:
@@ -45,23 +49,7 @@ data:
     - 5
   - - 2
     - 6
-  - - 3
-    - 3
-  - - 3
-    - 4
-  - - 3
-    - 5
-  - - 3
-    - 6
   enemySpawns:
-  - - 8
-    - 3
-  - - 8
-    - 4
-  - - 8
-    - 5
-  - - 8
-    - 6
   - - 9
     - 3
   - - 9

@@ -1,8 +1,10 @@
 managementId: config.terrain.battlefields.cinder-path-encounter
 data:
   columns: 12
-  rows: 10
+  rows: 12
   elevations:
+  - '000000000000'
+  - '000000000000'
   - '000000000000'
   - '000000000000'
   - '000000000000'
@@ -26,6 +28,8 @@ data:
   - aaaaaaaaaaaa
   - aaaffffffaaa
   - aaaaabaaaaaa
+  - aaaaaaaaaaaa
+  - aaaaaaaaaaaa
   - aaaaaaaaaaaa
   allySpawns:
   - - 1

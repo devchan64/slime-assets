@@ -1,7 +1,7 @@
 managementId: config.terrain.battlefields.quarry-basic-2
 data:
   columns: 12
-  rows: 10
+  rows: 12
   terrainMovementVersion: 2
   elevations:
   - '000000000000'
@@ -13,6 +13,8 @@ data:
   - '222222222222'
   - '222222222222'
   - '222222222222'
+  - '333333333333'
+  - '333333333333'
   - '333333333333'
   elevationTiles: []
   name: 채석장 · 엇갈린 우회로
@@ -27,6 +29,8 @@ data:
   - KKKKKKJbKKKK
   - KKKKKKJbKKKK
   - JJJJJJJbJJJJ
+  - KKKKKKJKKKKK
+  - KKKKKKJKKKKK
   - KKKKKKJKKKKK
   allySpawns:
   - - 1
@@ -45,23 +49,7 @@ data:
     - 5
   - - 2
     - 6
-  - - 3
-    - 3
-  - - 3
-    - 4
-  - - 3
-    - 5
-  - - 3
-    - 6
   enemySpawns:
-  - - 8
-    - 3
-  - - 8
-    - 4
-  - - 8
-    - 5
-  - - 8
-    - 6
   - - 9
     - 3
   - - 9

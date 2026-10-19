@@ -1,8 +1,10 @@
 managementId: config.terrain.battlefields.meadow-rock-pass
 data:
   columns: 12
-  rows: 10
+  rows: 12
   elevations:
+  - '111110001111'
+  - '111110001111'
   - '111110001111'
   - '111110001111'
   - '111110001111'
@@ -25,6 +27,8 @@ data:
   - dddddddrdddd
   - dddddddrdddd
   - gggggggrgggg
+  - gggggggggggg
+  - gggggggggggg
   - gggggggggggg
   allySpawns:
   - - 1
