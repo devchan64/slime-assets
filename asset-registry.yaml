@@ -8047,9 +8047,9 @@ assets:
     repository: slime-workflow
     operation: 전체 31개 맵의 256px 썸네일 매핑 등록
 - managementId: config.world-map.presentation
-  version: v1
+  version: v1-compact-spacing-v1
   path: assets/maps/world-map.yaml
-  sha256: d98bcfde0f8a5a2788aff7db1a3f487c3350a9f3face635d39de3e79e11fe00c
+  sha256: cb3c921348d9f6025c2a68eccdb7c8712662d2fe495c90ac3c236e6e3678d8ea
   source:
     repository: slime-backend
     operation: 기존 월드맵 상대 좌표를 표시 전용 원본으로 분리; 이동 연결은 기존 웨이포인트 원본 유지
