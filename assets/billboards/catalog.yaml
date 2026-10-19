@@ -1148,8 +1148,6 @@ billboards:
     management_id: image.scenery.berry-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
 - texture_key: berry-variant-2-v1
@@ -1158,9 +1156,9 @@ billboards:
     management_id: image.scenery.berry-variant-2-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
 - texture_key: berry-variant-3-v1
   family: berry
@@ -1168,8 +1166,6 @@ billboards:
     management_id: image.scenery.berry-variant-3-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
 - texture_key: blue-flower-variant-1-v1
@@ -1234,8 +1230,6 @@ billboards:
     management_id: image.scenery.broadleaf-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
@@ -1248,8 +1242,6 @@ billboards:
     management_id: image.scenery.broadleaf-variant-2-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/stonewarm.yaml
@@ -1292,8 +1284,6 @@ billboards:
     management_id: image.scenery.clover-clump-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -1306,38 +1296,38 @@ billboards:
     management_id: image.scenery.clover-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
 - texture_key: clover-variant-2-v1
   family: clover
   asset_ref:
     management_id: image.scenery.clover-variant-2-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
 - texture_key: clover-variant-3-v1
   family: clover
   asset_ref:
     management_id: image.scenery.clover-variant-3-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
 - texture_key: daisy-variant-1-v1
   family: daisy
   asset_ref:
@@ -1368,26 +1358,22 @@ billboards:
     management_id: image.scenery.dandelion-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
 - texture_key: dandelion-variant-2-v1
   family: dandelion
   asset_ref:
     management_id: image.scenery.dandelion-variant-2-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
+  map_references: []
 - texture_key: dandelion-variant-3-v1
   family: dandelion
   asset_ref:
     management_id: image.scenery.dandelion-variant-3-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
 - texture_key: dry-branches-v1
@@ -1424,8 +1410,6 @@ billboards:
     management_id: image.scenery.dry-grass-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/stonewarm.yaml
@@ -1442,8 +1426,6 @@ billboards:
     management_id: image.scenery.dry-grass-variant-2-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/stonewarm.yaml
@@ -1460,8 +1442,6 @@ billboards:
     management_id: image.scenery.dry-grass-variant-3-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/ash-edge.yaml
@@ -1472,6 +1452,8 @@ billboards:
     texture_key_occurrences: 63
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 54
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 11
 - texture_key: dry-shrub-v1
   family: dry-shrub
   asset_ref:
@@ -1598,8 +1580,6 @@ billboards:
     management_id: image.scenery.grass-clump-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/ash-edge.yaml
@@ -1758,10 +1738,10 @@ billboards:
     management_id: image.scenery.orchard-apple-tree-v2
     version: v2
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -1778,10 +1758,10 @@ billboards:
     management_id: image.scenery.orchard-apple-tree-variant-1-v2
     version: v2
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -1798,10 +1778,10 @@ billboards:
     management_id: image.scenery.orchard-apple-tree-variant-2-v2
     version: v2
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -1900,8 +1880,6 @@ billboards:
     management_id: image.scenery.orchard-chunky-grass-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -1922,14 +1900,14 @@ billboards:
     management_id: image.scenery.orchard-chunky-shrub-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 25
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 8
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
 - texture_key: orchard-dead-tree-v1
   family: orchard-dead-tree
   asset_ref:
@@ -2068,8 +2046,6 @@ billboards:
     management_id: image.scenery.orchard-young-tree-v2
     version: v2
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
@@ -2098,8 +2074,6 @@ billboards:
     management_id: image.scenery.orchard-young-tree-variant-1-v2
     version: v2
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
@@ -2124,8 +2098,6 @@ billboards:
     management_id: image.scenery.orchard-young-tree-variant-2-v2
     version: v2
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
@@ -2188,37 +2160,37 @@ billboards:
     management_id: image.scenery.seed-grass-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 10
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
 - texture_key: seed-grass-variant-1-v1
   family: seed-grass
   asset_ref:
     management_id: image.scenery.seed-grass-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 3
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 3
 - texture_key: seed-grass-variant-2-v1
   family: seed-grass
   asset_ref:
     management_id: image.scenery.seed-grass-variant-2-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 3
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
 - texture_key: seed-grass-variant-3-v1
   family: seed-grass
@@ -2226,25 +2198,25 @@ billboards:
     management_id: image.scenery.seed-grass-variant-3-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 2
 - texture_key: sorrel-clump-v1
   family: sorrel
   asset_ref:
     management_id: image.scenery.sorrel-clump-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
 - texture_key: sorrel-variant-1-v1
   family: sorrel
@@ -2330,6 +2302,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 2
 - texture_key: town-fish-rack-v1
   family: town-fish-rack
   asset_ref:
@@ -2353,17 +2327,17 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 13
 - texture_key: town-grainstead-field-clover-cushion-v1
   family: town-grainstead-field-clover-cushion
   asset_ref:
     management_id: image.scenery.town-grainstead-field-clover-cushion-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 26
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 23
 - texture_key: town-grainstead-golden-meadow-tuft-v1
   family: town-grainstead-golden-meadow-tuft
   asset_ref:
@@ -2371,7 +2345,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 40
 - texture_key: town-grainstead-grain-drying-v1
   family: town-grainstead-grain-drying
   asset_ref:
@@ -2387,7 +2361,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 26
 - texture_key: town-grainstead-hazel-leaf-shrub-v1
   family: town-grainstead-hazel-leaf-shrub
   asset_ref:
@@ -2395,7 +2369,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 17
 - texture_key: town-grainstead-milling-dispatch-v1
   family: town-grainstead-milling-dispatch
   asset_ref:
@@ -2411,7 +2385,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 23
 - texture_key: town-grainstead-wild-raspberry-bush-v1
   family: town-grainstead-wild-raspberry-bush
   asset_ref:
@@ -2419,7 +2393,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 5
 - texture_key: town-grindstone-v1
   family: town-grindstone
   asset_ref:
@@ -2436,8 +2410,6 @@ billboards:
     management_id: image.scenery.town-ground-lantern-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
@@ -2448,6 +2420,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 2
 - texture_key: town-handcart-v1
   family: town-handcart
   asset_ref:
@@ -2478,8 +2452,6 @@ billboards:
     management_id: image.scenery.town-herb-planter-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 5
   - path: assets/maps/city_layouts/saltford.yaml
@@ -2488,6 +2460,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 15
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 5
 - texture_key: town-herb-rack-v1
   family: town-herb-rack
   asset_ref:
@@ -2576,8 +2550,6 @@ billboards:
     management_id: image.scenery.town-low-fence-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
@@ -2586,6 +2558,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 7
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 9
 - texture_key: town-low-reeds-v1
   family: town-low-reeds
   asset_ref:
@@ -2612,11 +2586,11 @@ billboards:
     management_id: image.scenery.town-notice-board-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
 - texture_key: town-ore-basket-v1
   family: town-ore-basket
@@ -2634,8 +2608,6 @@ billboards:
     management_id: image.scenery.town-record-chest-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
@@ -2644,6 +2616,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 7
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 5
 - texture_key: town-reed-bundles-v1
   family: town-reed-bundles
   asset_ref:
@@ -2724,14 +2698,14 @@ billboards:
     management_id: image.scenery.town-repair-rack-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 5
 - texture_key: town-rope-crates-v1
   family: town-rope-crates
   asset_ref:
@@ -2848,6 +2822,8 @@ billboards:
     texture_key_occurrences: 71
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 46
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 7
 - texture_key: town-stonewarm-repair-handover-v1
   family: town-stonewarm-repair-handover
   asset_ref:
@@ -2913,7 +2889,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 6
 - texture_key: town-threshing-bench-v1
   family: town-threshing-bench
   asset_ref:
@@ -2929,15 +2905,13 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 3
 - texture_key: town-wood-bench-v1
   family: town-wood-bench
   asset_ref:
     management_id: image.scenery.town-wood-bench-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/saltford.yaml
@@ -2946,6 +2920,8 @@ billboards:
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 15
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 5
 - texture_key: waypoint-guide-v3
   family: waypoint-guide
   asset_ref:
@@ -2978,9 +2954,9 @@ billboards:
     management_id: image.scenery.yellow-dandelions-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
 - texture_key: young-sapling-v1
   family: sapling
