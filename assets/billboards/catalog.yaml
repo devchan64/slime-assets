@@ -1256,6 +1256,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 37
 - texture_key: broadleaf-variant-3-v1
   family: broadleaf
   asset_ref:
@@ -1274,6 +1276,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 38
 - texture_key: bush-billboard-v2
   family: bush-billboard
   asset_ref:
@@ -1519,7 +1523,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.exposed-root-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 4
 - texture_key: fallen-apples-v1
   family: apples
   asset_ref:
@@ -1536,6 +1542,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 9
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 10
 - texture_key: fern-clump-v1
   family: fern
   asset_ref:
@@ -1546,6 +1554,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 34
 - texture_key: fern-variant-1-v1
   family: fern
   asset_ref:
@@ -1556,6 +1566,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 12
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 36
 - texture_key: fern-variant-2-v1
   family: fern
   asset_ref:
@@ -1568,6 +1580,8 @@ billboards:
     texture_key_occurrences: 13
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 17
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 24
 - texture_key: fern-variant-3-v1
   family: fern
   asset_ref:
@@ -1576,6 +1590,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 34
 - texture_key: grass-clump-v1
   family: grass
   asset_ref:
@@ -1588,12 +1604,16 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 7
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 32
 - texture_key: hollow-log-v1
   family: log
   asset_ref:
     management_id: image.scenery.hollow-log-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 4
 - texture_key: ivy-clump-v1
   family: ivy
   asset_ref:
@@ -1602,6 +1622,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 22
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 28
 - texture_key: ivy-variant-1-v1
   family: ivy
   asset_ref:
@@ -1610,6 +1632,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 24
 - texture_key: ivy-variant-2-v1
   family: ivy
   asset_ref:
@@ -1652,18 +1676,24 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 4
 - texture_key: log-variant-2-v1
   family: log
   asset_ref:
     management_id: image.scenery.log-variant-2-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 3
 - texture_key: log-variant-3-v1
   family: log
   asset_ref:
     management_id: image.scenery.log-variant-3-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 3
 - texture_key: mushroom-cluster-v1
   family: mushroom
   asset_ref:
@@ -1672,6 +1702,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 8
 - texture_key: mushroom-variant-1-v1
   family: mushroom
   asset_ref:
@@ -1680,6 +1712,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 9
 - texture_key: mushroom-variant-2-v1
   family: mushroom
   asset_ref:
@@ -1690,6 +1724,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 8
 - texture_key: mushroom-variant-3-v1
   family: mushroom
   asset_ref:
@@ -1698,6 +1734,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 5
 - texture_key: old-stump-v1
   family: stump
   asset_ref:
@@ -1706,6 +1744,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 4
 - texture_key: orchard-apple-tree-v1
   family: orchard-apple-tree
   asset_ref:
@@ -1966,6 +2006,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 30
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -1986,6 +2028,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 19
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -2006,6 +2050,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 21
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -2034,6 +2080,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 21
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 18
   variant_features:
   - 큰 수관·줄기 덩어리로 형태를 강조한 버전
   related_texture_keys:
@@ -2095,13 +2143,17 @@ billboards:
   asset_ref:
     management_id: image.scenery.root-variant-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 6
 - texture_key: root-variant-2-v1
   family: root
   asset_ref:
     management_id: image.scenery.root-variant-2-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 6
 - texture_key: root-variant-3-v1
   family: root
   asset_ref:
@@ -2113,13 +2165,17 @@ billboards:
   asset_ref:
     management_id: image.scenery.sapling-variant-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 28
 - texture_key: sapling-variant-2-v1
   family: sapling
   asset_ref:
     management_id: image.scenery.sapling-variant-2-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/fallen-canopy.yaml
+    texture_key_occurrences: 25
 - texture_key: sapling-variant-3-v1
   family: sapling
   asset_ref:

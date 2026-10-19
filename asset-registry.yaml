@@ -703,9 +703,9 @@ assets:
     path: config/field_tiles/dry-creek.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.fallen-canopy
-  version: retire-stump-v1
+  version: retire-stump-v1-canopy-v1
   path: assets/maps/field_tiles/fallen-canopy.yaml
-  sha256: f5e7bdfcaf84fb3cf415c86e57c908966d33edae9960fa5161b3fc0fd5ca280f
+  sha256: 01a5a733f6c4408f5b1a27c796aea111f27d7750f0e6889c5a6a59105de92aaf
   source:
     repository: slime-backend
     path: config/field_tiles/fallen-canopy.yaml
@@ -1255,9 +1255,9 @@ assets:
     path: config/terrain/maps/dry-creek.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.fallen-canopy
-  version: v1
+  version: v1-canopy-v1
   path: assets/maps/terrain/maps/fallen-canopy.yaml
-  sha256: 23e1728d9391dce43a1ac77adfad2d76aaf4919d35bdb64d1958b52f94af59e9
+  sha256: da0b699f3b2dbe99a36ec134dc66990f4cf0c4c30712186f206b6b17e74c6235
   source:
     repository: slime-backend
     path: config/terrain/maps/fallen-canopy.yaml
@@ -7345,9 +7345,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1
+  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 31b7f96231e2ad6585eea75ccfcfc6bc797566f6c6c227e99dda8b49a42e844a
+  sha256: f08af4c37a8501148a410743537b117cf0f404a34b7537db0ca483ad15c33c49
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
