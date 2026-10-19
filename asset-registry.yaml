@@ -8108,3 +8108,23 @@ assets:
     repository: codex-imagegen
     artifact: exec-2fc900e5-10ed-4c0b-bca4-45bd5764798e.png
     processing: 128×128 RGBA; 비율 유지 Lanczos 축소·투명 패딩
+- managementId: image.effects.field-battle.field-battle-active-v1
+  version: v1
+  path: assets/sprites/effects/field-battle/field-battle-active-v1.png
+  sha256: 797a2ae0cf59ddc53531e974f762ea74c429d8768dbe45f13dac0a8562a9c863
+  width: 1254
+  height: 1254
+  source:
+    repository: slime-workflow
+    tool: image_gen
+    operation: 필드 전투 상태·종료 소멸 이펙트 생성
+- managementId: image.effects.field-battle.field-monster-vanish-v1
+  version: v1
+  path: assets/sprites/effects/field-battle/field-monster-vanish-v1.png
+  sha256: 8c83316fbccd839e954b98ed352c14774223a3b2f01db254795c45fb27c6e178
+  width: 1308
+  height: 1202
+  source:
+    repository: slime-workflow
+    tool: image_gen
+    operation: 필드 전투 상태·종료 소멸 이펙트 생성
