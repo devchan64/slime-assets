@@ -679,9 +679,9 @@ assets:
     path: config/field_tiles/codes.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.crystal-cut
-  version: crystal-cut-materials-v1
+  version: crystal-remodel-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: 52785391585b31cb39ab2a50875c2a3cf5b1b94405af0475e9c06ec6c9ab5c01
+  sha256: 662b2dad4e7a2a56accad413a0398030c721c60516b50d3091fcb9170c8f30b1
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -7345,9 +7345,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1
+  version: v2-clover-v1-crystal-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: f7c1b91eb0e70e4a77eb5ce3a98c1359a8044642d7fbd3ac1e6049bc3a832cdc
+  sha256: b23feec44ac1d2b5c3296ce99d6e1dcaefba2153469f8ef58b57f23081c3e6a8
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8097,3 +8097,14 @@ assets:
     repository: codex-imagegen
     artifact: exec-3ede7fe1-b2dc-4aba-9780-1ceb35d7cfec.png
     processing: 자연물 규격 128×128 RGBA; 비율 유지 Lanczos 축소·투명 패딩
+- managementId: image.scenery.crystal-cut-quartz-outcrop-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-outcrop-v1.png
+  name: 결정 절개지 석영 광맥 암벽
+  width: 128
+  height: 128
+  sha256: 2a5f0627dd8ce9333f0d74ffbbaedce4b0c783670f9843bbcb94aa49e072960c
+  source:
+    repository: codex-imagegen
+    artifact: exec-2fc900e5-10ed-4c0b-bca4-45bd5764798e.png
+    processing: 128×128 RGBA; 비율 유지 Lanczos 축소·투명 패딩

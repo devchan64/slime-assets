@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 208
+  image_count: 209
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-17'
@@ -1053,6 +1053,14 @@ families:
     - 낮은 토끼풀 둔덕과 흙 굴 입구
     uses:
     - 초원 언덕의 대표 자연물
+  crystal-cut-quartz-outcrop-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 석영 광맥 암벽
+    features:
+    - 회색 절개면과 흰색·연금색 광맥
+    uses:
+    - 채석장과 광맥 절개지의 암벽
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -1374,6 +1382,8 @@ billboards:
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 4
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 8
 - texture_key: dry-grass-variant-3-v1
   family: dry-grass
   asset_ref:
@@ -2466,6 +2476,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
 - texture_key: town-record-chest-v1
   family: town-record-chest
   asset_ref:
@@ -2924,6 +2936,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 4
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 20
 - texture_key: cinder-path-buried-deadwood-v1
   family: cinder-path-buried-deadwood-v1
   asset_ref:
@@ -2964,3 +2978,11 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 3
+- texture_key: crystal-cut-quartz-outcrop-v1
+  family: crystal-cut-quartz-outcrop-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-outcrop-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 10
