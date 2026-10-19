@@ -655,9 +655,9 @@ assets:
     path: config/field_tiles/broken-quarry.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.cinder-path
-  version: shared-material-codes-v2
+  version: cinder-remodel-v1
   path: assets/maps/field_tiles/cinder-path.yaml
-  sha256: 146119c21c5dc1e1c5149d5467de3ec39eb48da3947a4cb49101d4de3462ef75
+  sha256: 4366d4e28a1578378085ebeaa238c35d428b499d89906a272df580ea1fb95298
   source:
     repository: slime-backend
     path: config/field_tiles/cinder-path.yaml
@@ -1215,9 +1215,9 @@ assets:
     path: config/terrain/maps/broken-quarry.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.cinder-path
-  version: field-detail-v2
+  version: cinder-remodel-v1
   path: assets/maps/terrain/maps/cinder-path.yaml
-  sha256: cde03f0c5df41a4da7502c9744747028e596f13eefa6926b9b7691f1201fe295
+  sha256: 53648bca5a3a1cdebaef67379f8f769093636b02e0ee5897edff47005b002bff
   source:
     repository: slime-backend
     path: config/terrain/maps/cinder-path.yaml
@@ -7345,9 +7345,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v1
+  version: v2
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 9f931d75ef3647ad7aaf27afc6a03f5348e5512cbba253fa983eb5cff5939108
+  sha256: 6ab5bb9fa1903a4c01212daedb41911330ed37a68a1c04aaf6d8551cc255ba6a
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7654,6 +7654,50 @@ assets:
     repository: codex-imagegen
     artifact: exec-8486944b-3247-467b-a1fe-c48c2427e2b1.png
     processing: 자연물 규격 128×128 RGBA, 비율 유지 축소 및 투명 여백
+- managementId: image.scenery.cinder-path-cooled-rocks-v1
+  version: v1
+  path: assets/billboards/cinder-path-cooled-rocks-v1.png
+  name: 식은 검은 암석
+  width: 128
+  height: 128
+  sha256: bcdbafc83398e524b9e2ab58a174e271b38468385be7308ca00792f27ad9a0b9
+  source:
+    repository: codex-imagegen
+    artifact: exec-bbccf41c-ad4e-4d10-b52f-7d5add6694ff.png
+    processing: RGBA 투명도 보존, 비율 유지 축소 및 투명 여백
+- managementId: image.scenery.cinder-path-buried-deadwood-v1
+  version: v1
+  path: assets/billboards/cinder-path-buried-deadwood-v1.png
+  name: 재에 묻힌 고사목
+  width: 128
+  height: 128
+  sha256: ac73b2845df92181cebe3fcae8aac9454adf4fc99889ca837c3e02dc843f8b6a
+  source:
+    repository: codex-imagegen
+    artifact: exec-3cadd60a-7f2b-4f00-a5a5-b13ba36dc876.png
+    processing: RGBA 투명도 보존, 비율 유지 축소 및 투명 여백
+- managementId: image.scenery.cinder-path-ash-cargo-v1
+  version: v1
+  path: assets/billboards/cinder-path-ash-cargo-v1.png
+  name: 잿가루 운송 짐꾸러미
+  width: 256
+  height: 256
+  sha256: e06c7981e20b6dad79fa6f00edb3a259bb38148384609b55ed43a7ec6bde4c9e
+  source:
+    repository: codex-imagegen
+    artifact: exec-6dc97b7a-ff4c-4f95-af4e-269fc8e578c9.png
+    processing: RGBA 투명도 보존, 비율 유지 축소 및 투명 여백
+- managementId: image.scenery.cinder-path-gray-green-shoots-v1
+  version: v1
+  path: assets/billboards/cinder-path-gray-green-shoots-v1.png
+  name: 회녹색 새순
+  width: 128
+  height: 128
+  sha256: f8a15c7c80a97b10b637f10a0c5ecbc49018f4debc6e1cea1b950d113ba353d2
+  source:
+    repository: codex-imagegen
+    artifact: exec-7f86773a-03e6-48ad-8251-655b8893105b.png
+    processing: RGBA 투명도 보존, 비율 유지 축소 및 투명 여백
 - managementId: image.ui.world-map.grainstead
   version: v1
   path: assets/ui/world-map/thumbnails/grainstead-v1.png
@@ -8009,3 +8053,36 @@ assets:
   source:
     repository: slime-backend
     operation: 기존 월드맵 상대 좌표를 표시 전용 원본으로 분리; 이동 연결은 기존 웨이포인트 원본 유지
+- managementId: image.scenery.cinder-path-basalt-outcrop-v1
+  version: v1
+  path: assets/billboards/cinder-path-basalt-outcrop-v1.png
+  name: 식은 층상 현무암
+  width: 128
+  height: 128
+  sha256: 5dffb45809a39949e8c0998b66da2aef093bc4bc2e415d9c36707814a83192bb
+  source:
+    repository: codex-imagegen
+    artifact: exec-222bbad8-e1b8-4e99-a74a-22eb9d894dc1.png
+    processing: 자연물 규격 128×128 RGBA, Lanczos 축소·투명도 보존
+- managementId: image.tile.cinder-ash-trail
+  version: v1
+  path: assets/tiles/terrain/road/cinder-ash-trail-v1.png
+  name: 밝은 잿가루 길
+  width: 128
+  height: 128
+  sha256: 05c4e4869ad7403a16d3267f912216091bc2be130bc205b9c4c394eabcd4e0db
+  source:
+    repository: codex-imagegen
+    artifact: exec-8f503bdf-eeeb-4bb6-939b-7d0c5347082a.png
+    processing: 현행 게임 지형 규격 128px RGBA·Lanczos 축소
+- managementId: image.tile.cinder-ash-ground
+  version: v1
+  path: assets/tiles/terrain/non-road/cinder-ash-ground-v1.png
+  name: 차가운 잿빛 지면
+  width: 128
+  height: 128
+  sha256: eb62eca43a044c4c09ffc0f32ed54beae74d2777c410d7ff21aa04e1e92a0fd1
+  source:
+    repository: codex-imagegen
+    artifact: exec-0d3923de-fa83-4dd9-8026-9178aa5345eb.png
+    processing: 현행 게임 지형 규격 128px RGBA·Lanczos 축소
