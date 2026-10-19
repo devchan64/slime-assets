@@ -695,9 +695,9 @@ assets:
     path: config/field_tiles/dawn-overlook.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.dry-creek
-  version: shared-material-codes-v2
+  version: shared-material-codes-v2-creek-v1-creek-v1
   path: assets/maps/field_tiles/dry-creek.yaml
-  sha256: 6e03ebf9ed596afb11aff91a96241514424caa410f2a9a8feb0d967203c55b84
+  sha256: 6e16604788ebb555b15d1cf51f217013b9348f5919c8f1520d2e839b644629ba
   source:
     repository: slime-backend
     path: config/field_tiles/dry-creek.yaml
@@ -1247,9 +1247,9 @@ assets:
     path: config/terrain/maps/dawn-overlook.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.dry-creek
-  version: v1
+  version: v1-creek-v1-creek-v1
   path: assets/maps/terrain/maps/dry-creek.yaml
-  sha256: cd9c2977abdb3bd9a6b16cfdb21b66d7ce20249ac6711b62c42408dba50d7715
+  sha256: 8dbe99a997a8d79d7176f925c380fcdaee716f80a5ee9be16d74e498ad480e49
   source:
     repository: slime-backend
     path: config/terrain/maps/dry-creek.yaml
