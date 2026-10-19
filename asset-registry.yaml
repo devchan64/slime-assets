@@ -655,9 +655,9 @@ assets:
     path: config/field_tiles/broken-quarry.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.cinder-path
-  version: cinder-remodel-v1
+  version: cinder-remodel-v1-basalt-ground-v1
   path: assets/maps/field_tiles/cinder-path.yaml
-  sha256: 4366d4e28a1578378085ebeaa238c35d428b499d89906a272df580ea1fb95298
+  sha256: 7b7fde3759af52a680aa241c1098f105923427a6f8c817ac15e8559895e7621f
   source:
     repository: slime-backend
     path: config/field_tiles/cinder-path.yaml
@@ -7347,9 +7347,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-nature-double-v1-contact-expand-v1-contact-relocate-v2-contact-relocate-v2-dead-tree-contact-v1-tile-contact-v1
+  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-nature-double-v1-contact-expand-v1-contact-relocate-v2-contact-relocate-v2-dead-tree-contact-v1-tile-contact-v1-placement-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 99442d5b031cf520b9e020986927a63e38c4f5616a97614d744d745b702c7c71
+  sha256: fba9bdc59730c72b51af5ae646c41914ae4eaa31b4a09363f81b67389ef8c594
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
