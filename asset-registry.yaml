@@ -663,9 +663,9 @@ assets:
     path: config/field_tiles/cinder-path.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.clover-bank
-  version: retire-stump-v1
+  version: clover-remodel-v1
   path: assets/maps/field_tiles/clover-bank.yaml
-  sha256: 2db4549c0f2dc294bfdf3a5bdcce08a55bd4c57c5dda0157729d456ba3bfcbd6
+  sha256: ff6bde5f795e1b17841d96252f5d6633037c4821372fcb5fd4d0f2e0152dfb86
   source:
     repository: slime-backend
     path: config/field_tiles/clover-bank.yaml
@@ -1223,9 +1223,9 @@ assets:
     path: config/terrain/maps/cinder-path.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.clover-bank
-  version: v1
+  version: clover-remodel-v1
   path: assets/maps/terrain/maps/clover-bank.yaml
-  sha256: abb03a86a192cbab168813d9300af084f4ff61124aa45531c6b12fdec5a2d7ba
+  sha256: 2fafca597a01d2921128685c9860d19c1927000f83b3e71f62259b98a1cababb
   source:
     repository: slime-backend
     path: config/terrain/maps/clover-bank.yaml
@@ -7345,9 +7345,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2
+  version: v2-clover-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 6ab5bb9fa1903a4c01212daedb41911330ed37a68a1c04aaf6d8551cc255ba6a
+  sha256: f7c1b91eb0e70e4a77eb5ce3a98c1359a8044642d7fbd3ac1e6049bc3a832cdc
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8086,3 +8086,14 @@ assets:
     repository: codex-imagegen
     artifact: exec-0d3923de-fa83-4dd9-8026-9178aa5345eb.png
     processing: 현행 게임 지형 규격 128px RGBA·Lanczos 축소
+- managementId: image.scenery.clover-bank-rabbit-burrow-v1
+  version: v1
+  path: assets/billboards/clover-bank-rabbit-burrow-v1.png
+  name: 토끼풀 토끼굴 둔덕
+  width: 128
+  height: 128
+  sha256: 51b1f147125d7065fd7ca0b4ee1320643528e1aa689f28aa4a3e4c81ce33f1c3
+  source:
+    repository: codex-imagegen
+    artifact: exec-3ede7fe1-b2dc-4aba-9780-1ceb35d7cfec.png
+    processing: 자연물 규격 128×128 RGBA; 비율 유지 Lanczos 축소·투명 패딩

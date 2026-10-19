@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 206
+  image_count: 208
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-17'
@@ -1045,6 +1045,14 @@ families:
     - 검은 층상 암반과 잿가루
     uses:
     - 잿길 주변 암반 능선
+  clover-bank-rabbit-burrow-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 토끼풀 토끼굴 둔덕
+    features:
+    - 낮은 토끼풀 둔덕과 흙 굴 입구
+    uses:
+    - 초원 언덕의 대표 자연물
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -1222,6 +1230,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 12
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 18
 - texture_key: clover-variant-1-v1
   family: clover
   asset_ref:
@@ -1234,6 +1244,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 5
 - texture_key: clover-variant-2-v1
   family: clover
   asset_ref:
@@ -1244,6 +1256,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 5
 - texture_key: clover-variant-3-v1
   family: clover
   asset_ref:
@@ -1254,6 +1268,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 5
 - texture_key: daisy-variant-1-v1
   family: daisy
   asset_ref:
@@ -2194,6 +2210,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 26
 - texture_key: town-grainstead-golden-meadow-tuft-v1
   family: town-grainstead-golden-meadow-tuft
   asset_ref:
@@ -2768,6 +2786,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 20
 - texture_key: yellow-dandelions-v1
   family: dandelion
   asset_ref:
@@ -2936,3 +2956,11 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 7
+- texture_key: clover-bank-rabbit-burrow-v1
+  family: clover-bank-rabbit-burrow-v1
+  asset_ref:
+    management_id: image.scenery.clover-bank-rabbit-burrow-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 3
