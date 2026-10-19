@@ -1,0 +1,80 @@
+managementId: config.terrain.battlefields.quarry-basic-3
+data:
+  columns: 12
+  rows: 10
+  terrainMovementVersion: 2
+  elevations:
+  - '000000000000'
+  - '000000000000'
+  - '000000000000'
+  - '111111111111'
+  - '111111111111'
+  - '111111111111'
+  - '222222222222'
+  - '222222222222'
+  - '222222222222'
+  - '333333333333'
+  elevationTiles: []
+  name: 채석장 · 쌍갈래 통로
+  description: 채석장 공용 전장. 쌍갈래 통로에서 중앙 진입과 측면 우회를 선택한다.
+  terrain:
+  - KKKKKJKKKKKK
+  - JJJJJJJJJJJJ
+  - KKKKKbbKKKKK
+  - KKKKKbbKKKKK
+  - KKKKKJKKKKKK
+  - KKKKKJKKKKKK
+  - JJJJJbbJJJJJ
+  - KKKKKbbKKKKK
+  - KKKKKJKKKKKK
+  - KKKKKJKKKKKK
+  allySpawns:
+  - - 1
+    - 3
+  - - 1
+    - 4
+  - - 1
+    - 5
+  - - 1
+    - 6
+  - - 2
+    - 3
+  - - 2
+    - 4
+  - - 2
+    - 5
+  - - 2
+    - 6
+  - - 3
+    - 3
+  - - 3
+    - 4
+  - - 3
+    - 5
+  - - 3
+    - 6
+  enemySpawns:
+  - - 8
+    - 3
+  - - 8
+    - 4
+  - - 8
+    - 5
+  - - 8
+    - 6
+  - - 9
+    - 3
+  - - 9
+    - 4
+  - - 9
+    - 5
+  - - 9
+    - 6
+  - - 10
+    - 3
+  - - 10
+    - 4
+  - - 10
+    - 5
+  - - 10
+    - 6

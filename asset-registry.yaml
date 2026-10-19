@@ -1171,9 +1171,9 @@ assets:
     path: config/terrain/battlefields/wind-hills-encounter.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.index
-  version: v2
+  version: terrain-encounters-v1
   path: assets/maps/terrain/index.yaml
-  sha256: ac2b6725677a55f6d8d7c1d9330c642c9df44548dabd5e294f32e23183fe289b
+  sha256: 79ed27058e66c6385ab2f08ff0c1a240085af78a44ea556cfdbc78508bbcfb98
   source:
     repository: slime-assets
     path: assets/maps/terrain/index.yaml
@@ -7329,3 +7329,251 @@ assets:
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
+- managementId: config.terrain.battlefields.grassland-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/grassland-basic-1.yaml
+  sha256: cda05329d63e1798a4769ce48948f6777fde6faa8a1b653409bb0e0965948b44
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/grassland-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.grassland-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/grassland-basic-2.yaml
+  sha256: d3b3e76f0bfff7babd20729528d796851a2957fc0355f1a346d3a8a8e8af30ed
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/grassland-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.grassland-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/grassland-basic-3.yaml
+  sha256: 97df3983ca99e910a26b3d57937baf00d0ebc8f9de783dfcc0e4e1479e73da50
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/grassland-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.forest-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/forest-basic-1.yaml
+  sha256: 5b224701e4d01b9407a51cc0bbab90982d38d9073265188f49246339faa0d748
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/forest-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.forest-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/forest-basic-2.yaml
+  sha256: d877a5c7f1866e1d8c313e515996f2fc61897b9dbdbb673d9ef8241c3f2d19da
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/forest-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.forest-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/forest-basic-3.yaml
+  sha256: 410d989a5cd1c8ad460d45927902e896cdcc2cbb8f7514e5a4d2afe3ac702d57
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/forest-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.wetland-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/wetland-basic-1.yaml
+  sha256: 3b7165420a3f35eb01c64b17ba4123c4cb5fdbe636291279e8409e615c172002
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/wetland-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.wetland-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/wetland-basic-2.yaml
+  sha256: fd7ca73ee753e49a0a7ef7de22e66cbf4d1f9ffa18125beba1819da7d35bc592
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/wetland-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.wetland-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/wetland-basic-3.yaml
+  sha256: 7b12e143beac717eace3249845faf76201e9fe74f586e9c9abbc3379539e2f49
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/wetland-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.mountain-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/mountain-basic-1.yaml
+  sha256: 1567fd216d2b3aa37420c38b1395307b28366f7bfb416e8adcff41e5d2c146be
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/mountain-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.mountain-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/mountain-basic-2.yaml
+  sha256: 9a66692342916159bf7903846e933d6350a3e73c93b6d6bce19356c115520f26
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/mountain-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.mountain-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/mountain-basic-3.yaml
+  sha256: 6f37ad9be56acf9de0b1a608ded0e80568137206d6651711c9ae2e32386c353d
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/mountain-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.quarry-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/quarry-basic-1.yaml
+  sha256: 930256f1e72456dcbcc2ca31b658f82793d39cf1961f2b6370fb77d98a33097e
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/quarry-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.quarry-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/quarry-basic-2.yaml
+  sha256: 95f80664760f4ffceb17c3d3769b8effee281dd0a2659ae6c076b9e72399c681
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/quarry-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.quarry-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/quarry-basic-3.yaml
+  sha256: e202e945130e09bea92daa9d9400901fc7633f5131075e744f64c5a689df5f79
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/quarry-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.ashland-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/ashland-basic-1.yaml
+  sha256: 437133b93635755f188cf53ead0898f46f56adaabcfe1971ddf81fc44c31de0f
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/ashland-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.ashland-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/ashland-basic-2.yaml
+  sha256: 06230d14a77a02e8b3bcd5936d38e05a412e2f9275949168479d21f68d071e39
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/ashland-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.ashland-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/ashland-basic-3.yaml
+  sha256: 73b88abd523acb09a56ce237c4b4ee6c309dce306cfca29a6fc96cefdc23ff82
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/ashland-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.farmland-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/farmland-basic-1.yaml
+  sha256: 18689a96f1b77f9dd4fe328d7b041864fa9e44505037ef44b03a2d8196758d17
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/farmland-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.farmland-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/farmland-basic-2.yaml
+  sha256: c12a05570123b7992c33008b055a862933d2a7df0a19658e4b0d239bf2a77582
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/farmland-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.farmland-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/farmland-basic-3.yaml
+  sha256: 7a7725efe18e46e378dbaa4337a1ced323f992601af964a945a5cac0573da314
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/farmland-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.shore-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/shore-basic-1.yaml
+  sha256: d99e78ad412a7f64a57ffeb5a7edcbe19f95a23f2d48d5bd454e05dd26b04d3d
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/shore-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.shore-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/shore-basic-2.yaml
+  sha256: 5ec1cc0a05e02e3e7ce15920ace69766b05430bfb56492447a6876ebf0692de7
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/shore-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.shore-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/shore-basic-3.yaml
+  sha256: 69708b6f10bdc9343299a1e526d692181c205c2aa04beac2c61e2eb6b52a7da8
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/shore-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.dryland-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/dryland-basic-1.yaml
+  sha256: e1662eeb266f2a28eb8afe5ef4caa2906b349f01022dded96789752fc3b0b432
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/dryland-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.dryland-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/dryland-basic-2.yaml
+  sha256: ad3032e25ee8ac2f3d70d6297194cf735e29f791d6a6fb08c7ce00ee0c3b6dbe
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/dryland-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.dryland-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/dryland-basic-3.yaml
+  sha256: 444cb9206ec7a514def5d8bfcc8ef714986cc1fa99149ec3940622c02fc0b81c
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/dryland-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.desert-basic-1
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/desert-basic-1.yaml
+  sha256: c9a58c77030957c5a5394b59a1598e1f8cd2c2515ecf43704f3264396415c7c6
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/desert-basic-1.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.desert-basic-2
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/desert-basic-2.yaml
+  sha256: a93141fdc1a907a5cea5a2a373ee67ef92d24fc6f720708224b7aa8f63c02a75
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/desert-basic-2.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.terrain.battlefields.desert-basic-3
+  version: terrain-encounters-v1
+  path: assets/maps/terrain/battlefields/desert-basic-3.yaml
+  sha256: 9653e82084ab4740754c392da65cbb192d9c40068969635c903603ca4bd846fd
+  source:
+    repository: slime-assets
+    path: assets/maps/terrain/battlefields/desert-basic-3.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: config.battlefield-encounters
+  version: terrain-encounters-v1
+  path: assets/maps/battlefield_encounters.yaml
+  sha256: ce4121ecb8d3d57b108e4f5ab42bd3bed24ebf776d0c3e5f0aafeccefff88577
+  source:
+    repository: slime-assets
+    path: assets/maps/battlefield_encounters.yaml
+    operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가

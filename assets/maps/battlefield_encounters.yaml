@@ -1,0 +1,141 @@
+managementId: config.battlefield-encounters
+data:
+  version: 1
+  maps:
+    meadow: grassland
+    clover-bank: grassland
+    grove: forest
+    fallen-canopy: forest
+    lantern-wood: forest
+    moss-clearing: forest
+    old-orchard: forest
+    root-trail: forest
+    mist-lake: wetland
+    reed-crossing: wetland
+    silver-marsh: wetland
+    boar-ridge: mountain
+    dawn-overlook: mountain
+    wind-hills: mountain
+    mill-ridge: mountain
+    broken-quarry: quarry
+    crystal-cut: quarry
+    ash-edge: ashland
+    cinder-path: ashland
+    windrow-road: farmland
+    granary-flats: farmland
+    pebble-shore: shore
+    brine-bank: shore
+    salt-causeway: shore
+    salt-flat: shore
+    dry-creek: dryland
+  terrains:
+    grassland:
+      name: 초원
+      battlefields:
+      - grassland-basic-1
+      - grassland-basic-2
+      - grassland-basic-3
+      allowedCodes:
+      - g
+      - f
+      - b
+      maximumElevation: 1
+    forest:
+      name: 숲
+      battlefields:
+      - forest-basic-1
+      - forest-basic-2
+      - forest-basic-3
+      allowedCodes:
+      - l
+      - m
+      - b
+      maximumElevation: 1
+    wetland:
+      name: 습지
+      battlefields:
+      - wetland-basic-1
+      - wetland-basic-2
+      - wetland-basic-3
+      allowedCodes:
+      - u
+      - e
+      - h
+      maximumElevation: 0
+    mountain:
+      name: 산악·구릉
+      battlefields:
+      - mountain-basic-1
+      - mountain-basic-2
+      - mountain-basic-3
+      allowedCodes:
+      - B
+      - s
+      - b
+      maximumElevation: 3
+    quarry:
+      name: 채석장
+      battlefields:
+      - quarry-basic-1
+      - quarry-basic-2
+      - quarry-basic-3
+      allowedCodes:
+      - K
+      - J
+      - b
+      maximumElevation: 3
+    ashland:
+      name: 잿빛 지대
+      battlefields:
+      - ashland-basic-1
+      - ashland-basic-2
+      - ashland-basic-3
+      allowedCodes:
+      - a
+      - v
+      - b
+      maximumElevation: 1
+    farmland:
+      name: 농경지
+      battlefields:
+      - farmland-basic-1
+      - farmland-basic-2
+      - farmland-basic-3
+      allowedCodes:
+      - D
+      - E
+      - b
+      maximumElevation: 0
+    shore:
+      name: 물가·염습지
+      battlefields:
+      - shore-basic-1
+      - shore-basic-2
+      - shore-basic-3
+      allowedCodes:
+      - v
+      - u
+      - h
+      maximumElevation: 0
+    dryland:
+      name: 건조지
+      battlefields:
+      - dryland-basic-1
+      - dryland-basic-2
+      - dryland-basic-3
+      allowedCodes:
+      - R
+      - v
+      - b
+      maximumElevation: 1
+    desert:
+      name: 사막
+      battlefields:
+      - desert-basic-1
+      - desert-basic-2
+      - desert-basic-3
+      allowedCodes:
+      - v
+      - R
+      - k
+      maximumElevation: 1
