@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 213
+  image_count: 216
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-17'
@@ -16,8 +16,7 @@ reference_contract:
   - source
   - width
   - height
-  map_references: textureKey 직접 참조의 파일별 출현 수이며 화면 표시 수나 런타임 자동 배치를 뜻하지 않는다. 맵 변경 시
-    다시 확인한다.
+  map_references: textureKey 직접 참조의 파일별 출현 수이며 화면 표시 수나 런타임 자동 배치를 뜻하지 않는다. 맵 변경 시 다시 확인한다.
   features: 계열 설명은 등록 명칭·파일 계열과 제작 결과를 기준으로 한다. 변형별 세부 외형은 원본 PNG를 확인한다.
   usage: 권장 시각 용도이며 충돌·통행·상호작용 기능을 부여하지 않는다.
   status: 참조가 없어도 폐기 상태를 뜻하지 않는다. 런타임 카탈로그 및 간접 참조는 별도 확인한다.
@@ -33,8 +32,7 @@ placement_guidance:
 review_categories:
   vegetation: 자연물
   props: 소품
-review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 나무·식물·자연 잔해는 자연물,
-  작업 도구·안내 표시는 소품이다.
+review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 나무·식물·자연 잔해는 자연물, 작업 도구·안내 표시는 소품이다.
 families:
   orchard-apple-tree:
     category: tree
@@ -1095,6 +1093,30 @@ families:
     - 돌을 실은 목제 운반 수레
     uses:
     - 채석 작업 구역
+  dawn-overlook-granite-ledge-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 새벽 전망대 화강암 절벽
+    features:
+    - 평평한 회색 암반 상부와 풍화된 수직 절개면
+    uses:
+    - 새벽 전망대 암반 가장자리
+  dawn-overlook-split-granite-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 갈라진 화강암 입석
+    features:
+    - 풍화된 회색 화강암과 낮은 이끼
+    uses:
+    - 새벽 전망대 계곡과 능선
+  dawn-overlook-weathered-slabs-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 풍화된 화강암 판석
+    features:
+    - 풍화된 회색 화강암과 낮은 이끼
+    uses:
+    - 새벽 전망대 계곡과 능선
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -1434,6 +1456,8 @@ billboards:
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 21
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 63
 - texture_key: dry-shrub-v1
   family: dry-shrub
   asset_ref:
@@ -1524,6 +1548,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 13
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 17
 - texture_key: fern-variant-3-v1
   family: fern
   asset_ref:
@@ -2590,6 +2616,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 9
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 19
 - texture_key: town-reedhaven-water-mint-bush-v1
   family: town-reedhaven-water-mint-bush
   asset_ref:
@@ -2598,6 +2626,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 17
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 18
 - texture_key: town-reedhaven-water-record-v1
   family: town-reedhaven-water-record
   asset_ref:
@@ -2740,6 +2770,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 71
 - texture_key: town-stonewarm-repair-handover-v1
   family: town-stonewarm-repair-handover
   asset_ref:
@@ -2774,6 +2806,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 10
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 74
 - texture_key: town-stonewarm-stone-thyme-cushion-v1
   family: town-stonewarm-stone-thyme-cushion
   asset_ref:
@@ -2894,6 +2928,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 5
 - texture_key: town-reedhaven-reed-windswept-v1
   family: town-reedhaven-reed-windswept
   asset_ref:
@@ -3074,3 +3110,27 @@ billboards:
     management_id: image.scenery.quarry-stone-cart-v1
     version: v1
   map_references: []
+- texture_key: dawn-overlook-granite-ledge-v1
+  family: dawn-overlook-granite-ledge-v1
+  asset_ref:
+    management_id: image.scenery.dawn-overlook-granite-ledge-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 1
+- texture_key: dawn-overlook-split-granite-v1
+  family: dawn-overlook-split-granite-v1
+  asset_ref:
+    management_id: image.scenery.dawn-overlook-split-granite-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 2
+- texture_key: dawn-overlook-weathered-slabs-v1
+  family: dawn-overlook-weathered-slabs-v1
+  asset_ref:
+    management_id: image.scenery.dawn-overlook-weathered-slabs-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 69

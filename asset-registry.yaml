@@ -687,9 +687,9 @@ assets:
     path: config/field_tiles/crystal-cut.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.dawn-overlook
-  version: shared-material-codes-v2
+  version: shared-material-codes-v2-dawn-v1-valley-v1-crossing-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/field_tiles/dawn-overlook.yaml
-  sha256: 7b33044b4e9fed14509aacdf286ca17801b21c198c1dcbf3db095a8a495072a1
+  sha256: 7d8b963287b372ab3e81a1416cbfa3cfdd15be62a03d7616a1a852fc1cfe2015
   source:
     repository: slime-backend
     path: config/field_tiles/dawn-overlook.yaml
@@ -1239,9 +1239,9 @@ assets:
     path: config/terrain/maps/crystal-cut.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.dawn-overlook
-  version: field-detail-v2
+  version: field-detail-v2-dawn-v1-valley-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/terrain/maps/dawn-overlook.yaml
-  sha256: c1a3a1f9407cd9613cc021542f79e703b20f61277ea5996293b2cb756658659d
+  sha256: 4809a72e39c7c7752b45a1d1e1bcac29c6364ea393b045b8a8f2a0fded65fd08
   source:
     repository: slime-backend
     path: config/terrain/maps/dawn-overlook.yaml
@@ -1399,9 +1399,9 @@ assets:
     path: config/map_spawns/crystal-cut.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.map-spawns.dawn-overlook
-  version: ward-radius-reduced-v1
+  version: ward-radius-reduced-v1-south-water-v3
   path: assets/maps/map_spawns/dawn-overlook.yaml
-  sha256: 48b74a782a728c2325300fc91d9e45d42c5ba4cd4f094d8352c6378c319603d9
+  sha256: 68d3eb3068249436751079ab534ae05cecbfbf208f2ee3a58744d9f522bac592
   source:
     repository: slime-backend
     path: config/map_spawns/dawn-overlook.yaml
@@ -7345,9 +7345,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1-crystal-v1-ore-v1
+  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: fe9fb3eab7efbc299272177f933c76f87346e0ef0f570b0c7ca1e5fbf695e201
+  sha256: 31b7f96231e2ad6585eea75ccfcfc6bc797566f6c6c227e99dda8b49a42e844a
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8172,3 +8172,69 @@ assets:
     repository: slime-workflow
     artifact: 2026-10-19_15-41-00-f62cb12d/result.png
     operation: 사용자 채택 Qwen 2.1 소품 원본 등록; RGBA 원본 유지
+- managementId: image.scenery.dawn-overlook-granite-ledge-v1
+  version: v1
+  path: assets/billboards/dawn-overlook-granite-ledge-v1.png
+  name: 새벽 전망대 화강암 절벽
+  width: 128
+  height: 128
+  sha256: 42c7a7e60264934e82bdd31a3163577ca41ab0b9199d0a085d776850e622ce52
+  source:
+    repository: codex-imagegen
+    artifact: exec-4d170d10-6be0-480f-ba4f-4e130b476163.png
+    processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+- managementId: image.scenery.dawn-overlook-split-granite-v1
+  version: v1
+  path: assets/billboards/dawn-overlook-split-granite-v1.png
+  name: 갈라진 화강암 입석
+  width: 128
+  height: 128
+  sha256: c9177af34382c8e640b46776445a9dd8c9120cec50bf118bab46a65f4124e720
+  source:
+    repository: codex-imagegen
+    artifact: exec-bd61753e-6067-4fcf-b9f6-fe2ef3c7a544.png
+    processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+- managementId: image.scenery.dawn-overlook-weathered-slabs-v1
+  version: v1
+  path: assets/billboards/dawn-overlook-weathered-slabs-v1.png
+  name: 풍화된 화강암 판석
+  width: 128
+  height: 128
+  sha256: 36e7694205edfe4c197112b2e911b6b6b285e41cbbe57cade904aa38e6c18c8f
+  source:
+    repository: codex-imagegen
+    artifact: exec-8791ab38-f45a-4088-9c45-00e373490a95.png
+    processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+- managementId: image.scenery.bridge-timber-components-v1
+  version: v1
+  path: assets/buildings/bridge-timber-components-v1.png
+  name: 목교 분할 구조 스프라이트
+  width: 512
+  height: 512
+  sha256: 785058d1d920b29296245a6827a8f319d9c212ba29891a718235975634711663
+  source:
+    repository: codex-imagegen
+    artifact: exec-e5c6e181-dcdc-4536-9ae0-44da7bebd9b9.png
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+- managementId: image.scenery.bridge-stone-components-v1
+  version: v1
+  path: assets/buildings/bridge-stone-components-v1.png
+  name: 석교 분할 구조 스프라이트
+  width: 512
+  height: 512
+  sha256: 9876f1fd54fc3db232501f4d861b83e65cde16f2923434f2695f026168b6f846
+  source:
+    repository: codex-imagegen
+    artifact: exec-d59c0191-16d5-4afb-a4b8-786f6941fe17.png
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+- managementId: image.scenery.bridge-connection-details-v1
+  version: v1
+  path: assets/buildings/bridge-connection-details-v1.png
+  name: 교량 진입 포장·교대 모서리·받침돌·접합 철물
+  width: 512
+  height: 512
+  sha256: 839d0e898b1c356895615ff240101681d73c74b8057ecda78ea27d4a05d9eea0
+  source:
+    repository: codex-imagegen
+    artifact: exec-baa58574-5e9e-43f0-ad8c-e62bf2328bd2.png
+    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
