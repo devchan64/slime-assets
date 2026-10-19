@@ -639,9 +639,9 @@ assets:
     path: config/field_tiles/ash-edge.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.boar-ridge
-  version: shared-material-codes-v2
+  version: shared-material-codes-v2-contact-relocate-v2-root-ground-v1
   path: assets/maps/field_tiles/boar-ridge.yaml
-  sha256: 2aeffe46090984d22f2893b2af40bfc08490cbd7ca8f7b4429b1d7940b1387f4
+  sha256: 7c9d7d300cadcc67a1efba88662e126f6b3114ae80340da4f51b12fa271d8f59
   source:
     repository: slime-backend
     path: config/field_tiles/boar-ridge.yaml
@@ -7347,9 +7347,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-nature-double-v1-contact-expand-v1-contact-relocate-v2
+  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-nature-double-v1-contact-expand-v1-contact-relocate-v2-contact-relocate-v2-dead-tree-contact-v1-tile-contact-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 4788eccb30f48d765a87d6da9245b1266360ab7e7d12acf469c57fc850c10c8b
+  sha256: d6d99eff3bc2bb567b6b0b095014c42c11b33527b4e5c5129ddae074677056c2
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이

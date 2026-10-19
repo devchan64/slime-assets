@@ -26,10 +26,10 @@ data:
     displayHeight: 142
   orchard-chunky-dryshrub-v1:
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 1
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 256
+    displayHeight: 128
   orchard-chunky-grass-v1:
     anchorX: 0.5
     anchorY: 0.94
@@ -50,37 +50,37 @@ data:
     displayHeight: 256
   stump-variant-1-v1:
     anchorX: 0.5
-    anchorY: 0.75
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
+    anchorY: 0.63
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
     displayHeight: 256
   root-variant-3-v1:
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.78
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 138
   root-variant-2-v1:
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.62
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 134
   orchard-old-tree-variant-1-v2:
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.85
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 288
   orchard-old-tree-v2:
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.9
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 324
   orchard-young-tree-v2:
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.91
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 288
@@ -722,15 +722,15 @@ data:
     displayHeight: 116.0
   ash-edge-charred-regrowth-v1:
     anchorX: 0.5
-    anchorY: 0.88
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
+    anchorY: 0.63
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
     displayHeight: 170
   ash-edge-decomposer-log-v1:
-    anchorX: 0.27
-    anchorY: 0.77
+    anchorX: 0.46
+    anchorY: 0.64
     groundFootprintColumns: 2
-    groundFootprintRows: 2
+    groundFootprintRows: 1
     displayHeight: 130
   ash-edge-scorched-waystone-v1:
     anchorX: 0.44
@@ -770,10 +770,10 @@ data:
     displayHeight: 128
   hollow-log-v1:
     anchorX: 0.5
-    anchorY: 0.94
-    groundFootprintColumns: 1
+    anchorY: 0.61
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 328
+    displayHeight: 253
   root-variant-1-v1:
     anchorX: 0.5
     anchorY: 0.94
@@ -784,11 +784,11 @@ data:
     anchorX: 0.5
     anchorY: 0.94
     groundFootprintColumns: 1
-    groundFootprintRows: 1
+    groundFootprintRows: 2
     displayHeight: 136
   old-stump-v1:
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.68
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 130
@@ -968,10 +968,10 @@ data:
     groundFootprintRows: 1
   orchard-dead-tree-v2:
     anchorX: 0.5
-    anchorY: 0.94
+    anchorY: 0.87
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
     displayHeight: 290
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
   quarry-hand-winch-v1:
     anchorX: 0.5
     anchorY: 0.94
