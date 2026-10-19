@@ -1735,9 +1735,9 @@ assets:
     path: assets/maps/field_tiles/brine-bank.yaml
     operation: 런타임 맵 원본 작성
 - managementId: config.field-tiles.granary-flats
-  version: shared-material-codes-v1
+  version: shared-material-codes-v1-granary-v1-wheat-v1
   path: assets/maps/field_tiles/granary-flats.yaml
-  sha256: 85b438f037ed4e37722e201059467c3c340ec115d5dd8889fb0771b2b46a0277
+  sha256: 801f5c91194bc31625a4ac4bd3947dd6f1c5f52fa4331ee9d34ba84faa1a8d54
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/granary-flats.yaml
@@ -1943,9 +1943,9 @@ assets:
     path: assets/maps/terrain/maps/brine-bank.yaml
     operation: 런타임 맵 원본 작성
 - managementId: config.terrain.maps.granary-flats
-  version: v1
+  version: v1-granary-v1
   path: assets/maps/terrain/maps/granary-flats.yaml
-  sha256: 2b6d2253cb3eb6837254d6ec93d1fb266368725f8c22364cc1f7f4b3509bb161
+  sha256: 6a805ad3a859766ccd00293cbef5d419259cf4fb5a600ecb7dcbe996d6535dca
   source:
     repository: slime-assets
     path: assets/maps/terrain/maps/granary-flats.yaml
@@ -7345,9 +7345,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1
+  version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: f08af4c37a8501148a410743537b117cf0f404a34b7537db0ca483ad15c33c49
+  sha256: 19699a1d68fe262ccdb0a071fe4f7040c4c4bcfd445e452201a6e29203207254
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8249,3 +8249,14 @@ assets:
     repository: codex-imagegen
     artifact: exec-c9ee59f8-936a-44d5-8718-32e31b4abe60.png
     processing: 생성 RGBA 원본 보존; 석교 아틀라스 참조 목재 재질 변환; 공통 렌더러 UV로 부재 분리
+- managementId: image.scenery.granary-flats-ripe-wheat-v1
+  version: v1
+  path: assets/billboards/granary-flats-ripe-wheat-v1.png
+  name: 곡창들 익은 밀 군락
+  width: 128
+  height: 128
+  sha256: 97340a2ec66ce7e5b17864f1a3a49ed884cda4713e61f27bc7f534a2af6a8b13
+  source:
+    repository: codex-imagegen
+    artifact: exec-d1debb00-e701-4229-9ce2-f94d4ec9e913.png
+    processing: 투명 배경 생성 원본

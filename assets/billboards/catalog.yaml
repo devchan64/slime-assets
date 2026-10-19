@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 216
+  image_count: 217
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-17'
@@ -1117,6 +1117,14 @@ families:
     - 풍화된 회색 화강암과 낮은 이끼
     uses:
     - 새벽 전망대 계곡과 능선
+  ripe-wheat:
+    category: vegetation
+    review_category: vegetation
+    name: 익은 밀
+    features:
+    - 황금빛 이삭과 짧은 줄기가 모인 군락
+    uses:
+    - 곡물밭 반복 배치
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -1404,6 +1412,8 @@ billboards:
     texture_key_occurrences: 8
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 44
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 23
 - texture_key: dry-grass-variant-1-v1
   family: dry-grass
   asset_ref:
@@ -1420,6 +1430,8 @@ billboards:
     texture_key_occurrences: 9
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 50
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 32
 - texture_key: dry-grass-variant-2-v1
   family: dry-grass
   asset_ref:
@@ -1436,6 +1448,8 @@ billboards:
     texture_key_occurrences: 25
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 49
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 15
 - texture_key: dry-grass-variant-3-v1
   family: dry-grass
   asset_ref:
@@ -1454,6 +1468,8 @@ billboards:
     texture_key_occurrences: 54
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 11
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 26
 - texture_key: dry-shrub-v1
   family: dry-shrub
   asset_ref:
@@ -2328,6 +2344,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 13
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 1
 - texture_key: town-grainstead-field-clover-cushion-v1
   family: town-grainstead-field-clover-cushion
   asset_ref:
@@ -2338,6 +2356,8 @@ billboards:
     texture_key_occurrences: 26
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 23
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 32
 - texture_key: town-grainstead-golden-meadow-tuft-v1
   family: town-grainstead-golden-meadow-tuft
   asset_ref:
@@ -2346,6 +2366,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 40
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 22
 - texture_key: town-grainstead-grain-drying-v1
   family: town-grainstead-grain-drying
   asset_ref:
@@ -2353,6 +2375,8 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 1
 - texture_key: town-grainstead-green-field-hedge-v1
   family: town-grainstead-green-field-hedge
@@ -2386,6 +2410,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 23
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 30
 - texture_key: town-grainstead-wild-raspberry-bush-v1
   family: town-grainstead-wild-raspberry-bush
   asset_ref:
@@ -2445,6 +2471,8 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 1
 - texture_key: town-herb-planter-v1
   family: town-herb-planter
@@ -2666,6 +2694,8 @@ billboards:
     texture_key_occurrences: 9
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 19
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 28
 - texture_key: town-reedhaven-water-mint-bush-v1
   family: town-reedhaven-water-mint-bush
   asset_ref:
@@ -2824,6 +2854,8 @@ billboards:
     texture_key_occurrences: 46
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 7
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 18
 - texture_key: town-stonewarm-repair-handover-v1
   family: town-stonewarm-repair-handover
   asset_ref:
@@ -2890,6 +2922,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 21
 - texture_key: town-threshing-bench-v1
   family: town-threshing-bench
   asset_ref:
@@ -2897,6 +2931,8 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 1
 - texture_key: town-vegetable-planter-v1
   family: town-vegetable-planter
@@ -2986,6 +3022,8 @@ billboards:
     texture_key_occurrences: 6
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 25
 - texture_key: town-reedhaven-reed-windswept-v1
   family: town-reedhaven-reed-windswept
   asset_ref:
@@ -3192,3 +3230,11 @@ billboards:
     texture_key_occurrences: 69
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 64
+- texture_key: granary-flats-ripe-wheat-v1
+  family: ripe-wheat
+  asset_ref:
+    management_id: image.scenery.granary-flats-ripe-wheat-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 263
