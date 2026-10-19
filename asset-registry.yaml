@@ -8238,3 +8238,14 @@ assets:
     repository: codex-imagegen
     artifact: exec-baa58574-5e9e-43f0-ad8c-e62bf2328bd2.png
     processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+- managementId: image.scenery.bridge-timber-components-v2
+  version: v2
+  path: assets/buildings/bridge-timber-components-v2.png
+  name: 공통 아치 구조 목교 스프라이트
+  width: 512
+  height: 512
+  sha256: 0cc949e770151b164c0972d677b1863821e68a5298557663cb56d03ff23bdffb
+  source:
+    repository: codex-imagegen
+    artifact: exec-c9ee59f8-936a-44d5-8718-32e31b4abe60.png
+    processing: 생성 RGBA 원본 보존; 석교 아틀라스 참조 목재 재질 변환; 공통 렌더러 UV로 부재 분리
