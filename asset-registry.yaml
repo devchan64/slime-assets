@@ -609,7 +609,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v7
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: a59cb8b19397810f3f1892f500900ea8316ed06b5355fc75ce3c4a527d12b35a
+  sha256: 13d4e3b97be7a174d87d55a65b637d9bfaa65cf3e39b50c74b4abfffa422dc6b
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -617,7 +617,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 28914bb455b1254287ac26f022c5caaa72f3166066227d64b0cdc88b1ac30cd7
+  sha256: 8e64d9c6c75ce72eacf04f77a577cf894ad0b0a6184b0685e902d54e84ba4aec
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -625,7 +625,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: e543f7b2310f839b57c088633ff33945aa0492a3b447cdcb38bdf2b86814bab2
+  sha256: 31c63a46368c1aef75f0fffa389f41060dcaa1680192b612acec17e727d19b4b
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -633,7 +633,7 @@ assets:
 - managementId: config.field-tiles.ash-edge
   version: retire-stump-v1
   path: assets/maps/field_tiles/ash-edge.yaml
-  sha256: 5b8d5265c6902ae08c2ad6a1a50dd8cf10dc533f3fd28a0ba7f54ef19ad5b866
+  sha256: abbdabc0cc6223c807eebe4a04533128405b6c33e5b94574f82f59d3e909cbd9
   source:
     repository: slime-backend
     path: config/field_tiles/ash-edge.yaml
@@ -641,7 +641,7 @@ assets:
 - managementId: config.field-tiles.boar-ridge
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/boar-ridge.yaml
-  sha256: 8dfea1a7ac3d123d73a5928c4b8a0683f78def533be03b8c97057e520f09e974
+  sha256: 2aeffe46090984d22f2893b2af40bfc08490cbd7ca8f7b4429b1d7940b1387f4
   source:
     repository: slime-backend
     path: config/field_tiles/boar-ridge.yaml
@@ -649,7 +649,7 @@ assets:
 - managementId: config.field-tiles.broken-quarry
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: 98c4c010e0034541eed24525fb73bc03a4e23e5f2880a0cecf22aeca512c6619
+  sha256: 132301a1c6414feca363ae8fbfb806aba3add9f33ab62fa3fb1a5c3dcb1a6222
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
@@ -761,7 +761,7 @@ assets:
 - managementId: config.field-tiles.old-orchard
   version: retire-stump-v1
   path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: 6c121f9a383dc346b21460d6f3ee2bd33a6c9aa1266880c78cf65bbfe301acaa
+  sha256: 1a933630fd073e660b130d90716c77efa01df5e95b9ed3d29de1d236db20f4db
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/old-orchard.yaml
@@ -1209,7 +1209,7 @@ assets:
 - managementId: config.terrain.maps.broken-quarry
   version: field-detail-v2
   path: assets/maps/terrain/maps/broken-quarry.yaml
-  sha256: 0e8e238581cfe4c8bc93c2871f5cde5732b1aedd4ad12626560d40cfbb7fdbb6
+  sha256: dc78882ac86ea46aecdb8a9f06238850c27339de387d229efb686f0fef5dcf17
   source:
     repository: slime-backend
     path: config/terrain/maps/broken-quarry.yaml
@@ -1713,7 +1713,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 3df0a1e2c15fba369575097deb722153688a3db53234ce2faba862d7477638be
+  sha256: 244f971d08f950276ae7cb6e2618d7d48fccf7e124031f0da1eda24eaa35f96a
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -1721,7 +1721,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: 95936077e10bd1fc4d2d7a7019fd44a9aa901e4ff0653e0e5e76a9952042a470
+  sha256: cc7b72470bacc79487050966f7c4921b154cf70a8d9b42992ddb05e003e894f4
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -1729,7 +1729,7 @@ assets:
 - managementId: config.field-tiles.brine-bank
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/brine-bank.yaml
-  sha256: a670c24a31e86ab22e9f7fec3d21e6c2fa250eb5a4ab17e1baedd0f879f242a4
+  sha256: 15e1c1d1ea7733c6e5e1edbd4fad1114dffd637756c05c75cb6fa1d31661d0e6
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/brine-bank.yaml
@@ -1937,7 +1937,7 @@ assets:
 - managementId: config.terrain.maps.brine-bank
   version: field-detail-v2
   path: assets/maps/terrain/maps/brine-bank.yaml
-  sha256: 42e48d6863fbff469d0325fcbeb527afcd12ee98911b8317790fe154b869a335
+  sha256: b93b28b9b08bcc7426a28195bc2adf0b6c2e317b267a403e8fb1414a551f2a68
   source:
     repository: slime-assets
     path: assets/maps/terrain/maps/brine-bank.yaml
@@ -7347,10 +7347,32 @@ assets:
 - managementId: map.sprite-display-properties
   version: v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: ab7b68f417b9e4a74a3d8fd7cf71619461ab398a6d9cb752d34879af6ca08c38
+  sha256: fc8bed2375a15c2ad9c6aedd5ea33c90d9239c268bf35a177f99dec5de452e7d
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
+- managementId: image.scenery.quarry-hand-winch-v1
+  version: v1
+  path: assets/billboards/quarry-hand-winch-v1.png
+  name: 낡은 채석 수동 권양기
+  width: 256
+  height: 171
+  sha256: 441c93652703968e0b2ccee7855988eca033898a30e5c630f2c4b88690908544
+  source:
+    repository: codex-imagegen
+    artifact: exec-70be52a2-e1e4-46ba-9751-71e2c0ff1428.png
+    processing: 사용자 요청 생성·등록; 투명 배경 유지, 긴 변 256px 축소
+- managementId: image.scenery.quarry-mason-tools-v1
+  version: v1
+  path: assets/billboards/quarry-mason-tools-v1.png
+  name: 채석 석공 도구대
+  width: 256
+  height: 171
+  sha256: 0ec29256acfe2fee6f71c1c9b690aa4ca6efb89a40be5bde0d1fb40f2bab7e07
+  source:
+    repository: codex-imagegen
+    artifact: exec-d5b679a0-e81f-4baa-b176-084dcbd2448e.png
+    processing: 사용자 요청 생성·등록; 투명 배경 유지, 긴 변 256px 축소
 - managementId: config.terrain.battlefields.grassland-basic-1
   version: battlefield-minimum-12-v1
   path: assets/maps/terrain/battlefields/grassland-basic-1.yaml
@@ -7599,3 +7621,36 @@ assets:
     repository: slime-assets
     path: assets/maps/battlefield_encounters.yaml
     operation: 지형별 기본 공용 전장 3종과 인카운트 규칙 추가
+- managementId: image.scenery.brine-bank-carrying-buckets-v1
+  version: v1
+  path: assets/billboards/brine-bank-carrying-buckets-v1.png
+  name: 염수 운반 물통
+  width: 256
+  height: 135
+  sha256: 4a8623c177363d274683cde597ec666789a2c6bdf2d282e888c8d28618f20760
+  source:
+    repository: codex-imagegen
+    artifact: exec-14904e4d-29f9-4a36-a143-9a5739589d7a.png
+    processing: 이미지젠 제작; 투명 여백 정리, 비율 유지 256px 이내 축소 및 8px 여백
+- managementId: image.scenery.brine-bank-salt-drying-rack-v1
+  version: v1
+  path: assets/billboards/brine-bank-salt-drying-rack-v1.png
+  name: 소금 건조대
+  width: 256
+  height: 173
+  sha256: c909b74c6fe33f8155a7492d0cde41dad5bac5a63a33b8657111f6961dfc2300
+  source:
+    repository: codex-imagegen
+    artifact: exec-cea7ea3b-9f0c-49e8-b081-efca1c4289d4.png
+    processing: 이미지젠 제작; 투명 여백 정리, 비율 유지 256px 이내 축소 및 8px 여백
+- managementId: image.scenery.brine-bank-saltbush-v1
+  version: v1
+  path: assets/billboards/brine-bank-saltbush-v1.png
+  name: 염생 관목
+  width: 128
+  height: 128
+  sha256: 97c85b7f33eddc7a33f06202362f5b28a9918d8dfe2caa7496802e018f1c30d0
+  source:
+    repository: codex-imagegen
+    artifact: exec-8486944b-3247-467b-a1fe-c48c2427e2b1.png
+    processing: 자연물 규격 128×128 RGBA, 비율 유지 축소 및 투명 여백

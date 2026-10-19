@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 197
+  image_count: 202
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-17'
@@ -31,10 +31,10 @@ placement_guidance:
   ground_pairing: 하나의 바닥에 여러 빌보드를 조합할 수 있다. 이 색인은 새 타일 매핑이나 자동 배치 규칙을 적용하지 않는다.
   depth: 실제 앵커·높이·앞/중앙/뒤 배치는 맵과 공용 렌더러가 결정한다.
 review_categories:
-  vegetation: 식생
-  props: 기물
-review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 나무·식생·자연 잔해는 식생,
-  소품·작업 장면·안내 표시는 기물이다.
+  vegetation: 자연물
+  props: 소품
+review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 나무·식물·자연 잔해는 자연물,
+  작업 도구·안내 표시는 소품이다.
 families:
   orchard-apple-tree:
     category: tree
@@ -967,6 +967,46 @@ families:
     - 한쪽이 검어진 돌 이정표
     uses:
     - 야외필드 환경 장식
+  quarry-hand-winch:
+    category: prop
+    review_category: props
+    name: 낡은 채석 수동 권양기
+    features:
+    - 낡은 채석 수동 권양기
+    uses:
+    - 채석 작업 구역
+  quarry-mason-tools:
+    category: prop
+    review_category: props
+    name: 채석 석공 도구대
+    features:
+    - 채석 석공 도구대
+    uses:
+    - 채석 작업 구역
+  brine-bank-carrying-buckets-v1:
+    category: prop
+    review_category: props
+    name: 염수 운반 물통
+    features:
+    - 염수 운반 물통
+    uses:
+    - 염수 물가와 채염 작업 구역
+  brine-bank-salt-drying-rack-v1:
+    category: prop
+    review_category: props
+    name: 소금 건조대
+    features:
+    - 소금 건조대
+    uses:
+    - 염수 물가와 채염 작업 구역
+  brine-bank-saltbush-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 염생 관목
+    features:
+    - 염생 관목
+    uses:
+    - 염수 물가와 채염 작업 구역
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -1248,6 +1288,8 @@ billboards:
     texture_key_occurrences: 44
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 4
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 8
 - texture_key: dry-grass-variant-1-v1
   family: dry-grass
   asset_ref:
@@ -2464,6 +2506,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 2
 - texture_key: town-salt-barrels-v1
   family: town-salt-barrels
   asset_ref:
@@ -2543,6 +2587,8 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 7
+  - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 7
 - texture_key: town-stonewarm-copper-leaf-bush-v1
   family: town-stonewarm-copper-leaf-bush
@@ -2756,3 +2802,43 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 1
+- texture_key: quarry-hand-winch-v1
+  family: quarry-hand-winch
+  asset_ref:
+    management_id: image.scenery.quarry-hand-winch-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 1
+- texture_key: quarry-mason-tools-v1
+  family: quarry-mason-tools
+  asset_ref:
+    management_id: image.scenery.quarry-mason-tools-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 1
+- texture_key: brine-bank-carrying-buckets-v1
+  family: brine-bank-carrying-buckets-v1
+  asset_ref:
+    management_id: image.scenery.brine-bank-carrying-buckets-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 2
+- texture_key: brine-bank-salt-drying-rack-v1
+  family: brine-bank-salt-drying-rack-v1
+  asset_ref:
+    management_id: image.scenery.brine-bank-salt-drying-rack-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 2
+- texture_key: brine-bank-saltbush-v1
+  family: brine-bank-saltbush-v1
+  asset_ref:
+    management_id: image.scenery.brine-bank-saltbush-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 12
