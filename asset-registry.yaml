@@ -7347,7 +7347,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: v2-clover-v1-crystal-v1-ore-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 2912a0545f01bd3cdd2c0660756bf90c5ca4a44f9d27a3eae064d37d7030c299
+  sha256: fe9fb3eab7efbc299272177f933c76f87346e0ef0f570b0c7ca1e5fbf695e201
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8161,3 +8161,14 @@ assets:
     repository: codex-imagegen
     artifact: exec-b1a63c05-d100-483b-bce8-6ed350d69998.png
     processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+- managementId: image.scenery.quarry-stone-cart-v1
+  version: v1
+  path: assets/billboards/quarry-stone-cart-v1.png
+  name: 채석장 석재 운반 수레
+  width: 512
+  height: 512
+  sha256: ccbb27c8e265a48a4e8562b36e1ef17b9da0225c086899e845db556516035a9e
+  source:
+    repository: slime-workflow
+    artifact: 2026-10-19_15-41-00-f62cb12d/result.png
+    operation: 사용자 채택 Qwen 2.1 소품 원본 등록; RGBA 원본 유지

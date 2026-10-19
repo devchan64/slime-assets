@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 212
+  image_count: 213
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-17'
@@ -16,7 +16,8 @@ reference_contract:
   - source
   - width
   - height
-  map_references: textureKey 직접 참조의 파일별 출현 수이며 화면 표시 수나 런타임 자동 배치를 뜻하지 않는다. 맵 변경 시 다시 확인한다.
+  map_references: textureKey 직접 참조의 파일별 출현 수이며 화면 표시 수나 런타임 자동 배치를 뜻하지 않는다. 맵 변경 시
+    다시 확인한다.
   features: 계열 설명은 등록 명칭·파일 계열과 제작 결과를 기준으로 한다. 변형별 세부 외형은 원본 PNG를 확인한다.
   usage: 권장 시각 용도이며 충돌·통행·상호작용 기능을 부여하지 않는다.
   status: 참조가 없어도 폐기 상태를 뜻하지 않는다. 런타임 카탈로그 및 간접 참조는 별도 확인한다.
@@ -32,7 +33,8 @@ placement_guidance:
 review_categories:
   vegetation: 자연물
   props: 소품
-review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 나무·식물·자연 잔해는 자연물, 작업 도구·안내 표시는 소품이다.
+review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 나무·식물·자연 잔해는 자연물,
+  작업 도구·안내 표시는 소품이다.
 families:
   orchard-apple-tree:
     category: tree
@@ -1085,6 +1087,14 @@ families:
     - 회색 암석과 흰색·연금색 석영 광맥
     uses:
     - 결정 절개지 광맥 변형
+  quarry-stone-cart:
+    category: prop
+    review_category: props
+    name: 채석장 석재 운반 수레
+    features:
+    - 돌을 실은 목제 운반 수레
+    uses:
+    - 채석 작업 구역
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -3058,3 +3068,9 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 34
+- texture_key: quarry-stone-cart-v1
+  family: quarry-stone-cart
+  asset_ref:
+    management_id: image.scenery.quarry-stone-cart-v1
+    version: v1
+  map_references: []
