@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 209
+  image_count: 212
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-17'
@@ -1061,6 +1061,30 @@ families:
     - 회색 절개면과 흰색·연금색 광맥
     uses:
     - 채석장과 광맥 절개지의 암벽
+  crystal-cut-quartz-shelf-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 층상 석영 광맥
+    features:
+    - 회색 암석과 흰색·연금색 석영 광맥
+    uses:
+    - 결정 절개지 광맥 변형
+  crystal-cut-quartz-spires-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 첨탑형 석영 광맥
+    features:
+    - 회색 암석과 흰색·연금색 석영 광맥
+    uses:
+    - 결정 절개지 광맥 변형
+  crystal-cut-quartz-rubble-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 석영 광석 파편
+    features:
+    - 회색 암석과 흰색·연금색 석영 광맥
+    uses:
+    - 결정 절개지 광맥 변형
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -1368,6 +1392,8 @@ billboards:
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 8
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 9
 - texture_key: dry-grass-variant-2-v1
   family: dry-grass
   asset_ref:
@@ -1383,7 +1409,7 @@ billboards:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 8
+    texture_key_occurrences: 25
 - texture_key: dry-grass-variant-3-v1
   family: dry-grass
   asset_ref:
@@ -1396,6 +1422,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 4
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 21
 - texture_key: dry-shrub-v1
   family: dry-shrub
   asset_ref:
@@ -2172,6 +2200,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
 - texture_key: town-coastal-stall-v1
   family: town-coastal-stall
   asset_ref:
@@ -2187,6 +2217,8 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 2
 - texture_key: town-fish-rack-v1
   family: town-fish-rack
@@ -2286,6 +2318,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
 - texture_key: town-ground-lantern-v1
   family: town-ground-lantern
   asset_ref:
@@ -2302,6 +2336,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
 - texture_key: town-handcart-v1
   family: town-handcart
   asset_ref:
@@ -2316,6 +2352,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
 - texture_key: town-harvest-cart-v1
   family: town-harvest-cart
   asset_ref:
@@ -2456,6 +2494,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
 - texture_key: town-notice-board-v1
   family: town-notice-board
   asset_ref:
@@ -2477,7 +2517,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 5
 - texture_key: town-record-chest-v1
   family: town-record-chest
   asset_ref:
@@ -2576,6 +2616,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
 - texture_key: town-rope-crates-v1
   family: town-rope-crates
   asset_ref:
@@ -2588,6 +2630,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
 - texture_key: town-salt-barrels-v1
   family: town-salt-barrels
   asset_ref:
@@ -2718,6 +2762,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 10
 - texture_key: town-stonewarm-stone-thyme-cushion-v1
   family: town-stonewarm-stone-thyme-cushion
   asset_ref:
@@ -2726,6 +2772,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 24
 - texture_key: town-stonewarm-sturdy-juniper-shrub-v1
   family: town-stonewarm-sturdy-juniper-shrub
   asset_ref:
@@ -2937,7 +2985,7 @@ billboards:
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 20
+    texture_key_occurrences: 62
 - texture_key: cinder-path-buried-deadwood-v1
   family: cinder-path-buried-deadwood-v1
   asset_ref:
@@ -2986,3 +3034,27 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 10
+- texture_key: crystal-cut-quartz-shelf-v1
+  family: crystal-cut-quartz-shelf-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-shelf-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 14
+- texture_key: crystal-cut-quartz-spires-v1
+  family: crystal-cut-quartz-spires-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-spires-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 6
+- texture_key: crystal-cut-quartz-rubble-v1
+  family: crystal-cut-quartz-rubble-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-rubble-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 34

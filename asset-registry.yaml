@@ -679,9 +679,9 @@ assets:
     path: config/field_tiles/codes.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.crystal-cut
-  version: crystal-remodel-v1
+  version: crystal-remodel-v1-detail-v1-ore-v1-dense-v1-footprints-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: 662b2dad4e7a2a56accad413a0398030c721c60516b50d3091fcb9170c8f30b1
+  sha256: 2bd4ff19e4bf5415aedfa0a19f204be1ba9b7450a7a3171e091eaf91fb313b7d
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -1231,9 +1231,9 @@ assets:
     path: config/terrain/maps/clover-bank.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.crystal-cut
-  version: field-detail-v2
+  version: field-detail-v2-detail-v1-footprints-v1
   path: assets/maps/terrain/maps/crystal-cut.yaml
-  sha256: 0ca7d362ee0ce7f2b9f35a172be72b6212fc21309285351cf86ad8ead8353a91
+  sha256: 798332238ef5f21f953c077c0ee82c67b27cf9d59f0364943195d92a4afd568b
   source:
     repository: slime-backend
     path: config/terrain/maps/crystal-cut.yaml
@@ -7345,9 +7345,9 @@ assets:
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
 - managementId: map.sprite-display-properties
-  version: v2-clover-v1-crystal-v1
+  version: v2-clover-v1-crystal-v1-ore-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: b23feec44ac1d2b5c3296ce99d6e1dcaefba2153469f8ef58b57f23081c3e6a8
+  sha256: 2912a0545f01bd3cdd2c0660756bf90c5ca4a44f9d27a3eae064d37d7030c299
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8128,3 +8128,36 @@ assets:
     repository: slime-workflow
     tool: image_gen
     operation: 필드 전투 상태·종료 소멸 이펙트 생성
+- managementId: image.scenery.crystal-cut-quartz-shelf-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-shelf-v1.png
+  name: 층상 석영 광맥
+  width: 128
+  height: 128
+  sha256: 9f7d28d6439f7a0507046b954ba1b6c62b76cea8f5fdc74f510eb68956592739
+  source:
+    repository: codex-imagegen
+    artifact: exec-f87ebb3d-ff29-4007-a1af-109db51edd7d.png
+    processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+- managementId: image.scenery.crystal-cut-quartz-spires-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-spires-v1.png
+  name: 첨탑형 석영 광맥
+  width: 128
+  height: 128
+  sha256: 4ab97e088343d9fbdc4e0c037622eb8482806b8d26de1d34ac5642de14a6edbc
+  source:
+    repository: codex-imagegen
+    artifact: exec-dfe4a75b-0ef5-4250-9bda-7df04df98d97.png
+    processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+- managementId: image.scenery.crystal-cut-quartz-rubble-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-rubble-v1.png
+  name: 석영 광석 파편
+  width: 128
+  height: 128
+  sha256: 2b1f6c436c056abd4096045c130296aa10bc572f97b554eeedac4af1dff44874
+  source:
+    repository: codex-imagegen
+    artifact: exec-b1a63c05-d100-483b-bce8-6ed350d69998.png
+    processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
