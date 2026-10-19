@@ -1,9 +1,9 @@
 schema_version: 1
 assets:
 - managementId: sprite.metadata.characters.default.idle-v6.anchor-v3
-  version: down-left-8frames-v4
+  version: down-left-8frames-v4-6fps
   path: assets/characters/default/animations/idle-v6/down-left-8frames-v4/idle-v6-anchor-v3.animation.json
-  sha256: debe6cbf9ef5cc0e9f765663704eacddd4de5b1476204c75c2ccd8d4c69763ac
+  sha256: 9deb4f003fac61f5e9e1c2cfcbe7c8b4158fcc44b2cdae9516babac5f9e4d126
   source:
     repository: slime-workflow
     path: codex-clipboard-81b6fb25-81a3-43dd-b932-f475b44e86f7.png
@@ -14,6 +14,7 @@ assets:
       revision: 2026-10-04_21-07-31-d8f2ff34
       path: .tmp/test/animation-anchor-edits/2026-10-04_21-07-31/2026-10-04_21-07-31-d8f2ff34/coordinates.json
       operation: 기본 캐릭터 대기 8프레임 앵커를 사용자 저장 좌표 198,355로 교체
+    playback_fps: 6
 - managementId: image.effects.field.safe-barrier-aura-v2-source
   version: source-v2
   path: assets/sprites/effects/safe-barrier/safe-barrier-aura-v2-source.png
@@ -235,10 +236,10 @@ assets:
         operation: ImageGen 레퍼런스 외형 적용·8프레임 384px 시트 채택
         previous_version: down-left-v1
 - managementId: sprite.metadata.characters.default.rest-v2.rest-v2.animation.json
-  version: down-left-entry-exit-v2
+  version: down-left-entry-exit-v2-6fps
   path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v2/rest-v2.animation.json
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.animation.json
-  sha256: 02c43036a3b966a8aae03d9388e12322f8e9561836f2d5404cd159e0b61558e8
+  sha256: 639073b0c41a2a61e027bb4dfd8248ffaa1b386e4d665e8bdadff8d39af4be48
   source:
     repository: slime-workflow
     revision: 2026-10-01_15-18-46
@@ -248,6 +249,7 @@ assets:
     previous_version: down-left-v1
     editor_revision: 20261003T041118-05507be2
     previous_path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1
+    playback_fps: 6
 - managementId: image.frontend.src.assets.characters.character-default-white-shirt-rest-v2.rest-v2.png
   version: down-left-entry-exit-v2
   path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v2/rest-v2.png
@@ -277,10 +279,10 @@ assets:
     editor_revision: 20261003T041118-05507be2
     previous_path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1
 - managementId: sprite.metadata.monsters.standing-v1.ash-fox-idle-v1.animation.json
-  version: ash-fox-idle-v1-eight-frames-v2
+  version: ash-fox-idle-v1-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/ash-fox-idle-v1.animation.json
   frontend_path: src/assets/monsters/standing-v1/ash-fox-idle-v1.animation.json
-  sha256: ce09bfa0894127dc9de0bf71d24c37c84ca466431dbf2b6d28dfc69c5bea3fb7
+  sha256: 45b7d18d9fe74a63d00dc88874beae17a0ed334baec88b8f6bbef548fa591ca0
   source:
     repository: slime-workflow
     generationId: ash-fox-idle-v1-imagegen/2026-09-30_23-50-31
@@ -289,6 +291,7 @@ assets:
     previousSha256: 01133f91cbbf2f0fc218712bec4323dbbca6818911eb98dc2b2de1030060fad2
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.ash-fox-idle-v1.png
   version: ash-fox-idle-v1-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/ash-fox-idle-v1.png
@@ -303,10 +306,10 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.standing-v1.beast-idle-v2.animation.json
-  version: beast-idle-v2-eight-frames-v2
+  version: beast-idle-v2-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/beast-idle-v2.animation.json
   frontend_path: src/assets/monsters/standing-v1/beast-idle-v2.animation.json
-  sha256: b14589edac73012357b4801911454b6157a867b08bf5455163b9e12a2a7eb9d8
+  sha256: 7a6253b2e31078f27622d1ba0b57ad528bb384bb80cc28d868bb0b7dcf858307
   source:
     repository: slime-workflow
     generationId: beast-idle-v2-imagegen/2026-09-30_23-50-38
@@ -315,6 +318,7 @@ assets:
     previousSha256: f70cee589b1c65304989f9f147e46d13d64a2bdc52752961e46e82bd3ff1673d
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.beast-idle-v2.png
   version: beast-idle-v2-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/beast-idle-v2.png
@@ -338,10 +342,10 @@ assets:
     commit: 43b20a24357c0ce848861eedd951e23a2a39ec34
     path: src/assets/monsters/standing-v1/catalog.yaml
 - managementId: sprite.metadata.monsters.standing-v1.crystal-lizard-idle-v1.animation.json
-  version: crystal-lizard-idle-v1-eight-frames-v2
+  version: crystal-lizard-idle-v1-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/crystal-lizard-idle-v1.animation.json
   frontend_path: src/assets/monsters/standing-v1/crystal-lizard-idle-v1.animation.json
-  sha256: 94be1597f66aca09e4865ec01282a0096440abe2d4837acc4f082742621517d8
+  sha256: d3456cf71ed99dc1126b32869b62beb20a607a57d9645811d61a9c397e75e18c
   source:
     repository: slime-workflow
     generationId: crystal-lizard-idle-v1-imagegen/2026-09-30_23-50-42
@@ -350,6 +354,7 @@ assets:
     previousSha256: 6b29aa7aa7ef08f82830577742c9aa7a40da09f3ebc21d753c89dbebd521d4d4
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.crystal-lizard-idle-v1.png
   version: crystal-lizard-idle-v1-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/crystal-lizard-idle-v1.png
@@ -364,10 +369,10 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.standing-v1.field-rabbit-idle-v1.animation.json
-  version: rabbit-idle-eight-frames-v2
+  version: rabbit-idle-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/field-rabbit-idle-v1.animation.json
   frontend_path: src/assets/monsters/standing-v1/field-rabbit-idle-v1.animation.json
-  sha256: 598d77570258ec33b3c5e2089fb354f859ced957dd7f27df68f9f83e2753b7fa
+  sha256: 8292a60d1c792e725e0e22c3302c2ef719de7fd73c9066abf26cdd2466d09c6f
   source:
     repository: slime-workflow
     generationId: rabbit-idle-imagegen/2026-09-30_23-39-03
@@ -376,6 +381,7 @@ assets:
     previousSha256: 2bea583a599f33447ae99395b51c32db91b94c9886344153d1b604b44f791eb5
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.field-rabbit-idle-v1.png
   version: rabbit-idle-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/field-rabbit-idle-v1.png
@@ -390,10 +396,10 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.standing-v1.giant-idle-v1.animation.json
-  version: giant-idle-v1-eight-frames-v2
+  version: giant-idle-v1-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/giant-idle-v1.animation.json
   frontend_path: src/assets/monsters/standing-v1/giant-idle-v1.animation.json
-  sha256: b1396624d6789f3f981a72fb8d54470ff0dee3f4fc63259c98e0bd412e4dfc54
+  sha256: 92b5a0e20def62c3a1ba108750e7602473bd11857a4fbfbeaf3b1ad9bfbfb54f
   source:
     repository: slime-workflow
     generationId: giant-idle-v1-imagegen/2026-09-30_23-50-46
@@ -402,6 +408,7 @@ assets:
     previousSha256: ce0dd8df57cf28a8541dec46502cd2e06ffac85c06916b1760ca2c0480da2d1e
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.giant-idle-v1.png
   version: giant-idle-v1-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/giant-idle-v1.png
@@ -416,10 +423,10 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.standing-v1.lantern-moth-idle-v1.animation.json
-  version: lantern-moth-idle-eight-frames-v2
+  version: lantern-moth-idle-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/lantern-moth-idle-v1.animation.json
   frontend_path: src/assets/monsters/standing-v1/lantern-moth-idle-v1.animation.json
-  sha256: a201600944e2d310c670ac06e01e9eda15e39d01d82558fdeef272ff460b342e
+  sha256: c36cecaf7120c90c152e34a186859d10c445aac9c6bf3ba806f8492bf8b46e66
   source:
     repository: slime-workflow
     generationId: lantern-moth-idle-imagegen/2026-09-30_23-41-34
@@ -428,6 +435,7 @@ assets:
     previousSha256: b7eef55efdbdf2da02dce720c55d5b2c5445574c8e56c0380d21078e4d4fc73e
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.lantern-moth-idle-v1.png
   version: lantern-moth-idle-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/lantern-moth-idle-v1.png
@@ -442,10 +450,10 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.standing-v1.reed-crawler-idle-v1.animation.json
-  version: reed-crawler-idle-v1-eight-frames-v2
+  version: reed-crawler-idle-v1-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/reed-crawler-idle-v1.animation.json
   frontend_path: src/assets/monsters/standing-v1/reed-crawler-idle-v1.animation.json
-  sha256: dcafc46ed3e78cc538bc4303ff371dad8cc34d3557b90cf5e10f8983c6695a9c
+  sha256: f5c07d59bf53362b59acafbe67322b644ec9bd7f5226fd5a44ac7175e0724adf
   source:
     repository: slime-workflow
     generationId: reed-crawler-idle-v1-imagegen/2026-09-30_23-50-50
@@ -454,6 +462,7 @@ assets:
     previousSha256: d44d02de48bbf906e2eec982d7a6d096c4b15cad50271d4caa31fabc7f09ac5d
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.reed-crawler-idle-v1.png
   version: reed-crawler-idle-v1-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/reed-crawler-idle-v1.png
@@ -468,10 +477,10 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.standing-v1.ridge-boar-idle-v1.animation.json
-  version: ridge-boar-idle-v1-eight-frames-v2
+  version: ridge-boar-idle-v1-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/ridge-boar-idle-v1.animation.json
   frontend_path: src/assets/monsters/standing-v1/ridge-boar-idle-v1.animation.json
-  sha256: cba2734059d7dfa5b1b196e9ee3ea42f85d225226bdf1ef4fda380cab864a3b4
+  sha256: 5e5c5f3ba1af0da33345954b1441f294aadfbb7b58b4bb437ffe7e9e2dd18a3c
   source:
     repository: slime-workflow
     generationId: ridge-boar-idle-v1-imagegen/2026-09-30_23-50-55
@@ -480,6 +489,7 @@ assets:
     previousSha256: da37bf15438e1baf48becc6e3ec68b4ecf98ce7c5819a8a11ae7b444b46387e8
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.ridge-boar-idle-v1.png
   version: ridge-boar-idle-v1-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/ridge-boar-idle-v1.png
@@ -494,10 +504,10 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.standing-v1.slime-idle-v1.animation.json
-  version: '2'
+  version: 2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/slime-idle-v2.animation.json
   frontend_path: src/assets/monsters/standing-v1/slime-idle-v1.animation.json
-  sha256: 93918eb04e4e4703d3c94ff93c11056694d22d97977bcaa8f09bbe41c7f701fa
+  sha256: 10b9fb6ef4eb6eb9e8ea47f03ac636d5e53f65c6255d079ae65dde71dcaf45a4
   source:
     repository: slime-workflow
     generationId: slime-idle-imagegen/2026-09-30_08-58-51
@@ -506,6 +516,7 @@ assets:
     generatedSha256: 19fbc56f15519962e5a027d712bcbd749e1c0eb8eac168a2035ddbe94e781a9c
     operation: 8프레임 공통 배율·바닥 정렬, 256px 셀, 8fps
     approval: 사용자 8프레임 슬라임 교체 적용 승인
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.slime-idle-v1.png
   version: '2'
   path: assets/sprites/monsters/standing-v1/down-left-v1/slime-idle-v2.png
@@ -520,10 +531,10 @@ assets:
     operation: 8프레임 공통 배율·바닥 정렬, 256px 셀, 8fps
     approval: 사용자 8프레임 슬라임 교체 적용 승인
 - managementId: sprite.metadata.monsters.standing-v1.stone-crab-idle-v1.animation.json
-  version: stone-crab-idle-v1-eight-frames-v2
+  version: stone-crab-idle-v1-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/stone-crab-idle-v1.animation.json
   frontend_path: src/assets/monsters/standing-v1/stone-crab-idle-v1.animation.json
-  sha256: f103a22bfcc234a91519f78085ea30826a97a9914475143e7a5006df37ce6dc4
+  sha256: 6c7dcaf992c53c7cb2aff8e9a942cfd43c3354abf4cc80e8c5ee91cf6915e6ef
   source:
     repository: slime-workflow
     generationId: stone-crab-idle-v1-imagegen/2026-09-30_23-50-59
@@ -532,6 +543,7 @@ assets:
     previousSha256: b46cd6b078a6c303d16cee9bd74c512867df8e7dbefb945aadd878c4244bc919
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.frontend.src.assets.monsters.standing-v1.stone-crab-idle-v1.png
   version: stone-crab-idle-v1-eight-frames-v2
   path: assets/sprites/monsters/standing-v1/down-left-v1/stone-crab-idle-v1.png
@@ -1981,15 +1993,16 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.moss-turtle.idle
-  version: v1
+  version: v1-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/moss-turtle-idle-v1.animation.json
-  sha256: b536e61bea315ecec319c528380872afd7d97802054f9d8e2243c213afea2193
+  sha256: e010d1c66eb48e0edd123d4ff2fe0b04d5404826b4b3a93ced4a7d9f43035ced
   source:
     repository: slime-workflow
     generationId: new-monster-species/2026-10-01_11-53-13/moss-turtle
     generator: imagegen
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.monsters.mist-frog.idle
   version: v1
   path: assets/sprites/monsters/standing-v1/down-left-v1/mist-frog-idle-v1.png
@@ -2001,15 +2014,16 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.mist-frog.idle
-  version: v1
+  version: v1-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/mist-frog-idle-v1.animation.json
-  sha256: 1acec492f59da19caea0e70e2d9b9eb2e1d6aaa66e20aab3b1a7367ca17e2068
+  sha256: 5f3a09f4b76a51155f181068aa4dda3ccf60b2a2c1e5555d57ab1880ce3f04a1
   source:
     repository: slime-workflow
     generationId: new-monster-species/2026-10-01_11-53-13/mist-frog
     generator: imagegen
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.monsters.sand-scorpion.idle
   version: v1
   path: assets/sprites/monsters/standing-v1/down-left-v1/sand-scorpion-idle-v1.png
@@ -2021,15 +2035,16 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.sand-scorpion.idle
-  version: v1
+  version: v1-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/sand-scorpion-idle-v1.animation.json
-  sha256: e8e8b20ee05672c47f7ef985a2d65c0090b2eccfcadb9d778f0c14894d3d946d
+  sha256: 8f1c1348553b508011c05d0ec779ac4ca09fb24c104e892bdb0143a599d542fc
   source:
     repository: slime-workflow
     generationId: new-monster-species/2026-10-01_11-53-13/sand-scorpion
     generator: imagegen
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.monsters.ember-hedgehog.idle
   version: v1
   path: assets/sprites/monsters/standing-v1/down-left-v1/ember-hedgehog-idle-v1.png
@@ -2041,15 +2056,16 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.ember-hedgehog.idle
-  version: v1
+  version: v1-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/ember-hedgehog-idle-v1.animation.json
-  sha256: 2f7977a1175ae919cc6e69fd08209342572c3e79dfe472ab49bf00372ef99f8c
+  sha256: 26a3e48a9ee80f47e34fa7401d5fe54a0450fa21b8975748c88e9fe976ccde2c
   source:
     repository: slime-workflow
     generationId: new-monster-species/2026-10-01_11-53-13/ember-hedgehog
     generator: imagegen
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.monsters.crystal-bat.idle
   version: v1
   path: assets/sprites/monsters/standing-v1/down-left-v1/crystal-bat-idle-v1.png
@@ -2061,15 +2077,16 @@ assets:
     frames: 8
     fps: 8
 - managementId: sprite.metadata.monsters.crystal-bat.idle
-  version: v1
+  version: v1-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/crystal-bat-idle-v1.animation.json
-  sha256: b73abe01b870650f8a51749a0bbb49c20abf5a1ab0bf6db79e6085b5be3b4b07
+  sha256: 49f52b41a4526c9c7689d986670cfd4c99baa7226da0d317eb89e0cda95f20da
   source:
     repository: slime-workflow
     generationId: new-monster-species/2026-10-01_11-53-13/crystal-bat
     generator: imagegen
     frames: 8
     fps: 8
+    playback_fps: 6
 - managementId: image.characters.default.emotion-cutins.indignation
   version: v1
   path: assets/characters/default/emotion-cutins/default-indignation-v1.png
@@ -4333,12 +4350,12 @@ assets:
     lifecycle_status: retired
     retirement_reason: 사용자 요청으로 폐기
 - managementId: image.terrain.cliff-rock-face-v1
-  version: v1-128-restored-brightness50
+  version: v2-remote-wall-20261019
   path: assets/tiles/terrain/blocked/cliff-rock-face-v1.png
   name: 고도 측면 암벽
   width: 128
   height: 128
-  sha256: 64b1b09167eb1db1fc975d25d8e5d6f25ef0a0bee01f45aa3bb4e3d3929e0bca
+  sha256: 951c7a90bb3ba9912a34277447daec58b5bbe112fd31020d2f3bd74efbbf34fe
   source:
     restored_git_commit: 3609f820ec72814cd7ec6a8e186a38b585addcc9
     restored_git_operation: Git 고해상도 원본을 128px로 축소 및 밝기 50% 적용
@@ -4361,6 +4378,7 @@ assets:
       output_size:
       - 256
       - 256
+    wall_update_git_commit: e0c4b79
 - managementId: image.effects.battle.impact-burst-v1
   version: v1
   path: assets/sprites/effects/battle/impact-burst-v1.png
@@ -4391,13 +4409,14 @@ assets:
     editor_revision: 20261003T033230-dae47ddd
     previous_path: assets/characters/female/animations/idle-v1/down-left-8frames-v1
 - managementId: sprite.metadata.characters.female.idle-v1.animation.json
-  version: down-left-8frames-v2
+  version: down-left-8frames-v2-6fps
   path: assets/characters/female-a/animations/idle-v1/down-left-8frames-v2/idle-v1.animation.json
-  sha256: 4436cd09e8fefb93153593cc6aef66d351081958d1ab0534d8a9297f8d9d7e0f
+  sha256: ecc044acfd2ba8cd200910099a5ee575a6906c3b94ce731eca8194bce8721b3a
   source:
     repository: slime-workflow
     editor_revision: 20261003T033230-dae47ddd
     previous_path: assets/characters/female/animations/idle-v1/down-left-8frames-v1
+    playback_fps: 6
 - managementId: sprite.metadata.characters.female.idle-v1.source.yaml
   version: down-left-8frames-v2
   path: assets/characters/female-a/animations/idle-v1/down-left-8frames-v2/source.yaml
@@ -4419,9 +4438,9 @@ assets:
     editor_revision: 20261003T041514-3d4309cf
     previous_path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1
 - managementId: sprite.metadata.characters.female.rest-v1.animation.json
-  version: down-left-entry-exit-v2
+  version: down-left-entry-exit-v2-6fps
   path: assets/characters/female-a/animations/rest-v1/down-left-entry-exit-v2/rest-v1.animation.json
-  sha256: 05b3eb167f4e1e5b709655a1390f738ef0776fb159fe37f744e240ccb1294161
+  sha256: d10a2b865086e88c3b21571194e2f83e74e597ad3250e958cd930b6c64e51692
   source:
     repository: slime-workflow
     path: .tmp/test/female-rest-text-poses/2026-10-03_09-54-24/female-rest-21frames.png
@@ -4430,6 +4449,7 @@ assets:
     operation: 사용자 채택 · 384px 21프레임 · 공통 배율과 지면 정렬 · 진입 후 고정·해제 후 여성 대기
     editor_revision: 20261003T041514-3d4309cf
     previous_path: assets/characters/female/animations/rest-v1/down-left-entry-exit-v1
+    playback_fps: 6
 - managementId: sprite.metadata.characters.female.rest-v1.source.yaml
   version: down-left-entry-exit-v2
   path: assets/characters/female-a/animations/rest-v1/down-left-entry-exit-v2/source.yaml
@@ -4468,15 +4488,16 @@ assets:
     editor_revision: 20261003T041629-5d1e579d
     previous_path: assets/characters/female/animations/walk-v1/down-left-12frames-v1
 - managementId: sprite.characters.female.walk-v1.walk-v1.animation.json
-  version: down-left-12frames-v2
+  version: down-left-12frames-v2-6fps
   path: assets/characters/female-a/animations/walk-v1/down-left-12frames-v2/walk-v1.animation.json
-  sha256: 7b7887a9f53ef57cf167827eab2236e8910dc74532717b62eff9b7b29ed955df
+  sha256: 8a76f39d3c02f2dca09c211a33b0a48991410b24e1e73537d63683dc6a3ef750
   source:
     repository: slime-workflow
     path: /home/cbsim/ws/slime-workflow/.tmp/test/female-walk-identity-imagegen/2026-10-03_12-35-36
     generation_id: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
     editor_revision: 20261003T041629-5d1e579d
     previous_path: assets/characters/female/animations/walk-v1/down-left-12frames-v1
+    playback_fps: 6
 - managementId: sprite.characters.female.walk-v1.walk-v1.png
   version: down-left-12frames-v2
   path: assets/characters/female-a/animations/walk-v1/down-left-12frames-v2/walk-v1.png
@@ -4497,14 +4518,15 @@ assets:
     operation: 사용자 첨부 시트 채택
     previous_path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2
 - managementId: sprite.characters.default.walk-12frames-v1.walk-12frames-v1.animation.json
-  version: down-left-12frames-v3
+  version: down-left-12frames-v3-6fps
   path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v3/walk-12frames-v1.animation.json
-  sha256: 0e1e0a062ac1b056a62907e61f99a0f8040092cf0a68ae88d81c5e5ed7e18373
+  sha256: 6367e933eca98e86a183d5583e2d21ad186452f916cb4705c76644b9d7b4a8ae
   source:
     repository: slime-workflow
     path: codex-clipboard-0c9fa5eb-02fa-4c0b-892f-61d49e010697.png
     operation: 사용자 첨부 시트 채택
     previous_path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2
+    playback_fps: 6
 - managementId: sprite.characters.default.walk-12frames-v1.walk-12frames-v1.png
   version: down-left-12frames-v3
   path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v3/walk-12frames-v1.png
