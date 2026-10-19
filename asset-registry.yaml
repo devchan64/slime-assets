@@ -607,25 +607,25 @@ assets:
     path: assets/maps/city_layouts/index.yaml
     operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.city-layouts.iseulon
-  version: v7
+  version: v7-billboard-blocking-v1
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 79068b1d017443422d4a5c7775a4897837e9d6e6165a5264b831e52407840a39
+  sha256: 402649d266484782734622aa52f87becd03d870b0981998989b0a9777b88cfd2
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.reedhaven
-  version: v4
+  version: v4-billboard-blocking-v1
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: f48e3280d5e931e759a88250c213084d56c39895ed569a496e4bf7c903461d9a
+  sha256: ecb2ab6433931e137b5ec4d6aa11f809f78138edab1051601a982b266e842ab6
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.stonewarm
-  version: v5
+  version: v5-billboard-blocking-v1
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: b3b69d9ec7c8e00df4726c4219f4b011a0fddb05c0ad1886f16eccc6ee235b2a
+  sha256: 8d3550b955d95b3e79a435900fc7eaab332ffb68ec4e2cf72845ab5f7d496663
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -1711,17 +1711,17 @@ assets:
     path: config/map_names/wind-hills.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.grainstead
-  version: v3-grainstead-v19
+  version: v3-grainstead-v19-billboard-blocking-v1
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 3d0a859e659eee7f63994ae6cfeaec780cb0139406a6f24eacbd708ff6cb922b
+  sha256: b144a1850e0b1a94bfbdad6309d34fe89332e116dbbf878b0e37d263295be74e
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
     operation: 런타임 맵 원본 작성
 - managementId: config.city-layouts.saltford
-  version: v3
+  version: v3-billboard-blocking-v1
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: 8f36c22c0ae93b8a33fea71a68179f5069ce1e159b82988d8d8bda9259fd2e95
+  sha256: 806d3cbafd5a06574ad37be285518f95afddc2f56c3f0fd07b32c2feb775e2a2
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
