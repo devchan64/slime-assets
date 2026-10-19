@@ -49,8 +49,6 @@ data:
     facing: south
     sprite:
       textureKey: town-grainstead-guild-v3
-      anchorX: 0.5
-      anchorY: 0.99
       contentWidth: 0.68
   - id: grainstead-bookshop
     name: 서점
@@ -67,8 +65,6 @@ data:
     facing: south
     sprite:
       textureKey: town-grainstead-bookshop-v2
-      anchorX: 0.505872
-      anchorY: 0.964349
       contentWidth: 0.741084
   - id: grainstead-inn
     name: 여관
@@ -85,8 +81,6 @@ data:
     facing: east
     sprite:
       textureKey: town-grainstead-inn-v2
-      anchorX: 0.407387
-      anchorY: 0.97861
       contentWidth: 0.830243
   - id: grainstead-workshop
     name: 대장간·공방
@@ -103,8 +97,6 @@ data:
     facing: east
     sprite:
       textureKey: town-grainstead-workshop-v3
-      anchorX: 0.5
-      anchorY: 0.99
       contentWidth: 0.6
   - id: grainstead-market
     name: 시장
@@ -121,8 +113,6 @@ data:
     facing: south
     sprite:
       textureKey: town-grainstead-market-v2
-      anchorX: 0.529997
-      anchorY: 0.981283
       contentWidth: 0.895863
   - id: grainstead-farm-house
     name: 일반 주택 가
@@ -140,8 +130,6 @@ data:
     facing: south
     sprite:
       textureKey: town-grainstead-farm-house-v3
-      anchorX: 0.5
-      anchorY: 0.99
       contentWidth: 0.68
   - id: grainstead-mill-house
     name: 일반 주택 나
@@ -159,8 +147,6 @@ data:
     facing: south
     sprite:
       textureKey: town-grainstead-mill-house-v3
-      anchorX: 0.5
-      anchorY: 0.99
       contentWidth: 0.68
   - id: grainstead-residence-03
     name: 일반 주택 3
@@ -178,8 +164,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-stone-house-v2
-      anchorX: 0.560271
-      anchorY: 0.980392
       contentWidth: 0.706847
   - id: grainstead-residence-04
     name: 일반 주택 4
@@ -197,8 +181,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-timber-house-v2
-      anchorX: 0.516157
-      anchorY: 0.975936
       contentWidth: 0.706134
   - id: grainstead-residence-05
     name: 일반 주택 5
@@ -216,8 +198,6 @@ data:
     facing: south
     sprite:
       textureKey: town-grainstead-farm-house-v3
-      anchorX: 0.5
-      anchorY: 0.99
       contentWidth: 0.68
   - id: grainstead-residence-06
     name: 일반 주택 6
@@ -235,8 +215,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-stone-house-v2
-      anchorX: 0.560271
-      anchorY: 0.980392
       contentWidth: 0.706847
   - id: grainstead-residence-07
     name: 일반 주택 7
@@ -254,8 +232,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-timber-house-v2
-      anchorX: 0.516157
-      anchorY: 0.975936
       contentWidth: 0.706134
   - id: grainstead-residence-08
     name: 일반 주택 8
@@ -273,8 +249,6 @@ data:
     facing: south
     sprite:
       textureKey: town-grainstead-mill-house-v3
-      anchorX: 0.5
-      anchorY: 0.99
       contentWidth: 0.68
   - id: grainstead-residence-09
     name: 일반 주택 9
@@ -292,8 +266,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-stone-house-v2
-      anchorX: 0.560271
-      anchorY: 0.980392
       contentWidth: 0.706847
   - id: grainstead-residence-10
     name: 일반 주택 10
@@ -311,8 +283,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-timber-house-v2
-      anchorX: 0.516157
-      anchorY: 0.975936
       contentWidth: 0.706134
   connections:
   - id: grainstead-to-granary-flats

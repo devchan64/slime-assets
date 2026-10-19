@@ -49,8 +49,6 @@ data:
     facing: south
     sprite:
       textureKey: town-saltford-guild-v2
-      anchorX: 0.515777
-      anchorY: 0.987522
       contentWidth: 0.824536
   - id: saltford-bookshop
     name: 서점
@@ -67,8 +65,6 @@ data:
     facing: south
     sprite:
       textureKey: town-saltford-bookshop-v2
-      anchorX: 0.55342
-      anchorY: 0.976827
       contentWidth: 0.733238
   - id: saltford-inn
     name: 여관
@@ -85,8 +81,6 @@ data:
     facing: east
     sprite:
       textureKey: town-saltford-inn-v2
-      anchorX: 0.594151
-      anchorY: 0.952763
       contentWidth: 0.720399
   - id: saltford-workshop
     name: 대장간·공방
@@ -103,8 +97,6 @@ data:
     facing: east
     sprite:
       textureKey: town-saltford-workshop-v2
-      anchorX: 0.494106
-      anchorY: 0.98574
       contentWidth: 0.855207
   - id: saltford-market
     name: 시장
@@ -121,8 +113,6 @@ data:
     facing: south
     sprite:
       textureKey: town-saltford-market-v2
-      anchorX: 0.622999
-      anchorY: 0.961572
       contentWidth: 0.891557
   - id: saltford-shore-house
     name: 일반 주택 가
@@ -140,8 +130,6 @@ data:
     facing: south
     sprite:
       textureKey: town-saltford-shore-house-v2
-      anchorX: 0.418181
-      anchorY: 0.973262
       contentWidth: 0.750357
   - id: saltford-dry-house
     name: 일반 주택 나
@@ -159,8 +147,6 @@ data:
     facing: south
     sprite:
       textureKey: town-saltford-dry-house-v2
-      anchorX: 0.578022
-      anchorY: 0.981283
       contentWidth: 0.733238
   - id: saltford-residence-03
     name: 일반 주택 3
@@ -178,8 +164,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-stone-house-v2
-      anchorX: 0.560271
-      anchorY: 0.980392
       contentWidth: 0.706847
   - id: saltford-residence-04
     name: 일반 주택 4
@@ -197,8 +181,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-timber-house-v2
-      anchorX: 0.516157
-      anchorY: 0.975936
       contentWidth: 0.706134
   - id: saltford-residence-05
     name: 일반 주택 5
@@ -216,8 +198,6 @@ data:
     facing: south
     sprite:
       textureKey: town-saltford-shore-house-v2
-      anchorX: 0.418181
-      anchorY: 0.973262
       contentWidth: 0.750357
   - id: saltford-residence-06
     name: 일반 주택 6
@@ -235,8 +215,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-stone-house-v2
-      anchorX: 0.560271
-      anchorY: 0.980392
       contentWidth: 0.706847
   - id: saltford-residence-07
     name: 일반 주택 7
@@ -254,8 +232,6 @@ data:
     facing: south
     sprite:
       textureKey: town-common-timber-house-v2
-      anchorX: 0.516157
-      anchorY: 0.975936
       contentWidth: 0.706134
   - id: saltford-residence-08
     name: 일반 주택 8
@@ -273,8 +249,6 @@ data:
     facing: south
     sprite:
       textureKey: town-saltford-dry-house-v2
-      anchorX: 0.578022
-      anchorY: 0.981283
       contentWidth: 0.733238
   connections:
   - id: saltford-to-salt-causeway
