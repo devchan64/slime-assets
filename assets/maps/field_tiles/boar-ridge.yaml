@@ -1,825 +1,1502 @@
 managementId: config.field-tiles.boar-ridge
 data:
   rows:
-  - lllllgggggggeeeHHeeegggggggsssss
-  - lllllgggggggeeeHHeeegggggggsssss
-  - lllllgggggggeeeHHeeegggggggsssss
-  - lllllggessseeeeHHeeegesssegsssss
-  - lllllgessssseeeHHeeeesssssesssss
-  - lllllgessssseeeHHeeeesssssesssss
-  - lllllggessssseeHHeeegesssssessss
-  - lllllggessssseeHHeeegesssssessss
-  - lllllggessssseeHHeeegesssssessss
-  - lllllgessssseeeHHeeeesssssesssss
-  - lllllgessssseeeHHeeeesssssesssss
-  - lllllgessssseeeHHeeeesssssesssss
-  - lllllggessseeeeHHeeegesssegsssss
-  - lllllgggggggeeeHHeeegggggggsssss
-  - lllllgggggggeeeHHeeegggggggsssss
-  - HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-  - HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-  - lllllgggggggeeeeeeeegggggggsssss
-  - lllllgggggggeeeeeeeegggggggsssss
-  - lllllggessseeeeeeeeegesssegsssss
-  - lllllgessssseeeeeeeeesssssesssss
-  - lllllgessssseeeeeeeeesssssesssss
-  - lllllgessssseeeeeeeeesssssesssss
-  - lllllggessssseeeeeeegesssssessss
-  - lllllggessssseeeeeeegesssssessss
-  - lllllgessssseeeeeeeeesssssesssss
-  - lllllgessssseeeeeeeeesssssesssss
-  - lllllgessssseeeeeeeeesssssesssss
-  - lllllggessseeeeeeeeegesssegsssss
-  - lllllgggggggeeeeeeeegggggggsssss
-  - lllllgggggggeeeeeeeegggggggsssss
-  - lllllgggggggeeeeeeeegggggggsssss
+  - lllleeeeeeeeeggHHHgggeeeeeeeeell
+  - lllleeeeeeeeeggHHHgggeeeeeeeeell
+  - llllleeeeeeeeeggHHHggeeeeeeeeegg
+  - llllleessssseeggHHHlleeesssseegg
+  - llllleesssssseggHHHlleeessseeegg
+  - llllleessssseeggHHHlleeessseeegg
+  - llllleessssseeggHHHlleeesseeeegg
+  - llllleessssseeggHHHlleeesseeeegg
+  - llllleesssseeegHHHgleeeesseeeggg
+  - gllleeessseeeggHHHgleeeeseeeeggg
+  - gglleeessseeeggHHHgleeesseeeeggg
+  - gggeeessseeeggHHHggeeeesseeegggg
+  - gggeeeeeeeeeggHHHggeeeeeeeeegggg
+  - gggeeeeeeeeeggHHHggeeeeHHHeegggg
+  - gggeeeeeeeeeggHHHgHHHHHHHHHHHHHg
+  - HHgeeeeeeeeeggHHHHHHHHHHHHHHHHHH
+  - HHHHHHHeeeHHHHHHHHHHHHHeeeHHHHHH
+  - HHHHHHHHHHHHHHHHHHgeeeeeeeeegggH
+  - ggHHHHHHHHHHHHHggggeeeeeeeeegggg
+  - ggggeeeHHHeeelllglgeeeeeeeeegggg
+  - ggggeeeeeeeeelllllgeeeeeeeeegggl
+  - gggggeeessseeellllggeeessseeegll
+  - gggggeeessseeelllllgeeessseeegll
+  - gggggeeessseeelllllgeeeesseeegll
+  - gggggeeessseeelllllggeeesseeeell
+  - gggggeeesssseelllllggeeesseeeell
+  - gggggeessssseelllllggeeeeseeeell
+  - gggggeessssseellllgggeeeesseeegl
+  - ggggeessssseeggllggggeeeesseeegl
+  - gggleeeeeeeeeggggggggeeeeeeeeegl
+  - ggleeeeeeeeegggggggggeeeeeeeeegl
+  - ggleeeeeeeeegggggggggeeeeeeeeegg
   objects:
   - id: ward-tower
     kind: ward-tower
     position:
       column: 16
       row: 16
-  - id: boar-ridge-decoration-1
-    kind: decoration
-    position:
-      column: 4
-      row: 2
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-2
-    kind: decoration
-    position:
-      column: 6
-      row: 2
-    textureKey: hollow-log-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-3
-    kind: decoration
-    position:
-      column: 4
-      row: 10
-    textureKey: hollow-log-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-4
-    kind: decoration
-    position:
-      column: 10
-      row: 2
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-5
-    kind: decoration
-    position:
-      column: 12
-      row: 2
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-6
-    kind: decoration
-    position:
-      column: 20
-      row: 2
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-7
-    kind: decoration
-    position:
-      column: 22
-      row: 2
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-9
-    kind: decoration
-    position:
-      column: 26
-      row: 2
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-10
-    kind: decoration
-    position:
-      column: 28
-      row: 2
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-11
-    kind: decoration
-    position:
-      column: 4
-      row: 4
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-12
-    kind: decoration
-    position:
-      column: 13
-      row: 4
-    textureKey: hollow-log-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-14
-    kind: decoration
-    position:
-      column: 20
-      row: 4
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-15
-    kind: decoration
-    position:
-      column: 19
-      row: 5
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-16
-    kind: decoration
-    position:
-      column: 27
-      row: 4
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-17
-    kind: decoration
-    position:
-      column: 1
-      row: 6
-    textureKey: bramble-clump-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-18
-    kind: decoration
-    position:
-      column: 4
-      row: 5
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-19
-    kind: decoration
-    position:
-      column: 20
-      row: 14
-    textureKey: hollow-log-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-20
-    kind: decoration
-    position:
-      column: 1
-      row: 8
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-22
-    kind: decoration
-    position:
-      column: 20
-      row: 8
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-23
-    kind: decoration
-    position:
-      column: 28
-      row: 8
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-24
-    kind: decoration
-    position:
-      column: 2
-      row: 10
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-25
-    kind: decoration
-    position:
-      column: 6
-      row: 10
-    textureKey: bramble-clump-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-27
-    kind: decoration
-    position:
-      column: 17
-      row: 10
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-28
-    kind: decoration
-    position:
-      column: 13
-      row: 10
-    textureKey: hollow-log-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-29
-    kind: decoration
-    position:
-      column: 28
-      row: 10
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-30
-    kind: decoration
-    position:
-      column: 2
-      row: 12
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-31
-    kind: decoration
-    position:
-      column: 6
-      row: 13
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-32
-    kind: decoration
-    position:
-      column: 12
-      row: 13
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-33
-    kind: decoration
-    position:
-      column: 20
-      row: 12
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-35
-    kind: decoration
-    position:
-      column: 2
-      row: 20
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-36
-    kind: decoration
-    position:
-      column: 6
-      row: 20
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-37
-    kind: decoration
-    position:
-      column: 12
-      row: 19
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-38
-    kind: decoration
-    position:
-      column: 14
-      row: 20
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-39
-    kind: decoration
-    position:
-      column: 19
-      row: 19
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-41
-    kind: decoration
-    position:
-      column: 28
-      row: 21
-    textureKey: bramble-clump-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-42
-    kind: decoration
-    position:
-      column: 4
-      row: 22
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-43
-    kind: decoration
-    position:
-      column: 6
-      row: 22
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-44
-    kind: decoration
-    position:
-      column: 13
-      row: 22
-    textureKey: old-stump-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-45
-    kind: decoration
-    position:
-      column: 16
-      row: 22
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-46
-    kind: decoration
-    position:
-      column: 19
-      row: 23
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-47
-    kind: decoration
-    position:
-      column: 21
-      row: 24
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-48
-    kind: decoration
-    position:
-      column: 28
-      row: 22
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-49
-    kind: decoration
-    position:
-      column: 2
-      row: 24
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-50
-    kind: decoration
-    position:
-      column: 4
-      row: 24
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-51
-    kind: decoration
-    position:
-      column: 14
-      row: 24
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-52
-    kind: decoration
-    position:
-      column: 17
-      row: 30
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-53
-    kind: decoration
-    position:
-      column: 18
-      row: 24
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-54
-    kind: decoration
-    position:
-      column: 20
-      row: 24
-    textureKey: bramble-clump-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-55
-    kind: decoration
-    position:
-      column: 28
-      row: 24
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-56
-    kind: decoration
-    position:
-      column: 12
-      row: 29
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-58
-    kind: decoration
-    position:
-      column: 14
-      row: 26
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-59
-    kind: decoration
-    position:
-      column: 16
-      row: 26
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-60
-    kind: decoration
-    position:
-      column: 18
-      row: 26
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-61
-    kind: decoration
-    position:
-      column: 20
-      row: 26
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-63
-    kind: decoration
-    position:
-      column: 1
-      row: 28
-    textureKey: bramble-clump-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-64
-    kind: decoration
-    position:
-      column: 4
-      row: 29
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-65
-    kind: decoration
-    position:
-      column: 16
-      row: 28
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-66
-    kind: decoration
-    position:
-      column: 20
-      row: 28
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-67
-    kind: decoration
-    position:
-      column: 21
-      row: 30
-    textureKey: hollow-log-v1
-    tileAnchor: center
-  - id: boar-ridge-decoration-68
-    kind: decoration
-    position:
-      column: 28
-      row: 28
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-1
-    kind: decoration
-    position:
-      column: 5
-      row: 4
-    textureKey: orchard-old-tree-variant-1-v2
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-2
-    kind: decoration
-    position:
-      column: 21
-      row: 3
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-3
-    kind: decoration
-    position:
-      column: 18
-      row: 3
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-4
-    kind: decoration
-    position:
-      column: 27
-      row: 3
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-5
-    kind: decoration
-    position:
-      column: 20
-      row: 3
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-6
+  - id: boar-ridge-remodel-001
     kind: decoration
     position:
       column: 3
-      row: 5
-    textureKey: bramble-variant-1-v1
+      row: 4
+    textureKey: orchard-young-tree-v2
     tileAnchor: center
-  - id: boar-ridge-reinforcement-7
+  - id: boar-ridge-remodel-002
     kind: decoration
     position:
-      column: 18
-      row: 5
-    textureKey: orchard-chunky-fern-v1
+      column: 3
+      row: 10
+    textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
-  - id: boar-ridge-reinforcement-8
+  - id: boar-ridge-remodel-003
+    kind: decoration
+    position:
+      column: 4
+      row: 23
+    textureKey: orchard-old-tree-variant-1-v2
+    tileAnchor: center
+  - id: boar-ridge-remodel-004
+    kind: decoration
+    position:
+      column: 3
+      row: 28
+    textureKey: orchard-old-tree-variant-1-v2
+    tileAnchor: center
+  - id: boar-ridge-remodel-005
+    kind: decoration
+    position:
+      column: 14
+      row: 7
+    textureKey: orchard-young-tree-v2
+    tileAnchor: center
+  - id: boar-ridge-remodel-006
     kind: decoration
     position:
       column: 19
-      row: 6
+      row: 9
     textureKey: orchard-young-tree-v2
     tileAnchor: center
-  - id: boar-ridge-reinforcement-9
+  - id: boar-ridge-remodel-007
+    kind: decoration
+    position:
+      column: 18
+      row: 24
+    textureKey: orchard-old-tree-v2
+    tileAnchor: center
+  - id: boar-ridge-remodel-008
+    kind: decoration
+    position:
+      column: 14
+      row: 27
+    textureKey: orchard-old-tree-v2
+    tileAnchor: center
+  - id: boar-ridge-remodel-009
     kind: decoration
     position:
       column: 29
       row: 5
-    textureKey: stump-variant-1-v1
+    textureKey: orchard-young-tree-v2
     tileAnchor: center
-  - id: boar-ridge-reinforcement-10
+  - id: boar-ridge-remodel-010
+    kind: decoration
+    position:
+      column: 29
+      row: 10
+    textureKey: orchard-old-tree-v2
+    tileAnchor: center
+  - id: boar-ridge-remodel-011
+    kind: decoration
+    position:
+      column: 29
+      row: 23
+    textureKey: orchard-young-tree-v2
+    tileAnchor: center
+  - id: boar-ridge-remodel-012
+    kind: decoration
+    position:
+      column: 29
+      row: 28
+    textureKey: orchard-old-tree-v2
+    tileAnchor: center
+  - id: boar-ridge-remodel-013
     kind: decoration
     position:
       column: 3
-      row: 7
-    textureKey: orchard-dead-tree-v2
+      row: 20
+    textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
-  - id: boar-ridge-reinforcement-11
+  - id: boar-ridge-remodel-014
     kind: decoration
     position:
-      column: 5
-      row: 7
+      column: 20
+      row: 4
     textureKey: orchard-young-tree-v2
     tileAnchor: center
-  - id: boar-ridge-reinforcement-12
+  - id: boar-ridge-remodel-015
     kind: decoration
     position:
-      column: 19
-      row: 7
+      column: 20
+      row: 28
+    textureKey: orchard-old-tree-variant-1-v2
+    tileAnchor: center
+  - id: boar-ridge-remodel-016
+    kind: decoration
+    position:
+      column: 28
+      row: 23
     textureKey: bramble-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-13
-    kind: decoration
-    position:
-      column: 19
-      row: 10
-    textureKey: orchard-dead-tree-v2
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-14
+  - id: boar-ridge-remodel-017
     kind: decoration
     position:
       column: 30
-      row: 7
-    textureKey: bramble-variant-1-v1
+      row: 5
+    textureKey: orchard-chunky-fern-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-17
-    kind: decoration
-    position:
-      column: 1
-      row: 10
-    textureKey: berry-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-19
-    kind: decoration
-    position:
-      column: 18
-      row: 17
-    textureKey: orchard-old-tree-v2
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-20
+  - id: boar-ridge-remodel-018
     kind: decoration
     position:
       column: 29
-      row: 11
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-21
-    kind: decoration
-    position:
-      column: 7
-      row: 19
+      row: 26
     textureKey: berry-shrub-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-23
+  - id: boar-ridge-remodel-019
     kind: decoration
     position:
-      column: 15
-      row: 19
+      column: 18
+      row: 26
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-020
+    kind: decoration
+    position:
+      column: 19
+      row: 12
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-021
+    kind: decoration
+    position:
+      column: 30
+      row: 8
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-022
+    kind: decoration
+    position:
+      column: 13
+      row: 21
     textureKey: orchard-chunky-grass-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-24
+  - id: boar-ridge-remodel-023
+    kind: decoration
+    position:
+      column: 16
+      row: 26
+    textureKey: orchard-chunky-fern-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-024
+    kind: decoration
+    position:
+      column: 20
+      row: 25
+    textureKey: orchard-chunky-fern-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-025
+    kind: decoration
+    position:
+      column: 3
+      row: 24
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-026
+    kind: decoration
+    position:
+      column: 14
+      row: 23
+    textureKey: stump-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-027
     kind: decoration
     position:
       column: 17
-      row: 19
-    textureKey: orchard-old-tree-variant-1-v2
+      row: 25
+    textureKey: stump-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-25
+  - id: boar-ridge-remodel-028
+    kind: decoration
+    position:
+      column: 2
+      row: 25
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-029
+    kind: decoration
+    position:
+      column: 29
+      row: 9
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-030
+    kind: decoration
+    position:
+      column: 21
+      row: 4
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-031
+    kind: decoration
+    position:
+      column: 2
+      row: 6
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-032
+    kind: decoration
+    position:
+      column: 3
+      row: 8
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-033
+    kind: decoration
+    position:
+      column: 21
+      row: 1
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-034
     kind: decoration
     position:
       column: 16
       row: 25
-    textureKey: orchard-old-tree-variant-1-v2
+    textureKey: dry-grass-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-26
+  - id: boar-ridge-remodel-035
+    kind: decoration
+    position:
+      column: 18
+      row: 29
+    textureKey: hollow-log-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-036
+    kind: decoration
+    position:
+      column: 4
+      row: 8
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-037
+    kind: decoration
+    position:
+      column: 1
+      row: 8
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-038
+    kind: decoration
+    position:
+      column: 1
+      row: 7
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-039
+    kind: decoration
+    position:
+      column: 2
+      row: 27
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-040
+    kind: decoration
+    position:
+      column: 20
+      row: 2
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-041
+    kind: decoration
+    position:
+      column: 12
+      row: 12
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-042
+    kind: decoration
+    position:
+      column: 3
+      row: 25
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-043
     kind: decoration
     position:
       column: 15
-      row: 24
-    textureKey: orchard-old-tree-variant-1-v2
+      row: 27
+    textureKey: bramble-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-27
+  - id: boar-ridge-remodel-044
     kind: decoration
     position:
-      column: 27
-      row: 19
-    textureKey: stump-variant-1-v1
+      column: 21
+      row: 25
+    textureKey: sapling-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-28
+  - id: boar-ridge-remodel-045
     kind: decoration
     position:
-      column: 30
-      row: 19
-    textureKey: orchard-chunky-shrub-v1
+      column: 16
+      row: 27
+    textureKey: hollow-log-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-29
+  - id: boar-ridge-remodel-046
+    kind: decoration
+    position:
+      column: 14
+      row: 26
+    textureKey: hollow-log-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-047
     kind: decoration
     position:
       column: 3
       row: 21
-    textureKey: orchard-chunky-grass-v1
+    textureKey: hollow-log-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-30
-    kind: decoration
-    position:
-      column: 5
-      row: 21
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-31
-    kind: decoration
-    position:
-      column: 13
-      row: 21
-    textureKey: orchard-old-tree-variant-1-v2
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-32
-    kind: decoration
-    position:
-      column: 14
-      row: 21
-    textureKey: berry-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-33
-    kind: decoration
-    position:
-      column: 17
-      row: 20
-    textureKey: bramble-variant-1-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-34
+  - id: boar-ridge-remodel-048
     kind: decoration
     position:
       column: 19
-      row: 21
-    textureKey: stump-variant-1-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-35
-    kind: decoration
-    position:
-      column: 27
-      row: 14
-    textureKey: stump-variant-1-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-36
-    kind: decoration
-    position:
-      column: 29
-      row: 21
-    textureKey: bramble-variant-1-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-37
-    kind: decoration
-    position:
-      column: 5
       row: 23
-    textureKey: orchard-old-tree-variant-1-v2
+    textureKey: dry-grass-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-39
+  - id: boar-ridge-remodel-049
     kind: decoration
     position:
       column: 15
-      row: 17
-    textureKey: stump-variant-1-v1
+      row: 25
+    textureKey: dry-grass-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-40
+  - id: boar-ridge-remodel-050
+    kind: decoration
+    position:
+      column: 21
+      row: 26
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-051
+    kind: decoration
+    position:
+      column: 19
+      row: 25
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-052
+    kind: decoration
+    position:
+      column: 20
+      row: 9
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-053
+    kind: decoration
+    position:
+      column: 1
+      row: 9
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-054
+    kind: decoration
+    position:
+      column: 2
+      row: 8
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-055
+    kind: decoration
+    position:
+      column: 19
+      row: 22
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-056
     kind: decoration
     position:
       column: 18
       row: 28
-    textureKey: orchard-young-tree-v2
+    textureKey: berry-shrub-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-41
+  - id: boar-ridge-remodel-057
     kind: decoration
     position:
-      column: 18
-      row: 23
-    textureKey: orchard-chunky-grass-v1
+      column: 3
+      row: 27
+    textureKey: sapling-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-42
+  - id: boar-ridge-remodel-058
+    kind: decoration
+    position:
+      column: 17
+      row: 21
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-059
+    kind: decoration
+    position:
+      column: 19
+      row: 8
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-060
+    kind: decoration
+    position:
+      column: 19
+      row: 27
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-061
+    kind: decoration
+    position:
+      column: 28
+      row: 30
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-062
+    kind: decoration
+    position:
+      column: 14
+      row: 24
+    textureKey: orchard-chunky-fern-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-063
     kind: decoration
     position:
       column: 29
-      row: 22
+      row: 8
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-064
+    kind: decoration
+    position:
+      column: 2
+      row: 4
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-065
+    kind: decoration
+    position:
+      column: 19
+      row: 26
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-066
+    kind: decoration
+    position:
+      column: 15
+      row: 24
     textureKey: bramble-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-44
+  - id: boar-ridge-remodel-067
     kind: decoration
     position:
       column: 16
       row: 24
-    textureKey: bramble-variant-1-v1
+    textureKey: dry-grass-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-45
+  - id: boar-ridge-remodel-068
+    kind: decoration
+    position:
+      column: 4
+      row: 25
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-069
     kind: decoration
     position:
       column: 17
+      row: 26
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-070
+    kind: decoration
+    position:
+      column: 15
+      row: 30
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-071
+    kind: decoration
+    position:
+      column: 18
+      row: 25
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-072
+    kind: decoration
+    position:
+      column: 2
       row: 24
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-073
+    kind: decoration
+    position:
+      column: 4
+      row: 6
     textureKey: bramble-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-46
+  - id: boar-ridge-remodel-074
+    kind: decoration
+    position:
+      column: 12
+      row: 10
+    textureKey: hollow-log-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-075
+    kind: decoration
+    position:
+      column: 19
+      row: 21
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-076
+    kind: decoration
+    position:
+      column: 21
+      row: 29
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-077
+    kind: decoration
+    position:
+      column: 1
+      row: 11
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-078
+    kind: decoration
+    position:
+      column: 2
+      row: 5
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-079
+    kind: decoration
+    position:
+      column: 29
+      row: 24
+    textureKey: hollow-log-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-080
+    kind: decoration
+    position:
+      column: 14
+      row: 25
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-081
+    kind: decoration
+    position:
+      column: 1
+      row: 3
+    textureKey: hollow-log-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-082
+    kind: decoration
+    position:
+      column: 2
+      row: 26
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-083
+    kind: decoration
+    position:
+      column: 1
+      row: 4
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-084
+    kind: decoration
+    position:
+      column: 4
+      row: 5
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-085
+    kind: decoration
+    position:
+      column: 3
+      row: 26
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-086
+    kind: decoration
+    position:
+      column: 17
+      row: 22
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-087
+    kind: decoration
+    position:
+      column: 20
+      row: 30
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-088
+    kind: decoration
+    position:
+      column: 19
+      row: 10
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-089
+    kind: decoration
+    position:
+      column: 29
+      row: 21
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-090
+    kind: decoration
+    position:
+      column: 1
+      row: 25
+    textureKey: orchard-chunky-fern-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-091
+    kind: decoration
+    position:
+      column: 29
+      row: 22
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-092
+    kind: decoration
+    position:
+      column: 14
+      row: 21
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-093
+    kind: decoration
+    position:
+      column: 5
+      row: 23
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-094
+    kind: decoration
+    position:
+      column: 15
+      row: 28
+    textureKey: hollow-log-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-095
     kind: decoration
     position:
       column: 19
       row: 24
-    textureKey: bramble-variant-1-v1
+    textureKey: dry-grass-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-47
+  - id: boar-ridge-remodel-096
+    kind: decoration
+    position:
+      column: 30
+      row: 26
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-097
+    kind: decoration
+    position:
+      column: 30
+      row: 9
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-098
+    kind: decoration
+    position:
+      column: 18
+      row: 30
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-099
+    kind: decoration
+    position:
+      column: 2
+      row: 13
+    textureKey: hollow-log-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-100
+    kind: decoration
+    position:
+      column: 2
+      row: 23
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-101
+    kind: decoration
+    position:
+      column: 4
+      row: 24
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-102
+    kind: decoration
+    position:
+      column: 30
+      row: 25
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-103
+    kind: decoration
+    position:
+      column: 1
+      row: 27
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-104
+    kind: decoration
+    position:
+      column: 20
+      row: 3
+    textureKey: hollow-log-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-105
     kind: decoration
     position:
       column: 29
-      row: 30
-    textureKey: orchard-chunky-shrub-v1
+      row: 7
+    textureKey: orchard-chunky-fern-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-48
+  - id: boar-ridge-remodel-106
+    kind: decoration
+    position:
+      column: 28
+      row: 9
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-107
     kind: decoration
     position:
       column: 14
-      row: 29
-    textureKey: orchard-old-tree-variant-1-v2
+      row: 30
+    textureKey: orchard-chunky-fern-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-49
+  - id: boar-ridge-remodel-108
     kind: decoration
     position:
-      column: 3
-      row: 27
-    textureKey: stump-variant-1-v1
+      column: 28
+      row: 25
+    textureKey: sapling-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-51
+  - id: boar-ridge-remodel-109
     kind: decoration
     position:
       column: 19
       row: 28
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-110
+    kind: decoration
+    position:
+      column: 13
+      row: 20
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-111
+    kind: decoration
+    position:
+      column: 1
+      row: 26
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-112
+    kind: decoration
+    position:
+      column: 29
+      row: 20
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-113
+    kind: decoration
+    position:
+      column: 21
+      row: 28
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-114
+    kind: decoration
+    position:
+      column: 28
+      row: 8
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-115
+    kind: decoration
+    position:
+      column: 15
+      row: 21
+    textureKey: stump-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-116
+    kind: decoration
+    position:
+      column: 15
+      row: 29
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-117
+    kind: decoration
+    position:
+      column: 20
+      row: 24
+    textureKey: orchard-chunky-fern-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-118
+    kind: decoration
+    position:
+      column: 1
+      row: 5
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-119
+    kind: decoration
+    position:
+      column: 4
+      row: 30
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-120
+    kind: decoration
+    position:
+      column: 2
+      row: 9
     textureKey: orchard-chunky-grass-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-52
+  - id: boar-ridge-remodel-121
+    kind: decoration
+    position:
+      column: 30
+      row: 10
+    textureKey: stump-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-122
+    kind: decoration
+    position:
+      column: 28
+      row: 24
+    textureKey: orchard-chunky-fern-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-123
+    kind: decoration
+    position:
+      column: 1
+      row: 2
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-124
+    kind: decoration
+    position:
+      column: 20
+      row: 26
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-125
+    kind: decoration
+    position:
+      column: 30
+      row: 6
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-126
+    kind: decoration
+    position:
+      column: 1
+      row: 24
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-127
+    kind: decoration
+    position:
+      column: 2
+      row: 1
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-128
+    kind: decoration
+    position:
+      column: 6
+      row: 1
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-129
+    kind: decoration
+    position:
+      column: 21
+      row: 5
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-130
+    kind: decoration
+    position:
+      column: 15
+      row: 23
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-131
+    kind: decoration
+    position:
+      column: 1
+      row: 28
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-132
+    kind: decoration
+    position:
+      column: 21
+      row: 2
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-133
+    kind: decoration
+    position:
+      column: 14
+      row: 22
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-134
+    kind: decoration
+    position:
+      column: 30
+      row: 4
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-135
+    kind: decoration
+    position:
+      column: 24
+      row: 30
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-136
+    kind: decoration
+    position:
+      column: 30
+      row: 11
+    textureKey: stump-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-137
+    kind: decoration
+    position:
+      column: 16
+      row: 29
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-138
+    kind: decoration
+    position:
+      column: 4
+      row: 20
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-139
+    kind: decoration
+    position:
+      column: 3
+      row: 5
+    textureKey: orchard-chunky-fern-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-140
+    kind: decoration
+    position:
+      column: 30
+      row: 29
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-141
     kind: decoration
     position:
       column: 29
       row: 27
-    textureKey: bramble-variant-1-v1
+    textureKey: sapling-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-54
+  - id: boar-ridge-remodel-142
     kind: decoration
     position:
-      column: 9
-      row: 30
-    textureKey: stump-variant-1-v1
+      column: 2
+      row: 28
+    textureKey: orchard-chunky-grass-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-55
-    kind: decoration
-    position:
-      column: 9
-      row: 17
-    textureKey: stump-variant-1-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-56
-    kind: decoration
-    position:
-      column: 6
-      row: 29
-    textureKey: orchard-old-tree-v2
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-58
+  - id: boar-ridge-remodel-143
     kind: decoration
     position:
       column: 3
-      row: 29
-    textureKey: orchard-young-tree-v2
+      row: 6
+    textureKey: orchard-chunky-grass-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-59
+  - id: boar-ridge-remodel-144
     kind: decoration
     position:
-      column: 25
-      row: 30
-    textureKey: stump-variant-1-v1
+      column: 20
+      row: 23
+    textureKey: sapling-variant-1-v1
     tileAnchor: center
-  - id: boar-ridge-reinforcement-60
-    kind: decoration
-    position:
-      column: 27
-      row: 29
-    textureKey: berry-shrub-v1
-    tileAnchor: center
-  - id: boar-ridge-reinforcement-61
+  - id: boar-ridge-remodel-145
     kind: decoration
     position:
       column: 5
-      row: 18
-    textureKey: orchard-old-tree-v2
+      row: 24
+    textureKey: berry-shrub-v1
     tileAnchor: center
+  - id: boar-ridge-remodel-146
+    kind: decoration
+    position:
+      column: 18
+      row: 23
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-147
+    kind: decoration
+    position:
+      column: 30
+      row: 7
+    textureKey: stump-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-148
+    kind: decoration
+    position:
+      column: 28
+      row: 19
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-149
+    kind: decoration
+    position:
+      column: 20
+      row: 27
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-150
+    kind: decoration
+    position:
+      column: 20
+      row: 8
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-151
+    kind: decoration
+    position:
+      column: 20
+      row: 1
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-152
+    kind: decoration
+    position:
+      column: 3
+      row: 22
+    textureKey: orchard-chunky-fern-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-153
+    kind: decoration
+    position:
+      column: 27
+      row: 10
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-154
+    kind: decoration
+    position:
+      column: 1
+      row: 30
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-155
+    kind: decoration
+    position:
+      column: 29
+      row: 29
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-156
+    kind: decoration
+    position:
+      column: 19
+      row: 30
+    textureKey: stump-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-157
+    kind: decoration
+    position:
+      column: 3
+      row: 3
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-158
+    kind: decoration
+    position:
+      column: 16
+      row: 30
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-159
+    kind: decoration
+    position:
+      column: 30
+      row: 28
+    textureKey: berry-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-160
+    kind: decoration
+    position:
+      column: 1
+      row: 29
+    textureKey: stump-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-161
+    kind: decoration
+    position:
+      column: 19
+      row: 11
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-162
+    kind: decoration
+    position:
+      column: 28
+      row: 22
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-163
+    kind: decoration
+    position:
+      column: 22
+      row: 30
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-164
+    kind: decoration
+    position:
+      column: 18
+      row: 20
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-165
+    kind: decoration
+    position:
+      column: 1
+      row: 10
+    textureKey: stump-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-166
+    kind: decoration
+    position:
+      column: 2
+      row: 10
+    textureKey: orchard-chunky-fern-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-167
+    kind: decoration
+    position:
+      column: 21
+      row: 7
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-168
+    kind: decoration
+    position:
+      column: 27
+      row: 12
+    textureKey: bramble-variant-1-v1
+    tileAnchor: center
+  - id: boar-ridge-remodel-169
+    kind: decoration
+    position:
+      column: 10
+      row: 30
+    textureKey: dry-grass-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-01
+    kind: decoration
+    position:
+      column: 7
+      row: 6
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-02
+    kind: decoration
+    position:
+      column: 7
+      row: 9
+    textureKey: field-mill-ridge-weathered-stones-4-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-03
+    kind: decoration
+    position:
+      column: 9
+      row: 4
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-04
+    kind: decoration
+    position:
+      column: 11
+      row: 6
+    textureKey: cinder-path-cooled-rocks-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-05
+    kind: decoration
+    position:
+      column: 9
+      row: 7
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-06
+    kind: decoration
+    position:
+      column: 24
+      row: 7
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-07
+    kind: decoration
+    position:
+      column: 24
+      row: 11
+    textureKey: field-mill-ridge-weathered-stones-4-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-08
+    kind: decoration
+    position:
+      column: 26
+      row: 4
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-09
+    kind: decoration
+    position:
+      column: 11
+      row: 26
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-10
+    kind: decoration
+    position:
+      column: 8
+      row: 24
+    textureKey: field-mill-ridge-weathered-stones-4-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-11
+    kind: decoration
+    position:
+      column: 9
+      row: 22
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-12
+    kind: decoration
+    position:
+      column: 9
+      row: 27
+    textureKey: cinder-path-cooled-rocks-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-13
+    kind: decoration
+    position:
+      column: 7
+      row: 26
+    textureKey: orchard-chunky-dryshrub-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-14
+    kind: decoration
+    position:
+      column: 25
+      row: 27
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-15
+    kind: decoration
+    position:
+      column: 24
+      row: 24
+    textureKey: field-mill-ridge-weathered-stones-4-v1
+    tileAnchor: center
+  - id: boar-ridge-highland-16
+    kind: decoration
+    position:
+      column: 25
+      row: 22
+    textureKey: orchard-chunky-shrub-v1
+    tileAnchor: center
+  groundDecals:
+  - id: boar-ridge-hoof-1
+    textureKey: boar-hoof-pair-v1
+    position:
+      column: 5
+      row: 16
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 25
+    opacity: 0.85
+    order: 0
+  - id: boar-ridge-hoof-2
+    textureKey: boar-hoof-trail-v1
+    position:
+      column: 6
+      row: 16
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 90
+    opacity: 0.85
+    order: 1
+  - id: boar-ridge-hoof-3
+    textureKey: boar-hoof-worn-v1
+    position:
+      column: 7
+      row: 16
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 30
+    opacity: 0.5
+    order: 2
+  - id: boar-ridge-hoof-4
+    textureKey: boar-hoof-pair-v1
+    position:
+      column: 11
+      row: 14
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 50
+    opacity: 0.85
+    order: 3
+  - id: boar-ridge-hoof-5
+    textureKey: boar-hoof-trail-v1
+    position:
+      column: 12
+      row: 14
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 90
+    opacity: 0.85
+    order: 4
+  - id: boar-ridge-hoof-6
+    textureKey: boar-hoof-worn-v1
+    position:
+      column: 13
+      row: 14
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 45
+    opacity: 0.5
+    order: 5
+  - id: boar-ridge-hoof-7
+    textureKey: boar-hoof-pair-v1
+    position:
+      column: 17
+      row: 6
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 0
+    opacity: 0.85
+    order: 6
+  - id: boar-ridge-hoof-8
+    textureKey: boar-hoof-trail-v1
+    position:
+      column: 17
+      row: 7
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 0
+    opacity: 0.85
+    order: 7
+  - id: boar-ridge-hoof-9
+    textureKey: boar-hoof-worn-v1
+    position:
+      column: 17
+      row: 8
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 5
+    opacity: 0.5
+    order: 8
+  - id: boar-ridge-hoof-10
+    textureKey: boar-hoof-pair-v1
+    position:
+      column: 19
+      row: 18
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 70
+    opacity: 0.85
+    order: 9
+  - id: boar-ridge-hoof-11
+    textureKey: boar-hoof-trail-v1
+    position:
+      column: 20
+      row: 18
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 90
+    opacity: 0.85
+    order: 10
+  - id: boar-ridge-hoof-12
+    textureKey: boar-hoof-worn-v1
+    position:
+      column: 21
+      row: 18
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 65
+    opacity: 0.5
+    order: 11
+  - id: boar-ridge-hoof-13
+    textureKey: boar-hoof-pair-v1
+    position:
+      column: 26
+      row: 15
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 95
+    opacity: 0.85
+    order: 12
+  - id: boar-ridge-hoof-14
+    textureKey: boar-hoof-trail-v1
+    position:
+      column: 27
+      row: 15
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 90
+    opacity: 0.85
+    order: 13
+  - id: boar-ridge-hoof-15
+    textureKey: boar-hoof-worn-v1
+    position:
+      column: 28
+      row: 15
+    offsetX: 0.5
+    offsetY: 0.5
+    scale: 0.7
+    rotation: 80
+    opacity: 0.5
+    order: 14

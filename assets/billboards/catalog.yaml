@@ -1465,7 +1465,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 19
   source_file:
     path: assets/billboards/berry-shrub-v1.png
     width: 128
@@ -1865,9 +1865,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.bramble-clump-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 5
+  map_references: []
   source_file:
     path: assets/billboards/bramble-clump-v1.png
     width: 128
@@ -1918,7 +1916,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 10
+    texture_key_occurrences: 21
   source_file:
     path: assets/billboards/bramble-variant-1-v1.png
     width: 128
@@ -2847,7 +2845,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 13
+    texture_key_occurrences: 22
   - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 8
   - path: assets/maps/field_tiles/dry-creek.yaml
@@ -3601,7 +3599,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 6
+    texture_key_occurrences: 10
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 4
   source_file:
@@ -4363,8 +4361,6 @@ billboards:
     management_id: image.scenery.old-stump-v1
     version: v1
   map_references:
-  - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 4
   source_file:
@@ -4802,7 +4798,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 6
+    texture_key_occurrences: 13
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 27
   source_file:
@@ -4856,7 +4852,7 @@ billboards:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 13
+    texture_key_occurrences: 12
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 33
   source_file:
@@ -5068,7 +5064,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 13
+    texture_key_occurrences: 19
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 22
   source_file:
@@ -5170,8 +5166,6 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 5
-  - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 3
   variant_features:
@@ -5344,7 +5338,7 @@ billboards:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 30
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -5405,7 +5399,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 7
+    texture_key_occurrences: 5
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 19
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -5529,7 +5523,7 @@ billboards:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 5
   - path: assets/maps/field_tiles/boar-ridge.yaml
-    texture_key_occurrences: 5
+    texture_key_occurrences: 6
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 18
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -5755,6 +5749,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/boar-ridge.yaml
+    texture_key_occurrences: 20
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 28
   source_file:
@@ -10256,6 +10252,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 10
+  - path: assets/maps/field_tiles/boar-ridge.yaml
+    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 25
   source_file:
@@ -10973,6 +10971,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 11
+  - path: assets/maps/field_tiles/boar-ridge.yaml
+    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 9
   - path: assets/maps/field_tiles/crystal-cut.yaml
@@ -12081,7 +12081,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-mill-ridge-weathered-stones-4-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/boar-ridge.yaml
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/field-mill-ridge-weathered-stones-4-v1.png
     width: 128

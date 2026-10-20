@@ -579,7 +579,7 @@ assets:
 - managementId: config.field-tiles.boar-ridge
   version: shared-material-codes-v2-contact-relocate-v2-root-ground-v1
   path: assets/maps/field_tiles/boar-ridge.yaml
-  sha256: 741df4d880283b946211f671a7e99e152037044b2295fa17bf9eaabbf8a39e45
+  sha256: 15d7862d55ce708d10d7fa820d4d554d2e49b3a9af67fbacb35493fb8ca731e1
   source:
     repository: slime-backend
     path: config/field_tiles/boar-ridge.yaml
@@ -1139,7 +1139,7 @@ assets:
 - managementId: config.terrain.maps.boar-ridge
   version: field-detail-v2
   path: assets/maps/terrain/maps/boar-ridge.yaml
-  sha256: c01631afb781edb025dc1c0f429df5714fb0545739532b0b18b83599c6d8ed93
+  sha256: a912bebbd4274924e453035040ff611420f4c2041dfc464aea937127910f1720
   source:
     repository: slime-backend
     path: config/terrain/maps/boar-ridge.yaml
@@ -7652,3 +7652,46 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-32-08283704/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.decal.boar-hoof-pair-v1
+  version: v1
+  path: assets/tiles/decals/boar-hoof-pair-v1.png
+  name: 멧돼지 발자국 선명한 한 쌍
+  width: 1254
+  height: 1254
+  sha256: 202ffc7b187b547c9963d07ee9274a5c39f97ee1e0876d03f0e541a5f71f124d
+  source:
+    repository: slime-workflow
+    path: .tmp/boar-decals-20261021/boar-hoof-pair-v1.png
+    operation: 내장 imagegen 생성, 투명 원본 채택
+
+- managementId: image.decal.boar-hoof-trail-v1
+  version: v1
+  path: assets/tiles/decals/boar-hoof-trail-v1.png
+  name: 멧돼지 발자국 짧은 보행 동선
+  width: 1254
+  height: 1254
+  sha256: 990329a8f7d46c12ad9eb1feb7880ab3eb37f1d5feadf2fcab2944ab995ac1fe
+  source:
+    repository: slime-workflow
+    path: .tmp/boar-decals-20261021/boar-hoof-trail-v1.png
+    operation: 내장 imagegen 생성, 투명 원본 채택
+
+- managementId: image.decal.boar-hoof-worn-v1
+  version: v1
+  path: assets/tiles/decals/boar-hoof-worn-v1.png
+  name: 멧돼지 발자국 마모된 오래된 흔적
+  width: 1254
+  height: 1254
+  sha256: 87343310d2a95082da7f9441591527bb02b50c1f9e1dd5d813a9390d6f9434fe
+  source:
+    repository: slime-workflow
+    path: .tmp/boar-decals-20261021/boar-hoof-worn-v1.png
+    operation: 내장 imagegen 생성, 투명 원본 채택
+
+- managementId: catalog.ground-decals
+  version: v1
+  path: assets/tiles/decals/catalog.yaml
+  sha256: d99cde7c1bbc02815406cd42e02555182d26c434b24aa9e27209f4cbd2821925
+  source:
+    repository: slime-workflow
+    operation: 멧돼지 발자국 데칼 3종 사용 기준 등록

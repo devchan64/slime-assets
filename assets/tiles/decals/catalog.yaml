@@ -1,0 +1,50 @@
+schema_version: 1
+decals:
+- id: boar-hoof-pair-v1
+  domain: decal
+  asset: assets/tiles/decals/boar-hoof-pair-v1.png
+  version: v1
+  usage: 선명한 한 쌍
+  ground:
+  - earth
+  - road
+  - leaf-litter
+  footprint:
+  - 1
+  - 1
+  opacity: 0.85
+  scale: 0.7
+  rotation: 0
+  blocksMovement: false
+- id: boar-hoof-trail-v1
+  domain: decal
+  asset: assets/tiles/decals/boar-hoof-trail-v1.png
+  version: v1
+  usage: 짧은 보행 동선
+  ground:
+  - earth
+  - road
+  - leaf-litter
+  footprint:
+  - 1
+  - 1
+  opacity: 0.85
+  scale: 0.7
+  rotation: 0
+  blocksMovement: false
+- id: boar-hoof-worn-v1
+  domain: decal
+  asset: assets/tiles/decals/boar-hoof-worn-v1.png
+  version: v1
+  usage: 마모된 오래된 흔적
+  ground:
+  - earth
+  - road
+  - leaf-litter
+  footprint:
+  - 1
+  - 1
+  opacity: 0.5
+  scale: 0.7
+  rotation: 0
+  blocksMovement: false
