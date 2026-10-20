@@ -69,3 +69,9 @@
 
 ## Billboard Asset Organization
 - 나무·식생·지면 장식 빌보드 원본은 `slime-assets/assets/billboards/`에서 관리한다. 구조물 경로와 구분하고 관리 ID·버전·출처·이미지 해시는 유지한다. 등록부·스프라이트 잠금 목록·카탈로그는 동일한 원본 경로를 참조한다.
+
+## Billboard Modeling Catalog
+- `assets/billboards/catalog.yaml`을 맵 제작의 주요 에셋 선택·배치 참고 자료로 유지한다. 에셋별 용도·배치 지침은 `modeling`에 구체적으로 기록하고 실제 이미지 검수 여부와 등록 명칭 기반 지침을 구분한다.
+- 원본 파일 정보·표시 높이·야외필드 배율 적용 높이·접지·앵커·통행 차단·실제 사용 맵을 함께 제공한다. PNG 해상도를 표시 크기로 취급하지 않는다.
+- 공용 기본값은 `assets/maps/sprite-display-properties.yaml`이 소유한다. 카탈로그의 파생 값을 독립 원본으로 수정하지 않는다. 속성이 없는 항목은 `설정 필요`로 명시하고 크기를 추정하지 않는다.
+- 신규 등록·공용 속성 변경·맵 배치 변경 후 slime-workflow의 `tools/review/maintenance/sync_billboard_catalog.py --write`와 `--check`로 동기화·검증한다. 기존 수동 `modeling` 설명을 보존한다. 사용법은 `assets/billboards/README.md`를 따른다.
