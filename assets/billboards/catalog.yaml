@@ -12246,11 +12246,11 @@ billboards:
     anchorY: 0.8238
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 64
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
     shadowScaleY: 1
-    outdoorDisplayHeight: 32.0
+    outdoorDisplayHeight: 60.0
     size_variant: 소형 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -12290,15 +12290,16 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-size-large-v1
-    anchorX: 0.4805
-    anchorY: 1.1081
+    anchorX: 0.52
+    anchorY: 1.04
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 160
+    displayHeight: 115.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
-    outdoorDisplayHeight: 80.0
+    shadowScaleY: 1.5
+    shadowScaleX: 1.35
+    outdoorDisplayHeight: 57.5
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -12339,14 +12340,15 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-pebble-shore-rope-coil-size-large-v1
     anchorX: 0.5176
-    anchorY: 1.0202
+    anchorY: 0.91
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 120
+    displayHeight: 94.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
-    outdoorDisplayHeight: 60.0
+    shadowScaleY: 1.5
+    shadowScaleX: 1.4
+    outdoorDisplayHeight: 47.0
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -12387,15 +12389,15 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-rooted-tree-1-v1
     anchorX: 0.4414
-    anchorY: 1.4118
+    anchorY: 1.8
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 300
+    displayHeight: 350.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleX: 1.5
-    shadowScaleY: 1
-    outdoorDisplayHeight: 150.0
+    shadowScaleX: 2.0
+    shadowScaleY: 2.0
+    outdoorDisplayHeight: 175.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -12436,7 +12438,7 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-2-v1
     anchorX: 0.4951
-    anchorY: 0.8825
+    anchorY: 0.7
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
@@ -12485,14 +12487,15 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-1-v1
     anchorX: 0.5062
-    anchorY: 0.88
+    anchorY: 0.8
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 64
+    displayHeight: 78.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
-    outdoorDisplayHeight: 32.0
+    shadowScaleY: 2.25
+    shadowScaleX: 2.1
+    outdoorDisplayHeight: 39.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -12534,7 +12537,7 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-wagon-wheel-4-v1
     anchorX: 0.5073
-    anchorY: 0.9509
+    anchorY: 0.8
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
@@ -12583,7 +12586,7 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-rope-waymark-4-v1
     anchorX: 0.5513
-    anchorY: 0.8484
+    anchorY: 0.61
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
@@ -12638,7 +12641,8 @@ billboards:
     displayHeight: 100
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
+    shadowScaleY: 2.0
+    shadowScaleX: 2.0
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12684,11 +12688,12 @@ billboards:
     anchorY: 0.9441
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 160
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
-    outdoorDisplayHeight: 80.0
+    shadowScaleY: 2.0
+    shadowScaleX: 2.0
+    outdoorDisplayHeight: 50.0
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 가능

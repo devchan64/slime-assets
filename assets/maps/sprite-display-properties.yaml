@@ -1869,19 +1869,20 @@ data:
     anchorY: 0.8238
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 64
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
     shadowScaleY: 1
   field-mist-lake-mooring-stone-size-large-v1:
-    anchorX: 0.4805
-    anchorY: 1.1081
+    anchorX: 0.52
+    anchorY: 1.04
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 160
+    displayHeight: 115.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
+    shadowScaleY: 1.5
+    shadowScaleX: 1.35
   apples-variant-1-v1:
     anchorX: 0.5
     anchorY: 0.92
@@ -2056,26 +2057,27 @@ data:
     shadowScaleY: 1
   field-pebble-shore-rope-coil-size-large-v1:
     anchorX: 0.5176
-    anchorY: 1.0202
+    anchorY: 0.91
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 120
+    displayHeight: 94.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
+    shadowScaleY: 1.5
+    shadowScaleX: 1.4
   field-root-trail-rooted-tree-1-v1:
     anchorX: 0.4414
-    anchorY: 1.4118
+    anchorY: 1.8
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 300
+    displayHeight: 350.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleX: 1.5
-    shadowScaleY: 1
+    shadowScaleX: 2.0
+    shadowScaleY: 2.0
   field-salt-causeway-repair-stakes-2-v1:
     anchorX: 0.4951
-    anchorY: 0.8825
+    anchorY: 0.7
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
@@ -2084,16 +2086,17 @@ data:
     shadowScaleY: 1
   field-mist-lake-mooring-stone-1-v1:
     anchorX: 0.5062
-    anchorY: 0.88
+    anchorY: 0.8
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 64
+    displayHeight: 78.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
+    shadowScaleY: 2.25
+    shadowScaleX: 2.1
   field-root-trail-wagon-wheel-4-v1:
     anchorX: 0.5073
-    anchorY: 0.9509
+    anchorY: 0.8
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
@@ -2102,7 +2105,7 @@ data:
     shadowScaleY: 1
   field-wind-hills-rope-waymark-4-v1:
     anchorX: 0.5513
-    anchorY: 0.8484
+    anchorY: 0.61
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
@@ -2117,16 +2120,18 @@ data:
     displayHeight: 100
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
+    shadowScaleY: 2.0
+    shadowScaleX: 2.0
   field-grove-cargo-crate-size-large-v1:
     anchorX: 0.5078
     anchorY: 0.9441
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 160
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-bottom-center
-    shadowScaleY: 1
+    shadowScaleY: 2.0
+    shadowScaleX: 2.0
   field-lantern-wood-lantern-stand-size-large-v1:
     anchorX: 0.4961
     anchorY: 0.8112
