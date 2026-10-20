@@ -631,9 +631,9 @@ assets:
     path: config/city_layouts/stonewarm.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.ash-edge
-  version: retire-stump-v1-contact-expand-v1-contact-relocate-v2
+  version: 2026-10-20-ash-recovery-v1
   path: assets/maps/field_tiles/ash-edge.yaml
-  sha256: a38adb9c21262cf7547a68c86d2cbbf5bd06a8e0bf3fef10dd6b992df3b6bfbf
+  sha256: 9eb4c6b161687603f5716e03a4dbef4b42e17820677dc057b805667fe60e0ce8
   source:
     repository: slime-backend
     path: config/field_tiles/ash-edge.yaml
@@ -655,9 +655,9 @@ assets:
     path: config/field_tiles/broken-quarry.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.cinder-path
-  version: cinder-remodel-v1-basalt-ground-v1
+  version: cinder-remodel-v1-basalt-ground-v1-ridge-remodel-v1
   path: assets/maps/field_tiles/cinder-path.yaml
-  sha256: 7b7fde3759af52a680aa241c1098f105923427a6f8c817ac15e8559895e7621f
+  sha256: 7b34e3a0cd83fd2bb4c9d3f8aa2c0ceec81855351f670e618d2081bbf14f4dd9
   source:
     repository: slime-backend
     path: config/field_tiles/cinder-path.yaml
@@ -1191,9 +1191,9 @@ assets:
     path: assets/maps/terrain/index.yaml
     operation: 도시·필드 확장 및 양방향 관문 연결
 - managementId: config.terrain.maps.ash-edge
-  version: v1
+  version: 2026-10-20-ash-recovery-v1
   path: assets/maps/terrain/maps/ash-edge.yaml
-  sha256: ff6fb3b282835d742305387bf837bd66bff9f156cc6c65606125e65e078738fb
+  sha256: 1a4555fb6b33c4d16bd0dc30553403a539318c7c2dcd93c7d89652521c5abdfa
   source:
     repository: slime-backend
     path: config/terrain/maps/ash-edge.yaml
@@ -1215,9 +1215,9 @@ assets:
     path: config/terrain/maps/broken-quarry.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.cinder-path
-  version: cinder-remodel-v1
+  version: cinder-remodel-v1-ridge-remodel-v1
   path: assets/maps/terrain/maps/cinder-path.yaml
-  sha256: 7190a9c318e8ca902d4c97dc9755c6123d6497394d3fdb3d80ae960e1cd315fc
+  sha256: ede1f7a7470044a915ae254093ca85c4e32083a8cc304272aee1c4cf1e239f99
   source:
     repository: slime-backend
     path: config/terrain/maps/cinder-path.yaml
@@ -7349,7 +7349,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 2e990f50e5a469c892a5c5d5506960852c40e38e792c4ce7c2ce178b9005d5d4
+  sha256: bc63bccdd40446b5d09541afe0feba4a0078552ed5fda1d01e569e1e51620725
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10693,3 +10693,91 @@ assets:
     repository: slime-workflow
     artifact: vegetation-generator/2026-10-20_09-37-36-a4b47ce7/result.png
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-meadow-field-flowers-4-v1
+  version: v1
+  path: assets/billboards/field-meadow-field-flowers-4-v1.png
+  name: 이슬 초원 · 낮은 들꽃 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 723b1ec377e721628d3c21d207ee365835ecdf82236ec025b7da729635ba9d4b
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-32-3793e3b1/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-moss-clearing-moss-rock-5-v1
+  version: v1
+  path: assets/billboards/field-moss-clearing-moss-rock-5-v1.png
+  name: 이끼 공터 · 이끼 바위 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: eb365b6006209aba0111d4248e8e7dc34d95868e60dee9771605abd75fc2acef
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-39-82f518fb/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-silver-marsh-silver-sedge-size-small-v1
+  version: v1
+  path: assets/billboards/field-silver-marsh-silver-sedge-size-small-v1.png
+  name: 은빛 습지 · 은빛 사초 · 소형 보완
+  width: 128
+  height: 128
+  sha256: ca1b8bd681b723fe948fd86d5ed514902b0945de75d611c8f3670c39f03a9e62
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-37-29-b1050f13/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-pebble-shore-rope-coil-size-large-v1
+  version: v1
+  path: assets/billboards/field-pebble-shore-rope-coil-size-large-v1.png
+  name: 조약돌 물가 · 해진 밧줄 · 대형 보완
+  width: 256
+  height: 256
+  sha256: 5fa30ddeac325912a58888abee173c09acf4bb438b5dc0e0f011a4b3d6d82005
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-37-31-78fc23a2/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-pebble-shore-twisted-driftwood-size-large-v1
+  version: v1
+  path: assets/billboards/field-pebble-shore-twisted-driftwood-size-large-v1.png
+  name: 조약돌 물가 · 뒤틀린 유목 · 대형 보완
+  width: 128
+  height: 128
+  sha256: 0ad75b007c07bae0bc9e49c82dbbc61314989ffd11bcbc42107ac03b18a96481
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-37-31-f0d2c6d9/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-windrow-road-wild-grain-size-small-v1
+  version: v1
+  path: assets/billboards/field-windrow-road-wild-grain-size-small-v1.png
+  name: 이삭바람길 · 야생 이삭 · 소형 보완
+  width: 128
+  height: 128
+  sha256: 047f04020e854a9fae967a63ae9e2c6784420811774feafe28eaf0fb9e306668
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-37-31-3694464b/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-windrow-road-hedgerow-shrub-size-large-v1
+  version: v1
+  path: assets/billboards/field-windrow-road-hedgerow-shrub-size-large-v1.png
+  name: 이삭바람길 · 생울타리 관목 · 대형 보완
+  width: 128
+  height: 128
+  sha256: bc0bd241967775f674c9e4ea479687b933cdaecb1f4d9c8b0f438ab48e9a07db
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-37-32-57ac260e/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-root-trail-rooted-tree-1-v1
+  version: v1
+  path: assets/billboards/field-root-trail-rooted-tree-1-v1.png
+  name: 뿌리 오솔길 · 뿌리 나무 · 변형 1/5
+  width: 256
+  height: 256
+  sha256: 0cc38b4c996afcfbe8eba3139abf859bf0b664df57a7926140df0b17c197edf2
+  source:
+    repository: slime-workflow
+    artifact: imagegen/call_c3990a0aa5774462b7782d030e877295/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.

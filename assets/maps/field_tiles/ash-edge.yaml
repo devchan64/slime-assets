@@ -1,1329 +1,2260 @@
 managementId: config.field-tiles.ash-edge
 data:
   rows:
-  - aaaaaaaaaaaaaalllggggggggggggggg
-  - aaaaaaaaaaaaaalllggggggggggggggg
-  - aaaaaaaaaaaaaalllggggggggggggggg
-  - aaaaaaaaaaaaaalllggggggggggggggg
-  - aaaaaaaaaaaaaalllggggggggggggggg
-  - aaaaaaaaaaaaaalllggggggggggggggg
-  - aaaaaaaaaaaaaalllggggggggggggggg
-  - aaaaagggaaaaaalllggggggggggggggg
-  - aaaaagggaaaaaalllggggggggggggggg
-  - aaaalggglaaaaalllgggggglgggggggg
-  - aaaaagggaaaaaalllggggggggggggggg
-  - aaaaalggaaaaaalllggggggggggggggg
-  - aaaaaagaaaaaaalllllllggggggggggg
-  - aaaaaaaaaaaaaaaalaaalggggggggggg
-  - aaaaaaaaaaaaaaaalaaalgggggggglll
-  - aaaaaaaaaaaaaaaaaaaalgggggggglaa
-  - aaaaaaaaaaaaaalaHHHHHHHHHHHHHHHH
-  - aaaaaaaaaaaaaaaaHHggggggggggglaa
-  - aaaaaaaaaaaaaaaaHgggggggggggglll
-  - aaaaaaaaaaaaaaaaHggggggggggggggg
-  - aaaaaaaaaaaaaallHggggggggggggggg
-  - aaaaaaaaaaaaaallHggggggggggggggg
-  - aaaaaaaaaaaaaallHggggggggggggggg
-  - aaaaaaaaaaaaaallHggggggggggggggg
-  - aaaaaaaaaaaaaallHggggggggggggggg
-  - aaaaaaaaaaaaaallHggggggggggggggg
-  - aaaaaaaaaaaaaallHggggggggggggggg
-  - aaaaaaaaaaaaaallHggggggggglggggg
-  - aaaaaaaaaaaaaallHggggggggggggggg
-  - aaaaaaaaaaaaaallHllggggggggggggg
-  - aaaaaaaaaaaaaalaHalggggggggggggg
-  - aaaaaaaaaaaaaalaHalggggggggggggg
+  - aaaaaaaaaaaaaaaegggggggggggggggg
+  - aaaaaaaaaaaaaaaellllgggggggggggg
+  - aaaaaaaaaaaaaaaeeeellggggggggggg
+  - aaaaaaaaaaaaaaaeeeelgggggggggggg
+  - aaaaaaaaaaaaaaaeeeelgeeegggggggg
+  - aaaaaaaaaaaaaaeeeelggeeegggggggg
+  - aaaaaaaaaaaaaaaaaelggeeegggggggg
+  - aaaagggggaaaaaaaaelgeeeeeggggggg
+  - aaaagggggaaaaaaaaelgggeggggggggg
+  - aaaagggggaaaaaaaelgggggggggggggg
+  - aaaagggggaaaaaaelggggggggggggggg
+  - aaaaagggaaaaaaelgggggggggggggggg
+  - aaaaaaaaaaaaaelggggggggggggggggg
+  - aaaaaaaaaaaaelgggggggggggggggggg
+  - aaaaaaaaaaaaelgggggggggggggggggg
+  - aaaaaaaaaaaaelgggggggggggHHHHHHH
+  - aaaaaaaaaaaaelllHHgggggHHHgggggH
+  - aaaaaaaaaaaaelllHHHHHHHHgggggggg
+  - aaaaaaaaaaaeelllgHgggggggggggggg
+  - aaaaaaaaaaaeeeelgHgggggggggggggg
+  - aaaaaaaaaaaaaeelgHgggggggggggggg
+  - aaaaaaaaaaaaaaaelHgggggggggggggg
+  - aaaaaaaaagggaaaeeHllgggggggggggg
+  - aaaaaaaagggggaaaHHeelggeeeeegggg
+  - aaaaaaaagggggaaaHeeelgggeeeggggg
+  - aaaaaaaagggggaaHHeelgggeeeeegggg
+  - aaaaaaaagggggaeHeelggggeeeeegggg
+  - aaaaaaaaaaaaaaaHeelgggggeeeggggg
+  - aaaaaaaaaaaaaaaHeegggggggggggggg
+  - aaaaaaaaaaaaaaaHelgggggggggggggg
+  - aaaaaaaaaaaaaaaHelgggggggggggggg
+  - aaaaaaaaaaaaaaaHHggggggggggggggg
   objects:
   - id: ward-tower
     kind: ward-tower
     position:
       column: 16
       row: 16
-  - id: ash-edge-decoration-1
-    kind: decoration
-    position:
-      column: 3
-      row: 4
-    textureKey: ash-edge-charred-regrowth-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-2
+  - id: ash-edge-recovery-001
     kind: decoration
     position:
       column: 8
-      row: 7
-    textureKey: ash-edge-charred-regrowth-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-3
-    kind: decoration
-    position:
-      column: 5
       row: 13
-    textureKey: ash-edge-charred-regrowth-v1
+    textureKey: field-silver-marsh-marsh-snag-1-v1
     tileAnchor: center
-  - id: ash-edge-decoration-4
+  - id: ash-edge-recovery-002
     kind: decoration
     position:
       column: 10
-      row: 20
-    textureKey: ash-edge-charred-regrowth-v1
+      row: 14
+    textureKey: field-silver-marsh-marsh-snag-1-v1
     tileAnchor: center
-  - id: ash-edge-decoration-5
+  - id: ash-edge-recovery-003
     kind: decoration
     position:
-      column: 4
-      row: 25
-    textureKey: ash-edge-charred-regrowth-v1
+      column: 11
+      row: 27
+    textureKey: field-silver-marsh-marsh-snag-1-v1
     tileAnchor: center
-  - id: ash-edge-decoration-6
-    kind: decoration
-    position:
-      column: 9
-      row: 29
-    textureKey: ash-edge-charred-regrowth-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-7
-    kind: decoration
-    position:
-      column: 12
-      row: 4
-    textureKey: ash-edge-charred-regrowth-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-8
+  - id: ash-edge-recovery-004
     kind: decoration
     position:
       column: 5
-      row: 8
-    textureKey: ash-edge-decomposer-log-v1
+      row: 3
+    textureKey: field-silver-marsh-marsh-snag-1-v1
     tileAnchor: center
-  - id: ash-edge-decoration-9
+  - id: ash-edge-recovery-005
+    kind: decoration
+    position:
+      column: 9
+      row: 16
+    textureKey: field-silver-marsh-marsh-snag-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-006
+    kind: decoration
+    position:
+      column: 5
+      row: 24
+    textureKey: field-silver-marsh-marsh-snag-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-007
+    kind: decoration
+    position:
+      column: 6
+      row: 22
+    textureKey: field-silver-marsh-marsh-snag-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-008
+    kind: decoration
+    position:
+      column: 10
+      row: 2
+    textureKey: field-silver-marsh-marsh-snag-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-009
+    kind: decoration
+    position:
+      column: 7
+      row: 5
+    textureKey: field-silver-marsh-marsh-snag-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-010
     kind: decoration
     position:
       column: 3
-      row: 19
-    textureKey: ash-edge-decomposer-log-v1
+      row: 7
+    textureKey: field-silver-marsh-marsh-snag-3-v1
     tileAnchor: center
-  - id: ash-edge-decoration-10
+  - id: ash-edge-recovery-011
     kind: decoration
     position:
-      column: 8
-      row: 24
-    textureKey: ash-edge-decomposer-log-v1
+      column: 11
+      row: 4
+    textureKey: cinder-path-snapped-sapling-v1
     tileAnchor: center
-  - id: ash-edge-decoration-11
+  - id: ash-edge-recovery-012
     kind: decoration
     position:
-      column: 12
-      row: 10
-    textureKey: ash-edge-decomposer-log-v1
+      column: 9
+      row: 11
+    textureKey: cinder-path-snapped-sapling-v1
     tileAnchor: center
-  - id: ash-edge-decoration-12
+  - id: ash-edge-recovery-013
     kind: decoration
     position:
-      column: 12
-      row: 27
-    textureKey: ash-edge-decomposer-log-v1
+      column: 4
+      row: 5
+    textureKey: cinder-path-snapped-sapling-v1
     tileAnchor: center
-  - id: ash-edge-decoration-13
+  - id: ash-edge-recovery-014
     kind: decoration
     position:
       column: 2
-      row: 10
-    textureKey: orchard-dead-tree-v2
+      row: 21
+    textureKey: cinder-path-snapped-sapling-v1
     tileAnchor: center
-  - id: ash-edge-decoration-14
+  - id: ash-edge-recovery-015
+    kind: decoration
+    position:
+      column: 14
+      row: 2
+    textureKey: cinder-path-snapped-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-016
+    kind: decoration
+    position:
+      column: 6
+      row: 16
+    textureKey: cinder-path-snapped-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-017
+    kind: decoration
+    position:
+      column: 14
+      row: 24
+    textureKey: cinder-path-snapped-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-018
+    kind: decoration
+    position:
+      column: 21
+      row: 30
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-019
+    kind: decoration
+    position:
+      column: 24
+      row: 25
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-020
+    kind: decoration
+    position:
+      column: 25
+      row: 11
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-021
+    kind: decoration
+    position:
+      column: 27
+      row: 29
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-022
+    kind: decoration
+    position:
+      column: 26
+      row: 23
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-023
+    kind: decoration
+    position:
+      column: 22
+      row: 23
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-024
+    kind: decoration
+    position:
+      column: 21
+      row: 6
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-025
+    kind: decoration
+    position:
+      column: 27
+      row: 4
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-026
+    kind: decoration
+    position:
+      column: 25
+      row: 21
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-027
+    kind: decoration
+    position:
+      column: 25
+      row: 5
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-028
+    kind: decoration
+    position:
+      column: 29
+      row: 28
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-029
+    kind: decoration
+    position:
+      column: 23
+      row: 29
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-030
+    kind: decoration
+    position:
+      column: 27
+      row: 17
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-031
+    kind: decoration
+    position:
+      column: 25
+      row: 30
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-032
+    kind: decoration
+    position:
+      column: 22
+      row: 2
+    textureKey: field-grove-broadleaf-tree-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-033
+    kind: decoration
+    position:
+      column: 24
+      row: 7
+    textureKey: field-grove-broadleaf-tree-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-034
+    kind: decoration
+    position:
+      column: 27
+      row: 12
+    textureKey: field-grove-broadleaf-tree-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-035
+    kind: decoration
+    position:
+      column: 22
+      row: 27
+    textureKey: field-grove-broadleaf-tree-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-036
+    kind: decoration
+    position:
+      column: 26
+      row: 26
+    textureKey: field-grove-broadleaf-tree-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-037
+    kind: decoration
+    position:
+      column: 29
+      row: 25
+    textureKey: field-grove-broadleaf-tree-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-038
+    kind: decoration
+    position:
+      column: 19
+      row: 29
+    textureKey: field-grove-broadleaf-tree-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-039
+    kind: decoration
+    position:
+      column: 24
+      row: 3
+    textureKey: field-grove-broadleaf-tree-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-040
+    kind: decoration
+    position:
+      column: 27
+      row: 8
+    textureKey: field-grove-broadleaf-tree-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-041
+    kind: decoration
+    position:
+      column: 28
+      row: 21
+    textureKey: field-grove-broadleaf-tree-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-042
+    kind: decoration
+    position:
+      column: 18
+      row: 25
+    textureKey: field-grove-broadleaf-tree-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-043
+    kind: decoration
+    position:
+      column: 10
+      row: 28
+    textureKey: ash-edge-decomposer-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-044
+    kind: decoration
+    position:
+      column: 7
+      row: 15
+    textureKey: ash-edge-decomposer-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-045
+    kind: decoration
+    position:
+      column: 6
+      row: 21
+    textureKey: ash-edge-decomposer-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-046
+    kind: decoration
+    position:
+      column: 5
+      row: 23
+    textureKey: ash-edge-decomposer-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-047
+    kind: decoration
+    position:
+      column: 2
+      row: 24
+    textureKey: ash-edge-decomposer-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-048
+    kind: decoration
+    position:
+      column: 11
+      row: 11
+    textureKey: ash-edge-decomposer-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-049
+    kind: decoration
+    position:
+      column: 3
+      row: 8
+    textureKey: ash-edge-decomposer-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-050
+    kind: decoration
+    position:
+      column: 3
+      row: 2
+    textureKey: ash-edge-decomposer-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-051
+    kind: decoration
+    position:
+      column: 18
+      row: 3
+    textureKey: ash-edge-scorched-waystone-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-052
+    kind: decoration
+    position:
+      column: 3
+      row: 4
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-053
+    kind: decoration
+    position:
+      column: 10
+      row: 27
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-054
+    kind: decoration
+    position:
+      column: 2
+      row: 3
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-055
+    kind: decoration
+    position:
+      column: 9
+      row: 5
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-056
+    kind: decoration
+    position:
+      column: 4
+      row: 21
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-057
+    kind: decoration
+    position:
+      column: 5
+      row: 4
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-058
+    kind: decoration
+    position:
+      column: 5
+      row: 17
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-059
+    kind: decoration
+    position:
+      column: 7
+      row: 26
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-060
+    kind: decoration
+    position:
+      column: 6
+      row: 5
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-061
+    kind: decoration
+    position:
+      column: 10
+      row: 15
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-062
+    kind: decoration
+    position:
+      column: 12
+      row: 2
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-063
+    kind: decoration
+    position:
+      column: 9
+      row: 12
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-064
+    kind: decoration
+    position:
+      column: 1
+      row: 26
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-065
+    kind: decoration
+    position:
+      column: 3
+      row: 5
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-066
+    kind: decoration
+    position:
+      column: 11
+      row: 12
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-067
+    kind: decoration
+    position:
+      column: 14
+      row: 7
+    textureKey: ash-edge-charred-regrowth-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-068
+    kind: decoration
+    position:
+      column: 11
+      row: 2
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-069
+    kind: decoration
+    position:
+      column: 9
+      row: 2
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-070
+    kind: decoration
+    position:
+      column: 13
+      row: 3
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-071
+    kind: decoration
+    position:
+      column: 8
+      row: 14
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-072
+    kind: decoration
+    position:
+      column: 7
+      row: 14
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-073
+    kind: decoration
+    position:
+      column: 4
+      row: 4
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-074
+    kind: decoration
+    position:
+      column: 9
+      row: 14
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-075
+    kind: decoration
+    position:
+      column: 11
+      row: 15
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-076
+    kind: decoration
+    position:
+      column: 8
+      row: 2
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-077
+    kind: decoration
+    position:
+      column: 7
+      row: 22
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-078
+    kind: decoration
+    position:
+      column: 10
+      row: 3
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-079
+    kind: decoration
+    position:
+      column: 13
+      row: 5
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-080
+    kind: decoration
+    position:
+      column: 8
+      row: 29
+    textureKey: cinder-path-split-stump-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-081
+    kind: decoration
+    position:
+      column: 10
+      row: 4
+    textureKey: cinder-path-buried-deadwood-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-082
+    kind: decoration
+    position:
+      column: 13
+      row: 29
+    textureKey: cinder-path-buried-deadwood-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-083
+    kind: decoration
+    position:
+      column: 9
+      row: 4
+    textureKey: cinder-path-buried-deadwood-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-084
+    kind: decoration
+    position:
+      column: 7
+      row: 6
+    textureKey: cinder-path-buried-deadwood-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-085
+    kind: decoration
+    position:
+      column: 6
+      row: 24
+    textureKey: cinder-path-buried-deadwood-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-086
     kind: decoration
     position:
       column: 7
       row: 3
-    textureKey: orchard-dead-tree-v2
+    textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: ash-edge-decoration-15
+  - id: ash-edge-recovery-087
+    kind: decoration
+    position:
+      column: 12
+      row: 5
+    textureKey: cinder-path-buried-deadwood-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-088
     kind: decoration
     position:
       column: 3
-      row: 28
-    textureKey: orchard-dead-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-16
-    kind: decoration
-    position:
-      column: 10
-      row: 13
-    textureKey: orchard-dead-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-17
-    kind: decoration
-    position:
-      column: 20
-      row: 18
-    textureKey: ash-edge-scorched-waystone-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-18
-    kind: decoration
-    position:
-      column: 20
-      row: 2
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-19
-    kind: decoration
-    position:
-      column: 25
-      row: 3
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-20
-    kind: decoration
-    position:
-      column: 29
-      row: 3
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-21
-    kind: decoration
-    position:
-      column: 20
-      row: 8
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-22
-    kind: decoration
-    position:
-      column: 26
-      row: 7
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-23
-    kind: decoration
-    position:
-      column: 28
-      row: 8
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-24
-    kind: decoration
-    position:
-      column: 21
-      row: 11
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-25
-    kind: decoration
-    position:
-      column: 26
-      row: 11
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-26
-    kind: decoration
-    position:
-      column: 29
-      row: 12
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-27
-    kind: decoration
-    position:
-      column: 21
-      row: 15
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-28
-    kind: decoration
-    position:
-      column: 26
-      row: 15
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-29
-    kind: decoration
-    position:
-      column: 27
-      row: 14
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-30
-    kind: decoration
-    position:
-      column: 20
-      row: 20
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-31
-    kind: decoration
-    position:
-      column: 25
-      row: 20
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-32
-    kind: decoration
-    position:
-      column: 30
-      row: 18
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-33
-    kind: decoration
-    position:
-      column: 20
-      row: 24
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-34
-    kind: decoration
-    position:
-      column: 26
       row: 23
-    textureKey: orchard-young-tree-v2
+    textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: ash-edge-decoration-35
+  - id: ash-edge-recovery-089
     kind: decoration
     position:
-      column: 30
-      row: 23
-    textureKey: orchard-young-tree-v2
+      column: 12
+      row: 29
+    textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: ash-edge-decoration-36
+  - id: ash-edge-recovery-090
     kind: decoration
     position:
-      column: 20
-      row: 27
-    textureKey: orchard-young-tree-v2
+      column: 13
+      row: 4
+    textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: ash-edge-decoration-37
+  - id: ash-edge-recovery-091
     kind: decoration
     position:
-      column: 24
-      row: 28
-    textureKey: orchard-young-tree-v2
-    tileAnchor: center
-  - id: ash-edge-decoration-38
-    kind: decoration
-    position:
-      column: 30
+      column: 13
       row: 26
-    textureKey: orchard-young-tree-v2
+    textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: ash-edge-decoration-39
+  - id: ash-edge-recovery-092
     kind: decoration
     position:
-      column: 14
-      row: 2
-    textureKey: orchard-chunky-grass-v1
+      column: 12
+      row: 13
+    textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: ash-edge-decoration-40
+  - id: ash-edge-recovery-093
     kind: decoration
     position:
-      column: 23
-      row: 2
-    textureKey: orchard-chunky-shrub-v1
+      column: 13
+      row: 28
+    textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: ash-edge-decoration-41
-    kind: decoration
-    position:
-      column: 26
-      row: 2
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-42
-    kind: decoration
-    position:
-      column: 29
-      row: 2
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-43
-    kind: decoration
-    position:
-      column: 14
-      row: 5
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-44
-    kind: decoration
-    position:
-      column: 17
-      row: 5
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-45
-    kind: decoration
-    position:
-      column: 24
-      row: 5
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-46
-    kind: decoration
-    position:
-      column: 26
-      row: 5
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-47
-    kind: decoration
-    position:
-      column: 2
-      row: 8
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-48
-    kind: decoration
-    position:
-      column: 14
-      row: 8
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-49
-    kind: decoration
-    position:
-      column: 17
-      row: 8
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-50
-    kind: decoration
-    position:
-      column: 29
-      row: 8
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-51
-    kind: decoration
-    position:
-      column: 2
-      row: 12
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-52
-    kind: decoration
-    position:
-      column: 10
-      row: 11
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-53
-    kind: decoration
-    position:
-      column: 14
-      row: 11
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-54
-    kind: decoration
-    position:
-      column: 29
-      row: 11
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-55
-    kind: decoration
-    position:
-      column: 20
-      row: 14
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-56
-    kind: decoration
-    position:
-      column: 23
-      row: 14
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-57
-    kind: decoration
-    position:
-      column: 26
-      row: 14
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-58
-    kind: decoration
-    position:
-      column: 29
-      row: 14
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-59
-    kind: decoration
-    position:
-      column: 5
-      row: 17
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-60
-    kind: decoration
-    position:
-      column: 8
-      row: 17
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-61
-    kind: decoration
-    position:
-      column: 23
-      row: 17
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-62
-    kind: decoration
-    position:
-      column: 26
-      row: 17
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-63
-    kind: decoration
-    position:
-      column: 29
-      row: 17
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-64
-    kind: decoration
-    position:
-      column: 1
-      row: 20
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-65
-    kind: decoration
-    position:
-      column: 8
-      row: 20
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-66
-    kind: decoration
-    position:
-      column: 23
-      row: 20
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-67
-    kind: decoration
-    position:
-      column: 26
-      row: 20
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-68
+  - id: ash-edge-recovery-094
     kind: decoration
     position:
       column: 8
       row: 22
-    textureKey: orchard-chunky-dryshrub-v1
+    textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: ash-edge-decoration-69
-    kind: decoration
-    position:
-      column: 20
-      row: 23
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-70
-    kind: decoration
-    position:
-      column: 23
-      row: 23
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-71
+  - id: ash-edge-recovery-095
     kind: decoration
     position:
       column: 10
-      row: 26
-    textureKey: orchard-chunky-dryshrub-v1
+      row: 10
+    textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: ash-edge-decoration-72
-    kind: decoration
-    position:
-      column: 14
-      row: 26
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-73
-    kind: decoration
-    position:
-      column: 17
-      row: 26
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-74
-    kind: decoration
-    position:
-      column: 23
-      row: 26
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-75
-    kind: decoration
-    position:
-      column: 29
-      row: 26
-    textureKey: orchard-chunky-fern-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-76
+  - id: ash-edge-recovery-096
     kind: decoration
     position:
       column: 11
-      row: 29
-    textureKey: orchard-chunky-dryshrub-v1
+      row: 3
+    textureKey: cinder-path-weathered-log-v1
     tileAnchor: center
-  - id: ash-edge-decoration-77
+  - id: ash-edge-recovery-097
     kind: decoration
     position:
-      column: 14
-      row: 29
-    textureKey: orchard-chunky-grass-v1
+      column: 12
+      row: 27
+    textureKey: cinder-path-weathered-log-v1
     tileAnchor: center
-  - id: ash-edge-decoration-78
-    kind: decoration
-    position:
-      column: 20
-      row: 29
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-79
-    kind: decoration
-    position:
-      column: 23
-      row: 29
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: ash-edge-decoration-80
-    kind: decoration
-    position:
-      column: 29
-      row: 29
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
-  - id: ash-edge-nature-81
-    kind: decoration
-    position:
-      column: 6
-      row: 10
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-nature-82
+  - id: ash-edge-recovery-098
     kind: decoration
     position:
       column: 3
-      row: 7
-    textureKey: dry-grass-variant-2-v1
+      row: 6
+    textureKey: cinder-path-weathered-log-v1
     tileAnchor: center
-  - id: ash-edge-nature-83
+  - id: ash-edge-recovery-099
     kind: decoration
     position:
-      column: 3
-      row: 21
-    textureKey: dry-grass-variant-1-v1
+      column: 7
+      row: 12
+    textureKey: cinder-path-weathered-log-v1
     tileAnchor: center
-  - id: ash-edge-nature-84
+  - id: ash-edge-recovery-100
+    kind: decoration
+    position:
+      column: 9
+      row: 13
+    textureKey: cinder-path-weathered-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-101
+    kind: decoration
+    position:
+      column: 9
+      row: 3
+    textureKey: cinder-path-weathered-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-102
+    kind: decoration
+    position:
+      column: 2
+      row: 20
+    textureKey: cinder-path-weathered-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-103
+    kind: decoration
+    position:
+      column: 11
+      row: 6
+    textureKey: cinder-path-weathered-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-104
+    kind: decoration
+    position:
+      column: 4
+      row: 6
+    textureKey: cinder-path-weathered-log-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-105
     kind: decoration
     position:
       column: 4
       row: 22
-    textureKey: dry-grass-variant-3-v1
+    textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: ash-edge-nature-85
+  - id: ash-edge-recovery-106
     kind: decoration
     position:
       column: 5
-      row: 23
-    textureKey: dry-grass-v1
+      row: 22
+    textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: ash-edge-nature-86
+  - id: ash-edge-recovery-107
     kind: decoration
     position:
-      column: 8
-      row: 13
-    textureKey: dry-grass-variant-1-v1
-    tileAnchor: center
-  - id: ash-edge-nature-87
-    kind: decoration
-    position:
-      column: 2
+      column: 5
       row: 6
-    textureKey: orchard-chunky-dryshrub-v1
+    textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: ash-edge-nature-88
+  - id: ash-edge-recovery-108
+    kind: decoration
+    position:
+      column: 12
+      row: 1
+    textureKey: cinder-path-cooled-rocks-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-109
+    kind: decoration
+    position:
+      column: 6
+      row: 6
+    textureKey: cinder-path-cooled-rocks-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-110
+    kind: decoration
+    position:
+      column: 6
+      row: 19
+    textureKey: cinder-path-cooled-rocks-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-111
     kind: decoration
     position:
       column: 11
-      row: 22
-    textureKey: dry-grass-variant-2-v1
+      row: 5
+    textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: ash-edge-nature-89
+  - id: ash-edge-recovery-112
     kind: decoration
     position:
       column: 3
-      row: 13
-    textureKey: orchard-chunky-dryshrub-v1
+      row: 21
+    textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: ash-edge-nature-90
+  - id: ash-edge-recovery-113
     kind: decoration
     position:
       column: 8
       row: 1
-    textureKey: orchard-chunky-dryshrub-v1
+    textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: ash-edge-nature-91
+  - id: ash-edge-recovery-114
     kind: decoration
     position:
-      column: 2
+      column: 26
       row: 13
-    textureKey: dry-grass-variant-1-v1
+    textureKey: field-grove-moss-log-size-small-v1
     tileAnchor: center
-  - id: ash-edge-nature-92
+  - id: ash-edge-recovery-115
+    kind: decoration
+    position:
+      column: 30
+      row: 28
+    textureKey: field-grove-moss-log-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-116
+    kind: decoration
+    position:
+      column: 22
+      row: 28
+    textureKey: field-grove-moss-log-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-117
+    kind: decoration
+    position:
+      column: 22
+      row: 30
+    textureKey: field-grove-moss-log-size-small-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-118
     kind: decoration
     position:
       column: 8
-      row: 5
-    textureKey: dry-grass-variant-3-v1
+      row: 28
+    textureKey: cinder-path-ash-pebbles-v1
     tileAnchor: center
-  - id: ash-edge-nature-93
+  - id: ash-edge-recovery-119
     kind: decoration
     position:
-      column: 7
-      row: 9
-    textureKey: dry-grass-v1
+      column: 13
+      row: 2
+    textureKey: cinder-path-ash-pebbles-v1
     tileAnchor: center
-  - id: ash-edge-nature-94
+  - id: ash-edge-recovery-120
+    kind: decoration
+    position:
+      column: 10
+      row: 16
+    textureKey: cinder-path-ash-pebbles-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-121
     kind: decoration
     position:
       column: 5
-      row: 28
-    textureKey: dry-grass-variant-1-v1
+      row: 13
+    textureKey: cinder-path-ash-pebbles-v1
     tileAnchor: center
-  - id: ash-edge-nature-95
+  - id: ash-edge-recovery-122
     kind: decoration
     position:
-      column: 10
-      row: 31
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-nature-96
-    kind: decoration
-    position:
-      column: 3
-      row: 14
-    textureKey: dry-grass-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-97
-    kind: decoration
-    position:
-      column: 2
-      row: 15
-    textureKey: dry-grass-variant-1-v1
-    tileAnchor: center
-  - id: ash-edge-nature-98
-    kind: decoration
-    position:
-      column: 7
-      row: 5
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: ash-edge-nature-99
-    kind: decoration
-    position:
-      column: 10
-      row: 27
-    textureKey: dry-grass-variant-1-v1
-    tileAnchor: center
-  - id: ash-edge-nature-100
-    kind: decoration
-    position:
-      column: 10
-      row: 17
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-nature-101
-    kind: decoration
-    position:
-      column: 3
+      column: 5
       row: 12
-    textureKey: dry-grass-v1
+    textureKey: cinder-path-ash-pebbles-v1
     tileAnchor: center
-  - id: ash-edge-nature-102
+  - id: ash-edge-recovery-123
     kind: decoration
     position:
-      column: 2
-      row: 26
-    textureKey: dry-grass-variant-2-v1
+      column: 13
+      row: 24
+    textureKey: cinder-path-ash-pebbles-v1
     tileAnchor: center
-  - id: ash-edge-nature-103
+  - id: ash-edge-recovery-124
+    kind: decoration
+    position:
+      column: 6
+      row: 13
+    textureKey: cinder-path-ash-pebbles-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-125
+    kind: decoration
+    position:
+      column: 10
+      row: 12
+    textureKey: cinder-path-ash-pebbles-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-126
+    kind: decoration
+    position:
+      column: 10
+      row: 13
+    textureKey: cinder-path-ash-pebbles-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-127
     kind: decoration
     position:
       column: 12
-      row: 13
-    textureKey: dry-grass-variant-3-v1
+      row: 17
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-104
+  - id: ash-edge-recovery-128
     kind: decoration
     position:
-      column: 5
-      row: 6
-    textureKey: orchard-chunky-dryshrub-v1
+      column: 12
+      row: 16
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-105
+  - id: ash-edge-recovery-129
     kind: decoration
     position:
-      column: 7
-      row: 19
-    textureKey: dry-grass-variant-1-v1
+      column: 11
+      row: 9
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-106
+  - id: ash-edge-recovery-130
+    kind: decoration
+    position:
+      column: 12
+      row: 18
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-131
+    kind: decoration
+    position:
+      column: 11
+      row: 29
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-132
     kind: decoration
     position:
       column: 9
-      row: 3
-    textureKey: dry-grass-variant-1-v1
-    tileAnchor: center
-  - id: ash-edge-nature-107
-    kind: decoration
-    position:
-      column: 5
-      row: 2
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: ash-edge-nature-108
-    kind: decoration
-    position:
-      column: 10
-      row: 10
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: ash-edge-nature-109
-    kind: decoration
-    position:
-      column: 18
-      row: 23
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-110
-    kind: decoration
-    position:
-      column: 14
-      row: 25
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-111
-    kind: decoration
-    position:
-      column: 13
-      row: 29
-    textureKey: seed-grass-v1
-    tileAnchor: center
-  - id: ash-edge-nature-112
-    kind: decoration
-    position:
-      column: 18
-      row: 2
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-113
-    kind: decoration
-    position:
-      column: 13
-      row: 25
-    textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: ash-edge-nature-114
-    kind: decoration
-    position:
-      column: 14
-      row: 3
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-115
-    kind: decoration
-    position:
-      column: 19
-      row: 9
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-116
-    kind: decoration
-    position:
-      column: 12
-      row: 25
-    textureKey: seed-grass-v1
-    tileAnchor: center
-  - id: ash-edge-nature-117
-    kind: decoration
-    position:
-      column: 13
-      row: 2
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-118
-    kind: decoration
-    position:
-      column: 12
-      row: 23
-    textureKey: seed-grass-v1
-    tileAnchor: center
-  - id: ash-edge-nature-119
-    kind: decoration
-    position:
-      column: 15
-      row: 9
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-120
-    kind: decoration
-    position:
-      column: 14
-      row: 6
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-121
-    kind: decoration
-    position:
-      column: 18
-      row: 4
-    textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: ash-edge-nature-122
-    kind: decoration
-    position:
-      column: 19
       row: 22
-    textureKey: young-sapling-v1
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-123
+  - id: ash-edge-recovery-133
     kind: decoration
     position:
-      column: 17
-      row: 2
-    textureKey: fern-clump-v1
+      column: 14
+      row: 18
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-124
+  - id: ash-edge-recovery-134
     kind: decoration
     position:
-      column: 18
-      row: 6
-    textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: ash-edge-nature-125
-    kind: decoration
-    position:
-      column: 17
+      column: 12
       row: 10
-    textureKey: fern-clump-v1
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-126
+  - id: ash-edge-recovery-135
     kind: decoration
     position:
       column: 16
-      row: 10
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-127
-    kind: decoration
-    position:
-      column: 15
-      row: 10
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-128
-    kind: decoration
-    position:
-      column: 12
-      row: 6
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-129
-    kind: decoration
-    position:
-      column: 18
       row: 3
-    textureKey: seed-grass-v1
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-130
-    kind: decoration
-    position:
-      column: 12
-      row: 29
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-131
-    kind: decoration
-    position:
-      column: 18
-      row: 28
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-132
-    kind: decoration
-    position:
-      column: 17
-      row: 11
-    textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: ash-edge-nature-133
-    kind: decoration
-    position:
-      column: 19
-      row: 3
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-134
-    kind: decoration
-    position:
-      column: 14
-      row: 9
-    textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: ash-edge-nature-135
-    kind: decoration
-    position:
-      column: 12
-      row: 8
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-136
-    kind: decoration
-    position:
-      column: 13
-      row: 6
-    textureKey: seed-grass-v1
-    tileAnchor: center
-  - id: ash-edge-nature-137
-    kind: decoration
-    position:
-      column: 13
-      row: 8
-    textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: ash-edge-nature-138
-    kind: decoration
-    position:
-      column: 18
-      row: 25
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-139
-    kind: decoration
-    position:
-      column: 19
-      row: 11
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-140
+  - id: ash-edge-recovery-136
     kind: decoration
     position:
       column: 11
       row: 25
-    textureKey: young-sapling-v1
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-141
+  - id: ash-edge-recovery-137
     kind: decoration
     position:
-      column: 25
-      row: 14
-    textureKey: mushroom-variant-1-v1
+      column: 10
+      row: 22
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-142
+  - id: ash-edge-recovery-138
+    kind: decoration
+    position:
+      column: 14
+      row: 11
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-139
     kind: decoration
     position:
       column: 22
-      row: 11
-    textureKey: fern-variant-1-v1
+      row: 6
+    textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-143
+  - id: ash-edge-recovery-140
+    kind: decoration
+    position:
+      column: 10
+      row: 8
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-141
+    kind: decoration
+    position:
+      column: 22
+      row: 4
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-142
+    kind: decoration
+    position:
+      column: 12
+      row: 3
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-143
+    kind: decoration
+    position:
+      column: 15
+      row: 3
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-144
+    kind: decoration
+    position:
+      column: 9
+      row: 19
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-145
+    kind: decoration
+    position:
+      column: 8
+      row: 23
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-146
+    kind: decoration
+    position:
+      column: 11
+      row: 24
+    textureKey: cinder-path-gray-green-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-147
+    kind: decoration
+    position:
+      column: 12
+      row: 7
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-148
+    kind: decoration
+    position:
+      column: 12
+      row: 21
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-149
+    kind: decoration
+    position:
+      column: 11
+      row: 7
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-150
+    kind: decoration
+    position:
+      column: 17
+      row: 6
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-151
+    kind: decoration
+    position:
+      column: 15
+      row: 9
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-152
+    kind: decoration
+    position:
+      column: 12
+      row: 4
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-153
+    kind: decoration
+    position:
+      column: 18
+      row: 7
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-154
     kind: decoration
     position:
       column: 21
-      row: 14
-    textureKey: fern-variant-1-v1
+      row: 2
+    textureKey: cinder-path-pioneer-shoots-v1
     tileAnchor: center
-  - id: ash-edge-nature-144
+  - id: ash-edge-recovery-155
+    kind: decoration
+    position:
+      column: 11
+      row: 10
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-156
+    kind: decoration
+    position:
+      column: 17
+      row: 5
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-157
+    kind: decoration
+    position:
+      column: 15
+      row: 19
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-158
+    kind: decoration
+    position:
+      column: 15
+      row: 5
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-159
+    kind: decoration
+    position:
+      column: 18
+      row: 9
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-160
+    kind: decoration
+    position:
+      column: 14
+      row: 23
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-161
+    kind: decoration
+    position:
+      column: 14
+      row: 20
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-162
+    kind: decoration
+    position:
+      column: 13
+      row: 10
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-163
+    kind: decoration
+    position:
+      column: 15
+      row: 22
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-164
+    kind: decoration
+    position:
+      column: 19
+      row: 10
+    textureKey: cinder-path-pioneer-shoots-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-165
+    kind: decoration
+    position:
+      column: 2
+      row: 22
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-166
+    kind: decoration
+    position:
+      column: 8
+      row: 11
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-167
+    kind: decoration
+    position:
+      column: 14
+      row: 4
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-168
+    kind: decoration
+    position:
+      column: 1
+      row: 21
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-169
+    kind: decoration
+    position:
+      column: 6
+      row: 3
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-170
+    kind: decoration
+    position:
+      column: 11
+      row: 13
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-171
+    kind: decoration
+    position:
+      column: 9
+      row: 30
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-172
+    kind: decoration
+    position:
+      column: 2
+      row: 23
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-173
+    kind: decoration
+    position:
+      column: 7
+      row: 30
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-174
+    kind: decoration
+    position:
+      column: 8
+      row: 5
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-175
+    kind: decoration
+    position:
+      column: 1
+      row: 25
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-176
+    kind: decoration
+    position:
+      column: 3
+      row: 11
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-177
+    kind: decoration
+    position:
+      column: 6
+      row: 14
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-178
+    kind: decoration
+    position:
+      column: 9
+      row: 8
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-179
+    kind: decoration
+    position:
+      column: 12
+      row: 15
+    textureKey: cinder-path-dry-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-180
+    kind: decoration
+    position:
+      column: 5
+      row: 5
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-181
+    kind: decoration
+    position:
+      column: 9
+      row: 29
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-182
+    kind: decoration
+    position:
+      column: 6
+      row: 2
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-183
+    kind: decoration
+    position:
+      column: 2
+      row: 7
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-184
+    kind: decoration
+    position:
+      column: 7
+      row: 24
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-185
+    kind: decoration
+    position:
+      column: 9
+      row: 17
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-186
+    kind: decoration
+    position:
+      column: 1
+      row: 22
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-187
+    kind: decoration
+    position:
+      column: 12
+      row: 12
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-188
+    kind: decoration
+    position:
+      column: 4
+      row: 20
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-189
+    kind: decoration
+    position:
+      column: 7
+      row: 13
+    textureKey: cinder-path-silver-shrub-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-190
+    kind: decoration
+    position:
+      column: 26
+      row: 25
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-191
+    kind: decoration
+    position:
+      column: 24
+      row: 14
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-192
+    kind: decoration
+    position:
+      column: 25
+      row: 26
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-193
+    kind: decoration
+    position:
+      column: 24
+      row: 22
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-194
+    kind: decoration
+    position:
+      column: 18
+      row: 29
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-195
+    kind: decoration
+    position:
+      column: 24
+      row: 23
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-196
+    kind: decoration
+    position:
+      column: 24
+      row: 24
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-197
+    kind: decoration
+    position:
+      column: 28
+      row: 26
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-198
+    kind: decoration
+    position:
+      column: 19
+      row: 27
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-199
+    kind: decoration
+    position:
+      column: 21
+      row: 26
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-200
+    kind: decoration
+    position:
+      column: 19
+      row: 26
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-201
+    kind: decoration
+    position:
+      column: 27
+      row: 30
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-202
+    kind: decoration
+    position:
+      column: 23
+      row: 3
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-203
+    kind: decoration
+    position:
+      column: 23
+      row: 30
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-204
+    kind: decoration
+    position:
+      column: 25
+      row: 1
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-205
+    kind: decoration
+    position:
+      column: 23
+      row: 12
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-206
+    kind: decoration
+    position:
+      column: 22
+      row: 24
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-207
+    kind: decoration
+    position:
+      column: 30
+      row: 25
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-208
+    kind: decoration
+    position:
+      column: 29
+      row: 13
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-209
+    kind: decoration
+    position:
+      column: 22
+      row: 13
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-210
+    kind: decoration
+    position:
+      column: 23
+      row: 9
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-211
+    kind: decoration
+    position:
+      column: 25
+      row: 28
+    textureKey: field-meadow-dew-grass-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-212
     kind: decoration
     position:
       column: 27
       row: 23
-    textureKey: fern-variant-1-v1
+    textureKey: field-meadow-dew-grass-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-145
+  - id: ash-edge-recovery-213
     kind: decoration
     position:
-      column: 21
-      row: 20
-    textureKey: fern-variant-2-v1
+      column: 23
+      row: 26
+    textureKey: field-meadow-dew-grass-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-146
+  - id: ash-edge-recovery-214
+    kind: decoration
+    position:
+      column: 25
+      row: 24
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-215
     kind: decoration
     position:
       column: 24
-      row: 7
-    textureKey: young-sapling-v1
+      row: 5
+    textureKey: field-meadow-dew-grass-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-147
+  - id: ash-edge-recovery-216
+    kind: decoration
+    position:
+      column: 26
+      row: 3
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-217
+    kind: decoration
+    position:
+      column: 25
+      row: 4
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-218
+    kind: decoration
+    position:
+      column: 22
+      row: 20
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-219
+    kind: decoration
+    position:
+      column: 28
+      row: 23
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-220
+    kind: decoration
+    position:
+      column: 26
+      row: 28
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-221
     kind: decoration
     position:
       column: 20
-      row: 6
-    textureKey: fern-variant-2-v1
+      row: 8
+    textureKey: field-meadow-dew-grass-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-148
+  - id: ash-edge-recovery-222
+    kind: decoration
+    position:
+      column: 20
+      row: 25
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-223
+    kind: decoration
+    position:
+      column: 22
+      row: 5
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-224
+    kind: decoration
+    position:
+      column: 25
+      row: 25
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-225
+    kind: decoration
+    position:
+      column: 30
+      row: 11
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-226
+    kind: decoration
+    position:
+      column: 23
+      row: 14
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-227
+    kind: decoration
+    position:
+      column: 22
+      row: 11
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-228
+    kind: decoration
+    position:
+      column: 30
+      row: 12
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-229
+    kind: decoration
+    position:
+      column: 25
+      row: 2
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-230
+    kind: decoration
+    position:
+      column: 30
+      row: 20
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-231
+    kind: decoration
+    position:
+      column: 27
+      row: 6
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-232
+    kind: decoration
+    position:
+      column: 19
+      row: 30
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-233
+    kind: decoration
+    position:
+      column: 28
+      row: 7
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-234
+    kind: decoration
+    position:
+      column: 24
+      row: 27
+    textureKey: field-meadow-dew-grass-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-235
+    kind: decoration
+    position:
+      column: 29
+      row: 29
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-236
+    kind: decoration
+    position:
+      column: 27
+      row: 28
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-237
+    kind: decoration
+    position:
+      column: 23
+      row: 13
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-238
+    kind: decoration
+    position:
+      column: 23
+      row: 28
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-239
+    kind: decoration
+    position:
+      column: 27
+      row: 7
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-240
+    kind: decoration
+    position:
+      column: 25
+      row: 27
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-241
+    kind: decoration
+    position:
+      column: 29
+      row: 26
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-242
+    kind: decoration
+    position:
+      column: 25
+      row: 3
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-243
+    kind: decoration
+    position:
+      column: 28
+      row: 10
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-244
+    kind: decoration
+    position:
+      column: 24
+      row: 28
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-245
+    kind: decoration
+    position:
+      column: 24
+      row: 30
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-246
+    kind: decoration
+    position:
+      column: 23
+      row: 4
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-247
+    kind: decoration
+    position:
+      column: 23
+      row: 23
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-248
+    kind: decoration
+    position:
+      column: 17
+      row: 30
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-249
+    kind: decoration
+    position:
+      column: 26
+      row: 10
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-250
+    kind: decoration
+    position:
+      column: 29
+      row: 3
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-251
+    kind: decoration
+    position:
+      column: 25
+      row: 19
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-252
+    kind: decoration
+    position:
+      column: 23
+      row: 6
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-253
+    kind: decoration
+    position:
+      column: 18
+      row: 28
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-254
+    kind: decoration
+    position:
+      column: 18
+      row: 26
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-255
+    kind: decoration
+    position:
+      column: 20
+      row: 1
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-256
+    kind: decoration
+    position:
+      column: 22
+      row: 1
+    textureKey: field-meadow-dew-grass-5-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-257
+    kind: decoration
+    position:
+      column: 20
+      row: 30
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-258
+    kind: decoration
+    position:
+      column: 24
+      row: 6
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-259
+    kind: decoration
+    position:
+      column: 25
+      row: 23
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-260
+    kind: decoration
+    position:
+      column: 25
+      row: 13
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-261
+    kind: decoration
+    position:
+      column: 26
+      row: 11
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-262
+    kind: decoration
+    position:
+      column: 27
+      row: 24
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-263
+    kind: decoration
+    position:
+      column: 23
+      row: 8
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-264
+    kind: decoration
+    position:
+      column: 25
+      row: 8
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-265
+    kind: decoration
+    position:
+      column: 28
+      row: 24
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-266
+    kind: decoration
+    position:
+      column: 26
+      row: 17
+    textureKey: field-lantern-wood-shade-ferns-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-267
+    kind: decoration
+    position:
+      column: 23
+      row: 22
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-268
+    kind: decoration
+    position:
+      column: 21
+      row: 4
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-269
+    kind: decoration
+    position:
+      column: 22
+      row: 14
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-270
+    kind: decoration
+    position:
+      column: 29
+      row: 30
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-271
+    kind: decoration
+    position:
+      column: 26
+      row: 24
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-272
+    kind: decoration
+    position:
+      column: 30
+      row: 29
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-273
+    kind: decoration
+    position:
+      column: 18
+      row: 30
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-274
+    kind: decoration
+    position:
+      column: 24
+      row: 9
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-275
+    kind: decoration
+    position:
+      column: 26
+      row: 20
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-276
+    kind: decoration
+    position:
+      column: 27
+      row: 2
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-277
+    kind: decoration
+    position:
+      column: 19
+      row: 7
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-278
+    kind: decoration
+    position:
+      column: 27
+      row: 13
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-279
+    kind: decoration
+    position:
+      column: 26
+      row: 9
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-280
+    kind: decoration
+    position:
+      column: 28
+      row: 17
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-281
+    kind: decoration
+    position:
+      column: 21
+      row: 10
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-282
+    kind: decoration
+    position:
+      column: 25
+      row: 6
+    textureKey: young-sapling-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-283
+    kind: decoration
+    position:
+      column: 13
+      row: 8
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-284
+    kind: decoration
+    position:
+      column: 16
+      row: 4
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-285
+    kind: decoration
+    position:
+      column: 18
+      row: 6
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-286
+    kind: decoration
+    position:
+      column: 13
+      row: 6
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-287
+    kind: decoration
+    position:
+      column: 11
+      row: 20
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-288
+    kind: decoration
+    position:
+      column: 12
+      row: 28
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-289
+    kind: decoration
+    position:
+      column: 20
+      row: 4
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-290
+    kind: decoration
+    position:
+      column: 10
+      row: 26
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-291
+    kind: decoration
+    position:
+      column: 10
+      row: 9
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-292
+    kind: decoration
+    position:
+      column: 12
+      row: 9
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-293
+    kind: decoration
+    position:
+      column: 10
+      row: 5
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-294
+    kind: decoration
+    position:
+      column: 10
+      row: 23
+    textureKey: orchard-chunky-grass-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-295
     kind: decoration
     position:
       column: 24
       row: 4
-    textureKey: mushroom-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-149
-    kind: decoration
-    position:
-      column: 29
-      row: 20
-    textureKey: mushroom-variant-3-v1
-    tileAnchor: center
-  - id: ash-edge-nature-150
-    kind: decoration
-    position:
-      column: 25
-      row: 28
-    textureKey: seed-grass-v1
-    tileAnchor: center
-  - id: ash-edge-nature-151
-    kind: decoration
-    position:
-      column: 21
-      row: 22
     textureKey: fern-variant-1-v1
     tileAnchor: center
-  - id: ash-edge-nature-152
-    kind: decoration
-    position:
-      column: 27
-      row: 10
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-153
-    kind: decoration
-    position:
-      column: 23
-      row: 9
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-154
-    kind: decoration
-    position:
-      column: 25
-      row: 9
-    textureKey: log-variant-1-v1
-    tileAnchor: center
-  - id: ash-edge-nature-155
-    kind: decoration
-    position:
-      column: 23
-      row: 22
-    textureKey: seed-grass-v1
-    tileAnchor: center
-  - id: ash-edge-nature-156
-    kind: decoration
-    position:
-      column: 27
-      row: 25
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-157
+  - id: ash-edge-recovery-296
     kind: decoration
     position:
       column: 26
       row: 21
     textureKey: fern-variant-1-v1
     tileAnchor: center
-  - id: ash-edge-nature-158
+  - id: ash-edge-recovery-297
+    kind: decoration
+    position:
+      column: 28
+      row: 12
+    textureKey: fern-variant-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-298
+    kind: decoration
+    position:
+      column: 27
+      row: 21
+    textureKey: fern-variant-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-299
+    kind: decoration
+    position:
+      column: 20
+      row: 28
+    textureKey: fern-variant-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-300
+    kind: decoration
+    position:
+      column: 29
+      row: 27
+    textureKey: fern-variant-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-301
+    kind: decoration
+    position:
+      column: 26
+      row: 7
+    textureKey: fern-variant-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-302
+    kind: decoration
+    position:
+      column: 26
+      row: 5
+    textureKey: fern-variant-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-303
+    kind: decoration
+    position:
+      column: 28
+      row: 28
+    textureKey: fern-variant-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-304
+    kind: decoration
+    position:
+      column: 20
+      row: 7
+    textureKey: fern-variant-1-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-305
     kind: decoration
     position:
       column: 22
       row: 12
-    textureKey: fern-variant-1-v1
+    textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-159
-    kind: decoration
-    position:
-      column: 22
-      row: 9
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-160
+  - id: ash-edge-recovery-306
     kind: decoration
     position:
       column: 26
-      row: 24
-    textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: ash-edge-nature-161
-    kind: decoration
-    position:
-      column: 23
-      row: 24
-    textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: ash-edge-nature-162
-    kind: decoration
-    position:
-      column: 27
-      row: 28
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-163
-    kind: decoration
-    position:
-      column: 22
-      row: 29
-    textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: ash-edge-nature-164
-    kind: decoration
-    position:
-      column: 22
-      row: 8
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-165
-    kind: decoration
-    position:
-      column: 22
-      row: 5
-    textureKey: stump-variant-1-v1
-    tileAnchor: center
-  - id: ash-edge-nature-166
-    kind: decoration
-    position:
-      column: 27
-      row: 26
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-167
-    kind: decoration
-    position:
-      column: 22
-      row: 28
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-168
-    kind: decoration
-    position:
-      column: 27
-      row: 7
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-169
-    kind: decoration
-    position:
-      column: 21
       row: 27
-    textureKey: fern-variant-1-v1
+    textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-170
+  - id: ash-edge-recovery-307
     kind: decoration
     position:
-      column: 20
-      row: 9
-    textureKey: fern-variant-2-v1
+      column: 22
+      row: 7
+    textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-171
+  - id: ash-edge-recovery-308
     kind: decoration
     position:
-      column: 23
-      row: 18
-    textureKey: seed-grass-v1
+      column: 22
+      row: 15
+    textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-172
-    kind: decoration
-    position:
-      column: 27
-      row: 21
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-173
-    kind: decoration
-    position:
-      column: 23
-      row: 10
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-174
-    kind: decoration
-    position:
-      column: 24
-      row: 22
-    textureKey: seed-grass-v1
-    tileAnchor: center
-  - id: ash-edge-nature-175
-    kind: decoration
-    position:
-      column: 21
-      row: 25
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: ash-edge-nature-176
-    kind: decoration
-    position:
-      column: 20
-      row: 4
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-177
-    kind: decoration
-    position:
-      column: 21
-      row: 26
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: ash-edge-nature-178
-    kind: decoration
-    position:
-      column: 21
-      row: 21
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-179
-    kind: decoration
-    position:
-      column: 29
-      row: 19
-    textureKey: young-sapling-v1
-    tileAnchor: center
-  - id: ash-edge-nature-180
+  - id: ash-edge-recovery-309
     kind: decoration
     position:
       column: 28
-      row: 3
-    textureKey: fern-variant-1-v1
+      row: 27
+    textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-181
+  - id: ash-edge-recovery-310
     kind: decoration
     position:
-      column: 24
-      row: 11
-    textureKey: seed-grass-v1
+      column: 23
+      row: 25
+    textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-182
+  - id: ash-edge-recovery-311
     kind: decoration
     position:
-      column: 20
-      row: 21
-    textureKey: fern-variant-1-v1
+      column: 21
+      row: 1
+    textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-183
+  - id: ash-edge-recovery-312
+    kind: decoration
+    position:
+      column: 21
+      row: 5
+    textureKey: fern-variant-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-313
     kind: decoration
     position:
       column: 29
-      row: 7
-    textureKey: fern-variant-2-v1
+      row: 5
+    textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: ash-edge-nature-184
+  - id: ash-edge-recovery-314
     kind: decoration
     position:
       column: 20
+      row: 26
+    textureKey: fern-variant-3-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-315
+    kind: decoration
+    position:
+      column: 23
       row: 5
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-316
+    kind: decoration
+    position:
+      column: 22
+      row: 3
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: ash-edge-recovery-317
+    kind: decoration
+    position:
+      column: 28
+      row: 11
     textureKey: mushroom-cluster-v1
     tileAnchor: center

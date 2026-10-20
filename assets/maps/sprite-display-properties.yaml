@@ -965,7 +965,7 @@ data:
     anchorY: 0.63
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 170
+    displayHeight: 80
     billboardPlacementAnchor: top
     billboardBlocksMovement: false
   ash-edge-decomposer-log-v1:
@@ -1085,7 +1085,7 @@ data:
     anchorY: 0.94
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   orchard-dead-tree-variant-2-v2:
@@ -1093,7 +1093,7 @@ data:
     anchorY: 0.94
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   town-low-fence-v1:
@@ -1293,7 +1293,7 @@ data:
     anchorY: 0.87
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   quarry-hand-winch-v1:
@@ -1858,7 +1858,7 @@ data:
     anchorY: 0.933594
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   field-pebble-shore-rounded-pebbles-1-v1:
@@ -2098,7 +2098,7 @@ data:
     anchorY: 0.929688
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   field-pebble-shore-rounded-pebbles-2-v1:
@@ -2394,7 +2394,7 @@ data:
     anchorY: 0.98
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   field-pebble-shore-rounded-pebbles-3-v1:
@@ -2618,7 +2618,7 @@ data:
     anchorY: 0.9375
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   field-pebble-shore-rounded-pebbles-4-v1:
@@ -2858,7 +2858,7 @@ data:
     anchorY: 0.978516
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   field-pebble-shore-rope-coil-5-v1:
@@ -3410,7 +3410,7 @@ data:
     anchorY: 0.933594
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   orchard-dead-tree-variant-1-v1:
@@ -3418,7 +3418,7 @@ data:
     anchorY: 0.96875
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   orchard-dead-tree-variant-2-v1:
@@ -3426,7 +3426,7 @@ data:
     anchorY: 0.980469
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   orchard-old-tree-v1:
@@ -3621,3 +3621,67 @@ data:
     displayHeight: 120
     billboardPlacementAnchor: top
     billboardBlocksMovement: false
+  field-meadow-field-flowers-4-v1:
+    anchorX: 0.499023
+    anchorY: 0.800781
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 64
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-moss-clearing-moss-rock-5-v1:
+    anchorX: 0.498047
+    anchorY: 0.947266
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 110
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-silver-marsh-silver-sedge-size-small-v1:
+    anchorX: 0.498047
+    anchorY: 0.931641
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 56
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-pebble-shore-rope-coil-size-large-v1:
+    anchorX: 0.481445
+    anchorY: 0.837891
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 120
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-pebble-shore-twisted-driftwood-size-large-v1:
+    anchorX: 0.498047
+    anchorY: 0.890625
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 140
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-windrow-road-wild-grain-size-small-v1:
+    anchorX: 0.466797
+    anchorY: 0.830078
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 56
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-windrow-road-hedgerow-shrub-size-large-v1:
+    anchorX: 0.503906
+    anchorY: 0.849609
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 120
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-root-trail-rooted-tree-1-v1:
+    anchorX: 0.52193
+    anchorY: 0.966507
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 300
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true

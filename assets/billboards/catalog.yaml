@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 438
+  image_count: 446
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-20'
@@ -2895,6 +2895,70 @@ families:
     - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
+  field-meadow-field-flowers-4-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이슬 초원 · 낮은 들꽃 · 변형 4/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - meadow 야외 필드 배치 후보
+  field-moss-clearing-moss-rock-5-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이끼 공터 · 이끼 바위 · 변형 5/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - moss-clearing 야외 필드 배치 후보
+  field-silver-marsh-silver-sedge-size-small-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 은빛 습지 · 은빛 사초 · 소형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - silver-marsh 야외 필드 배치 후보
+  field-pebble-shore-rope-coil-size-large-v1:
+    category: prop
+    review_category: props
+    name: 조약돌 물가 · 해진 밧줄 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - pebble-shore 야외 필드 배치 후보
+  field-pebble-shore-twisted-driftwood-size-large-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 조약돌 물가 · 뒤틀린 유목 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - pebble-shore 야외 필드 배치 후보
+  field-windrow-road-wild-grain-size-small-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이삭바람길 · 야생 이삭 · 소형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - windrow-road 야외 필드 배치 후보
+  field-windrow-road-hedgerow-shrub-size-large-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이삭바람길 · 생울타리 관목 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - windrow-road 야외 필드 배치 후보
+  field-root-trail-rooted-tree-1-v1:
+    category: tree
+    review_category: vegetation
+    name: 뿌리 오솔길 · 뿌리 나무 · 변형 1/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - root-trail 야외 필드 배치 후보
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -4038,7 +4102,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 15
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 21
   source_file:
@@ -4078,8 +4142,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 13
   - path: assets/maps/field_tiles/brine-bank.yaml
@@ -4127,8 +4189,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 4
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 8
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 9
   - path: assets/maps/field_tiles/dry-creek.yaml
@@ -4172,8 +4232,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 3
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 25
   - path: assets/maps/field_tiles/dry-creek.yaml
@@ -4219,8 +4277,6 @@ billboards:
     texture_key_occurrences: 11
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 17
   - path: assets/maps/field_tiles/crystal-cut.yaml
@@ -4539,8 +4595,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 6
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 34
   source_file:
@@ -4581,7 +4635,7 @@ billboards:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 12
+    texture_key_occurrences: 10
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 36
   source_file:
@@ -4621,8 +4675,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 13
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 17
   - path: assets/maps/field_tiles/fallen-canopy.yaml
@@ -4663,7 +4715,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 6
+    texture_key_occurrences: 10
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 34
   source_file:
@@ -4703,8 +4755,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 7
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 32
   source_file:
@@ -5041,8 +5091,6 @@ billboards:
     management_id: image.scenery.log-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 4
   source_file:
@@ -5155,7 +5203,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 8
   source_file:
@@ -5193,8 +5241,6 @@ billboards:
     management_id: image.scenery.mushroom-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 9
   source_file:
@@ -5234,8 +5280,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 8
   source_file:
@@ -5273,8 +5317,6 @@ billboards:
     management_id: image.scenery.mushroom-variant-3-v1
     version: v1
   map_references:
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 5
   source_file:
@@ -5314,8 +5356,6 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 4
   source_file:
@@ -5823,8 +5863,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 18
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 6
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -5866,8 +5904,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 12
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 13
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -6028,8 +6064,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 8
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 13
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -6092,10 +6126,10 @@ billboards:
     anchorY: 0.933594
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -6105,12 +6139,8 @@ billboards:
     management_id: image.scenery.orchard-dead-tree-v2
     version: v2
   map_references:
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 3
   variant_features:
@@ -6139,10 +6169,10 @@ billboards:
     anchorY: 0.87
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -6175,10 +6205,10 @@ billboards:
     anchorY: 0.96875
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -6218,10 +6248,10 @@ billboards:
     anchorY: 0.94
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -6254,10 +6284,10 @@ billboards:
     anchorY: 0.980469
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -6295,10 +6325,10 @@ billboards:
     anchorY: 0.94
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -6595,8 +6625,6 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 21
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 5
   - path: assets/maps/field_tiles/fallen-canopy.yaml
@@ -7033,8 +7061,6 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/seed-grass-v1.png
     width: 128
@@ -7349,8 +7375,6 @@ billboards:
     management_id: image.scenery.stump-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 9
   source_file:
@@ -10526,9 +10550,9 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 7
+    texture_key_occurrences: 16
   - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/ash-edge-charred-regrowth-v1.png
     width: 128
@@ -10551,10 +10575,10 @@ billboards:
     anchorY: 0.63
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 170
+    displayHeight: 80
     billboardPlacementAnchor: top
     billboardBlocksMovement: false
-    outdoorDisplayHeight: 85.0
+    outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -10565,7 +10589,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 5
+    texture_key_occurrences: 8
   source_file:
     path: assets/billboards/ash-edge-decomposer-log-v1.png
     width: 128
@@ -10825,8 +10849,10 @@ billboards:
     management_id: image.scenery.cinder-path-cooled-rocks-v1
     version: v1
   map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 9
   - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 9
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 60
   source_file:
@@ -10864,8 +10890,10 @@ billboards:
     management_id: image.scenery.cinder-path-buried-deadwood-v1
     version: v1
   map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 15
   - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/cinder-path-buried-deadwood-v1.png
     width: 128
@@ -10938,8 +10966,10 @@ billboards:
     management_id: image.scenery.cinder-path-gray-green-shoots-v1
     version: v1
   map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 20
   - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 21
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/cinder-path-gray-green-shoots-v1.png
     width: 128
@@ -10976,7 +11006,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 7
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/cinder-path-basalt-outcrop-v1.png
     width: 128
@@ -11572,7 +11602,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.cinder-path-basalt-pillars-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/cinder-path-basalt-pillars-v1.png
     width: 128
@@ -11607,7 +11639,11 @@ billboards:
   asset_ref:
     management_id: image.scenery.cinder-path-ash-pebbles-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 9
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/cinder-path-ash-pebbles-v1.png
     width: 128
@@ -11642,7 +11678,11 @@ billboards:
   asset_ref:
     management_id: image.scenery.cinder-path-weathered-log-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 9
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/cinder-path-weathered-log-v1.png
     width: 128
@@ -11677,7 +11717,11 @@ billboards:
   asset_ref:
     management_id: image.scenery.cinder-path-split-stump-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 13
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/cinder-path-split-stump-v1.png
     width: 128
@@ -11712,7 +11756,11 @@ billboards:
   asset_ref:
     management_id: image.scenery.cinder-path-snapped-sapling-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 7
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/cinder-path-snapped-sapling-v1.png
     width: 128
@@ -11747,7 +11795,11 @@ billboards:
   asset_ref:
     management_id: image.scenery.cinder-path-pioneer-shoots-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 18
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 11
   source_file:
     path: assets/billboards/cinder-path-pioneer-shoots-v1.png
     width: 128
@@ -11782,7 +11834,11 @@ billboards:
   asset_ref:
     management_id: image.scenery.cinder-path-dry-grass-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 15
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 11
   source_file:
     path: assets/billboards/cinder-path-dry-grass-v1.png
     width: 128
@@ -11817,7 +11873,11 @@ billboards:
   asset_ref:
     management_id: image.scenery.cinder-path-silver-shrub-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 10
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 11
   source_file:
     path: assets/billboards/cinder-path-silver-shrub-v1.png
     width: 128
@@ -11852,7 +11912,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-meadow-dew-grass-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 22
   source_file:
     path: assets/billboards/field-meadow-dew-grass-1-v1.png
     width: 128
@@ -11957,7 +12019,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-grove-broadleaf-tree-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/field-grove-broadleaf-tree-1-v1.png
     width: 256
@@ -12482,7 +12546,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-silver-marsh-marsh-snag-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/field-silver-marsh-marsh-snag-1-v1.png
     width: 256
@@ -12505,10 +12571,10 @@ billboards:
     anchorY: 0.933594
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -13555,10 +13621,10 @@ billboards:
     anchorY: 0.929688
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -14022,7 +14088,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-meadow-dew-grass-3-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 23
   source_file:
     path: assets/billboards/field-meadow-dew-grass-3-v1.png
     width: 128
@@ -14127,7 +14195,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-grove-broadleaf-tree-3-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/field-grove-broadleaf-tree-3-v1.png
     width: 256
@@ -14477,7 +14547,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-lantern-wood-shade-ferns-3-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/field-lantern-wood-shade-ferns-3-v1.png
     width: 128
@@ -14827,7 +14899,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-silver-marsh-marsh-snag-3-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/field-silver-marsh-marsh-snag-3-v1.png
     width: 256
@@ -14850,10 +14924,10 @@ billboards:
     anchorY: 0.98
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -15830,10 +15904,10 @@ billboards:
     anchorY: 0.9375
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -16262,7 +16336,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-meadow-dew-grass-5-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 22
   source_file:
     path: assets/billboards/field-meadow-dew-grass-5-v1.png
     width: 128
@@ -16880,10 +16956,10 @@ billboards:
     anchorY: 0.978516
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 불가
@@ -17487,7 +17563,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-grove-broadleaf-tree-size-small-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 15
   source_file:
     path: assets/billboards/field-grove-broadleaf-tree-size-small-v1.png
     width: 256
@@ -17557,7 +17635,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-grove-moss-log-size-small-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/field-grove-moss-log-size-small-v1.png
     width: 128
@@ -19127,6 +19207,286 @@ billboards:
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 가능
+- texture_key: field-meadow-field-flowers-4-v1
+  family: field-meadow-field-flowers-4-v1
+  asset_ref:
+    management_id: image.scenery.field-meadow-field-flowers-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-meadow-field-flowers-4-v1.png
+    width: 128
+    height: 128
+    sha256: 723b1ec377e721628d3c21d207ee365835ecdf82236ec025b7da729635ba9d4b
+  modeling:
+    purpose: 이슬 초원 · 낮은 들꽃 · 변형 4/5 · 꽃·색채 강조
+    recommended_uses:
+    - meadow 야외 필드 배치 후보
+    composition: 식생 군락의 일부에 제한적으로 섞어 색채가 균일하게 반복되지 않도록 한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-meadow-field-flowers-4-v1
+    anchorX: 0.499023
+    anchorY: 0.800781
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 64
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 32.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-moss-clearing-moss-rock-5-v1
+  family: field-moss-clearing-moss-rock-5-v1
+  asset_ref:
+    management_id: image.scenery.field-moss-clearing-moss-rock-5-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-moss-clearing-moss-rock-5-v1.png
+    width: 128
+    height: 128
+    sha256: eb365b6006209aba0111d4248e8e7dc34d95868e60dee9771605abd75fc2acef
+  modeling:
+    purpose: 이끼 공터 · 이끼 바위 · 변형 5/5 · 암석·지질 지표
+    recommended_uses:
+    - moss-clearing 야외 필드 배치 후보
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-moss-clearing-moss-rock-5-v1
+    anchorX: 0.498047
+    anchorY: 0.947266
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 110
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 55.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-silver-marsh-silver-sedge-size-small-v1
+  family: field-silver-marsh-silver-sedge-size-small-v1
+  asset_ref:
+    management_id: image.scenery.field-silver-marsh-silver-sedge-size-small-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-silver-marsh-silver-sedge-size-small-v1.png
+    width: 128
+    height: 128
+    sha256: ca1b8bd681b723fe948fd86d5ed514902b0945de75d611c8f3670c39f03a9e62
+  modeling:
+    purpose: 은빛 습지 · 은빛 사초 · 소형 보완 · 낮은 식생·회복 식생
+    recommended_uses:
+    - silver-marsh 야외 필드 배치 후보
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-silver-marsh-silver-sedge-size-small-v1
+    anchorX: 0.498047
+    anchorY: 0.931641
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 56
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 28.0
+    size_variant: 소형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-pebble-shore-rope-coil-size-large-v1
+  family: field-pebble-shore-rope-coil-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-pebble-shore-rope-coil-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-pebble-shore-rope-coil-size-large-v1.png
+    width: 256
+    height: 256
+    sha256: 5fa30ddeac325912a58888abee173c09acf4bb438b5dc0e0f011a4b3d6d82005
+  modeling:
+    purpose: 조약돌 물가 · 해진 밧줄 · 대형 보완 · 운반·보관 소품
+    recommended_uses:
+    - pebble-shore 야외 필드 배치 후보
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-pebble-shore-rope-coil-size-large-v1
+    anchorX: 0.481445
+    anchorY: 0.837891
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 120
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 60.0
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-pebble-shore-twisted-driftwood-size-large-v1
+  family: field-pebble-shore-twisted-driftwood-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-pebble-shore-twisted-driftwood-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-pebble-shore-twisted-driftwood-size-large-v1.png
+    width: 128
+    height: 128
+    sha256: 0ad75b007c07bae0bc9e49c82dbbc61314989ffd11bcbc42107ac03b18a96481
+  modeling:
+    purpose: 조약돌 물가 · 뒤틀린 유목 · 대형 보완 · 암석·지질 지표
+    recommended_uses:
+    - pebble-shore 야외 필드 배치 후보
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-pebble-shore-twisted-driftwood-size-large-v1
+    anchorX: 0.498047
+    anchorY: 0.890625
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 140
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 70.0
+    size_variant: 대형 변형
+    occupied_tile_count: 9
+    movement: 통행 불가
+- texture_key: field-windrow-road-wild-grain-size-small-v1
+  family: field-windrow-road-wild-grain-size-small-v1
+  asset_ref:
+    management_id: image.scenery.field-windrow-road-wild-grain-size-small-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-windrow-road-wild-grain-size-small-v1.png
+    width: 128
+    height: 128
+    sha256: 047f04020e854a9fae967a63ae9e2c6784420811774feafe28eaf0fb9e306668
+  modeling:
+    purpose: 이삭바람길 · 야생 이삭 · 소형 보완 · 낮은 식생·회복 식생
+    recommended_uses:
+    - windrow-road 야외 필드 배치 후보
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-windrow-road-wild-grain-size-small-v1
+    anchorX: 0.466797
+    anchorY: 0.830078
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 56
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 28.0
+    size_variant: 소형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-windrow-road-hedgerow-shrub-size-large-v1
+  family: field-windrow-road-hedgerow-shrub-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-windrow-road-hedgerow-shrub-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-windrow-road-hedgerow-shrub-size-large-v1.png
+    width: 128
+    height: 128
+    sha256: bc0bd241967775f674c9e4ea479687b933cdaecb1f4d9c8b0f438ab48e9a07db
+  modeling:
+    purpose: 이삭바람길 · 생울타리 관목 · 대형 보완 · 관목·경계 식생
+    recommended_uses:
+    - windrow-road 야외 필드 배치 후보
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-windrow-road-hedgerow-shrub-size-large-v1
+    anchorX: 0.503906
+    anchorY: 0.849609
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 120
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 60.0
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-root-trail-rooted-tree-1-v1
+  family: field-root-trail-rooted-tree-1-v1
+  asset_ref:
+    management_id: image.scenery.field-root-trail-rooted-tree-1-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-root-trail-rooted-tree-1-v1.png
+    width: 256
+    height: 256
+    sha256: 0cc38b4c996afcfbe8eba3139abf859bf0b664df57a7926140df0b17c197edf2
+  modeling:
+    purpose: 뿌리 오솔길 · 뿌리 나무 · 변형 1/5 · 수목 군락
+    recommended_uses:
+    - root-trail 야외 필드 배치 후보
+    composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-rooted-tree-1-v1
+    anchorX: 0.52193
+    anchorY: 0.966507
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 300
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 150.0
+    size_variant: 기본 변형
+    occupied_tile_count: 9
+    movement: 통행 불가
 modeling_contract:
   purpose: 맵 제작용 에셋 선택·크기·접지·통행 참고 자료
   authoritative_properties: assets/maps/sprite-display-properties.yaml
