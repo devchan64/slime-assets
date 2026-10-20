@@ -649,7 +649,7 @@ assets:
 - managementId: config.field-tiles.broken-quarry
   version: shared-material-codes-v2-quarry-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-clear-sign-v1
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: 2985c69821e6c1874fa141374d9992f4f86840c5e8854bdeb45dfcea23b5f8d1
+  sha256: bf1964fa6249ea17b07e470946c226e0424f48ff101feca701d13e1c6b3e2f5a
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
@@ -7355,7 +7355,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: cf820ecf101d16e7ec103593bb47741490d5bab4c6ee274dc06c73121ce581f4
+  sha256: 2a414f1b941d005c4818d337bcd1a7bdfef41a3a4b7ff170b9ac7f9f3cf02e6d
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8301,7 +8301,7 @@ assets:
     processing: 투명 배경 생성 원본을 알파 보존하여 128×128로 축소
 - managementId: image.scenery.quarry-stone-chips-v1
   version: v1
-  path: assets/billboards/quarry-stone-chips-v1.png
+  path: assets/retired/billboards/quarry-stone-chips-v1.png
   name: 채석 잔돌 더미
   width: 128
   height: 128
@@ -8310,6 +8310,9 @@ assets:
     repository: codex-imagegen
     artifact: exec-20251d5a-1f00-420f-add3-1496d3af2cfb.png
     processing: 투명 배경 생성 원본을 알파 보존하여 128×128로 축소
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/quarry-stone-chips-v1.png
 - managementId: image.scenery.quarry-weathered-boulders-v1
   version: v1
   path: assets/billboards/quarry-weathered-boulders-v1.png
@@ -8499,7 +8502,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-moss-clearing-boundary-stone-1-v1
   version: v1
-  path: assets/billboards/field-moss-clearing-boundary-stone-1-v1.png
+  path: assets/retired/billboards/field-moss-clearing-boundary-stone-1-v1.png
   name: 이끼 공터 · 경계석 · 변형 1/5
   width: 256
   height: 256
@@ -8508,6 +8511,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-15-469bd2d1/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-moss-clearing-boundary-stone-1-v1.png
 - managementId: image.scenery.field-moss-clearing-fungus-stump-1-v1
   version: v1
   path: assets/billboards/field-moss-clearing-fungus-stump-1-v1.png
@@ -8609,7 +8615,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-silver-marsh-water-gauge-1-v1
   version: v1
-  path: assets/billboards/field-silver-marsh-water-gauge-1-v1.png
+  path: assets/retired/billboards/field-silver-marsh-water-gauge-1-v1.png
   name: 은빛 습지 · 수위 말뚝 · 변형 1/5
   width: 256
   height: 256
@@ -8618,6 +8624,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-17-872df9bf/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-silver-marsh-water-gauge-1-v1.png
 - managementId: image.scenery.field-silver-marsh-marsh-snag-1-v1
   version: v1
   path: assets/billboards/field-silver-marsh-marsh-snag-1-v1.png
@@ -8664,7 +8673,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-windrow-road-covered-cargo-1-v1
   version: v1
-  path: assets/billboards/field-windrow-road-covered-cargo-1-v1.png
+  path: assets/retired/billboards/field-windrow-road-covered-cargo-1-v1.png
   name: 이삭바람길 · 덮개 운송 짐 · 변형 1/5
   width: 256
   height: 256
@@ -8673,6 +8682,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-18-75cd3e2f/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-windrow-road-covered-cargo-1-v1.png
 - managementId: image.scenery.field-windrow-road-hedgerow-shrub-1-v1
   version: v1
   path: assets/billboards/field-windrow-road-hedgerow-shrub-1-v1.png
@@ -8851,7 +8863,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-root-trail-wagon-wheel-2-v1
   version: v1
-  path: assets/billboards/field-root-trail-wagon-wheel-2-v1.png
+  path: assets/retired/billboards/field-root-trail-wagon-wheel-2-v1.png
   name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 2/5
   width: 256
   height: 256
@@ -8860,6 +8872,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-20-f49839cf/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-root-trail-wagon-wheel-2-v1.png
 - managementId: image.scenery.field-lantern-wood-crooked-tree-2-v1
   version: v1
   path: assets/billboards/field-lantern-wood-crooked-tree-2-v1.png
@@ -8873,7 +8888,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-lantern-wood-lantern-stand-2-v1
   version: v1
-  path: assets/billboards/field-lantern-wood-lantern-stand-2-v1.png
+  path: assets/retired/billboards/field-lantern-wood-lantern-stand-2-v1.png
   name: 등불 숲 · 등불 받침 · 변형 2/5
   width: 256
   height: 256
@@ -8882,9 +8897,12 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-21-9ef9257c/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-lantern-wood-lantern-stand-2-v1.png
 - managementId: image.scenery.field-wind-hills-rope-waymark-2-v1
   version: v1
-  path: assets/billboards/field-wind-hills-rope-waymark-2-v1.png
+  path: assets/retired/billboards/field-wind-hills-rope-waymark-2-v1.png
   name: 바람 구릉 · 보강 길표식 · 변형 2/5
   width: 256
   height: 256
@@ -8893,9 +8911,12 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-21-9f342110/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-wind-hills-rope-waymark-2-v1.png
 - managementId: image.scenery.field-mist-lake-mooring-stone-2-v1
   version: v1
-  path: assets/billboards/field-mist-lake-mooring-stone-2-v1.png
+  path: assets/retired/billboards/field-mist-lake-mooring-stone-2-v1.png
   name: 안개 호수 · 계류석 · 변형 2/5
   width: 256
   height: 256
@@ -8904,6 +8925,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-21-d7e06592/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-mist-lake-mooring-stone-2-v1.png
 - managementId: image.scenery.field-mist-lake-wet-rock-2-v1
   version: v1
   path: assets/billboards/field-mist-lake-wet-rock-2-v1.png
@@ -8939,7 +8963,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-silver-marsh-water-gauge-2-v1
   version: v1
-  path: assets/billboards/field-silver-marsh-water-gauge-2-v1.png
+  path: assets/retired/billboards/field-silver-marsh-water-gauge-2-v1.png
   name: 은빛 습지 · 수위 말뚝 · 변형 2/5
   width: 256
   height: 256
@@ -8948,6 +8972,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-23-38680ee7/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-silver-marsh-water-gauge-2-v1.png
 - managementId: image.scenery.field-silver-marsh-marsh-snag-2-v1
   version: v1
   path: assets/billboards/field-silver-marsh-marsh-snag-2-v1.png
@@ -9005,7 +9032,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-windrow-road-covered-cargo-2-v1
   version: v1
-  path: assets/billboards/field-windrow-road-covered-cargo-2-v1.png
+  path: assets/retired/billboards/field-windrow-road-covered-cargo-2-v1.png
   name: 이삭바람길 · 덮개 운송 짐 · 변형 2/5
   width: 256
   height: 256
@@ -9014,6 +9041,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-24-56f1da7a/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-windrow-road-covered-cargo-2-v1.png
 - managementId: image.scenery.field-windrow-road-hedgerow-shrub-2-v1
   version: v1
   path: assets/billboards/field-windrow-road-hedgerow-shrub-2-v1.png
@@ -9038,7 +9068,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-mill-ridge-worn-millstone-2-v1
   version: v1
-  path: assets/billboards/field-mill-ridge-worn-millstone-2-v1.png
+  path: assets/retired/billboards/field-mill-ridge-worn-millstone-2-v1.png
   name: 맷돌등성이 · 마모 맷돌 · 변형 2/5
   width: 256
   height: 256
@@ -9047,6 +9077,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-24-c8485727/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-mill-ridge-worn-millstone-2-v1.png
 - managementId: image.scenery.field-mill-ridge-stone-shrub-2-v1
   version: v1
   path: assets/billboards/field-mill-ridge-stone-shrub-2-v1.png
@@ -9082,7 +9115,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-salt-flat-brine-barrel-2-v1
   version: v1
-  path: assets/billboards/field-salt-flat-brine-barrel-2-v1.png
+  path: assets/retired/billboards/field-salt-flat-brine-barrel-2-v1.png
   name: 흰소금벌 · 염수 나무통 · 변형 2/5
   width: 256
   height: 256
@@ -9091,6 +9124,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-25-7b59ae25/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-flat-brine-barrel-2-v1.png
 - managementId: image.scenery.field-salt-flat-salt-shrub-2-v1
   version: v1
   path: assets/billboards/field-salt-flat-salt-shrub-2-v1.png
@@ -9170,7 +9206,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-moss-clearing-boundary-stone-3-v1
   version: v1
-  path: assets/billboards/field-moss-clearing-boundary-stone-3-v1.png
+  path: assets/retired/billboards/field-moss-clearing-boundary-stone-3-v1.png
   name: 이끼 공터 · 경계석 · 변형 3/5
   width: 256
   height: 256
@@ -9179,6 +9215,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-27-382b21a8/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-moss-clearing-boundary-stone-3-v1.png
 - managementId: image.scenery.field-moss-clearing-fungus-stump-3-v1
   version: v1
   path: assets/billboards/field-moss-clearing-fungus-stump-3-v1.png
@@ -9203,7 +9242,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-root-trail-wagon-wheel-3-v1
   version: v1
-  path: assets/billboards/field-root-trail-wagon-wheel-3-v1.png
+  path: assets/retired/billboards/field-root-trail-wagon-wheel-3-v1.png
   name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 3/5
   width: 256
   height: 256
@@ -9212,6 +9251,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-27-123f4740/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-root-trail-wagon-wheel-3-v1.png
 - managementId: image.scenery.field-root-trail-root-knot-3-v1
   version: v1
   path: assets/billboards/field-root-trail-root-knot-3-v1.png
@@ -9236,7 +9278,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-lantern-wood-lantern-stand-3-v1
   version: v1
-  path: assets/billboards/field-lantern-wood-lantern-stand-3-v1.png
+  path: assets/retired/billboards/field-lantern-wood-lantern-stand-3-v1.png
   name: 등불 숲 · 등불 받침 · 변형 3/5
   width: 256
   height: 256
@@ -9245,6 +9287,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-27-50432012/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-lantern-wood-lantern-stand-3-v1.png
 - managementId: image.scenery.field-lantern-wood-shade-ferns-3-v1
   version: v1
   path: assets/billboards/field-lantern-wood-shade-ferns-3-v1.png
@@ -9258,7 +9303,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-wind-hills-rope-waymark-3-v1
   version: v1
-  path: assets/billboards/field-wind-hills-rope-waymark-3-v1.png
+  path: assets/retired/billboards/field-wind-hills-rope-waymark-3-v1.png
   name: 바람 구릉 · 보강 길표식 · 변형 3/5
   width: 256
   height: 256
@@ -9267,6 +9312,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-28-255998f0/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-wind-hills-rope-waymark-3-v1.png
 - managementId: image.scenery.field-wind-hills-bent-grass-3-v1
   version: v1
   path: assets/billboards/field-wind-hills-bent-grass-3-v1.png
@@ -9291,7 +9339,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-mist-lake-mooring-stone-3-v1
   version: v1
-  path: assets/billboards/field-mist-lake-mooring-stone-3-v1.png
+  path: assets/retired/billboards/field-mist-lake-mooring-stone-3-v1.png
   name: 안개 호수 · 계류석 · 변형 3/5
   width: 256
   height: 256
@@ -9300,6 +9348,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-28-824813c5/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-mist-lake-mooring-stone-3-v1.png
 - managementId: image.scenery.field-mist-lake-wet-rock-3-v1
   version: v1
   path: assets/billboards/field-mist-lake-wet-rock-3-v1.png
@@ -9313,7 +9364,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-reed-crossing-reed-bundle-3-v1
   version: v1
-  path: assets/billboards/field-reed-crossing-reed-bundle-3-v1.png
+  path: assets/retired/billboards/field-reed-crossing-reed-bundle-3-v1.png
   name: 갈대 여울 · 갈대 섬유 묶음 · 변형 3/5
   width: 256
   height: 256
@@ -9322,6 +9373,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-29-ff3be581/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-reed-crossing-reed-bundle-3-v1.png
 - managementId: image.scenery.field-reed-crossing-river-sedge-3-v1
   version: v1
   path: assets/billboards/field-reed-crossing-river-sedge-3-v1.png
@@ -9346,7 +9400,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-silver-marsh-water-gauge-3-v1
   version: v1
-  path: assets/billboards/field-silver-marsh-water-gauge-3-v1.png
+  path: assets/retired/billboards/field-silver-marsh-water-gauge-3-v1.png
   name: 은빛 습지 · 수위 말뚝 · 변형 3/5
   width: 256
   height: 256
@@ -9355,6 +9409,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-29-55f7137a/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-silver-marsh-water-gauge-3-v1.png
 - managementId: image.scenery.field-silver-marsh-marsh-snag-3-v1
   version: v1
   path: assets/billboards/field-silver-marsh-marsh-snag-3-v1.png
@@ -9379,7 +9436,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-pebble-shore-rope-coil-3-v1
   version: v1
-  path: assets/billboards/field-pebble-shore-rope-coil-3-v1.png
+  path: assets/retired/billboards/field-pebble-shore-rope-coil-3-v1.png
   name: 조약돌 물가 · 해진 밧줄 · 변형 3/5
   width: 256
   height: 256
@@ -9388,6 +9445,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-30-7a9622ab/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-pebble-shore-rope-coil-3-v1.png
 - managementId: image.scenery.field-windrow-road-wild-grain-3-v1
   version: v1
   path: assets/billboards/field-windrow-road-wild-grain-3-v1.png
@@ -9401,7 +9461,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-windrow-road-covered-cargo-3-v1
   version: v1
-  path: assets/billboards/field-windrow-road-covered-cargo-3-v1.png
+  path: assets/retired/billboards/field-windrow-road-covered-cargo-3-v1.png
   name: 이삭바람길 · 덮개 운송 짐 · 변형 3/5
   width: 256
   height: 256
@@ -9410,6 +9470,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-30-69b3cd4e/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-windrow-road-covered-cargo-3-v1.png
 - managementId: image.scenery.field-windrow-road-hedgerow-shrub-3-v1
   version: v1
   path: assets/billboards/field-windrow-road-hedgerow-shrub-3-v1.png
@@ -9456,7 +9519,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-salt-causeway-repair-stakes-3-v1
   version: v1
-  path: assets/billboards/field-salt-causeway-repair-stakes-3-v1.png
+  path: assets/retired/billboards/field-salt-causeway-repair-stakes-3-v1.png
   name: 소금둑길 · 보수 말뚝 · 변형 3/5
   width: 256
   height: 256
@@ -9465,6 +9528,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-31-78253d0f/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-causeway-repair-stakes-3-v1.png
 - managementId: image.scenery.field-salt-causeway-salt-rock-3-v1
   version: v1
   path: assets/billboards/field-salt-causeway-salt-rock-3-v1.png
@@ -9500,7 +9566,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-meadow-waypost-4-v1
   version: v1
-  path: assets/billboards/field-meadow-waypost-4-v1.png
+  path: assets/retired/billboards/field-meadow-waypost-4-v1.png
   name: 이슬 초원 · 길목 표지목 · 변형 4/5
   width: 256
   height: 256
@@ -9509,6 +9575,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-32-513338ad/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-meadow-waypost-4-v1.png
 - managementId: image.scenery.field-grove-broadleaf-tree-4-v1
   version: v1
   path: assets/billboards/field-grove-broadleaf-tree-4-v1.png
@@ -9555,7 +9624,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-moss-clearing-boundary-stone-4-v1
   version: v1
-  path: assets/billboards/field-moss-clearing-boundary-stone-4-v1.png
+  path: assets/retired/billboards/field-moss-clearing-boundary-stone-4-v1.png
   name: 이끼 공터 · 경계석 · 변형 4/5
   width: 256
   height: 256
@@ -9564,6 +9633,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-33-9ddc510d/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-moss-clearing-boundary-stone-4-v1.png
 - managementId: image.scenery.field-moss-clearing-fungus-stump-4-v1
   version: v1
   path: assets/billboards/field-moss-clearing-fungus-stump-4-v1.png
@@ -9654,7 +9726,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-silver-marsh-water-gauge-4-v1
   version: v1
-  path: assets/billboards/field-silver-marsh-water-gauge-4-v1.png
+  path: assets/retired/billboards/field-silver-marsh-water-gauge-4-v1.png
   name: 은빛 습지 · 수위 말뚝 · 변형 4/5
   width: 256
   height: 256
@@ -9663,6 +9735,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-35-132b3509/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-silver-marsh-water-gauge-4-v1.png
 - managementId: image.scenery.field-silver-marsh-marsh-snag-4-v1
   version: v1
   path: assets/billboards/field-silver-marsh-marsh-snag-4-v1.png
@@ -9687,7 +9762,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-pebble-shore-rope-coil-4-v1
   version: v1
-  path: assets/billboards/field-pebble-shore-rope-coil-4-v1.png
+  path: assets/retired/billboards/field-pebble-shore-rope-coil-4-v1.png
   name: 조약돌 물가 · 해진 밧줄 · 변형 4/5
   width: 256
   height: 256
@@ -9696,6 +9771,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-36-4e7dbd84/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-pebble-shore-rope-coil-4-v1.png
 - managementId: image.scenery.field-windrow-road-wild-grain-4-v1
   version: v1
   path: assets/billboards/field-windrow-road-wild-grain-4-v1.png
@@ -9709,7 +9787,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-windrow-road-covered-cargo-4-v1
   version: v1
-  path: assets/billboards/field-windrow-road-covered-cargo-4-v1.png
+  path: assets/retired/billboards/field-windrow-road-covered-cargo-4-v1.png
   name: 이삭바람길 · 덮개 운송 짐 · 변형 4/5
   width: 256
   height: 256
@@ -9718,6 +9796,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-36-5f56f90c/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-windrow-road-covered-cargo-4-v1.png
 - managementId: image.scenery.field-windrow-road-hedgerow-shrub-4-v1
   version: v1
   path: assets/billboards/field-windrow-road-hedgerow-shrub-4-v1.png
@@ -9742,7 +9823,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-mill-ridge-worn-millstone-4-v1
   version: v1
-  path: assets/billboards/field-mill-ridge-worn-millstone-4-v1.png
+  path: assets/retired/billboards/field-mill-ridge-worn-millstone-4-v1.png
   name: 맷돌등성이 · 마모 맷돌 · 변형 4/5
   width: 256
   height: 256
@@ -9751,6 +9832,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-37-25b1ba81/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-mill-ridge-worn-millstone-4-v1.png
 - managementId: image.scenery.field-mill-ridge-stone-shrub-4-v1
   version: v1
   path: assets/billboards/field-mill-ridge-stone-shrub-4-v1.png
@@ -9786,7 +9870,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-salt-flat-brine-barrel-4-v1
   version: v1
-  path: assets/billboards/field-salt-flat-brine-barrel-4-v1.png
+  path: assets/retired/billboards/field-salt-flat-brine-barrel-4-v1.png
   name: 흰소금벌 · 염수 나무통 · 변형 4/5
   width: 256
   height: 256
@@ -9795,6 +9879,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-38-e8bd11bf/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-flat-brine-barrel-4-v1.png
 - managementId: image.scenery.field-salt-flat-salt-shrub-4-v1
   version: v1
   path: assets/billboards/field-salt-flat-salt-shrub-4-v1.png
@@ -9819,7 +9906,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-meadow-waypost-5-v1
   version: v1
-  path: assets/billboards/field-meadow-waypost-5-v1.png
+  path: assets/retired/billboards/field-meadow-waypost-5-v1.png
   name: 이슬 초원 · 길목 표지목 · 변형 5/5
   width: 256
   height: 256
@@ -9828,6 +9915,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-38-78ae064a/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-meadow-waypost-5-v1.png
 - managementId: image.scenery.field-grove-broadleaf-tree-5-v1
   version: v1
   path: assets/billboards/field-grove-broadleaf-tree-5-v1.png
@@ -9885,7 +9975,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-root-trail-wagon-wheel-5-v1
   version: v1
-  path: assets/billboards/field-root-trail-wagon-wheel-5-v1.png
+  path: assets/retired/billboards/field-root-trail-wagon-wheel-5-v1.png
   name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 5/5
   width: 256
   height: 256
@@ -9894,6 +9984,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-40-f57fc6bb/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-root-trail-wagon-wheel-5-v1.png
 - managementId: image.scenery.field-lantern-wood-crooked-tree-5-v1
   version: v1
   path: assets/billboards/field-lantern-wood-crooked-tree-5-v1.png
@@ -9907,7 +10000,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-lantern-wood-lantern-stand-5-v1
   version: v1
-  path: assets/billboards/field-lantern-wood-lantern-stand-5-v1.png
+  path: assets/retired/billboards/field-lantern-wood-lantern-stand-5-v1.png
   name: 등불 숲 · 등불 받침 · 변형 5/5
   width: 256
   height: 256
@@ -9916,9 +10009,12 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-40-9ef37463/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-lantern-wood-lantern-stand-5-v1.png
 - managementId: image.scenery.field-wind-hills-rope-waymark-5-v1
   version: v1
-  path: assets/billboards/field-wind-hills-rope-waymark-5-v1.png
+  path: assets/retired/billboards/field-wind-hills-rope-waymark-5-v1.png
   name: 바람 구릉 · 보강 길표식 · 변형 5/5
   width: 256
   height: 256
@@ -9927,9 +10023,12 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-41-d76ef8cb/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-wind-hills-rope-waymark-5-v1.png
 - managementId: image.scenery.field-mist-lake-mooring-stone-5-v1
   version: v1
-  path: assets/billboards/field-mist-lake-mooring-stone-5-v1.png
+  path: assets/retired/billboards/field-mist-lake-mooring-stone-5-v1.png
   name: 안개 호수 · 계류석 · 변형 5/5
   width: 256
   height: 256
@@ -9938,6 +10037,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-42-5865e4be/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-mist-lake-mooring-stone-5-v1.png
 - managementId: image.scenery.field-mist-lake-wet-rock-5-v1
   version: v1
   path: assets/billboards/field-mist-lake-wet-rock-5-v1.png
@@ -9951,7 +10053,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-reed-crossing-reed-bundle-5-v1
   version: v1
-  path: assets/billboards/field-reed-crossing-reed-bundle-5-v1.png
+  path: assets/retired/billboards/field-reed-crossing-reed-bundle-5-v1.png
   name: 갈대 여울 · 갈대 섬유 묶음 · 변형 5/5
   width: 256
   height: 256
@@ -9960,6 +10062,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-42-73ec2507/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-reed-crossing-reed-bundle-5-v1.png
 - managementId: image.scenery.field-reed-crossing-river-sedge-5-v1
   version: v1
   path: assets/billboards/field-reed-crossing-river-sedge-5-v1.png
@@ -9984,7 +10089,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-silver-marsh-water-gauge-5-v1
   version: v1
-  path: assets/billboards/field-silver-marsh-water-gauge-5-v1.png
+  path: assets/retired/billboards/field-silver-marsh-water-gauge-5-v1.png
   name: 은빛 습지 · 수위 말뚝 · 변형 5/5
   width: 256
   height: 256
@@ -9993,6 +10098,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-43-98e63b61/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-silver-marsh-water-gauge-5-v1.png
 - managementId: image.scenery.field-silver-marsh-marsh-snag-5-v1
   version: v1
   path: assets/billboards/field-silver-marsh-marsh-snag-5-v1.png
@@ -10006,7 +10114,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-pebble-shore-rope-coil-5-v1
   version: v1
-  path: assets/billboards/field-pebble-shore-rope-coil-5-v1.png
+  path: assets/retired/billboards/field-pebble-shore-rope-coil-5-v1.png
   name: 조약돌 물가 · 해진 밧줄 · 변형 5/5
   width: 256
   height: 256
@@ -10015,6 +10123,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-43-9855723f/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-pebble-shore-rope-coil-5-v1.png
 - managementId: image.scenery.field-pebble-shore-twisted-driftwood-5-v1
   version: v1
   path: assets/billboards/field-pebble-shore-twisted-driftwood-5-v1.png
@@ -10094,7 +10205,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-salt-causeway-repair-stakes-5-v1
   version: v1
-  path: assets/billboards/field-salt-causeway-repair-stakes-5-v1.png
+  path: assets/retired/billboards/field-salt-causeway-repair-stakes-5-v1.png
   name: 소금둑길 · 보수 말뚝 · 변형 5/5
   width: 256
   height: 256
@@ -10103,6 +10214,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-45-e55dae1e/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-causeway-repair-stakes-5-v1.png
 - managementId: image.scenery.field-salt-causeway-salt-rock-5-v1
   version: v1
   path: assets/billboards/field-salt-causeway-salt-rock-5-v1.png
@@ -10127,7 +10241,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-salt-flat-brine-barrel-5-v1
   version: v1
-  path: assets/billboards/field-salt-flat-brine-barrel-5-v1.png
+  path: assets/retired/billboards/field-salt-flat-brine-barrel-5-v1.png
   name: 흰소금벌 · 염수 나무통 · 변형 5/5
   width: 256
   height: 256
@@ -10136,6 +10250,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-45-96a26be7/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-flat-brine-barrel-5-v1.png
 - managementId: image.scenery.field-salt-flat-salt-shrub-5-v1
   version: v1
   path: assets/billboards/field-salt-flat-salt-shrub-5-v1.png
@@ -10171,7 +10288,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-meadow-waypost-size-small-v1
   version: v1
-  path: assets/billboards/field-meadow-waypost-size-small-v1.png
+  path: assets/retired/billboards/field-meadow-waypost-size-small-v1.png
   name: 이슬 초원 · 길목 표지목 · 소형 보완
   width: 256
   height: 256
@@ -10180,9 +10297,12 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-19-ed7d2080/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-meadow-waypost-size-small-v1.png
 - managementId: image.scenery.field-meadow-waypost-size-large-v1
   version: v1
-  path: assets/billboards/field-meadow-waypost-size-large-v1.png
+  path: assets/retired/billboards/field-meadow-waypost-size-large-v1.png
   name: 이슬 초원 · 길목 표지목 · 대형 보완
   width: 256
   height: 256
@@ -10191,6 +10311,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-20-7db4466e/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-meadow-waypost-size-large-v1.png
 - managementId: image.scenery.field-grove-broadleaf-tree-size-small-v1
   version: v1
   path: assets/billboards/field-grove-broadleaf-tree-size-small-v1.png
@@ -10204,7 +10327,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-grove-cargo-crate-size-small-v1
   version: v1
-  path: assets/billboards/field-grove-cargo-crate-size-small-v1.png
+  path: assets/retired/billboards/field-grove-cargo-crate-size-small-v1.png
   name: 푸른 숲 · 운송 상자 · 소형 보완
   width: 256
   height: 256
@@ -10213,6 +10336,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-21-f5b385a2/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-grove-cargo-crate-size-small-v1.png
 - managementId: image.scenery.field-grove-moss-log-size-small-v1
   version: v1
   path: assets/billboards/field-grove-moss-log-size-small-v1.png
@@ -10248,7 +10374,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-moss-clearing-boundary-stone-size-small-v1
   version: v1
-  path: assets/billboards/field-moss-clearing-boundary-stone-size-small-v1.png
+  path: assets/retired/billboards/field-moss-clearing-boundary-stone-size-small-v1.png
   name: 이끼 공터 · 경계석 · 소형 보완
   width: 256
   height: 256
@@ -10257,6 +10383,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-22-08956a29/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-moss-clearing-boundary-stone-size-small-v1.png
 - managementId: image.scenery.field-moss-clearing-boundary-stone-size-large-v1
   version: v1
   path: assets/billboards/field-moss-clearing-boundary-stone-size-large-v1.png
@@ -10292,7 +10421,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-root-trail-wagon-wheel-size-small-v1
   version: v1
-  path: assets/billboards/field-root-trail-wagon-wheel-size-small-v1.png
+  path: assets/retired/billboards/field-root-trail-wagon-wheel-size-small-v1.png
   name: 뿌리 오솔길 · 파손 수레바퀴 · 소형 보완
   width: 256
   height: 256
@@ -10301,6 +10430,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-23-c31321a4/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-root-trail-wagon-wheel-size-small-v1.png
 - managementId: image.scenery.field-lantern-wood-crooked-tree-size-small-v1
   version: v1
   path: assets/billboards/field-lantern-wood-crooked-tree-size-small-v1.png
@@ -10325,7 +10457,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-wind-hills-rope-waymark-size-large-v1
   version: v1
-  path: assets/billboards/field-wind-hills-rope-waymark-size-large-v1.png
+  path: assets/retired/billboards/field-wind-hills-rope-waymark-size-large-v1.png
   name: 바람 구릉 · 보강 길표식 · 대형 보완
   width: 256
   height: 256
@@ -10334,6 +10466,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-25-bc1bb999/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-wind-hills-rope-waymark-size-large-v1.png
 - managementId: image.scenery.field-wind-hills-bent-grass-size-large-v1
   version: v1
   path: assets/billboards/field-wind-hills-bent-grass-size-large-v1.png
@@ -10347,7 +10482,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-mist-lake-mooring-stone-size-small-v1
   version: v1
-  path: assets/billboards/field-mist-lake-mooring-stone-size-small-v1.png
+  path: assets/retired/billboards/field-mist-lake-mooring-stone-size-small-v1.png
   name: 안개 호수 · 계류석 · 소형 보완
   width: 256
   height: 256
@@ -10356,6 +10491,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-26-cff1ba18/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-mist-lake-mooring-stone-size-small-v1.png
 - managementId: image.scenery.field-mist-lake-mooring-stone-size-large-v1
   version: v1
   path: assets/billboards/field-mist-lake-mooring-stone-size-large-v1.png
@@ -10380,7 +10518,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-reed-crossing-reed-bundle-size-small-v1
   version: v1
-  path: assets/billboards/field-reed-crossing-reed-bundle-size-small-v1.png
+  path: assets/retired/billboards/field-reed-crossing-reed-bundle-size-small-v1.png
   name: 갈대 여울 · 갈대 섬유 묶음 · 소형 보완
   width: 256
   height: 256
@@ -10389,6 +10527,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-27-890c1b4e/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-reed-crossing-reed-bundle-size-small-v1.png
 - managementId: image.scenery.field-reed-crossing-reed-bundle-size-large-v1
   version: v1
   path: assets/billboards/field-reed-crossing-reed-bundle-size-large-v1.png
@@ -10435,7 +10576,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-silver-marsh-water-gauge-size-small-v1
   version: v1
-  path: assets/billboards/field-silver-marsh-water-gauge-size-small-v1.png
+  path: assets/retired/billboards/field-silver-marsh-water-gauge-size-small-v1.png
   name: 은빛 습지 · 수위 말뚝 · 소형 보완
   width: 256
   height: 256
@@ -10444,9 +10585,12 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-29-01e72044/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-silver-marsh-water-gauge-size-small-v1.png
 - managementId: image.scenery.field-silver-marsh-water-gauge-size-large-v1
   version: v1
-  path: assets/billboards/field-silver-marsh-water-gauge-size-large-v1.png
+  path: assets/retired/billboards/field-silver-marsh-water-gauge-size-large-v1.png
   name: 은빛 습지 · 수위 말뚝 · 대형 보완
   width: 256
   height: 256
@@ -10455,6 +10599,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-29-9b2de78d/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-silver-marsh-water-gauge-size-large-v1.png
 - managementId: image.scenery.field-silver-marsh-marsh-snag-size-small-v1
   version: v1
   path: assets/billboards/field-silver-marsh-marsh-snag-size-small-v1.png
@@ -10490,7 +10637,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-pebble-shore-rope-coil-size-small-v1
   version: v1
-  path: assets/billboards/field-pebble-shore-rope-coil-size-small-v1.png
+  path: assets/retired/billboards/field-pebble-shore-rope-coil-size-small-v1.png
   name: 조약돌 물가 · 해진 밧줄 · 소형 보완
   width: 256
   height: 256
@@ -10499,6 +10646,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-30-e7a2a48d/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-pebble-shore-rope-coil-size-small-v1.png
 - managementId: image.scenery.field-pebble-shore-twisted-driftwood-size-small-v1
   version: v1
   path: assets/billboards/field-pebble-shore-twisted-driftwood-size-small-v1.png
@@ -10512,7 +10662,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-windrow-road-covered-cargo-size-small-v1
   version: v1
-  path: assets/billboards/field-windrow-road-covered-cargo-size-small-v1.png
+  path: assets/retired/billboards/field-windrow-road-covered-cargo-size-small-v1.png
   name: 이삭바람길 · 덮개 운송 짐 · 소형 보완
   width: 256
   height: 256
@@ -10521,9 +10671,12 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-32-d8f8a36e/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-windrow-road-covered-cargo-size-small-v1.png
 - managementId: image.scenery.field-windrow-road-covered-cargo-size-large-v1
   version: v1
-  path: assets/billboards/field-windrow-road-covered-cargo-size-large-v1.png
+  path: assets/retired/billboards/field-windrow-road-covered-cargo-size-large-v1.png
   name: 이삭바람길 · 덮개 운송 짐 · 대형 보완
   width: 256
   height: 256
@@ -10532,6 +10685,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-32-f7f85983/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-windrow-road-covered-cargo-size-large-v1.png
 - managementId: image.scenery.field-mill-ridge-weathered-stones-size-small-v1
   version: v1
   path: assets/billboards/field-mill-ridge-weathered-stones-size-small-v1.png
@@ -10567,7 +10723,7 @@ assets:
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-mill-ridge-worn-millstone-size-large-v1
   version: v1
-  path: assets/billboards/field-mill-ridge-worn-millstone-size-large-v1.png
+  path: assets/retired/billboards/field-mill-ridge-worn-millstone-size-large-v1.png
   name: 맷돌등성이 · 마모 맷돌 · 대형 보완
   width: 256
   height: 256
@@ -10576,6 +10732,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-33-20f11f5e/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-mill-ridge-worn-millstone-size-large-v1.png
 - managementId: image.scenery.field-mill-ridge-stone-shrub-size-small-v1
   version: v1
   path: assets/billboards/field-mill-ridge-stone-shrub-size-small-v1.png
@@ -10622,7 +10781,7 @@ assets:
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-salt-causeway-repair-stakes-size-small-v1
   version: v1
-  path: assets/billboards/field-salt-causeway-repair-stakes-size-small-v1.png
+  path: assets/retired/billboards/field-salt-causeway-repair-stakes-size-small-v1.png
   name: 소금둑길 · 보수 말뚝 · 소형 보완
   width: 256
   height: 256
@@ -10631,9 +10790,12 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-34-e19868f3/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-causeway-repair-stakes-size-small-v1.png
 - managementId: image.scenery.field-salt-causeway-repair-stakes-size-large-v1
   version: v1
-  path: assets/billboards/field-salt-causeway-repair-stakes-size-large-v1.png
+  path: assets/retired/billboards/field-salt-causeway-repair-stakes-size-large-v1.png
   name: 소금둑길 · 보수 말뚝 · 대형 보완
   width: 256
   height: 256
@@ -10642,6 +10804,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-34-751a15d2/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-causeway-repair-stakes-size-large-v1.png
 - managementId: image.scenery.field-salt-causeway-salt-rock-size-small-v1
   version: v1
   path: assets/billboards/field-salt-causeway-salt-rock-size-small-v1.png
@@ -10798,7 +10963,7 @@ assets:
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-root-trail-wagon-wheel-1-v1
   version: v1
-  path: assets/billboards/field-root-trail-wagon-wheel-1-v1.png
+  path: assets/retired/billboards/field-root-trail-wagon-wheel-1-v1.png
   name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 1/5
   width: 256
   height: 256
@@ -10807,6 +10972,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_16-08-22-565dc0f0/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-root-trail-wagon-wheel-1-v1.png
 - managementId: image.scenery.field-lantern-wood-shade-ferns-1-v1
   version: v1
   path: assets/billboards/field-lantern-wood-shade-ferns-1-v1.png
@@ -10996,7 +11164,7 @@ assets:
     processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-salt-flat-brine-barrel-3-v1
   version: v1
-  path: assets/billboards/field-salt-flat-brine-barrel-3-v1.png
+  path: assets/retired/billboards/field-salt-flat-brine-barrel-3-v1.png
   name: 흰소금벌 · 염수 나무통 · 변형 3/5
   width: 256
   height: 256
@@ -11005,6 +11173,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_16-08-25-d9a48bc3/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-flat-brine-barrel-3-v1.png
 - managementId: image.scenery.field-root-trail-root-knot-4-v1
   version: v1
   path: assets/billboards/field-root-trail-root-knot-4-v1.png
@@ -11370,7 +11541,7 @@ assets:
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-salt-causeway-repair-stakes-4-v1
   version: v1
-  path: assets/billboards/field-salt-causeway-repair-stakes-4-v1.png
+  path: assets/retired/billboards/field-salt-causeway-repair-stakes-4-v1.png
   name: 소금둑길 · 보수 말뚝 · 변형 4/5
   width: 256
   height: 256
@@ -11379,9 +11550,12 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-31-c91560ea/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-causeway-repair-stakes-4-v1.png
 - managementId: image.scenery.field-moss-clearing-boundary-stone-5-v1
   version: v1
-  path: assets/billboards/field-moss-clearing-boundary-stone-5-v1.png
+  path: assets/retired/billboards/field-moss-clearing-boundary-stone-5-v1.png
   name: 이끼 공터 · 경계석 · 변형 5/5
   width: 256
   height: 256
@@ -11390,6 +11564,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-31-7dacc0d7/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-moss-clearing-boundary-stone-5-v1.png
 - managementId: image.scenery.field-reed-crossing-reed-clump-5-v1
   version: v1
   path: assets/billboards/field-reed-crossing-reed-clump-5-v1.png
@@ -11414,7 +11591,7 @@ assets:
     processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-windrow-road-covered-cargo-5-v1
   version: v1
-  path: assets/billboards/field-windrow-road-covered-cargo-5-v1.png
+  path: assets/retired/billboards/field-windrow-road-covered-cargo-5-v1.png
   name: 이삭바람길 · 덮개 운송 짐 · 변형 5/5
   width: 256
   height: 256
@@ -11423,6 +11600,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-32-a1f7a557/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-windrow-road-covered-cargo-5-v1.png
 - managementId: image.scenery.field-grove-cargo-crate-size-large-v1
   version: v1
   path: assets/billboards/field-grove-cargo-crate-size-large-v1.png
@@ -11469,7 +11649,7 @@ assets:
     processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-wind-hills-rope-waymark-size-small-v1
   version: v1
-  path: assets/billboards/field-wind-hills-rope-waymark-size-small-v1.png
+  path: assets/retired/billboards/field-wind-hills-rope-waymark-size-small-v1.png
   name: 바람 구릉 · 보강 길표식 · 소형 보완
   width: 256
   height: 256
@@ -11478,6 +11658,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-33-a17bae9c/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-wind-hills-rope-waymark-size-small-v1.png
 - managementId: image.scenery.field-salt-flat-salt-crystals-size-large-v1
   version: v1
   path: assets/billboards/field-salt-flat-salt-crystals-size-large-v1.png
@@ -11491,7 +11674,7 @@ assets:
     processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-salt-flat-brine-barrel-size-large-v1
   version: v1
-  path: assets/billboards/field-salt-flat-brine-barrel-size-large-v1.png
+  path: assets/retired/billboards/field-salt-flat-brine-barrel-size-large-v1.png
   name: 흰소금벌 · 염수 나무통 · 대형 보완
   width: 256
   height: 256
@@ -11500,3 +11683,6 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-33-af462801/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/field-salt-flat-brine-barrel-size-large-v1.png
