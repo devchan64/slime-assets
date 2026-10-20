@@ -7349,7 +7349,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 7be6f15f7667aee6721dddaacd153c126f79de40f2611b30bc78fd6cb7b36618
+  sha256: 49a2efd19edc79e8ed6e1d8c91a61c1bdbcb901b11532736b6bb6ce495de257d
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -11231,4 +11231,257 @@ assets:
   source:
     repository: slime-workflow
     artifact: vegetation-generator/2026-10-20_16-08-31-14b25470/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-wind-hills-wind-shrub-1-v1
+  version: v1
+  path: assets/billboards/field-wind-hills-wind-shrub-1-v1.png
+  name: 바람 구릉 · 기운 관목 · 변형 1/5
+  width: 128
+  height: 128
+  sha256: 3135edc48282d80e7eff276c59798233e475a9893fa03ad584a7a1a1d1236222
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-30-dd68c185/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-mist-lake-mooring-stone-1-v1
+  version: v1
+  path: assets/billboards/field-mist-lake-mooring-stone-1-v1.png
+  name: 안개 호수 · 계류석 · 변형 1/5
+  width: 256
+  height: 256
+  sha256: b6329de9d34aa4f10735ba603bbfc019c89aebf729234143aa30043837cf9959
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-30-7d28ca25/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-salt-flat-salt-crystals-1-v1
+  version: v1
+  path: assets/billboards/field-salt-flat-salt-crystals-1-v1.png
+  name: 흰소금벌 · 소금 결정 · 변형 1/5
+  width: 128
+  height: 128
+  sha256: 55e18ee797bfc32852500e697737f26330574639275f8856b0c890532d5ec523
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-30-78756b2a/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-wind-hills-wind-shrub-2-v1
+  version: v1
+  path: assets/billboards/field-wind-hills-wind-shrub-2-v1.png
+  name: 바람 구릉 · 기운 관목 · 변형 2/5
+  width: 128
+  height: 128
+  sha256: 31fcca76ab78acd4a7b574af902a23865a92d1c6392dcd9219bf75dbaca56bf1
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-30-1fcc9cf8/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-wind-hills-wind-shrub-3-v1
+  version: v1
+  path: assets/billboards/field-wind-hills-wind-shrub-3-v1.png
+  name: 바람 구릉 · 기운 관목 · 변형 3/5
+  width: 128
+  height: 128
+  sha256: 2cac35d69452282c82ce1267f5289900a8a20a7384a652e0ccb2e4356f1f02e2
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-30-af002718/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-mill-ridge-worn-millstone-3-v1
+  version: v1
+  path: assets/billboards/field-mill-ridge-worn-millstone-3-v1.png
+  name: 맷돌등성이 · 마모 맷돌 · 변형 3/5
+  width: 256
+  height: 256
+  sha256: 41c4c0d7a84f282a94ba1ecabe1d6148f71f5dc8c8f49486614819c040ca9cdb
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-30-1976ab5b/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-salt-flat-salt-crystals-3-v1
+  version: v1
+  path: assets/billboards/field-salt-flat-salt-crystals-3-v1.png
+  name: 흰소금벌 · 소금 결정 · 변형 3/5
+  width: 128
+  height: 128
+  sha256: 4f7109c6954a5415f6ddc49e9a72ad942aa9a396f09a700e613f4bf52bc9a747
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-30-0d98189c/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-root-trail-wagon-wheel-4-v1
+  version: v1
+  path: assets/billboards/field-root-trail-wagon-wheel-4-v1.png
+  name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 104f36b108334c8ec85912d0798d0dd151dc0343f25ca8c49c0d09e3a1319e42
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-30-bc9a87c2/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-wind-hills-wind-shrub-4-v1
+  version: v1
+  path: assets/billboards/field-wind-hills-wind-shrub-4-v1.png
+  name: 바람 구릉 · 기운 관목 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 3ec6d6bdc41a9d0285a7e83df6d35dd56711af1f202a5d61823985fc51b165de
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-30-35862cf3/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-wind-hills-rope-waymark-4-v1
+  version: v1
+  path: assets/billboards/field-wind-hills-rope-waymark-4-v1.png
+  name: 바람 구릉 · 보강 길표식 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: b3823c37ff0836bc9b8f680e02f7378d25219fc2e6e83653a5fecbaf6cd2e1e6
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-31-02d89bcd/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-mist-lake-mooring-stone-4-v1
+  version: v1
+  path: assets/billboards/field-mist-lake-mooring-stone-4-v1.png
+  name: 안개 호수 · 계류석 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: c40f7f36decb2489adc7d7e7f7df5b70d57fca7c16584f948b15c7e895b4c6ad
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-31-c2c6fde4/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-salt-causeway-repair-stakes-4-v1
+  version: v1
+  path: assets/billboards/field-salt-causeway-repair-stakes-4-v1.png
+  name: 소금둑길 · 보수 말뚝 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: c8adc52e7982cfe410b5fea9263fcdad0ab6a7eb81ac0bf905825c3b6e5a73d6
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-31-c91560ea/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-moss-clearing-boundary-stone-5-v1
+  version: v1
+  path: assets/billboards/field-moss-clearing-boundary-stone-5-v1.png
+  name: 이끼 공터 · 경계석 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: ae4afd94380b097812f4d0c97f1574950f62480baed6f5ba5de15ee1f264adc5
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-31-7dacc0d7/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-reed-crossing-reed-clump-5-v1
+  version: v1
+  path: assets/billboards/field-reed-crossing-reed-clump-5-v1.png
+  name: 갈대 여울 · 갈대 군락 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: 9d4b4b5acfe1fe2a49e6190d53d4a11cfbd23db9cd9a7f17ac62e0fbea3dcf7a
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-31-c7d97ee5/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-pebble-shore-rounded-pebbles-5-v1
+  version: v1
+  path: assets/billboards/field-pebble-shore-rounded-pebbles-5-v1.png
+  name: 조약돌 물가 · 둥근 자갈 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: d0bf99b9e332067f3110033bec9ed81072a5e36ab8beaaf595cc2990ed7bf0b0
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-31-b97e66d2/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-windrow-road-covered-cargo-5-v1
+  version: v1
+  path: assets/billboards/field-windrow-road-covered-cargo-5-v1.png
+  name: 이삭바람길 · 덮개 운송 짐 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: 5c52483a1bbb7e355fed8f5cd0e6d945fb255edc0e938b4e40fbcbb8c77ba5b0
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-32-a1f7a557/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-grove-cargo-crate-size-large-v1
+  version: v1
+  path: assets/billboards/field-grove-cargo-crate-size-large-v1.png
+  name: 푸른 숲 · 운송 상자 · 대형 보완
+  width: 256
+  height: 256
+  sha256: 693179447aa4e39098e9bbfc9e786a706e93cfd9876f8d99e81d9b6b5213d600
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-32-167b6e54/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-lantern-wood-lantern-stand-size-large-v1
+  version: v1
+  path: assets/billboards/field-lantern-wood-lantern-stand-size-large-v1.png
+  name: 등불 숲 · 등불 받침 · 대형 보완
+  width: 256
+  height: 256
+  sha256: 0f681007ef48efbf3c80ad9718f79883c95c4f24f0bd936107d64ed300d32202
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-32-08283704/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-lantern-wood-shade-ferns-size-small-v1
+  version: v1
+  path: assets/billboards/field-lantern-wood-shade-ferns-size-small-v1.png
+  name: 등불 숲 · 그늘 고사리 · 소형 보완
+  width: 128
+  height: 128
+  sha256: 33e3132ca022b6c2c30a5ddad6e3861e56d415c22d53fe1bed09ade8b5933ea7
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-32-d0c0ed98/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-wind-hills-wind-shrub-size-large-v1
+  version: v1
+  path: assets/billboards/field-wind-hills-wind-shrub-size-large-v1.png
+  name: 바람 구릉 · 기운 관목 · 대형 보완
+  width: 128
+  height: 128
+  sha256: 1872737f10ccc251d196d58202089befcb1970b9da0743fa80de122d6fd6dcd2
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-33-f2114e2d/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-wind-hills-rope-waymark-size-small-v1
+  version: v1
+  path: assets/billboards/field-wind-hills-rope-waymark-size-small-v1.png
+  name: 바람 구릉 · 보강 길표식 · 소형 보완
+  width: 256
+  height: 256
+  sha256: c1de4bfc103bb50b9333b55b43ea76090a76a9bd93a66214558782f13bc78bdd
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-33-a17bae9c/result.png
+    processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-salt-flat-salt-crystals-size-large-v1
+  version: v1
+  path: assets/billboards/field-salt-flat-salt-crystals-size-large-v1.png
+  name: 흰소금벌 · 소금 결정 · 대형 보완
+  width: 128
+  height: 128
+  sha256: b5f6f997936565c414b08312dffe81c8c2b473a736093efa3dcfc47516d9c814
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_17-17-33-5638dc61/result.png
+    processing: RGBA 알파와 비율 유지 128×128 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+- managementId: image.scenery.field-salt-flat-brine-barrel-size-large-v1
+  version: v1
+  path: assets/billboards/field-salt-flat-brine-barrel-size-large-v1.png
+  name: 흰소금벌 · 염수 나무통 · 대형 보완
+  width: 256
+  height: 256
+  sha256: c040b81a38a25829610fde24991aa3e7e12cddbd0514f1233489162d415808a2
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_17-17-33-af462801/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.

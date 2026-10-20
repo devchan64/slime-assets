@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 487
+  image_count: 510
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-20'
@@ -3287,6 +3287,190 @@ families:
     - 지역별 형태·크기 변형
     uses:
     - silver-marsh 야외 필드 배치 후보
+  field-wind-hills-wind-shrub-1-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 바람 구릉 · 기운 관목 · 변형 1/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - wind-hills 야외 필드 배치 후보
+  field-mist-lake-mooring-stone-1-v1:
+    category: prop
+    review_category: props
+    name: 안개 호수 · 계류석 · 변형 1/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - mist-lake 야외 필드 배치 후보
+  field-salt-flat-salt-crystals-1-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 흰소금벌 · 소금 결정 · 변형 1/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - salt-flat 야외 필드 배치 후보
+  field-wind-hills-wind-shrub-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 바람 구릉 · 기운 관목 · 변형 2/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - wind-hills 야외 필드 배치 후보
+  field-wind-hills-wind-shrub-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 바람 구릉 · 기운 관목 · 변형 3/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - wind-hills 야외 필드 배치 후보
+  field-mill-ridge-worn-millstone-3-v1:
+    category: prop
+    review_category: props
+    name: 맷돌등성이 · 마모 맷돌 · 변형 3/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - mill-ridge 야외 필드 배치 후보
+  field-salt-flat-salt-crystals-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 흰소금벌 · 소금 결정 · 변형 3/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - salt-flat 야외 필드 배치 후보
+  field-root-trail-wagon-wheel-4-v1:
+    category: prop
+    review_category: props
+    name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 4/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - root-trail 야외 필드 배치 후보
+  field-wind-hills-wind-shrub-4-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 바람 구릉 · 기운 관목 · 변형 4/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - wind-hills 야외 필드 배치 후보
+  field-wind-hills-rope-waymark-4-v1:
+    category: prop
+    review_category: props
+    name: 바람 구릉 · 보강 길표식 · 변형 4/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - wind-hills 야외 필드 배치 후보
+  field-mist-lake-mooring-stone-4-v1:
+    category: prop
+    review_category: props
+    name: 안개 호수 · 계류석 · 변형 4/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - mist-lake 야외 필드 배치 후보
+  field-salt-causeway-repair-stakes-4-v1:
+    category: prop
+    review_category: props
+    name: 소금둑길 · 보수 말뚝 · 변형 4/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - salt-causeway 야외 필드 배치 후보
+  field-moss-clearing-boundary-stone-5-v1:
+    category: prop
+    review_category: props
+    name: 이끼 공터 · 경계석 · 변형 5/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - moss-clearing 야외 필드 배치 후보
+  field-reed-crossing-reed-clump-5-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 갈대 여울 · 갈대 군락 · 변형 5/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - reed-crossing 야외 필드 배치 후보
+  field-pebble-shore-rounded-pebbles-5-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 조약돌 물가 · 둥근 자갈 · 변형 5/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - pebble-shore 야외 필드 배치 후보
+  field-windrow-road-covered-cargo-5-v1:
+    category: prop
+    review_category: props
+    name: 이삭바람길 · 덮개 운송 짐 · 변형 5/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - windrow-road 야외 필드 배치 후보
+  field-grove-cargo-crate-size-large-v1:
+    category: prop
+    review_category: props
+    name: 푸른 숲 · 운송 상자 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - grove 야외 필드 배치 후보
+  field-lantern-wood-lantern-stand-size-large-v1:
+    category: prop
+    review_category: props
+    name: 등불 숲 · 등불 받침 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - lantern-wood 야외 필드 배치 후보
+  field-lantern-wood-shade-ferns-size-small-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 등불 숲 · 그늘 고사리 · 소형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - lantern-wood 야외 필드 배치 후보
+  field-wind-hills-wind-shrub-size-large-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 바람 구릉 · 기운 관목 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - wind-hills 야외 필드 배치 후보
+  field-wind-hills-rope-waymark-size-small-v1:
+    category: prop
+    review_category: props
+    name: 바람 구릉 · 보강 길표식 · 소형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - wind-hills 야외 필드 배치 후보
+  field-salt-flat-salt-crystals-size-large-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 흰소금벌 · 소금 결정 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - salt-flat 야외 필드 배치 후보
+  field-salt-flat-brine-barrel-size-large-v1:
+    category: prop
+    review_category: props
+    name: 흰소금벌 · 염수 나무통 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - salt-flat 야외 필드 배치 후보
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -26144,6 +26328,1064 @@ billboards:
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 불가
+- texture_key: field-wind-hills-wind-shrub-1-v1
+  family: field-wind-hills-wind-shrub-1-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-wind-shrub-1-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-wind-hills-wind-shrub-1-v1.png
+    width: 128
+    height: 128
+    sha256: 3135edc48282d80e7eff276c59798233e475a9893fa03ad584a7a1a1d1236222
+  modeling:
+    purpose: 바람 구릉 · 기운 관목 · 변형 1/5 · 관목·경계 식생
+    recommended_uses:
+    - wind-hills 야외 필드 배치 후보
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-wind-shrub-1-v1
+    anchorX: 0.514648
+    anchorY: 0.960938
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 40.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-mist-lake-mooring-stone-1-v1
+  family: field-mist-lake-mooring-stone-1-v1
+  asset_ref:
+    management_id: image.scenery.field-mist-lake-mooring-stone-1-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-mist-lake-mooring-stone-1-v1.png
+    width: 256
+    height: 256
+    sha256: b6329de9d34aa4f10735ba603bbfc019c89aebf729234143aa30043837cf9959
+  modeling:
+    purpose: 안개 호수 · 계류석 · 변형 1/5 · 암석·지질 지표
+    recommended_uses:
+    - mist-lake 야외 필드 배치 후보
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-1-v1
+    anchorX: 0.50293
+    anchorY: 0.876953
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 64
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 32.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-salt-flat-salt-crystals-1-v1
+  family: field-salt-flat-salt-crystals-1-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-flat-salt-crystals-1-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-salt-flat-salt-crystals-1-v1.png
+    width: 128
+    height: 128
+    sha256: 55e18ee797bfc32852500e697737f26330574639275f8856b0c890532d5ec523
+  modeling:
+    purpose: 흰소금벌 · 소금 결정 · 변형 1/5 · vegetation
+    recommended_uses:
+    - salt-flat 야외 필드 배치 후보
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-salt-flat-salt-crystals-1-v1
+    anchorX: 0.494141
+    anchorY: 0.839844
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 50.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-wind-hills-wind-shrub-2-v1
+  family: field-wind-hills-wind-shrub-2-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-wind-shrub-2-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-wind-hills-wind-shrub-2-v1.png
+    width: 128
+    height: 128
+    sha256: 31fcca76ab78acd4a7b574af902a23865a92d1c6392dcd9219bf75dbaca56bf1
+  modeling:
+    purpose: 바람 구릉 · 기운 관목 · 변형 2/5 · 관목·경계 식생
+    recommended_uses:
+    - wind-hills 야외 필드 배치 후보
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-wind-shrub-2-v1
+    anchorX: 0.5
+    anchorY: 0.910156
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 40.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-wind-hills-wind-shrub-3-v1
+  family: field-wind-hills-wind-shrub-3-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-wind-shrub-3-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-wind-hills-wind-shrub-3-v1.png
+    width: 128
+    height: 128
+    sha256: 2cac35d69452282c82ce1267f5289900a8a20a7384a652e0ccb2e4356f1f02e2
+  modeling:
+    purpose: 바람 구릉 · 기운 관목 · 변형 3/5 · 관목·경계 식생
+    recommended_uses:
+    - wind-hills 야외 필드 배치 후보
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-wind-shrub-3-v1
+    anchorX: 0.509766
+    anchorY: 0.927734
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 40.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-mill-ridge-worn-millstone-3-v1
+  family: field-mill-ridge-worn-millstone-3-v1
+  asset_ref:
+    management_id: image.scenery.field-mill-ridge-worn-millstone-3-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-mill-ridge-worn-millstone-3-v1.png
+    width: 256
+    height: 256
+    sha256: 41c4c0d7a84f282a94ba1ecabe1d6148f71f5dc8c8f49486614819c040ca9cdb
+  modeling:
+    purpose: 맷돌등성이 · 마모 맷돌 · 변형 3/5 · 작업 흔적
+    recommended_uses:
+    - mill-ridge 야외 필드 배치 후보
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-mill-ridge-worn-millstone-3-v1
+    anchorX: 0.511719
+    anchorY: 0.783203
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 64
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 32.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-salt-flat-salt-crystals-3-v1
+  family: field-salt-flat-salt-crystals-3-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-flat-salt-crystals-3-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-salt-flat-salt-crystals-3-v1.png
+    width: 128
+    height: 128
+    sha256: 4f7109c6954a5415f6ddc49e9a72ad942aa9a396f09a700e613f4bf52bc9a747
+  modeling:
+    purpose: 흰소금벌 · 소금 결정 · 변형 3/5 · vegetation
+    recommended_uses:
+    - salt-flat 야외 필드 배치 후보
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-salt-flat-salt-crystals-3-v1
+    anchorX: 0.53125
+    anchorY: 0.800781
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 50.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-root-trail-wagon-wheel-4-v1
+  family: field-root-trail-wagon-wheel-4-v1
+  asset_ref:
+    management_id: image.scenery.field-root-trail-wagon-wheel-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-root-trail-wagon-wheel-4-v1.png
+    width: 256
+    height: 256
+    sha256: 104f36b108334c8ec85912d0798d0dd151dc0343f25ca8c49c0d09e3a1319e42
+  modeling:
+    purpose: 뿌리 오솔길 · 파손 수레바퀴 · 변형 4/5 · prop
+    recommended_uses:
+    - root-trail 야외 필드 배치 후보
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-wagon-wheel-4-v1
+    anchorX: 0.505859
+    anchorY: 0.863281
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 50.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-wind-hills-wind-shrub-4-v1
+  family: field-wind-hills-wind-shrub-4-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-wind-shrub-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-wind-hills-wind-shrub-4-v1.png
+    width: 128
+    height: 128
+    sha256: 3ec6d6bdc41a9d0285a7e83df6d35dd56711af1f202a5d61823985fc51b165de
+  modeling:
+    purpose: 바람 구릉 · 기운 관목 · 변형 4/5 · 관목·경계 식생
+    recommended_uses:
+    - wind-hills 야외 필드 배치 후보
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-wind-shrub-4-v1
+    anchorX: 0.542969
+    anchorY: 0.902344
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 40.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-wind-hills-rope-waymark-4-v1
+  family: field-wind-hills-rope-waymark-4-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-rope-waymark-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-wind-hills-rope-waymark-4-v1.png
+    width: 256
+    height: 256
+    sha256: b3823c37ff0836bc9b8f680e02f7378d25219fc2e6e83653a5fecbaf6cd2e1e6
+  modeling:
+    purpose: 바람 구릉 · 보강 길표식 · 변형 4/5 · 길 안내 지표
+    recommended_uses:
+    - wind-hills 야외 필드 배치 후보
+    composition: 갈림길·출입구 옆에 단독 배치하고 이동 칸과 표지 가독성을 확보한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-rope-waymark-4-v1
+    anchorX: 0.533203
+    anchorY: 0.945312
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 50.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-mist-lake-mooring-stone-4-v1
+  family: field-mist-lake-mooring-stone-4-v1
+  asset_ref:
+    management_id: image.scenery.field-mist-lake-mooring-stone-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-mist-lake-mooring-stone-4-v1.png
+    width: 256
+    height: 256
+    sha256: c40f7f36decb2489adc7d7e7f7df5b70d57fca7c16584f948b15c7e895b4c6ad
+  modeling:
+    purpose: 안개 호수 · 계류석 · 변형 4/5 · 암석·지질 지표
+    recommended_uses:
+    - mist-lake 야외 필드 배치 후보
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-4-v1
+    anchorX: 0.491211
+    anchorY: 0.914062
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 50.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-salt-causeway-repair-stakes-4-v1
+  family: field-salt-causeway-repair-stakes-4-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-causeway-repair-stakes-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-salt-causeway-repair-stakes-4-v1.png
+    width: 256
+    height: 256
+    sha256: c8adc52e7982cfe410b5fea9263fcdad0ab6a7eb81ac0bf905825c3b6e5a73d6
+  modeling:
+    purpose: 소금둑길 · 보수 말뚝 · 변형 4/5 · prop
+    recommended_uses:
+    - salt-causeway 야외 필드 배치 후보
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-4-v1
+    anchorX: 0.530273
+    anchorY: 0.853516
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 64
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 32.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-moss-clearing-boundary-stone-5-v1
+  family: field-moss-clearing-boundary-stone-5-v1
+  asset_ref:
+    management_id: image.scenery.field-moss-clearing-boundary-stone-5-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-moss-clearing-boundary-stone-5-v1.png
+    width: 256
+    height: 256
+    sha256: ae4afd94380b097812f4d0c97f1574950f62480baed6f5ba5de15ee1f264adc5
+  modeling:
+    purpose: 이끼 공터 · 경계석 · 변형 5/5 · 길 안내 지표
+    recommended_uses:
+    - moss-clearing 야외 필드 배치 후보
+    composition: 갈림길·출입구 옆에 단독 배치하고 이동 칸과 표지 가독성을 확보한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-moss-clearing-boundary-stone-5-v1
+    anchorX: 0.499023
+    anchorY: 0.900391
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 50.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-reed-crossing-reed-clump-5-v1
+  family: field-reed-crossing-reed-clump-5-v1
+  asset_ref:
+    management_id: image.scenery.field-reed-crossing-reed-clump-5-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-reed-crossing-reed-clump-5-v1.png
+    width: 128
+    height: 128
+    sha256: 9d4b4b5acfe1fe2a49e6190d53d4a11cfbd23db9cd9a7f17ac62e0fbea3dcf7a
+  modeling:
+    purpose: 갈대 여울 · 갈대 군락 · 변형 5/5 · 낮은 식생·회복 식생
+    recommended_uses:
+    - reed-crossing 야외 필드 배치 후보
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-reed-crossing-reed-clump-5-v1
+    anchorX: 0.519531
+    anchorY: 0.945312
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 40.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-pebble-shore-rounded-pebbles-5-v1
+  family: field-pebble-shore-rounded-pebbles-5-v1
+  asset_ref:
+    management_id: image.scenery.field-pebble-shore-rounded-pebbles-5-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-pebble-shore-rounded-pebbles-5-v1.png
+    width: 128
+    height: 128
+    sha256: d0bf99b9e332067f3110033bec9ed81072a5e36ab8beaaf595cc2990ed7bf0b0
+  modeling:
+    purpose: 조약돌 물가 · 둥근 자갈 · 변형 5/5 · 암석·지질 지표
+    recommended_uses:
+    - pebble-shore 야외 필드 배치 후보
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-pebble-shore-rounded-pebbles-5-v1
+    anchorX: 0.533203
+    anchorY: 0.802734
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 64
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 32.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-windrow-road-covered-cargo-5-v1
+  family: field-windrow-road-covered-cargo-5-v1
+  asset_ref:
+    management_id: image.scenery.field-windrow-road-covered-cargo-5-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-windrow-road-covered-cargo-5-v1.png
+    width: 256
+    height: 256
+    sha256: 5c52483a1bbb7e355fed8f5cd0e6d945fb255edc0e938b4e40fbcbb8c77ba5b0
+  modeling:
+    purpose: 이삭바람길 · 덮개 운송 짐 · 변형 5/5 · 운반·보관 소품
+    recommended_uses:
+    - windrow-road 야외 필드 배치 후보
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-windrow-road-covered-cargo-5-v1
+    anchorX: 0.49707
+    anchorY: 0.765625
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 50.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-grove-cargo-crate-size-large-v1
+  family: field-grove-cargo-crate-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-grove-cargo-crate-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-grove-cargo-crate-size-large-v1.png
+    width: 256
+    height: 256
+    sha256: 693179447aa4e39098e9bbfc9e786a706e93cfd9876f8d99e81d9b6b5213d600
+  modeling:
+    purpose: 푸른 숲 · 운송 상자 · 대형 보완 · 운반·보관 소품
+    recommended_uses:
+    - grove 야외 필드 배치 후보
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-size-large-v1
+    anchorX: 0.507812
+    anchorY: 0.916016
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 160
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 80.0
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-lantern-wood-lantern-stand-size-large-v1
+  family: field-lantern-wood-lantern-stand-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-lantern-wood-lantern-stand-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-lantern-wood-lantern-stand-size-large-v1.png
+    width: 256
+    height: 256
+    sha256: 0f681007ef48efbf3c80ad9718f79883c95c4f24f0bd936107d64ed300d32202
+  modeling:
+    purpose: 등불 숲 · 등불 받침 · 대형 보완 · prop
+    recommended_uses:
+    - lantern-wood 야외 필드 배치 후보
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-lantern-stand-size-large-v1
+    anchorX: 0.50293
+    anchorY: 0.98
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 160
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 80.0
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-lantern-wood-shade-ferns-size-small-v1
+  family: field-lantern-wood-shade-ferns-size-small-v1
+  asset_ref:
+    management_id: image.scenery.field-lantern-wood-shade-ferns-size-small-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-lantern-wood-shade-ferns-size-small-v1.png
+    width: 128
+    height: 128
+    sha256: 33e3132ca022b6c2c30a5ddad6e3861e56d415c22d53fe1bed09ade8b5933ea7
+  modeling:
+    purpose: 등불 숲 · 그늘 고사리 · 소형 보완 · 낮은 식생·회복 식생
+    recommended_uses:
+    - lantern-wood 야외 필드 배치 후보
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-shade-ferns-size-small-v1
+    anchorX: 0.496094
+    anchorY: 0.796875
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 56
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 28.0
+    size_variant: 소형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-wind-hills-wind-shrub-size-large-v1
+  family: field-wind-hills-wind-shrub-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-wind-shrub-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-wind-hills-wind-shrub-size-large-v1.png
+    width: 128
+    height: 128
+    sha256: 1872737f10ccc251d196d58202089befcb1970b9da0743fa80de122d6fd6dcd2
+  modeling:
+    purpose: 바람 구릉 · 기운 관목 · 대형 보완 · 관목·경계 식생
+    recommended_uses:
+    - wind-hills 야외 필드 배치 후보
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-wind-shrub-size-large-v1
+    anchorX: 0.484375
+    anchorY: 0.96875
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 40.0
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-wind-hills-rope-waymark-size-small-v1
+  family: field-wind-hills-rope-waymark-size-small-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-rope-waymark-size-small-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-wind-hills-rope-waymark-size-small-v1.png
+    width: 256
+    height: 256
+    sha256: c1de4bfc103bb50b9333b55b43ea76090a76a9bd93a66214558782f13bc78bdd
+  modeling:
+    purpose: 바람 구릉 · 보강 길표식 · 소형 보완 · 길 안내 지표
+    recommended_uses:
+    - wind-hills 야외 필드 배치 후보
+    composition: 갈림길·출입구 옆에 단독 배치하고 이동 칸과 표지 가독성을 확보한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-rope-waymark-size-small-v1
+    anchorX: 0.538086
+    anchorY: 0.857422
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 64
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+    outdoorDisplayHeight: 32.0
+    size_variant: 소형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-salt-flat-salt-crystals-size-large-v1
+  family: field-salt-flat-salt-crystals-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-flat-salt-crystals-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-salt-flat-salt-crystals-size-large-v1.png
+    width: 128
+    height: 128
+    sha256: b5f6f997936565c414b08312dffe81c8c2b473a736093efa3dcfc47516d9c814
+  modeling:
+    purpose: 흰소금벌 · 소금 결정 · 대형 보완 · vegetation
+    recommended_uses:
+    - salt-flat 야외 필드 배치 후보
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-salt-flat-salt-crystals-size-large-v1
+    anchorX: 0.495117
+    anchorY: 0.855469
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 180
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 90.0
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
+- texture_key: field-salt-flat-brine-barrel-size-large-v1
+  family: field-salt-flat-brine-barrel-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-flat-brine-barrel-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-salt-flat-brine-barrel-size-large-v1.png
+    width: 256
+    height: 256
+    sha256: c040b81a38a25829610fde24991aa3e7e12cddbd0514f1233489162d415808a2
+  modeling:
+    purpose: 흰소금벌 · 염수 나무통 · 대형 보완 · 운반·보관 소품
+    recommended_uses:
+    - salt-flat 야외 필드 배치 후보
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    source: assets/maps/sprite-display-properties.yaml#data.field-salt-flat-brine-barrel-size-large-v1
+    anchorX: 0.513672
+    anchorY: 0.941406
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 160
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+    outdoorDisplayHeight: 80.0
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 불가
 modeling_contract:
   purpose: 맵 제작용 에셋 선택·크기·접지·통행 참고 자료
   authoritative_properties: assets/maps/sprite-display-properties.yaml
@@ -26160,7 +27402,7 @@ modeling_contract:
   missing: 설정 필요 항목은 크기를 추측하여 배치하지 않는다.
   shadow:
     profile: billboard-contact-v2
-    implementation: '@slime/field-renderer 1.0.132 · drawBillboardContactShadow'
+    implementation: '@slime/field-renderer 1.0.134 · drawBillboardContactShadow'
     enabled: 기본 활성화. 렌더러 옵션 billboardShadows=false로 전체 비활성화.
     geometry: 폭=min(displayHeight×billboardScale×0.38, tileWidth×0.55), 높이=폭×0.2.
       정사각 점유는 이 타원 공식을 사용한다. 열·행 수가 다른 점유는 각 축 길이=선언 점유 수×0.55타일, 모서리 반경=짧은 반축×0.35인
@@ -26173,9 +27415,10 @@ modeling_contract:
     - scale: 0.5
       alpha: 0.12
     color: '#18201b'
-    position: 회전한 타일 앵커 오프셋을 사용해 접지 위치에서 타일 안쪽으로 이동한다. X 보정=(column-row)×tileWidth×0.22,
-      Y 보정=(column+row)×tileHeight×0.22를 뺀다.
+    position: '그림자는 소속 타일 중앙에 둔다. 빌보드 앵커의 화면 이동을 제거한다: X 보정=(column-row)×tileWidth×0.5,
+      Y 보정=(column+row)×tileHeight×0.5를 뺀다. 열·행 오프셋은 카메라 회전을 반영한다.'
     depth: 소속 타일의 지면 바로 위에 배치하며 빌보드·캐릭터 정렬과 분리한다.
-    limits: 접지 그림자만 지원. 광원 방향의 투사·실루엣 그림자, 에셋별 설정, 지면 경계 클리핑은 지원하지 않는다.
-    catalog_role: modeling.shadow는 제작·검수 지침이다. 값을 편집해도 런타임 그림자 설정이 바뀌지 않는다.
+    limits: 접지 그림자만 지원. 광원 방향의 투사·실루엣 그림자, 에셋별 농도 설정, 지면 경계 클리핑은 지원하지 않는다.
+    catalog_role: modeling.shadow는 제작·검수 지침이다. 이 지침만 편집해도 런타임은 바뀌지 않는다. 위치·크기는 공용
+      속성 편집기에서 shadowOffsetColumn/Row(-4~4타일), shadowScaleX/Y(0.1~4배)를 저장한다.
   validation: slime-workflow/tools/review/maintenance/sync_billboard_catalog.py --check
