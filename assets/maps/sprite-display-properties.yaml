@@ -45,7 +45,7 @@ data:
     anchorY: 0.94
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 164
+    displayHeight: 64
     billboardPlacementAnchor: top
     billboardBlocksMovement: false
   orchard-chunky-fern-v1:
@@ -969,11 +969,11 @@ data:
     billboardPlacementAnchor: top
     billboardBlocksMovement: false
   ash-edge-decomposer-log-v1:
-    anchorX: 0.46
-    anchorY: 0.64
+    anchorX: 0.503906
+    anchorY: 0.917647
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 130
+    displayHeight: 90
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
   ash-edge-scorched-waystone-v1:
@@ -3683,5 +3683,333 @@ data:
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 300
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-root-trail-wagon-wheel-1-v1:
+    anchorX: 0.520508
+    anchorY: 0.808594
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-lantern-wood-shade-ferns-1-v1:
+    anchorX: 0.5
+    anchorY: 0.98
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-wind-hills-bent-grass-1-v1:
+    anchorX: 0.493164
+    anchorY: 0.904297
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-reed-crossing-reed-clump-1-v1:
+    anchorX: 0.505859
+    anchorY: 0.958984
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-pebble-shore-twisted-driftwood-1-v1:
+    anchorX: 0.499023
+    anchorY: 0.726562
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-moss-clearing-boundary-stone-2-v1:
+    anchorX: 0.5
+    anchorY: 0.865234
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-root-trail-rooted-tree-2-v1:
+    anchorX: 0.498047
+    anchorY: 0.98
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 300
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-root-trail-root-knot-2-v1:
+    anchorX: 0.542969
+    anchorY: 0.929688
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-lantern-wood-shade-ferns-2-v1:
+    anchorX: 0.504883
+    anchorY: 0.927734
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-wind-hills-bent-grass-2-v1:
+    anchorX: 0.490234
+    anchorY: 0.98
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-mist-lake-lakeside-tree-2-v1:
+    anchorX: 0.495117
+    anchorY: 0.896484
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 300
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-reed-crossing-reed-clump-2-v1:
+    anchorX: 0.412109
+    anchorY: 0.966797
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-reed-crossing-river-sedge-2-v1:
+    anchorX: 0.506836
+    anchorY: 0.976562
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-salt-causeway-salt-grass-2-v1:
+    anchorX: 0.475586
+    anchorY: 0.931641
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-salt-causeway-repair-stakes-2-v1:
+    anchorX: 0.487305
+    anchorY: 0.917969
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-grove-moss-log-3-v1:
+    anchorX: 0.495117
+    anchorY: 0.875
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-reed-crossing-reed-clump-3-v1:
+    anchorX: 0.492188
+    anchorY: 0.916016
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-pebble-shore-twisted-driftwood-3-v1:
+    anchorX: 0.501953
+    anchorY: 0.861328
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-salt-flat-brine-barrel-3-v1:
+    anchorX: 0.492188
+    anchorY: 0.96875
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-root-trail-root-knot-4-v1:
+    anchorX: 0.501953
+    anchorY: 0.919922
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-lantern-wood-shade-ferns-4-v1:
+    anchorX: 0.493164
+    anchorY: 0.876953
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-mist-lake-lakeside-tree-4-v1:
+    anchorX: 0.505859
+    anchorY: 0.882812
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 300
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-reed-crossing-reed-clump-4-v1:
+    anchorX: 0.550781
+    anchorY: 0.955078
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-reed-crossing-reed-bundle-4-v1:
+    anchorX: 0.506836
+    anchorY: 0.875
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-pebble-shore-twisted-driftwood-4-v1:
+    anchorX: 0.484375
+    anchorY: 0.759766
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-salt-causeway-salt-grass-4-v1:
+    anchorX: 0.50293
+    anchorY: 0.841797
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-lantern-wood-shade-ferns-5-v1:
+    anchorX: 0.49707
+    anchorY: 0.927734
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-wind-hills-bent-grass-5-v1:
+    anchorX: 0.506836
+    anchorY: 0.943359
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-mist-lake-lakeside-tree-5-v1:
+    anchorX: 0.519531
+    anchorY: 0.953125
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 300
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-grove-broadleaf-tree-size-large-v1:
+    anchorX: 0.484375
+    anchorY: 0.98
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 300
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-moss-clearing-moss-rock-size-large-v1:
+    anchorX: 0.503906
+    anchorY: 0.910156
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 180
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-root-trail-rooted-tree-size-small-v1:
+    anchorX: 0.514648
+    anchorY: 0.98
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 180
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-lantern-wood-crooked-tree-size-large-v1:
+    anchorX: 0.544922
+    anchorY: 0.939453
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 300
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-lantern-wood-shade-ferns-size-large-v1:
+    anchorX: 0.498047
+    anchorY: 0.98
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-wind-hills-bent-grass-size-small-v1:
+    anchorX: 0.501953
+    anchorY: 0.935547
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 56
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-mist-lake-lakeside-tree-size-small-v1:
+    anchorX: 0.474609
+    anchorY: 0.974609
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 180
+    billboardPlacementAnchor: bottom
+    billboardBlocksMovement: true
+  field-reed-crossing-reed-clump-size-small-v1:
+    anchorX: 0.512695
+    anchorY: 0.927734
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 56
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-reed-crossing-reed-clump-size-large-v1:
+    anchorX: 0.470703
+    anchorY: 0.98
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-windrow-road-wild-grain-size-large-v1:
+    anchorX: 0.4375
+    anchorY: 0.957031
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-windrow-road-hedgerow-shrub-size-small-v1:
+    anchorX: 0.515625
+    anchorY: 0.867188
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 56
+    billboardPlacementAnchor: top
+    billboardBlocksMovement: false
+  field-silver-marsh-marsh-snag-size-large-v1:
+    anchorX: 0.491211
+    anchorY: 0.955078
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 150
     billboardPlacementAnchor: bottom
     billboardBlocksMovement: true
