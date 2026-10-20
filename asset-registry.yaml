@@ -7349,7 +7349,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: v2-clover-v1-crystal-v1-ore-v1-dawn-v1-valley-v1-canopy-v1-wheat-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-nature-double-v1-contact-expand-v1-contact-relocate-v2-contact-relocate-v2-dead-tree-contact-v1-tile-contact-v1-placement-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: b1547851f2e7c67311b5e49b7ea36b35ecc2a462f9e7739b0fc1ac9f7c3cdbf9
+  sha256: 5c67c694de046e5ab33c32bc57bf42156ff90a21175fcdd6a1737cd9d5720b83
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -9494,3 +9494,542 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-32-513338ad/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-grove-broadleaf-tree-4-v1
+  version: v1
+  path: assets/billboards/field-grove-broadleaf-tree-4-v1.png
+  name: 푸른 숲 · 활엽수 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 7c1fe36d8b43e6fd45ad7589287da45461b511108a90540e0e506b08bd6c1ad1
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-32-a7df60c8/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-grove-cargo-crate-4-v1
+  version: v1
+  path: assets/billboards/field-grove-cargo-crate-4-v1.png
+  name: 푸른 숲 · 운송 상자 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 0f0b8797f39c86d6f529be9cd74f0e9ee8d89064ec62b17ed851a099d1fad2ae
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-32-0ce263b1/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-grove-moss-log-4-v1
+  version: v1
+  path: assets/billboards/field-grove-moss-log-4-v1.png
+  name: 푸른 숲 · 이끼 고목 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 64da08b1e6c2ce00a983c06771b22785491a96caf0f9883941b29dd7636c35c9
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-32-62c4f615/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-moss-clearing-moss-rock-4-v1
+  version: v1
+  path: assets/billboards/field-moss-clearing-moss-rock-4-v1.png
+  name: 이끼 공터 · 이끼 바위 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: b283c2a9a3fae8ec2c36831850a8f253bdd12cc85436309cf992facdbed83a0c
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-32-31ec3200/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-moss-clearing-boundary-stone-4-v1
+  version: v1
+  path: assets/billboards/field-moss-clearing-boundary-stone-4-v1.png
+  name: 이끼 공터 · 경계석 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 539775ced727db39380b003dc5b9dd24eebc542b712846d2bec38ba3c445aba5
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-33-9ddc510d/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-moss-clearing-fungus-stump-4-v1
+  version: v1
+  path: assets/billboards/field-moss-clearing-fungus-stump-4-v1.png
+  name: 이끼 공터 · 버섯 그루터기 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 8c325311ab831e7c4a4ffac993a9240639ca016bce722e58f7c463c3bed46744
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-33-44c74e36/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-root-trail-rooted-tree-4-v1
+  version: v1
+  path: assets/billboards/field-root-trail-rooted-tree-4-v1.png
+  name: 뿌리 오솔길 · 뿌리 나무 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 727baedbe33f0173055f58142a5fd6eb281bc8335f26def72382344dd981766f
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-33-9b7e6160/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-lantern-wood-crooked-tree-4-v1
+  version: v1
+  path: assets/billboards/field-lantern-wood-crooked-tree-4-v1.png
+  name: 등불 숲 · 굽은 숲나무 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 786db20638eed58405141ddba3cc77524a88a5d5b70c2133a66ee5086c07b407
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-33-4e21d4e9/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-lantern-wood-lantern-stand-4-v1
+  version: v1
+  path: assets/billboards/field-lantern-wood-lantern-stand-4-v1.png
+  name: 등불 숲 · 등불 받침 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 976558d92c0d089edbe26f40071111a58811d3270b684444328eaa0fe9d63cdd
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-34-cf746b59/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-wind-hills-bent-grass-4-v1
+  version: v1
+  path: assets/billboards/field-wind-hills-bent-grass-4-v1.png
+  name: 바람 구릉 · 누운 억새 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 9e8a6a64a7d8c2f4c8ee620af16f7de7f98655416b75cd4c90df410a38a0e0b3
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-34-3fdf1678/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-mist-lake-wet-rock-4-v1
+  version: v1
+  path: assets/billboards/field-mist-lake-wet-rock-4-v1.png
+  name: 안개 호수 · 젖은 이끼 바위 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 9d919b83fa187425d7d42403f13732800d1b1cf0bf8a95b7ebbbb20b8289cf03
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-35-dc134b40/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-reed-crossing-river-sedge-4-v1
+  version: v1
+  path: assets/billboards/field-reed-crossing-river-sedge-4-v1.png
+  name: 갈대 여울 · 강변 사초 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 442edd58592bbf17c2ee354ca4100c93244436f8d1b0bdaa86cf53858f108086
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-35-19e61961/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-silver-marsh-silver-sedge-4-v1
+  version: v1
+  path: assets/billboards/field-silver-marsh-silver-sedge-4-v1.png
+  name: 은빛 습지 · 은빛 사초 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: a12ad8e3740432604b5f170af70435fe677079d2d4093d929ee7913cf7ac84fa
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-35-759851b8/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-silver-marsh-water-gauge-4-v1
+  version: v1
+  path: assets/billboards/field-silver-marsh-water-gauge-4-v1.png
+  name: 은빛 습지 · 수위 말뚝 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: b789ab3245d34f30c16e885140c9270f2188eb5db52bca818f372fb7d77bd482
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-35-132b3509/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-silver-marsh-marsh-snag-4-v1
+  version: v1
+  path: assets/billboards/field-silver-marsh-marsh-snag-4-v1.png
+  name: 은빛 습지 · 습지 고목 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 9810922e4e0e8739864dd5456045f2d632a1346a40acac3bdd3873231c2502a4
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-36-a3dc9d08/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-pebble-shore-rounded-pebbles-4-v1
+  version: v1
+  path: assets/billboards/field-pebble-shore-rounded-pebbles-4-v1.png
+  name: 조약돌 물가 · 둥근 자갈 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 4156f128144751861c4c413c68337dba08b1dc4dc620fa9e8e36d47e23847023
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-36-3c41994a/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-pebble-shore-rope-coil-4-v1
+  version: v1
+  path: assets/billboards/field-pebble-shore-rope-coil-4-v1.png
+  name: 조약돌 물가 · 해진 밧줄 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 9cde3345cab14bcc105084be1a1761ccacb3b0bc1eb24f57932ecb209f0563df
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-36-4e7dbd84/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-windrow-road-wild-grain-4-v1
+  version: v1
+  path: assets/billboards/field-windrow-road-wild-grain-4-v1.png
+  name: 이삭바람길 · 야생 이삭 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 15c280a51aabf7fc7b7316094a6d94de9123d7b8b04dbe34aaa0ed764afa8292
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-36-e210e809/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-windrow-road-covered-cargo-4-v1
+  version: v1
+  path: assets/billboards/field-windrow-road-covered-cargo-4-v1.png
+  name: 이삭바람길 · 덮개 운송 짐 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: fa310f7e517455b4ad600fa542deb5aefc15232aa7cb402b1df57b6ad6c75f78
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-36-5f56f90c/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-windrow-road-hedgerow-shrub-4-v1
+  version: v1
+  path: assets/billboards/field-windrow-road-hedgerow-shrub-4-v1.png
+  name: 이삭바람길 · 생울타리 관목 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: de559fd5e3b3ce062ffb659907fcaf344e173172ccf93606fa72080ca521538e
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-37-e2b328e0/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-mill-ridge-weathered-stones-4-v1
+  version: v1
+  path: assets/billboards/field-mill-ridge-weathered-stones-4-v1.png
+  name: 맷돌등성이 · 풍화 돌무더기 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 4e9a72f28f213c065d3a5027d449f8a0761bf0be9bbe6abaceda9156e5e3e4c7
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-37-59a08ee1/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-mill-ridge-worn-millstone-4-v1
+  version: v1
+  path: assets/billboards/field-mill-ridge-worn-millstone-4-v1.png
+  name: 맷돌등성이 · 마모 맷돌 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: c647c37f04c7337798dfd15dfe4cc7ee76b7e4acf1692b5f9962c9cf3ca1aa5a
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-37-25b1ba81/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-mill-ridge-stone-shrub-4-v1
+  version: v1
+  path: assets/billboards/field-mill-ridge-stone-shrub-4-v1.png
+  name: 맷돌등성이 · 돌틈 관목 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: ec880b53f779bfe207f58d3ba2e4726c2fccd6ef6037a4725d3060914d4b17a7
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-37-aa7355e3/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-salt-causeway-salt-rock-4-v1
+  version: v1
+  path: assets/billboards/field-salt-causeway-salt-rock-4-v1.png
+  name: 소금둑길 · 소금기 바위 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 9bb09657c8b1d461cd4756d83bb5568cd4ee5afcc408e42348ed3f9bbc1e8261
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-38-a1d0f7da/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-salt-flat-salt-crystals-4-v1
+  version: v1
+  path: assets/billboards/field-salt-flat-salt-crystals-4-v1.png
+  name: 흰소금벌 · 소금 결정 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 16d56bc2b653dc02a24a484b0e7ff302617b43e9afeb2000c6d24df4859502fa
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-38-188735d4/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-salt-flat-brine-barrel-4-v1
+  version: v1
+  path: assets/billboards/field-salt-flat-brine-barrel-4-v1.png
+  name: 흰소금벌 · 염수 나무통 · 변형 4/5
+  width: 256
+  height: 256
+  sha256: 8af9799388f9dc33168a8e4ec5bda78d210f44ffd1bc7b0b45b277ce3623ed0c
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-38-e8bd11bf/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-salt-flat-salt-shrub-4-v1
+  version: v1
+  path: assets/billboards/field-salt-flat-salt-shrub-4-v1.png
+  name: 흰소금벌 · 염생 관목 · 변형 4/5
+  width: 128
+  height: 128
+  sha256: 694becd3485156370c690aeb8883a60c45477d16992c4f73c4162422f385b71e
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-38-2446a69b/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-meadow-dew-grass-5-v1
+  version: v1
+  path: assets/billboards/field-meadow-dew-grass-5-v1.png
+  name: 이슬 초원 · 이슬 풀 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: 75e99de1cbd9b9de9f9722c931f539c862d079abcbdd607f370672403672e270
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-38-af908d85/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-meadow-waypost-5-v1
+  version: v1
+  path: assets/billboards/field-meadow-waypost-5-v1.png
+  name: 이슬 초원 · 길목 표지목 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: aa3975202d383c02703f2559c4b5377ed531ff71eca2d32e008641656457ff3e
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-38-78ae064a/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-grove-broadleaf-tree-5-v1
+  version: v1
+  path: assets/billboards/field-grove-broadleaf-tree-5-v1.png
+  name: 푸른 숲 · 활엽수 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: 887ab03253749bce7702b42aeb92148db9138ef6ddbeeb322802f3954ad18071
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-39-7f9a3715/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-grove-cargo-crate-5-v1
+  version: v1
+  path: assets/billboards/field-grove-cargo-crate-5-v1.png
+  name: 푸른 숲 · 운송 상자 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: 8d6e9658e1d443b1f5f4cfd5d82b78902d47ba998caea1d548c3a1e6b24ae58e
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-39-21d6532f/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-grove-moss-log-5-v1
+  version: v1
+  path: assets/billboards/field-grove-moss-log-5-v1.png
+  name: 푸른 숲 · 이끼 고목 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: 606d47f400ffc5378debd0d3bea80563046487c1e11caba16f685385cb46d572
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-39-961000bb/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-moss-clearing-fungus-stump-5-v1
+  version: v1
+  path: assets/billboards/field-moss-clearing-fungus-stump-5-v1.png
+  name: 이끼 공터 · 버섯 그루터기 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: 9ef57ad1e61d252a1966a8c59ab860f00c311c8d94b493b8765caec8f8e3b7a5
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-40-74b57251/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-root-trail-rooted-tree-5-v1
+  version: v1
+  path: assets/billboards/field-root-trail-rooted-tree-5-v1.png
+  name: 뿌리 오솔길 · 뿌리 나무 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: 50b62d196c8b49022d6c20851a66a6a859a25db219c7132a453236b8f87be6cd
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-40-fac65cc0/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-root-trail-wagon-wheel-5-v1
+  version: v1
+  path: assets/billboards/field-root-trail-wagon-wheel-5-v1.png
+  name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: f074c2afddbcbf4dbaace246951103cd3e607fccef0a8fc573a6f00707d3dc92
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-40-f57fc6bb/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-lantern-wood-crooked-tree-5-v1
+  version: v1
+  path: assets/billboards/field-lantern-wood-crooked-tree-5-v1.png
+  name: 등불 숲 · 굽은 숲나무 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: 8ffb96e3a52a86e9458a71c54c95ccef5a69429637d2dbd7d857a0f7bb44160b
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-40-9a30c9aa/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-lantern-wood-lantern-stand-5-v1
+  version: v1
+  path: assets/billboards/field-lantern-wood-lantern-stand-5-v1.png
+  name: 등불 숲 · 등불 받침 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: 8f14e8d3fa106501a28579af549e6f5a931b4dac1f0ba777b3550b94f785000f
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-40-9ef37463/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-wind-hills-rope-waymark-5-v1
+  version: v1
+  path: assets/billboards/field-wind-hills-rope-waymark-5-v1.png
+  name: 바람 구릉 · 보강 길표식 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: 6e4fae9f93c991c4846a6dbe193bcf61987b613964d6f6a22e59d373f4cd7879
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-41-d76ef8cb/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-mist-lake-mooring-stone-5-v1
+  version: v1
+  path: assets/billboards/field-mist-lake-mooring-stone-5-v1.png
+  name: 안개 호수 · 계류석 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: a4f401444b8d3b622f3e968b1c9d195c236db4c0de92d4b48691fe82e40243a8
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-42-5865e4be/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-mist-lake-wet-rock-5-v1
+  version: v1
+  path: assets/billboards/field-mist-lake-wet-rock-5-v1.png
+  name: 안개 호수 · 젖은 이끼 바위 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: a370cddd567dfbf28b0181844545443ecbb0551ca725fbe1e50b02e51f4b3943
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-42-00e161f3/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-reed-crossing-reed-bundle-5-v1
+  version: v1
+  path: assets/billboards/field-reed-crossing-reed-bundle-5-v1.png
+  name: 갈대 여울 · 갈대 섬유 묶음 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: 6c58905cbf7a9deef25372d66d6875f1dabc7c23bbbea06e85afa7a0810a836c
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-42-73ec2507/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-reed-crossing-river-sedge-5-v1
+  version: v1
+  path: assets/billboards/field-reed-crossing-river-sedge-5-v1.png
+  name: 갈대 여울 · 강변 사초 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: d39ceb21d10d7aa3a0f52dc849f3b99858c0ef45cb7588c3195a4714bd48b7f2
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-42-22499c72/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-silver-marsh-silver-sedge-5-v1
+  version: v1
+  path: assets/billboards/field-silver-marsh-silver-sedge-5-v1.png
+  name: 은빛 습지 · 은빛 사초 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: 66e33be8f54e15f51c778cfd6dbfc72145e10bace1733a95af68b780999726a5
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-42-f8dab50a/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-silver-marsh-water-gauge-5-v1
+  version: v1
+  path: assets/billboards/field-silver-marsh-water-gauge-5-v1.png
+  name: 은빛 습지 · 수위 말뚝 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: e9a2f995997b13341255d888ff66f7316844de4d5c5386c9f57ba3d6bdf4723d
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-43-98e63b61/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-silver-marsh-marsh-snag-5-v1
+  version: v1
+  path: assets/billboards/field-silver-marsh-marsh-snag-5-v1.png
+  name: 은빛 습지 · 습지 고목 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: dbca503c01c4ebf58d4262a4f18864d3cd3d0c61d3887ca4cc0da7732bd6c073
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-43-60626212/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-pebble-shore-rope-coil-5-v1
+  version: v1
+  path: assets/billboards/field-pebble-shore-rope-coil-5-v1.png
+  name: 조약돌 물가 · 해진 밧줄 · 변형 5/5
+  width: 256
+  height: 256
+  sha256: 34f09e9718a4fb33f5a7c8f5e3d1880d16d2cde8f1809102ee1ed23352d96853
+  source:
+    repository: slime-workflow
+    artifact: prop-generator/2026-10-20_09-33-43-9855723f/result.png
+    processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-pebble-shore-twisted-driftwood-5-v1
+  version: v1
+  path: assets/billboards/field-pebble-shore-twisted-driftwood-5-v1.png
+  name: 조약돌 물가 · 뒤틀린 유목 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: d96b6d18246b4a96f9b5e170e422ede05ca32c6678be02e1b78bb9ebc7fbf6e9
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-43-a401546d/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-windrow-road-wild-grain-5-v1
+  version: v1
+  path: assets/billboards/field-windrow-road-wild-grain-5-v1.png
+  name: 이삭바람길 · 야생 이삭 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: 6319ef5674776fb866970ffb1b3c543af1ba7c8c33902780ce0e0617bd4f8bf1
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-43-d73b6337/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
+- managementId: image.scenery.field-windrow-road-hedgerow-shrub-5-v1
+  version: v1
+  path: assets/billboards/field-windrow-road-hedgerow-shrub-5-v1.png
+  name: 이삭바람길 · 생울타리 관목 · 변형 5/5
+  width: 128
+  height: 128
+  sha256: 43f9f373dbe1b8143ae4450410050ea0251ea74a7110427d9822e589259c79af
+  source:
+    repository: slime-workflow
+    artifact: vegetation-generator/2026-10-20_09-33-44-ebc5be8e/result.png
+    processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
