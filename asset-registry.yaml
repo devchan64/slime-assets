@@ -689,7 +689,7 @@ assets:
 - managementId: config.field-tiles.dawn-overlook
   version: shared-material-codes-v2-dawn-v1-valley-v1-crossing-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/field_tiles/dawn-overlook.yaml
-  sha256: d0ee61d4fe5dd34d51f26e2f4a3db55705de9e899e4e1a8f775b5ecf923915aa
+  sha256: 9aa7c5369c8d2ff98b25803f0948854e2181bb306f5fb71eb4679d3d7039594e
   source:
     repository: slime-backend
     path: config/field_tiles/dawn-overlook.yaml
@@ -697,7 +697,7 @@ assets:
 - managementId: config.field-tiles.dry-creek
   version: shared-material-codes-v2-creek-v1-creek-v1
   path: assets/maps/field_tiles/dry-creek.yaml
-  sha256: b402bf5ff4169994f7a46b5d8dee0c5c5308b6a685fe83505ec34af15b214b26
+  sha256: e5f0dc04aa4956729b5b0bd6c3535ec53b273fe01476715df58c0151313c3c74
   source:
     repository: slime-backend
     path: config/field_tiles/dry-creek.yaml
@@ -7355,7 +7355,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 7e9954ad6baa6a08825a4928b00e6a93b66b7bd5da0fa1a363b9565e76e8776f
+  sha256: 0e1a8e6d99e9733cfcab31918ed2408a70f59388df765afd9e9dd5fd68263dca
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8182,7 +8182,7 @@ assets:
     operation: 사용자 채택 Qwen 2.1 소품 원본 등록; RGBA 원본 유지
 - managementId: image.scenery.dawn-overlook-granite-ledge-v1
   version: v1
-  path: assets/billboards/dawn-overlook-granite-ledge-v1.png
+  path: assets/retired/billboards/dawn-overlook-granite-ledge-v1.png
   name: 새벽 전망대 화강암 절벽
   width: 128
   height: 128
@@ -8191,6 +8191,9 @@ assets:
     repository: codex-imagegen
     artifact: exec-4d170d10-6be0-480f-ba4f-4e130b476163.png
     processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/dawn-overlook-granite-ledge-v1.png
 - managementId: image.scenery.dawn-overlook-split-granite-v1
   version: v1
   path: assets/billboards/dawn-overlook-split-granite-v1.png
@@ -8204,7 +8207,7 @@ assets:
     processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
 - managementId: image.scenery.dawn-overlook-weathered-slabs-v1
   version: v1
-  path: assets/billboards/dawn-overlook-weathered-slabs-v1.png
+  path: assets/retired/billboards/dawn-overlook-weathered-slabs-v1.png
   name: 풍화된 화강암 판석
   width: 128
   height: 128
@@ -8213,6 +8216,9 @@ assets:
     repository: codex-imagegen
     artifact: exec-8791ab38-f45a-4088-9c45-00e373490a95.png
     processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/dawn-overlook-weathered-slabs-v1.png
 - managementId: image.scenery.bridge-timber-components-v1
   version: v1
   path: assets/buildings/bridge-timber-components-v1.png
