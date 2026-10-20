@@ -1,5 +1,6 @@
 managementId: config.terrain.battlefields.cinder-path-encounter
 data:
+  terrainMovementVersion: 2
   columns: 12
   rows: 12
   elevations:
@@ -15,7 +16,6 @@ data:
   - '000000000000'
   - '000000000000'
   - '000000000000'
-  elevationTiles: []
   name: 식은 잿길 조우 전장
   description: 식은 돌 띠 사이 굽은 잿길 — 중앙 진입과 측면 우회를 선택
   terrain:

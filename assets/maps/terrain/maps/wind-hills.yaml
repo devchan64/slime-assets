@@ -1,5 +1,6 @@
 managementId: config.terrain.maps.wind-hills
 data:
+  terrainMovementVersion: 2
   columns: 32
   rows: 32
   elevations:
@@ -35,61 +36,6 @@ data:
   - '00000000000000000000000000000000'
   - '00000000000000000000000000000000'
   - '00000000000000000000000000000000'
-  elevationTiles:
-  - id: wind-hills-link-1
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 6
-    - 8
-    lower:
-    - 5
-    - 8
-  - id: wind-hills-link-2
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 11
-    - 16
-    lower:
-    - 12
-    - 16
-  - id: wind-hills-link-3
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 22
-    - 4
-    lower:
-    - 21
-    - 4
-  - id: wind-hills-link-4
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 20
-    - 10
-    lower:
-    - 19
-    - 10
-  - id: wind-hills-link-5
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 26
-    - 22
-    lower:
-    - 27
-    - 22
-  - id: wind-hills-link-6
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 21
-    - 27
-    lower:
-    - 20
-    - 27
   blocked:
   - - 7
     - 9

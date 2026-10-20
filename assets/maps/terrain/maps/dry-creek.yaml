@@ -1,5 +1,6 @@
 managementId: config.terrain.maps.dry-creek
 data:
+  terrainMovementVersion: 2
   columns: 32
   rows: 32
   elevations:
@@ -35,7 +36,6 @@ data:
   - '65544433333344556666666666666666'
   - '66554443334445566666666666666666'
   - '66655544444455666666666666666666'
-  elevationTiles: []
   blocked:
   - - 0
     - 0

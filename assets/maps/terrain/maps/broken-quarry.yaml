@@ -1,5 +1,6 @@
 managementId: config.terrain.maps.broken-quarry
 data:
+  terrainMovementVersion: 2
   columns: 32
   rows: 32
   elevations:
@@ -35,7 +36,6 @@ data:
   - '33333310000000000000000000111000'
   - '33333100000000000000000000000000'
   - '33331100000000000000000000000000'
-  elevationTiles: []
   blocked:
   - - 0
     - 0

@@ -1,5 +1,6 @@
 managementId: config.terrain.maps.mill-ridge
 data:
+  terrainMovementVersion: 2
   columns: 32
   rows: 32
   elevations:
@@ -35,7 +36,6 @@ data:
   - '00000000000000000000000000000000'
   - '00000000000000000000000000000000'
   - '00000000000000000000000000000000'
-  elevationTiles: []
   blocked:
   - - 3
     - 4

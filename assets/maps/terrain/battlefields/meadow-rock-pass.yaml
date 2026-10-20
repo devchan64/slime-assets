@@ -1,5 +1,6 @@
 managementId: config.terrain.battlefields.meadow-rock-pass
 data:
+  terrainMovementVersion: 2
   columns: 12
   rows: 12
   elevations:
@@ -48,22 +49,3 @@ data:
     - 5
   - - 10
     - 6
-  elevationTiles:
-  - id: meadow-rock-pass-link-1
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 4
-    - 5
-    lower:
-    - 5
-    - 5
-  - id: meadow-rock-pass-link-2
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 8
-    - 4
-    lower:
-    - 7
-    - 4

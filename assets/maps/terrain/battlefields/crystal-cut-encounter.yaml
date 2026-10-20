@@ -1,5 +1,6 @@
 managementId: config.terrain.battlefields.crystal-cut-encounter
 data:
+  terrainMovementVersion: 2
   columns: 12
   rows: 12
   elevations:
@@ -15,7 +16,6 @@ data:
   - '000000000000'
   - '000000000000'
   - '000000000000'
-  elevationTiles: []
   name: 결정 절개지 조우 전장
   description: 대각 암벽 사이 두 진입로 — 중앙 진입과 측면 우회를 선택
   terrain:

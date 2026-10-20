@@ -1,5 +1,6 @@
 managementId: config.terrain.battlefields.meadow-crossroads
 data:
+  terrainMovementVersion: 2
   columns: 12
   rows: 12
   elevations:
@@ -48,22 +49,3 @@ data:
     - 5
   - - 10
     - 6
-  elevationTiles:
-  - id: meadow-crossroads-link-1
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 3
-    - 2
-    lower:
-    - 2
-    - 2
-  - id: meadow-crossroads-link-2
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 6
-    - 2
-    lower:
-    - 6
-    - 3

@@ -1,5 +1,6 @@
 managementId: config.terrain.battlefields.meadow-dew-ponds
 data:
+  terrainMovementVersion: 2
   columns: 12
   rows: 12
   elevations:
@@ -48,40 +49,3 @@ data:
     - 5
   - - 10
     - 6
-  elevationTiles:
-  - id: meadow-dew-ponds-link-1
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 3
-    - 4
-    lower:
-    - 4
-    - 4
-  - id: meadow-dew-ponds-link-2
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 8
-    - 5
-    lower:
-    - 7
-    - 5
-  - id: meadow-dew-ponds-link-3
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 3
-    - 0
-    lower:
-    - 4
-    - 0
-  - id: meadow-dew-ponds-link-4
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 8
-    - 9
-    lower:
-    - 7
-    - 9

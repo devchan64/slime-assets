@@ -1,5 +1,6 @@
 managementId: config.terrain.battlefields.meadow-thicket-bend
 data:
+  terrainMovementVersion: 2
   columns: 12
   rows: 12
   elevations:
@@ -48,22 +49,3 @@ data:
     - 5
   - - 10
     - 6
-  elevationTiles:
-  - id: meadow-thicket-bend-link-1
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 2
-    - 4
-    lower:
-    - 2
-    - 5
-  - id: meadow-thicket-bend-link-2
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 9
-    - 5
-    lower:
-    - 9
-    - 4

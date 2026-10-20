@@ -1,5 +1,6 @@
 managementId: config.terrain.battlefields.dawn-overlook-encounter
 data:
+  terrainMovementVersion: 2
   columns: 12
   rows: 12
   elevations:
@@ -15,7 +16,6 @@ data:
   - '000000000000'
   - '000000000000'
   - '000000000000'
-  elevationTiles: []
   name: 새벽 전망대 조우 전장
   description: 북쪽 암반과 남쪽으로 열린 전망 공간 — 중앙 진입과 측면 우회를 선택
   terrain:

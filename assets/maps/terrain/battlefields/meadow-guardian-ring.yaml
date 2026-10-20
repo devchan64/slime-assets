@@ -1,5 +1,6 @@
 managementId: config.terrain.battlefields.meadow-guardian-ring
 data:
+  terrainMovementVersion: 2
   columns: 12
   rows: 12
   elevations:
@@ -48,22 +49,3 @@ data:
     - 5
   - - 10
     - 6
-  elevationTiles:
-  - id: meadow-guardian-ring-link-1
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 4
-    - 4
-    lower:
-    - 3
-    - 4
-  - id: meadow-guardian-ring-link-2
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 8
-    - 5
-    lower:
-    - 9
-    - 5

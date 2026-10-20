@@ -1,5 +1,6 @@
 managementId: config.terrain.maps.fallen-canopy
 data:
+  terrainMovementVersion: 2
   columns: 32
   rows: 32
   elevations:
@@ -35,7 +36,6 @@ data:
   - '44444444443333333333333444444444'
   - '44444444444333333333334444444444'
   - '44444444444443333333444444444444'
-  elevationTiles: []
   blocked:
   - - 0
     - 0

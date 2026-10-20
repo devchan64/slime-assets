@@ -1,5 +1,6 @@
 managementId: config.terrain.maps.mist-lake
 data:
+  terrainMovementVersion: 2
   columns: 32
   rows: 32
   elevations:
@@ -35,43 +36,6 @@ data:
   - '00000000000000000000000000000000'
   - '00000000000000000000000000000000'
   - '00000000000000000000000000000000'
-  elevationTiles:
-  - id: mist-lake-link-1
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 16
-    - 11
-    lower:
-    - 15
-    - 11
-  - id: mist-lake-link-2
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 21
-    - 17
-    lower:
-    - 21
-    - 18
-  - id: mist-lake-link-3
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 6
-    - 21
-    lower:
-    - 6
-    - 20
-  - id: mist-lake-link-4
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 11
-    - 24
-    lower:
-    - 12
-    - 24
   blocked:
   - [20, 8]
   - [21, 8]

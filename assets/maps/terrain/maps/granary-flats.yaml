@@ -1,5 +1,6 @@
 managementId: config.terrain.maps.granary-flats
 data:
+  terrainMovementVersion: 2
   columns: 32
   rows: 32
   elevations:
@@ -35,7 +36,6 @@ data:
   - '22222100122222222222222100122222'
   - '22222211222222222222222211222222'
   - '22222222222222222222222222222222'
-  elevationTiles: []
   blocked:
   - - 6
     - 2

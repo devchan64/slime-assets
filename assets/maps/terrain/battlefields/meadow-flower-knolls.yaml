@@ -1,5 +1,6 @@
 managementId: config.terrain.battlefields.meadow-flower-knolls
 data:
+  terrainMovementVersion: 2
   columns: 12
   rows: 12
   elevations:
@@ -48,40 +49,3 @@ data:
     - 5
   - - 10
     - 6
-  elevationTiles:
-  - id: meadow-flower-knolls-link-1
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 2
-    - 2
-    lower:
-    - 2
-    - 1
-  - id: meadow-flower-knolls-link-2
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 5
-    - 6
-    lower:
-    - 6
-    - 6
-  - id: meadow-flower-knolls-link-3
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 7
-    - 4
-    lower:
-    - 6
-    - 4
-  - id: meadow-flower-knolls-link-4
-    kind: stairs
-    asset: stone-step-tile
-    cell:
-    - 10
-    - 7
-    lower:
-    - 10
-    - 8
