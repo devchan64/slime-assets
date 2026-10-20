@@ -39,27 +39,6 @@ data:
     position:
       column: 16
       row: 16
-  - id: cinder-path-detail-1
-    kind: decoration
-    position:
-      column: 3
-      row: 3
-    textureKey: cinder-path-snapped-sapling-v1
-    tileAnchor: center
-  - id: cinder-path-detail-2
-    kind: decoration
-    position:
-      column: 28
-      row: 5
-    textureKey: cinder-path-snapped-sapling-v1
-    tileAnchor: center
-  - id: cinder-path-detail-3
-    kind: decoration
-    position:
-      column: 27
-      row: 25
-    textureKey: cinder-path-snapped-sapling-v1
-    tileAnchor: center
   - id: cinder-path-detail-4
     kind: decoration
     position:
@@ -123,54 +102,12 @@ data:
       row: 29
     textureKey: dry-branches-v1
     tileAnchor: center
-  - id: cinder-path-detail-13
-    kind: decoration
-    position:
-      column: 2
-      row: 10
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-path-detail-14
-    kind: decoration
-    position:
-      column: 12
-      row: 12
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-path-detail-15
-    kind: decoration
-    position:
-      column: 22
-      row: 7
-    textureKey: cinder-path-silver-shrub-v1
-    tileAnchor: center
   - id: cinder-path-detail-16
     kind: decoration
     position:
       column: 29
       row: 15
     textureKey: cinder-path-gray-green-shoots-v1
-    tileAnchor: center
-  - id: cinder-path-detail-17
-    kind: decoration
-    position:
-      column: 7
-      row: 29
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-path-detail-18
-    kind: decoration
-    position:
-      column: 24
-      row: 28
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-path-detail-19
-    kind: decoration
-    position:
-      column: 8
-      row: 2
-    textureKey: cinder-path-silver-shrub-v1
     tileAnchor: center
   - id: cinder-path-detail-20
     kind: decoration
@@ -179,54 +116,12 @@ data:
       row: 1
     textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: cinder-path-detail-21
-    kind: decoration
-    position:
-      column: 12
-      row: 20
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-path-detail-22
-    kind: decoration
-    position:
-      column: 2
-      row: 23
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-path-detail-23
-    kind: decoration
-    position:
-      column: 30
-      row: 28
-    textureKey: cinder-path-silver-shrub-v1
-    tileAnchor: center
   - id: cinder-path-detail-24
     kind: decoration
     position:
       column: 2
       row: 6
     textureKey: cinder-path-gray-green-shoots-v1
-    tileAnchor: center
-  - id: cinder-path-detail-25
-    kind: decoration
-    position:
-      column: 27
-      row: 8
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-path-detail-26
-    kind: decoration
-    position:
-      column: 21
-      row: 21
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-path-detail-27
-    kind: decoration
-    position:
-      column: 5
-      row: 30
-    textureKey: cinder-path-silver-shrub-v1
     tileAnchor: center
   - id: cinder-path-detail-28
     kind: decoration
@@ -277,40 +172,12 @@ data:
       row: 18
     textureKey: ash-edge-scorched-waystone-v1
     tileAnchor: center
-  - id: cinder-path-cooled-rocks-v1-5-10
-    kind: decoration
-    position:
-      column: 5
-      row: 10
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-path-cooled-rocks-v1-22-5
-    kind: decoration
-    position:
-      column: 22
-      row: 5
-    textureKey: cinder-path-ash-pebbles-v1
-    tileAnchor: center
   - id: cinder-path-cooled-rocks-v1-28-19
     kind: decoration
     position:
       column: 28
       row: 19
     textureKey: cinder-path-cooled-rocks-v1
-    tileAnchor: center
-  - id: cinder-path-cooled-rocks-v1-6-28
-    kind: decoration
-    position:
-      column: 6
-      row: 28
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-path-buried-deadwood-v1-7-20
-    kind: decoration
-    position:
-      column: 7
-      row: 20
-    textureKey: cinder-path-weathered-log-v1
     tileAnchor: center
   - id: cinder-path-buried-deadwood-v1-26-28
     kind: decoration
@@ -340,40 +207,12 @@ data:
       row: 3
     textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: cinder-path-gray-green-shoots-v1-3-11
-    kind: decoration
-    position:
-      column: 3
-      row: 11
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-path-gray-green-shoots-v1-24-21
-    kind: decoration
-    position:
-      column: 24
-      row: 21
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-path-gray-green-shoots-v1-28-27
-    kind: decoration
-    position:
-      column: 28
-      row: 27
-    textureKey: cinder-path-silver-shrub-v1
-    tileAnchor: center
   - id: cinder-path-gray-green-shoots-v1-8-29
     kind: decoration
     position:
       column: 8
       row: 29
     textureKey: cinder-path-gray-green-shoots-v1
-    tileAnchor: center
-  - id: cinder-path-gray-green-shoots-v1-22-2
-    kind: decoration
-    position:
-      column: 22
-      row: 2
-    textureKey: cinder-path-dry-grass-v1
     tileAnchor: center
   - id: cinder-path-basalt-ridge-5-7
     kind: decoration
@@ -424,33 +263,12 @@ data:
       row: 25
     textureKey: cinder-path-basalt-outcrop-v1
     tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-16-21
-    kind: decoration
-    position:
-      column: 16
-      row: 21
-    textureKey: cinder-path-ash-pebbles-v1
-    tileAnchor: center
   - id: cinder-remodel-cinder-path-cooled-rocks-v1-1-25
     kind: decoration
     position:
       column: 1
       row: 25
     textureKey: cinder-path-cooled-rocks-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-14-21
-    kind: decoration
-    position:
-      column: 14
-      row: 21
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-25-16
-    kind: decoration
-    position:
-      column: 25
-      row: 16
-    textureKey: cinder-path-ash-pebbles-v1
     tileAnchor: center
   - id: cinder-remodel-cinder-path-cooled-rocks-v1-21-11
     kind: decoration
@@ -459,40 +277,12 @@ data:
       row: 11
     textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-8-19
-    kind: decoration
-    position:
-      column: 8
-      row: 19
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-15-28
-    kind: decoration
-    position:
-      column: 15
-      row: 28
-    textureKey: cinder-path-ash-pebbles-v1
-    tileAnchor: center
   - id: cinder-remodel-cinder-path-cooled-rocks-v1-17-23
     kind: decoration
     position:
       column: 17
       row: 23
     textureKey: cinder-path-cooled-rocks-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-4-12
-    kind: decoration
-    position:
-      column: 4
-      row: 12
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-1-8
-    kind: decoration
-    position:
-      column: 1
-      row: 8
-    textureKey: cinder-path-ash-pebbles-v1
     tileAnchor: center
   - id: cinder-remodel-cinder-path-cooled-rocks-v1-5-20
     kind: decoration
@@ -501,40 +291,12 @@ data:
       row: 20
     textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-3-4
-    kind: decoration
-    position:
-      column: 3
-      row: 4
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-24-13
-    kind: decoration
-    position:
-      column: 24
-      row: 13
-    textureKey: cinder-path-ash-pebbles-v1
-    tileAnchor: center
   - id: cinder-remodel-cinder-path-cooled-rocks-v1-6-9
     kind: decoration
     position:
       column: 6
       row: 9
     textureKey: cinder-path-cooled-rocks-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-28-14
-    kind: decoration
-    position:
-      column: 28
-      row: 14
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-6-4
-    kind: decoration
-    position:
-      column: 6
-      row: 4
-    textureKey: cinder-path-ash-pebbles-v1
     tileAnchor: center
   - id: cinder-remodel-cinder-path-cooled-rocks-v1-21-6
     kind: decoration
@@ -543,40 +305,12 @@ data:
       row: 6
     textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-25-18
-    kind: decoration
-    position:
-      column: 25
-      row: 18
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-13-6
-    kind: decoration
-    position:
-      column: 13
-      row: 6
-    textureKey: cinder-path-ash-pebbles-v1
-    tileAnchor: center
   - id: cinder-remodel-cinder-path-cooled-rocks-v1-16-29
     kind: decoration
     position:
       column: 16
       row: 29
     textureKey: cinder-path-cooled-rocks-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-20-14
-    kind: decoration
-    position:
-      column: 20
-      row: 14
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-10-8
-    kind: decoration
-    position:
-      column: 10
-      row: 8
-    textureKey: cinder-path-ash-pebbles-v1
     tileAnchor: center
   - id: cinder-remodel-cinder-path-cooled-rocks-v1-27-7
     kind: decoration
@@ -585,33 +319,12 @@ data:
       row: 7
     textureKey: cinder-path-cooled-rocks-v1
     tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-3-12
-    kind: decoration
-    position:
-      column: 3
-      row: 12
-    textureKey: cinder-path-basalt-pillars-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-cooled-rocks-v1-18-21
-    kind: decoration
-    position:
-      column: 18
-      row: 21
-    textureKey: cinder-path-ash-pebbles-v1
-    tileAnchor: center
   - id: cinder-remodel-cinder-path-buried-deadwood-v1-5-18
     kind: decoration
     position:
       column: 5
       row: 18
     textureKey: cinder-path-buried-deadwood-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-buried-deadwood-v1-16-8
-    kind: decoration
-    position:
-      column: 16
-      row: 8
-    textureKey: cinder-path-weathered-log-v1
     tileAnchor: center
   - id: cinder-remodel-cinder-path-buried-deadwood-v1-18-14
     kind: decoration
@@ -627,13 +340,6 @@ data:
       row: 14
     textureKey: cinder-path-buried-deadwood-v1
     tileAnchor: center
-  - id: cinder-remodel-cinder-path-buried-deadwood-v1-5-29
-    kind: decoration
-    position:
-      column: 5
-      row: 29
-    textureKey: cinder-path-weathered-log-v1
-    tileAnchor: center
   - id: cinder-remodel-cinder-path-buried-deadwood-v1-5-4
     kind: decoration
     position:
@@ -647,13 +353,6 @@ data:
       column: 29
       row: 6
     textureKey: cinder-path-buried-deadwood-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-buried-deadwood-v1-22-10
-    kind: decoration
-    position:
-      column: 22
-      row: 10
-    textureKey: cinder-path-weathered-log-v1
     tileAnchor: center
   - id: cinder-remodel-cinder-path-buried-deadwood-v1-15-29
     kind: decoration
@@ -753,47 +452,12 @@ data:
       row: 16
     textureKey: dry-branches-v1
     tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-21-25
-    kind: decoration
-    position:
-      column: 21
-      row: 25
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-10-29
-    kind: decoration
-    position:
-      column: 10
-      row: 29
-    textureKey: cinder-path-silver-shrub-v1
-    tileAnchor: center
   - id: cinder-remodel-cinder-path-gray-green-shoots-v1-29-9
     kind: decoration
     position:
       column: 29
       row: 9
     textureKey: cinder-path-gray-green-shoots-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-25-5
-    kind: decoration
-    position:
-      column: 25
-      row: 5
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-8-3
-    kind: decoration
-    position:
-      column: 8
-      row: 3
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-9-8
-    kind: decoration
-    position:
-      column: 9
-      row: 8
-    textureKey: cinder-path-silver-shrub-v1
     tileAnchor: center
   - id: cinder-remodel-cinder-path-gray-green-shoots-v1-12-6
     kind: decoration
@@ -802,54 +466,12 @@ data:
       row: 6
     textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-19-26
-    kind: decoration
-    position:
-      column: 19
-      row: 26
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-2-3
-    kind: decoration
-    position:
-      column: 2
-      row: 3
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-12-21
-    kind: decoration
-    position:
-      column: 12
-      row: 21
-    textureKey: cinder-path-silver-shrub-v1
-    tileAnchor: center
   - id: cinder-remodel-cinder-path-gray-green-shoots-v1-25-6
     kind: decoration
     position:
       column: 25
       row: 6
     textureKey: cinder-path-gray-green-shoots-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-10-13
-    kind: decoration
-    position:
-      column: 10
-      row: 13
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-16-23
-    kind: decoration
-    position:
-      column: 16
-      row: 23
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-19-27
-    kind: decoration
-    position:
-      column: 19
-      row: 27
-    textureKey: cinder-path-silver-shrub-v1
     tileAnchor: center
   - id: cinder-remodel-cinder-path-gray-green-shoots-v1-8-24
     kind: decoration
@@ -858,54 +480,12 @@ data:
       row: 24
     textureKey: cinder-path-gray-green-shoots-v1
     tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-30-17
-    kind: decoration
-    position:
-      column: 30
-      row: 17
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-10-10
-    kind: decoration
-    position:
-      column: 10
-      row: 10
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-3-22
-    kind: decoration
-    position:
-      column: 3
-      row: 22
-    textureKey: cinder-path-silver-shrub-v1
-    tileAnchor: center
   - id: cinder-remodel-cinder-path-gray-green-shoots-v1-19-13
     kind: decoration
     position:
       column: 19
       row: 13
     textureKey: cinder-path-gray-green-shoots-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-13-13
-    kind: decoration
-    position:
-      column: 13
-      row: 13
-    textureKey: cinder-path-dry-grass-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-13-14
-    kind: decoration
-    position:
-      column: 13
-      row: 14
-    textureKey: cinder-path-pioneer-shoots-v1
-    tileAnchor: center
-  - id: cinder-remodel-cinder-path-gray-green-shoots-v1-4-2
-    kind: decoration
-    position:
-      column: 4
-      row: 2
-    textureKey: cinder-path-silver-shrub-v1
     tileAnchor: center
   - id: cinder-remodel-ash-edge-charred-regrowth-v1-12-23
     kind: decoration
