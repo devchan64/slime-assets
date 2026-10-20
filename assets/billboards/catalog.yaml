@@ -1339,17 +1339,17 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.apples-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.42
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80
     billboardBlocksMovement: false
     shadowScaleX: 1
     shadowScaleY: 1.0
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -1392,7 +1392,7 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.apples-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.505
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80
@@ -1401,7 +1401,7 @@ billboards:
     shadowOffsetRow: 0
     shadowScaleX: 1
     shadowScaleY: 1.0
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -1444,7 +1444,7 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.apples-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.505
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80
@@ -1453,7 +1453,7 @@ billboards:
     shadowOffsetRow: 0
     shadowScaleX: 1
     shadowScaleY: 1.0
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -1494,15 +1494,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.berry-shrub-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.3875
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 142
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 71.0
     size_variant: 기본 변형
@@ -1544,15 +1544,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.berry-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.2585
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -1599,12 +1599,12 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.berry-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.525
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 164.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
@@ -1646,15 +1646,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.berry-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.279
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 164.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
@@ -1696,15 +1696,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.blue-flower-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.36
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 160
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 80.0
     size_variant: 기본 변형
@@ -1746,15 +1746,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.blue-flower-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.17
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -1796,15 +1796,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.blue-flower-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.38
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -1846,15 +1846,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.blue-wildflowers-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.39
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -1896,17 +1896,17 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.bramble-clump-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.46
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 114
     billboardBlocksMovement: false
     shadowScaleX: 1.65
     shadowScaleY: 1
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     outdoorDisplayHeight: 57.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -1947,15 +1947,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.bramble-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.47
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -1996,15 +1996,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.bramble-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.188
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2045,16 +2045,16 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.bramble-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.172
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
     shadowScaleX: 2
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2098,15 +2098,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.broadleaf-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.316
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2152,15 +2152,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.broadleaf-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.348
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2202,15 +2202,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.broadleaf-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.124
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2252,15 +2252,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.broadleaf-weed-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.325
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
@@ -2309,12 +2309,12 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.clover-clump-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.508
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 144
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 72.0
     size_variant: 기본 변형
@@ -2362,15 +2362,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.clover-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.24
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
@@ -2416,15 +2416,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.clover-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
@@ -2470,15 +2470,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.clover-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.21
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -2520,15 +2520,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.daisy-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.24
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2570,15 +2570,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.daisy-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.24
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2620,15 +2620,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.daisy-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.16
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2672,15 +2672,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dandelion-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.28
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2721,15 +2721,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dandelion-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.16
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2771,15 +2771,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dandelion-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.24
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -2824,15 +2824,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-branches-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.56
+    anchorY: 0.45
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 122
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 61.0
     size_variant: 기본 변형
@@ -2884,15 +2884,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-grass-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.44325
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 154
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 77.0
     size_variant: 기본 변형
@@ -2940,15 +2940,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-grass-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.38125
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -2996,15 +2996,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-grass-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.36
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 136
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 68.0
     size_variant: 기본 변형
@@ -3058,15 +3058,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-grass-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.24
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 200
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
@@ -3110,15 +3110,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-shrub-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.25
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 164.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
@@ -3162,15 +3162,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-shrub-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.4225
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 164.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
@@ -3214,15 +3214,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-shrub-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.2585
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 164.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
@@ -3264,15 +3264,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-apples-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.3375
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -3316,15 +3316,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-leaves-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.326
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
@@ -3368,15 +3368,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fern-clump-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.1975
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 90
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 45.0
     size_variant: 기본 변형
@@ -3422,15 +3422,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fern-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.1625
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -3476,15 +3476,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fern-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.275
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -3528,15 +3528,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fern-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.0375
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -3580,15 +3580,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.grass-clump-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.316
     displayHeight: 128.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -3635,13 +3635,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.hollow-log-v1
-    anchorX: 0.75
-    anchorY: 1.25
+    anchorX: 0.471
+    anchorY: 1.18925
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 221
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.6
     shadowScaleY: 1
     outdoorDisplayHeight: 110.5
@@ -3689,12 +3689,12 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.ivy-clump-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.5395
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 154
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 77.0
     size_variant: 기본 변형
@@ -3738,15 +3738,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.ivy-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.17
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 88.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 44.0
     size_variant: 기본 변형
@@ -3788,15 +3788,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.ivy-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.43
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 103
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 51.5
     size_variant: 기본 변형
@@ -3838,15 +3838,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.ivy-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.072
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 88.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 44.0
     size_variant: 기본 변형
@@ -3887,15 +3887,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.leaves-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.41
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 88
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 44.0
     size_variant: 기본 변형
@@ -3936,15 +3936,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.leaves-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.35
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 90
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1.6
     shadowScaleX: 1.6
     outdoorDisplayHeight: 45.0
@@ -3986,15 +3986,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.leaves-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.284875
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 91
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 45.5
     size_variant: 기본 변형
@@ -4039,13 +4039,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.log-variant-1-v1
-    anchorX: 0.25
-    anchorY: 1.25
+    anchorX: 0.4455
+    anchorY: 0.88
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 168
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 84.0
     size_variant: 기본 변형
@@ -4090,13 +4090,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.log-variant-2-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.62
+    anchorY: 0.55
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -4139,15 +4139,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.log-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.37
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -4191,15 +4191,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.mushroom-cluster-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.33
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -4241,15 +4241,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.mushroom-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -4293,15 +4293,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.mushroom-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.28
     displayHeight: 128.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -4343,15 +4343,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.mushroom-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.268
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -4398,12 +4398,12 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.old-stump-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.565
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 130
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
@@ -4444,15 +4444,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.28
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 300
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
@@ -4501,15 +4501,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-v2
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.44
     displayHeight: 300
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.55
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
@@ -4558,15 +4558,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-variant-1-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.43
+    anchorY: 0.44
     displayHeight: 270
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 135.0
     size_variant: 기본 변형
@@ -4614,15 +4614,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-variant-2-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.45
+    anchorY: 0.41
     displayHeight: 300
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
@@ -4668,15 +4668,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-autumn-tree-v2
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.41
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 283
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.4
     shadowScaleY: 1
     outdoorDisplayHeight: 141.5
@@ -4723,15 +4723,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-autumn-tree-variant-1-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.46
+    anchorY: 0.45
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 300
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
@@ -4778,15 +4778,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-autumn-tree-variant-2-v2
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.33
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 300
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.45
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
@@ -4833,15 +4833,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-chunky-dryshrub-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.14
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -4887,15 +4887,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-chunky-fern-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.28
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -4939,15 +4939,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-chunky-flower-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: -0.04
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 78
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 39.0
     size_variant: 기본 변형
@@ -4995,15 +4995,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-chunky-grass-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.21
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -5045,15 +5045,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-chunky-mushroom-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.14
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 108
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 54.0
     size_variant: 기본 변형
@@ -5099,15 +5099,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-chunky-shrub-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.16
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -5148,15 +5148,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-dead-tree-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.16
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -5204,15 +5204,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-dead-tree-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.48
+    anchorY: 0.19
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
@@ -5261,15 +5261,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-dead-tree-variant-1-v2
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.31
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -5315,15 +5315,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-dead-tree-variant-2-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4854
+    anchorY: 0.24
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -5375,15 +5375,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-old-tree-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4487
+    anchorY: 0.37
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 270
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1
     outdoorDisplayHeight: 135.0
@@ -5436,15 +5436,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-old-tree-variant-1-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4487
+    anchorY: 0.4704
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 300
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
@@ -5495,15 +5495,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-old-tree-variant-2-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4707
+    anchorY: 0.3386
     displayHeight: 300
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
@@ -5558,15 +5558,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-young-tree-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4956
+    anchorY: 0.2615
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 260
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
@@ -5607,15 +5607,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-young-tree-variant-1-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.32
+    anchorY: 0.2439
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 300
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
@@ -5665,15 +5665,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-young-tree-variant-1-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4736
+    anchorY: 0.38
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 300
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
@@ -5723,15 +5723,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-young-tree-variant-2-v2
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4561
+    anchorY: 0.33
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 300
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
@@ -5773,15 +5773,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sapling-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.4109
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 180
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
@@ -5823,15 +5823,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sapling-variant-2-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4912
+    anchorY: 0.4109
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 180
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
@@ -5872,15 +5872,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sapling-variant-3-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.4812
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 180
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
@@ -5924,15 +5924,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.seed-grass-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4813
+    anchorY: 0.25
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -5976,15 +5976,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.seed-grass-variant-1-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4813
+    anchorY: 0.3125
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6028,15 +6028,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.seed-grass-variant-2-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.125
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6080,15 +6080,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.seed-grass-variant-3-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4906
+    anchorY: 0.2625
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6136,15 +6136,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sorrel-clump-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.46
+    anchorY: 0.18
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6190,15 +6190,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sorrel-variant-1-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.33
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6244,15 +6244,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sorrel-variant-2-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4813
+    anchorY: 0.05
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6294,15 +6294,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sorrel-variant-3-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5188
+    anchorY: 0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6346,13 +6346,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.stump-variant-1-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5254
+    anchorY: 0.5174
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 130
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
@@ -6393,15 +6393,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.stump-variant-2-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5063
+    anchorY: 0.4666
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 130
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
@@ -6442,15 +6442,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.stump-variant-3-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4873
+    anchorY: 0.3777
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 130
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
@@ -6498,13 +6498,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-charcoal-stack-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5186
+    anchorY: 0.56
     displayHeight: 128
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6546,15 +6546,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-coastal-stall-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4
+    anchorY: 0.48
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 163
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 81.5
     size_variant: 기본 변형
@@ -6600,15 +6600,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-delivery-crates-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.48
+    anchorY: 0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 109
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 54.5
     size_variant: 기본 변형
@@ -6650,15 +6650,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-fish-rack-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.34
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
@@ -6701,15 +6701,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-food-stall-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.46
+    anchorY: 0.47
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6753,15 +6753,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grain-sacks-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5023
+    anchorY: 0.4377
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6808,15 +6808,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-field-clover-cushion-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.475
+    anchorY: 0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -6861,15 +6861,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-golden-meadow-tuft-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4887
+    anchorY: 0.01
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 116.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 58.0
     size_variant: 기본 변형
@@ -6915,13 +6915,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-grain-drying-v1
-    anchorX: 0.75
-    anchorY: 1.25
+    anchorX: 0.57
+    anchorY: 0.55
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
@@ -6964,15 +6964,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-green-field-hedge-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.56
+    anchorY: 0.19
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -7015,15 +7015,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-hazel-leaf-shrub-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.489
+    anchorY: 0.18
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -7065,15 +7065,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-milling-dispatch-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.44
+    anchorY: 0.48
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 126
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.6
     shadowScaleY: 1
     outdoorDisplayHeight: 63.0
@@ -7119,15 +7119,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-white-field-daisy-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.475
+    anchorY: 0.05
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -7170,15 +7170,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-wild-raspberry-bush-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4927
+    anchorY: 0.0291
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 149
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 74.5
     size_variant: 기본 변형
@@ -7224,15 +7224,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grindstone-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4619
+    anchorY: 0.4831
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 130
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.3
     shadowScaleY: 1.025
     outdoorDisplayHeight: 65.0
@@ -7285,15 +7285,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-ground-lantern-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4536
+    anchorY: 0.2
     displayHeight: 95
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
@@ -7343,15 +7343,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-handcart-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.48
+    anchorY: 0.23
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 95.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
@@ -7397,13 +7397,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-harvest-cart-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.48
+    anchorY: 0.59
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 134
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 67.0
     size_variant: 기본 변형
@@ -7456,12 +7456,12 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-herb-planter-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.61
     displayHeight: 150.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -7503,15 +7503,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-herb-rack-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.52
+    anchorY: 0.3689
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 130.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
@@ -7555,13 +7555,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-jelly-counter-v1
-    anchorX: 0.75
-    anchorY: 1.25
+    anchorX: 0.52
+    anchorY: 0.6814
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 155
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 77.5
     size_variant: 기본 변형
@@ -7604,15 +7604,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-lemon-herb-clump-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5125
+    anchorY: 0.15
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -7654,15 +7654,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-material-training-v1
-    anchorX: 0.5
-    anchorY: 1.5
+    anchorX: 0.47
+    anchorY: 0.44
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 2
     shadowScaleY: 1.0
     outdoorDisplayHeight: 70.0
@@ -7706,15 +7706,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-red-berry-bush-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4854
+    anchorY: 0.1025
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -7757,15 +7757,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-round-rose-shrub-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5146
+    anchorY: 0.0879
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -7808,15 +7808,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-soft-fern-cluster-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4731
+    anchorY: 0.0488
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -7859,15 +7859,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-violet-garden-tuft-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5113
+    anchorY: 0.15
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 116.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 58.0
     size_variant: 기본 변형
@@ -7910,15 +7910,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-white-bloom-hedge-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.2197
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -7962,15 +7962,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-layered-sign-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.3857
+    anchorY: 0.2
     displayHeight: 130.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
@@ -8022,15 +8022,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-low-fence-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.49
+    anchorY: 0.45
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 111
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.3
     shadowScaleY: 1.25
     outdoorDisplayHeight: 55.5
@@ -8073,15 +8073,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-low-reeds-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.475
+    anchorY: 0.2125
     displayHeight: 128
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -8128,12 +8128,12 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-metal-bin-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.55
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 108
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1.65
     outdoorDisplayHeight: 54.0
@@ -8180,15 +8180,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-notice-board-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.3
     displayHeight: 130.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
@@ -8232,15 +8232,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-ore-basket-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4377
+    anchorY: 0.4338
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 75.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 37.5
     size_variant: 기본 변형
@@ -8290,15 +8290,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-record-chest-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.52
+    anchorY: 0.41
     displayHeight: 95.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
@@ -8340,15 +8340,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reed-bundles-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4814
+    anchorY: 0.3264
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 95
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
@@ -8389,15 +8389,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-blue-marsh-iris-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4938
+    anchorY: 0.0625
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -8440,15 +8440,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-broad-marsh-fern-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4854
+    anchorY: 0.0293
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -8492,13 +8492,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-fiber-workbench-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.49
+    anchorY: 0.53
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
@@ -8541,15 +8541,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-reed-flower-clump-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4688
+    anchorY: 0.05
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -8596,15 +8596,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-river-sedge-tuft-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4813
+    anchorY: 0.0625
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -8649,15 +8649,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-water-mint-bush-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4782
+    anchorY: 0.03
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -8699,15 +8699,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-water-record-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.25
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 130
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.45
     shadowScaleY: 1.375
     outdoorDisplayHeight: 65.0
@@ -8751,15 +8751,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-willow-leaf-shrub-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.51
+    anchorY: 0.18
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -8811,13 +8811,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-repair-rack-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.49
+    anchorY: 0.5124
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.4
     shadowScaleY: 1.45
     outdoorDisplayHeight: 70.0
@@ -8868,15 +8868,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-rope-crates-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4909
+    anchorY: 0.498
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1.5
     outdoorDisplayHeight: 60.0
@@ -8919,15 +8919,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-salt-barrels-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4907
+    anchorY: 0.447
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 95
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 1.5
     shadowScaleY: 1.5
     outdoorDisplayHeight: 47.5
@@ -8970,15 +8970,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-cargo-weighing-v1
-    anchorX: 0.75
-    anchorY: 1.25
+    anchorX: 0.49
+    anchorY: 0.49
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 155
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 77.5
     size_variant: 기본 변형
@@ -9021,15 +9021,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-coastal-silver-shrub-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4561
+    anchorY: 0.0879
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -9072,15 +9072,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-pale-coastal-heather-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.05
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -9123,15 +9123,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-salt-marsh-grass-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.475
+    anchorY: 0.0875
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -9174,15 +9174,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-sea-lavender-clump-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4813
+    anchorY: 0.0125
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -9225,15 +9225,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-thick-leaf-bush-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.0879
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -9277,13 +9277,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-wet-cargo-drying-v1
-    anchorX: 0.25
-    anchorY: 1.25
+    anchorX: 0.51
+    anchorY: 0.6329
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
@@ -9324,15 +9324,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-wind-bent-sedge-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5312
+    anchorY: 0.0625
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -9378,13 +9378,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-saltmarsh-plants-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4875
+    anchorY: 0.5675
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -9427,15 +9427,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-copper-leaf-bush-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4927
+    anchorY: 0.0879
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -9486,15 +9486,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-dry-golden-grass-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.05
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -9536,15 +9536,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-repair-handover-v1
-    anchorX: 0.75
-    anchorY: 1.25
+    anchorX: 0.55
+    anchorY: 0.41
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
@@ -9588,13 +9588,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-repair-process-v1
-    anchorX: 0.75
-    anchorY: 1.25
+    anchorX: 0.49
+    anchorY: 0.58
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 155
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 77.5
     size_variant: 기본 변형
@@ -9639,15 +9639,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-rust-heather-bush-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4634
+    anchorY: 0.0732
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -9696,15 +9696,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-silver-sage-shrub-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5073
+    anchorY: 0.1465
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -9751,15 +9751,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-stone-thyme-cushion-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4875
+    anchorY: 0.1375
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -9802,15 +9802,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-sturdy-juniper-shrub-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.478
+    anchorY: 0.0879
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -9854,15 +9854,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-straw-sheaves-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4861
+    anchorY: 0.39
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -9906,15 +9906,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-threshing-bench-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.4042
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 106
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 53.0
     size_variant: 기본 변형
@@ -9958,13 +9958,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.town-vegetable-planter-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.52
+    anchorY: 0.5437
     displayHeight: 120
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
@@ -10014,15 +10014,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-wood-bench-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.51
+    anchorY: 0.3913
     displayHeight: 95
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
@@ -10066,15 +10066,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.waypoint-guide-v3
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4941
+    anchorY: 0.3542
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
@@ -10116,15 +10116,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.white-daisies-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4938
+    anchorY: 0.3375
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -10168,15 +10168,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.wildflower-clump-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4938
+    anchorY: 0.325
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -10220,15 +10220,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.yellow-dandelions-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5437
+    anchorY: 0.2375
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -10272,15 +10272,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.young-sapling-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.49
+    anchorY: 0.31
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 0.5
     shadowScaleX: 0.5
     outdoorDisplayHeight: 75.0
@@ -10324,15 +10324,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-reed-tall-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4938
+    anchorY: 0.0375
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -10379,15 +10379,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-reed-young-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4938
+    anchorY: 0.0625
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -10430,15 +10430,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-reed-windswept-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5375
+    anchorY: 0.0375
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -10481,15 +10481,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-reed-autumn-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.475
+    anchorY: 0.025
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -10532,15 +10532,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-reed-silver-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4938
+    anchorY: 0.025
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -10584,15 +10584,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.ash-edge-charred-regrowth-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.51
+    anchorY: 0.48
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 110
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 55.0
     size_variant: 기본 변형
@@ -10637,13 +10637,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.ash-edge-decomposer-log-v1
-    anchorX: 0.75
-    anchorY: 1.25
+    anchorX: 0.49
+    anchorY: 0.67
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 136
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 68.0
     size_variant: 기본 변형
@@ -10687,15 +10687,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.ash-edge-scorched-waystone-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4894
+    anchorY: 0.38
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 144
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 72.0
     size_variant: 기본 변형
@@ -10737,15 +10737,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-hand-winch-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.49
+    anchorY: 0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 104
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 52.0
     size_variant: 기본 변형
@@ -10787,15 +10787,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-mason-tools-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.48
+    anchorY: 0.37
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 96
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 48.0
     size_variant: 기본 변형
@@ -10837,15 +10837,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.brine-bank-carrying-buckets-v1
-    anchorX: 0.75
-    anchorY: 1.25
+    anchorX: 0.48
+    anchorY: 0.28
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 58
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 29.0
     size_variant: 기본 변형
@@ -10887,15 +10887,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.brine-bank-salt-drying-rack-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 74
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 37.0
     size_variant: 기본 변형
@@ -10937,15 +10937,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.brine-bank-saltbush-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4634
+    anchorY: 0.1025
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
@@ -10991,15 +10991,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-cooled-rocks-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.541
+    anchorY: 0.4167
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
@@ -11043,15 +11043,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-buried-deadwood-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.52
+    anchorY: 0.42
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 136
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 68.0
     size_variant: 기본 변형
@@ -11093,15 +11093,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-ash-cargo-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.49
+    anchorY: 0.34
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -11145,15 +11145,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-gray-green-shoots-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.52
+    anchorY: 0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -11195,15 +11195,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-basalt-outcrop-v1
-    anchorX: 0.5
-    anchorY: 2.5
+    anchorX: 0.48
+    anchorY: 0.48
     groundFootprintColumns: 3
     groundFootprintRows: 3
     displayHeight: 327
     billboardBlocksMovement: true
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 163.5
     size_variant: 기본 변형
@@ -11247,13 +11247,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.clover-bank-rabbit-burrow-v1
-    anchorX: 0.5
-    anchorY: 1.5
+    anchorX: 0.4875
+    anchorY: 0.88
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 180
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1.8
     shadowScaleX: 1.65
     outdoorDisplayHeight: 90.0
@@ -11300,13 +11300,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-outcrop-v1
-    anchorX: 0.5
-    anchorY: 2.5
+    anchorX: 0.449
+    anchorY: 0.6
     groundFootprintColumns: 3
     groundFootprintRows: 3
     displayHeight: 419
     billboardBlocksMovement: true
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 2.25
     shadowScaleX: 2.45
     outdoorDisplayHeight: 209.5
@@ -11349,15 +11349,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-shelf-v1
-    anchorX: 0.5
-    anchorY: 1.5
+    anchorX: 0.455
+    anchorY: 0.4899
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 307
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 153.5
     size_variant: 기본 변형
@@ -11403,13 +11403,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-spires-v1
-    anchorX: 0.5
-    anchorY: 1.5
+    anchorX: 0.464
+    anchorY: 0.69
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 342
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1.3
     shadowScaleX: 1.3
     outdoorDisplayHeight: 171.0
@@ -11452,15 +11452,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-rubble-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.52
+    anchorY: 0.37
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 164
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
@@ -11502,15 +11502,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dawn-overlook-split-granite-v1
-    anchorX: 0.5
-    anchorY: 1.5
+    anchorX: 0.5371
+    anchorY: 0.3542
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 358
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 179.0
     size_variant: 기본 변형
@@ -11552,15 +11552,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.granary-flats-ripe-wheat-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4875
+    anchorY: 0.1625
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
@@ -11602,15 +11602,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: center
     source: assets/maps/sprite-display-properties.yaml#data.quarry-cut-blocks-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4678
+    anchorY: 0.5
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 132
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1.35
     shadowScaleX: 1.35
     outdoorDisplayHeight: 66.0
@@ -11656,12 +11656,12 @@ billboards:
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.quarry-broken-slabs-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.59
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 117
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1.45
     shadowScaleX: 1.45
     outdoorDisplayHeight: 58.5
@@ -11706,13 +11706,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.quarry-weathered-boulders-v1
-    anchorX: 0.5
-    anchorY: 1.5
+    anchorX: 0.47
+    anchorY: 0.8
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 340
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1.6
     shadowScaleX: 1.85
     outdoorDisplayHeight: 170.0
@@ -11757,13 +11757,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.quarry-collapse-fan-v1
-    anchorX: 0.5
-    anchorY: 1.5
+    anchorX: 0.45
+    anchorY: 1.21
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 272
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1.55
     shadowScaleX: 1.5
     outdoorDisplayHeight: 136.0
@@ -11808,15 +11808,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: center
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-split-stump-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4937
+    anchorY: 0.5
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 110
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 55.0
     size_variant: 기본 변형
@@ -11856,15 +11856,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-mill-ridge-worn-millstone-1-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5205
+    anchorY: 0.3894
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
@@ -11904,15 +11904,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-1-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4878
+    anchorY: 0.22
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -11952,15 +11952,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-flat-brine-barrel-1-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5024
+    anchorY: 0.3532
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -12000,15 +12000,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-4-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4561
+    anchorY: 0.4704
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -12048,15 +12048,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-lantern-stand-4-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4487
+    anchorY: 0.3552
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
@@ -12098,13 +12098,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-mill-ridge-weathered-stones-4-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4932
+    anchorY: 0.6081
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
@@ -12144,15 +12144,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-5-v1
     anchorX: 0.5
-    anchorY: 1.0
+    anchorY: 0.3728
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -12192,15 +12192,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-moss-clearing-boundary-stone-size-large-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4297
+    anchorY: 0.3738
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 160
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 80.0
     size_variant: 대형 변형
@@ -12240,15 +12240,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-lantern-stand-size-small-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4922
+    anchorY: 0.3238
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 120.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 60.0
     size_variant: 소형 변형
@@ -12290,13 +12290,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-size-large-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.52
+    anchorY: 0.54
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 115.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1.5
     shadowScaleX: 1.35
     outdoorDisplayHeight: 57.5
@@ -12337,15 +12337,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-pebble-shore-rope-coil-size-large-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5176
+    anchorY: 0.41
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 94.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1.5
     shadowScaleX: 1.4
     outdoorDisplayHeight: 47.0
@@ -12388,13 +12388,13 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-rooted-tree-1-v1
-    anchorX: 0.5
-    anchorY: 1.5
+    anchorX: 0.4414
+    anchorY: 0.8
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 350.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleX: 2.0
     shadowScaleY: 2.0
     outdoorDisplayHeight: 175.0
@@ -12435,15 +12435,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-2-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4951
+    anchorY: 0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -12484,15 +12484,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-1-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5062
+    anchorY: 0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 78.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 2.25
     shadowScaleX: 2.1
     outdoorDisplayHeight: 39.0
@@ -12534,15 +12534,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-wagon-wheel-4-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5073
+    anchorY: 0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -12583,15 +12583,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-rope-waymark-4-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5513
+    anchorY: 0.11
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
@@ -12632,15 +12632,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-4-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5513
+    anchorY: 0.3874
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 2.0
     shadowScaleX: 2.0
     outdoorDisplayHeight: 50.0
@@ -12682,15 +12682,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-size-large-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.5078
+    anchorY: 0.4441
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 100.0
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 2.0
     shadowScaleX: 2.0
     outdoorDisplayHeight: 50.0
@@ -12732,15 +12732,15 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-lantern-stand-size-large-v1
-    anchorX: 0.5
-    anchorY: 1.0
+    anchorX: 0.4961
+    anchorY: 0.3112
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 160
     billboardBlocksMovement: false
-    billboardAnchorMode: tile-bottom-center
+    billboardAnchorMode: tile-intersection
     shadowScaleY: 1
     outdoorDisplayHeight: 80.0
     size_variant: 대형 변형
@@ -12758,12 +12758,12 @@ modeling_contract:
   outdoor_scale: 0.5
   outdoor_height: outdoorDisplayHeight는 야외필드 배율 적용 후 높이이며 화면 줌은 포함하지 않는다.
   footprint: 기준 타일부터 열·행 증가 방향으로만 확장한다. 실제 점유 칸 수는 선언 열 수×행 수이며 2×1은 정확히 2칸이다.
-  blocking: 열·행이 모두 3 이상이면 외곽 한 줄을 제외한 내부 (열-2)×(행-2) 타일만 자동 차단한다. 앵커는 축별 1칸=0.5,
-    그 외 칸수-1 거리의 하단 교차점으로 자동 계산한다.
+  blocking: 열·행이 모두 3 이상이면 외곽 한 줄을 제외한 내부 (열-2)×(행-2) 타일만 자동 차단한다. 기준 교차점 거리는 축별 1칸=0.5,
+    그 외 칸수-1이다. 앵커 X·Y는 이 교차점에서 이미지 아랫변 중심까지의 수동 이동값이다.
   missing: 설정 필요 항목은 크기를 추측하여 배치하지 않는다.
   shadow:
     profile: billboard-contact-v2
-    implementation: '@slime/field-renderer 1.0.141 · drawBillboardContactShadow'
+    implementation: '@slime/field-renderer 1.0.142 · drawBillboardContactShadow'
     enabled: 기본 활성화. 렌더러 옵션 billboardShadows=false로 전체 비활성화.
     geometry: 폭=min(displayHeight×billboardScale×0.76, tileWidth×1.10), 높이=폭×0.2.
       정사각 점유는 이 타원 공식을 사용한다. 열·행 수가 다른 점유는 각 축 길이=선언 점유 수×1.10타일, 모서리 반경=짧은 반축×0.35인
@@ -12776,8 +12776,9 @@ modeling_contract:
     - scale: 0.5
       alpha: 0.26
     color: '#18201b'
-    position: '그림자는 소속 타일 중앙에 둔다. 빌보드 앵커의 화면 이동을 제거한다: X 보정=(column-row)×tileWidth×0.5,
-      Y 보정=(column+row)×tileHeight×0.5를 뺀다. 열·행 오프셋은 카메라 회전을 반영한다.'
+    position: 'tile-intersection의 그림자 이동 0·0은 기준 교차점이다. 수동 이미지 앵커와 독립적이다. 빌보드 앵커의
+      화면 이동을 제거한다: X 보정=(column-row)×tileWidth×0.5, Y 보정=(column+row)×tileHeight×0.5를
+      뺀다. 열·행 오프셋은 카메라 회전을 반영한다.'
     depth: 소속 타일의 지면 바로 위에 배치하며 빌보드·캐릭터 정렬과 분리한다.
     limits: 접지 그림자만 지원. 광원 방향의 투사·실루엣 그림자, 에셋별 농도 설정, 지면 경계 클리핑은 지원하지 않는다.
     catalog_role: modeling.shadow는 제작·검수 지침이다. 이 지침만 편집해도 런타임은 바뀌지 않는다. 위치·크기는 공용
