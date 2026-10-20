@@ -3391,7 +3391,7 @@ billboards:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 10
+    texture_key_occurrences: 22
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 36
   source_file:
@@ -3497,7 +3497,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 10
+    texture_key_occurrences: 16
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 34
   source_file:
@@ -4160,7 +4160,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 8
   source_file:
@@ -4962,7 +4962,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 12
+    texture_key_occurrences: 29
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 15
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -5168,6 +5168,8 @@ billboards:
     management_id: image.scenery.orchard-dead-tree-v2
     version: v2
   map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 5
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -5225,6 +5227,8 @@ billboards:
     management_id: image.scenery.orchard-dead-tree-variant-1-v2
     version: v2
   map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 6
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -5337,6 +5341,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/fallen-canopy.yaml
@@ -5520,6 +5526,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 5
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 5
   - path: assets/maps/field_tiles/fallen-canopy.yaml
@@ -5631,6 +5639,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 5
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
   variant_features:
@@ -5743,6 +5753,8 @@ billboards:
     management_id: image.scenery.sapling-variant-1-v1
     version: v1
   map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 28
   source_file:
@@ -5793,6 +5805,8 @@ billboards:
     management_id: image.scenery.sapling-variant-2-v1
     version: v1
   map_references:
+  - path: assets/maps/field_tiles/ash-edge.yaml
+    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 25
   source_file:
@@ -10241,7 +10255,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 16
+    texture_key_occurrences: 10
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 25
   source_file:
@@ -10553,7 +10567,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 16
+    texture_key_occurrences: 33
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 10
   source_file:
@@ -10605,7 +10619,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 8
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/ash-edge-decomposer-log-v1.png
     width: 128
@@ -10958,7 +10972,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 9
+    texture_key_occurrences: 11
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 9
   - path: assets/maps/field_tiles/crystal-cut.yaml
@@ -11012,7 +11026,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 15
+    texture_key_occurrences: 18
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 4
   source_file:
@@ -11114,7 +11128,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 20
+    texture_key_occurrences: 32
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 10
   source_file:
@@ -11777,7 +11791,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 13
+    texture_key_occurrences: 18
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 6
   source_file:
