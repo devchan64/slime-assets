@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 276
+  image_count: 329
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-20'
@@ -1595,6 +1595,430 @@ families:
     category: prop
     review_category: props
     name: 갈대 여울 · 갈대 섬유 묶음 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-silver-marsh-silver-sedge-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 은빛 습지 · 은빛 사초 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-silver-marsh-water-gauge-2-v1:
+    category: prop
+    review_category: props
+    name: 은빛 습지 · 수위 말뚝 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-silver-marsh-marsh-snag-2-v1:
+    category: tree
+    review_category: vegetation
+    name: 은빛 습지 · 습지 고목 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-pebble-shore-rounded-pebbles-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 조약돌 물가 · 둥근 자갈 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-pebble-shore-rope-coil-2-v1:
+    category: prop
+    review_category: props
+    name: 조약돌 물가 · 해진 밧줄 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-pebble-shore-twisted-driftwood-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 조약돌 물가 · 뒤틀린 유목 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-windrow-road-wild-grain-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이삭바람길 · 야생 이삭 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-windrow-road-covered-cargo-2-v1:
+    category: prop
+    review_category: props
+    name: 이삭바람길 · 덮개 운송 짐 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-windrow-road-hedgerow-shrub-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이삭바람길 · 생울타리 관목 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-mill-ridge-weathered-stones-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 맷돌등성이 · 풍화 돌무더기 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-mill-ridge-worn-millstone-2-v1:
+    category: prop
+    review_category: props
+    name: 맷돌등성이 · 마모 맷돌 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-mill-ridge-stone-shrub-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 맷돌등성이 · 돌틈 관목 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-causeway-salt-rock-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 소금둑길 · 소금기 바위 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-flat-salt-crystals-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 흰소금벌 · 소금 결정 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-flat-brine-barrel-2-v1:
+    category: prop
+    review_category: props
+    name: 흰소금벌 · 염수 나무통 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-flat-salt-shrub-2-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 흰소금벌 · 염생 관목 · 변형 2/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-meadow-dew-grass-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이슬 초원 · 이슬 풀 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-meadow-waypost-3-v1:
+    category: prop
+    review_category: props
+    name: 이슬 초원 · 길목 표지목 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-meadow-field-flowers-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이슬 초원 · 낮은 들꽃 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-grove-broadleaf-tree-3-v1:
+    category: tree
+    review_category: vegetation
+    name: 푸른 숲 · 활엽수 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-grove-cargo-crate-3-v1:
+    category: prop
+    review_category: props
+    name: 푸른 숲 · 운송 상자 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-moss-clearing-moss-rock-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이끼 공터 · 이끼 바위 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-moss-clearing-boundary-stone-3-v1:
+    category: prop
+    review_category: props
+    name: 이끼 공터 · 경계석 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-moss-clearing-fungus-stump-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이끼 공터 · 버섯 그루터기 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-root-trail-rooted-tree-3-v1:
+    category: tree
+    review_category: vegetation
+    name: 뿌리 오솔길 · 뿌리 나무 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-root-trail-wagon-wheel-3-v1:
+    category: prop
+    review_category: props
+    name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-root-trail-root-knot-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 뿌리 오솔길 · 낮은 뿌리 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-lantern-wood-crooked-tree-3-v1:
+    category: tree
+    review_category: vegetation
+    name: 등불 숲 · 굽은 숲나무 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-lantern-wood-lantern-stand-3-v1:
+    category: prop
+    review_category: props
+    name: 등불 숲 · 등불 받침 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-lantern-wood-shade-ferns-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 등불 숲 · 그늘 고사리 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-wind-hills-rope-waymark-3-v1:
+    category: prop
+    review_category: props
+    name: 바람 구릉 · 보강 길표식 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-wind-hills-bent-grass-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 바람 구릉 · 누운 억새 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-mist-lake-lakeside-tree-3-v1:
+    category: tree
+    review_category: vegetation
+    name: 안개 호수 · 물가 나무 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-mist-lake-mooring-stone-3-v1:
+    category: prop
+    review_category: props
+    name: 안개 호수 · 계류석 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-mist-lake-wet-rock-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 안개 호수 · 젖은 이끼 바위 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-reed-crossing-reed-bundle-3-v1:
+    category: prop
+    review_category: props
+    name: 갈대 여울 · 갈대 섬유 묶음 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-reed-crossing-river-sedge-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 갈대 여울 · 강변 사초 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-silver-marsh-silver-sedge-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 은빛 습지 · 은빛 사초 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-silver-marsh-water-gauge-3-v1:
+    category: prop
+    review_category: props
+    name: 은빛 습지 · 수위 말뚝 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-silver-marsh-marsh-snag-3-v1:
+    category: tree
+    review_category: vegetation
+    name: 은빛 습지 · 습지 고목 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-pebble-shore-rounded-pebbles-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 조약돌 물가 · 둥근 자갈 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-pebble-shore-rope-coil-3-v1:
+    category: prop
+    review_category: props
+    name: 조약돌 물가 · 해진 밧줄 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-windrow-road-wild-grain-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이삭바람길 · 야생 이삭 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-windrow-road-covered-cargo-3-v1:
+    category: prop
+    review_category: props
+    name: 이삭바람길 · 덮개 운송 짐 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-windrow-road-hedgerow-shrub-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이삭바람길 · 생울타리 관목 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-mill-ridge-weathered-stones-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 맷돌등성이 · 풍화 돌무더기 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-mill-ridge-stone-shrub-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 맷돌등성이 · 돌틈 관목 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-causeway-salt-grass-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 소금둑길 · 염생 풀 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-causeway-repair-stakes-3-v1:
+    category: prop
+    review_category: props
+    name: 소금둑길 · 보수 말뚝 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-causeway-salt-rock-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 소금둑길 · 소금기 바위 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-flat-salt-shrub-3-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 흰소금벌 · 염생 관목 · 변형 3/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-meadow-dew-grass-4-v1:
+    category: vegetation
+    review_category: vegetation
+    name: 이슬 초원 · 이슬 풀 · 변형 4/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-meadow-waypost-4-v1:
+    category: prop
+    review_category: props
+    name: 이슬 초원 · 길목 표지목 · 변형 4/5
     features:
     - 지역별 자연물·소품 형태 변형
     uses:
@@ -4092,5 +4516,323 @@ billboards:
   family: field-reed-crossing-reed-bundle-2-v1
   asset_ref:
     management_id: image.scenery.field-reed-crossing-reed-bundle-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-silver-marsh-silver-sedge-2-v1
+  family: field-silver-marsh-silver-sedge-2-v1
+  asset_ref:
+    management_id: image.scenery.field-silver-marsh-silver-sedge-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-silver-marsh-water-gauge-2-v1
+  family: field-silver-marsh-water-gauge-2-v1
+  asset_ref:
+    management_id: image.scenery.field-silver-marsh-water-gauge-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-silver-marsh-marsh-snag-2-v1
+  family: field-silver-marsh-marsh-snag-2-v1
+  asset_ref:
+    management_id: image.scenery.field-silver-marsh-marsh-snag-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-pebble-shore-rounded-pebbles-2-v1
+  family: field-pebble-shore-rounded-pebbles-2-v1
+  asset_ref:
+    management_id: image.scenery.field-pebble-shore-rounded-pebbles-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-pebble-shore-rope-coil-2-v1
+  family: field-pebble-shore-rope-coil-2-v1
+  asset_ref:
+    management_id: image.scenery.field-pebble-shore-rope-coil-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-pebble-shore-twisted-driftwood-2-v1
+  family: field-pebble-shore-twisted-driftwood-2-v1
+  asset_ref:
+    management_id: image.scenery.field-pebble-shore-twisted-driftwood-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-windrow-road-wild-grain-2-v1
+  family: field-windrow-road-wild-grain-2-v1
+  asset_ref:
+    management_id: image.scenery.field-windrow-road-wild-grain-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-windrow-road-covered-cargo-2-v1
+  family: field-windrow-road-covered-cargo-2-v1
+  asset_ref:
+    management_id: image.scenery.field-windrow-road-covered-cargo-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-windrow-road-hedgerow-shrub-2-v1
+  family: field-windrow-road-hedgerow-shrub-2-v1
+  asset_ref:
+    management_id: image.scenery.field-windrow-road-hedgerow-shrub-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-mill-ridge-weathered-stones-2-v1
+  family: field-mill-ridge-weathered-stones-2-v1
+  asset_ref:
+    management_id: image.scenery.field-mill-ridge-weathered-stones-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-mill-ridge-worn-millstone-2-v1
+  family: field-mill-ridge-worn-millstone-2-v1
+  asset_ref:
+    management_id: image.scenery.field-mill-ridge-worn-millstone-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-mill-ridge-stone-shrub-2-v1
+  family: field-mill-ridge-stone-shrub-2-v1
+  asset_ref:
+    management_id: image.scenery.field-mill-ridge-stone-shrub-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-salt-causeway-salt-rock-2-v1
+  family: field-salt-causeway-salt-rock-2-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-causeway-salt-rock-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-salt-flat-salt-crystals-2-v1
+  family: field-salt-flat-salt-crystals-2-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-flat-salt-crystals-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-salt-flat-brine-barrel-2-v1
+  family: field-salt-flat-brine-barrel-2-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-flat-brine-barrel-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-salt-flat-salt-shrub-2-v1
+  family: field-salt-flat-salt-shrub-2-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-flat-salt-shrub-2-v1
+    version: v1
+  map_references: []
+- texture_key: field-meadow-dew-grass-3-v1
+  family: field-meadow-dew-grass-3-v1
+  asset_ref:
+    management_id: image.scenery.field-meadow-dew-grass-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-meadow-waypost-3-v1
+  family: field-meadow-waypost-3-v1
+  asset_ref:
+    management_id: image.scenery.field-meadow-waypost-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-meadow-field-flowers-3-v1
+  family: field-meadow-field-flowers-3-v1
+  asset_ref:
+    management_id: image.scenery.field-meadow-field-flowers-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-grove-broadleaf-tree-3-v1
+  family: field-grove-broadleaf-tree-3-v1
+  asset_ref:
+    management_id: image.scenery.field-grove-broadleaf-tree-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-grove-cargo-crate-3-v1
+  family: field-grove-cargo-crate-3-v1
+  asset_ref:
+    management_id: image.scenery.field-grove-cargo-crate-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-moss-clearing-moss-rock-3-v1
+  family: field-moss-clearing-moss-rock-3-v1
+  asset_ref:
+    management_id: image.scenery.field-moss-clearing-moss-rock-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-moss-clearing-boundary-stone-3-v1
+  family: field-moss-clearing-boundary-stone-3-v1
+  asset_ref:
+    management_id: image.scenery.field-moss-clearing-boundary-stone-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-moss-clearing-fungus-stump-3-v1
+  family: field-moss-clearing-fungus-stump-3-v1
+  asset_ref:
+    management_id: image.scenery.field-moss-clearing-fungus-stump-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-root-trail-rooted-tree-3-v1
+  family: field-root-trail-rooted-tree-3-v1
+  asset_ref:
+    management_id: image.scenery.field-root-trail-rooted-tree-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-root-trail-wagon-wheel-3-v1
+  family: field-root-trail-wagon-wheel-3-v1
+  asset_ref:
+    management_id: image.scenery.field-root-trail-wagon-wheel-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-root-trail-root-knot-3-v1
+  family: field-root-trail-root-knot-3-v1
+  asset_ref:
+    management_id: image.scenery.field-root-trail-root-knot-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-lantern-wood-crooked-tree-3-v1
+  family: field-lantern-wood-crooked-tree-3-v1
+  asset_ref:
+    management_id: image.scenery.field-lantern-wood-crooked-tree-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-lantern-wood-lantern-stand-3-v1
+  family: field-lantern-wood-lantern-stand-3-v1
+  asset_ref:
+    management_id: image.scenery.field-lantern-wood-lantern-stand-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-lantern-wood-shade-ferns-3-v1
+  family: field-lantern-wood-shade-ferns-3-v1
+  asset_ref:
+    management_id: image.scenery.field-lantern-wood-shade-ferns-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-wind-hills-rope-waymark-3-v1
+  family: field-wind-hills-rope-waymark-3-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-rope-waymark-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-wind-hills-bent-grass-3-v1
+  family: field-wind-hills-bent-grass-3-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-bent-grass-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-mist-lake-lakeside-tree-3-v1
+  family: field-mist-lake-lakeside-tree-3-v1
+  asset_ref:
+    management_id: image.scenery.field-mist-lake-lakeside-tree-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-mist-lake-mooring-stone-3-v1
+  family: field-mist-lake-mooring-stone-3-v1
+  asset_ref:
+    management_id: image.scenery.field-mist-lake-mooring-stone-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-mist-lake-wet-rock-3-v1
+  family: field-mist-lake-wet-rock-3-v1
+  asset_ref:
+    management_id: image.scenery.field-mist-lake-wet-rock-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-reed-crossing-reed-bundle-3-v1
+  family: field-reed-crossing-reed-bundle-3-v1
+  asset_ref:
+    management_id: image.scenery.field-reed-crossing-reed-bundle-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-reed-crossing-river-sedge-3-v1
+  family: field-reed-crossing-river-sedge-3-v1
+  asset_ref:
+    management_id: image.scenery.field-reed-crossing-river-sedge-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-silver-marsh-silver-sedge-3-v1
+  family: field-silver-marsh-silver-sedge-3-v1
+  asset_ref:
+    management_id: image.scenery.field-silver-marsh-silver-sedge-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-silver-marsh-water-gauge-3-v1
+  family: field-silver-marsh-water-gauge-3-v1
+  asset_ref:
+    management_id: image.scenery.field-silver-marsh-water-gauge-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-silver-marsh-marsh-snag-3-v1
+  family: field-silver-marsh-marsh-snag-3-v1
+  asset_ref:
+    management_id: image.scenery.field-silver-marsh-marsh-snag-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-pebble-shore-rounded-pebbles-3-v1
+  family: field-pebble-shore-rounded-pebbles-3-v1
+  asset_ref:
+    management_id: image.scenery.field-pebble-shore-rounded-pebbles-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-pebble-shore-rope-coil-3-v1
+  family: field-pebble-shore-rope-coil-3-v1
+  asset_ref:
+    management_id: image.scenery.field-pebble-shore-rope-coil-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-windrow-road-wild-grain-3-v1
+  family: field-windrow-road-wild-grain-3-v1
+  asset_ref:
+    management_id: image.scenery.field-windrow-road-wild-grain-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-windrow-road-covered-cargo-3-v1
+  family: field-windrow-road-covered-cargo-3-v1
+  asset_ref:
+    management_id: image.scenery.field-windrow-road-covered-cargo-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-windrow-road-hedgerow-shrub-3-v1
+  family: field-windrow-road-hedgerow-shrub-3-v1
+  asset_ref:
+    management_id: image.scenery.field-windrow-road-hedgerow-shrub-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-mill-ridge-weathered-stones-3-v1
+  family: field-mill-ridge-weathered-stones-3-v1
+  asset_ref:
+    management_id: image.scenery.field-mill-ridge-weathered-stones-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-mill-ridge-stone-shrub-3-v1
+  family: field-mill-ridge-stone-shrub-3-v1
+  asset_ref:
+    management_id: image.scenery.field-mill-ridge-stone-shrub-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-salt-causeway-salt-grass-3-v1
+  family: field-salt-causeway-salt-grass-3-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-causeway-salt-grass-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-salt-causeway-repair-stakes-3-v1
+  family: field-salt-causeway-repair-stakes-3-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-causeway-repair-stakes-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-salt-causeway-salt-rock-3-v1
+  family: field-salt-causeway-salt-rock-3-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-causeway-salt-rock-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-salt-flat-salt-shrub-3-v1
+  family: field-salt-flat-salt-shrub-3-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-flat-salt-shrub-3-v1
+    version: v1
+  map_references: []
+- texture_key: field-meadow-dew-grass-4-v1
+  family: field-meadow-dew-grass-4-v1
+  asset_ref:
+    management_id: image.scenery.field-meadow-dew-grass-4-v1
+    version: v1
+  map_references: []
+- texture_key: field-meadow-waypost-4-v1
+  family: field-meadow-waypost-4-v1
+  asset_ref:
+    management_id: image.scenery.field-meadow-waypost-4-v1
     version: v1
   map_references: []
