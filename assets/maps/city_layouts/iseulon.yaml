@@ -1,6 +1,6 @@
 managementId: config.city-layouts.iseulon
 data:
-  version: 19
+  version: 20
   cityId: iseulon
   columns: 24
   rows: 24
@@ -287,8 +287,8 @@ data:
   - id: iseulon-garden-1
     kind: decoration
     position:
-      column: 0
-      row: 1
+      column: 6
+      row: 0
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: iseulon-garden-2
@@ -588,7 +588,7 @@ data:
   - id: iseulon-prop-13
     kind: decoration
     position:
-      column: 18
+      column: 19
       row: 17
     textureKey: town-charcoal-stack-v1
     tileAnchor: center

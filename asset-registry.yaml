@@ -609,7 +609,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v7-billboard-blocking-v1
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 402649d266484782734622aa52f87becd03d870b0981998989b0a9777b88cfd2
+  sha256: 9c237ff8b832390594a9e91decc110b5c9dd8241eaa53120c600d7b2bccf0515
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -617,7 +617,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4-billboard-blocking-v1
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: ecb2ab6433931e137b5ec4d6aa11f809f78138edab1051601a982b266e842ab6
+  sha256: 85f350145b4f1aa7a26bc40ca9d4ebda3726b8683be4b71a1c451762a7f060e1
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -625,7 +625,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5-billboard-blocking-v1
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: 8d3550b955d95b3e79a435900fc7eaab332ffb68ec4e2cf72845ab5f7d496663
+  sha256: ba65e823ee6e2cfe76650865851c728bc285ea5f736023ba8f4350ba7bd10bf8
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -641,7 +641,7 @@ assets:
 - managementId: config.field-tiles.boar-ridge
   version: shared-material-codes-v2-contact-relocate-v2-root-ground-v1
   path: assets/maps/field_tiles/boar-ridge.yaml
-  sha256: 7c9d7d300cadcc67a1efba88662e126f6b3114ae80340da4f51b12fa271d8f59
+  sha256: aee74d343cd13bfe3bedc2abcccb64a7b33d132f6e6ba9c67034a129b7aeb9f2
   source:
     repository: slime-backend
     path: config/field_tiles/boar-ridge.yaml
@@ -649,7 +649,7 @@ assets:
 - managementId: config.field-tiles.broken-quarry
   version: shared-material-codes-v2-quarry-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-clear-sign-v1
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: e6b7fb9f3c58808ae003f53d72abf04762fcc21a3a2312594869abc8db27ddc7
+  sha256: 2985c69821e6c1874fa141374d9992f4f86840c5e8854bdeb45dfcea23b5f8d1
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
@@ -681,7 +681,7 @@ assets:
 - managementId: config.field-tiles.crystal-cut
   version: crystal-remodel-v1-detail-v1-ore-v1-dense-v1-footprints-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: 2bd4ff19e4bf5415aedfa0a19f204be1ba9b7450a7a3171e091eaf91fb313b7d
+  sha256: 400e99b5777f6252a42d8d9b46d518a7246179987593eaf27798cc4d03c50605
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -689,7 +689,7 @@ assets:
 - managementId: config.field-tiles.dawn-overlook
   version: shared-material-codes-v2-dawn-v1-valley-v1-crossing-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/field_tiles/dawn-overlook.yaml
-  sha256: 7d8b963287b372ab3e81a1416cbfa3cfdd15be62a03d7616a1a852fc1cfe2015
+  sha256: d0ee61d4fe5dd34d51f26e2f4a3db55705de9e899e4e1a8f775b5ecf923915aa
   source:
     repository: slime-backend
     path: config/field_tiles/dawn-overlook.yaml
@@ -697,7 +697,7 @@ assets:
 - managementId: config.field-tiles.dry-creek
   version: shared-material-codes-v2-creek-v1-creek-v1
   path: assets/maps/field_tiles/dry-creek.yaml
-  sha256: 6e16604788ebb555b15d1cf51f217013b9348f5919c8f1520d2e839b644629ba
+  sha256: b402bf5ff4169994f7a46b5d8dee0c5c5308b6a685fe83505ec34af15b214b26
   source:
     repository: slime-backend
     path: config/field_tiles/dry-creek.yaml
@@ -705,7 +705,7 @@ assets:
 - managementId: config.field-tiles.fallen-canopy
   version: retire-stump-v1-canopy-v1
   path: assets/maps/field_tiles/fallen-canopy.yaml
-  sha256: 01a5a733f6c4408f5b1a27c796aea111f27d7750f0e6889c5a6a59105de92aaf
+  sha256: 8457182a81360b19ced683db0bf4bbcad35b48f17c4925a263afb8a4f0dc4530
   source:
     repository: slime-backend
     path: config/field_tiles/fallen-canopy.yaml
@@ -761,7 +761,7 @@ assets:
 - managementId: config.field-tiles.old-orchard
   version: retire-stump-v1
   path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: 1a933630fd073e660b130d90716c77efa01df5e95b9ed3d29de1d236db20f4db
+  sha256: d07528ac10e9aff4fb0cead001caf497043daee33bf27b53591933d773ef15bb
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/old-orchard.yaml
@@ -1201,7 +1201,7 @@ assets:
 - managementId: config.terrain.maps.boar-ridge
   version: field-detail-v2
   path: assets/maps/terrain/maps/boar-ridge.yaml
-  sha256: 53c95e74dbf70c58a17ace1fafdd1e9ffebaa496a3cac83318c8c23a57a41a58
+  sha256: c01631afb781edb025dc1c0f429df5714fb0545739532b0b18b83599c6d8ed93
   source:
     repository: slime-backend
     path: config/terrain/maps/boar-ridge.yaml
@@ -1233,7 +1233,7 @@ assets:
 - managementId: config.terrain.maps.crystal-cut
   version: field-detail-v2-detail-v1-footprints-v1
   path: assets/maps/terrain/maps/crystal-cut.yaml
-  sha256: 2e646773ddbff9ac26c1052fc97999a2f7a77a12fd12a9caffc6c1894dc6cef9
+  sha256: 93e5669adae669b0aeaf09cf2beee6fe07adb367120829a6dda3cf3cd165f4f4
   source:
     repository: slime-backend
     path: config/terrain/maps/crystal-cut.yaml
@@ -1249,7 +1249,7 @@ assets:
 - managementId: config.terrain.maps.dry-creek
   version: v1-creek-v1-creek-v1
   path: assets/maps/terrain/maps/dry-creek.yaml
-  sha256: dd8743d73775d5932cbebea1b721f0fce09ea1f12262e8ef901eb2a01ad45554
+  sha256: 841732ba627baed11b327959cab89fbb709ffbd9148c4c49c2e2469197da4bc0
   source:
     repository: slime-backend
     path: config/terrain/maps/dry-creek.yaml
@@ -1257,7 +1257,7 @@ assets:
 - managementId: config.terrain.maps.fallen-canopy
   version: v1-canopy-v1
   path: assets/maps/terrain/maps/fallen-canopy.yaml
-  sha256: 2c1fb3bb9aec6d9a60ee7c08ec174c1d3845a8d439ce7ce1ae0eab06f55e7f96
+  sha256: 1bccfda96953073f38f3b14c1b09eadcb5d6b269f8f22e7a80a1925e0ff7e2c0
   source:
     repository: slime-backend
     path: config/terrain/maps/fallen-canopy.yaml
@@ -1713,7 +1713,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3-grainstead-v19-billboard-blocking-v1
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: b144a1850e0b1a94bfbdad6309d34fe89332e116dbbf878b0e37d263295be74e
+  sha256: 7a601d1240d08f990e6efca3eaac29497fd2c1537911171b325217d0dd6d843f
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -1721,7 +1721,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3-billboard-blocking-v1
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: 806d3cbafd5a06574ad37be285518f95afddc2f56c3f0fd07b32c2feb775e2a2
+  sha256: 335742cfed8fa71f6b6bef6e9bd9b40322a404e7cf973040d23587890e70ffc3
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -1729,7 +1729,7 @@ assets:
 - managementId: config.field-tiles.brine-bank
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/brine-bank.yaml
-  sha256: 15e1c1d1ea7733c6e5e1edbd4fad1114dffd637756c05c75cb6fa1d31661d0e6
+  sha256: ddad4d009ee5cef0679be6eda3d997d873f6dbef3ca67149a114315e939413fc
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/brine-bank.yaml
@@ -1737,7 +1737,7 @@ assets:
 - managementId: config.field-tiles.granary-flats
   version: shared-material-codes-v1-granary-v1-wheat-v1
   path: assets/maps/field_tiles/granary-flats.yaml
-  sha256: 801f5c91194bc31625a4ac4bd3947dd6f1c5f52fa4331ee9d34ba84faa1a8d54
+  sha256: 1938ce33dcdf24046fcc44da4087b3d6a3a61ccc98f8f04c796eb6b25e17a8c8
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/granary-flats.yaml

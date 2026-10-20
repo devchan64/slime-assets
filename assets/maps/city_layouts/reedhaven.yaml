@@ -1,35 +1,35 @@
 managementId: config.city-layouts.reedhaven
 data:
-  version: 20
+  version: 21
   cityId: reedhaven
   columns: 24
   rows: 24
   safeTown: true
   terrainRows:
-  - gggggggggggggggggggggpgw
-  - gggggggggggggggggggggpgw
-  - gggggggggggggggggggggggw
-  - gggggggggggggggggggggggw
-  - gggpggpggpggggpggpggppgw
-  - ggppppppppppppppppppppgw
-  - ggpggggggggggggggggggpgw
-  - ggpggggggggggggggggggpgw
-  - ggpggggggggggggggggggpgw
-  - ggpggggggggggggggggpppgw
-  - ggpggggpggpppgpggggggpgw
-  - gpppgggpggpppgpgpppggpgw
-  - ppppppppppppppppppppppgw
-  - gpppggggggpppgggpppggpgw
-  - ggpgggggggpppggggggggpgw
-  - ggpggggggggggggggggggpgw
-  - ggpggggggggggggggggpgpgw
-  - ggpggggpggggggggggppppgw
-  - ggpggggpgggggggggggggpgw
-  - ggpgggppgggggggggggggpgw
-  - ggpggggpgggggggggggggpgw
-  - ggpggggpgggggggggggggpgw
-  - ggppppppppppppppppppppgw
-  - gggggggggggggggggggggpgw
+  - gggggggggggggggggggggphw
+  - gggggggggggggggggggggphw
+  - gggggggggggggggggggggghw
+  - gggggggggggggggggggggghw
+  - gggpggpggpggggpggpggpphw
+  - ggpppppppppppppppppppphw
+  - ggpggggggggggggggggggphw
+  - ggpggggggggggggggggggphw
+  - ggpggggggggggggggggggphw
+  - ggpggggggggggggggggppphw
+  - ggpggggpggpppgpggggggphw
+  - gpppgggpggpppgpgpppggphw
+  - pppppppppppppppppppppphw
+  - gpppggggggpppgggpppggphw
+  - ggpgggggggpppggggggggphw
+  - ggpggggggggggggggggggphw
+  - ggpggggggggggggggggpgphw
+  - ggpggggpggggggggggpppphw
+  - ggpggggpgggggggggggggphw
+  - ggpgggppgggggggggggggphw
+  - ggpggggpgggggggggggggphw
+  - ggpggggpgggggggggggggphw
+  - ggpppppppppppppppppppphw
+  - gggggggggggggggggggggphw
   startPoint:
     column: 11
     row: 12
@@ -329,8 +329,8 @@ data:
   - id: reedhaven-garden-6
     kind: decoration
     position:
-      column: 19
-      row: 2
+      column: 15
+      row: 0
     textureKey: orchard-young-tree-variant-2-v2
     tileAnchor: center
   - id: reedhaven-garden-7
@@ -497,7 +497,7 @@ data:
   - id: reedhaven-prop-4
     kind: decoration
     position:
-      column: 10
+      column: 9
       row: 7
     textureKey: town-record-chest-v1
     tileAnchor: center
@@ -596,7 +596,7 @@ data:
     kind: decoration
     position:
       column: 4
-      row: 0
+      row: 1
     textureKey: town-wood-bench-v1
     tileAnchor: center
   - id: reedhaven-prop-20
@@ -609,7 +609,7 @@ data:
   - id: reedhaven-life-scene
     kind: decoration
     position:
-      column: 11
+      column: 10
       row: 8
     textureKey: town-reedhaven-water-record-v1
     tileAnchor: center
@@ -721,8 +721,8 @@ data:
   - id: reedhaven-home-7-town-herb-planter-v1
     kind: decoration
     position:
-      column: 19
-      row: 3
+      column: 17
+      row: 0
     textureKey: town-herb-planter-v1
     tileAnchor: center
   - id: reedhaven-home-7-town-wood-bench-v1

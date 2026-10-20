@@ -1,6 +1,6 @@
 managementId: config.city-layouts.grainstead
 data:
-  version: 19
+  version: 20
   cityId: grainstead
   columns: 24
   rows: 24
@@ -394,13 +394,6 @@ data:
       row: 23
     textureKey: sorrel-clump-v1
     tileAnchor: center
-  - id: grainstead-garden-29
-    kind: decoration
-    position:
-      column: 16
-      row: 22
-    textureKey: orchard-chunky-shrub-v1
-    tileAnchor: center
   - id: grainstead-garden-31
     kind: decoration
     position:
@@ -733,8 +726,8 @@ data:
   - id: grainstead-atmosphere-030
     kind: decoration
     position:
-      column: 21
-      row: 17
+      column: 12
+      row: 16
     textureKey: town-repair-rack-v1
     tileAnchor: center
   - id: grainstead-atmosphere-031
