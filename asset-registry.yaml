@@ -4749,7 +4749,7 @@ assets:
     operation: 사용자 승인 생성 결과를 128×128 Lanczos 축소
 - managementId: image.scenery.bush-billboard-v2
   version: v2
-  path: assets/billboards/bush-billboard-v2.png
+  path: assets/retired/billboards/bush-billboard-v2.png
   width: 128
   height: 128
   sha256: bb2b85c32ace74726e9f2867ade6c53170d053412167fa127cc245da87ae4781
@@ -4757,14 +4757,20 @@ assets:
     repository: codex-imagegen
     artifact: exec-811e0197-7285-4ddc-97d1-08a13f2a16ad.png
     operation: '사용자 규격 변경: 분리 원본에서 프레임당 128×128로 축소, 뒤·앞 2프레임의 256×128 시트 등록'
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/billboards/bush-billboard-v2.png
 - managementId: metadata.scenery.bush-billboard-v2
   version: v2
-  path: assets/sprites/structures/bush-billboard-v2.yaml
+  path: assets/retired/sprites/structures/bush-billboard-v2.yaml
   sha256: e4cf161f57b3e41643cc27058f123b177e3a22b90cc9b4f1ce00b9434d3db30c
   source:
     repository: codex-imagegen
     artifact: exec-811e0197-7285-4ddc-97d1-08a13f2a16ad.png
     operation: '사용자 규격 변경: 분리 원본에서 프레임당 128×128로 축소, 뒤·앞 2프레임의 256×128 시트 등록'
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 폐기
+    original_path: assets/sprites/structures/bush-billboard-v2.yaml
 - managementId: image.scenery.grass-clump-v1
   version: v1
   path: assets/billboards/grass-clump-v1.png
@@ -7349,7 +7355,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 49a2efd19edc79e8ed6e1d8c91a61c1bdbcb901b11532736b6bb6ce495de257d
+  sha256: 5b1120343ae020f7f894d4376c8418ac6745ba1829d6838a41d756744e121f46
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8217,7 +8223,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-e5c6e181-dcdc-4536-9ae0-44da7bebd9b9.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
+      구성요소 분리
 - managementId: image.scenery.bridge-stone-components-v1
   version: v1
   path: assets/buildings/bridge-stone-components-v1.png
@@ -8228,7 +8235,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-d59c0191-16d5-4afb-a4b8-786f6941fe17.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
+      구성요소 분리
 - managementId: image.scenery.bridge-connection-details-v1
   version: v1
   path: assets/buildings/bridge-connection-details-v1.png
@@ -8239,7 +8247,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-baa58574-5e9e-43f0-ad8c-e62bf2328bd2.png
-    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소
+      분리
 - managementId: image.scenery.bridge-timber-components-v2
   version: v2
   path: assets/buildings/bridge-timber-components-v2.png
