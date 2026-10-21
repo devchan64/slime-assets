@@ -2187,16 +2187,16 @@ data:
     shadowOffsetRow: -0.5
   crystal-cut-compact-dark-stone-v1:
     anchorX: 0.0
-    anchorY: 0.0
+    anchorY: -0.64
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 100
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1.2
-    shadowScaleY: 2.1
-    shadowOffsetColumn: -0.5
-    shadowOffsetRow: -0.5
+    shadowScaleY: 1.85
+    shadowOffsetColumn: -1.05
+    shadowOffsetRow: -1.05
   crystal-cut-compact-veined-chips-v1:
     anchorX: 0.0
     anchorY: 0.0
@@ -2245,3 +2245,53 @@ data:
     shadowScaleY: 0.8
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
+  crystal-cut-medium-quartz-2x1-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 135
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+  crystal-cut-medium-quartz-1x2-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 2
+    displayHeight: 135
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+  crystal-cut-low-quartz-2x1-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 90
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+  crystal-cut-low-quartz-1x2-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 2
+    displayHeight: 90
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+  crystal-cut-twin-tall-quartz-1x2-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 2
+    displayHeight: 180
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1

@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 3826ac7e70e872d10e13b117114daf73104e8cef20cbec876cae73afee1f567a
+  sha256: 972a499b09592de816ce262b1d97f3dbcc5f6d49b27cae9ceaf867cbc12b0cbb
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7296,8 +7296,7 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-e5c6e181-dcdc-4536-9ae0-44da7bebd9b9.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
-      구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
 - managementId: image.scenery.bridge-stone-components-v1
   version: v1
   path: assets/buildings/bridge-stone-components-v1.png
@@ -7308,8 +7307,7 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-d59c0191-16d5-4afb-a4b8-786f6941fe17.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
-      구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
 - managementId: image.scenery.bridge-connection-details-v1
   version: v1
   path: assets/buildings/bridge-connection-details-v1.png
@@ -7320,8 +7318,7 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-baa58574-5e9e-43f0-ad8c-e62bf2328bd2.png
-    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소
-      분리
+    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
 - managementId: image.scenery.bridge-timber-components-v2
   version: v2
   path: assets/buildings/bridge-timber-components-v2.png
@@ -7895,4 +7892,64 @@ assets:
     repository: codex-imagegen
     artifact: exec-8fa87e71-24be-4c4f-ac93-a2c97e641a23.png
     original_sha256: 632c720ac2b8017d5f0071fc3b1e42145d9fa9f00689115fec15e35574dc5922
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-medium-quartz-2x1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-medium-quartz-2x1-v1.png
+  name: 중간 높이 석영 쌍 열방향
+  width: 512
+  height: 341
+  sha256: f935de8050f2f3aa5cf5ae428a4cf86291db342fa430224f2213bc5306d04020
+  source:
+    repository: codex-imagegen
+    artifact: exec-62bdff74-b2d8-4268-bb00-b450ac7d7c58.png
+    original_sha256: 360459581e92a8bda781049a33e8f5b05a5908672a5904d1c9d1ed06aa5ea942
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-medium-quartz-1x2-v1
+  version: v1
+  path: assets/billboards/crystal-cut-medium-quartz-1x2-v1.png
+  name: 중간 높이 석영 쌍 행방향
+  width: 512
+  height: 341
+  sha256: 3cff4c4808b4b1b264a79addd3f4dd2f3a1d362f1c80a30f6e0049f294dc9407
+  source:
+    repository: codex-imagegen
+    artifact: exec-dfdef234-15f6-41ea-8197-e1d5187741b6.png
+    original_sha256: 3bfaaea7b5aaaccbcbd5323e5e683a9a9cb70346ff7d362c6e5cafaabddccf08
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-low-quartz-2x1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-low-quartz-2x1-v1.png
+  name: 낮은 석영 쌍 열방향
+  width: 512
+  height: 341
+  sha256: e21593190b0d09021c604b2c5caedc0a65796b95158b35ff2a276cb7a94a177f
+  source:
+    repository: codex-imagegen
+    artifact: exec-9d3a9afb-8b55-442f-9eee-f911d1031a9f.png
+    original_sha256: 531c5d5c05c55864714892ee9df3408cc744fef8d136c1ba4c33599d8be2cfa0
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-low-quartz-1x2-v1
+  version: v1
+  path: assets/billboards/crystal-cut-low-quartz-1x2-v1.png
+  name: 낮은 석영 쌍 행방향
+  width: 512
+  height: 341
+  sha256: 52609f87290e31861e40cbb46ba4af999819f080ce440394603077fed779c5ad
+  source:
+    repository: codex-imagegen
+    artifact: exec-13854b7f-3d69-4d5e-b6fb-a4c76dbbcdbc.png
+    original_sha256: 7ad0b3d69acc1440d70468abcbd6821b24924925ef0f127c8f056c4848b67b8d
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-twin-tall-quartz-1x2-v1
+  version: v1
+  path: assets/billboards/crystal-cut-twin-tall-quartz-1x2-v1.png
+  name: 높은 석영 쌍 행방향
+  width: 341
+  height: 512
+  sha256: 26c928f24b732eb5585e0207d72dbf6dd66bde104096a589a8cffb0ae2a8f7f4
+  source:
+    repository: codex-imagegen
+    artifact: exec-22c5bb97-8d0a-46d9-9a46-12f14314cf2e.png
+    original_sha256: ae0fee66fe92c825114bf3f646d5110236e1617b24e700b1c582ccf1f8d509d8
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
