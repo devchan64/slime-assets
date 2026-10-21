@@ -13257,7 +13257,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
   modeling:
     purpose: 작은 석영맥 파편 쌍 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13311,7 +13311,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 8
+    texture_key_occurrences: 3
   modeling:
     purpose: 높은 석영 기둥 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13366,7 +13366,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 11
+    texture_key_occurrences: 2
   modeling:
     purpose: 높은 석영 기둥 변형 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13421,7 +13421,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 1
   modeling:
     purpose: 높은 석영 쌍 열방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13474,9 +13474,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-medium-quartz-2x1-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+  map_references: []
   modeling:
     purpose: 중간 높이 석영 쌍 열방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13531,7 +13529,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
   modeling:
     purpose: 중간 높이 석영 쌍 행방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13586,7 +13584,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 2
   modeling:
     purpose: 높은 석영 쌍 행방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13641,7 +13639,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 3
   modeling:
     purpose: 석영맥 암석 1 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13696,7 +13694,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   modeling:
     purpose: 석영맥 암석 2 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13751,7 +13749,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 2
   modeling:
     purpose: 석영맥 암석 3 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13806,7 +13804,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   modeling:
     purpose: 석영맥 암석 4 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13843,12 +13841,14 @@ billboards:
     anchorY: 0.0
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 120
+    displayHeight: 300
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 60.0
+    shadowScaleX: 1.8
+    shadowScaleY: 1.8
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -13859,7 +13859,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   modeling:
     purpose: 반대 방향 석영맥 암석 1 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13896,12 +13896,14 @@ billboards:
     anchorY: 0.0
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 120
+    displayHeight: 300
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 60.0
+    shadowScaleX: 1.8
+    shadowScaleY: 1.8
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -13912,7 +13914,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 3
   modeling:
     purpose: 반대 방향 석영맥 암석 2 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13949,12 +13951,14 @@ billboards:
     anchorY: 0.0
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 160
+    displayHeight: 300
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 80.0
+    shadowScaleX: 1.7
+    shadowScaleY: 1.7
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -13965,7 +13969,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   modeling:
     purpose: 반대 방향 석영맥 암석 3 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -14002,12 +14006,14 @@ billboards:
     anchorY: 0.0
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 120
+    displayHeight: 300
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 60.0
+    shadowScaleX: 1.8
+    shadowScaleY: 1.8
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -14018,7 +14024,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 1
   modeling:
     purpose: 반대 방향 석영맥 암석 4 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -14055,12 +14061,14 @@ billboards:
     anchorY: 0.0
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 120
+    displayHeight: 300
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 60.0
+    shadowScaleX: 1.8
+    shadowScaleY: 1.8
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
