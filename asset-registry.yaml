@@ -619,7 +619,7 @@ assets:
 - managementId: config.field-tiles.crystal-cut
   version: crystal-remodel-v1-detail-v1-ore-v1-dense-v1-footprints-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: 400e99b5777f6252a42d8d9b46d518a7246179987593eaf27798cc4d03c50605
+  sha256: 3fb99a9e73d9c8c59a17f12cfd88c752bc275ff021e24fbe0cb32e5ee50677c6
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -1171,7 +1171,7 @@ assets:
 - managementId: config.terrain.maps.crystal-cut
   version: field-detail-v2-detail-v1-footprints-v1
   path: assets/maps/terrain/maps/crystal-cut.yaml
-  sha256: 93e5669adae669b0aeaf09cf2beee6fe07adb367120829a6dda3cf3cd165f4f4
+  sha256: 1cad4bcc3b0cb0f77fdc6749f06430387d4fc61a107d6652582ed3834eb6cf61
   source:
     repository: slime-backend
     path: config/terrain/maps/crystal-cut.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: f6df122ffaa63bfa40e04013795caf6c70b253f83c8b254f59d9e88b4f147630
+  sha256: efdb2eb8989481a5e0690276a056014f7a3cb5e7df9073a47491d23b332aa042
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7826,3 +7826,87 @@ assets:
     type: imagegen
     generation_id: exec-f2876a78-d30d-4de5-8d99-ac038c60cbd9
     note: 식은 잿길 수직 벽면용 현무암 재질. 생성 원본을 128×128로 정규화.
+- managementId: image.scenery.crystal-cut-low-quartz-vein-v1
+  version: v1
+  path: assets/billboards/crystal-cut-low-quartz-vein-v1.png
+  name: 낮은 연속 석영맥 암반
+  width: 512
+  height: 205
+  sha256: 70774c29f25775964168ddeae5cffd7d5bf716202313edee45b7debcf9c248a7
+  source:
+    repository: codex-imagegen
+    artifact: exec-7e50b870-7028-47d2-a871-55250e7c9650.png
+    original_sha256: 4e6fcad44024401d1b509dfc3296cf087047422d83a759f0779951f63dabf5af
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-fissured-boulder-v1
+  version: v1
+  path: assets/billboards/crystal-cut-fissured-boulder-v1.png
+  name: 균열 석영 암반
+  width: 512
+  height: 341
+  sha256: 5c20742f6b2e1434f1d5d3865beb936967fe988132b2cfe1b9b8e02d18a4ac08
+  source:
+    repository: codex-imagegen
+    artifact: exec-8f442dc3-0c10-4b68-bb53-4a501785df35.png
+    original_sha256: f96e12bacaf07a6ae40c660038186b85597fcda6e1b070ac8addd58a20ff32bc
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-fragments-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-fragments-v1.png
+  name: 작은 석영 붕락 파편
+  width: 512
+  height: 341
+  sha256: c632a92febdb2f45ed8a80bbe5bb87842acdb1ae7eb01acad3defbb7098381f4
+  source:
+    repository: codex-imagegen
+    artifact: exec-b7701d9e-1026-4acd-b536-77a41c2b0608.png
+    original_sha256: e5a682faf732d9bad8dc9ff32dd4cab0cdb2e8a8e62fc6cf0846fb09f61d64d5
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-curved-quartz-vein-v1
+  version: v1
+  path: assets/billboards/crystal-cut-curved-quartz-vein-v1.png
+  name: 굽은 석영맥 능선
+  width: 512
+  height: 341
+  sha256: edc3875d9d30bfec949b8567e2e1b1d791564b1f0816d39b6ea657d3b2f0f5c3
+  source:
+    repository: codex-imagegen
+    artifact: exec-2134fb5d-cb99-4bc4-8a0b-fd764ae8964d.png
+    original_sha256: 2cc29a3063781bd840393dd7e764d2c0b9ce9b11c158f56c2d3d864af99a2297
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-veined-rock-face-v1
+  version: v1
+  path: assets/billboards/crystal-cut-veined-rock-face-v1.png
+  name: 세로 석영맥 절개면
+  width: 505
+  height: 512
+  sha256: 3f407d4bd03574d3aa6642f87e68a205bc19c69cf9f2c118eff2e507a03ae6f1
+  source:
+    repository: codex-imagegen
+    artifact: exec-c3d795c7-e930-4af1-ac6d-2154f4a2dab9.png
+    original_sha256: bc47e6c7ee215d2ca73ed1c99a112512158c4de72831cc27c7efb7d63de6317f
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-flat-quartz-slab-v1
+  version: v1
+  path: assets/billboards/crystal-cut-flat-quartz-slab-v1.png
+  name: 납작한 석영맥 암반판
+  width: 512
+  height: 341
+  sha256: baf0dcd6bef096872c8e632d267b68df7c3b714bb0ce1a961dc5227ae50bc96c
+  source:
+    repository: codex-imagegen
+    artifact: exec-31b5d9b9-8fd8-4b40-8927-1038686b985c.png
+    original_sha256: ee734ac0f04b59fb97ee5e8514a5a4d7e43d790a3f01fac4d840b015994c3747
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-straight-quartz-segment-v1
+  version: v1
+  path: assets/billboards/crystal-cut-straight-quartz-segment-v1.png
+  name: 직선 석영맥 연결 암반
+  width: 512
+  height: 341
+  sha256: be2a5d5807221c794b8d6dcb1ff002606407ed36e637bebd591c67e161d40165
+  source:
+    repository: codex-imagegen
+    artifact: exec-25d36c67-fbd0-46b1-8005-fe444f94fccb.png
+    original_sha256: 96f33730d35aa6c02784a863535828fbb9265424acdb3d1c87dfac212a35faf1
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.

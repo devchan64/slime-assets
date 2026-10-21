@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 230
+  image_count: 237
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-20'
@@ -1390,6 +1390,70 @@ families:
     - 짙은 회색 비대칭 암반·좁은 접지
     uses:
     - '식은 잿길: 밝은 재 운반로 양옆의 어두운 암반 경계. 뜨거운 화산 표현 없이 사용'
+  crystal-cut-low-quartz-vein-v1:
+    category: rock
+    review_category: vegetation
+    name: 낮은 연속 석영맥 암반
+    features:
+    - 낮은 연속 석영맥 암반
+    - 회색 석회암과 상아색 석영맥·서로 다른 낮은 실루엣
+    uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+  crystal-cut-fissured-boulder-v1:
+    category: rock
+    review_category: vegetation
+    name: 균열 석영 암반
+    features:
+    - 균열 석영 암반
+    - 회색 석회암과 상아색 석영맥·서로 다른 낮은 실루엣
+    uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+  crystal-cut-quartz-fragments-v1:
+    category: rock
+    review_category: vegetation
+    name: 작은 석영 붕락 파편
+    features:
+    - 작은 석영 붕락 파편
+    - 회색 석회암과 상아색 석영맥·서로 다른 낮은 실루엣
+    uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+  crystal-cut-curved-quartz-vein-v1:
+    category: rock
+    review_category: vegetation
+    name: 굽은 석영맥 능선
+    features:
+    - 굽은 석영맥 능선
+    - 회색 석회암과 상아색 석영맥·서로 다른 낮은 실루엣
+    uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+  crystal-cut-veined-rock-face-v1:
+    category: rock
+    review_category: vegetation
+    name: 세로 석영맥 절개면
+    features:
+    - 세로 석영맥 절개면
+    - 회색 석회암과 상아색 석영맥·서로 다른 낮은 실루엣
+    uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+  crystal-cut-flat-quartz-slab-v1:
+    category: rock
+    review_category: vegetation
+    name: 납작한 석영맥 암반판
+    features:
+    - 납작한 석영맥 암반판
+    - 회색 석회암과 상아색 석영맥·서로 다른 낮은 실루엣
+    uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+  crystal-cut-straight-quartz-segment-v1:
+    category: rock
+    review_category: vegetation
+    name: 직선 석영맥 연결 암반
+    features:
+    - 직선 석영맥 연결 암반
+    - 회색 석회암과 상아색 석영맥·서로 다른 낮은 실루엣
+    uses:
+    - '결정 절개지: 빈 안쪽 공간이 없는 직선형 접지 암반. 얕은 절개면과 광맥 연결부에 사용하며 곡선형 광맥 대신 배치. 길을 가로막는 반복
+      벽 배치는 피한다.'
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -2992,7 +3056,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 9
+    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 50
   - path: assets/maps/field_tiles/granary-flats.yaml
@@ -3048,7 +3112,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 25
+    texture_key_occurrences: 6
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 49
   - path: assets/maps/field_tiles/granary-flats.yaml
@@ -3108,7 +3172,7 @@ billboards:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 12
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 21
+    texture_key_occurrences: 5
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 63
   - path: assets/maps/field_tiles/dry-creek.yaml
@@ -6565,8 +6629,6 @@ billboards:
     texture_key_occurrences: 7
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 6
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/town-charcoal-stack-v1.png
     width: 128
@@ -6674,7 +6736,7 @@ billboards:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-delivery-crates-v1.png
     width: 128
@@ -7299,8 +7361,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/town-grindstone-v1.png
     width: 128
@@ -7361,7 +7421,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/town-ground-lantern-v1.png
     width: 128
@@ -7419,7 +7479,7 @@ billboards:
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-handcart-v1.png
     width: 128
@@ -8200,8 +8260,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 4
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/town-metal-bin-v1.png
     width: 128
@@ -8308,7 +8366,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 5
+    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/town-ore-basket-v1.png
     width: 128
@@ -8884,8 +8942,6 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/town-repair-rack-v1.png
     width: 128
@@ -8943,8 +8999,6 @@ billboards:
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 2
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-rope-crates-v1.png
     width: 128
@@ -9775,7 +9829,7 @@ billboards:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 10
+    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 74
   - path: assets/maps/field_tiles/dry-creek.yaml
@@ -9834,7 +9888,7 @@ billboards:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 14
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 24
+    texture_key_occurrences: 7
   source_file:
     path: assets/billboards/town-stonewarm-stone-thyme-cushion-v1.png
     width: 128
@@ -11081,7 +11135,7 @@ billboards:
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 9
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 60
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/cinder-path-cooled-rocks-v1.png
     width: 128
@@ -11386,7 +11440,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 10
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/crystal-cut-quartz-outcrop-v1.png
     width: 128
@@ -11437,7 +11491,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 13
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/crystal-cut-quartz-shelf-v1.png
     width: 128
@@ -11489,7 +11543,7 @@ billboards:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 6
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/crystal-cut-quartz-spires-v1.png
     width: 128
@@ -11542,7 +11596,7 @@ billboards:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 33
+    texture_key_occurrences: 18
   source_file:
     path: assets/billboards/crystal-cut-quartz-rubble-v1.png
     width: 128
@@ -12985,6 +13039,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/quarry-splitting-tools-v1.png
     width: 512
@@ -13034,7 +13090,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.quarry-cut-rock-face-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/quarry-cut-rock-face-v1.png
     width: 512
@@ -13087,6 +13145,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/quarry-fallen-limestone-v1.png
     width: 512
@@ -13139,6 +13199,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/quarry-crevice-plants-v1.png
     width: 128
@@ -13242,6 +13304,8 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 1
   source_file:
     path: assets/billboards/quarry-low-rock-ledge-v1.png
@@ -13390,6 +13454,357 @@ billboards:
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 18
+    movement: 통행 가능
+- texture_key: crystal-cut-low-quartz-vein-v1
+  family: crystal-cut-low-quartz-vein-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-low-quartz-vein-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/crystal-cut-low-quartz-vein-v1.png
+    width: 512
+    height: 205
+    sha256: 70774c29f25775964168ddeae5cffd7d5bf716202313edee45b7debcf9c248a7
+  modeling:
+    purpose: 낮은 연속 석영맥 암반 · 암석·지질 지표
+    recommended_uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-low-quartz-vein-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 4
+    groundFootprintRows: 2
+    displayHeight: 160
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 80.0
+    size_variant: 기본 변형
+    occupied_tile_count: 8
+    movement: 통행 가능
+- texture_key: crystal-cut-fissured-boulder-v1
+  family: crystal-cut-fissured-boulder-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-fissured-boulder-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/crystal-cut-fissured-boulder-v1.png
+    width: 512
+    height: 341
+    sha256: 5c20742f6b2e1434f1d5d3865beb936967fe988132b2cfe1b9b8e02d18a4ac08
+  modeling:
+    purpose: 균열 석영 암반 · 암석·지질 지표
+    recommended_uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-fissured-boulder-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 160
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 80.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-quartz-fragments-v1
+  family: crystal-cut-quartz-fragments-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-fragments-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/crystal-cut-quartz-fragments-v1.png
+    width: 512
+    height: 341
+    sha256: c632a92febdb2f45ed8a80bbe5bb87842acdb1ae7eb01acad3defbb7098381f4
+  modeling:
+    purpose: 작은 석영 붕락 파편 · 암석·지질 지표
+    recommended_uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-fragments-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 70
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 35.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: crystal-cut-curved-quartz-vein-v1
+  family: crystal-cut-curved-quartz-vein-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-curved-quartz-vein-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/crystal-cut-curved-quartz-vein-v1.png
+    width: 512
+    height: 341
+    sha256: edc3875d9d30bfec949b8567e2e1b1d791564b1f0816d39b6ea657d3b2f0f5c3
+  modeling:
+    purpose: 굽은 석영맥 능선 · 암석·지질 지표
+    recommended_uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-curved-quartz-vein-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 4
+    groundFootprintRows: 2
+    displayHeight: 180
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 90.0
+    size_variant: 기본 변형
+    occupied_tile_count: 8
+    movement: 통행 가능
+- texture_key: crystal-cut-veined-rock-face-v1
+  family: crystal-cut-veined-rock-face-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-veined-rock-face-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/crystal-cut-veined-rock-face-v1.png
+    width: 505
+    height: 512
+    sha256: 3f407d4bd03574d3aa6642f87e68a205bc19c69cf9f2c118eff2e507a03ae6f1
+  modeling:
+    purpose: 세로 석영맥 절개면 · 암석·지질 지표
+    recommended_uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-rock-face-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 220
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 110.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-flat-quartz-slab-v1
+  family: crystal-cut-flat-quartz-slab-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-flat-quartz-slab-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/crystal-cut-flat-quartz-slab-v1.png
+    width: 512
+    height: 341
+    sha256: baf0dcd6bef096872c8e632d267b68df7c3b714bb0ce1a961dc5227ae50bc96c
+  modeling:
+    purpose: 납작한 석영맥 암반판 · 암석·지질 지표
+    recommended_uses:
+    - '결정 절개지: 얕은 절개면의 연속 광맥·균열 은신처·소형 붕락 파편. 같은 형상을 반복하지 않고 크기와 역할을 섞어 배치'
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-flat-quartz-slab-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 90
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 45.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-straight-quartz-segment-v1
+  family: crystal-cut-straight-quartz-segment-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-straight-quartz-segment-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/crystal-cut-straight-quartz-segment-v1.png
+    width: 512
+    height: 341
+    sha256: be2a5d5807221c794b8d6dcb1ff002606407ed36e637bebd591c67e161d40165
+  modeling:
+    purpose: 직선 석영맥 연결 암반 · 암석·지질 지표
+    recommended_uses:
+    - '결정 절개지: 빈 안쪽 공간이 없는 직선형 접지 암반. 얕은 절개면과 광맥 연결부에 사용하며 곡선형 광맥 대신 배치. 길을 가로막는 반복
+      벽 배치는 피한다.'
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-straight-quartz-segment-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 3
+    groundFootprintRows: 2
+    displayHeight: 120
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 60.0
+    size_variant: 기본 변형
+    occupied_tile_count: 6
     movement: 통행 가능
 modeling_contract:
   purpose: 맵 제작용 에셋 선택·크기·접지·통행 참고 자료
