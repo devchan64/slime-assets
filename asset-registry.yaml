@@ -619,7 +619,7 @@ assets:
 - managementId: config.field-tiles.crystal-cut
   version: crystal-remodel-v1-detail-v1-ore-v1-dense-v1-footprints-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: 51e17354e34f7cf3f35dfdd96491b35cd41bf2b60cf8eb77cc03ba115e9d81c2
+  sha256: 41ead03c2658ee69469b85c1d0ed11f925c72ae0c3d70b874456356be82158c9
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 972a499b09592de816ce262b1d97f3dbcc5f6d49b27cae9ceaf867cbc12b0cbb
+  sha256: 458a1d8bfab7255d097d86c78c906657e30d8134a9ff891dee9198cbb5a82f15
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7682,9 +7682,9 @@ assets:
   version: v1
   path: assets/billboards/quarry-cut-rock-face-v1.png
   name: 수직 절개 암반
-  width: 512
-  height: 341
-  sha256: 8e388a946b5424c9dd76035f27a41480258a3fc4f7fd770d52143287160e855c
+  width: 384
+  height: 256
+  sha256: 5c9220f1b3a1fbf86ad69846ec604441a576351466446cf7394ec0e1b8fc5550
   source:
     repository: codex-imagegen
     artifact: exec-e77454bd-e6db-4dfe-bc4d-b50f76e9d117.png
@@ -7694,9 +7694,9 @@ assets:
   version: v1
   path: assets/billboards/quarry-fallen-limestone-v1.png
   name: 붕락 석회암
-  width: 512
-  height: 341
-  sha256: ede50b5630c35e47109731d1f84bf734a4568e37e2a5f36596cba2a7a22031cd
+  width: 256
+  height: 170
+  sha256: 7b6772fd74830f50fd18d3087a50894f6d9354ba3a1e6808496137699b06acdc
   source:
     repository: codex-imagegen
     artifact: exec-e2fbe576-55d7-4663-898c-827e5577f0c0.png
@@ -7758,9 +7758,9 @@ assets:
   version: v1
   path: assets/billboards/quarry-asymmetric-rockfall-v1.png
   name: 비대칭 석회암 붕락군
-  width: 512
-  height: 341
-  sha256: 3acd011bd5bfe78b57ebfd2fde42cad9af1f039906481aaf454c484180a7490c
+  width: 256
+  height: 170
+  sha256: 9bb0e57be1e68578452d5395b9f054294a3bea43fe0f46c8ee77e519ff8c580e
   source:
     repository: codex-imagegen
     artifact: exec-9f64dbe8-622c-4bb0-a712-cbbc9a46c09a.png
@@ -7810,9 +7810,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-compact-veined-stone-v1.png
   name: 정사각 석영맥 바위
-  width: 512
-  height: 512
-  sha256: 956a2fa2846a1b4ed9fce03c5f9b0d9046341dbaccd3b4af9785c80b9e792d32
+  width: 256
+  height: 256
+  sha256: 20eb5b2f1a179b2a920a97e6782e1429f7cfb656307485535adbb670eafa778a
   source:
     repository: codex-imagegen
     artifact: exec-50a43be4-cf43-4a43-85c9-deb7295fc07f.png
@@ -7822,9 +7822,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-compact-dark-stone-v1.png
   name: 정사각 회색 낙석
-  width: 512
-  height: 512
-  sha256: a83bf4a4e1bb1663e9622bf9f8c78999a08c9bc45a67362b20b0198eb5d1b3ee
+  width: 256
+  height: 256
+  sha256: 1b3c3767a2bbd5f2abf7e04df24b8e89debd09434cb029879a61ca4d9fffc8d1
   source:
     repository: codex-imagegen
     artifact: exec-e07b096f-e2c6-48bd-b561-619270695caf.png
@@ -7834,9 +7834,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-compact-veined-chips-v1.png
   name: 작은 석영맥 파편 쌍
-  width: 512
-  height: 512
-  sha256: 9b7c230b78b319bfcff518938cfbf23e08cb873cf5730327aab6520290ee9d60
+  width: 256
+  height: 256
+  sha256: 65a622978a4c40d1ec738729f75039d4a1df69c2901261ecfd14d8d53f1522ea
   source:
     repository: codex-imagegen
     artifact: exec-04757238-f71e-4f35-89d2-67de2f87f4de.png
@@ -7861,9 +7861,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-tall-quartz-v1.png
   name: 높은 석영 기둥
-  width: 341
-  height: 512
-  sha256: d0fa51380d6b5d7cf4357281d4a3a55cb1124006611e5a07b4d6636b9185ef47
+  width: 170
+  height: 256
+  sha256: 96215357533f28d5a4ae5cb08bd90a92de6863a00d6da772455c62a27bac8ce3
   source:
     repository: codex-imagegen
     artifact: exec-e6b44a8a-4e30-436c-99c3-8e96771422c6.png
@@ -7873,9 +7873,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-tall-quartz-variant-v1.png
   name: 높은 석영 기둥 변형
-  width: 427
-  height: 512
-  sha256: 5d01d357b9952aba95c05cccc8c79ebc2872998ddc998a27eeac20031a0c63a6
+  width: 214
+  height: 256
+  sha256: 9e346c962079e364445bc346060578593546ad0d06ce1efca652bea7e08a25a4
   source:
     repository: codex-imagegen
     artifact: exec-60da9ac4-c411-4caf-8d76-528a5642a48c.png
@@ -7885,9 +7885,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-twin-tall-quartz-2x1-v1.png
   name: 높은 석영 쌍 열방향
-  width: 341
-  height: 512
-  sha256: 22de6a1ad6cb35a28df1b73968cb392b217dcf584402f5c649f77cb52ccd088a
+  width: 170
+  height: 256
+  sha256: 4557db2e5355d715fb982d2ce21ffadfa8d9e6f7e864e875df88e5bc329277e1
   source:
     repository: codex-imagegen
     artifact: exec-8fa87e71-24be-4c4f-ac93-a2c97e641a23.png
@@ -7897,9 +7897,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-medium-quartz-2x1-v1.png
   name: 중간 높이 석영 쌍 열방향
-  width: 512
-  height: 341
-  sha256: f935de8050f2f3aa5cf5ae428a4cf86291db342fa430224f2213bc5306d04020
+  width: 256
+  height: 170
+  sha256: 9a2f076232bbf11972ad5cfbbe3a309a74136c3dd1f9ed597b59d146b000f392
   source:
     repository: codex-imagegen
     artifact: exec-62bdff74-b2d8-4268-bb00-b450ac7d7c58.png
@@ -7909,9 +7909,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-medium-quartz-1x2-v1.png
   name: 중간 높이 석영 쌍 행방향
-  width: 512
-  height: 341
-  sha256: 3cff4c4808b4b1b264a79addd3f4dd2f3a1d362f1c80a30f6e0049f294dc9407
+  width: 256
+  height: 170
+  sha256: fb242904f8c7f2e490992c797f14613470484579157bc17555b5ee03ba67ab83
   source:
     repository: codex-imagegen
     artifact: exec-dfdef234-15f6-41ea-8197-e1d5187741b6.png
@@ -7919,7 +7919,7 @@ assets:
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
 - managementId: image.scenery.crystal-cut-low-quartz-2x1-v1
   version: v1
-  path: assets/billboards/crystal-cut-low-quartz-2x1-v1.png
+  path: assets/retired/billboards/crystal-cut-low-quartz-2x1-v1.png
   name: 낮은 석영 쌍 열방향
   width: 512
   height: 341
@@ -7929,9 +7929,12 @@ assets:
     artifact: exec-9d3a9afb-8b55-442f-9eee-f911d1031a9f.png
     original_sha256: 531c5d5c05c55864714892ee9df3408cc744fef8d136c1ba4c33599d8be2cfa0
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-low-quartz-2x1-v1.png
 - managementId: image.scenery.crystal-cut-low-quartz-1x2-v1
   version: v1
-  path: assets/billboards/crystal-cut-low-quartz-1x2-v1.png
+  path: assets/retired/billboards/crystal-cut-low-quartz-1x2-v1.png
   name: 낮은 석영 쌍 행방향
   width: 512
   height: 341
@@ -7941,15 +7944,114 @@ assets:
     artifact: exec-13854b7f-3d69-4d5e-b6fb-a4c76dbbcdbc.png
     original_sha256: 7ad0b3d69acc1440d70468abcbd6821b24924925ef0f127c8f056c4848b67b8d
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-low-quartz-1x2-v1.png
 - managementId: image.scenery.crystal-cut-twin-tall-quartz-1x2-v1
   version: v1
   path: assets/billboards/crystal-cut-twin-tall-quartz-1x2-v1.png
   name: 높은 석영 쌍 행방향
-  width: 341
-  height: 512
-  sha256: 26c928f24b732eb5585e0207d72dbf6dd66bde104096a589a8cffb0ae2a8f7f4
+  width: 170
+  height: 256
+  sha256: ce0b772a03e07b0151d47e482e5707060e1c23a86f62cb96b399665013154bdd
   source:
     repository: codex-imagegen
     artifact: exec-22c5bb97-8d0a-46d9-9a46-12f14314cf2e.png
     original_sha256: ae0fee66fe92c825114bf3f646d5110236e1617b24e700b1c582ccf1f8d509d8
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-veined-boulder-1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-veined-boulder-1-v1.png
+  name: 석영맥 암석 1
+  width: 512
+  height: 512
+  sha256: 188d4ad054a060cdc6ba345f60f9d0dff0aa4a73b114a544bf653e020b1b8d2c
+  source:
+    repository: codex-imagegen
+    artifact: codex-clipboard-08b761dd-56cf-4db2-b0c5-68f42bcc3f06.png
+    original_sha256: 440b909ce3e398144341f6e00f072e9adb31e8d48bbdebd679c4049db1a3a4b2
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-veined-boulder-2-v1
+  version: v1
+  path: assets/billboards/crystal-cut-veined-boulder-2-v1.png
+  name: 석영맥 암석 2
+  width: 512
+  height: 512
+  sha256: cb786b3bb1a3b0d3f14eef40ca02038d1e7927fd63e41a55070afe3a43c34af4
+  source:
+    repository: codex-imagegen
+    artifact: codex-clipboard-e41c9441-ce31-47f8-8f7d-f4e4ac847692.png
+    original_sha256: 660d19b67f0a8923b1b672f442f5aa8019fa35e1e42e263b61d74bb5744d8a25
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-veined-boulder-3-v1
+  version: v1
+  path: assets/billboards/crystal-cut-veined-boulder-3-v1.png
+  name: 석영맥 암석 3
+  width: 512
+  height: 512
+  sha256: 0540ac5f72206dbe30ab69dccf7b968a2e20c90a6a02a68abd8d3d10f1d13eea
+  source:
+    repository: codex-imagegen
+    artifact: codex-clipboard-30674df7-feb2-40e4-8c8e-5a5528835f63.png
+    original_sha256: 9f04e30c2bfbd46e746ede679dc22a98e0061e2c9cd75ea500f9cdbd0fba2fe3
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-veined-boulder-4-v1
+  version: v1
+  path: assets/billboards/crystal-cut-veined-boulder-4-v1.png
+  name: 석영맥 암석 4
+  width: 512
+  height: 512
+  sha256: 7dd0bb2f3946ad471d3653114b7f6ac5f4da061c8d435ae1d7d3e39d11ddecf4
+  source:
+    repository: codex-imagegen
+    artifact: codex-clipboard-1d354e16-7fc7-4923-a683-5f55958afa64.png
+    original_sha256: 7f7d93400505f092a1365f849d4be8e219c57c0f357ed8bff47f636727a4bdfc
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-veined-boulder-reverse-1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-veined-boulder-reverse-1-v1.png
+  name: 반대 방향 석영맥 암석 1
+  width: 512
+  height: 512
+  sha256: 6c162052459f53d6f010911ec7cd7cfeb098e7849c36a29d26614ffb66a047c2
+  source:
+    repository: codex-imagegen
+    artifact: exec-cbfc72f8-867a-4efe-8ea0-9c2920535b4d.png
+    original_sha256: 83ec20c95f2706f73e1478e4deab5b70e8fd3b59a03436074ca620954acfa4ec
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-veined-boulder-reverse-2-v1
+  version: v1
+  path: assets/billboards/crystal-cut-veined-boulder-reverse-2-v1.png
+  name: 반대 방향 석영맥 암석 2
+  width: 512
+  height: 512
+  sha256: 7b215847e1b3e142d597fb495452eb8d13ccd99fbe63d84fe6a40309ccd836e0
+  source:
+    repository: codex-imagegen
+    artifact: exec-4dd21304-88db-4449-a999-1abeeaf97803.png
+    original_sha256: b5862212337cbdfb429e2336fa6ca81b9a64a0b93b5edc4f8cfeb085e9e95dce
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-veined-boulder-reverse-3-v1
+  version: v1
+  path: assets/billboards/crystal-cut-veined-boulder-reverse-3-v1.png
+  name: 반대 방향 석영맥 암석 3
+  width: 512
+  height: 512
+  sha256: 21e8c8b11336294114031605704f93dd8476b68efc23be549f87a0f6a5887f5f
+  source:
+    repository: codex-imagegen
+    artifact: exec-2f77bd5b-f6f1-49ad-9684-9667a72ea2bd.png
+    original_sha256: a0fcac7b48f482e6a71ce9fa5eac52d5bcb96f68e41ef6feed52d76af6514553
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-veined-boulder-reverse-4-v1
+  version: v1
+  path: assets/billboards/crystal-cut-veined-boulder-reverse-4-v1.png
+  name: 반대 방향 석영맥 암석 4
+  width: 512
+  height: 512
+  sha256: 03ba389202afcdce47134c42941c53500147b212d7e523748a56f547e4ee94cf
+  source:
+    repository: codex-imagegen
+    artifact: exec-1af714b6-2634-42da-ab98-5c63d2e9ae16.png
+    original_sha256: 8e0cf28e58af0f1c57b095a03c5bf4c3c7544299718e0188d26ea5a7185b8c7f
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.

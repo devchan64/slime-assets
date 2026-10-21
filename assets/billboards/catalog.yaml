@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 234
+  image_count: 240
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-20'
@@ -1403,30 +1403,84 @@ families:
     - 짙은 회색 각진 암석·독립 구성의 독립 자연물
     uses:
     - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
-  crystal-cut-low-quartz-2x1-v1:
-    category: rock
-    review_category: vegetation
-    name: 낮은 석영 쌍 열방향
-    features:
-    - 낮은 석영 쌍 열방향
-    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
-    uses:
-    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
-  crystal-cut-low-quartz-1x2-v1:
-    category: rock
-    review_category: vegetation
-    name: 낮은 석영 쌍 행방향
-    features:
-    - 낮은 석영 쌍 행방향
-    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
-    uses:
-    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
   crystal-cut-twin-tall-quartz-1x2-v1:
     category: rock
     review_category: vegetation
     name: 높은 석영 쌍 행방향
     features:
     - 높은 석영 쌍 행방향
+    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
+    uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+  crystal-cut-veined-boulder-1-v1:
+    category: rock
+    review_category: vegetation
+    name: 석영맥 암석 1
+    features:
+    - 석영맥 암석 1
+    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
+    uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+  crystal-cut-veined-boulder-2-v1:
+    category: rock
+    review_category: vegetation
+    name: 석영맥 암석 2
+    features:
+    - 석영맥 암석 2
+    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
+    uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+  crystal-cut-veined-boulder-3-v1:
+    category: rock
+    review_category: vegetation
+    name: 석영맥 암석 3
+    features:
+    - 석영맥 암석 3
+    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
+    uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+  crystal-cut-veined-boulder-4-v1:
+    category: rock
+    review_category: vegetation
+    name: 석영맥 암석 4
+    features:
+    - 석영맥 암석 4
+    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
+    uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+  crystal-cut-veined-boulder-reverse-1-v1:
+    category: rock
+    review_category: vegetation
+    name: 반대 방향 석영맥 암석 1
+    features:
+    - 반대 방향 석영맥 암석 1
+    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
+    uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+  crystal-cut-veined-boulder-reverse-2-v1:
+    category: rock
+    review_category: vegetation
+    name: 반대 방향 석영맥 암석 2
+    features:
+    - 반대 방향 석영맥 암석 2
+    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
+    uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+  crystal-cut-veined-boulder-reverse-3-v1:
+    category: rock
+    review_category: vegetation
+    name: 반대 방향 석영맥 암석 3
+    features:
+    - 반대 방향 석영맥 암석 3
+    - 짙은 회색 각진 암석·독립 구성의 독립 자연물
+    uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+  crystal-cut-veined-boulder-reverse-4-v1:
+    category: rock
+    review_category: vegetation
+    name: 반대 방향 석영맥 암석 4
+    features:
+    - 반대 방향 석영맥 암석 4
     - 짙은 회색 각진 암석·독립 구성의 독립 자연물
     uses:
     - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
@@ -1469,7 +1523,7 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.apples-variant-1-v1
     anchorX: 0.0
-    anchorY: 0.42
+    anchorY: 0.06
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80
@@ -1477,6 +1531,8 @@ billboards:
     shadowScaleX: 1
     shadowScaleY: 1.0
     billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.25
+    shadowOffsetRow: -0.25
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6627,16 +6683,19 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-charcoal-stack-v1
     anchorX: 0.0186
-    anchorY: 0.56
+    anchorY: 0.07
     displayHeight: 128
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.5
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    shadowScaleX: 1.4
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6679,17 +6738,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-coastal-stall-v1
-    anchorX: -0.1
-    anchorY: 0.48
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 163
+    anchorX: 0.06
+    anchorY: 0.16
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 180
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    outdoorDisplayHeight: 81.5
+    shadowScaleY: 1.45
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    shadowScaleX: 1.45
+    outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 4
     movement: 통행 가능
 - texture_key: town-delivery-crates-v1
   family: town-delivery-crates
@@ -6736,13 +6798,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-delivery-crates-v1
     anchorX: -0.02
-    anchorY: 0.3
+    anchorY: -0.07
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 109
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.5
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    shadowScaleX: 1.5
     outdoorDisplayHeight: 54.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6786,17 +6851,19 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-fish-rack-v1
     anchorX: 0.0
-    anchorY: 0.34
-    groundFootprintColumns: 1
+    anchorY: -0.03
+    groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 120
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1
+    shadowScaleX: 0.7
+    shadowScaleY: 0.7
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-food-stall-v1
   family: town-food-stall
@@ -10613,13 +10680,15 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-reed-autumn-v1
     anchorX: -0.025
-    anchorY: 0.025
+    anchorY: -0.41
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1
+    shadowOffsetColumn: -0.55
+    shadowOffsetRow: -0.55
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10664,13 +10733,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-reed-silver-v1
     anchorX: -0.0062
-    anchorY: 0.025
+    anchorY: -0.46
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.75
+    shadowOffsetColumn: -0.55
+    shadowOffsetRow: -0.55
+    shadowScaleX: 0.75
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10716,13 +10788,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.ash-edge-charred-regrowth-v1
     anchorX: 0.01
-    anchorY: 0.48
+    anchorY: 0.01
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 110
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.15
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    shadowScaleX: 1.2
     outdoorDisplayHeight: 55.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10764,19 +10839,19 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.ash-edge-decomposer-log-v1
-    anchorX: -0.01
-    anchorY: 0.67
-    groundFootprintColumns: 2
+    anchorX: 0.03
+    anchorY: -0.01
+    groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 136
+    displayHeight: 80
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1
-    outdoorDisplayHeight: 68.0
+    outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
-    occupied_tile_count: 2
+    occupied_tile_count: 1
     movement: 통행 가능
 - texture_key: ash-edge-scorched-waystone-v1
   family: ash-edge-scorched-waystone-v1
@@ -11068,14 +11143,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.brine-bank-saltbush-v1
-    anchorX: -0.0366
-    anchorY: 0.1025
+    anchorX: 0
+    anchorY: -0.54
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 150
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.5
+    shadowOffsetColumn: -0.65
+    shadowOffsetRow: -0.65
+    shadowScaleX: 0.5
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11122,14 +11200,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-cooled-rocks-v1
-    anchorX: 0.041
-    anchorY: 0.4167
+    anchorX: 0.01
+    anchorY: -0.06
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.1
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    shadowScaleX: 1.1
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11174,14 +11255,16 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-buried-deadwood-v1
-    anchorX: 0.02
-    anchorY: 0.42
+    anchorX: -0.02
+    anchorY: 0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 136
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1
+    shadowOffsetColumn: -0.45
+    shadowOffsetRow: -0.45
     outdoorDisplayHeight: 68.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11277,13 +11360,15 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-gray-green-shoots-v1
     anchorX: 0.02
-    anchorY: 0.3
+    anchorY: -0.27
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1
+    shadowOffsetColumn: -0.55
+    shadowOffsetRow: -0.65
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11327,14 +11412,14 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-basalt-outcrop-v1
     anchorX: -0.02
-    anchorY: 0.48
+    anchorY: 0.14
     groundFootprintColumns: 3
     groundFootprintRows: 3
-    displayHeight: 327
+    displayHeight: 300
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1
-    outdoorDisplayHeight: 163.5
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 9
     movement: 내부 타일 통행 불가
@@ -11374,18 +11459,20 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: center
+    vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.clover-bank-rabbit-burrow-v1
     anchorX: -0.0125
-    anchorY: 0.5
+    anchorY: 0.73
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 180
+    displayHeight: 220
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1.8
     shadowScaleX: 1.65
-    outdoorDisplayHeight: 90.0
+    shadowOffsetColumn: -0.45
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 110.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -11478,13 +11565,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.granary-flats-ripe-wheat-v1
     anchorX: -0.0125
-    anchorY: 0.1625
+    anchorY: -0.31
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 128
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.8
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.55
+    shadowScaleX: 0.85
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11627,18 +11717,20 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-weathered-boulders-v1
-    anchorX: -0.03
-    anchorY: 0.8
+    anchorX: 0.06
+    anchorY: 0.19
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 340
+    displayHeight: 250
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.6
+    shadowScaleY: 1.7
     shadowScaleX: 1.85
-    outdoorDisplayHeight: 170.0
+    shadowOffsetColumn: -0.4
+    shadowOffsetRow: -0.9
+    outdoorDisplayHeight: 125.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -11678,20 +11770,22 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-collapse-fan-v1
-    anchorX: -0.05
-    anchorY: 1.21
+    anchorX: 0.05
+    anchorY: 0.46
     groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 272
+    groundFootprintRows: 1
+    displayHeight: 220
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.55
-    shadowScaleX: 1.5
-    outdoorDisplayHeight: 136.0
+    shadowScaleY: 0.7
+    shadowScaleX: 0.85
+    shadowOffsetColumn: -0.4
+    shadowOffsetRow: -0.6
+    outdoorDisplayHeight: 110.0
     size_variant: 기본 변형
-    occupied_tile_count: 4
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: cinder-path-split-stump-v1
   family: cinder-path-split-stump-v1
@@ -11731,16 +11825,18 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: center
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-split-stump-v1
-    anchorX: -0.0063
-    anchorY: 0.5
+    anchorX: 0
+    anchorY: 0.03
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 110
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1
+    shadowOffsetColumn: -0.45
+    shadowOffsetRow: -0.5
     outdoorDisplayHeight: 55.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12025,16 +12121,19 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-mill-ridge-weathered-stones-4-v1
     anchorX: -0.0068
-    anchorY: 0.6081
+    anchorY: 0.31
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 140
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.2
+    shadowOffsetColumn: -0.35
+    shadowOffsetRow: -0.4
+    shadowScaleX: 1.2
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12317,17 +12416,19 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-rooted-tree-1-v1
     anchorX: -0.0586
-    anchorY: 0.8
+    anchorY: 0.33
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 350.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 2.0
-    shadowScaleY: 2.0
+    shadowScaleX: 1.4
+    shadowScaleY: 1.15
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.45
     outdoorDisplayHeight: 175.0
     size_variant: 기본 변형
     occupied_tile_count: 4
@@ -12841,9 +12942,9 @@ billboards:
   map_references: []
   source_file:
     path: assets/billboards/quarry-cut-rock-face-v1.png
-    width: 512
-    height: 341
-    sha256: 8e388a946b5424c9dd76035f27a41480258a3fc4f7fd770d52143287160e855c
+    width: 384
+    height: 256
+    sha256: 5c9220f1b3a1fbf86ad69846ec604441a576351466446cf7394ec0e1b8fc5550
   modeling:
     purpose: 수직 절개 암반 · 암석·지질 지표
     recommended_uses:
@@ -12870,16 +12971,18 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-cut-rock-face-v1
-    anchorX: 0.0
-    anchorY: 0.0
+    anchorX: -0.41
+    anchorY: -0.17
     groundFootprintColumns: 4
     groundFootprintRows: 2
-    displayHeight: 320
+    displayHeight: 251
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
+    shadowScaleX: 0.8
     shadowScaleY: 1
-    outdoorDisplayHeight: 160.0
+    shadowOffsetColumn: -1.55
+    shadowOffsetRow: -0.75
+    outdoorDisplayHeight: 125.5
     size_variant: 기본 변형
     occupied_tile_count: 8
     movement: 통행 가능
@@ -12893,9 +12996,9 @@ billboards:
     texture_key_occurrences: 2
   source_file:
     path: assets/billboards/quarry-fallen-limestone-v1.png
-    width: 512
-    height: 341
-    sha256: ede50b5630c35e47109731d1f84bf734a4568e37e2a5f36596cba2a7a22031cd
+    width: 256
+    height: 170
+    sha256: 7b6772fd74830f50fd18d3087a50894f6d9354ba3a1e6808496137699b06acdc
   modeling:
     purpose: 붕락 석회암 · 암석·지질 지표
     recommended_uses:
@@ -12929,8 +13032,10 @@ billboards:
     displayHeight: 180
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.4
+    shadowScaleY: 1.65
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
     outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
     occupied_tile_count: 4
@@ -12975,17 +13080,19 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-crevice-plants-v1
     anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
+    anchorY: -0.55
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
+    shadowOffsetColumn: -0.7
+    shadowOffsetRow: -0.75
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
-    occupied_tile_count: 4
+    occupied_tile_count: 1
     movement: 통행 가능
 - texture_key: quarry-asymmetric-rockfall-v1
   family: quarry-asymmetric-rockfall-v1
@@ -12997,9 +13104,9 @@ billboards:
     texture_key_occurrences: 1
   source_file:
     path: assets/billboards/quarry-asymmetric-rockfall-v1.png
-    width: 512
-    height: 341
-    sha256: 3acd011bd5bfe78b57ebfd2fde42cad9af1f039906481aaf454c484180a7490c
+    width: 256
+    height: 170
+    sha256: 9bb0e57be1e68578452d5395b9f054294a3bea43fe0f46c8ee77e519ff8c580e
   modeling:
     purpose: 비대칭 석회암 붕락군 · 암석·지질 지표
     recommended_uses:
@@ -13044,9 +13151,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-compact-veined-stone-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 8
+  map_references: []
   modeling:
     purpose: 정사각 석영맥 바위 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13070,9 +13175,9 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-compact-veined-stone-v1.png
-    width: 512
-    height: 512
-    sha256: 956a2fa2846a1b4ed9fce03c5f9b0d9046341dbaccd3b4af9785c80b9e792d32
+    width: 256
+    height: 256
+    sha256: 20eb5b2f1a179b2a920a97e6782e1429f7cfb656307485535adbb670eafa778a
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -13098,9 +13203,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-compact-dark-stone-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+  map_references: []
   modeling:
     purpose: 정사각 회색 낙석 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13124,9 +13227,9 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-compact-dark-stone-v1.png
-    width: 512
-    height: 512
-    sha256: a83bf4a4e1bb1663e9622bf9f8c78999a08c9bc45a67362b20b0198eb5d1b3ee
+    width: 256
+    height: 256
+    sha256: 1b3c3767a2bbd5f2abf7e04df24b8e89debd09434cb029879a61ca4d9fffc8d1
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -13154,7 +13257,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 13
+    texture_key_occurrences: 3
   modeling:
     purpose: 작은 석영맥 파편 쌍 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13178,16 +13281,16 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-compact-veined-chips-v1.png
-    width: 512
-    height: 512
-    sha256: 9b7c230b78b319bfcff518938cfbf23e08cb873cf5730327aab6520290ee9d60
+    width: 256
+    height: 256
+    sha256: 65a622978a4c40d1ec738729f75039d4a1df69c2901261ecfd14d8d53f1522ea
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-compact-veined-chips-v1
     anchorX: 0.0
-    anchorY: 0.0
+    anchorY: -0.52
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 60
@@ -13195,8 +13298,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
+    shadowOffsetColumn: -0.8
+    shadowOffsetRow: -0.85
     outdoorDisplayHeight: 30.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13206,7 +13309,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-tall-quartz-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
   modeling:
     purpose: 높은 석영 기둥 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13231,9 +13336,9 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-tall-quartz-v1.png
-    width: 341
-    height: 512
-    sha256: d0fa51380d6b5d7cf4357281d4a3a55cb1124006611e5a07b4d6636b9185ef47
+    width: 170
+    height: 256
+    sha256: 96215357533f28d5a4ae5cb08bd90a92de6863a00d6da772455c62a27bac8ce3
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -13284,9 +13389,9 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-tall-quartz-variant-v1.png
-    width: 427
-    height: 512
-    sha256: 5d01d357b9952aba95c05cccc8c79ebc2872998ddc998a27eeac20031a0c63a6
+    width: 214
+    height: 256
+    sha256: 9e346c962079e364445bc346060578593546ad0d06ce1efca652bea7e08a25a4
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -13337,26 +13442,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-twin-tall-quartz-2x1-v1.png
-    width: 341
-    height: 512
-    sha256: 22de6a1ad6cb35a28df1b73968cb392b217dcf584402f5c649f77cb52ccd088a
+    width: 170
+    height: 256
+    sha256: 4557db2e5355d715fb982d2ce21ffadfa8d9e6f7e864e875df88e5bc329277e1
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-twin-tall-quartz-2x1-v1
-    anchorX: 0.0
-    anchorY: 0.0
+    anchorX: 0.07
+    anchorY: 0.06
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 180
+    displayHeight: 240
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.8
-    shadowScaleY: 0.8
-    shadowOffsetColumn: -0.5
-    shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 90.0
+    shadowScaleX: 0.95
+    shadowScaleY: 0.45
+    shadowOffsetColumn: -0.45
+    shadowOffsetRow: -0.55
+    outdoorDisplayHeight: 120.0
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -13390,23 +13495,25 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-medium-quartz-2x1-v1.png
-    width: 512
-    height: 341
-    sha256: f935de8050f2f3aa5cf5ae428a4cf86291db342fa430224f2213bc5306d04020
+    width: 256
+    height: 170
+    sha256: 9a2f076232bbf11972ad5cfbbe3a309a74136c3dd1f9ed597b59d146b000f392
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-medium-quartz-2x1-v1
-    anchorX: 0.0
-    anchorY: 0.0
+    anchorX: 0.07
+    anchorY: 0.07
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 135
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 0.75
+    shadowScaleY: 0.6
+    shadowOffsetColumn: -0.45
+    shadowOffsetRow: -0.5
     outdoorDisplayHeight: 67.5
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -13441,126 +13548,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-medium-quartz-1x2-v1.png
-    width: 512
-    height: 341
-    sha256: 3cff4c4808b4b1b264a79addd3f4dd2f3a1d362f1c80a30f6e0049f294dc9407
+    width: 256
+    height: 170
+    sha256: fb242904f8c7f2e490992c797f14613470484579157bc17555b5ee03ba67ab83
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-medium-quartz-1x2-v1
-    anchorX: 0.0
-    anchorY: 0.0
+    anchorX: -0.04
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 135
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 0.45
+    shadowScaleY: 0.7
+    shadowOffsetColumn: -0.55
+    shadowOffsetRow: -0.55
     outdoorDisplayHeight: 67.5
-    size_variant: 기본 변형
-    occupied_tile_count: 2
-    movement: 통행 가능
-- texture_key: crystal-cut-low-quartz-2x1-v1
-  family: crystal-cut-low-quartz-2x1-v1
-  asset_ref:
-    management_id: image.scenery.crystal-cut-low-quartz-2x1-v1
-    version: v1
-  map_references: []
-  modeling:
-    purpose: 낮은 석영 쌍 열방향 · 독립 낙석과 석영맥 강조
-    recommended_uses:
-    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
-    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
-    avoid:
-    - 고도 경계에 걸친 접지
-    - 다른 바위 접지와 겹침
-    - 주요 통로 점유
-    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
-      검수.'
-    shadow:
-      runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
-        미지원.
-      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      guidance_only: true
-  source_file:
-    path: assets/billboards/crystal-cut-low-quartz-2x1-v1.png
-    width: 512
-    height: 341
-    sha256: e21593190b0d09021c604b2c5caedc0a65796b95158b35ff2a276cb7a94a177f
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-low-quartz-2x1-v1
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 2
-    groundFootprintRows: 1
-    displayHeight: 90
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 45.0
-    size_variant: 기본 변형
-    occupied_tile_count: 2
-    movement: 통행 가능
-- texture_key: crystal-cut-low-quartz-1x2-v1
-  family: crystal-cut-low-quartz-1x2-v1
-  asset_ref:
-    management_id: image.scenery.crystal-cut-low-quartz-1x2-v1
-    version: v1
-  map_references: []
-  modeling:
-    purpose: 낮은 석영 쌍 행방향 · 독립 낙석과 석영맥 강조
-    recommended_uses:
-    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
-    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
-    avoid:
-    - 고도 경계에 걸친 접지
-    - 다른 바위 접지와 겹침
-    - 주요 통로 점유
-    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
-      검수.'
-    shadow:
-      runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
-        미지원.
-      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      guidance_only: true
-  source_file:
-    path: assets/billboards/crystal-cut-low-quartz-1x2-v1.png
-    width: 512
-    height: 341
-    sha256: 52609f87290e31861e40cbb46ba4af999819f080ce440394603077fed779c5ad
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-low-quartz-1x2-v1
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 1
-    groundFootprintRows: 2
-    displayHeight: 90
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 45.0
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -13594,26 +13601,452 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-twin-tall-quartz-1x2-v1.png
-    width: 341
-    height: 512
-    sha256: 26c928f24b732eb5585e0207d72dbf6dd66bde104096a589a8cffb0ae2a8f7f4
+    width: 170
+    height: 256
+    sha256: ce0b772a03e07b0151d47e482e5707060e1c23a86f62cb96b399665013154bdd
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-twin-tall-quartz-1x2-v1
-    anchorX: 0.0
-    anchorY: 0.0
+    anchorX: -0.05
+    anchorY: 0.17
     groundFootprintColumns: 1
     groundFootprintRows: 2
-    displayHeight: 180
+    displayHeight: 220
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 1.05
+    shadowOffsetColumn: -0.6
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 110.0
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: crystal-cut-veined-boulder-1-v1
+  family: crystal-cut-veined-boulder-1-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-veined-boulder-1-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
+  modeling:
+    purpose: 석영맥 암석 1 · 독립 낙석과 석영맥 강조
+    recommended_uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
+    avoid:
+    - 고도 경계에 걸친 접지
+    - 다른 바위 접지와 겹침
+    - 주요 통로 점유
+    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
+      검수.'
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-veined-boulder-1-v1.png
+    width: 512
+    height: 512
+    sha256: 188d4ad054a060cdc6ba345f60f9d0dff0aa4a73b114a544bf653e020b1b8d2c
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-1-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 120
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
-    outdoorDisplayHeight: 90.0
+    outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
-    occupied_tile_count: 2
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-veined-boulder-2-v1
+  family: crystal-cut-veined-boulder-2-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-veined-boulder-2-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 석영맥 암석 2 · 독립 낙석과 석영맥 강조
+    recommended_uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
+    avoid:
+    - 고도 경계에 걸친 접지
+    - 다른 바위 접지와 겹침
+    - 주요 통로 점유
+    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
+      검수.'
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-veined-boulder-2-v1.png
+    width: 512
+    height: 512
+    sha256: cb786b3bb1a3b0d3f14eef40ca02038d1e7927fd63e41a55070afe3a43c34af4
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-2-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 160
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 80.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-veined-boulder-3-v1
+  family: crystal-cut-veined-boulder-3-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-veined-boulder-3-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
+  modeling:
+    purpose: 석영맥 암석 3 · 독립 낙석과 석영맥 강조
+    recommended_uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
+    avoid:
+    - 고도 경계에 걸친 접지
+    - 다른 바위 접지와 겹침
+    - 주요 통로 점유
+    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
+      검수.'
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-veined-boulder-3-v1.png
+    width: 512
+    height: 512
+    sha256: 0540ac5f72206dbe30ab69dccf7b968a2e20c90a6a02a68abd8d3d10f1d13eea
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-3-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 120
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 60.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-veined-boulder-4-v1
+  family: crystal-cut-veined-boulder-4-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-veined-boulder-4-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 석영맥 암석 4 · 독립 낙석과 석영맥 강조
+    recommended_uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
+    avoid:
+    - 고도 경계에 걸친 접지
+    - 다른 바위 접지와 겹침
+    - 주요 통로 점유
+    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
+      검수.'
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-veined-boulder-4-v1.png
+    width: 512
+    height: 512
+    sha256: 7dd0bb2f3946ad471d3653114b7f6ac5f4da061c8d435ae1d7d3e39d11ddecf4
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-4-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 120
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 60.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-veined-boulder-reverse-1-v1
+  family: crystal-cut-veined-boulder-reverse-1-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-veined-boulder-reverse-1-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 반대 방향 석영맥 암석 1 · 독립 낙석과 석영맥 강조
+    recommended_uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
+    avoid:
+    - 고도 경계에 걸친 접지
+    - 다른 바위 접지와 겹침
+    - 주요 통로 점유
+    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
+      검수.'
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-veined-boulder-reverse-1-v1.png
+    width: 512
+    height: 512
+    sha256: 6c162052459f53d6f010911ec7cd7cfeb098e7849c36a29d26614ffb66a047c2
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-reverse-1-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 120
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 60.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-veined-boulder-reverse-2-v1
+  family: crystal-cut-veined-boulder-reverse-2-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-veined-boulder-reverse-2-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
+  modeling:
+    purpose: 반대 방향 석영맥 암석 2 · 독립 낙석과 석영맥 강조
+    recommended_uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
+    avoid:
+    - 고도 경계에 걸친 접지
+    - 다른 바위 접지와 겹침
+    - 주요 통로 점유
+    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
+      검수.'
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-veined-boulder-reverse-2-v1.png
+    width: 512
+    height: 512
+    sha256: 7b215847e1b3e142d597fb495452eb8d13ccd99fbe63d84fe6a40309ccd836e0
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-reverse-2-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 160
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 80.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-veined-boulder-reverse-3-v1
+  family: crystal-cut-veined-boulder-reverse-3-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-veined-boulder-reverse-3-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 반대 방향 석영맥 암석 3 · 독립 낙석과 석영맥 강조
+    recommended_uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
+    avoid:
+    - 고도 경계에 걸친 접지
+    - 다른 바위 접지와 겹침
+    - 주요 통로 점유
+    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
+      검수.'
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-veined-boulder-reverse-3-v1.png
+    width: 512
+    height: 512
+    sha256: 21e8c8b11336294114031605704f93dd8476b68efc23be549f87a0f6a5887f5f
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-reverse-3-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 120
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 60.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: crystal-cut-veined-boulder-reverse-4-v1
+  family: crystal-cut-veined-boulder-reverse-4-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-veined-boulder-reverse-4-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
+  modeling:
+    purpose: 반대 방향 석영맥 암석 4 · 독립 낙석과 석영맥 강조
+    recommended_uses:
+    - 결정 절개지 암벽 아래 낙석과 길 가장자리의 소규모 암석 군집. 독립 바위 사이에 간격을 두고 조합하며 파편은 주변에 소량 배치한다.
+    composition: 크기가 다른 독립 바위로 조합한다. 파편은 보조로 사용하며 연속 벽이나 바닥 포장처럼 반복하지 않는다.
+    avoid:
+    - 고도 경계에 걸친 접지
+    - 다른 바위 접지와 겹침
+    - 주요 통로 점유
+    basis: '생성 이미지 직접 검수: 가로형 또는 세로형 이미지의 불규칙 암석 외곽과 투명 알파 확인. 표시 높이와 앵커는 배치 시 최종
+      검수.'
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-veined-boulder-reverse-4-v1.png
+    width: 512
+    height: 512
+    sha256: 03ba389202afcdce47134c42941c53500147b212d7e523748a56f547e4ee94cf
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-reverse-4-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 120
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 60.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
     movement: 통행 가능
 modeling_contract:
   purpose: 맵 제작용 에셋 선택·크기·접지·통행 참고 자료
