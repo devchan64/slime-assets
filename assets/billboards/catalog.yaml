@@ -2847,7 +2847,7 @@ billboards:
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 22
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 8
+    texture_key_occurrences: 14
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 44
   - path: assets/maps/field_tiles/granary-flats.yaml
@@ -6580,6 +6580,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 8
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/crystal-cut.yaml
     texture_key_occurrences: 2
   source_file:
@@ -8843,7 +8845,7 @@ billboards:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 10
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/cinder-path.yaml
@@ -8901,6 +8903,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 14
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/town-salt-barrels-v1.png
     width: 128
@@ -8951,6 +8955,8 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-saltford-cargo-weighing-v1.png
@@ -9257,6 +9263,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/town-saltford-wet-cargo-drying-v1.png
     width: 256
@@ -9357,7 +9365,7 @@ billboards:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 7
+    texture_key_occurrences: 12
   source_file:
     path: assets/billboards/town-saltmarsh-plants-v1.png
     width: 128
@@ -10820,7 +10828,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/brine-bank-carrying-buckets-v1.png
     width: 256
@@ -10870,7 +10878,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/brine-bank-salt-drying-rack-v1.png
     width: 256
@@ -10902,16 +10910,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.brine-bank-salt-drying-rack-v1
     anchorX: 0.0
-    anchorY: 0.4
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 74
+    anchorY: -0.1
+    groundFootprintColumns: 3
+    groundFootprintRows: 3
+    displayHeight: 148
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1
-    outdoorDisplayHeight: 37.0
+    outdoorDisplayHeight: 74.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 9
     movement: 통행 가능
 - texture_key: brine-bank-saltbush-v1
   family: brine-bank-saltbush-v1
@@ -10920,7 +10928,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 12
+    texture_key_occurrences: 22
   source_file:
     path: assets/billboards/brine-bank-saltbush-v1.png
     width: 128
@@ -11889,7 +11897,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-salt-causeway-repair-stakes-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/field-salt-causeway-repair-stakes-1-v1.png
     width: 256
@@ -11937,7 +11947,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-salt-flat-brine-barrel-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/field-salt-flat-brine-barrel-1-v1.png
     width: 256
@@ -12324,7 +12336,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-pebble-shore-rope-coil-size-large-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/field-pebble-shore-rope-coil-size-large-v1.png
     width: 256
