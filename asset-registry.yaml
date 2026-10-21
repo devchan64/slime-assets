@@ -587,7 +587,7 @@ assets:
 - managementId: config.field-tiles.broken-quarry
   version: shared-material-codes-v2-quarry-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-clear-sign-v1
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: b6886f06d50a30a33d061fc4f82c65767d0b47ffe7662ca8ff2191564fa825fb
+  sha256: 1b0577170c46d7de35831d234560d446d04b3fac9ce9096707daf46b80ca1e9f
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
@@ -619,7 +619,7 @@ assets:
 - managementId: config.field-tiles.crystal-cut
   version: crystal-remodel-v1-detail-v1-ore-v1-dense-v1-footprints-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: 3fb99a9e73d9c8c59a17f12cfd88c752bc275ff021e24fbe0cb32e5ee50677c6
+  sha256: 1bf436c2ba76f4e63ccc8de4e5927744d8bd0ef9b29745435f36a0babcd6d73f
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -1171,7 +1171,7 @@ assets:
 - managementId: config.terrain.maps.crystal-cut
   version: field-detail-v2-detail-v1-footprints-v1
   path: assets/maps/terrain/maps/crystal-cut.yaml
-  sha256: 1cad4bcc3b0cb0f77fdc6749f06430387d4fc61a107d6652582ed3834eb6cf61
+  sha256: b76387f54bffd34f76a986d7a9c39f0e00d0f799d147711235531d1608d2f456
   source:
     repository: slime-backend
     path: config/terrain/maps/crystal-cut.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: efdb2eb8989481a5e0690276a056014f7a3cb5e7df9073a47491d23b332aa042
+  sha256: c464f291b3178b04e20f967dcf94af08e8d155817731282a5d0f95c781d4d59e
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7299,7 +7299,7 @@ assets:
     processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
 - managementId: image.scenery.crystal-cut-quartz-spires-v1
   version: v1
-  path: assets/billboards/crystal-cut-quartz-spires-v1.png
+  path: assets/retired/billboards/crystal-cut-quartz-spires-v1.png
   name: 첨탑형 석영 광맥
   width: 128
   height: 128
@@ -7308,6 +7308,9 @@ assets:
     repository: codex-imagegen
     artifact: exec-dfe4a75b-0ef5-4250-9bda-7df04df98d97.png
     processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-quartz-spires-v1.png
 - managementId: image.scenery.crystal-cut-quartz-rubble-v1
   version: v1
   path: assets/billboards/crystal-cut-quartz-rubble-v1.png
@@ -7340,7 +7343,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-e5c6e181-dcdc-4536-9ae0-44da7bebd9b9.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
+      구성요소 분리
 - managementId: image.scenery.bridge-stone-components-v1
   version: v1
   path: assets/buildings/bridge-stone-components-v1.png
@@ -7351,7 +7355,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-d59c0191-16d5-4afb-a4b8-786f6941fe17.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
+      구성요소 분리
 - managementId: image.scenery.bridge-connection-details-v1
   version: v1
   path: assets/buildings/bridge-connection-details-v1.png
@@ -7362,7 +7367,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-baa58574-5e9e-43f0-ad8c-e62bf2328bd2.png
-    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소
+      분리
 - managementId: image.scenery.bridge-timber-components-v2
   version: v2
   path: assets/buildings/bridge-timber-components-v2.png
@@ -7909,4 +7915,112 @@ assets:
     repository: codex-imagegen
     artifact: exec-25d36c67-fbd0-46b1-8005-fe444f94fccb.png
     original_sha256: 96f33730d35aa6c02784a863535828fbb9265424acdb3d1c87dfac212a35faf1
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-single-spire-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-single-spire-v1.png
+  name: 단일 석영 종유 기둥
+  width: 341
+  height: 512
+  sha256: ac48f9efa0403d67ee491d526163655b1cff9b8edb9a51ae140059715a89e1d2
+  source:
+    repository: codex-imagegen
+    artifact: exec-d756ae54-8f9f-449e-ba1d-b5d15d706c8d.png
+    original_sha256: 915f32c7ba81f03b60bb3c687a657e3dbd895e15d6af4c5c63233943da74ca50
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-paired-spires-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-paired-spires-v1.png
+  name: 쌍 석영 종유 기둥
+  width: 341
+  height: 512
+  sha256: 6d25bb38dc77600bf878ed71c624011a015301f6a3fa843b9e7d1596f1581b17
+  source:
+    repository: codex-imagegen
+    artifact: exec-39ee24ed-85de-4819-9462-fd0f0af4d871.png
+    original_sha256: 013ec381421b11ad2389e5784586f7105700377c582cb737e2044fdfec281ea9
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-needle-spire-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-needle-spire-v1.png
+  name: 가는 석영 종유 기둥
+  width: 341
+  height: 512
+  sha256: ef13db616fd7aad9bc877491c7affca7d39bbf10e2c43796ba222ba3a2ab5e11
+  source:
+    repository: codex-imagegen
+    artifact: exec-03d0fd6e-62f2-4a44-b7a2-0e4092eb71b2.png
+    original_sha256: b0947bc8b9eeca4431cd533e23769f22af515992a4eb72d1409f5b65fa191ae0
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-short-spire-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-short-spire-v1.png
+  name: 낮은 석영 종유 기둥
+  width: 486
+  height: 512
+  sha256: e1e456d3ac6a13673fbf768c9ee4015219fb5d4c237051e78b6310f32cda4969
+  source:
+    repository: codex-imagegen
+    artifact: exec-53c99b0b-c999-4a12-ba72-4d6d950d8c85.png
+    original_sha256: 6216ba1c5ac6c8f0d3661d465e76bc0650d66d317e8be74a7173b223caff22c8
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-floor-patch-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-floor-patch-v1.png
+  name: 평탄 석영 바닥 조각
+  width: 512
+  height: 341
+  sha256: 7ee6508eecea4d679ab73497dce85aef5d5c6c8368c2c72e821eaad9d768046d
+  source:
+    repository: codex-imagegen
+    artifact: exec-b8e4aa63-cf31-4014-9e4d-484d4ee97273.png
+    original_sha256: 866372e024f6e8cbe080360712acb1486583d9278669e705af081f82a3fd805d
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-floor-ribbon-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-floor-ribbon-v1.png
+  name: 평탄 석영맥 띠
+  width: 512
+  height: 341
+  sha256: c088f090c95433aa161c6197004557437829b120d7a7e49bfa1a83bfc28a2355
+  source:
+    repository: codex-imagegen
+    artifact: exec-61780a6a-361c-4a41-b410-d9c1c7d03cf1.png
+    original_sha256: 4d5039fa8149ba4952a89fb21382d9e4ee96e954cc3ed4e30487c22dd80773b8
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-floor-mosaic-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-floor-mosaic-v1.png
+  name: 평탄 석영 판석 무리
+  width: 512
+  height: 341
+  sha256: b31be8c853ed4faf7a3276e87decef0262fa5682f29a2ed501c6d471ca5016a6
+  source:
+    repository: codex-imagegen
+    artifact: exec-266497f6-faa7-4527-a308-6616f34f5c23.png
+    original_sha256: 95f6dfbe8cd29de19e6943974b3d1cd81f5dcb19bd5c68272e804aec9ed50b72
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-rounded-rock-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-rounded-rock-v1.png
+  name: 둥근 석영맥 바위
+  width: 512
+  height: 341
+  sha256: 5ca7ccdf43d14c84c3b8010e3d42467e96d4a165c62a112d59806def98258c88
+  source:
+    repository: codex-imagegen
+    artifact: exec-cb5db059-ab75-48e6-829c-d54541d1a473.png
+    original_sha256: 91a1d2f34028c61111f6bbe670849fd5b34f207aad7412d5c89bc6d9e3b1d61e
+    processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-angular-rock-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-angular-rock-v1.png
+  name: 각진 석영맥 바위
+  width: 512
+  height: 427
+  sha256: 11f96621e265a06890aded538fb0523b8ca1623366e5d7904a5270886622b403
+  source:
+    repository: codex-imagegen
+    artifact: exec-78a0a2c8-2330-4dbf-83e0-0f27a13283aa.png
+    original_sha256: 05866937a95ad343a204551eb9ed4fa0687de42d1e0a3f1de4ee2a3a8085c531
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
