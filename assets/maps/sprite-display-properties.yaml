@@ -1467,7 +1467,7 @@ data:
     groundFootprintColumns: 3
     groundFootprintRows: 3
     displayHeight: 148
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1
   brine-bank-saltbush-v1:
@@ -2109,7 +2109,7 @@ data:
     groundFootprintColumns: 3
     groundFootprintRows: 3
     displayHeight: 200
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
@@ -2119,7 +2119,7 @@ data:
     groundFootprintColumns: 3
     groundFootprintRows: 3
     displayHeight: 160
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
@@ -2169,7 +2169,7 @@ data:
     groundFootprintColumns: 6
     groundFootprintRows: 3
     displayHeight: 400
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
@@ -2189,7 +2189,7 @@ data:
     groundFootprintColumns: 3
     groundFootprintRows: 3
     displayHeight: 230
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
@@ -2199,16 +2199,6 @@ data:
     groundFootprintColumns: 6
     groundFootprintRows: 3
     displayHeight: 300
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-flat-quartz-slab-v1:
-    anchorX: 0
-    anchorY: 0
-    groundFootprintColumns: 3
-    groundFootprintRows: 3
-    displayHeight: 160
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
@@ -2249,3 +2239,37 @@ data:
     shadowScaleY: 1
     shadowOffsetColumn: -0.3
     shadowOffsetRow: -0.3
+  crystal-cut-tall-quartz-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 180
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+  crystal-cut-tall-quartz-variant-v1:
+    anchorX: 0.0
+    anchorY: -0.38
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 180
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+  crystal-cut-twin-tall-quartz-2x1-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 180
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
