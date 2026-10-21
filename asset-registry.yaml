@@ -587,7 +587,7 @@ assets:
 - managementId: config.field-tiles.broken-quarry
   version: shared-material-codes-v2-quarry-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-clear-sign-v1
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: 429d90d2d6917101ff9a54f45288518820362aed01e7c38b95b1f546920927b0
+  sha256: 64fa68f75b4151f71bd09ce74282da82a113ce0bc3a7b1b8e7f445051188f910
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
@@ -595,7 +595,7 @@ assets:
 - managementId: config.field-tiles.cinder-path
   version: cinder-remodel-v1-basalt-ground-v1-ridge-remodel-v1
   path: assets/maps/field_tiles/cinder-path.yaml
-  sha256: 4a5ef202dfaf091a9268cedd44444c4be863d855646fd1fd2825f8ac89e306ba
+  sha256: ba839218426473f0e510e579c053cb39046d62500a840932cc8bc1196070c484
   source:
     repository: slime-backend
     path: config/field_tiles/cinder-path.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: a5a0f842a46dae4af877a0cbef386df3d6ba417b9e20e29b3eb1cfeaafeaff8c
+  sha256: 3826ac7e70e872d10e13b117114daf73104e8cef20cbec876cae73afee1f567a
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7729,7 +7729,7 @@ assets:
     note: 채석장 수직 벽면용 석회암 재질. 생성 원본을 128×128로 정규화.
 - managementId: image.scenery.quarry-large-escarpment-v1
   version: v1
-  path: assets/billboards/quarry-large-escarpment-v1.png
+  path: assets/retired/billboards/quarry-large-escarpment-v1.png
   name: 대형 비대칭 절개 암반
   width: 512
   height: 256
@@ -7739,9 +7739,12 @@ assets:
     artifact: exec-d426f0ea-79e0-4084-931c-33aa4df55644.png
     original_sha256: eb8f57cb68d78c1764172bc9f32a34ca0a7855f35db69db098eb5e3b917d5183
     processing: 사용자 등록 요청. 비율 유지 해상도 정규화; 식생 128px 투명 캔버스. 외곽 후광 잔여물 존재; 원본 별도 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/quarry-large-escarpment-v1.png
 - managementId: image.scenery.quarry-low-rock-ledge-v1
   version: v1
-  path: assets/billboards/quarry-low-rock-ledge-v1.png
+  path: assets/retired/billboards/quarry-low-rock-ledge-v1.png
   name: 낮고 긴 절개 암반
   width: 512
   height: 256
@@ -7751,6 +7754,9 @@ assets:
     artifact: exec-c145f6bc-e0e6-42e4-b295-9103379f7268.png
     original_sha256: 720a17d961887a0b87c61d8c321ba574ceec55062ca0dc64a0842832ae28295d
     processing: 사용자 등록 요청. 비율 유지 해상도 정규화; 식생 128px 투명 캔버스. 외곽 후광 잔여물 존재; 원본 별도 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/quarry-low-rock-ledge-v1.png
 - managementId: image.scenery.quarry-asymmetric-rockfall-v1
   version: v1
   path: assets/billboards/quarry-asymmetric-rockfall-v1.png
@@ -7765,7 +7771,7 @@ assets:
     processing: 사용자 등록 요청. 비율 유지 해상도 정규화; 식생 128px 투명 캔버스. 외곽 후광 잔여물 존재; 원본 별도 보존.
 - managementId: image.scenery.cinder-basalt-ridge-large-v1
   version: v1
-  path: assets/billboards/cinder-basalt-ridge-large-v1.png
+  path: assets/retired/billboards/cinder-basalt-ridge-large-v1.png
   name: 대형 식은 현무암 능선
   width: 512
   height: 256
@@ -7775,6 +7781,9 @@ assets:
     artifact: exec-466a41e1-4b34-481b-bd0f-62ed2a5fce36.png
     original_sha256: 62c5748bc78e589871b378f82623a893815d4a5c9fe418e094d303eacbb7fc74
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/cinder-basalt-ridge-large-v1.png
 - managementId: image.tile.cinder-basalt-wall-v1
   version: v1
   path: assets/tiles/terrain/blocked/cinder-basalt-wall-v1.png

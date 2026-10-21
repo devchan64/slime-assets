@@ -2163,42 +2163,12 @@ data:
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
-  quarry-large-escarpment-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 6
-    groundFootprintRows: 3
-    displayHeight: 400
-    billboardBlocksMovement: true
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  quarry-low-rock-ledge-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 4
-    groundFootprintRows: 2
-    displayHeight: 200
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
   quarry-asymmetric-rockfall-v1:
     anchorX: 0.0
     anchorY: 0.0
     groundFootprintColumns: 3
     groundFootprintRows: 3
     displayHeight: 230
-    billboardBlocksMovement: true
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  cinder-basalt-ridge-large-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 6
-    groundFootprintRows: 3
-    displayHeight: 300
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
@@ -2241,7 +2211,7 @@ data:
     shadowOffsetRow: -0.3
   crystal-cut-tall-quartz-v1:
     anchorX: 0.0
-    anchorY: 0.0
+    anchorY: -0.39
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 180
@@ -2249,6 +2219,8 @@ data:
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
   crystal-cut-tall-quartz-variant-v1:
     anchorX: 0.0
     anchorY: -0.38
@@ -2259,8 +2231,8 @@ data:
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
-    shadowOffsetColumn: -0.5
-    shadowOffsetRow: -0.5
+    shadowOffsetColumn: -0.6
+    shadowOffsetRow: -0.6
   crystal-cut-twin-tall-quartz-2x1-v1:
     anchorX: 0.0
     anchorY: 0.0
