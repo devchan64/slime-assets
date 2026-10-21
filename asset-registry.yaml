@@ -587,7 +587,7 @@ assets:
 - managementId: config.field-tiles.broken-quarry
   version: shared-material-codes-v2-quarry-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-clear-sign-v1
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: c36b957e3362f51d93c2a8081e1a666b7696723220189cd393e1f5539071560f
+  sha256: b6886f06d50a30a33d061fc4f82c65767d0b47ffe7662ca8ff2191564fa825fb
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
@@ -1147,7 +1147,7 @@ assets:
 - managementId: config.terrain.maps.broken-quarry
   version: field-detail-v2-quarry-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3
   path: assets/maps/terrain/maps/broken-quarry.yaml
-  sha256: 044d6d31bb123a3d57c64167505cee8fd584194f698b0f68794270e72a430dd9
+  sha256: 6470609db1fbc302b1ee9eba615483b49cd9cb5f699cfa1ac7f5527fe0bfdb4e
   source:
     repository: slime-backend
     path: config/terrain/maps/broken-quarry.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: b6f1b21dac69a549d54d6e535eaccbb35bd1ed7f10e638481bedb0d9382bceec
+  sha256: 04505588538cc8885bb48701d029f18cf95f810d0377cd867290a7e30263ae57
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7340,8 +7340,7 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-e5c6e181-dcdc-4536-9ae0-44da7bebd9b9.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
-      구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
 - managementId: image.scenery.bridge-stone-components-v1
   version: v1
   path: assets/buildings/bridge-stone-components-v1.png
@@ -7352,8 +7351,7 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-d59c0191-16d5-4afb-a4b8-786f6941fe17.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
-      구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
 - managementId: image.scenery.bridge-connection-details-v1
   version: v1
   path: assets/buildings/bridge-connection-details-v1.png
@@ -7364,8 +7362,7 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-baa58574-5e9e-43f0-ad8c-e62bf2328bd2.png
-    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소
-      분리
+    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
 - managementId: image.scenery.bridge-timber-components-v2
   version: v2
   path: assets/buildings/bridge-timber-components-v2.png
@@ -7663,7 +7660,6 @@ assets:
     repository: slime-workflow
     path: .tmp/boar-decals-20261021/boar-hoof-pair-v1.png
     operation: 내장 imagegen 생성, 투명 원본 채택
-
 - managementId: image.decal.boar-hoof-trail-v1
   version: v1
   path: assets/tiles/decals/boar-hoof-trail-v1.png
@@ -7675,7 +7671,6 @@ assets:
     repository: slime-workflow
     path: .tmp/boar-decals-20261021/boar-hoof-trail-v1.png
     operation: 내장 imagegen 생성, 투명 원본 채택
-
 - managementId: image.decal.boar-hoof-worn-v1
   version: v1
   path: assets/tiles/decals/boar-hoof-worn-v1.png
@@ -7687,7 +7682,6 @@ assets:
     repository: slime-workflow
     path: .tmp/boar-decals-20261021/boar-hoof-worn-v1.png
     operation: 내장 imagegen 생성, 투명 원본 채택
-
 - managementId: catalog.ground-decals
   version: v1
   path: assets/tiles/decals/catalog.yaml
@@ -7695,3 +7689,118 @@ assets:
   source:
     repository: slime-workflow
     operation: 멧돼지 발자국 데칼 3종 사용 기준 등록
+- managementId: image.scenery.quarry-wooden-derrick-v1
+  version: v1
+  path: assets/billboards/quarry-wooden-derrick-v1.png
+  name: 목재 인양틀·도르래
+  width: 512
+  height: 468
+  sha256: 0bb0f4cd2cda3e69ece5e39912f9e93eaf4086676a5e687df6a8c6787c12ad1a
+  source:
+    repository: codex-imagegen
+    artifact: exec-b460a91c-56da-4d2b-aa45-a3a18b7f45c5.png
+    processing: 이미지젠 원본 보존, 비율 유지 512px 이내 해상도 정규화. 사용자 등록 요청; 석재·도구 외곽 저알파 잔여물 포함.
+- managementId: image.scenery.quarry-stone-bearers-v1
+  version: v1
+  path: assets/billboards/quarry-stone-bearers-v1.png
+  name: 받침 위 반가공 석재
+  width: 512
+  height: 341
+  sha256: 3c3fd22c71376054e8d36b5b1ded3158cd1515617b367b590caabbafdd47614e
+  source:
+    repository: codex-imagegen
+    artifact: exec-b8365c8e-e605-4905-8ec1-5539e2ebc24b.png
+    processing: 이미지젠 원본 보존, 비율 유지 512px 이내 해상도 정규화. 사용자 등록 요청; 석재·도구 외곽 저알파 잔여물 포함.
+- managementId: image.scenery.quarry-splitting-tools-v1
+  version: v1
+  path: assets/billboards/quarry-splitting-tools-v1.png
+  name: 망치·끌·쐐기 묶음
+  width: 512
+  height: 341
+  sha256: c15d4923a7734a24fd19df06e5419040fc6f0fb2a97cc6fa3b09dec197627f03
+  source:
+    repository: codex-imagegen
+    artifact: exec-afa02961-d9bb-473b-8201-ee56ca469a84.png
+    processing: 이미지젠 원본 보존, 비율 유지 512px 이내 해상도 정규화. 사용자 등록 요청; 석재·도구 외곽 저알파 잔여물 포함.
+- managementId: image.scenery.quarry-cut-rock-face-v1
+  version: v1
+  path: assets/billboards/quarry-cut-rock-face-v1.png
+  name: 수직 절개 암반
+  width: 512
+  height: 341
+  sha256: 8e388a946b5424c9dd76035f27a41480258a3fc4f7fd770d52143287160e855c
+  source:
+    repository: codex-imagegen
+    artifact: exec-e77454bd-e6db-4dfe-bc4d-b50f76e9d117.png
+    original_sha256: fccd60936e8b4115a06312d386b38240e6c7d3ddcae1d6936f029ca061bae8ea
+    processing: 사용자 등록 요청. 비율 유지 해상도 정규화; 식생 128px 투명 캔버스. 외곽 후광 잔여물 존재; 원본 별도 보존.
+- managementId: image.scenery.quarry-fallen-limestone-v1
+  version: v1
+  path: assets/billboards/quarry-fallen-limestone-v1.png
+  name: 붕락 석회암
+  width: 512
+  height: 341
+  sha256: ede50b5630c35e47109731d1f84bf734a4568e37e2a5f36596cba2a7a22031cd
+  source:
+    repository: codex-imagegen
+    artifact: exec-e2fbe576-55d7-4663-898c-827e5577f0c0.png
+    original_sha256: 1c5b28bba7534d8c32555c4807868e155e422a682944fec5a4a0380eba849e96
+    processing: 사용자 등록 요청. 비율 유지 해상도 정규화; 식생 128px 투명 캔버스. 외곽 후광 잔여물 존재; 원본 별도 보존.
+- managementId: image.scenery.quarry-crevice-plants-v1
+  version: v1
+  path: assets/billboards/quarry-crevice-plants-v1.png
+  name: 바위틈 마른 풀·백리향
+  width: 128
+  height: 128
+  sha256: 2ae65bdcc6c5a1689a6a0989589125ce69bd9c4d3df9b212f9b6f4a68cecf49f
+  source:
+    repository: codex-imagegen
+    artifact: exec-99fc0979-22e4-4791-a30f-58fec31a6057.png
+    original_sha256: 38e399562efe8da9777d8cca9722dc0a14ad302d00842979c3392c09cde8ca6c
+    processing: 사용자 등록 요청. 비율 유지 해상도 정규화; 식생 128px 투명 캔버스. 외곽 후광 잔여물 존재; 원본 별도 보존.
+- managementId: image.tile.quarry-limestone-wall-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/quarry-limestone-wall-v1.png
+  sha256: e944ab0eefc3a6f43cb63ecc5133e965b326313bc6f146b3cc891c389ed7d4eb
+  width: 128
+  height: 128
+  source:
+    type: imagegen
+    generation_id: exec-e6b2cc49-ae3b-454c-93dc-06aec931f99e
+    note: 채석장 수직 벽면용 석회암 재질. 생성 원본을 128×128로 정규화.
+- managementId: image.scenery.quarry-large-escarpment-v1
+  version: v1
+  path: assets/billboards/quarry-large-escarpment-v1.png
+  name: 대형 비대칭 절개 암반
+  width: 512
+  height: 256
+  sha256: 9f1f6af9ff122c4554cfe89d37ff0424a616d300382b6883a25b055d352f7b04
+  source:
+    repository: codex-imagegen
+    artifact: exec-d426f0ea-79e0-4084-931c-33aa4df55644.png
+    original_sha256: eb8f57cb68d78c1764172bc9f32a34ca0a7855f35db69db098eb5e3b917d5183
+    processing: 사용자 등록 요청. 비율 유지 해상도 정규화; 식생 128px 투명 캔버스. 외곽 후광 잔여물 존재; 원본 별도 보존.
+- managementId: image.scenery.quarry-low-rock-ledge-v1
+  version: v1
+  path: assets/billboards/quarry-low-rock-ledge-v1.png
+  name: 낮고 긴 절개 암반
+  width: 512
+  height: 256
+  sha256: a6af2a8e04ca5b3b2508bdc3580193d2ebf943aca7519189d395fd7be8c5d3ac
+  source:
+    repository: codex-imagegen
+    artifact: exec-c145f6bc-e0e6-42e4-b295-9103379f7268.png
+    original_sha256: 720a17d961887a0b87c61d8c321ba574ceec55062ca0dc64a0842832ae28295d
+    processing: 사용자 등록 요청. 비율 유지 해상도 정규화; 식생 128px 투명 캔버스. 외곽 후광 잔여물 존재; 원본 별도 보존.
+- managementId: image.scenery.quarry-asymmetric-rockfall-v1
+  version: v1
+  path: assets/billboards/quarry-asymmetric-rockfall-v1.png
+  name: 비대칭 석회암 붕락군
+  width: 512
+  height: 341
+  sha256: 3acd011bd5bfe78b57ebfd2fde42cad9af1f039906481aaf454c484180a7490c
+  source:
+    repository: codex-imagegen
+    artifact: exec-9f64dbe8-622c-4bb0-a712-cbbc9a46c09a.png
+    original_sha256: 10de9a7f5a27e2c2d2aa21da2a8fe7ceb0581e7a091a765d9db84996bb7937f2
+    processing: 사용자 등록 요청. 비율 유지 해상도 정규화; 식생 128px 투명 캔버스. 외곽 후광 잔여물 존재; 원본 별도 보존.
