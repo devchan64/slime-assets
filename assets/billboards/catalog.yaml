@@ -2360,7 +2360,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/clover-bank.yaml
-    texture_key_occurrences: 18
+    texture_key_occurrences: 15
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 12
   source_file:
@@ -2418,7 +2418,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/clover-bank.yaml
-    texture_key_occurrences: 5
+    texture_key_occurrences: 25
   source_file:
     path: assets/billboards/clover-variant-1-v1.png
     width: 128
@@ -2472,7 +2472,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/clover-bank.yaml
-    texture_key_occurrences: 5
+    texture_key_occurrences: 30
   source_file:
     path: assets/billboards/clover-variant-2-v1.png
     width: 128
@@ -2526,7 +2526,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/clover-bank.yaml
-    texture_key_occurrences: 5
+    texture_key_occurrences: 28
   source_file:
     path: assets/billboards/clover-variant-3-v1.png
     width: 128
@@ -5611,6 +5611,8 @@ billboards:
     texture_key_occurrences: 5
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 18
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -6824,6 +6826,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 13
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 1
   source_file:
@@ -6877,7 +6881,7 @@ billboards:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 23
   - path: assets/maps/field_tiles/clover-bank.yaml
-    texture_key_occurrences: 26
+    texture_key_occurrences: 29
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 32
   source_file:
@@ -7087,6 +7091,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/grainstead.yaml
     texture_key_occurrences: 17
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/town-grainstead-hazel-leaf-shrub-v1.png
     width: 128
@@ -8091,6 +8097,8 @@ billboards:
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 8
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/town-low-fence-v1.png
     width: 128
@@ -10244,7 +10252,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/clover-bank.yaml
-    texture_key_occurrences: 20
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/wildflower-clump-v1.png
     width: 128
@@ -10348,6 +10356,8 @@ billboards:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 10
   - path: assets/maps/field_tiles/boar-ridge.yaml
+    texture_key_occurrences: 4
+  - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 25
@@ -11354,10 +11364,10 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: center
     source: assets/maps/sprite-display-properties.yaml#data.clover-bank-rabbit-burrow-v1
     anchorX: -0.0125
-    anchorY: 0.0
+    anchorY: 0.5
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 180
