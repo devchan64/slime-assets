@@ -13311,7 +13311,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 5
+    texture_key_occurrences: 8
   modeling:
     purpose: 높은 석영 기둥 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13366,7 +13366,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 8
+    texture_key_occurrences: 11
   modeling:
     purpose: 높은 석영 기둥 변형 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13419,7 +13419,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-twin-tall-quartz-2x1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 4
   modeling:
     purpose: 높은 석영 쌍 열방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13472,7 +13474,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-medium-quartz-2x1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
   modeling:
     purpose: 중간 높이 석영 쌍 열방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13525,7 +13529,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-medium-quartz-1x2-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
   modeling:
     purpose: 중간 높이 석영 쌍 행방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13578,7 +13584,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-twin-tall-quartz-1x2-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 4
   modeling:
     purpose: 높은 석영 쌍 행방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13658,24 +13666,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-1-v1.png
-    width: 512
-    height: 512
-    sha256: 188d4ad054a060cdc6ba345f60f9d0dff0aa4a73b114a544bf653e020b1b8d2c
+    width: 256
+    height: 256
+    sha256: ee3fddf7dedebe85206cea30614df1e2f21c015300e18182b5348067eab0d939
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-1-v1
     anchorX: 0.0
-    anchorY: 0.0
+    anchorY: 0.28
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 120
+    displayHeight: 250
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 60.0
+    shadowScaleX: 1.4
+    shadowScaleY: 1.5
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 125.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -13711,24 +13721,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-2-v1.png
-    width: 512
-    height: 512
-    sha256: cb786b3bb1a3b0d3f14eef40ca02038d1e7927fd63e41a55070afe3a43c34af4
+    width: 384
+    height: 384
+    sha256: e149ea75e8486b81bea436417f2dee0d1b96fdcf3033e5f5661e5a9c9cc41250
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-2-v1
     anchorX: 0.0
-    anchorY: 0.0
+    anchorY: 0.3
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 160
+    displayHeight: 300
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 80.0
+    shadowScaleX: 1.7
+    shadowScaleY: 1.7
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -13764,24 +13776,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-3-v1.png
-    width: 512
-    height: 512
-    sha256: 0540ac5f72206dbe30ab69dccf7b968a2e20c90a6a02a68abd8d3d10f1d13eea
+    width: 384
+    height: 384
+    sha256: 46a70c457b1b075fa3cf0c844d3ad3adc083f9672e7315ec55d01a6f29bc4cba
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
+    vertical_classification: bottom
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-veined-boulder-3-v1
-    anchorX: 0.0
-    anchorY: 0.0
+    anchorX: -0.12
+    anchorY: 0.71
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 120
+    displayHeight: 300
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 60.0
+    shadowScaleX: 1.8
+    shadowScaleY: 1.8
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능

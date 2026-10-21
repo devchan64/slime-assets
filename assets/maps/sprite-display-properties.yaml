@@ -2264,7 +2264,7 @@ data:
     shadowOffsetRow: -0.85
   crystal-cut-tall-quartz-v1:
     anchorX: 0.0
-    anchorY: -0.39
+    anchorY: -0.52
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 180
@@ -2272,8 +2272,8 @@ data:
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
-    shadowOffsetColumn: -0.5
-    shadowOffsetRow: -0.5
+    shadowOffsetColumn: -0.75
+    shadowOffsetRow: -0.75
   crystal-cut-tall-quartz-variant-v1:
     anchorX: 0.0
     anchorY: -0.38
@@ -2336,34 +2336,40 @@ data:
     shadowOffsetRow: -0.5
   crystal-cut-veined-boulder-1-v1:
     anchorX: 0.0
-    anchorY: 0.0
+    anchorY: 0.28
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 120
+    displayHeight: 250
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.4
+    shadowScaleY: 1.5
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
   crystal-cut-veined-boulder-2-v1:
     anchorX: 0.0
-    anchorY: 0.0
+    anchorY: 0.3
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 160
+    displayHeight: 300
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.7
+    shadowScaleY: 1.7
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
   crystal-cut-veined-boulder-3-v1:
-    anchorX: 0.0
-    anchorY: 0.0
+    anchorX: -0.12
+    anchorY: 0.71
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 120
+    displayHeight: 300
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.8
+    shadowScaleY: 1.8
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
   crystal-cut-veined-boulder-4-v1:
     anchorX: 0.0
     anchorY: 0.0
