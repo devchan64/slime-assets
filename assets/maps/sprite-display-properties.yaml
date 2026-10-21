@@ -1651,34 +1651,6 @@ data:
     billboardAnchorMode: tile-intersection
     shadowScaleY: 1.8
     shadowScaleX: 1.65
-  crystal-cut-quartz-outcrop-v1:
-    anchorX: -0.051
-    anchorY: 0.6
-    groundFootprintColumns: 3
-    groundFootprintRows: 3
-    displayHeight: 320
-    billboardBlocksMovement: true
-    billboardAnchorMode: tile-intersection
-    shadowScaleY: 2.25
-    shadowScaleX: 2.45
-  crystal-cut-quartz-shelf-v1:
-    anchorX: -0.045
-    anchorY: 0.4899
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 230
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-  crystal-cut-quartz-rubble-v1:
-    anchorX: 0.02
-    anchorY: 0.37
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 125
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
   dawn-overlook-split-granite-v1:
     anchorX: 0.0371
     anchorY: 0.3542
@@ -2231,117 +2203,41 @@ data:
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
-  crystal-cut-low-quartz-vein-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 4
-    groundFootprintRows: 2
-    displayHeight: 160
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-fissured-boulder-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 160
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-quartz-fragments-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 70
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-curved-quartz-vein-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 4
-    groundFootprintRows: 2
-    displayHeight: 180
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-veined-rock-face-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 220
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
   crystal-cut-flat-quartz-slab-v1:
+    anchorX: 0
+    anchorY: 0
+    groundFootprintColumns: 3
+    groundFootprintRows: 3
+    displayHeight: 160
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+  crystal-cut-compact-veined-stone-v1:
     anchorX: 0.0
     anchorY: 0.0
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 90
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-straight-quartz-segment-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 3
-    groundFootprintRows: 2
-    displayHeight: 120
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-quartz-single-spire-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 150
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-quartz-paired-spires-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 150
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-quartz-needle-spire-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 165
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-quartz-short-spire-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
     displayHeight: 100
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-quartz-floor-patch-v1:
+    shadowScaleX: 1.65
+    shadowScaleY: 3.0
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+  crystal-cut-compact-dark-stone-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 100
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1.2
+    shadowScaleY: 2.1
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+  crystal-cut-compact-veined-chips-v1:
     anchorX: 0.0
     anchorY: 0.0
     groundFootprintColumns: 1
@@ -2351,43 +2247,5 @@ data:
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1
     shadowScaleY: 1
-  crystal-cut-quartz-floor-ribbon-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 2
-    groundFootprintRows: 1
-    displayHeight: 65
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-quartz-floor-mosaic-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 60
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-quartz-rounded-rock-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 110
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-  crystal-cut-quartz-angular-rock-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 120
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowOffsetColumn: -0.3
+    shadowOffsetRow: -0.3
