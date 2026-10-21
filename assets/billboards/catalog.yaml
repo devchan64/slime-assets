@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 229
+  image_count: 230
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-20'
@@ -1381,6 +1381,15 @@ families:
     - 외곽 후광 잔여물 포함
     uses:
     - 폐채석장 절개면·붕락 사면·틈새 식생 보강
+  cinder-basalt-ridge-large-v1:
+    category: rock
+    review_category: vegetation
+    name: 대형 식은 현무암 능선
+    features:
+    - 대형 식은 현무암 능선
+    - 짙은 회색 비대칭 암반·좁은 접지
+    uses:
+    - '식은 잿길: 밝은 재 운반로 양옆의 어두운 암반 경계. 뜨거운 화산 표현 없이 사용'
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -2868,7 +2877,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 15
+    texture_key_occurrences: 6
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 21
   source_file:
@@ -10653,7 +10662,7 @@ billboards:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 33
   - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 10
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/ash-edge-charred-regrowth-v1.png
     width: 128
@@ -13319,6 +13328,58 @@ billboards:
     outdoorDisplayHeight: 115.0
     size_variant: 기본 변형
     occupied_tile_count: 9
+    movement: 통행 가능
+- texture_key: cinder-basalt-ridge-large-v1
+  family: cinder-basalt-ridge-large-v1
+  asset_ref:
+    management_id: image.scenery.cinder-basalt-ridge-large-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/cinder-basalt-ridge-large-v1.png
+    width: 512
+    height: 256
+    sha256: 705be6a26c8d196aede2dcd99f2e8e15139f1a908c9149bd25c35dd16de37b29
+  modeling:
+    purpose: 대형 식은 현무암 능선 · 암석·지질 지표
+    recommended_uses:
+    - '식은 잿길: 밝은 재 운반로 양옆의 어두운 암반 경계. 뜨거운 화산 표현 없이 사용'
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.cinder-basalt-ridge-large-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 6
+    groundFootprintRows: 3
+    displayHeight: 300
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    outdoorDisplayHeight: 150.0
+    size_variant: 기본 변형
+    occupied_tile_count: 18
     movement: 통행 가능
 modeling_contract:
   purpose: 맵 제작용 에셋 선택·크기·접지·통행 참고 자료
