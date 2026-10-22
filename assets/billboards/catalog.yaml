@@ -14715,7 +14715,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-compact-veined-stone-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
   modeling:
     purpose: 정사각 석영맥 바위 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -14774,7 +14776,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-compact-dark-stone-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
   modeling:
     purpose: 정사각 회색 낙석 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -14835,7 +14839,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 10
   modeling:
     purpose: 작은 석영맥 파편 쌍 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -14894,9 +14898,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-tall-quartz-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+  map_references: []
   modeling:
     purpose: 높은 석영 기둥 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -14958,7 +14960,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 3
   modeling:
     purpose: 높은 석영 기둥 변형 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15018,7 +15020,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-twin-tall-quartz-2x1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
   modeling:
     purpose: 높은 석영 쌍 열방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15078,7 +15082,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-medium-quartz-2x1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
   modeling:
     purpose: 중간 높이 석영 쌍 열방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15140,7 +15146,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
   modeling:
     purpose: 중간 높이 석영 쌍 행방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15202,7 +15208,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 5
   modeling:
     purpose: 높은 석영 쌍 행방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15264,7 +15270,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
   modeling:
     purpose: 석영맥 암석 1 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15326,7 +15332,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 3
   modeling:
     purpose: 석영맥 암석 2 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15388,7 +15394,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 3
   modeling:
     purpose: 석영맥 암석 3 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15450,7 +15456,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 2
   modeling:
     purpose: 석영맥 암석 4 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15512,7 +15518,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 3
   modeling:
     purpose: 반대 방향 석영맥 암석 1 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -15574,7 +15580,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
   modeling:
     purpose: 반대 방향 석영맥 암석 2 · 독립 낙석과 석영맥 강조
     recommended_uses:

@@ -3,36 +3,36 @@ data:
   rows:
   - JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
   - JJJJJJJJJJJJJJJJJKHKJJJJJJJJJJJJ
-  - JJJJJJJJJJJJJJJJKHHHKJJJJJJJJJJJ
-  - JJJJJJJJJJJJJJJJHHHKKKJJJJJJJJJJ
-  - JJJJJJJJJJJJJJJKHHHKKKJJJJJJJJJJ
-  - JJJJJKKKKKKJJJKHHHKKKKJJJJJJJJJJ
-  - JJJJJKKKKKKKKKKHHHKKKJJJJJJJJJJJ
-  - JJJJJKKKKKKKKKHHHKKKKJJJJJJJJJJJ
-  - JJJJJKKKKKKKKKKHHKKKKJJJJJJJJJJJ
-  - JJJJJJJJJHHKKKKHHHKKKKJJJJJJJJJJ
-  - JJJJJJJJJHHKKKKKHHKKKKKJJJJJJJJJ
-  - JJJJJJJJJHHJJJJKHHHKKKKJJJJJJJJJ
-  - JJJJJJJJJHHJJJJKHHHKKKKKJJJJJJJJ
-  - JJJJJJJJJHHJJJJKHHKKKHKKKKKJJJJJ
-  - JJJJJJJJJHHJJJJKHHHHHHHHHKKKKKKK
-  - JJJJJJJJJHHJJJKHHHHHHHHHHHHHHHHH
-  - JJJJJJJJJHHJJKKHHHHHKKKHHHHHHHHH
-  - JJJJJJJJJHHJJKHHHKKKKKKKKKHHHHHH
-  - JJJJJJJJJHHKKKHHHKJJJKKKKKJJKKKK
-  - JJJJJJJJKHHKKHHHKJJJJKKKKKJJJJJJ
-  - JJJJJJJJKHHKKHHHJJJJJJKKKJJJJJJJ
-  - JJJJJJJJKKKKHHHKJJJJJJJJJJJJJJJJ
+  - JJJJJJJJJKKKJJJJKHHHKJJJJJJJJJJJ
+  - JJJJJJJJJJKKKJJJHHHKKKJJJJJJJJJJ
+  - JJJJJJJJJJJKJJJKHHHKKKHHJKKKJJJJ
+  - JJJJJKKKKKKJJJKHHHKKKKHHHJKKKJJJ
+  - JJJJKKKKKKKKKKKHHHKKKJHJHJJKJJJJ
+  - HJJJJKKKKKKKKKHHHKKKKJJHHJJJJJJJ
+  - HJJJJKKKKKKKKKKHHKKKKJJHJJJJJJJJ
+  - HHHJJJJJJHHKKKKHHHKKKKJHHJKKKJJJ
+  - JJJJJJJJJHHKKKKKHHKKKKKKHJJKKKJJ
+  - JJJJJJJJJHHKKKKKHHHKKKKKHJJJKJJJ
+  - JJJJJJJJJHHKKKKKHHHKKKKKHHHHJJJJ
+  - JJJJJJJJJHHKKKKKHHKKKHKKKKKHHHHH
+  - JJJJJJJJJHHKKKKKHHHHHHHHHKKKKKKH
+  - JJJJJJJJJHHKKKKHHHHHHHHHHHHHHHHH
+  - JJJJJJJJJHHKKKKHHHHHKKKHHHHHHHHH
+  - JJJJKKKJJHHKKKHHHKKKKKKKKKHHHHHH
+  - JJJJJKKKJHHKKKHHHKJJJKKKKKJJKKKK
+  - JJJJJJKJKHHKKHHHKJJJJKKKKKJJJJJJ
+  - JJJJJJJJKHHKKHHHHHHJJJKKKJJJJJJJ
+  - JJJJJJJJKKKKHHHKHHJJJJJJJJJJJJJJ
   - JJJJJJJJJKKKHHHKKKJJJJJJJJJJJJJJ
-  - JJJJJJJJJJJJKHHKKKKKJJJJJJJJJJJJ
-  - JJJJJJJJJJJKKHHKKKKKJJJJJJJJJJJJ
-  - JJJJJJJJJJJKKHHHKKKJJJJJJJJJJJJJ
-  - JJJJJJJJJJJJKHHHKKKKJJJJJJJJJJJJ
+  - JJJJJJJJJJKKKHHKKKKKJJJJJJJJJJJJ
+  - JJJJKKKJJJJKKHHKKKKKJJKKKJJJJJJJ
+  - JJJJJKKKJJJKKHHHKKKHHHHKKKJJJJJJ
+  - JJJJJJKJJJJJKHHHKKKKJJJJKJJJJJJJ
   - JJJJJJJJJJJJKKHHKKKKKJJJJJJJJJJJ
   - JJJJJJJJJJJJKKHHHKKKKJJJJJJJJJJJ
   - JJJJJJJJJJJJJKHHHKKKKJJJJJJJJJJJ
   - JJJJJJJJJJJJJJKHHKKKJJJJJJJJJJJJ
-  - JJJJJJJJJJJJJJKHHHJJJJJJJJJJJJJJ
+  - JJJJJJJJJJJJJJKHHHHHHHJJJJJJJJJJ
   objects:
   - id: ward-tower
     kind: ward-tower
@@ -51,7 +51,7 @@ data:
     position:
       column: 5
       row: 7
-    textureKey: crystal-cut-veined-boulder-reverse-2-v1
+    textureKey: crystal-cut-veined-boulder-2-v1
     tileAnchor: center
   - id: crystal-quartz-remodel-3
     kind: decoration
@@ -63,50 +63,50 @@ data:
   - id: crystal-quartz-remodel-8
     kind: decoration
     position:
-      column: 9
-      row: 5
+      column: 6
+      row: 24
     textureKey: crystal-cut-veined-boulder-2-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-1
     kind: decoration
     position:
-      column: 12
-      row: 3
-    textureKey: crystal-cut-veined-boulder-1-v1
+      column: 27
+      row: 5
+    textureKey: crystal-cut-veined-boulder-reverse-1-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-2
     kind: decoration
     position:
-      column: 10
-      row: 3
-    textureKey: crystal-cut-veined-boulder-reverse-2-v1
+      column: 9
+      row: 2
+    textureKey: crystal-cut-veined-boulder-2-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-4
     kind: decoration
     position:
       column: 25
       row: 9
-    textureKey: crystal-cut-veined-boulder-3-v1
+    textureKey: crystal-cut-veined-boulder-reverse-3-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-7
     kind: decoration
     position:
-      column: 27
-      row: 9
+      column: 28
+      row: 10
     textureKey: crystal-cut-veined-boulder-reverse-1-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-10
     kind: decoration
     position:
-      column: 6
+      column: 5
       row: 18
-    textureKey: crystal-cut-veined-boulder-reverse-3-v1
+    textureKey: crystal-cut-veined-boulder-3-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-11
     kind: decoration
     position:
-      column: 4
-      row: 18
+      column: 3
+      row: 17
     textureKey: crystal-cut-veined-boulder-4-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-13
@@ -114,13 +114,13 @@ data:
     position:
       column: 23
       row: 24
-    textureKey: crystal-cut-veined-boulder-1-v1
+    textureKey: crystal-cut-veined-boulder-reverse-1-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-14
     kind: decoration
     position:
-      column: 21
-      row: 24
+      column: 20
+      row: 23
     textureKey: crystal-cut-veined-boulder-reverse-2-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-16
@@ -133,30 +133,30 @@ data:
   - id: crystal-quartz-reinforce-17
     kind: decoration
     position:
-      column: 7
-      row: 5
-    textureKey: crystal-cut-veined-boulder-reverse-4-v1
+      column: 5
+      row: 12
+    textureKey: crystal-cut-veined-boulder-4-v1
     tileAnchor: center
   - id: crystal-wall-quartz-2
     kind: decoration
     position:
-      column: 17
-      row: 7
+      column: 19
+      row: 5
     textureKey: crystal-cut-tall-quartz-variant-v1
     tileAnchor: center
   - id: crystal-wall-quartz-4
     kind: decoration
     position:
-      column: 12
-      row: 27
+      column: 8
+      row: 20
     textureKey: crystal-cut-tall-quartz-variant-v1
     tileAnchor: center
   - id: crystal-wall-expansion-4
     kind: decoration
     position:
-      column: 11
-      row: 7
-    textureKey: crystal-cut-medium-quartz-1x2-v1
+      column: 12
+      row: 6
+    textureKey: crystal-cut-medium-quartz-2x1-v1
     tileAnchor: center
   - id: crystal-wall-expansion-8
     kind: decoration
@@ -168,36 +168,183 @@ data:
   - id: crystal-wall-expansion-17
     kind: decoration
     position:
-      column: 24
-      row: 18
-    textureKey: crystal-cut-tall-quartz-v1
+      column: 22
+      row: 12
+    textureKey: crystal-cut-twin-tall-quartz-2x1-v1
     tileAnchor: center
   - id: crystal-remodel-wall-north-pair
     kind: decoration
     position:
-      column: 19
-      row: 7
-    textureKey: crystal-cut-medium-quartz-1x2-v1
+      column: 17
+      row: 4
+    textureKey: crystal-cut-twin-tall-quartz-1x2-v1
     tileAnchor: center
   - id: crystal-remodel-wall-south-pair
     kind: decoration
     position:
-      column: 11
-      row: 24
+      column: 10
+      row: 20
     textureKey: crystal-cut-medium-quartz-1x2-v1
     tileAnchor: center
   - id: crystal-remodel-wall-south-tip
     kind: decoration
     position:
-      column: 18
-      row: 23
-    textureKey: crystal-cut-tall-quartz-v1
+      column: 26
+      row: 14
+    textureKey: crystal-cut-twin-tall-quartz-1x2-v1
     tileAnchor: center
   - id: crystal-remodel-wall-north-tip
     kind: decoration
     position:
       column: 16
+      row: 2
+    textureKey: crystal-cut-twin-tall-quartz-1x2-v1
+    tileAnchor: center
+  - id: crystal-catalog-east-quartz
+    kind: decoration
+    position:
+      column: 24
+      row: 13
+    textureKey: crystal-cut-twin-tall-quartz-2x1-v1
+    tileAnchor: center
+  - id: crystal-catalog-west-chips
+    kind: decoration
+    position:
+      column: 3
+      row: 20
+    textureKey: crystal-cut-compact-veined-chips-v1
+    tileAnchor: center
+  - id: crystal-catalog-south-chips
+    kind: decoration
+    position:
+      column: 25
+      row: 24
+    textureKey: crystal-cut-compact-veined-chips-v1
+    tileAnchor: center
+  - id: crystal-density-west-rock
+    kind: decoration
+    position:
+      column: 3
+      row: 24
+    textureKey: crystal-cut-veined-boulder-3-v1
+    tileAnchor: center
+  - id: crystal-density-west-low
+    kind: decoration
+    position:
+      column: 6
+      row: 15
+    textureKey: crystal-cut-compact-veined-stone-v1
+    tileAnchor: center
+  - id: crystal-density-west-chip
+    kind: decoration
+    position:
+      column: 5
+      row: 23
+    textureKey: crystal-cut-compact-veined-chips-v1
+    tileAnchor: center
+  - id: crystal-density-west-end
+    kind: decoration
+    position:
+      column: 3
+      row: 13
+    textureKey: crystal-cut-compact-dark-stone-v1
+    tileAnchor: center
+  - id: crystal-density-north-low
+    kind: decoration
+    position:
+      column: 7
       row: 3
-    textureKey: crystal-cut-tall-quartz-v1
+    textureKey: crystal-cut-compact-veined-stone-v1
+    tileAnchor: center
+  - id: crystal-density-north-chip
+    kind: decoration
+    position:
+      column: 12
+      row: 4
+    textureKey: crystal-cut-compact-veined-chips-v1
+    tileAnchor: center
+  - id: crystal-density-east-rock
+    kind: decoration
+    position:
+      column: 26
+      row: 2
+    textureKey: crystal-cut-veined-boulder-reverse-4-v1
+    tileAnchor: center
+  - id: crystal-density-east-low
+    kind: decoration
+    position:
+      column: 28
+      row: 7
+    textureKey: crystal-cut-compact-veined-stone-v1
+    tileAnchor: center
+  - id: crystal-density-south-low
+    kind: decoration
+    position:
+      column: 26
+      row: 23
+    textureKey: crystal-cut-compact-dark-stone-v1
+    tileAnchor: center
+  - id: crystal-density-south-chip
+    kind: decoration
+    position:
+      column: 24
+      row: 23
+    textureKey: crystal-cut-compact-veined-chips-v1
+    tileAnchor: center
+  - id: crystal-density-quartz-west
+    kind: decoration
+    position:
+      column: 9
+      row: 20
+    textureKey: crystal-cut-twin-tall-quartz-1x2-v1
+    tileAnchor: center
+  - id: crystal-density-quartz-east
+    kind: decoration
+    position:
+      column: 27
+      row: 14
+    textureKey: crystal-cut-medium-quartz-2x1-v1
+    tileAnchor: center
+  - id: crystal-density-quartz-north
+    kind: decoration
+    position:
+      column: 17
+      row: 1
+    textureKey: crystal-cut-tall-quartz-variant-v1
+    tileAnchor: center
+  - id: crystal-density-quartz-south
+    kind: decoration
+    position:
+      column: 25
+      row: 16
+    textureKey: crystal-cut-medium-quartz-2x1-v1
+    tileAnchor: center
+  - id: crystal-story-fragments-1
+    kind: decoration
+    position:
+      column: 7
+      row: 7
+    textureKey: crystal-cut-compact-veined-chips-v1
+    tileAnchor: center
+  - id: crystal-story-fragments-2
+    kind: decoration
+    position:
+      column: 5
+      row: 16
+    textureKey: crystal-cut-compact-veined-chips-v1
+    tileAnchor: center
+  - id: crystal-story-fragments-3
+    kind: decoration
+    position:
+      column: 27
+      row: 4
+    textureKey: crystal-cut-compact-veined-chips-v1
+    tileAnchor: center
+  - id: crystal-story-fragments-4
+    kind: decoration
+    position:
+      column: 22
+      row: 24
+    textureKey: crystal-cut-compact-veined-chips-v1
     tileAnchor: center
   cliffTextureKey: cinder-basalt-wall-v1
