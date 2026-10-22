@@ -30,3 +30,9 @@ PYTHONPATH=. .venv-management/bin/python tools/review/maintenance/sync_billboard
 ```
 
 신규 등록·공용 크기 변경·맵 재배치 후 실행한다. 검증은 원본 이미지 존재·SHA-256, 중복 키·ID, 공용 속성 계약, 카탈로그 최신 여부를 검사한다. 미등록 속성은 명시적인 `설정 필요` 상태로 보존한다. 맵의 접지 충돌·이동 가능성과 최종 시각 검수는 별도로 수행한다.
+
+## 이미지 외형 설명
+
+- `modeling.visual_description`: 원본 PNG를 확인한 형태·색상·구성·화면상 방향의 개별 묘사다. 용도와 배치 권고는 기존 `purpose`, `recommended_uses`, `composition`을 함께 읽는다.
+- `modeling.visual_review`: 확인 날짜·방법·범위와 원본 SHA-256을 기록한다. `source_file.sha256`이 달라지면 재검수가 필요하다.
+- 축소 검수 시트의 외형 확인은 정밀 알파 경계·게임 접지 검증을 대신하지 않는다. 화면상 왼쪽/오른쪽은 이미지 기준이며 실제 지면 점유 축은 `placement`를 따른다.

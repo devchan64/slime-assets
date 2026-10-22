@@ -21,6 +21,9 @@ reference_contract:
   features: 계열 설명은 등록 명칭·파일 계열과 제작 결과를 기준으로 한다. 변형별 세부 외형은 원본 PNG를 확인한다.
   usage: 권장 시각 용도이며 충돌·통행·상호작용 기능을 부여하지 않는다.
   status: 참조가 없어도 폐기 상태를 뜻하지 않는다. 런타임 카탈로그 및 간접 참조는 별도 확인한다.
+  visual_description: modeling.visual_description은 등록 PNG를 직접 확인한 외형 묘사다. 화면상 방향과
+    지면 점유 축은 구분하며 실제 점유·앵커는 placement를 따른다. visual_review.source_sha256과 현재 source_file.sha256이
+    다르면 다시 검수한다.
 placement_guidance:
   tree: 유사 수종을 군락으로 묶고 통행로와 건물 입구를 비운다.
   vegetation: 바닥 재질과 주변 식생에 맞는 계열을 선택하고 빈 공간을 남긴다.
@@ -1517,6 +1520,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 붉은 사과 두 알이 마른 갈색 잎 위에 붙어 있고 왼쪽 열매가 더 크다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4408ada6cea98ec52ff48d96ac7775e02c471c69745652e7d62c25613c3e11b9
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1569,6 +1579,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 황록색 사과 세 알이 삼각형으로 모여 있으며 표면에 갈색 얼룩이 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f65d3f913d555c5c6c565876cab92002440a41132ab9552453196895ee7bb9c3
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1621,6 +1638,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 붉고 누런 큰 사과 한 알에 말린 잎과 작은 열매가 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 12d25833493bd17dd8e5ccda563fbfec6d9967a60b5eef1258a64fa72f58a7c5
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1674,6 +1698,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가는 갈색 가지가 성긴 올리브색 잎 사이로 드러나는 작은 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4055c1141424793c00c0230c427e639857d263d8a65eb198039fea53f3037ae4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1724,6 +1755,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 위로 갈라진 가지에 녹색 잎과 붉은 열매가 성기게 달린 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 87be57a99badd438e5c6500b2179c0792468fda4c62d11e955b5a75eebeb2b88
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1776,6 +1814,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮고 가로로 퍼진 황록색 잎 아래 붉은 열매가 여러 개 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 28dc32f1c9ec2387d25cf620db71260a00eeb71129a8983a3fa83c6b9b1a65ac
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1826,6 +1871,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 둥글고 빽빽한 황록색 잎 덩어리 사이에 붉은 열매가 박혀 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 963fc407edcd0802387c799de91c45a0d40644bb927b62610fb9610a93758705
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1876,6 +1928,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓은 녹색 밑잎 위로 짧은 줄기와 작은 푸른 꽃들이 올라온다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: cdd522651ff79b4f606f7bb9fac823c75a5aaf57d38f3b67ccd2e4c462f129f1
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1926,6 +1985,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 좁고 긴 잎에서 가느다란 꽃대가 높이 뻗고 보랏빛 꽃이 세로로 달린다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 83438df43a2b6cd221c4364faa5c111359a836c9b8ff42d8bf14b96fdee0830e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1976,6 +2042,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮고 넓은 잎 군집 위에 작은 푸른 꽃들이 여러 방향으로 퍼져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d0ed72ed09e5648fb5e93b4cfdf653e8486941be79bd7e0bd91c063158c10498
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2026,6 +2099,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮은 녹색 잎 위에 작은 푸른 꽃과 가는 줄기가 성기게 서 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7e57ee127945018db6a94882fec19498ecbd3b4c7201d56fe47220c15d1aebb5
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2074,6 +2154,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 휘어진 가시 가지가 낮은 아치를 이루고 어두운 녹색 잎이 드문드문 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a75f03464e2241122815f7e507af20b13dcbbd8caee07c9ab0bc75c76f53d59b
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2125,6 +2212,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈색 가시 줄기가 둥근 덩어리로 얽히고 작은 녹색 잎이 섞여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: eb70ab839761ccc7b76b902d99d279eaba8dbcc2ed182660247ae4d5613f33a1
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2174,6 +2268,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가는 가시 가지가 위로 벌어지고 잎과 붉은 열매가 성기게 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 715202f429f261ac471063e9e4968d1e9da1a967864f594a0f601dd666078bb6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2223,6 +2324,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 황록색 잎이 두 기둥과 둥근 윗부분을 덮어 가운데가 빈 아치 형태다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 59a2cfaeceff4010b5360614ea2cf8e10efd88beb8dcb1e78f09b51260d4a0a4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2276,6 +2384,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 둥근 황록색 잎이 짧은 줄기를 따라 층층이 달린 작은 포기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 8582b79f92b5fcd2e748fa72cd52560b40eb8cfcb550666cc7d42ff798530431
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2330,6 +2445,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓고 긴 잎이 바닥에 방사형으로 펼쳐지고 중앙에 갈색 이삭이 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c1ad4524cae17bd3f869e6f99080674ed1ee99d434aaecd49f855f17c17ceee7
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2380,6 +2502,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 긴 잎이 아래로 휘어지고 황금빛 이삭 여러 개가 높은 줄기 끝에 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 38a47c1502d2b8a0482d51145b73ef9e4d6e214e88ec3932a6b6887fdc5cd380
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2430,6 +2559,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓고 둥근 녹색 잎이 지면에 붙어 방사형으로 퍼진다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7bce7359211d678f0960dc12f7f0efde5208c8a5106937c1343d1a01a6691acd
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2484,6 +2620,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 둥근 잎 군집에서 크림색 구형 꽃 몇 송이가 올라온다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f1c9860a7449d98be3f4211d690cf3edb27e74cb716b5e4efef589978f9fa8e0
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2540,6 +2683,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 둥근 세잎이 빽빽한 반구형 포기를 이루며 위쪽에 흰 꽃 한 송이가 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ad9d880505792baa0830af0a5040e29a56cc2ec7634cabb26f601179d53e5097
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2594,6 +2744,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮고 가로로 긴 둥근 잎 군락에 작은 흰 꽃이 드문드문 섞여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 43a7967ef05caf40793dd1bb4bf8bb466826e3790661d343cfc004083dbc3803
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2648,6 +2805,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 두 개의 긴 꽃대 끝에 크림색 둥근 꽃이 있고 아래에 둥근 잎이 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f25b43a0548b8331768b887d1ae0f5c6d99428b1866ab4ee8b9e2797033fd38d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2698,6 +2862,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 노란 중심과 흰 꽃잎을 가진 큰 꽃 한 송이 옆에 작은 봉오리가 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a2cd11a192ce1a0dc4134d9e475f43828349f9980bdea15229f9da8bcdc4d020
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2748,6 +2919,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 높이가 다른 흰 꽃 세 송이가 녹색 줄기와 밑잎 위에 피어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 428ecb937df5a990a22ac2e39164771a25f331999ed7c4b9f9150203152fc70b
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2798,6 +2976,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 긴 줄기 끝의 흰 꽃들이 좌우로 벌어지고 밑부분에 좁은 잎이 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 261134bfbbe497f74bdb1a0589e7a7ea9be23c64cadd7adb9f6baa80ff51ae2d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2850,6 +3035,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓은 녹색 잎 위로 선명한 노란 꽃들이 서로 다른 높이로 피어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ea1c98b2b905ee9c18ed210c4148ad495831b18cff5cc8faf583aab21abb069c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2899,6 +3091,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가느다란 두 줄기 끝에 크기가 다른 흰 솜털 씨앗 머리가 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d7c184da48b1bb8a46b0a661114d68b978942b1bf9026e4a02b10ddf8841d7ab
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2949,6 +3148,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮은 둥근 녹색 포기 위로 작은 노란 꽃들이 조밀하게 피어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 58362d0b92cae8f656ac38a98a140af2afebd6ee3922ed32eddeaa237535e131
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3002,6 +3208,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 잘린 갈색 나뭇가지가 비스듬히 놓여 있고 끝부분에 밝은 녹색 잎이 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 26f31d886a1cda365584bcd039b16f12696e5b78313ca2f338d8b21cbbccf314
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3062,6 +3275,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 누런 가는 잎이 아래로 휘어지며 성긴 마른 풀 포기를 이룬다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c961ae351e096f7b85a7dc421ea199565e88f500c2ca98035709c8dd90180d29
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3116,6 +3336,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 황갈색과 녹색의 좁은 잎이 둥글게 모이고 짧은 이삭이 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: dce7d9242c4965e339849cbaf13125614b479ee29ac3e3bea0111d10481d6762
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3170,6 +3397,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 긴 황갈색 잎과 이삭이 바깥으로 휘어진 낮고 넓은 풀 포기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 2dd19fe0e4c129cd0857c5f365c368603e14a571e21faaa8d19ade7be2f984dc
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3230,6 +3464,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 마른 잎 위로 갈색 씨방이 달린 긴 줄기들이 곧게 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 9ea2735e93e7d2ee173ad528c39d481549987fe80f77477bfcd169874584a13a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3282,6 +3523,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 잎이 거의 없는 가는 갈색 가지가 갈라지고 밑에 마른 풀이 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 675ce054b3d1b9d1895b0eb7ae4bc2d159297ba176de80cb35c350f89cb48c6d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3334,6 +3582,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 누런 잎과 갈색 잔가지가 낮고 넓은 관목을 이룬다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d062ba3a517989cd820c79702dbb0ce279274a2dfd787e618bd75a5fb97d4e29
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3386,6 +3641,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 곧게 선 가는 갈색 줄기에 작은 마른 잎이 붙은 세로로 긴 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5ba6ae513f41e97ba7f3c5fb0dc3bddbddde4d9dda4544fff99134c229f68b17
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3436,6 +3698,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 붉고 누런 사과 세 알이 마른 잎과 함께 낮게 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f304433bfabf81187c1d22d47d019589d6fec88b576b6318ce32a6b86cd9f900
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3488,6 +3757,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 주황색·갈색의 말린 잎들이 낮은 원뿔 모양으로 쌓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: e43788f4fe5163c272efb49db8987afa7c96ba97b32e5fc50a70695ce8d71521
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3540,6 +3816,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 잘게 갈라진 녹색 고사리 잎들이 중심에서 활처럼 바깥으로 펼쳐진다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d7219450475760836b44b1f870f0d99cb2df43529f72f0b5d6796acc91e46608
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3594,6 +3877,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 끝이 둥글게 말린 녹색 고사리 새순들이 갈색 밑동에서 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3a3a51f767786b63fa31375453d473cc7cd4a2085a36f9b49d85dff353be63ff
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3648,6 +3938,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 황록색의 잘게 갈라진 잎들이 낮고 넓게 퍼지는 고사리 포기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 31c095f125f1e74c6137c18e42053c940863fc1a9ca64bdf85dda9240d5e83e1
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3700,6 +3997,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 긴 중앙 잎과 양옆으로 기울어진 잎이 좁고 높은 고사리 실루엣을 만든다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: af0317d06b55a2c1f3742e8b82487953b2ce4766e903e80f19d898d5bbc08908
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3752,6 +4056,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 연두색의 넓고 뾰족한 풀잎이 중심에서 바깥으로 휘어진다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1f7b8bc98930e86b1bf64cd3ce74fb61cf9f9a5b17e2c2b3d69d375592b2c448
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3805,6 +4116,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈라진 수피를 가진 갈색 통나무가 대각선으로 누워 있고 오른쪽 끝에 빈 구멍이 보인다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: e9965589e9097782fc84566ff7e6836e162fcb4d970b3ff346c96d154b108ac8
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3858,6 +4176,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작고 각진 녹색 잎이 낮게 뭉치고 가는 덩굴이 좌우로 뻗어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c521c7ae0594996cfb30b2b7b9401c71704e1e75479dd12eb15178a1e7b56178
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3910,6 +4235,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 세로로 긴 줄기를 녹색 덩굴잎이 감싸며 위쪽으로 가늘어진다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 2ee8a17a3c50f5f1d168490cafbfd995bebefeb0339efd4fb0153c74e7d53807
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3960,6 +4292,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮은 녹색 잎 덩어리에서 덩굴 줄기가 양옆으로 처져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0182d1fbafe9b21a4d028a76c642bd388595d92286eb5d7dc94947d4816660e0
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4010,6 +4349,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 비틀린 세로 줄기에 녹색·누런 잎이 성기게 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1ddb0d9045555b7da57d0faa7e115b4b960a579d1dce0c32c8fa3c91c446fb58
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4059,6 +4405,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 누런 큰 잎과 갈색 잎이 얇고 낮게 겹쳐져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: bf6b701041fabca947c856d12a96b4e9035786fd35290953dbeb78dd8be44728
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4108,6 +4461,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈색·주황색 낙엽이 중앙이 높은 둥근 더미로 쌓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: bbe3803ce0dd9d45baffc6e44c0d74aee0c72db828baf40cc18625f10fde5308
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4158,6 +4518,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 큰 주황색 잎과 말린 갈색 잎들이 가로로 흩어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 709be0fcb04674c0ea425cbe93b0081a67b5fc3f16ae546606791e635ac0dc78
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4209,6 +4576,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 속 빈 갈색 통나무 표면에 녹색 이끼와 작은 선반 모양 버섯이 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 100cbc613f84e84bd20b385a216bd8467456fb61f8464042cc6d14c7b54d4f9f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4260,6 +4634,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가늘고 긴 부러진 가지가 대각선으로 놓이고 수피 위에 녹색 이끼가 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1738132855a1b1c06708e8946a79f8fc30638c11afde727ffac22a3883a56569
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4311,6 +4692,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 세로로 쪼개진 속 빈 나무껍질이 U자 형태로 벌어지고 가장자리에 이끼가 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d9b84abef758bc340c85f453fa877b129f2907346ae47c1c08fa9f9e63ac35e8
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4363,6 +4751,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈색 갓을 가진 크기가 다른 버섯들이 이끼와 낙엽 위에 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 98338d0bd77b9646cc9363e2329ae07e5f7967d42519ffda443c70fb86ce0653
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4413,6 +4808,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 큰 갈색 갓 하나 아래에 작은 버섯들이 붙은 조밀한 군집이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d9f8ee4b2d2403c79f2b88bd42ced22fafe0be9631f276b498c92b351778d539
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4465,6 +4867,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓고 물결치는 황갈색 갓과 굵은 밝은 줄기를 가진 버섯 한 개다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f197de051fa2c327b2ac63bfb83cd454e6d4872df54e70fd10f5d64192152f90
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4515,6 +4924,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈색 점이 있는 크림색 갓들이 높낮이를 달리하며 낙엽 위에 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0bb20fee04bc8b4d2cf7073d90b0eb5f208913532ffe01d0ba5bffcc77a0214c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4565,6 +4981,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 절단면에 나이테와 균열이 보이고 굵은 뿌리가 사방으로 뻗은 그루터기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 9284ab35a5b8616ba45fa28ce0d6c938e4f9da5666bf367883051672d38a680f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4614,6 +5037,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 주황빛 사과가 드문드문 달린 짙은 녹색 둥근 수관과 가는 갈색 줄기의 나무다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ae3c53ce9f9252abbd7d6f3dad4c4e80ad4cedcaddc453ba1318a906d73df2ab
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4671,6 +5101,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 큰 붉은 사과가 밝고 둥근 잎 덩어리 사이에 달린 짧고 굵은 줄기의 나무다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 9ddf3812b423fb1e53ec5a9966f9d879c51ad95b10c693325c45e543ce3ea893
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4728,6 +5165,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 좌우로 벌어진 굵은 가지와 비대칭 수관에 큰 붉은 사과가 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4e4a68771879887f109566c1075e93672b47a0a592279167e5ed0566f29f92ac
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4784,6 +5228,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 비틀린 줄기 위에 여러 층의 녹색 잎 덩어리와 큰 붉은 사과가 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1c100874a549a8d82b01540b004fa6b98d576303aba855d0728c80282ba4f818
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4838,6 +5289,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 굵고 갈라진 줄기 위에 노란색·주황색·붉은색 잎 덩어리가 둥글게 퍼져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ad8c16e6aebca88dd10429d330693a582f41053ad581c38af6e516e21b900118
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4893,6 +5351,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 왼쪽으로 기운 굵은 줄기에서 좌우로 넓게 벌어진 주황색 수관이 자란다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 01fb567b326ff67c2ac628551a27b30b7712c911f34b75e09d8181703519d9f2
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4948,6 +5413,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 구불구불한 줄기 위로 주황색 잎 덩어리들이 층층이 쌓인 세로형 나무다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 38bad835ff177930ab5a3f712a522d5e985fb2305c65755f15598c8fe4267328
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5003,6 +5475,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 굵고 짧은 갈색 가지 끝에 말린 누런 잎이 몇 장 붙어 있는 작은 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 6653aa21971ad1b199ff09696ef8b03e2d974feeae96c48ef695b97eeee10b6b
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5057,6 +5536,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 굵게 표현된 녹색 고사리 잎이 중앙과 양옆으로 활처럼 뻗어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f34bf4c4cb7ef53821ee2cfbbc29dd4ae4dcaa7205959cc936842160005035bc
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5109,6 +5595,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 노란 중심과 둥근 크림색 꽃잎을 가진 큰 꽃 다섯 송이가 녹색 잎 위에 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 9261539b576fb9495f6ae1e20f53d1b90a5f79a0f10df635b3cdc3475351e0b0
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5165,6 +5658,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓고 매끈한 연두색 풀잎이 크게 휘어지는 단순한 포기 형태다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 67944e13be81a0857fdf60c5ba8ae03efb2d1934a400b58392577f0e33985ba0
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5215,6 +5715,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 주황빛 갈색 갓 세 개와 굵은 밝은 줄기, 큰 녹색 밑잎으로 구성된 버섯 군집이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 26f79345eeffeccbaa6709601a9d51aea8e8ca91593ea9d2fed63b386e7ef68c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5269,6 +5776,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 황록색 잎 덩어리 여러 개가 둥글게 모여 짧은 줄기를 덮고 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 04eb2d3537c4da32d09028f3548c70347fc7f39dfeb315d34eda0ef441a4fb7d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5318,6 +5832,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 잎 없는 어두운 갈색 줄기에서 가는 가지들이 여러 층으로 갈라진다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5e3296a4a8a113a292c13284af31e4fe5e4a13f147378405c173e812dd670f69
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5374,6 +5895,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 굵은 갈색 가지 끝의 밝은 절단면과 줄기 옹이가 두드러지는 잎 없는 나무다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 9a329d86d10a9037478c0cef13bef3e7a8cd49553fee54daeedfa337df2f9c9a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5433,6 +5961,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가운데 빈 구멍이 있는 굵은 줄기와 좌우로 넓게 벌어진 잘린 가지의 고사목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: daa6fafc1f67a0ee6855cf6081875fd820f27e2752701b9acad358d016515e22
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5487,6 +6022,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 길게 비틀린 줄기에서 짧은 잘린 가지가 번갈아 뻗는 세로형 고사목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 33cab3a311b03dc96c96de08f8930c60c4e9df3a980941c85e3583e2dac2ae49
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5549,6 +6091,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 굵게 뒤틀린 줄기와 노출된 뿌리 위로 작은 황록색 수관들이 층층이 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 40a6b4479a5a1fd5f5397dbf7ed852c882863c6555a0b2cb1152b400e2ca9dcc
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5610,6 +6159,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮게 갈라진 굵은 줄기와 넓게 퍼진 가지 끝에 둥근 잎 덩어리가 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 22d9ac33db9de54e645dc0c9c1363747d38ac453a63b98fbeb07c931a4b02979
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5669,6 +6225,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: S자처럼 휘어진 굵은 줄기 위로 작은 황록색 잎 덩어리들이 높게 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c96753b54ac3a170714be8ce9061c3261087b72a53864362961bffcd00433d31
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5736,6 +6299,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 큰 연두색 잎 덩어리 네 묶음이 갈색 줄기를 둘러싼 작고 둥근 나무다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a06fb1e6bc01678d9e566a4a75d0ebd1496c3dedc7a8b705fa8ffe79f1b5d9f6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5785,6 +6355,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가늘고 휘어진 줄기 끝에 작은 회녹색 잎들이 성기고 비대칭으로 퍼져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: bd6938c167d04d6028832707be9e7634b3f732d045738c992a44f3971314fd20
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5845,6 +6422,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈라진 갈색 줄기 끝의 밝은 녹색 수관들이 좌우로 넓게 벌어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 717b862eb401fa009902fdff13adbc87c54ff022c6d29043fba1a69fe4b2fee4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5903,6 +6487,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 휘어진 짧은 줄기 위에 둥근 녹색 잎 덩어리가 층층이 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c554e279add978092e21594e7dab805c88eaf2bbee46ff10a52aae2c86b3d8b9
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -5957,6 +6548,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가는 갈색 줄기에 잎 몇 장과 작은 흰 꽃이 달린 어린 나무다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 23e149d8165c8109748e2855e8586fa178826a27af4b25f6a3304e9243f1b7b5
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6009,6 +6607,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 세로로 긴 가는 줄기에 작은 녹색 잎과 주황빛 열매가 성기게 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 2223e85e558fdd418e172d1098dcfddd9a3e290a71e2a50b7cebf3d4b7892938
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6058,6 +6663,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮게 갈라진 가지에 여러 주황빛 열매와 녹색 잎이 달린 작은 과수다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: bb23186639a5f6af28326ede1f41f2d7c4d145a5277a9fe8a71d4064440903f3
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6110,6 +6722,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 성긴 가는 잎 사이에서 길고 좁은 황갈색 이삭이 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b360befdd5a6913f08ef5d561dfc1a78d258b55a01f48841c3fff705818cad0b
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6162,6 +6781,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 짧고 가는 황록색 잎들이 둥근 포기를 이루고 작은 이삭이 섞여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 8a412c926aa299f233e554ac4bcbdfc568886199965381f0378dc02badfae3b3
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6214,6 +6840,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 큰 황금빛 이삭이 긴 줄기 끝에서 아래로 휘어지는 풀 군집이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4ad5a874aec42e05c3e4503bb2319a6d24c53e38e9231bc69b5c2b624b7de136
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6266,6 +6899,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 길고 가는 황록색 잎과 작은 이삭이 빽빽한 둥근 덩어리를 이룬다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 878e0700d8eb7474d2556781426f195537733ecb9be8e99e5d4375af0d4791f4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6322,6 +6962,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 끝이 처진 긴 녹색 잎 위에 붉은 갈색 꽃대 하나가 높이 서 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 65fe25020e8317cf6f7db235d4e954c2cc3466e3859145d50819e1fdcdb86b9c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6376,6 +7023,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 주름진 넓은 녹색 잎들이 중앙에서 위와 옆으로 뻗어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4b7332cbd841e95cb9ef8f706fafc6187697de4d85e407ee5524c8406570bb32
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6430,6 +7084,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 좁은 녹색 밑잎 위로 붉은 갈색 씨앗 줄기 여러 개가 길게 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 6297891950e7f504cba31e4879b326964bdb5a8b59de408a948fab0ec487e282
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6480,6 +7141,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓은 잎이 낮게 퍼지고 붉은 갈색 꽃대들이 서로 다른 높이로 올라온다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 27c15ed834b20b96a058eb641be4bcc2523fea2d545883166f2f448928fecb7f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6530,6 +7198,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 이끼 낀 수피와 뻗은 뿌리 위에 밝은 원형 절단면이 있는 작은 그루터기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 71b197fc00d72f36aa2b6cdadedf615be0fa182930ab8d55380bc60283828e9a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6579,6 +7254,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓은 절단면과 옆의 작은 버섯, 녹색 이끼가 붙은 낮고 굵은 그루터기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 86e8b705a4abd95f50b282cb67e007f284737cbf31127456f8168848cd322c06
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6628,6 +7310,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 끝이 뾰족하게 부러진 가느다란 나무 밑동에 이끼와 뿌리가 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a6fe58821c8211dde47521608bd2811c3b640055229899f997b5b57dd381239f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6680,6 +7369,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 검은 숯이 담긴 갈색 자루 두 개 옆에 밝은 장작이 가지런히 쌓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ca0e0340288b11a43bc62e099eaededd8e84a8378e2372b796bfdb71e1a4df64
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6733,6 +7429,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 파랑·흰색 줄무늬 천막 아래 도자기 항아리와 그릇이 놓인 목재 판매대다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d35900f96436538a5f90c2552249c7b078cdf143b3aa7a63a64296963937e32a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6792,6 +7495,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 초록 천으로 덮은 나무 상자 두 개와 짐을 담은 둥근 바구니가 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 748f650888a9bdd02f2f8ae0ab2a0f951d58a6a7cdce34fb072722526e5f0764
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6845,6 +7555,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 녹색 끈으로 묶은 A자 목재 건조대의 두 가로대에 물고기들이 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f2c18811b04b6c4b82da9364777c0dda14179cfa844eea78c7047b7dcb7d3ed6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6898,6 +7615,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 흰 천을 깐 나무 탁자 위에 둥근 빵·썬 빵과 천으로 덮은 항아리들이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b410b5fe0118a4c05fa10a5d5fc21303dbdf908a77387cf1f191cc6a868a480c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -6952,6 +7676,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 노란 곡물이 가득한 황갈색 자루 세 개와 얕은 바구니가 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4540bb44c561bce190bbc08bcf9e248e70b40c1bfffbd437e1db38b1a777863c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7007,6 +7738,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 녹색 둥근 세잎이 빽빽하게 모이고 크림색 둥근 꽃들이 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4eb866980295905b6cc7bcef339c6fc4927a1d01dc3df659af0045f2b7a901cc
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7060,6 +7798,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 긴 녹색 잎 사이에서 굵은 황금색 이삭들이 위와 옆으로 뻗어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 211d6b5833b621a83c98ee98b80b6c8bee1210a01f7f14af3b8a8506a2085364
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7112,6 +7857,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 두 칸짜리 넓은 목재 건조상에 노란 곡물이 펼쳐져 있고 갈퀴·자루·접힌 천이 곁들여져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c7af3822ac69218aac2ae05afa586815504ef10cf28b6a2b525e0de8d7f2d7ca
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7163,6 +7915,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 밝은 잎이 빽빽한 직사각형 덩어리를 이루는 낮은 생울타리다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 937f9c88d4b834521770cbff34a9da9a1a9d59ee540c1113f1aa61859879b9d9
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7216,6 +7975,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 둥근 황록색 잎이 여러 층으로 겹친 구형 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: cb32378ec11ae22dfb00c3ba2859513d9f4764d7c4e011671cabe6a7a29c4ed1
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7266,6 +8032,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 목재 받침 위의 회색 맷돌 옆에 곡물 체와 자루·밀 묶음이 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ed8afa8533264758e13d54eb634d312c0c7e48ad093055ae6fbd8f64491cd4a4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7320,6 +8093,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 노란 중심의 흰 꽃 여러 송이가 톱니 모양 녹색 잎 위로 피어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7f9834e06d6a0061a11190b3b13ed2a4dafaa49968fd4852b0a715520946b4f7
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7371,6 +8151,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 큰 녹색 잎 사이에 붉은 열매 송이가 달린 둥근 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a552b2bd36aca28a2c0dc0dcea8eea6d7b3b4357bd58527c7387ed7bd9ef0c8f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7421,6 +8208,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 목재 틀 안에 둥근 회색 숫돌이 세워져 있고 옆으로 손잡이 축이 튀어나온다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: df7a2fec3eee1b1a92b1ffca0ed71a3407e6c0d7e09760908603042e36bcbba2
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7480,6 +8274,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 짧은 목재 기둥의 가로 팔에서 노란 불빛의 사각 등롱이 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d8e68ffbe6bcbb3a0224a0ff0fbc654ea9949b7b9f52ebf3a79564befc329810
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7536,6 +8337,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 나무 바퀴 두 개가 달린 짧은 수레에 자루·통·말아 놓은 짐이 실려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ef5b86f4716b74b902e08a7ae8737b6cf394b488aac1a241136a92a312b7664e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7588,6 +8396,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 큰 나무 바퀴의 수레 위에 노란 곡물 자루와 밀 묶음, 상자가 가득 실려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 77f343e03b504c85d74c493965874a2603a3f30363dbff009c90aa9d2e60ca1c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7646,6 +8461,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 직사각 목재 화분에 작은 흰 꽃과 서로 다른 모양의 녹색 허브가 자란다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ab5c4f0c3900e877383ec25702507d69049c8c2fa290a1052e0fc5a6576e7dab
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7696,6 +8518,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: A자 나무틀의 가로대에 녹색과 보라색의 식물 묶음이 여러 개 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 68e0410aee01a7ba463eb3a18703a614c6dfeffcc49fa0e03f30ac5227db193d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7746,6 +8575,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 목재 판매대 위에 구리 냄비·국자·양팔저울과 노랑·초록 내용물의 그릇들이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: eeccc4899f1fa3b087cd7e1949e6b661fa75d43fa2e8db09233eb5da2544b2dc
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7797,6 +8633,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓고 주름진 밝은 녹색 잎이 층층이 겹친 둥근 허브 포기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c98a8249ad8b32f164c8e786bff2ffa18e9e4e0d9243efc7b7c08df6a94f0679
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7847,6 +8690,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 청록색 천을 깐 낮은 작업대에 노란 시료가 담긴 판 세 개와 그림 설명판이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3c71ad2bded6289c0e9125212da845c1dc74f5ae9342625544651cbf3d25476d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7899,6 +8749,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 녹색 잎 덩어리 사이에 선명한 붉은 열매 송이가 여러 곳 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7919ca7adee116f50cebdeaccf48956caf340b16b78e6f86de20e732808dc899
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -7950,6 +8807,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 둥근 녹색 관목 표면에 큰 분홍 장미와 작은 꽃봉오리가 흩어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4be19ef0ccd3099c3b5db10f3b65d18de5426c06bb15e393d6b86d741f366c44
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8001,6 +8865,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 황록색의 잘게 갈라진 고사리 잎들이 중심에서 풍성하게 펼쳐진다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c7669f2483c9c0cf33d65f6bc885571e201f7505ea28344fb4a7b7a34bbebf11
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8052,6 +8923,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 둥근 짙은 녹색 잎 위로 보라색 꽃과 밝은 꽃 중심이 드러난다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 089a5021288933091b97de3240cab5b9895a0292832b7243e8c5f69b73d271c5
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8103,6 +8981,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 촘촘한 녹색 잎의 둥근 관목에 작은 흰 꽃과 연노란 봉오리가 섞여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 79608e728100952706b93c14d99f05451f83f10d353d3b51beaf6ba46de84d62
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8155,6 +9040,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈색 세로 기둥에 푸른 물결과 곡물 무늬가 그려진 표지판 두 개가 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d6e3a9aba416cb2b5c3a7ef7dae10ff6838f750ac62fc6cc65bee27d19d7871c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8215,6 +9107,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 두 개의 짧은 목재 기둥 사이에 가로 판자 두 줄을 댄 낮은 울타리다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: bf43cfe34751d02eb65fc5e3750adec8c009cce73b593b66a38eafa21067d5f4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8266,6 +9165,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 길고 좁은 녹색 잎 사이로 누런 이삭이 성기게 올라오는 갈대 포기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 487c8b0b5a4ba7fa13c02cdf584e51d06040579c60758eb672af564b675e8aa7
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8316,6 +9222,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 목재 보관함의 두 칸에 구리색과 회색 금속 막대가 나뉘어 담겨 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 2aa2ca1ba233f7484d80c71875de28e9298f1d53d683510dfff41954a053f74f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8371,6 +9284,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 붉은 기와 모양의 작은 지붕 아래 여러 장의 종이가 붙은 목재 게시판이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a5ec95543880aa136fdeee514049b85f516ff4a8d6bd3db5349c7c40a756a680
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8421,6 +9341,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 짙은 갈색 바구니에 주황빛 광석 덩어리가 담겨 있고 몇 조각이 앞에 흘러나와 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 6015061ac5b3d3e3505ed62a71f86b756b15d5c98d5b5249101dd00ea7128bf4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8479,6 +9406,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 청록색 판자와 금속 테두리로 된 열린 상자 안에 책과 말린 두루마리가 꽂혀 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b4e44909072994bcd78c57f411cf726f0e51ebbd21d2b545256bf5fadd184a44
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8529,6 +9463,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 노란 갈대 묶음들이 세워지거나 누워 있고 옆에 빈 원통형 바구니가 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 129f0a59478828973c63f4ab6d4a0e0eaafec355b22523f6c151db30124d01de
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8578,6 +9519,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 칼날 모양의 긴 녹색 잎 위로 진한 푸른 꽃 여러 송이가 피어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 2a447f192eb5ee6210aa698d4589c33e919ac744ca6094c3a7ebc6157241f1fe
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8629,6 +9577,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 짙은 녹색 고사리 잎들이 넓게 펼쳐지고 중앙의 잎이 높이 올라온다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 74f663c1b749db80bfbb23d72a33d3e60d335a7cf89bff58af98d06ad2ce735f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8679,6 +9634,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 목재 작업대 위에 갈대 묶음과 짜인 누런 매트가 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 111dd587861185bce33ff7fcee93f2cf0cca7accb655ce28a4c85102581dc457
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8730,6 +9692,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 긴 녹색 잎 사이로 크림색의 풍성한 깃털 모양 꽃대가 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4c85401a7d018c4b07a625e9321813412f1820c76f7360329d6a59c1f80a47b9
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8785,6 +9754,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 길고 가는 녹색 잎과 작은 이삭들이 한쪽으로 휘어진 세로형 포기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f1f0d743a2be745f8174c3b6ba57977c42b1d20796eb370a314a0144b6d056b2
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8838,6 +9814,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 결이 선명한 청록색·녹색 둥근 잎들이 빽빽한 관목을 이룬다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7b714a4c5dc474f60c34dda79c8144584ffb8ec66609baef0e503e3daa9763dd
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8888,6 +9871,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 목재 틀에 청록색 선이 그려진 넓은 기록판을 세우고 아래 선반에 두루마리를 놓았다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1338dd47c35bbd74d2c501695c1f51b4489757864427bf1b67bff1bfc6c93e5b
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8940,6 +9930,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가늘고 긴 녹색 잎이 아래로 늘어지는 가지들이 넓게 퍼진 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 9b40a366ca041e35ddcae68b1b17e4eadc4942a1c31877760a9d62697a231aa2
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -8996,6 +9993,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 목재 받침대에 톱과 여러 금속 공구가 세로로 걸려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 553b17605eff9e3bc156c242a5d53b9360dca3e72e16208b2dedacb13c06f2de
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9053,6 +10057,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 대각선 보강판이 있는 나무 상자 위에 굵은 갈색 밧줄이 둥글게 감겨 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0248202130fb5c7438c6c23aa7cafc4579e1857cc4d3a26bb3f2c5cf2a1aae1a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9106,6 +10117,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 흰 알갱이가 담긴 자루 두 개가 청록색 나무 통 앞에 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5f56cd1d1d28bcd21743ecedb272a16fbfbbdf10d46a16f4bcad516d40945983
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9159,6 +10177,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 목재 작업판 위에 금색 양팔저울과 푸른 짐 꾸러미·추·자루·통이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 452db1c7a7ae9bcf93d302fb2683da98eb2bb9c5e34f59e13d9765ea3c32dd55
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9210,6 +10235,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작고 길쭉한 은회색 잎이 갈색 가지를 따라 조밀하게 붙은 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: e7920b9f61a22fb296b243096f0aeede62c5c2d93e5da8368349278ee3221b83
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9261,6 +10293,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 분홍 꽃들이 긴 줄기를 따라 촘촘히 피어 있는 둥근 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 6ffacce212d0cd9f24a941c0fff5f273ade1d76baf5bb984f5c9efab37b7a5ae
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9312,6 +10351,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓고 긴 녹색 잎이 바깥으로 휘어지고 위에는 가는 녹색 이삭이 서 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c243b39767c613cab645b1665a7a44f9c576c012fa468ef08e61fbcba7610dbb
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9363,6 +10409,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 보랏빛 작은 꽃들이 여러 층의 평평한 꽃송이를 이루며 넓은 녹색 밑잎 위에 피어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7a41721c5834cf5b7289558368ab80dac79900310f1a162e07d6a87f9ec12efa
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9414,6 +10467,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 윤기가 있는 두꺼운 황록색 잎이 위로 모이는 둥근 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4fb39135be5d9923e2a4d5f2581f35bc85282054ba89955c6fd2756396d9135a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9466,6 +10526,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 나무 건조대에 회청색 자루들이 놓이고 옆에는 청록색 천·밧줄·얕은 용기가 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 04e39a6b24ed4dba3eb8856e2a39e7d0dcd2942f3c73d96cdb61b41cfe15482a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9515,6 +10582,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 좁고 긴 황록색 잎과 이삭이 오른쪽으로 휘어진 풀 포기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 8225bf9b16abdfec0db3791d9394271531e2fcc0ff3e2d1f869bbf38ae64f99d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9567,6 +10641,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 짧고 가는 누런 풀과 작은 흰 꽃들이 낮은 둥근 덩어리를 이룬다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: e653078670747e59cf3ae072e5f2700514d5f207cee2836deb541540ace41955
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9618,6 +10699,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 녹색 잎 사이에 구리색·주황색 새잎이 섞여 있는 둥근 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 2af147bd60430b56321711d4437e5287cef023c3a488b797ba91adbee62ac73d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9677,6 +10765,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 누런 긴 풀잎과 황금색 이삭이 바깥으로 벌어진 마른 풀 포기다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ea11bb96cb76a4eca7d76da5ec137626f61cc5fb4e88cc1d12661c7e7504ca4d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9727,6 +10822,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓은 목재 걸이에 방패와 가방이 매달려 있고 아래에는 꼬리표가 붙은 꾸러미들이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: cef6d12507cd36482579e328b98cee517bffb0f0f8785774bfb8da7acb8df689
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9777,6 +10879,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 목재 작업대 위에 서로 다른 색의 방패 세 개와 작은 도구·표식판이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 38811d518d85d986189cdb54d0f18d833bfc200bd86b2c3550f35e72527bd8bb
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9830,6 +10939,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 짙은 녹색 관목 위로 붉은 갈색 꽃대들이 뾰족하게 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a0328a3275064bcaa37c47294732ac9aea3db5108701ee7713874b224b555674
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9887,6 +11003,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 길쭉한 은회색 잎이 조밀하게 겹친 밝은 색 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: e729f342861277956d88391ff9ef4c2c632c7c15cf90ab81437b6cb7d996aae6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9940,6 +11063,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 보라색 꽃과 잔잎이 가는 줄기를 따라 빽빽하게 모인 낮은 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b0c457d593cdbcf0aae2d274bc14d437f20488d4e887b800dab2033d1acfdb8a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -9991,6 +11121,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 짙은 청록색 침엽과 밝은 녹색 새순이 위로 뻗는 원뿔형 관목이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7c80785cf62226b42e34b2ea7949e70540476498f977cdff6b71b940a9b56633
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10043,6 +11180,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 굵은 황금빛 곡식 묶음 세 개가 가운데를 끈으로 묶인 채 세워져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 91563ee795b8c2d3c8ab8df243bdbac49d9985ad767dde076d275f8fdc0e9ec0
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10095,6 +11239,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 짧은 목재 벤치 위에 누런 곡식 묶음과 긴 막대가 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 01b5b51cc114ece7fd00076cbc624a815befbdce9c097c05b6ed5365e8ad1768
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10145,6 +11296,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 네모난 목재 화단에 둥근 양배추와 작은 잎채소·붉은 뿌리채소가 줄지어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a9daf0de75249794961564662a5ca1aae86b0c520608e63c5293a32f02429266
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10203,6 +11361,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 등받이와 양쪽 팔걸이가 있는 밝은 갈색 목재 벤치다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 8d6a48798aee9544df1c1f537e1d56f33fde3bc8296b412bc69b02913982bdec
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10255,6 +11420,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가로 목판과 노란 천이 달린 안내 기둥 여섯 모습이 3열·2행으로 배열된 프레임 시트다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3ace014d96dcd6678aa8366aa3d9a788033cf7b499d295925219049c01d2d2ff
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10305,6 +11477,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 흰 꽃들과 둥근 봉오리가 녹색 밑잎 위에 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3c2835f19166802bae774b93905e01f6b6751c587434867faef96c7b60d06105
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10357,6 +11536,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 흰색·노란색 꽃들이 가는 녹색 줄기와 잎 사이에 성기게 피어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 688494d907de38f1778e7a93e2c03ea3e27cdb611b8927f28044eca3eae366aa
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10409,6 +11595,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 톱니 모양의 녹색 밑잎 위에 노란 꽃 두 송이가 긴 줄기 끝에 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: aeafaadb10a989fefb0c5c923485512fde4fc973f16447eb26c037009778a976
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10465,6 +11658,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 잎 몇 장이 달린 가늘고 비스듬한 갈색 줄기의 어린 나무다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4f28e4fadf3a6fec7c94978a9cfa752aed1e9ba97e4e6702ef16af86a3096efc
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10517,6 +11717,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 곧고 긴 녹색 갈대 줄기 끝에 연갈색의 풍성한 꽃이 여러 개 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b69359df56bda360f6227f0d744e1c14d9a5f2c9201df5e3fac8a0f1588128b7
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10572,6 +11779,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가는 녹색 줄기와 좁은 잎에 작고 성긴 누런 꽃대가 달린 어린 갈대 군집이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3cf09c058b3503101ae72d7460418ea300889e3ee54284a601b32ad41017bd23
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10623,6 +11837,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 긴 갈대 줄기와 황금빛 꽃들이 같은 방향으로 크게 휘어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0c9b09982bd868c88233d423c91b4e22691bd1896cbf6538ccbb115ea33dc217
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10674,6 +11895,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 황갈색 잎과 주황빛 갈색 꽃대가 조밀하게 모인 가을 갈대 군집이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a74dca20326ce9747ee385ea86d81fc3efe7200a3a9ad89a2c58b3751a89e0e8
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10727,6 +11955,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 청록색의 가는 줄기 위에 은백색 깃털 모양 꽃들이 높이 솟아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3adeb2d19c220275ce709d07258fce0c3166e43514541bfdea3099af6bf7a880
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10782,6 +12017,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 검게 탄 낮은 그루터기와 뿌리 옆에 작은 밝은 녹색 새잎이 돋아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1cc2409262b2657aeda213b48dc7b3a493d149b7abd4b1d1cd8edc955daa507b
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10836,6 +12078,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈라진 검갈색 통나무 표면에 밝은 작은 버섯과 녹색 이끼가 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3b0b9c42a6ead982a3704bcc37d7530af4c583cad93923a131f60fa81ef8362c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10888,6 +12137,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 표면이 거칠고 어두운 회색의 가늘고 뾰족한 돌기둥 한 개다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0349d66bc3ef486ad26794566540df50c870be9ebd1d5cda3721c76be8ac6009
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10938,6 +12194,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: A자 목재 받침 사이의 원통에 밧줄이 감겨 있고 앞에는 쇠갈고리, 옆에는 회전 손잡이가 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 441c93652703968e0b2ccee7855988eca033898a30e5c630f2c4b88690908544
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -10988,6 +12251,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 나무 작업대 위에 밝은 석재와 망치·끌·돌가루가 있고 옆에 곡괭이가 기대어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0ec29256acfe2fee6f71c1c9b690aa4ca6efb89a40be5bde0d1fb40f2bab7e07
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11038,6 +12308,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 긴 목재 멜대 양 끝에 금속 테를 두른 나무 물통이 하나씩 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4a8623c177363d274683cde597ec666789a2c6bdf2d282e888c8d28618f20760
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11088,6 +12365,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮은 직사각 목재 틀에 흰 알갱이가 줄무늬로 펼쳐져 있고 위에 긴 갈퀴가 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c909b74c6fe33f8155a7492d0cde41dad5bac5a63a33b8657111f6961dfc2300
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11138,6 +12422,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 붉은 갈색 잔가지에 작은 회녹색 잎이 붙어 낮고 넓게 퍼져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 97c85b7f33eddc7a33f06202362f5b28a9918d8dfe2caa7496802e018f1c30d0
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11195,6 +12486,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 검고 각진 암석 여러 개가 크고 작은 덩어리로 낮게 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: bcdbafc83398e524b9e2ab58a174e271b38468385be7308ca00792f27ad9a0b9
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11250,6 +12548,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 숯처럼 검게 탄 속 빈 나무가 누워 있고 주변에 회색 재가 흩어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ac73b2845df92181cebe3fcae8aac9454adf4fc99889ca837c3e02dc843f8b6a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11302,6 +12607,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 베이지색 천으로 싼 직육면체 꾸러미들이 갈색 끈으로 묶여 포개져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: e06c7981e20b6dad79fa6f00edb3a259bb38148384609b55ed43a7ec6bde4c9e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11354,6 +12666,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 회녹색의 두꺼운 잎 몇 장이 짧은 줄기와 드러난 뿌리 위로 돋아 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f8a15c7c80a97b10b637f10a0c5ecbc49018f4debc6e1cea1b950d113ba353d2
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11406,6 +12725,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 검은 판상 암석들이 비스듬히 솟고 밑에 작은 검은 파편들이 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5dffb45809a39949e8c0998b66da2aef093bc4bc2e415d9c36707814a83192bb
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11456,6 +12782,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 흰 꽃과 밝은 녹색 잎이 덮인 둔덕 중앙에 둥근 갈색 굴 입구가 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 51b1f147125d7065fd7ca0b4ee1320643528e1aa689f28aa4a3e4c81ce33f1c3
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11509,6 +12842,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 회색의 갈라진 돌기둥 두 개가 높낮이를 달리하며 서 있고 작은 돌들이 밑을 받친다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c9177af34382c8e640b46776445a9dd8c9120cec50bf118bab46a65f4124e720
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11559,6 +12899,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 굵고 밝은 황금색 이삭 여러 개와 좁은 녹색 잎이 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 97340a2ec66ce7e5b17864f1a3a49ed884cda4713e61f27bc7f534a2af6a8b13
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11612,6 +12959,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 모서리를 다듬은 밝은 회색 직육면체 석재들이 낮게 층층이 쌓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 12d36ad4378d0676f76d0c340badf0aded227fc0a5e4b3dd7429713a96cd37ae
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11663,6 +13017,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 납작하고 각진 회색 석판들이 겹쳐 있으며 밑에 작은 돌조각이 흩어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ea9c48dade6c3528dd82faa71a95251a7bee2e277cdb3b868a8704dc659198dd
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11714,6 +13075,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 큰 균열이 있는 밝은 회색 바위가 위로 솟고 밑에 둥툭한 돌 덩어리들이 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 40821da26baad0d681a10468a23975d1633be5c4a8b70a2255b05c496c62ba95
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11767,6 +13135,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 왼쪽의 큰 각진 바위에서 오른쪽 아래로 작은 돌들이 부채꼴로 흘러내린다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 018e70590b24b940b435281ce3e68540daf4a717dbe9799f0e3ede90dfb1ae18
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11822,6 +13197,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 속이 갈라지고 위끝이 날카롭게 부러진 검은 그루터기에서 긴 뿌리가 사방으로 뻗는다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: eee77a855fff4934a5e18da01a3e925212c8fa857ce0ddbe3edbfa223acfc1a2
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11872,6 +13254,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가운데 구멍이 있는 밝은 원형 맷돌이 여러 층으로 쌓이고 가장 아래 돌에는 균열이 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 32602703a4965d38c77cb2dd2b763cee1d475a57edc64ddd82cd20e6a43d0cc6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11922,6 +13311,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 길이와 굵기가 다른 갈색 나무 말뚝들이 세로로 모여 가운데를 밧줄로 묶었다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5569eeb43658d78f77ac054e762715b19567e2d871c9f134dae2937b924c5ccf
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -11972,6 +13368,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈색 세로 판자와 회색 금속 테로 된 뚜껑 닫힌 나무 통 한 개다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 951d53bf32b4f00f6ba2d461fce5fd841d332b173c5aab93460d0d4c5464edab
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12020,6 +13423,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 금속 경첩과 모서리 보강이 있는 낮고 넓은 목재 상자 옆으로 밧줄 손잡이가 늘어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0f0b8797f39c86d6f529be9cd74f0e9ee8d89064ec62b17ed851a099d1fad2ae
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12068,6 +13478,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 작은 나무 의자 위에 노란 불빛의 검은 금속 랜턴이 놓이고 주변에 둥근 돌이 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 976558d92c0d089edbe26f40071111a58811d3270b684444328eaa0fe9d63cdd
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12118,6 +13535,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 회색의 납작한 돌조각들이 서로 다른 각도로 낮게 포개져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4e9a72f28f213c065d3a5027d449f8a0761bf0be9bbe6abaceda9156e5e3e4c7
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12169,6 +13593,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 금속 모서리 장식과 밧줄 손잡이를 가진 정사각형 갈색 나무 상자다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 8d6e9658e1d443b1f5f4cfd5d82b78902d47ba998caea1d548c3a1e6b24ae58e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12217,6 +13648,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 윗면이 움푹 파이고 옆면에 선각 무늬가 있는 회갈색 비석이 이끼 낀 받침돌 위에 서 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0daf1bbb0c810ae4b0803ba96e3f40a62d79824ad604ec1709ff83e0104c1d11
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12265,6 +13703,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮은 나무 받침 위에 사각 유리창과 어두운 금속 지붕을 가진 노란 불빛의 랜턴이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1097e582bc8f74b63edc105a62bed970c76237b7b38e85cce14ef1befe221deb
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12313,6 +13758,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 거칠고 둥근 회색 돌 윗면에 검은 금속 고리와 짧은 밧줄이 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d4e23c51810f92030e2afe62ab40d42f8140606c3a12949899c11b6ccdc57224
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12364,6 +13816,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 굵고 밝은 갈색 밧줄이 가운데 구멍을 남기고 여러 겹으로 둥글게 감겨 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5fa30ddeac325912a58888abee173c09acf4bb438b5dc0e0f011a4b3d6d82005
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12413,6 +13872,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 녹색의 둥근 수관 아래 긴 갈색 뿌리가 지면 위로 넓게 뻗어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0cc38b4c996afcfbe8eba3139abf859bf0b664df57a7926140df0b17c197edf2
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12464,6 +13930,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 끝이 거칠고 높이가 다른 밝은 나무 말뚝들이 가운데 빈 공간을 두고 두 줄의 끈으로 묶여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 30ef0c6ded40fe85503870041afe57504d2cddaafebf4c1d9c75434040420cb6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12513,6 +13986,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 갈라진 낮은 회색 바위 두 덩어리 위에 어두운 금속 고리와 밧줄이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b6329de9d34aa4f10735ba603bbfc019c89aebf729234143aa30043837cf9959
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12563,6 +14043,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 한쪽 테두리와 살대가 부러진 갈색 수레바퀴가 비스듬히 세워져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 104f36b108334c8ec85912d0798d0dd151dc0343f25ca8c49c0d09e3a1319e42
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12612,6 +14099,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 세로 나무 기둥에 반대 방향을 가리키는 거친 목판 두 개가 밧줄로 묶여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b3823c37ff0836bc9b8f680e02f7378d25219fc2e6e83653a5fecbaf6cd2e1e6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12661,6 +14155,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 네모난 받침돌 위의 회색 돌기둥 앞면에 금속 고리와 짧은 밧줄이 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c40f7f36decb2489adc7d7e7f7df5b70d57fca7c16584f948b15c7e895b4c6ad
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12711,6 +14212,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 대각선 판자와 회녹색 금속 모서리 보강이 있는 정육면체 나무 상자다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 693179447aa4e39098e9bbfc9e786a706e93cfd9876f8d99e81d9b6b5213d600
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12761,6 +14269,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 격자 테두리 사이로 노란 불빛이 보이는 둥근 구리색 랜턴이 작은 나무 탁자 위에 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0f681007ef48efbf3c80ad9718f79883c95c4f24f0bd936107d64ed300d32202
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12812,6 +14327,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 목재 기둥에서 긴 팔이 비스듬히 뻗고 밧줄·도르래·갈고리와 아래 권양 장치가 연결되어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0bb0f4cd2cda3e69ece5e39912f9e93eaf4086676a5e687df6a8c6787c12ad1a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12864,6 +14386,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 회백색 석재 두 덩어리가 짧은 목재 받침 위에 높낮이를 달리해 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3c3fd22c71376054e8d36b5b1ded3158cd1515617b367b590caabbafdd47614e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12916,6 +14445,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 얕은 사각 목재 쟁반 안에 무거운 망치와 여러 길이의 금속 끌이 나란히 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c15d4923a7734a24fd19df06e5419040fc6f0fb2a97cc6fa3b09dec197627f03
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -12966,6 +14502,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 연한 황백색 절벽 덩어리에 세로로 길게 갈라진 기둥 모양의 결이 반복된다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5c9220f1b3a1fbf86ad69846ec604441a576351466446cf7394ec0e1b8fc5550
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -13020,6 +14563,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 비스듬히 기울어진 큰 황백색 석판 옆에 작은 각진 돌과 파편이 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7b6772fd74830f50fd18d3087a50894f6d9354ba3a1e6808496137699b06acdc
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -13074,6 +14624,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮은 밝은 회색 바위 틈에 누런 마른 풀과 작은 회녹색 식물이 자란다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 2ae65bdcc6c5a1689a6a0989589125ce69bd9c4d3df9b212f9b6f4a68cecf49f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -13128,6 +14685,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 왼쪽의 큰 황백색 암석에서 오른쪽으로 긴 석판과 작은 파편이 낮아지며 쌓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 9bb0e57be1e68578452d5395b9f054294a3bea43fe0f46c8ee77e519ff8c580e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -13173,6 +14737,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 짙은 회색 각진 바위 덩어리를 굵은 크림색 석영맥이 화면 왼쪽 위에서 오른쪽 아래로 가로지른다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 20eb5b2f1a179b2a920a97e6782e1429f7cfb656307485535adbb670eafa778a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-compact-veined-stone-v1.png
     width: 256
@@ -13225,6 +14796,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 굵은 밝은 광맥이 없는 회색 각진 바위들이 낮고 넓게 계단처럼 겹쳐 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1b3c3767a2bbd5f2abf7e04df24b8e89debd09434cb029879a61ca4d9fffc8d1
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-compact-dark-stone-v1.png
     width: 256
@@ -13279,6 +14857,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 밝은 석영맥이 가로지르는 작은 검회색 바위 옆에 분리된 작은 파편 하나가 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 65a622978a4c40d1ec738729f75039d4a1df69c2901261ecfd14d8d53f1522ea
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-compact-veined-chips-v1.png
     width: 256
@@ -13334,6 +14919,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 어두운 바위 받침에서 길고 가는 크림색 석영 기둥이 솟고 옆에 짧은 결정이 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 96215357533f28d5a4ae5cb08bd90a92de6863a00d6da772455c62a27bac8ce3
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-tall-quartz-v1.png
     width: 170
@@ -13389,6 +14981,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 넓고 각진 크림색 석영 기둥의 뾰족한 끝과 양옆의 작은 결정이 어두운 돌 받침 위에 서 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 9e346c962079e364445bc346060578593546ad0d06ce1efca652bea7e08a25a4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-tall-quartz-variant-v1.png
     width: 214
@@ -13442,6 +15041,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 화면 왼쪽 위의 높은 석영과 오른쪽 아래의 낮은 석영이 길쭉한 검회색 바위 받침으로 이어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4557db2e5355d715fb982d2ce21ffadfa8d9e6f7e864e875df88e5bc329277e1
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-twin-tall-quartz-2x1-v1.png
     width: 170
@@ -13495,6 +15101,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 화면 왼쪽 위의 큰 결정과 오른쪽 아래의 작은 결정이 낮고 넓은 암석 받침 위에 떨어져 서 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 9a2f076232bbf11972ad5cfbbe3a309a74136c3dd1f9ed597b59d146b000f392
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-medium-quartz-2x1-v1.png
     width: 256
@@ -13550,6 +15163,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 화면 왼쪽 아래의 작은 결정과 오른쪽 위의 큰 결정이 길쭉한 어두운 바위 받침 위에 서 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: fb242904f8c7f2e490992c797f14613470484579157bc17555b5ee03ba67ab83
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-medium-quartz-1x2-v1.png
     width: 256
@@ -13605,6 +15225,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 화면 왼쪽 아래의 낮은 석영과 오른쪽 위의 높은 석영 사이에 작은 결정들이 이어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ce0b772a03e07b0151d47e482e5707060e1c23a86f62cb96b399665013154bdd
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-twin-tall-quartz-1x2-v1.png
     width: 170
@@ -13660,6 +15287,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 위쪽이 솟은 둥근 검회색 암석 군집에 굵은 크림색 광맥이 왼쪽 위에서 오른쪽 아래로 내려간다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ee3fddf7dedebe85206cea30614df1e2f21c015300e18182b5348067eab0d939
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-1-v1.png
     width: 256
@@ -13715,6 +15349,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 세로로 높은 검회색 바위에 밝은 광맥이 거의 수직으로 내려오며 왼쪽 아래에 작은 돌이 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: e149ea75e8486b81bea436417f2dee0d1b96fdcf3033e5f5661e5a9c9cc41250
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-2-v1.png
     width: 384
@@ -13770,6 +15411,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮고 넓은 각진 검회색 바위의 윗면을 밝은 광맥이 왼쪽 위에서 오른쪽 아래로 비스듬히 가른다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 46a70c457b1b075fa3cf0c844d3ad3adc083f9672e7315ec55d01a6f29bc4cba
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-3-v1.png
     width: 384
@@ -13825,6 +15473,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가로로 길고 낮은 검회색 바위 여러 덩어리 위를 크림색 광맥이 지나 오른쪽 앞면으로 내려온다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7dd0bb2f3946ad471d3653114b7f6ac5f4da061c8d435ae1d7d3e39d11ddecf4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-4-v1.png
     width: 512
@@ -13880,6 +15535,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 위쪽이 솟은 검회색 암석 군집의 밝은 광맥이 화면 왼쪽 아래에서 오른쪽 위로 비스듬히 이어진다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 6c162052459f53d6f010911ec7cd7cfeb098e7849c36a29d26614ffb66a047c2
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-reverse-1-v1.png
     width: 512
@@ -13935,6 +15597,14 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 세로로 높은 검회색 바위에 밝은 광맥이 왼쪽 아래에서 오른쪽 위로 올라가며 오른쪽 아래에 작은 돌이 붙어
+      있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 7b215847e1b3e142d597fb495452eb8d13ccd99fbe63d84fe6a40309ccd836e0
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-reverse-2-v1.png
     width: 512
@@ -13990,6 +15660,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 낮고 넓은 검회색 암석 군집을 굵은 크림색 광맥이 왼쪽 아래에서 오른쪽 위로 비스듬히 가른다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 21e8c8b11336294114031605704f93dd8476b68efc23be549f87a0f6a5887f5f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-reverse-3-v1.png
     width: 512
@@ -14045,6 +15722,13 @@ billboards:
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
       guidance_only: true
+    visual_description: 가로로 길고 낮은 검회색 바위들의 밝은 광맥이 왼쪽 앞면에서 오른쪽 위로 이어진다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 03ba389202afcdce47134c42941c53500147b212d7e523748a56f547e4ee94cf
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
   source_file:
     path: assets/billboards/crystal-cut-veined-boulder-reverse-4-v1.png
     width: 512
