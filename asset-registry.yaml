@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: b8750b6dfe8d5e1e1ee342ce94cc5e303abdaa6c9002d3b6470696fdefc5d35d
+  sha256: 0339ffad8d48d2092d4777f0746e012580e3615d576ed19f5efdc3ef69c610fd
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7808,7 +7808,7 @@ assets:
     original_path: assets/billboards/crystal-cut-flat-quartz-slab-v1.png
 - managementId: image.scenery.crystal-cut-compact-veined-stone-v1
   version: v1
-  path: assets/billboards/crystal-cut-compact-veined-stone-v1.png
+  path: assets/retired/billboards/crystal-cut-compact-veined-stone-v1.png
   name: 정사각 석영맥 바위
   width: 256
   height: 256
@@ -7818,9 +7818,12 @@ assets:
     artifact: exec-50a43be4-cf43-4a43-85c9-deb7295fc07f.png
     original_sha256: 715bd0a3feb3bd9414f4fbf9279f32651d5539c4dc497bdb4d9bb2af2ba9754e
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-compact-veined-stone-v1.png
 - managementId: image.scenery.crystal-cut-compact-dark-stone-v1
   version: v1
-  path: assets/billboards/crystal-cut-compact-dark-stone-v1.png
+  path: assets/retired/billboards/crystal-cut-compact-dark-stone-v1.png
   name: 정사각 회색 낙석
   width: 256
   height: 256
@@ -7830,9 +7833,12 @@ assets:
     artifact: exec-e07b096f-e2c6-48bd-b561-619270695caf.png
     original_sha256: 6f08ab018ec4f858f217118abb2c87aba282166e1d57ec4b48eef3ef7b63919f
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-compact-dark-stone-v1.png
 - managementId: image.scenery.crystal-cut-compact-veined-chips-v1
   version: v1
-  path: assets/billboards/crystal-cut-compact-veined-chips-v1.png
+  path: assets/retired/billboards/crystal-cut-compact-veined-chips-v1.png
   name: 작은 석영맥 파편 쌍
   width: 256
   height: 256
@@ -7842,6 +7848,9 @@ assets:
     artifact: exec-04757238-f71e-4f35-89d2-67de2f87f4de.png
     original_sha256: 82982af36e3749b15a348ce0cb5dacde02e01802978c37af3b021348ec86e64f
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-compact-veined-chips-v1.png
 - managementId: image.scenery.crystal-cut-oblong-quartz-v1
   version: v1
   path: assets/retired/billboards/crystal-cut-oblong-quartz-v1.png
@@ -7859,7 +7868,7 @@ assets:
     original_path: assets/billboards/crystal-cut-oblong-quartz-v1.png
 - managementId: image.scenery.crystal-cut-tall-quartz-v1
   version: v1
-  path: assets/billboards/crystal-cut-tall-quartz-v1.png
+  path: assets/retired/billboards/crystal-cut-tall-quartz-v1.png
   name: 높은 석영 기둥
   width: 170
   height: 256
@@ -7869,9 +7878,12 @@ assets:
     artifact: exec-e6b44a8a-4e30-436c-99c3-8e96771422c6.png
     original_sha256: 908b5503513189243b5b44098a6c6355e34aa99c3cb9885c3a305d2d6760c830
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-tall-quartz-v1.png
 - managementId: image.scenery.crystal-cut-tall-quartz-variant-v1
   version: v1
-  path: assets/billboards/crystal-cut-tall-quartz-variant-v1.png
+  path: assets/retired/billboards/crystal-cut-tall-quartz-variant-v1.png
   name: 높은 석영 기둥 변형
   width: 214
   height: 256
@@ -7881,9 +7893,12 @@ assets:
     artifact: exec-60da9ac4-c411-4caf-8d76-528a5642a48c.png
     original_sha256: c740ca19a5e06b0d67d837c05289f3855e3c307b8e0d4bbccdcdab3f40018366
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-tall-quartz-variant-v1.png
 - managementId: image.scenery.crystal-cut-twin-tall-quartz-2x1-v1
   version: v1
-  path: assets/billboards/crystal-cut-twin-tall-quartz-2x1-v1.png
+  path: assets/retired/billboards/crystal-cut-twin-tall-quartz-2x1-v1.png
   name: 높은 석영 쌍 열방향
   width: 170
   height: 256
@@ -7893,9 +7908,12 @@ assets:
     artifact: exec-8fa87e71-24be-4c4f-ac93-a2c97e641a23.png
     original_sha256: 632c720ac2b8017d5f0071fc3b1e42145d9fa9f00689115fec15e35574dc5922
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-twin-tall-quartz-2x1-v1.png
 - managementId: image.scenery.crystal-cut-medium-quartz-2x1-v1
   version: v1
-  path: assets/billboards/crystal-cut-medium-quartz-2x1-v1.png
+  path: assets/retired/billboards/crystal-cut-medium-quartz-2x1-v1.png
   name: 중간 높이 석영 쌍 열방향
   width: 256
   height: 170
@@ -7905,9 +7923,12 @@ assets:
     artifact: exec-62bdff74-b2d8-4268-bb00-b450ac7d7c58.png
     original_sha256: 360459581e92a8bda781049a33e8f5b05a5908672a5904d1c9d1ed06aa5ea942
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-medium-quartz-2x1-v1.png
 - managementId: image.scenery.crystal-cut-medium-quartz-1x2-v1
   version: v1
-  path: assets/billboards/crystal-cut-medium-quartz-1x2-v1.png
+  path: assets/retired/billboards/crystal-cut-medium-quartz-1x2-v1.png
   name: 중간 높이 석영 쌍 행방향
   width: 256
   height: 170
@@ -7917,6 +7938,9 @@ assets:
     artifact: exec-dfdef234-15f6-41ea-8197-e1d5187741b6.png
     original_sha256: 3bfaaea7b5aaaccbcbd5323e5e683a9a9cb70346ff7d362c6e5cafaabddccf08
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-medium-quartz-1x2-v1.png
 - managementId: image.scenery.crystal-cut-low-quartz-2x1-v1
   version: v1
   path: assets/retired/billboards/crystal-cut-low-quartz-2x1-v1.png
@@ -7949,7 +7973,7 @@ assets:
     original_path: assets/billboards/crystal-cut-low-quartz-1x2-v1.png
 - managementId: image.scenery.crystal-cut-twin-tall-quartz-1x2-v1
   version: v1
-  path: assets/billboards/crystal-cut-twin-tall-quartz-1x2-v1.png
+  path: assets/retired/billboards/crystal-cut-twin-tall-quartz-1x2-v1.png
   name: 높은 석영 쌍 행방향
   width: 170
   height: 256
@@ -7959,9 +7983,12 @@ assets:
     artifact: exec-22c5bb97-8d0a-46d9-9a46-12f14314cf2e.png
     original_sha256: ae0fee66fe92c825114bf3f646d5110236e1617b24e700b1c582ccf1f8d509d8
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-twin-tall-quartz-1x2-v1.png
 - managementId: image.scenery.crystal-cut-veined-boulder-1-v1
   version: v1
-  path: assets/billboards/crystal-cut-veined-boulder-1-v1.png
+  path: assets/retired/billboards/crystal-cut-veined-boulder-1-v1.png
   name: 석영맥 암석 1
   width: 256
   height: 256
@@ -7971,9 +7998,12 @@ assets:
     artifact: codex-clipboard-08b761dd-56cf-4db2-b0c5-68f42bcc3f06.png
     original_sha256: 440b909ce3e398144341f6e00f072e9adb31e8d48bbdebd679c4049db1a3a4b2
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-veined-boulder-1-v1.png
 - managementId: image.scenery.crystal-cut-veined-boulder-2-v1
   version: v1
-  path: assets/billboards/crystal-cut-veined-boulder-2-v1.png
+  path: assets/retired/billboards/crystal-cut-veined-boulder-2-v1.png
   name: 석영맥 암석 2
   width: 384
   height: 384
@@ -7983,9 +8013,12 @@ assets:
     artifact: codex-clipboard-e41c9441-ce31-47f8-8f7d-f4e4ac847692.png
     original_sha256: 660d19b67f0a8923b1b672f442f5aa8019fa35e1e42e263b61d74bb5744d8a25
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-veined-boulder-2-v1.png
 - managementId: image.scenery.crystal-cut-veined-boulder-3-v1
   version: v1
-  path: assets/billboards/crystal-cut-veined-boulder-3-v1.png
+  path: assets/retired/billboards/crystal-cut-veined-boulder-3-v1.png
   name: 석영맥 암석 3
   width: 384
   height: 384
@@ -7995,9 +8028,12 @@ assets:
     artifact: codex-clipboard-30674df7-feb2-40e4-8c8e-5a5528835f63.png
     original_sha256: 9f04e30c2bfbd46e746ede679dc22a98e0061e2c9cd75ea500f9cdbd0fba2fe3
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-veined-boulder-3-v1.png
 - managementId: image.scenery.crystal-cut-veined-boulder-4-v1
   version: v1
-  path: assets/billboards/crystal-cut-veined-boulder-4-v1.png
+  path: assets/retired/billboards/crystal-cut-veined-boulder-4-v1.png
   name: 석영맥 암석 4
   width: 512
   height: 512
@@ -8007,9 +8043,12 @@ assets:
     artifact: codex-clipboard-1d354e16-7fc7-4923-a683-5f55958afa64.png
     original_sha256: 7f7d93400505f092a1365f849d4be8e219c57c0f357ed8bff47f636727a4bdfc
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-veined-boulder-4-v1.png
 - managementId: image.scenery.crystal-cut-veined-boulder-reverse-1-v1
   version: v1
-  path: assets/billboards/crystal-cut-veined-boulder-reverse-1-v1.png
+  path: assets/retired/billboards/crystal-cut-veined-boulder-reverse-1-v1.png
   name: 반대 방향 석영맥 암석 1
   width: 512
   height: 512
@@ -8019,9 +8058,12 @@ assets:
     artifact: exec-cbfc72f8-867a-4efe-8ea0-9c2920535b4d.png
     original_sha256: 83ec20c95f2706f73e1478e4deab5b70e8fd3b59a03436074ca620954acfa4ec
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-veined-boulder-reverse-1-v1.png
 - managementId: image.scenery.crystal-cut-veined-boulder-reverse-2-v1
   version: v1
-  path: assets/billboards/crystal-cut-veined-boulder-reverse-2-v1.png
+  path: assets/retired/billboards/crystal-cut-veined-boulder-reverse-2-v1.png
   name: 반대 방향 석영맥 암석 2
   width: 512
   height: 512
@@ -8031,9 +8073,12 @@ assets:
     artifact: exec-4dd21304-88db-4449-a999-1abeeaf97803.png
     original_sha256: b5862212337cbdfb429e2336fa6ca81b9a64a0b93b5edc4f8cfeb085e9e95dce
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-veined-boulder-reverse-2-v1.png
 - managementId: image.scenery.crystal-cut-veined-boulder-reverse-3-v1
   version: v1
-  path: assets/billboards/crystal-cut-veined-boulder-reverse-3-v1.png
+  path: assets/retired/billboards/crystal-cut-veined-boulder-reverse-3-v1.png
   name: 반대 방향 석영맥 암석 3
   width: 512
   height: 512
@@ -8043,9 +8088,12 @@ assets:
     artifact: exec-2f77bd5b-f6f1-49ad-9684-9667a72ea2bd.png
     original_sha256: a0fcac7b48f482e6a71ce9fa5eac52d5bcb96f68e41ef6feed52d76af6514553
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-veined-boulder-reverse-3-v1.png
 - managementId: image.scenery.crystal-cut-veined-boulder-reverse-4-v1
   version: v1
-  path: assets/billboards/crystal-cut-veined-boulder-reverse-4-v1.png
+  path: assets/retired/billboards/crystal-cut-veined-boulder-reverse-4-v1.png
   name: 반대 방향 석영맥 암석 4
   width: 512
   height: 512
@@ -8055,3 +8103,102 @@ assets:
     artifact: exec-1af714b6-2634-42da-ab98-5c63d2e9ae16.png
     original_sha256: 8e0cf28e58af0f1c57b095a03c5bf4c3c7544299718e0188d26ea5a7185b8c7f
     processing: 사용자 추가 승인. 비율 유지 512px 정규화, 생성 투명 알파 보존.
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/crystal-cut-veined-boulder-reverse-4-v1.png
+- managementId: image.scenery.crystal-cut-guide-3x1-tall-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-3x1-tall-v1.png
+  name: 석영 절개 3x1 벽면형
+  width: 512
+  height: 512
+  sha256: 584ad05b87317d9bd4d87ad474ad93ed33a7487a39f66415b062d5591084d443
+  source:
+    repository: codex-imagegen
+    artifact: exec-ef603443-7a3c-4cd8-8ed9-77ed4c4a5e74.png
+    original_sha256: 584ad05b87317d9bd4d87ad474ad93ed33a7487a39f66415b062d5591084d443
+    processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-2x1-tall-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-2x1-tall-v1.png
+  name: 석영 절개 2x1 벽면형
+  width: 512
+  height: 512
+  sha256: 67aab72cea94b8dde7a35d21689a6deeb256c68fa753ac90e6644372143bb447
+  source:
+    repository: codex-imagegen
+    artifact: exec-a7766dcb-5873-4cbc-b4e0-e55730898d6a.png
+    original_sha256: 67aab72cea94b8dde7a35d21689a6deeb256c68fa753ac90e6644372143bb447
+    processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-1x2-tall-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-1x2-tall-v1.png
+  name: 석영 절개 1x2 벽면형
+  width: 512
+  height: 512
+  sha256: f1a9b3c4577004d03823b06e1e8647c1705f40c56ac4bb4ea329ae2c96ec5768
+  source:
+    repository: codex-imagegen
+    artifact: exec-ad3da8e0-f22a-411c-ba57-6887e9840b5e.png
+    original_sha256: f1a9b3c4577004d03823b06e1e8647c1705f40c56ac4bb4ea329ae2c96ec5768
+    processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-1x3-tall-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-1x3-tall-v1.png
+  name: 석영 절개 1x3 벽면형
+  width: 512
+  height: 512
+  sha256: dcdcdec3b534c8ca181f43ee041465fe9802b9cb07788688013c3e7e38314e39
+  source:
+    repository: codex-imagegen
+    artifact: exec-471e578d-c892-4476-908d-7973c0258fcb.png
+    original_sha256: dcdcdec3b534c8ca181f43ee041465fe9802b9cb07788688013c3e7e38314e39
+    processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-2x2-low-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-2x2-low-v1.png
+  name: 석영 절개 2x2 바닥형
+  width: 512
+  height: 410
+  sha256: 041d80f8affb23730c15c859c2b2bf7656a1faf839fb8dda6dd6955b299150e4
+  source:
+    repository: codex-imagegen
+    artifact: exec-1fd1e7bc-be52-4b87-b1c8-d8adf633e556.png
+    original_sha256: 041d80f8affb23730c15c859c2b2bf7656a1faf839fb8dda6dd6955b299150e4
+    processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-2x3-low-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-2x3-low-v1.png
+  name: 석영 절개 2x3 바닥형
+  width: 512
+  height: 512
+  sha256: b9424cc88f8d52b334fd7d45a9efaccf06b1ea6bd20a6716ba3373f4e0038092
+  source:
+    repository: codex-imagegen
+    artifact: exec-44f6173d-fc8a-414f-8d64-333d36517d2b.png
+    original_sha256: b9424cc88f8d52b334fd7d45a9efaccf06b1ea6bd20a6716ba3373f4e0038092
+    processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-3x2-low-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-3x2-low-v1.png
+  name: 석영 절개 3x2 바닥형
+  width: 512
+  height: 512
+  sha256: 71d0fa89edec84e626b85be872c28a9df692d56e96e5ce2efefe3dc36649d0bd
+  source:
+    repository: codex-imagegen
+    artifact: exec-2b1bd3c8-a6e4-4b61-a51d-9ad66f67cd24.png
+    original_sha256: 71d0fa89edec84e626b85be872c28a9df692d56e96e5ce2efefe3dc36649d0bd
+    processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-1x1-low-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-1x1-low-v1.png
+  name: 석영 절개 1x1 바닥형
+  width: 512
+  height: 512
+  sha256: e915e62b08c6a736943010049a893d47bead82366d491f85b23606de9ae978bb
+  source:
+    repository: codex-imagegen
+    artifact: exec-4df05178-92a3-42aa-90c5-e96d615b3a7e.png
+    original_sha256: e915e62b08c6a736943010049a893d47bead82366d491f85b23606de9ae978bb
+    processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
