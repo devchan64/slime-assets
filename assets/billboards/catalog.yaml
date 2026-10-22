@@ -13419,9 +13419,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-twin-tall-quartz-2x1-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+  map_references: []
   modeling:
     purpose: 높은 석영 쌍 열방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13529,7 +13527,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 3
   modeling:
     purpose: 중간 높이 석영 쌍 행방향 · 독립 낙석과 석영맥 강조
     recommended_uses:
@@ -13584,7 +13582,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   modeling:
     purpose: 높은 석영 쌍 행방향 · 독립 낙석과 석영맥 강조
     recommended_uses:

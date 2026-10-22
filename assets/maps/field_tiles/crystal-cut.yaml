@@ -8,8 +8,8 @@ data:
   - JJJJJJJJJJJJJJJKHHHKKKJJJJJJJJJJ
   - JJJJJKKKKKKJJJKHHHKKKKJJJJJJJJJJ
   - JJJJJKKKKKKKKKKHHHKKKJJJJJJJJJJJ
-  - JJJJJKKKKKKKKKHHHKKJJJJJJJJJJJJJ
-  - JJJJJKKKKKKKKKKHHKKJJJJJJJJJJJJJ
+  - JJJJJKKKKKKKKKHHHKKKKJJJJJJJJJJJ
+  - JJJJJKKKKKKKKKKHHKKKKJJJJJJJJJJJ
   - JJJJJJJJJHHKKKKHHHKKKKJJJJJJJJJJ
   - JJJJJJJJJHHKKKKKHHKKKKKJJJJJJJJJ
   - JJJJJJJJJHHJJJJKHHHKKKKJJJJJJJJJ
@@ -24,9 +24,9 @@ data:
   - JJJJJJJJKHHKKHHHJJJJJJKKKJJJJJJJ
   - JJJJJJJJKKKKHHHKJJJJJJJJJJJJJJJJ
   - JJJJJJJJJKKKHHHKKKJJJJJJJJJJJJJJ
-  - JJJJJJJJJJJJKHHKKKKJJJJJJJJJJJJJ
-  - JJJJJJJJJJJJKHHKKKKJJJJJJJJJJJJJ
-  - JJJJJJJJJJJJKHHHKKKJJJJJJJJJJJJJ
+  - JJJJJJJJJJJJKHHKKKKKJJJJJJJJJJJJ
+  - JJJJJJJJJJJKKHHKKKKKJJJJJJJJJJJJ
+  - JJJJJJJJJJJKKHHHKKKJJJJJJJJJJJJJ
   - JJJJJJJJJJJJKHHHKKKKJJJJJJJJJJJJ
   - JJJJJJJJJJJJKKHHKKKKKJJJJJJJJJJJ
   - JJJJJJJJJJJJKKHHHKKKKJJJJJJJJJJJ
@@ -60,26 +60,12 @@ data:
       row: 9
     textureKey: crystal-cut-compact-veined-chips-v1
     tileAnchor: center
-  - id: crystal-quartz-remodel-6
-    kind: decoration
-    position:
-      column: 18
-      row: 9
-    textureKey: crystal-cut-tall-quartz-v1
-    tileAnchor: center
   - id: crystal-quartz-remodel-8
     kind: decoration
     position:
       column: 9
       row: 5
     textureKey: crystal-cut-veined-boulder-2-v1
-    tileAnchor: center
-  - id: crystal-quartz-remodel-12
-    kind: decoration
-    position:
-      column: 22
-      row: 12
-    textureKey: crystal-cut-tall-quartz-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-1
     kind: decoration
@@ -133,14 +119,14 @@ data:
   - id: crystal-quartz-reinforce-14
     kind: decoration
     position:
-      column: 23
-      row: 26
+      column: 21
+      row: 24
     textureKey: crystal-cut-veined-boulder-reverse-2-v1
     tileAnchor: center
   - id: crystal-quartz-reinforce-16
     kind: decoration
     position:
-      column: 7
+      column: 12
       row: 1
     textureKey: crystal-cut-veined-boulder-3-v1
     tileAnchor: center
@@ -168,29 +154,15 @@ data:
   - id: crystal-wall-expansion-4
     kind: decoration
     position:
-      column: 13
+      column: 11
       row: 7
     textureKey: crystal-cut-medium-quartz-1x2-v1
     tileAnchor: center
   - id: crystal-wall-expansion-8
     kind: decoration
     position:
-      column: 13
+      column: 11
       row: 9
-    textureKey: crystal-cut-twin-tall-quartz-1x2-v1
-    tileAnchor: center
-  - id: crystal-wall-expansion-13
-    kind: decoration
-    position:
-      column: 19
-      row: 11
-    textureKey: crystal-cut-twin-tall-quartz-2x1-v1
-    tileAnchor: center
-  - id: crystal-wall-expansion-14
-    kind: decoration
-    position:
-      column: 19
-      row: 12
     textureKey: crystal-cut-twin-tall-quartz-1x2-v1
     tileAnchor: center
   - id: crystal-wall-expansion-17
@@ -198,6 +170,34 @@ data:
     position:
       column: 24
       row: 18
+    textureKey: crystal-cut-tall-quartz-v1
+    tileAnchor: center
+  - id: crystal-remodel-wall-north-pair
+    kind: decoration
+    position:
+      column: 19
+      row: 7
+    textureKey: crystal-cut-medium-quartz-1x2-v1
+    tileAnchor: center
+  - id: crystal-remodel-wall-south-pair
+    kind: decoration
+    position:
+      column: 11
+      row: 24
+    textureKey: crystal-cut-medium-quartz-1x2-v1
+    tileAnchor: center
+  - id: crystal-remodel-wall-south-tip
+    kind: decoration
+    position:
+      column: 18
+      row: 23
+    textureKey: crystal-cut-tall-quartz-v1
+    tileAnchor: center
+  - id: crystal-remodel-wall-north-tip
+    kind: decoration
+    position:
+      column: 16
+      row: 3
     textureKey: crystal-cut-tall-quartz-v1
     tileAnchor: center
   cliffTextureKey: cinder-basalt-wall-v1
