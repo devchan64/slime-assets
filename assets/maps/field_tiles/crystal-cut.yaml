@@ -9,30 +9,30 @@ data:
   - JJJJJJJJJJJJKJKKJKKlKKJJJlJJJJJJ
   - JJJJJJJJJJJJJJJJJJJlJJJJJlJJJJJJ
   - JJJJJJJJJJJJKJJJJlllJJJJJlJJJJJJ
-  - JJJJJJJJJJJJKJJJJllJJKJlllllJJJJ
-  - JJJJJJJJlllllllllllJJJllJJJJJJJJ
-  - JJJJJJlllJJJKJJJllJJlllJJJJJJJJJ
-  - JJJJJJlllJJKJJJJJJJJlJJJJJJJJJJJ
-  - JJJJJJlllJJKJJJJJJJllJJKJKJJKKJK
-  - JJJJJJlllllJJJJJJJJlJJJJJJJJJJJJ
-  - JJJJlllllllJJJJJJJJlJJJJlJJJJJJJ
-  - JJJJlJlJlllKJJJJJJJllllllJJJJJJJ
+  - JJJJJJJJJJJJKJJJJlJJJKJlllllJJJJ
+  - JJJJJJJJllllllllllJJJJllJJJJJJJJ
+  - JJJJJJlllJJJKJJJJJJJlllJJJJJJJJJ
+  - JJJJJJlJlJJKJJJJJJJJlJJJJJJJJJJJ
+  - JJJJJJlJlJJKJJJJJJJllJJKJKJJKKJK
+  - JJJJJJlJlllJJJJJJJJlJJJJJJJJJJJJ
+  - JJJJlllJJJlJJJJJJJJlJJJJlJJJJJJJ
+  - JJJJlJJJlllKJJJJJJJllllllJJJJJJJ
   - JJJJlllJlJJJJJJJllllllllllJJJJJl
-  - JJJJJJlJlJJKJJJJlJJJJJJJJllJJJJl
+  - JJJJJJlJlJJKJJJJllllllllJllJJJJl
   - JJJJJJlJlJJKJJJJllJJJJJJJlllllll
   - JJJJJJlJllllllllllJJJJJJJllllJJJ
   - JJJJJJlJJJJJJJJllJJJJJJKKJKlJKKJ
   - JJJJJJlJJJJKJJJllJJJJJKJJJJlJJJJ
   - JJJJJJlJJJJJJJJlJJJJJJKJJJJlJJJJ
   - JJJJJJlllllJKJJlJJJJJJJJJJJlJJJJ
-  - JJJJJJJllllllJJlJJJJKJJJJJJlJJJJ
-  - JJJJJJJJJJlllllllJJJJJJJJJllJJJJ
+  - JJJJJJJJJJlllJJlJJJJKJJJJJJlJJJJ
+  - JJJJJJJJJJJJlllllJJJJJJJJJllJJJJ
   - JJJJJJJJJJJJJJJJlJJJJJJJJllJJJJJ
   - JJJJJJJJJJJJJJJJllllllllllJJJJJJ
   - JJJJJJJJJJJJKJJJlllllJJJJJJJJJJJ
-  - JJJJJJJJJJJJKJJJlJJJKJJJJJJJJJJJ
-  - JJJJJJJJJJJJJJJJlJJJKJJJJJJJJJJJ
-  - JJJJJJJJJJJJKJJJlJJJJJJJJJJJJJJJ
+  - JJJJJJJJJJJJKJJJllJJKJJJJJJJJJJJ
+  - JJJJJJJJJJJJJJJJllJJKJJJJJJJJJJJ
+  - JJJJJJJJJJJJKJJJllJJJJJJJJJJJJJJ
   objects:
   - id: ward-tower
     kind: ward-tower
@@ -112,8 +112,8 @@ data:
   - id: quartz-medium-2x1
     kind: decoration
     position:
-      column: 24
-      row: 22
+      column: 22
+      row: 23
     textureKey: crystal-cut-guide-2x1-medium-v1
     tileAnchor: center
   - id: quartz-medium-1x2
@@ -196,8 +196,8 @@ data:
   - id: quartz-grounded-low-8
     kind: decoration
     position:
-      column: 23
-      row: 23
+      column: 21
+      row: 24
     textureKey: crystal-cut-low-rubble-3x1-v1
     tileAnchor: center
   - id: quartz-grounded-low-11
@@ -238,8 +238,8 @@ data:
   - id: quartz-cluster-fragment-3
     kind: decoration
     position:
-      column: 26
-      row: 22
+      column: 24
+      row: 23
     textureKey: crystal-cut-quartz-1x1-inclusions-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-4
@@ -252,8 +252,8 @@ data:
   - id: quartz-cluster-fragment-5
     kind: decoration
     position:
-      column: 3
-      row: 23
+      column: 14
+      row: 26
     textureKey: crystal-cut-quartz-1x1-web-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-6
@@ -287,8 +287,8 @@ data:
   - id: quartz-cluster-fragment-10
     kind: decoration
     position:
-      column: 3
-      row: 15
+      column: 14
+      row: 19
     textureKey: crystal-cut-quartz-1x1-band-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-11
@@ -301,8 +301,8 @@ data:
   - id: quartz-cluster-fragment-12
     kind: decoration
     position:
-      column: 2
-      row: 16
+      column: 13
+      row: 20
     textureKey: crystal-cut-quartz-detail-shelf-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-13
@@ -322,15 +322,15 @@ data:
   - id: quartz-cluster-fragment-15
     kind: decoration
     position:
-      column: 26
-      row: 15
+      column: 15
+      row: 14
     textureKey: crystal-cut-quartz-detail-buried-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-16
     kind: decoration
     position:
-      column: 3
-      row: 14
+      column: 14
+      row: 21
     textureKey: crystal-cut-quartz-detail-scatter-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-17
@@ -350,8 +350,8 @@ data:
   - id: quartz-cluster-fragment-19
     kind: decoration
     position:
-      column: 23
-      row: 22
+      column: 21
+      row: 23
     textureKey: crystal-cut-quartz-1x1-parallel-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-20
@@ -399,8 +399,8 @@ data:
   - id: quartz-cluster-fragment-26
     kind: decoration
     position:
-      column: 25
-      row: 24
+      column: 23
+      row: 25
     textureKey: crystal-cut-quartz-1x1-lens-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-27
@@ -462,15 +462,15 @@ data:
   - id: quartz-cluster-fragment-38
     kind: decoration
     position:
-      column: 22
-      row: 22
+      column: 20
+      row: 23
     textureKey: crystal-cut-quartz-1x1-branch-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-39
     kind: decoration
     position:
-      column: 20
-      row: 13
+      column: 15
+      row: 12
     textureKey: crystal-cut-quartz-1x1-web-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-40
@@ -497,8 +497,8 @@ data:
   - id: quartz-cluster-fragment-43
     kind: decoration
     position:
-      column: 24
-      row: 24
+      column: 22
+      row: 25
     textureKey: crystal-cut-quartz-1x1-lens-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-44
@@ -525,22 +525,22 @@ data:
   - id: quartz-cluster-fragment-47
     kind: decoration
     position:
-      column: 25
-      row: 15
+      column: 15
+      row: 13
     textureKey: crystal-cut-quartz-detail-asymmetric-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-48
     kind: decoration
     position:
-      column: 26
-      row: 23
+      column: 24
+      row: 24
     textureKey: crystal-cut-quartz-detail-scree-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-51
     kind: decoration
     position:
-      column: 25
-      row: 25
+      column: 23
+      row: 26
     textureKey: crystal-cut-quartz-detail-hairline-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-54
@@ -574,8 +574,8 @@ data:
   - id: quartz-cluster-fragment-60
     kind: decoration
     position:
-      column: 23
-      row: 24
+      column: 21
+      row: 25
     textureKey: crystal-cut-quartz-1x1-lens-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-61
@@ -690,6 +690,62 @@ data:
       row: 20
     textureKey: crystal-cut-quartz-detail-hairline-v1
     tileAnchor: center
+  - id: quartz-outer-outcrop-1
+    kind: decoration
+    position:
+      column: 3
+      row: 2
+    textureKey: crystal-cut-low-branch-2x1-v1
+    tileAnchor: center
+  - id: quartz-outer-outcrop-2
+    kind: decoration
+    position:
+      column: 5
+      row: 3
+    textureKey: crystal-cut-quartz-detail-buried-v1
+    tileAnchor: center
+  - id: quartz-outer-outcrop-3
+    kind: decoration
+    position:
+      column: 4
+      row: 4
+    textureKey: crystal-cut-quartz-detail-hairline-v1
+    tileAnchor: center
+  - id: quartz-outer-outcrop-4
+    kind: decoration
+    position:
+      column: 8
+      row: 2
+    textureKey: crystal-cut-guide-2x2-low-v1
+    tileAnchor: center
+  - id: quartz-outer-outcrop-5
+    kind: decoration
+    position:
+      column: 6
+      row: 2
+    textureKey: crystal-cut-quartz-detail-scree-v1
+    tileAnchor: center
+  - id: quartz-outer-outcrop-6
+    kind: decoration
+    position:
+      column: 7
+      row: 3
+    textureKey: crystal-cut-quartz-detail-scatter-v1
+    tileAnchor: center
+  - id: quartz-outer-outcrop-7
+    kind: decoration
+    position:
+      column: 2
+      row: 7
+    textureKey: crystal-cut-quartz-1x1-band-v1
+    tileAnchor: center
+  - id: quartz-outer-outcrop-8
+    kind: decoration
+    position:
+      column: 1
+      row: 6
+    textureKey: crystal-cut-quartz-detail-buried-v1
+    tileAnchor: center
   cliffTextureKey: cinder-basalt-wall-v1
   groundOverrides:
   - position:
@@ -757,10 +813,6 @@ data:
       row: 8
     textureKey: quartz-dust-road-v1
   - position:
-      column: 18
-      row: 8
-    textureKey: quartz-dust-road-v1
-  - position:
       column: 23
       row: 8
     textureKey: quartz-dust-road-v1
@@ -821,10 +873,6 @@ data:
       row: 9
     textureKey: quartz-dust-road-v1
   - position:
-      column: 18
-      row: 9
-    textureKey: quartz-dust-road-v1
-  - position:
       column: 22
       row: 9
     textureKey: quartz-dust-road-v1
@@ -845,14 +893,6 @@ data:
       row: 10
     textureKey: quartz-dust-road-v1
   - position:
-      column: 16
-      row: 10
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 17
-      row: 10
-    textureKey: quartz-dust-road-v1
-  - position:
       column: 20
       row: 10
     textureKey: quartz-dust-road-v1
@@ -869,10 +909,6 @@ data:
       row: 11
     textureKey: quartz-dust-road-v1
   - position:
-      column: 7
-      row: 11
-    textureKey: quartz-dust-road-v1
-  - position:
       column: 8
       row: 11
     textureKey: quartz-dust-road-v1
@@ -882,10 +918,6 @@ data:
     textureKey: quartz-dust-road-v1
   - position:
       column: 6
-      row: 12
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 7
       row: 12
     textureKey: quartz-dust-road-v1
   - position:
@@ -902,10 +934,6 @@ data:
     textureKey: quartz-dust-road-v1
   - position:
       column: 6
-      row: 13
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 7
       row: 13
     textureKey: quartz-dust-road-v1
   - position:
@@ -937,18 +965,6 @@ data:
       row: 14
     textureKey: quartz-dust-road-v1
   - position:
-      column: 7
-      row: 14
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 8
-      row: 14
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 9
-      row: 14
-    textureKey: quartz-dust-road-v1
-  - position:
       column: 10
       row: 14
     textureKey: quartz-dust-road-v1
@@ -962,10 +978,6 @@ data:
     textureKey: quartz-dust-road-v1
   - position:
       column: 4
-      row: 15
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 6
       row: 15
     textureKey: quartz-dust-road-v1
   - position:
@@ -1074,6 +1086,34 @@ data:
     textureKey: quartz-dust-road-v1
   - position:
       column: 16
+      row: 17
+    textureKey: quartz-dust-road-v1
+  - position:
+      column: 17
+      row: 17
+    textureKey: quartz-dust-road-v1
+  - position:
+      column: 18
+      row: 17
+    textureKey: quartz-dust-road-v1
+  - position:
+      column: 19
+      row: 17
+    textureKey: quartz-dust-road-v1
+  - position:
+      column: 20
+      row: 17
+    textureKey: quartz-dust-road-v1
+  - position:
+      column: 21
+      row: 17
+    textureKey: quartz-dust-road-v1
+  - position:
+      column: 22
+      row: 17
+    textureKey: quartz-dust-road-v1
+  - position:
+      column: 23
       row: 17
     textureKey: quartz-dust-road-v1
   - position:
@@ -1265,18 +1305,6 @@ data:
       row: 23
     textureKey: quartz-dust-road-v1
   - position:
-      column: 7
-      row: 24
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 8
-      row: 24
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 9
-      row: 24
-    textureKey: quartz-dust-road-v1
-  - position:
       column: 10
       row: 24
     textureKey: quartz-dust-road-v1
@@ -1295,14 +1323,6 @@ data:
   - position:
       column: 27
       row: 24
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 10
-      row: 25
-    textureKey: quartz-dust-road-v1
-  - position:
-      column: 11
-      row: 25
     textureKey: quartz-dust-road-v1
   - position:
       column: 12
@@ -1409,11 +1429,23 @@ data:
       row: 29
     textureKey: quartz-dust-road-v1
   - position:
+      column: 17
+      row: 29
+    textureKey: quartz-dust-road-v1
+  - position:
       column: 16
       row: 30
     textureKey: quartz-dust-road-v1
   - position:
+      column: 17
+      row: 30
+    textureKey: quartz-dust-road-v1
+  - position:
       column: 16
+      row: 31
+    textureKey: quartz-dust-road-v1
+  - position:
+      column: 17
       row: 31
     textureKey: quartz-dust-road-v1
   cliffOverrides: []
