@@ -619,7 +619,7 @@ assets:
 - managementId: config.field-tiles.crystal-cut
   version: crystal-remodel-v1-detail-v1-ore-v1-dense-v1-footprints-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: c45ef90739bc998eda3e46ebbca59bec5657598ac9c57982de038d543a937f64
+  sha256: 95dd122634a41dc8c356e2acb062af72b6f2ba250a188709cb5c20160a731b60
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -1171,7 +1171,7 @@ assets:
 - managementId: config.terrain.maps.crystal-cut
   version: field-detail-v2-detail-v1-footprints-v1
   path: assets/maps/terrain/maps/crystal-cut.yaml
-  sha256: 99750fb096ed489d5c131bc9046e4fd7d83b0dd95c156b661007669fce44cdea
+  sha256: d7bb513af272eea1baaec08fc59b1eea59b4daecfdc397c47742f79713db7f0f
   source:
     repository: slime-backend
     path: config/terrain/maps/crystal-cut.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 4eb31d2ff675cfc8fba050b11c26bf03e88d18cdf496ee3ef63bcf92a764a35a
+  sha256: 44a767ba7ccc11b01f73458d68c2142ad959c51dc4666cbd5ff52a769befc765
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8322,3 +8322,135 @@ assets:
     artifact: exec-6845f365-563d-47c0-8a53-786011d350df.png
     original_sha256: 280a775ca9864f889c1570b9482ccaa1bfd17d3010059a7e8e94dbe0efe629b6
     processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-detail-shelf-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-detail-shelf-v1.png
+  name: 낮은 석영 노출 암반
+  width: 512
+  height: 512
+  sha256: efb78b7e036a12ed333b4ba196b48a978b337c038aa138ae814cc37b3c950a4f
+  source:
+    repository: codex-imagegen
+    artifact: exec-bc02bb78-b6cf-4a24-9124-ba7e956b4cb0.png
+    original_sha256: 2f490f4072021062f178c64c64b4c5e77421bc719f8d359e847ca080079d0d40
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-detail-asymmetric-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-detail-asymmetric-v1.png
+  name: 편측 석영 비대칭 바위
+  width: 512
+  height: 512
+  sha256: c9019a8fb908cdad482e717a233998accdcfaa02e15823a30df2d2adb1b4dff7
+  source:
+    repository: codex-imagegen
+    artifact: exec-d400bc0f-0c1e-42ae-ae98-dff09c7d54fa.png
+    original_sha256: 43717d536e8c8ee940f140a6dade40255caf59dbd6845858f4e7e5b6aef36b22
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-detail-scree-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-detail-scree-v1.png
+  name: 석영 파쇄암 더미
+  width: 512
+  height: 512
+  sha256: 3ae3d46ff0fe84032b240da280a526dc82e88634060df365fb89896757f5d89f
+  source:
+    repository: codex-imagegen
+    artifact: exec-b376eb6c-9560-4c97-ba74-8ec2125ab86a.png
+    original_sha256: 240f7f484d1b544ab6de58786225e5202ba15ae1cdb6964fcf1dc276e6681d46
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-detail-buried-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-detail-buried-v1.png
+  name: 얕은 석영 노출부
+  width: 512
+  height: 512
+  sha256: c042f81fb3dd8acb6b19bd034f6048ccc826db035410a5c4ef8d440c7df1aec7
+  source:
+    repository: codex-imagegen
+    artifact: exec-0fbe5223-97fb-42b5-8206-e4ba83929736.png
+    original_sha256: 1db2963dae6140884d0d4d34068b731afff6d3299b879fa8a188e0fe71d74588
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-detail-scatter-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-detail-scatter-v1.png
+  name: 흩어진 석영 파편
+  width: 512
+  height: 512
+  sha256: f8d65044c9a94444e0870a7685e374eed510d6045fc8883d9a482d668ef9ce08
+  source:
+    repository: codex-imagegen
+    artifact: exec-af0c69c3-5754-4552-a391-9c6ded96bd74.png
+    original_sha256: 97fbee5d1154aa916a849502dab2bfcbe9eaa3ea53528cbd25313ed2d41dec38
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-quartz-detail-hairline-v1
+  version: v1
+  path: assets/billboards/crystal-cut-quartz-detail-hairline-v1.png
+  name: 가는 단절맥 바위
+  width: 512
+  height: 512
+  sha256: ac95763de2b93866163a31c1998b367760313bc0e26056eb88095cde9d836e8b
+  source:
+    repository: codex-imagegen
+    artifact: exec-1b9fe862-987b-45d7-8f94-ca65f6a025b2.png
+    original_sha256: d7ceba6b773b1eef8cf5ebeaa79c79800aacfd50414d551f83e5182f87c7e0e3
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-3x1-medium-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-3x1-medium-v1.png
+  name: 중간 사선 석영 암벽
+  width: 512
+  height: 512
+  sha256: 5b2290cbf45089646d0fead88e6cab0a2250c557d4d8c242b35c19a0b6719242
+  source:
+    repository: codex-imagegen
+    artifact: exec-5908cf9e-a5a3-46bd-9c7a-bdea133a3e62.png
+    original_sha256: a45e8540a7fbf0224cb1afa0d8cbb64573700d3d175416acce9204d03af8b6ec
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-2x1-medium-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-2x1-medium-v1.png
+  name: 중간 석영 포켓 암벽
+  width: 512
+  height: 512
+  sha256: b0c248f1078691747cd7910ebffe565e5918aa0da30189308c0205796c21a5ef
+  source:
+    repository: codex-imagegen
+    artifact: exec-1d6b2d2a-4de7-469b-946d-a1e42b8d1929.png
+    original_sha256: f34888015a045bd7f12dbe2a0efbed6b8d26ac7015f1b603d82ba386b649282a
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-1x2-medium-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-1x2-medium-v1.png
+  name: 중간 분기맥 암벽
+  width: 512
+  height: 512
+  sha256: 5f0b429e021ec1bb1a480a61fbd0963807ed64f409c88aaea0c2c27f830f60cd
+  source:
+    repository: codex-imagegen
+    artifact: exec-cfcd0ded-2f08-41a4-911c-2917f11daf00.png
+    original_sha256: 230300c4b8df83b33eef61ce99252e43a2326650860aff7b427b46c52f9653f9
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-guide-1x3-medium-v1
+  version: v1
+  path: assets/billboards/crystal-cut-guide-1x3-medium-v1.png
+  name: 중간 렌즈맥 암벽
+  width: 512
+  height: 512
+  sha256: df31e8bddddb9b9b125789f2c46be526ad692ccf3d92c49e80f22509f4a026af
+  source:
+    repository: codex-imagegen
+    artifact: exec-fe0f7f09-675d-40f9-a5e4-316ce2cb029a.png
+    original_sha256: 144e76eace371730dd581cd94368e96ca4a492cda02e3d8eae374bacda8cbffb
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.terrain.quartz-dust-road-v1
+  version: v1
+  path: assets/tiles/terrain/road/quartz-dust-road-v1.png
+  name: 석영 쇄석 흙길
+  width: 128
+  height: 128
+  sha256: 27e5335ef0d65d02b9bd5ee602f06db5cd886cd0fd750cdd9ba567932d0129b0
+  source:
+    repository: codex-imagegen
+    artifact: exec-6bdee42f-1357-4217-be3e-8f2817210781.png
+    original_sha256: 7d6be53dd35c7aeda9a4e6fb321e0d3b6baa969dcad41a26d650f9be823f2aaf
+    processing: 사용자 채택. 현행 바닥 원본 128px 규격으로 비율 유지 축소.

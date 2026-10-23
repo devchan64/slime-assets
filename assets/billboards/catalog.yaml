@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 241
+  image_count: 251
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-20'
@@ -1496,6 +1496,106 @@ families:
     - 1×1 접지·회색 암반과 상아색 석영
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+  crystal-cut-quartz-detail-shelf-v1:
+    category: rock
+    review_category: vegetation
+    name: 낮은 석영 노출 암반
+    features:
+    - 넓고 낮은 회색 암반에 작은 상아색 석영 노출부가 드문드문 보인다.
+    - 1×1 접지·회색 암반과 상아색 석영
+    uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+  crystal-cut-quartz-detail-asymmetric-v1:
+    category: rock
+    review_category: vegetation
+    name: 편측 석영 비대칭 바위
+    features:
+    - 한쪽으로 기운 회색 바위의 한 면에 석영이 집중되어 있다.
+    - 1×1 접지·회색 암반과 상아색 석영
+    uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+  crystal-cut-quartz-detail-scree-v1:
+    category: rock
+    review_category: vegetation
+    name: 석영 파쇄암 더미
+    features:
+    - 서로 다른 크기의 각진 회색 파쇄암 사이에 석영 조각이 섞여 있다.
+    - 1×1 접지·회색 암반과 상아색 석영
+    uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+  crystal-cut-quartz-detail-buried-v1:
+    category: rock
+    review_category: vegetation
+    name: 얕은 석영 노출부
+    features:
+    - 지면에 묻힌 듯 낮은 풍화 암반에 흐린 상아색 석영이 드러난다.
+    - 1×1 접지·회색 암반과 상아색 석영
+    uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+  crystal-cut-quartz-detail-scatter-v1:
+    category: rock
+    review_category: vegetation
+    name: 흩어진 석영 파편
+    features:
+    - 작고 납작한 회색 돌과 상아색 석영 조각이 틈을 두고 흩어져 있다.
+    - 1×1 접지·회색 암반과 상아색 석영
+    uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+  crystal-cut-quartz-detail-hairline-v1:
+    category: rock
+    review_category: vegetation
+    name: 가는 단절맥 바위
+    features:
+    - 회색 바위의 넓은 면에 가늘고 끊어진 흰 석영맥이 보인다.
+    - 1×1 접지·회색 암반과 상아색 석영
+    uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+  crystal-cut-guide-3x1-medium-v1:
+    category: rock
+    review_category: vegetation
+    name: 중간 사선 석영 암벽
+    features:
+    - 회색 층상 암반을 굵고 끊어진 사선 석영맥이 가로지른다.
+    - 중간 벽면형·회색 암반과 상아색 석영
+    uses:
+    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
+      확인한다.
+  crystal-cut-guide-2x1-medium-v1:
+    category: rock
+    review_category: vegetation
+    name: 중간 석영 포켓 암벽
+    features:
+    - 각진 암반 전면에 큰 상아색 석영 덩어리가 드러난다.
+    - 중간 벽면형·회색 암반과 상아색 석영
+    uses:
+    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
+      확인한다.
+  crystal-cut-guide-1x2-medium-v1:
+    category: rock
+    review_category: vegetation
+    name: 중간 분기맥 암벽
+    features:
+    - 회색 절리 사이로 가는 석영맥이 갈라진다.
+    - 중간 벽면형·회색 암반과 상아색 석영
+    uses:
+    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
+      확인한다.
+  crystal-cut-guide-1x3-medium-v1:
+    category: rock
+    review_category: vegetation
+    name: 중간 렌즈맥 암벽
+    features:
+    - 긴 암벽 곳곳에 분리된 밝은 석영 덩어리가 박혀 있다.
+    - 중간 벽면형·회색 암반과 상아색 석영
+    uses:
+    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
+      확인한다.
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -14792,7 +14892,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   modeling:
     purpose: 석영 절개 2x1 벽면형 · 석영맥이 드러난 절개 노두
     recommended_uses:
@@ -14858,7 +14958,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   modeling:
     purpose: 석영 절개 1x2 벽면형 · 석영맥이 드러난 절개 노두
     recommended_uses:
@@ -14990,7 +15090,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 11
+    texture_key_occurrences: 3
   modeling:
     purpose: 석영 절개 2x2 바닥형 · 석영맥이 드러난 절개 노두
     recommended_uses:
@@ -15051,9 +15151,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-guide-2x3-low-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+  map_references: []
   modeling:
     purpose: 석영 절개 2x3 바닥형 · 석영맥이 드러난 절개 노두
     recommended_uses:
@@ -15114,9 +15212,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-guide-3x2-low-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 8
+  map_references: []
   modeling:
     purpose: 석영 절개 3x2 바닥형 · 석영맥이 드러난 절개 노두
     recommended_uses:
@@ -15179,7 +15275,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 37
+    texture_key_occurrences: 2
   modeling:
     purpose: 석영 절개 1x1 바닥형 · 석영맥이 드러난 절개 노두
     recommended_uses:
@@ -15240,7 +15336,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-quartz-1x1-parallel-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
   modeling:
     purpose: 가는 평행맥 판석
     recommended_uses:
@@ -15292,7 +15390,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-quartz-1x1-inclusions-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
   modeling:
     purpose: 점상 석영 각력암
     recommended_uses:
@@ -15344,7 +15444,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-quartz-1x1-branch-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 4
   modeling:
     purpose: 분기 석영 판석
     recommended_uses:
@@ -15397,7 +15499,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-quartz-1x1-web-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
   modeling:
     purpose: 망상맥 오목 암반
     recommended_uses:
@@ -15449,7 +15553,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-quartz-1x1-lens-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
   modeling:
     purpose: 렌즈 석영 바위
     recommended_uses:
@@ -15501,7 +15607,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-quartz-1x1-paired-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
   modeling:
     purpose: 쌍봉 석영 바위
     recommended_uses:
@@ -15553,7 +15661,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.crystal-cut-quartz-1x1-band-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
   modeling:
     purpose: 수평맥 석영 바위
     recommended_uses:
@@ -15764,6 +15874,556 @@ billboards:
     outdoorDisplayHeight: 117.205
     size_variant: 기본 변형
     occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: crystal-cut-quartz-detail-shelf-v1
+  family: crystal-cut-quartz-detail-shelf-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-detail-shelf-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
+  modeling:
+    purpose: 낮은 석영 노출 암반
+    recommended_uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+    composition: 넓고 낮은 회색 암반에 작은 상아색 석영 노출부가 드문드문 보인다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-quartz-detail-shelf-v1.png
+    width: 512
+    height: 512
+    sha256: efb78b7e036a12ed333b4ba196b48a978b337c038aa138ae814cc37b3c950a4f
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-shelf-v1
+    anchorX: -0.0378
+    anchorY: 0.391
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 151.08
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -0.35
+    shadowOffsetRow: -0.35
+    outdoorDisplayHeight: 75.54
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: crystal-cut-quartz-detail-asymmetric-v1
+  family: crystal-cut-quartz-detail-asymmetric-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-detail-asymmetric-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
+  modeling:
+    purpose: 편측 석영 비대칭 바위
+    recommended_uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+    composition: 한쪽으로 기운 회색 바위의 한 면에 석영이 집중되어 있다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-quartz-detail-asymmetric-v1.png
+    width: 512
+    height: 512
+    sha256: c9019a8fb908cdad482e717a233998accdcfaa02e15823a30df2d2adb1b4dff7
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-asymmetric-v1
+    anchorX: -0.0136
+    anchorY: 0.1703
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 139.53
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -0.35
+    shadowOffsetRow: -0.35
+    outdoorDisplayHeight: 69.765
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: crystal-cut-quartz-detail-scree-v1
+  family: crystal-cut-quartz-detail-scree-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-detail-scree-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
+  modeling:
+    purpose: 석영 파쇄암 더미
+    recommended_uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+    composition: 서로 다른 크기의 각진 회색 파쇄암 사이에 석영 조각이 섞여 있다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-quartz-detail-scree-v1.png
+    width: 512
+    height: 512
+    sha256: 3ae3d46ff0fe84032b240da280a526dc82e88634060df365fb89896757f5d89f
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: bottom
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-scree-v1
+    anchorX: 0.0046
+    anchorY: 0.9817
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 249.76
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -0.35
+    shadowOffsetRow: -0.35
+    outdoorDisplayHeight: 124.88
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: crystal-cut-quartz-detail-buried-v1
+  family: crystal-cut-quartz-detail-buried-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-detail-buried-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 3
+  modeling:
+    purpose: 얕은 석영 노출부
+    recommended_uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+    composition: 지면에 묻힌 듯 낮은 풍화 암반에 흐린 상아색 석영이 드러난다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-quartz-detail-buried-v1.png
+    width: 512
+    height: 512
+    sha256: c042f81fb3dd8acb6b19bd034f6048ccc826db035410a5c4ef8d440c7df1aec7
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: bottom
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-buried-v1
+    anchorX: -0.003
+    anchorY: 1.0081
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 248.74
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -0.35
+    shadowOffsetRow: -0.35
+    outdoorDisplayHeight: 124.37
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: crystal-cut-quartz-detail-scatter-v1
+  family: crystal-cut-quartz-detail-scatter-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-detail-scatter-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
+  modeling:
+    purpose: 흩어진 석영 파편
+    recommended_uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+    composition: 작고 납작한 회색 돌과 상아색 석영 조각이 틈을 두고 흩어져 있다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-quartz-detail-scatter-v1.png
+    width: 512
+    height: 512
+    sha256: f8d65044c9a94444e0870a7685e374eed510d6045fc8883d9a482d668ef9ce08
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-scatter-v1
+    anchorX: -0.0285
+    anchorY: 0.3236
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 145.67
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -0.35
+    shadowOffsetRow: -0.35
+    outdoorDisplayHeight: 72.835
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: crystal-cut-quartz-detail-hairline-v1
+  family: crystal-cut-quartz-detail-hairline-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-quartz-detail-hairline-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 2
+  modeling:
+    purpose: 가는 단절맥 바위
+    recommended_uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+    composition: 회색 바위의 넓은 면에 가늘고 끊어진 흰 석영맥이 보인다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-quartz-detail-hairline-v1.png
+    width: 512
+    height: 512
+    sha256: ac95763de2b93866163a31c1998b367760313bc0e26056eb88095cde9d836e8b
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-hairline-v1
+    anchorX: -0.0015
+    anchorY: 0.2647
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 123.22
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -0.35
+    shadowOffsetRow: -0.35
+    outdoorDisplayHeight: 61.61
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: crystal-cut-guide-3x1-medium-v1
+  family: crystal-cut-guide-3x1-medium-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-guide-3x1-medium-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 중간 사선 석영 암벽
+    recommended_uses:
+    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
+      확인한다.
+    composition: 회색 층상 암반을 굵고 끊어진 사선 석영맥이 가로지른다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-guide-3x1-medium-v1.png
+    width: 512
+    height: 512
+    sha256: 5b2290cbf45089646d0fead88e6cab0a2250c557d4d8c242b35c19a0b6719242
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: bottom
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-3x1-medium-v1
+    anchorX: -0.5114
+    anchorY: 0.5254
+    groundFootprintColumns: 3
+    groundFootprintRows: 1
+    displayHeight: 384.32
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -1.0
+    shadowOffsetRow: -0.3333333333333333
+    outdoorDisplayHeight: 192.16
+    size_variant: 기본 변형
+    occupied_tile_count: 3
+    movement: 통행 가능
+- texture_key: crystal-cut-guide-2x1-medium-v1
+  family: crystal-cut-guide-2x1-medium-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-guide-2x1-medium-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 중간 석영 포켓 암벽
+    recommended_uses:
+    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
+      확인한다.
+    composition: 각진 암반 전면에 큰 상아색 석영 덩어리가 드러난다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-guide-2x1-medium-v1.png
+    width: 512
+    height: 512
+    sha256: b0c248f1078691747cd7910ebffe565e5918aa0da30189308c0205796c21a5ef
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: bottom
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-2x1-medium-v1
+    anchorX: -0.2516
+    anchorY: 0.6866
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 385.27
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -0.6666666666666666
+    shadowOffsetRow: -0.3333333333333333
+    outdoorDisplayHeight: 192.635
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: crystal-cut-guide-1x2-medium-v1
+  family: crystal-cut-guide-1x2-medium-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-guide-1x2-medium-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 중간 분기맥 암벽
+    recommended_uses:
+    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
+      확인한다.
+    composition: 회색 절리 사이로 가는 석영맥이 갈라진다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-guide-1x2-medium-v1.png
+    width: 512
+    height: 512
+    sha256: 5f0b429e021ec1bb1a480a61fbd0963807ed64f409c88aaea0c2c27f830f60cd
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-1x2-medium-v1
+    anchorX: 0.2307
+    anchorY: 0.4986
+    groundFootprintColumns: 1
+    groundFootprintRows: 2
+    displayHeight: 304.79
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -0.3333333333333333
+    shadowOffsetRow: -0.6666666666666666
+    outdoorDisplayHeight: 152.395
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: crystal-cut-guide-1x3-medium-v1
+  family: crystal-cut-guide-1x3-medium-v1
+  asset_ref:
+    management_id: image.scenery.crystal-cut-guide-1x3-medium-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/crystal-cut.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 중간 렌즈맥 암벽
+    recommended_uses:
+    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
+      확인한다.
+    composition: 긴 암벽 곳곳에 분리된 밝은 석영 덩어리가 박혀 있다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 같은 광맥 패턴의 연속 반복
+    - 이동로 전체를 가리는 밀집
+    basis: 생성 PNG를 직접 확인한 외형 묘사. 실제 불투명 실루엣의 하단 접지점으로 앵커를 계산했다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/crystal-cut-guide-1x3-medium-v1.png
+    width: 512
+    height: 512
+    sha256: df31e8bddddb9b9b125789f2c46be526ad692ccf3d92c49e80f22509f4a026af
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-1x3-medium-v1
+    anchorX: 0.4364
+    anchorY: 0.3791
+    groundFootprintColumns: 1
+    groundFootprintRows: 3
+    displayHeight: 361.13
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
+    shadowOffsetColumn: -0.3333333333333333
+    shadowOffsetRow: -1.0
+    outdoorDisplayHeight: 180.565
+    size_variant: 기본 변형
+    occupied_tile_count: 3
     movement: 통행 가능
 modeling_contract:
   purpose: 맵 제작용 에셋 선택·크기·접지·통행 참고 자료
