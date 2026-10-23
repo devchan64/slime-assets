@@ -44,28 +44,28 @@ data:
     position:
       column: 12
       row: 5
-    textureKey: crystal-cut-guide-3x1-tall-v1
+    textureKey: crystal-cut-medium-strata-2x1-v1
     tileAnchor: center
   - id: quartz-remodel-2
     kind: decoration
     position:
       column: 12
       row: 23
-    textureKey: crystal-cut-guide-1x3-tall-v1
+    textureKey: crystal-cut-medium-breccia-1x2-v1
     tileAnchor: center
   - id: quartz-remodel-3
     kind: decoration
     position:
       column: 23
       row: 12
-    textureKey: crystal-cut-guide-2x1-tall-v1
+    textureKey: crystal-cut-medium-pockets-2x1-v1
     tileAnchor: center
   - id: quartz-remodel-4
     kind: decoration
     position:
       column: 11
       row: 11
-    textureKey: crystal-cut-guide-1x2-tall-v1
+    textureKey: crystal-cut-medium-tilted-1x2-v1
     tileAnchor: center
   - id: quartz-remodel-5
     kind: decoration
@@ -102,160 +102,6 @@ data:
       row: 13
     textureKey: crystal-cut-guide-2x2-low-v1
     tileAnchor: center
-  - id: quartz-remodel-10
-    kind: decoration
-    position:
-      column: 13
-      row: 28
-    textureKey: crystal-cut-quartz-1x1-inclusions-v1
-    tileAnchor: center
-  - id: quartz-remodel-11
-    kind: decoration
-    position:
-      column: 12
-      row: 26
-    textureKey: crystal-cut-quartz-1x1-branch-v1
-    tileAnchor: center
-  - id: quartz-remodel-12
-    kind: decoration
-    position:
-      column: 12
-      row: 10
-    textureKey: crystal-cut-quartz-1x1-web-v1
-    tileAnchor: center
-  - id: quartz-remodel-13
-    kind: decoration
-    position:
-      column: 11
-      row: 13
-    textureKey: crystal-cut-quartz-1x1-lens-v1
-    tileAnchor: center
-  - id: quartz-remodel-15
-    kind: decoration
-    position:
-      column: 12
-      row: 21
-    textureKey: crystal-cut-quartz-1x1-band-v1
-    tileAnchor: center
-  - id: quartz-remodel-16
-    kind: decoration
-    position:
-      column: 22
-      row: 13
-    textureKey: crystal-cut-quartz-1x1-parallel-v1
-    tileAnchor: center
-  - id: quartz-remodel-17
-    kind: decoration
-    position:
-      column: 12
-      row: 8
-    textureKey: crystal-cut-quartz-1x1-inclusions-v1
-    tileAnchor: center
-  - id: quartz-remodel-18
-    kind: decoration
-    position:
-      column: 15
-      row: 5
-    textureKey: crystal-cut-quartz-1x1-branch-v1
-    tileAnchor: center
-  - id: quartz-remodel-19
-    kind: decoration
-    position:
-      column: 28
-      row: 12
-    textureKey: crystal-cut-guide-1x1-low-v1
-    tileAnchor: center
-  - id: quartz-remodel-20
-    kind: decoration
-    position:
-      column: 21
-      row: 11
-    textureKey: crystal-cut-quartz-1x1-lens-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-1-outcrop
-    kind: decoration
-    position:
-      column: 13
-      row: 12
-    textureKey: crystal-cut-quartz-1x1-paired-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-1-chips
-    kind: decoration
-    position:
-      column: 11
-      row: 15
-    textureKey: crystal-cut-quartz-1x1-band-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-2-outcrop
-    kind: decoration
-    position:
-      column: 12
-      row: 19
-    textureKey: crystal-cut-quartz-1x1-parallel-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-2-chips
-    kind: decoration
-    position:
-      column: 14
-      row: 10
-    textureKey: crystal-cut-guide-1x1-low-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-3-outcrop
-    kind: decoration
-    position:
-      column: 14
-      row: 26
-    textureKey: crystal-cut-quartz-1x1-branch-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-3-chips
-    kind: decoration
-    position:
-      column: 30
-      row: 12
-    textureKey: crystal-cut-quartz-1x1-web-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-4-outcrop
-    kind: decoration
-    position:
-      column: 17
-      row: 5
-    textureKey: crystal-cut-quartz-1x1-lens-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-4-chips
-    kind: decoration
-    position:
-      column: 20
-      row: 13
-    textureKey: crystal-cut-quartz-1x1-paired-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-5-chips
-    kind: decoration
-    position:
-      column: 28
-      row: 14
-    textureKey: crystal-cut-quartz-1x1-parallel-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-6-outcrop
-    kind: decoration
-    position:
-      column: 15
-      row: 7
-    textureKey: crystal-cut-quartz-1x1-inclusions-v1
-    tileAnchor: center
-  - id: quartz-vein-cluster-6-chips
-    kind: decoration
-    position:
-      column: 13
-      row: 14
-    textureKey: crystal-cut-quartz-1x1-branch-v1
-    tileAnchor: center
-  - id: quartz-massif-1-1
-    kind: decoration
-    position:
-      column: 11
-      row: 17
-    textureKey: crystal-cut-quartz-1x1-web-v1
-    tileAnchor: center
   - id: quartz-medium-3x1
     kind: decoration
     position:
@@ -284,117 +130,565 @@ data:
       row: 2
     textureKey: crystal-cut-guide-1x3-medium-v1
     tileAnchor: center
-  - id: quartz-detail-1
+  - id: quartz-wall-extension-1
+    kind: decoration
+    textureKey: crystal-cut-medium-breccia-1x2-v1
+    position:
+      column: 2
+      row: 14
+    tileAnchor: center
+  - id: quartz-wall-extension-2
+    kind: decoration
+    textureKey: crystal-cut-medium-tilted-1x2-v1
+    position:
+      column: 2
+      row: 23
+    tileAnchor: center
+  - id: quartz-wall-extension-4
+    kind: decoration
+    textureKey: crystal-cut-medium-pockets-2x1-v1
+    position:
+      column: 28
+      row: 12
+    tileAnchor: center
+  - id: quartz-grounded-low-1
+    kind: decoration
+    position:
+      column: 14
+      row: 5
+    textureKey: crystal-cut-low-branch-2x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-2
+    kind: decoration
+    position:
+      column: 12
+      row: 22
+    textureKey: crystal-cut-low-split-2x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-3
+    kind: decoration
+    position:
+      column: 22
+      row: 13
+    textureKey: crystal-cut-low-lenses-3x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-4
+    kind: decoration
+    position:
+      column: 12
+      row: 11
+    textureKey: crystal-cut-low-rubble-3x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-5
+    kind: decoration
+    position:
+      column: 27
+      row: 13
+    textureKey: crystal-cut-low-branch-2x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-6
+    kind: decoration
+    position:
+      column: 13
+      row: 28
+    textureKey: crystal-cut-low-split-2x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-8
+    kind: decoration
+    position:
+      column: 23
+      row: 23
+    textureKey: crystal-cut-low-rubble-3x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-11
+    kind: decoration
+    position:
+      column: 2
+      row: 17
+    textureKey: crystal-cut-low-lenses-3x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-12
+    kind: decoration
+    position:
+      column: 2
+      row: 25
+    textureKey: crystal-cut-low-rubble-3x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-13
+    kind: decoration
+    position:
+      column: 11
+      row: 8
+    textureKey: crystal-cut-low-branch-2x1-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-1
+    kind: decoration
+    position:
+      column: 7
+      row: 9
+    textureKey: crystal-cut-guide-1x1-low-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-2
+    kind: decoration
+    position:
+      column: 12
+      row: 12
+    textureKey: crystal-cut-quartz-1x1-parallel-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-3
+    kind: decoration
+    position:
+      column: 26
+      row: 22
+    textureKey: crystal-cut-quartz-1x1-inclusions-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-4
+    kind: decoration
+    position:
+      column: 30
+      row: 12
+    textureKey: crystal-cut-quartz-1x1-branch-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-5
+    kind: decoration
+    position:
+      column: 3
+      row: 23
+    textureKey: crystal-cut-quartz-1x1-web-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-6
+    kind: decoration
+    position:
+      column: 16
+      row: 3
+    textureKey: crystal-cut-quartz-1x1-lens-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-7
     kind: decoration
     position:
       column: 6
+      row: 9
+    textureKey: crystal-cut-quartz-1x1-paired-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-8
+    kind: decoration
+    position:
+      column: 22
+      row: 12
+    textureKey: crystal-cut-quartz-1x1-band-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-9
+    kind: decoration
+    position:
+      column: 16
       row: 4
+    textureKey: crystal-cut-quartz-1x1-lens-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-10
+    kind: decoration
+    position:
+      column: 3
+      row: 15
+    textureKey: crystal-cut-quartz-1x1-band-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-11
+    kind: decoration
+    position:
+      column: 11
+      row: 13
+    textureKey: crystal-cut-quartz-detail-hairline-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-12
+    kind: decoration
+    position:
+      column: 2
+      row: 16
     textureKey: crystal-cut-quartz-detail-shelf-v1
     tileAnchor: center
-  - id: quartz-detail-2
+  - id: quartz-cluster-fragment-13
+    kind: decoration
+    position:
+      column: 2
+      row: 20
+    textureKey: crystal-cut-quartz-detail-asymmetric-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-14
+    kind: decoration
+    position:
+      column: 12
+      row: 27
+    textureKey: crystal-cut-quartz-detail-scree-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-15
+    kind: decoration
+    position:
+      column: 3
+      row: 24
+    textureKey: crystal-cut-quartz-detail-buried-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-16
+    kind: decoration
+    position:
+      column: 3
+      row: 14
+    textureKey: crystal-cut-quartz-detail-scatter-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-17
+    kind: decoration
+    position:
+      column: 3
+      row: 21
+    textureKey: crystal-cut-quartz-detail-hairline-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-18
+    kind: decoration
+    position:
+      column: 13
+      row: 29
+    textureKey: crystal-cut-guide-1x1-low-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-19
+    kind: decoration
+    position:
+      column: 23
+      row: 22
+    textureKey: crystal-cut-quartz-1x1-parallel-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-20
+    kind: decoration
+    position:
+      column: 3
+      row: 22
+    textureKey: crystal-cut-quartz-1x1-inclusions-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-21
+    kind: decoration
+    position:
+      column: 13
+      row: 30
+    textureKey: crystal-cut-quartz-1x1-branch-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-22
+    kind: decoration
+    position:
+      column: 17
+      row: 3
+    textureKey: crystal-cut-quartz-1x1-web-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-23
+    kind: decoration
+    position:
+      column: 16
+      row: 5
+    textureKey: crystal-cut-quartz-1x1-lens-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-24
+    kind: decoration
+    position:
+      column: 3
+      row: 16
+    textureKey: crystal-cut-quartz-1x1-paired-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-25
+    kind: decoration
+    position:
+      column: 17
+      row: 4
+    textureKey: crystal-cut-quartz-1x1-band-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-26
+    kind: decoration
+    position:
+      column: 25
+      row: 24
+    textureKey: crystal-cut-quartz-1x1-lens-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-27
+    kind: decoration
+    position:
+      column: 14
+      row: 6
+    textureKey: crystal-cut-quartz-1x1-band-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-29
+    kind: decoration
+    position:
+      column: 12
+      row: 10
+    textureKey: crystal-cut-quartz-detail-shelf-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-30
+    kind: decoration
+    position:
+      column: 23
+      row: 14
+    textureKey: crystal-cut-quartz-detail-asymmetric-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-31
+    kind: decoration
+    position:
+      column: 12
+      row: 13
+    textureKey: crystal-cut-quartz-detail-scree-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-32
+    kind: decoration
+    position:
+      column: 15
+      row: 6
+    textureKey: crystal-cut-quartz-detail-buried-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-34
+    kind: decoration
+    position:
+      column: 13
+      row: 27
+    textureKey: crystal-cut-quartz-detail-hairline-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-36
+    kind: decoration
+    position:
+      column: 21
+      row: 12
+    textureKey: crystal-cut-quartz-1x1-parallel-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-37
+    kind: decoration
+    position:
+      column: 12
+      row: 26
+    textureKey: crystal-cut-quartz-1x1-inclusions-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-38
     kind: decoration
     position:
       column: 22
       row: 22
-    textureKey: crystal-cut-quartz-detail-asymmetric-v1
+    textureKey: crystal-cut-quartz-1x1-branch-v1
     tileAnchor: center
-  - id: quartz-detail-3
+  - id: quartz-cluster-fragment-39
     kind: decoration
     position:
       column: 2
       row: 19
-    textureKey: crystal-cut-quartz-detail-scree-v1
+    textureKey: crystal-cut-quartz-1x1-web-v1
     tileAnchor: center
-  - id: quartz-detail-4
+  - id: quartz-cluster-fragment-40
     kind: decoration
     position:
-      column: 17
-      row: 2
-    textureKey: crystal-cut-quartz-detail-buried-v1
+      column: 13
+      row: 12
+    textureKey: crystal-cut-quartz-1x1-lens-v1
     tileAnchor: center
-  - id: quartz-detail-5
+  - id: quartz-cluster-fragment-41
+    kind: decoration
+    position:
+      column: 14
+      row: 29
+    textureKey: crystal-cut-quartz-1x1-paired-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-42
     kind: decoration
     position:
       column: 2
-      row: 8
-    textureKey: crystal-cut-quartz-detail-scatter-v1
+      row: 26
+    textureKey: crystal-cut-quartz-1x1-band-v1
     tileAnchor: center
-  - id: quartz-detail-6
+  - id: quartz-cluster-fragment-43
     kind: decoration
     position:
       column: 24
-      row: 19
+      row: 24
+    textureKey: crystal-cut-quartz-1x1-lens-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-44
+    kind: decoration
+    position:
+      column: 14
+      row: 30
+    textureKey: crystal-cut-quartz-1x1-band-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-45
+    kind: decoration
+    position:
+      column: 12
+      row: 21
     textureKey: crystal-cut-quartz-detail-hairline-v1
     tileAnchor: center
-  - id: quartz-detail-7
+  - id: quartz-cluster-fragment-46
     kind: decoration
     position:
-      column: 4
-      row: 20
+      column: 11
+      row: 14
     textureKey: crystal-cut-quartz-detail-shelf-v1
     tileAnchor: center
-  - id: quartz-detail-8
+  - id: quartz-cluster-fragment-47
     kind: decoration
     position:
-      column: 19
-      row: 2
+      column: 3
+      row: 20
     textureKey: crystal-cut-quartz-detail-asymmetric-v1
     tileAnchor: center
-  - id: quartz-detail-9
+  - id: quartz-cluster-fragment-48
     kind: decoration
     position:
-      column: 10
-      row: 8
+      column: 26
+      row: 23
     textureKey: crystal-cut-quartz-detail-scree-v1
     tileAnchor: center
-  - id: quartz-detail-10
+  - id: quartz-cluster-fragment-51
+    kind: decoration
+    position:
+      column: 25
+      row: 25
+    textureKey: crystal-cut-quartz-detail-hairline-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-54
+    kind: decoration
+    position:
+      column: 13
+      row: 13
+    textureKey: crystal-cut-quartz-1x1-inclusions-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-55
     kind: decoration
     position:
       column: 21
-      row: 21
-    textureKey: crystal-cut-quartz-detail-buried-v1
+      row: 11
+    textureKey: crystal-cut-quartz-1x1-branch-v1
     tileAnchor: center
-  - id: quartz-detail-11
+  - id: quartz-cluster-fragment-56
     kind: decoration
     position:
-      column: 2
+      column: 13
+      row: 10
+    textureKey: crystal-cut-quartz-1x1-web-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-58
+    kind: decoration
+    position:
+      column: 22
+      row: 14
+    textureKey: crystal-cut-quartz-1x1-paired-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-60
+    kind: decoration
+    position:
+      column: 23
+      row: 24
+    textureKey: crystal-cut-quartz-1x1-lens-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-61
+    kind: decoration
+    position:
+      column: 13
+      row: 8
+    textureKey: crystal-cut-quartz-1x1-band-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-63
+    kind: decoration
+    position:
+      column: 14
+      row: 7
+    textureKey: crystal-cut-quartz-detail-shelf-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-64
+    kind: decoration
+    position:
+      column: 14
+      row: 22
+    textureKey: crystal-cut-quartz-detail-asymmetric-v1
+    tileAnchor: center
+  - id: quartz-wall-extension-3
+    kind: decoration
+    textureKey: crystal-cut-medium-tilted-1x2-v1
+    position:
+      column: 11
+      row: 16
+    tileAnchor: center
+  - id: quartz-grounded-low-14
+    kind: decoration
+    position:
+      column: 11
+      row: 18
+    textureKey: crystal-cut-low-split-2x1-v1
+    tileAnchor: center
+  - id: quartz-grounded-low-10
+    kind: decoration
+    position:
+      column: 11
+      row: 15
+    textureKey: crystal-cut-low-split-2x1-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-49
+    kind: decoration
+    position:
+      column: 12
+      row: 16
+    textureKey: crystal-cut-quartz-detail-buried-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-50
+    kind: decoration
+    position:
+      column: 12
       row: 17
     textureKey: crystal-cut-quartz-detail-scatter-v1
     tileAnchor: center
-  - id: quartz-detail-12
+  - id: quartz-cluster-fragment-52
     kind: decoration
     position:
-      column: 18
-      row: 3
+      column: 13
+      row: 17
+    textureKey: crystal-cut-guide-1x1-low-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-57
+    kind: decoration
+    position:
+      column: 13
+      row: 18
+    textureKey: crystal-cut-quartz-1x1-lens-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-59
+    kind: decoration
+    position:
+      column: 13
+      row: 15
+    textureKey: crystal-cut-quartz-1x1-band-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-33
+    kind: decoration
+    position:
+      column: 14
+      row: 12
+    textureKey: crystal-cut-quartz-detail-scatter-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-35
+    kind: decoration
+    position:
+      column: 12
+      row: 14
+    textureKey: crystal-cut-guide-1x1-low-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-53
+    kind: decoration
+    position:
+      column: 11
+      row: 20
+    textureKey: crystal-cut-quartz-1x1-parallel-v1
+    tileAnchor: center
+  - id: quartz-cluster-fragment-62
+    kind: decoration
+    position:
+      column: 14
+      row: 18
     textureKey: crystal-cut-quartz-detail-hairline-v1
     tileAnchor: center
-  - id: quartz-detail-13
+  - id: quartz-cluster-fragment-28
     kind: decoration
     position:
-      column: 4
-      row: 5
-    textureKey: crystal-cut-quartz-detail-shelf-v1
-    tileAnchor: center
-  - id: quartz-detail-14
-    kind: decoration
-    position:
-      column: 24
-      row: 17
-    textureKey: crystal-cut-quartz-detail-asymmetric-v1
-    tileAnchor: center
-  - id: quartz-detail-15
-    kind: decoration
-    position:
-      column: 5
-      row: 19
-    textureKey: crystal-cut-quartz-detail-scree-v1
-    tileAnchor: center
-  - id: quartz-detail-16
-    kind: decoration
-    position:
-      column: 16
-      row: 6
-    textureKey: crystal-cut-quartz-detail-buried-v1
+      column: 10
+      row: 20
+    textureKey: crystal-cut-quartz-detail-hairline-v1
     tileAnchor: center
   cliffTextureKey: cinder-basalt-wall-v1
   groundOverrides:
@@ -1010,3 +1304,252 @@ data:
       column: 16
       row: 31
     textureKey: quartz-dust-road-v1
+  cliffOverrides:
+  - position:
+      column: 11
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 25
+    textureKey: quarry-limestone-wall-v1

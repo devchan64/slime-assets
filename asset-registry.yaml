@@ -619,7 +619,7 @@ assets:
 - managementId: config.field-tiles.crystal-cut
   version: crystal-remodel-v1-detail-v1-ore-v1-dense-v1-footprints-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: 95dd122634a41dc8c356e2acb062af72b6f2ba250a188709cb5c20160a731b60
+  sha256: e9687e9d07259aa7a6775700c41bffa02d95d83f163addd528c51a290f20b1d0
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 44a767ba7ccc11b01f73458d68c2142ad959c51dc4666cbd5ff52a769befc765
+  sha256: 680493707cf5c6115dfa0c8eff0969d9b4a49f4dcdc9c9f370f618c5f7db7cac
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8454,3 +8454,99 @@ assets:
     artifact: exec-6bdee42f-1357-4217-be3e-8f2817210781.png
     original_sha256: 7d6be53dd35c7aeda9a4e6fb321e0d3b6baa969dcad41a26d650f9be823f2aaf
     processing: 사용자 채택. 현행 바닥 원본 128px 규격으로 비율 유지 축소.
+- managementId: image.scenery.crystal-cut-medium-strata-2x1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-medium-strata-2x1-v1.png
+  name: 중간 층상 석영 암반
+  width: 512
+  height: 512
+  sha256: adddfebe5038fbb55dc5dc4aba04770a5765d69c3a1996120104f73edc26db55
+  source:
+    repository: codex-imagegen
+    artifact: exec-cad9afb6-d0c6-4ab2-8d57-af695078e418.png
+    original_sha256: ad1e1781818ec3cf23c6ce474bdadd2448b90edbeef43b1e7e4b0ca244503427
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-medium-tilted-1x2-v1
+  version: v1
+  path: assets/billboards/crystal-cut-medium-tilted-1x2-v1.png
+  name: 중간 경사 절리 암반
+  width: 512
+  height: 512
+  sha256: d394caa82444a81946a7095650294870af1960bd11ffcecd87e2f2fc2b8e9381
+  source:
+    repository: codex-imagegen
+    artifact: exec-c730a570-8ce8-457b-9dec-818b53ac2943.png
+    original_sha256: 9e7a17d9907d816554cacb9342af106ea1afaba0585bca992d158511568836ab
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-medium-breccia-1x2-v1
+  version: v1
+  path: assets/billboards/crystal-cut-medium-breccia-1x2-v1.png
+  name: 중간 파쇄면 석영 암반
+  width: 512
+  height: 512
+  sha256: db22d3c23d6a9141e23a185ea275e2fee2cda18e9d7058fe4c4e0758459d2b11
+  source:
+    repository: codex-imagegen
+    artifact: exec-ef54eae1-541e-4543-acb8-1fe907644946.png
+    original_sha256: 945e694b66ea716789cb58db9fcaa13a6b3a414b8a4c57c49395af5fed0def47
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-medium-pockets-2x1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-medium-pockets-2x1-v1.png
+  name: 중간 분리 석영맥 암반
+  width: 512
+  height: 512
+  sha256: c51543221a129b14bc7929c9e180b552d84f5c8c7391f037d723b647f5d2ee16
+  source:
+    repository: codex-imagegen
+    artifact: exec-82e266cf-48bd-4447-8f4b-4e168ad21c5d.png
+    original_sha256: 94a16f226940ccaa7a43ea0869d7bb0124f14a7c06cc6bfb1f77055657fd118b
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-low-branch-2x1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-low-branch-2x1-v1.png
+  name: 낮은 분기 석영 판형
+  width: 512
+  height: 512
+  sha256: 26833401dfceeaa9648812f8364f72715ece86fb295ea1ccb062188d847cc869
+  source:
+    repository: codex-imagegen
+    artifact: exec-7461ef9f-b72f-4a41-bc35-96636744f404.png
+    original_sha256: 373af8625b373c5d945e3c5ee98a2e99d0b1f177937696967752677ad3e1a80f
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-low-split-2x1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-low-split-2x1-v1.png
+  name: 낮은 절리 석영 판형
+  width: 512
+  height: 512
+  sha256: 5e482d3693cf42a5e16db6352408f07a4e7d957fec8290702e29817dd5d2aa3f
+  source:
+    repository: codex-imagegen
+    artifact: exec-6e09d1b5-caf4-41fa-be83-71d29c544774.png
+    original_sha256: fd16070232a13da3bad75e1357512b5aebc31b5853ecfb27e5508e04dd18942a
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-low-lenses-3x1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-low-lenses-3x1-v1.png
+  name: 낮은 렌즈 석영 판형
+  width: 512
+  height: 512
+  sha256: bfbc59f0b88073000a61e1fb0a4ad69d316921412f0f332591a15f4dc7dc12fd
+  source:
+    repository: codex-imagegen
+    artifact: exec-1cc33751-1523-44aa-9ebe-e46050583426.png
+    original_sha256: 78bb9977fdc21ad7f4236464cea907f707bd6d4651e3f0faf25fa916aa485d45
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.crystal-cut-low-rubble-3x1-v1
+  version: v1
+  path: assets/billboards/crystal-cut-low-rubble-3x1-v1.png
+  name: 낮은 석영 파쇄 판형
+  width: 512
+  height: 512
+  sha256: 99c65fe2e3e2e28981bf51609d57f01c6bf3462606ec9a88b715181d3ad9ab71
+  source:
+    repository: codex-imagegen
+    artifact: exec-04cf2bb4-3e1b-41fd-8aa3-3c17dfbcb448.png
+    original_sha256: 2068c183826c3cb0f19028348ca2d3a397829cffae981a71ca36dfb6fd66a1dc
+    processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
