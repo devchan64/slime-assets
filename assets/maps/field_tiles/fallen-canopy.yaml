@@ -1,38 +1,38 @@
 managementId: config.field-tiles.fallen-canopy
 data:
   rows:
-  - mmmmmmmmmmlllmmmmmmmllllllllmmmm
-  - mmmmmmmmmmlllllmmmmlllllllllmmmm
-  - mmmmmmmmmllllllllmllllllllllmmmm
-  - mmmmmmmmllllllllllllllllllllmmmm
-  - mmmmmmmllllllllllllllllllllllmmm
-  - lmmmmmlllllllllllllllllllllllmmm
-  - llmmmlllllllllllllllllllllllllmm
-  - lllmllllllllllllllllllllllllllmm
-  - llllllllllllllllllllllllllllllll
-  - llllllllllllllllllllllllllllllll
-  - lllllllllllllmmmmmmmllllllllllll
-  - lllllllllllllmlmmmmmmmllllllllll
-  - lllllllllllllmmmmmmmlmmlllllllll
-  - lllllllllllmmmmmmmmmmmmlllllllml
-  - llmmllllllmmmmmmmmmmmmmllllllmmm
-  - llmmmlllllmmmmmmmmmmmmmllllllmmm
-  - llmmmllllmmmmmmmmmmmmmmmlllllmlH
-  - llmmmlllllmmmmmmmmmmmmmllllllllH
-  - lllmmlllllmmmmmmmmmmmmmmlllllHHH
-  - lllllllllllmmmmmmmmmmmlllllHHHll
-  - lllllllllllllmmmmmmmmllllllHllll
-  - lllllllllllmllmmlllmmmlllHHHllll
-  - llllllllllllllmlllmmlllllHllllll
-  - llllllllllllllmlmmlllllHHHllllll
-  - llllllllllllllmlllllHHHHllllllll
-  - llllllllllllllllllllHlllllllllll
-  - llllllllllllllllllHHHlllllllllll
-  - llllllllllllllllllHlllllllllllll
-  - lllmmmllllllllllHHHlllllllllllll
-  - llmmmmmlllllllllHlllllllllllllmm
-  - lmmmmmmmllllllllHllllllllllllmmm
-  - mmmmmmmmllllllllHlllllllllllmmmm
+  - lmmmllllllllllllllllllllllllllll
+  - lmmmllllllllmmllllllllllllllllll
+  - lmmllllllllmmmllllllllllllllllll
+  - lllllllllllmmmllllllllmmllllllll
+  - lllllllllllmmmlllllllmmmllllllll
+  - lllllllllllllllllllllmmmllllllll
+  - lllllllllllllllllllllmmmllllllll
+  - lllllllllllllllllllllllllllllmmm
+  - mmllllllllllllllllllllllllllllll
+  - mmllllllllllllllllllllllllllllll
+  - lllllllmmmllllllllllllllllllllll
+  - llllllmmmmllllllllmlllllllllllll
+  - lllllllmmlllllllmmmmllllllllllll
+  - lllllllllllllmmmmmmmmlllllllmlll
+  - llllllllllllmmmmmmmmmmmllllmmmll
+  - llllllllllllmmmmmmmmmmmllllmmmll
+  - lllllllllllmmmmmmmmmmmmmlllmmmlH
+  - llllllmllllmmmmmmmmmmmmlllllmllH
+  - lllllmmmllmmmmmmmmmmmllllllllHHH
+  - llllmmmmllmmmmmmmmmmmllllllHHHll
+  - lllllmmllllmmmmmmmmmlllllllHllll
+  - llllllllllllmmmmmmmmlllllHHHllll
+  - lllllllllllllmmmmmlllllmmHllllll
+  - llllllllllllllllllllllmHHHllllll
+  - llllllllllllllllllllHHHHmlllllll
+  - lmmlllllllllllllllllHllmllllllll
+  - mmmlllllllllllllllHHHlllllllllll
+  - mmmlllllllllmlllllHlllllllllllll
+  - mmmllllllllmmlllHHHlllllllllllll
+  - llllllllllmmmmllHlllllllllllllll
+  - lllllllllllmmlllHllllmmlllllllll
+  - llllllllllllllllHlmmmmmmllllllll
   objects:
   - id: ward-tower
     kind: ward-tower
@@ -49,659 +49,876 @@ data:
   - id: fallen-canopy-giant-trunk-2
     kind: decoration
     position:
-      column: 18
+      column: 8
       row: 21
     textureKey: hollow-log-v1
     tileAnchor: center
   - id: fallen-canopy-hollow-log-v1-4-8
     kind: decoration
     position:
-      column: 4
-      row: 5
+      column: 10
+      row: 22
     textureKey: hollow-log-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-1-v1-7-9
     kind: decoration
     position:
-      column: 1
-      row: 8
+      column: 12
+      row: 21
     textureKey: log-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-2-v1-10-9
     kind: decoration
     position:
-      column: 10
-      row: 9
+      column: 14
+      row: 23
     textureKey: log-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-3-v1-13-9
     kind: decoration
     position:
-      column: 13
-      row: 8
+      column: 16
+      row: 22
     textureKey: log-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-hollow-log-v1-16-10
     kind: decoration
     position:
-      column: 15
-      row: 10
+      column: 18
+      row: 23
     textureKey: hollow-log-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-1-v1-19-10
     kind: decoration
     position:
-      column: 18
-      row: 11
+      column: 20
+      row: 22
     textureKey: log-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-2-v1-22-11
     kind: decoration
     position:
-      column: 22
-      row: 10
+      column: 23
+      row: 25
     textureKey: log-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-3-v1-25-11
     kind: decoration
     position:
-      column: 25
+      column: 10
       row: 10
     textureKey: log-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-hollow-log-v1-5-24
     kind: decoration
     position:
-      column: 5
-      row: 23
+      column: 18
+      row: 12
     textureKey: hollow-log-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-1-v1-8-24
     kind: decoration
     position:
-      column: 2
-      row: 24
+      column: 21
+      row: 13
     textureKey: log-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-2-v1-11-23
     kind: decoration
     position:
-      column: 11
-      row: 23
+      column: 24
+      row: 12
     textureKey: log-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-3-v1-20-22
     kind: decoration
     position:
-      column: 20
-      row: 22
+      column: 7
+      row: 20
     textureKey: log-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-hollow-log-v1-23-22
     kind: decoration
     position:
-      column: 19
-      row: 23
+      column: 23
+      row: 22
     textureKey: hollow-log-v1
     tileAnchor: center
   - id: fallen-canopy-log-variant-1-v1-26-22
     kind: decoration
     position:
-      column: 26
-      row: 28
+      column: 7
+      row: 21
     textureKey: log-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-0-0
     kind: decoration
     position:
-      column: 1
-      row: 1
+      column: 5
+      row: 4
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-3-0
     kind: decoration
     position:
-      column: 3
-      row: 1
+      column: 6
+      row: 9
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-8-0
     kind: decoration
     position:
       column: 8
-      row: 1
+      row: 6
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-11-0
     kind: decoration
     position:
-      column: 11
+      column: 12
       row: 2
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-17-0
     kind: decoration
     position:
-      column: 17
-      row: 1
+      column: 24
+      row: 6
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-20-0
     kind: decoration
     position:
-      column: 20
-      row: 2
+      column: 23
+      row: 6
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-23-0
     kind: decoration
     position:
-      column: 23
-      row: 1
+      column: 24
+      row: 8
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-27-0
     kind: decoration
     position:
-      column: 27
-      row: 1
+      column: 28
+      row: 10
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-31-0
     kind: decoration
     position:
-      column: 29
-      row: 1
+      column: 28
+      row: 28
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-14-1
     kind: decoration
     position:
-      column: 14
-      row: 1
+      column: 21
+      row: 25
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-29-1
     kind: decoration
     position:
-      column: 28
-      row: 1
+      column: 2
+      row: 22
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-2-2
     kind: decoration
     position:
-      column: 2
-      row: 2
+      column: 3
+      row: 29
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-5-2
     kind: decoration
     position:
-      column: 5
-      row: 2
+      column: 4
+      row: 4
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-10-2
     kind: decoration
     position:
-      column: 10
-      row: 3
+      column: 6
+      row: 5
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-16-2
     kind: decoration
     position:
-      column: 16
-      row: 2
+      column: 7
+      row: 5
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-19-2
     kind: decoration
     position:
-      column: 19
-      row: 2
+      column: 15
+      row: 6
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-22-2
     kind: decoration
     position:
       column: 22
-      row: 1
+      row: 4
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-26-2
     kind: decoration
     position:
-      column: 26
-      row: 2
+      column: 23
+      row: 5
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-8-3
     kind: decoration
     position:
-      column: 8
-      row: 2
+      column: 24
+      row: 10
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-24-3
     kind: decoration
     position:
-      column: 24
-      row: 3
+      column: 26
+      row: 10
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-31-3
     kind: decoration
     position:
-      column: 29
-      row: 3
+      column: 27
+      row: 28
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-1-4
     kind: decoration
     position:
-      column: 1
-      row: 4
+      column: 23
+      row: 26
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-4-4
     kind: decoration
     position:
-      column: 4
-      row: 4
+      column: 7
+      row: 23
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-12-4
     kind: decoration
     position:
-      column: 13
-      row: 4
+      column: 6
+      row: 23
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-15-4
     kind: decoration
     position:
-      column: 15
-      row: 4
+      column: 6
+      row: 8
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-18-4
     kind: decoration
     position:
-      column: 18
-      row: 4
+      column: 6
+      row: 10
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-27-4
     kind: decoration
     position:
-      column: 27
-      row: 4
+      column: 7
+      row: 3
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-29-5
     kind: decoration
     position:
-      column: 29
-      row: 5
+      column: 10
+      row: 6
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-2-6
     kind: decoration
     position:
-      column: 2
-      row: 6
+      column: 21
+      row: 1
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-5-6
     kind: decoration
     position:
-      column: 3
-      row: 6
+      column: 23
+      row: 7
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-26-6
     kind: decoration
     position:
-      column: 26
-      row: 5
+      column: 29
+      row: 7
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-30-7
     kind: decoration
     position:
       column: 29
-      row: 7
+      row: 14
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-0-9
     kind: decoration
     position:
-      column: 1
-      row: 6
+      column: 24
+      row: 24
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-2-10
     kind: decoration
     position:
-      column: 2
-      row: 11
+      column: 23
+      row: 27
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-5-10
     kind: decoration
     position:
-      column: 6
-      row: 10
+      column: 2
+      row: 23
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-0-12
     kind: decoration
     position:
-      column: 1
-      row: 12
+      column: 7
+      row: 28
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-3-12
     kind: decoration
     position:
-      column: 4
-      row: 12
+      column: 3
+      row: 3
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-28-14
     kind: decoration
     position:
-      column: 28
-      row: 14
+      column: 9
+      row: 4
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-0-16
     kind: decoration
     position:
-      column: 2
-      row: 16
+      column: 11
+      row: 5
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-5-16
     kind: decoration
     position:
-      column: 5
-      row: 16
+      column: 14
+      row: 7
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-29-19
     kind: decoration
     position:
-      column: 29
-      row: 20
+      column: 23
+      row: 3
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-31-20
     kind: decoration
     position:
-      column: 28
-      row: 21
+      column: 25
+      row: 8
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-3-21
     kind: decoration
     position:
-      column: 3
-      row: 21
+      column: 27
+      row: 7
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-28-21
     kind: decoration
     position:
       column: 27
-      row: 22
+      row: 13
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-30-22
     kind: decoration
     position:
       column: 29
-      row: 23
+      row: 28
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-1-23
     kind: decoration
     position:
-      column: 1
-      row: 26
+      column: 22
+      row: 25
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-27-23
     kind: decoration
     position:
-      column: 26
+      column: 8
       row: 23
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-0-25
     kind: decoration
     position:
-      column: 1
-      row: 27
+      column: 2
+      row: 28
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-3-25
     kind: decoration
     position:
-      column: 3
-      row: 27
+      column: 4
+      row: 8
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-28-25
     kind: decoration
     position:
-      column: 28
-      row: 25
+      column: 8
+      row: 9
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-5-26
     kind: decoration
     position:
-      column: 5
-      row: 26
+      column: 12
+      row: 4
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-26-26
     kind: decoration
     position:
-      column: 26
-      row: 26
+      column: 10
+      row: 3
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-30-26
     kind: decoration
     position:
-      column: 29
-      row: 26
+      column: 23
+      row: 2
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-1-27
     kind: decoration
     position:
-      column: 2
-      row: 27
+      column: 27
+      row: 3
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-3-28
     kind: decoration
     position:
-      column: 3
-      row: 28
+      column: 29
+      row: 8
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-6-28
     kind: decoration
     position:
-      column: 6
-      row: 28
+      column: 26
+      row: 11
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-9-28
     kind: decoration
     position:
-      column: 9
-      row: 27
+      column: 23
+      row: 29
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-12-28
     kind: decoration
     position:
-      column: 11
-      row: 28
+      column: 24
+      row: 27
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-17-28
     kind: decoration
     position:
-      column: 17
-      row: 27
+      column: 5
+      row: 21
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-20-28
     kind: decoration
     position:
-      column: 20
-      row: 28
+      column: 7
+      row: 24
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-23-28
     kind: decoration
     position:
-      column: 24
-      row: 28
+      column: 5
+      row: 7
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-27-28
     kind: decoration
     position:
-      column: 27
-      row: 29
+      column: 4
+      row: 7
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-31-28
     kind: decoration
     position:
-      column: 29
-      row: 28
+      column: 10
+      row: 2
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-0-29
     kind: decoration
     position:
-      column: 1
-      row: 29
+      column: 11
+      row: 4
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-29-29
     kind: decoration
     position:
-      column: 29
-      row: 29
+      column: 22
+      row: 6
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-2-30
     kind: decoration
     position:
-      column: 2
-      row: 29
+      column: 22
+      row: 5
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-5-30
     kind: decoration
     position:
-      column: 5
-      row: 29
+      column: 27
+      row: 10
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-young-tree-v2-10-30
     kind: decoration
     position:
-      column: 10
-      row: 28
+      column: 28
+      row: 13
     textureKey: orchard-young-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-18-30
     kind: decoration
     position:
-      column: 18
-      row: 29
+      column: 25
+      row: 25
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-21-30
     kind: decoration
     position:
-      column: 21
+      column: 23
       row: 28
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-25-30
     kind: decoration
     position:
-      column: 25
-      row: 29
+      column: 2
+      row: 20
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-7-31
     kind: decoration
     position:
-      column: 7
-      row: 29
+      column: 3
+      row: 28
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-1-v2-12-31
     kind: decoration
     position:
-      column: 12
-      row: 29
+      column: 2
+      row: 4
     textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-23-31
     kind: decoration
     position:
-      column: 23
-      row: 29
+      column: 3
+      row: 6
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-v2-28-31
     kind: decoration
     position:
-      column: 28
-      row: 29
+      column: 8
+      row: 3
     textureKey: orchard-old-tree-v2
     tileAnchor: center
   - id: fallen-canopy-orchard-old-tree-variant-2-v2-31-31
     kind: decoration
     position:
-      column: 29
-      row: 27
+      column: 10
+      row: 4
     textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
-  - id: fallen-canopy-old-stump-v1-3-8
+  - id: fallen-canopy-mushroom-variant-3-v1-13-7
     kind: decoration
     position:
-      column: 3
-      row: 7
-    textureKey: old-stump-v1
+      column: 15
+      row: 24
+    textureKey: mushroom-variant-3-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-2-v1-6-8
+    kind: decoration
+    position:
+      column: 22
+      row: 23
+    textureKey: mushroom-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-1-v1-12-8
+    kind: decoration
+    position:
+      column: 10
+      row: 21
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-2-v1-14-8
+    kind: decoration
+    position:
+      column: 16
+      row: 23
+    textureKey: mushroom-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-2-v1-15-9
+    kind: decoration
+    position:
+      column: 19
+      row: 11
+    textureKey: mushroom-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-2-v1-20-9
+    kind: decoration
+    position:
+      column: 9
+      row: 20
+    textureKey: mushroom-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-cluster-v1-4-10
+    kind: decoration
+    position:
+      column: 21
+      row: 23
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-3-v1-12-10
+    kind: decoration
+    position:
+      column: 19
+      row: 13
+    textureKey: mushroom-variant-3-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-1-v1-26-10
+    kind: decoration
+    position:
+      column: 15
+      row: 23
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-2-v1-18-11
+    kind: decoration
+    position:
+      column: 24
+      row: 25
+    textureKey: mushroom-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-cluster-v1-20-20
+    kind: decoration
+    position:
+      column: 11
+      row: 19
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-2-v1-23-20
+    kind: decoration
+    position:
+      column: 16
+      row: 24
+    textureKey: mushroom-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-1-v1-24-21
+    kind: decoration
+    position:
+      column: 17
+      row: 13
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-1-v1-8-22
+    kind: decoration
+    position:
+      column: 9
+      row: 22
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-3-v1-28-22
+    kind: decoration
+    position:
+      column: 25
+      row: 24
+    textureKey: mushroom-variant-3-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-cluster-v1-6-23
+    kind: decoration
+    position:
+      column: 18
+      row: 11
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-1-v1-12-24
+    kind: decoration
+    position:
+      column: 15
+      row: 22
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: fallen-canopy-mushroom-variant-1-v1-23-24
+    kind: decoration
+    position:
+      column: 21
+      row: 22
+    textureKey: mushroom-cluster-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-2-v1-1-0
+    kind: decoration
+    position:
+      column: 12
+      row: 15
+    textureKey: sapling-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-1-v1-30-1
+    kind: decoration
+    position:
+      column: 22
+      row: 17
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-1-v1-30-2
+    kind: decoration
+    position:
+      column: 16
+      row: 20
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-2-v1-23-3
+    kind: decoration
+    position:
+      column: 9
+      row: 16
+    textureKey: sapling-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-1-v1-7-5
+    kind: decoration
+    position:
+      column: 21
+      row: 17
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-1-v1-16-6
+    kind: decoration
+    position:
+      column: 17
+      row: 20
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-2-v1-15-8
+    kind: decoration
+    position:
+      column: 11
+      row: 17
+    textureKey: sapling-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-1-v1-21-9
+    kind: decoration
+    position:
+      column: 20
+      row: 19
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-2-v1-10-12
+    kind: decoration
+    position:
+      column: 14
+      row: 20
+    textureKey: sapling-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-1-v1-27-15
+    kind: decoration
+    position:
+      column: 11
+      row: 16
+    textureKey: sapling-variant-1-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-2-v1-10-16
+    kind: decoration
+    position:
+      column: 21
+      row: 16
+    textureKey: sapling-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-2-v1-7-18
+    kind: decoration
+    position:
+      column: 16
+      row: 21
+    textureKey: sapling-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-2-v1-22-24
+    kind: decoration
+    position:
+      column: 10
+      row: 17
+    textureKey: sapling-variant-2-v1
+    tileAnchor: center
+  - id: fallen-canopy-sapling-variant-1-v1-23-25
+    kind: decoration
+    position:
+      column: 21
+      row: 18
+    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-old-stump-v1-28-11
     kind: decoration
     position:
-      column: 28
-      row: 10
+      column: 26
+      row: 9
     textureKey: old-stump-v1
     tileAnchor: center
   - id: fallen-canopy-old-stump-v1-4-24
     kind: decoration
     position:
-      column: 6
-      row: 24
+      column: 7
+      row: 26
     textureKey: old-stump-v1
     tileAnchor: center
   - id: fallen-canopy-old-stump-v1-29-21
@@ -711,122 +928,73 @@ data:
       row: 24
     textureKey: old-stump-v1
     tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-1-0
-    kind: decoration
-    position:
-      column: 2
-      row: 1
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-weed-v1-4-0
-    kind: decoration
-    position:
-      column: 4
-      row: 1
-    textureKey: broadleaf-weed-v1
-    tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-5-0
     kind: decoration
     position:
-      column: 5
+      column: 6
       row: 1
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-10-0
     kind: decoration
     position:
-      column: 9
-      row: 1
+      column: 8
+      row: 2
     textureKey: fern-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-22-0
     kind: decoration
     position:
-      column: 24
+      column: 26
       row: 1
     textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-variant-1-v1-24-0
-    kind: decoration
-    position:
-      column: 25
-      row: 1
-    textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-0-1
     kind: decoration
     position:
       column: 1
-      row: 2
+      row: 4
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-2-1
     kind: decoration
     position:
-      column: 3
-      row: 2
+      column: 1
+      row: 3
     textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-8-1
     kind: decoration
     position:
-      column: 7
-      row: 1
+      column: 5
+      row: 2
     textureKey: broadleaf-weed-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-3-v1-9-1
-    kind: decoration
-    position:
-      column: 6
-      row: 1
-    textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-12-1
     kind: decoration
     position:
-      column: 13
-      row: 1
+      column: 11
+      row: 2
     textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-15-1
     kind: decoration
     position:
-      column: 15
-      row: 1
+      column: 13
+      row: 3
     textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-16-1
-    kind: decoration
-    position:
-      column: 16
-      row: 1
-    textureKey: sapling-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-variant-1-v1-21-1
     kind: decoration
     position:
-      column: 21
-      row: 3
-    textureKey: ivy-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-3-v1-23-1
-    kind: decoration
-    position:
-      column: 23
-      row: 2
-    textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-24-1
-    kind: decoration
-    position:
       column: 24
-      row: 2
-    textureKey: sapling-variant-1-v1
+      row: 5
+    textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-26-1
     kind: decoration
     position:
-      column: 26
+      column: 25
       row: 1
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
@@ -834,42 +1002,28 @@ data:
     kind: decoration
     position:
       column: 27
-      row: 2
+      row: 1
     textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-30-1
-    kind: decoration
-    position:
-      column: 29
-      row: 2
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-3-2
     kind: decoration
     position:
-      column: 4
-      row: 2
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-clump-v1-6-2
-    kind: decoration
-    position:
       column: 6
-      row: 2
+      row: 3
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-8-2
     kind: decoration
     position:
-      column: 7
-      row: 2
+      column: 5
+      row: 1
     textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-12-2
     kind: decoration
     position:
       column: 12
-      row: 2
+      row: 1
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-13-2
@@ -879,187 +1033,103 @@ data:
       row: 2
     textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: fallen-canopy-fern-clump-v1-14-2
-    kind: decoration
-    position:
-      column: 14
-      row: 2
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-18-2
-    kind: decoration
-    position:
-      column: 18
-      row: 2
-    textureKey: sapling-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-20-2
-    kind: decoration
-    position:
-      column: 20
-      row: 3
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-21-2
     kind: decoration
     position:
-      column: 22
-      row: 4
+      column: 25
+      row: 6
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-23-2
     kind: decoration
     position:
-      column: 25
+      column: 26
       row: 2
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-27-2
     kind: decoration
     position:
-      column: 28
-      row: 2
-    textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-grass-clump-v1-29-2
-    kind: decoration
-    position:
-      column: 28
-      row: 3
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-30-2
-    kind: decoration
-    position:
       column: 29
-      row: 4
-    textureKey: sapling-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-31-2
-    kind: decoration
-    position:
-      column: 27
-      row: 3
-    textureKey: sapling-variant-2-v1
+      row: 1
+    textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-1-3
     kind: decoration
     position:
       column: 1
-      row: 3
+      row: 5
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-3-3
     kind: decoration
     position:
       column: 3
-      row: 3
+      row: 1
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-4-3
     kind: decoration
     position:
       column: 4
-      row: 3
+      row: 6
     textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-5-3
-    kind: decoration
-    position:
-      column: 5
-      row: 3
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-3-v1-9-3
-    kind: decoration
-    position:
-      column: 9
-      row: 4
-    textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-14-3
     kind: decoration
     position:
       column: 14
-      row: 4
+      row: 2
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-15-3
     kind: decoration
     position:
-      column: 15
-      row: 2
+      column: 17
+      row: 1
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-16-3
     kind: decoration
     position:
-      column: 16
-      row: 4
+      column: 17
+      row: 2
     textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-weed-v1-20-3
-    kind: decoration
-    position:
-      column: 20
-      row: 5
-    textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-22-3
     kind: decoration
     position:
-      column: 25
-      row: 3
+      column: 27
+      row: 2
     textureKey: broadleaf-weed-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-23-3
-    kind: decoration
-    position:
-      column: 23
-      row: 5
-    textureKey: sapling-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-6-4
     kind: decoration
     position:
-      column: 6
-      row: 4
+      column: 9
+      row: 2
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-13-4
     kind: decoration
     position:
-      column: 13
-      row: 5
-    textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-variant-2-v1-16-4
-    kind: decoration
-    position:
-      column: 17
-      row: 4
+      column: 15
+      row: 7
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-20-4
     kind: decoration
     position:
-      column: 19
-      row: 5
+      column: 17
+      row: 6
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-24-4
     kind: decoration
     position:
-      column: 25
-      row: 4
+      column: 24
+      row: 2
     textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-25-4
-    kind: decoration
-    position:
-      column: 26
-      row: 4
-    textureKey: sapling-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-28-4
     kind: decoration
@@ -1068,234 +1138,143 @@ data:
       row: 4
     textureKey: fern-clump-v1
     tileAnchor: center
-  - id: fallen-canopy-ivy-variant-1-v1-31-4
-    kind: decoration
-    position:
-      column: 28
-      row: 5
-    textureKey: ivy-variant-1-v1
-    tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-0-5
     kind: decoration
     position:
       column: 1
-      row: 5
+      row: 6
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-3-5
     kind: decoration
     position:
-      column: 3
-      row: 5
-    textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-4-5
-    kind: decoration
-    position:
-      column: 4
+      column: 2
       row: 6
-    textureKey: sapling-variant-1-v1
+    textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-5-5
     kind: decoration
     position:
-      column: 5
+      column: 6
       row: 4
     textureKey: broadleaf-weed-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-7-5
-    kind: decoration
-    position:
-      column: 8
-      row: 5
-    textureKey: sapling-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-1-v1-9-5
-    kind: decoration
-    position:
-      column: 11
-      row: 5
-    textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-10-5
     kind: decoration
     position:
       column: 10
-      row: 6
+      row: 8
     textureKey: fern-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-11-5
     kind: decoration
     position:
-      column: 12
-      row: 5
+      column: 14
+      row: 6
     textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-13-5
     kind: decoration
     position:
-      column: 14
-      row: 5
+      column: 12
+      row: 7
     textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-variant-1-v1-15-5
-    kind: decoration
-    position:
-      column: 15
-      row: 5
-    textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-16-5
     kind: decoration
     position:
-      column: 16
-      row: 5
+      column: 17
+      row: 7
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-20-5
     kind: decoration
     position:
       column: 20
-      row: 6
+      row: 4
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-21-5
     kind: decoration
     position:
       column: 21
-      row: 6
-    textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-22-5
-    kind: decoration
-    position:
-      column: 22
       row: 7
-    textureKey: sapling-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-weed-v1-23-5
-    kind: decoration
-    position:
-      column: 24
-      row: 6
-    textureKey: broadleaf-weed-v1
+    textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-24-5
     kind: decoration
     position:
-      column: 27
+      column: 28
       row: 5
     textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-28-5
-    kind: decoration
-    position:
-      column: 28
-      row: 6
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-30-5
     kind: decoration
     position:
       column: 29
-      row: 6
+      row: 4
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-31-5
     kind: decoration
     position:
-      column: 27
-      row: 6
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-weed-v1-1-6
-    kind: decoration
-    position:
-      column: 1
+      column: 26
       row: 7
-    textureKey: broadleaf-weed-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-cluster-v1-4-6
-    kind: decoration
-    position:
-      column: 14
-      row: 11
-    textureKey: mushroom-cluster-v1
+    textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-6-6
     kind: decoration
     position:
       column: 7
-      row: 6
+      row: 4
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-8-6
     kind: decoration
     position:
       column: 9
-      row: 7
+      row: 5
     textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-9-6
     kind: decoration
     position:
-      column: 11
-      row: 6
+      column: 12
+      row: 5
     textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-weed-v1-11-6
-    kind: decoration
-    position:
-      column: 11
-      row: 8
-    textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-12-6
     kind: decoration
     position:
       column: 13
-      row: 7
+      row: 9
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-13-6
     kind: decoration
     position:
-      column: 14
-      row: 7
+      column: 12
+      row: 8
     textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-14-6
     kind: decoration
     position:
-      column: 15
-      row: 7
+      column: 14
+      row: 8
     textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-2-v1-15-6
-    kind: decoration
-    position:
-      column: 16
-      row: 7
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-16-6
-    kind: decoration
-    position:
-      column: 17
-      row: 5
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-18-6
     kind: decoration
     position:
-      column: 18
-      row: 5
+      column: 17
+      row: 3
     textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-20-6
     kind: decoration
     position:
-      column: 20
+      column: 21
       row: 8
     textureKey: ivy-clump-v1
     tileAnchor: center
@@ -1306,18 +1285,11 @@ data:
       row: 9
     textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: fallen-canopy-fern-variant-3-v1-22-6
-    kind: decoration
-    position:
-      column: 23
-      row: 8
-    textureKey: fern-variant-3-v1
-    tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-23-6
     kind: decoration
     position:
       column: 25
-      row: 7
+      row: 5
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-24-6
@@ -1327,13 +1299,6 @@ data:
       row: 9
     textureKey: broadleaf-weed-v1
     tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-27-6
-    kind: decoration
-    position:
-      column: 28
-      row: 7
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-30-6
     kind: decoration
     position:
@@ -1341,381 +1306,185 @@ data:
       row: 9
     textureKey: broadleaf-weed-v1
     tileAnchor: center
-  - id: fallen-canopy-ivy-clump-v1-1-7
-    kind: decoration
-    position:
-      column: 2
-      row: 7
-    textureKey: ivy-clump-v1
-    tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-2-7
     kind: decoration
     position:
-      column: 2
+      column: 1
       row: 8
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-fallen-leaves-v1-5-7
     kind: decoration
     position:
-      column: 6
-      row: 7
+      column: 8
+      row: 5
     textureKey: fallen-leaves-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-8-7
     kind: decoration
     position:
-      column: 8
+      column: 7
       row: 8
     textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-variant-1-v1-9-7
-    kind: decoration
-    position:
-      column: 9
-      row: 10
-    textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-11-7
     kind: decoration
     position:
-      column: 12
-      row: 8
+      column: 13
+      row: 7
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-12-7
     kind: decoration
     position:
       column: 14
-      row: 8
+      row: 9
     textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-3-v1-13-7
-    kind: decoration
-    position:
-      column: 18
-      row: 13
-    textureKey: mushroom-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-14-7
-    kind: decoration
-    position:
-      column: 17
-      row: 7
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-15-7
     kind: decoration
     position:
-      column: 16
-      row: 8
+      column: 13
+      row: 6
     textureKey: ivy-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-variant-1-v1-16-7
-    kind: decoration
-    position:
-      column: 18
-      row: 7
-    textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-17-7
     kind: decoration
     position:
-      column: 17
-      row: 8
+      column: 16
+      row: 6
     textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-18-7
     kind: decoration
     position:
       column: 18
-      row: 8
+      row: 6
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-20-7
     kind: decoration
     position:
-      column: 19
-      row: 8
+      column: 18
+      row: 10
     textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-clump-v1-24-7
-    kind: decoration
-    position:
-      column: 23
-      row: 11
-    textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-26-7
     kind: decoration
     position:
-      column: 26
+      column: 24
       row: 3
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-27-7
     kind: decoration
     position:
-      column: 27
-      row: 12
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-2-v1-6-8
-    kind: decoration
-    position:
-      column: 17
-      row: 13
-    textureKey: mushroom-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-2-v1-9-8
-    kind: decoration
-    position:
-      column: 18
+      column: 29
       row: 10
-    textureKey: mushroom-variant-2-v1
+    textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fallen-leaves-v1-11-8
     kind: decoration
     position:
-      column: 11
-      row: 9
-    textureKey: fallen-leaves-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-1-v1-12-8
-    kind: decoration
-    position:
-      column: 16
-      row: 11
-    textureKey: mushroom-cluster-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-2-v1-14-8
-    kind: decoration
-    position:
-      column: 17
-      row: 12
-    textureKey: mushroom-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-15-8
-    kind: decoration
-    position:
-      column: 13
-      row: 17
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-fallen-leaves-v1-16-8
-    kind: decoration
-    position:
-      column: 17
-      row: 10
+      column: 10
+      row: 7
     textureKey: fallen-leaves-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-17-8
     kind: decoration
     position:
       column: 17
-      row: 11
+      row: 14
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-18-8
     kind: decoration
     position:
-      column: 20
-      row: 9
+      column: 19
+      row: 10
     textureKey: broadleaf-weed-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-cluster-v1-19-8
-    kind: decoration
-    position:
-      column: 13
-      row: 14
-    textureKey: mushroom-cluster-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-20-8
     kind: decoration
     position:
       column: 20
-      row: 11
+      row: 10
     textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-21-8
-    kind: decoration
-    position:
-      column: 13
-      row: 18
-    textureKey: sapling-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-variant-2-v1-22-8
-    kind: decoration
-    position:
-      column: 22
-      row: 13
-    textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-23-8
-    kind: decoration
-    position:
-      column: 24
-      row: 12
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-25-8
     kind: decoration
     position:
-      column: 25
-      row: 13
+      column: 24
+      row: 14
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-29-8
     kind: decoration
     position:
-      column: 28
-      row: 13
+      column: 29
+      row: 11
     textureKey: fern-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-1-9
     kind: decoration
     position:
-      column: 2
-      row: 5
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-2-v1-15-9
-    kind: decoration
-    position:
-      column: 19
-      row: 13
-    textureKey: mushroom-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-2-v1-20-9
-    kind: decoration
-    position:
-      column: 15
-      row: 11
-    textureKey: mushroom-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-21-9
-    kind: decoration
-    position:
-      column: 13
-      row: 19
-    textureKey: sapling-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-1-v1-22-9
-    kind: decoration
-    position:
-      column: 19
-      row: 12
-    textureKey: mushroom-cluster-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-clump-v1-23-9
-    kind: decoration
-    position:
-      column: 23
-      row: 14
+      column: 3
+      row: 4
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-24-9
     kind: decoration
     position:
-      column: 25
-      row: 14
+      column: 23
+      row: 15
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-variant-1-v1-26-9
     kind: decoration
     position:
-      column: 26
-      row: 14
+      column: 25
+      row: 15
     textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-30-9
     kind: decoration
     position:
       column: 29
-      row: 14
+      row: 15
     textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-1-v1-1-10
-    kind: decoration
-    position:
-      column: 3
-      row: 10
-    textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-3-10
     kind: decoration
     position:
-      column: 4
-      row: 9
+      column: 2
+      row: 7
     textureKey: ivy-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-cluster-v1-4-10
-    kind: decoration
-    position:
-      column: 20
-      row: 13
-    textureKey: mushroom-cluster-v1
     tileAnchor: center
   - id: fallen-canopy-fallen-leaves-v1-8-10
     kind: decoration
     position:
-      column: 8
-      row: 11
+      column: 9
+      row: 9
     textureKey: fallen-leaves-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-3-v1-12-10
-    kind: decoration
-    position:
-      column: 14
-      row: 10
-    textureKey: mushroom-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-cluster-v1-23-10
-    kind: decoration
-    position:
-      column: 19
-      row: 11
-    textureKey: mushroom-cluster-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-1-v1-26-10
-    kind: decoration
-    position:
-      column: 13
-      row: 11
-    textureKey: mushroom-cluster-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-29-10
-    kind: decoration
-    position:
-      column: 29
-      row: 15
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-0-11
     kind: decoration
     position:
-      column: 3
-      row: 13
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-weed-v1-1-11
-    kind: decoration
-    position:
-      column: 2
+      column: 5
       row: 15
-    textureKey: broadleaf-weed-v1
+    textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-variant-1-v1-4-11
     kind: decoration
     position:
-      column: 7
-      row: 12
+      column: 6
+      row: 11
     textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-5-11
     kind: decoration
     position:
-      column: 5
+      column: 6
       row: 14
     textureKey: fern-variant-2-v1
     tileAnchor: center
@@ -1723,77 +1492,42 @@ data:
     kind: decoration
     position:
       column: 11
-      row: 11
+      row: 12
     textureKey: ivy-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-12-11
-    kind: decoration
-    position:
-      column: 13
-      row: 16
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-1-v1-14-11
-    kind: decoration
-    position:
-      column: 15
-      row: 8
-    textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fallen-leaves-v1-17-11
     kind: decoration
     position:
-      column: 20
-      row: 12
+      column: 18
+      row: 13
     textureKey: fallen-leaves-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-2-v1-18-11
-    kind: decoration
-    position:
-      column: 12
-      row: 11
-    textureKey: mushroom-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-29-11
     kind: decoration
     position:
       column: 29
-      row: 16
+      row: 17
     textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-5-12
     kind: decoration
     position:
-      column: 6
+      column: 5
       row: 14
     textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-variant-2-v1-8-12
-    kind: decoration
-    position:
-      column: 10
-      row: 12
-    textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-9-12
     kind: decoration
     position:
-      column: 9
+      column: 11
       row: 13
     textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-10-12
-    kind: decoration
-    position:
-      column: 15
-      row: 19
-    textureKey: sapling-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-12-12
     kind: decoration
     position:
       column: 11
-      row: 13
+      row: 11
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-20-12
@@ -1803,75 +1537,47 @@ data:
       row: 12
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
-  - id: fallen-canopy-mushroom-cluster-v1-26-12
-    kind: decoration
-    position:
-      column: 13
-      row: 10
-    textureKey: mushroom-cluster-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-3-v1-27-12
-    kind: decoration
-    position:
-      column: 26
-      row: 17
-    textureKey: fern-variant-3-v1
-    tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-28-12
     kind: decoration
     position:
-      column: 28
-      row: 18
+      column: 26
+      row: 19
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-2-13
     kind: decoration
     position:
       column: 5
-      row: 15
+      row: 16
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-3-13
     kind: decoration
     position:
-      column: 3
+      column: 2
       row: 17
     textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-clump-v1-4-13
-    kind: decoration
-    position:
-      column: 8
-      row: 14
-    textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-10-13
     kind: decoration
     position:
-      column: 10
-      row: 13
+      column: 9
+      row: 12
     textureKey: fern-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-16-13
     kind: decoration
     position:
-      column: 19
+      column: 18
       row: 14
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-21-13
     kind: decoration
     position:
-      column: 21
-      row: 13
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-2-v1-23-13
-    kind: decoration
-    position:
-      column: 21
+      column: 19
       row: 14
-    textureKey: fern-variant-2-v1
+    textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-24-13
     kind: decoration
@@ -1883,42 +1589,28 @@ data:
   - id: fallen-canopy-broadleaf-weed-v1-27-13
     kind: decoration
     position:
-      column: 25
+      column: 24
       row: 17
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-2-14
     kind: decoration
     position:
-      column: 3
+      column: 5
       row: 18
     textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-1-v1-4-14
-    kind: decoration
-    position:
-      column: 5
-      row: 17
-    textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-5-14
     kind: decoration
     position:
-      column: 9
-      row: 14
-    textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-7-14
-    kind: decoration
-    position:
       column: 8
       row: 15
-    textureKey: sapling-variant-1-v1
+    textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-8-14
     kind: decoration
     position:
-      column: 10
+      column: 11
       row: 14
     textureKey: fern-variant-3-v1
     tileAnchor: center
@@ -1926,15 +1618,8 @@ data:
     kind: decoration
     position:
       column: 11
-      row: 14
+      row: 15
     textureKey: ivy-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-variant-1-v1-21-14
-    kind: decoration
-    position:
-      column: 20
-      row: 14
-    textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-23-14
     kind: decoration
@@ -1946,231 +1631,126 @@ data:
   - id: fallen-canopy-fern-variant-1-v1-24-14
     kind: decoration
     position:
-      column: 21
-      row: 15
+      column: 22
+      row: 13
     textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-2-15
-    kind: decoration
-    position:
-      column: 6
-      row: 17
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-variant-1-v1-4-15
     kind: decoration
     position:
       column: 9
-      row: 15
+      row: 17
     textureKey: ivy-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-3-v1-8-15
-    kind: decoration
-    position:
-      column: 8
-      row: 16
-    textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-24-15
     kind: decoration
     position:
-      column: 22
-      row: 16
+      column: 20
+      row: 14
     textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-27-15
-    kind: decoration
-    position:
-      column: 26
-      row: 20
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-1-16
     kind: decoration
     position:
       column: 1
-      row: 22
+      row: 24
     textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-4-16
-    kind: decoration
-    position:
-      column: 6
-      row: 18
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-6-16
-    kind: decoration
-    position:
-      column: 9
-      row: 16
-    textureKey: sapling-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-variant-1-v1-8-16
     kind: decoration
     position:
-      column: 8
-      row: 17
-    textureKey: ivy-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-grass-clump-v1-9-16
-    kind: decoration
-    position:
       column: 10
       row: 16
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-10-16
-    kind: decoration
-    position:
-      column: 13
-      row: 15
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-11-16
-    kind: decoration
-    position:
-      column: 12
-      row: 17
-    textureKey: sapling-variant-2-v1
+    textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-24-16
     kind: decoration
     position:
-      column: 23
-      row: 17
+      column: 22
+      row: 18
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-1-17
     kind: decoration
     position:
       column: 1
-      row: 23
+      row: 25
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-4-17
     kind: decoration
     position:
       column: 5
-      row: 20
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-clump-v1-6-17
-    kind: decoration
-    position:
-      column: 9
-      row: 17
-    textureKey: ivy-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-7-17
-    kind: decoration
-    position:
-      column: 7
       row: 19
-    textureKey: sapling-variant-2-v1
+    textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-10-17
     kind: decoration
     position:
-      column: 10
-      row: 17
+      column: 9
+      row: 18
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-12-17
     kind: decoration
     position:
-      column: 12
-      row: 16
+      column: 10
+      row: 14
     textureKey: fern-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-2-18
     kind: decoration
     position:
-      column: 2
+      column: 1
       row: 23
     textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-grass-clump-v1-3-18
-    kind: decoration
-    position:
-      column: 9
-      row: 18
-    textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-variant-1-v1-5-18
     kind: decoration
     position:
-      column: 6
-      row: 21
+      column: 4
+      row: 19
     textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-6-18
     kind: decoration
     position:
-      column: 10
-      row: 18
+      column: 11
+      row: 21
     textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-7-18
-    kind: decoration
-    position:
-      column: 8
-      row: 20
-    textureKey: sapling-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-2-19
     kind: decoration
     position:
       column: 1
-      row: 24
+      row: 26
     textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-variant-1-v1-3-19
-    kind: decoration
-    position:
-      column: 3
-      row: 24
-    textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-5-19
     kind: decoration
     position:
-      column: 10
+      column: 9
       row: 19
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-7-19
     kind: decoration
     position:
-      column: 7
-      row: 22
+      column: 8
+      row: 24
     textureKey: broadleaf-weed-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-8-19
     kind: decoration
     position:
-      column: 11
-      row: 19
-    textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-1-v1-10-19
-    kind: decoration
-    position:
-      column: 11
-      row: 18
-    textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-18-19
-    kind: decoration
-    position:
       column: 13
-      row: 20
-    textureKey: sapling-variant-1-v1
+      row: 22
+    textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-30-19
     kind: decoration
     position:
-      column: 25
+      column: 24
       row: 18
     textureKey: ivy-clump-v1
     tileAnchor: center
@@ -2178,56 +1758,42 @@ data:
     kind: decoration
     position:
       column: 1
-      row: 25
+      row: 27
     textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-3-20
     kind: decoration
     position:
-      column: 3
-      row: 25
+      column: 5
+      row: 24
     textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-2-v1-5-20
-    kind: decoration
-    position:
-      column: 9
-      row: 21
-    textureKey: fern-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-6-20
     kind: decoration
     position:
-      column: 11
-      row: 20
+      column: 8
+      row: 22
     textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-variant-1-v1-7-20
     kind: decoration
     position:
-      column: 8
-      row: 23
+      column: 6
+      row: 25
     textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-8-20
     kind: decoration
     position:
-      column: 12
-      row: 20
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-grass-clump-v1-9-20
-    kind: decoration
-    position:
       column: 10
-      row: 22
-    textureKey: grass-clump-v1
+      row: 23
+    textureKey: fern-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-11-20
     kind: decoration
     position:
-      column: 12
-      row: 19
+      column: 13
+      row: 14
     textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-19-20
@@ -2237,13 +1803,6 @@ data:
       row: 20
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
-  - id: fallen-canopy-mushroom-cluster-v1-20-20
-    kind: decoration
-    position:
-      column: 24
-      row: 22
-    textureKey: mushroom-cluster-v1
-    tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-21-20
     kind: decoration
     position:
@@ -2251,305 +1810,165 @@ data:
       row: 19
     textureKey: fern-variant-3-v1
     tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-2-v1-23-20
-    kind: decoration
-    position:
-      column: 21
-      row: 22
-    textureKey: mushroom-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-1-v1-25-20
-    kind: decoration
-    position:
-      column: 24
-      row: 19
-    textureKey: fern-variant-1-v1
-    tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-28-20
     kind: decoration
     position:
-      column: 28
-      row: 24
+      column: 29
+      row: 23
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-29-20
     kind: decoration
     position:
-      column: 29
-      row: 25
+      column: 28
+      row: 26
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-1-21
     kind: decoration
     position:
-      column: 2
-      row: 26
+      column: 1
+      row: 28
     textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-variant-2-v1-5-21
-    kind: decoration
-    position:
-      column: 4
-      row: 25
-    textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-6-21
     kind: decoration
     position:
       column: 7
-      row: 25
+      row: 27
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-7-21
     kind: decoration
     position:
-      column: 11
-      row: 22
+      column: 10
+      row: 24
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-8-21
     kind: decoration
     position:
       column: 9
-      row: 24
+      row: 23
     textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-clump-v1-9-21
-    kind: decoration
-    position:
-      column: 13
-      row: 21
-    textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-10-21
     kind: decoration
     position:
-      column: 14
-      row: 20
+      column: 17
+      row: 21
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fallen-leaves-v1-11-21
     kind: decoration
     position:
-      column: 12
-      row: 23
+      column: 13
+      row: 25
     textureKey: fallen-leaves-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-18-21
     kind: decoration
     position:
       column: 18
-      row: 20
+      row: 22
     textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-1-v1-21-21
-    kind: decoration
-    position:
-      column: 18
-      row: 19
-    textureKey: mushroom-cluster-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-1-v1-24-21
-    kind: decoration
-    position:
-      column: 20
-      row: 20
-    textureKey: mushroom-cluster-v1
-    tileAnchor: center
-  - id: fallen-canopy-grass-clump-v1-4-22
-    kind: decoration
-    position:
-      column: 4
-      row: 26
-    textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-7-22
     kind: decoration
     position:
-      column: 8
-      row: 26
+      column: 10
+      row: 25
     textureKey: fern-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-1-v1-8-22
-    kind: decoration
-    position:
-      column: 20
-      row: 19
-    textureKey: mushroom-cluster-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-2-v1-10-22
-    kind: decoration
-    position:
-      column: 23
-      row: 20
-    textureKey: mushroom-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-17-22
     kind: decoration
     position:
       column: 17
-      row: 21
+      row: 23
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fallen-leaves-v1-18-22
     kind: decoration
     position:
-      column: 18
-      row: 23
+      column: 17
+      row: 22
     textureKey: fallen-leaves-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-3-v1-28-22
-    kind: decoration
-    position:
-      column: 22
-      row: 21
-    textureKey: mushroom-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-3-v1-0-23
-    kind: decoration
-    position:
-      column: 3
-      row: 26
-    textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-2-23
     kind: decoration
     position:
-      column: 2
-      row: 28
+      column: 3
+      row: 27
     textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-3-23
     kind: decoration
     position:
-      column: 4
-      row: 27
+      column: 6
+      row: 29
     textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-cluster-v1-6-23
-    kind: decoration
-    position:
-      column: 22
-      row: 18
-    textureKey: mushroom-cluster-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-16-23
     kind: decoration
     position:
       column: 16
-      row: 23
+      row: 25
     textureKey: broadleaf-weed-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-clump-v1-17-23
-    kind: decoration
-    position:
-      column: 17
-      row: 23
-    textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-28-23
     kind: decoration
     position:
-      column: 28
-      row: 26
+      column: 29
+      row: 27
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-29-23
     kind: decoration
     position:
-      column: 25
-      row: 24
+      column: 27
+      row: 27
     textureKey: fern-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-0-24
     kind: decoration
     position:
-      column: 1
-      row: 28
+      column: 2
+      row: 26
     textureKey: fern-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-fallen-leaves-v1-3-24
-    kind: decoration
-    position:
-      column: 5
-      row: 27
-    textureKey: fallen-leaves-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-3-v1-10-24
-    kind: decoration
-    position:
-      column: 21
-      row: 18
-    textureKey: mushroom-variant-3-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-1-v1-12-24
-    kind: decoration
-    position:
-      column: 22
-      row: 17
-    textureKey: mushroom-cluster-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-clump-v1-17-24
     kind: decoration
     position:
       column: 17
-      row: 24
+      row: 26
     textureKey: ivy-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-18-24
-    kind: decoration
-    position:
-      column: 18
-      row: 24
-    textureKey: sapling-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-21-24
     kind: decoration
     position:
-      column: 21
-      row: 25
+      column: 19
+      row: 27
     textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-22-24
-    kind: decoration
-    position:
-      column: 24
-      row: 25
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-1-v1-23-24
-    kind: decoration
-    position:
-      column: 20
-      row: 18
-    textureKey: mushroom-cluster-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-variant-1-v1-24-24
     kind: decoration
     position:
-      column: 23
+      column: 24
       row: 26
     textureKey: ivy-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-variant-2-v1-25-24
-    kind: decoration
-    position:
-      column: 25
-      row: 27
-    textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fallen-leaves-v1-26-24
     kind: decoration
     position:
       column: 27
-      row: 26
+      row: 24
     textureKey: fallen-leaves-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-3-v1-27-24
     kind: decoration
     position:
-      column: 27
-      row: 27
+      column: 26
+      row: 25
     textureKey: fern-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-28-24
@@ -2559,38 +1978,17 @@ data:
       row: 27
     textureKey: fern-variant-1-v1
     tileAnchor: center
-  - id: fallen-canopy-sapling-variant-2-v1-30-24
-    kind: decoration
-    position:
-      column: 28
-      row: 28
-    textureKey: sapling-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-1-v1-2-25
-    kind: decoration
-    position:
-      column: 4
-      row: 28
-    textureKey: fern-variant-1-v1
-    tileAnchor: center
   - id: fallen-canopy-fallen-leaves-v1-4-25
     kind: decoration
     position:
-      column: 5
-      row: 28
+      column: 4
+      row: 27
     textureKey: fallen-leaves-v1
-    tileAnchor: center
-  - id: fallen-canopy-mushroom-variant-3-v1-9-25
-    kind: decoration
-    position:
-      column: 21
-      row: 17
-    textureKey: mushroom-variant-3-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-10-25
     kind: decoration
     position:
-      column: 12
+      column: 11
       row: 26
     textureKey: fern-variant-1-v1
     tileAnchor: center
@@ -2598,115 +1996,66 @@ data:
     kind: decoration
     position:
       column: 13
-      row: 26
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-weed-v1-16-25
-    kind: decoration
-    position:
-      column: 16
       row: 24
-    textureKey: broadleaf-weed-v1
+    textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-19-25
     kind: decoration
     position:
-      column: 17
-      row: 26
+      column: 19
+      row: 28
     textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-21-25
-    kind: decoration
-    position:
-      column: 22
-      row: 27
-    textureKey: sapling-variant-1-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-23-25
-    kind: decoration
-    position:
-      column: 26
-      row: 27
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-24-25
     kind: decoration
     position:
       column: 25
-      row: 28
+      row: 26
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-30-25
     kind: decoration
     position:
       column: 27
-      row: 28
-    textureKey: fern-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-1-v1-0-26
-    kind: decoration
-    position:
-      column: 3
       row: 29
-    textureKey: fern-variant-1-v1
+    textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-2-v1-3-26
     kind: decoration
     position:
-      column: 4
+      column: 7
       row: 29
     textureKey: fern-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-clump-v1-4-26
     kind: decoration
     position:
-      column: 7
+      column: 5
       row: 28
     textureKey: fern-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-6-26
     kind: decoration
     position:
-      column: 6
+      column: 4
       row: 29
     textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-grass-clump-v1-7-26
-    kind: decoration
-    position:
-      column: 8
-      row: 29
-    textureKey: grass-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-sapling-variant-1-v1-11-26
-    kind: decoration
-    position:
-      column: 13
-      row: 27
-    textureKey: sapling-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-17-26
     kind: decoration
     position:
-      column: 16
-      row: 26
+      column: 14
+      row: 28
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-18-26
     kind: decoration
     position:
       column: 15
-      row: 26
+      row: 27
     textureKey: fern-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-20-26
-    kind: decoration
-    position:
-      column: 20
-      row: 29
-    textureKey: broadleaf-weed-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-weed-v1-21-26
     kind: decoration
     position:
       column: 19
@@ -2716,63 +2065,49 @@ data:
   - id: fallen-canopy-grass-clump-v1-22-26
     kind: decoration
     position:
-      column: 19
-      row: 19
+      column: 20
+      row: 20
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-ivy-variant-1-v1-25-26
     kind: decoration
     position:
-      column: 24
+      column: 26
       row: 29
     textureKey: ivy-variant-1-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-weed-v1-7-27
     kind: decoration
     position:
-      column: 11
+      column: 12
       row: 29
     textureKey: broadleaf-weed-v1
-    tileAnchor: center
-  - id: fallen-canopy-ivy-clump-v1-9-27
-    kind: decoration
-    position:
-      column: 13
-      row: 29
-    textureKey: ivy-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-10-27
     kind: decoration
     position:
-      column: 14
-      row: 26
+      column: 12
+      row: 28
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-grass-clump-v1-12-27
     kind: decoration
     position:
-      column: 16
-      row: 27
+      column: 14
+      row: 25
     textureKey: grass-clump-v1
     tileAnchor: center
   - id: fallen-canopy-broadleaf-variant-2-v1-17-27
     kind: decoration
     position:
-      column: 15
-      row: 27
-    textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: fallen-canopy-broadleaf-variant-2-v1-18-27
-    kind: decoration
-    position:
-      column: 15
-      row: 24
+      column: 13
+      row: 28
     textureKey: broadleaf-variant-2-v1
     tileAnchor: center
   - id: fallen-canopy-fern-variant-1-v1-19-27
     kind: decoration
     position:
-      column: 17
+      column: 18
       row: 29
     textureKey: fern-variant-1-v1
     tileAnchor: center
@@ -2786,14 +2121,7 @@ data:
   - id: fallen-canopy-ivy-clump-v1-21-27
     kind: decoration
     position:
-      column: 14
+      column: 13
       row: 29
     textureKey: ivy-clump-v1
-    tileAnchor: center
-  - id: fallen-canopy-fern-variant-3-v1-11-28
-    kind: decoration
-    position:
-      column: 14
-      row: 27
-    textureKey: fern-variant-3-v1
     tileAnchor: center

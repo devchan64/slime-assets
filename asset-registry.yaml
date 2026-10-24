@@ -627,7 +627,7 @@ assets:
 - managementId: config.field-tiles.dawn-overlook
   version: shared-material-codes-v2-dawn-v1-valley-v1-crossing-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/field_tiles/dawn-overlook.yaml
-  sha256: c57523b6f1100200ead033e49402677b8826c7fd8ba4ac2a61eca79c1854bcca
+  sha256: 1e96f299088f74755eaeb6061747f13e852469fd95d976132d93ab0889811e41
   source:
     repository: slime-backend
     path: config/field_tiles/dawn-overlook.yaml
@@ -643,7 +643,7 @@ assets:
 - managementId: config.field-tiles.fallen-canopy
   version: retire-stump-v1-canopy-v1
   path: assets/maps/field_tiles/fallen-canopy.yaml
-  sha256: adc1f85a35b9ec0196d6edf0d0d970cf3db2715dc22859ca4d1065e90a87060d
+  sha256: d9620121409c976d3c3fd150f24438e9647f89d1b6a1b43f109ec146c6598d13
   source:
     repository: slime-backend
     path: config/field_tiles/fallen-canopy.yaml
@@ -1195,7 +1195,7 @@ assets:
 - managementId: config.terrain.maps.fallen-canopy
   version: v1-canopy-v1
   path: assets/maps/terrain/maps/fallen-canopy.yaml
-  sha256: 25132f99162cc7402675082843406f8728da27d79e30e3ed8249bd87cdf23647
+  sha256: d12d5227603a2e852fcbb0e579387ab4c561c68653646895b1f4504b72f55e67
   source:
     repository: slime-backend
     path: config/terrain/maps/fallen-canopy.yaml
@@ -4051,7 +4051,7 @@ assets:
     operation: 사용자 승인 여성 코스튬 일반 공격 태권도 돌려차기 컷인, 투명 PNG 512x512
 - managementId: image.scenery.orchard-apple-tree-v1
   version: v1
-  path: assets/billboards/orchard-apple-tree-v1.png
+  path: assets/retired/billboards/orchard-apple-tree-v1.png
   name: 사과나무
   width: 253
   height: 249
@@ -4062,6 +4062,9 @@ assets:
     output: result.png
     sha256: 6bafec0f8858d94ab832ecb1c23a289590f5c604ebb4c892b5af023b39f4d474
     operation: 사용자 승인 투명 원본 그대로 등록
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/orchard-apple-tree-v1.png
 - managementId: image.scenery.orchard-dead-tree-v1
   version: v1
   path: assets/billboards/orchard-dead-tree-v1.png
@@ -4684,7 +4687,7 @@ assets:
     operation: 과수원 식생 80종 확장, 128×128
 - managementId: image.scenery.mushroom-variant-1-v1
   version: v1
-  path: assets/billboards/mushroom-variant-1-v1.png
+  path: assets/retired/billboards/mushroom-variant-1-v1.png
   width: 66
   height: 70
   sha256: 5a96fa6821630319931722dc31e31768842185e565448278d33cdcec03a98473
@@ -4692,6 +4695,9 @@ assets:
     repository: codex-imagegen
     artifact: exec-b78d0ea1-7f40-4a72-857d-286be32a9646.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
+    retirement_reason: 관리 UI에서 사용자 확인 후 폐기
+    original_path: assets/billboards/mushroom-variant-1-v1.png
 - managementId: image.scenery.mushroom-variant-2-v1
   version: v1
   path: assets/billboards/mushroom-variant-2-v1.png
@@ -4894,7 +4900,7 @@ assets:
     operation: 과수원 식생 80종 확장, 128×128
 - managementId: image.scenery.orchard-young-tree-variant-1-v1
   version: v1
-  path: assets/billboards/orchard-young-tree-variant-1-v1.png
+  path: assets/retired/billboards/orchard-young-tree-variant-1-v1.png
   name: 과수원 young 나무 변형 1
   width: 230
   height: 248
@@ -4905,6 +4911,9 @@ assets:
     output: exec-3042ca95-617d-4c3f-99b1-406d70ca3f38.png
     sha256: 93744d10a16ee5803d7f19814d9edd0585e5c978fba94231e2d7a7ffc017990f
     operation: 나무 빌보드 5종을 15종으로 확장
+    lifecycle_status: retired
+    retirement_reason: '사용자 요청: 새 화풍의 나무 5종으로 대체'
+    original_path: assets/billboards/orchard-young-tree-variant-1-v1.png
 - managementId: image.scenery.orchard-apple-tree-v2
   version: v2
   path: assets/billboards/orchard-apple-tree-v2.png
@@ -6505,7 +6514,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 298855970c5d2da5c8faa330bfbdac7fad160c0642b08e86a151c06857a73b30
+  sha256: 74df5ca524396ac32fe72fffd6d4509cce5ca949e55918b318e256b92568e953
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7296,7 +7305,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-e5c6e181-dcdc-4536-9ae0-44da7bebd9b9.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
+      구성요소 분리
 - managementId: image.scenery.bridge-stone-components-v1
   version: v1
   path: assets/buildings/bridge-stone-components-v1.png
@@ -7307,7 +7317,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-d59c0191-16d5-4afb-a4b8-786f6941fe17.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
+      구성요소 분리
 - managementId: image.scenery.bridge-connection-details-v1
   version: v1
   path: assets/buildings/bridge-connection-details-v1.png
@@ -7318,7 +7329,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-baa58574-5e9e-43f0-ad8c-e62bf2328bd2.png
-    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소
+      분리
 - managementId: image.scenery.bridge-timber-components-v2
   version: v2
   path: assets/buildings/bridge-timber-components-v2.png
@@ -8561,7 +8573,7 @@ assets:
     processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
 - managementId: image.scenery.dawn-overlook-conifer-tree-tall-v1
   version: v1
-  path: assets/billboards/dawn-overlook-conifer-tree-tall-v1.png
+  path: assets/retired/billboards/dawn-overlook-conifer-tree-tall-v1.png
   name: 뾰족한 높은 침엽수
   width: 88
   height: 239
@@ -8571,9 +8583,12 @@ assets:
     artifact: exec-56cb9cda-4f3e-4e28-8b8f-bf7a7e735d75.png
     original_sha256: ceff133e0b382a5b74c3c4d238b4078e622cc0f8f2f0527faad8e0333bcd2957
     processing: 사용자 등록 요청. 투명도·비율 유지 긴 변 512px 정규화. 생성 원본은 워크플로우에 별도 보존.
+    lifecycle_status: retired
+    retirement_reason: '사용자 요청: 새 화풍의 나무 5종으로 대체'
+    original_path: assets/billboards/dawn-overlook-conifer-tree-tall-v1.png
 - managementId: image.scenery.dawn-overlook-conifer-tree-medium-v1
   version: v1
-  path: assets/billboards/dawn-overlook-conifer-tree-medium-v1.png
+  path: assets/retired/billboards/dawn-overlook-conifer-tree-medium-v1.png
   name: 불규칙한 중간 침엽수
   width: 171
   height: 242
@@ -8583,6 +8598,9 @@ assets:
     artifact: exec-c5431869-064d-441f-91d7-b8df27bb8c8a.png
     original_sha256: 2a582187df9222ce27f12b36a0756d71de441190c963fa3c63fe98d710e8d65e
     processing: 사용자 등록 요청. 투명도·비율 유지 긴 변 512px 정규화. 생성 원본은 워크플로우에 별도 보존.
+    lifecycle_status: retired
+    retirement_reason: '사용자 요청: 새 화풍의 나무 5종으로 대체'
+    original_path: assets/billboards/dawn-overlook-conifer-tree-medium-v1.png
 - managementId: image.scenery.dawn-overlook-pine-tree-windswept-v1
   version: v1
   path: assets/billboards/dawn-overlook-pine-tree-windswept-v1.png
@@ -8607,3 +8625,58 @@ assets:
     artifact: fallen-canopy-giant-hollow-trunk-v1-original.png
     original_sha256: 03ebe13196ae91a54a6e0727b52487a2b8c51d164cb6f712873702825bed349a
     processing: 투명 여백 알파 5 기준 크롭·긴 변 512px 비율 유지 축소
+- managementId: image.scenery.orchard-young-tree-variant-1-v3
+  version: v3
+  path: assets/billboards/orchard-young-tree-variant-1-v3.png
+  name: 잎 무리가 선명한 어린 과수
+  width: 199
+  height: 256
+  sha256: 364a2cbf7fbe248bb01245dccffdb632ab2726609c5cc969fd4a923011b84dbd
+  source:
+    repository: codex-imagegen
+    original_sha256: 2ad9fb28ed3922b750cef82dbb36186f9abda1b1e403330d842e782760d7df7e
+    processing: 사용자 채택. RGBA·비율 유지, Lanczos 긴 변 512px 축소.
+- managementId: image.scenery.dawn-overlook-conifer-tree-tall-v2
+  version: v2
+  path: assets/billboards/dawn-overlook-conifer-tree-tall-v2.png
+  name: 층진 수관의 높은 침엽수
+  width: 164
+  height: 256
+  sha256: 0df50fc46dc4cc4d8d055d37fe780d4deaec7d79eb51c9c2acd93d47c2105684
+  source:
+    repository: codex-imagegen
+    original_sha256: 6be38bff36dbb3584738654e89d9f07ab9003c6ab80ad0a7e668573451b8c961
+    processing: 사용자 채택. RGBA·비율 유지, Lanczos 긴 변 512px 축소.
+- managementId: image.scenery.dawn-overlook-conifer-tree-medium-v2
+  version: v2
+  path: assets/billboards/dawn-overlook-conifer-tree-medium-v2.png
+  name: 넓은 수관의 중간 침엽수
+  width: 228
+  height: 256
+  sha256: 295e5c0e6d5632d512b02b76bfdb9ef65f834d60d97ba56e29646cfdd0b41e21
+  source:
+    repository: codex-imagegen
+    original_sha256: 751aa233f39d326255fa04cb41b7b1b6b5628c8b0a2aa85cc411254345160125
+    processing: 사용자 채택. RGBA·비율 유지, Lanczos 긴 변 512px 축소.
+- managementId: image.scenery.conifer-tree-compact-v1
+  version: v1
+  path: assets/billboards/conifer-tree-compact-v1.png
+  name: 낮고 풍성한 침엽수
+  width: 228
+  height: 256
+  sha256: b01c40b236e7c80846e77e1b2e4101a360d932f0d13b0b7484ebd1abe6cf08cc
+  source:
+    repository: codex-imagegen
+    original_sha256: 43a6d5aad2158a6983a954b766038ca44c5096cd3f2c102d05143e500d43217c
+    processing: 사용자 채택. RGBA·비율 유지, Lanczos 긴 변 512px 축소.
+- managementId: image.scenery.conifer-tree-open-v1
+  version: v1
+  path: assets/billboards/conifer-tree-open-v1.png
+  name: 가지 사이가 열린 침엽수
+  width: 180
+  height: 256
+  sha256: 6ebdb288fe29e326ae90b9e21dde5d142393cf15a5d3899241db6e8c6fd7a5cb
+  source:
+    repository: codex-imagegen
+    original_sha256: 525a650f8bb5783806e0e407fab610e449afdf9e89943a8e611fa2c31a6838fb
+    processing: 사용자 채택. RGBA·비율 유지, Lanczos 긴 변 512px 축소.
