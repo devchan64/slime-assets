@@ -1,1924 +1,4594 @@
 managementId: config.field-tiles.dawn-overlook
 data:
   rows:
-  - ssssssssssssssssHsssssssssssssss
-  - ssssssssssssssssHsssssssssssssss
-  - ssssssssssssssssHsssssssssssssss
-  - ssssssssssssssssHsssssssssssssss
-  - ssssssssssssssssHsssssssssssssss
-  - ssssssssssssssssHsssssssssssssss
-  - ssssssssssssssssHsssssssssssssss
-  - sssJJJJsssssssssHsssssssssssssss
-  - sHHHHHHHJsssssssHsssssssssssssss
-  - sHJhhhhHHHssssssHsssssssssssssss
-  - JHhqqqqhhHJgsssgHggggggsssgggggg
-  - JHhqqqqqhHJsssssHgggggssssgggggg
-  - JHhqqqqqhHHsssssHggggssssssggggg
-  - JHhhqqqqhhHHHHHHHHHHHHHHHHHHHHHg
-  - gHHHhqqhHHHJJJsJJJJJggHsssggggHg
-  - JHhhqqqqhhhhhJJJJJJJJgHsssggggHg
-  - JHhqqqqqqqqqqhJhhhhhJJHgggggmmHg
-  - gHHhqqqqqqqqqqhqqqqqhJHJJggmmmHm
-  - mJHhqqqqqqqqqqqqqqqqqhhJJJJmmmHm
-  - mgHHhqqqqqqqqqqqqqqqqqqhhJJJmmHm
-  - mggHHhqqqqqqqqqqqqqqqqqqqhhJJmHm
-  - ggggHHhqqqqqqqqqqqqqqqqqqqqhJJHg
-  - ggssgHHhqqqqqqqqqqqqqqqqqqqqhJHg
-  - gssssgHHhqqqqqqqqqqqqqqqqqqqqhHJ
-  - gsssssgHHhhhhhhhhqqqqqqqqqqqqhHJ
-  - ssssssggHHHHHHHHHhqqqqqqqqqqqhHJ
-  - ssssssgggJJJJJJJHHhhhqqqqqhhhhHJ
-  - gssssggggggsssssJHHHHhqqqhHHHHHg
-  - ggssggggmgggsssJJhhhhqqqqqhhhHJg
-  - gggggggmmmgggggJJhqqqqqqqqqhJJmg
-  - ggggggmmmmmggggJJhqqqqqqqqqhJJmm
-  - mggggmmmmmmggggJJhqqqqqqqqhJJmmm
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - JJJJJJJJJJJJJJJJHJJJJJJJCCCCJJJJ
+  - JJJJJJJJJJJJJJJJHJJJJJJJJJCCJJJJ
+  - JJJJJJJJJJJJJJJJHJJJJJJJJJCCJJJJ
+  - AAJJJJJJJJJJJJJJHJJJJJJJJJCCJJJJ
+  - AAAAJJJJJJJJJJJJHJJJJJJJJJCCAAAA
+  - AAAAAAJJJJJJJJJJJJJJJJJJCCCCAAAA
+  - AAAAAAAAJJJJJJJJJJJJJJJJCCAAAAAA
+  - AAAAAAAAAJJJJJJJJJJJJJJACCAAAAAA
+  - AAAAAAAAAAJJJJJJJJJJJJAACCAAAAAA
+  - AAAAAAAAAAAJJJJJJJJJJAAACCAAAAAA
+  - AAAAAAAAAAAAJJJJJJJJAAAACCCCAAAA
+  - AAAAAAAAAAAAJJJJJJJJAAAAAACCAAAA
+  - AAAAAAAAAAAAAJJJJJJAAAAAAACCAAAA
+  - AAAAAAAAAAAAAAJJJJJAAAAAAACCAAAA
+  - AAAAAAAAAAAAAAJJJJAAAAAAAACCAAAA
+  - AAAAAAAAAAAAAAAJJAAAAAAAAACCAAAA
+  - hhhAAAAAAAAAAAAAAAAAAAAAAACCAAAA
+  - wwwhhAAAAAAAAAAAAAAAAAAAAACCAAAA
+  - hhhwwhhAAAAAAAAAAAAAAAAAAAAAAAAA
+  - AAAhhwwhAAAAAAAAAAAAAAAAAAAAAAAA
+  - AAAAAhqwhAAAAAAAAAAAAAhhhAAAAAhh
+  - AAAAAAwqwhAAAAAAAAAAhhwwwhhhhhww
+  - AAAAAAhwqwhhAAAAAAAhwwqqqwwwwwhh
+  - AAAAAAAhwqwwhhhhhhhwqqwwwhhhhhAA
+  - AAAAAAAAhwqqwwwwwwwhwwhhhAAAAAAA
+  - AAAAAAAAAhwwhhhhhhhAhhAAAAAAAAAA
+  - AAAAAAAAAAhhAAAAAAAAAAAAAAAAAAAA
   objects:
   - id: ward-tower
     kind: ward-tower
     position:
       column: 16
       row: 13
-  - id: overlook-dawn-overlook-split-granite-v1-4-3
+  - id: overlook-north-granite-1
     kind: decoration
     position:
       column: 4
       row: 2
     textureKey: dawn-overlook-split-granite-v1
     tileAnchor: center
-  - id: overlook-dawn-overlook-split-granite-v1-22-7
+  - id: overlook-north-granite-2
+    kind: decoration
+    position:
+      column: 8
+      row: 6
+    textureKey: dawn-overlook-split-granite-v1
+    tileAnchor: center
+  - id: overlook-north-granite-3
     kind: decoration
     position:
       column: 22
-      row: 7
+      row: 2
     textureKey: dawn-overlook-split-granite-v1
     tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-1-0
-    kind: decoration
-    position:
-      column: 1
-      row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-2-0
-    kind: decoration
-    position:
-      column: 2
-      row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-4-0
-    kind: decoration
-    position:
-      column: 4
-      row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-7-0
-    kind: decoration
-    position:
-      column: 7
-      row: 0
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-9-0
-    kind: decoration
-    position:
-      column: 8
-      row: 0
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-12-0
-    kind: decoration
-    position:
-      column: 12
-      row: 1
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-13-0
-    kind: decoration
-    position:
-      column: 12
-      row: 0
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-15-0
-    kind: decoration
-    position:
-      column: 16
-      row: 0
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-19-0
-    kind: decoration
-    position:
-      column: 19
-      row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-21-0
-    kind: decoration
-    position:
-      column: 18
-      row: 0
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-23-0
-    kind: decoration
-    position:
-      column: 21
-      row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-24-0
-    kind: decoration
-    position:
-      column: 17
-      row: 0
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-27-0
-    kind: decoration
-    position:
-      column: 27
-      row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-28-0
-    kind: decoration
-    position:
-      column: 31
-      row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-31-0
-    kind: decoration
-    position:
-      column: 31
-      row: 1
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-0-1
-    kind: decoration
-    position:
-      column: 0
-      row: 1
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-3-1
-    kind: decoration
-    position:
-      column: 2
-      row: 1
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-4-1
-    kind: decoration
-    position:
-      column: 3
-      row: 0
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-7-1
-    kind: decoration
-    position:
-      column: 7
-      row: 1
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-12-1
-    kind: decoration
-    position:
-      column: 8
-      row: 1
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-13-1
-    kind: decoration
-    position:
-      column: 14
-      row: 3
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-14-1
-    kind: decoration
-    position:
-      column: 16
-      row: 1
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-17-1
-    kind: decoration
-    position:
-      column: 17
-      row: 1
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-20-1
-    kind: decoration
-    position:
-      column: 20
-      row: 1
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-22-1
-    kind: decoration
-    position:
-      column: 19
-      row: 1
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-23-1
-    kind: decoration
-    position:
-      column: 18
-      row: 1
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-24-1
-    kind: decoration
-    position:
-      column: 23
-      row: 10
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-25-1
-    kind: decoration
-    position:
-      column: 25
-      row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-26-1
-    kind: decoration
-    position:
-      column: 31
-      row: 2
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-0-2
-    kind: decoration
-    position:
-      column: 0
-      row: 2
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-1-2
-    kind: decoration
-    position:
-      column: 1
-      row: 2
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-9-2
-    kind: decoration
-    position:
-      column: 8
-      row: 2
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-10-2
-    kind: decoration
-    position:
-      column: 10
-      row: 3
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-11-2
-    kind: decoration
-    position:
-      column: 11
-      row: 4
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-12-2
-    kind: decoration
-    position:
-      column: 12
-      row: 2
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-13-2
-    kind: decoration
-    position:
-      column: 16
-      row: 2
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-19-2
-    kind: decoration
-    position:
-      column: 18
-      row: 2
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-21-2
-    kind: decoration
-    position:
-      column: 21
-      row: 1
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-22-2
-    kind: decoration
-    position:
-      column: 20
-      row: 0
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-23-2
-    kind: decoration
-    position:
-      column: 17
-      row: 2
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-25-2
-    kind: decoration
-    position:
-      column: 25
-      row: 11
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-27-2
-    kind: decoration
-    position:
-      column: 26
-      row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-28-2
-    kind: decoration
-    position:
-      column: 31
-      row: 3
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-30-2
-    kind: decoration
-    position:
-      column: 30
-      row: 13
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-0-3
-    kind: decoration
-    position:
-      column: 0
-      row: 3
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-1-3
-    kind: decoration
-    position:
-      column: 1
-      row: 4
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-2-3
-    kind: decoration
-    position:
-      column: 2
-      row: 3
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-3-3
-    kind: decoration
-    position:
-      column: 1
-      row: 3
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-10-3
-    kind: decoration
-    position:
-      column: 9
-      row: 3
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-11-3
-    kind: decoration
-    position:
-      column: 11
-      row: 3
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-12-3
-    kind: decoration
-    position:
-      column: 12
-      row: 3
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-18-3
-    kind: decoration
-    position:
-      column: 18
-      row: 3
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-19-3
-    kind: decoration
-    position:
-      column: 17
-      row: 3
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-21-3
-    kind: decoration
-    position:
-      column: 16
-      row: 3
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-22-3
-    kind: decoration
-    position:
-      column: 16
-      row: 4
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-23-3
-    kind: decoration
-    position:
-      column: 20
-      row: 6
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-24-3
-    kind: decoration
-    position:
-      column: 24
-      row: 11
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-25-3
-    kind: decoration
-    position:
-      column: 28
-      row: 3
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-28-3
-    kind: decoration
-    position:
-      column: 28
-      row: 14
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-29-3
-    kind: decoration
-    position:
-      column: 31
-      row: 4
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-30-3
-    kind: decoration
-    position:
-      column: 30
-      row: 3
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-31-3
-    kind: decoration
-    position:
-      column: 31
-      row: 5
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-1-4
-    kind: decoration
-    position:
-      column: 0
-      row: 4
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-2-4
-    kind: decoration
-    position:
-      column: 2
-      row: 4
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-4-4
-    kind: decoration
-    position:
-      column: 6
-      row: 4
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-9-4
-    kind: decoration
-    position:
-      column: 9
-      row: 4
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-11-4
-    kind: decoration
-    position:
-      column: 10
-      row: 4
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-12-4
-    kind: decoration
-    position:
-      column: 12
-      row: 4
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-13-4
+  - id: overlook-wind-margin-14-3
     kind: decoration
     position:
       column: 13
-      row: 3
-    textureKey: fern-variant-2-v1
+      row: 2
+    textureKey: town-stonewarm-dry-golden-grass-v1
     tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-15-4
+  - id: overlook-wind-margin-15-4
     kind: decoration
     position:
-      column: 15
-      row: 3
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-19-4
-    kind: decoration
-    position:
-      column: 18
-      row: 4
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-21-4
-    kind: decoration
-    position:
-      column: 20
+      column: 13
       row: 5
     textureKey: town-stonewarm-dry-golden-grass-v1
     tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-23-4
+  - id: overlook-wind-margin-17-5
     kind: decoration
     position:
-      column: 21
+      column: 19
       row: 5
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-24-4
-    kind: decoration
-    position:
-      column: 24
-      row: 6
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-28-4
-    kind: decoration
-    position:
-      column: 30
-      row: 12
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-31-4
-    kind: decoration
-    position:
-      column: 31
-      row: 14
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-2-5
-    kind: decoration
-    position:
-      column: 2
-      row: 5
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-3-5
-    kind: decoration
-    position:
-      column: 1
-      row: 5
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-4-5
-    kind: decoration
-    position:
-      column: 4
-      row: 7
     textureKey: town-stonewarm-dry-golden-grass-v1
     tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-10-5
-    kind: decoration
-    position:
-      column: 10
-      row: 5
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-11-5
-    kind: decoration
-    position:
-      column: 11
-      row: 5
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-13-5
-    kind: decoration
-    position:
-      column: 12
-      row: 5
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-14-5
-    kind: decoration
-    position:
-      column: 14
-      row: 7
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-15-5
-    kind: decoration
-    position:
-      column: 16
-      row: 5
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-20-5
-    kind: decoration
-    position:
-      column: 17
-      row: 4
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-21-5
-    kind: decoration
-    position:
-      column: 20
-      row: 9
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-26-5
-    kind: decoration
-    position:
-      column: 24
-      row: 7
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-27-5
-    kind: decoration
-    position:
-      column: 29
-      row: 3
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-30-5
-    kind: decoration
-    position:
-      column: 30
-      row: 14
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-31-5
-    kind: decoration
-    position:
-      column: 31
-      row: 9
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-5-6
+  - id: overlook-wind-margin-6-6
     kind: decoration
     position:
       column: 5
-      row: 7
-    textureKey: dry-grass-variant-3-v1
+      row: 6
+    textureKey: town-stonewarm-silver-sage-shrub-v1
     tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-6-6
+  - id: overlook-wind-margin-10-6
+    kind: decoration
+    position:
+      column: 10
+      row: 6
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-14-6
+    kind: decoration
+    position:
+      column: 13
+      row: 6
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-21-6
+    kind: decoration
+    position:
+      column: 21
+      row: 6
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-25-6
+    kind: decoration
+    position:
+      column: 24
+      row: 6
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-10-7
+    kind: decoration
+    position:
+      column: 10
+      row: 7
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-19-7
+    kind: decoration
+    position:
+      column: 19
+      row: 7
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-20-7
+    kind: decoration
+    position:
+      column: 20
+      row: 7
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-21-7
+    kind: decoration
+    position:
+      column: 21
+      row: 7
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-2-9
+    kind: decoration
+    position:
+      column: 2
+      row: 7
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-3-10
+    kind: decoration
+    position:
+      column: 2
+      row: 12
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-5-10
     kind: decoration
     position:
       column: 6
-      row: 6
+      row: 9
     textureKey: town-stonewarm-silver-sage-shrub-v1
     tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-7-6
-    kind: decoration
-    position:
-      column: 7
-      row: 6
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-9-6
-    kind: decoration
-    position:
-      column: 9
-      row: 6
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-10-6
-    kind: decoration
-    position:
-      column: 10
-      row: 6
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-11-6
-    kind: decoration
-    position:
-      column: 11
-      row: 6
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-12-6
-    kind: decoration
-    position:
-      column: 13
-      row: 8
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-13-6
-    kind: decoration
-    position:
-      column: 12
-      row: 6
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-14-6
-    kind: decoration
-    position:
-      column: 15
-      row: 7
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-18-6
-    kind: decoration
-    position:
-      column: 16
-      row: 6
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-22-6
+  - id: overlook-wind-margin-25-10
     kind: decoration
     position:
       column: 22
-      row: 10
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-25-6
-    kind: decoration
-    position:
-      column: 24
       row: 8
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-27-6
-    kind: decoration
-    position:
-      column: 27
-      row: 14
     textureKey: town-stonewarm-silver-sage-shrub-v1
     tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-30-6
-    kind: decoration
-    position:
-      column: 31
-      row: 6
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-1-7
-    kind: decoration
-    position:
-      column: 1
-      row: 7
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-2-7
-    kind: decoration
-    position:
-      column: 2
-      row: 7
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-8-7
-    kind: decoration
-    position:
-      column: 8
-      row: 7
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-10-7
-    kind: decoration
-    position:
-      column: 10
-      row: 7
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-11-7
-    kind: decoration
-    position:
-      column: 11
-      row: 7
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-12-7
-    kind: decoration
-    position:
-      column: 12
-      row: 7
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-13-7
-    kind: decoration
-    position:
-      column: 13
-      row: 7
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-14-7
-    kind: decoration
-    position:
-      column: 14
-      row: 9
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-15-7
-    kind: decoration
-    position:
-      column: 16
-      row: 7
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-25-7
-    kind: decoration
-    position:
-      column: 26
-      row: 11
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-26-7
-    kind: decoration
-    position:
-      column: 25
-      row: 13
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-27-7
-    kind: decoration
-    position:
-      column: 28
-      row: 13
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-28-7
-    kind: decoration
-    position:
-      column: 31
-      row: 7
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-29-7
-    kind: decoration
-    position:
-      column: 29
-      row: 14
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-30-7
-    kind: decoration
-    position:
-      column: 31
-      row: 8
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-31-7
-    kind: decoration
-    position:
-      column: 31
-      row: 11
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-10-8
-    kind: decoration
-    position:
-      column: 10
-      row: 8
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-11-8
-    kind: decoration
-    position:
-      column: 11
-      row: 8
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-12-8
-    kind: decoration
-    position:
-      column: 12
-      row: 8
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-14-8
-    kind: decoration
-    position:
-      column: 14
-      row: 8
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-15-8
-    kind: decoration
-    position:
-      column: 15
-      row: 8
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-18-8
-    kind: decoration
-    position:
-      column: 16
-      row: 8
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-19-8
-    kind: decoration
-    position:
-      column: 20
-      row: 7
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-21-8
-    kind: decoration
-    position:
-      column: 20
-      row: 8
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-23-8
-    kind: decoration
-    position:
-      column: 23
-      row: 9
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-25-8
-    kind: decoration
-    position:
-      column: 23
-      row: 11
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-27-8
-    kind: decoration
-    position:
-      column: 26
-      row: 14
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-30-8
-    kind: decoration
-    position:
-      column: 30
-      row: 10
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-31-8
-    kind: decoration
-    position:
-      column: 30
-      row: 11
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-2-9
-    kind: decoration
-    position:
-      column: 2
-      row: 9
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-10-9
-    kind: decoration
-    position:
-      column: 9
-      row: 9
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-11-9
-    kind: decoration
-    position:
-      column: 11
-      row: 9
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-12-9
-    kind: decoration
-    position:
-      column: 10
-      row: 9
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-fern-variant-2-v1-13-9
-    kind: decoration
-    position:
-      column: 13
-      row: 9
-    textureKey: fern-variant-2-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-21-9
-    kind: decoration
-    position:
-      column: 21
-      row: 9
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-23-9
-    kind: decoration
-    position:
-      column: 22
-      row: 9
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-24-9
-    kind: decoration
-    position:
-      column: 25
-      row: 10
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-25-9
-    kind: decoration
-    position:
-      column: 24
-      row: 9
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-26-9
-    kind: decoration
-    position:
-      column: 26
-      row: 10
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-28-9
-    kind: decoration
-    position:
-      column: 28
-      row: 15
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-12-10
-    kind: decoration
-    position:
-      column: 12
-      row: 9
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-24-10
-    kind: decoration
-    position:
-      column: 24
-      row: 10
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-26-10
-    kind: decoration
-    position:
-      column: 26
-      row: 13
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-31-10
-    kind: decoration
-    position:
-      column: 31
-      row: 10
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-27-11
-    kind: decoration
-    position:
-      column: 27
-      row: 13
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-20-12
-    kind: decoration
-    position:
-      column: 20
-      row: 12
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-21-12
-    kind: decoration
-    position:
-      column: 21
-      row: 12
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-23-12
-    kind: decoration
-    position:
-      column: 23
-      row: 12
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-24-12
-    kind: decoration
-    position:
-      column: 24
-      row: 12
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-25-12
-    kind: decoration
-    position:
-      column: 25
-      row: 12
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-26-12
-    kind: decoration
-    position:
-      column: 26
-      row: 12
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-29-12
-    kind: decoration
-    position:
-      column: 29
-      row: 13
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-31-12
-    kind: decoration
-    position:
-      column: 31
-      row: 12
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-31-13
-    kind: decoration
-    position:
-      column: 31
-      row: 13
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-0-14
-    kind: decoration
-    position:
-      column: 0
-      row: 14
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-11-14
-    kind: decoration
-    position:
-      column: 11
-      row: 14
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-23-14
-    kind: decoration
-    position:
-      column: 23
-      row: 14
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-0-15
-    kind: decoration
-    position:
-      column: 0
-      row: 15
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-23-15
-    kind: decoration
-    position:
-      column: 23
-      row: 15
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-24-15
-    kind: decoration
-    position:
-      column: 24
-      row: 15
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-25-15
-    kind: decoration
-    position:
-      column: 25
-      row: 15
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-27-15
-    kind: decoration
-    position:
-      column: 27
-      row: 15
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-29-15
-    kind: decoration
-    position:
-      column: 29
-      row: 15
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-31-15
-    kind: decoration
-    position:
-      column: 31
-      row: 15
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-20-16
-    kind: decoration
-    position:
-      column: 20
-      row: 16
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-21-16
-    kind: decoration
-    position:
-      column: 21
-      row: 16
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-28-16
-    kind: decoration
-    position:
-      column: 28
-      row: 16
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-29-16
-    kind: decoration
-    position:
-      column: 29
-      row: 16
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-0-17
-    kind: decoration
-    position:
-      column: 0
-      row: 17
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-23-17
-    kind: decoration
-    position:
-      column: 23
-      row: 17
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-24-17
-    kind: decoration
-    position:
-      column: 24
-      row: 17
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-27-17
-    kind: decoration
-    position:
-      column: 27
-      row: 17
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-reed-young-v1-23-18
-    kind: decoration
-    position:
-      column: 23
-      row: 18
-    textureKey: town-reedhaven-reed-young-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-reed-young-v1-25-18
-    kind: decoration
-    position:
-      column: 25
-      row: 18
-    textureKey: town-reedhaven-reed-young-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-1-19
-    kind: decoration
-    position:
-      column: 1
-      row: 19
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-29-19
-    kind: decoration
-    position:
-      column: 29
-      row: 19
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-31-19
-    kind: decoration
-    position:
-      column: 31
-      row: 19
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-0-20
-    kind: decoration
-    position:
-      column: 0
-      row: 20
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-silver-sage-shrub-v1-1-20
-    kind: decoration
-    position:
-      column: 1
-      row: 20
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-2-20
-    kind: decoration
-    position:
-      column: 2
-      row: 20
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-reed-young-v1-28-20
-    kind: decoration
-    position:
-      column: 28
-      row: 20
-    textureKey: town-reedhaven-reed-young-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-29-20
-    kind: decoration
-    position:
-      column: 29
-      row: 20
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-31-20
-    kind: decoration
-    position:
-      column: 31
-      row: 20
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-0-21
-    kind: decoration
-    position:
-      column: 0
-      row: 21
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-1-21
-    kind: decoration
-    position:
-      column: 1
-      row: 21
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-town-stonewarm-dry-golden-grass-v1-2-21
-    kind: decoration
-    position:
-      column: 2
-      row: 21
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: overlook-dry-grass-variant-3-v1-3-21
-    kind: decoration
-    position:
-      column: 3
-      row: 21
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-31-21
-    kind: decoration
-    position:
-      column: 31
-      row: 21
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-1-22
-    kind: decoration
-    position:
-      column: 1
-      row: 22
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-reed-young-v1-2-22
-    kind: decoration
-    position:
-      column: 2
-      row: 22
-    textureKey: town-reedhaven-reed-young-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-3-22
-    kind: decoration
-    position:
-      column: 3
-      row: 22
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-reed-young-v1-31-22
-    kind: decoration
-    position:
-      column: 31
-      row: 22
-    textureKey: town-reedhaven-reed-young-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-river-sedge-tuft-v1-1-23
-    kind: decoration
-    position:
-      column: 1
-      row: 23
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-    tileAnchor: center
-  - id: overlook-town-reedhaven-water-mint-bush-v1-2-23
-    kind: decoration
-    position:
-      column: 2
-      row: 23
-    textureKey: town-reedhaven-water-mint-bush-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-4-27
+  - id: overlook-wind-margin-5-11
     kind: decoration
     position:
       column: 4
-      row: 27
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-13-28
-    kind: decoration
-    position:
-      column: 13
-      row: 26
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-14-31
-    kind: decoration
-    position:
-      column: 14
-      row: 31
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-0-27
-    kind: decoration
-    position:
-      column: 0
-      row: 24
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-0-26
-    kind: decoration
-    position:
-      column: 0
-      row: 25
+      row: 13
     textureKey: town-stonewarm-dry-golden-grass-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-29-0
-    kind: decoration
-    position:
-      column: 29
-      row: 17
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-2-25
-    kind: decoration
-    position:
-      column: 2
-      row: 25
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-29-14
-    kind: decoration
-    position:
-      column: 30
-      row: 15
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-29-8
-    kind: decoration
-    position:
-      column: 27
-      row: 16
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-13-3
-    kind: decoration
-    position:
-      column: 8
-      row: 3
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-29-30
-    kind: decoration
-    position:
-      column: 29
-      row: 30
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-9-7
-    kind: decoration
-    position:
-      column: 9
-      row: 7
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-28-6
-    kind: decoration
-    position:
-      column: 25
-      row: 14
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-22-8
+  - id: overlook-wind-margin-24-11
     kind: decoration
     position:
       column: 21
-      row: 10
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-17-7
-    kind: decoration
-    position:
-      column: 16
       row: 9
     textureKey: town-stonewarm-dry-golden-grass-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-0-31
-    kind: decoration
-    position:
-      column: 3
-      row: 27
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-9-3
-    kind: decoration
-    position:
-      column: 7
-      row: 3
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-16-30
-    kind: decoration
-    position:
-      column: 16
-      row: 30
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-1-31
+  - id: overlook-wind-margin-6-12
     kind: decoration
     position:
       column: 6
-      row: 31
+      row: 14
     textureKey: town-stonewarm-dry-golden-grass-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-27-18
+  - id: overlook-wind-margin-8-13
     kind: decoration
     position:
-      column: 27
+      column: 10
+      row: 10
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-9-13
+    kind: decoration
+    position:
+      column: 11
+      row: 11
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-24-14
+    kind: decoration
+    position:
+      column: 24
+      row: 16
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-25-14
+    kind: decoration
+    position:
+      column: 20
+      row: 10
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-7-15
+    kind: decoration
+    position:
+      column: 7
+      row: 16
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-23-15
+    kind: decoration
+    position:
+      column: 24
+      row: 17
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-8-16
+    kind: decoration
+    position:
+      column: 7
+      row: 17
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-25-16
+    kind: decoration
+    position:
+      column: 24
       row: 18
     textureKey: town-stonewarm-silver-sage-shrub-v1
     tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-2-31
-    kind: decoration
-    position:
-      column: 3
-      row: 28
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-28-19
-    kind: decoration
-    position:
-      column: 28
-      row: 19
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-25-0
-    kind: decoration
-    position:
-      column: 22
-      row: 12
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-10-31
-    kind: decoration
-    position:
-      column: 10
-      row: 31
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-10-27
-    kind: decoration
-    position:
-      column: 10
-      row: 26
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-7-5
+  - id: overlook-wind-margin-7-17
     kind: decoration
     position:
       column: 7
-      row: 5
+      row: 19
     textureKey: town-stonewarm-dry-golden-grass-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-3-30
+  - id: overlook-wind-margin-24-17
     kind: decoration
     position:
-      column: 6
-      row: 30
-    textureKey: town-stonewarm-silver-sage-shrub-v1
+      column: 23
+      row: 18
+    textureKey: town-stonewarm-dry-golden-grass-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-19-5
+  - id: overlook-wind-margin-25-18
+    kind: decoration
+    position:
+      column: 24
+      row: 20
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-wind-margin-20-22
+    kind: decoration
+    position:
+      column: 21
+      row: 21
+    textureKey: town-stonewarm-dry-golden-grass-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-1
+    kind: decoration
+    position:
+      column: 8
+      row: 8
+    textureKey: quarry-weathered-boulders-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-2
+    kind: decoration
+    position:
+      column: 19
+      row: 8
+    textureKey: quarry-weathered-boulders-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-3
+    kind: decoration
+    position:
+      column: 12
+      row: 13
+    textureKey: quarry-weathered-boulders-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-4
     kind: decoration
     position:
       column: 19
       row: 11
-    textureKey: town-stonewarm-dry-golden-grass-v1
+    textureKey: quarry-weathered-boulders-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-4-26
-    kind: decoration
-    position:
-      column: 4
-      row: 26
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-13-8
-    kind: decoration
-    position:
-      column: 14
-      row: 10
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-4-31
-    kind: decoration
-    position:
-      column: 7
-      row: 31
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-24-7
+  - id: overlook-rock-detail-5
     kind: decoration
     position:
       column: 21
-      row: 11
-    textureKey: town-stonewarm-silver-sage-shrub-v1
+      row: 8
+    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-0-11
-    kind: decoration
-    position:
-      column: 0
-      row: 11
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-1-26
-    kind: decoration
-    position:
-      column: 1
-      row: 25
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-6-3
-    kind: decoration
-    position:
-      column: 6
-      row: 3
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-10-28
-    kind: decoration
-    position:
-      column: 8
-      row: 28
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-27-12
-    kind: decoration
-    position:
-      column: 24
-      row: 13
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-29-18
-    kind: decoration
-    position:
-      column: 29
-      row: 18
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-7-30
-    kind: decoration
-    position:
-      column: 7
-      row: 30
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-14-4
-    kind: decoration
-    position:
-      column: 8
-      row: 4
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-1-24
-    kind: decoration
-    position:
-      column: 1
-      row: 24
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-22-9
-    kind: decoration
-    position:
-      column: 20
-      row: 10
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-6-4
-    kind: decoration
-    position:
-      column: 6
-      row: 5
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-30-29
-    kind: decoration
-    position:
-      column: 30
-      row: 29
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-31-29
-    kind: decoration
-    position:
-      column: 31
-      row: 29
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-22-11
+  - id: overlook-rock-detail-6
     kind: decoration
     position:
       column: 22
-      row: 11
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-9-30
-    kind: decoration
-    position:
-      column: 9
-      row: 30
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-7-26
-    kind: decoration
-    position:
-      column: 7
-      row: 26
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-31-18
-    kind: decoration
-    position:
-      column: 31
-      row: 18
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-16-27
-    kind: decoration
-    position:
-      column: 16
-      row: 27
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-1-28
-    kind: decoration
-    position:
-      column: 4
-      row: 28
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-31-9
-    kind: decoration
-    position:
-      column: 30
-      row: 16
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-11-30
-    kind: decoration
-    position:
-      column: 11
-      row: 30
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-6-5
-    kind: decoration
-    position:
-      column: 6
       row: 7
-    textureKey: town-stonewarm-silver-sage-shrub-v1
+    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-29-31
-    kind: decoration
-    position:
-      column: 29
-      row: 31
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-9-27
-    kind: decoration
-    position:
-      column: 8
-      row: 27
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-0-23
-    kind: decoration
-    position:
-      column: 0
-      row: 23
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-17-4
-    kind: decoration
-    position:
-      column: 15
-      row: 9
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-6-24
-    kind: decoration
-    position:
-      column: 6
-      row: 24
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-8-31
-    kind: decoration
-    position:
-      column: 8
-      row: 31
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-6-1
-    kind: decoration
-    position:
-      column: 6
-      row: 1
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-11-28
-    kind: decoration
-    position:
-      column: 11
-      row: 26
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-16-29
-    kind: decoration
-    position:
-      column: 16
-      row: 29
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-31-1
-    kind: decoration
-    position:
-      column: 31
-      row: 16
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-11-10
+  - id: overlook-rock-detail-7
     kind: decoration
     position:
       column: 10
-      row: 10
-    textureKey: town-stonewarm-silver-sage-shrub-v1
+      row: 9
+    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-13-31
+  - id: overlook-rock-detail-8
     kind: decoration
     position:
-      column: 13
-      row: 31
-    textureKey: town-stonewarm-dry-golden-grass-v1
+      column: 12
+      row: 12
+    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-dry-golden-grass-v1-8-30
+  - id: overlook-rock-detail-9
+    kind: decoration
+    position:
+      column: 19
+      row: 10
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-10
+    kind: decoration
+    position:
+      column: 22
+      row: 6
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-11
+    kind: decoration
+    position:
+      column: 10
+      row: 8
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-12
+    kind: decoration
+    position:
+      column: 12
+      row: 11
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-13
+    kind: decoration
+    position:
+      column: 20
+      row: 6
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-14
+    kind: decoration
+    position:
+      column: 22
+      row: 5
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+  - id: overlook-rock-detail-15
+    kind: decoration
+    position:
+      column: 11
+      row: 10
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+  - id: overlook-transition-quarry-collapse-fan-v1-1
+    kind: decoration
+    position:
+      column: 9
+      row: 12
+    textureKey: quarry-collapse-fan-v1
+    tileAnchor: center
+  - id: overlook-transition-quarry-collapse-fan-v1-2
+    kind: decoration
+    position:
+      column: 14
+      row: 19
+    textureKey: quarry-collapse-fan-v1
+    tileAnchor: center
+  - id: overlook-transition-quarry-collapse-fan-v1-3
     kind: decoration
     position:
       column: 8
-      row: 30
-    textureKey: town-stonewarm-dry-golden-grass-v1
+      row: 11
+    textureKey: quarry-collapse-fan-v1
     tileAnchor: center
-  - id: valley-town-stonewarm-silver-sage-shrub-v1-27-10
+  - id: overlook-transition-quarry-collapse-fan-v1-4
     kind: decoration
     position:
+      column: 7
+      row: 10
+    textureKey: quarry-collapse-fan-v1
+    tileAnchor: center
+  - id: overlook-transition-quarry-crevice-plants-v1-1
+    kind: decoration
+    position:
+      column: 4
+      row: 6
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+  - id: overlook-transition-quarry-crevice-plants-v1-2
+    kind: decoration
+    position:
+      column: 7
+      row: 6
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+  - id: overlook-transition-quarry-crevice-plants-v1-3
+    kind: decoration
+    position:
+      column: 21
+      row: 5
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+  - id: overlook-transition-quarry-crevice-plants-v1-4
+    kind: decoration
+    position:
+      column: 25
+      row: 2
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+  - id: overlook-transition-town-reedhaven-river-sedge-tuft-v1-1
+    kind: decoration
+    position:
+      column: 2
+      row: 18
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    tileAnchor: center
+  - id: overlook-transition-town-reedhaven-river-sedge-tuft-v1-2
+    kind: decoration
+    position:
+      column: 6
+      row: 20
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    tileAnchor: center
+  - id: overlook-transition-town-reedhaven-river-sedge-tuft-v1-3
+    kind: decoration
+    position:
+      column: 9
+      row: 23
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    tileAnchor: center
+  - id: overlook-transition-town-reedhaven-river-sedge-tuft-v1-4
+    kind: decoration
+    position:
+      column: 15
+      row: 25
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    tileAnchor: center
+  - id: overlook-transition-town-reedhaven-river-sedge-tuft-v1-5
+    kind: decoration
+    position:
+      column: 20
+      row: 23
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    tileAnchor: center
+  - id: overlook-transition-town-reedhaven-river-sedge-tuft-v1-6
+    kind: decoration
+    position:
+      column: 24
+      row: 22
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    tileAnchor: center
+  - id: overlook-transition-town-reedhaven-river-sedge-tuft-v1-7
+    kind: decoration
+    position:
+      column: 25
+      row: 23
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    tileAnchor: center
+  - id: overlook-transition-town-reedhaven-river-sedge-tuft-v1-8
+    kind: decoration
+    position:
+      column: 22
+      row: 30
+    textureKey: town-reedhaven-river-sedge-tuft-v1
+    tileAnchor: center
+  cliffOverrides:
+  - position:
+      column: 0
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 0
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 1
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 2
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 3
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 4
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 5
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 6
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 7
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 8
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 9
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 10
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 11
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 12
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 13
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 14
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
       column: 26
       row: 15
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: valley-dry-grass-variant-3-v1-8-29
-    kind: decoration
-    position:
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 15
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 16
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 17
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 18
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 19
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 20
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 21
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 22
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 23
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 24
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 25
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 26
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 27
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 28
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
       column: 8
       row: 29
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 29
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 30
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 0
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 1
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 2
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 3
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 4
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 5
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 6
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 7
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 8
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 9
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 10
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 11
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 12
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 13
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 14
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 15
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 16
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 17
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 18
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 19
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 20
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 21
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 22
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 23
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 24
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 25
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 26
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 27
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 28
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 29
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 30
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  - position:
+      column: 31
+      row: 31
+    textureKey: quarry-limestone-wall-v1
+  cliffTextureKey: quarry-limestone-wall-v1

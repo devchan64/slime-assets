@@ -627,7 +627,7 @@ assets:
 - managementId: config.field-tiles.dawn-overlook
   version: shared-material-codes-v2-dawn-v1-valley-v1-crossing-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/field_tiles/dawn-overlook.yaml
-  sha256: 9aa7c5369c8d2ff98b25803f0948854e2181bb306f5fb71eb4679d3d7039594e
+  sha256: d0c5f4a01a9582072cfcccf9535c1649c99eab3306b6ac228e1b5869ab704f2c
   source:
     repository: slime-backend
     path: config/field_tiles/dawn-overlook.yaml
@@ -1179,7 +1179,7 @@ assets:
 - managementId: config.terrain.maps.dawn-overlook
   version: field-detail-v2-dawn-v1-valley-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/terrain/maps/dawn-overlook.yaml
-  sha256: 2623d9706f714dd4db43c42de1a7a56b78ab54fa4ef62ac7fdc5e7fdcb9807e3
+  sha256: 6b7642e874240bf5db5d3cbac1e7b7623ccdb7d93d8a38d9dac6196d4808172e
   source:
     repository: slime-backend
     path: config/terrain/maps/dawn-overlook.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 680493707cf5c6115dfa0c8eff0969d9b4a49f4dcdc9c9f370f618c5f7db7cac
+  sha256: c4e9b0dd55dd4da985c0b60affc58d9cad37179838808c09a45fe9f76f412180
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7296,7 +7296,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-e5c6e181-dcdc-4536-9ae0-44da7bebd9b9.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
+      구성요소 분리
 - managementId: image.scenery.bridge-stone-components-v1
   version: v1
   path: assets/buildings/bridge-stone-components-v1.png
@@ -7307,7 +7308,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-d59c0191-16d5-4afb-a4b8-786f6941fe17.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
+      구성요소 분리
 - managementId: image.scenery.bridge-connection-details-v1
   version: v1
   path: assets/buildings/bridge-connection-details-v1.png
@@ -7318,7 +7320,8 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-baa58574-5e9e-43f0-ad8c-e62bf2328bd2.png
-    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
+    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소
+      분리
 - managementId: image.scenery.bridge-timber-components-v2
   version: v2
   path: assets/buildings/bridge-timber-components-v2.png
@@ -8506,9 +8509,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-low-branch-2x1-v1.png
   name: 낮은 분기 석영 판형
-  width: 512
-  height: 512
-  sha256: 26833401dfceeaa9648812f8364f72715ece86fb295ea1ccb062188d847cc869
+  width: 369
+  height: 470
+  sha256: 87b87d34b32adf5493331d72c06cdc4b290fe784d98f9ad23c78753647adc1b4
   source:
     repository: codex-imagegen
     artifact: exec-7461ef9f-b72f-4a41-bc35-96636744f404.png
@@ -8518,9 +8521,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-low-split-2x1-v1.png
   name: 낮은 절리 석영 판형
-  width: 512
-  height: 512
-  sha256: 5e482d3693cf42a5e16db6352408f07a4e7d957fec8290702e29817dd5d2aa3f
+  width: 384
+  height: 384
+  sha256: 4b917667d71b70cbd601a37bc1490ed39a5a5b2de5c6d54b5f2b5ccef6d6d741
   source:
     repository: codex-imagegen
     artifact: exec-6e09d1b5-caf4-41fa-be83-71d29c544774.png
@@ -8530,9 +8533,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-low-lenses-3x1-v1.png
   name: 낮은 렌즈 석영 판형
-  width: 512
-  height: 512
-  sha256: bfbc59f0b88073000a61e1fb0a4ad69d316921412f0f332591a15f4dc7dc12fd
+  width: 384
+  height: 384
+  sha256: 679e83a5a86517c417a7d748a1718b235c8b508d7ab082a3c3f3d92f3c8e994d
   source:
     repository: codex-imagegen
     artifact: exec-1cc33751-1523-44aa-9ebe-e46050583426.png
@@ -8542,11 +8545,47 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-low-rubble-3x1-v1.png
   name: 낮은 석영 파쇄 판형
-  width: 512
-  height: 512
-  sha256: 99c65fe2e3e2e28981bf51609d57f01c6bf3462606ec9a88b715181d3ad9ab71
+  width: 384
+  height: 384
+  sha256: 33812de491ee775962704854581821fcaac9ad6197025903081e84b8c5cea473
   source:
     repository: codex-imagegen
     artifact: exec-04cf2bb4-3e1b-41fd-8aa3-3c17dfbcb448.png
     original_sha256: 2068c183826c3cb0f19028348ca2d3a397829cffae981a71ca36dfb6fd66a1dc
     processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+- managementId: image.scenery.dawn-overlook-conifer-tree-tall-v1
+  version: v1
+  path: assets/billboards/dawn-overlook-conifer-tree-tall-v1.png
+  name: 뾰족한 높은 침엽수
+  width: 256
+  height: 256
+  sha256: 53ec5852f426152ab5b91c8ddd7fd8680b05d89f136b4e6554b6711ad00f8ef3
+  source:
+    repository: codex-imagegen
+    artifact: exec-56cb9cda-4f3e-4e28-8b8f-bf7a7e735d75.png
+    original_sha256: ceff133e0b382a5b74c3c4d238b4078e622cc0f8f2f0527faad8e0333bcd2957
+    processing: 사용자 등록 요청. 투명도·비율 유지 긴 변 512px 정규화. 생성 원본은 워크플로우에 별도 보존.
+- managementId: image.scenery.dawn-overlook-conifer-tree-medium-v1
+  version: v1
+  path: assets/billboards/dawn-overlook-conifer-tree-medium-v1.png
+  name: 불규칙한 중간 침엽수
+  width: 256
+  height: 256
+  sha256: b64e1242fe74ab4c8c3f5bf697f4d3730096ce245dc17ad8197c988a5f9c8236
+  source:
+    repository: codex-imagegen
+    artifact: exec-c5431869-064d-441f-91d7-b8df27bb8c8a.png
+    original_sha256: 2a582187df9222ce27f12b36a0756d71de441190c963fa3c63fe98d710e8d65e
+    processing: 사용자 등록 요청. 투명도·비율 유지 긴 변 512px 정규화. 생성 원본은 워크플로우에 별도 보존.
+- managementId: image.scenery.dawn-overlook-pine-tree-windswept-v1
+  version: v1
+  path: assets/billboards/dawn-overlook-pine-tree-windswept-v1.png
+  name: 바람에 기운 낮은 소나무
+  width: 256
+  height: 256
+  sha256: 45605eea4a3abacf9133cfc08956517256274886225740115e4363e43d7cb44f
+  source:
+    repository: codex-imagegen
+    artifact: exec-2446b7d5-b02c-4338-bdc6-65a940c99c12.png
+    original_sha256: 3d8d9e467512bbc4338a4f5e8f956d38b6149448c30b57d729fdccdd215dc6ac
+    processing: 사용자 등록 요청. 투명도·비율 유지 긴 변 512px 정규화. 생성 원본은 워크플로우에 별도 보존.
