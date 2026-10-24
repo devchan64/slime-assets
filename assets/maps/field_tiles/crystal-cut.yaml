@@ -221,13 +221,6 @@ data:
       row: 21
     textureKey: crystal-cut-low-branch-2x1-v1
     tileAnchor: center
-  - id: quartz-cluster-fragment-1
-    kind: decoration
-    position:
-      column: 5
-      row: 23
-    textureKey: crystal-cut-guide-1x1-low-v1
-    tileAnchor: center
   - id: quartz-cluster-fragment-2
     kind: decoration
     position:
@@ -339,13 +332,6 @@ data:
       column: 15
       row: 7
     textureKey: crystal-cut-quartz-detail-hairline-v1
-    tileAnchor: center
-  - id: quartz-cluster-fragment-18
-    kind: decoration
-    position:
-      column: 8
-      row: 9
-    textureKey: crystal-cut-guide-1x1-low-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-19
     kind: decoration
@@ -634,13 +620,6 @@ data:
       row: 23
     textureKey: crystal-cut-quartz-detail-scatter-v1
     tileAnchor: center
-  - id: quartz-cluster-fragment-52
-    kind: decoration
-    position:
-      column: 10
-      row: 23
-    textureKey: crystal-cut-guide-1x1-low-v1
-    tileAnchor: center
   - id: quartz-cluster-fragment-57
     kind: decoration
     position:
@@ -661,13 +640,6 @@ data:
       column: 18
       row: 7
     textureKey: crystal-cut-quartz-detail-scatter-v1
-    tileAnchor: center
-  - id: quartz-cluster-fragment-35
-    kind: decoration
-    position:
-      column: 15
-      row: 9
-    textureKey: crystal-cut-guide-1x1-low-v1
     tileAnchor: center
   - id: quartz-cluster-fragment-53
     kind: decoration
@@ -799,7 +771,7 @@ data:
     kind: decoration
     position:
       column: 13
-      row: 15
+      row: 14
     textureKey: crystal-cut-medium-pockets-2x1-v1
     tileAnchor: center
   - id: quartz-central-cut-south

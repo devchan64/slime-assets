@@ -1,7 +1,7 @@
 schema_version: 1
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 262
+  image_count: 259
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-20'
@@ -1298,15 +1298,6 @@ families:
     - 망치·끌·쐐기 묶음
     uses:
     - 폐채석장 인양·석재 인계 작업 흔적
-  quarry-cut-rock-face-v1:
-    category: rock
-    review_category: vegetation
-    name: 수직 절개 암반
-    features:
-    - 수직 절개 암반
-    - 외곽 후광 잔여물 포함
-    uses:
-    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
   quarry-fallen-limestone-v1:
     category: rock
     review_category: vegetation
@@ -1322,15 +1313,6 @@ families:
     name: 바위틈 마른 풀·백리향
     features:
     - 바위틈 마른 풀·백리향
-    - 외곽 후광 잔여물 포함
-    uses:
-    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
-  quarry-asymmetric-rockfall-v1:
-    category: rock
-    review_category: vegetation
-    name: 비대칭 석회암 붕락군
-    features:
-    - 비대칭 석회암 붕락군
     - 외곽 후광 잔여물 포함
     uses:
     - 폐채석장 절개면·붕락 사면·틈새 식생 보강
@@ -1394,15 +1376,6 @@ families:
     name: 석영 절개 3x2 바닥형
     features:
     - 석영 절개 3x2 바닥형
-    - 유백색 석영맥·회색 파쇄 암반
-    uses:
-    - 지면의 낮은 암반 노출부
-  crystal-cut-guide-1x1-low-v1:
-    category: rock
-    review_category: vegetation
-    name: 석영 절개 1x1 바닥형
-    features:
-    - 석영 절개 1x1 바닥형
     - 유백색 석영맥·회색 파쇄 암반
     uses:
     - 지면의 낮은 암반 노출부
@@ -14684,65 +14657,6 @@ billboards:
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
-- texture_key: quarry-cut-rock-face-v1
-  family: quarry-cut-rock-face-v1
-  asset_ref:
-    management_id: image.scenery.quarry-cut-rock-face-v1
-    version: v1
-  map_references: []
-  source_file:
-    path: assets/billboards/quarry-cut-rock-face-v1.png
-    width: 384
-    height: 256
-    sha256: 5c9220f1b3a1fbf86ad69846ec604441a576351466446cf7394ec0e1b8fc5550
-  modeling:
-    purpose: 수직 절개 암반 · 암석·지질 지표
-    recommended_uses:
-    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
-    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
-    avoid:
-    - 접지 영역의 서로 다른 고도
-    - 다른 오브젝트의 접지 점유와 중첩
-    - 출입구·시작점·주요 이동로 점유
-    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
-    shadow:
-      runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
-        미지원.
-      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      guidance_only: true
-    visual_description: 연한 황백색 절벽 덩어리에 세로로 길게 갈라진 기둥 모양의 결이 반복된다.
-    visual_review:
-      status: 원본 이미지 육안 확인
-      date: '2026-10-22'
-      source_sha256: 5c9220f1b3a1fbf86ad69846ec604441a576351466446cf7394ec0e1b8fc5550
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
-      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.quarry-cut-rock-face-v1
-    anchorX: -0.41
-    anchorY: -0.17
-    groundFootprintColumns: 4
-    groundFootprintRows: 2
-    displayHeight: 251
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.8
-    shadowScaleY: 1
-    shadowOffsetColumn: -1.55
-    shadowOffsetRow: -0.75
-    outdoorDisplayHeight: 125.5
-    size_variant: 기본 변형
-    occupied_tile_count: 8
-    movement: 통행 가능
 - texture_key: quarry-fallen-limestone-v1
   family: quarry-fallen-limestone-v1
   asset_ref:
@@ -14816,9 +14730,9 @@ billboards:
     texture_key_occurrences: 4
   source_file:
     path: assets/billboards/quarry-crevice-plants-v1.png
-    width: 128
-    height: 128
-    sha256: 2ae65bdcc6c5a1689a6a0989589125ce69bd9c4d3df9b212f9b6f4a68cecf49f
+    width: 90
+    height: 75
+    sha256: 6156951068ffa2e34091db7a66a0f06e57cab1a09bc7f0d4f7a2cd0e08cac25c
   modeling:
     purpose: 바위틈 마른 풀·백리향 · vegetation
     recommended_uses:
@@ -14852,80 +14766,21 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-crevice-plants-v1
-    anchorX: 0.0
-    anchorY: -0.55
+    anchorX: 0.01
+    anchorY: -0.17
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 100
+    displayHeight: 80.27
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.71
+    shadowScaleY: 1.71
     shadowOffsetColumn: -0.7
     shadowOffsetRow: -0.75
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 40.135
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
-- texture_key: quarry-asymmetric-rockfall-v1
-  family: quarry-asymmetric-rockfall-v1
-  asset_ref:
-    management_id: image.scenery.quarry-asymmetric-rockfall-v1
-    version: v1
-  map_references:
-  - path: assets/maps/field_tiles/broken-quarry.yaml
-    texture_key_occurrences: 1
-  source_file:
-    path: assets/billboards/quarry-asymmetric-rockfall-v1.png
-    width: 256
-    height: 170
-    sha256: 9bb0e57be1e68578452d5395b9f054294a3bea43fe0f46c8ee77e519ff8c580e
-  modeling:
-    purpose: 비대칭 석회암 붕락군 · 암석·지질 지표
-    recommended_uses:
-    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
-    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
-    avoid:
-    - 접지 영역의 서로 다른 고도
-    - 다른 오브젝트의 접지 점유와 중첩
-    - 출입구·시작점·주요 이동로 점유
-    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
-    shadow:
-      runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
-        미지원.
-      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      guidance_only: true
-    visual_description: 왼쪽의 큰 황백색 암석에서 오른쪽으로 긴 석판과 작은 파편이 낮아지며 쌓여 있다.
-    visual_review:
-      status: 원본 이미지 육안 확인
-      date: '2026-10-22'
-      source_sha256: 9bb0e57be1e68578452d5395b9f054294a3bea43fe0f46c8ee77e519ff8c580e
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
-      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.quarry-asymmetric-rockfall-v1
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 3
-    groundFootprintRows: 3
-    displayHeight: 230
-    billboardBlocksMovement: true
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    outdoorDisplayHeight: 115.0
-    size_variant: 기본 변형
-    occupied_tile_count: 9
-    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-guide-3x1-tall-v1
   family: crystal-cut-guide-3x1-tall-v1
   asset_ref:
@@ -14967,26 +14822,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-3x1-tall-v1.png
-    width: 512
-    height: 512
-    sha256: 584ad05b87317d9bd4d87ad474ad93ed33a7487a39f66415b062d5591084d443
+    width: 350
+    height: 384
+    sha256: 3b3fa631a2d26fe444148667a6fa08c0217ad326f1344cbe598e90d608adcd8b
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-3x1-tall-v1
-    anchorX: -0.25
-    anchorY: 0.37
+    anchorX: -0.2
+    anchorY: 0.23
     groundFootprintColumns: 3
     groundFootprintRows: 1
-    displayHeight: 360
+    displayHeight: 335.39
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
     shadowOffsetColumn: -1.0
     shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 180.0
+    outdoorDisplayHeight: 167.695
     size_variant: 기본 변형
     occupied_tile_count: 3
     movement: 통행 가능
@@ -15031,26 +14886,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-2x1-tall-v1.png
-    width: 512
-    height: 512
-    sha256: 67aab72cea94b8dde7a35d21689a6deeb256c68fa753ac90e6644372143bb447
+    width: 286
+    height: 384
+    sha256: 046b91da0592c2ce986a310c42833c2ac8d1cb92c26f8081070b6170fb08d3b6
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-2x1-tall-v1
-    anchorX: 0
-    anchorY: 0.25
+    anchorX: 0.06
+    anchorY: 0.16
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 297
+    displayHeight: 282.5
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
     shadowOffsetColumn: -0.5
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 148.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 141.25
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -15095,26 +14950,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-1x2-tall-v1.png
-    width: 512
-    height: 512
-    sha256: f1a9b3c4577004d03823b06e1e8647c1705f40c56ac4bb4ea329ae2c96ec5768
+    width: 274
+    height: 384
+    sha256: fd6b4d810b3ad1b85f7a4b4b33f94f5ef04b841d0f6c7ba62b499660f6d678ff
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-1x2-tall-v1
-    anchorX: -0.02
-    anchorY: 0.23
+    anchorX: 0.0
+    anchorY: 0.21
     groundFootprintColumns: 1
     groundFootprintRows: 2
-    displayHeight: 330.0
+    displayHeight: 324.2
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 165.0
+    outdoorDisplayHeight: 162.1
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -15159,26 +15014,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-1x3-tall-v1.png
-    width: 512
-    height: 512
-    sha256: dcdcdec3b534c8ca181f43ee041465fe9802b9cb07788688013c3e7e38314e39
+    width: 336
+    height: 384
+    sha256: cfaba87cc2e3d51f625302617713e99ae58a2937c0257c040bee76e97d6c9330
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-1x3-tall-v1
-    anchorX: 0.23
-    anchorY: 0.36
+    anchorX: 0.26
+    anchorY: 0.22
     groundFootprintColumns: 1
     groundFootprintRows: 3
-    displayHeight: 393
+    displayHeight: 361.53
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -1.0
-    outdoorDisplayHeight: 196.5
+    outdoorDisplayHeight: 180.765
     size_variant: 기본 변형
     occupied_tile_count: 3
     movement: 통행 가능
@@ -15222,26 +15077,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-2x2-low-v1.png
-    width: 512
-    height: 410
-    sha256: 041d80f8affb23730c15c859c2b2bf7656a1faf839fb8dda6dd6955b299150e4
+    width: 236
+    height: 132
+    sha256: ce227fb1da458b9b2b5f80084fe6b02d617b4a711161acfef641a5ae6f6ca194
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-2x2-low-v1
     anchorX: 0.0
-    anchorY: 0.9
+    anchorY: 0.49
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 242
+    displayHeight: 155.82
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 1.26
+    shadowScaleY: 1.26
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 121.0
+    outdoorDisplayHeight: 77.91
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -15283,26 +15138,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-2x3-low-v1.png
-    width: 512
-    height: 512
-    sha256: b9424cc88f8d52b334fd7d45a9efaccf06b1ea6bd20a6716ba3373f4e0038092
+    width: 384
+    height: 258
+    sha256: e99a10b1d7c7ea205b36a09d9b677ac9f9855626bb1e47b271ef9073b6de17fb
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-2x3-low-v1
     anchorX: 0.26
-    anchorY: 1.15
+    anchorY: 0.49
     groundFootprintColumns: 2
     groundFootprintRows: 3
-    displayHeight: 352
+    displayHeight: 233.75
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -1.0
-    outdoorDisplayHeight: 176.0
+    outdoorDisplayHeight: 116.875
     size_variant: 기본 변형
     occupied_tile_count: 6
     movement: 통행 가능
@@ -15344,91 +15199,28 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-3x2-low-v1.png
-    width: 512
-    height: 512
-    sha256: 71d0fa89edec84e626b85be872c28a9df692d56e96e5ce2efefe3dc36649d0bd
+    width: 384
+    height: 253
+    sha256: 541a5774fb67d39c60b6c49887fad0e02b4c5c1f1132b3559487eec5ae0c9706
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-3x2-low-v1
     anchorX: -0.36
-    anchorY: 1.02
+    anchorY: 0.45
     groundFootprintColumns: 3
     groundFootprintRows: 2
-    displayHeight: 337
+    displayHeight: 221.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
     shadowOffsetColumn: -1.0
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 168.5
+    outdoorDisplayHeight: 110.905
     size_variant: 기본 변형
     occupied_tile_count: 6
-    movement: 통행 가능
-- texture_key: crystal-cut-guide-1x1-low-v1
-  family: crystal-cut-guide-1x1-low-v1
-  asset_ref:
-    management_id: image.scenery.crystal-cut-guide-1x1-low-v1
-    version: v1
-  map_references:
-  - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 4
-  modeling:
-    purpose: 석영 절개 1x1 바닥형 · 석영맥이 드러난 절개 노두
-    recommended_uses:
-    - 평탄한 지면의 낮은 암반 노출부에 배치
-    composition: 지정 점유 규격에 맞춰 배치하고 불규칙한 외곽 사이에 여백을 둔다. 높은 형은 뒤쪽을 벽면에 가깝게, 낮은 형은 바닥에
-      붙여 배치한다.
-    avoid:
-    - 고도 경계에 걸친 접지
-    - 다른 바위 접지와 겹침
-    - 주요 통로 점유
-    basis: 재생성 결과 이미지 직접 확인. 표시 높이와 앵커는 초기 배치값이며 맵에서 접지 검수 필요.
-    visual_description: 짙은 회색의 갈라진 암반에 굵은 유백색 석영맥이 드러난다. 얕은 판형 암반 위에 흰 광맥이 이어지고 가장자리가
-      불규칙하게 깨져 있다. 1열 × 1행 가이드에 맞춘 방향 변형이다.
-    visual_review:
-      status: 생성 원본 이미지 육안 확인
-      date: '2026-10-22'
-      source_sha256: 3a51fb34ff601ad456c4ab770922cfa489dc0db9bf9116d392679035b3bbe809
-      method: 생성 결과 개별 이미지 확인
-      scope: 형태·색상·구성. 게임 접지와 그림자 배치는 별도 검수.
-    shadow:
-      runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
-        미지원.
-      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      guidance_only: true
-  source_file:
-    path: assets/billboards/crystal-cut-guide-1x1-low-v1.png
-    width: 512
-    height: 512
-    sha256: e915e62b08c6a736943010049a893d47bead82366d491f85b23606de9ae978bb
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-1x1-low-v1
-    anchorX: 0.0
-    anchorY: 0.14
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 125.0
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.35
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 62.5
-    size_variant: 기본 변형
-    occupied_tile_count: 1
     movement: 통행 가능
 - texture_key: crystal-cut-quartz-1x1-parallel-v1
   family: crystal-cut-quartz-1x1-parallel-v1
@@ -15461,26 +15253,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-1x1-parallel-v1.png
-    width: 512
-    height: 512
-    sha256: 23978bf74230216a2ecd17c8d71c6c724c92336381263b7ff630459cdcbf1d87
+    width: 128
+    height: 71
+    sha256: bb7cc69c75a1a8839b25125c1ebc8ff753b55299faaecbb4233c9681cca49107
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-parallel-v1
     anchorX: 0.0
-    anchorY: 0.48
+    anchorY: 0.01
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 169.55
+    displayHeight: 84.78
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 1.7
+    shadowScaleY: 1.7
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 84.775
+    outdoorDisplayHeight: 42.39
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -16006,26 +15798,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-detail-shelf-v1.png
-    width: 512
-    height: 512
-    sha256: efb78b7e036a12ed333b4ba196b48a978b337c038aa138ae814cc37b3c950a4f
+    width: 128
+    height: 75
+    sha256: 39282d2cdfb42be7f3cc17639b46c44ee30eb43c8554a03444c465d9e237c34d
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-shelf-v1
-    anchorX: -0.04
-    anchorY: 0.39
+    anchorX: -0.01
+    anchorY: -0.12
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 151.08
+    displayHeight: 85.28
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.35
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 75.54
+    shadowScaleX: 2.3
+    shadowScaleY: 2.3
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 42.64
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -16061,26 +15853,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-detail-asymmetric-v1.png
-    width: 512
-    height: 512
-    sha256: c9019a8fb908cdad482e717a233998accdcfaa02e15823a30df2d2adb1b4dff7
+    width: 128
+    height: 100
+    sha256: a5715f6a73dc75412ff426f2abef97c1f06f1171e5f5c378e3d9b26ffe05d43c
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-asymmetric-v1
-    anchorX: -0.01
-    anchorY: 0.17
+    anchorX: 0.0
+    anchorY: -0.17
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 139.53
+    displayHeight: 110.94
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.35
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 69.765
+    shadowScaleX: 1.87
+    shadowScaleY: 1.87
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 55.47
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -16116,26 +15908,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-detail-scree-v1.png
-    width: 512
-    height: 512
-    sha256: 3ae3d46ff0fe84032b240da280a526dc82e88634060df365fb89896757f5d89f
+    width: 128
+    height: 73
+    sha256: 676d0182a1b5b9c7d313529dbb8b4212c977c149712aa792d79f63b4fbc823aa
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-scree-v1
     anchorX: 0.0
-    anchorY: 0.98
+    anchorY: -0.19
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 249.76
+    displayHeight: 80.49
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.35
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 124.88
+    shadowScaleX: 2.45
+    shadowScaleY: 2.45
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 40.245
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -16171,26 +15963,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-detail-buried-v1.png
-    width: 512
-    height: 512
-    sha256: c042f81fb3dd8acb6b19bd034f6048ccc826db035410a5c4ef8d440c7df1aec7
+    width: 128
+    height: 77
+    sha256: 881db9d5ff7c61f5dee32342d7b838f9c508ed8a735f0e632fe72ca4bd192778
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-buried-v1
-    anchorX: 0.0
-    anchorY: 1.01
+    anchorX: 0.01
+    anchorY: -0.23
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 248.74
+    displayHeight: 72.39
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.35
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 124.37
+    shadowScaleX: 2.72
+    shadowScaleY: 2.72
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 36.195
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -16226,26 +16018,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-detail-scatter-v1.png
-    width: 512
-    height: 512
-    sha256: f8d65044c9a94444e0870a7685e374eed510d6045fc8883d9a482d668ef9ce08
+    width: 128
+    height: 82
+    sha256: c75a741ce7059d4631e100806ac1b3eac9462241a8143ef6ed3fe2173a51f3d3
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-scatter-v1
-    anchorX: -0.03
-    anchorY: 0.32
+    anchorX: -0.02
+    anchorY: -0.09
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 145.67
+    displayHeight: 97.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 1.3
+    shadowScaleY: 1.3
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 72.835
+    outdoorDisplayHeight: 48.5
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -16281,26 +16073,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-detail-hairline-v1.png
-    width: 512
-    height: 512
-    sha256: ac95763de2b93866163a31c1998b367760313bc0e26056eb88095cde9d836e8b
+    width: 128
+    height: 80
+    sha256: da9e5ce9f8cf3a8a4d5cc0a8028fae358ac1799575da830de75225d319d77360
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-hairline-v1
     anchorX: 0.0
-    anchorY: 0.26
+    anchorY: -0.12
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 123.22
+    displayHeight: 93.47
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.35
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 61.61
+    shadowScaleX: 2.13
+    shadowScaleY: 2.3
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 46.735
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -16336,26 +16128,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-3x1-medium-v1.png
-    width: 512
-    height: 512
-    sha256: 5b2290cbf45089646d0fead88e6cab0a2250c557d4d8c242b35c19a0b6719242
+    width: 384
+    height: 375
+    sha256: d704aa31b6feca41d754b1fe0d156756f98359050d6c330249b34845a914b4f3
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-3x1-medium-v1
-    anchorX: -0.51
-    anchorY: 0.53
+    anchorX: -0.26
+    anchorY: 0.13
     groundFootprintColumns: 3
     groundFootprintRows: 1
-    displayHeight: 384.32
+    displayHeight: 298.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 1.01
+    shadowScaleY: 1.1
     shadowOffsetColumn: -1.0
-    shadowOffsetRow: -0.33
-    outdoorDisplayHeight: 192.16
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 149.0
     size_variant: 기본 변형
     occupied_tile_count: 3
     movement: 통행 가능
@@ -16391,26 +16183,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-2x1-medium-v1.png
-    width: 512
-    height: 512
-    sha256: b0c248f1078691747cd7910ebffe565e5918aa0da30189308c0205796c21a5ef
+    width: 214
+    height: 256
+    sha256: fcb4bb8142962ee9f75746079fa2c61d23777763e851ef3525b2194ab6daea92
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-2x1-medium-v1
-    anchorX: -0.25
-    anchorY: 0.69
+    anchorX: 0.0
+    anchorY: 0.21
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 385.27
+    displayHeight: 274.66
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
-    shadowOffsetColumn: -0.67
-    shadowOffsetRow: -0.33
-    outdoorDisplayHeight: 192.635
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 137.33
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -16446,26 +16238,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-1x2-medium-v1.png
-    width: 512
-    height: 512
-    sha256: 5f0b429e021ec1bb1a480a61fbd0963807ed64f409c88aaea0c2c27f830f60cd
+    width: 256
+    height: 253
+    sha256: 2750de76e0a8e32b3133dbc39d4b3344b5a613bbaeecd986a4250e293ef099e6
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: center
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-1x2-medium-v1
-    anchorX: 0.23
-    anchorY: 0.5
+    anchorX: 0.01
+    anchorY: 0.17
     groundFootprintColumns: 1
     groundFootprintRows: 2
-    displayHeight: 304.79
+    displayHeight: 226.21
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
-    shadowOffsetColumn: -0.33
-    shadowOffsetRow: -0.67
-    outdoorDisplayHeight: 152.395
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 113.105
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -16501,26 +16293,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-guide-1x3-medium-v1.png
-    width: 512
-    height: 512
-    sha256: df31e8bddddb9b9b125789f2c46be526ad692ccf3d92c49e80f22509f4a026af
+    width: 384
+    height: 371
+    sha256: 842b35e57e32bfce9cfc57f64e010dd5df37b32b5bc966bfdef8c2ec5e6baef2
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-guide-1x3-medium-v1
-    anchorX: 0.44
-    anchorY: 0.38
+    anchorX: 0.22
+    anchorY: 0.19
     groundFootprintColumns: 1
     groundFootprintRows: 3
-    displayHeight: 361.13
+    displayHeight: 294.12
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.33
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowOffsetColumn: -0.5
     shadowOffsetRow: -1.0
-    outdoorDisplayHeight: 180.565
+    outdoorDisplayHeight: 147.06
     size_variant: 기본 변형
     occupied_tile_count: 3
     movement: 통행 가능
@@ -16556,26 +16348,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-medium-strata-2x1-v1.png
-    width: 512
-    height: 512
-    sha256: adddfebe5038fbb55dc5dc4aba04770a5765d69c3a1996120104f73edc26db55
+    width: 256
+    height: 190
+    sha256: 67e29f0e4503eb74663e79b70d6076bef0dec83f2bde115dbbe6ef3e3c495e39
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-medium-strata-2x1-v1
-    anchorX: -0.3
-    anchorY: 0.48
+    anchorX: 0.0
+    anchorY: 0.2
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 256.0
+    displayHeight: 170.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
-    shadowOffsetColumn: -0.67
-    shadowOffsetRow: -0.33
-    outdoorDisplayHeight: 128.0
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 85.0
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -16611,26 +16403,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-medium-tilted-1x2-v1.png
-    width: 387
-    height: 366
-    sha256: f50142363bc2bee861016fe89181b1ec2b4ff61fb3542290501db4d40adf84ab
+    width: 256
+    height: 242
+    sha256: b382b2f5fdf4aefc9c485388d203830cbd304d677c87b625098b728080f5cab7
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-medium-tilted-1x2-v1
-    anchorX: 0.25
-    anchorY: 0.01
+    anchorX: -0.03
+    anchorY: 0.12
     groundFootprintColumns: 1
     groundFootprintRows: 2
-    displayHeight: 216.18
+    displayHeight: 216.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
-    shadowOffsetColumn: -0.33
-    shadowOffsetRow: -0.67
-    outdoorDisplayHeight: 108.09
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 108.0
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -16721,9 +16513,9 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-medium-pockets-2x1-v1.png
-    width: 371
-    height: 394
-    sha256: 07c2d40d9a69b9cb52eb1d6a19a3070879562908bfbe3ffd32d46bdbd81949f7
+    width: 241
+    height: 256
+    sha256: e6a6014e9e54d34c4ab36febc46d4fff26d9febca67571539000b35697d54909
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -16975,9 +16767,9 @@ billboards:
     texture_key_occurrences: 6
   source_file:
     path: assets/billboards/dawn-overlook-conifer-tree-tall-v1.png
-    width: 256
-    height: 256
-    sha256: 53ec5852f426152ab5b91c8ddd7fd8680b05d89f136b4e6554b6711ad00f8ef3
+    width: 88
+    height: 239
+    sha256: 1688a01f2d5781b7898309f2d24f37349b65889e7d5c18e69a4b36a0b49dbff1
   modeling:
     purpose: 뾰족한 높은 침엽수 · 수목 군락
     recommended_uses:
@@ -17007,18 +16799,18 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dawn-overlook-conifer-tree-tall-v1
-    anchorX: 0.0
-    anchorY: -0.06
+    anchorX: 0.02
+    anchorY: -0.19
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 380.0
+    displayHeight: 354.77
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.55
     shadowScaleY: 0.55
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 190.0
+    outdoorDisplayHeight: 177.385
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -17032,9 +16824,9 @@ billboards:
     texture_key_occurrences: 10
   source_file:
     path: assets/billboards/dawn-overlook-conifer-tree-medium-v1.png
-    width: 256
-    height: 256
-    sha256: b64e1242fe74ab4c8c3f5bf697f4d3730096ce245dc17ad8197c988a5f9c8236
+    width: 171
+    height: 242
+    sha256: 7091028cbd21c8f75ad661579193a7dae00026551f4b9b3811c5510d6279e2db
   modeling:
     purpose: 불규칙한 중간 침엽수 · 수목 군락
     recommended_uses:
@@ -17065,17 +16857,17 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dawn-overlook-conifer-tree-medium-v1
     anchorX: -0.09
-    anchorY: -0.07
+    anchorY: -0.26
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300.0
+    displayHeight: 283.59
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.55
     shadowScaleY: 0.55
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 150.0
+    outdoorDisplayHeight: 141.795
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -17089,9 +16881,9 @@ billboards:
     texture_key_occurrences: 5
   source_file:
     path: assets/billboards/dawn-overlook-pine-tree-windswept-v1.png
-    width: 256
-    height: 256
-    sha256: 45605eea4a3abacf9133cfc08956517256274886225740115e4363e43d7cb44f
+    width: 200
+    height: 173
+    sha256: 818406347680ac247e80ea4033601381dc6d0de5e2723d33ecd9e57480597353
   modeling:
     purpose: 바람에 기운 낮은 소나무 · 수목 군락
     recommended_uses:
@@ -17121,18 +16913,18 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dawn-overlook-pine-tree-windswept-v1
-    anchorX: 0.2
-    anchorY: 0.17
+    anchorX: 0.3
+    anchorY: -0.26
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 220.0
+    displayHeight: 148.67
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.55
-    shadowScaleY: 0.55
+    shadowScaleX: 0.81
+    shadowScaleY: 0.81
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 110.0
+    outdoorDisplayHeight: 74.335
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
