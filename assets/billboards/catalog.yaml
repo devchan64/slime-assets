@@ -1662,7 +1662,7 @@ families:
     features:
     - 왼쪽에 찢어진 뿌리와 속빈 단면이 솟고 오른쪽 아래로 굵은 갈색 줄기가 누워 있다. 윗면에는 황록색 이끼가 길게 이어지고 옆면에는 작은 선반버섯과 갈라진 수피가 보인다.
     uses:
-    - 3×1 평탄한 접지에 배치한다. 주변에 작은 통나무·낙엽·새싹을 띄엄띄엄 두고 빈터와 통로를 확보한다.
+    - 5×2 평탄한 접지에 배치한다. 주변에 작은 통나무·낙엽·새싹을 띄엄띄엄 두고 빈터와 통로를 확보한다.
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples
@@ -3922,7 +3922,7 @@ billboards:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
-    texture_key_occurrences: 27
+    texture_key_occurrences: 26
   source_file:
     path: assets/billboards/fern-clump-v1.png
     width: 116
@@ -4219,7 +4219,7 @@ billboards:
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 10
   - path: assets/maps/field_tiles/fallen-canopy.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/hollow-log-v1.png
     width: 96
@@ -4842,7 +4842,7 @@ billboards:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/fallen-canopy.yaml
-    texture_key_occurrences: 7
+    texture_key_occurrences: 15
   source_file:
     path: assets/billboards/mushroom-cluster-v1.png
     width: 74
@@ -6154,7 +6154,7 @@ billboards:
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/fallen-canopy.yaml
-    texture_key_occurrences: 30
+    texture_key_occurrences: 25
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 3
   variant_features:
@@ -6282,7 +6282,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/fallen-canopy.yaml
-    texture_key_occurrences: 21
+    texture_key_occurrences: 18
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 2
   variant_features:
@@ -6353,7 +6353,7 @@ billboards:
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/fallen-canopy.yaml
-    texture_key_occurrences: 18
+    texture_key_occurrences: 14
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
   variant_features:
@@ -6604,7 +6604,7 @@ billboards:
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 20
   - path: assets/maps/field_tiles/fallen-canopy.yaml
-    texture_key_occurrences: 22
+    texture_key_occurrences: 21
   source_file:
     path: assets/billboards/sapling-variant-1-v1.png
     width: 75
@@ -16480,11 +16480,11 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   modeling:
     purpose: 숲 빈터의 큰 도복목
     recommended_uses:
-    - 3×1 평탄한 접지에 배치한다. 주변에 작은 통나무·낙엽·새싹을 띄엄띄엄 두고 빈터와 통로를 확보한다.
+    - 5×2 평탄한 접지에 배치한다. 주변에 작은 통나무·낙엽·새싹을 띄엄띄엄 두고 빈터와 통로를 확보한다.
     composition: 왼쪽에 찢어진 뿌리와 속빈 단면이 솟고 오른쪽 아래로 굵은 갈색 줄기가 누워 있다. 윗면에는 황록색 이끼가 길게 이어지고 옆면에는 작은 선반버섯과 갈라진 수피가 보인다.
     avoid:
     - 단차를 가로지르는 접지
@@ -16508,20 +16508,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-canopy-giant-hollow-trunk-v1
-    anchorX: -0.63
+    anchorX: -1.1
     anchorY: 0
-    groundFootprintColumns: 3
-    groundFootprintRows: 1
-    displayHeight: 239.77
+    groundFootprintColumns: 5
+    groundFootprintRows: 2
+    displayHeight: 419.6
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 3.0
-    shadowScaleY: 1.0
-    shadowOffsetColumn: -1.0
+    shadowScaleX: 4.0
+    shadowScaleY: 2.0
+    shadowOffsetColumn: -2.0
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 119.885
+    outdoorDisplayHeight: 209.8
     size_variant: 기본 변형
-    occupied_tile_count: 3
+    occupied_tile_count: 10
     movement: 통행 가능
 modeling_contract:
   purpose: 맵 제작용 에셋 선택·크기·접지·통행 참고 자료
