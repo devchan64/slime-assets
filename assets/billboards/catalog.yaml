@@ -1725,10 +1725,10 @@ billboards:
     anchorY: 0.06
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 80
+    displayHeight: 80.0
     billboardBlocksMovement: false
-    shadowScaleX: 1
-    shadowScaleY: 1.0
+    shadowScaleX: 1.86
+    shadowScaleY: 2.32
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: -0.25
     shadowOffsetRow: -0.25
@@ -1788,8 +1788,8 @@ billboards:
     billboardBlocksMovement: false
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.86
+    shadowScaleY: 2.32
     billboardAnchorMode: tile-intersection
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
@@ -1847,8 +1847,8 @@ billboards:
     billboardBlocksMovement: false
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.86
+    shadowScaleY: 2.32
     billboardAnchorMode: tile-intersection
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
@@ -1906,7 +1906,8 @@ billboards:
     displayHeight: 142.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.31
+    shadowScaleX: 1.04
     outdoorDisplayHeight: 71.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -1963,7 +1964,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2022,7 +2024,8 @@ billboards:
     displayHeight: 164.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.13
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2079,7 +2082,8 @@ billboards:
     displayHeight: 164.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.13
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2133,10 +2137,11 @@ billboards:
     anchorY: 0.36
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 160
+    displayHeight: 160.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.16
+    shadowScaleX: 0.93
     outdoorDisplayHeight: 80.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2193,7 +2198,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2250,7 +2256,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2307,7 +2314,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2359,10 +2367,10 @@ billboards:
     anchorY: 0.46
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 114
+    displayHeight: 114.0
     billboardBlocksMovement: false
-    shadowScaleX: 1.65
-    shadowScaleY: 1
+    shadowScaleX: 1.3
+    shadowScaleY: 1.63
     billboardAnchorMode: tile-intersection
     outdoorDisplayHeight: 57.0
     size_variant: 기본 변형
@@ -2417,10 +2425,11 @@ billboards:
     anchorY: 0.47
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 150
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2476,7 +2485,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2531,9 +2541,9 @@ billboards:
     groundFootprintRows: 1
     displayHeight: 128.0
     billboardBlocksMovement: false
-    shadowScaleX: 2.0
+    shadowScaleX: 1.16
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2592,7 +2602,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2653,7 +2664,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2710,7 +2722,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2767,7 +2780,8 @@ billboards:
     displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 2.32
+    shadowScaleX: 1.86
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2828,7 +2842,8 @@ billboards:
     displayHeight: 144.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.29
+    shadowScaleX: 1.03
     outdoorDisplayHeight: 72.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2888,10 +2903,11 @@ billboards:
     anchorY: 0.24
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 80
+    displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 2.32
+    shadowScaleX: 1.86
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -2949,10 +2965,11 @@ billboards:
     anchorY: 0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 80
+    displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 2.32
+    shadowScaleX: 1.86
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3010,10 +3027,11 @@ billboards:
     anchorY: 0.21
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 120
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3070,7 +3088,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3127,7 +3146,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3184,7 +3204,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3243,7 +3264,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3296,10 +3318,11 @@ billboards:
     anchorY: 0.16
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3356,7 +3379,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3413,10 +3437,11 @@ billboards:
     anchorY: 0.45
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 122
+    displayHeight: 122.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.52
+    shadowScaleX: 1.22
     outdoorDisplayHeight: 61.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3483,7 +3508,8 @@ billboards:
     displayHeight: 154.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.2
+    shadowScaleX: 0.96
     outdoorDisplayHeight: 77.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3544,7 +3570,8 @@ billboards:
     displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3602,10 +3629,11 @@ billboards:
     anchorY: 0.36
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 136
+    displayHeight: 136.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.36
+    shadowScaleX: 1.09
     outdoorDisplayHeight: 68.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3667,10 +3695,11 @@ billboards:
     anchorY: 0.24
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 200
+    displayHeight: 200.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.93
+    shadowScaleX: 0.74
     outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3729,7 +3758,8 @@ billboards:
     displayHeight: 164.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.13
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3788,7 +3818,8 @@ billboards:
     displayHeight: 164.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.13
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3847,7 +3878,8 @@ billboards:
     displayHeight: 164.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.13
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 82.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3904,7 +3936,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -3963,7 +3996,8 @@ billboards:
     displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 2.32
+    shadowScaleX: 1.86
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4022,7 +4056,8 @@ billboards:
     displayHeight: 90.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 2.06
+    shadowScaleX: 1.65
     outdoorDisplayHeight: 45.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4083,7 +4118,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4142,7 +4178,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4201,7 +4238,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4260,7 +4298,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4320,8 +4359,8 @@ billboards:
     displayHeight: 221.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     outdoorDisplayHeight: 110.5
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -4380,7 +4419,8 @@ billboards:
     displayHeight: 154.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.2
+    shadowScaleX: 0.96
     outdoorDisplayHeight: 77.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4439,7 +4479,8 @@ billboards:
     displayHeight: 88.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 2.11
+    shadowScaleX: 1.69
     outdoorDisplayHeight: 44.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4493,10 +4534,11 @@ billboards:
     anchorY: 0.43
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 103
+    displayHeight: 103.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.8
+    shadowScaleX: 1.44
     outdoorDisplayHeight: 51.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4553,7 +4595,8 @@ billboards:
     displayHeight: 88.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 2.11
+    shadowScaleX: 1.69
     outdoorDisplayHeight: 44.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4606,10 +4649,11 @@ billboards:
     anchorY: 0.41
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 88
+    displayHeight: 88.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 2.11
+    shadowScaleX: 1.69
     outdoorDisplayHeight: 44.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4662,11 +4706,11 @@ billboards:
     anchorY: 0.35
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 90
+    displayHeight: 90.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.6
-    shadowScaleX: 1.6
+    shadowScaleY: 2.06
+    shadowScaleX: 1.65
     outdoorDisplayHeight: 45.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4722,7 +4766,8 @@ billboards:
     displayHeight: 91.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 2.04
+    shadowScaleX: 1.63
     outdoorDisplayHeight: 45.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4780,7 +4825,8 @@ billboards:
     displayHeight: 168.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 0.9
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 84.0
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -4835,10 +4881,11 @@ billboards:
     anchorY: 0.55
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 120
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4893,10 +4940,11 @@ billboards:
     anchorY: 0.37
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 120
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -4952,10 +5000,11 @@ billboards:
     anchorY: 0.33
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5009,10 +5058,11 @@ billboards:
     anchorY: 0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5071,7 +5121,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5128,7 +5179,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5185,7 +5237,8 @@ billboards:
     displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.43
+    shadowScaleX: 1.14
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5238,11 +5291,11 @@ billboards:
     anchorY: 0.28
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 300.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5300,13 +5353,13 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-v2
     anchorX: 0.0
     anchorY: 0.44
-    displayHeight: 300
+    displayHeight: 300.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.55
-    shadowScaleY: 1
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5364,12 +5417,13 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-variant-1-v2
     anchorX: -0.07
     anchorY: 0.44
-    displayHeight: 270
+    displayHeight: 270.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.8
+    shadowScaleX: 0.64
     outdoorDisplayHeight: 135.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5427,12 +5481,13 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-variant-2-v2
     anchorX: -0.05
     anchorY: 0.41
-    displayHeight: 300
+    displayHeight: 300.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.8
+    shadowScaleX: 0.64
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5490,11 +5545,11 @@ billboards:
     anchorY: 0.41
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 283
+    displayHeight: 283.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.4
-    shadowScaleY: 1
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     outdoorDisplayHeight: 141.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5552,11 +5607,11 @@ billboards:
     anchorY: 0.45
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 300.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5614,11 +5669,11 @@ billboards:
     anchorY: 0.33
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 300.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.45
-    shadowScaleY: 1
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5676,10 +5731,11 @@ billboards:
     anchorY: 0.14
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5737,10 +5793,11 @@ billboards:
     anchorY: 0.28
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5796,10 +5853,11 @@ billboards:
     anchorY: -0.04
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 78
+    displayHeight: 78.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 2.38
+    shadowScaleX: 1.9
     outdoorDisplayHeight: 39.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5859,10 +5917,11 @@ billboards:
     anchorY: 0.21
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 120
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5916,10 +5975,11 @@ billboards:
     anchorY: 0.14
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 108
+    displayHeight: 108.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.72
+    shadowScaleX: 1.37
     outdoorDisplayHeight: 54.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -5977,10 +6037,11 @@ billboards:
     anchorY: 0.16
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 120
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6033,10 +6094,11 @@ billboards:
     anchorY: 0.16
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 150
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6096,11 +6158,11 @@ billboards:
     anchorY: 0.19
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 150
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1
+    shadowScaleX: 0.99
+    shadowScaleY: 1.24
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6162,10 +6224,11 @@ billboards:
     anchorY: 0.31
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 150
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6226,7 +6289,8 @@ billboards:
     displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6295,8 +6359,8 @@ billboards:
     displayHeight: 270.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1.0
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     outdoorDisplayHeight: 135.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6363,8 +6427,8 @@ billboards:
     displayHeight: 300.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1.0
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6429,8 +6493,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1.0
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6503,7 +6567,8 @@ billboards:
     displayHeight: 260.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 0.8
+    shadowScaleX: 0.64
     outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6559,7 +6624,8 @@ billboards:
     displayHeight: 300.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 0.8
+    shadowScaleX: 0.64
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6626,7 +6692,8 @@ billboards:
     displayHeight: 300.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 0.8
+    shadowScaleX: 0.64
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6691,7 +6758,8 @@ billboards:
     displayHeight: 300.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 0.8
+    shadowScaleX: 0.64
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6752,7 +6820,8 @@ billboards:
     displayHeight: 180.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.03
+    shadowScaleX: 0.82
     outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6811,7 +6880,8 @@ billboards:
     displayHeight: 180.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.03
+    shadowScaleX: 0.82
     outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6867,7 +6937,8 @@ billboards:
     displayHeight: 180.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.03
+    shadowScaleX: 0.82
     outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6926,7 +6997,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -6985,7 +7057,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7044,7 +7117,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7103,7 +7177,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7163,10 +7238,11 @@ billboards:
     anchorY: 0.18
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7224,10 +7300,11 @@ billboards:
     anchorY: 0.33
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7288,7 +7365,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7345,7 +7423,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7402,7 +7481,8 @@ billboards:
     displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.43
+    shadowScaleX: 1.14
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7458,7 +7538,8 @@ billboards:
     displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.43
+    shadowScaleX: 1.14
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7514,7 +7595,8 @@ billboards:
     displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.43
+    shadowScaleX: 1.14
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7573,10 +7655,10 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.5
+    shadowScaleY: 1.45
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    shadowScaleX: 1.4
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7630,13 +7712,13 @@ billboards:
     anchorY: 0.16
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 180
+    displayHeight: 180.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.45
+    shadowScaleY: 2.06
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    shadowScaleX: 1.45
+    shadowScaleX: 1.65
     outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
     occupied_tile_count: 4
@@ -7696,13 +7778,13 @@ billboards:
     anchorY: -0.07
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 109
+    displayHeight: 109.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.5
+    shadowScaleY: 1.7
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    shadowScaleX: 1.5
+    shadowScaleX: 1.36
     outdoorDisplayHeight: 54.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7756,11 +7838,11 @@ billboards:
     anchorY: -0.03
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 120
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.7
-    shadowScaleY: 0.7
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 60.0
@@ -7816,10 +7898,11 @@ billboards:
     anchorY: 0.47
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7880,7 +7963,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -7942,7 +8026,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8002,7 +8087,8 @@ billboards:
     displayHeight: 116.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.6
+    shadowScaleX: 1.28
     outdoorDisplayHeight: 58.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8058,10 +8144,11 @@ billboards:
     anchorY: 0.55
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 140
+    displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.9
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -8116,10 +8203,11 @@ billboards:
     anchorY: 0.19
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 150
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8179,7 +8267,8 @@ billboards:
     displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8233,11 +8322,11 @@ billboards:
     anchorY: 0.48
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 126
+    displayHeight: 126.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.6
-    shadowScaleY: 1
+    shadowScaleX: 1.18
+    shadowScaleY: 1.47
     outdoorDisplayHeight: 63.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8297,7 +8386,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8355,7 +8445,8 @@ billboards:
     displayHeight: 149.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 74.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8412,8 +8503,8 @@ billboards:
     displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.3
-    shadowScaleY: 1.03
+    shadowScaleX: 1.14
+    shadowScaleY: 1.43
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8478,7 +8569,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.95
+    shadowScaleX: 1.56
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8541,7 +8633,8 @@ billboards:
     displayHeight: 95.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.95
+    shadowScaleX: 1.56
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8597,10 +8690,11 @@ billboards:
     anchorY: 0.59
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 134
+    displayHeight: 134.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.38
+    shadowScaleX: 1.11
     outdoorDisplayHeight: 67.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8665,7 +8759,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8722,7 +8817,8 @@ billboards:
     displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.43
+    shadowScaleX: 1.14
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8779,7 +8875,8 @@ billboards:
     displayHeight: 155.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 0.9
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 77.5
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -8837,7 +8934,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -8891,11 +8989,11 @@ billboards:
     anchorY: 0.44
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 140
+    displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 2
-    shadowScaleY: 1.0
+    shadowScaleX: 2.12
+    shadowScaleY: 2.65
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 4
@@ -8953,7 +9051,8 @@ billboards:
     displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9011,7 +9110,8 @@ billboards:
     displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9069,7 +9169,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9127,7 +9228,8 @@ billboards:
     displayHeight: 116.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.6
+    shadowScaleX: 1.28
     outdoorDisplayHeight: 58.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9185,7 +9287,8 @@ billboards:
     displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9244,7 +9347,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.43
+    shadowScaleX: 1.14
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9308,11 +9412,11 @@ billboards:
     anchorY: 0.45
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 111
+    displayHeight: 111.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.3
-    shadowScaleY: 1.25
+    shadowScaleX: 1.34
+    shadowScaleY: 1.67
     outdoorDisplayHeight: 55.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9369,7 +9473,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9423,11 +9528,11 @@ billboards:
     anchorY: 0.55
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 108
+    displayHeight: 108.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1.65
+    shadowScaleX: 1.37
+    shadowScaleY: 1.72
     outdoorDisplayHeight: 54.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9488,7 +9593,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.43
+    shadowScaleX: 1.14
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9545,7 +9651,8 @@ billboards:
     displayHeight: 75.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 2.48
+    shadowScaleX: 1.98
     outdoorDisplayHeight: 37.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9610,7 +9717,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.95
+    shadowScaleX: 1.56
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9667,7 +9775,8 @@ billboards:
     displayHeight: 95.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.95
+    shadowScaleX: 1.56
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9723,7 +9832,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9781,7 +9891,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9835,10 +9946,11 @@ billboards:
     anchorY: 0.53
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 140
+    displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.32
+    shadowScaleX: 1.06
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9896,7 +10008,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -9958,7 +10071,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10016,7 +10130,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10073,8 +10188,8 @@ billboards:
     displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.45
-    shadowScaleY: 1.38
+    shadowScaleX: 1.14
+    shadowScaleY: 1.43
     outdoorDisplayHeight: 65.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10129,10 +10244,11 @@ billboards:
     anchorY: 0.18
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 150
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10195,8 +10311,8 @@ billboards:
     displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.4
-    shadowScaleY: 1.45
+    shadowScaleX: 1.06
+    shadowScaleY: 1.32
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10259,8 +10375,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1.5
+    shadowScaleX: 1.24
+    shadowScaleY: 1.55
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10319,8 +10435,8 @@ billboards:
     displayHeight: 95.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.5
-    shadowScaleY: 1.5
+    shadowScaleX: 1.56
+    shadowScaleY: 1.95
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10376,10 +10492,11 @@ billboards:
     anchorY: 0.49
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 155
+    displayHeight: 155.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.9
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 77.5
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -10437,7 +10554,8 @@ billboards:
     displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10492,10 +10610,11 @@ billboards:
     anchorY: 0.05
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10553,7 +10672,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10611,7 +10731,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10669,7 +10790,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10728,7 +10850,8 @@ billboards:
     displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 0.9
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -10784,7 +10907,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10843,7 +10967,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10901,7 +11026,8 @@ billboards:
     displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -10964,10 +11090,11 @@ billboards:
     anchorY: 0.05
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11021,10 +11148,11 @@ billboards:
     anchorY: 0.41
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 140
+    displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.9
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -11078,10 +11206,11 @@ billboards:
     anchorY: 0.58
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 155
+    displayHeight: 155.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.9
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 77.5
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -11141,7 +11270,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11205,7 +11335,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11265,7 +11396,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11323,7 +11455,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11382,7 +11515,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11441,7 +11575,8 @@ billboards:
     displayHeight: 106.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.75
+    shadowScaleX: 1.4
     outdoorDisplayHeight: 53.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11498,7 +11633,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11563,7 +11699,8 @@ billboards:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.95
+    shadowScaleX: 1.56
     outdoorDisplayHeight: 47.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11622,7 +11759,8 @@ billboards:
     displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 2.32
+    shadowScaleX: 1.86
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11679,7 +11817,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11738,7 +11877,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11797,7 +11937,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11857,11 +11998,11 @@ billboards:
     anchorY: 0.31
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 150
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 0.5
-    shadowScaleX: 0.5
+    shadowScaleY: 1.24
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11919,7 +12060,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -11979,7 +12121,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12037,7 +12180,8 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12095,9 +12239,10 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.45
     shadowOffsetColumn: -0.55
     shadowOffsetRow: -0.55
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12155,10 +12300,10 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 0.75
+    shadowScaleY: 1.45
     shadowOffsetColumn: -0.55
     shadowOffsetRow: -0.55
-    shadowScaleX: 0.75
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12214,13 +12359,13 @@ billboards:
     anchorY: 0.01
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 110
+    displayHeight: 110.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.15
+    shadowScaleY: 1.69
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    shadowScaleX: 1.2
+    shadowScaleX: 1.35
     outdoorDisplayHeight: 55.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12275,10 +12420,11 @@ billboards:
     anchorY: -0.01
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 80
+    displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 2.32
+    shadowScaleX: 1.86
     outdoorDisplayHeight: 40.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12337,7 +12483,8 @@ billboards:
     displayHeight: 144.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.29
+    shadowScaleX: 1.03
     outdoorDisplayHeight: 72.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12391,10 +12538,11 @@ billboards:
     anchorY: 0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 104
+    displayHeight: 104.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.78
+    shadowScaleX: 1.43
     outdoorDisplayHeight: 52.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12448,10 +12596,11 @@ billboards:
     anchorY: 0.37
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 96
+    displayHeight: 96.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.93
+    shadowScaleX: 1.55
     outdoorDisplayHeight: 48.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12505,10 +12654,11 @@ billboards:
     anchorY: 0.28
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 58
+    displayHeight: 58.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 0.9
+    shadowScaleX: 0.9
     outdoorDisplayHeight: 29.0
     size_variant: 기본 변형
     occupied_tile_count: 2
@@ -12562,10 +12712,11 @@ billboards:
     anchorY: -0.1
     groundFootprintColumns: 3
     groundFootprintRows: 3
-    displayHeight: 148
+    displayHeight: 148.0
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 3.77
+    shadowScaleX: 3.01
     outdoorDisplayHeight: 74.0
     size_variant: 기본 변형
     occupied_tile_count: 9
@@ -12615,17 +12766,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.brine-bank-saltbush-v1
-    anchorX: 0
+    anchorX: 0.0
     anchorY: -0.54
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 150
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 0.5
+    shadowScaleY: 1.24
     shadowOffsetColumn: -0.65
     shadowOffsetRow: -0.65
-    shadowScaleX: 0.5
+    shadowScaleX: 0.99
     outdoorDisplayHeight: 75.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12683,13 +12834,13 @@ billboards:
     anchorY: -0.06
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 140
+    displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.1
+    shadowScaleY: 1.32
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    shadowScaleX: 1.1
+    shadowScaleX: 1.06
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12742,15 +12893,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-buried-deadwood-v1
     anchorX: -0.02
-    anchorY: 0
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 136
+    displayHeight: 136.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.36
     shadowOffsetColumn: -0.45
     shadowOffsetRow: -0.45
+    shadowScaleX: 1.09
     outdoorDisplayHeight: 68.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12804,10 +12956,11 @@ billboards:
     anchorY: 0.34
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12863,12 +13016,13 @@ billboards:
     anchorY: -0.27
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 128
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.45
     shadowOffsetColumn: -0.55
     shadowOffsetRow: -0.65
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -12922,10 +13076,11 @@ billboards:
     anchorY: 0.14
     groundFootprintColumns: 3
     groundFootprintRows: 3
-    displayHeight: 300
+    displayHeight: 300.0
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 2.41
+    shadowScaleX: 1.92
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 9
@@ -12982,8 +13137,8 @@ billboards:
     displayHeight: 220.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.8
-    shadowScaleX: 1.65
+    shadowScaleY: 1.69
+    shadowScaleX: 1.35
     shadowOffsetColumn: -0.45
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 110.0
@@ -13042,7 +13197,8 @@ billboards:
     displayHeight: 358.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.6
+    shadowScaleX: 1.28
     outdoorDisplayHeight: 179.0
     size_variant: 기본 변형
     occupied_tile_count: 4
@@ -13099,10 +13255,10 @@ billboards:
     displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 0.8
+    shadowScaleY: 1.45
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.55
-    shadowScaleX: 0.85
+    shadowScaleX: 1.16
     outdoorDisplayHeight: 64.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13159,8 +13315,8 @@ billboards:
     displayHeight: 132.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.35
-    shadowScaleX: 1.35
+    shadowScaleY: 1.4
+    shadowScaleX: 1.12
     outdoorDisplayHeight: 66.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13216,11 +13372,11 @@ billboards:
     anchorY: 0.59
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 117
+    displayHeight: 117.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.45
-    shadowScaleX: 1.45
+    shadowScaleY: 1.59
+    shadowScaleX: 1.27
     outdoorDisplayHeight: 58.5
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13276,11 +13432,11 @@ billboards:
     anchorY: 0.19
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 250
+    displayHeight: 250.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.7
-    shadowScaleX: 1.85
+    shadowScaleY: 1.6
+    shadowScaleX: 1.28
     shadowOffsetColumn: -0.4
     shadowOffsetRow: -0.9
     outdoorDisplayHeight: 125.0
@@ -13338,11 +13494,11 @@ billboards:
     anchorY: 0.46
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 220
+    displayHeight: 220.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 0.7
-    shadowScaleX: 0.85
+    shadowScaleY: 0.9
+    shadowScaleX: 0.9
     shadowOffsetColumn: -0.4
     shadowOffsetRow: -0.6
     outdoorDisplayHeight: 110.0
@@ -13396,16 +13552,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-split-stump-v1
-    anchorX: 0
+    anchorX: 0.0
     anchorY: 0.03
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 110
+    displayHeight: 110.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.69
     shadowOffsetColumn: -0.45
     shadowOffsetRow: -0.5
+    shadowScaleX: 1.35
     outdoorDisplayHeight: 55.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13460,7 +13617,8 @@ billboards:
     displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.32
+    shadowScaleX: 1.06
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13517,7 +13675,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13574,7 +13733,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13629,7 +13789,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13684,7 +13845,8 @@ billboards:
     displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.32
+    shadowScaleX: 1.06
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13741,10 +13903,10 @@ billboards:
     displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.2
+    shadowScaleY: 1.32
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.4
-    shadowScaleX: 1.2
+    shadowScaleX: 1.06
     outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13799,7 +13961,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -13854,7 +14017,8 @@ billboards:
     displayHeight: 160.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.16
+    shadowScaleX: 0.93
     outdoorDisplayHeight: 80.0
     size_variant: 대형 변형
     occupied_tile_count: 1
@@ -13909,7 +14073,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.55
+    shadowScaleX: 1.24
     outdoorDisplayHeight: 60.0
     size_variant: 소형 변형
     occupied_tile_count: 1
@@ -13964,8 +14129,8 @@ billboards:
     displayHeight: 115.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.5
-    shadowScaleX: 1.35
+    shadowScaleY: 1.61
+    shadowScaleX: 1.29
     outdoorDisplayHeight: 57.5
     size_variant: 대형 변형
     occupied_tile_count: 1
@@ -14022,8 +14187,8 @@ billboards:
     displayHeight: 94.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.5
-    shadowScaleX: 1.4
+    shadowScaleY: 1.97
+    shadowScaleX: 1.58
     outdoorDisplayHeight: 47.0
     size_variant: 대형 변형
     occupied_tile_count: 1
@@ -14078,8 +14243,8 @@ billboards:
     displayHeight: 350.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.4
-    shadowScaleY: 1.15
+    shadowScaleX: 1.28
+    shadowScaleY: 1.6
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.45
     outdoorDisplayHeight: 175.0
@@ -14136,7 +14301,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -14192,8 +14358,8 @@ billboards:
     displayHeight: 78.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 2.25
-    shadowScaleX: 2.1
+    shadowScaleY: 2.38
+    shadowScaleX: 1.9
     outdoorDisplayHeight: 39.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -14249,7 +14415,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -14305,7 +14472,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -14361,8 +14529,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 2.0
-    shadowScaleX: 2.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -14418,8 +14586,8 @@ billboards:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 2.0
-    shadowScaleX: 2.0
+    shadowScaleY: 1.86
+    shadowScaleX: 1.48
     outdoorDisplayHeight: 50.0
     size_variant: 대형 변형
     occupied_tile_count: 1
@@ -14475,7 +14643,8 @@ billboards:
     displayHeight: 160.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1.0
+    shadowScaleY: 1.16
+    shadowScaleX: 0.93
     outdoorDisplayHeight: 80.0
     size_variant: 대형 변형
     occupied_tile_count: 1
@@ -14530,11 +14699,11 @@ billboards:
     anchorY: 0.0
     groundFootprintColumns: 3
     groundFootprintRows: 3
-    displayHeight: 200
+    displayHeight: 200.0
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 2.23
+    shadowScaleY: 2.79
     outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 9
@@ -14589,11 +14758,11 @@ billboards:
     anchorY: 0.0
     groundFootprintColumns: 3
     groundFootprintRows: 3
-    displayHeight: 160
+    displayHeight: 160.0
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 2.79
+    shadowScaleY: 3.48
     outdoorDisplayHeight: 80.0
     size_variant: 기본 변형
     occupied_tile_count: 9
@@ -14648,11 +14817,11 @@ billboards:
     anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 64
+    displayHeight: 64.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 2.32
+    shadowScaleY: 2.9
     outdoorDisplayHeight: 32.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -14707,11 +14876,11 @@ billboards:
     anchorY: 0.0
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 180
+    displayHeight: 180.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.4
-    shadowScaleY: 1.65
+    shadowScaleX: 1.65
+    shadowScaleY: 2.06
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 90.0
@@ -14773,8 +14942,8 @@ billboards:
     displayHeight: 80.27
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.71
-    shadowScaleY: 1.71
+    shadowScaleX: 1.85
+    shadowScaleY: 2.31
     shadowOffsetColumn: -0.7
     shadowOffsetRow: -0.75
     outdoorDisplayHeight: 40.135
@@ -14837,8 +15006,8 @@ billboards:
     displayHeight: 335.39
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -1.0
     shadowOffsetRow: -0.35
     outdoorDisplayHeight: 167.695
@@ -14901,8 +15070,8 @@ billboards:
     displayHeight: 282.5
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 141.25
@@ -14965,8 +15134,8 @@ billboards:
     displayHeight: 324.2
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 162.1
@@ -15029,8 +15198,8 @@ billboards:
     displayHeight: 361.53
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -1.0
     outdoorDisplayHeight: 180.765
@@ -15092,8 +15261,8 @@ billboards:
     displayHeight: 155.82
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.26
-    shadowScaleY: 1.26
+    shadowScaleX: 1.91
+    shadowScaleY: 2.38
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 77.91
@@ -15153,8 +15322,8 @@ billboards:
     displayHeight: 233.75
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -1.0
     outdoorDisplayHeight: 116.875
@@ -15214,8 +15383,8 @@ billboards:
     displayHeight: 221.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -1.0
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 110.905
@@ -15268,8 +15437,8 @@ billboards:
     displayHeight: 84.78
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.7
-    shadowScaleY: 1.7
+    shadowScaleX: 1.75
+    shadowScaleY: 2.19
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
     outdoorDisplayHeight: 42.39
@@ -15307,26 +15476,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-1x1-inclusions-v1.png
-    width: 512
-    height: 512
-    sha256: c4179f31a732f35b76d20f4292d1f0668fa49d99b0ac9f7f2650131b7e3c6636
+    width: 128
+    height: 65
+    sha256: 41b41828215d711d17856169b8f02c675cfd5c4bd7b111900ed8b1deea27a312
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-inclusions-v1
     anchorX: 0.0
-    anchorY: 0.49
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 160.13
+    displayHeight: 76.94
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.35
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 80.065
+    shadowScaleX: 1.93
+    shadowScaleY: 2.41
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 38.47
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -15362,26 +15531,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-1x1-branch-v1.png
-    width: 512
-    height: 512
-    sha256: abf8371b7c47c4d0e304680155c779e4a00f128281c0e4da0860eabda765a765
+    width: 128
+    height: 89
+    sha256: d7dd14e9ca8be04acb4645361c2c4cb3df24ecd5ce3edeaa669a3d1dce013030
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-branch-v1
     anchorX: 0.0
-    anchorY: 0.16
+    anchorY: 0.01
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 153.2
+    displayHeight: 106.52
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 1.39
+    shadowScaleY: 1.74
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 76.6
+    outdoorDisplayHeight: 53.26
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -15416,26 +15585,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-1x1-web-v1.png
-    width: 512
-    height: 512
-    sha256: 3aa289310dd4eddb36ab1c96751bd4927de55c42daf3d2c01c690fd3bfd2a575
+    width: 256
+    height: 127
+    sha256: 097cdd0130860aa98506dfedab4c69635bfe97bc7cfe349edd81280edbca540d
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-web-v1
     anchorX: 0.01
-    anchorY: 0.4
+    anchorY: -0.07
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 160.79
+    displayHeight: 76.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.35
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 80.395
+    shadowScaleX: 1.95
+    shadowScaleY: 2.44
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 38.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -15470,26 +15639,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-1x1-lens-v1.png
-    width: 512
-    height: 354
-    sha256: 1fb7d003024d881c6513fa3328e2f31d10bdd6d278a38b9c1468276647854543
+    width: 256
+    height: 171
+    sha256: 691865c1deab723a683038501a048283639a8c89bd732a9276762e916ca157fc
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-lens-v1
     anchorX: 0.0
-    anchorY: 0.11
+    anchorY: -0.06
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 119.84
+    displayHeight: 101.9
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
-    shadowOffsetColumn: -0.35
-    shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 59.92
+    shadowScaleX: 1.46
+    shadowScaleY: 1.82
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 50.95
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -15524,26 +15693,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-1x1-paired-v1.png
-    width: 512
-    height: 512
-    sha256: 8962ec775763fada8fd91d9dfd04876cc8b1547067ba37703062b626b8477f6e
+    width: 256
+    height: 208
+    sha256: 1fc410419e86007d226462a016d346859ddeec0150c768ad6707805bfdf947f6
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-paired-v1
     anchorX: 0.01
-    anchorY: 0.16
+    anchorY: 0.01
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 158.5
+    displayHeight: 123.83
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 1.2
+    shadowScaleY: 1.5
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 79.25
+    outdoorDisplayHeight: 61.915
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -15578,26 +15747,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-1x1-band-v1.png
-    width: 512
-    height: 355
-    sha256: f6a8f05befaf160f77d457babfc0a88a9a2dcbae6c3146c0ae480d575c8c830a
+    width: 384
+    height: 256
+    sha256: 20a15ab88f097d9d756dba690401c6fc4a311ea440403e6b0df142405d0ced2d
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-band-v1
     anchorX: 0.01
-    anchorY: 0.08
+    anchorY: -0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 114.81
+    displayHeight: 101.87
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 1.46
+    shadowScaleY: 1.82
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 57.405
+    outdoorDisplayHeight: 50.935
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -15633,26 +15802,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-1x1-vertical-v1.png
-    width: 424
-    height: 512
-    sha256: 64eed008aeb0c726595459e20369ab5ef013b156e8ee4c325b65a335dd450486
+    width: 228
+    height: 256
+    sha256: 899f840a55704e0b91e98ed2cdabc5665463ca48b6ebbb189523f698cf93a641
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-vertical-v1
     anchorX: 0.0
-    anchorY: 0.08
+    anchorY: 0.01
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 192.63
+    displayHeight: 171.56
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.86
+    shadowScaleY: 1.08
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 96.315
+    outdoorDisplayHeight: 85.78
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -15688,26 +15857,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-quartz-1x1-fissure-v1.png
-    width: 512
-    height: 512
-    sha256: fd9692962f7c06eea49d5571e0d9becb787cfc95ddb3aac2e922e02daf23dbb0
+    width: 176
+    height: 256
+    sha256: 23c55a17f82d4f1ea944a599f569a1e507d10ed821bdc3c071e19b2877e98d1c
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-fissure-v1
     anchorX: 0.01
-    anchorY: 0.11
+    anchorY: 0.02
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 241.69
+    displayHeight: 222.34
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.66
+    shadowScaleY: 0.83
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
-    outdoorDisplayHeight: 120.845
+    outdoorDisplayHeight: 111.17
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -15758,8 +15927,8 @@ billboards:
     displayHeight: 234.41
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
     outdoorDisplayHeight: 117.205
@@ -15813,8 +15982,8 @@ billboards:
     displayHeight: 85.28
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 2.3
-    shadowScaleY: 2.3
+    shadowScaleX: 1.74
+    shadowScaleY: 2.18
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 42.64
@@ -15868,8 +16037,8 @@ billboards:
     displayHeight: 110.94
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.87
-    shadowScaleY: 1.87
+    shadowScaleX: 1.34
+    shadowScaleY: 1.67
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 55.47
@@ -15923,8 +16092,8 @@ billboards:
     displayHeight: 80.49
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 2.45
-    shadowScaleY: 2.45
+    shadowScaleX: 1.84
+    shadowScaleY: 2.31
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 40.245
@@ -15978,8 +16147,8 @@ billboards:
     displayHeight: 72.39
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 2.72
-    shadowScaleY: 2.72
+    shadowScaleX: 2.05
+    shadowScaleY: 2.57
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 36.195
@@ -16033,8 +16202,8 @@ billboards:
     displayHeight: 97.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.3
-    shadowScaleY: 1.3
+    shadowScaleX: 1.53
+    shadowScaleY: 1.91
     shadowOffsetColumn: -0.35
     shadowOffsetRow: -0.35
     outdoorDisplayHeight: 48.5
@@ -16088,8 +16257,8 @@ billboards:
     displayHeight: 93.47
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 2.13
-    shadowScaleY: 2.3
+    shadowScaleX: 1.59
+    shadowScaleY: 1.99
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 46.735
@@ -16103,7 +16272,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 2
   modeling:
     purpose: 중간 사선 석영 암벽
     recommended_uses:
@@ -16143,8 +16312,8 @@ billboards:
     displayHeight: 298.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.01
-    shadowScaleY: 1.1
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -1.0
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 149.0
@@ -16198,8 +16367,8 @@ billboards:
     displayHeight: 274.66
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 137.33
@@ -16213,7 +16382,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 2
   modeling:
     purpose: 중간 분기맥 암벽
     recommended_uses:
@@ -16253,8 +16422,8 @@ billboards:
     displayHeight: 226.21
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 113.105
@@ -16268,7 +16437,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   modeling:
     purpose: 중간 렌즈맥 암벽
     recommended_uses:
@@ -16308,8 +16477,8 @@ billboards:
     displayHeight: 294.12
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -1.0
     outdoorDisplayHeight: 147.06
@@ -16323,7 +16492,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 4
   modeling:
     purpose: 중간 층상 석영 암반
     recommended_uses:
@@ -16363,8 +16532,8 @@ billboards:
     displayHeight: 170.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 85.0
@@ -16378,7 +16547,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 2
   modeling:
     purpose: 중간 경사 절리 암반
     recommended_uses:
@@ -16418,8 +16587,8 @@ billboards:
     displayHeight: 216.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 108.0
@@ -16433,7 +16602,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 1
+    texture_key_occurrences: 2
   modeling:
     purpose: 중간 파쇄면 석영 암반
     recommended_uses:
@@ -16473,8 +16642,8 @@ billboards:
     displayHeight: 220.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.33
     shadowOffsetRow: -0.67
     outdoorDisplayHeight: 110.0
@@ -16488,7 +16657,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/crystal-cut.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 4
   modeling:
     purpose: 중간 분리 석영맥 암반
     recommended_uses:
@@ -16528,8 +16697,8 @@ billboards:
     displayHeight: 242.13
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.85
-    shadowScaleY: 0.85
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 121.065
@@ -16584,8 +16753,8 @@ billboards:
     displayHeight: 151.46
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 75.73
@@ -16639,8 +16808,8 @@ billboards:
     displayHeight: 143.42
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 71.71
@@ -16695,7 +16864,7 @@ billboards:
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.9
-    shadowScaleY: 1.0
+    shadowScaleY: 0.9
     shadowOffsetColumn: -0.95
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 92.045
@@ -16749,8 +16918,8 @@ billboards:
     displayHeight: 161.65
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.8
-    shadowScaleY: 1.0
+    shadowScaleX: 0.9
+    shadowScaleY: 0.9
     shadowOffsetColumn: -1.0
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 80.825
@@ -16806,8 +16975,8 @@ billboards:
     displayHeight: 354.77
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.55
-    shadowScaleY: 0.55
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 177.385
@@ -16863,8 +17032,8 @@ billboards:
     displayHeight: 283.59
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.55
-    shadowScaleY: 0.55
+    shadowScaleX: 0.64
+    shadowScaleY: 0.8
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 141.795
@@ -16920,8 +17089,8 @@ billboards:
     displayHeight: 148.67
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 0.81
-    shadowScaleY: 0.81
+    shadowScaleX: 1.0
+    shadowScaleY: 1.25
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
     outdoorDisplayHeight: 74.335

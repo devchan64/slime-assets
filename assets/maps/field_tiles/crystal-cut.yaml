@@ -57,7 +57,7 @@ data:
     kind: decoration
     position:
       column: 23
-      row: 14
+      row: 13
     textureKey: crystal-cut-medium-pockets-2x1-v1
     tileAnchor: center
   - id: quartz-remodel-4
@@ -113,7 +113,7 @@ data:
     kind: decoration
     position:
       column: 3
-      row: 26
+      row: 17
     textureKey: crystal-cut-guide-2x1-medium-v1
     tileAnchor: center
   - id: quartz-medium-1x2
@@ -128,14 +128,14 @@ data:
     position:
       column: 14
       row: 2
-    textureKey: crystal-cut-guide-1x3-medium-v1
+    textureKey: crystal-cut-guide-1x2-medium-v1
     tileAnchor: center
   - id: quartz-wall-extension-1
     kind: decoration
     textureKey: crystal-cut-medium-breccia-1x2-v1
     position:
-      column: 14
-      row: 19
+      column: 1
+      row: 18
     tileAnchor: center
   - id: quartz-wall-extension-2
     kind: decoration
@@ -149,7 +149,7 @@ data:
     textureKey: crystal-cut-medium-pockets-2x1-v1
     position:
       column: 27
-      row: 17
+      row: 12
     tileAnchor: center
   - id: quartz-grounded-low-1
     kind: decoration
@@ -756,8 +756,8 @@ data:
   - id: quartz-cut-spur-west
     kind: decoration
     position:
-      column: 13
-      row: 5
+      column: 10
+      row: 7
     textureKey: crystal-cut-medium-strata-2x1-v1
     tileAnchor: center
   - id: quartz-cut-spur-east
@@ -780,6 +780,41 @@ data:
       column: 14
       row: 24
     textureKey: crystal-cut-medium-strata-2x1-v1
+    tileAnchor: center
+  - id: quartz-recess-wall-22-22
+    kind: decoration
+    position:
+      column: 22
+      row: 22
+    textureKey: crystal-cut-guide-3x1-medium-v1
+    tileAnchor: center
+  - id: quartz-cut-recess-added-1
+    kind: decoration
+    position:
+      column: 7
+      row: 18
+    textureKey: crystal-cut-medium-strata-2x1-v1
+    tileAnchor: center
+  - id: quartz-cut-recess-added-2
+    kind: decoration
+    position:
+      column: 5
+      row: 9
+    textureKey: crystal-cut-medium-tilted-1x2-v1
+    tileAnchor: center
+  - id: quartz-cut-recess-added-3
+    kind: decoration
+    position:
+      column: 1
+      row: 26
+    textureKey: crystal-cut-medium-breccia-1x2-v1
+    tileAnchor: center
+  - id: quartz-cut-recess-added-4
+    kind: decoration
+    position:
+      column: 10
+      row: 18
+    textureKey: crystal-cut-medium-pockets-2x1-v1
     tileAnchor: center
   cliffTextureKey: cinder-basalt-wall-v1
   groundOverrides:

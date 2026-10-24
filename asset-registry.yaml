@@ -619,7 +619,7 @@ assets:
 - managementId: config.field-tiles.crystal-cut
   version: crystal-remodel-v1-detail-v1-ore-v1-dense-v1-footprints-v1
   path: assets/maps/field_tiles/crystal-cut.yaml
-  sha256: cc2212eee5a2a8ce83ea3da2cb24d2daac2eedcfe3f3c4e3d9f70d8c7e848074
+  sha256: 3799f205c8af826e19629d421c69d0f5b3d3309ef5ba76c511eb3e55bc5b7715
   source:
     repository: slime-backend
     path: config/field_tiles/crystal-cut.yaml
@@ -1171,7 +1171,7 @@ assets:
 - managementId: config.terrain.maps.crystal-cut
   version: field-detail-v2-detail-v1-footprints-v1
   path: assets/maps/terrain/maps/crystal-cut.yaml
-  sha256: 0b603a0f2f47ad2559a8669e1ac0acd42cd3c7eb36cd40bc0c34a99fbd556e5a
+  sha256: df5c2583899b2c4a88433d668eb506fd323614d875d81667b56e03695dfaab76
   source:
     repository: slime-backend
     path: config/terrain/maps/crystal-cut.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: cef7bbdb6576b7b216274789eaa3c7d353021ba3cbf801e3e46d24e71072f93e
+  sha256: bc0030b727fa35633203f3ca00abcb992f69f0e87f9b6169fb5059770efdaa06
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8230,9 +8230,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-inclusions-v1.png
   name: 점상 석영 각력암
-  width: 512
-  height: 512
-  sha256: c4179f31a732f35b76d20f4292d1f0668fa49d99b0ac9f7f2650131b7e3c6636
+  width: 128
+  height: 65
+  sha256: 41b41828215d711d17856169b8f02c675cfd5c4bd7b111900ed8b1deea27a312
   source:
     repository: codex-imagegen
     artifact: exec-84127967-ff48-4bc7-8462-b6afa5a7b528.png
@@ -8242,9 +8242,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-branch-v1.png
   name: 분기 석영 판석
-  width: 512
-  height: 512
-  sha256: abf8371b7c47c4d0e304680155c779e4a00f128281c0e4da0860eabda765a765
+  width: 128
+  height: 89
+  sha256: d7dd14e9ca8be04acb4645361c2c4cb3df24ecd5ce3edeaa669a3d1dce013030
   source:
     repository: codex-imagegen
     artifact: exec-83955d0f-8765-4b75-9181-49103235ea70.png
@@ -8254,9 +8254,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-web-v1.png
   name: 망상맥 오목 암반
-  width: 512
-  height: 512
-  sha256: 3aa289310dd4eddb36ab1c96751bd4927de55c42daf3d2c01c690fd3bfd2a575
+  width: 256
+  height: 127
+  sha256: 097cdd0130860aa98506dfedab4c69635bfe97bc7cfe349edd81280edbca540d
   source:
     repository: codex-imagegen
     artifact: exec-c6bb86ee-4324-4759-9354-04bc7efcd1a5.png
@@ -8266,9 +8266,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-lens-v1.png
   name: 렌즈 석영 바위
-  width: 512
-  height: 354
-  sha256: 1fb7d003024d881c6513fa3328e2f31d10bdd6d278a38b9c1468276647854543
+  width: 256
+  height: 171
+  sha256: 691865c1deab723a683038501a048283639a8c89bd732a9276762e916ca157fc
   source:
     repository: codex-imagegen
     artifact: exec-9efac3e7-c891-4413-bd3c-4007f68a366b.png
@@ -8278,9 +8278,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-paired-v1.png
   name: 쌍봉 석영 바위
-  width: 512
-  height: 512
-  sha256: 8962ec775763fada8fd91d9dfd04876cc8b1547067ba37703062b626b8477f6e
+  width: 256
+  height: 208
+  sha256: 1fc410419e86007d226462a016d346859ddeec0150c768ad6707805bfdf947f6
   source:
     repository: codex-imagegen
     artifact: exec-5f34cecb-9b40-44eb-b650-51c7b1c88d60.png
@@ -8290,9 +8290,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-band-v1.png
   name: 수평맥 석영 바위
-  width: 512
-  height: 355
-  sha256: f6a8f05befaf160f77d457babfc0a88a9a2dcbae6c3146c0ae480d575c8c830a
+  width: 384
+  height: 256
+  sha256: 20a15ab88f097d9d756dba690401c6fc4a311ea440403e6b0df142405d0ced2d
   source:
     repository: codex-imagegen
     artifact: exec-ea00ce94-3bd7-4de4-863a-53c5617e2f16.png
@@ -8302,9 +8302,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-vertical-v1.png
   name: 수직맥 석영 암주
-  width: 424
-  height: 512
-  sha256: 64eed008aeb0c726595459e20369ab5ef013b156e8ee4c325b65a335dd450486
+  width: 228
+  height: 256
+  sha256: 899f840a55704e0b91e98ed2cdabc5665463ca48b6ebbb189523f698cf93a641
   source:
     repository: codex-imagegen
     artifact: exec-aa0cafe4-d408-436d-9144-91909219e355.png
@@ -8314,9 +8314,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-fissure-v1.png
   name: 틈새 석영 암주
-  width: 512
-  height: 512
-  sha256: fd9692962f7c06eea49d5571e0d9becb787cfc95ddb3aac2e922e02daf23dbb0
+  width: 176
+  height: 256
+  sha256: 23c55a17f82d4f1ea944a599f569a1e507d10ed821bdc3c071e19b2877e98d1c
   source:
     repository: codex-imagegen
     artifact: exec-3097dc5b-8d1e-4e2c-96b1-8fd2c5db731d.png
