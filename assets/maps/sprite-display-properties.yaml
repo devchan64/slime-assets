@@ -2575,11 +2575,11 @@ data:
     shadowOffsetColumn: -0.67
     shadowOffsetRow: -0.33
   crystal-cut-medium-tilted-1x2-v1:
-    anchorX: 0.21
-    anchorY: 0.53
+    anchorX: 0.25
+    anchorY: 0.01
     groundFootprintColumns: 1
     groundFootprintRows: 2
-    displayHeight: 302.42
+    displayHeight: 216.18
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
@@ -2587,11 +2587,11 @@ data:
     shadowOffsetColumn: -0.33
     shadowOffsetRow: -0.67
   crystal-cut-medium-breccia-1x2-v1:
-    anchorX: 0.21
-    anchorY: 0.33
+    anchorX: 0.0
+    anchorY: 0.19
     groundFootprintColumns: 1
     groundFootprintRows: 2
-    displayHeight: 269.6
+    displayHeight: 220.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
@@ -2599,23 +2599,23 @@ data:
     shadowOffsetColumn: -0.33
     shadowOffsetRow: -0.67
   crystal-cut-medium-pockets-2x1-v1:
-    anchorX: -0.28
-    anchorY: 0.47
+    anchorX: 0.0
+    anchorY: 0.19
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 314.65
+    displayHeight: 242.13
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
-    shadowOffsetColumn: -0.67
-    shadowOffsetRow: -0.33
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
   crystal-cut-low-branch-2x1-v1:
-    anchorX: -0.14
-    anchorY: 1.5
+    anchorX: 0.02
+    anchorY: 0.18
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 378.65
+    displayHeight: 151.46
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1.0
@@ -2623,68 +2623,74 @@ data:
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
   crystal-cut-low-split-2x1-v1:
-    anchorX: 0.03
-    anchorY: 1.06
+    anchorX: 0.05
+    anchorY: 0.15
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 299.32
+    displayHeight: 143.42
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
   crystal-cut-low-lenses-3x1-v1:
-    anchorX: -0.2
-    anchorY: 1.47
+    anchorX: -0.19
+    anchorY: 0.2
     groundFootprintColumns: 3
     groundFootprintRows: 1
-    displayHeight: 411
+    displayHeight: 184.09
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.9
-    shadowScaleY: 1
+    shadowScaleY: 1.0
     shadowOffsetColumn: -0.95
     shadowOffsetRow: -0.5
   crystal-cut-low-rubble-3x1-v1:
-    anchorX: -0.18
-    anchorY: 1.29
+    anchorX: -0.16
+    anchorY: 0.16
     groundFootprintColumns: 3
     groundFootprintRows: 1
-    displayHeight: 363
+    displayHeight: 161.65
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.8
-    shadowScaleY: 1
+    shadowScaleY: 1.0
     shadowOffsetColumn: -1.0
     shadowOffsetRow: -0.5
   dawn-overlook-conifer-tree-tall-v1:
     anchorX: 0.0
-    anchorY: 0.4
+    anchorY: -0.06
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 380
+    displayHeight: 380.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.55
     shadowScaleY: 0.55
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
   dawn-overlook-conifer-tree-medium-v1:
-    anchorX: 0.0
-    anchorY: 0.4
+    anchorX: -0.09
+    anchorY: -0.07
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 300.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.55
     shadowScaleY: 0.55
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
   dawn-overlook-pine-tree-windswept-v1:
     anchorX: 0.2
-    anchorY: 0.4
+    anchorY: 0.17
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 220
+    displayHeight: 220.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.55
     shadowScaleY: 0.55
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5

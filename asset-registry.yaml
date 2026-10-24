@@ -627,7 +627,7 @@ assets:
 - managementId: config.field-tiles.dawn-overlook
   version: shared-material-codes-v2-dawn-v1-valley-v1-crossing-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/field_tiles/dawn-overlook.yaml
-  sha256: d0c5f4a01a9582072cfcccf9535c1649c99eab3306b6ac228e1b5869ab704f2c
+  sha256: c57523b6f1100200ead033e49402677b8826c7fd8ba4ac2a61eca79c1854bcca
   source:
     repository: slime-backend
     path: config/field_tiles/dawn-overlook.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: c4e9b0dd55dd4da985c0b60affc58d9cad37179838808c09a45fe9f76f412180
+  sha256: cad835fbf95c46733239c80da7c695549596d662d947862c14a8f00b1ee2d5a6
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8473,9 +8473,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-medium-tilted-1x2-v1.png
   name: 중간 경사 절리 암반
-  width: 512
-  height: 512
-  sha256: d394caa82444a81946a7095650294870af1960bd11ffcecd87e2f2fc2b8e9381
+  width: 387
+  height: 366
+  sha256: f50142363bc2bee861016fe89181b1ec2b4ff61fb3542290501db4d40adf84ab
   source:
     repository: codex-imagegen
     artifact: exec-c730a570-8ce8-457b-9dec-818b53ac2943.png
@@ -8485,9 +8485,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-medium-breccia-1x2-v1.png
   name: 중간 파쇄면 석영 암반
-  width: 512
-  height: 512
-  sha256: db22d3c23d6a9141e23a185ea275e2fee2cda18e9d7058fe4c4e0758459d2b11
+  width: 256
+  height: 239
+  sha256: bcb12a958317a6634413fc1850669fe308865477d0b6c9e98a1b4499c6480d03
   source:
     repository: codex-imagegen
     artifact: exec-ef54eae1-541e-4543-acb8-1fe907644946.png
@@ -8497,9 +8497,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-medium-pockets-2x1-v1.png
   name: 중간 분리 석영맥 암반
-  width: 512
-  height: 512
-  sha256: c51543221a129b14bc7929c9e180b552d84f5c8c7391f037d723b647f5d2ee16
+  width: 371
+  height: 394
+  sha256: 07c2d40d9a69b9cb52eb1d6a19a3070879562908bfbe3ffd32d46bdbd81949f7
   source:
     repository: codex-imagegen
     artifact: exec-82e266cf-48bd-4447-8f4b-4e168ad21c5d.png
@@ -8509,9 +8509,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-low-branch-2x1-v1.png
   name: 낮은 분기 석영 판형
-  width: 369
-  height: 470
-  sha256: 87b87d34b32adf5493331d72c06cdc4b290fe784d98f9ad23c78753647adc1b4
+  width: 284
+  height: 188
+  sha256: 9b7a44eabc899a5176dfd90cc8e3ce31b45ffd0a8c8685b3b2d7e13bceb9ecb9
   source:
     repository: codex-imagegen
     artifact: exec-7461ef9f-b72f-4a41-bc35-96636744f404.png
@@ -8521,9 +8521,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-low-split-2x1-v1.png
   name: 낮은 절리 석영 판형
-  width: 384
-  height: 384
-  sha256: 4b917667d71b70cbd601a37bc1490ed39a5a5b2de5c6d54b5f2b5ccef6d6d741
+  width: 294
+  height: 184
+  sha256: a9220c85ed2d76a1915eb8042e9ba9936f60bd917e6aefb8aaeab5c58dfafb7a
   source:
     repository: codex-imagegen
     artifact: exec-6e09d1b5-caf4-41fa-be83-71d29c544774.png
@@ -8533,9 +8533,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-low-lenses-3x1-v1.png
   name: 낮은 렌즈 석영 판형
-  width: 384
-  height: 384
-  sha256: 679e83a5a86517c417a7d748a1718b235c8b508d7ab082a3c3f3d92f3c8e994d
+  width: 283
+  height: 172
+  sha256: a18d05120e43b2d3b67c470ac54f8d45bfccb71b0bf06174178173452ce829b9
   source:
     repository: codex-imagegen
     artifact: exec-1cc33751-1523-44aa-9ebe-e46050583426.png
@@ -8545,9 +8545,9 @@ assets:
   version: v1
   path: assets/billboards/crystal-cut-low-rubble-3x1-v1.png
   name: 낮은 석영 파쇄 판형
-  width: 384
-  height: 384
-  sha256: 33812de491ee775962704854581821fcaac9ad6197025903081e84b8c5cea473
+  width: 311
+  height: 171
+  sha256: 52d2d60558290a33741ad454849e9d7ba0f1e4e153b73f60afdae0e212ebdf3c
   source:
     repository: codex-imagegen
     artifact: exec-04cf2bb4-3e1b-41fd-8aa3-3c17dfbcb448.png

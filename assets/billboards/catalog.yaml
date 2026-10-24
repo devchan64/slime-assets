@@ -16611,26 +16611,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-medium-tilted-1x2-v1.png
-    width: 512
-    height: 512
-    sha256: d394caa82444a81946a7095650294870af1960bd11ffcecd87e2f2fc2b8e9381
+    width: 387
+    height: 366
+    sha256: f50142363bc2bee861016fe89181b1ec2b4ff61fb3542290501db4d40adf84ab
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-medium-tilted-1x2-v1
-    anchorX: 0.21
-    anchorY: 0.53
+    anchorX: 0.25
+    anchorY: 0.01
     groundFootprintColumns: 1
     groundFootprintRows: 2
-    displayHeight: 302.42
+    displayHeight: 216.18
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
     shadowOffsetColumn: -0.33
     shadowOffsetRow: -0.67
-    outdoorDisplayHeight: 151.21
+    outdoorDisplayHeight: 108.09
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -16666,26 +16666,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-medium-breccia-1x2-v1.png
-    width: 512
-    height: 512
-    sha256: db22d3c23d6a9141e23a185ea275e2fee2cda18e9d7058fe4c4e0758459d2b11
+    width: 256
+    height: 239
+    sha256: bcb12a958317a6634413fc1850669fe308865477d0b6c9e98a1b4499c6480d03
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-medium-breccia-1x2-v1
-    anchorX: 0.21
-    anchorY: 0.33
+    anchorX: 0.0
+    anchorY: 0.19
     groundFootprintColumns: 1
     groundFootprintRows: 2
-    displayHeight: 269.6
+    displayHeight: 220.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
     shadowOffsetColumn: -0.33
     shadowOffsetRow: -0.67
-    outdoorDisplayHeight: 134.8
+    outdoorDisplayHeight: 110.0
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -16721,26 +16721,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-medium-pockets-2x1-v1.png
-    width: 512
-    height: 512
-    sha256: c51543221a129b14bc7929c9e180b552d84f5c8c7391f037d723b647f5d2ee16
+    width: 371
+    height: 394
+    sha256: 07c2d40d9a69b9cb52eb1d6a19a3070879562908bfbe3ffd32d46bdbd81949f7
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-medium-pockets-2x1-v1
-    anchorX: -0.28
-    anchorY: 0.47
+    anchorX: 0.0
+    anchorY: 0.19
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 314.65
+    displayHeight: 242.13
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.85
     shadowScaleY: 0.85
-    shadowOffsetColumn: -0.67
-    shadowOffsetRow: -0.33
-    outdoorDisplayHeight: 157.325
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
+    outdoorDisplayHeight: 121.065
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -16777,26 +16777,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-low-branch-2x1-v1.png
-    width: 369
-    height: 470
-    sha256: 87b87d34b32adf5493331d72c06cdc4b290fe784d98f9ad23c78753647adc1b4
+    width: 284
+    height: 188
+    sha256: 9b7a44eabc899a5176dfd90cc8e3ce31b45ffd0a8c8685b3b2d7e13bceb9ecb9
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-low-branch-2x1-v1
-    anchorX: -0.14
-    anchorY: 1.5
+    anchorX: 0.02
+    anchorY: 0.18
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 378.65
+    displayHeight: 151.46
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 189.325
+    outdoorDisplayHeight: 75.73
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -16832,26 +16832,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-low-split-2x1-v1.png
-    width: 384
-    height: 384
-    sha256: 4b917667d71b70cbd601a37bc1490ed39a5a5b2de5c6d54b5f2b5ccef6d6d741
+    width: 294
+    height: 184
+    sha256: a9220c85ed2d76a1915eb8042e9ba9936f60bd917e6aefb8aaeab5c58dfafb7a
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-low-split-2x1-v1
-    anchorX: 0.03
-    anchorY: 1.06
+    anchorX: 0.05
+    anchorY: 0.15
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 299.32
+    displayHeight: 143.42
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowOffsetColumn: -0.5
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 149.66
+    outdoorDisplayHeight: 71.71
     size_variant: 기본 변형
     occupied_tile_count: 2
     movement: 통행 가능
@@ -16887,26 +16887,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-low-lenses-3x1-v1.png
-    width: 384
-    height: 384
-    sha256: 679e83a5a86517c417a7d748a1718b235c8b508d7ab082a3c3f3d92f3c8e994d
+    width: 283
+    height: 172
+    sha256: a18d05120e43b2d3b67c470ac54f8d45bfccb71b0bf06174178173452ce829b9
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-low-lenses-3x1-v1
-    anchorX: -0.2
-    anchorY: 1.47
+    anchorX: -0.19
+    anchorY: 0.2
     groundFootprintColumns: 3
     groundFootprintRows: 1
-    displayHeight: 411
+    displayHeight: 184.09
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.9
-    shadowScaleY: 1
+    shadowScaleY: 1.0
     shadowOffsetColumn: -0.95
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 205.5
+    outdoorDisplayHeight: 92.045
     size_variant: 기본 변형
     occupied_tile_count: 3
     movement: 통행 가능
@@ -16942,26 +16942,26 @@ billboards:
       guidance_only: true
   source_file:
     path: assets/billboards/crystal-cut-low-rubble-3x1-v1.png
-    width: 384
-    height: 384
-    sha256: 33812de491ee775962704854581821fcaac9ad6197025903081e84b8c5cea473
+    width: 311
+    height: 171
+    sha256: 52d2d60558290a33741ad454849e9d7ba0f1e4e153b73f60afdae0e212ebdf3c
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-low-rubble-3x1-v1
-    anchorX: -0.18
-    anchorY: 1.29
+    anchorX: -0.16
+    anchorY: 0.16
     groundFootprintColumns: 3
     groundFootprintRows: 1
-    displayHeight: 363
+    displayHeight: 161.65
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.8
-    shadowScaleY: 1
+    shadowScaleY: 1.0
     shadowOffsetColumn: -1.0
     shadowOffsetRow: -0.5
-    outdoorDisplayHeight: 181.5
+    outdoorDisplayHeight: 80.825
     size_variant: 기본 변형
     occupied_tile_count: 3
     movement: 통행 가능
@@ -16970,7 +16970,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.dawn-overlook-conifer-tree-tall-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/dawn-overlook-conifer-tree-tall-v1.png
     width: 256
@@ -17006,14 +17008,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dawn-overlook-conifer-tree-tall-v1
     anchorX: 0.0
-    anchorY: 0.4
+    anchorY: -0.06
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 380
+    displayHeight: 380.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.55
     shadowScaleY: 0.55
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
     outdoorDisplayHeight: 190.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -17023,7 +17027,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.dawn-overlook-conifer-tree-medium-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/dawn-overlook-conifer-tree-medium-v1.png
     width: 256
@@ -17058,15 +17064,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dawn-overlook-conifer-tree-medium-v1
-    anchorX: 0.0
-    anchorY: 0.4
+    anchorX: -0.09
+    anchorY: -0.07
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 300
+    displayHeight: 300.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.55
     shadowScaleY: 0.55
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
@@ -17076,7 +17084,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.dawn-overlook-pine-tree-windswept-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/dawn-overlook-pine-tree-windswept-v1.png
     width: 256
@@ -17112,14 +17122,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dawn-overlook-pine-tree-windswept-v1
     anchorX: 0.2
-    anchorY: 0.4
+    anchorY: 0.17
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 220
+    displayHeight: 220.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowScaleX: 0.55
     shadowScaleY: 0.55
+    shadowOffsetColumn: -0.5
+    shadowOffsetRow: -0.5
     outdoorDisplayHeight: 110.0
     size_variant: 기본 변형
     occupied_tile_count: 1
