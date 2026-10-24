@@ -643,7 +643,7 @@ assets:
 - managementId: config.field-tiles.fallen-canopy
   version: retire-stump-v1-canopy-v1
   path: assets/maps/field_tiles/fallen-canopy.yaml
-  sha256: 004f597da8c0185b0ed35049c73f480b83f9224031d3be83797fea6981f6726a
+  sha256: 455eca11faa9ce38136216825989b8113108a95c2ad6a655a5d2dc429ca25c63
   source:
     repository: slime-backend
     path: config/field_tiles/fallen-canopy.yaml
@@ -1195,7 +1195,7 @@ assets:
 - managementId: config.terrain.maps.fallen-canopy
   version: v1-canopy-v1
   path: assets/maps/terrain/maps/fallen-canopy.yaml
-  sha256: 1bccfda96953073f38f3b14c1b09eadcb5d6b269f8f22e7a80a1925e0ff7e2c0
+  sha256: 25132f99162cc7402675082843406f8728da27d79e30e3ed8249bd87cdf23647
   source:
     repository: slime-backend
     path: config/terrain/maps/fallen-canopy.yaml
@@ -6505,7 +6505,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: e989b250de8dd94c16dc2b719fe784b09a9f5caf5b832180ccf4ab98818a68be
+  sha256: ff22d8133cfb36b2d6f957dfab16ff3c26f1719a70b9b6affebf14293dd05ed5
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7296,8 +7296,7 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-e5c6e181-dcdc-4536-9ae0-44da7bebd9b9.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
-      구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
 - managementId: image.scenery.bridge-stone-components-v1
   version: v1
   path: assets/buildings/bridge-stone-components-v1.png
@@ -7308,8 +7307,7 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-d59c0191-16d5-4afb-a4b8-786f6941fe17.png
-    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로
-      구성요소 분리
+    processing: 공용 map-assets resize로 512×512 RGBA 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
 - managementId: image.scenery.bridge-connection-details-v1
   version: v1
   path: assets/buildings/bridge-connection-details-v1.png
@@ -7320,8 +7318,7 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-baa58574-5e9e-43f0-ad8c-e62bf2328bd2.png
-    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소
-      분리
+    processing: 공용 map-assets resize로 512×512 정규화; 생성 원본 별도 보존; 공용 렌더러 UV 영역으로 구성요소 분리
 - managementId: image.scenery.bridge-timber-components-v2
   version: v2
   path: assets/buildings/bridge-timber-components-v2.png
@@ -8598,3 +8595,15 @@ assets:
     artifact: exec-2446b7d5-b02c-4338-bdc6-65a940c99c12.png
     original_sha256: 3d8d9e467512bbc4338a4f5e8f956d38b6149448c30b57d729fdccdd215dc6ac
     processing: 사용자 등록 요청. 투명도·비율 유지 긴 변 512px 정규화. 생성 원본은 워크플로우에 별도 보존.
+- managementId: image.scenery.fallen-canopy-giant-hollow-trunk-v1
+  version: v1
+  path: assets/billboards/fallen-canopy-giant-hollow-trunk-v1.png
+  name: 이끼 낀 거대 속빈 도복목
+  width: 512
+  height: 396
+  sha256: 855f57c06fd38605e666830061de546ceaa707a45a494fea0a8120c8b0ebda1f
+  source:
+    repository: codex-imagegen
+    artifact: fallen-canopy-giant-hollow-trunk-v1-original.png
+    original_sha256: 03ebe13196ae91a54a6e0727b52487a2b8c51d164cb6f712873702825bed349a
+    processing: 투명 여백 알파 5 기준 크롭·긴 변 512px 비율 유지 축소
