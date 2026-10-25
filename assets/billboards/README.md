@@ -36,3 +36,9 @@ PYTHONPATH=. .venv-management/bin/python tools/review/maintenance/sync_billboard
 - `modeling.visual_description`: 원본 PNG를 확인한 형태·색상·구성·화면상 방향의 개별 묘사다. 용도와 배치 권고는 기존 `purpose`, `recommended_uses`, `composition`을 함께 읽는다.
 - `modeling.visual_review`: 확인 날짜·방법·범위와 원본 SHA-256을 기록한다. `source_file.sha256`이 달라지면 재검수가 필요하다.
 - 축소 검수 시트의 외형 확인은 정밀 알파 경계·게임 접지 검증을 대신하지 않는다. 화면상 왼쪽/오른쪽은 이미지 기준이며 실제 지면 점유 축은 `placement`를 따른다.
+
+## 타입별 카탈로그
+
+`catalog.yaml`은 schema 2의 공통 설명·타입·파일 경로 색인입니다. 계열과 빌보드 상세는 `catalogs/vegetation.yaml`(자연물), `herbaceous.yaml`(화초), `props.yaml`(소품), `large-trees.yaml`(큰 나무), `rocks-minerals.yaml`(암석광물)에 단일 원본으로 관리합니다. 타입 파일의 `category`와 각 계열의 `review_category`는 일치해야 합니다. 에셋 ID는 전체 파일에서 유일해야 합니다.
+
+관리도구는 선택한 타입만 조회합니다. 전체 검증과 프론트엔드 준비는 공용 로더로 파일들을 합쳐 읽으며, 통합 상세 카탈로그 사본을 생성하지 않습니다. 기존 `sync_billboard_catalog.py --write/--check` 명령은 분할 파일까지 처리합니다.

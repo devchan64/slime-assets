@@ -1,0 +1,4551 @@
+schema_version: 1
+category: props
+families:
+  waypoint-guide:
+    category: navigation
+    review_category: props
+    name: 웨이포인트 안내
+    features:
+    - 목재 안내 표시의 6프레임 시트
+    uses:
+    - 위치 안내 애니메이션
+  town-delivery-crates:
+    category: prop
+    review_category: props
+    name: 납품 상자와 바구니
+    features:
+    - 묶인 상자와 바구니
+    uses:
+    - 시장·출입구의 운반물
+  town-handcart:
+    category: prop
+    review_category: props
+    name: 작은 손수레
+    features:
+    - 손잡이와 바퀴가 있는 수레
+    uses:
+    - 시장과 운반 동선 옆
+  town-food-stall:
+    category: prop
+    review_category: props
+    name: 식량 진열대
+    features:
+    - 식품을 놓은 낮은 작업대
+    uses:
+    - 시장 식품 진열
+  town-notice-board:
+    category: prop
+    review_category: props
+    name: 목재 의뢰 게시판
+    features:
+    - 목재 판과 붙인 종이
+    uses:
+    - 광장·길드 주변 안내
+  town-reed-bundles:
+    category: prop
+    review_category: props
+    name: 갈대 섬유 묶음
+    features:
+    - 묶어 쌓은 갈대
+    uses:
+    - 갈대 가공·건조 구역
+  town-herb-rack:
+    category: prop
+    review_category: props
+    name: 약초 건조대
+    features:
+    - 식물을 매단 거치대
+    uses:
+    - 약초 처리 구역
+  town-record-chest:
+    category: prop
+    review_category: props
+    name: 기록 보관 상자
+    features:
+    - 기록물을 담은 상자
+    uses:
+    - 서점·기록 공간 주변
+  town-layered-sign:
+    category: prop
+    review_category: props
+    name: 겹친 기록 안내판
+    features:
+    - 겹쳐 붙인 표식
+    uses:
+    - 기록·안내 구역
+  town-grindstone:
+    category: prop
+    review_category: props
+    name: 수동 숫돌
+    features:
+    - 회전 숫돌과 받침대
+    uses:
+    - 공방 작업 구역
+  town-metal-bin:
+    category: prop
+    review_category: props
+    name: 금속 분류함
+    features:
+    - 분류된 금속 재료
+    uses:
+    - 공방 재료 보관
+  town-charcoal-stack:
+    category: prop
+    review_category: props
+    name: 숯과 장작
+    features:
+    - 연료 자루와 목재 더미
+    uses:
+    - 공방 연료 보관
+  town-repair-rack:
+    category: prop
+    review_category: props
+    name: 수리 도구 거치대
+    features:
+    - 걸어 둔 수공구
+    uses:
+    - 공방 수리 구역
+  town-grain-sacks:
+    category: prop
+    review_category: props
+    name: 곡물 자루
+    features:
+    - 묶인 자루와 곡물
+    uses:
+    - 저장·출하 구역
+  town-straw-sheaves:
+    category: prop
+    review_category: props
+    name: 볏단
+    features:
+    - 묶은 줄기 군집
+    uses:
+    - 수확·건조 구역
+  town-threshing-bench:
+    category: prop
+    review_category: props
+    name: 탈곡 작업대
+    features:
+    - 곡물을 다루는 수동 작업대
+    uses:
+    - 수확 처리 구역
+  town-harvest-cart:
+    category: prop
+    review_category: props
+    name: 수확 수레
+    features:
+    - 수확물을 실은 수레
+    uses:
+    - 농업 운반 구역
+  town-salt-barrels:
+    category: prop
+    review_category: props
+    name: 소금 자루와 통
+    features:
+    - 자루와 저장 통
+    uses:
+    - 염분 재료 저장 구역
+  town-fish-rack:
+    category: prop
+    review_category: props
+    name: 보존식 건조대
+    features:
+    - 먹거리를 걸어 말리는 틀
+    uses:
+    - 건조·보존 처리 구역
+  town-rope-crates:
+    category: prop
+    review_category: props
+    name: 밧줄과 상자
+    features:
+    - 감은 밧줄과 운반 상자
+    uses:
+    - 물류 작업 구역
+  town-coastal-stall:
+    category: prop
+    review_category: props
+    name: 해안 진열대
+    features:
+    - 해안 물품 진열 작업대
+    uses:
+    - 해안 시장
+  town-wood-bench:
+    category: prop
+    review_category: props
+    name: 목재 벤치
+    features:
+    - 등받이 또는 좌판 목재
+    uses:
+    - 광장·주거지 휴식 공간
+  town-low-fence:
+    category: prop
+    review_category: props
+    name: 낮은 울타리
+    features:
+    - 낮은 목재 경계
+    uses:
+    - 정원과 작업 공간 구획
+  town-ground-lantern:
+    category: prop
+    review_category: props
+    name: 지면 등불
+    features:
+    - 받침 위 등불
+    uses:
+    - 입구와 길 주변 표시
+  town-ore-basket:
+    category: prop
+    review_category: props
+    name: 광석 바구니
+    features:
+    - 선별한 광석과 바구니
+    uses:
+    - 공방 재료 구역
+  town-iseulon-jelly-counter:
+    category: scene
+    review_category: props
+    name: 젤리 조리·검수대
+    features:
+    - 젤리 그릇·조리 냄비·틀·저울
+    uses:
+    - 시장 조리와 분량 확인 장면
+  town-reedhaven-water-record:
+    category: scene
+    review_category: props
+    name: 물길 기록 벽
+    features:
+    - 지도·덧댄 기록·갈대 묶음
+    uses:
+    - 서점 주변 기록 작업 장면
+  town-stonewarm-repair-process:
+    category: scene
+    review_category: props
+    name: 수리 공정대
+    features:
+    - 수리 단계가 다른 방패·작업 표식
+    uses:
+    - 공방 수리 장면
+  town-grainstead-milling-dispatch:
+    category: scene
+    review_category: props
+    name: 제분·출고대
+    features:
+    - 수동 맷돌·곡물 건조판·자루
+    uses:
+    - 곡물 처리와 출하 장면
+  town-saltford-cargo-weighing:
+    category: scene
+    review_category: props
+    name: 화물 계량대
+    features:
+    - 저울·추·화물·소금 자루
+    uses:
+    - 물류 계량 장면
+  town-iseulon-material-training:
+    category: scene
+    review_category: props
+    name: 이슬온 회수 재료 교육대
+    features:
+    - 젤리 견본·집게·취급 천·그림 카드
+    uses:
+    - 길드 주변 재료 취급 교육 장면
+  town-reedhaven-fiber-workbench:
+    category: scene
+    review_category: props
+    name: 갈대나루 갈대섬유 작업대
+    features:
+    - 갈대 묶음·직조 틀·미완성 돗자리
+    uses:
+    - 공방 주변 섬유 가공 장면
+  town-stonewarm-repair-handover:
+    category: scene
+    review_category: props
+    name: 돌온재 수리품 인계 선반
+    features:
+    - 수리 흔적이 있는 방패·가방·인계 표식
+    uses:
+    - 공방의 수리품 인계 장면
+  town-grainstead-grain-drying:
+    category: scene
+    review_category: props
+    name: 곡온벌 곡물 건조대
+    features:
+    - 높인 건조판·곡물·갈퀴·덮개 천
+    uses:
+    - 제분 구역의 건조 작업 장면
+  town-saltford-wet-cargo-drying:
+    category: scene
+    review_category: props
+    name: 소금여울 젖은 포대 건조대
+    features:
+    - 젖은 포대·건조 틀·밧줄·물받이
+    uses:
+    - 시장 주변 운송 화물 관리 장면
+  quarry-hand-winch:
+    category: prop
+    review_category: props
+    name: 낡은 채석 수동 권양기
+    features:
+    - 낡은 채석 수동 권양기
+    uses:
+    - 채석 작업 구역
+  quarry-mason-tools:
+    category: prop
+    review_category: props
+    name: 채석 석공 도구대
+    features:
+    - 채석 석공 도구대
+    uses:
+    - 채석 작업 구역
+  brine-bank-carrying-buckets-v1:
+    category: prop
+    review_category: props
+    name: 염수 운반 물통
+    features:
+    - 염수 운반 물통
+    uses:
+    - 염수 물가와 채염 작업 구역
+  brine-bank-salt-drying-rack-v1:
+    category: prop
+    review_category: props
+    name: 소금 건조대
+    features:
+    - 소금 건조대
+    uses:
+    - 염수 물가와 채염 작업 구역
+  cinder-path-ash-cargo-v1:
+    category: prop
+    review_category: props
+    name: 잿가루 운송 짐꾸러미
+    features:
+    - 잿가루 운송 짐꾸러미
+    uses:
+    - 잿빛 지형의 길 가장자리
+  quarry-stone-cart:
+    category: prop
+    review_category: props
+    name: 채석장 석재 운반 수레
+    features:
+    - 돌을 실은 목제 운반 수레
+    uses:
+    - 채석 작업 구역
+  quarry-cut-blocks-v1:
+    category: prop
+    review_category: props
+    name: 절단 석재 적치
+    features:
+    - 절단 석재 적치
+    uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+  quarry-broken-slabs-v1:
+    category: prop
+    review_category: props
+    name: 깨진 채석 판석
+    features:
+    - 깨진 채석 판석
+    uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+  field-mill-ridge-worn-millstone-1-v1:
+    category: prop
+    review_category: props
+    name: 맷돌등성이 · 마모 맷돌 · 변형 1/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-causeway-repair-stakes-1-v1:
+    category: prop
+    review_category: props
+    name: 소금둑길 · 보수 말뚝 · 변형 1/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-salt-flat-brine-barrel-1-v1:
+    category: prop
+    review_category: props
+    name: 흰소금벌 · 염수 나무통 · 변형 1/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-grove-cargo-crate-4-v1:
+    category: prop
+    review_category: props
+    name: 푸른 숲 · 운송 상자 · 변형 4/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-lantern-wood-lantern-stand-4-v1:
+    category: prop
+    review_category: props
+    name: 등불 숲 · 등불 받침 · 변형 4/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-grove-cargo-crate-5-v1:
+    category: prop
+    review_category: props
+    name: 푸른 숲 · 운송 상자 · 변형 5/5
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-moss-clearing-boundary-stone-size-large-v1:
+    category: prop
+    review_category: props
+    name: 이끼 공터 · 경계석 · 대형 보완
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-lantern-wood-lantern-stand-size-small-v1:
+    category: prop
+    review_category: props
+    name: 등불 숲 · 등불 받침 · 소형 보완
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-mist-lake-mooring-stone-size-large-v1:
+    category: prop
+    review_category: props
+    name: 안개 호수 · 계류석 · 대형 보완
+    features:
+    - 지역별 자연물·소품 형태 변형
+    uses:
+    - 야외 필드 배경 배치 후보
+  field-pebble-shore-rope-coil-size-large-v1:
+    category: prop
+    review_category: props
+    name: 조약돌 물가 · 해진 밧줄 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - pebble-shore 야외 필드 배치 후보
+  field-salt-causeway-repair-stakes-2-v1:
+    category: prop
+    review_category: props
+    name: 소금둑길 · 보수 말뚝 · 변형 2/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - salt-causeway 야외 필드 배치 후보
+  field-mist-lake-mooring-stone-1-v1:
+    category: prop
+    review_category: props
+    name: 안개 호수 · 계류석 · 변형 1/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - mist-lake 야외 필드 배치 후보
+  field-root-trail-wagon-wheel-4-v1:
+    category: prop
+    review_category: props
+    name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 4/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - root-trail 야외 필드 배치 후보
+  field-wind-hills-rope-waymark-4-v1:
+    category: prop
+    review_category: props
+    name: 바람 구릉 · 보강 길표식 · 변형 4/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - wind-hills 야외 필드 배치 후보
+  field-mist-lake-mooring-stone-4-v1:
+    category: prop
+    review_category: props
+    name: 안개 호수 · 계류석 · 변형 4/5
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - mist-lake 야외 필드 배치 후보
+  field-grove-cargo-crate-size-large-v1:
+    category: prop
+    review_category: props
+    name: 푸른 숲 · 운송 상자 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - grove 야외 필드 배치 후보
+  field-lantern-wood-lantern-stand-size-large-v1:
+    category: prop
+    review_category: props
+    name: 등불 숲 · 등불 받침 · 대형 보완
+    features:
+    - 지역별 형태·크기 변형
+    uses:
+    - lantern-wood 야외 필드 배치 후보
+  quarry-wooden-derrick-v1:
+    category: prop
+    review_category: props
+    name: 목재 인양틀·도르래
+    features:
+    - 목재 인양틀·도르래
+    uses:
+    - 폐채석장 인양·석재 인계 작업 흔적
+  quarry-stone-bearers-v1:
+    category: prop
+    review_category: props
+    name: 받침 위 반가공 석재
+    features:
+    - 받침 위 반가공 석재
+    uses:
+    - 폐채석장 인양·석재 인계 작업 흔적
+  quarry-splitting-tools-v1:
+    category: prop
+    review_category: props
+    name: 망치·끌·쐐기 묶음
+    features:
+    - 망치·끌·쐐기 묶음
+    uses:
+    - 폐채석장 인양·석재 인계 작업 흔적
+  old-boundary-gate-pillar-left-v1:
+    category: prop
+    review_category: props
+    name: 옛 경계문터 왼쪽 높은 문기둥
+    features:
+    - 문양이 새겨진 풍화된 석재 문기둥과 연결된 낮은 성벽 잔해
+    uses:
+    - 옛 경계문터 소품
+  old-boundary-gate-pillar-right-v1:
+    category: prop
+    review_category: props
+    name: 옛 경계문터 오른쪽 낮은 문기둥
+    features:
+    - 문양이 새겨진 풍화된 석재 문기둥과 연결된 낮은 성벽 잔해
+    uses:
+    - 옛 경계문터 소품
+billboards:
+- texture_key: brine-bank-carrying-buckets-v1
+  family: brine-bank-carrying-buckets-v1
+  asset_ref:
+    management_id: image.scenery.brine-bank-carrying-buckets-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 4
+  source_file:
+    path: assets/billboards/brine-bank-carrying-buckets-v1.png
+    width: 176
+    height: 115
+    sha256: 95e4806b3f32d9a6cd9627e0cf55c7344f6119b8b0f991085518582eaeacc0b8
+  modeling:
+    purpose: 염수 운반 물통 · 운반·보관 소품
+    recommended_uses:
+    - 염수 물가와 채염 작업 구역
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 긴 목재 멜대 양 끝에 금속 테를 두른 나무 물통이 하나씩 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4a8623c177363d274683cde597ec666789a2c6bdf2d282e888c8d28618f20760
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.brine-bank-carrying-buckets-v1
+    anchorX: -0.01
+    anchorY: 0.22
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 49.41
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 24.705
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: brine-bank-salt-drying-rack-v1
+  family: brine-bank-salt-drying-rack-v1
+  asset_ref:
+    management_id: image.scenery.brine-bank-salt-drying-rack-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 3
+  source_file:
+    path: assets/billboards/brine-bank-salt-drying-rack-v1.png
+    width: 236
+    height: 157
+    sha256: b96d53518fb788d074b10ea0cd660292c3704834b2136e9783da457d1f036d0a
+  modeling:
+    purpose: 소금 건조대 · 작업 흔적
+    recommended_uses:
+    - 염수 물가와 채염 작업 구역
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 낮은 직사각 목재 틀에 흰 알갱이가 줄무늬로 펼쳐져 있고 위에 긴 갈퀴가 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c909b74c6fe33f8155a7492d0cde41dad5bac5a63a33b8657111f6961dfc2300
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.brine-bank-salt-drying-rack-v1
+    anchorX: 0.01
+    anchorY: -0.19
+    groundFootprintColumns: 3
+    groundFootprintRows: 3
+    displayHeight: 134.31
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 1.0
+    shadowOffsetRow: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 67.155
+    size_variant: 기본 변형
+    occupied_tile_count: 9
+    movement: 내부 타일 통행 불가
+- texture_key: cinder-path-ash-cargo-v1
+  family: cinder-path-ash-cargo-v1
+  asset_ref:
+    management_id: image.scenery.cinder-path-ash-cargo-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/cinder-path-ash-cargo-v1.png
+    width: 183
+    height: 162
+    sha256: e67d57a99dc1ad9e5881ba9f21946ab1a6f91c60cb45cab5ff70aaf2a8b80769
+  modeling:
+    purpose: 잿가루 운송 짐꾸러미 · 운반·보관 소품
+    recommended_uses:
+    - 잿빛 지형의 길 가장자리
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 베이지색 천으로 싼 직육면체 꾸러미들이 갈색 끈으로 묶여 포개져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: e06c7981e20b6dad79fa6f00edb3a259bb38148384609b55ed43a7ec6bde4c9e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.cinder-path-ash-cargo-v1
+    anchorX: 0.03
+    anchorY: 0.3
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 81.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 40.5
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-grove-cargo-crate-4-v1
+  family: field-grove-cargo-crate-4-v1
+  asset_ref:
+    management_id: image.scenery.field-grove-cargo-crate-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-grove-cargo-crate-4-v1.png
+    width: 250
+    height: 238
+    sha256: 0f10e647c5d2d884aec52b1ec6aa78f731bbf598dcc9d2196b95da62f05924db
+  modeling:
+    purpose: 푸른 숲 · 운송 상자 · 변형 4/5 · 운반·보관 소품
+    recommended_uses:
+    - 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 금속 경첩과 모서리 보강이 있는 낮고 넓은 목재 상자 옆으로 밧줄 손잡이가 늘어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0f0b8797f39c86d6f529be9cd74f0e9ee8d89064ec62b17ed851a099d1fad2ae
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-4-v1
+    anchorX: -0.03
+    anchorY: 0.47
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 92.97
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 46.485
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-grove-cargo-crate-5-v1
+  family: field-grove-cargo-crate-5-v1
+  asset_ref:
+    management_id: image.scenery.field-grove-cargo-crate-5-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-grove-cargo-crate-5-v1.png
+    width: 255
+    height: 236
+    sha256: 0b81214b89cb21cc85d22acdb00ab972efc8f41480813543ecd08bb85d4e5494
+  modeling:
+    purpose: 푸른 숲 · 운송 상자 · 변형 5/5 · 운반·보관 소품
+    recommended_uses:
+    - 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 금속 모서리 장식과 밧줄 손잡이를 가진 정사각형 갈색 나무 상자다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 8d6e9658e1d443b1f5f4cfd5d82b78902d47ba998caea1d548c3a1e6b24ae58e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-5-v1
+    anchorX: 0.0
+    anchorY: 0.33
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 92.19
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 46.095
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-grove-cargo-crate-size-large-v1
+  family: field-grove-cargo-crate-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-grove-cargo-crate-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-grove-cargo-crate-size-large-v1.png
+    width: 256
+    height: 243
+    sha256: 2b24a1cfa9dc53c7099a4985d01dde047c9712e8ceda7670adbf45b7f20651c1
+  modeling:
+    purpose: 푸른 숲 · 운송 상자 · 대형 보완 · 운반·보관 소품
+    recommended_uses:
+    - grove 야외 필드 배치 후보
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 대각선 판자와 회녹색 금속 모서리 보강이 있는 정육면체 나무 상자다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 693179447aa4e39098e9bbfc9e786a706e93cfd9876f8d99e81d9b6b5213d600
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-size-large-v1
+    anchorX: 0.01
+    anchorY: 0.44
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 94.92
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 47.46
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-lantern-wood-lantern-stand-4-v1
+  family: field-lantern-wood-lantern-stand-4-v1
+  asset_ref:
+    management_id: image.scenery.field-lantern-wood-lantern-stand-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-lantern-wood-lantern-stand-4-v1.png
+    width: 250
+    height: 254
+    sha256: 75c4ff1110219ae9034db45760b807717d24b8555989edc595dac7f2c9ee89ce
+  modeling:
+    purpose: 등불 숲 · 등불 받침 · 변형 4/5 · prop
+    recommended_uses:
+    - 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 작은 나무 의자 위에 노란 불빛의 검은 금속 랜턴이 놓이고 주변에 둥근 돌이 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 976558d92c0d089edbe26f40071111a58811d3270b684444328eaa0fe9d63cdd
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-lantern-stand-4-v1
+    anchorX: -0.04
+    anchorY: 0.35
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 138.91
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 69.455
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-lantern-wood-lantern-stand-size-large-v1
+  family: field-lantern-wood-lantern-stand-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-lantern-wood-lantern-stand-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-lantern-wood-lantern-stand-size-large-v1.png
+    width: 250
+    height: 249
+    sha256: 34494fe39fbe7e6772d21fef5a514da65ac98689e230161fec247d2beab4de94
+  modeling:
+    purpose: 등불 숲 · 등불 받침 · 대형 보완 · prop
+    recommended_uses:
+    - lantern-wood 야외 필드 배치 후보
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 격자 테두리 사이로 노란 불빛이 보이는 둥근 구리색 랜턴이 작은 나무 탁자 위에 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0f681007ef48efbf3c80ad9718f79883c95c4f24f0bd936107d64ed300d32202
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-lantern-stand-size-large-v1
+    anchorX: 0.01
+    anchorY: 0.29
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 155.63
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 77.815
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-lantern-wood-lantern-stand-size-small-v1
+  family: field-lantern-wood-lantern-stand-size-small-v1
+  asset_ref:
+    management_id: image.scenery.field-lantern-wood-lantern-stand-size-small-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-lantern-wood-lantern-stand-size-small-v1.png
+    width: 255
+    height: 248
+    sha256: 642713add4109141e0024d568a4ea0df7ec3970cb5c02a6bba4c7f3717ecb310
+  modeling:
+    purpose: 등불 숲 · 등불 받침 · 소형 보완 · prop
+    recommended_uses:
+    - 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 낮은 나무 받침 위에 사각 유리창과 어두운 금속 지붕을 가진 노란 불빛의 랜턴이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1097e582bc8f74b63edc105a62bed970c76237b7b38e85cce14ef1befe221deb
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-lantern-stand-size-small-v1
+    anchorX: -0.01
+    anchorY: 0.32
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 116.25
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 58.125
+    size_variant: 소형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-mill-ridge-worn-millstone-1-v1
+  family: field-mill-ridge-worn-millstone-1-v1
+  asset_ref:
+    management_id: image.scenery.field-mill-ridge-worn-millstone-1-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-mill-ridge-worn-millstone-1-v1.png
+    width: 250
+    height: 250
+    sha256: 833bef416e1e2965e5b8945f128eb91b4160fc8f10632a484fdd6a55152302e0
+  modeling:
+    purpose: 맷돌등성이 · 마모 맷돌 · 변형 1/5 · 작업 흔적
+    recommended_uses:
+    - 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 가운데 구멍이 있는 밝은 원형 맷돌이 여러 층으로 쌓이고 가장 아래 돌에는 균열이 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 32602703a4965d38c77cb2dd2b763cee1d475a57edc64ddd82cd20e6a43d0cc6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-mill-ridge-worn-millstone-1-v1
+    anchorX: 0.03
+    anchorY: 0.38
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 136.72
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 68.36
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-mist-lake-mooring-stone-1-v1
+  family: field-mist-lake-mooring-stone-1-v1
+  asset_ref:
+    management_id: image.scenery.field-mist-lake-mooring-stone-1-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-mist-lake-mooring-stone-1-v1.png
+    width: 254
+    height: 238
+    sha256: 4a93561dc910bc9dfa3ad76abf502338b601c223adcf3904ab8fe313f76f817e
+  modeling:
+    purpose: 안개 호수 · 계류석 · 변형 1/5 · 암석·지질 지표
+    recommended_uses:
+    - mist-lake 야외 필드 배치 후보
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 갈라진 낮은 회색 바위 두 덩어리 위에 어두운 금속 고리와 밧줄이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b6329de9d34aa4f10735ba603bbfc019c89aebf729234143aa30043837cf9959
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-1-v1
+    anchorX: 0.01
+    anchorY: 0.3
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 72.52
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 36.26
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-mist-lake-mooring-stone-4-v1
+  family: field-mist-lake-mooring-stone-4-v1
+  asset_ref:
+    management_id: image.scenery.field-mist-lake-mooring-stone-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-mist-lake-mooring-stone-4-v1.png
+    width: 250
+    height: 238
+    sha256: d752d91d5d7a1692811af17d541e5704a24d90c3fa11cb56e8bf5aab59ffe236
+  modeling:
+    purpose: 안개 호수 · 계류석 · 변형 4/5 · 암석·지질 지표
+    recommended_uses:
+    - mist-lake 야외 필드 배치 후보
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 네모난 받침돌 위의 회색 돌기둥 앞면에 금속 고리와 짧은 밧줄이 달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c40f7f36decb2489adc7d7e7f7df5b70d57fca7c16584f948b15c7e895b4c6ad
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-4-v1
+    anchorX: 0.06
+    anchorY: 0.39
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 92.97
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 46.485
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-mist-lake-mooring-stone-size-large-v1
+  family: field-mist-lake-mooring-stone-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-mist-lake-mooring-stone-size-large-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-mist-lake-mooring-stone-size-large-v1.png
+    width: 255
+    height: 244
+    sha256: 74dc2a77de9a207c34c4b9ef9a7f4a89a10366dc65f6ceb4409816240bdb24ed
+  modeling:
+    purpose: 안개 호수 · 계류석 · 대형 보완 · 암석·지질 지표
+    recommended_uses:
+    - 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 거칠고 둥근 회색 돌 윗면에 검은 금속 고리와 짧은 밧줄이 붙어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d4e23c51810f92030e2afe62ab40d42f8140606c3a12949899c11b6ccdc57224
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: bottom
+    source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-size-large-v1
+    anchorX: 0.02
+    anchorY: 0.54
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 109.61
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 54.805
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-moss-clearing-boundary-stone-size-large-v1
+  family: field-moss-clearing-boundary-stone-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-moss-clearing-boundary-stone-size-large-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 3
+  source_file:
+    path: assets/billboards/field-moss-clearing-boundary-stone-size-large-v1.png
+    width: 255
+    height: 237
+    sha256: dff3bfbbf4c47319d2c42deea7e69c909983c2ee91870d8f4a114d22eae2cbf4
+  modeling:
+    purpose: 이끼 공터 · 경계석 · 대형 보완 · 길 안내 지표
+    recommended_uses:
+    - 갈림길·출입구 옆에 단독 배치하고 이동 칸과 표지 가독성을 확보한다.
+    composition: 갈림길·출입구 옆에 단독 배치하고 이동 칸과 표지 가독성을 확보한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 윗면이 움푹 파이고 옆면에 선각 무늬가 있는 회갈색 비석이 이끼 낀 받침돌 위에 서 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0daf1bbb0c810ae4b0803ba96e3f40a62d79824ad604ec1709ff83e0104c1d11
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-moss-clearing-boundary-stone-size-large-v1
+    anchorX: -0.07
+    anchorY: 0.28
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 148.13
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 74.065
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-pebble-shore-rope-coil-size-large-v1
+  family: field-pebble-shore-rope-coil-size-large-v1
+  asset_ref:
+    management_id: image.scenery.field-pebble-shore-rope-coil-size-large-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/field-pebble-shore-rope-coil-size-large-v1.png
+    width: 255
+    height: 244
+    sha256: a25ac6270ce742463abac3c720092db99d669badd57c15e818bbddfc603e59ba
+  modeling:
+    purpose: 조약돌 물가 · 해진 밧줄 · 대형 보완 · 운반·보관 소품
+    recommended_uses:
+    - pebble-shore 야외 필드 배치 후보
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 굵고 밝은 갈색 밧줄이 가운데 구멍을 남기고 여러 겹으로 둥글게 감겨 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5fa30ddeac325912a58888abee173c09acf4bb438b5dc0e0f011a4b3d6d82005
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-pebble-shore-rope-coil-size-large-v1
+    anchorX: 0.02
+    anchorY: 0.41
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 89.59
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 44.795
+    size_variant: 대형 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-root-trail-wagon-wheel-4-v1
+  family: field-root-trail-wagon-wheel-4-v1
+  asset_ref:
+    management_id: image.scenery.field-root-trail-wagon-wheel-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-root-trail-wagon-wheel-4-v1.png
+    width: 250
+    height: 238
+    sha256: 489b676aeacf2bcbce24fdd81d2d1b2ab340d4065d9272518a45d444eebc1c0d
+  modeling:
+    purpose: 뿌리 오솔길 · 파손 수레바퀴 · 변형 4/5 · prop
+    recommended_uses:
+    - root-trail 야외 필드 배치 후보
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 한쪽 테두리와 살대가 부러진 갈색 수레바퀴가 비스듬히 세워져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 104f36b108334c8ec85912d0798d0dd151dc0343f25ca8c49c0d09e3a1319e42
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-wagon-wheel-4-v1
+    anchorX: 0.02
+    anchorY: 0.3
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 92.97
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 46.485
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-salt-causeway-repair-stakes-1-v1
+  family: field-salt-causeway-repair-stakes-1-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-causeway-repair-stakes-1-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/field-salt-causeway-repair-stakes-1-v1.png
+    width: 249
+    height: 226
+    sha256: b787c9629de9960a9cb65fc9203893028e21bd2441119e87a366fa08f1d96542
+  modeling:
+    purpose: 소금둑길 · 보수 말뚝 · 변형 1/5 · prop
+    recommended_uses:
+    - 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 길이와 굵기가 다른 갈색 나무 말뚝들이 세로로 모여 가운데를 밧줄로 묶었다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5569eeb43658d78f77ac054e762715b19567e2d871c9f134dae2937b924c5ccf
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-1-v1
+    anchorX: 0.0
+    anchorY: -0.2
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 88.28
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.3
+    shadowOffsetRow: 0.3
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 44.14
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-salt-causeway-repair-stakes-2-v1
+  family: field-salt-causeway-repair-stakes-2-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-causeway-repair-stakes-2-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-salt-causeway-repair-stakes-2-v1.png
+    width: 250
+    height: 242
+    sha256: 59bdebd8ef298c50a73f399e1a84474e5eb3ac09294674a518090c2a5743c3a6
+  modeling:
+    purpose: 소금둑길 · 보수 말뚝 · 변형 2/5 · prop
+    recommended_uses:
+    - salt-causeway 야외 필드 배치 후보
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 끝이 거칠고 높이가 다른 밝은 나무 말뚝들이 가운데 빈 공간을 두고 두 줄의 끈으로 묶여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 30ef0c6ded40fe85503870041afe57504d2cddaafebf4c1d9c75434040420cb6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-2-v1
+    anchorX: 0.01
+    anchorY: -0.2
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 94.53
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.3
+    shadowOffsetRow: 0.3
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 47.265
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-salt-flat-brine-barrel-1-v1
+  family: field-salt-flat-brine-barrel-1-v1
+  asset_ref:
+    management_id: image.scenery.field-salt-flat-brine-barrel-1-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 3
+  source_file:
+    path: assets/billboards/field-salt-flat-brine-barrel-1-v1.png
+    width: 255
+    height: 245
+    sha256: b5f57826bdf72454c95f978c9a1ec350f5ef76b564dac09508e5ba5a3d529d0b
+  modeling:
+    purpose: 흰소금벌 · 염수 나무통 · 변형 1/5 · 운반·보관 소품
+    recommended_uses:
+    - 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 갈색 세로 판자와 회색 금속 테로 된 뚜껑 닫힌 나무 통 한 개다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 951d53bf32b4f00f6ba2d461fce5fd841d332b173c5aab93460d0d4c5464edab
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-salt-flat-brine-barrel-1-v1
+    anchorX: 0.0
+    anchorY: 0.32
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 95.7
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 47.85
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: field-wind-hills-rope-waymark-4-v1
+  family: field-wind-hills-rope-waymark-4-v1
+  asset_ref:
+    management_id: image.scenery.field-wind-hills-rope-waymark-4-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/field-wind-hills-rope-waymark-4-v1.png
+    width: 249
+    height: 243
+    sha256: c2c884c01bd2be28ff88fbc94b8c86bb3bf63787fb83f6686e2df41c370721d9
+  modeling:
+    purpose: 바람 구릉 · 보강 길표식 · 변형 4/5 · 길 안내 지표
+    recommended_uses:
+    - wind-hills 야외 필드 배치 후보
+    composition: 갈림길·출입구 옆에 단독 배치하고 이동 칸과 표지 가독성을 확보한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 세로 나무 기둥에 반대 방향을 가리키는 거친 목판 두 개가 밧줄로 묶여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b3823c37ff0836bc9b8f680e02f7378d25219fc2e6e83653a5fecbaf6cd2e1e6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-rope-waymark-4-v1
+    anchorX: 0.06
+    anchorY: -0.2
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 94.92
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.3
+    shadowOffsetRow: 0.3
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 47.46
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: old-boundary-gate-pillar-left-v1
+  family: old-boundary-gate-pillar-left-v1
+  asset_ref:
+    management_id: image.scenery.old-boundary-gate-pillar-left-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 옛 경계문터 왼쪽 높은 문기둥
+    visual_description: 사용자 레퍼런스의 문양·돌쌓기·이끼·성벽 잔해를 유지한 독립 문기둥.
+    recommended_uses:
+    - 좌우 독립 배치가 가능한 경계문 소품
+    composition: 좌우 기둥은 별도 빌보드로 관리한다. 맵 배치 전 점유와 접지를 조정한다.
+    avoid:
+    - 두 기둥을 단일 빌보드로 결합
+    basis: 사용자 첨부 레퍼런스 그대로 분리. 맵 배치 전.
+    shadow:
+      runtime_profile: billboard-contact-tile-length-v3
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/old-boundary-gate-pillar-left-v1.png
+    width: 461
+    height: 512
+    sha256: cfffc6ca507221fc65947207dd77e1fd3802d29853b986dd501ed6e20e127e5d
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.old-boundary-gate-pillar-left-v1
+    anchorX: -0.3
+    anchorY: 0.35
+    groundFootprintColumns: 4
+    groundFootprintRows: 2
+    displayHeight: 460.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1.15
+    shadowScaleY: 0.8
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 230.0
+    size_variant: 기본 변형
+    occupied_tile_count: 8
+    movement: 통행 가능
+- texture_key: old-boundary-gate-pillar-right-v1
+  family: old-boundary-gate-pillar-right-v1
+  asset_ref:
+    management_id: image.scenery.old-boundary-gate-pillar-right-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 1
+  modeling:
+    purpose: 옛 경계문터 오른쪽 낮은 문기둥
+    visual_description: 사용자 레퍼런스의 문양·돌쌓기·이끼·성벽 잔해를 유지한 독립 문기둥.
+    recommended_uses:
+    - 좌우 독립 배치가 가능한 경계문 소품
+    composition: 좌우 기둥은 별도 빌보드로 관리한다. 맵 배치 전 점유와 접지를 조정한다.
+    avoid:
+    - 두 기둥을 단일 빌보드로 결합
+    basis: 사용자 첨부 레퍼런스 그대로 분리. 맵 배치 전.
+    shadow:
+      runtime_profile: billboard-contact-tile-length-v3
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  source_file:
+    path: assets/billboards/old-boundary-gate-pillar-right-v1.png
+    width: 512
+    height: 511
+    sha256: 7e3a0cc14f16dbb0cc072441450e769218c4ec46b80f643c76ccfc9ccc83b37b
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.old-boundary-gate-pillar-right-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 3
+    groundFootprintRows: 2
+    displayHeight: 365.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1.15
+    shadowScaleY: 0.8
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 182.5
+    size_variant: 기본 변형
+    occupied_tile_count: 6
+    movement: 통행 가능
+- texture_key: quarry-broken-slabs-v1
+  family: quarry-broken-slabs-v1
+  asset_ref:
+    management_id: image.scenery.quarry-broken-slabs-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 14
+  - path: assets/maps/field_tiles/dawn-overlook.yaml
+    texture_key_occurrences: 11
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 28
+  source_file:
+    path: assets/billboards/quarry-broken-slabs-v1.png
+    width: 121
+    height: 86
+    sha256: b44f0bad2e25a4f273e5590b7fa42fc0be765af22c478376ca24ccc37c34762a
+  modeling:
+    purpose: 깨진 채석 판석 · 암석·지질 지표
+    recommended_uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 납작하고 각진 회색 석판들이 겹쳐 있으며 밑에 작은 돌조각이 흩어져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ea9c48dade6c3528dd82faa71a95251a7bee2e277cdb3b868a8704dc659198dd
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.quarry-broken-slabs-v1
+    anchorX: 0.0
+    anchorY: 0.35
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 78.61
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 39.305
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: quarry-cut-blocks-v1
+  family: quarry-cut-blocks-v1
+  asset_ref:
+    management_id: image.scenery.quarry-cut-blocks-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 7
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 9
+  source_file:
+    path: assets/billboards/quarry-cut-blocks-v1.png
+    width: 119
+    height: 100
+    sha256: 99baf9a2a694f6bb805867bfa3ff2ae47fb951dd61aa39e94c82fea20ebd139b
+  modeling:
+    purpose: 절단 석재 적치 · prop
+    recommended_uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 모서리를 다듬은 밝은 회색 직육면체 석재들이 낮게 층층이 쌓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 12d36ad4378d0676f76d0c340badf0aded227fc0a5e4b3dd7429713a96cd37ae
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.quarry-cut-blocks-v1
+    anchorX: -0.02
+    anchorY: 0.32
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 103.13
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 51.565
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: quarry-hand-winch-v1
+  family: quarry-hand-winch
+  asset_ref:
+    management_id: image.scenery.quarry-hand-winch-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/quarry-hand-winch-v1.png
+    width: 202
+    height: 157
+    sha256: 8f6c3aeaf18abb307a97ea969b0b18ce49ab26c218d952b4ccb2c0a885ec1036
+  modeling:
+    purpose: 낡은 채석 수동 권양기 · 작업 흔적
+    recommended_uses:
+    - 채석 작업 구역
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: A자 목재 받침 사이의 원통에 밧줄이 감겨 있고 앞에는 쇠갈고리, 옆에는 회전 손잡이가 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 441c93652703968e0b2ccee7855988eca033898a30e5c630f2c4b88690908544
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.quarry-hand-winch-v1
+    anchorX: 0.05
+    anchorY: 0.33
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 95.49
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 47.745
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: quarry-mason-tools-v1
+  family: quarry-mason-tools
+  asset_ref:
+    management_id: image.scenery.quarry-mason-tools-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/quarry-mason-tools-v1.png
+    width: 209
+    height: 151
+    sha256: f90e8104d5c0abb7e767d7ea3ec80e2c5e026d9afe79afc61d99bb1d6b740786
+  modeling:
+    purpose: 채석 석공 도구대 · 작업 흔적
+    recommended_uses:
+    - 채석 작업 구역
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 나무 작업대 위에 밝은 석재와 망치·끌·돌가루가 있고 옆에 곡괭이가 기대어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0ec29256acfe2fee6f71c1c9b690aa4ca6efb89a40be5bde0d1fb40f2bab7e07
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.quarry-mason-tools-v1
+    anchorX: 0.0
+    anchorY: 0.32
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 84.77
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 42.385
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: quarry-splitting-tools-v1
+  family: quarry-splitting-tools-v1
+  asset_ref:
+    management_id: image.scenery.quarry-splitting-tools-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 5
+  source_file:
+    path: assets/billboards/quarry-splitting-tools-v1.png
+    width: 426
+    height: 332
+    sha256: a9e4261a939a4e462f02f8d63d03de18b26c32d8f746c5306a5c340891fb4ee0
+  modeling:
+    purpose: 망치·끌·쐐기 묶음 · 작업 흔적
+    recommended_uses:
+    - 폐채석장 인양·석재 인계 작업 흔적
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 얕은 사각 목재 쟁반 안에 무거운 망치와 여러 길이의 금속 끌이 나란히 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c15d4923a7734a24fd19df06e5419040fc6f0fb2a97cc6fa3b09dec197627f03
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.quarry-splitting-tools-v1
+    anchorX: 0.01
+    anchorY: -0.2
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 62.31
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.71
+    shadowScaleY: 0.71
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 31.155
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: quarry-stone-bearers-v1
+  family: quarry-stone-bearers-v1
+  asset_ref:
+    management_id: image.scenery.quarry-stone-bearers-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/quarry-stone-bearers-v1.png
+    width: 351
+    height: 317
+    sha256: de0f1526bc129a56c9bdd792afe3230649dedbd7578210d15464d815184d9ad4
+  modeling:
+    purpose: 받침 위 반가공 석재 · 암석·지질 지표
+    recommended_uses:
+    - 폐채석장 인양·석재 인계 작업 흔적
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 밝은 회백색 석재 두 덩어리가 짧은 목재 받침 위에 높낮이를 달리해 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3c3fd22c71376054e8d36b5b1ded3158cd1515617b367b590caabbafdd47614e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.quarry-stone-bearers-v1
+    anchorX: 0.0
+    anchorY: 0.2
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 128.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.91
+    shadowScaleY: 0.81
+    shadowOffsetColumn: 0.2
+    shadowOffsetRow: 0.2
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 64.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: quarry-wooden-derrick-v1
+  family: quarry-wooden-derrick-v1
+  asset_ref:
+    management_id: image.scenery.quarry-wooden-derrick-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/quarry-wooden-derrick-v1.png
+    width: 414
+    height: 455
+    sha256: c9881f1e157611208dc0f3dc201e5270fd82bbecd02fbe5b2f0251185d14d8ad
+  modeling:
+    purpose: 목재 인양틀·도르래 · prop
+    recommended_uses:
+    - 폐채석장 인양·석재 인계 작업 흔적
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+        미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 목재 기둥에서 긴 팔이 비스듬히 뻗고 밧줄·도르래·갈고리와 아래 권양 장치가 연결되어 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0bb0f4cd2cda3e69ece5e39912f9e93eaf4086676a5e687df6a8c6787c12ad1a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.quarry-wooden-derrick-v1
+    anchorX: 0.04
+    anchorY: -0.04
+    groundFootprintColumns: 3
+    groundFootprintRows: 3
+    displayHeight: 194.44
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    shadowOffsetColumn: 1.0
+    shadowOffsetRow: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 97.22
+    size_variant: 기본 변형
+    occupied_tile_count: 9
+    movement: 내부 타일 통행 불가
+- texture_key: town-charcoal-stack-v1
+  family: town-charcoal-stack
+  asset_ref:
+    management_id: image.scenery.town-charcoal-stack-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 7
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 6
+  source_file:
+    path: assets/billboards/town-charcoal-stack-v1.png
+    width: 98
+    height: 78
+    sha256: 95f0600d9cbac2ae668db3c22ff9ab579a63c3b0cdb7c41d5414a887338d1d19
+  modeling:
+    purpose: 숯과 장작 · prop
+    recommended_uses:
+    - 공방 연료 보관
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 검은 숯이 담긴 갈색 자루 두 개 옆에 밝은 장작이 가지런히 쌓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ca0e0340288b11a43bc62e099eaededd8e84a8378e2372b796bfdb71e1a4df64
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-charcoal-stack-v1
+    anchorX: 0.02
+    anchorY: -0.5
+    displayHeight: 40.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.41
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.1
+    shadowScaleX: 0.51
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 20.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-coastal-stall-v1
+  family: town-coastal-stall
+  asset_ref:
+    management_id: image.scenery.town-coastal-stall-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-coastal-stall-v1.png
+    width: 224
+    height: 240
+    sha256: fa34b68054bbf7ae387d3ebf2e0487c688a1f2ac566d611c1f8ba34f837c7ab5
+  modeling:
+    purpose: 해안 진열대 · prop
+    recommended_uses:
+    - 해안 시장
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 파랑·흰색 줄무늬 천막 아래 도자기 항아리와 그릇이 놓인 목재 판매대다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d35900f96436538a5f90c2552249c7b078cdf143b3aa7a63a64296963937e32a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-coastal-stall-v1
+    anchorX: 0.0
+    anchorY: -0.1
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 128.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 64.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-delivery-crates-v1
+  family: town-delivery-crates
+  asset_ref:
+    management_id: image.scenery.town-delivery-crates-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 2
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 8
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/town-delivery-crates-v1.png
+    width: 115
+    height: 114
+    sha256: 3852ded5db39b365729495d4e928099c5c4877ced5329b691cbedb4051add95a
+  modeling:
+    purpose: 납품 상자와 바구니 · 운반·보관 소품
+    recommended_uses:
+    - 시장·출입구의 운반물
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 초록 천으로 덮은 나무 상자 두 개와 짐을 담은 둥근 바구니가 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 748f650888a9bdd02f2f8ae0ab2a0f951d58a6a7cdce34fb072722526e5f0764
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-delivery-crates-v1
+    anchorX: 0.03
+    anchorY: -0.48
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 50.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.15
+    shadowScaleX: 0.61
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 25.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-fish-rack-v1
+  family: town-fish-rack
+  asset_ref:
+    management_id: image.scenery.town-fish-rack-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-fish-rack-v1.png
+    width: 214
+    height: 240
+    sha256: c7357afccc2e06e7c653b17bdc3b297884b3050590d63c16e5f10f9179ad02bc
+  modeling:
+    purpose: 보존식 건조대 · 작업 흔적
+    recommended_uses:
+    - 건조·보존 처리 구역
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 녹색 끈으로 묶은 A자 목재 건조대의 두 가로대에 물고기들이 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: f2c18811b04b6c4b82da9364777c0dda14179cfa844eea78c7047b7dcb7d3ed6
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-fish-rack-v1
+    anchorX: 0.0
+    anchorY: -0.28
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 70.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.91
+    shadowScaleY: 0.51
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 35.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-food-stall-v1
+  family: town-food-stall
+  asset_ref:
+    management_id: image.scenery.town-food-stall-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-food-stall-v1.png
+    width: 242
+    height: 208
+    sha256: cd411b5ee7a6f70ab5c9319befc01c017e0ea319510dfc02c9672c52df264daf
+  modeling:
+    purpose: 식량 진열대 · prop
+    recommended_uses:
+    - 시장 식품 진열
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 흰 천을 깐 나무 탁자 위에 둥근 빵·썬 빵과 천으로 덮은 항아리들이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b410b5fe0118a4c05fa10a5d5fc21303dbdf908a77387cf1f191cc6a868a480c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-food-stall-v1
+    anchorX: 0.0
+    anchorY: -0.29
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 50.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.51
+    shadowScaleX: 0.81
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 25.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-grain-sacks-v1
+  family: town-grain-sacks
+  asset_ref:
+    management_id: image.scenery.town-grain-sacks-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 13
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-grain-sacks-v1.png
+    width: 105
+    height: 95
+    sha256: fcb3b6d654d4b1b89e65b44b2e0f99a7fb2b34ce0a8255e4ed162ccb0109f3cf
+  modeling:
+    purpose: 곡물 자루 · 낮은 식생·회복 식생
+    recommended_uses:
+    - 저장·출하 구역
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 노란 곡물이 가득한 황갈색 자루 세 개와 얕은 바구니가 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 4540bb44c561bce190bbc08bcf9e248e70b40c1bfffbd437e1db38b1a777863c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-grain-sacks-v1
+    anchorX: 0.0
+    anchorY: -0.35
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 50.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.61
+    shadowScaleX: 0.61
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 25.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-grainstead-grain-drying-v1
+  family: town-grainstead-grain-drying
+  asset_ref:
+    management_id: image.scenery.town-grainstead-grain-drying-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-grainstead-grain-drying-v1.png
+    width: 237
+    height: 200
+    sha256: 6cfd9f90dda2b58c31b30c8b67410aec1f497cc596edb4ac5fbd20dd5151c28d
+  modeling:
+    purpose: 곡온벌 곡물 건조대 · 낮은 식생·회복 식생
+    recommended_uses:
+    - 제분 구역의 건조 작업 장면
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 두 칸짜리 넓은 목재 건조상에 노란 곡물이 펼쳐져 있고 갈퀴·자루·접힌 천이 곁들여져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: c7af3822ac69218aac2ae05afa586815504ef10cf28b6a2b525e0de8d7f2d7ca
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-grain-drying-v1
+    anchorX: 0.0
+    anchorY: -0.27
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 60.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.51
+    shadowScaleX: 0.81
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 30.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-grainstead-milling-dispatch-v1
+  family: town-grainstead-milling-dispatch
+  asset_ref:
+    management_id: image.scenery.town-grainstead-milling-dispatch-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-grainstead-milling-dispatch-v1.png
+    width: 241
+    height: 214
+    sha256: 21793127b4c7518ff3e35866d5b96930039b5fb2794d42fb11a7666e95de4629
+  modeling:
+    purpose: 제분·출고대 · 작업 흔적
+    recommended_uses:
+    - 곡물 처리와 출하 장면
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 목재 받침 위의 회색 맷돌 옆에 곡물 체와 자루·밀 묶음이 모여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ed8afa8533264758e13d54eb634d312c0c7e48ad093055ae6fbd8f64491cd4a4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-milling-dispatch-v1
+    anchorX: 0.0
+    anchorY: -0.29
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 60.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.71
+    shadowScaleY: 0.51
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 30.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-grindstone-v1
+  family: town-grindstone
+  asset_ref:
+    management_id: image.scenery.town-grindstone-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-grindstone-v1.png
+    width: 106
+    height: 93
+    sha256: 70cf4bd14c286b7f404c8b515b6c814df584066fc4cfad7c8b09f830dc7b2986
+  modeling:
+    purpose: 수동 숫돌 · 암석·지질 지표
+    recommended_uses:
+    - 공방 작업 구역
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 목재 틀 안에 둥근 회색 숫돌이 세워져 있고 옆으로 손잡이 축이 튀어나온다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: df7a2fec3eee1b1a92b1ffca0ed71a3407e6c0d7e09760908603042e36bcbba2
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-grindstone-v1
+    anchorX: 0.0
+    anchorY: -0.31
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 50.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.61
+    shadowScaleY: 0.61
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 25.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-ground-lantern-v1
+  family: town-ground-lantern
+  asset_ref:
+    management_id: image.scenery.town-ground-lantern-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 2
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 2
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 2
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/town-ground-lantern-v1.png
+    width: 58
+    height: 100
+    sha256: 86e02cbe6ec5b11bb5bb63dfb9bbc4574548e5a40f54932a38e4f3a4fb3a4023
+  modeling:
+    purpose: 지면 등불 · prop
+    recommended_uses:
+    - 입구와 길 주변 표시
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 짧은 목재 기둥의 가로 팔에서 노란 불빛의 사각 등롱이 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d8e68ffbe6bcbb3a0224a0ff0fbc654ea9949b7b9f52ebf3a79564befc329810
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-ground-lantern-v1
+    anchorX: 0.0
+    anchorY: -0.6
+    displayHeight: 80.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.56
+    shadowScaleX: 0.56
+    shadowOffsetColumn: -0.2
+    shadowOffsetRow: -0.2
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 40.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-handcart-v1
+  family: town-handcart
+  asset_ref:
+    management_id: image.scenery.town-handcart-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 2
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-handcart-v1.png
+    width: 123
+    height: 105
+    sha256: 8c44828c3d232d868dd9faa4ea115de60af5b82710f912d78e37e7579eee9d1d
+  modeling:
+    purpose: 작은 손수레 · prop
+    recommended_uses:
+    - 시장과 운반 동선 옆
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 나무 바퀴 두 개가 달린 짧은 수레에 자루·통·말아 놓은 짐이 실려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: ef5b86f4716b74b902e08a7ae8737b6cf394b488aac1a241136a92a312b7664e
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-handcart-v1
+    anchorX: -0.02
+    anchorY: -0.3
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 60.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.61
+    shadowScaleX: 0.61
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 30.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-harvest-cart-v1
+  family: town-harvest-cart
+  asset_ref:
+    management_id: image.scenery.town-harvest-cart-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-harvest-cart-v1.png
+    width: 232
+    height: 186
+    sha256: ef7b6cc37feb70b2f43a667ef5864bc29973666d6d0d3946b916e2da64af47c7
+  modeling:
+    purpose: 수확 수레 · prop
+    recommended_uses:
+    - 농업 운반 구역
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 큰 나무 바퀴의 수레 위에 노란 곡물 자루와 밀 묶음, 상자가 가득 실려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 77f343e03b504c85d74c493965874a2603a3f30363dbff009c90aa9d2e60ca1c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-harvest-cart-v1
+    anchorX: 0.0
+    anchorY: -0.3
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 60.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.57
+    shadowScaleX: 0.57
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 30.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-herb-rack-v1
+  family: town-herb-rack
+  asset_ref:
+    management_id: image.scenery.town-herb-rack-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 7
+  source_file:
+    path: assets/billboards/town-herb-rack-v1.png
+    width: 101
+    height: 112
+    sha256: 8bb55ab886c2bec3dbcb818566811c4e4964dc69524d2af9e99644a96f0c2f77
+  modeling:
+    purpose: 약초 건조대 · 작업 흔적
+    recommended_uses:
+    - 약초 처리 구역
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: A자 나무틀의 가로대에 녹색과 보라색의 식물 묶음이 여러 개 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 68e0410aee01a7ba463eb3a18703a614c6dfeffcc49fa0e03f30ac5227db193d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-herb-rack-v1
+    anchorX: 0.0
+    anchorY: -0.3
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 70.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.49
+    shadowScaleX: 0.49
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 35.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-iseulon-jelly-counter-v1
+  family: town-iseulon-jelly-counter
+  asset_ref:
+    management_id: image.scenery.town-iseulon-jelly-counter-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-iseulon-jelly-counter-v1.png
+    width: 242
+    height: 204
+    sha256: f2b62f97ee34168023095d54bb7b478730c1f833f55c879f6cfc406159d75ef5
+  modeling:
+    purpose: 젤리 조리·검수대 · 작업 흔적
+    recommended_uses:
+    - 시장 조리와 분량 확인 장면
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 목재 판매대 위에 구리 냄비·국자·양팔저울과 노랑·초록 내용물의 그릇들이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: eeccc4899f1fa3b087cd7e1949e6b661fa75d43fa2e8db09233eb5da2544b2dc
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-jelly-counter-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 128.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1.01
+    shadowScaleX: 0.81
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 64.0
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: town-iseulon-material-training-v1
+  family: town-iseulon-material-training
+  asset_ref:
+    management_id: image.scenery.town-iseulon-material-training-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-iseulon-material-training-v1.png
+    width: 228
+    height: 166
+    sha256: b748e5febbb45e61a403a4e21ecfe57328d94a5eaa5321d80e088e3e94abbcb0
+  modeling:
+    purpose: 이슬온 회수 재료 교육대 · scene
+    recommended_uses:
+    - 길드 주변 재료 취급 교육 장면
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 청록색 천을 깐 낮은 작업대에 노란 시료가 담긴 판 세 개와 그림 설명판이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3c71ad2bded6289c0e9125212da845c1dc74f5ae9342625544651cbf3d25476d
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-material-training-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 128.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.67
+    shadowScaleY: 0.67
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 64.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
+    movement: 통행 가능
+- texture_key: town-layered-sign-v1
+  family: town-layered-sign
+  asset_ref:
+    management_id: image.scenery.town-layered-sign-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-layered-sign-v1.png
+    width: 78
+    height: 107
+    sha256: dd14a16347a1e05a84e3342b6efc6a1b2a832849a98eae32381e838f6ee516c9
+  modeling:
+    purpose: 겹친 기록 안내판 · prop
+    recommended_uses:
+    - 기록·안내 구역
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 갈색 세로 기둥에 푸른 물결과 곡물 무늬가 그려진 표지판 두 개가 매달려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: d6e3a9aba416cb2b5c3a7ef7dae10ff6838f750ac62fc6cc65bee27d19d7871c
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-layered-sign-v1
+    anchorX: -0.1
+    anchorY: -0.39
+    displayHeight: 200.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.81
+    shadowScaleX: 0.91
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 100.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-low-fence-v1
+  family: town-low-fence
+  asset_ref:
+    management_id: image.scenery.town-low-fence-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 9
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 8
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 7
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 3
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 8
+  - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 5
+  source_file:
+    path: assets/billboards/town-low-fence-v1.png
+    width: 92
+    height: 87
+    sha256: 0e8f64960527ac1465276b2051a730ccb4e3e9327d148767f92379ae033dd6da
+  modeling:
+    purpose: 낮은 울타리 · prop
+    recommended_uses:
+    - 정원과 작업 공간 구획
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 두 개의 짧은 목재 기둥 사이에 가로 판자 두 줄을 댄 낮은 울타리다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: bf43cfe34751d02eb65fc5e3750adec8c009cce73b593b66a38eafa21067d5f4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-low-fence-v1
+    anchorX: 0.0
+    anchorY: -0.18
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 82.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1.01
+    shadowScaleY: 0.41
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 41.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-metal-bin-v1
+  family: town-metal-bin
+  asset_ref:
+    management_id: image.scenery.town-metal-bin-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 4
+  source_file:
+    path: assets/billboards/town-metal-bin-v1.png
+    width: 103
+    height: 91
+    sha256: 33d9c953312f5080c6f31e3c523ef42b6a8bb5b37380e7808a1ac10250f399a6
+  modeling:
+    purpose: 금속 분류함 · prop
+    recommended_uses:
+    - 공방 재료 보관
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 작은 목재 보관함의 두 칸에 구리색과 회색 금속 막대가 나뉘어 담겨 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 2aa2ca1ba233f7484d80c71875de28e9298f1d53d683510dfff41954a053f74f
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-metal-bin-v1
+    anchorX: 0.0
+    anchorY: 0.13
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 128.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 0.81
+    shadowScaleY: 1.11
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 64.0
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: town-notice-board-v1
+  family: town-notice-board
+  asset_ref:
+    management_id: image.scenery.town-notice-board-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-notice-board-v1.png
+    width: 90
+    height: 115
+    sha256: 33a33ff2eb4c137fd13a2362dd9e1e140c3a61649a0d514d2cc486642ee795dd
+  modeling:
+    purpose: 목재 의뢰 게시판 · prop
+    recommended_uses:
+    - 광장·길드 주변 안내
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 붉은 기와 모양의 작은 지붕 아래 여러 장의 종이가 붙은 목재 게시판이다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: a5ec95543880aa136fdeee514049b85f516ff4a8d6bd3db5349c7c40a756a680
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-notice-board-v1
+    anchorX: 0.0
+    anchorY: -0.23
+    displayHeight: 148.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 0.71
+    shadowScaleX: 1.21
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 74.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-ore-basket-v1
+  family: town-ore-basket
+  asset_ref:
+    management_id: image.scenery.town-ore-basket-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 3
+  source_file:
+    path: assets/billboards/town-ore-basket-v1.png
+    width: 84
+    height: 88
+    sha256: 9d7bdee761120fb73e89b773a2cf82857571d5107ecc62d4ffe2fe1d8d909279
+  modeling:
+    purpose: 광석 바구니 · prop
+    recommended_uses:
+    - 공방 재료 구역
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 짙은 갈색 바구니에 주황빛 광석 덩어리가 담겨 있고 몇 조각이 앞에 흘러나와 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 6015061ac5b3d3e3505ed62a71f86b756b15d5c98d5b5249101dd00ea7128bf4
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-ore-basket-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 128.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1.0
+    shadowScaleX: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 64.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-record-chest-v1
+  family: town-record-chest
+  asset_ref:
+    management_id: image.scenery.town-record-chest-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 7
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 6
+  source_file:
+    path: assets/billboards/town-record-chest-v1.png
+    width: 111
+    height: 108
+    sha256: 6664a99ac413062d318d16c47c5104c3f24702c8b952cb7c1d7b2f593b7845c6
+  modeling:
+    purpose: 기록 보관 상자 · prop
+    recommended_uses:
+    - 서점·기록 공간 주변
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 청록색 판자와 금속 테두리로 된 열린 상자 안에 책과 말린 두루마리가 꽂혀 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: b4e44909072994bcd78c57f411cf726f0e51ebbd21d2b545256bf5fadd184a44
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-record-chest-v1
+    anchorX: 0.03
+    anchorY: 0.34
+    displayHeight: 80.16
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 40.08
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-reed-bundles-v1
+  family: town-reed-bundles
+  asset_ref:
+    management_id: image.scenery.town-reed-bundles-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 6
+  source_file:
+    path: assets/billboards/town-reed-bundles-v1.png
+    width: 111
+    height: 119
+    sha256: fb72581ee185369d3a99926cc17d14c3b1648d6f36b19c106707bf9b59105aab
+  modeling:
+    purpose: 갈대 섬유 묶음 · 운반·보관 소품
+    recommended_uses:
+    - 갈대 가공·건조 구역
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 노란 갈대 묶음들이 세워지거나 누워 있고 옆에 빈 원통형 바구니가 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 129f0a59478828973c63f4ab6d4a0e0eaafec355b22523f6c151db30124d01de
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-reed-bundles-v1
+    anchorX: 0.0
+    anchorY: -0.19
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 88.32
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1.0
+    shadowScaleX: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 44.16
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-reedhaven-fiber-workbench-v1
+  family: town-reedhaven-fiber-workbench
+  asset_ref:
+    management_id: image.scenery.town-reedhaven-fiber-workbench-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-reedhaven-fiber-workbench-v1.png
+    width: 99
+    height: 105
+    sha256: a308f9676a707dc93d35a749ac87f34325489d2be448649aa53ea15809489898
+  modeling:
+    purpose: 갈대나루 갈대섬유 작업대 · 작업 흔적
+    recommended_uses:
+    - 공방 주변 섬유 가공 장면
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 작은 목재 작업대 위에 갈대 묶음과 짜인 누런 매트가 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 111dd587861185bce33ff7fcee93f2cf0cca7accb655ce28a4c85102581dc457
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-fiber-workbench-v1
+    anchorX: 0.01
+    anchorY: 0.34
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 114.84
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 57.42
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-reedhaven-water-record-v1
+  family: town-reedhaven-water-record
+  asset_ref:
+    management_id: image.scenery.town-reedhaven-water-record-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-reedhaven-water-record-v1.png
+    width: 95
+    height: 116
+    sha256: dc3ddc9c93dc10c6e901ecc78657eea98a89614efad07928e8d330f4c766d716
+  modeling:
+    purpose: 물길 기록 벽 · 낮은 식생·회복 식생
+    recommended_uses:
+    - 서점 주변 기록 작업 장면
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 목재 틀에 청록색 선이 그려진 넓은 기록판을 세우고 아래 선반에 두루마리를 놓았다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 1338dd47c35bbd74d2c501695c1f51b4489757864427bf1b67bff1bfc6c93e5b
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-water-record-v1
+    anchorX: 0.01
+    anchorY: -0.2
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 117.81
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    shadowOffsetColumn: 0.3
+    shadowOffsetRow: 0.3
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 58.905
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-repair-rack-v1
+  family: town-repair-rack
+  asset_ref:
+    management_id: image.scenery.town-repair-rack-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-repair-rack-v1.png
+    width: 86
+    height: 92
+    sha256: fe608dae7216dd2641c19f2416ff8406bb9f0e8d4d4b1b9b31e4173ed45a665d
+  modeling:
+    purpose: 수리 도구 거치대 · 작업 흔적
+    recommended_uses:
+    - 공방 수리 구역
+    composition: 해당 작업 장소의 중심 소품으로 사용하며 같은 기능을 과도하게 반복하지 않는다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 목재 받침대에 톱과 여러 금속 공구가 세로로 걸려 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 553b17605eff9e3bc156c242a5d53b9360dca3e72e16208b2dedacb13c06f2de
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-repair-rack-v1
+    anchorX: 0.0
+    anchorY: 0.29
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 100.63
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 50.315
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-rope-crates-v1
+  family: town-rope-crates
+  asset_ref:
+    management_id: image.scenery.town-rope-crates-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 10
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/town-rope-crates-v1.png
+    width: 100
+    height: 99
+    sha256: f5a7f891c4977d94f33035769b6237e5aa553a297f7cef12b36b0a3bdd373e7f
+  modeling:
+    purpose: 밧줄과 상자 · 운반·보관 소품
+    recommended_uses:
+    - 물류 작업 구역
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 대각선 보강판이 있는 나무 상자 위에 굵은 갈색 밧줄이 둥글게 감겨 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 0248202130fb5c7438c6c23aa7cafc4579e1857cc4d3a26bb3f2c5cf2a1aae1a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-rope-crates-v1
+    anchorX: 0.0
+    anchorY: 0.37
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 92.81
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 46.405
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-salt-barrels-v1
+  family: town-salt-barrels
+  asset_ref:
+    management_id: image.scenery.town-salt-barrels-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 14
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 4
+  source_file:
+    path: assets/billboards/town-salt-barrels-v1.png
+    width: 102
+    height: 93
+    sha256: 656b156c29c29935e422086cf83c57212ab24ab17eecb2ff47170f05ed602abf
+  modeling:
+    purpose: 소금 자루와 통 · 운반·보관 소품
+    recommended_uses:
+    - 염분 재료 저장 구역
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 흰 알갱이가 담긴 자루 두 개가 청록색 나무 통 앞에 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 5f56cd1d1d28bcd21743ecedb272a16fbfbbdf10d46a16f4bcad516d40945983
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-salt-barrels-v1
+    anchorX: -0.01
+    anchorY: 0.29
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 69.02
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1
+    shadowScaleY: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 34.51
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-saltford-cargo-weighing-v1
+  family: town-saltford-cargo-weighing
+  asset_ref:
+    management_id: image.scenery.town-saltford-cargo-weighing-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-saltford-cargo-weighing-v1.png
+    width: 233
+    height: 227
+    sha256: f126bc9542be3122240d68fd0e7fb03307680a0c8c6b90e91480678d954f4bfc
+  modeling:
+    purpose: 화물 계량대 · 운반·보관 소품
+    recommended_uses:
+    - 물류 계량 장면
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 목재 작업판 위에 금색 양팔저울과 푸른 짐 꾸러미·추·자루·통이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 452db1c7a7ae9bcf93d302fb2683da98eb2bb9c5e34f59e13d9765ea3c32dd55
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-saltford-cargo-weighing-v1
+    anchorX: -0.01
+    anchorY: 0.41
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 137.44
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 68.72
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: town-saltford-wet-cargo-drying-v1
+  family: town-saltford-wet-cargo-drying
+  asset_ref:
+    management_id: image.scenery.town-saltford-wet-cargo-drying-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/brine-bank.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/town-saltford-wet-cargo-drying-v1.png
+    width: 226
+    height: 152
+    sha256: b61a6b0d158a5e1d5e0b5d89b04c330c0647dd606226dbbff989fb9527ad508d
+  modeling:
+    purpose: 소금여울 젖은 포대 건조대 · 운반·보관 소품
+    recommended_uses:
+    - 시장 주변 운송 화물 관리 장면
+    composition: 운반로 옆 작업 구역에 소량 묶어 배치하고 통로를 비운다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 나무 건조대에 회청색 자루들이 놓이고 옆에는 청록색 천·밧줄·얕은 용기가 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 04e39a6b24ed4dba3eb8856e2a39e7d0dcd2942f3c73d96cdb61b41cfe15482a
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: bottom
+    source: assets/maps/sprite-display-properties.yaml#data.town-saltford-wet-cargo-drying-v1
+    anchorX: 0.02
+    anchorY: 0.54
+    groundFootprintColumns: 1
+    groundFootprintRows: 2
+    displayHeight: 125.18
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 62.59
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: town-stonewarm-repair-handover-v1
+  family: town-stonewarm-repair-handover
+  asset_ref:
+    management_id: image.scenery.town-stonewarm-repair-handover-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-stonewarm-repair-handover-v1.png
+    width: 251
+    height: 235
+    sha256: 47ea5ae159381865df3a731b224e503410d86251781b92c9e0e5b2b900fe5807
+  modeling:
+    purpose: 돌온재 수리품 인계 선반 · 암석·지질 지표
+    recommended_uses:
+    - 공방의 수리품 인계 장면
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 넓은 목재 걸이에 방패와 가방이 매달려 있고 아래에는 꼬리표가 붙은 꾸러미들이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: cef6d12507cd36482579e328b98cee517bffb0f0f8785774bfb8da7acb8df689
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-repair-handover-v1
+    anchorX: 0.05
+    anchorY: 0.4
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 137.66
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 68.83
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: town-stonewarm-repair-process-v1
+  family: town-stonewarm-repair-process
+  asset_ref:
+    management_id: image.scenery.town-stonewarm-repair-process-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-stonewarm-repair-process-v1.png
+    width: 231
+    height: 232
+    sha256: 8fe2c734ad40f8d5bc0ba985e01621e1159ce092b49ee0d0cc407e57787fa3d4
+  modeling:
+    purpose: 수리 공정대 · 암석·지질 지표
+    recommended_uses:
+    - 공방 수리 장면
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 목재 작업대 위에 서로 다른 색의 방패 세 개와 작은 도구·표식판이 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 38811d518d85d986189cdb54d0f18d833bfc200bd86b2c3550f35e72527bd8bb
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-repair-process-v1
+    anchorX: 0.0
+    anchorY: 0.49
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 140.47
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 70.235
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: town-straw-sheaves-v1
+  family: town-straw-sheaves
+  asset_ref:
+    management_id: image.scenery.town-straw-sheaves-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 21
+  source_file:
+    path: assets/billboards/town-straw-sheaves-v1.png
+    width: 91
+    height: 92
+    sha256: b3b0bdf0f55090eb4b5c396ca7f31b2b15a99f06d01516f84adc08ddb5045652
+  modeling:
+    purpose: 볏단 · prop
+    recommended_uses:
+    - 수확·건조 구역
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 굵은 황금빛 곡식 묶음 세 개가 가운데를 끈으로 묶인 채 세워져 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 91563ee795b8c2d3c8ab8df243bdbac49d9985ad767dde076d275f8fdc0e9ec0
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-straw-sheaves-v1
+    anchorX: 0.0
+    anchorY: -0.2
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 86.25
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.3
+    shadowOffsetRow: 0.3
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 43.125
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-threshing-bench-v1
+  family: town-threshing-bench
+  asset_ref:
+    management_id: image.scenery.town-threshing-bench-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/granary-flats.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-threshing-bench-v1.png
+    width: 121
+    height: 98
+    sha256: ca36b61560ddc93494cf67842d9f9067a8fc423e762b2dd041f30577e9d135ea
+  modeling:
+    purpose: 탈곡 작업대 · prop
+    recommended_uses:
+    - 수확 처리 구역
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 짧은 목재 벤치 위에 누런 곡식 묶음과 긴 막대가 놓여 있다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 01b5b51cc114ece7fd00076cbc624a815befbdce9c097c05b6ed5365e8ad1768
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-threshing-bench-v1
+    anchorX: 0.01
+    anchorY: 0.29
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 81.16
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 40.58
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: town-wood-bench-v1
+  family: town-wood-bench
+  asset_ref:
+    management_id: image.scenery.town-wood-bench-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/grainstead.yaml
+    texture_key_occurrences: 5
+  - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 16
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 15
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 4
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 17
+  source_file:
+    path: assets/billboards/town-wood-bench-v1.png
+    width: 114
+    height: 106
+    sha256: 7e3b3947447d7b22131a7a24c0f83ed413036bf11d4e7484eb0f44765f629fd0
+  modeling:
+    purpose: 목재 벤치 · prop
+    recommended_uses:
+    - 광장·주거지 휴식 공간
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 등받이와 양쪽 팔걸이가 있는 밝은 갈색 목재 벤치다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 8d6a48798aee9544df1c1f537e1d56f33fde3bc8296b412bc69b02913982bdec
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-wood-bench-v1
+    anchorX: 0.01
+    anchorY: 0.29
+    displayHeight: 78.67
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 39.335
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
+- texture_key: waypoint-guide-v3
+  family: waypoint-guide
+  asset_ref:
+    management_id: image.scenery.waypoint-guide-v1
+    version: v3
+  map_references: []
+  metadata_references:
+  - assets/billboards/waypoint-guide-v3.animation.json
+  source_file:
+    path: assets/billboards/waypoint-guide-v3.png
+    width: 768
+    height: 512
+    sha256: 3ace014d96dcd6678aa8366aa3d9a788033cf7b499d295925219049c01d2d2ff
+  modeling:
+    purpose: '웨이포인트 안내 표지: 프레임별 앵커를 사용하는 전용 애니메이션 합성용. 출구 이동 칸을 차단하지 않는다.'
+    recommended_uses:
+    - '웨이포인트 안내 표지: 프레임별 앵커를 사용하는 전용 애니메이션 합성용. 출구 이동 칸을 차단하지 않는다.'
+    composition: 갈림길·출입구 옆에 단독 배치하고 이동 칸과 표지 가독성을 확보한다.
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    - 시트 전체를 한 장의 정적 빌보드로 그리기
+    basis: '앵커 v3 생성 기록과 256×256 프레임별 앵커 확인. 공용 앵커는 첫 프레임 기준이며 재생 시 프레임별 값을 우선 사용한다.
+      출처: 2026-10-17_21-08-13-df1e5c88 · 기록 SHA-256 949ccba55fe347fe3b3d50483ea1928fd5d7e758f5326a70debcb943649520c4'
+    shadow:
+      runtime_profile: billboard-contact-v2
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+    visual_description: 가로 목판과 노란 천이 달린 안내 기둥 여섯 모습이 3열·2행으로 배열된 프레임 시트다.
+    visual_review:
+      status: 원본 이미지 육안 확인
+      date: '2026-10-22'
+      source_sha256: 3ace014d96dcd6678aa8366aa3d9a788033cf7b499d295925219049c01d2d2ff
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.waypoint-guide-v3
+    anchorX: -0.01
+    anchorY: 0.35
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 80.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleY: 1
+    shadowScaleX: 1
+    shadowOffsetColumn: 0.5
+    shadowOffsetRow: 0.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 40.0
+    size_variant: 기본 변형
+    occupied_tile_count: 1
+    movement: 통행 가능
