@@ -66,3 +66,25 @@ maps:
       version: v1
       path: assets/audio/bgm/cinder-path/v1/cinder-path-instrumental.mp3
       sha256: ab8b96003463f47a4edb1a8af4c5daf65bbe81adc1128198bbb48318b1b8a509
+  clover-bank:
+    vocal:
+      management_id: audio.bgm.clover-bank.vocal.mp3
+      version: v1
+      path: assets/audio/bgm/clover-bank/v1/clover-bank-vocal.mp3
+      sha256: 454ce4f32a3e61622d9a2e238cf6138e9310f584358ceceeb608574a2f3304e3
+    instrumental:
+      management_id: audio.bgm.clover-bank.instrumental.mp3
+      version: v1
+      path: assets/audio/bgm/clover-bank/v1/clover-bank-instrumental.mp3
+      sha256: 27c2aac935d4ec345058567b0b7a2f1e57c0971c4d7e60d6ceb55a8f4f52a58d
+  ash-edge:
+    vocal:
+      management_id: audio.bgm.ash-edge.vocal.mp3
+      version: v1
+      path: assets/audio/bgm/ash-edge/v1/ash-edge-vocal.mp3
+      sha256: bfe431a1a15368ff016bff041af45fb1316fc7a374296c2fc1a8b0a2c096c91a
+    instrumental:
+      management_id: audio.bgm.ash-edge.instrumental.mp3
+      version: v1
+      path: assets/audio/bgm/ash-edge/v1/ash-edge-instrumental.mp3
+      sha256: 035a443e4ee6053497736ed5f1473b6c3c0e92a743e6b2d20ebef36847be7e53

@@ -8837,12 +8837,12 @@ assets:
     duration_seconds: 68.95997916666667
     title: 버드나무 곁으로 (MR)
 - managementId: audio.map-bgm.catalog
-  version: v11
+  version: v13
   path: assets/audio/map-bgm.yaml
-  sha256: f661b7d52a265dc66bcf0f370891743654478f55b1108fc0023ec5b1c216ac6e
+  sha256: f9965d1fe102281270001fa50ee219053be92569983ab5cf04e3a4cc2a5a4a45
   source:
     repository: slime-workflow
-    operation: 식은 잿길 원곡·MR 배경음악 등록
+    operation: 잿빛 숲가 원곡·MR 배경음악 등록
 - managementId: audio.bgm.meadow.mr.mp3
   version: v4
   path: assets/audio/bgm/meadow/v4/meadow-mr.mp3
@@ -8980,3 +8980,55 @@ assets:
     operation: 사용자 승인 · 식은 잿길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 91.84
+
+- managementId: audio.bgm.clover-bank.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/clover-bank/v1/clover-bank-vocal.mp3
+  sha256: 454ce4f32a3e61622d9a2e238cf6138e9310f584358ceceeb608574a2f3304e3
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_18-57-08-46ce2f09
+    attempt: 61494830719f4c54bc675750fd7ed28a
+    title: 작은 발걸음이 나누는 길 (보컬)
+    operation: 사용자 승인 · 토끼풀 언덕 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 66.95997916666667
+
+- managementId: audio.bgm.clover-bank.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/clover-bank/v1/clover-bank-instrumental.mp3
+  sha256: 27c2aac935d4ec345058567b0b7a2f1e57c0971c4d7e60d6ceb55a8f4f52a58d
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_18-57-08-46ce2f09
+    attempt: 61494830719f4c54bc675750fd7ed28a
+    title: 작은 발걸음이 나누는 길 (MR)
+    operation: 사용자 승인 · 토끼풀 언덕 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 66.95997916666667
+
+- managementId: audio.bgm.ash-edge.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/ash-edge/v1/ash-edge-vocal.mp3
+  sha256: bfe431a1a15368ff016bff041af45fb1316fc7a374296c2fc1a8b0a2c096c91a
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_19-36-17-145d4e94
+    attempt: 8b28a8fe1d7a4da99bdbf9e00c2f96f5
+    title: 잿빛 위에 돋은 잎 (보컬)
+    operation: 사용자 승인 · 잿빛 숲가 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 105.92
+
+- managementId: audio.bgm.ash-edge.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/ash-edge/v1/ash-edge-instrumental.mp3
+  sha256: 035a443e4ee6053497736ed5f1473b6c3c0e92a743e6b2d20ebef36847be7e53
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_19-36-17-145d4e94
+    attempt: 8b28a8fe1d7a4da99bdbf9e00c2f96f5
+    title: 잿빛 위에 돋은 잎 (MR)
+    operation: 사용자 승인 · 잿빛 숲가 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 105.92
