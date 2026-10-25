@@ -6577,6 +6577,8 @@ billboards:
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 25
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 3
   variant_features:
@@ -6649,6 +6651,8 @@ billboards:
     texture_key_occurrences: 5
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 19
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 2
   variant_features:
@@ -6719,6 +6723,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 18
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 2
   variant_features:
@@ -17761,8 +17767,6 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 5
-  - path: assets/maps/field_tiles/old-boundary-gate.yaml
-    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/dawn-overlook-pine-tree-windswept-v1.png
     width: 200
@@ -17985,8 +17989,6 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 5
-  - path: assets/maps/field_tiles/old-boundary-gate.yaml
-    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/dawn-overlook-conifer-tree-medium-v2.png
     width: 228
