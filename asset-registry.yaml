@@ -8825,56 +8825,158 @@ assets:
     operation: 사용자 첨부 원본 좌우 분리, 알파 5 이하 외곽 크롭, 비율 유지 긴 변 512px 축소
 
 - managementId: audio.bgm.iseulon.mr.mp3
-  version: v1
-  path: assets/audio/bgm/iseulon/v1/iseulon-mr.mp3
-  sha256: 7e5acbc5c5d0ed43abbee05eb023a0c00766314dc458874848be04ef7c6e36ed
+  version: v4
+  path: assets/audio/bgm/iseulon/v4/iseulon-mr.mp3
+  sha256: de85a7a27f2b17c285f31ce8244d3075de3e96b692010c62b568b338dca59c5e
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_15-48-29-3ad3206b
-    attempt: d65dd9a87c3840a1a672ec440c364261
-    operation: 사용자 승인 · HeartMuLa 가사곡을 Demucs htdemucs로 MR 분리
+    generation_id: 2026-10-25_18-57-07-667afc48
+    attempt: 623460baa6024a82a9d20435b4af7a82
+    operation: 사용자 승인 · MP3 ID3v2.3 제목 추가 · 오디오 데이터 보존
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 70.31997732426304
+    duration_seconds: 68.95997916666667
+    title: 버드나무 곁으로 (MR)
 - managementId: audio.map-bgm.catalog
-  version: v3
+  version: v11
   path: assets/audio/map-bgm.yaml
-  sha256: 6cb34401ec5454a2bc185d11e3336b6ad263eb8f36b01725382e998288ae0e7d
+  sha256: f661b7d52a265dc66bcf0f370891743654478f55b1108fc0023ec5b1c216ac6e
   source:
     repository: slime-workflow
-    operation: 바람 구릉 BGM 추가 및 보컬·MR 버전 구분
-
+    operation: 식은 잿길 원곡·MR 배경음악 등록
 - managementId: audio.bgm.meadow.mr.mp3
-  version: v1
-  path: assets/audio/bgm/meadow/v1/meadow-mr.mp3
-  sha256: 6520a3b42a2bb1d76fbec75038f4b724a08afe64a71cd175ec24b63aa07cf974
+  version: v4
+  path: assets/audio/bgm/meadow/v4/meadow-mr.mp3
+  sha256: 3a9b6d3cda3ce1632ce9d0f94b6b804b82486377e0b0326d263e82e0f76e7297
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_16-11-03-8131b607
-    attempt: 92bdfcb68a3d4641b18ea5e6f40a6a6a
-    operation: 사용자 승인 · 이슬초원 MR 배경음악 채택
+    generation_id: 2026-10-25_18-57-07-a0fbd31d
+    attempt: ef14a9a60d5d49718674a65f53e4ba44
+    operation: 사용자 승인 · MP3 ID3v2.3 제목 추가 · 오디오 데이터 보존
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 73.76
-
+    duration_seconds: 79.44
+    title: 초원길 끝의 저녁 (MR)
 - managementId: audio.bgm.wind-hills.vocal.mp3
-  version: v1
-  path: assets/audio/bgm/wind-hills/v1/wind-hills-vocal.mp3
-  sha256: 5becab01145c854579af2a9932054dccdef9805642c0fd73918b221354071e4f
+  version: v2
+  path: assets/audio/bgm/wind-hills/v2/wind-hills-vocal.mp3
+  sha256: 482c7d93eb71f4ad814e1b9d1218e3c403c9d6075b3edd4faf7101a4a6a15115
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_16-22-44-1a069736
-    attempt: 901fd72678ae4d9ab17f4cb4f119ca18
-    operation: 사용자 승인 · 바람 구릉 원곡 및 MR 배경음악 등록
+    generation_id: 2026-10-25_18-57-08-b2c37e30
+    attempt: 467cd3f8d1f540dcaeb9c25bd7c37e55
+    title: 바람 아래 쉼터 (보컬)
+    operation: 사용자 승인 · 바람 구릉 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 74.72
-
+    duration_seconds: 71.52
 - managementId: audio.bgm.wind-hills.instrumental.mp3
-  version: v1
-  path: assets/audio/bgm/wind-hills/v1/wind-hills-instrumental.mp3
-  sha256: 6dc546e0378cd9217b703be893603b637651aa8d580f8922d553933b37b37b05
+  version: v2
+  path: assets/audio/bgm/wind-hills/v2/wind-hills-instrumental.mp3
+  sha256: fec99300b190475921a4f0ef8897a01e2ac1215e29679034600f5a3773add3ce
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_16-22-44-1a069736
-    attempt: 901fd72678ae4d9ab17f4cb4f119ca18
-    operation: 사용자 승인 · 바람 구릉 원곡 및 MR 배경음악 등록
+    generation_id: 2026-10-25_18-57-08-b2c37e30
+    attempt: 467cd3f8d1f540dcaeb9c25bd7c37e55
+    title: 바람 아래 쉼터 (MR)
+    operation: 사용자 승인 · 바람 구릉 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 74.72
+    duration_seconds: 71.52
+- managementId: audio.bgm.broken-quarry.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/broken-quarry/v1/broken-quarry-vocal.mp3
+  sha256: d568c7cd0d5b34d64947ca92e0b41b31248843c2ef81b0327acca41ac7998c6f
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_16-22-45-d070da6d
+    attempt: 9aaa4347b04f4331a8801e2695400449
+    operation: 사용자 승인 · 깨진 채석장 원곡 및 MR MP3 등록
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 67.76
+    bitrate_kbps: 320
+- managementId: audio.bgm.broken-quarry.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/broken-quarry/v1/broken-quarry-instrumental.mp3
+  sha256: a2c1a77f7b04391c07f7806663622312ea3ba1a55a660e3d3edc69d4a12dbf73
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_16-22-45-d070da6d
+    attempt: 9aaa4347b04f4331a8801e2695400449
+    operation: 사용자 승인 · 깨진 채석장 원곡 및 MR MP3 등록
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 67.76
+    bitrate_kbps: 320
+
+- managementId: audio.bgm.iseulon.vocal.mp3
+  version: v4
+  path: assets/audio/bgm/iseulon/v4/iseulon-vocal.mp3
+  sha256: a4ae8c31c63b83751bce37516a605f728e84a5df97091bef8a28fa095efa0343
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_18-57-07-667afc48
+    attempt: 623460baa6024a82a9d20435b4af7a82
+    operation: 사용자 승인 · MP3 ID3v2.3 제목 추가 · 오디오 데이터 보존
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 68.95997916666667
+    title: 버드나무 곁으로 (보컬)
+- managementId: audio.bgm.meadow.vocal.mp3
+  version: v4
+  path: assets/audio/bgm/meadow/v4/meadow-vocal.mp3
+  sha256: b7d7cf498f14597626fc47efa331f622d1d7745cd812ec37bd543d62dc8408ff
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_18-57-07-a0fbd31d
+    attempt: ef14a9a60d5d49718674a65f53e4ba44
+    operation: 사용자 승인 · MP3 ID3v2.3 제목 추가 · 오디오 데이터 보존
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 79.44
+    title: 초원길 끝의 저녁 (보컬)
+
+- managementId: audio.bgm.grove.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/grove/v1/grove-vocal.mp3
+  sha256: 414a400ee15bacef4d09023198d631f425687aa67dcf2caf3a000e878cd01261
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_18-57-07-3cd5514d
+    attempt: a10be9a2509044499b946603727f1576
+    title: 잎새와 햇살이 만나는 곳 (보컬)
+    operation: 사용자 승인 · 푸른 숲 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 68.95997916666667
+
+- managementId: audio.bgm.grove.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/grove/v1/grove-instrumental.mp3
+  sha256: 7136b36148839374d6bd032fb3b88afbed63610ae53590f8b9747209a233196d
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_18-57-07-3cd5514d
+    attempt: a10be9a2509044499b946603727f1576
+    title: 잎새와 햇살이 만나는 곳 (MR)
+    operation: 사용자 승인 · 푸른 숲 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 68.95997916666667
+
+- managementId: audio.bgm.cinder-path.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/cinder-path/v1/cinder-path-vocal.mp3
+  sha256: c4e7f6fac4d60515ed115fff0c74f103069ad08b0a31a09ea3d2322f60d49d32
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_18-57-08-cc4dbf0f
+    attempt: ad82d8ed129945e0af30e635a3a02da9
+    title: 잿빛 너머 이어지는 길 (보컬)
+    operation: 사용자 승인 · 식은 잿길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 91.84
+
+- managementId: audio.bgm.cinder-path.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/cinder-path/v1/cinder-path-instrumental.mp3
+  sha256: ab8b96003463f47a4edb1a8af4c5daf65bbe81adc1128198bbb48318b1b8a509
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_18-57-08-cc4dbf0f
+    attempt: ad82d8ed129945e0af30e635a3a02da9
+    title: 잿빛 너머 이어지는 길 (MR)
+    operation: 사용자 승인 · 식은 잿길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 91.84

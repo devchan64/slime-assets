@@ -1,25 +1,68 @@
 schema_version: 2
 maps:
   iseulon:
+    vocal:
+      management_id: audio.bgm.iseulon.vocal.mp3
+      version: v4
+      path: assets/audio/bgm/iseulon/v4/iseulon-vocal.mp3
+      sha256: a4ae8c31c63b83751bce37516a605f728e84a5df97091bef8a28fa095efa0343
     instrumental:
       management_id: audio.bgm.iseulon.mr.mp3
-      version: v1
-      path: assets/audio/bgm/iseulon/v1/iseulon-mr.mp3
-      sha256: 7e5acbc5c5d0ed43abbee05eb023a0c00766314dc458874848be04ef7c6e36ed
+      version: v4
+      path: assets/audio/bgm/iseulon/v4/iseulon-mr.mp3
+      sha256: de85a7a27f2b17c285f31ce8244d3075de3e96b692010c62b568b338dca59c5e
   meadow:
+    vocal:
+      management_id: audio.bgm.meadow.vocal.mp3
+      version: v4
+      path: assets/audio/bgm/meadow/v4/meadow-vocal.mp3
+      sha256: b7d7cf498f14597626fc47efa331f622d1d7745cd812ec37bd543d62dc8408ff
     instrumental:
       management_id: audio.bgm.meadow.mr.mp3
-      version: v1
-      path: assets/audio/bgm/meadow/v1/meadow-mr.mp3
-      sha256: 6520a3b42a2bb1d76fbec75038f4b724a08afe64a71cd175ec24b63aa07cf974
+      version: v4
+      path: assets/audio/bgm/meadow/v4/meadow-mr.mp3
+      sha256: 3a9b6d3cda3ce1632ce9d0f94b6b804b82486377e0b0326d263e82e0f76e7297
   wind-hills:
     vocal:
       management_id: audio.bgm.wind-hills.vocal.mp3
-      version: v1
-      path: assets/audio/bgm/wind-hills/v1/wind-hills-vocal.mp3
-      sha256: 5becab01145c854579af2a9932054dccdef9805642c0fd73918b221354071e4f
+      version: v2
+      path: assets/audio/bgm/wind-hills/v2/wind-hills-vocal.mp3
+      sha256: 482c7d93eb71f4ad814e1b9d1218e3c403c9d6075b3edd4faf7101a4a6a15115
     instrumental:
       management_id: audio.bgm.wind-hills.instrumental.mp3
+      version: v2
+      path: assets/audio/bgm/wind-hills/v2/wind-hills-instrumental.mp3
+      sha256: fec99300b190475921a4f0ef8897a01e2ac1215e29679034600f5a3773add3ce
+  broken-quarry:
+    vocal:
+      management_id: audio.bgm.broken-quarry.vocal.mp3
       version: v1
-      path: assets/audio/bgm/wind-hills/v1/wind-hills-instrumental.mp3
-      sha256: 6dc546e0378cd9217b703be893603b637651aa8d580f8922d553933b37b37b05
+      path: assets/audio/bgm/broken-quarry/v1/broken-quarry-vocal.mp3
+      sha256: d568c7cd0d5b34d64947ca92e0b41b31248843c2ef81b0327acca41ac7998c6f
+    instrumental:
+      management_id: audio.bgm.broken-quarry.instrumental.mp3
+      version: v1
+      path: assets/audio/bgm/broken-quarry/v1/broken-quarry-instrumental.mp3
+      sha256: a2c1a77f7b04391c07f7806663622312ea3ba1a55a660e3d3edc69d4a12dbf73
+  grove:
+    vocal:
+      management_id: audio.bgm.grove.vocal.mp3
+      version: v1
+      path: assets/audio/bgm/grove/v1/grove-vocal.mp3
+      sha256: 414a400ee15bacef4d09023198d631f425687aa67dcf2caf3a000e878cd01261
+    instrumental:
+      management_id: audio.bgm.grove.instrumental.mp3
+      version: v1
+      path: assets/audio/bgm/grove/v1/grove-instrumental.mp3
+      sha256: 7136b36148839374d6bd032fb3b88afbed63610ae53590f8b9747209a233196d
+  cinder-path:
+    vocal:
+      management_id: audio.bgm.cinder-path.vocal.mp3
+      version: v1
+      path: assets/audio/bgm/cinder-path/v1/cinder-path-vocal.mp3
+      sha256: c4e7f6fac4d60515ed115fff0c74f103069ad08b0a31a09ea3d2322f60d49d32
+    instrumental:
+      management_id: audio.bgm.cinder-path.instrumental.mp3
+      version: v1
+      path: assets/audio/bgm/cinder-path/v1/cinder-path-instrumental.mp3
+      sha256: ab8b96003463f47a4edb1a8af4c5daf65bbe81adc1128198bbb48318b1b8a509
