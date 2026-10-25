@@ -392,10 +392,6 @@ billboards:
     height: 68
     sha256: 118169c83222280207d0847ed315f4b34d63aca03218ac6dab54e3ff6e9f8106
   modeling:
-    purpose: '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
-    recommended_uses:
-    - '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -403,22 +399,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-559199df-57ff-4484-9dd1-c67c11857eb8.png
       · 기록 SHA-256 8866fabf05139c820a04a9fb68adaf405714e835975c7acaf76da38929feb6e1'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 붉은 사과 두 알이 마른 갈색 잎 위에 붙어 있고 왼쪽 열매가 더 크다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 4408ada6cea98ec52ff48d96ac7775e02c471c69745652e7d62c25613c3e11b9
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 4408ada6cea98ec52ff48d96ac7775e02c471c69745652e7d62c25613c3e11b9
+    recommended_uses:
+    - '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
+    visual_description: 붉은 사과 두 알이 마른 갈색 잎 위에 붙어 있고 왼쪽 열매가 더 크다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -430,11 +430,11 @@ billboards:
     groundFootprintRows: 1
     displayHeight: 60.0
     billboardBlocksMovement: false
-    shadowScaleX: 0.635278
-    shadowScaleY: 0.635278
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
+    shadowScaleX: 0.635278
+    shadowScaleY: 0.635278
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 30.0
@@ -453,10 +453,6 @@ billboards:
     height: 75
     sha256: 7bd1bbfff874e8806e8cf0bb46dccb68ebe1c2c76b89183815a2f2894c780554
   modeling:
-    purpose: '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
-    recommended_uses:
-    - '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -464,22 +460,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-53297e51-4f44-45aa-acc0-e610bd8ae386.png
       · 기록 SHA-256 2b05f5aea67c279e1354b9e5872863b9feede5d60620cf8d54a84fbcba6275cd'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 황록색 사과 세 알이 삼각형으로 모여 있으며 표면에 갈색 얼룩이 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: f65d3f913d555c5c6c565876cab92002440a41132ab9552453196895ee7bb9c3
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: f65d3f913d555c5c6c565876cab92002440a41132ab9552453196895ee7bb9c3
+    recommended_uses:
+    - '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
+    visual_description: 황록색 사과 세 알이 삼각형으로 모여 있으며 표면에 갈색 얼룩이 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -491,11 +491,11 @@ billboards:
     groundFootprintRows: 1
     displayHeight: 46.88
     billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
     shadowScaleX: 0.45
     shadowScaleY: 0.45
-    billboardAnchorMode: tile-intersection
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 23.44
@@ -514,10 +514,6 @@ billboards:
     height: 85
     sha256: 2558acdc352de7a84d3795fd1e51b11c0066c0a3eb987ea395b1315a3792d65a
   modeling:
-    purpose: '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
-    recommended_uses:
-    - '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -525,22 +521,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-d6fdd346-4870-4358-8db3-9a3d43ef5399.png
       · 기록 SHA-256 ea8aa0a063232e5890b58ec661e7992f601873cf506cfdcf5a34b27c4e9f7f38'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 붉고 누런 큰 사과 한 알에 말린 잎과 작은 열매가 붙어 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 12d25833493bd17dd8e5ccda563fbfec6d9967a60b5eef1258a64fa72f58a7c5
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 12d25833493bd17dd8e5ccda563fbfec6d9967a60b5eef1258a64fa72f58a7c5
+    recommended_uses:
+    - '작은 낙과 묶음: 과수 아래 수확·낙과 흔적'
+    visual_description: 붉고 누런 큰 사과 한 알에 말린 잎과 작은 열매가 붙어 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -552,11 +552,11 @@ billboards:
     groundFootprintRows: 1
     displayHeight: 53.13
     billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
     shadowOffsetColumn: -0.16
     shadowOffsetRow: -0.16
     shadowScaleX: 0.61
     shadowScaleY: 0.61
-    billboardAnchorMode: tile-intersection
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 26.565
@@ -579,32 +579,32 @@ billboards:
     height: 65
     sha256: dd712045a3d7cd30535284065b44ecb3e75394761d235885a31ebda9b1398acf
   modeling:
-    purpose: 탄화 그루터기와 새순 · 고사목·산불 및 쇠퇴 흔적
-    recommended_uses:
-    - 야외필드 환경 장식
-    composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 검게 탄 낮은 그루터기와 뿌리 옆에 작은 밝은 녹색 새잎이 돋아 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 탄화 그루터기와 새순 · 고사목·산불 및 쇠퇴 흔적
+    composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 1cc2409262b2657aeda213b48dc7b3a493d149b7abd4b1d1cd8edc955daa507b
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 1cc2409262b2657aeda213b48dc7b3a493d149b7abd4b1d1cd8edc955daa507b
+    recommended_uses:
+    - 야외필드 환경 장식
+    visual_description: 검게 탄 낮은 그루터기와 뿌리 옆에 작은 밝은 녹색 새잎이 돋아 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -617,10 +617,10 @@ billboards:
     displayHeight: 84.12
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
-    shadowScaleX: 1
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 42.06
@@ -641,33 +641,33 @@ billboards:
     height: 71
     sha256: 85317a2de7113da2e35be443fc746eeaafc79e85c60e7ccf0cec7da5dcfca752
   modeling:
-    purpose: 분해 버섯이 붙은 탄 고목 · 숲 바닥 잔해
-    recommended_uses:
-    - 야외필드 환경 장식
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 누운 몸통과 뿌리가 닿는 방향으로 낮고 긴 접지 그림자가 어울린다. 열·행 점유 수가 다르면 둥근 직사각형을
         해당 지면 축으로 투영한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 갈라진 검갈색 통나무 표면에 밝은 작은 버섯과 녹색 이끼가 붙어 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 분해 버섯이 붙은 탄 고목 · 숲 바닥 잔해
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 3b0b9c42a6ead982a3704bcc37d7530af4c583cad93923a131f60fa81ef8362c
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 3b0b9c42a6ead982a3704bcc37d7530af4c583cad93923a131f60fa81ef8362c
+    recommended_uses:
+    - 야외필드 환경 장식
+    visual_description: 갈라진 검갈색 통나무 표면에 밝은 작은 버섯과 녹색 이끼가 붙어 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -680,10 +680,10 @@ billboards:
     displayHeight: 76.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 38.0
@@ -704,32 +704,32 @@ billboards:
     height: 79
     sha256: 071569b9aa85ba40b507cf0cfddddfc713c0239738f5b294ca6d1a8da72a13c8
   modeling:
-    purpose: 열매 관목 · 관목·경계 식생
-    recommended_uses:
-    - 숲과 과수원 가장자리
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 가는 갈색 가지가 성긴 올리브색 잎 사이로 드러나는 작은 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 열매 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 4055c1141424793c00c0230c427e639857d263d8a65eb198039fea53f3037ae4
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 4055c1141424793c00c0230c427e639857d263d8a65eb198039fea53f3037ae4
+    recommended_uses:
+    - 숲과 과수원 가장자리
+    visual_description: 가는 갈색 가지가 성긴 올리브색 잎 사이로 드러나는 작은 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -742,10 +742,10 @@ billboards:
     displayHeight: 87.64
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 43.82
@@ -766,32 +766,32 @@ billboards:
     height: 99
     sha256: c321a6101cfe75941217629e75ca4ca9f57171cdcc9feb56579c5e19eeaadfa7
   modeling:
-    purpose: 열매 관목 · vegetation
-    recommended_uses:
-    - 숲과 과수원 가장자리
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 위로 갈라진 가지에 녹색 잎과 붉은 열매가 성기게 달린 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 열매 관목 · vegetation
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 87be57a99badd438e5c6500b2179c0792468fda4c62d11e955b5a75eebeb2b88
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 87be57a99badd438e5c6500b2179c0792468fda4c62d11e955b5a75eebeb2b88
+    recommended_uses:
+    - 숲과 과수원 가장자리
+    visual_description: 위로 갈라진 가지에 녹색 잎과 붉은 열매가 성기게 달린 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -804,10 +804,10 @@ billboards:
     displayHeight: 92.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 0.61
-    shadowScaleX: 0.61
     shadowOffsetColumn: -0.1
     shadowOffsetRow: -0.1
+    shadowScaleX: 0.61
+    shadowScaleY: 0.61
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 46.405
@@ -830,32 +830,32 @@ billboards:
     height: 66
     sha256: bd19f89cbfab94a8b84e431f74b9a59fef1d3b525b5caf447a617987d552f4c7
   modeling:
-    purpose: 열매 관목 · vegetation
-    recommended_uses:
-    - 숲과 과수원 가장자리
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 낮고 가로로 퍼진 황록색 잎 아래 붉은 열매가 여러 개 달려 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 열매 관목 · vegetation
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 28dc32f1c9ec2387d25cf620db71260a00eeb71129a8983a3fa83c6b9b1a65ac
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 28dc32f1c9ec2387d25cf620db71260a00eeb71129a8983a3fa83c6b9b1a65ac
+    recommended_uses:
+    - 숲과 과수원 가장자리
+    visual_description: 낮고 가로로 퍼진 황록색 잎 아래 붉은 열매가 여러 개 달려 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -868,10 +868,10 @@ billboards:
     displayHeight: 84.56
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 42.28
@@ -892,32 +892,32 @@ billboards:
     height: 98
     sha256: 6330d334aca549b11a6b22b6eb34c4312ccba260af51170ed63fadbeb337a641
   modeling:
-    purpose: 열매 관목 · vegetation
-    recommended_uses:
-    - 숲과 과수원 가장자리
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 둥글고 빽빽한 황록색 잎 덩어리 사이에 붉은 열매가 박혀 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 열매 관목 · vegetation
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 963fc407edcd0802387c799de91c45a0d40644bb927b62610fb9610a93758705
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 963fc407edcd0802387c799de91c45a0d40644bb927b62610fb9610a93758705
+    recommended_uses:
+    - 숲과 과수원 가장자리
+    visual_description: 둥글고 빽빽한 황록색 잎 덩어리 사이에 붉은 열매가 박혀 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -930,10 +930,10 @@ billboards:
     displayHeight: 125.56
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 62.78
@@ -954,32 +954,32 @@ billboards:
     height: 76
     sha256: 7e9c49bcc528bf9c6bc78b42aa3be7dc45ed8e027f24d8fed3e273146eba16e3
   modeling:
-    purpose: 가시 덤불 · 관목·경계 식생
-    recommended_uses:
-    - 숲 가장자리의 조밀한 군집
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 휘어진 가시 가지가 낮은 아치를 이루고 어두운 녹색 잎이 드문드문 붙어 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 가시 덤불 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: a75f03464e2241122815f7e507af20b13dcbbd8caee07c9ab0bc75c76f53d59b
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: a75f03464e2241122815f7e507af20b13dcbbd8caee07c9ab0bc75c76f53d59b
+    recommended_uses:
+    - 숲 가장자리의 조밀한 군집
+    visual_description: 휘어진 가시 가지가 낮은 아치를 이루고 어두운 녹색 잎이 드문드문 붙어 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -991,11 +991,11 @@ billboards:
     groundFootprintRows: 1
     displayHeight: 67.69
     billboardBlocksMovement: false
-    shadowScaleX: 1
-    shadowScaleY: 1
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 33.845
@@ -1016,32 +1016,32 @@ billboards:
     height: 70
     sha256: 7d70cc854eee59ef7ccfd678c8a61911a79b3e607a943adb08287d98843b7ebe
   modeling:
-    purpose: 가시 덤불 · 관목·경계 식생
-    recommended_uses:
-    - 숲 가장자리의 조밀한 군집
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 갈색 가시 줄기가 둥근 덩어리로 얽히고 작은 녹색 잎이 섞여 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 가시 덤불 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: eb70ab839761ccc7b76b902d99d279eaba8dbcc2ed182660247ae4d5613f33a1
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: eb70ab839761ccc7b76b902d99d279eaba8dbcc2ed182660247ae4d5613f33a1
+    recommended_uses:
+    - 숲 가장자리의 조밀한 군집
+    visual_description: 갈색 가시 줄기가 둥근 덩어리로 얽히고 작은 녹색 잎이 섞여 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1054,10 +1054,10 @@ billboards:
     displayHeight: 82.03
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 41.015
@@ -1076,10 +1076,6 @@ billboards:
     height: 102
     sha256: 5e0b4130276b698c43477408f63b343864898a4cd055a50e2bee56dbf6b72727
   modeling:
-    purpose: 성긴 어린 덤불
-    recommended_uses:
-    - 성긴 어린 덤불
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -1087,22 +1083,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-454c70f1-f23b-4562-be8d-4f666ae8f142.png
       · 기록 SHA-256 10aa14318a96e2255d1b1a166170ca7458f0bb149e91cd176df67beeca3aa7d9'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 가는 가시 가지가 위로 벌어지고 잎과 붉은 열매가 성기게 달려 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 성긴 어린 덤불
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 715202f429f261ac471063e9e4968d1e9da1a967864f594a0f601dd666078bb6
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 715202f429f261ac471063e9e4968d1e9da1a967864f594a0f601dd666078bb6
+    recommended_uses:
+    - 성긴 어린 덤불
+    visual_description: 가는 가시 가지가 위로 벌어지고 잎과 붉은 열매가 성기게 달려 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1115,10 +1115,10 @@ billboards:
     displayHeight: 102.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 51.0
@@ -1137,10 +1137,6 @@ billboards:
     height: 116
     sha256: 6c02254e6d427ce39a64ecbdc2649df8c03ede81bfd5bd1b13dd54f453ade590
   modeling:
-    purpose: '아치로 휜 잎 덤불: 군락 가장자리 강조'
-    recommended_uses:
-    - '아치로 휜 잎 덤불: 군락 가장자리 강조'
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -1148,22 +1144,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-0b735b3d-b0ba-4db5-9ed9-15af05ec6d72.png
       · 기록 SHA-256 e0b988f1852a4272699f968ac7df07d99397c8f51a028f494eb50942ed386049'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 황록색 잎이 두 기둥과 둥근 윗부분을 덮어 가운데가 빈 아치 형태다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '아치로 휜 잎 덤불: 군락 가장자리 강조'
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 59a2cfaeceff4010b5360614ea2cf8e10efd88beb8dcb1e78f09b51260d4a0a4
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 59a2cfaeceff4010b5360614ea2cf8e10efd88beb8dcb1e78f09b51260d4a0a4
+    recommended_uses:
+    - '아치로 휜 잎 덤불: 군락 가장자리 강조'
+    visual_description: 황록색 잎이 두 기둥과 둥근 윗부분을 덮어 가운데가 빈 아치 형태다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1175,11 +1175,11 @@ billboards:
     groundFootprintRows: 1
     displayHeight: 116.0
     billboardBlocksMovement: false
-    shadowScaleX: 1
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
     shadowOffsetColumn: -0.1
     shadowOffsetRow: -0.1
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 58.0
@@ -1200,32 +1200,32 @@ billboards:
     height: 56
     sha256: 2e328d427bb4f373959b40f9c54cc2a3e8167242b904bb59ee9a2c5b9d0f6358
   modeling:
-    purpose: 염생 관목 · 관목·경계 식생
-    recommended_uses:
-    - 염수 물가와 채염 작업 구역
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 붉은 갈색 잔가지에 작은 회녹색 잎이 붙어 낮고 넓게 퍼져 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 염생 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 97c85b7f33eddc7a33f06202362f5b28a9918d8dfe2caa7496802e018f1c30d0
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 97c85b7f33eddc7a33f06202362f5b28a9918d8dfe2caa7496802e018f1c30d0
+    recommended_uses:
+    - 염수 물가와 채염 작업 구역
+    visual_description: 붉은 갈색 잔가지에 작은 회녹색 잎이 붙어 낮고 넓게 퍼져 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1238,10 +1238,10 @@ billboards:
     displayHeight: 65.63
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
     shadowOffsetColumn: -0.15
     shadowOffsetRow: -0.15
-    shadowScaleX: 1
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 32.815
@@ -1264,32 +1264,32 @@ billboards:
     height: 67
     sha256: 6f1750fdc50bc15826f314a92bbc255b4a12940e1e12d918581c386dabee6663
   modeling:
-    purpose: 재에 묻힌 고사목 · 고사목·산불 및 쇠퇴 흔적
-    recommended_uses:
-    - 잿빛 지형의 길 가장자리
-    composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지 않는다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 숯처럼 검게 탄 속 빈 나무가 누워 있고 주변에 회색 재가 흩어져 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 재에 묻힌 고사목 · 고사목·산불 및 쇠퇴 흔적
+    composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: ac73b2845df92181cebe3fcae8aac9454adf4fc99889ca837c3e02dc843f8b6a
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: ac73b2845df92181cebe3fcae8aac9454adf4fc99889ca837c3e02dc843f8b6a
+    recommended_uses:
+    - 잿빛 지형의 길 가장자리
+    visual_description: 숯처럼 검게 탄 속 빈 나무가 누워 있고 주변에 회색 재가 흩어져 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1302,10 +1302,10 @@ billboards:
     displayHeight: 87.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 43.5
@@ -1328,32 +1328,32 @@ billboards:
     height: 110
     sha256: 6e292e7ce3a341471a63282f0da914064f4454e23d76d363c5764f956278172e
   modeling:
-    purpose: 갈라진 그루터기 · 고사목·산불 및 쇠퇴 흔적
-    recommended_uses:
-    - 차가운 잿길의 암석·고사목·회복 식생 묘사
-    composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 속이 갈라지고 위끝이 날카롭게 부러진 검은 그루터기에서 긴 뿌리가 사방으로 뻗는다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 갈라진 그루터기 · 고사목·산불 및 쇠퇴 흔적
+    composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: eee77a855fff4934a5e18da01a3e925212c8fa857ce0ddbe3edbfa223acfc1a2
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: eee77a855fff4934a5e18da01a3e925212c8fa857ce0ddbe3edbfa223acfc1a2
+    recommended_uses:
+    - 차가운 잿길의 암석·고사목·회복 식생 묘사
+    visual_description: 속이 갈라지고 위끝이 날카롭게 부러진 검은 그루터기에서 긴 뿌리가 사방으로 뻗는다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1366,10 +1366,10 @@ billboards:
     displayHeight: 94.53
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
-    shadowScaleX: 1
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 47.265
@@ -1390,32 +1390,32 @@ billboards:
     height: 71
     sha256: 5e5365b01430b3e03f3b2411357d4a517f9a93eb4ad4d6777f26d128ffe07077
   modeling:
-    purpose: 토끼풀 토끼굴 둔덕 · 낮은 식생·회복 식생
-    recommended_uses:
-    - 초원 언덕의 대표 자연물
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 작은 흰 꽃과 밝은 녹색 잎이 덮인 둔덕 중앙에 둥근 갈색 굴 입구가 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 토끼풀 토끼굴 둔덕 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 51b1f147125d7065fd7ca0b4ee1320643528e1aa689f28aa4a3e4c81ce33f1c3
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 51b1f147125d7065fd7ca0b4ee1320643528e1aa689f28aa4a3e4c81ce33f1c3
+    recommended_uses:
+    - 초원 언덕의 대표 자연물
+    visual_description: 작은 흰 꽃과 밝은 녹색 잎이 덮인 둔덕 중앙에 둥근 갈색 굴 입구가 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1428,10 +1428,10 @@ billboards:
     displayHeight: 122.03
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.05
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 61.015
@@ -1452,33 +1452,33 @@ billboards:
     height: 90
     sha256: dec2e90d22917ea692776f82e2892285a17feb8c5a4dfdb6090dc3f0f2239aa7
   modeling:
-    purpose: 마른 가지 · 숲 바닥 잔해
-    recommended_uses:
-    - 건조한 지면의 흔적
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 누운 몸통과 뿌리가 닿는 방향으로 낮고 긴 접지 그림자가 어울린다. 열·행 점유 수가 다르면 둥근 직사각형을
         해당 지면 축으로 투영한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 잘린 갈색 나뭇가지가 비스듬히 놓여 있고 끝부분에 밝은 녹색 잎이 달려 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 마른 가지 · 숲 바닥 잔해
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 26f31d886a1cda365584bcd039b16f12696e5b78313ca2f338d8b21cbbccf314
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 26f31d886a1cda365584bcd039b16f12696e5b78313ca2f338d8b21cbbccf314
+    recommended_uses:
+    - 건조한 지면의 흔적
+    visual_description: 잘린 갈색 나뭇가지가 비스듬히 놓여 있고 끝부분에 밝은 녹색 잎이 달려 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1491,10 +1491,10 @@ billboards:
     displayHeight: 85.78
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 42.89
@@ -1517,32 +1517,32 @@ billboards:
     height: 106
     sha256: c098be8bff60c4cd4e80d93cc52bdc2dcaae0be4f904be730c8845c27b027bde
   modeling:
-    purpose: 마른 관목 · 관목·경계 식생
-    recommended_uses:
-    - 건조 구역의 작은 군집
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 잎이 거의 없는 가는 갈색 가지가 갈라지고 밑에 마른 풀이 모여 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 마른 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 675ce054b3d1b9d1895b0eb7ae4bc2d159297ba176de80cb35c350f89cb48c6d
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 675ce054b3d1b9d1895b0eb7ae4bc2d159297ba176de80cb35c350f89cb48c6d
+    recommended_uses:
+    - 건조 구역의 작은 군집
+    visual_description: 잎이 거의 없는 가는 갈색 가지가 갈라지고 밑에 마른 풀이 모여 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1555,10 +1555,10 @@ billboards:
     displayHeight: 135.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 67.905
@@ -1579,32 +1579,32 @@ billboards:
     height: 73
     sha256: 9e07536bda9788ffef4201b8e7d9b84fdbb354ffbedde41074ac6f41a5462519
   modeling:
-    purpose: 마른 관목 · 관목·경계 식생
-    recommended_uses:
-    - 건조 구역의 작은 군집
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 작은 누런 잎과 갈색 잔가지가 낮고 넓은 관목을 이룬다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 마른 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: d062ba3a517989cd820c79702dbb0ce279274a2dfd787e618bd75a5fb97d4e29
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: d062ba3a517989cd820c79702dbb0ce279274a2dfd787e618bd75a5fb97d4e29
+    recommended_uses:
+    - 건조 구역의 작은 군집
+    visual_description: 작은 누런 잎과 갈색 잔가지가 낮고 넓은 관목을 이룬다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1617,10 +1617,10 @@ billboards:
     displayHeight: 93.53
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 46.765
@@ -1641,32 +1641,32 @@ billboards:
     height: 103
     sha256: ae1eebddd31bdad357a5ac15a48a9ec426c92df8226410329a61c1b0e7c3d74a
   modeling:
-    purpose: 마른 관목 · 관목·경계 식생
-    recommended_uses:
-    - 건조 구역의 작은 군집
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 곧게 선 가는 갈색 줄기에 작은 마른 잎이 붙은 세로로 긴 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 마른 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 5ba6ae513f41e97ba7f3c5fb0dc3bddbddde4d9dda4544fff99134c229f68b17
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 5ba6ae513f41e97ba7f3c5fb0dc3bddbddde4d9dda4544fff99134c229f68b17
+    recommended_uses:
+    - 건조 구역의 작은 군집
+    visual_description: 곧게 선 가는 갈색 줄기에 작은 마른 잎이 붙은 세로로 긴 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1679,10 +1679,10 @@ billboards:
     displayHeight: 131.97
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 65.985
@@ -1703,32 +1703,32 @@ billboards:
     height: 70
     sha256: f31d087eda9ad8fc560f66850d5e295d213d5850079ce0968f92e09a011d07c4
   modeling:
-    purpose: 떨어진 사과 · debris
-    recommended_uses:
-    - 사과나무 아래 수확 흔적
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 붉고 누런 사과 세 알이 마른 잎과 함께 낮게 모여 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 떨어진 사과 · debris
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: f304433bfabf81187c1d22d47d019589d6fec88b576b6318ce32a6b86cd9f900
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: f304433bfabf81187c1d22d47d019589d6fec88b576b6318ce32a6b86cd9f900
+    recommended_uses:
+    - 사과나무 아래 수확 흔적
+    visual_description: 붉고 누런 사과 세 알이 마른 잎과 함께 낮게 모여 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -1741,10 +1741,10 @@ billboards:
     displayHeight: 54.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.2
     shadowOffsetRow: 0.2
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 27.345
@@ -1757,26 +1757,26 @@ billboards:
     management_id: image.scenery.fallen-canopy-debris-branches-1x1-v1
     version: v1
   modeling:
-    purpose: 짧게 부러진 가지 잔해
-    visual_description: 굵기가 다른 짧은 갈색 가지 세 조각이 모여 있다. 밝은 파단면과 성긴 이끼가 보이며 조각 사이에는 빈틈이
-      있다.
-    recommended_uses:
-    - 쓰러진 나무 주변의 도복 흔적 표현
-    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
     avoid:
     - 미검증 크기로 바로 맵에 배치
     basis: 생성 이미지 육안 검수. 게임 접지와 점유 규격은 미검증.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-tile-length-v3
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
-        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
       contact_guidance: 누운 몸통과 뿌리가 닿는 방향으로 낮고 긴 접지 그림자가 어울린다. 열·행 점유 수가 다르면 둥근 직사각형을
         해당 지면 축으로 투영한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 짧게 부러진 가지 잔해
+    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
+    recommended_uses:
+    - 쓰러진 나무 주변의 도복 흔적 표현
+    visual_description: 굵기가 다른 짧은 갈색 가지 세 조각이 모여 있다. 밝은 파단면과 성긴 이끼가 보이며 조각 사이에는 빈틈이
+      있다.
   map_references:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 4
@@ -1790,17 +1790,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-canopy-debris-branches-1x1-v1
-    billboardAnchorMode: tile-intersection
     anchorX: 0.01
     anchorY: -0.14
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 75.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1
-    shadowScaleY: 1
-    billboardBlocksMovement: false
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 37.5
@@ -1816,24 +1816,24 @@ billboards:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 3
   modeling:
-    purpose: 납작한 부후목 잔해
-    visual_description: 납작한 나뭇조각 두 덩어리에 성긴 이끼와 밝은 찢어진 섬유가 드러난다.
-    recommended_uses:
-    - 쓰러진 나무 주변의 도복 흔적 표현
-    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
     avoid:
     - 미검증 크기로 바로 맵에 배치
     basis: 생성 이미지 육안 검수. 게임 접지와 점유 규격은 미검증.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-tile-length-v3
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
-        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 납작한 부후목 잔해
+    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
+    recommended_uses:
+    - 쓰러진 나무 주변의 도복 흔적 표현
+    visual_description: 납작한 나뭇조각 두 덩어리에 성긴 이끼와 밝은 찢어진 섬유가 드러난다.
   source_file:
     path: assets/billboards/fallen-canopy-debris-flat-decay-1x1-v1.png
     width: 175
@@ -1844,17 +1844,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-canopy-debris-flat-decay-1x1-v1
-    billboardAnchorMode: tile-intersection
     anchorX: 0.01
     anchorY: -0.27
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 42.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.1
     shadowOffsetRow: 0.1
-    shadowScaleX: 1
-    shadowScaleY: 1
-    billboardBlocksMovement: false
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 21.0
@@ -1870,24 +1870,24 @@ billboards:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 4
   modeling:
-    purpose: 굵은 파단 가지 잔해
-    visual_description: 굵은 갈색 가지 하나와 작은 파편이 나란히 놓여 있다. 마디와 찢어진 밝은 끝이 강조된다.
-    recommended_uses:
-    - 쓰러진 나무 주변의 도복 흔적 표현
-    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
     avoid:
     - 미검증 크기로 바로 맵에 배치
     basis: 생성 이미지 육안 검수. 게임 접지와 점유 규격은 미검증.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-tile-length-v3
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
-        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 굵은 파단 가지 잔해
+    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
+    recommended_uses:
+    - 쓰러진 나무 주변의 도복 흔적 표현
+    visual_description: 굵은 갈색 가지 하나와 작은 파편이 나란히 놓여 있다. 마디와 찢어진 밝은 끝이 강조된다.
   source_file:
     path: assets/billboards/fallen-canopy-debris-thick-break-1x1-v1.png
     width: 165
@@ -1898,17 +1898,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-canopy-debris-thick-break-1x1-v1
-    billboardAnchorMode: tile-intersection
     anchorX: -0.02
     anchorY: -0.22
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 53.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.1
     shadowOffsetRow: 0.1
-    shadowScaleX: 1
-    shadowScaleY: 1
-    billboardBlocksMovement: false
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 26.5
@@ -1924,25 +1924,25 @@ billboards:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 4
   modeling:
-    purpose: 성긴 짧은 가지 잔해
-    visual_description: 굵기가 다른 짧은 가지 세 개가 성기게 놓여 있으며 밝은 파단면과 이끼가 보인다.
-    recommended_uses:
-    - 쓰러진 나무 주변의 도복 흔적 표현
-    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
     avoid:
     - 미검증 크기로 바로 맵에 배치
     basis: 생성 이미지 육안 검수. 게임 접지와 점유 규격은 미검증.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-tile-length-v3
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
-        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
       contact_guidance: 누운 몸통과 뿌리가 닿는 방향으로 낮고 긴 접지 그림자가 어울린다. 열·행 점유 수가 다르면 둥근 직사각형을
         해당 지면 축으로 투영한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 성긴 짧은 가지 잔해
+    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
+    recommended_uses:
+    - 쓰러진 나무 주변의 도복 흔적 표현
+    visual_description: 굵기가 다른 짧은 가지 세 개가 성기게 놓여 있으며 밝은 파단면과 이끼가 보인다.
   source_file:
     path: assets/billboards/fallen-canopy-debris-thin-branches-1x1-v1.png
     width: 169
@@ -1953,17 +1953,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-canopy-debris-thin-branches-1x1-v1
-    billboardAnchorMode: tile-intersection
     anchorX: 0.02
     anchorY: -0.16
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 66.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1
-    shadowScaleY: 1
-    billboardBlocksMovement: false
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 33.0
@@ -1979,25 +1979,25 @@ billboards:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 1
   modeling:
-    purpose: 숲 빈터의 큰 도복목
-    recommended_uses:
-    - 5×2 평탄한 접지에 배치한다. 주변에 작은 통나무·낙엽·새싹을 띄엄띄엄 두고 빈터와 통로를 확보한다.
-    composition: 왼쪽에 찢어진 뿌리와 속빈 단면이 솟고 오른쪽 아래로 굵은 갈색 줄기가 누워 있다. 윗면에는 황록색 이끼가 길게 이어지고
-      옆면에는 작은 선반버섯과 갈라진 수피가 보인다.
     avoid:
     - 단차를 가로지르는 접지
     - 같은 방향의 과도한 반복
     basis: 생성 PNG 직접 검수. 이끼·속빈 단면·갈색 수피를 확인했다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-tile-length-v3
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
-        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 숲 빈터의 큰 도복목
+    composition: 왼쪽에 찢어진 뿌리와 속빈 단면이 솟고 오른쪽 아래로 굵은 갈색 줄기가 누워 있다. 윗면에는 황록색 이끼가 길게 이어지고
+      옆면에는 작은 선반버섯과 갈라진 수피가 보인다.
+    recommended_uses:
+    - 5×2 평탄한 접지에 배치한다. 주변에 작은 통나무·낙엽·새싹을 띄엄띄엄 두고 빈터와 통로를 확보한다.
   source_file:
     path: assets/billboards/fallen-canopy-giant-hollow-trunk-v1.png
     width: 384
@@ -2015,10 +2015,10 @@ billboards:
     displayHeight: 265.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
     shadowOffsetColumn: 0.1
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 132.5
@@ -2031,25 +2031,25 @@ billboards:
     management_id: image.scenery.fallen-canopy-whole-fallen-tree-v1
     version: v1
   modeling:
-    purpose: 뿌리째 쓰러진 긴 부후목
-    visual_description: 화면 왼쪽 아래의 흙을 머금은 뿌리 덩어리에서 오른쪽 위의 찢어진 끝까지 긴 줄기가 이어진다. 회갈색 껍질
-      사이로 밝은 부후목이 드러나고 이끼가 성기게 붙어 있다.
-    recommended_uses:
-    - 쓰러진 나무 주변의 도복 흔적 표현
-    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
     avoid:
     - 미검증 크기로 바로 맵에 배치
     basis: 생성 이미지 육안 검수. 게임 접지와 점유 규격은 미검증.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-tile-length-v3
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
-        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
       contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지 않는다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 뿌리째 쓰러진 긴 부후목
+    composition: 공용 표시 높이·접지·그림자를 검증하여 등록한 후 배치한다.
+    recommended_uses:
+    - 쓰러진 나무 주변의 도복 흔적 표현
+    visual_description: 화면 왼쪽 아래의 흙을 머금은 뿌리 덩어리에서 오른쪽 위의 찢어진 끝까지 긴 줄기가 이어진다. 회갈색 껍질
+      사이로 밝은 부후목이 드러나고 이끼가 성기게 붙어 있다.
   map_references:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 1
@@ -2063,17 +2063,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-canopy-whole-fallen-tree-v1
-    billboardAnchorMode: tile-intersection
     anchorX: 0.5
     anchorY: 0.18
     groundFootprintColumns: 1
     groundFootprintRows: 4
     displayHeight: 202.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1
-    shadowScaleY: 1
-    billboardBlocksMovement: false
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 101.0
@@ -2096,32 +2096,32 @@ billboards:
     height: 70
     sha256: d53454257ea84bc71133c3981a17de1f56e488b2a085ae9ddf24b062ef340997
   modeling:
-    purpose: 낙엽 · debris
-    recommended_uses:
-    - 가을 수목 아래 지면 강조
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 주황색·갈색의 말린 잎들이 낮은 원뿔 모양으로 쌓여 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 낙엽 · debris
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: e43788f4fe5163c272efb49db8987afa7c96ba97b32e5fc50a70695ce8d71521
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: e43788f4fe5163c272efb49db8987afa7c96ba97b32e5fc50a70695ce8d71521
+    recommended_uses:
+    - 가을 수목 아래 지면 강조
+    visual_description: 주황색·갈색의 말린 잎들이 낮은 원뿔 모양으로 쌓여 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2134,10 +2134,10 @@ billboards:
     displayHeight: 43.75
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.2
     shadowOffsetRow: 0.2
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 21.875
@@ -2158,33 +2158,33 @@ billboards:
     height: 77
     sha256: 0080837ba8fd9742a432478f09f0aab2b402b2f800b305c0c9518f4f545cfd26
   modeling:
-    purpose: 쓰러진 통나무 · 숲 바닥 잔해
-    recommended_uses:
-    - 숲 바닥의 길쭉한 형태
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 누운 몸통과 뿌리가 닿는 방향으로 낮고 긴 접지 그림자가 어울린다. 열·행 점유 수가 다르면 둥근 직사각형을
         해당 지면 축으로 투영한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 갈라진 수피를 가진 갈색 통나무가 대각선으로 누워 있고 오른쪽 끝에 빈 구멍이 보인다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 쓰러진 통나무 · 숲 바닥 잔해
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: e9965589e9097782fc84566ff7e6836e162fcb4d970b3ff346c96d154b108ac8
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: e9965589e9097782fc84566ff7e6836e162fcb4d970b3ff346c96d154b108ac8
+    recommended_uses:
+    - 숲 바닥의 길쭉한 형태
+    visual_description: 갈라진 수피를 가진 갈색 통나무가 대각선으로 누워 있고 오른쪽 끝에 빈 구멍이 보인다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2197,10 +2197,10 @@ billboards:
     displayHeight: 132.95
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 66.475
@@ -2219,10 +2219,6 @@ billboards:
     height: 62
     sha256: 5cb6d6cc94be3d664b1844dbc069cfc8bc3e5dcaec9167c5b5572277751393a1
   modeling:
-    purpose: '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
-    recommended_uses:
-    - '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -2230,22 +2226,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-213c1642-acab-42d9-b606-1dc0956e401c.png
       · 기록 SHA-256 4518ca857a68ad3abd69d9a806913c27b6e0766ecf9b22c7303320aaa7b4fdac'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 누런 큰 잎과 갈색 잎이 얇고 낮게 겹쳐져 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: bf6b701041fabca947c856d12a96b4e9035786fd35290953dbeb78dd8be44728
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: bf6b701041fabca947c856d12a96b4e9035786fd35290953dbeb78dd8be44728
+    recommended_uses:
+    - '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
+    visual_description: 누런 큰 잎과 갈색 잎이 얇고 낮게 겹쳐져 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2258,10 +2258,10 @@ billboards:
     displayHeight: 42.63
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 21.315
@@ -2280,10 +2280,6 @@ billboards:
     height: 72
     sha256: 167a1ddf093b74a6d7f2fce4b83364a0c7886e936ccae11fe5c128bed96898f4
   modeling:
-    purpose: '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
-    recommended_uses:
-    - '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -2291,22 +2287,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-c15d340e-417c-4410-941f-57de5269c3c0.png
       · 기록 SHA-256 2001c177045db3c9dfa5730e864fbfd4e43e4b45fed777c6354f7e21a955af6b'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 갈색·주황색 낙엽이 중앙이 높은 둥근 더미로 쌓여 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: bbe3803ce0dd9d45baffc6e44c0d74aee0c72db828baf40cc18625f10fde5308
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: bbe3803ce0dd9d45baffc6e44c0d74aee0c72db828baf40cc18625f10fde5308
+    recommended_uses:
+    - '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
+    visual_description: 갈색·주황색 낙엽이 중앙이 높은 둥근 더미로 쌓여 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2319,10 +2319,10 @@ billboards:
     displayHeight: 50.63
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 25.315
@@ -2341,10 +2341,6 @@ billboards:
     height: 71
     sha256: fc3c5366f4161c5b1aaedcd57ef3bb2891fc2f21e6d2ba532c885c46154ad26f
   modeling:
-    purpose: '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
-    recommended_uses:
-    - '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -2352,22 +2348,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-395fe003-aab2-4daf-8628-d53da583e97f.png
       · 기록 SHA-256 d4b55209cce9d69877918cc686fc5fd2061e5660c24bd8b10d6e61672e7e8950'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 큰 주황색 잎과 말린 갈색 잎들이 가로로 흩어져 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 709be0fcb04674c0ea425cbe93b0081a67b5fc3f16ae546606791e635ac0dc78
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 709be0fcb04674c0ea425cbe93b0081a67b5fc3f16ae546606791e635ac0dc78
+    recommended_uses:
+    - '낮은 낙엽 더미·흩어진 잎: 수목 아래 지면 장식'
+    visual_description: 큰 주황색 잎과 말린 갈색 잎들이 가로로 흩어져 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2380,10 +2380,10 @@ billboards:
     displayHeight: 50.48
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 25.24
@@ -2402,33 +2402,33 @@ billboards:
     height: 79
     sha256: 442cd8774a0ecfaf7a54503445c13a4d68601e5919cd793329761a9657d9ceb5
   modeling:
-    purpose: 쓰러진 통나무 · 숲 바닥 잔해
-    recommended_uses:
-    - 숲 바닥의 길쭉한 형태
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 누운 몸통과 뿌리가 닿는 방향으로 낮고 긴 접지 그림자가 어울린다. 열·행 점유 수가 다르면 둥근 직사각형을
         해당 지면 축으로 투영한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 속 빈 갈색 통나무 표면에 녹색 이끼와 작은 선반 모양 버섯이 붙어 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 쓰러진 통나무 · 숲 바닥 잔해
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 100cbc613f84e84bd20b385a216bd8467456fb61f8464042cc6d14c7b54d4f9f
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 100cbc613f84e84bd20b385a216bd8467456fb61f8464042cc6d14c7b54d4f9f
+    recommended_uses:
+    - 숲 바닥의 길쭉한 형태
+    visual_description: 속 빈 갈색 통나무 표면에 녹색 이끼와 작은 선반 모양 버섯이 붙어 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2441,10 +2441,10 @@ billboards:
     displayHeight: 103.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 51.845
@@ -2463,33 +2463,33 @@ billboards:
     height: 58
     sha256: c89439e71e4b63bfe0be71d9afd587ec439ed93c1932440f0a2d17d442772208
   modeling:
-    purpose: 쓰러진 통나무 · 숲 바닥 잔해
-    recommended_uses:
-    - 숲 바닥의 길쭉한 형태
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 누운 몸통과 뿌리가 닿는 방향으로 낮고 긴 접지 그림자가 어울린다. 열·행 점유 수가 다르면 둥근 직사각형을
         해당 지면 축으로 투영한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 가늘고 긴 부러진 가지가 대각선으로 놓이고 수피 위에 녹색 이끼가 붙어 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 쓰러진 통나무 · 숲 바닥 잔해
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 1738132855a1b1c06708e8946a79f8fc30638c11afde727ffac22a3883a56569
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 1738132855a1b1c06708e8946a79f8fc30638c11afde727ffac22a3883a56569
+    recommended_uses:
+    - 숲 바닥의 길쭉한 형태
+    visual_description: 가늘고 긴 부러진 가지가 대각선으로 놓이고 수피 위에 녹색 이끼가 붙어 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2502,10 +2502,10 @@ billboards:
     displayHeight: 54.38
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 27.19
@@ -2524,33 +2524,33 @@ billboards:
     height: 92
     sha256: 4403f57988b6fae7a128cc85e1ae2f62c7eee676df091c7069b96f889265f1a1
   modeling:
-    purpose: 쓰러진 통나무 · 숲 바닥 잔해
-    recommended_uses:
-    - 숲 바닥의 길쭉한 형태
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 누운 몸통과 뿌리가 닿는 방향으로 낮고 긴 접지 그림자가 어울린다. 열·행 점유 수가 다르면 둥근 직사각형을
         해당 지면 축으로 투영한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 세로로 쪼개진 속 빈 나무껍질이 U자 형태로 벌어지고 가장자리에 이끼가 붙어 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 쓰러진 통나무 · 숲 바닥 잔해
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: d9b84abef758bc340c85f453fa877b129f2907346ae47c1c08fa9f9e63ac35e8
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: d9b84abef758bc340c85f453fa877b129f2907346ae47c1c08fa9f9e63ac35e8
+    recommended_uses:
+    - 숲 바닥의 길쭉한 형태
+    visual_description: 세로로 쪼개진 속 빈 나무껍질이 U자 형태로 벌어지고 가장자리에 이끼가 붙어 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2563,10 +2563,10 @@ billboards:
     displayHeight: 86.25
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 43.125
@@ -2589,32 +2589,32 @@ billboards:
     height: 88
     sha256: dd69c84c8f4641c91b0a93c0ea950d3b1cc1e9614286cc7bf33adc06ddca9eff
   modeling:
-    purpose: 버섯 · 분해·그늘 식생
-    recommended_uses:
-    - 나무 그늘의 작은 포인트
-    composition: 그늘·고목 주변에 작은 무리로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 갈색 갓을 가진 크기가 다른 버섯들이 이끼와 낙엽 위에 모여 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 버섯 · 분해·그늘 식생
+    composition: 그늘·고목 주변에 작은 무리로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 98338d0bd77b9646cc9363e2329ae07e5f7967d42519ffda443c70fb86ce0653
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 98338d0bd77b9646cc9363e2329ae07e5f7967d42519ffda443c70fb86ce0653
+    recommended_uses:
+    - 나무 그늘의 작은 포인트
+    visual_description: 갈색 갓을 가진 크기가 다른 버섯들이 이끼와 낙엽 위에 모여 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2627,10 +2627,10 @@ billboards:
     displayHeight: 88.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 44.0
@@ -2653,32 +2653,32 @@ billboards:
     height: 89
     sha256: f3f10d78c95d3614e4a1b79042653b8975ea32d3da4585210e860f395298d31e
   modeling:
-    purpose: 버섯 · 분해·그늘 식생
-    recommended_uses:
-    - 나무 그늘의 작은 포인트
-    composition: 그늘·고목 주변에 작은 무리로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 넓고 물결치는 황갈색 갓과 굵은 밝은 줄기를 가진 버섯 한 개다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 버섯 · 분해·그늘 식생
+    composition: 그늘·고목 주변에 작은 무리로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: f197de051fa2c327b2ac63bfb83cd454e6d4872df54e70fd10f5d64192152f90
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: f197de051fa2c327b2ac63bfb83cd454e6d4872df54e70fd10f5d64192152f90
+    recommended_uses:
+    - 나무 그늘의 작은 포인트
+    visual_description: 넓고 물결치는 황갈색 갓과 굵은 밝은 줄기를 가진 버섯 한 개다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2686,15 +2686,15 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.mushroom-variant-2-v1
     anchorX: 0.01
     anchorY: -0.2
-    displayHeight: 89.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
+    displayHeight: 89.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 44.5
@@ -2715,32 +2715,32 @@ billboards:
     height: 86
     sha256: 9e43f727b8ea1622abd2a806aba50ae362a62082400791fa411bc488b744b53e
   modeling:
-    purpose: 버섯 · 분해·그늘 식생
-    recommended_uses:
-    - 나무 그늘의 작은 포인트
-    composition: 그늘·고목 주변에 작은 무리로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 갈색 점이 있는 크림색 갓들이 높낮이를 달리하며 낙엽 위에 모여 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 버섯 · 분해·그늘 식생
+    composition: 그늘·고목 주변에 작은 무리로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 0bb20fee04bc8b4d2cf7073d90b0eb5f208913532ffe01d0ba5bffcc77a0214c
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 0bb20fee04bc8b4d2cf7073d90b0eb5f208913532ffe01d0ba5bffcc77a0214c
+    recommended_uses:
+    - 나무 그늘의 작은 포인트
+    visual_description: 갈색 점이 있는 크림색 갓들이 높낮이를 달리하며 낙엽 위에 모여 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2753,10 +2753,10 @@ billboards:
     displayHeight: 86.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 43.0
@@ -2777,32 +2777,32 @@ billboards:
     height: 80
     sha256: 41ffefb3021f37973fac53b61cc4f3e6dd04c898e37b91a1363d7092748d6355
   modeling:
-    purpose: 그루터기 · 숲 바닥 잔해
-    recommended_uses:
-    - 벌목·수목 관리 흔적
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 밝은 절단면에 나이테와 균열이 보이고 굵은 뿌리가 사방으로 뻗은 그루터기다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 그루터기 · 숲 바닥 잔해
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 9284ab35a5b8616ba45fa28ce0d6c938e4f9da5666bf367883051672d38a680f
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 9284ab35a5b8616ba45fa28ce0d6c938e4f9da5666bf367883051672d38a680f
+    recommended_uses:
+    - 벌목·수목 관리 흔적
+    visual_description: 밝은 절단면에 나이테와 균열이 보이고 굵은 뿌리가 사방으로 뻗은 그루터기다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2815,10 +2815,10 @@ billboards:
     displayHeight: 81.25
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 40.625
@@ -2843,32 +2843,32 @@ billboards:
     height: 114
     sha256: fd69479ca05a0e220876f4b3e25a8a1fa8b62edd6b1c7aa81baad8686cea08b2
   modeling:
-    purpose: 큰 형태 마른 관목 · 관목·경계 식생
-    recommended_uses:
-    - 건조 구역 강조
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 굵고 짧은 갈색 가지 끝에 말린 누런 잎이 몇 장 붙어 있는 작은 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 큰 형태 마른 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 6653aa21971ad1b199ff09696ef8b03e2d974feeae96c48ef695b97eeee10b6b
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 6653aa21971ad1b199ff09696ef8b03e2d974feeae96c48ef695b97eeee10b6b
+    recommended_uses:
+    - 건조 구역 강조
+    visual_description: 굵고 짧은 갈색 가지 끝에 말린 누런 잎이 몇 장 붙어 있는 작은 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2881,10 +2881,10 @@ billboards:
     displayHeight: 114.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 57.0
@@ -2905,32 +2905,32 @@ billboards:
     height: 113
     sha256: 076f6eacf011518db0994fca5f60406fadedfdda040f08373edd3df135f65981
   modeling:
-    purpose: 큰 형태 버섯 · 분해·그늘 식생
-    recommended_uses:
-    - 그늘 구역 강조
-    composition: 그늘·고목 주변에 작은 무리로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 주황빛 갈색 갓 세 개와 굵은 밝은 줄기, 큰 녹색 밑잎으로 구성된 버섯 군집이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 큰 형태 버섯 · 분해·그늘 식생
+    composition: 그늘·고목 주변에 작은 무리로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 26f79345eeffeccbaa6709601a9d51aea8e8ca91593ea9d2fed63b386e7ef68c
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 26f79345eeffeccbaa6709601a9d51aea8e8ca91593ea9d2fed63b386e7ef68c
+    recommended_uses:
+    - 그늘 구역 강조
+    visual_description: 주황빛 갈색 갓 세 개와 굵은 밝은 줄기, 큰 녹색 밑잎으로 구성된 버섯 군집이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -2943,10 +2943,10 @@ billboards:
     displayHeight: 95.34
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 47.67
@@ -2971,32 +2971,32 @@ billboards:
     height: 113
     sha256: 0419af05dbe1560d47d6d5702b6eec18488f916a2d4c8d605357f3786cb0b384
   modeling:
-    purpose: 큰 형태 관목 · 관목·경계 식생
-    recommended_uses:
-    - 수목 아래 읽기 쉬운 관목
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 밝은 황록색 잎 덩어리 여러 개가 둥글게 모여 짧은 줄기를 덮고 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 큰 형태 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 04eb2d3537c4da32d09028f3548c70347fc7f39dfeb315d34eda0ef441a4fb7d
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 04eb2d3537c4da32d09028f3548c70347fc7f39dfeb315d34eda0ef441a4fb7d
+    recommended_uses:
+    - 수목 아래 읽기 쉬운 관목
+    visual_description: 밝은 황록색 잎 덩어리 여러 개가 둥글게 모여 짧은 줄기를 덮고 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3009,10 +3009,10 @@ billboards:
     displayHeight: 105.94
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 52.97
@@ -3037,33 +3037,33 @@ billboards:
     height: 75
     sha256: 6156951068ffa2e34091db7a66a0f06e57cab1a09bc7f0d4f7a2cd0e08cac25c
   modeling:
-    purpose: 바위틈 마른 풀·백리향 · vegetation
-    recommended_uses:
-    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
+      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
       current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
         직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
         미지원.
-      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
       baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
         확정한다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      guidance_only: true
-    visual_description: 낮은 밝은 회색 바위 틈에 누런 마른 풀과 작은 회녹색 식물이 자란다.
+    purpose: 바위틈 마른 풀·백리향 · vegetation
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 2ae65bdcc6c5a1689a6a0989589125ce69bd9c4d3df9b212f9b6f4a68cecf49f
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 2ae65bdcc6c5a1689a6a0989589125ce69bd9c4d3df9b212f9b6f4a68cecf49f
+    recommended_uses:
+    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
+    visual_description: 낮은 밝은 회색 바위 틈에 누런 마른 풀과 작은 회녹색 식물이 자란다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3076,10 +3076,10 @@ billboards:
     displayHeight: 80.27
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 40.135
@@ -3104,32 +3104,32 @@ billboards:
     height: 108
     sha256: b64e3bd500377b01533003639d22c58f4112c5e87ba98570ec0ecd98470976ba
   modeling:
-    purpose: 묘목 · 낮은 식생·회복 식생
-    recommended_uses:
-    - 성장 단계가 다른 수목 배치
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 가는 갈색 줄기에 잎 몇 장과 작은 흰 꽃이 달린 어린 나무다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 묘목 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 23e149d8165c8109748e2855e8586fa178826a27af4b25f6a3304e9243f1b7b5
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 23e149d8165c8109748e2855e8586fa178826a27af4b25f6a3304e9243f1b7b5
+    recommended_uses:
+    - 성장 단계가 다른 수목 배치
+    visual_description: 가는 갈색 줄기에 잎 몇 장과 작은 흰 꽃이 달린 어린 나무다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3142,10 +3142,10 @@ billboards:
     displayHeight: 151.88
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.5
     shadowOffsetRow: 0.5
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 75.94
@@ -3168,32 +3168,32 @@ billboards:
     height: 110
     sha256: 153d637e9e0d5cacbe68e62729e75bec77fed3aadb796099b09e3bf2a552ae2f
   modeling:
-    purpose: 묘목 · 낮은 식생·회복 식생
-    recommended_uses:
-    - 성장 단계가 다른 수목 배치
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 세로로 긴 가는 줄기에 작은 녹색 잎과 주황빛 열매가 성기게 달려 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 묘목 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 2223e85e558fdd418e172d1098dcfddd9a3e290a71e2a50b7cebf3d4b7892938
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 2223e85e558fdd418e172d1098dcfddd9a3e290a71e2a50b7cebf3d4b7892938
+    recommended_uses:
+    - 성장 단계가 다른 수목 배치
+    visual_description: 세로로 긴 가는 줄기에 작은 녹색 잎과 주황빛 열매가 성기게 달려 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3206,10 +3206,10 @@ billboards:
     displayHeight: 154.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 77.345
@@ -3228,10 +3228,6 @@ billboards:
     height: 97
     sha256: bc2b7ec516d023c08c4e1437cc0d1cc9d859765d4d46b118987b1d525f5737ab
   modeling:
-    purpose: '짧게 가지 친 어린 과수 묘목: 회복·재식 식생'
-    recommended_uses:
-    - '짧게 가지 친 어린 과수 묘목: 회복·재식 식생'
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -3239,22 +3235,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-8dae9152-1033-43ec-abb2-ada4da51aa3e.png
       · 기록 SHA-256 d3862e809680f6782f3f81e9258d35a2bcddee02bb786f4b99765bf480e9362d'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 낮게 갈라진 가지에 여러 주황빛 열매와 녹색 잎이 달린 작은 과수다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '짧게 가지 친 어린 과수 묘목: 회복·재식 식생'
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: bb23186639a5f6af28326ede1f41f2d7c4d145a5277a9fe8a71d4064440903f3
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: bb23186639a5f6af28326ede1f41f2d7c4d145a5277a9fe8a71d4064440903f3
+    recommended_uses:
+    - '짧게 가지 친 어린 과수 묘목: 회복·재식 식생'
+    visual_description: 낮게 갈라진 가지에 여러 주황빛 열매와 녹색 잎이 달린 작은 과수다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3267,10 +3267,10 @@ billboards:
     displayHeight: 136.41
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.5
     shadowOffsetRow: 0.5
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 68.205
@@ -3291,32 +3291,32 @@ billboards:
     height: 78
     sha256: 6ac7d45613c1a5ce8fb86183fd62db6fd2d72c5baba9dc1b4c06e22c2de664ba
   modeling:
-    purpose: 그루터기 · 숲 바닥 잔해
-    recommended_uses:
-    - 벌목·수목 관리 흔적
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 이끼 낀 수피와 뻗은 뿌리 위에 밝은 원형 절단면이 있는 작은 그루터기다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 그루터기 · 숲 바닥 잔해
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 71b197fc00d72f36aa2b6cdadedf615be0fa182930ab8d55380bc60283828e9a
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 71b197fc00d72f36aa2b6cdadedf615be0fa182930ab8d55380bc60283828e9a
+    recommended_uses:
+    - 벌목·수목 관리 흔적
+    visual_description: 이끼 낀 수피와 뻗은 뿌리 위에 밝은 원형 절단면이 있는 작은 그루터기다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3329,10 +3329,10 @@ billboards:
     displayHeight: 79.22
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.5
     shadowOffsetRow: 0.5
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 39.61
@@ -3351,10 +3351,6 @@ billboards:
     height: 80
     sha256: d47e3aed34279bc64afc276aa5ef9944e4868d89f5f9cf1b7950f8953b3e3c3d
   modeling:
-    purpose: '풍화되거나 부러진 그루터기: 통행을 막는 숲 잔해'
-    recommended_uses:
-    - '풍화되거나 부러진 그루터기: 통행을 막는 숲 잔해'
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -3362,22 +3358,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-38b3c7a2-b216-46ed-91e8-b4436df74890.png
       · 기록 SHA-256 e6c6fe114c06427dd736b662d213df6c1f64a71f75a38e51d8f2e3c302a5ab03'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 넓은 절단면과 옆의 작은 버섯, 녹색 이끼가 붙은 낮고 굵은 그루터기다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '풍화되거나 부러진 그루터기: 통행을 막는 숲 잔해'
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 86e8b705a4abd95f50b282cb67e007f284737cbf31127456f8168848cd322c06
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 86e8b705a4abd95f50b282cb67e007f284737cbf31127456f8168848cd322c06
+    recommended_uses:
+    - '풍화되거나 부러진 그루터기: 통행을 막는 숲 잔해'
+    visual_description: 넓은 절단면과 옆의 작은 버섯, 녹색 이끼가 붙은 낮고 굵은 그루터기다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3390,10 +3390,10 @@ billboards:
     displayHeight: 81.25
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 40.625
@@ -3412,10 +3412,6 @@ billboards:
     height: 103
     sha256: f767066543a7ba82cc22ba15d12b3f1d3bae2610ec8583010f3af763b90ee529
   modeling:
-    purpose: '풍화되거나 부러진 그루터기: 통행을 막는 숲 잔해'
-    recommended_uses:
-    - '풍화되거나 부러진 그루터기: 통행을 막는 숲 잔해'
-    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
@@ -3423,22 +3419,26 @@ billboards:
     basis: '과수원 식생 80종의 개별 생성 프롬프트와 원본 실루엣 확인. 출처: exec-e9346820-30f7-4633-812b-ef7a8e49ee4b.png
       · 기록 SHA-256 a745b8c27504a03b156a147846381f6faf5f6a33d0c224adb9737fb39741bd76'
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 끝이 뾰족하게 부러진 가느다란 나무 밑동에 이끼와 뿌리가 붙어 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: '풍화되거나 부러진 그루터기: 통행을 막는 숲 잔해'
+    composition: 수목 아래·군락 가장자리에 배치하고 방향·형태 변형을 섞는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: a6fe58821c8211dde47521608bd2811c3b640055229899f997b5b57dd381239f
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: a6fe58821c8211dde47521608bd2811c3b640055229899f997b5b57dd381239f
+    recommended_uses:
+    - '풍화되거나 부러진 그루터기: 통행을 막는 숲 잔해'
+    visual_description: 끝이 뾰족하게 부러진 가느다란 나무 밑동에 이끼와 뿌리가 붙어 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3451,10 +3451,10 @@ billboards:
     displayHeight: 104.61
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.5
     shadowOffsetRow: 0.5
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 52.305
@@ -3475,33 +3475,33 @@ billboards:
     height: 117
     sha256: b3f01d86b83fd8aa3657daeabfc942f0dc1c96b1ce77c33a70508087b3c40d09
   modeling:
-    purpose: 초록 들울타리 · 낮은 식생·회복 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 작은 밝은 잎이 빽빽한 직사각형 덩어리를 이루는 낮은 생울타리다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 초록 들울타리 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 937f9c88d4b834521770cbff34a9da9a1a9d59ee540c1113f1aa61859879b9d9
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 937f9c88d4b834521770cbff34a9da9a1a9d59ee540c1113f1aa61859879b9d9
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 작은 밝은 잎이 빽빽한 직사각형 덩어리를 이루는 낮은 생울타리다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3514,10 +3514,10 @@ billboards:
     displayHeight: 137.11
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 68.555
@@ -3540,33 +3540,33 @@ billboards:
     height: 113
     sha256: a91d79dccb9f4c65b1b82b8942813a338ac5b9428142744f67c7b029f24f65b9
   modeling:
-    purpose: 개암잎 관목 · 낮은 식생·회복 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 둥근 황록색 잎이 여러 층으로 겹친 구형 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 개암잎 관목 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: cb32378ec11ae22dfb00c3ba2859513d9f4764d7c4e011671cabe6a7a29c4ed1
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: cb32378ec11ae22dfb00c3ba2859513d9f4764d7c4e011671cabe6a7a29c4ed1
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 둥근 황록색 잎이 여러 층으로 겹친 구형 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3579,10 +3579,10 @@ billboards:
     displayHeight: 132.42
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 66.21
@@ -3603,33 +3603,33 @@ billboards:
     height: 125
     sha256: c7a48fdb0a971279c101033c25a9888c18865515b2708b92c2167218f0eae6d2
   modeling:
-    purpose: 산딸기 관목 · 낮은 식생·회복 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 큰 녹색 잎 사이에 붉은 열매 송이가 달린 둥근 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 산딸기 관목 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: a552b2bd36aca28a2c0dc0dcea8eea6d7b3b4357bd58527c7387ed7bd9ef0c8f
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: a552b2bd36aca28a2c0dc0dcea8eea6d7b3b4357bd58527c7387ed7bd9ef0c8f
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 큰 녹색 잎 사이에 붉은 열매 송이가 달린 둥근 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3642,10 +3642,10 @@ billboards:
     displayHeight: 145.51
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 72.755
@@ -3674,32 +3674,32 @@ billboards:
     height: 85
     sha256: c9c76d2f07433d1eeefdc0ddb80a069b657b1d9ee72607e825675db22b320230
   modeling:
-    purpose: 약초 화분 · vegetation
-    recommended_uses:
-    - 건물 주변 녹지
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 직사각 목재 화분에 작은 흰 꽃과 서로 다른 모양의 녹색 허브가 자란다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 약초 화분 · vegetation
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: ab5c4f0c3900e877383ec25702507d69049c8c2fa290a1052e0fc5a6576e7dab
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: ab5c4f0c3900e877383ec25702507d69049c8c2fa290a1052e0fc5a6576e7dab
+    recommended_uses:
+    - 건물 주변 녹지
+    visual_description: 직사각 목재 화분에 작은 흰 꽃과 서로 다른 모양의 녹색 허브가 자란다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3707,15 +3707,15 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.town-herb-planter-v1
     anchorX: 0.0
     anchorY: 0.35
-    displayHeight: 99.61
     groundFootprintColumns: 1
     groundFootprintRows: 1
+    displayHeight: 99.61
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.5
     shadowOffsetRow: 0.5
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 49.805
@@ -3736,33 +3736,33 @@ billboards:
     height: 114
     sha256: 406a04d8e5fcc3e0b914ce4988247fd4cd58a07dffa3405a29170a1ecd015908
   modeling:
-    purpose: 붉은 열매 관목 · 관목·경계 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 밝은 녹색 잎 덩어리 사이에 선명한 붉은 열매 송이가 여러 곳 달려 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 붉은 열매 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 7919ca7adee116f50cebdeaccf48956caf340b16b78e6f86de20e732808dc899
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 7919ca7adee116f50cebdeaccf48956caf340b16b78e6f86de20e732808dc899
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 밝은 녹색 잎 덩어리 사이에 선명한 붉은 열매 송이가 여러 곳 달려 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3775,10 +3775,10 @@ billboards:
     displayHeight: 133.59
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 66.795
@@ -3799,33 +3799,33 @@ billboards:
     height: 119
     sha256: 5953a6f7ca066e8e1d6950c66cf837361b83f794d3c6c5e5a0e7ffa6d0fd543e
   modeling:
-    purpose: 분홍 장미 관목 · 관목·경계 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 둥근 녹색 관목 표면에 큰 분홍 장미와 작은 꽃봉오리가 흩어져 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 분홍 장미 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 4be19ef0ccd3099c3b5db10f3b65d18de5426c06bb15e393d6b86d741f366c44
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 4be19ef0ccd3099c3b5db10f3b65d18de5426c06bb15e393d6b86d741f366c44
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 둥근 녹색 관목 표면에 큰 분홍 장미와 작은 꽃봉오리가 흩어져 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3838,10 +3838,10 @@ billboards:
     displayHeight: 139.45
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 69.725
@@ -3862,33 +3862,33 @@ billboards:
     height: 104
     sha256: bc80432ad599d44e8e446494f110441a90fc6c798118b265398d79c5e04a760a
   modeling:
-    purpose: 흰꽃 생울타리 · 관목·경계 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 촘촘한 녹색 잎의 둥근 관목에 작은 흰 꽃과 연노란 봉오리가 섞여 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 흰꽃 생울타리 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 79608e728100952706b93c14d99f05451f83f10d353d3b51beaf6ba46de84d62
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 79608e728100952706b93c14d99f05451f83f10d353d3b51beaf6ba46de84d62
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 촘촘한 녹색 잎의 둥근 관목에 작은 흰 꽃과 연노란 봉오리가 섞여 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3901,10 +3901,10 @@ billboards:
     displayHeight: 121.88
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 60.94
@@ -3925,33 +3925,33 @@ billboards:
     height: 115
     sha256: 79536525e72e855b170cae65a7422e6edb62401c89b60dea90a7d20fbabdeeb1
   modeling:
-    purpose: 물가 박하 관목 · 낮은 식생·회복 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 결이 선명한 청록색·녹색 둥근 잎들이 빽빽한 관목을 이룬다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 물가 박하 관목 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 7b714a4c5dc474f60c34dda79c8144584ffb8ec66609baef0e503e3daa9763dd
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 7b714a4c5dc474f60c34dda79c8144584ffb8ec66609baef0e503e3daa9763dd
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 결이 선명한 청록색·녹색 둥근 잎들이 빽빽한 관목을 이룬다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -3964,10 +3964,10 @@ billboards:
     displayHeight: 107.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 53.905
@@ -3988,33 +3988,33 @@ billboards:
     height: 120
     sha256: 4e9531893cdde367464d144643b07b77edbb48b041728bccae07dfa77abb562f
   modeling:
-    purpose: 버들잎 관목 · 낮은 식생·회복 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 가늘고 긴 녹색 잎이 아래로 늘어지는 가지들이 넓게 퍼진 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 버들잎 관목 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 9b40a366ca041e35ddcae68b1b17e4eadc4942a1c31877760a9d62697a231aa2
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 9b40a366ca041e35ddcae68b1b17e4eadc4942a1c31877760a9d62697a231aa2
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 가늘고 긴 녹색 잎이 아래로 늘어지는 가지들이 넓게 퍼진 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4027,10 +4027,10 @@ billboards:
     displayHeight: 140.63
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 70.315
@@ -4051,33 +4051,33 @@ billboards:
     height: 119
     sha256: c04615633dee80a3b414f75451b415b2ffbe20e07225e738a64fc6ab9f133b47
   modeling:
-    purpose: 해안 은빛 관목 · 관목·경계 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 작고 길쭉한 은회색 잎이 갈색 가지를 따라 조밀하게 붙은 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 해안 은빛 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: e7920b9f61a22fb296b243096f0aeede62c5c2d93e5da8368349278ee3221b83
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: e7920b9f61a22fb296b243096f0aeede62c5c2d93e5da8368349278ee3221b83
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 작고 길쭉한 은회색 잎이 갈색 가지를 따라 조밀하게 붙은 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4090,10 +4090,10 @@ billboards:
     displayHeight: 139.45
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 69.725
@@ -4114,33 +4114,33 @@ billboards:
     height: 123
     sha256: 879331dfb4149b2f50a01585f8709a6c8d0529e8e36a72b2b2be0c498953dbb2
   modeling:
-    purpose: 연분홍 해안 헤더 · vegetation
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 작은 분홍 꽃들이 긴 줄기를 따라 촘촘히 피어 있는 둥근 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 연분홍 해안 헤더 · vegetation
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 6ffacce212d0cd9f24a941c0fff5f273ade1d76baf5bb984f5c9efab37b7a5ae
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 6ffacce212d0cd9f24a941c0fff5f273ade1d76baf5bb984f5c9efab37b7a5ae
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 작은 분홍 꽃들이 긴 줄기를 따라 촘촘히 피어 있는 둥근 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4153,10 +4153,10 @@ billboards:
     displayHeight: 123.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 61.5
@@ -4177,33 +4177,33 @@ billboards:
     height: 117
     sha256: 3182748bede1df557cb6a40c1e760e1f5ac78e1e4becd40dc7cadf8c6357df18
   modeling:
-    purpose: 두꺼운잎 관목 · 관목·경계 식생
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 윤기가 있는 두꺼운 황록색 잎이 위로 모이는 둥근 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 두꺼운잎 관목 · 관목·경계 식생
+    composition: 나무와 낮은 풀 사이를 연결하며 주요 이동 동선을 가리지 않는다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 4fb39135be5d9923e2a4d5f2581f35bc85282054ba89955c6fd2756396d9135a
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 4fb39135be5d9923e2a4d5f2581f35bc85282054ba89955c6fd2756396d9135a
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 윤기가 있는 두꺼운 황록색 잎이 위로 모이는 둥근 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4216,10 +4216,10 @@ billboards:
     displayHeight: 109.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 54.845
@@ -4240,33 +4240,33 @@ billboards:
     height: 115
     sha256: 5e0191c1dfce64b1247f7322eec980bc32538b0d0dd27de02ecb572ecfb6ee5b
   modeling:
-    purpose: 구릿빛 잎 관목 · 암석·지질 지표
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 녹색 잎 사이에 구리색·주황색 새잎이 섞여 있는 둥근 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 구릿빛 잎 관목 · 암석·지질 지표
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 2af147bd60430b56321711d4437e5287cef023c3a488b797ba91adbee62ac73d
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 2af147bd60430b56321711d4437e5287cef023c3a488b797ba91adbee62ac73d
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 녹색 잎 사이에 구리색·주황색 새잎이 섞여 있는 둥근 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4279,10 +4279,10 @@ billboards:
     displayHeight: 134.77
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 67.385
@@ -4303,33 +4303,33 @@ billboards:
     height: 119
     sha256: 0835d304008b113135ef16407f7009f2387af6e111a6695603869eec15cb9090
   modeling:
-    purpose: 갈색 헤더 · 암석·지질 지표
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 짙은 녹색 관목 위로 붉은 갈색 꽃대들이 뾰족하게 솟아 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 갈색 헤더 · 암석·지질 지표
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: a0328a3275064bcaa37c47294732ac9aea3db5108701ee7713874b224b555674
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: a0328a3275064bcaa37c47294732ac9aea3db5108701ee7713874b224b555674
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 짙은 녹색 관목 위로 붉은 갈색 꽃대들이 뾰족하게 솟아 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4342,10 +4342,10 @@ billboards:
     displayHeight: 111.56
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 55.78
@@ -4370,33 +4370,33 @@ billboards:
     height: 111
     sha256: 40b691c841b0ae4f12c711fcbf83ba196d9378b308cbe17d4e5d1ba305bdbbf1
   modeling:
-    purpose: 은빛 세이지 · 암석·지질 지표
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 길쭉한 은회색 잎이 조밀하게 겹친 밝은 색 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 은빛 세이지 · 암석·지질 지표
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: e729f342861277956d88391ff9ef4c2c632c7c15cf90ab81437b6cb7d996aae6
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: e729f342861277956d88391ff9ef4c2c632c7c15cf90ab81437b6cb7d996aae6
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 길쭉한 은회색 잎이 조밀하게 겹친 밝은 색 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4409,10 +4409,10 @@ billboards:
     displayHeight: 104.06
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 52.03
@@ -4433,33 +4433,33 @@ billboards:
     height: 121
     sha256: 61202f7b18812f4e0acc80b5dadff911bb20d52cec53dd5c7a35e4c44cd6bcdd
   modeling:
-    purpose: 작은 향나무 관목 · 암석·지질 지표
-    recommended_uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 짙은 청록색 침엽과 밝은 녹색 새순이 위로 뻗는 원뿔형 관목이다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 작은 향나무 관목 · 암석·지질 지표
+    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 7c80785cf62226b42e34b2ea7949e70540476498f977cdff6b71b940a9b56633
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 7c80785cf62226b42e34b2ea7949e70540476498f977cdff6b71b940a9b56633
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: 짙은 청록색 침엽과 밝은 녹색 새순이 위로 뻗는 원뿔형 관목이다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4472,10 +4472,10 @@ billboards:
     displayHeight: 113.44
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 56.72
@@ -4496,32 +4496,32 @@ billboards:
     height: 85
     sha256: 3bb66c775c9eff31f9e4c0d2ed14234488778c62e4e15ca19bcfb78e3c510a33
   modeling:
-    purpose: 채소 재배 상자 · vegetation
-    recommended_uses:
-    - 주거·농업 구역
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 네모난 목재 화단에 둥근 양배추와 작은 잎채소·붉은 뿌리채소가 줄지어 있다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 채소 재배 상자 · vegetation
+    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: a9daf0de75249794961564662a5ca1aae86b0c520608e63c5293a32f02429266
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: a9daf0de75249794961564662a5ca1aae86b0c520608e63c5293a32f02429266
+    recommended_uses:
+    - 주거·농업 구역
+    visual_description: 네모난 목재 화단에 둥근 양배추와 작은 잎채소·붉은 뿌리채소가 줄지어 있다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4529,15 +4529,15 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.town-vegetable-planter-v1
     anchorX: 0.02
     anchorY: 0.34
-    displayHeight: 79.69
     groundFootprintColumns: 1
     groundFootprintRows: 1
+    displayHeight: 79.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.5
     shadowOffsetRow: 0.5
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 39.845
@@ -4564,32 +4564,32 @@ billboards:
     height: 92
     sha256: a9907b7f877870bc5da7424d50bb4c43e218e6ea3cf85da1ed1489eb8493b774
   modeling:
-    purpose: 묘목 · 낮은 식생·회복 식생
-    recommended_uses:
-    - 성장 단계가 다른 수목 배치
-    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     avoid:
     - 접지 영역의 서로 다른 고도
     - 다른 오브젝트의 접지 점유와 중첩
     - 출입구·시작점·주요 이동로 점유
     basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-v2
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
       contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
-    visual_description: 잎 몇 장이 달린 가늘고 비스듬한 갈색 줄기의 어린 나무다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 묘목 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
     visual_review:
-      status: 원본 이미지 육안 확인
       date: '2026-10-22'
-      source_sha256: 4f28e4fadf3a6fec7c94978a9cfa752aed1e9ba97e4e6702ef16af86a3096efc
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
       scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+      status: 원본 이미지 육안 확인
+      source_sha256: 4f28e4fadf3a6fec7c94978a9cfa752aed1e9ba97e4e6702ef16af86a3096efc
+    recommended_uses:
+    - 성장 단계가 다른 수목 배치
+    visual_description: 잎 몇 장이 달린 가늘고 비스듬한 갈색 줄기의 어린 나무다.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
@@ -4602,10 +4602,10 @@ billboards:
     displayHeight: 107.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
     shadowOffsetColumn: 0.3
     shadowOffsetRow: 0.3
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 53.905

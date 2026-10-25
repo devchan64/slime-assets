@@ -571,7 +571,7 @@ assets:
 - managementId: config.field-tiles.ash-edge
   version: 2026-10-20-ash-recovery-v1
   path: assets/maps/field_tiles/ash-edge.yaml
-  sha256: 745414cdcde264616f4295f4c2e9b26868c7042c0a1c1f6ad696f7f28f7f2442
+  sha256: bb0bcb52718bfd2cd35a5b2f341763e740cda13a517c4655e913e44c7ced80aa
   source:
     repository: slime-backend
     path: config/field_tiles/ash-edge.yaml
@@ -595,7 +595,7 @@ assets:
 - managementId: config.field-tiles.cinder-path
   version: cinder-remodel-v1-basalt-ground-v1-ridge-remodel-v1-access-v1
   path: assets/maps/field_tiles/cinder-path.yaml
-  sha256: 6205160eb72b9f6e0aa9e16fd03fda2ab6427fc62521f6faaa0d950e5922570a
+  sha256: 7ca290a81596667e955dc5ccd385033a195e574e874b89b9d25f246b0b97ac3c
   source:
     repository: slime-backend
     path: config/field_tiles/cinder-path.yaml
@@ -701,7 +701,7 @@ assets:
 - managementId: config.field-tiles.old-orchard
   version: retire-stump-v1
   path: assets/maps/field_tiles/old-orchard.yaml
-  sha256: d07528ac10e9aff4fb0cead001caf497043daee33bf27b53591933d773ef15bb
+  sha256: 73ee1fdef50ab39a8c16ecd983979b8aab25b33c5ac180fa15131f081c8dfda5
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/old-orchard.yaml
@@ -1687,7 +1687,7 @@ assets:
 - managementId: config.field-tiles.granary-flats
   version: shared-material-codes-v1-granary-v1-wheat-v1
   path: assets/maps/field_tiles/granary-flats.yaml
-  sha256: 1938ce33dcdf24046fcc44da4087b3d6a3a61ccc98f8f04c796eb6b25e17a8c8
+  sha256: 9252f9b1487f3967a0da8a1b7798847d8f67a77f3e891209d6452875bfabbb0e
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/granary-flats.yaml
@@ -6526,7 +6526,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: ee69476081015d08f4784bf29ff888ac0f3a5cc566f5968a03d43ef971db057c
+  sha256: 77e50b254b86e13a452444e181110f81a97c79364612bc1ca0795bff1789184e
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8823,7 +8823,6 @@ assets:
     repository: slime-workflow
     path: .tmp/test/old-boundary-gate-pillars/reference.png
     operation: 사용자 첨부 원본 좌우 분리, 알파 5 이하 외곽 크롭, 비율 유지 긴 변 512px 축소
-
 - managementId: audio.bgm.iseulon.mr.mp3
   version: v4
   path: assets/audio/bgm/iseulon/v4/iseulon-mr.mp3
@@ -8903,7 +8902,6 @@ assets:
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 67.76
     bitrate_kbps: 320
-
 - managementId: audio.bgm.iseulon.vocal.mp3
   version: v4
   path: assets/audio/bgm/iseulon/v4/iseulon-vocal.mp3
@@ -8928,7 +8926,6 @@ assets:
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 79.44
     title: 초원길 끝의 저녁 (보컬)
-
 - managementId: audio.bgm.grove.vocal.mp3
   version: v1
   path: assets/audio/bgm/grove/v1/grove-vocal.mp3
@@ -8941,7 +8938,6 @@ assets:
     operation: 사용자 승인 · 푸른 숲 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 68.95997916666667
-
 - managementId: audio.bgm.grove.instrumental.mp3
   version: v1
   path: assets/audio/bgm/grove/v1/grove-instrumental.mp3
@@ -8954,7 +8950,6 @@ assets:
     operation: 사용자 승인 · 푸른 숲 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 68.95997916666667
-
 - managementId: audio.bgm.cinder-path.vocal.mp3
   version: v1
   path: assets/audio/bgm/cinder-path/v1/cinder-path-vocal.mp3
@@ -8967,7 +8962,6 @@ assets:
     operation: 사용자 승인 · 식은 잿길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 91.84
-
 - managementId: audio.bgm.cinder-path.instrumental.mp3
   version: v1
   path: assets/audio/bgm/cinder-path/v1/cinder-path-instrumental.mp3
@@ -8980,7 +8974,6 @@ assets:
     operation: 사용자 승인 · 식은 잿길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 91.84
-
 - managementId: audio.bgm.clover-bank.vocal.mp3
   version: v1
   path: assets/audio/bgm/clover-bank/v1/clover-bank-vocal.mp3
@@ -8993,7 +8986,6 @@ assets:
     operation: 사용자 승인 · 토끼풀 언덕 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 66.95997916666667
-
 - managementId: audio.bgm.clover-bank.instrumental.mp3
   version: v1
   path: assets/audio/bgm/clover-bank/v1/clover-bank-instrumental.mp3
@@ -9006,7 +8998,6 @@ assets:
     operation: 사용자 승인 · 토끼풀 언덕 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 66.95997916666667
-
 - managementId: audio.bgm.ash-edge.vocal.mp3
   version: v1
   path: assets/audio/bgm/ash-edge/v1/ash-edge-vocal.mp3
@@ -9019,7 +9010,6 @@ assets:
     operation: 사용자 승인 · 잿빛 숲가 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 105.92
-
 - managementId: audio.bgm.ash-edge.instrumental.mp3
   version: v1
   path: assets/audio/bgm/ash-edge/v1/ash-edge-instrumental.mp3
@@ -9032,7 +9022,6 @@ assets:
     operation: 사용자 승인 · 잿빛 숲가 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 105.92
-
 - managementId: audio.bgm.boar-ridge.vocal.mp3
   version: v1
   path: assets/audio/bgm/boar-ridge/v1/boar-ridge-vocal.mp3
@@ -9045,7 +9034,6 @@ assets:
     operation: 사용자 승인 · 강모 능선 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 114.48
-
 - managementId: audio.bgm.boar-ridge.instrumental.mp3
   version: v1
   path: assets/audio/bgm/boar-ridge/v1/boar-ridge-instrumental.mp3

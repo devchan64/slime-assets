@@ -6,3 +6,6 @@
 .env.*
 __pycache__/
 .DS_Store
+
+# 이전 세대 스냅샷은 원장이 아닌 로컬 전환 자료
+/snapshots/
