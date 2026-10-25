@@ -593,9 +593,9 @@ assets:
     path: config/field_tiles/broken-quarry.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.field-tiles.cinder-path
-  version: cinder-remodel-v1-basalt-ground-v1-ridge-remodel-v1
+  version: cinder-remodel-v1-basalt-ground-v1-ridge-remodel-v1-access-v1
   path: assets/maps/field_tiles/cinder-path.yaml
-  sha256: ba839218426473f0e510e579c053cb39046d62500a840932cc8bc1196070c484
+  sha256: 6205160eb72b9f6e0aa9e16fd03fda2ab6427fc62521f6faaa0d950e5922570a
   source:
     repository: slime-backend
     path: config/field_tiles/cinder-path.yaml
@@ -1159,9 +1159,9 @@ assets:
     path: config/terrain/maps/broken-quarry.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.terrain.maps.cinder-path
-  version: cinder-remodel-v1-ridge-remodel-v1
+  version: cinder-remodel-v1-ridge-remodel-v1-access-v1
   path: assets/maps/terrain/maps/cinder-path.yaml
-  sha256: a1b29f50631c2db25afe7c606d2104cc58f87bb8d5186e9d26d408fc31a710d3
+  sha256: 727b423e529fa0c4257f3be69142d6a3cbbf28ad6f88d2f44ea63a4b5e10cb80
   source:
     repository: slime-backend
     path: config/terrain/maps/cinder-path.yaml
