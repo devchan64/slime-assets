@@ -8836,12 +8836,12 @@ assets:
     duration_seconds: 68.95997916666667
     title: 버드나무 곁으로 (MR)
 - managementId: audio.map-bgm.catalog
-  version: v16
+  version: v26
   path: assets/audio/map-bgm.yaml
-  sha256: 5cd14463833016d7e3dd62a8ba538b6c19e9c1157577850c7cdec7af7aec1969
+  sha256: 33a92fc9f1403d4cfaa049af028f0207a02c52c6888bf31c53a8c11f9b95a897
   source:
     repository: slime-workflow
-    operation: 깨진 채석장 원곡·MR 배경음악 등록
+    operation: 갈대 여울 원곡·MR 배경음악 등록
 - managementId: audio.bgm.meadow.mr.mp3
   version: v4
   path: assets/audio/bgm/meadow/v4/meadow-mr.mp3
@@ -9065,7 +9065,6 @@ assets:
     operation: 사용자 승인 · 안개 호수 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 59.76
-
 - managementId: audio.bgm.mist-lake.instrumental.mp3
   version: v1
   path: assets/audio/bgm/mist-lake/v1/mist-lake-instrumental.mp3
@@ -9078,3 +9077,265 @@ assets:
     operation: 사용자 승인 · 안개 호수 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 59.76
+
+- managementId: audio.bgm.dawn-overlook.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/dawn-overlook/v1/dawn-overlook-vocal.mp3
+  sha256: 2f66f66a120218d9bf9f967d3b3d819b8cb36926f606579927e2ce940f034d1b
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-38-df5ba618
+    attempt: 9436afc52355452a82abc8bc28aeb466
+    title: 첫빛 아래 이어진 길 (보컬)
+    operation: 사용자 승인 · 새벽 전망대 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 63.76
+
+- managementId: audio.bgm.dawn-overlook.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/dawn-overlook/v1/dawn-overlook-instrumental.mp3
+  sha256: bab6e9a47c86a561540aa4fb007e1e8a4fac3c9a01f0092e535a65c2c28a4b0e
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-38-df5ba618
+    attempt: 9436afc52355452a82abc8bc28aeb466
+    title: 첫빛 아래 이어진 길 (MR)
+    operation: 사용자 승인 · 새벽 전망대 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 63.76
+
+- managementId: audio.bgm.dry-creek.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/dry-creek/v1/dry-creek-vocal.mp3
+  sha256: b766da547efa5cb426ffba82bcc45f54dc741081abd770b2f568f22dc4a0a6a6
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-38-d2e37619
+    attempt: f1abf46620cb48af8bafe521d41d42c4
+    title: 물길이 남긴 지도 (보컬)
+    operation: 사용자 승인 · 마른 개울 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 69.68
+
+- managementId: audio.bgm.dry-creek.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/dry-creek/v1/dry-creek-instrumental.mp3
+  sha256: b67e92be001b09996a78b7b0ed9c91937565f4ea5e868a07ae17d2315a361394
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-38-d2e37619
+    attempt: f1abf46620cb48af8bafe521d41d42c4
+    title: 물길이 남긴 지도 (MR)
+    operation: 사용자 승인 · 마른 개울 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 69.68
+
+- managementId: audio.bgm.moss-clearing.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/moss-clearing/v1/moss-clearing-vocal.mp3
+  sha256: 2b927a83e505403bea7354f79614223dbf53923e17a5c506bf8f4feeb0d529b3
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-39-0a644cd4
+    attempt: 81ac271010a743b797f848d6f20c3754
+    title: 다시 숨 쉬는 초록 (보컬)
+    operation: 사용자 승인 · 이끼 공터 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 94.64
+
+- managementId: audio.bgm.moss-clearing.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/moss-clearing/v1/moss-clearing-instrumental.mp3
+  sha256: 6d75a11be766a274bedaad997a43a1d2c5f02af6476d07705ad9e9869c2e0114
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-39-0a644cd4
+    attempt: 81ac271010a743b797f848d6f20c3754
+    title: 다시 숨 쉬는 초록 (MR)
+    operation: 사용자 승인 · 이끼 공터 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 94.64
+
+- managementId: audio.bgm.old-orchard.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/old-orchard/v1/old-orchard-vocal.mp3
+  sha256: 996d42dcae899482d1f0c9c37192844bbe84c5c4d612ad1af227b6b269858c86
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-39-8beb45cd
+    attempt: 5dca4f119dff414ea1bda39588121d21
+    title: 오래된 나무의 다정한 노래 (보컬)
+    operation: 사용자 승인 · 묵은 과수원 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 66.56
+
+- managementId: audio.bgm.old-orchard.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/old-orchard/v1/old-orchard-instrumental.mp3
+  sha256: ba26e218cd3ff46134c36ef5b6c038bbd7913684a297a34b88a6618444fa02da
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-39-8beb45cd
+    attempt: 5dca4f119dff414ea1bda39588121d21
+    title: 오래된 나무의 다정한 노래 (MR)
+    operation: 사용자 승인 · 묵은 과수원 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 66.56
+
+- managementId: audio.bgm.reedhaven.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/reedhaven/v1/reedhaven-vocal.mp3
+  sha256: b64f0afbc5b967631de39fac658789cbc4d4a08d8a320f909babecd4f3ffc101
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-39-58c062a4
+    attempt: c2b7c791785743399cd161f35c7acfe7
+    title: 물가에 남은 창빛 (보컬)
+    operation: 사용자 승인 · 갈대나루 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 107.2
+
+- managementId: audio.bgm.reedhaven.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/reedhaven/v1/reedhaven-instrumental.mp3
+  sha256: d484a4d130de911c7a59d06a084acd2efea250768e108f4c51ca0c8f5f508af8
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-39-58c062a4
+    attempt: c2b7c791785743399cd161f35c7acfe7
+    title: 물가에 남은 창빛 (MR)
+    operation: 사용자 승인 · 갈대나루 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 107.2
+
+- managementId: audio.bgm.stonewarm.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/stonewarm/v1/stonewarm-vocal.mp3
+  sha256: 849d891cdf7558fe81f9534346c922ccb4e06c2b2a0b0cd8f726d1524ca71a10
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-39-47078adb
+    attempt: 234c44787b3141f8a08f0a3223ab21f7
+    title: 돌벽에 남은 온기 (보컬)
+    operation: 사용자 승인 · 돌온재 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 76.64
+
+- managementId: audio.bgm.stonewarm.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/stonewarm/v1/stonewarm-instrumental.mp3
+  sha256: 807738967a65c431eae3543f169b9c3cd8336bb2e5b7f7f8c3b20b241f38e1ef
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-39-47078adb
+    attempt: 234c44787b3141f8a08f0a3223ab21f7
+    title: 돌벽에 남은 온기 (MR)
+    operation: 사용자 승인 · 돌온재 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 76.64
+
+- managementId: audio.bgm.mill-ridge.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/mill-ridge/v1/mill-ridge-vocal.mp3
+  sha256: 6d00487f25f1968194162d80c51e8034668b73927289319a88384e36c6355d5d
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-40-97defb88
+    attempt: a8115fbef07343ddb95919d86ca97a1a
+    title: 바람 속에 여민 걸음 (보컬)
+    operation: 사용자 승인 · 맷돌등성이 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 86.56
+
+- managementId: audio.bgm.mill-ridge.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/mill-ridge/v1/mill-ridge-instrumental.mp3
+  sha256: 6781625e01e808927f5e7e96d1a6b660dd884f35592d301b8bb4b018e7f76513
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-40-97defb88
+    attempt: a8115fbef07343ddb95919d86ca97a1a
+    title: 바람 속에 여민 걸음 (MR)
+    operation: 사용자 승인 · 맷돌등성이 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 86.56
+
+- managementId: audio.bgm.granary-flats.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/granary-flats/v1/granary-flats-vocal.mp3
+  sha256: 52b9a1cfb5cad2db7d91d6e1f490a105df5c3e31eed3a41697b898600f25d7fb
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-40-a5ded9fc
+    attempt: e4069113170548b0b6264fcd95d06d43
+    title: 황금 들녘의 쉼 (보컬)
+    operation: 사용자 승인 · 곡창들 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 105.84
+
+- managementId: audio.bgm.granary-flats.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/granary-flats/v1/granary-flats-instrumental.mp3
+  sha256: 95dab617853f5dce899f58c15ad918c7243c39d46e173f0378775f31be806dc9
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-40-a5ded9fc
+    attempt: e4069113170548b0b6264fcd95d06d43
+    title: 황금 들녘의 쉼 (MR)
+    operation: 사용자 승인 · 곡창들 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 105.84
+
+- managementId: audio.bgm.grainstead.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/grainstead/v1/grainstead-vocal.mp3
+  sha256: 26adbc836c2ffc54c7d8f8e9532bc34b4a0a1b7dccb04e8d64e06fbcc800419e
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-40-17af0a88
+    attempt: 560c2a480b874c8192650af975ba21dd
+    title: 함께 거둔 하루 (보컬)
+    operation: 사용자 승인 · 곡온벌 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 67.12
+
+- managementId: audio.bgm.grainstead.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/grainstead/v1/grainstead-instrumental.mp3
+  sha256: 4284324b00913433d277eae21f6cfb419226f3cebfab80832b0b6fcb467c98f4
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_21-27-40-17af0a88
+    attempt: 560c2a480b874c8192650af975ba21dd
+    title: 함께 거둔 하루 (MR)
+    operation: 사용자 승인 · 곡온벌 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 67.12
+
+
+- managementId: audio.bgm.reed-crossing.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/reed-crossing/v1/reed-crossing-vocal.mp3
+  sha256: f097c78cf3026f817b4c225b7180c5c3780d68dba0cae0a0b2f6f6b0d256f681
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_22-14-59-9c63d1b9
+    attempt: 956ceff797e54b68b8ecdfcc657af803
+    title: 갈대 사이로 이어진 둑길 (보컬)
+    operation: 사용자 승인 · 갈대 여울 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 63.84
+
+
+- managementId: audio.bgm.reed-crossing.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/reed-crossing/v1/reed-crossing-instrumental.mp3
+  sha256: eda6f4bd8e32e8abc32baf8f9d786617b4cf483ddb94b0ba4d47ed0a6758ff69
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_22-14-59-9c63d1b9
+    attempt: 956ceff797e54b68b8ecdfcc657af803
+    title: 갈대 사이로 이어진 둑길 (MR)
+    operation: 사용자 승인 · 갈대 여울 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 63.84
