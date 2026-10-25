@@ -8837,12 +8837,12 @@ assets:
     duration_seconds: 68.95997916666667
     title: 버드나무 곁으로 (MR)
 - managementId: audio.map-bgm.catalog
-  version: v13
+  version: v14
   path: assets/audio/map-bgm.yaml
-  sha256: f9965d1fe102281270001fa50ee219053be92569983ab5cf04e3a4cc2a5a4a45
+  sha256: 55b8ce490bc33773f70ba6be946d9a45f4ad30fb6d40e0bde42ef6cb47ef4ee5
   source:
     repository: slime-workflow
-    operation: 잿빛 숲가 원곡·MR 배경음악 등록
+    operation: 강모 능선 원곡·MR 배경음악 등록
 - managementId: audio.bgm.meadow.mr.mp3
   version: v4
   path: assets/audio/bgm/meadow/v4/meadow-mr.mp3
@@ -9032,3 +9032,29 @@ assets:
     operation: 사용자 승인 · 잿빛 숲가 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 105.92
+
+- managementId: audio.bgm.boar-ridge.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/boar-ridge/v1/boar-ridge-vocal.mp3
+  sha256: c602f401be44ed6215d122b1791197e757335ae2dcecaff344877144002d2aeb
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_19-38-12-4febe4c5
+    attempt: e368db46c6e844b6aa5345fb1bd02932
+    title: 능선 너머 집으로 (보컬)
+    operation: 사용자 승인 · 강모 능선 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 114.48
+
+- managementId: audio.bgm.boar-ridge.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/boar-ridge/v1/boar-ridge-instrumental.mp3
+  sha256: 3b786579cc71edaef059f3add6a665532eb34dba4e7bd3451895289cfe192c6c
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_19-38-12-4febe4c5
+    attempt: e368db46c6e844b6aa5345fb1bd02932
+    title: 능선 너머 집으로 (MR)
+    operation: 사용자 승인 · 강모 능선 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 114.48
