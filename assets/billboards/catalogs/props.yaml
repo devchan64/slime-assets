@@ -563,16 +563,16 @@ billboards:
     anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 40.0
+    displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.71
-    shadowScaleY: 0.41
+    shadowOffsetColumn: -0.04
+    shadowOffsetRow: -0.14
+    shadowScaleX: 0.92
+    shadowScaleY: 0.61
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 40.0
+    outdoorDisplayHeight: 80.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -625,16 +625,16 @@ billboards:
     anchorY: -0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 60.0
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.68
-    shadowScaleY: 0.68
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: 0.09
+    shadowScaleX: 0.62
+    shadowScaleY: 0.66
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 60.0
+    outdoorDisplayHeight: 120.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -683,20 +683,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-ash-cargo-v1
-    anchorX: 0.0
-    anchorY: -0.5
+    anchorX: -0.06
+    anchorY: -0.42
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.71
-    shadowScaleY: 0.61
+    shadowOffsetColumn: -0.19
+    shadowOffsetRow: -0.23
+    shadowScaleX: 0.67
+    shadowScaleY: 0.58
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -743,20 +743,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-4-v1
-    anchorX: 0.0
-    anchorY: -0.5
+    anchorX: -0.03
+    anchorY: -0.26
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.51
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.22
+    shadowOffsetRow: -0.1
+    shadowScaleX: 0.59
+    shadowScaleY: 0.84
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -804,19 +804,19 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-5-v1
     anchorX: 0.0
-    anchorY: -0.6
+    anchorY: -0.38
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.51
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.22
+    shadowOffsetRow: -0.22
+    shadowScaleX: 0.59
+    shadowScaleY: 0.6
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -864,20 +864,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-grove-cargo-crate-size-large-v1
-    anchorX: 0.01
-    anchorY: -0.6
+    anchorX: -0.03
+    anchorY: -0.37
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.51
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.24
+    shadowOffsetRow: -0.22
+    shadowScaleX: 0.56
+    shadowScaleY: 0.61
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -924,20 +924,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-lantern-stand-4-v1
-    anchorX: 0.0
-    anchorY: -0.6
+    anchorX: 0.07
+    anchorY: -0.38
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 60.0
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.38
-    shadowScaleY: 0.38
+    shadowOffsetColumn: -0.15
+    shadowOffsetRow: -0.23
+    shadowScaleX: 0.75
+    shadowScaleY: 0.58
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 60.0
+    outdoorDisplayHeight: 120.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -989,16 +989,16 @@ billboards:
     anchorY: -0.6
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.61
-    shadowScaleY: 0.61
+    shadowOffsetColumn: -0.29
+    shadowOffsetRow: -0.29
+    shadowScaleX: 0.39
+    shadowScaleY: 0.38
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1045,20 +1045,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-lantern-wood-lantern-stand-size-small-v1
-    anchorX: 0.0
-    anchorY: -0.6
+    anchorX: 0.02
+    anchorY: -0.33
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 60.0
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.39
-    shadowScaleY: 0.39
+    shadowOffsetColumn: -0.18
+    shadowOffsetRow: -0.22
+    shadowScaleX: 0.66
+    shadowScaleY: 0.6
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 60.0
+    outdoorDisplayHeight: 120.0
     size_variant: 소형 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1105,20 +1105,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-mill-ridge-worn-millstone-1-v1
-    anchorX: 0.0
-    anchorY: -0.6
+    anchorX: -0.04
+    anchorY: -0.44
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.51
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.24
+    shadowOffsetRow: -0.18
+    shadowScaleX: 0.54
+    shadowScaleY: 0.68
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1166,20 +1166,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-1-v1
-    anchorX: 0.01
-    anchorY: -0.6
+    anchorX: -0.01
+    anchorY: -0.43
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 40.0
+    displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.41
-    shadowScaleY: 0.41
+    shadowOffsetColumn: -0.27
+    shadowOffsetRow: -0.25
+    shadowScaleX: 0.5
+    shadowScaleY: 0.52
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 40.0
+    outdoorDisplayHeight: 80.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1227,20 +1227,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-4-v1
-    anchorX: 0.0
-    anchorY: -0.5
+    anchorX: 0.02
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.51
-    shadowScaleY: 0.31
+    shadowOffsetColumn: -0.23
+    shadowOffsetRow: -0.17
+    shadowScaleX: 0.59
+    shadowScaleY: 0.7
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1287,20 +1287,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-size-large-v1
-    anchorX: 0.02
-    anchorY: -0.5
+    anchorX: 0.01
+    anchorY: -0.27
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.3
+    shadowOffsetColumn: -0.21
+    shadowOffsetRow: -0.23
     shadowScaleX: 0.61
-    shadowScaleY: 0.61
+    shadowScaleY: 0.56
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1349,20 +1349,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-moss-clearing-boundary-stone-size-large-v1
-    anchorX: -0.03
-    anchorY: -0.5
+    anchorX: -0.01
+    anchorY: -0.35
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 75.0
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.15
-    shadowScaleX: 0.61
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.13
+    shadowOffsetRow: -0.19
+    shadowScaleX: 0.79
+    shadowScaleY: 0.67
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 75.0
+    outdoorDisplayHeight: 150.0
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1415,16 +1415,16 @@ billboards:
     anchorY: -0.6
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 25.0
+    displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.31
-    shadowScaleY: 0.31
+    shadowOffsetColumn: -0.33
+    shadowOffsetRow: -0.3
+    shadowScaleX: 0.35
+    shadowScaleY: 0.33
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 25.0
+    outdoorDisplayHeight: 50.0
     size_variant: 대형 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1472,20 +1472,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-wagon-wheel-4-v1
-    anchorX: 0.01
-    anchorY: -0.7
+    anchorX: 0.0
+    anchorY: -0.28
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 55.0
+    displayHeight: 110.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.21
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.22
+    shadowOffsetRow: -0.21
+    shadowScaleX: 0.59
+    shadowScaleY: 0.63
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 55.0
+    outdoorDisplayHeight: 110.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1534,20 +1534,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-1-v1
-    anchorX: 0.0
-    anchorY: -0.75
+    anchorX: 0.03
+    anchorY: -0.65
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.41
-    shadowScaleY: 0.41
+    shadowOffsetRow: -0.33
+    shadowScaleX: 0.44
+    shadowScaleY: 0.37
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1595,19 +1595,19 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-2-v1
     anchorX: 0.01
-    anchorY: -0.7
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 55.0
+    displayHeight: 110.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.41
-    shadowScaleY: 0.41
+    shadowOffsetColumn: -0.23
+    shadowOffsetRow: -0.23
+    shadowScaleX: 0.58
+    shadowScaleY: 0.57
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 55.0
+    outdoorDisplayHeight: 110.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1657,19 +1657,19 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-flat-brine-barrel-1-v1
     anchorX: 0.0
-    anchorY: -0.7
+    anchorY: -0.38
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 60.0
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.51
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.16
+    shadowOffsetRow: -0.17
+    shadowScaleX: 0.73
+    shadowScaleY: 0.71
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 60.0
+    outdoorDisplayHeight: 120.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1717,20 +1717,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-rope-waymark-4-v1
-    anchorX: 0.06
-    anchorY: -0.7
+    anchorX: 0.12
+    anchorY: -0.62
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 90.0
+    displayHeight: 180.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.47
-    shadowScaleY: 0.47
+    shadowOffsetColumn: -0.33
+    shadowOffsetRow: -0.33
+    shadowScaleX: 0.37
+    shadowScaleY: 0.36
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 90.0
+    outdoorDisplayHeight: 180.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1771,20 +1771,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.old-boundary-gate-pillar-left-v1
-    anchorX: -0.2
-    anchorY: 0.29
+    anchorX: -0.38
+    anchorY: 0.12
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 240.0
+    displayHeight: 480.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.2
-    shadowOffsetRow: 0.5
-    shadowScaleX: 1.61
-    shadowScaleY: 0.81
+    shadowOffsetColumn: 0.09
+    shadowOffsetRow: -0.01
+    shadowScaleX: 0.98
+    shadowScaleY: 1.06
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 240.0
+    outdoorDisplayHeight: 480.0
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -1825,22 +1825,22 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.old-boundary-gate-pillar-right-v1
-    anchorX: 0.0
+    anchorX: -0.32
     anchorY: 0.0
-    groundFootprintColumns: 2
+    groundFootprintColumns: 3
     groundFootprintRows: 2
-    displayHeight: 200.0
+    displayHeight: 400.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.45
-    shadowOffsetRow: 0.23
-    shadowScaleX: 0.55
-    shadowScaleY: 0.38
+    shadowOffsetColumn: 0.37
+    shadowOffsetRow: -0.02
+    shadowScaleX: 0.81
+    shadowScaleY: 1.05
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 200.0
+    outdoorDisplayHeight: 400.0
     size_variant: 기본 변형
-    occupied_tile_count: 4
+    occupied_tile_count: 6
     movement: 통행 가능
 - texture_key: quarry-broken-slabs-v1
   family: quarry-broken-slabs-v1
@@ -1891,20 +1891,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-broken-slabs-v1
-    anchorX: 0.0
-    anchorY: -0.6
+    anchorX: -0.01
+    anchorY: -0.57
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 35.0
+    displayHeight: 70.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.51
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.28
+    shadowOffsetRow: -0.27
+    shadowScaleX: 0.47
+    shadowScaleY: 0.48
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 35.0
+    outdoorDisplayHeight: 70.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1956,19 +1956,19 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-cut-blocks-v1
     anchorX: -0.01
-    anchorY: -0.5
+    anchorY: -0.11
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 65.0
+    displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.71
-    shadowScaleY: 0.61
+    shadowOffsetColumn: -0.02
+    shadowOffsetRow: -0.03
+    shadowScaleX: 1.03
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 65.0
+    outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2020,19 +2020,19 @@ billboards:
     anchorX: 0.09
     anchorY: -0.4
     groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 65.0
+    groundFootprintRows: 2
+    displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.81
-    shadowScaleY: 0.81
+    shadowOffsetColumn: -0.13
+    shadowOffsetRow: -0.21
+    shadowScaleX: 0.72
+    shadowScaleY: 0.62
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 65.0
+    outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: quarry-mason-tools-v1
   family: quarry-mason-tools
@@ -2079,20 +2079,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-mason-tools-v1
-    anchorX: 0.1
-    anchorY: -0.3
+    anchorX: -0.01
+    anchorY: -0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 65.0
+    displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 1.01
-    shadowScaleY: 0.71
+    shadowOffsetColumn: 0.07
+    shadowOffsetRow: -0.13
+    shadowScaleX: 0.91
+    shadowScaleY: 0.79
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 65.0
+    outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2146,16 +2146,16 @@ billboards:
     anchorY: -0.6
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 25.0
+    displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.41
-    shadowScaleY: 0.31
+    shadowOffsetColumn: -0.17
+    shadowOffsetRow: -0.3
+    shadowScaleX: 0.36
+    shadowScaleY: 0.25
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 25.0
+    outdoorDisplayHeight: 50.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2205,20 +2205,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-stone-bearers-v1
-    anchorX: 0.0
-    anchorY: -0.3
+    anchorX: -0.07
+    anchorY: -0.23
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 65.0
+    displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.81
+    shadowOffsetColumn: -0.06
+    shadowOffsetRow: -0.12
+    shadowScaleX: 0.74
     shadowScaleY: 0.81
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 65.0
+    outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2268,22 +2268,22 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-wooden-derrick-v1
-    anchorX: -0.11
-    anchorY: -0.19
-    groundFootprintColumns: 1
+    anchorX: -0.42
+    anchorY: 0.12
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 160.0
+    displayHeight: 320.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.2
-    shadowOffsetRow: -0.1
+    shadowOffsetColumn: 0.21
+    shadowOffsetRow: 0.0
     shadowScaleX: 0.58
-    shadowScaleY: 0.53
+    shadowScaleY: 1.07
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 160.0
+    outdoorDisplayHeight: 320.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-charcoal-stack-v1
   family: town-charcoal-stack
@@ -2332,20 +2332,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-charcoal-stack-v1
-    anchorX: 0.02
-    anchorY: -0.5
+    anchorX: -0.01
+    anchorY: -0.45
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 40.0
+    displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 0.34
-    shadowScaleY: 0.28
+    shadowOffsetColumn: -0.2
+    shadowOffsetRow: -0.16
+    shadowScaleX: 0.65
+    shadowScaleY: 0.73
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 40.0
+    outdoorDisplayHeight: 80.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2396,20 +2396,20 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.town-coastal-stall-v1
     anchorX: 0.0
     anchorY: -0.1
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 115.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 230.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.04
-    shadowOffsetRow: 0.04
-    shadowScaleX: 1.01
-    shadowScaleY: 0.81
+    shadowOffsetColumn: -0.17
+    shadowOffsetRow: -0.26
+    shadowScaleX: 0.74
+    shadowScaleY: 0.65
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 115.0
+    outdoorDisplayHeight: 230.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 4
     movement: 통행 가능
 - texture_key: town-delivery-crates-v1
   family: town-delivery-crates
@@ -2462,20 +2462,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-delivery-crates-v1
-    anchorX: 0.03
-    anchorY: -0.48
+    anchorX: 0.01
+    anchorY: -0.37
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.15
-    shadowScaleX: 0.61
-    shadowScaleY: 0.51
+    shadowOffsetRow: -0.16
+    shadowScaleX: 0.86
+    shadowScaleY: 0.72
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2524,22 +2524,22 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-fish-rack-v1
-    anchorX: 0.0
-    anchorY: -0.28
-    groundFootprintColumns: 1
+    anchorX: -0.03
+    anchorY: -0.25
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 75.0
+    displayHeight: 150.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.02
-    shadowOffsetRow: -0.02
-    shadowScaleX: 0.81
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.15
+    shadowOffsetRow: -0.14
+    shadowScaleX: 0.55
+    shadowScaleY: 0.76
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 75.0
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-food-stall-v1
   family: town-food-stall
@@ -2590,16 +2590,16 @@ billboards:
     anchorY: -0.29
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 55.0
+    displayHeight: 110.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.02
-    shadowOffsetRow: -0.02
-    shadowScaleX: 0.71
-    shadowScaleY: 0.51
+    shadowOffsetColumn: 0.04
+    shadowOffsetRow: -0.18
+    shadowScaleX: 0.63
+    shadowScaleY: 0.57
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 55.0
+    outdoorDisplayHeight: 110.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2656,16 +2656,16 @@ billboards:
     anchorY: -0.35
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.61
-    shadowScaleY: 0.61
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.05
+    shadowScaleX: 0.74
+    shadowScaleY: 0.82
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2716,22 +2716,22 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-grain-drying-v1
-    anchorX: 0.0
-    anchorY: -0.27
-    groundFootprintColumns: 1
+    anchorX: -0.04
+    anchorY: -0.23
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 60.0
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.81
-    shadowScaleY: 0.61
+    shadowOffsetColumn: -0.08
+    shadowOffsetRow: -0.06
+    shadowScaleX: 0.54
+    shadowScaleY: 0.95
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 60.0
+    outdoorDisplayHeight: 120.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-grainstead-milling-dispatch-v1
   family: town-grainstead-milling-dispatch
@@ -2778,20 +2778,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-milling-dispatch-v1
-    anchorX: 0.0
-    anchorY: -0.29
+    anchorX: -0.06
+    anchorY: -0.21
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 65.0
+    displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.02
-    shadowOffsetRow: -0.02
-    shadowScaleX: 0.81
-    shadowScaleY: 0.61
+    shadowOffsetColumn: -0.07
+    shadowOffsetRow: -0.12
+    shadowScaleX: 0.94
+    shadowScaleY: 0.82
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 65.0
+    outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2844,16 +2844,16 @@ billboards:
     anchorY: -0.31
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.61
-    shadowScaleY: 0.61
+    shadowOffsetColumn: -0.11
+    shadowOffsetRow: -0.03
+    shadowScaleX: 0.7
+    shadowScaleY: 0.48
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2910,20 +2910,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-ground-lantern-v1
-    anchorX: 0.0
-    anchorY: -0.6
+    anchorX: -0.01
+    anchorY: -0.58
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 85.0
+    displayHeight: 170.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.41
-    shadowScaleY: 0.41
+    shadowOffsetColumn: -0.19
+    shadowOffsetRow: -0.29
+    shadowScaleX: 0.63
+    shadowScaleY: 0.44
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 85.0
+    outdoorDisplayHeight: 170.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -2980,20 +2980,20 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.town-handcart-v1
     anchorX: -0.02
     anchorY: -0.3
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 65.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.01
-    shadowOffsetRow: -0.02
-    shadowScaleX: 0.61
-    shadowScaleY: 0.61
+    shadowOffsetColumn: -0.17
+    shadowOffsetRow: -0.05
+    shadowScaleX: 0.53
+    shadowScaleY: 0.56
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 65.0
+    outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 4
     movement: 통행 가능
 - texture_key: town-harvest-cart-v1
   family: town-harvest-cart
@@ -3042,22 +3042,22 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-harvest-cart-v1
-    anchorX: 0.0
-    anchorY: -0.3
-    groundFootprintColumns: 1
+    anchorX: -0.04
+    anchorY: -0.26
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 70.0
+    displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.03
-    shadowOffsetRow: -0.03
-    shadowScaleX: 0.81
-    shadowScaleY: 0.81
+    shadowOffsetColumn: -0.09
+    shadowOffsetRow: -0.06
+    shadowScaleX: 0.69
+    shadowScaleY: 0.95
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 70.0
+    outdoorDisplayHeight: 140.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-herb-rack-v1
   family: town-herb-rack
@@ -3104,20 +3104,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-herb-rack-v1
-    anchorX: 0.0
-    anchorY: -0.3
+    anchorX: 0.02
+    anchorY: -0.21
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 70.0
+    displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.61
-    shadowScaleY: 0.41
+    shadowOffsetColumn: -0.03
+    shadowOffsetRow: -0.12
+    shadowScaleX: 0.99
+    shadowScaleY: 0.79
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 70.0
+    outdoorDisplayHeight: 140.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3166,20 +3166,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-jelly-counter-v1
-    anchorX: 0.0
-    anchorY: -0.2
+    anchorX: -0.03
+    anchorY: -0.17
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 65.0
+    displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.1
-    shadowOffsetRow: 0.1
+    shadowOffsetColumn: 0.06
+    shadowOffsetRow: -0.15
     shadowScaleX: 0.81
-    shadowScaleY: 0.61
+    shadowScaleY: 0.77
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 65.0
+    outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3228,22 +3228,22 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-material-training-v1
-    anchorX: 0.0
-    anchorY: -0.4
-    groundFootprintColumns: 1
+    anchorX: -0.14
+    anchorY: -0.26
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 65.0
+    displayHeight: 130.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 0.91
-    shadowScaleY: 0.71
+    shadowOffsetColumn: -0.19
+    shadowOffsetRow: -0.01
+    shadowScaleX: 0.57
+    shadowScaleY: 1.02
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 65.0
+    outdoorDisplayHeight: 130.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-layered-sign-v1
   family: town-layered-sign
@@ -3292,20 +3292,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-layered-sign-v1
-    anchorX: -0.1
-    anchorY: -0.6
+    anchorX: 0.16
+    anchorY: -0.34
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 95.0
+    displayHeight: 190.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.4
-    shadowScaleY: 0.36
+    shadowOffsetColumn: -0.01
+    shadowOffsetRow: -0.34
+    shadowScaleX: 1.04
+    shadowScaleY: 0.3
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 95.0
+    outdoorDisplayHeight: 190.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3364,20 +3364,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-low-fence-v1
-    anchorX: 0.0
-    anchorY: -0.18
+    anchorX: -0.1
+    anchorY: -0.28
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 80.0
+    displayHeight: 160.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.12
-    shadowOffsetRow: 0.12
-    shadowScaleX: 1.21
-    shadowScaleY: 0.21
+    shadowOffsetColumn: 0.1
+    shadowOffsetRow: -0.24
+    shadowScaleX: 0.84
+    shadowScaleY: 0.29
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 80.0
+    outdoorDisplayHeight: 160.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3430,16 +3430,16 @@ billboards:
     anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 0.81
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.03
+    shadowOffsetRow: -0.25
+    shadowScaleX: 0.55
+    shadowScaleY: 0.46
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3494,20 +3494,20 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.town-notice-board-v1
     anchorX: 0.0
     anchorY: -0.23
-    groundFootprintColumns: 1
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 100.0
+    displayHeight: 200.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.09
-    shadowOffsetRow: 0.09
-    shadowScaleX: 0.91
-    shadowScaleY: 0.31
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.1
+    shadowScaleX: 0.62
+    shadowScaleY: 0.63
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 100.0
+    outdoorDisplayHeight: 200.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-ore-basket-v1
   family: town-ore-basket
@@ -3558,16 +3558,16 @@ billboards:
     anchorY: -0.5
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 40.0
+    displayHeight: 80.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 0.51
-    shadowScaleY: 0.41
+    shadowOffsetColumn: -0.15
+    shadowOffsetRow: -0.26
+    shadowScaleX: 0.55
+    shadowScaleY: 0.4
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 40.0
+    outdoorDisplayHeight: 80.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3624,20 +3624,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-record-chest-v1
-    anchorX: -0.05
-    anchorY: -0.02
+    anchorX: -0.06
+    anchorY: -0.03
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.33
-    shadowOffsetRow: 0.37
-    shadowScaleX: 0.31
-    shadowScaleY: 0.24
+    shadowOffsetColumn: 0.22
+    shadowOffsetRow: 0.21
+    shadowScaleX: 0.61
+    shadowScaleY: 0.48
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3686,20 +3686,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reed-bundles-v1
-    anchorX: 0.0
-    anchorY: -0.6
+    anchorX: 0.03
+    anchorY: -0.45
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.61
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.15
+    shadowOffsetRow: -0.21
+    shadowScaleX: 0.75
+    shadowScaleY: 0.62
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3748,20 +3748,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-fiber-workbench-v1
-    anchorX: 0.0
-    anchorY: -0.5
+    anchorX: -0.07
+    anchorY: -0.43
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 60.0
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.71
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.2
+    shadowOffsetRow: -0.23
+    shadowScaleX: 0.62
+    shadowScaleY: 0.56
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 60.0
+    outdoorDisplayHeight: 120.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3812,20 +3812,20 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-water-record-v1
     anchorX: 0.0
     anchorY: -0.3
-    groundFootprintColumns: 1
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 95.0
+    displayHeight: 190.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.91
-    shadowScaleY: 0.41
+    shadowOffsetColumn: -0.12
+    shadowOffsetRow: -0.17
+    shadowScaleX: 0.71
+    shadowScaleY: 0.64
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 95.0
+    outdoorDisplayHeight: 190.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-repair-rack-v1
   family: town-repair-rack
@@ -3878,20 +3878,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-repair-rack-v1
-    anchorX: 0.1
-    anchorY: -0.5
+    anchorX: -0.06
+    anchorY: -0.34
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 70.0
+    displayHeight: 140.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.3
-    shadowScaleX: 0.91
-    shadowScaleY: 0.41
+    shadowOffsetRow: -0.25
+    shadowScaleX: 0.76
+    shadowScaleY: 0.55
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 70.0
+    outdoorDisplayHeight: 140.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -3946,20 +3946,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-rope-crates-v1
-    anchorX: 0.0
-    anchorY: -0.5
+    anchorX: 0.01
+    anchorY: -0.46
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.1
-    shadowScaleX: 0.61
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.22
+    shadowOffsetRow: -0.24
+    shadowScaleX: 0.58
+    shadowScaleY: 0.55
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -4010,20 +4010,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-salt-barrels-v1
-    anchorX: 0.0
-    anchorY: -0.5
+    anchorX: 0.02
+    anchorY: -0.25
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 60.0
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.81
+    shadowOffsetColumn: -0.04
+    shadowOffsetRow: -0.11
+    shadowScaleX: 0.98
     shadowScaleY: 0.81
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 60.0
+    outdoorDisplayHeight: 120.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -4074,22 +4074,22 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-cargo-weighing-v1
-    anchorX: 0.0
-    anchorY: -0.3
-    groundFootprintColumns: 1
+    anchorX: -0.13
+    anchorY: -0.17
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 85.0
+    displayHeight: 170.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.1
-    shadowOffsetRow: 0.0
-    shadowScaleX: 1.11
-    shadowScaleY: 0.71
+    shadowOffsetColumn: -0.24
+    shadowOffsetRow: -0.01
+    shadowScaleX: 0.63
+    shadowScaleY: 1.04
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 85.0
+    outdoorDisplayHeight: 170.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-saltford-wet-cargo-drying-v1
   family: town-saltford-wet-cargo-drying
@@ -4140,20 +4140,20 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-wet-cargo-drying-v1
     anchorX: 0.0
     anchorY: -0.3
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 60.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 120.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.71
-    shadowScaleY: 1.01
+    shadowOffsetColumn: -0.22
+    shadowOffsetRow: -0.06
+    shadowScaleX: 0.55
+    shadowScaleY: 0.6
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 60.0
+    outdoorDisplayHeight: 120.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 4
     movement: 통행 가능
 - texture_key: town-stonewarm-repair-handover-v1
   family: town-stonewarm-repair-handover
@@ -4202,20 +4202,20 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-repair-handover-v1
     anchorX: 0.0
     anchorY: -0.2
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 90.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 180.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.1
-    shadowOffsetRow: 0.1
-    shadowScaleX: 1.11
-    shadowScaleY: 0.71
+    shadowOffsetColumn: -0.08
+    shadowOffsetRow: -0.11
+    shadowScaleX: 0.76
+    shadowScaleY: 0.58
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 90.0
+    outdoorDisplayHeight: 180.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 4
     movement: 통행 가능
 - texture_key: town-stonewarm-repair-process-v1
   family: town-stonewarm-repair-process
@@ -4262,22 +4262,22 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-repair-process-v1
-    anchorX: 0.0
-    anchorY: -0.2
-    groundFootprintColumns: 1
+    anchorX: -0.04
+    anchorY: -0.16
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 85.0
+    displayHeight: 170.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 1.01
-    shadowScaleY: 0.61
+    shadowOffsetColumn: 0.02
+    shadowOffsetRow: -0.19
+    shadowScaleX: 0.57
+    shadowScaleY: 0.66
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 85.0
+    outdoorDisplayHeight: 170.0
     size_variant: 기본 변형
-    occupied_tile_count: 1
+    occupied_tile_count: 2
     movement: 통행 가능
 - texture_key: town-straw-sheaves-v1
   family: town-straw-sheaves
@@ -4326,20 +4326,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-straw-sheaves-v1
-    anchorX: 0.0
-    anchorY: -0.5
+    anchorX: 0.03
+    anchorY: -0.37
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 55.0
+    displayHeight: 110.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 0.61
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.16
+    shadowOffsetRow: -0.19
+    shadowScaleX: 0.71
+    shadowScaleY: 0.65
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 55.0
+    outdoorDisplayHeight: 110.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -4390,20 +4390,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-threshing-bench-v1
-    anchorX: 0.0
-    anchorY: -0.5
+    anchorX: -0.1
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 50.0
+    displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.81
-    shadowScaleY: 0.61
+    shadowOffsetColumn: -0.18
+    shadowOffsetRow: -0.18
+    shadowScaleX: 0.54
+    shadowScaleY: 0.68
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
+    outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -4460,20 +4460,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-wood-bench-v1
-    anchorX: 0.0
-    anchorY: -0.6
+    anchorX: -0.05
+    anchorY: -0.55
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 45.0
+    displayHeight: 90.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
-    shadowOffsetRow: -0.2
-    shadowScaleX: 0.91
-    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.16
+    shadowOffsetRow: -0.32
+    shadowScaleX: 0.4
+    shadowScaleY: 0.38
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 45.0
+    outdoorDisplayHeight: 90.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능

@@ -1,10 +1,304 @@
 managementId: config.city-layouts.stonewarm
 data:
-  version: 17
+  rows: 24
   cityId: stonewarm
   columns: 24
-  rows: 24
+  version: 17
   safeTown: true
+  buildings:
+  - id: stonewarm-guild
+    name: 길드 회관
+    width: 3
+    facing: east
+    floors: 1
+    height: 3
+    origin:
+      row: 7
+      column: 6
+    sprite:
+      textureKey: town-stonewarm-guild-v3
+      contentWidth: 0.714702
+    entrance:
+      row: 8
+      column: 9
+    facilityId: stonewarm-guild
+  - id: stonewarm-bookshop
+    name: 서점
+    width: 3
+    facing: south
+    floors: 1
+    height: 3
+    origin:
+      row: 7
+      column: 14
+    sprite:
+      textureKey: town-stonewarm-bookshop-v3
+      contentWidth: 0.699418
+    entrance:
+      row: 10
+      column: 15
+    facilityId: stonewarm-bookshop
+  - id: stonewarm-inn
+    name: 여관
+    width: 4
+    facing: east
+    floors: 1
+    height: 3
+    origin:
+      row: 15
+      column: 4
+    sprite:
+      textureKey: town-stonewarm-inn-v3
+      contentWidth: 0.792576
+    entrance:
+      row: 16
+      column: 8
+    facilityId: stonewarm-inn
+  - id: stonewarm-workshop
+    name: 대장간·공방
+    width: 3
+    facing: east
+    floors: 1
+    height: 3
+    origin:
+      row: 18
+      column: 16
+    sprite:
+      textureKey: town-stonewarm-workshop-v3
+      contentWidth: 0.805677
+    entrance:
+      row: 19
+      column: 19
+    facilityId: stonewarm-workshop
+  - id: stonewarm-market
+    name: 시장
+    width: 3
+    facing: south
+    floors: 1
+    height: 3
+    origin:
+      row: 13
+      column: 16
+    sprite:
+      textureKey: town-stonewarm-market-v3
+      contentWidth: 0.835517
+    entrance:
+      row: 16
+      column: 17
+    facilityId: stonewarm-market
+  - id: stonewarm-mason-house
+    kind: residence
+    name: 일반 주택 가
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 2
+      column: 2
+    sprite:
+      textureKey: town-stonewarm-mason-house-v3
+      contentWidth: 0.763464
+    entrance:
+      row: 4
+      column: 3
+    facilityId: null
+  - id: stonewarm-hearth-house
+    kind: residence
+    name: 일반 주택 나
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 2
+      column: 5
+    sprite:
+      textureKey: town-stonewarm-hearth-house-v3
+      contentWidth: 0.699418
+    entrance:
+      row: 4
+      column: 6
+    facilityId: null
+  - id: stonewarm-residence-03
+    kind: residence
+    name: 일반 주택 3
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 2
+      column: 8
+    sprite:
+      textureKey: town-common-stone-house-v2
+      contentWidth: 0.706847
+    entrance:
+      row: 4
+      column: 9
+    facilityId: null
+  - id: stonewarm-residence-04
+    kind: residence
+    name: 일반 주택 4
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 2
+      column: 15
+    sprite:
+      textureKey: town-common-timber-house-v2
+      contentWidth: 0.706134
+    entrance:
+      row: 4
+      column: 16
+    facilityId: null
+  - id: stonewarm-residence-05
+    kind: residence
+    name: 일반 주택 5
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 2
+      column: 18
+    sprite:
+      textureKey: town-stonewarm-mason-house-v3
+      contentWidth: 0.763464
+    entrance:
+      row: 4
+      column: 19
+    facilityId: null
+  - id: stonewarm-residence-06
+    kind: residence
+    name: 일반 주택 6
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 2
+      column: 21
+    sprite:
+      textureKey: town-common-stone-house-v2
+      contentWidth: 0.706847
+    entrance:
+      row: 4
+      column: 22
+    facilityId: null
+  - id: stonewarm-residence-07
+    kind: residence
+    name: 일반 주택 7
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 7
+      column: 2
+    sprite:
+      textureKey: town-common-stone-house-v2
+      contentWidth: 0.706847
+    entrance:
+      row: 9
+      column: 3
+    facilityId: null
+  - id: stonewarm-residence-08
+    kind: residence
+    name: 일반 주택 8
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 11
+      column: 2
+    sprite:
+      textureKey: town-stonewarm-hearth-house-v3
+      contentWidth: 0.699418
+    entrance:
+      row: 13
+      column: 3
+    facilityId: null
+  - id: stonewarm-residence-09
+    kind: residence
+    name: 일반 주택 9
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 20
+      column: 2
+    sprite:
+      textureKey: town-common-stone-house-v2
+      contentWidth: 0.706847
+    entrance:
+      row: 22
+      column: 3
+    facilityId: null
+  - id: stonewarm-residence-10
+    kind: residence
+    name: 일반 주택 10
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 20
+      column: 6
+    sprite:
+      textureKey: town-common-timber-house-v2
+      contentWidth: 0.706134
+    entrance:
+      row: 22
+      column: 7
+    facilityId: null
+  - id: stonewarm-residence-11
+    kind: residence
+    name: 일반 주택 11
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 20
+      column: 10
+    sprite:
+      textureKey: town-stonewarm-mason-house-v3
+      contentWidth: 0.763464
+    entrance:
+      row: 22
+      column: 11
+    facilityId: null
+  - id: stonewarm-residence-12
+    kind: residence
+    name: 일반 주택 12
+    width: 2
+    facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 18
+      column: 21
+    sprite:
+      textureKey: town-common-stone-house-v2
+      contentWidth: 0.706847
+    entrance:
+      row: 20
+      column: 22
+    facilityId: null
+  startPoint:
+    row: 12
+    column: 11
+  connections:
+  - id: stonewarm-to-broken-quarry
+    row: 0
+    column: 12
+    target: broken-quarry
+    direction: north
   terrainRows:
   - sssssssssssspsssssssssss
   - sssssssssssspsssssssssss
@@ -30,1691 +324,1397 @@ data:
   - sssssssssssspssssssspsps
   - sppppppppppppppppppppppp
   - sssssssssssspsssssssssss
-  startPoint:
-    column: 11
-    row: 12
-  buildings:
-  - id: stonewarm-guild
-    name: 길드 회관
-    facilityId: stonewarm-guild
-    origin:
-      column: 6
-      row: 7
-    width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 9
-      row: 8
-    facing: east
-    sprite:
-      textureKey: town-stonewarm-guild-v3
-      contentWidth: 0.714702
-  - id: stonewarm-bookshop
-    name: 서점
-    facilityId: stonewarm-bookshop
-    origin:
-      column: 14
-      row: 7
-    width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 15
-      row: 10
-    facing: south
-    sprite:
-      textureKey: town-stonewarm-bookshop-v3
-      contentWidth: 0.699418
-  - id: stonewarm-inn
-    name: 여관
-    facilityId: stonewarm-inn
-    origin:
-      column: 4
-      row: 15
-    width: 4
-    height: 3
-    floors: 1
-    entrance:
-      column: 8
-      row: 16
-    facing: east
-    sprite:
-      textureKey: town-stonewarm-inn-v3
-      contentWidth: 0.792576
-  - id: stonewarm-workshop
-    name: 대장간·공방
-    facilityId: stonewarm-workshop
-    origin:
-      column: 16
-      row: 18
-    width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 19
-      row: 19
-    facing: east
-    sprite:
-      textureKey: town-stonewarm-workshop-v3
-      contentWidth: 0.805677
-  - id: stonewarm-market
-    name: 시장
-    facilityId: stonewarm-market
-    origin:
-      column: 16
-      row: 13
-    width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 17
-      row: 16
-    facing: south
-    sprite:
-      textureKey: town-stonewarm-market-v3
-      contentWidth: 0.835517
-  - id: stonewarm-mason-house
-    name: 일반 주택 가
-    kind: residence
-    facilityId: null
-    origin:
-      column: 2
-      row: 2
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 3
-      row: 4
-    facing: south
-    sprite:
-      textureKey: town-stonewarm-mason-house-v3
-      contentWidth: 0.763464
-  - id: stonewarm-hearth-house
-    name: 일반 주택 나
-    kind: residence
-    facilityId: null
-    origin:
-      column: 5
-      row: 2
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 6
-      row: 4
-    facing: south
-    sprite:
-      textureKey: town-stonewarm-hearth-house-v3
-      contentWidth: 0.699418
-  - id: stonewarm-residence-03
-    name: 일반 주택 3
-    kind: residence
-    facilityId: null
-    origin:
-      column: 8
-      row: 2
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 9
-      row: 4
-    facing: south
-    sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
-  - id: stonewarm-residence-04
-    name: 일반 주택 4
-    kind: residence
-    facilityId: null
-    origin:
-      column: 15
-      row: 2
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 16
-      row: 4
-    facing: south
-    sprite:
-      textureKey: town-common-timber-house-v2
-      contentWidth: 0.706134
-  - id: stonewarm-residence-05
-    name: 일반 주택 5
-    kind: residence
-    facilityId: null
-    origin:
-      column: 18
-      row: 2
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 19
-      row: 4
-    facing: south
-    sprite:
-      textureKey: town-stonewarm-mason-house-v3
-      contentWidth: 0.763464
-  - id: stonewarm-residence-06
-    name: 일반 주택 6
-    kind: residence
-    facilityId: null
-    origin:
-      column: 21
-      row: 2
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 22
-      row: 4
-    facing: south
-    sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
-  - id: stonewarm-residence-07
-    name: 일반 주택 7
-    kind: residence
-    facilityId: null
-    origin:
-      column: 2
-      row: 7
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 3
-      row: 9
-    facing: south
-    sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
-  - id: stonewarm-residence-08
-    name: 일반 주택 8
-    kind: residence
-    facilityId: null
-    origin:
-      column: 2
-      row: 11
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 3
-      row: 13
-    facing: south
-    sprite:
-      textureKey: town-stonewarm-hearth-house-v3
-      contentWidth: 0.699418
-  - id: stonewarm-residence-09
-    name: 일반 주택 9
-    kind: residence
-    facilityId: null
-    origin:
-      column: 2
-      row: 20
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 3
-      row: 22
-    facing: south
-    sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
-  - id: stonewarm-residence-10
-    name: 일반 주택 10
-    kind: residence
-    facilityId: null
-    origin:
-      column: 6
-      row: 20
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 7
-      row: 22
-    facing: south
-    sprite:
-      textureKey: town-common-timber-house-v2
-      contentWidth: 0.706134
-  - id: stonewarm-residence-11
-    name: 일반 주택 11
-    kind: residence
-    facilityId: null
-    origin:
-      column: 10
-      row: 20
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 11
-      row: 22
-    facing: south
-    sprite:
-      textureKey: town-stonewarm-mason-house-v3
-      contentWidth: 0.763464
-  - id: stonewarm-residence-12
-    name: 일반 주택 12
-    kind: residence
-    facilityId: null
-    origin:
-      column: 21
-      row: 18
-    width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 22
-      row: 20
-    facing: south
-    sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
-  connections:
-  - column: 12
-    row: 0
-    id: stonewarm-to-broken-quarry
-    target: broken-quarry
-    direction: north
   objects:
   - id: stonewarm-garden-1
-    kind: decoration
     position:
       column: 1
       row: 4
-    textureKey: orchard-old-tree-v2
-    tileAnchor: center
-  - id: stonewarm-garden-2
     kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: stonewarm-garden-2
     position:
       column: 0
       row: 5
-    textureKey: orchard-old-tree-variant-1-v2
-    tileAnchor: center
-  - id: stonewarm-garden-3
     kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: stonewarm-garden-3
     position:
       column: 1
       row: 6
-    textureKey: orchard-old-tree-variant-2-v2
-    tileAnchor: center
-  - id: stonewarm-garden-4
     kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: stonewarm-garden-4
     position:
       column: 1
       row: 3
-    textureKey: orchard-old-tree-v2
-    tileAnchor: center
-  - id: stonewarm-garden-5
     kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: stonewarm-garden-5
     position:
       column: 0
       row: 4
-    textureKey: orchard-old-tree-variant-1-v2
-    tileAnchor: center
-  - id: stonewarm-garden-6
     kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: stonewarm-garden-6
     position:
       column: 0
       row: 6
+    kind: decoration
+    tileAnchor: center
     textureKey: orchard-old-tree-variant-2-v2
-    tileAnchor: center
   - id: stonewarm-garden-7
-    kind: decoration
     position:
       column: 6
       row: 23
-    textureKey: dry-grass-variant-1-v1
+    kind: decoration
     tileAnchor: center
+    textureKey: dry-grass-variant-1-v1
   - id: stonewarm-garden-8
-    kind: decoration
     position:
       column: 4
       row: 1
-    textureKey: dry-grass-variant-2-v1
+    kind: decoration
     tileAnchor: center
+    textureKey: dry-grass-variant-2-v1
   - id: stonewarm-garden-9
-    kind: decoration
     position:
       column: 7
       row: 19
+    kind: decoration
+    tileAnchor: center
     textureKey: seed-grass-variant-1-v1
-    tileAnchor: center
   - id: stonewarm-garden-10
-    kind: decoration
     position:
       column: 3
       row: 6
-    textureKey: dry-shrub-variant-1-v1
-    tileAnchor: center
-  - id: stonewarm-garden-11
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-shrub-variant-1-v1
+  - id: stonewarm-garden-11
     position:
       column: 8
       row: 20
-    textureKey: dry-shrub-variant-2-v1
-    tileAnchor: center
-  - id: stonewarm-garden-12
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-shrub-variant-2-v1
+  - id: stonewarm-garden-12
     position:
       column: 5
       row: 6
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: stonewarm-garden-13
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: stonewarm-garden-13
     position:
       column: 5
       row: 21
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: stonewarm-garden-14
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: stonewarm-garden-14
     position:
       column: 4
       row: 7
-    textureKey: broadleaf-variant-1-v1
-    tileAnchor: center
-  - id: stonewarm-garden-15
     kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-variant-1-v1
+  - id: stonewarm-garden-15
     position:
       column: 9
       row: 21
-    textureKey: sorrel-variant-1-v1
-    tileAnchor: center
-  - id: stonewarm-garden-16
     kind: decoration
+    tileAnchor: center
+    textureKey: sorrel-variant-1-v1
+  - id: stonewarm-garden-16
     position:
       column: 4
       row: 0
-    textureKey: dry-shrub-variant-3-v1
-    tileAnchor: center
-  - id: stonewarm-garden-17
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-shrub-variant-3-v1
+  - id: stonewarm-garden-17
     position:
       column: 5
       row: 23
-    textureKey: seed-grass-variant-2-v1
-    tileAnchor: center
-  - id: stonewarm-garden-18
     kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: stonewarm-garden-18
     position:
       column: 3
       row: 1
-    textureKey: dry-grass-variant-1-v1
-    tileAnchor: center
-  - id: stonewarm-garden-19
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-1-v1
+  - id: stonewarm-garden-19
     position:
       column: 9
       row: 23
-    textureKey: orchard-chunky-grass-v1
-    tileAnchor: center
-  - id: stonewarm-garden-20
     kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-grass-v1
+  - id: stonewarm-garden-20
     position:
       column: 5
       row: 1
-    textureKey: dry-grass-v1
-    tileAnchor: center
-  - id: stonewarm-garden-21
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: stonewarm-garden-21
     position:
       column: 7
       row: 18
-    textureKey: sorrel-variant-2-v1
-    tileAnchor: center
-  - id: stonewarm-garden-22
     kind: decoration
+    tileAnchor: center
+    textureKey: sorrel-variant-2-v1
+  - id: stonewarm-garden-22
     position:
       column: 2
       row: 6
-    textureKey: orchard-chunky-dryshrub-v1
-    tileAnchor: center
-  - id: stonewarm-garden-24
     kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-dryshrub-v1
+  - id: stonewarm-garden-24
     position:
       column: 6
       row: 6
-    textureKey: broadleaf-variant-3-v1
-    tileAnchor: center
-  - id: stonewarm-garden-25
     kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-variant-3-v1
+  - id: stonewarm-garden-25
     position:
       column: 8
       row: 19
-    textureKey: seed-grass-variant-3-v1
-    tileAnchor: center
-  - id: stonewarm-garden-26
     kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: stonewarm-garden-26
     position:
       column: 5
       row: 7
-    textureKey: dry-grass-variant-2-v1
-    tileAnchor: center
-  - id: stonewarm-garden-27
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-2-v1
+  - id: stonewarm-garden-27
     position:
       column: 5
       row: 20
-    textureKey: clover-variant-1-v1
-    tileAnchor: center
-  - id: stonewarm-garden-28
     kind: decoration
+    tileAnchor: center
+    textureKey: clover-variant-1-v1
+  - id: stonewarm-garden-28
     position:
       column: 3
       row: 0
-    textureKey: dry-shrub-variant-1-v1
-    tileAnchor: center
-  - id: stonewarm-garden-29
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-shrub-variant-1-v1
+  - id: stonewarm-garden-29
     position:
       column: 9
       row: 20
-    textureKey: broadleaf-variant-2-v1
-    tileAnchor: center
-  - id: stonewarm-garden-30
     kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-variant-2-v1
+  - id: stonewarm-garden-30
     position:
       column: 5
       row: 0
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: stonewarm-garden-31
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: stonewarm-garden-31
     position:
       column: 10
       row: 23
-    textureKey: dry-grass-variant-1-v1
-    tileAnchor: center
-  - id: stonewarm-garden-32
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-1-v1
+  - id: stonewarm-garden-32
     position:
       column: 2
       row: 1
-    textureKey: seed-grass-v1
-    tileAnchor: center
-  - id: stonewarm-garden-33
     kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: stonewarm-garden-33
     position:
       column: 6
       row: 18
+    kind: decoration
+    tileAnchor: center
     textureKey: sorrel-clump-v1
-    tileAnchor: center
   - id: stonewarm-prop-1
-    kind: decoration
     position:
-      column: 10
-      row: 7
-    textureKey: town-notice-board-v1
-    tileAnchor: center
-  - id: stonewarm-prop-2
+      column: 14
+      row: 6
     kind: decoration
+    tileAnchor: center
+    textureKey: town-notice-board-v1
+  - id: stonewarm-prop-2
     position:
       column: 16
       row: 21
-    textureKey: town-metal-bin-v1
-    tileAnchor: center
-  - id: stonewarm-prop-3
     kind: decoration
+    tileAnchor: center
+    textureKey: town-metal-bin-v1
+  - id: stonewarm-prop-3
     position:
       column: 4
       row: 3
-    textureKey: town-ground-lantern-v1
-    tileAnchor: center
-  - id: stonewarm-prop-4
     kind: decoration
+    tileAnchor: center
+    textureKey: town-ground-lantern-v1
+  - id: stonewarm-prop-4
     position:
       column: 18
       row: 11
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: stonewarm-prop-5
     kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: stonewarm-prop-5
     position:
       column: 7
       row: 3
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-prop-6
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-prop-6
     position:
       column: 19
       row: 17
-    textureKey: town-ore-basket-v1
-    tileAnchor: center
-  - id: stonewarm-prop-7
     kind: decoration
+    tileAnchor: center
+    textureKey: town-ore-basket-v1
+  - id: stonewarm-prop-7
     position:
       column: 17
       row: 6
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-prop-8
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-prop-8
     position:
       column: 10
       row: 3
-    textureKey: town-ground-lantern-v1
-    tileAnchor: center
-  - id: stonewarm-prop-9
     kind: decoration
+    tileAnchor: center
+    textureKey: town-ground-lantern-v1
+  - id: stonewarm-prop-9
     position:
       column: 15
       row: 21
-    textureKey: town-metal-bin-v1
-    tileAnchor: center
-  - id: stonewarm-prop-10
     kind: decoration
+    tileAnchor: center
+    textureKey: town-metal-bin-v1
+  - id: stonewarm-prop-10
     position:
       column: 19
       row: 15
+    kind: decoration
+    tileAnchor: center
     textureKey: town-ore-basket-v1
-    tileAnchor: center
   - id: stonewarm-prop-11
-    kind: decoration
     position:
-      column: 18
-      row: 10
-    textureKey: town-handcart-v1
-    tileAnchor: center
-  - id: stonewarm-prop-12
+      column: 19
+      row: 8
     kind: decoration
+    tileAnchor: center
+    textureKey: town-handcart-v1
+  - id: stonewarm-prop-12
     position:
       column: 15
       row: 20
-    textureKey: town-grindstone-v1
-    tileAnchor: center
-  - id: stonewarm-prop-14
     kind: decoration
+    tileAnchor: center
+    textureKey: town-grindstone-v1
+  - id: stonewarm-prop-14
     position:
       column: 23
       row: 15
-    textureKey: town-charcoal-stack-v1
-    tileAnchor: center
-  - id: stonewarm-prop-15
     kind: decoration
+    tileAnchor: center
+    textureKey: town-charcoal-stack-v1
+  - id: stonewarm-prop-15
     position:
       column: 14
       row: 21
-    textureKey: town-metal-bin-v1
-    tileAnchor: center
-  - id: stonewarm-prop-16
     kind: decoration
+    tileAnchor: center
+    textureKey: town-metal-bin-v1
+  - id: stonewarm-prop-16
     position:
       column: 20
       row: 1
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-prop-17
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-prop-17
     position:
       column: 17
       row: 3
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-prop-18
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-prop-18
     position:
       column: 20
       row: 3
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: stonewarm-prop-19
     kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: stonewarm-prop-19
     position:
       column: 23
       row: 3
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-prop-20
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-prop-20
     position:
       column: 15
       row: 16
-    textureKey: town-charcoal-stack-v1
-    tileAnchor: center
-  - id: stonewarm-life-scene
     kind: decoration
+    tileAnchor: center
+    textureKey: town-charcoal-stack-v1
+  - id: stonewarm-life-scene
     position:
       column: 22
       row: 16
-    textureKey: town-stonewarm-repair-process-v1
-    tileAnchor: center
-  - id: stonewarm-life-scene-addition
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-repair-process-v1
+  - id: stonewarm-life-scene-addition
     position:
       column: 18
       row: 21
-    textureKey: town-stonewarm-repair-handover-v1
-    tileAnchor: center
-  - id: stonewarm-garden-infill-1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-repair-handover-v1
+  - id: stonewarm-garden-infill-1
     position:
       column: 6
       row: 1
-    textureKey: dry-grass-variant-1-v1
-    tileAnchor: center
-  - id: stonewarm-garden-infill-2
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-1-v1
+  - id: stonewarm-garden-infill-2
     position:
       column: 8
       row: 18
-    textureKey: dry-grass-variant-2-v1
-    tileAnchor: center
-  - id: stonewarm-garden-infill-4
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-2-v1
+  - id: stonewarm-garden-infill-4
     position:
       column: 1
       row: 2
-    textureKey: dry-shrub-variant-2-v1
-    tileAnchor: center
-  - id: stonewarm-silver-sage-shrub
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-shrub-variant-2-v1
+  - id: stonewarm-silver-sage-shrub
     position:
       column: 5
       row: 19
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-rust-heather-bush
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-rust-heather-bush
     position:
       column: 0
       row: 3
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-stone-thyme-cushion
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-stone-thyme-cushion
     position:
       column: 9
       row: 19
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-sturdy-juniper-shrub
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-sturdy-juniper-shrub
     position:
       column: 5
       row: 8
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-copper-leaf-bush
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-copper-leaf-bush
     position:
       column: 4
       row: 20
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-dry-golden-grass
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-dry-golden-grass
     position:
       column: 2
       row: 0
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-home-1-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-home-1-town-herb-planter-v1
     position:
       column: 23
       row: 6
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-1-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-1-town-wood-bench-v1
     position:
       column: 4
       row: 8
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-2-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-2-town-herb-planter-v1
     position:
       column: 5
       row: 10
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-2-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-2-town-wood-bench-v1
     position:
       column: 5
       row: 13
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-3-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-3-town-herb-planter-v1
     position:
       column: 6
       row: 13
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-3-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-3-town-wood-bench-v1
     position:
       column: 4
       row: 21
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-4-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-4-town-herb-planter-v1
     position:
       column: 4
       row: 19
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-4-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-4-town-wood-bench-v1
     position:
       column: 8
       row: 21
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-5-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-5-town-herb-planter-v1
     position:
       column: 9
       row: 18
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-5-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-5-town-wood-bench-v1
     position:
       column: 13
       row: 21
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-6-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-6-town-herb-planter-v1
     position:
       column: 13
       row: 20
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-6-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-6-town-wood-bench-v1
     position:
       column: 23
       row: 19
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-7-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-7-town-herb-planter-v1
     position:
       column: 23
       row: 23
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-7-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-7-town-wood-bench-v1
     position:
       column: 13
       row: 1
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-8-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-8-town-herb-planter-v1
     position:
       column: 6
       row: 0
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-8-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-8-town-wood-bench-v1
     position:
       column: 7
       row: 2
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-9-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-9-town-herb-planter-v1
     position:
       column: 7
       row: 1
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-9-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-9-town-wood-bench-v1
     position:
       column: 11
       row: 4
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-10-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-10-town-herb-planter-v1
     position:
       column: 11
       row: 3
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-10-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-10-town-wood-bench-v1
     position:
       column: 17
       row: 2
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-11-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-11-town-herb-planter-v1
     position:
       column: 17
       row: 1
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-11-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-11-town-wood-bench-v1
     position:
       column: 20
       row: 2
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-home-12-town-herb-planter-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-home-12-town-herb-planter-v1
     position:
       column: 19
       row: 6
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-home-12-town-wood-bench-v1
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-home-12-town-wood-bench-v1
     position:
       column: 23
       row: 2
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-001
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-atmosphere-001
     position:
       column: 5
       row: 18
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-002
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-002
     position:
       column: 1
       row: 1
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-003
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-003
     position:
       column: 10
       row: 19
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-004
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-004
     position:
       column: 0
       row: 2
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-005
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-005
     position:
       column: 5
       row: 9
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-006
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-atmosphere-006
     position:
       column: 2
       row: 23
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-007
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-007
     position:
       column: 8
       row: 6
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-008
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-008
     position:
       column: 9
       row: 17
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-009
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-009
     position:
       column: 1
       row: 7
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-010
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-010
     position:
       column: 17
       row: 11
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-011
     kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: stonewarm-atmosphere-011
     position:
       column: 4
       row: 18
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-012
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-012
     position:
       column: 1
       row: 0
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-013
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-013
     position:
       column: 10
       row: 18
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-014
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-014
     position:
       column: 7
       row: 0
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-015
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-015
     position:
       column: 4
       row: 14
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-016
     kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: stonewarm-atmosphere-016
     position:
       column: 3
       row: 19
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-017
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-017
     position:
       column: 0
       row: 1
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-018
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-018
     position:
       column: 11
       row: 19
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-019
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-019
     position:
       column: 8
       row: 1
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-020
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-020
     position:
       column: 14
       row: 17
-    textureKey: town-charcoal-stack-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-021
     kind: decoration
+    tileAnchor: center
+    textureKey: town-charcoal-stack-v1
+  - id: stonewarm-atmosphere-021
     position:
       column: 1
       row: 21
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-022
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-022
     position:
       column: 9
       row: 6
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-023
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-023
     position:
       column: 0
       row: 22
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-024
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-024
     position:
       column: 0
       row: 7
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-025
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-025
     position:
       column: 23
       row: 1
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-026
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-atmosphere-026
     position:
       column: 1
       row: 8
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-027
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-027
     position:
       column: 1
       row: 23
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-028
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-028
     position:
       column: 0
       row: 0
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-029
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-029
     position:
       column: 7
       row: 14
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-030
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-030
     position:
       column: 19
       row: 11
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-031
     kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: stonewarm-atmosphere-031
     position:
       column: 8
       row: 0
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-032
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-032
     position:
       column: 10
       row: 17
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-033
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-033
     position:
       column: 9
       row: 1
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-034
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-034
     position:
       column: 3
       row: 18
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-035
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-035
     position:
       column: 4
       row: 23
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-036
     kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: stonewarm-atmosphere-036
     position:
       column: 10
       row: 6
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-037
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-037
     position:
       column: 11
       row: 18
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-038
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-038
     position:
       column: 0
       row: 8
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-039
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-039
     position:
       column: 2
       row: 19
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-040
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-040
     position:
       column: 21
       row: 21
-    textureKey: town-charcoal-stack-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-041
     kind: decoration
+    tileAnchor: center
+    textureKey: town-charcoal-stack-v1
+  - id: stonewarm-atmosphere-041
     position:
       column: 1
       row: 9
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-042
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-042
     position:
       column: 1
       row: 20
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-043
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-043
     position:
       column: 2
       row: 10
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-044
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-044
     position:
       column: 0
       row: 21
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-045
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-045
     position:
       column: 8
       row: 23
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-046
     kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: stonewarm-atmosphere-046
     position:
       column: 6
       row: 10
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-047
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-047
     position:
       column: 0
       row: 23
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-048
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-048
     position:
       column: 5
       row: 11
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-049
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-049
     position:
       column: 14
       row: 23
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-050
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-050
     position:
       column: 18
       row: 9
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-051
     kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: stonewarm-atmosphere-051
     position:
       column: 9
       row: 0
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-052
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-052
     position:
       column: 7
       row: 13
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-053
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-053
     position:
       column: 10
       row: 1
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-054
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-054
     position:
       column: 6
       row: 14
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-055
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-055
     position:
       column: 13
       row: 23
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-056
     kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: stonewarm-atmosphere-056
     position:
       column: 11
       row: 2
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-057
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-057
     position:
       column: 8
       row: 14
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-058
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-058
     position:
       column: 13
       row: 4
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-059
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-059
     position:
       column: 9
       row: 15
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-060
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-060
     position:
       column: 15
       row: 18
-    textureKey: town-charcoal-stack-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-061
     kind: decoration
+    tileAnchor: center
+    textureKey: town-charcoal-stack-v1
+  - id: stonewarm-atmosphere-061
     position:
       column: 11
       row: 6
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-062
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-062
     position:
       column: 3
       row: 17
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-063
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-063
     position:
       column: 0
       row: 9
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-064
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-064
     position:
       column: 11
       row: 17
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-065
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-065
     position:
       column: 23
       row: 21
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-066
     kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: stonewarm-atmosphere-066
     position:
       column: 1
       row: 10
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-067
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-067
     position:
       column: 2
       row: 18
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-068
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-068
     position:
       column: 7
       row: 10
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-069
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-069
     position:
       column: 1
       row: 19
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-070
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-070
     position:
       column: 17
       row: 10
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-071
     kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: stonewarm-atmosphere-071
     position:
       column: 6
       row: 11
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-072
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-072
     position:
       column: 13
       row: 19
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-073
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-073
     position:
       column: 10
       row: 0
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-074
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-074
     position:
       column: 0
       row: 20
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-075
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-075
     position:
       column: 4
       row: 6
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-076
     kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: stonewarm-atmosphere-076
     position:
       column: 11
       row: 1
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-077
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-077
     position:
       column: 15
       row: 23
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-078
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-078
     position:
       column: 13
       row: 3
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-079
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-079
     position:
       column: 8
       row: 13
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-080
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-080
     position:
       column: 18
       row: 23
-    textureKey: town-metal-bin-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-081
     kind: decoration
+    tileAnchor: center
+    textureKey: town-metal-bin-v1
+  - id: stonewarm-atmosphere-081
     position:
       column: 14
       row: 4
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-082
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-082
     position:
       column: 5
       row: 14
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-083
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-083
     position:
       column: 11
       row: 7
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-084
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-084
     position:
       column: 9
       row: 14
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-085
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-085
     position:
       column: 0
       row: 10
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-086
     kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: stonewarm-atmosphere-086
     position:
       column: 10
       row: 15
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-087
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-087
     position:
       column: 8
       row: 10
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-088
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-088
     position:
       column: 3
       row: 16
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-089
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-089
     position:
       column: 1
       row: 11
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-090
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-090
     position:
       column: 19
       row: 10
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-091
     kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: stonewarm-atmosphere-091
     position:
       column: 2
       row: 17
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-092
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-092
     position:
       column: 7
       row: 11
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-093
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-093
     position:
       column: 1
       row: 18
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-094
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-094
     position:
       column: 13
       row: 2
-    textureKey: town-stonewarm-copper-leaf-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-095
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1
+  - id: stonewarm-atmosphere-095
     position:
       column: 7
       row: 6
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-096
     kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: stonewarm-atmosphere-096
     position:
       column: 13
       row: 18
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-097
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-097
     position:
       column: 14
       row: 3
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-098
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: stonewarm-atmosphere-098
     position:
       column: 0
       row: 19
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-099
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-099
     position:
       column: 13
       row: 6
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-100
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-100
     position:
       column: 19
       row: 13
-    textureKey: town-charcoal-stack-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-101
     kind: decoration
+    tileAnchor: center
+    textureKey: town-charcoal-stack-v1
+  - id: stonewarm-atmosphere-101
     position:
       column: 16
       row: 23
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-102
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-102
     position:
       column: 11
       row: 8
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-103
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-103
     position:
       column: 9
       row: 13
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-104
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-104
     position:
       column: 10
       row: 9
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-105
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-105
     position:
       column: 10
       row: 2
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-106
     kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: stonewarm-atmosphere-106
     position:
       column: 3
       row: 15
-    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-107
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-sturdy-juniper-shrub-v1
+  - id: stonewarm-atmosphere-107
     position:
       column: 0
       row: 11
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-108
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-108
     position:
       column: 11
       row: 15
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-109
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-109
     position:
       column: 8
       row: 11
-    textureKey: town-stonewarm-rust-heather-bush-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-110
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-rust-heather-bush-v1
+  - id: stonewarm-atmosphere-110
     position:
       column: 21
       row: 14
-    textureKey: town-ore-basket-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-111
     kind: decoration
+    tileAnchor: center
+    textureKey: town-ore-basket-v1
+  - id: stonewarm-atmosphere-111
     position:
       column: 2
       row: 16
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-112
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: stonewarm-atmosphere-112
     position:
       column: 1
       row: 12
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: stonewarm-atmosphere-113
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: stonewarm-atmosphere-113
     position:
       column: 1
       row: 17
-    textureKey: town-stonewarm-copper-leaf-bush-v1
+    kind: decoration
     tileAnchor: center
+    textureKey: town-stonewarm-copper-leaf-bush-v1

@@ -547,7 +547,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v7-billboard-blocking-v1
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 9c237ff8b832390594a9e91decc110b5c9dd8241eaa53120c600d7b2bccf0515
+  sha256: 7d0fda29e1516c7cfb54f1fdcb74ba6d1724cdfaebf09b08b6954969ab28fb8b
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -555,7 +555,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4-billboard-blocking-v1
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 85f350145b4f1aa7a26bc40ca9d4ebda3726b8683be4b71a1c451762a7f060e1
+  sha256: 40870fa191ccdbeebe630387062e62f1bedcff9f239d97c6e020520b4db3e1ea
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -563,7 +563,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5-billboard-blocking-v1
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: 266383e80546204516205ec76f741f872d2931ef31de0d27967a8deb410c9647
+  sha256: 1686dbdff61117f4e0f27cfd5bb8364b526ad03f05d8f859beb7df6028ba94fc
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -587,7 +587,7 @@ assets:
 - managementId: config.field-tiles.broken-quarry
   version: shared-material-codes-v2-quarry-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-contact-fit-v1-quarry-detail-v2-natural-v3-natural-v3-clear-sign-v1
   path: assets/maps/field_tiles/broken-quarry.yaml
-  sha256: a152405d8fde3f28b84f1c071ced5decb4f7f6e69e854a7866081466443903fb
+  sha256: 74ccc56adaef6108ed92c59b49b03be1b1e265ce7ee6d14eccfdc3ce4f22dad5
   source:
     repository: slime-backend
     path: config/field_tiles/broken-quarry.yaml
@@ -1663,7 +1663,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3-grainstead-v19-billboard-blocking-v1
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 7a601d1240d08f990e6efca3eaac29497fd2c1537911171b325217d0dd6d843f
+  sha256: d42ff3763b6400b3ea2f3787d46f567257f643438d4511b45f1cdd5d34872451
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -1679,7 +1679,7 @@ assets:
 - managementId: config.field-tiles.brine-bank
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/brine-bank.yaml
-  sha256: 5691561d306a9713e0e474eb3f5938398a4f096dc8a95608220554dc06633fe6
+  sha256: 12c5a04dee6ef7f398c40c49635ee9ea0f1f600380c65b057dd7cad5029a61f2
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/brine-bank.yaml
@@ -6526,7 +6526,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 6bc5a53f67d13e132dd7bb456a26300341816e51cd1d4d8c417326db50fc0971
+  sha256: ca2ab8cc10ea4f50c7b939550bebda80481099ee0147f1aa17b561557e0267a5
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이

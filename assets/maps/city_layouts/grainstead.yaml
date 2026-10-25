@@ -1,1904 +1,275 @@
 managementId: config.city-layouts.grainstead
 data:
-  version: 20
+  rows: 24
   cityId: grainstead
   columns: 24
-  rows: 24
+  version: 20
   safeTown: true
-  terrainRows:
-  - ggggggggggggpgvvgggggggg
-  - gddgggggggggpgvvgddggddg
-  - gddgggggggpppppppddggddg
-  - gpggggggddppddvvppppppgg
-  - vpvvddddddppddvvdddggggg
-  - vpvvddddpppppgvvdddggggg
-  - vpvvddddpgppggggdddggggg
-  - vpppddddppppppppppgggggg
-  - gddpddddddppvvvvggggddgg
-  - gddpddddddppvvvvggggddgg
-  - gppppgddddppvvvvdddgpggg
-  - ggggggddddpppgggddddpddg
-  - gpppppppppppppppdddppppp
-  - gppppppppppppppppppppppp
-  - ggggggggggppgggggggppddg
-  - ggggggggvvppgggggggppddg
-  - gggddddgvvppggggdddgpvvv
-  - gggddddpppppggggdddgpvvv
-  - gggddddpvvppggggddddddvv
-  - gggggggpvvppppppppgdddvv
-  - gddggddpvvppvvvggggdddvv
-  - gddggddpvvppvvvgggggvvvv
-  - gpppppppvvppvvvgggggvvvv
-  - ggggggggggggvvvggggggggg
-  startPoint:
-    column: 11
-    row: 12
   buildings:
   - id: grainstead-guild
     name: 길드 회관
-    facilityId: grainstead-guild
-    origin:
-      column: 16
-      row: 16
     width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 17
-      row: 19
     facing: south
+    floors: 1
+    height: 3
+    origin:
+      row: 16
+      column: 16
     sprite:
       textureKey: town-grainstead-guild-v3
       contentWidth: 0.68
+    entrance:
+      row: 19
+      column: 17
+    facilityId: grainstead-guild
   - id: grainstead-bookshop
     name: 서점
-    facilityId: grainstead-bookshop
-    origin:
-      column: 16
-      row: 4
     width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 17
-      row: 7
     facing: south
+    floors: 1
+    height: 3
+    origin:
+      row: 4
+      column: 16
     sprite:
       textureKey: town-grainstead-bookshop-v2
       contentWidth: 0.741084
+    entrance:
+      row: 7
+      column: 17
+    facilityId: grainstead-bookshop
   - id: grainstead-inn
     name: 여관
-    facilityId: grainstead-inn
-    origin:
-      column: 3
-      row: 16
     width: 4
-    height: 3
-    floors: 1
-    entrance:
-      column: 7
-      row: 17
     facing: east
+    floors: 1
+    height: 3
+    origin:
+      row: 16
+      column: 3
     sprite:
       textureKey: town-grainstead-inn-v2
       contentWidth: 0.830243
+    entrance:
+      row: 17
+      column: 7
+    facilityId: grainstead-inn
   - id: grainstead-workshop
     name: 대장간·공방
-    facilityId: grainstead-workshop
-    origin:
-      column: 4
-      row: 4
     width: 4
-    height: 4
-    floors: 1
-    entrance:
-      column: 8
-      row: 5
     facing: east
+    floors: 1
+    height: 4
+    origin:
+      row: 4
+      column: 4
     sprite:
       textureKey: town-grainstead-workshop-v3
       contentWidth: 0.6
+    entrance:
+      row: 5
+      column: 8
+    facilityId: grainstead-workshop
   - id: grainstead-market
     name: 시장
-    facilityId: grainstead-market
-    origin:
-      column: 16
-      row: 10
     width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 17
-      row: 13
     facing: south
+    floors: 1
+    height: 3
+    origin:
+      row: 10
+      column: 16
     sprite:
       textureKey: town-grainstead-market-v2
       contentWidth: 0.895863
+    entrance:
+      row: 13
+      column: 17
+    facilityId: grainstead-market
   - id: grainstead-farm-house
+    kind: residence
     name: 일반 주택 가
-    kind: residence
-    facilityId: null
-    origin:
-      column: 8
-      row: 3
     width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 8
-      row: 5
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 3
+      column: 8
     sprite:
       textureKey: town-grainstead-farm-house-v3
       contentWidth: 0.68
+    entrance:
+      row: 5
+      column: 8
+    facilityId: null
   - id: grainstead-mill-house
-    name: 일반 주택 나
     kind: residence
-    facilityId: null
-    origin:
-      column: 12
-      row: 3
+    name: 일반 주택 나
     width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 12
-      row: 5
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 3
+      column: 12
     sprite:
       textureKey: town-grainstead-mill-house-v3
       contentWidth: 0.68
-  - id: grainstead-residence-03
-    name: 일반 주택 3
-    kind: residence
-    facilityId: null
-    origin:
-      column: 1
-      row: 1
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 1
-      row: 3
+      row: 5
+      column: 12
+    facilityId: null
+  - id: grainstead-residence-03
+    kind: residence
+    name: 일반 주택 3
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 1
+      column: 1
     sprite:
       textureKey: town-common-stone-house-v2
       contentWidth: 0.706847
-  - id: grainstead-residence-04
-    name: 일반 주택 4
-    kind: residence
-    facilityId: null
-    origin:
-      column: 17
-      row: 1
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 17
       row: 3
+      column: 1
+    facilityId: null
+  - id: grainstead-residence-04
+    kind: residence
+    name: 일반 주택 4
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 1
+      column: 17
     sprite:
       textureKey: town-common-timber-house-v2
       contentWidth: 0.706134
-  - id: grainstead-residence-05
-    name: 일반 주택 5
-    kind: residence
-    facilityId: null
-    origin:
-      column: 21
-      row: 1
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 21
       row: 3
+      column: 17
+    facilityId: null
+  - id: grainstead-residence-05
+    kind: residence
+    name: 일반 주택 5
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 1
+      column: 21
     sprite:
       textureKey: town-grainstead-farm-house-v3
       contentWidth: 0.68
-  - id: grainstead-residence-06
-    name: 일반 주택 6
-    kind: residence
-    facilityId: null
-    origin:
-      column: 1
-      row: 8
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 1
-      row: 10
+      row: 3
+      column: 21
+    facilityId: null
+  - id: grainstead-residence-06
+    kind: residence
+    name: 일반 주택 6
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 8
+      column: 1
     sprite:
       textureKey: town-common-stone-house-v2
       contentWidth: 0.706847
-  - id: grainstead-residence-07
-    name: 일반 주택 7
-    kind: residence
-    facilityId: null
-    origin:
-      column: 4
-      row: 8
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 4
       row: 10
+      column: 1
+    facilityId: null
+  - id: grainstead-residence-07
+    kind: residence
+    name: 일반 주택 7
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 8
+      column: 4
     sprite:
       textureKey: town-common-timber-house-v2
       contentWidth: 0.706134
-  - id: grainstead-residence-08
-    name: 일반 주택 8
-    kind: residence
-    facilityId: null
-    origin:
-      column: 20
-      row: 8
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 20
       row: 10
+      column: 4
+    facilityId: null
+  - id: grainstead-residence-08
+    kind: residence
+    name: 일반 주택 8
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 8
+      column: 20
     sprite:
       textureKey: town-grainstead-mill-house-v3
       contentWidth: 0.68
-  - id: grainstead-residence-09
-    name: 일반 주택 9
-    kind: residence
-    facilityId: null
-    origin:
-      column: 1
-      row: 20
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 1
-      row: 22
+      row: 10
+      column: 20
+    facilityId: null
+  - id: grainstead-residence-09
+    kind: residence
+    name: 일반 주택 9
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 20
+      column: 1
     sprite:
       textureKey: town-common-stone-house-v2
       contentWidth: 0.706847
-  - id: grainstead-residence-10
-    name: 일반 주택 10
-    kind: residence
-    facilityId: null
-    origin:
-      column: 5
-      row: 20
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 5
       row: 22
+      column: 1
+    facilityId: null
+  - id: grainstead-residence-10
+    kind: residence
+    name: 일반 주택 10
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 20
+      column: 5
     sprite:
       textureKey: town-common-timber-house-v2
       contentWidth: 0.706134
+    entrance:
+      row: 22
+      column: 5
+    facilityId: null
+  startPoint:
+    row: 12
+    column: 11
   connections:
   - id: grainstead-to-granary-flats
+    row: 12
+    column: 23
     target: granary-flats
     direction: east
-    column: 23
-    row: 12
   - id: grainstead-to-mill-ridge
+    row: 0
+    column: 12
     target: mill-ridge
     direction: north
-    column: 12
-    row: 0
-  objects:
-  - id: grainstead-garden-1
-    kind: decoration
-    position:
-      column: 3
-      row: 0
-    textureKey: orchard-apple-tree-v2
-    tileAnchor: center
-  - id: grainstead-garden-3
-    kind: decoration
-    position:
-      column: 19
-      row: 2
-    textureKey: orchard-apple-tree-variant-2-v2
-    tileAnchor: center
-  - id: grainstead-garden-5
-    kind: decoration
-    position:
-      column: 23
-      row: 19
-    textureKey: orchard-apple-tree-variant-1-v2
-    tileAnchor: center
-  - id: grainstead-garden-7
-    kind: decoration
-    position:
-      column: 6
-      row: 0
-    textureKey: seed-grass-variant-1-v1
-    tileAnchor: center
-  - id: grainstead-garden-9
-    kind: decoration
-    position:
-      column: 5
-      row: 0
-    textureKey: clover-variant-1-v1
-    tileAnchor: center
-  - id: grainstead-garden-11
-    kind: decoration
-    position:
-      column: 14
-      row: 1
-    textureKey: seed-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-garden-13
-    kind: decoration
-    position:
-      column: 0
-      row: 4
-    textureKey: dandelion-variant-1-v1
-    tileAnchor: center
-  - id: grainstead-garden-15
-    kind: decoration
-    position:
-      column: 2
-      row: 14
-    textureKey: clover-variant-2-v1
-    tileAnchor: center
-  - id: grainstead-garden-17
-    kind: decoration
-    position:
-      column: 23
-      row: 6
-    textureKey: berry-variant-2-v1
-    tileAnchor: center
-  - id: grainstead-garden-19
-    kind: decoration
-    position:
-      column: 0
-      row: 14
-    textureKey: seed-grass-v1
-    tileAnchor: center
-  - id: grainstead-garden-21
-    kind: decoration
-    position:
-      column: 0
-      row: 23
-    textureKey: town-vegetable-planter-v1
-    tileAnchor: center
-  - id: grainstead-garden-23
-    kind: decoration
-    position:
-      column: 23
-      row: 17
-    textureKey: seed-grass-variant-1-v1
-    tileAnchor: center
-  - id: grainstead-garden-25
-    kind: decoration
-    position:
-      column: 8
-      row: 23
-    textureKey: yellow-dandelions-v1
-    tileAnchor: center
-  - id: grainstead-garden-27
-    kind: decoration
-    position:
-      column: 9
-      row: 23
-    textureKey: sorrel-clump-v1
-    tileAnchor: center
-  - id: grainstead-garden-31
-    kind: decoration
-    position:
-      column: 19
-      row: 23
-    textureKey: seed-grass-variant-2-v1
-    tileAnchor: center
-  - id: grainstead-garden-33
-    kind: decoration
-    position:
-      column: 23
-      row: 21
-    textureKey: clover-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-prop-1
-    kind: decoration
-    position:
-      column: 14
-      row: 6
-    textureKey: town-notice-board-v1
-    tileAnchor: center
-  - id: grainstead-prop-2
-    kind: decoration
-    position:
-      column: 7
-      row: 10
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-prop-3
-    kind: decoration
-    position:
-      column: 1
-      row: 15
-    textureKey: town-ground-lantern-v1
-    tileAnchor: center
-  - id: grainstead-prop-4
-    kind: decoration
-    position:
-      column: 8
-      row: 8
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: grainstead-prop-7
-    kind: decoration
-    position:
-      column: 23
-      row: 0
-    textureKey: town-vegetable-planter-v1
-    tileAnchor: center
-  - id: grainstead-prop-8
-    kind: decoration
-    position:
-      column: 15
-      row: 8
-    textureKey: town-ground-lantern-v1
-    tileAnchor: center
-  - id: grainstead-prop-9
-    kind: decoration
-    position:
-      column: 6
-      row: 10
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-prop-10
-    kind: decoration
-    position:
-      column: 7
-      row: 9
-    textureKey: town-straw-sheaves-v1
-    tileAnchor: center
-  - id: grainstead-prop-11
-    kind: decoration
-    position:
-      column: 22
-      row: 15
-    textureKey: town-harvest-cart-v1
-    tileAnchor: center
-  - id: grainstead-prop-12
-    kind: decoration
-    position:
-      column: 7
-      row: 11
-    textureKey: town-threshing-bench-v1
-    tileAnchor: center
-  - id: grainstead-prop-13
-    kind: decoration
-    position:
-      column: 22
-      row: 19
-    textureKey: town-repair-rack-v1
-    tileAnchor: center
-  - id: grainstead-prop-14
-    kind: decoration
-    position:
-      column: 8
-      row: 10
-    textureKey: town-straw-sheaves-v1
-    tileAnchor: center
-  - id: grainstead-prop-18
-    kind: decoration
-    position:
-      column: 8
-      row: 20
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: grainstead-prop-19
-    kind: decoration
-    position:
-      column: 4
-      row: 23
-    textureKey: town-vegetable-planter-v1
-    tileAnchor: center
-  - id: grainstead-life-scene
-    kind: decoration
-    position:
-      column: 20
-      row: 19
-    textureKey: town-grainstead-milling-dispatch-v1
-    tileAnchor: center
-  - id: grainstead-life-scene-addition
-    kind: decoration
-    position:
-      column: 13
-      row: 22
-    textureKey: town-grainstead-grain-drying-v1
-    tileAnchor: center
-  - id: grainstead-garden-infill-1
-    kind: decoration
-    position:
-      column: 0
-      row: 11
-    textureKey: seed-grass-variant-1-v1
-    tileAnchor: center
-  - id: grainstead-garden-infill-4
-    kind: decoration
-    position:
-      column: 13
-      row: 6
-    textureKey: seed-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-golden-meadow-tuft
-    kind: decoration
-    position:
-      column: 23
-      row: 9
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-white-field-daisy
-    kind: decoration
-    position:
-      column: 22
-      row: 9
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-green-field-hedge
-    kind: decoration
-    position:
-      column: 23
-      row: 8
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-home-1-town-wood-bench-v1
-    kind: decoration
-    position:
-      column: 12
-      row: 8
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: grainstead-home-2-town-herb-planter-v1
-    kind: decoration
-    position:
-      column: 10
-      row: 0
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: grainstead-home-4-town-herb-planter-v1
-    kind: decoration
-    position:
-      column: 20
-      row: 4
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: grainstead-home-4-town-wood-bench-v1
-    kind: decoration
-    position:
-      column: 20
-      row: 5
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: grainstead-home-6-town-herb-planter-v1
-    kind: decoration
-    position:
-      column: 3
-      row: 14
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: grainstead-home-7-town-wood-bench-v1
-    kind: decoration
-    position:
-      column: 2
-      row: 15
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: grainstead-home-8-town-herb-planter-v1
-    kind: decoration
-    position:
-      column: 22
-      row: 10
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: grainstead-home-10-town-herb-planter-v1
-    kind: decoration
-    position:
-      column: 1
-      row: 16
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: grainstead-home-10-town-wood-bench-v1
-    kind: decoration
-    position:
-      column: 8
-      row: 19
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-002
-    kind: decoration
-    position:
-      column: 9
-      row: 0
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-004
-    kind: decoration
-    position:
-      column: 23
-      row: 4
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-007
-    kind: decoration
-    position:
-      column: 6
-      row: 14
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-009
-    kind: decoration
-    position:
-      column: 7
-      row: 23
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-010
-    kind: decoration
-    position:
-      column: 6
-      row: 11
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-012
-    kind: decoration
-    position:
-      column: 11
-      row: 23
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-014
-    kind: decoration
-    position:
-      column: 3
-      row: 23
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-015
-    kind: decoration
-    position:
-      column: 9
-      row: 6
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-017
-    kind: decoration
-    position:
-      column: 10
-      row: 23
-    textureKey: town-grainstead-wild-raspberry-bush-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-019
-    kind: decoration
-    position:
-      column: 4
-      row: 0
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-020
-    kind: decoration
-    position:
-      column: 7
-      row: 8
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-022
-    kind: decoration
-    position:
-      column: 0
-      row: 13
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-024
-    kind: decoration
-    position:
-      column: 22
-      row: 11
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-026
-    kind: decoration
-    position:
-      column: 23
-      row: 18
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-028
-    kind: decoration
-    position:
-      column: 18
-      row: 23
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-030
-    kind: decoration
-    position:
-      column: 12
-      row: 16
-    textureKey: town-repair-rack-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-031
-    kind: decoration
-    position:
-      column: 23
-      row: 7
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-033
-    kind: decoration
-    position:
-      column: 0
-      row: 15
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-035
-    kind: decoration
-    position:
-      column: 13
-      row: 8
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-036
-    kind: decoration
-    position:
-      column: 9
-      row: 22
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-038
-    kind: decoration
-    position:
-      column: 8
-      row: 0
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-040
-    kind: decoration
-    position:
-      column: 8
-      row: 9
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-041
-    kind: decoration
-    position:
-      column: 23
-      row: 5
-    textureKey: town-grainstead-wild-raspberry-bush-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-043
-    kind: decoration
-    position:
-      column: 0
-      row: 16
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-045
-    kind: decoration
-    position:
-      column: 2
-      row: 23
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-046
-    kind: decoration
-    position:
-      column: 18
-      row: 22
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-048
-    kind: decoration
-    position:
-      column: 23
-      row: 3
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-050
-    kind: decoration
-    position:
-      column: 9
-      row: 8
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-051
-    kind: decoration
-    position:
-      column: 22
-      row: 17
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-053
-    kind: decoration
-    position:
-      column: 8
-      row: 22
-    textureKey: town-grainstead-wild-raspberry-bush-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-056
-    kind: decoration
-    position:
-      column: 0
-      row: 12
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-058
-    kind: decoration
-    position:
-      column: 21
-      row: 11
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-060
-    kind: decoration
-    position:
-      column: 18
-      row: 20
-    textureKey: town-repair-rack-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-061
-    kind: decoration
-    position:
-      column: 9
-      row: 21
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-063
-    kind: decoration
-    position:
-      column: 8
-      row: 21
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-065
-    kind: decoration
-    position:
-      column: 8
-      row: 18
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-066
-    kind: decoration
-    position:
-      column: 14
-      row: 8
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-068
-    kind: decoration
-    position:
-      column: 23
-      row: 20
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-070
-    kind: decoration
-    position:
-      column: 8
-      row: 11
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-071
-    kind: decoration
-    position:
-      column: 12
-      row: 9
-    textureKey: town-grainstead-wild-raspberry-bush-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-073
-    kind: decoration
-    position:
-      column: 18
-      row: 21
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-075
-    kind: decoration
-    position:
-      column: 23
-      row: 2
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-076
-    kind: decoration
-    position:
-      column: 13
-      row: 1
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-078
-    kind: decoration
-    position:
-      column: 1
-      row: 14
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-080
-    kind: decoration
-    position:
-      column: 22
-      row: 18
-    textureKey: town-repair-rack-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-081
-    kind: decoration
-    position:
-      column: 22
-      row: 20
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-083
-    kind: decoration
-    position:
-      column: 9
-      row: 1
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-085
-    kind: decoration
-    position:
-      column: 7
-      row: 15
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-086
-    kind: decoration
-    position:
-      column: 6
-      row: 23
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-088
-    kind: decoration
-    position:
-      column: 19
-      row: 22
-    textureKey: town-grainstead-wild-raspberry-bush-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-090
-    kind: decoration
-    position:
-      column: 16
-      row: 20
-    textureKey: town-repair-rack-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-091
-    kind: decoration
-    position:
-      column: 22
-      row: 6
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-093
-    kind: decoration
-    position:
-      column: 4
-      row: 21
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-095
-    kind: decoration
-    position:
-      column: 19
-      row: 11
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-096
-    kind: decoration
-    position:
-      column: 21
-      row: 5
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-098
-    kind: decoration
-    position:
-      column: 2
-      row: 11
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-100
-    kind: decoration
-    position:
-      column: 9
-      row: 10
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-101
-    kind: decoration
-    position:
-      column: 3
-      row: 21
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-103
-    kind: decoration
-    position:
-      column: 0
-      row: 21
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-105
-    kind: decoration
-    position:
-      column: 22
-      row: 7
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-106
-    kind: decoration
-    position:
-      column: 13
-      row: 9
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-108
-    kind: decoration
-    position:
-      column: 3
-      row: 11
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-110
-    kind: decoration
-    position:
-      column: 9
-      row: 14
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-111
-    kind: decoration
-    position:
-      column: 19
-      row: 17
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-113
-    kind: decoration
-    position:
-      column: 19
-      row: 21
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-115
-    kind: decoration
-    position:
-      column: 0
-      row: 9
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: grainstead-atmosphere-116
-    kind: decoration
-    position:
-      column: 13
-      row: 10
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-storage-01
-    kind: decoration
-    position:
-      column: 9
-      row: 9
-    textureKey: town-straw-sheaves-v1
-    tileAnchor: center
-  - id: grainstead-storage-02
-    kind: decoration
-    position:
-      column: 9
-      row: 11
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-storage-03
-    kind: decoration
-    position:
-      column: 5
-      row: 11
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-storage-04
-    kind: decoration
-    position:
-      column: 8
-      row: 14
-    textureKey: town-straw-sheaves-v1
-    tileAnchor: center
-  - id: grainstead-storage-05
-    kind: decoration
-    position:
-      column: 12
-      row: 10
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-storage-06
-    kind: decoration
-    position:
-      column: 7
-      row: 14
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-storage-07
-    kind: decoration
-    position:
-      column: 14
-      row: 15
-    textureKey: town-straw-sheaves-v1
-    tileAnchor: center
-  - id: grainstead-storage-08
-    kind: decoration
-    position:
-      column: 18
-      row: 15
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-storage-09
-    kind: decoration
-    position:
-      column: 15
-      row: 14
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-storage-10
-    kind: decoration
-    position:
-      column: 19
-      row: 16
-    textureKey: town-straw-sheaves-v1
-    tileAnchor: center
-  - id: grainstead-storage-11
-    kind: decoration
-    position:
-      column: 17
-      row: 15
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-storage-12
-    kind: decoration
-    position:
-      column: 18
-      row: 14
-    textureKey: town-grain-sacks-v1
-    tileAnchor: center
-  - id: grainstead-remodel-0-0
-    kind: decoration
-    position:
-      column: 0
-      row: 0
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-1-0
-    kind: decoration
-    position:
-      column: 1
-      row: 0
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-0
-    kind: decoration
-    position:
-      column: 14
-      row: 0
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-0
-    kind: decoration
-    position:
-      column: 15
-      row: 0
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: grainstead-remodel-16-0
-    kind: decoration
-    position:
-      column: 16
-      row: 0
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-20-0
-    kind: decoration
-    position:
-      column: 20
-      row: 0
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-22-0
-    kind: decoration
-    position:
-      column: 22
-      row: 0
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-4-1
-    kind: decoration
-    position:
-      column: 4
-      row: 1
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-remodel-5-1
-    kind: decoration
-    position:
-      column: 5
-      row: 1
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-remodel-8-1
-    kind: decoration
-    position:
-      column: 8
-      row: 1
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-10-1
-    kind: decoration
-    position:
-      column: 10
-      row: 1
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-1
-    kind: decoration
-    position:
-      column: 15
-      row: 1
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-16-1
-    kind: decoration
-    position:
-      column: 16
-      row: 1
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-19-1
-    kind: decoration
-    position:
-      column: 19
-      row: 1
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-3-2
-    kind: decoration
-    position:
-      column: 3
-      row: 2
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-5-2
-    kind: decoration
-    position:
-      column: 5
-      row: 2
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-8-2
-    kind: decoration
-    position:
-      column: 8
-      row: 2
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-9-2
-    kind: decoration
-    position:
-      column: 9
-      row: 2
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-20-2
-    kind: decoration
-    position:
-      column: 20
-      row: 2
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-3-3
-    kind: decoration
-    position:
-      column: 3
-      row: 3
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-5-3
-    kind: decoration
-    position:
-      column: 5
-      row: 3
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-7-3
-    kind: decoration
-    position:
-      column: 7
-      row: 3
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-3
-    kind: decoration
-    position:
-      column: 14
-      row: 3
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-3
-    kind: decoration
-    position:
-      column: 15
-      row: 3
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-2-4
-    kind: decoration
-    position:
-      column: 2
-      row: 4
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-3-4
-    kind: decoration
-    position:
-      column: 3
-      row: 4
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-4
-    kind: decoration
-    position:
-      column: 14
-      row: 4
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-4
-    kind: decoration
-    position:
-      column: 15
-      row: 4
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-0-5
-    kind: decoration
-    position:
-      column: 0
-      row: 5
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-2-5
-    kind: decoration
-    position:
-      column: 2
-      row: 5
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-3-5
-    kind: decoration
-    position:
-      column: 3
-      row: 5
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-5
-    kind: decoration
-    position:
-      column: 14
-      row: 5
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-5
-    kind: decoration
-    position:
-      column: 15
-      row: 5
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-0-6
-    kind: decoration
-    position:
-      column: 0
-      row: 6
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-2-6
-    kind: decoration
-    position:
-      column: 2
-      row: 6
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-3-6
-    kind: decoration
-    position:
-      column: 3
-      row: 6
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-6
-    kind: decoration
-    position:
-      column: 15
-      row: 6
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-remodel-19-6
-    kind: decoration
-    position:
-      column: 19
-      row: 6
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-20-6
-    kind: decoration
-    position:
-      column: 20
-      row: 6
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-0-7
-    kind: decoration
-    position:
-      column: 0
-      row: 7
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: grainstead-remodel-19-7
-    kind: decoration
-    position:
-      column: 19
-      row: 7
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-remodel-0-8
-    kind: decoration
-    position:
-      column: 0
-      row: 8
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-19-8
-    kind: decoration
-    position:
-      column: 19
-      row: 8
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-9
-    kind: decoration
-    position:
-      column: 14
-      row: 9
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-9
-    kind: decoration
-    position:
-      column: 15
-      row: 9
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-10
-    kind: decoration
-    position:
-      column: 14
-      row: 10
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-10
-    kind: decoration
-    position:
-      column: 15
-      row: 10
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-23-10
-    kind: decoration
-    position:
-      column: 23
-      row: 10
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-11
-    kind: decoration
-    position:
-      column: 14
-      row: 11
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-19-11
-    kind: decoration
-    position:
-      column: 15
-      row: 11
-    textureKey: town-delivery-crates-v1
-    tileAnchor: center
-  - id: grainstead-remodel-12-14
-    kind: decoration
-    position:
-      column: 12
-      row: 14
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-6-15
-    kind: decoration
-    position:
-      column: 6
-      row: 15
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-remodel-8-15
-    kind: decoration
-    position:
-      column: 8
-      row: 15
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-9-15
-    kind: decoration
-    position:
-      column: 9
-      row: 15
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-12-15
-    kind: decoration
-    position:
-      column: 12
-      row: 15
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-13-15
-    kind: decoration
-    position:
-      column: 13
-      row: 15
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-15
-    kind: decoration
-    position:
-      column: 15
-      row: 15
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-2-16
-    kind: decoration
-    position:
-      column: 2
-      row: 16
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-remodel-8-16
-    kind: decoration
-    position:
-      column: 8
-      row: 16
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-9-16
-    kind: decoration
-    position:
-      column: 9
-      row: 16
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-16
-    kind: decoration
-    position:
-      column: 14
-      row: 16
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-16
-    kind: decoration
-    position:
-      column: 15
-      row: 16
-    textureKey: town-grainstead-white-field-daisy-v1
-    tileAnchor: center
-  - id: grainstead-remodel-19-16
-    kind: decoration
-    position:
-      column: 16
-      row: 15
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-22-16
-    kind: decoration
-    position:
-      column: 15
-      row: 17
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-23-16
-    kind: decoration
-    position:
-      column: 16
-      row: 14
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-2-17
-    kind: decoration
-    position:
-      column: 2
-      row: 17
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-17
-    kind: decoration
-    position:
-      column: 14
-      row: 17
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-21-17
-    kind: decoration
-    position:
-      column: 15
-      row: 18
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-22-17
-    kind: decoration
-    position:
-      column: 13
-      row: 17
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-23-17
-    kind: decoration
-    position:
-      column: 14
-      row: 18
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-0-18
-    kind: decoration
-    position:
-      column: 0
-      row: 18
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-9-18
-    kind: decoration
-    position:
-      column: 9
-      row: 18
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-18
-    kind: decoration
-    position:
-      column: 13
-      row: 18
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-19-18
-    kind: decoration
-    position:
-      column: 15
-      row: 20
-    textureKey: town-delivery-crates-v1
-    tileAnchor: center
-  - id: grainstead-remodel-20-18
-    kind: decoration
-    position:
-      column: 12
-      row: 18
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-1-19
-    kind: decoration
-    position:
-      column: 1
-      row: 19
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-2-19
-    kind: decoration
-    position:
-      column: 2
-      row: 19
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-3-19
-    kind: decoration
-    position:
-      column: 3
-      row: 19
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-4-19
-    kind: decoration
-    position:
-      column: 4
-      row: 19
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-5-19
-    kind: decoration
-    position:
-      column: 5
-      row: 19
-    textureKey: town-grainstead-hazel-leaf-shrub-v1
-    tileAnchor: center
-  - id: grainstead-remodel-9-19
-    kind: decoration
-    position:
-      column: 9
-      row: 19
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: grainstead-remodel-22-19
-    kind: decoration
-    position:
-      column: 14
-      row: 20
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-4-20
-    kind: decoration
-    position:
-      column: 4
-      row: 20
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-9-20
-    kind: decoration
-    position:
-      column: 9
-      row: 20
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-12-20
-    kind: decoration
-    position:
-      column: 12
-      row: 20
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: grainstead-remodel-13-20
-    kind: decoration
-    position:
-      column: 13
-      row: 20
-    textureKey: town-stonewarm-dry-golden-grass-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-20
-    kind: decoration
-    position:
-      column: 12
-      row: 17
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-21-20
-    kind: decoration
-    position:
-      column: 13
-      row: 16
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-9-21
-    kind: decoration
-    position:
-      column: 20
-      row: 21
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-12-21
-    kind: decoration
-    position:
-      column: 20
-      row: 22
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: grainstead-remodel-14-21
-    kind: decoration
-    position:
-      column: 21
-      row: 21
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-15-21
-    kind: decoration
-    position:
-      column: 20
-      row: 23
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
-  - id: grainstead-remodel-20-21
-    kind: decoration
-    position:
-      column: 21
-      row: 22
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-21-21
-    kind: decoration
-    position:
-      column: 22
-      row: 21
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-22-21
-    kind: decoration
-    position:
-      column: 22
-      row: 22
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-16-22
-    kind: decoration
-    position:
-      column: 21
-      row: 23
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-17-22
-    kind: decoration
-    position:
-      column: 22
-      row: 23
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-18-22
-    kind: decoration
-    position:
-      column: 23
-      row: 22
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-19-22
-    kind: decoration
-    position:
-      column: 23
-      row: 23
-    textureKey: town-grainstead-green-field-hedge-v1
-    tileAnchor: center
-  - id: grainstead-remodel-20-22
-    kind: decoration
-    position:
-      column: 19
-      row: 9
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-21-22
-    kind: decoration
-    position:
-      column: 21
-      row: 7
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-22-22
-    kind: decoration
-    position:
-      column: 22
-      row: 8
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-23-22
-    kind: decoration
-    position:
-      column: 18
-      row: 9
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-    tileAnchor: center
-  - id: grainstead-remodel-21-23
-    kind: decoration
-    position:
-      column: 20
-      row: 7
-    textureKey: town-grainstead-field-clover-cushion-v1
-    tileAnchor: center
   elevations:
   - - 2
     - 2
@@ -2476,3 +847,1632 @@ data:
     - 1
     - 1
     - 1
+  terrainRows:
+  - ggggggggggggpgvvgggggggg
+  - gddgggggggggpgvvgddggddg
+  - gddgggggggpppppppddggddg
+  - gpggggggddppddvvppppppgg
+  - vpvvddddddppddvvdddggggg
+  - vpvvddddpppppgvvdddggggg
+  - vpvvddddpgppggggdddggggg
+  - vpppddddppppppppppgggggg
+  - gddpddddddppvvvvggggddgg
+  - gddpddddddppvvvvggggddgg
+  - gppppgddddppvvvvdddgpggg
+  - ggggggddddpppgggddddpddg
+  - gpppppppppppppppdddppppp
+  - gppppppppppppppppppppppp
+  - ggggggggggppgggggggppddg
+  - ggggggggvvppgggggggppddg
+  - gggddddgvvppggggdddgpvvv
+  - gggddddpppppggggdddgpvvv
+  - gggddddpvvppggggddddddvv
+  - gggggggpvvppppppppgdddvv
+  - gddggddpvvppvvvggggdddvv
+  - gddggddpvvppvvvgggggvvvv
+  - gpppppppvvppvvvgggggvvvv
+  - ggggggggggggvvvggggggggg
+  objects:
+  - id: grainstead-garden-1
+    position:
+      column: 3
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-apple-tree-v2
+  - id: grainstead-garden-3
+    position:
+      column: 19
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-apple-tree-variant-2-v2
+  - id: grainstead-garden-5
+    position:
+      column: 23
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-apple-tree-variant-1-v2
+  - id: grainstead-garden-7
+    position:
+      column: 6
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-1-v1
+  - id: grainstead-garden-9
+    position:
+      column: 5
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: clover-variant-1-v1
+  - id: grainstead-garden-11
+    position:
+      column: 14
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: grainstead-garden-13
+    position:
+      column: 0
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: dandelion-variant-1-v1
+  - id: grainstead-garden-15
+    position:
+      column: 2
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: clover-variant-2-v1
+  - id: grainstead-garden-17
+    position:
+      column: 23
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: berry-variant-2-v1
+  - id: grainstead-garden-19
+    position:
+      column: 0
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: grainstead-garden-21
+    position:
+      column: 0
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-vegetable-planter-v1
+  - id: grainstead-garden-23
+    position:
+      column: 23
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-1-v1
+  - id: grainstead-garden-25
+    position:
+      column: 8
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: yellow-dandelions-v1
+  - id: grainstead-garden-27
+    position:
+      column: 9
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: sorrel-clump-v1
+  - id: grainstead-garden-31
+    position:
+      column: 19
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: grainstead-garden-33
+    position:
+      column: 23
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: clover-variant-3-v1
+  - id: grainstead-prop-1
+    position:
+      column: 16
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-notice-board-v1
+  - id: grainstead-prop-2
+    position:
+      column: 7
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-prop-3
+    position:
+      column: 1
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-ground-lantern-v1
+  - id: grainstead-prop-4
+    position:
+      column: 8
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: grainstead-prop-7
+    position:
+      column: 23
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-vegetable-planter-v1
+  - id: grainstead-prop-8
+    position:
+      column: 15
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-ground-lantern-v1
+  - id: grainstead-prop-9
+    position:
+      column: 6
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-prop-10
+    position:
+      column: 7
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: grainstead-prop-11
+    position:
+      column: 22
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-harvest-cart-v1
+  - id: grainstead-prop-12
+    position:
+      column: 7
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-threshing-bench-v1
+  - id: grainstead-prop-13
+    position:
+      column: 22
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-repair-rack-v1
+  - id: grainstead-prop-14
+    position:
+      column: 8
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: grainstead-prop-18
+    position:
+      column: 8
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: grainstead-prop-19
+    position:
+      column: 4
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-vegetable-planter-v1
+  - id: grainstead-life-scene
+    position:
+      column: 20
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-milling-dispatch-v1
+  - id: grainstead-life-scene-addition
+    position:
+      column: 13
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-grain-drying-v1
+  - id: grainstead-garden-infill-1
+    position:
+      column: 0
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-1-v1
+  - id: grainstead-garden-infill-4
+    position:
+      column: 13
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: grainstead-golden-meadow-tuft
+    position:
+      column: 23
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-white-field-daisy
+    position:
+      column: 22
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-green-field-hedge
+    position:
+      column: 23
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-home-1-town-wood-bench-v1
+    position:
+      column: 12
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: grainstead-home-2-town-herb-planter-v1
+    position:
+      column: 10
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: grainstead-home-4-town-herb-planter-v1
+    position:
+      column: 20
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: grainstead-home-4-town-wood-bench-v1
+    position:
+      column: 20
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: grainstead-home-6-town-herb-planter-v1
+    position:
+      column: 3
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: grainstead-home-7-town-wood-bench-v1
+    position:
+      column: 2
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: grainstead-home-8-town-herb-planter-v1
+    position:
+      column: 22
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: grainstead-home-10-town-herb-planter-v1
+    position:
+      column: 1
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: grainstead-home-10-town-wood-bench-v1
+    position:
+      column: 8
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: grainstead-atmosphere-002
+    position:
+      column: 9
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-atmosphere-004
+    position:
+      column: 23
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-007
+    position:
+      column: 6
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-atmosphere-009
+    position:
+      column: 7
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-atmosphere-010
+    position:
+      column: 6
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-atmosphere-012
+    position:
+      column: 11
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-atmosphere-014
+    position:
+      column: 3
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-atmosphere-015
+    position:
+      column: 9
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: grainstead-atmosphere-017
+    position:
+      column: 10
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-wild-raspberry-bush-v1
+  - id: grainstead-atmosphere-019
+    position:
+      column: 4
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-atmosphere-020
+    position:
+      column: 7
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: grainstead-atmosphere-022
+    position:
+      column: 0
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-024
+    position:
+      column: 22
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-atmosphere-026
+    position:
+      column: 23
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-atmosphere-028
+    position:
+      column: 18
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-030
+    position:
+      column: 12
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-repair-rack-v1
+  - id: grainstead-atmosphere-031
+    position:
+      column: 23
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-atmosphere-033
+    position:
+      column: 0
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-035
+    position:
+      column: 13
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: grainstead-atmosphere-036
+    position:
+      column: 9
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-atmosphere-038
+    position:
+      column: 8
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-atmosphere-040
+    position:
+      column: 8
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: grainstead-atmosphere-041
+    position:
+      column: 23
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-wild-raspberry-bush-v1
+  - id: grainstead-atmosphere-043
+    position:
+      column: 0
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-atmosphere-045
+    position:
+      column: 2
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: grainstead-atmosphere-046
+    position:
+      column: 18
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-048
+    position:
+      column: 23
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-atmosphere-050
+    position:
+      column: 9
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: grainstead-atmosphere-051
+    position:
+      column: 22
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-atmosphere-053
+    position:
+      column: 8
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-wild-raspberry-bush-v1
+  - id: grainstead-atmosphere-056
+    position:
+      column: 0
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-atmosphere-058
+    position:
+      column: 21
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-060
+    position:
+      column: 18
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-repair-rack-v1
+  - id: grainstead-atmosphere-061
+    position:
+      column: 9
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-atmosphere-063
+    position:
+      column: 8
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-atmosphere-065
+    position:
+      column: 8
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: grainstead-atmosphere-066
+    position:
+      column: 14
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-atmosphere-068
+    position:
+      column: 23
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-atmosphere-070
+    position:
+      column: 8
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-atmosphere-071
+    position:
+      column: 12
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-wild-raspberry-bush-v1
+  - id: grainstead-atmosphere-073
+    position:
+      column: 18
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-atmosphere-075
+    position:
+      column: 23
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: grainstead-atmosphere-076
+    position:
+      column: 13
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-078
+    position:
+      column: 1
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-atmosphere-080
+    position:
+      column: 22
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-repair-rack-v1
+  - id: grainstead-atmosphere-081
+    position:
+      column: 22
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-atmosphere-083
+    position:
+      column: 9
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-atmosphere-085
+    position:
+      column: 7
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: grainstead-atmosphere-086
+    position:
+      column: 6
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-atmosphere-088
+    position:
+      column: 19
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-wild-raspberry-bush-v1
+  - id: grainstead-atmosphere-090
+    position:
+      column: 16
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-repair-rack-v1
+  - id: grainstead-atmosphere-091
+    position:
+      column: 22
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-atmosphere-093
+    position:
+      column: 4
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-095
+    position:
+      column: 19
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: grainstead-atmosphere-096
+    position:
+      column: 21
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-atmosphere-098
+    position:
+      column: 2
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-atmosphere-100
+    position:
+      column: 9
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-atmosphere-101
+    position:
+      column: 3
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-atmosphere-103
+    position:
+      column: 0
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-atmosphere-105
+    position:
+      column: 22
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: grainstead-atmosphere-106
+    position:
+      column: 13
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-108
+    position:
+      column: 3
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-atmosphere-110
+    position:
+      column: 9
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: grainstead-atmosphere-111
+    position:
+      column: 19
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-atmosphere-113
+    position:
+      column: 19
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-atmosphere-115
+    position:
+      column: 0
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: grainstead-atmosphere-116
+    position:
+      column: 13
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-storage-01
+    position:
+      column: 9
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: grainstead-storage-02
+    position:
+      column: 9
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-storage-03
+    position:
+      column: 5
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-storage-04
+    position:
+      column: 8
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: grainstead-storage-05
+    position:
+      column: 12
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-storage-06
+    position:
+      column: 7
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-storage-07
+    position:
+      column: 14
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: grainstead-storage-08
+    position:
+      column: 18
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-storage-09
+    position:
+      column: 15
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-storage-10
+    position:
+      column: 19
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: grainstead-storage-11
+    position:
+      column: 17
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-storage-12
+    position:
+      column: 18
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: grainstead-remodel-0-0
+    position:
+      column: 0
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-1-0
+    position:
+      column: 1
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-14-0
+    position:
+      column: 14
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-15-0
+    position:
+      column: 15
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: grainstead-remodel-16-0
+    position:
+      column: 16
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-20-0
+    position:
+      column: 20
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-22-0
+    position:
+      column: 22
+      row: 0
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-4-1
+    position:
+      column: 4
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-remodel-5-1
+    position:
+      column: 5
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-remodel-8-1
+    position:
+      column: 8
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-10-1
+    position:
+      column: 10
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-15-1
+    position:
+      column: 15
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-16-1
+    position:
+      column: 16
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-19-1
+    position:
+      column: 19
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-3-2
+    position:
+      column: 3
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-5-2
+    position:
+      column: 5
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-8-2
+    position:
+      column: 8
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-9-2
+    position:
+      column: 9
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-20-2
+    position:
+      column: 20
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-3-3
+    position:
+      column: 3
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-5-3
+    position:
+      column: 5
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-7-3
+    position:
+      column: 7
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-remodel-14-3
+    position:
+      column: 14
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-15-3
+    position:
+      column: 15
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-2-4
+    position:
+      column: 2
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-3-4
+    position:
+      column: 3
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-14-4
+    position:
+      column: 14
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: grainstead-remodel-15-4
+    position:
+      column: 15
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-0-5
+    position:
+      column: 0
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-2-5
+    position:
+      column: 2
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-3-5
+    position:
+      column: 3
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-14-5
+    position:
+      column: 14
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-15-5
+    position:
+      column: 15
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-0-6
+    position:
+      column: 0
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-2-6
+    position:
+      column: 2
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-3-6
+    position:
+      column: 3
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-15-6
+    position:
+      column: 15
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-remodel-19-6
+    position:
+      column: 19
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-20-6
+    position:
+      column: 20
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-0-7
+    position:
+      column: 0
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: grainstead-remodel-19-7
+    position:
+      column: 19
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-remodel-0-8
+    position:
+      column: 0
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-19-8
+    position:
+      column: 19
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-14-9
+    position:
+      column: 14
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-15-9
+    position:
+      column: 15
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-14-10
+    position:
+      column: 14
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-15-10
+    position:
+      column: 15
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-23-10
+    position:
+      column: 23
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-14-11
+    position:
+      column: 14
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-19-11
+    position:
+      column: 15
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-delivery-crates-v1
+  - id: grainstead-remodel-12-14
+    position:
+      column: 12
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-6-15
+    position:
+      column: 6
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-remodel-8-15
+    position:
+      column: 8
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-9-15
+    position:
+      column: 9
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-12-15
+    position:
+      column: 12
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-13-15
+    position:
+      column: 13
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-remodel-15-15
+    position:
+      column: 15
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-2-16
+    position:
+      column: 2
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-remodel-8-16
+    position:
+      column: 8
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-9-16
+    position:
+      column: 9
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-14-16
+    position:
+      column: 14
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-15-16
+    position:
+      column: 15
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-white-field-daisy-v1
+  - id: grainstead-remodel-19-16
+    position:
+      column: 16
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-22-16
+    position:
+      column: 15
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-23-16
+    position:
+      column: 16
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-2-17
+    position:
+      column: 2
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-15-17
+    position:
+      column: 14
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-21-17
+    position:
+      column: 15
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-22-17
+    position:
+      column: 13
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-23-17
+    position:
+      column: 14
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-0-18
+    position:
+      column: 0
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-9-18
+    position:
+      column: 9
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: grainstead-remodel-15-18
+    position:
+      column: 13
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-19-18
+    position:
+      column: 15
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-delivery-crates-v1
+  - id: grainstead-remodel-20-18
+    position:
+      column: 12
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-1-19
+    position:
+      column: 1
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-2-19
+    position:
+      column: 2
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-3-19
+    position:
+      column: 3
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-4-19
+    position:
+      column: 4
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-5-19
+    position:
+      column: 5
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-hazel-leaf-shrub-v1
+  - id: grainstead-remodel-9-19
+    position:
+      column: 9
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: grainstead-remodel-22-19
+    position:
+      column: 14
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-4-20
+    position:
+      column: 4
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-9-20
+    position:
+      column: 9
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-12-20
+    position:
+      column: 12
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: grainstead-remodel-13-20
+    position:
+      column: 13
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-dry-golden-grass-v1
+  - id: grainstead-remodel-14-20
+    position:
+      column: 12
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-21-20
+    position:
+      column: 13
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-9-21
+    position:
+      column: 20
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-12-21
+    position:
+      column: 20
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: grainstead-remodel-14-21
+    position:
+      column: 21
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-15-21
+    position:
+      column: 20
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1
+  - id: grainstead-remodel-20-21
+    position:
+      column: 21
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-21-21
+    position:
+      column: 22
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-22-21
+    position:
+      column: 22
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-16-22
+    position:
+      column: 21
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-17-22
+    position:
+      column: 22
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-18-22
+    position:
+      column: 23
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-19-22
+    position:
+      column: 23
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-green-field-hedge-v1
+  - id: grainstead-remodel-20-22
+    position:
+      column: 19
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-21-22
+    position:
+      column: 21
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-22-22
+    position:
+      column: 22
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-23-22
+    position:
+      column: 18
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: grainstead-remodel-21-23
+    position:
+      column: 20
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-field-clover-cushion-v1

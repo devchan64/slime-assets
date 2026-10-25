@@ -1,5 +1,6 @@
 managementId: config.field-tiles.broken-quarry
 data:
+  cliffTextureKey: quarry-limestone-wall-v1
   rows:
   - JJJJJJJJJJJJJJJIIIJJJJJJJJKKKKKK
   - JJJJJJJJJJJJJJJIIIJJJJJJJJKKKKKK
@@ -35,617 +36,616 @@ data:
   - eeeeeeeeeeeeeeKIIIKKKKKKKKKKKKKK
   objects:
   - id: ward-tower
-    kind: ward-tower
     position:
       column: 16
       row: 16
+    kind: ward-tower
   - id: broken-quarry-redesign-001
-    kind: decoration
     position:
       column: 5
       row: 5
-    textureKey: quarry-wooden-derrick-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-002
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-wooden-derrick-v1
+  - id: broken-quarry-redesign-002
     position:
       column: 8
       row: 5
-    textureKey: quarry-hand-winch-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-003
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-hand-winch-v1
+  - id: broken-quarry-redesign-003
     position:
       column: 9
       row: 5
-    textureKey: quarry-splitting-tools-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-004
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-splitting-tools-v1
+  - id: broken-quarry-redesign-004
     position:
       column: 12
       row: 10
-    textureKey: quarry-splitting-tools-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-005
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-splitting-tools-v1
+  - id: broken-quarry-redesign-005
     position:
       column: 8
       row: 24
-    textureKey: quarry-splitting-tools-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-006
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-splitting-tools-v1
+  - id: broken-quarry-redesign-006
     position:
       column: 7
       row: 11
-    textureKey: quarry-stone-bearers-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-007
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-stone-bearers-v1
+  - id: broken-quarry-redesign-007
     position:
       column: 20
       row: 18
-    textureKey: quarry-stone-bearers-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-008
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-stone-bearers-v1
+  - id: broken-quarry-redesign-008
     position:
       column: 8
       row: 14
-    textureKey: quarry-cut-blocks-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-009
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: broken-quarry-redesign-009
     position:
       column: 9
       row: 8
-    textureKey: quarry-cut-blocks-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-010
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: broken-quarry-redesign-010
     position:
       column: 22
       row: 7
-    textureKey: quarry-cut-blocks-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-011
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: broken-quarry-redesign-011
     position:
       column: 20
       row: 6
-    textureKey: quarry-cut-blocks-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-012
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: broken-quarry-redesign-012
     position:
       column: 8
       row: 23
-    textureKey: quarry-cut-blocks-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-013
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: broken-quarry-redesign-013
     position:
       column: 7
       row: 23
-    textureKey: quarry-mason-tools-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-014
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-mason-tools-v1
+  - id: broken-quarry-redesign-014
     position:
       column: 22
       row: 8
-    textureKey: quarry-mason-tools-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-015
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-mason-tools-v1
+  - id: broken-quarry-redesign-015
     position:
       column: 6
       row: 24
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-016
     kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: broken-quarry-redesign-016
     position:
       column: 20
       row: 24
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-017
     kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: broken-quarry-redesign-017
     position:
       column: 8
       row: 26
-    textureKey: town-delivery-crates-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-018
     kind: decoration
+    tileAnchor: center
+    textureKey: town-delivery-crates-v1
+  - id: broken-quarry-redesign-018
     position:
       column: 21
       row: 25
-    textureKey: town-delivery-crates-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-019
     kind: decoration
+    tileAnchor: center
+    textureKey: town-delivery-crates-v1
+  - id: broken-quarry-redesign-019
     position:
       column: 7
       row: 25
-    textureKey: town-repair-rack-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-020
     kind: decoration
+    tileAnchor: center
+    textureKey: town-repair-rack-v1
+  - id: broken-quarry-redesign-020
     position:
       column: 1
       row: 2
-    textureKey: quarry-weathered-boulders-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-021
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-weathered-boulders-v1
+  - id: broken-quarry-redesign-021
     position:
       column: 26
       row: 9
-    textureKey: quarry-weathered-boulders-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-022
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-weathered-boulders-v1
+  - id: broken-quarry-redesign-022
     position:
       column: 27
       row: 22
-    textureKey: quarry-weathered-boulders-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-023
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-weathered-boulders-v1
+  - id: broken-quarry-redesign-023
     position:
       column: 21
       row: 12
-    textureKey: quarry-collapse-fan-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-024
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-collapse-fan-v1
+  - id: broken-quarry-redesign-024
     position:
       column: 26
       row: 11
-    textureKey: quarry-collapse-fan-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-025
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-collapse-fan-v1
+  - id: broken-quarry-redesign-025
     position:
       column: 29
       row: 18
-    textureKey: quarry-collapse-fan-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-026
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-collapse-fan-v1
+  - id: broken-quarry-redesign-026
     position:
       column: 29
       row: 22
-    textureKey: quarry-collapse-fan-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-027
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-collapse-fan-v1
+  - id: broken-quarry-redesign-027
     position:
       column: 6
       row: 14
-    textureKey: quarry-collapse-fan-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-028
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-collapse-fan-v1
+  - id: broken-quarry-redesign-028
     position:
       column: 10
       row: 0
-    textureKey: quarry-collapse-fan-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-029
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-collapse-fan-v1
+  - id: broken-quarry-redesign-029
     position:
       column: 11
       row: 7
-    textureKey: quarry-collapse-fan-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-030
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-collapse-fan-v1
+  - id: broken-quarry-redesign-030
     position:
       column: 10
       row: 15
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-031
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-031
     position:
       column: 24
       row: 8
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-032
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-032
     position:
       column: 23
       row: 15
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-033
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-033
     position:
       column: 24
       row: 12
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-034
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-034
     position:
       column: 25
       row: 15
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-035
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-035
     position:
       column: 29
       row: 11
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-036
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-036
     position:
       column: 26
       row: 20
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-037
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-037
     position:
       column: 26
       row: 18
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-038
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-038
     position:
       column: 29
       row: 24
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-039
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-039
     position:
       column: 27
       row: 25
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-040
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-040
     position:
       column: 9
       row: 15
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-041
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-041
     position:
       column: 11
       row: 13
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-042
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-042
     position:
       column: 2
       row: 8
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-043
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-043
     position:
       column: 11
       row: 3
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-048
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: broken-quarry-redesign-048
     position:
       column: 2
       row: 23
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-049
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-049
     position:
       column: 3
       row: 25
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-050
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-050
     position:
       column: 5
       row: 27
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-051
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-051
     position:
       column: 10
       row: 28
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-052
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-052
     position:
       column: 12
       row: 27
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-053
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-053
     position:
       column: 27
       row: 27
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-054
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-054
     position:
       column: 28
       row: 24
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-055
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-055
     position:
       column: 28
       row: 18
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-056
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-056
     position:
       column: 3
       row: 13
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-057
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-057
     position:
       column: 11
       row: 9
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-058
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-058
     position:
       column: 11
       row: 11
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-059
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-059
     position:
       column: 6
       row: 26
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-060
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-060
     position:
       column: 9
       row: 25
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-061
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-061
     position:
       column: 21
       row: 26
-    textureKey: town-stonewarm-stone-thyme-cushion-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-062
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-stone-thyme-cushion-v1
+  - id: broken-quarry-redesign-062
     position:
       column: 2
       row: 25
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-063
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: broken-quarry-redesign-063
     position:
       column: 4
       row: 28
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-064
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: broken-quarry-redesign-064
     position:
       column: 11
       row: 28
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-065
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: broken-quarry-redesign-065
     position:
       column: 28
       row: 28
-    textureKey: town-stonewarm-silver-sage-shrub-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-066
     kind: decoration
+    tileAnchor: center
+    textureKey: town-stonewarm-silver-sage-shrub-v1
+  - id: broken-quarry-redesign-066
     position:
       column: 1
       row: 5
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-067
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-067
     position:
       column: 2
       row: 7
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-068
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-068
     position:
       column: 10
       row: 2
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-069
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-069
     position:
       column: 12
       row: 6
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-070
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-070
     position:
       column: 27
       row: 6
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-071
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-071
     position:
       column: 28
       row: 12
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-072
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-072
     position:
       column: 28
       row: 25
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-073
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-073
     position:
       column: 27
       row: 28
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-074
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-074
     position:
       column: 4
       row: 13
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-075
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-075
     position:
       column: 9
       row: 10
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-076
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-076
     position:
       column: 10
       row: 12
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-redesign-077
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-redesign-077
     position:
       column: 7
       row: 26
-    textureKey: dry-grass-variant-3-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-081
     kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-variant-3-v1
+  - id: broken-quarry-reinforce-081
     position:
       column: 25
       row: 21
-    textureKey: quarry-fallen-limestone-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-082
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: broken-quarry-reinforce-082
     position:
       column: 13
       row: 4
-    textureKey: quarry-fallen-limestone-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-083
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: broken-quarry-reinforce-083
     position:
       column: 8
       row: 3
-    textureKey: quarry-crevice-plants-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-084
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: broken-quarry-reinforce-084
     position:
       column: 3
       row: 5
-    textureKey: quarry-crevice-plants-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-085
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: broken-quarry-reinforce-085
     position:
       column: 29
       row: 13
-    textureKey: quarry-crevice-plants-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-086
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: broken-quarry-reinforce-086
     position:
       column: 28
       row: 20
-    textureKey: quarry-crevice-plants-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-087
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: broken-quarry-reinforce-087
     position:
       column: 4
       row: 22
-    textureKey: quarry-crevice-plants-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-088
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: broken-quarry-reinforce-088
     position:
       column: 11
       row: 25
-    textureKey: quarry-crevice-plants-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-089
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: broken-quarry-reinforce-089
     position:
       column: 9
       row: 7
-    textureKey: quarry-splitting-tools-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-090
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-splitting-tools-v1
+  - id: broken-quarry-reinforce-090
     position:
       column: 20
       row: 8
+    kind: decoration
+    tileAnchor: center
     textureKey: quarry-splitting-tools-v1
-    tileAnchor: center
   - id: broken-quarry-reinforce-091
-    kind: decoration
     position:
-      column: 11
+      column: 12
       row: 12
-    textureKey: quarry-hand-winch-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-092
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-hand-winch-v1
+  - id: broken-quarry-reinforce-092
     position:
       column: 22
       row: 24
-    textureKey: quarry-cut-blocks-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-093
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: broken-quarry-reinforce-093
     position:
       column: 8
       row: 21
-    textureKey: quarry-cut-blocks-v1
-    tileAnchor: center
-  - id: broken-quarry-reinforce-094
     kind: decoration
+    tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: broken-quarry-reinforce-094
     position:
       column: 9
       row: 26
-    textureKey: town-rope-crates-v1
+    kind: decoration
     tileAnchor: center
-  cliffTextureKey: quarry-limestone-wall-v1
+    textureKey: town-rope-crates-v1
