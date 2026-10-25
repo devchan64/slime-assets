@@ -1,0 +1,1611 @@
+schema_version: 1
+category: large-trees
+assets:
+- assetId: conifer-tree-compact-v1
+  assetType: large-trees
+  name: 낮고 풍성한 침엽수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.conifer-tree-compact-v1
+    version: v1
+    path: assets/billboards/conifer-tree-compact-v1.png
+    sha256: b01c40b236e7c80846e77e1b2e4101a360d932f0d13b0b7484ebd1abe6cf08cc
+    width: 228
+    height: 256
+    publishedPath: /registered-assets/assets/billboards/conifer-tree-compact-v1.png
+  properties:
+    anchorX: -0.03
+    anchorY: -0.29
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 260.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.08
+    shadowOffsetRow: -0.09
+    shadowScaleX: 1.67
+    shadowScaleY: 1.67
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: conifer-tree-compact-v1
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-tile-length-v3
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+          shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 낮고 풍성한 침엽수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      recommended_uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    mapReferences:
+    - path: assets/maps/field_tiles/dawn-overlook.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 낮고 풍성한 침엽수
+      uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+      category: vegetation
+      features:
+      - 부드러운 손그림 음영
+      - 구분되는 잎 무리와 노출된 뿌리
+      review_category: large-trees
+    metadataReferences: []
+- assetId: conifer-tree-open-v1
+  assetType: large-trees
+  name: 가지 사이가 열린 침엽수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.conifer-tree-open-v1
+    version: v1
+    path: assets/billboards/conifer-tree-open-v1.png
+    sha256: 6ebdb288fe29e326ae90b9e21dde5d142393cf15a5d3899241db6e8c6fd7a5cb
+    width: 180
+    height: 256
+    publishedPath: /registered-assets/assets/billboards/conifer-tree-open-v1.png
+  properties:
+    anchorX: -0.05
+    anchorY: -0.27
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 315.63
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.02
+    shadowOffsetRow: -0.03
+    shadowScaleX: 1.69
+    shadowScaleY: 1.69
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: conifer-tree-open-v1
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-tile-length-v3
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+          shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 가지 사이가 열린 침엽수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      recommended_uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    mapReferences:
+    - path: assets/maps/field_tiles/dawn-overlook.yaml
+      texture_key_occurrences: 3
+    familyDefinition:
+      name: 가지 사이가 열린 침엽수
+      uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+      category: vegetation
+      features:
+      - 부드러운 손그림 음영
+      - 구분되는 잎 무리와 노출된 뿌리
+      review_category: large-trees
+    metadataReferences: []
+- assetId: dawn-overlook-conifer-tree-medium-v2
+  assetType: large-trees
+  name: 넓은 수관의 중간 침엽수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.dawn-overlook-conifer-tree-medium-v2
+    version: v2
+    path: assets/billboards/dawn-overlook-conifer-tree-medium-v2.png
+    sha256: 295e5c0e6d5632d512b02b76bfdb9ef65f834d60d97ba56e29646cfdd0b41e21
+    width: 228
+    height: 256
+    publishedPath: /registered-assets/assets/billboards/dawn-overlook-conifer-tree-medium-v2.png
+  properties:
+    anchorX: -0.14
+    anchorY: -0.1
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 283.59
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.2
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: dawn-overlook-conifer-tree-medium-v2
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-tile-length-v3
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+          shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 넓은 수관의 중간 침엽수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      recommended_uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    mapReferences:
+    - path: assets/maps/field_tiles/dawn-overlook.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 넓은 수관의 중간 침엽수
+      uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+      category: vegetation
+      features:
+      - 부드러운 손그림 음영
+      - 구분되는 잎 무리와 노출된 뿌리
+      review_category: large-trees
+    metadataReferences: []
+- assetId: dawn-overlook-conifer-tree-tall-v2
+  assetType: large-trees
+  name: 층진 수관의 높은 침엽수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.dawn-overlook-conifer-tree-tall-v2
+    version: v2
+    path: assets/billboards/dawn-overlook-conifer-tree-tall-v2.png
+    sha256: 0df50fc46dc4cc4d8d055d37fe780d4deaec7d79eb51c9c2acd93d47c2105684
+    width: 164
+    height: 256
+    publishedPath: /registered-assets/assets/billboards/dawn-overlook-conifer-tree-tall-v2.png
+  properties:
+    anchorX: 0.01
+    anchorY: -0.34
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 298.23
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.02
+    shadowOffsetRow: -0.07
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: dawn-overlook-conifer-tree-tall-v2
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-tile-length-v3
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+          shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 층진 수관의 높은 침엽수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      recommended_uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    mapReferences:
+    - path: assets/maps/field_tiles/dawn-overlook.yaml
+      texture_key_occurrences: 3
+    familyDefinition:
+      name: 층진 수관의 높은 침엽수
+      uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+      category: vegetation
+      features:
+      - 부드러운 손그림 음영
+      - 구분되는 잎 무리와 노출된 뿌리
+      review_category: large-trees
+    metadataReferences: []
+- assetId: dawn-overlook-pine-tree-windswept-v1
+  assetType: large-trees
+  name: 바람에 기운 낮은 소나무
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.dawn-overlook-pine-tree-windswept-v1
+    version: v1
+    path: assets/billboards/dawn-overlook-pine-tree-windswept-v1.png
+    sha256: 818406347680ac247e80ea4033601381dc6d0de5e2723d33ecd9e57480597353
+    width: 200
+    height: 173
+    publishedPath: /registered-assets/assets/billboards/dawn-overlook-pine-tree-windswept-v1.png
+  properties:
+    anchorX: 0.3
+    anchorY: -0.26
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 148.67
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: dawn-overlook-pine-tree-windswept-v1
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 생성 결과 이미지 직접 확인. 접지·그림자 속성은 초기값이며 실제 맵 배치에서 추가 검수한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
+          미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 바람에 기운 낮은 소나무 · 수목 군락
+      composition: 높은 수형을 군락의 축으로 쓰고 중간 수형을 불규칙하게 섞는다. 바람에 기운 낮은 수형은 군락 가장자리에 소량 배치한다.
+        전망 중심과 주요 통로는 비운다.
+      recommended_uses:
+      - 산지 사면 수목 군락. 높이와 수형을 섞고 전망 중심과 통로를 비운다.
+      visual_description: 짧고 굵은 갈색 줄기가 오른쪽으로 휘고 납작한 녹색 수관도 같은 방향으로 뻗는 낮은 소나무. 뿌리는
+        수관 중심보다 왼쪽에 있다.
+    mapReferences:
+    - path: assets/maps/field_tiles/dawn-overlook.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 바람에 기운 낮은 소나무
+      uses:
+      - 산지 사면 수목 군락. 높이와 수형을 섞고 전망 중심과 통로를 비운다.
+      category: tree
+      features:
+      - 바람에 기운 낮은 소나무
+      - 짙은 녹색 바늘잎과 갈색 줄기, 드러난 짧은 뿌리
+      review_category: large-trees
+    metadataReferences: []
+- assetId: field-root-trail-rooted-tree-1-v1
+  assetType: large-trees
+  name: 뿌리 오솔길 · 뿌리 나무 · 변형 1/5
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.field-root-trail-rooted-tree-1-v1
+    version: v1
+    path: assets/billboards/field-root-trail-rooted-tree-1-v1.png
+    sha256: f928116c0b242c39263b350cdda73faa9b4d9ddf3258950fff33dbe561b5ee11
+    width: 179
+    height: 246
+    publishedPath: /registered-assets/assets/billboards/field-root-trail-rooted-tree-1-v1.png
+  properties:
+    anchorX: -0.01
+    anchorY: 0.19
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 336.33
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.05
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: field-root-trail-rooted-tree-1-v1
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 뿌리 오솔길 · 뿌리 나무 · 변형 1/5 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 0cc38b4c996afcfbe8eba3139abf859bf0b664df57a7926140df0b17c197edf2
+      recommended_uses:
+      - root-trail 야외 필드 배치 후보
+      visual_description: 밝은 녹색의 둥근 수관 아래 긴 갈색 뿌리가 지면 위로 넓게 뻗어 있다.
+    mapReferences: []
+    familyDefinition:
+      name: 뿌리 오솔길 · 뿌리 나무 · 변형 1/5
+      uses:
+      - root-trail 야외 필드 배치 후보
+      category: tree
+      features:
+      - 지역별 형태·크기 변형
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-apple-tree-v2
+  assetType: large-trees
+  name: 사과나무
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-apple-tree-v2
+    version: v2
+    path: assets/billboards/orchard-apple-tree-v2.png
+    sha256: 067562caf938e8d66e7f946ebe4e1d4b32f24f53effcf58866e3ce74ff2bb93b
+    width: 210
+    height: 228
+    publishedPath: /registered-assets/assets/billboards/orchard-apple-tree-v2.png
+  properties:
+    anchorX: 0.01
+    anchorY: -0.34
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 270.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.1
+    shadowScaleX: 1.501
+    shadowScaleY: 1.501
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-apple-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 사과나무 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 9ddf3812b423fb1e53ec5a9966f9d879c51ad95b10c693325c45e543ce3ea893
+      recommended_uses:
+      - 과수 재배 구역의 중심 수목
+      visual_description: 큰 붉은 사과가 밝고 둥근 잎 덩어리 사이에 달린 짧고 굵은 줄기의 나무다.
+    mapReferences:
+    - path: assets/maps/city_layouts/grainstead.yaml
+      texture_key_occurrences: 1
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 사과나무
+      uses:
+      - 과수 재배 구역의 중심 수목
+      category: tree
+      features:
+      - 열매가 달린 수관과 줄기
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-apple-tree-variant-1-v2
+  assetType: large-trees
+  name: 사과나무
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-apple-tree-variant-1-v2
+    version: v2
+    path: assets/billboards/orchard-apple-tree-variant-1-v2.png
+    sha256: fa75f903b7d09373b11dec3e012ac895e7af75d71e0c386214836f416f888169
+    width: 251
+    height: 236
+    publishedPath: /registered-assets/assets/billboards/orchard-apple-tree-variant-1-v2.png
+  properties:
+    anchorX: -0.03
+    anchorY: -0.12
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 248.91
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.04
+    shadowOffsetRow: -0.02
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-apple-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 사과나무 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 4e4a68771879887f109566c1075e93672b47a0a592279167e5ed0566f29f92ac
+      recommended_uses:
+      - 과수 재배 구역의 중심 수목
+      visual_description: 좌우로 벌어진 굵은 가지와 비대칭 수관에 큰 붉은 사과가 달려 있다.
+    mapReferences:
+    - path: assets/maps/city_layouts/grainstead.yaml
+      texture_key_occurrences: 1
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 사과나무
+      uses:
+      - 과수 재배 구역의 중심 수목
+      category: tree
+      features:
+      - 열매가 달린 수관과 줄기
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-apple-tree-variant-2-v2
+  assetType: large-trees
+  name: 사과나무
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-apple-tree-variant-2-v2
+    version: v2
+    path: assets/billboards/orchard-apple-tree-variant-2-v2.png
+    sha256: 7721e15e5b0f3859bbf22dfeec5a5ef9c904d49c6775c857abbdb004697294dc
+    width: 176
+    height: 243
+    publishedPath: /registered-assets/assets/billboards/orchard-apple-tree-variant-2-v2.png
+  properties:
+    anchorX: -0.04
+    anchorY: -0.28
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 284.77
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.05
+    shadowOffsetRow: -0.06
+    shadowScaleX: 1.41
+    shadowScaleY: 1.41
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-apple-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 사과나무 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 1c100874a549a8d82b01540b004fa6b98d576303aba855d0728c80282ba4f818
+      recommended_uses:
+      - 과수 재배 구역의 중심 수목
+      visual_description: 비틀린 줄기 위에 여러 층의 녹색 잎 덩어리와 큰 붉은 사과가 붙어 있다.
+    mapReferences:
+    - path: assets/maps/city_layouts/grainstead.yaml
+      texture_key_occurrences: 1
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 4
+    familyDefinition:
+      name: 사과나무
+      uses:
+      - 과수 재배 구역의 중심 수목
+      category: tree
+      features:
+      - 열매가 달린 수관과 줄기
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-autumn-tree-v2
+  assetType: large-trees
+  name: 가을 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-autumn-tree-v2
+    version: v2
+    path: assets/billboards/orchard-autumn-tree-v2.png
+    sha256: d2e48f71b174c8cfbeeb21821412715b33a432c3b4e22da352749ce10439e795
+    width: 249
+    height: 242
+    publishedPath: /registered-assets/assets/billboards/orchard-autumn-tree-v2.png
+  properties:
+    anchorX: 0.0
+    anchorY: -0.27
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 267.52
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: -0.05
+    shadowScaleX: 1.71
+    shadowScaleY: 1.71
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-autumn-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 가을 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: ad8c16e6aebca88dd10429d330693a582f41053ad581c38af6e516e21b900118
+      recommended_uses:
+      - 계절감이 있는 과수 군락
+      visual_description: 굵고 갈라진 줄기 위에 노란색·주황색·붉은색 잎 덩어리가 둥글게 퍼져 있다.
+    mapReferences:
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 가을 과수
+      uses:
+      - 계절감이 있는 과수 군락
+      category: tree
+      features:
+      - 가을색 수관
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-autumn-tree-variant-1-v2
+  assetType: large-trees
+  name: 가을 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-autumn-tree-variant-1-v2
+    version: v2
+    path: assets/billboards/orchard-autumn-tree-variant-1-v2.png
+    sha256: be3c51cd9bad5e0eca692afdc0016760b9bb40518e820811ca9c97f604f1f066
+    width: 247
+    height: 228
+    publishedPath: /registered-assets/assets/billboards/orchard-autumn-tree-variant-1-v2.png
+  properties:
+    anchorX: -0.03
+    anchorY: -0.28
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 267.19
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: -0.03
+    shadowScaleX: 1.5
+    shadowScaleY: 1.5
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-autumn-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 가을 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 01fb567b326ff67c2ac628551a27b30b7712c911f34b75e09d8181703519d9f2
+      recommended_uses:
+      - 계절감이 있는 과수 군락
+      visual_description: 왼쪽으로 기운 굵은 줄기에서 좌우로 넓게 벌어진 주황색 수관이 자란다.
+    mapReferences:
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 4
+    familyDefinition:
+      name: 가을 과수
+      uses:
+      - 계절감이 있는 과수 군락
+      category: tree
+      features:
+      - 가을색 수관
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-autumn-tree-variant-2-v2
+  assetType: large-trees
+  name: 가을 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-autumn-tree-variant-2-v2
+    version: v2
+    path: assets/billboards/orchard-autumn-tree-variant-2-v2.png
+    sha256: 6a0a7767cf0f0fdd54c82ea726046bc5fa81eb96022ed14dfd141d74de6b4eec
+    width: 223
+    height: 251
+    publishedPath: /registered-assets/assets/billboards/orchard-autumn-tree-variant-2-v2.png
+  properties:
+    anchorX: 0.01
+    anchorY: -0.3
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 294.14
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.05
+    shadowOffsetRow: -0.06
+    shadowScaleX: 1.41
+    shadowScaleY: 1.31
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-autumn-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 가을 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 38bad835ff177930ab5a3f712a522d5e985fb2305c65755f15598c8fe4267328
+      recommended_uses:
+      - 계절감이 있는 과수 군락
+      visual_description: 구불구불한 줄기 위로 주황색 잎 덩어리들이 층층이 쌓인 세로형 나무다.
+    mapReferences:
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 가을 과수
+      uses:
+      - 계절감이 있는 과수 군락
+      category: tree
+      features:
+      - 가을색 수관
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-dead-tree-v1
+  assetType: large-trees
+  name: 고사목
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-dead-tree-v1
+    version: v1
+    path: assets/billboards/orchard-dead-tree-v1.png
+    sha256: 3f25d3d79d2f4e087a14956f4ff269ad1865c8d79b7b2288d4e729c4c6f3371f
+    width: 249
+    height: 230
+    publishedPath: /registered-assets/assets/billboards/orchard-dead-tree-v1.png
+  properties:
+    anchorX: 0.01
+    anchorY: -0.46
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 220.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.1
+    shadowScaleX: 1.21
+    shadowScaleY: 1.21
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-dead-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 'Qwen 생성 요청의 단독 과수·줄기와 뿌리 전체·하단 접지 지시 및 원본 확인. 큰 나무 공용 높이 300 적용. 출처:
+        2026-10-10_17-31-46-dca9147c · 기록 SHA-256 7a4b1acde23d3dbfb7126c2e0a9f6786ddbdb338818f931105051ee7c33ba3ee'
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: '고사목: 쇠퇴한 과수원·마른 숲 경계'
+      composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 5e3296a4a8a113a292c13284af31e4fe5e4a13f147378405c173e812dd670f69
+      recommended_uses:
+      - '고사목: 쇠퇴한 과수원·마른 숲 경계'
+      visual_description: 잎 없는 어두운 갈색 줄기에서 가는 가지들이 여러 층으로 갈라진다.
+    mapReferences: []
+    familyDefinition:
+      name: 고사목
+      uses:
+      - 메마른 구역과 관리되지 않은 가장자리
+      category: tree
+      features:
+      - 잎이 적고 가지가 드러난 나무
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-dead-tree-v2
+  assetType: large-trees
+  name: 고사목
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-dead-tree-v2
+    version: v2
+    path: assets/billboards/orchard-dead-tree-v2.png
+    sha256: 4e6bacc6c3afc61806433304f07b7ee9380b7dbb303cc401ca5b830fd0c7b766
+    width: 217
+    height: 244
+    publishedPath: /registered-assets/assets/billboards/orchard-dead-tree-v2.png
+  properties:
+    anchorX: -0.08
+    anchorY: -0.42
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 170.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.11
+    shadowScaleY: 1.11
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-dead-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 고사목 · 고사목·산불 및 쇠퇴 흔적
+      composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 9a329d86d10a9037478c0cef13bef3e7a8cd49553fee54daeedfa337df2f9c9a
+      recommended_uses:
+      - 메마른 구역과 관리되지 않은 가장자리
+      visual_description: 굵은 갈색 가지 끝의 밝은 절단면과 줄기 옹이가 두드러지는 잎 없는 나무다.
+    mapReferences:
+    - path: assets/maps/field_tiles/ash-edge.yaml
+      texture_key_occurrences: 5
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 3
+    familyDefinition:
+      name: 고사목
+      uses:
+      - 메마른 구역과 관리되지 않은 가장자리
+      category: tree
+      features:
+      - 잎이 적고 가지가 드러난 나무
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-dead-tree-variant-1-v2
+  assetType: large-trees
+  name: 고사목
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-dead-tree-variant-1-v2
+    version: v2
+    path: assets/billboards/orchard-dead-tree-variant-1-v2.png
+    sha256: a1d374a0952260096cb8dc3e304082dbb2bcb4b8128f82a57ffc441dd73b7233
+    width: 220
+    height: 219
+    publishedPath: /registered-assets/assets/billboards/orchard-dead-tree-variant-1-v2.png
+  properties:
+    anchorX: 0.03
+    anchorY: -0.41
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 150.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.1
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-dead-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 고사목 · 고사목·산불 및 쇠퇴 흔적
+      composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: daa6fafc1f67a0ee6855cf6081875fd820f27e2752701b9acad358d016515e22
+      recommended_uses:
+      - 메마른 구역과 관리되지 않은 가장자리
+      visual_description: 가운데 빈 구멍이 있는 굵은 줄기와 좌우로 넓게 벌어진 잘린 가지의 고사목이다.
+    mapReferences:
+    - path: assets/maps/field_tiles/ash-edge.yaml
+      texture_key_occurrences: 6
+    - path: assets/maps/field_tiles/cinder-path.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 3
+    familyDefinition:
+      name: 고사목
+      uses:
+      - 메마른 구역과 관리되지 않은 가장자리
+      category: tree
+      features:
+      - 잎이 적고 가지가 드러난 나무
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-dead-tree-variant-2-v2
+  assetType: large-trees
+  name: 고사목
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-dead-tree-variant-2-v2
+    version: v2
+    path: assets/billboards/orchard-dead-tree-variant-2-v2.png
+    sha256: 6e0ffde4de96f9fa959ee49ef45309b111b9f3cd39d51a16912876ce478ceffe
+    width: 165
+    height: 233
+    publishedPath: /registered-assets/assets/billboards/orchard-dead-tree-variant-2-v2.png
+  properties:
+    anchorX: 0.01
+    anchorY: -0.45
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 190.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.1
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-dead-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 고사목 · 고사목·산불 및 쇠퇴 흔적
+      composition: 노출 지면·숲 경계에 불규칙하게 배치하고 어린 식생과 대비시킨다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 33cab3a311b03dc96c96de08f8930c60c4e9df3a980941c85e3583e2dac2ae49
+      recommended_uses:
+      - 메마른 구역과 관리되지 않은 가장자리
+      visual_description: 길게 비틀린 줄기에서 짧은 잘린 가지가 번갈아 뻗는 세로형 고사목이다.
+    mapReferences:
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 2
+    familyDefinition:
+      name: 고사목
+      uses:
+      - 메마른 구역과 관리되지 않은 가장자리
+      category: tree
+      features:
+      - 잎이 적고 가지가 드러난 나무
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-old-tree-v2
+  assetType: large-trees
+  name: 오래된 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-old-tree-v2
+    version: v2
+    path: assets/billboards/orchard-old-tree-v2.png
+    sha256: 390d03900794c89dbce0185cfeb1342794dcac52940c8382fcdbb2c528f8a67a
+    width: 227
+    height: 241
+    publishedPath: /registered-assets/assets/billboards/orchard-old-tree-v2.png
+  properties:
+    anchorX: -0.05
+    anchorY: -0.28
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 254.18
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: -0.02
+    shadowScaleX: 1.79
+    shadowScaleY: 1.79
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-old-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 오래된 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 40a6b4479a5a1fd5f5397dbf7ed852c882863c6555a0b2cb1152b400e2ca9dcc
+      recommended_uses:
+      - 오래된 과수 구역의 중심
+      visual_description: 굵게 뒤틀린 줄기와 노출된 뿌리 위로 작은 황록색 수관들이 층층이 모여 있다.
+    mapReferences:
+    - path: assets/maps/city_layouts/stonewarm.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/field_tiles/ash-edge.yaml
+      texture_key_occurrences: 4
+    - path: assets/maps/field_tiles/boar-ridge.yaml
+      texture_key_occurrences: 4
+    - path: assets/maps/field_tiles/fallen-canopy.yaml
+      texture_key_occurrences: 25
+    - path: assets/maps/field_tiles/old-boundary-gate.yaml
+      texture_key_occurrences: 1
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 3
+    familyDefinition:
+      name: 오래된 과수
+      uses:
+      - 오래된 과수 구역의 중심
+      category: tree
+      features:
+      - 굵은 줄기와 넓은 수관
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-old-tree-variant-1-v2
+  assetType: large-trees
+  name: 오래된 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-old-tree-variant-1-v2
+    version: v2
+    path: assets/billboards/orchard-old-tree-variant-1-v2.png
+    sha256: 3512b1d20eac99ae869e081cffa710430a28caa1a9199d330a725c6e534aa911
+    width: 246
+    height: 230
+    publishedPath: /registered-assets/assets/billboards/orchard-old-tree-variant-1-v2.png
+  properties:
+    anchorX: -0.05
+    anchorY: -0.26
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 269.53
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: -0.01
+    shadowScaleX: 2.19
+    shadowScaleY: 2.19
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-old-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 오래된 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 22d9ac33db9de54e645dc0c9c1363747d38ac453a63b98fbeb07c931a4b02979
+      recommended_uses:
+      - 오래된 과수 구역의 중심
+      visual_description: 낮게 갈라진 굵은 줄기와 넓게 퍼진 가지 끝에 둥근 잎 덩어리가 달려 있다.
+    mapReferences:
+    - path: assets/maps/city_layouts/stonewarm.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/field_tiles/boar-ridge.yaml
+      texture_key_occurrences: 5
+    - path: assets/maps/field_tiles/fallen-canopy.yaml
+      texture_key_occurrences: 19
+    - path: assets/maps/field_tiles/old-boundary-gate.yaml
+      texture_key_occurrences: 1
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 2
+    familyDefinition:
+      name: 오래된 과수
+      uses:
+      - 오래된 과수 구역의 중심
+      category: tree
+      features:
+      - 굵은 줄기와 넓은 수관
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-old-tree-variant-2-v2
+  assetType: large-trees
+  name: 오래된 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-old-tree-variant-2-v2
+    version: v2
+    path: assets/billboards/orchard-old-tree-variant-2-v2.png
+    sha256: ea63ba12707d11ed272d05b62418e49567bae0221b8d3643979c331f5e0e6699
+    width: 215
+    height: 250
+    publishedPath: /registered-assets/assets/billboards/orchard-old-tree-variant-2-v2.png
+  properties:
+    anchorX: 0.0
+    anchorY: -0.22
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 292.97
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.01
+    shadowOffsetRow: -0.03
+    shadowScaleX: 1.88
+    shadowScaleY: 1.88
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-old-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 오래된 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: c96753b54ac3a170714be8ce9061c3261087b72a53864362961bffcd00433d31
+      recommended_uses:
+      - 오래된 과수 구역의 중심
+      visual_description: S자처럼 휘어진 굵은 줄기 위로 작은 황록색 잎 덩어리들이 높게 모여 있다.
+    mapReferences:
+    - path: assets/maps/city_layouts/stonewarm.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/field_tiles/fallen-canopy.yaml
+      texture_key_occurrences: 18
+    - path: assets/maps/field_tiles/old-boundary-gate.yaml
+      texture_key_occurrences: 1
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 2
+    familyDefinition:
+      name: 오래된 과수
+      uses:
+      - 오래된 과수 구역의 중심
+      category: tree
+      features:
+      - 굵은 줄기와 넓은 수관
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-young-tree-v2
+  assetType: large-trees
+  name: 어린 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-young-tree-v2
+    version: v2
+    path: assets/billboards/orchard-young-tree-v2.png
+    sha256: a3a80122c12e6b8e195cdb94f7dd80659e0c33f6ab6558207b21ae57df328915
+    width: 217
+    height: 243
+    publishedPath: /registered-assets/assets/billboards/orchard-young-tree-v2.png
+  properties:
+    anchorX: 0.01
+    anchorY: -0.39
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 246.8
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.08
+    shadowOffsetRow: -0.1
+    shadowScaleX: 1.65
+    shadowScaleY: 1.65
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-young-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 어린 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: a06fb1e6bc01678d9e566a4a75d0ebd1496c3dedc7a8b705fa8ffe79f1b5d9f6
+      recommended_uses:
+      - 어린 나무 재배 구역
+      visual_description: 큰 연두색 잎 덩어리 네 묶음이 갈색 줄기를 둘러싼 작고 둥근 나무다.
+    mapReferences:
+    - path: assets/maps/city_layouts/iseulon.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/city_layouts/reedhaven.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/field_tiles/ash-edge.yaml
+      texture_key_occurrences: 5
+    - path: assets/maps/field_tiles/boar-ridge.yaml
+      texture_key_occurrences: 6
+    - path: assets/maps/field_tiles/clover-bank.yaml
+      texture_key_occurrences: 3
+    - path: assets/maps/field_tiles/fallen-canopy.yaml
+      texture_key_occurrences: 14
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 어린 과수
+      uses:
+      - 어린 나무 재배 구역
+      category: tree
+      features:
+      - 작은 수관과 가는 줄기
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-young-tree-variant-1-v2
+  assetType: large-trees
+  name: 어린 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-young-tree-variant-1-v2
+    version: v2
+    path: assets/billboards/orchard-young-tree-variant-1-v2.png
+    sha256: 994f80c2cab9f5fee62c636ddad4016957a83b75f6b1179216fb25926563b334
+    width: 235
+    height: 237
+    publishedPath: /registered-assets/assets/billboards/orchard-young-tree-variant-1-v2.png
+  properties:
+    anchorX: -0.03
+    anchorY: -0.3
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 277.73
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.03
+    shadowOffsetRow: -0.01
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-young-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 어린 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: 717b862eb401fa009902fdff13adbc87c54ff022c6d29043fba1a69fe4b2fee4
+      recommended_uses:
+      - 어린 나무 재배 구역
+      visual_description: 갈라진 갈색 줄기 끝의 밝은 녹색 수관들이 좌우로 넓게 벌어져 있다.
+    mapReferences:
+    - path: assets/maps/city_layouts/iseulon.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/city_layouts/reedhaven.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/field_tiles/ash-edge.yaml
+      texture_key_occurrences: 5
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 어린 과수
+      uses:
+      - 어린 나무 재배 구역
+      category: tree
+      features:
+      - 작은 수관과 가는 줄기
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-young-tree-variant-1-v3
+  assetType: large-trees
+  name: 잎 무리가 선명한 어린 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-young-tree-variant-1-v3
+    version: v3
+    path: assets/billboards/orchard-young-tree-variant-1-v3.png
+    sha256: 364a2cbf7fbe248bb01245dccffdb632ab2726609c5cc969fd4a923011b84dbd
+    width: 199
+    height: 256
+    publishedPath: /registered-assets/assets/billboards/orchard-young-tree-variant-1-v3.png
+  properties:
+    anchorX: -0.05
+    anchorY: -0.21
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 242.85
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.07
+    shadowOffsetRow: -0.02
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-young-tree-variant-1-v3
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-tile-length-v3
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+          shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 잎 무리가 선명한 어린 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      recommended_uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    mapReferences: []
+    familyDefinition:
+      name: 잎 무리가 선명한 어린 과수
+      uses:
+      - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+      category: vegetation
+      features:
+      - 부드러운 손그림 음영
+      - 구분되는 잎 무리와 노출된 뿌리
+      review_category: large-trees
+    metadataReferences: []
+- assetId: orchard-young-tree-variant-2-v2
+  assetType: large-trees
+  name: 어린 과수
+  revision: 1
+  retired: false
+  image:
+    imageId: image.scenery.orchard-young-tree-variant-2-v2
+    version: v2
+    path: assets/billboards/orchard-young-tree-variant-2-v2.png
+    sha256: 833cab3e04f6bff89593e7b646f9f2d9d9c5ffa66dc6cefdd21306bd1980ae41
+    width: 194
+    height: 242
+    publishedPath: /registered-assets/assets/billboards/orchard-young-tree-variant-2-v2.png
+  properties:
+    anchorX: -0.03
+    anchorY: -0.25
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 283.59
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.04
+    shadowOffsetRow: -0.09
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  metadata:
+    family: orchard-young-tree
+    modeling:
+      avoid:
+      - 접지 영역의 서로 다른 고도
+      - 다른 오브젝트의 접지 점유와 중첩
+      - 출입구·시작점·주요 이동로 점유
+      basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+      shadow:
+        guidance_only: true
+        runtime_profile: billboard-contact-v2
+        contact_guidance: 줄기·밑동에 접지 그림자를 둔다. 수관 크기의 검은 원이나 긴 투사 그림자를 접지 그림자로 대신하지
+          않는다.
+        placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+          않게 검수한다.
+        current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+          직사각형. 에셋별 농도 수동 조절은 미지원.
+        baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지
+          검수로 확정한다.
+      purpose: 어린 과수 · 수목 군락
+      composition: 크기가 다른 수목을 섞어 군락과 빈터를 만들고 출입구·시작 지점을 비운다.
+      visual_review:
+        date: '2026-10-22'
+        scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
+        method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
+        status: 원본 이미지 육안 확인
+        source_sha256: c554e279add978092e21594e7dab805c88eaf2bbee46ff10a52aae2c86b3d8b9
+      recommended_uses:
+      - 어린 나무 재배 구역
+      visual_description: 휘어진 짧은 줄기 위에 둥근 녹색 잎 덩어리가 층층이 붙어 있다.
+    mapReferences:
+    - path: assets/maps/city_layouts/iseulon.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/city_layouts/reedhaven.yaml
+      texture_key_occurrences: 2
+    - path: assets/maps/field_tiles/old-orchard.yaml
+      texture_key_occurrences: 5
+    familyDefinition:
+      name: 어린 과수
+      uses:
+      - 어린 나무 재배 구역
+      category: tree
+      features:
+      - 작은 수관과 가는 줄기
+      review_category: large-trees
+    metadataReferences: []

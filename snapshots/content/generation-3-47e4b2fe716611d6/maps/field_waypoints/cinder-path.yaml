@@ -1,0 +1,15 @@
+managementId: config.field-waypoints.cinder-path
+data:
+  connections:
+  - id: cinder-path-to-ash-edge
+    name: 북쪽 웨이포인트
+    target: ash-edge
+    direction: north
+    edgeOffset: 16
+    targetWaypointId: ash-edge-to-cinder-path
+  - id: cinder-path-to-old-boundary-gate
+    name: 서쪽 웨이포인트
+    target: old-boundary-gate
+    direction: west
+    edgeOffset: 16
+    targetWaypointId: old-boundary-gate-to-cinder-path

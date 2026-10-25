@@ -1,0 +1,21 @@
+managementId: config.field-waypoints.pebble-shore
+data:
+  connections:
+  - id: pebble-shore-to-silver-marsh
+    name: 북쪽 웨이포인트
+    target: silver-marsh
+    direction: north
+    edgeOffset: 16
+    targetWaypointId: silver-marsh-to-pebble-shore
+  - id: pebble-shore-to-dry-creek
+    name: 남쪽 웨이포인트
+    target: dry-creek
+    direction: south
+    edgeOffset: 16
+    targetWaypointId: dry-creek-to-pebble-shore
+  - id: pebble-shore-to-brine-bank
+    name: 동쪽 웨이포인트
+    target: brine-bank
+    direction: east
+    edgeOffset: 16
+    targetWaypointId: brine-bank-to-pebble-shore

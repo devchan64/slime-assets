@@ -1,0 +1,566 @@
+managementId: config.field-tiles.brine-bank
+data:
+  rows:
+  - vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  - vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  - vvvvvvvuuuvvvvvvvvvvvvvvvvvvvvvv
+  - vvvvuhhhhhhhuvvvvvvvvvvsssssvvvv
+  - vvuuhhhqqqqqhhuvvvvvvsssssssssvv
+  - vuuhqqqqqqqqhhhvvvvvvsssssssssvv
+  - vuhqqqqqqqqqqqqhhvvvvsssssssssvv
+  - vuhqqqqqqqqqqqqqhuvvvsssssssssvv
+  - vuhqqqqqqqqqqqqqquvvvsssssssssvv
+  - vvhhhqqqqqqqqqqqhuvvvvvsssssvvvv
+  - vvuuhqqqqqhhqqqhuvvvvvvvvvvvvvvv
+  - vvvvuhhhhhhhuuuuvvvvvvvvvvvvvvvv
+  - vvvvvvvuuvuvvvvvvvvvvvvvvvvvvvvv
+  - vvvvvvvvvvvvvvvvvvvvvvHHHHvvvvvv
+  - vvvvvvvvvvvvvvHHHHHHHHHHHHHHHHvv
+  - HHvvvvvvvvvvvvHHHHHHHHHHHHHHHHHH
+  - HHHHHHvvvvHHHHHHHHHHHHvvvvHHHHHH
+  - HHHHHHHHHHHHHHHHHHHvvvvvvvvvvvHH
+  - vvHHHHHHHHHHHHHHHHHvvvvvvvvvvvvv
+  - vvvvvvHHHHsssssvvvvvvvvvvvvvvvvv
+  - vvvvvsssssssssssvvvvvuuuhuuuvvvv
+  - vvvvvsssssssssssvvvvhhhqqhhhuvvv
+  - vvvvvsssssssssssvvvuhhqqqqqqhuvv
+  - vvvvuhhssssssssvvuhqqqqqqqqqhhuv
+  - vvvhqqqhvvvvvvvvuhqqqqqqqqqqqhuv
+  - vvuhqqqhvvvvvvvvuhqqqqqqqqqqqhvv
+  - vvvhqqqhvvvvvvvvuhqqqqqqqqqqhuvv
+  - vvvvhhuvvvvvvvvvvhhhqqhhqhhhuvvv
+  - vvvvvvvvvvvvvvvvvvuuhuuuhuuuvvvv
+  - vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  - vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  - vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  objects:
+  - id: ward-tower
+    position:
+      column: 16
+      row: 16
+    kind: ward-tower
+  - id: brine-bank-remodel-001
+    position:
+      column: 22
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-salt-drying-rack-v1
+  - id: brine-bank-remodel-002
+    position:
+      column: 27
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-salt-drying-rack-v1
+  - id: brine-bank-remodel-003
+    position:
+      column: 10
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-salt-drying-rack-v1
+  - id: brine-bank-remodel-004
+    position:
+      column: 19
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-carrying-buckets-v1
+  - id: brine-bank-remodel-005
+    position:
+      column: 25
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-carrying-buckets-v1
+  - id: brine-bank-remodel-006
+    position:
+      column: 8
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-carrying-buckets-v1
+  - id: brine-bank-remodel-007
+    position:
+      column: 11
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-carrying-buckets-v1
+  - id: brine-bank-remodel-008
+    position:
+      column: 21
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: brine-bank-remodel-009
+    position:
+      column: 7
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: brine-bank-remodel-010
+    position:
+      column: 24
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: brine-bank-remodel-011
+    position:
+      column: 2
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-012
+    position:
+      column: 1
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-013
+    position:
+      column: 4
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-014
+    position:
+      column: 7
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-015
+    position:
+      column: 11
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-016
+    position:
+      column: 17
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-017
+    position:
+      column: 18
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-018
+    position:
+      column: 23
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-019
+    position:
+      column: 28
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-020
+    position:
+      column: 28
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-021
+    position:
+      column: 16
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-022
+    position:
+      column: 15
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-023
+    position:
+      column: 18
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-024
+    position:
+      column: 27
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-025
+    position:
+      column: 29
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-026
+    position:
+      column: 28
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-027
+    position:
+      column: 23
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-028
+    position:
+      column: 3
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-029
+    position:
+      column: 2
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-030
+    position:
+      column: 8
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-031
+    position:
+      column: 12
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-032
+    position:
+      column: 14
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: brine-bank-saltbush-v1
+  - id: brine-bank-remodel-033
+    position:
+      column: 2
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-034
+    position:
+      column: 5
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-035
+    position:
+      column: 9
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-036
+    position:
+      column: 15
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-037
+    position:
+      column: 17
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-038
+    position:
+      column: 2
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-039
+    position:
+      column: 8
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-040
+    position:
+      column: 17
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-041
+    position:
+      column: 20
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-042
+    position:
+      column: 28
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-043
+    position:
+      column: 29
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-044
+    position:
+      column: 24
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: brine-bank-remodel-045
+    position:
+      column: 22
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-046
+    position:
+      column: 25
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-047
+    position:
+      column: 28
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-048
+    position:
+      column: 26
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-049
+    position:
+      column: 21
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-050
+    position:
+      column: 5
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-051
+    position:
+      column: 7
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-052
+    position:
+      column: 10
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-053
+    position:
+      column: 13
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-054
+    position:
+      column: 14
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-055
+    position:
+      column: 3
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-056
+    position:
+      column: 29
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-057
+    position:
+      column: 29
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-remodel-058
+    position:
+      column: 13
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: brine-bank-worksite-059
+    position:
+      column: 20
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wet-cargo-drying-v1
+  - id: brine-bank-worksite-060
+    position:
+      column: 9
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wet-cargo-drying-v1
+  - id: brine-bank-worksite-061
+    position:
+      column: 27
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-cargo-weighing-v1
+  - id: brine-bank-worksite-062
+    position:
+      column: 21
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: brine-bank-worksite-063
+    position:
+      column: 26
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: brine-bank-worksite-064
+    position:
+      column: 8
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: brine-bank-worksite-065
+    position:
+      column: 12
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: brine-bank-worksite-066
+    position:
+      column: 17
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-salt-flat-brine-barrel-1-v1
+  - id: brine-bank-worksite-067
+    position:
+      column: 26
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-salt-flat-brine-barrel-1-v1
+  - id: brine-bank-worksite-068
+    position:
+      column: 8
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-salt-flat-brine-barrel-1-v1
+  - id: brine-bank-worksite-069
+    position:
+      column: 26
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-delivery-crates-v1
+  - id: brine-bank-worksite-070
+    position:
+      column: 29
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-delivery-crates-v1
+  - id: brine-bank-worksite-071
+    position:
+      column: 11
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-delivery-crates-v1
+  - id: brine-bank-worksite-072
+    position:
+      column: 25
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-pebble-shore-rope-coil-size-large-v1
+  - id: brine-bank-worksite-073
+    position:
+      column: 10
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-pebble-shore-rope-coil-size-large-v1
+  - id: brine-bank-worksite-074
+    position:
+      column: 19
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-salt-causeway-repair-stakes-1-v1
+  - id: brine-bank-worksite-075
+    position:
+      column: 28
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-salt-causeway-repair-stakes-1-v1
