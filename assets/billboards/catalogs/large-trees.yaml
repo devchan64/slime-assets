@@ -155,7 +155,7 @@ billboards:
     shadowScaleY: 1.67
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 130.0
+    outdoorDisplayHeight: 260.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -210,7 +210,7 @@ billboards:
     shadowScaleY: 1.69
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 157.815
+    outdoorDisplayHeight: 315.63
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -265,7 +265,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 141.795
+    outdoorDisplayHeight: 283.59
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -320,7 +320,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 149.115
+    outdoorDisplayHeight: 298.23
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -379,7 +379,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 74.335
+    outdoorDisplayHeight: 148.67
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -388,7 +388,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-root-trail-rooted-tree-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 18
   source_file:
     path: assets/billboards/field-root-trail-rooted-tree-1-v1.png
     width: 179
@@ -439,7 +441,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 168.165
+    outdoorDisplayHeight: 336.33
     size_variant: 기본 변형
     occupied_tile_count: 4
     movement: 통행 가능
@@ -507,7 +509,7 @@ billboards:
     shadowScaleY: 1.501
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 135.0
+    outdoorDisplayHeight: 270.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -575,7 +577,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 124.455
+    outdoorDisplayHeight: 248.91
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -643,7 +645,7 @@ billboards:
     shadowScaleY: 1.41
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 142.385
+    outdoorDisplayHeight: 284.77
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -709,7 +711,7 @@ billboards:
     shadowScaleY: 1.71
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 133.76
+    outdoorDisplayHeight: 267.52
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -775,7 +777,7 @@ billboards:
     shadowScaleY: 1.5
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 133.595
+    outdoorDisplayHeight: 267.19
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -841,7 +843,7 @@ billboards:
     shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 147.07
+    outdoorDisplayHeight: 294.14
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -902,7 +904,7 @@ billboards:
     shadowScaleY: 1.21
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 110.0
+    outdoorDisplayHeight: 220.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -970,7 +972,7 @@ billboards:
     shadowScaleY: 1.11
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 85.0
+    outdoorDisplayHeight: 170.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1040,7 +1042,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 75.0
+    outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1106,7 +1108,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 95.0
+    outdoorDisplayHeight: 190.0
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1124,6 +1126,8 @@ billboards:
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 25
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 6
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -1182,7 +1186,7 @@ billboards:
     shadowScaleY: 1.79
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 127.09
+    outdoorDisplayHeight: 254.18
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1198,6 +1202,8 @@ billboards:
     texture_key_occurrences: 5
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 19
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 6
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -1256,7 +1262,7 @@ billboards:
     shadowScaleY: 2.19
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 134.765
+    outdoorDisplayHeight: 269.53
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1270,6 +1276,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 18
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 8
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -1328,7 +1336,7 @@ billboards:
     shadowScaleY: 1.88
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 146.485
+    outdoorDisplayHeight: 292.97
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1350,6 +1358,8 @@ billboards:
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 14
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 5
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
   variant_features:
@@ -1406,7 +1416,7 @@ billboards:
     shadowScaleY: 1.65
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 123.4
+    outdoorDisplayHeight: 246.8
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1478,7 +1488,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 138.865
+    outdoorDisplayHeight: 277.73
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1487,7 +1497,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.orchard-young-tree-variant-1-v3
     version: v3
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 7
   source_file:
     path: assets/billboards/orchard-young-tree-variant-1-v3.png
     width: 199
@@ -1531,7 +1543,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 121.425
+    outdoorDisplayHeight: 242.85
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
@@ -1545,6 +1557,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 13
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 5
   variant_features:
@@ -1601,7 +1615,7 @@ billboards:
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 141.795
+    outdoorDisplayHeight: 283.59
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
