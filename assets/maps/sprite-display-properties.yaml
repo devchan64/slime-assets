@@ -134,8 +134,8 @@ data:
     displayHeight: 269.53
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 2.19
+    shadowScaleY: 2.19
     shadowOffsetColumn: 0.0
     shadowOffsetRow: -0.01
     shadowCoordinateVersion: 2
@@ -148,8 +148,8 @@ data:
     displayHeight: 254.18
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.79
+    shadowScaleY: 1.79
     shadowOffsetColumn: 0.0
     shadowOffsetRow: -0.02
     shadowCoordinateVersion: 2
@@ -162,8 +162,8 @@ data:
     displayHeight: 246.8
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
+    shadowScaleY: 1.65
+    shadowScaleX: 1.65
     shadowOffsetColumn: -0.08
     shadowOffsetRow: -0.1
     shadowCoordinateVersion: 2
@@ -506,16 +506,16 @@ data:
     shadowSizeVersion: 2
   town-grain-sacks-v1:
     anchorX: 0.0
-    anchorY: 0.23
+    anchorY: -0.35
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 95.0
+    displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleY: 0.61
+    shadowScaleX: 0.61
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-straw-sheaves-v1:
@@ -561,31 +561,31 @@ data:
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-grainstead-milling-dispatch-v1:
-    anchorX: -0.07
-    anchorY: 0.36
+    anchorX: 0.0
+    anchorY: -0.29
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 105.33
+    displayHeight: 60.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleX: 0.71
+    shadowScaleY: 0.51
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-grainstead-grain-drying-v1:
-    anchorX: 0.07
-    anchorY: 0.49
-    groundFootprintColumns: 2
+    anchorX: 0.0
+    anchorY: -0.27
+    groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 130.84
+    displayHeight: 60.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleY: 0.51
+    shadowScaleX: 0.81
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-grainstead-golden-meadow-tuft-v1:
@@ -736,8 +736,8 @@ data:
     displayHeight: 92.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
+    shadowScaleY: 0.61
+    shadowScaleX: 0.61
     shadowOffsetColumn: -0.1
     shadowOffsetRow: -0.1
     shadowCoordinateVersion: 2
@@ -813,31 +813,31 @@ data:
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-food-stall-v1:
-    anchorX: -0.03
-    anchorY: 0.37
+    anchorX: 0.0
+    anchorY: -0.29
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 104.0
+    displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleY: 0.51
+    shadowScaleX: 0.81
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-delivery-crates-v1:
-    anchorX: -0.01
-    anchorY: -0.2
+    anchorX: 0.03
+    anchorY: -0.48
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 97.08
+    displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1
+    shadowScaleY: 0.51
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.15
+    shadowScaleX: 0.61
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-handcart-v1:
@@ -855,31 +855,31 @@ data:
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-iseulon-jelly-counter-v1:
-    anchorX: 0.02
-    anchorY: 0.54
+    anchorX: 0.0
+    anchorY: 0.0
     groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 123.52
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleY: 1.01
+    shadowScaleX: 0.81
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-iseulon-material-training-v1:
-    anchorX: -0.03
-    anchorY: 0.42
+    anchorX: 0.0
+    anchorY: 0.0
     groundFootprintColumns: 2
     groundFootprintRows: 2
-    displayHeight: 136.71
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleX: 0.67
+    shadowScaleY: 0.67
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-iseulon-round-rose-shrub-v1:
@@ -974,8 +974,8 @@ data:
     displayHeight: 100.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
+    shadowScaleY: 0.81
+    shadowScaleX: 0.81
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
@@ -1107,31 +1107,31 @@ data:
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-herb-rack-v1:
-    anchorX: 0.03
-    anchorY: 0.29
+    anchorX: 0.0
+    anchorY: -0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 113.75
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleY: 1.0
+    shadowScaleX: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-reed-bundles-v1:
-    anchorX: -0.02
-    anchorY: 0.28
+    anchorX: 0.0
+    anchorY: -0.19
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 88.32
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleY: 1.0
+    shadowScaleX: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-reedhaven-water-record-v1:
@@ -1331,29 +1331,29 @@ data:
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-coastal-stall-v1:
-    anchorX: 0.08
-    anchorY: 0.09
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 168.75
+    anchorX: 0.0
+    anchorY: -0.1
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
+    shadowScaleY: 1.0
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1
+    shadowScaleX: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-fish-rack-v1:
-    anchorX: 0.01
-    anchorY: -0.08
-    groundFootprintColumns: 2
+    anchorX: 0.0
+    anchorY: -0.28
+    groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 112.5
+    displayHeight: 70.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 0.91
+    shadowScaleY: 0.51
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
@@ -1514,30 +1514,30 @@ data:
     shadowSizeVersion: 2
   town-metal-bin-v1:
     anchorX: 0.0
-    anchorY: 0.37
-    groundFootprintColumns: 1
+    anchorY: 0.13
+    groundFootprintColumns: 2
     groundFootprintRows: 1
-    displayHeight: 76.78
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleX: 0.81
+    shadowScaleY: 1.11
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-ore-basket-v1:
-    anchorX: -0.06
-    anchorY: 0.28
+    anchorX: 0.0
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 51.56
+    displayHeight: 128.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleY: 1.0
+    shadowScaleX: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-stonewarm-repair-process-v1:
@@ -1772,8 +1772,8 @@ data:
     displayHeight: 267.52
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.71
+    shadowScaleY: 1.71
     shadowOffsetColumn: 0.0
     shadowOffsetRow: -0.05
     shadowCoordinateVersion: 2
@@ -1786,8 +1786,8 @@ data:
     displayHeight: 267.19
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.5
+    shadowScaleY: 1.5
     shadowOffsetColumn: 0.0
     shadowOffsetRow: -0.03
     shadowCoordinateVersion: 2
@@ -1800,8 +1800,8 @@ data:
     displayHeight: 294.14
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.41
+    shadowScaleY: 1.31
     shadowOffsetColumn: -0.05
     shadowOffsetRow: -0.06
     shadowCoordinateVersion: 2
@@ -1836,16 +1836,16 @@ data:
     shadowSizeVersion: 2
   town-low-fence-v1:
     anchorX: 0.0
-    anchorY: 0.24
+    anchorY: -0.18
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 75.45
+    displayHeight: 82.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleX: 1.01
+    shadowScaleY: 0.41
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   orchard-apple-tree-v2:
@@ -1856,8 +1856,8 @@ data:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.501
+    shadowScaleY: 1.501
     shadowOffsetColumn: -0.1
     shadowOffsetRow: -0.1
     shadowCoordinateVersion: 2
@@ -1870,8 +1870,8 @@ data:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
+    shadowScaleY: 1.41
+    shadowScaleX: 1.41
     shadowOffsetColumn: -0.05
     shadowOffsetRow: -0.06
     shadowCoordinateVersion: 2
@@ -1919,31 +1919,31 @@ data:
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-notice-board-v1:
-    anchorX: 0.01
-    anchorY: 0.24
-    displayHeight: 116.8
+    anchorX: 0.0
+    anchorY: -0.23
+    displayHeight: 148.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleY: 0.71
+    shadowScaleX: 1.21
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-ground-lantern-v1:
-    anchorX: -0.05
-    anchorY: -0.2
-    displayHeight: 74.22
+    anchorX: -0.08
+    anchorY: -0.39
+    displayHeight: 128.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowScaleY: 0.56
+    shadowScaleX: 0.56
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-record-chest-v1:
@@ -2018,16 +2018,16 @@ data:
     shadowSizeVersion: 2
   town-charcoal-stack-v1:
     anchorX: 0.02
-    anchorY: -0.23
-    displayHeight: 78.0
+    anchorY: -0.5
+    displayHeight: 40.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 1
+    shadowScaleY: 0.41
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.1
+    shadowScaleX: 0.51
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   fern-variant-1-v1:
@@ -2102,16 +2102,16 @@ data:
     shadowSizeVersion: 2
   town-layered-sign-v1:
     anchorX: -0.1
-    anchorY: -0.2
-    displayHeight: 108.67
+    anchorY: -0.39
+    displayHeight: 200.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowScaleY: 0.81
+    shadowScaleX: 0.91
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-rope-crates-v1:
@@ -2136,8 +2136,8 @@ data:
     groundFootprintRows: 1
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.88
+    shadowScaleY: 1.88
     shadowOffsetColumn: -0.01
     shadowOffsetRow: -0.03
     shadowCoordinateVersion: 2
@@ -2158,16 +2158,16 @@ data:
     shadowSizeVersion: 2
   town-grindstone-v1:
     anchorX: 0.0
-    anchorY: 0.29
+    anchorY: -0.25
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 94.45
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   orchard-dead-tree-v2:
@@ -2178,8 +2178,8 @@ data:
     displayHeight: 170.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.11
+    shadowScaleY: 1.11
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
@@ -2756,8 +2756,8 @@ data:
     groundFootprintRows: 1
     displayHeight: 60.0
     billboardBlocksMovement: false
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 0.635278
+    shadowScaleY: 0.635278
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -2772,8 +2772,8 @@ data:
     billboardBlocksMovement: false
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 0.45
+    shadowScaleY: 0.45
     billboardAnchorMode: tile-intersection
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
@@ -2786,8 +2786,8 @@ data:
     billboardBlocksMovement: false
     shadowOffsetColumn: -0.16
     shadowOffsetRow: -0.16
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 0.61
+    shadowScaleY: 0.61
     billboardAnchorMode: tile-intersection
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
@@ -2883,8 +2883,8 @@ data:
     displayHeight: 220.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleY: 1
-    shadowScaleX: 1
+    shadowScaleY: 1.21
+    shadowScaleX: 1.21
     shadowOffsetColumn: -0.1
     shadowOffsetRow: -0.1
     shadowCoordinateVersion: 2
@@ -3115,16 +3115,16 @@ data:
     shadowSizeVersion: 2
   quarry-stone-bearers-v1:
     anchorX: 0.0
-    anchorY: -0.08
-    groundFootprintColumns: 3
-    groundFootprintRows: 3
-    displayHeight: 148.74
-    billboardBlocksMovement: true
+    anchorY: 0.2
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 128.0
+    billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    shadowOffsetColumn: 1.0
-    shadowOffsetRow: 1.0
+    shadowScaleX: 0.91
+    shadowScaleY: 0.81
+    shadowOffsetColumn: 0.2
+    shadowOffsetRow: 0.2
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   quarry-splitting-tools-v1:
@@ -3135,10 +3135,10 @@ data:
     displayHeight: 62.31
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowScaleX: 0.71
+    shadowScaleY: 0.71
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   quarry-fallen-limestone-v1:
@@ -3737,8 +3737,8 @@ data:
     displayHeight: 260.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.67
+    shadowScaleY: 1.67
     shadowOffsetColumn: -0.08
     shadowOffsetRow: -0.09
     shadowCoordinateVersion: 2
@@ -3751,8 +3751,8 @@ data:
     displayHeight: 315.63
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowScaleX: 1
-    shadowScaleY: 1
+    shadowScaleX: 1.69
+    shadowScaleY: 1.69
     shadowOffsetColumn: -0.02
     shadowOffsetRow: -0.03
     shadowCoordinateVersion: 2
