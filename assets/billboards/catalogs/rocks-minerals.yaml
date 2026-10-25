@@ -633,18 +633,18 @@ billboards:
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 226.21
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.41
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 113.105
     size_variant: 기본 변형
     occupied_tile_count: 2
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-guide-1x2-tall-v1
   family: crystal-cut-guide-1x2-tall-v1
   asset_ref:
@@ -703,8 +703,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.15
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.31
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 162.1
@@ -760,8 +760,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.31
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 147.06
@@ -826,8 +826,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.15
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.31
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 180.765
@@ -883,8 +883,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.21
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 137.33
@@ -949,7 +949,7 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
+    shadowScaleX: 1.21
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
@@ -1014,8 +1014,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.11
+    shadowScaleY: 1.11
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 77.91
@@ -1077,8 +1077,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.11
+    shadowScaleY: 1.11
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 116.875
@@ -1134,8 +1134,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.11
+    shadowScaleY: 1.41
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 149.0
@@ -1200,8 +1200,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.15
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.21
+    shadowScaleY: 1.11
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 167.695
@@ -1659,18 +1659,18 @@ billboards:
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 170.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.21
+    shadowScaleY: 1.21
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 85.0
     size_variant: 기본 변형
     occupied_tile_count: 2
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-medium-tilted-1x2-v1
   family: crystal-cut-medium-tilted-1x2-v1
   asset_ref:
@@ -1720,8 +1720,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.21
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 108.0
@@ -1772,18 +1772,18 @@ billboards:
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 101.87
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 50.935
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-quartz-1x1-branch-v1
   family: crystal-cut-quartz-1x1-branch-v1
   asset_ref:
@@ -1825,16 +1825,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-branch-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: 0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 106.52
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.31
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 53.26
@@ -1882,22 +1882,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-fissure-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 222.34
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.51
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 111.17
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-quartz-1x1-inclusions-v1
   family: crystal-cut-quartz-1x1-inclusions-v1
   asset_ref:
@@ -1938,16 +1938,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-inclusions-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 76.94
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.31
+    shadowScaleY: 1.21
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 38.47
@@ -1993,23 +1993,23 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-lens-v1
-    anchorX: 0.0
-    anchorY: -0.2
+    anchorX: 0.01
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 101.9
-    billboardBlocksMovement: false
+    displayHeight: 123.83
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.41
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.95
+    outdoorDisplayHeight: 61.915
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-quartz-1x1-paired-v1
   family: crystal-cut-quartz-1x1-paired-v1
   asset_ref:
@@ -2050,16 +2050,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-paired-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 123.83
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.41
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 61.915
@@ -2106,16 +2106,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-parallel-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 84.78
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 42.39
@@ -2163,22 +2163,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-patches-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 213.81
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 106.905
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-quartz-1x1-vertical-v1
   family: crystal-cut-quartz-1x1-vertical-v1
   asset_ref:
@@ -2220,22 +2220,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-vertical-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: 0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 171.56
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.61
+    shadowScaleY: 1.61
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 85.78
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-quartz-1x1-web-v1
   family: crystal-cut-quartz-1x1-web-v1
   asset_ref:
@@ -2276,16 +2276,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-1x1-web-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 76.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.14
+    shadowScaleY: 1.14
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 38.0
@@ -2333,22 +2333,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-asymmetric-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 110.94
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.21
+    shadowScaleY: 1.21
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 55.47
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-quartz-detail-buried-v1
   family: crystal-cut-quartz-detail-buried-v1
   asset_ref:
@@ -2398,8 +2398,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.01
+    shadowScaleY: 1.01
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 36.195
@@ -2447,16 +2447,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-hairline-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 93.47
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.31
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 46.735
@@ -2504,14 +2504,14 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-scatter-v1
     anchorX: -0.02
-    anchorY: -0.2
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 97.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
@@ -2561,14 +2561,14 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-scree-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80.49
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
@@ -2618,14 +2618,14 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.crystal-cut-quartz-detail-shelf-v1
     anchorX: -0.01
-    anchorY: -0.2
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 85.28
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
@@ -2742,14 +2742,14 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-mill-ridge-weathered-stones-4-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 90.78
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
@@ -2877,7 +2877,7 @@ billboards:
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 158.82
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -2888,7 +2888,7 @@ billboards:
     outdoorDisplayHeight: 79.41
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: quarry-weathered-boulders-v1
   family: quarry-weathered-boulders-v1
   asset_ref:
