@@ -51,7 +51,7 @@ modeling_contract:
   - map_references
   editable_guidance: modeling은 수동 보강한다. 동기화는 기존 설명을 덮어쓰지 않는다.
   display_height: displayHeight는 공용 기준 높이(px). PNG 해상도와 다르다.
-  outdoor_scale: 1
+  outdoor_scale: 0.5
   outdoor_height: outdoorDisplayHeight는 야외필드 배율 적용 후 높이이며 화면 줌은 포함하지 않는다.
   footprint: 기준 타일부터 열·행 증가 방향으로만 확장한다. 실제 점유 칸 수는 선언 열 수×행 수이며 2×1은 정확히 2칸이다.
   blocking: 열·행이 모두 3 이상이면 외곽 한 줄을 제외한 내부 (열-2)×(행-2) 타일만 자동 차단한다. 기준 교차점 거리는 축별 1칸=0.5,
