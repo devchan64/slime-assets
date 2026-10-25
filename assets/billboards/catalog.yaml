@@ -1,7 +1,7 @@
 schema_version: 2
 description: 등록 빌보드 전체의 외형 계열·배치 용도·원본 및 맵 참조 색인
 scope:
-  image_count: 267
+  image_count: 266
   includes: assets/billboards/ 아래 등록된 모든 PNG. 이전 버전도 포함한다.
   excludes: 완성형 건물 스프라이트와 바닥 타일은 제외한다.
   reference_snapshot_date: '2026-10-20'
@@ -34,11 +34,11 @@ placement_guidance:
   ground_pairing: 하나의 바닥에 여러 빌보드를 조합할 수 있다. 이 색인은 새 타일 매핑이나 자동 배치 규칙을 적용하지 않는다.
   depth: 실제 앵커·높이·앞/중앙/뒤 배치는 맵과 공용 렌더러가 결정한다.
 review_categories:
-  vegetation: 자연물
   herbaceous: 화초
-  props: 소품
   large-trees: 큰 나무
+  props: 소품
   rocks-minerals: 암석광물
+  vegetation: 자연물
 review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 큰 나무는 large-trees,
   꽃·풀·잎·갈대·덩굴은 herbaceous, 나머지 식물·자연 잔해는 vegetation, 작업 도구·안내 표시는 props다. 큰 나무는 검수로
   지정한 계열이며 표시 높이를 바꿔도 자동 재분류하지 않는다.
@@ -82,8 +82,8 @@ modeling_contract:
       1은 해당 점유 축 전체이며 표시 높이는 크기에 곱하지 않음를 저장한다.
   validation: slime-workflow/tools/review/maintenance/sync_billboard_catalog.py --check
 catalog_files:
-  vegetation: catalogs/vegetation.yaml
   herbaceous: catalogs/herbaceous.yaml
-  props: catalogs/props.yaml
   large-trees: catalogs/large-trees.yaml
+  props: catalogs/props.yaml
   rocks-minerals: catalogs/rocks-minerals.yaml
+  vegetation: catalogs/vegetation.yaml

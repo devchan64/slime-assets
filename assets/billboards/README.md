@@ -42,3 +42,7 @@ PYTHONPATH=. .venv-management/bin/python tools/review/maintenance/sync_billboard
 `catalog.yaml`은 schema 2의 공통 설명·타입·파일 경로 색인입니다. 계열과 빌보드 상세는 `catalogs/vegetation.yaml`(자연물), `herbaceous.yaml`(화초), `props.yaml`(소품), `large-trees.yaml`(큰 나무), `rocks-minerals.yaml`(암석광물)에 단일 원본으로 관리합니다. 타입 파일의 `category`와 각 계열의 `review_category`는 일치해야 합니다. 에셋 ID는 전체 파일에서 유일해야 합니다.
 
 관리도구는 선택한 타입만 조회합니다. 전체 검증과 프론트엔드 준비는 공용 로더로 파일들을 합쳐 읽으며, 통합 상세 카탈로그 사본을 생성하지 않습니다. 기존 `sync_billboard_catalog.py --write/--check` 명령은 분할 파일까지 처리합니다.
+
+## 전용 이펙트 분리
+
+웨이포인트 안내와 결계탑 오라는 빌보드가 아닙니다. `assets/sprites/effects/catalog.yaml`에서 분류하며, 웨이포인트 PNG와 프레임별 앵커는 `assets/sprites/effects/waypoint/`에 둡니다. 이펙트는 점유·통행·접지 그림자 공용 속성 편집 대상에서 제외하고 전용 렌더러 계약을 사용합니다. 빌보드 카탈로그에 다시 등록하지 않습니다.

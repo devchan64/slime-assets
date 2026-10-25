@@ -2,107 +2,107 @@ schema_version: 1
 category: large-trees
 families:
   orchard-apple-tree:
-    category: tree
-    review_category: large-trees
     name: 사과나무
-    features:
-    - 열매가 달린 수관과 줄기
     uses:
     - 과수 재배 구역의 중심 수목
-  orchard-dead-tree:
     category: tree
-    review_category: large-trees
-    name: 고사목
     features:
-    - 잎이 적고 가지가 드러난 나무
+    - 열매가 달린 수관과 줄기
+    review_category: large-trees
+  orchard-dead-tree:
+    name: 고사목
     uses:
     - 메마른 구역과 관리되지 않은 가장자리
-  orchard-autumn-tree:
     category: tree
-    review_category: large-trees
-    name: 가을 과수
     features:
-    - 가을색 수관
+    - 잎이 적고 가지가 드러난 나무
+    review_category: large-trees
+  orchard-autumn-tree:
+    name: 가을 과수
     uses:
     - 계절감이 있는 과수 군락
-  orchard-young-tree:
     category: tree
-    review_category: large-trees
-    name: 어린 과수
     features:
-    - 작은 수관과 가는 줄기
+    - 가을색 수관
+    review_category: large-trees
+  orchard-young-tree:
+    name: 어린 과수
     uses:
     - 어린 나무 재배 구역
-  orchard-old-tree:
     category: tree
-    review_category: large-trees
-    name: 오래된 과수
     features:
-    - 굵은 줄기와 넓은 수관
+    - 작은 수관과 가는 줄기
+    review_category: large-trees
+  orchard-old-tree:
+    name: 오래된 과수
     uses:
     - 오래된 과수 구역의 중심
-  field-root-trail-rooted-tree-1-v1:
     category: tree
-    review_category: large-trees
-    name: 뿌리 오솔길 · 뿌리 나무 · 변형 1/5
     features:
-    - 지역별 형태·크기 변형
+    - 굵은 줄기와 넓은 수관
+    review_category: large-trees
+  field-root-trail-rooted-tree-1-v1:
+    name: 뿌리 오솔길 · 뿌리 나무 · 변형 1/5
     uses:
     - root-trail 야외 필드 배치 후보
-  dawn-overlook-pine-tree-windswept-v1:
     category: tree
+    features:
+    - 지역별 형태·크기 변형
     review_category: large-trees
+  dawn-overlook-pine-tree-windswept-v1:
     name: 바람에 기운 낮은 소나무
+    uses:
+    - 산지 사면 수목 군락. 높이와 수형을 섞고 전망 중심과 통로를 비운다.
+    category: tree
     features:
     - 바람에 기운 낮은 소나무
     - 짙은 녹색 바늘잎과 갈색 줄기, 드러난 짧은 뿌리
-    uses:
-    - 산지 사면 수목 군락. 높이와 수형을 섞고 전망 중심과 통로를 비운다.
+    review_category: large-trees
   orchard-young-tree-variant-1-v3:
-    category: vegetation
-    review_category: large-trees
     name: 잎 무리가 선명한 어린 과수
+    uses:
+    - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    category: vegetation
     features:
     - 부드러운 손그림 음영
     - 구분되는 잎 무리와 노출된 뿌리
-    uses:
-    - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    review_category: large-trees
   dawn-overlook-conifer-tree-tall-v2:
-    category: vegetation
-    review_category: large-trees
     name: 층진 수관의 높은 침엽수
+    uses:
+    - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    category: vegetation
     features:
     - 부드러운 손그림 음영
     - 구분되는 잎 무리와 노출된 뿌리
-    uses:
-    - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    review_category: large-trees
   dawn-overlook-conifer-tree-medium-v2:
-    category: vegetation
-    review_category: large-trees
     name: 넓은 수관의 중간 침엽수
+    uses:
+    - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    category: vegetation
     features:
     - 부드러운 손그림 음영
     - 구분되는 잎 무리와 노출된 뿌리
-    uses:
-    - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    review_category: large-trees
   conifer-tree-compact-v1:
-    category: vegetation
-    review_category: large-trees
     name: 낮고 풍성한 침엽수
-    features:
-    - 부드러운 손그림 음영
-    - 구분되는 잎 무리와 노출된 뿌리
     uses:
     - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
-  conifer-tree-open-v1:
     category: vegetation
-    review_category: large-trees
-    name: 가지 사이가 열린 침엽수
     features:
     - 부드러운 손그림 음영
     - 구분되는 잎 무리와 노출된 뿌리
+    review_category: large-trees
+  conifer-tree-open-v1:
+    name: 가지 사이가 열린 침엽수
     uses:
     - 뿌리를 점유 타일 안에 두고 통로와 주변 수관의 가림을 확인한다.
+    category: vegetation
+    features:
+    - 부드러운 손그림 음영
+    - 구분되는 잎 무리와 노출된 뿌리
+    review_category: large-trees
 billboards:
 - texture_key: conifer-tree-compact-v1
   family: conifer-tree-compact-v1

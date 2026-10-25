@@ -1,326 +1,318 @@
 schema_version: 1
 category: props
 families:
-  waypoint-guide:
-    category: navigation
-    review_category: props
-    name: 웨이포인트 안내
-    features:
-    - 목재 안내 표시의 6프레임 시트
-    uses:
-    - 위치 안내 애니메이션
   town-delivery-crates:
-    category: prop
-    review_category: props
     name: 납품 상자와 바구니
-    features:
-    - 묶인 상자와 바구니
     uses:
     - 시장·출입구의 운반물
-  town-handcart:
     category: prop
-    review_category: props
-    name: 작은 손수레
     features:
-    - 손잡이와 바퀴가 있는 수레
+    - 묶인 상자와 바구니
+    review_category: props
+  town-handcart:
+    name: 작은 손수레
     uses:
     - 시장과 운반 동선 옆
-  town-food-stall:
     category: prop
-    review_category: props
-    name: 식량 진열대
     features:
-    - 식품을 놓은 낮은 작업대
+    - 손잡이와 바퀴가 있는 수레
+    review_category: props
+  town-food-stall:
+    name: 식량 진열대
     uses:
     - 시장 식품 진열
-  town-notice-board:
     category: prop
-    review_category: props
-    name: 목재 의뢰 게시판
     features:
-    - 목재 판과 붙인 종이
+    - 식품을 놓은 낮은 작업대
+    review_category: props
+  town-notice-board:
+    name: 목재 의뢰 게시판
     uses:
     - 광장·길드 주변 안내
-  town-reed-bundles:
     category: prop
-    review_category: props
-    name: 갈대 섬유 묶음
     features:
-    - 묶어 쌓은 갈대
+    - 목재 판과 붙인 종이
+    review_category: props
+  town-reed-bundles:
+    name: 갈대 섬유 묶음
     uses:
     - 갈대 가공·건조 구역
-  town-herb-rack:
     category: prop
-    review_category: props
-    name: 약초 건조대
     features:
-    - 식물을 매단 거치대
+    - 묶어 쌓은 갈대
+    review_category: props
+  town-herb-rack:
+    name: 약초 건조대
     uses:
     - 약초 처리 구역
-  town-record-chest:
     category: prop
-    review_category: props
-    name: 기록 보관 상자
     features:
-    - 기록물을 담은 상자
+    - 식물을 매단 거치대
+    review_category: props
+  town-record-chest:
+    name: 기록 보관 상자
     uses:
     - 서점·기록 공간 주변
-  town-layered-sign:
     category: prop
-    review_category: props
-    name: 겹친 기록 안내판
     features:
-    - 겹쳐 붙인 표식
+    - 기록물을 담은 상자
+    review_category: props
+  town-layered-sign:
+    name: 겹친 기록 안내판
     uses:
     - 기록·안내 구역
-  town-grindstone:
     category: prop
-    review_category: props
-    name: 수동 숫돌
     features:
-    - 회전 숫돌과 받침대
+    - 겹쳐 붙인 표식
+    review_category: props
+  town-grindstone:
+    name: 수동 숫돌
     uses:
     - 공방 작업 구역
-  town-metal-bin:
     category: prop
-    review_category: props
-    name: 금속 분류함
     features:
-    - 분류된 금속 재료
+    - 회전 숫돌과 받침대
+    review_category: props
+  town-metal-bin:
+    name: 금속 분류함
     uses:
     - 공방 재료 보관
-  town-charcoal-stack:
     category: prop
-    review_category: props
-    name: 숯과 장작
     features:
-    - 연료 자루와 목재 더미
+    - 분류된 금속 재료
+    review_category: props
+  town-charcoal-stack:
+    name: 숯과 장작
     uses:
     - 공방 연료 보관
-  town-repair-rack:
     category: prop
-    review_category: props
-    name: 수리 도구 거치대
     features:
-    - 걸어 둔 수공구
+    - 연료 자루와 목재 더미
+    review_category: props
+  town-repair-rack:
+    name: 수리 도구 거치대
     uses:
     - 공방 수리 구역
-  town-grain-sacks:
     category: prop
-    review_category: props
-    name: 곡물 자루
     features:
-    - 묶인 자루와 곡물
+    - 걸어 둔 수공구
+    review_category: props
+  town-grain-sacks:
+    name: 곡물 자루
     uses:
     - 저장·출하 구역
-  town-straw-sheaves:
     category: prop
-    review_category: props
-    name: 볏단
     features:
-    - 묶은 줄기 군집
+    - 묶인 자루와 곡물
+    review_category: props
+  town-straw-sheaves:
+    name: 볏단
     uses:
     - 수확·건조 구역
-  town-threshing-bench:
     category: prop
-    review_category: props
-    name: 탈곡 작업대
     features:
-    - 곡물을 다루는 수동 작업대
+    - 묶은 줄기 군집
+    review_category: props
+  town-threshing-bench:
+    name: 탈곡 작업대
     uses:
     - 수확 처리 구역
-  town-harvest-cart:
     category: prop
-    review_category: props
-    name: 수확 수레
     features:
-    - 수확물을 실은 수레
+    - 곡물을 다루는 수동 작업대
+    review_category: props
+  town-harvest-cart:
+    name: 수확 수레
     uses:
     - 농업 운반 구역
-  town-salt-barrels:
     category: prop
-    review_category: props
-    name: 소금 자루와 통
     features:
-    - 자루와 저장 통
+    - 수확물을 실은 수레
+    review_category: props
+  town-salt-barrels:
+    name: 소금 자루와 통
     uses:
     - 염분 재료 저장 구역
-  town-fish-rack:
     category: prop
-    review_category: props
-    name: 보존식 건조대
     features:
-    - 먹거리를 걸어 말리는 틀
+    - 자루와 저장 통
+    review_category: props
+  town-fish-rack:
+    name: 보존식 건조대
     uses:
     - 건조·보존 처리 구역
-  town-rope-crates:
     category: prop
-    review_category: props
-    name: 밧줄과 상자
     features:
-    - 감은 밧줄과 운반 상자
+    - 먹거리를 걸어 말리는 틀
+    review_category: props
+  town-rope-crates:
+    name: 밧줄과 상자
     uses:
     - 물류 작업 구역
-  town-coastal-stall:
     category: prop
-    review_category: props
-    name: 해안 진열대
     features:
-    - 해안 물품 진열 작업대
+    - 감은 밧줄과 운반 상자
+    review_category: props
+  town-coastal-stall:
+    name: 해안 진열대
     uses:
     - 해안 시장
-  town-wood-bench:
     category: prop
-    review_category: props
-    name: 목재 벤치
     features:
-    - 등받이 또는 좌판 목재
+    - 해안 물품 진열 작업대
+    review_category: props
+  town-wood-bench:
+    name: 목재 벤치
     uses:
     - 광장·주거지 휴식 공간
-  town-low-fence:
     category: prop
-    review_category: props
-    name: 낮은 울타리
     features:
-    - 낮은 목재 경계
+    - 등받이 또는 좌판 목재
+    review_category: props
+  town-low-fence:
+    name: 낮은 울타리
     uses:
     - 정원과 작업 공간 구획
-  town-ground-lantern:
     category: prop
-    review_category: props
-    name: 지면 등불
     features:
-    - 받침 위 등불
+    - 낮은 목재 경계
+    review_category: props
+  town-ground-lantern:
+    name: 지면 등불
     uses:
     - 입구와 길 주변 표시
-  town-ore-basket:
     category: prop
-    review_category: props
-    name: 광석 바구니
     features:
-    - 선별한 광석과 바구니
+    - 받침 위 등불
+    review_category: props
+  town-ore-basket:
+    name: 광석 바구니
     uses:
     - 공방 재료 구역
-  town-iseulon-jelly-counter:
-    category: scene
-    review_category: props
-    name: 젤리 조리·검수대
+    category: prop
     features:
-    - 젤리 그릇·조리 냄비·틀·저울
+    - 선별한 광석과 바구니
+    review_category: props
+  town-iseulon-jelly-counter:
+    name: 젤리 조리·검수대
     uses:
     - 시장 조리와 분량 확인 장면
-  town-reedhaven-water-record:
     category: scene
-    review_category: props
-    name: 물길 기록 벽
     features:
-    - 지도·덧댄 기록·갈대 묶음
+    - 젤리 그릇·조리 냄비·틀·저울
+    review_category: props
+  town-reedhaven-water-record:
+    name: 물길 기록 벽
     uses:
     - 서점 주변 기록 작업 장면
-  town-stonewarm-repair-process:
     category: scene
-    review_category: props
-    name: 수리 공정대
     features:
-    - 수리 단계가 다른 방패·작업 표식
+    - 지도·덧댄 기록·갈대 묶음
+    review_category: props
+  town-stonewarm-repair-process:
+    name: 수리 공정대
     uses:
     - 공방 수리 장면
-  town-grainstead-milling-dispatch:
     category: scene
-    review_category: props
-    name: 제분·출고대
     features:
-    - 수동 맷돌·곡물 건조판·자루
+    - 수리 단계가 다른 방패·작업 표식
+    review_category: props
+  town-grainstead-milling-dispatch:
+    name: 제분·출고대
     uses:
     - 곡물 처리와 출하 장면
-  town-saltford-cargo-weighing:
     category: scene
-    review_category: props
-    name: 화물 계량대
     features:
-    - 저울·추·화물·소금 자루
+    - 수동 맷돌·곡물 건조판·자루
+    review_category: props
+  town-saltford-cargo-weighing:
+    name: 화물 계량대
     uses:
     - 물류 계량 장면
-  town-iseulon-material-training:
     category: scene
-    review_category: props
-    name: 이슬온 회수 재료 교육대
     features:
-    - 젤리 견본·집게·취급 천·그림 카드
+    - 저울·추·화물·소금 자루
+    review_category: props
+  town-iseulon-material-training:
+    name: 이슬온 회수 재료 교육대
     uses:
     - 길드 주변 재료 취급 교육 장면
-  town-reedhaven-fiber-workbench:
     category: scene
-    review_category: props
-    name: 갈대나루 갈대섬유 작업대
     features:
-    - 갈대 묶음·직조 틀·미완성 돗자리
+    - 젤리 견본·집게·취급 천·그림 카드
+    review_category: props
+  town-reedhaven-fiber-workbench:
+    name: 갈대나루 갈대섬유 작업대
     uses:
     - 공방 주변 섬유 가공 장면
-  town-stonewarm-repair-handover:
     category: scene
-    review_category: props
-    name: 돌온재 수리품 인계 선반
     features:
-    - 수리 흔적이 있는 방패·가방·인계 표식
+    - 갈대 묶음·직조 틀·미완성 돗자리
+    review_category: props
+  town-stonewarm-repair-handover:
+    name: 돌온재 수리품 인계 선반
     uses:
     - 공방의 수리품 인계 장면
-  town-grainstead-grain-drying:
     category: scene
-    review_category: props
-    name: 곡온벌 곡물 건조대
     features:
-    - 높인 건조판·곡물·갈퀴·덮개 천
+    - 수리 흔적이 있는 방패·가방·인계 표식
+    review_category: props
+  town-grainstead-grain-drying:
+    name: 곡온벌 곡물 건조대
     uses:
     - 제분 구역의 건조 작업 장면
-  town-saltford-wet-cargo-drying:
     category: scene
-    review_category: props
-    name: 소금여울 젖은 포대 건조대
     features:
-    - 젖은 포대·건조 틀·밧줄·물받이
+    - 높인 건조판·곡물·갈퀴·덮개 천
+    review_category: props
+  town-saltford-wet-cargo-drying:
+    name: 소금여울 젖은 포대 건조대
     uses:
     - 시장 주변 운송 화물 관리 장면
-  quarry-hand-winch:
-    category: prop
+    category: scene
+    features:
+    - 젖은 포대·건조 틀·밧줄·물받이
     review_category: props
+  quarry-hand-winch:
     name: 낡은 채석 수동 권양기
+    uses:
+    - 채석 작업 구역
+    category: prop
     features:
     - 낡은 채석 수동 권양기
+    review_category: props
+  quarry-mason-tools:
+    name: 채석 석공 도구대
     uses:
     - 채석 작업 구역
-  quarry-mason-tools:
     category: prop
-    review_category: props
-    name: 채석 석공 도구대
     features:
     - 채석 석공 도구대
-    uses:
-    - 채석 작업 구역
-  brine-bank-carrying-buckets-v1:
-    category: prop
     review_category: props
+  brine-bank-carrying-buckets-v1:
     name: 염수 운반 물통
+    uses:
+    - 염수 물가와 채염 작업 구역
+    category: prop
     features:
     - 염수 운반 물통
+    review_category: props
+  brine-bank-salt-drying-rack-v1:
+    name: 소금 건조대
     uses:
     - 염수 물가와 채염 작업 구역
-  brine-bank-salt-drying-rack-v1:
     category: prop
-    review_category: props
-    name: 소금 건조대
     features:
     - 소금 건조대
-    uses:
-    - 염수 물가와 채염 작업 구역
-  cinder-path-ash-cargo-v1:
-    category: prop
     review_category: props
+  cinder-path-ash-cargo-v1:
     name: 잿가루 운송 짐꾸러미
-    features:
-    - 잿가루 운송 짐꾸러미
     uses:
     - 잿빛 지형의 길 가장자리
+    category: prop
+    features:
+    - 잿가루 운송 짐꾸러미
+    review_category: props
   quarry-stone-cart:
     category: prop
     review_category: props
@@ -330,197 +322,197 @@ families:
     uses:
     - 채석 작업 구역
   quarry-cut-blocks-v1:
-    category: prop
-    review_category: props
     name: 절단 석재 적치
+    uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+    category: prop
     features:
     - 절단 석재 적치
+    review_category: props
+  quarry-broken-slabs-v1:
+    name: 깨진 채석 판석
     uses:
     - 채석장 작업면과 암반 아래의 석재 잔해
-  quarry-broken-slabs-v1:
     category: prop
-    review_category: props
-    name: 깨진 채석 판석
     features:
     - 깨진 채석 판석
-    uses:
-    - 채석장 작업면과 암반 아래의 석재 잔해
+    review_category: props
   field-mill-ridge-worn-millstone-1-v1:
-    category: prop
-    review_category: props
     name: 맷돌등성이 · 마모 맷돌 · 변형 1/5
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
+    category: prop
+    features:
+    - 지역별 자연물·소품 형태 변형
+    review_category: props
   field-salt-causeway-repair-stakes-1-v1:
-    category: prop
-    review_category: props
     name: 소금둑길 · 보수 말뚝 · 변형 1/5
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
+    category: prop
+    features:
+    - 지역별 자연물·소품 형태 변형
+    review_category: props
   field-salt-flat-brine-barrel-1-v1:
-    category: prop
-    review_category: props
     name: 흰소금벌 · 염수 나무통 · 변형 1/5
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
+    category: prop
+    features:
+    - 지역별 자연물·소품 형태 변형
+    review_category: props
   field-grove-cargo-crate-4-v1:
-    category: prop
-    review_category: props
     name: 푸른 숲 · 운송 상자 · 변형 4/5
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
+    category: prop
+    features:
+    - 지역별 자연물·소품 형태 변형
+    review_category: props
   field-lantern-wood-lantern-stand-4-v1:
-    category: prop
-    review_category: props
     name: 등불 숲 · 등불 받침 · 변형 4/5
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
+    category: prop
+    features:
+    - 지역별 자연물·소품 형태 변형
+    review_category: props
   field-grove-cargo-crate-5-v1:
-    category: prop
-    review_category: props
     name: 푸른 숲 · 운송 상자 · 변형 5/5
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
+    category: prop
+    features:
+    - 지역별 자연물·소품 형태 변형
+    review_category: props
   field-moss-clearing-boundary-stone-size-large-v1:
-    category: prop
-    review_category: props
     name: 이끼 공터 · 경계석 · 대형 보완
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
+    category: prop
+    features:
+    - 지역별 자연물·소품 형태 변형
+    review_category: props
   field-lantern-wood-lantern-stand-size-small-v1:
-    category: prop
-    review_category: props
     name: 등불 숲 · 등불 받침 · 소형 보완
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
+    category: prop
+    features:
+    - 지역별 자연물·소품 형태 변형
+    review_category: props
   field-mist-lake-mooring-stone-size-large-v1:
-    category: prop
-    review_category: props
     name: 안개 호수 · 계류석 · 대형 보완
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
-  field-pebble-shore-rope-coil-size-large-v1:
     category: prop
-    review_category: props
-    name: 조약돌 물가 · 해진 밧줄 · 대형 보완
     features:
-    - 지역별 형태·크기 변형
+    - 지역별 자연물·소품 형태 변형
+    review_category: props
+  field-pebble-shore-rope-coil-size-large-v1:
+    name: 조약돌 물가 · 해진 밧줄 · 대형 보완
     uses:
     - pebble-shore 야외 필드 배치 후보
-  field-salt-causeway-repair-stakes-2-v1:
     category: prop
-    review_category: props
-    name: 소금둑길 · 보수 말뚝 · 변형 2/5
     features:
     - 지역별 형태·크기 변형
+    review_category: props
+  field-salt-causeway-repair-stakes-2-v1:
+    name: 소금둑길 · 보수 말뚝 · 변형 2/5
     uses:
     - salt-causeway 야외 필드 배치 후보
-  field-mist-lake-mooring-stone-1-v1:
     category: prop
-    review_category: props
-    name: 안개 호수 · 계류석 · 변형 1/5
     features:
     - 지역별 형태·크기 변형
+    review_category: props
+  field-mist-lake-mooring-stone-1-v1:
+    name: 안개 호수 · 계류석 · 변형 1/5
     uses:
     - mist-lake 야외 필드 배치 후보
-  field-root-trail-wagon-wheel-4-v1:
     category: prop
-    review_category: props
-    name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 4/5
     features:
     - 지역별 형태·크기 변형
+    review_category: props
+  field-root-trail-wagon-wheel-4-v1:
+    name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 4/5
     uses:
     - root-trail 야외 필드 배치 후보
-  field-wind-hills-rope-waymark-4-v1:
     category: prop
-    review_category: props
-    name: 바람 구릉 · 보강 길표식 · 변형 4/5
     features:
     - 지역별 형태·크기 변형
+    review_category: props
+  field-wind-hills-rope-waymark-4-v1:
+    name: 바람 구릉 · 보강 길표식 · 변형 4/5
     uses:
     - wind-hills 야외 필드 배치 후보
-  field-mist-lake-mooring-stone-4-v1:
     category: prop
-    review_category: props
-    name: 안개 호수 · 계류석 · 변형 4/5
     features:
     - 지역별 형태·크기 변형
+    review_category: props
+  field-mist-lake-mooring-stone-4-v1:
+    name: 안개 호수 · 계류석 · 변형 4/5
     uses:
     - mist-lake 야외 필드 배치 후보
-  field-grove-cargo-crate-size-large-v1:
     category: prop
-    review_category: props
-    name: 푸른 숲 · 운송 상자 · 대형 보완
     features:
     - 지역별 형태·크기 변형
+    review_category: props
+  field-grove-cargo-crate-size-large-v1:
+    name: 푸른 숲 · 운송 상자 · 대형 보완
     uses:
     - grove 야외 필드 배치 후보
-  field-lantern-wood-lantern-stand-size-large-v1:
     category: prop
-    review_category: props
-    name: 등불 숲 · 등불 받침 · 대형 보완
     features:
     - 지역별 형태·크기 변형
+    review_category: props
+  field-lantern-wood-lantern-stand-size-large-v1:
+    name: 등불 숲 · 등불 받침 · 대형 보완
     uses:
     - lantern-wood 야외 필드 배치 후보
-  quarry-wooden-derrick-v1:
     category: prop
+    features:
+    - 지역별 형태·크기 변형
     review_category: props
+  quarry-wooden-derrick-v1:
     name: 목재 인양틀·도르래
+    uses:
+    - 폐채석장 인양·석재 인계 작업 흔적
+    category: prop
     features:
     - 목재 인양틀·도르래
+    review_category: props
+  quarry-stone-bearers-v1:
+    name: 받침 위 반가공 석재
     uses:
     - 폐채석장 인양·석재 인계 작업 흔적
-  quarry-stone-bearers-v1:
     category: prop
-    review_category: props
-    name: 받침 위 반가공 석재
     features:
     - 받침 위 반가공 석재
+    review_category: props
+  quarry-splitting-tools-v1:
+    name: 망치·끌·쐐기 묶음
     uses:
     - 폐채석장 인양·석재 인계 작업 흔적
-  quarry-splitting-tools-v1:
     category: prop
-    review_category: props
-    name: 망치·끌·쐐기 묶음
     features:
     - 망치·끌·쐐기 묶음
-    uses:
-    - 폐채석장 인양·석재 인계 작업 흔적
+    review_category: props
   old-boundary-gate-pillar-left-v1:
-    category: prop
-    review_category: props
     name: 옛 경계문터 왼쪽 높은 문기둥
-    features:
-    - 문양이 새겨진 풍화된 석재 문기둥과 연결된 낮은 성벽 잔해
     uses:
     - 옛 경계문터 소품
-  old-boundary-gate-pillar-right-v1:
     category: prop
-    review_category: props
-    name: 옛 경계문터 오른쪽 낮은 문기둥
     features:
     - 문양이 새겨진 풍화된 석재 문기둥과 연결된 낮은 성벽 잔해
+    review_category: props
+  old-boundary-gate-pillar-right-v1:
+    name: 옛 경계문터 오른쪽 낮은 문기둥
     uses:
     - 옛 경계문터 소품
+    category: prop
+    features:
+    - 문양이 새겨진 풍화된 석재 문기둥과 연결된 낮은 성벽 잔해
+    review_category: props
 billboards:
 - texture_key: brine-bank-carrying-buckets-v1
   family: brine-bank-carrying-buckets-v1
@@ -1357,17 +1349,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-moss-clearing-boundary-stone-size-large-v1
-    anchorX: -0.07
-    anchorY: 0.28
+    anchorX: -0.03
+    anchorY: -0.5
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 75.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.6
-    shadowOffsetRow: 0.67
-    shadowScaleX: 0.4
-    shadowScaleY: 0.4
+    shadowOffsetColumn: -0.2
+    shadowOffsetRow: -0.15
+    shadowScaleX: 0.61
+    shadowScaleY: 0.51
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 37.5
@@ -1419,17 +1411,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-pebble-shore-rope-coil-size-large-v1
-    anchorX: 0.02
-    anchorY: 0.41
+    anchorX: 0.0
+    anchorY: -0.6
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 25.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.81
-    shadowOffsetRow: 0.78
-    shadowScaleX: 0.15
-    shadowScaleY: 0.15
+    shadowOffsetColumn: -0.2
+    shadowOffsetRow: -0.2
+    shadowScaleX: 0.31
+    shadowScaleY: 0.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 12.5
@@ -1480,17 +1472,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-root-trail-wagon-wheel-4-v1
-    anchorX: 0.02
-    anchorY: 0.3
+    anchorX: 0.01
+    anchorY: -0.7
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 55.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.63
-    shadowOffsetRow: 0.61
-    shadowScaleX: 0.29
-    shadowScaleY: 0.29
+    shadowOffsetColumn: -0.3
+    shadowOffsetRow: -0.3
+    shadowScaleX: 0.21
+    shadowScaleY: 0.51
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 27.5
@@ -1543,16 +1535,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-1-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.75
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 0.27
-    shadowScaleY: 0.27
+    shadowOffsetColumn: -0.3
+    shadowOffsetRow: -0.3
+    shadowScaleX: 0.41
+    shadowScaleY: 0.41
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 25.0
@@ -1603,16 +1595,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-2-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.7
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 55.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 0.28
-    shadowScaleY: 0.28
+    shadowOffsetColumn: -0.3
+    shadowOffsetRow: -0.3
+    shadowScaleX: 0.41
+    shadowScaleY: 0.41
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 27.5
@@ -1665,16 +1657,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-salt-flat-brine-barrel-1-v1
     anchorX: 0.0
-    anchorY: 0.32
+    anchorY: -0.7
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 60.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.62
-    shadowOffsetRow: 0.62
-    shadowScaleX: 0.31
-    shadowScaleY: 0.31
+    shadowOffsetColumn: -0.3
+    shadowOffsetRow: -0.3
+    shadowScaleX: 0.51
+    shadowScaleY: 0.51
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 30.0
@@ -1726,14 +1718,14 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.field-wind-hills-rope-waymark-4-v1
     anchorX: 0.06
-    anchorY: -0.2
+    anchorY: -0.7
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 90.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: -0.3
+    shadowOffsetRow: -0.3
     shadowScaleX: 0.47
     shadowScaleY: 0.47
     shadowCoordinateVersion: 2
@@ -1779,22 +1771,22 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.old-boundary-gate-pillar-left-v1
-    anchorX: -0.3
-    anchorY: 0.35
-    groundFootprintColumns: 4
+    anchorX: -0.2
+    anchorY: 0.29
+    groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 240.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.74
-    shadowOffsetRow: 0.55
-    shadowScaleX: 0.48
-    shadowScaleY: 0.33
+    shadowOffsetColumn: 0.2
+    shadowOffsetRow: 0.5
+    shadowScaleX: 1.61
+    shadowScaleY: 0.81
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 120.0
     size_variant: 기본 변형
-    occupied_tile_count: 8
+    occupied_tile_count: 4
     movement: 통행 가능
 - texture_key: old-boundary-gate-pillar-right-v1
   family: old-boundary-gate-pillar-right-v1
@@ -1835,7 +1827,7 @@ billboards:
     source: assets/maps/sprite-display-properties.yaml#data.old-boundary-gate-pillar-right-v1
     anchorX: 0.0
     anchorY: 0.0
-    groundFootprintColumns: 3
+    groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 200.0
     billboardBlocksMovement: false
@@ -1848,7 +1840,7 @@ billboards:
     shadowSizeVersion: 2
     outdoorDisplayHeight: 100.0
     size_variant: 기본 변형
-    occupied_tile_count: 6
+    occupied_tile_count: 4
     movement: 통행 가능
 - texture_key: quarry-broken-slabs-v1
   family: quarry-broken-slabs-v1
@@ -1900,16 +1892,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-broken-slabs-v1
     anchorX: 0.0
-    anchorY: 0.35
+    anchorY: -0.03
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 35.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.69
-    shadowOffsetRow: 0.69
-    shadowScaleX: 0.31
-    shadowScaleY: 0.31
+    shadowOffsetColumn: 0.37
+    shadowOffsetRow: 0.36
+    shadowScaleX: 0.23
+    shadowScaleY: 0.24
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 17.5
@@ -1963,17 +1955,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-cut-blocks-v1
-    anchorX: -0.02
-    anchorY: 0.32
+    anchorX: -0.01
+    anchorY: -0.05
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 65.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.61
-    shadowOffsetRow: 0.63
-    shadowScaleX: 0.48
-    shadowScaleY: 0.48
+    shadowOffsetColumn: 0.24
+    shadowOffsetRow: 0.25
+    shadowScaleX: 0.51
+    shadowScaleY: 0.5
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 32.5
@@ -2025,17 +2017,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-hand-winch-v1
-    anchorX: 0.05
-    anchorY: 0.33
+    anchorX: 0.09
+    anchorY: -0.12
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 65.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.62
-    shadowOffsetRow: 0.59
-    shadowScaleX: 0.46
-    shadowScaleY: 0.46
+    shadowOffsetColumn: 0.31
+    shadowOffsetRow: 0.18
+    shadowScaleX: 0.36
+    shadowScaleY: 0.62
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 32.5
@@ -2087,17 +2079,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-mason-tools-v1
-    anchorX: 0.0
-    anchorY: 0.32
+    anchorX: -0.07
+    anchorY: -0.06
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 65.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.57
-    shadowOffsetRow: 0.57
-    shadowScaleX: 0.56
-    shadowScaleY: 0.56
+    shadowOffsetColumn: 0.26
+    shadowOffsetRow: 0.29
+    shadowScaleX: 0.45
+    shadowScaleY: 0.4
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 32.5
@@ -2276,23 +2268,23 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-wooden-derrick-v1
-    anchorX: 0.04
-    anchorY: -0.04
-    groundFootprintColumns: 3
-    groundFootprintRows: 3
+    anchorX: -0.11
+    anchorY: -0.19
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
     displayHeight: 160.0
-    billboardBlocksMovement: true
+    billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 1.0
-    shadowOffsetRow: 0.99
-    shadowScaleX: 0.27
-    shadowScaleY: 0.27
+    shadowOffsetColumn: 0.2
+    shadowOffsetRow: -0.1
+    shadowScaleX: 0.58
+    shadowScaleY: 0.53
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 80.0
     size_variant: 기본 변형
-    occupied_tile_count: 9
-    movement: 내부 타일 통행 불가
+    occupied_tile_count: 1
+    movement: 통행 가능
 - texture_key: town-charcoal-stack-v1
   family: town-charcoal-stack
   asset_ref:
@@ -3434,17 +3426,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-metal-bin-v1
-    anchorX: 0.0
-    anchorY: 0.13
+    anchorX: 0.04
+    anchorY: 0.09
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.38
-    shadowOffsetRow: 0.38
-    shadowScaleX: 0.21
-    shadowScaleY: 0.28
+    shadowOffsetColumn: 0.57
+    shadowOffsetRow: 0.37
+    shadowScaleX: 0.14
+    shadowScaleY: 0.23
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 25.0
@@ -3562,17 +3554,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-ore-basket-v1
-    anchorX: 0.0
-    anchorY: 0.0
+    anchorX: -0.04
+    anchorY: -0.04
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 40.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.34
-    shadowOffsetRow: 0.34
-    shadowScaleX: 0.24
-    shadowScaleY: 0.24
+    shadowOffsetColumn: 0.35
+    shadowOffsetRow: 0.37
+    shadowScaleX: 0.28
+    shadowScaleY: 0.2
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 20.0
@@ -3632,17 +3624,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-record-chest-v1
-    anchorX: 0.03
-    anchorY: 0.34
+    anchorX: -0.05
+    anchorY: -0.02
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.64
-    shadowOffsetRow: 0.62
-    shadowScaleX: 0.32
-    shadowScaleY: 0.32
+    shadowOffsetColumn: 0.33
+    shadowOffsetRow: 0.37
+    shadowScaleX: 0.31
+    shadowScaleY: 0.24
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 25.0
@@ -3756,17 +3748,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-fiber-workbench-v1
-    anchorX: 0.01
-    anchorY: 0.34
+    anchorX: -0.05
+    anchorY: -0.02
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 60.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.67
-    shadowOffsetRow: 0.66
-    shadowScaleX: 0.35
-    shadowScaleY: 0.35
+    shadowOffsetColumn: 0.33
+    shadowOffsetRow: 0.34
+    shadowScaleX: 0.31
+    shadowScaleY: 0.28
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 30.0
@@ -3886,17 +3878,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-repair-rack-v1
-    anchorX: 0.0
-    anchorY: 0.29
+    anchorX: -0.09
+    anchorY: -0.01
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 70.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.59
-    shadowOffsetRow: 0.59
-    shadowScaleX: 0.41
-    shadowScaleY: 0.41
+    shadowOffsetColumn: 0.3
+    shadowOffsetRow: 0.35
+    shadowScaleX: 0.38
+    shadowScaleY: 0.28
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 35.0
@@ -3955,16 +3947,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-rope-crates-v1
     anchorX: 0.0
-    anchorY: 0.37
+    anchorY: -0.02
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.67
-    shadowOffsetRow: 0.67
-    shadowScaleX: 0.32
-    shadowScaleY: 0.32
+    shadowOffsetColumn: 0.34
+    shadowOffsetRow: 0.34
+    shadowScaleX: 0.29
+    shadowScaleY: 0.28
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 25.0
@@ -4018,16 +4010,16 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-salt-barrels-v1
-    anchorX: -0.01
-    anchorY: 0.29
+    anchorX: -0.03
+    anchorY: -0.07
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 60.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.54
-    shadowOffsetRow: 0.54
-    shadowScaleX: 0.41
+    shadowOffsetColumn: 0.24
+    shadowOffsetRow: 0.29
+    shadowScaleX: 0.49
     shadowScaleY: 0.41
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
@@ -4082,17 +4074,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-cargo-weighing-v1
-    anchorX: -0.01
-    anchorY: 0.41
+    anchorX: 0.22
+    anchorY: 0.18
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 85.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.65
-    shadowOffsetRow: 0.66
-    shadowScaleX: 0.35
-    shadowScaleY: 0.35
+    shadowOffsetColumn: 0.68
+    shadowOffsetRow: 0.22
+    shadowScaleX: 0.32
+    shadowScaleY: 0.52
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 42.5
@@ -4144,19 +4136,19 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: bottom
+    vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-wet-cargo-drying-v1
-    anchorX: 0.02
-    anchorY: 0.54
+    anchorX: -0.2
+    anchorY: 0.13
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 60.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.79
-    shadowOffsetRow: 0.77
-    shadowScaleX: 0.36
-    shadowScaleY: 0.36
+    shadowOffsetColumn: 0.22
+    shadowOffsetRow: 0.7
+    shadowScaleX: 0.55
+    shadowScaleY: 0.3
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 30.0
@@ -4208,17 +4200,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-repair-handover-v1
-    anchorX: 0.05
-    anchorY: 0.4
+    anchorX: 0.2
+    anchorY: 0.11
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 90.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.66
-    shadowOffsetRow: 0.62
-    shadowScaleX: 0.39
-    shadowScaleY: 0.39
+    shadowOffsetColumn: 0.62
+    shadowOffsetRow: 0.2
+    shadowScaleX: 0.38
+    shadowScaleY: 0.58
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 45.0
@@ -4270,17 +4262,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-repair-process-v1
-    anchorX: 0.0
-    anchorY: 0.49
+    anchorX: 0.12
+    anchorY: 0.23
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 85.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.69
-    shadowOffsetRow: 0.69
-    shadowScaleX: 0.34
-    shadowScaleY: 0.34
+    shadowOffsetColumn: 0.71
+    shadowOffsetRow: 0.32
+    shadowScaleX: 0.28
+    shadowScaleY: 0.33
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 42.5
@@ -4398,17 +4390,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-threshing-bench-v1
-    anchorX: 0.01
-    anchorY: 0.29
+    anchorX: -0.04
+    anchorY: -0.03
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 50.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.62
-    shadowOffsetRow: 0.61
-    shadowScaleX: 0.39
-    shadowScaleY: 0.39
+    shadowOffsetColumn: 0.34
+    shadowOffsetRow: 0.32
+    shadowScaleX: 0.27
+    shadowScaleY: 0.34
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 25.0
@@ -4468,84 +4460,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-wood-bench-v1
-    anchorX: 0.01
-    anchorY: 0.29
+    anchorX: -0.07
+    anchorY: -0.02
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 45.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.63
-    shadowOffsetRow: 0.62
-    shadowScaleX: 0.3
-    shadowScaleY: 0.3
+    shadowOffsetColumn: 0.38
+    shadowOffsetRow: 0.39
+    shadowScaleX: 0.2
+    shadowScaleY: 0.19
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 22.5
-    size_variant: 기본 변형
-    occupied_tile_count: 1
-    movement: 통행 가능
-- texture_key: waypoint-guide-v3
-  family: waypoint-guide
-  asset_ref:
-    management_id: image.scenery.waypoint-guide-v1
-    version: v3
-  map_references: []
-  metadata_references:
-  - assets/billboards/waypoint-guide-v3.animation.json
-  source_file:
-    path: assets/billboards/waypoint-guide-v3.png
-    width: 768
-    height: 512
-    sha256: 3ace014d96dcd6678aa8366aa3d9a788033cf7b499d295925219049c01d2d2ff
-  modeling:
-    avoid:
-    - 접지 영역의 서로 다른 고도
-    - 다른 오브젝트의 접지 점유와 중첩
-    - 출입구·시작점·주요 이동로 점유
-    - 시트 전체를 한 장의 정적 빌보드로 그리기
-    basis: '앵커 v3 생성 기록과 256×256 프레임별 앵커 확인. 공용 앵커는 첫 프레임 기준이며 재생 시 프레임별 값을 우선 사용한다.
-      출처: 2026-10-17_21-08-13-df1e5c88 · 기록 SHA-256 949ccba55fe347fe3b3d50483ea1928fd5d7e758f5326a70debcb943649520c4'
-    shadow:
-      guidance_only: true
-      runtime_profile: billboard-contact-v2
-      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-    purpose: '웨이포인트 안내 표지: 프레임별 앵커를 사용하는 전용 애니메이션 합성용. 출구 이동 칸을 차단하지 않는다.'
-    composition: 갈림길·출입구 옆에 단독 배치하고 이동 칸과 표지 가독성을 확보한다.
-    visual_review:
-      date: '2026-10-22'
-      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
-      status: 원본 이미지 육안 확인
-      source_sha256: 3ace014d96dcd6678aa8366aa3d9a788033cf7b499d295925219049c01d2d2ff
-    recommended_uses:
-    - '웨이포인트 안내 표지: 프레임별 앵커를 사용하는 전용 애니메이션 합성용. 출구 이동 칸을 차단하지 않는다.'
-    visual_description: 가로 목판과 노란 천이 달린 안내 기둥 여섯 모습이 3열·2행으로 배열된 프레임 시트다.
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.waypoint-guide-v3
-    anchorX: -0.01
-    anchorY: 0.35
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 65.0
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.56
-    shadowOffsetRow: 0.57
-    shadowScaleX: 0.31
-    shadowScaleY: 0.31
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-    outdoorDisplayHeight: 32.5
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능

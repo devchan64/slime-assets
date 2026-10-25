@@ -6299,7 +6299,7 @@ assets:
     operation: 마을 식생·관목 투명 스프라이트 생성
 - managementId: animation.scenery.waypoint-guide
   version: v3
-  path: assets/billboards/waypoint-guide-v3.animation.json
+  path: assets/sprites/effects/waypoint/waypoint-guide-v3.animation.json
   sha256: db2e732a4724c704e030ae83ff112626c7730ad63f95f3efb1bb1a99f3b6c56f
   source:
     repository: slime-workflow
@@ -6307,7 +6307,7 @@ assets:
     operation: 검수 승인된 6프레임 앵커 적용
 - managementId: image.scenery.waypoint-guide-v1
   version: v3
-  path: assets/billboards/waypoint-guide-v3.png
+  path: assets/sprites/effects/waypoint/waypoint-guide-v3.png
   width: 768
   height: 512
   sha256: 3ace014d96dcd6678aa8366aa3d9a788033cf7b499d295925219049c01d2d2ff
@@ -6526,7 +6526,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 77e50b254b86e13a452444e181110f81a97c79364612bc1ca0795bff1789184e
+  sha256: a2149e69a4e8307801f6970196e5185454f40c75f469cf985db6d6314501b240
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -9046,3 +9046,9 @@ assets:
     operation: 사용자 승인 · 강모 능선 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 114.48
+- managementId: catalog.effects
+  version: v1
+  path: assets/sprites/effects/catalog.yaml
+  sha256: 63e12050f913f4cbd59b3be37ded27f9448700e67ae50c347513aaea520efbd1
+  source:
+    operation: 웨이포인트·결계탑 오라를 빌보드와 분리

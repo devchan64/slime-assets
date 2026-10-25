@@ -2,403 +2,403 @@ schema_version: 1
 category: rocks-minerals
 families:
   ash-edge-scorched-waystone-v1:
-    category: prop
-    review_category: rocks-minerals
     name: 한쪽이 검어진 돌 이정표
-    features:
-    - 한쪽이 검어진 돌 이정표
     uses:
     - 야외필드 환경 장식
-  cinder-path-cooled-rocks-v1:
-    category: vegetation
-    review_category: rocks-minerals
-    name: 식은 검은 암석
+    category: prop
     features:
-    - 식은 검은 암석
+    - 한쪽이 검어진 돌 이정표
+    review_category: rocks-minerals
+  cinder-path-cooled-rocks-v1:
+    name: 식은 검은 암석
     uses:
     - 잿빛 지형의 길 가장자리
-  cinder-path-basalt-outcrop-v1:
     category: vegetation
-    review_category: rocks-minerals
-    name: 식은 층상 현무암
     features:
-    - 검은 층상 암반과 잿가루
+    - 식은 검은 암석
+    review_category: rocks-minerals
+  cinder-path-basalt-outcrop-v1:
+    name: 식은 층상 현무암
     uses:
     - 잿길 주변 암반 능선
-  dawn-overlook-split-granite-v1:
     category: vegetation
-    review_category: rocks-minerals
-    name: 갈라진 화강암 입석
     features:
-    - 풍화된 회색 화강암과 낮은 이끼
+    - 검은 층상 암반과 잿가루
+    review_category: rocks-minerals
+  dawn-overlook-split-granite-v1:
+    name: 갈라진 화강암 입석
     uses:
     - 새벽 전망대 계곡과 능선
-  quarry-weathered-boulders-v1:
     category: vegetation
+    features:
+    - 풍화된 회색 화강암과 낮은 이끼
     review_category: rocks-minerals
+  quarry-weathered-boulders-v1:
     name: 풍화된 채석장 암괴
+    uses:
+    - 채석장 작업면과 암반 아래의 석재 잔해
+    category: vegetation
     features:
     - 풍화된 채석장 암괴
+    review_category: rocks-minerals
+  quarry-collapse-fan-v1:
+    name: 채석장 붕락 잔해
     uses:
     - 채석장 작업면과 암반 아래의 석재 잔해
-  quarry-collapse-fan-v1:
     category: vegetation
-    review_category: rocks-minerals
-    name: 채석장 붕락 잔해
     features:
     - 채석장 붕락 잔해
-    uses:
-    - 채석장 작업면과 암반 아래의 석재 잔해
-  field-mill-ridge-weathered-stones-4-v1:
-    category: vegetation
     review_category: rocks-minerals
+  field-mill-ridge-weathered-stones-4-v1:
     name: 맷돌등성이 · 풍화 돌무더기 · 변형 4/5
-    features:
-    - 지역별 자연물·소품 형태 변형
     uses:
     - 야외 필드 배경 배치 후보
-  quarry-fallen-limestone-v1:
-    category: rock
+    category: vegetation
+    features:
+    - 지역별 자연물·소품 형태 변형
     review_category: rocks-minerals
+  quarry-fallen-limestone-v1:
     name: 붕락 석회암
+    uses:
+    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
+    category: rock
     features:
     - 붕락 석회암
     - 외곽 후광 잔여물 포함
-    uses:
-    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
-  crystal-cut-guide-3x1-tall-v1:
-    category: rock
     review_category: rocks-minerals
+  crystal-cut-guide-3x1-tall-v1:
     name: 석영 절개 3x1 벽면형
+    uses:
+    - 절벽 앞 암반 노두
+    category: rock
     features:
     - 석영 절개 3x1 벽면형
     - 유백색 석영맥·회색 파쇄 암반
+    review_category: rocks-minerals
+  crystal-cut-guide-2x1-tall-v1:
+    name: 석영 절개 2x1 벽면형
     uses:
     - 절벽 앞 암반 노두
-  crystal-cut-guide-2x1-tall-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 석영 절개 2x1 벽면형
     features:
     - 석영 절개 2x1 벽면형
     - 유백색 석영맥·회색 파쇄 암반
+    review_category: rocks-minerals
+  crystal-cut-guide-1x2-tall-v1:
+    name: 석영 절개 1x2 벽면형
     uses:
     - 절벽 앞 암반 노두
-  crystal-cut-guide-1x2-tall-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 석영 절개 1x2 벽면형
     features:
     - 석영 절개 1x2 벽면형
     - 유백색 석영맥·회색 파쇄 암반
+    review_category: rocks-minerals
+  crystal-cut-guide-1x3-tall-v1:
+    name: 석영 절개 1x3 벽면형
     uses:
     - 절벽 앞 암반 노두
-  crystal-cut-guide-1x3-tall-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 석영 절개 1x3 벽면형
     features:
     - 석영 절개 1x3 벽면형
     - 유백색 석영맥·회색 파쇄 암반
-    uses:
-    - 절벽 앞 암반 노두
-  crystal-cut-guide-2x2-low-v1:
-    category: rock
     review_category: rocks-minerals
+  crystal-cut-guide-2x2-low-v1:
     name: 석영 절개 2x2 바닥형
+    uses:
+    - 지면의 낮은 암반 노출부
+    category: rock
     features:
     - 석영 절개 2x2 바닥형
     - 유백색 석영맥·회색 파쇄 암반
+    review_category: rocks-minerals
+  crystal-cut-guide-2x3-low-v1:
+    name: 석영 절개 2x3 바닥형
     uses:
     - 지면의 낮은 암반 노출부
-  crystal-cut-guide-2x3-low-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 석영 절개 2x3 바닥형
     features:
     - 석영 절개 2x3 바닥형
     - 유백색 석영맥·회색 파쇄 암반
+    review_category: rocks-minerals
+  crystal-cut-guide-3x2-low-v1:
+    name: 석영 절개 3x2 바닥형
     uses:
     - 지면의 낮은 암반 노출부
-  crystal-cut-guide-3x2-low-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 석영 절개 3x2 바닥형
     features:
     - 석영 절개 3x2 바닥형
     - 유백색 석영맥·회색 파쇄 암반
-    uses:
-    - 지면의 낮은 암반 노출부
-  crystal-cut-quartz-1x1-parallel-v1:
-    category: rock
     review_category: rocks-minerals
+  crystal-cut-quartz-1x1-parallel-v1:
     name: 가는 평행맥 판석
+    uses:
+    - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+    category: rock
     features:
     - 넓고 낮은 회색 판석을 가느다란 흰 평행맥이 가로지른다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-1x1-inclusions-v1:
+    name: 점상 석영 각력암
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-1x1-inclusions-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 점상 석영 각력암
     features:
     - 불규칙한 낮은 암반에 서로 떨어진 상아색 석영 조각이 점상으로 박혀 있다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-1x1-branch-v1:
+    name: 분기 석영 판석
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-1x1-branch-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 분기 석영 판석
     features:
     - 겹쳐진 각진 암반 위로 굵은 석영맥이 비스듬히 갈라진다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-1x1-web-v1:
+    name: 망상맥 오목 암반
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-1x1-web-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 망상맥 오목 암반
     features:
     - 가느다란 망상맥이 얕고 어두운 중앙 홈을 둘러싼다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-1x1-lens-v1:
+    name: 렌즈 석영 바위
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-1x1-lens-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 렌즈 석영 바위
     features:
     - 둔중한 각진 바위의 한쪽 면에 큰 타원형 석영 덩어리가 드러난다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-1x1-paired-v1:
+    name: 쌍봉 석영 바위
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-1x1-paired-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 쌍봉 석영 바위
     features:
     - 높이가 다른 두 바위 사이로 굵은 상아색 석영맥이 이어진다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-1x1-band-v1:
+    name: 수평맥 석영 바위
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-1x1-band-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 수평맥 석영 바위
     features:
     - 불규칙한 회색 바위 중간을 흰 수평 석영층이 가로지른다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-1x1-vertical-v1:
+    name: 수직맥 석영 암주
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-1x1-vertical-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 수직맥 석영 암주
     features:
     - 가늘어지는 높은 암주 전면을 굵고 구불구불한 석영맥이 오른다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-1x1-fissure-v1:
+    name: 틈새 석영 암주
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-1x1-fissure-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 틈새 석영 암주
     features:
     - 어두운 암주의 깊은 세로 틈 안쪽에 흰 석영이 집중된다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-1x1-patches-v1:
+    name: 반점 석영 암주
     uses:
     - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-1x1-patches-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 반점 석영 암주
     features:
     - 기울어진 높은 암반의 넓은 회색 면에 분리된 흰 석영 반점과 가는 균열이 보인다.
     - 1×1 접지·회색 암반과 상아색 석영
-    uses:
-    - 큰 석영 암반 주변의 작은 군집에 서로 다른 광맥을 섞어 배치한다. 1×1 밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-detail-shelf-v1:
-    category: rock
     review_category: rocks-minerals
+  crystal-cut-quartz-detail-shelf-v1:
     name: 낮은 석영 노출 암반
+    uses:
+    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
+      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
+    category: rock
     features:
     - 넓고 낮은 회색 암반에 작은 상아색 석영 노출부가 드문드문 보인다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-detail-asymmetric-v1:
+    name: 편측 석영 비대칭 바위
     uses:
     - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
       밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-detail-asymmetric-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 편측 석영 비대칭 바위
     features:
     - 한쪽으로 기운 회색 바위의 한 면에 석영이 집중되어 있다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-detail-scree-v1:
+    name: 석영 파쇄암 더미
     uses:
     - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
       밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-detail-scree-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 석영 파쇄암 더미
     features:
     - 서로 다른 크기의 각진 회색 파쇄암 사이에 석영 조각이 섞여 있다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-detail-buried-v1:
+    name: 얕은 석영 노출부
     uses:
     - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
       밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-detail-buried-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 얕은 석영 노출부
     features:
     - 지면에 묻힌 듯 낮은 풍화 암반에 흐린 상아색 석영이 드러난다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-detail-scatter-v1:
+    name: 흩어진 석영 파편
     uses:
     - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
       밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-detail-scatter-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 흩어진 석영 파편
     features:
     - 작고 납작한 회색 돌과 상아색 석영 조각이 틈을 두고 흩어져 있다.
     - 1×1 접지·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-quartz-detail-hairline-v1:
+    name: 가는 단절맥 바위
     uses:
     - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
       밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-quartz-detail-hairline-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 가는 단절맥 바위
     features:
     - 회색 바위의 넓은 면에 가늘고 끊어진 흰 석영맥이 보인다.
     - 1×1 접지·회색 암반과 상아색 석영
-    uses:
-    - 독립형 소형·중형 암석으로 큰 석영 군집 주변의 밀도와 실루엣을 다양화한다. 끝부분을 다른 이미지와 맞추는 연결 부품이 아니다. 1×1
-      밑면의 앞쪽 접지점을 타일 경계에 맞춘다.
-  crystal-cut-guide-3x1-medium-v1:
-    category: rock
     review_category: rocks-minerals
+  crystal-cut-guide-3x1-medium-v1:
     name: 중간 사선 석영 암벽
+    uses:
+    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
+      확인한다.
+    category: rock
     features:
     - 회색 층상 암반을 굵고 끊어진 사선 석영맥이 가로지른다.
     - 중간 벽면형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-guide-2x1-medium-v1:
+    name: 중간 석영 포켓 암벽
     uses:
     - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
       확인한다.
-  crystal-cut-guide-2x1-medium-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 중간 석영 포켓 암벽
     features:
     - 각진 암반 전면에 큰 상아색 석영 덩어리가 드러난다.
     - 중간 벽면형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-guide-1x2-medium-v1:
+    name: 중간 분기맥 암벽
     uses:
     - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
       확인한다.
-  crystal-cut-guide-1x2-medium-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 중간 분기맥 암벽
     features:
     - 회색 절리 사이로 가는 석영맥이 갈라진다.
     - 중간 벽면형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-guide-1x3-medium-v1:
+    name: 중간 렌즈맥 암벽
     uses:
     - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
       확인한다.
-  crystal-cut-guide-1x3-medium-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 중간 렌즈맥 암벽
     features:
     - 긴 암벽 곳곳에 분리된 밝은 석영 덩어리가 박혀 있다.
     - 중간 벽면형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-medium-strata-2x1-v1:
+    name: 중간 층상 석영 암반
     uses:
     - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
       확인한다.
-  crystal-cut-medium-strata-2x1-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 중간 층상 석영 암반
     features:
     - 넓은 계단형 회색 지층에 여러 가는 상아색 석영맥이 수평으로 드러난다.
     - 중간 벽면형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-medium-tilted-1x2-v1:
+    name: 중간 경사 절리 암반
     uses:
     - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
       확인한다.
-  crystal-cut-medium-tilted-1x2-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 중간 경사 절리 암반
     features:
     - 기울어진 회색 판석 한쪽을 굵은 사선 석영맥이 가로지른다.
     - 중간 벽면형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-medium-breccia-1x2-v1:
+    name: 중간 파쇄면 석영 암반
     uses:
     - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
       확인한다.
-  crystal-cut-medium-breccia-1x2-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 중간 파쇄면 석영 암반
     features:
     - 한쪽의 굵은 파쇄 석영과 반대쪽의 가는 분기맥이 대비된다.
     - 중간 벽면형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-medium-pockets-2x1-v1:
+    name: 중간 분리 석영맥 암반
     uses:
     - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
       확인한다.
-  crystal-cut-medium-pockets-2x1-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 중간 분리 석영맥 암반
     features:
     - 넓은 회색 암반 사이로 밝은 석영 덩어리 세 곳이 분리되어 드러난다.
     - 중간 벽면형·회색 암반과 상아색 석영
-    uses:
-    - 높은 지대의 벽면 앞에 배치하는 중간 높이 암반. 높은 암벽과 낮은 파편 사이의 높이 변화를 만든다. 같은 고도의 밑면과 뒤쪽 벽면 접촉을
-      확인한다.
-  crystal-cut-low-branch-2x1-v1:
-    category: rock
     review_category: rocks-minerals
+  crystal-cut-low-branch-2x1-v1:
     name: 낮은 분기 석영 판형
+    uses:
+    - 같은 고도의 바닥에 배치하는 낮은 판형. 암벽 하단에서 작은 파편 군집으로 이어지는 노출암반에 사용한다. 2×1·3×1의 긴 점유 방향과
+      하단 접지 경계를 맞춘다.
+    category: rock
     features:
     - 얕고 넓은 회색 판석 상면에 분기하는 밝은 석영맥이 드러난다.
     - 낮은 판형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-low-split-2x1-v1:
+    name: 낮은 절리 석영 판형
     uses:
     - 같은 고도의 바닥에 배치하는 낮은 판형. 암벽 하단에서 작은 파편 군집으로 이어지는 노출암반에 사용한다. 2×1·3×1의 긴 점유 방향과
       하단 접지 경계를 맞춘다.
-  crystal-cut-low-split-2x1-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 낮은 절리 석영 판형
     features:
     - 어긋난 얇은 회색 판석을 짧은 석영맥이 교차하며 낮은 단차가 생긴다.
     - 낮은 판형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-low-lenses-3x1-v1:
+    name: 낮은 렌즈 석영 판형
     uses:
     - 같은 고도의 바닥에 배치하는 낮은 판형. 암벽 하단에서 작은 파편 군집으로 이어지는 노출암반에 사용한다. 2×1·3×1의 긴 점유 방향과
       하단 접지 경계를 맞춘다.
-  crystal-cut-low-lenses-3x1-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 낮은 렌즈 석영 판형
     features:
     - 길고 낮은 회색 암반 곳곳에 불연속적인 밝은 석영 덩어리가 박혀 있다.
     - 낮은 판형·회색 암반과 상아색 석영
+    review_category: rocks-minerals
+  crystal-cut-low-rubble-3x1-v1:
+    name: 낮은 석영 파쇄 판형
     uses:
     - 같은 고도의 바닥에 배치하는 낮은 판형. 암벽 하단에서 작은 파편 군집으로 이어지는 노출암반에 사용한다. 2×1·3×1의 긴 점유 방향과
       하단 접지 경계를 맞춘다.
-  crystal-cut-low-rubble-3x1-v1:
     category: rock
-    review_category: rocks-minerals
-    name: 낮은 석영 파쇄 판형
     features:
     - 길게 흩어진 낮은 회색 판석 사이에 작은 상아색 석영 파편이 섞여 있다.
     - 낮은 판형·회색 암반과 상아색 석영
-    uses:
-    - 같은 고도의 바닥에 배치하는 낮은 판형. 암벽 하단에서 작은 파편 군집으로 이어지는 노출암반에 사용한다. 2×1·3×1의 긴 점유 방향과
-      하단 접지 경계를 맞춘다.
+    review_category: rocks-minerals
 billboards:
 - texture_key: ash-edge-scorched-waystone-v1
   family: ash-edge-scorched-waystone-v1

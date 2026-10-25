@@ -10,45 +10,45 @@ families:
     uses:
     - 캐릭터가 수풀 사이에 서는 깊이 표현
   dry-branches:
-    category: debris
-    review_category: vegetation
     name: 마른 가지
-    features:
-    - 잎 없는 낮은 가지
     uses:
     - 건조한 지면의 흔적
-  berry:
-    category: vegetation
-    review_category: vegetation
-    name: 열매 관목
+    category: debris
     features:
-    - 작은 열매가 달린 관목
+    - 잎 없는 낮은 가지
+    review_category: vegetation
+  berry:
+    name: 열매 관목
     uses:
     - 숲과 과수원 가장자리
-  dry-shrub:
     category: vegetation
-    review_category: vegetation
-    name: 마른 관목
     features:
-    - 마른 가지가 뻗은 낮은 관목
+    - 작은 열매가 달린 관목
+    review_category: vegetation
+  dry-shrub:
+    name: 마른 관목
     uses:
     - 건조 구역의 작은 군집
-  stump:
-    category: debris
-    review_category: vegetation
-    name: 그루터기
+    category: vegetation
     features:
-    - 잘린 나무 밑동
+    - 마른 가지가 뻗은 낮은 관목
+    review_category: vegetation
+  stump:
+    name: 그루터기
     uses:
     - 벌목·수목 관리 흔적
-  log:
     category: debris
-    review_category: vegetation
-    name: 쓰러진 통나무
     features:
-    - 가로로 놓인 목재
+    - 잘린 나무 밑동
+    review_category: vegetation
+  log:
+    name: 쓰러진 통나무
     uses:
     - 숲 바닥의 길쭉한 형태
+    category: debris
+    features:
+    - 가로로 놓인 목재
+    review_category: vegetation
   root:
     category: debris
     review_category: vegetation
@@ -58,327 +58,327 @@ families:
     uses:
     - 나무 주변의 지면 연결
   mushroom:
-    category: vegetation
-    review_category: vegetation
     name: 버섯
-    features:
-    - 갓이 모인 군집
     uses:
     - 나무 그늘의 작은 포인트
-  leaves:
-    category: debris
-    review_category: vegetation
-    name: 낙엽
+    category: vegetation
     features:
-    - 낮게 쌓인 잎
+    - 갓이 모인 군집
+    review_category: vegetation
+  leaves:
+    name: 낙엽
     uses:
     - 가을 수목 아래 지면 강조
-  apples:
     category: debris
-    review_category: vegetation
-    name: 떨어진 사과
     features:
-    - 지면에 모인 열매
+    - 낮게 쌓인 잎
+    review_category: vegetation
+  apples:
+    name: 떨어진 사과
     uses:
     - 사과나무 아래 수확 흔적
-  sapling:
-    category: vegetation
-    review_category: vegetation
-    name: 묘목
+    category: debris
     features:
-    - 작은 나무 형태
+    - 지면에 모인 열매
+    review_category: vegetation
+  sapling:
+    name: 묘목
     uses:
     - 성장 단계가 다른 수목 배치
-  bramble:
     category: vegetation
-    review_category: vegetation
-    name: 가시 덤불
     features:
-    - 얽힌 가지와 잎
+    - 작은 나무 형태
+    review_category: vegetation
+  bramble:
+    name: 가시 덤불
     uses:
     - 숲 가장자리의 조밀한 군집
-  orchard-chunky-shrub:
     category: vegetation
-    review_category: vegetation
-    name: 큰 형태 관목
     features:
-    - 큰 잎 덩어리 중심
+    - 얽힌 가지와 잎
+    review_category: vegetation
+  orchard-chunky-shrub:
+    name: 큰 형태 관목
     uses:
     - 수목 아래 읽기 쉬운 관목
-  orchard-chunky-mushroom:
     category: vegetation
-    review_category: vegetation
-    name: 큰 형태 버섯
     features:
-    - 큰 버섯 갓 군집
+    - 큰 잎 덩어리 중심
+    review_category: vegetation
+  orchard-chunky-mushroom:
+    name: 큰 형태 버섯
     uses:
     - 그늘 구역 강조
-  orchard-chunky-dryshrub:
     category: vegetation
-    review_category: vegetation
-    name: 큰 형태 마른 관목
     features:
-    - 큰 마른 가지 덩어리
+    - 큰 버섯 갓 군집
+    review_category: vegetation
+  orchard-chunky-dryshrub:
+    name: 큰 형태 마른 관목
     uses:
     - 건조 구역 강조
-  town-herb-planter:
     category: vegetation
-    review_category: vegetation
-    name: 약초 화분
     features:
-    - 용기에 심은 꽃과 약초
+    - 큰 마른 가지 덩어리
+    review_category: vegetation
+  town-herb-planter:
+    name: 약초 화분
     uses:
     - 건물 주변 녹지
-  town-vegetable-planter:
     category: vegetation
-    review_category: vegetation
-    name: 채소 재배 상자
     features:
-    - 상자 안 채소
+    - 용기에 심은 꽃과 약초
+    review_category: vegetation
+  town-vegetable-planter:
+    name: 채소 재배 상자
     uses:
     - 주거·농업 구역
-  town-iseulon-round-rose-shrub:
     category: vegetation
+    features:
+    - 상자 안 채소
     review_category: vegetation
+  town-iseulon-round-rose-shrub:
     name: 분홍 장미 관목
+    uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    category: vegetation
     features:
     - 분홍 장미 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-iseulon-white-bloom-hedge:
+    name: 흰꽃 생울타리
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-iseulon-white-bloom-hedge:
     category: vegetation
-    review_category: vegetation
-    name: 흰꽃 생울타리
     features:
     - 흰꽃 생울타리의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-iseulon-red-berry-bush:
+    name: 붉은 열매 관목
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-iseulon-red-berry-bush:
     category: vegetation
-    review_category: vegetation
-    name: 붉은 열매 관목
     features:
     - 붉은 열매 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-reedhaven-water-mint-bush:
+    name: 물가 박하 관목
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-reedhaven-water-mint-bush:
     category: vegetation
-    review_category: vegetation
-    name: 물가 박하 관목
     features:
     - 물가 박하 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-reedhaven-willow-leaf-shrub:
+    name: 버들잎 관목
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-reedhaven-willow-leaf-shrub:
     category: vegetation
-    review_category: vegetation
-    name: 버들잎 관목
     features:
     - 버들잎 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-stonewarm-silver-sage-shrub:
+    name: 은빛 세이지
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-stonewarm-silver-sage-shrub:
     category: vegetation
-    review_category: vegetation
-    name: 은빛 세이지
     features:
     - 은빛 세이지의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-stonewarm-rust-heather-bush:
+    name: 갈색 헤더
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-stonewarm-rust-heather-bush:
     category: vegetation
-    review_category: vegetation
-    name: 갈색 헤더
     features:
     - 갈색 헤더의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-stonewarm-sturdy-juniper-shrub:
+    name: 작은 향나무 관목
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-stonewarm-sturdy-juniper-shrub:
     category: vegetation
-    review_category: vegetation
-    name: 작은 향나무 관목
     features:
     - 작은 향나무 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-stonewarm-copper-leaf-bush:
+    name: 구릿빛 잎 관목
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-stonewarm-copper-leaf-bush:
     category: vegetation
-    review_category: vegetation
-    name: 구릿빛 잎 관목
     features:
     - 구릿빛 잎 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-grainstead-hazel-leaf-shrub:
+    name: 개암잎 관목
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-grainstead-hazel-leaf-shrub:
     category: vegetation
-    review_category: vegetation
-    name: 개암잎 관목
     features:
     - 개암잎 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-grainstead-wild-raspberry-bush:
+    name: 산딸기 관목
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-grainstead-wild-raspberry-bush:
     category: vegetation
-    review_category: vegetation
-    name: 산딸기 관목
     features:
     - 산딸기 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-grainstead-green-field-hedge:
+    name: 초록 들울타리
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-grainstead-green-field-hedge:
     category: vegetation
-    review_category: vegetation
-    name: 초록 들울타리
     features:
     - 초록 들울타리의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-saltford-coastal-silver-shrub:
+    name: 해안 은빛 관목
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-saltford-coastal-silver-shrub:
     category: vegetation
-    review_category: vegetation
-    name: 해안 은빛 관목
     features:
     - 해안 은빛 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-saltford-thick-leaf-bush:
+    name: 두꺼운잎 관목
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-saltford-thick-leaf-bush:
     category: vegetation
-    review_category: vegetation
-    name: 두꺼운잎 관목
     features:
     - 두꺼운잎 관목의 잎·꽃·줄기 실루엣
+    review_category: vegetation
+  town-saltford-pale-coastal-heather:
+    name: 연분홍 해안 헤더
     uses:
     - 마을 주거지와 정원 가장자리의 낮은 식생
     - 통로·문 앞을 비운 군락 배치
-  town-saltford-pale-coastal-heather:
     category: vegetation
-    review_category: vegetation
-    name: 연분홍 해안 헤더
     features:
     - 연분홍 해안 헤더의 잎·꽃·줄기 실루엣
-    uses:
-    - 마을 주거지와 정원 가장자리의 낮은 식생
-    - 통로·문 앞을 비운 군락 배치
-  ash-edge-charred-regrowth-v1:
-    category: debris
     review_category: vegetation
+  ash-edge-charred-regrowth-v1:
     name: 탄화 그루터기와 새순
+    uses:
+    - 야외필드 환경 장식
+    category: debris
     features:
     - 탄화 그루터기와 새순
+    review_category: vegetation
+  ash-edge-decomposer-log-v1:
+    name: 분해 버섯이 붙은 탄 고목
     uses:
     - 야외필드 환경 장식
-  ash-edge-decomposer-log-v1:
     category: debris
-    review_category: vegetation
-    name: 분해 버섯이 붙은 탄 고목
     features:
     - 분해 버섯이 붙은 탄 고목
-    uses:
-    - 야외필드 환경 장식
-  brine-bank-saltbush-v1:
-    category: vegetation
     review_category: vegetation
+  brine-bank-saltbush-v1:
     name: 염생 관목
-    features:
-    - 염생 관목
     uses:
     - 염수 물가와 채염 작업 구역
-  cinder-path-buried-deadwood-v1:
     category: vegetation
-    review_category: vegetation
-    name: 재에 묻힌 고사목
     features:
-    - 재에 묻힌 고사목
+    - 염생 관목
+    review_category: vegetation
+  cinder-path-buried-deadwood-v1:
+    name: 재에 묻힌 고사목
     uses:
     - 잿빛 지형의 길 가장자리
-  clover-bank-rabbit-burrow-v1:
     category: vegetation
-    review_category: vegetation
-    name: 토끼풀 토끼굴 둔덕
     features:
-    - 낮은 토끼풀 둔덕과 흙 굴 입구
+    - 재에 묻힌 고사목
+    review_category: vegetation
+  clover-bank-rabbit-burrow-v1:
+    name: 토끼풀 토끼굴 둔덕
     uses:
     - 초원 언덕의 대표 자연물
-  cinder-path-split-stump-v1:
     category: vegetation
-    review_category: vegetation
-    name: 갈라진 그루터기
     features:
-    - 식은 잿길 생성 자연물
+    - 낮은 토끼풀 둔덕과 흙 굴 입구
+    review_category: vegetation
+  cinder-path-split-stump-v1:
+    name: 갈라진 그루터기
     uses:
     - 차가운 잿길의 암석·고사목·회복 식생 묘사
-  quarry-crevice-plants-v1:
     category: vegetation
+    features:
+    - 식은 잿길 생성 자연물
     review_category: vegetation
+  quarry-crevice-plants-v1:
     name: 바위틈 마른 풀·백리향
+    uses:
+    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
+    category: vegetation
     features:
     - 바위틈 마른 풀·백리향
     - 외곽 후광 잔여물 포함
-    uses:
-    - 폐채석장 절개면·붕락 사면·틈새 식생 보강
-  fallen-canopy-giant-hollow-trunk-v1:
-    category: wood
     review_category: vegetation
+  fallen-canopy-giant-hollow-trunk-v1:
     name: 이끼 낀 거대 속빈 도복목
+    uses:
+    - 5×2 평탄한 접지에 배치한다. 주변에 작은 통나무·낙엽·새싹을 띄엄띄엄 두고 빈터와 통로를 확보한다.
+    category: wood
     features:
     - 왼쪽에 찢어진 뿌리와 속빈 단면이 솟고 오른쪽 아래로 굵은 갈색 줄기가 누워 있다. 윗면에는 황록색 이끼가 길게 이어지고 옆면에는 작은
       선반버섯과 갈라진 수피가 보인다.
-    uses:
-    - 5×2 평탄한 접지에 배치한다. 주변에 작은 통나무·낙엽·새싹을 띄엄띄엄 두고 빈터와 통로를 확보한다.
-  fallen-canopy-whole-fallen-tree-v1:
-    category: debris
     review_category: vegetation
+  fallen-canopy-whole-fallen-tree-v1:
     name: 뿌리째 쓰러진 긴 부후목
+    uses:
+    - 도복 흔적과 숲 바닥 잔해 표현
+    category: debris
     features:
     - 화면 왼쪽 아래의 흙을 머금은 뿌리 덩어리에서 오른쪽 위의 찢어진 끝까지 긴 줄기가 이어진다. 회갈색 껍질 사이로 밝은 부후목이 드러나고
       이끼가 성기게 붙어 있다.
+    review_category: vegetation
+  fallen-canopy-debris-branches-1x1-v1:
+    name: 짧게 부러진 가지 잔해
     uses:
     - 도복 흔적과 숲 바닥 잔해 표현
-  fallen-canopy-debris-branches-1x1-v1:
     category: debris
-    review_category: vegetation
-    name: 짧게 부러진 가지 잔해
     features:
     - 굵기가 다른 짧은 갈색 가지 세 조각이 모여 있다. 밝은 파단면과 성긴 이끼가 보이며 조각 사이에는 빈틈이 있다.
+    review_category: vegetation
+  fallen-canopy-debris-thin-branches-1x1-v1:
+    name: 성긴 짧은 가지 잔해
     uses:
     - 도복 흔적과 숲 바닥 잔해 표현
-  fallen-canopy-debris-thin-branches-1x1-v1:
     category: debris
-    review_category: vegetation
-    name: 성긴 짧은 가지 잔해
     features:
     - 굵기가 다른 짧은 가지 세 개가 성기게 놓여 있으며 밝은 파단면과 이끼가 보인다.
+    review_category: vegetation
+  fallen-canopy-debris-thick-break-1x1-v1:
+    name: 굵은 파단 가지 잔해
     uses:
     - 도복 흔적과 숲 바닥 잔해 표현
-  fallen-canopy-debris-thick-break-1x1-v1:
     category: debris
-    review_category: vegetation
-    name: 굵은 파단 가지 잔해
     features:
     - 굵은 갈색 가지 하나와 작은 파편이 나란히 놓여 있다. 마디와 찢어진 밝은 끝이 강조된다.
+    review_category: vegetation
+  fallen-canopy-debris-flat-decay-1x1-v1:
+    name: 납작한 부후목 잔해
     uses:
     - 도복 흔적과 숲 바닥 잔해 표현
-  fallen-canopy-debris-flat-decay-1x1-v1:
     category: debris
-    review_category: vegetation
-    name: 납작한 부후목 잔해
     features:
     - 납작한 나뭇조각 두 덩어리에 성긴 이끼와 밝은 찢어진 섬유가 드러난다.
-    uses:
-    - 도복 흔적과 숲 바닥 잔해 표현
+    review_category: vegetation
 billboards:
 - texture_key: apples-variant-1-v1
   family: apples

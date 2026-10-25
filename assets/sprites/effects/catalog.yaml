@@ -1,0 +1,19 @@
+schema_version: 1
+category: effects
+name: 이펙트
+effects:
+- id: safe-barrier-aura-v2
+  name: 결계탑 오라
+  image: assets/sprites/effects/safe-barrier/safe-barrier-aura-v2-source.png
+  renderer: safe-barrier-aura
+  columns: 4
+  rows: 2
+  frames: 8
+- id: waypoint-guide-v3
+  name: 웨이포인트 안내
+  image: assets/sprites/effects/waypoint/waypoint-guide-v3.png
+  animation: assets/sprites/effects/waypoint/waypoint-guide-v3.animation.json
+  renderer: waypoint-animation
+  columns: 3
+  rows: 2
+  frames: 6
