@@ -8823,3 +8823,58 @@ assets:
     repository: slime-workflow
     path: .tmp/test/old-boundary-gate-pillars/reference.png
     operation: 사용자 첨부 원본 좌우 분리, 알파 5 이하 외곽 크롭, 비율 유지 긴 변 512px 축소
+
+- managementId: audio.bgm.iseulon.mr.mp3
+  version: v1
+  path: assets/audio/bgm/iseulon/v1/iseulon-mr.mp3
+  sha256: 7e5acbc5c5d0ed43abbee05eb023a0c00766314dc458874848be04ef7c6e36ed
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_15-48-29-3ad3206b
+    attempt: d65dd9a87c3840a1a672ec440c364261
+    operation: 사용자 승인 · HeartMuLa 가사곡을 Demucs htdemucs로 MR 분리
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 70.31997732426304
+- managementId: audio.map-bgm.catalog
+  version: v3
+  path: assets/audio/map-bgm.yaml
+  sha256: 6cb34401ec5454a2bc185d11e3336b6ad263eb8f36b01725382e998288ae0e7d
+  source:
+    repository: slime-workflow
+    operation: 바람 구릉 BGM 추가 및 보컬·MR 버전 구분
+
+- managementId: audio.bgm.meadow.mr.mp3
+  version: v1
+  path: assets/audio/bgm/meadow/v1/meadow-mr.mp3
+  sha256: 6520a3b42a2bb1d76fbec75038f4b724a08afe64a71cd175ec24b63aa07cf974
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_16-11-03-8131b607
+    attempt: 92bdfcb68a3d4641b18ea5e6f40a6a6a
+    operation: 사용자 승인 · 이슬초원 MR 배경음악 채택
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 73.76
+
+- managementId: audio.bgm.wind-hills.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/wind-hills/v1/wind-hills-vocal.mp3
+  sha256: 5becab01145c854579af2a9932054dccdef9805642c0fd73918b221354071e4f
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_16-22-44-1a069736
+    attempt: 901fd72678ae4d9ab17f4cb4f119ca18
+    operation: 사용자 승인 · 바람 구릉 원곡 및 MR 배경음악 등록
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 74.72
+
+- managementId: audio.bgm.wind-hills.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/wind-hills/v1/wind-hills-instrumental.mp3
+  sha256: 6dc546e0378cd9217b703be893603b637651aa8d580f8922d553933b37b37b05
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_16-22-44-1a069736
+    attempt: 901fd72678ae4d9ab17f4cb4f119ca18
+    operation: 사용자 승인 · 바람 구릉 원곡 및 MR 배경음악 등록
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 74.72

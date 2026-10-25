@@ -1,0 +1,25 @@
+schema_version: 2
+maps:
+  iseulon:
+    instrumental:
+      management_id: audio.bgm.iseulon.mr.mp3
+      version: v1
+      path: assets/audio/bgm/iseulon/v1/iseulon-mr.mp3
+      sha256: 7e5acbc5c5d0ed43abbee05eb023a0c00766314dc458874848be04ef7c6e36ed
+  meadow:
+    instrumental:
+      management_id: audio.bgm.meadow.mr.mp3
+      version: v1
+      path: assets/audio/bgm/meadow/v1/meadow-mr.mp3
+      sha256: 6520a3b42a2bb1d76fbec75038f4b724a08afe64a71cd175ec24b63aa07cf974
+  wind-hills:
+    vocal:
+      management_id: audio.bgm.wind-hills.vocal.mp3
+      version: v1
+      path: assets/audio/bgm/wind-hills/v1/wind-hills-vocal.mp3
+      sha256: 5becab01145c854579af2a9932054dccdef9805642c0fd73918b221354071e4f
+    instrumental:
+      management_id: audio.bgm.wind-hills.instrumental.mp3
+      version: v1
+      path: assets/audio/bgm/wind-hills/v1/wind-hills-instrumental.mp3
+      sha256: 6dc546e0378cd9217b703be893603b637651aa8d580f8922d553933b37b37b05
