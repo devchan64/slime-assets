@@ -36,14 +36,14 @@ maps:
   broken-quarry:
     vocal:
       management_id: audio.bgm.broken-quarry.vocal.mp3
-      version: v1
-      path: assets/audio/bgm/broken-quarry/v1/broken-quarry-vocal.mp3
-      sha256: d568c7cd0d5b34d64947ca92e0b41b31248843c2ef81b0327acca41ac7998c6f
+      version: v2
+      path: assets/audio/bgm/broken-quarry/v2/broken-quarry-vocal.mp3
+      sha256: c861632428e9558fa772109570faffafe0544d4260f809f16e0f4db82f05f98e
     instrumental:
       management_id: audio.bgm.broken-quarry.instrumental.mp3
-      version: v1
-      path: assets/audio/bgm/broken-quarry/v1/broken-quarry-instrumental.mp3
-      sha256: a2c1a77f7b04391c07f7806663622312ea3ba1a55a660e3d3edc69d4a12dbf73
+      version: v2
+      path: assets/audio/bgm/broken-quarry/v2/broken-quarry-instrumental.mp3
+      sha256: 48e7d69a131b616a775c2884dcf0c969be6b2158cde4af21c7965883c1da93c5
   grove:
     vocal:
       management_id: audio.bgm.grove.vocal.mp3
@@ -99,3 +99,14 @@ maps:
       version: v1
       path: assets/audio/bgm/boar-ridge/v1/boar-ridge-instrumental.mp3
       sha256: 3b786579cc71edaef059f3add6a665532eb34dba4e7bd3451895289cfe192c6c
+  mist-lake:
+    vocal:
+      management_id: audio.bgm.mist-lake.vocal.mp3
+      version: v1
+      path: assets/audio/bgm/mist-lake/v1/mist-lake-vocal.mp3
+      sha256: 0f7bad6a771d4e7dbe4a6bf7cf6c96f0b4b90119171f021dff1abd84acf0c073
+    instrumental:
+      management_id: audio.bgm.mist-lake.instrumental.mp3
+      version: v1
+      path: assets/audio/bgm/mist-lake/v1/mist-lake-instrumental.mp3
+      sha256: 8cb4bcb0551058c16c78a53082088400b189fa36c58f396493d8b9bad906b139

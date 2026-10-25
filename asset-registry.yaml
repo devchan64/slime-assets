@@ -8836,12 +8836,12 @@ assets:
     duration_seconds: 68.95997916666667
     title: 버드나무 곁으로 (MR)
 - managementId: audio.map-bgm.catalog
-  version: v14
+  version: v16
   path: assets/audio/map-bgm.yaml
-  sha256: 55b8ce490bc33773f70ba6be946d9a45f4ad30fb6d40e0bde42ef6cb47ef4ee5
+  sha256: 5cd14463833016d7e3dd62a8ba538b6c19e9c1157577850c7cdec7af7aec1969
   source:
     repository: slime-workflow
-    operation: 강모 능선 원곡·MR 배경음악 등록
+    operation: 깨진 채석장 원곡·MR 배경음악 등록
 - managementId: audio.bgm.meadow.mr.mp3
   version: v4
   path: assets/audio/bgm/meadow/v4/meadow-mr.mp3
@@ -8879,29 +8879,29 @@ assets:
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 71.52
 - managementId: audio.bgm.broken-quarry.vocal.mp3
-  version: v1
-  path: assets/audio/bgm/broken-quarry/v1/broken-quarry-vocal.mp3
-  sha256: d568c7cd0d5b34d64947ca92e0b41b31248843c2ef81b0327acca41ac7998c6f
+  version: v2
+  path: assets/audio/bgm/broken-quarry/v2/broken-quarry-vocal.mp3
+  sha256: c861632428e9558fa772109570faffafe0544d4260f809f16e0f4db82f05f98e
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_16-22-45-d070da6d
-    attempt: 9aaa4347b04f4331a8801e2695400449
-    operation: 사용자 승인 · 깨진 채석장 원곡 및 MR MP3 등록
+    generation_id: 2026-10-25_21-11-26-2c6e836e
+    attempt: ad67c75a6b394920baf6d6dd303cf523
+    title: 돌틈에 깃든 빛 (보컬)
+    operation: 사용자 승인 · 깨진 채석장 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 67.76
-    bitrate_kbps: 320
+    duration_seconds: 62.88
 - managementId: audio.bgm.broken-quarry.instrumental.mp3
-  version: v1
-  path: assets/audio/bgm/broken-quarry/v1/broken-quarry-instrumental.mp3
-  sha256: a2c1a77f7b04391c07f7806663622312ea3ba1a55a660e3d3edc69d4a12dbf73
+  version: v2
+  path: assets/audio/bgm/broken-quarry/v2/broken-quarry-instrumental.mp3
+  sha256: 48e7d69a131b616a775c2884dcf0c969be6b2158cde4af21c7965883c1da93c5
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_16-22-45-d070da6d
-    attempt: 9aaa4347b04f4331a8801e2695400449
-    operation: 사용자 승인 · 깨진 채석장 원곡 및 MR MP3 등록
+    generation_id: 2026-10-25_21-11-26-2c6e836e
+    attempt: ad67c75a6b394920baf6d6dd303cf523
+    title: 돌틈에 깃든 빛 (MR)
+    operation: 사용자 승인 · 깨진 채석장 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 67.76
-    bitrate_kbps: 320
+    duration_seconds: 62.88
 - managementId: audio.bgm.iseulon.vocal.mp3
   version: v4
   path: assets/audio/bgm/iseulon/v4/iseulon-vocal.mp3
@@ -9052,3 +9052,29 @@ assets:
   sha256: 63e12050f913f4cbd59b3be37ded27f9448700e67ae50c347513aaea520efbd1
   source:
     operation: 웨이포인트·결계탑 오라를 빌보드와 분리
+
+- managementId: audio.bgm.mist-lake.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/mist-lake/v1/mist-lake-vocal.mp3
+  sha256: 0f7bad6a771d4e7dbe4a6bf7cf6c96f0b4b90119171f021dff1abd84acf0c073
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_20-59-51-1ef59770
+    attempt: e5d067cb89d74cd5be7da133b9248aa8
+    title: 안개 너머 다시 찾은 길 (보컬)
+    operation: 사용자 승인 · 안개 호수 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 59.76
+
+- managementId: audio.bgm.mist-lake.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/mist-lake/v1/mist-lake-instrumental.mp3
+  sha256: 8cb4bcb0551058c16c78a53082088400b189fa36c58f396493d8b9bad906b139
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_20-59-51-1ef59770
+    attempt: e5d067cb89d74cd5be7da133b9248aa8
+    title: 안개 너머 다시 찾은 길 (MR)
+    operation: 사용자 승인 · 안개 호수 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 59.76
