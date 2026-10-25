@@ -1,41 +1,678 @@
 managementId: config.field-tiles.grove
 data:
   rows:
-  - gggggggggggmmmggHggggggggggggggg
-  - gggggggggggmlmggHggggggggggggggg
-  - ggHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-  - HHHHlllllllllllmmggggggggggggggg
-  - HggHHlllllllmlllmmgggggggggggggg
-  - HgllHHlllllmmmlllmmggggggggggggg
-  - HglllHHlllmmmmmlllmggggggggggggg
-  - HgllllHHllmmmmmlllmggggggggggggg
-  - HglllllHHlmmmmmlllmggggggggggggg
-  - HgllllllHHmmmmmlllmggggggggggggg
-  - HglllllllHHHHHlllmmggggggggggggg
-  - HgllllllllmmmHmlllmggggggggggggg
-  - HgllllllllmmmHmlllmggggggggggggg
-  - HgllllllllmmmHddddddgggggggggggg
-  - HgglllllllmmmHHdddddgggggggggggg
-  - HggglllllllmmdHHddddgggggggggggg
-  - HgggglllllllmddHHddfgggggggggggg
-  - ggggggggmmlllddddddfglllllllgggg
-  - gggggggggmmlldddddgflllllllllggg
-  - ggggggggggmmldddddgflllllllllggg
-  - gggggggggggmmmggggglllllllllllgg
-  - ggggggggggggggggggglllllllllllgg
-  - ggggggggggggggggggglllllllllllgg
-  - ggggggggggggggggggglllllllllllgg
-  - ggggggggggggggggggglllllllllllgg
-  - ggggggggggggggggggglllllllllllgg
-  - ggggggggggggggggggglllllllllllgg
-  - gggggggggggggggggggglllllllllggg
-  - gggggggggggggggggggglllllllllggg
-  - ggggggggggggggggggggglllllllgggg
-  - gggggggggggggggggggggggggggggggg
-  - gggggggggggggggggggggggggggggggg
+  - mgmgmmmgmggmggmHHHmgmmgmmmgmmggm
+  - mmmmmmmmmmmmggmHHmmgmgmmmmgmmmmH
+  - mgmgmlllllmggmmHHmmgmmmmmmmmmmHH
+  - mmmllgllggglmmmHHmgmmmmmgmmmmHHH
+  - mmgllllllglllmmHHmmgmmmmgmmmHHHm
+  - gllllgllglglllHHHgmmmmmgmmHHHHmm
+  - mglllllgglllglHHmgmgmmgmHHHHHmmm
+  - gglllllggllllHHHmmmmgmmHHHHmmmmm
+  - gllllllllglllHHmmmmgmmHHHmmgmgmm
+  - llllllllglllHHHmmmgmmHHHmmmgmggm
+  - llgllllllllglHHmmmmmHHHmmmmmgmmm
+  - gglllllglllllHHmmgmHHHmmmmgggmmm
+  - mglllllgllgllHHmmmmHHmmmmggmmmmm
+  - gglllllglglllHHHmmHHHmmgmmmmmgmm
+  - mmllllgllglllmHHHHHHHmgggmmmmmmm
+  - HmmllllglgllgmmHHHHHmmmmmmmmmgmm
+  - HHHHHHllllmgmmmmmHHHmmlllllgmmmm
+  - HHHHHHHHmmmmgmmmHHHmllllglllggmm
+  - mmmmmHHHHmmmmmmHHHmggglllgllglmm
+  - mgmmgmmHHHHHHHHHHmlgllgllllllllm
+  - mmmmmmmmHHHHHHHHmmlllllllgllllgm
+  - mmgmmmgmmmHHHHHmmllllgllllllllgg
+  - mgmmmgmgmgmmgmgmglgllllllgglllll
+  - mmmggggmmgmmgmmgmlgglllllgllglll
+  - gmmmmmmmmmgmmmmmmllllllllllgllll
+  - mgmggmmmmmgmgmmmmlllggllllllllll
+  - mgggmmggmmmmmggggglllllgllllllgg
+  - mmmmgmggmmmgmmmgmmllllllllgglggg
+  - gmmmmmmmmmmmmmmmmmmggllllgllllmg
+  - gmmmgmmmmmmmgmmmmgmmlglllllllmmm
+  - mmmmmmmmmmgmmmmgmmmmgmllgllgmmmg
+  - mmmmmmmmmmmmmmmmmmmmmmmmmgmmmmmm
   objects:
   - id: ward-tower
-    kind: ward-tower
     position:
       column: 16
       row: 16
+    kind: ward-tower
+  - id: grove-canopy-1
+    position:
+      column: 3
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-canopy-2
+    position:
+      column: 6
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-3
+    position:
+      column: 9
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-4
+    position:
+      column: 4
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-5
+    position:
+      column: 8
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-canopy-6
+    position:
+      column: 10
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-7
+    position:
+      column: 3
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-8
+    position:
+      column: 6
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-9
+    position:
+      column: 8
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-canopy-10
+    position:
+      column: 2
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-11
+    position:
+      column: 20
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-12
+    position:
+      column: 23
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-13
+    position:
+      column: 27
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-canopy-14
+    position:
+      column: 29
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-15
+    position:
+      column: 24
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-16
+    position:
+      column: 20
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-17
+    position:
+      column: 27
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-canopy-18
+    position:
+      column: 23
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-19
+    position:
+      column: 29
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-20
+    position:
+      column: 18
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-21
+    position:
+      column: 4
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-canopy-22
+    position:
+      column: 6
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-23
+    position:
+      column: 9
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-24
+    position:
+      column: 26
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-root-trail-rooted-tree-1-v1
+  - id: grove-canopy-25
+    position:
+      column: 29
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-understory-25
+    position:
+      column: 1
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-understory-26
+    position:
+      column: 7
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-27
+    position:
+      column: 10
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-28
+    position:
+      column: 2
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-understory-29
+    position:
+      column: 6
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-understory-30
+    position:
+      column: 8
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-understory-31
+    position:
+      column: 11
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-understory-32
+    position:
+      column: 1
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-33
+    position:
+      column: 3
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-understory-34
+    position:
+      column: 18
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-understory-35
+    position:
+      column: 25
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-understory-36
+    position:
+      column: 27
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-37
+    position:
+      column: 22
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-38
+    position:
+      column: 25
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-39
+    position:
+      column: 18
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-40
+    position:
+      column: 21
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-41
+    position:
+      column: 27
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-42
+    position:
+      column: 16
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-understory-43
+    position:
+      column: 2
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-understory-44
+    position:
+      column: 4
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-45
+    position:
+      column: 7
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-understory-46
+    position:
+      column: 24
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-understory-47
+    position:
+      column: 27
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-fill-tree-0
+    position:
+      column: 2
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-fill-tree-1
+    position:
+      column: 4
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-2
+    position:
+      column: 6
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-3
+    position:
+      column: 8
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-4
+    position:
+      column: 10
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-fill-tree-5
+    position:
+      column: 12
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-6
+    position:
+      column: 12
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-7
+    position:
+      column: 16
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-fill-tree-8
+    position:
+      column: 16
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-fill-tree-9
+    position:
+      column: 4
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-fill-tree-10
+    position:
+      column: 8
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: grove-fill-tree-11
+    position:
+      column: 16
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: grove-fill-tree-12
+    position:
+      column: 4
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: grove-fill-tree-13
+    position:
+      column: 6
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-fill-tree-14
+    position:
+      column: 24
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-15
+    position:
+      column: 10
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-fill-tree-16
+    position:
+      column: 22
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-fill-tree-17
+    position:
+      column: 24
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-18
+    position:
+      column: 20
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-19
+    position:
+      column: 18
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-20
+    position:
+      column: 16
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-fill-tree-21
+    position:
+      column: 22
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-fill-tree-22
+    position:
+      column: 16
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-fill-tree-23
+    position:
+      column: 18
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: grove-fill-tree-24
+    position:
+      column: 16
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-fill-tree-25
+    position:
+      column: 22
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: grove-haul-remnant-1
+    position:
+      column: 18
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: grove-haul-remnant-2
+    position:
+      column: 11
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: old-stump-v1
+  - id: grove-haul-remnant-3
+    position:
+      column: 28
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: grove-haul-remnant-4
+    position:
+      column: 22
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: old-stump-v1
+  - id: grove-haul-remnant-5
+    position:
+      column: 5
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: grove-dense-canopy-0
+    position:
+      column: 29
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-dense-canopy-1
+    position:
+      column: 26
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-dense-canopy-2
+    position:
+      column: 24
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-dense-canopy-3
+    position:
+      column: 29
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-dense-canopy-4
+    position:
+      column: 27
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-dense-canopy-5
+    position:
+      column: 29
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-dense-canopy-6
+    position:
+      column: 27
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-dense-canopy-7
+    position:
+      column: 28
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-dense-canopy-8
+    position:
+      column: 25
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-dense-canopy-9
+    position:
+      column: 26
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-dense-canopy-10
+    position:
+      column: 20
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-dense-canopy-11
+    position:
+      column: 5
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
