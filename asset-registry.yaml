@@ -595,7 +595,7 @@ assets:
 - managementId: config.field-tiles.cinder-path
   version: cinder-remodel-v1-basalt-ground-v1-ridge-remodel-v1-access-v1
   path: assets/maps/field_tiles/cinder-path.yaml
-  sha256: 7ca290a81596667e955dc5ccd385033a195e574e874b89b9d25f246b0b97ac3c
+  sha256: f313f6e8a39f6ad996ece59510904e189d642106a736a6ad9cd22b1ff989ad45
   source:
     repository: slime-backend
     path: config/field_tiles/cinder-path.yaml
@@ -627,7 +627,7 @@ assets:
 - managementId: config.field-tiles.dawn-overlook
   version: shared-material-codes-v2-dawn-v1-valley-v1-crossing-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/field_tiles/dawn-overlook.yaml
-  sha256: 1e96f299088f74755eaeb6061747f13e852469fd95d976132d93ab0889811e41
+  sha256: 036da8358c127960bb288a9117e42cbe177ae685cfd1c53d6391d4e63b8edf5b
   source:
     repository: slime-backend
     path: config/field_tiles/dawn-overlook.yaml
@@ -653,7 +653,7 @@ assets:
 - managementId: config.field-tiles.grove
   version: retire-stump-v1
   path: assets/maps/field_tiles/grove.yaml
-  sha256: 11ab2d4c3459bab4f6ae257cf7f7717880c3c8f8cb76497cabb1dd7867da17a1
+  sha256: 8f32e19a2b89d240f34b1c3d36ea53797e0a88cd5f71f31fa6f532c76115bb08
   source:
     repository: slime-backend
     path: config/field_tiles/grove.yaml
@@ -1663,7 +1663,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3-grainstead-v19-billboard-blocking-v1
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: d42ff3763b6400b3ea2f3787d46f567257f643438d4511b45f1cdd5d34872451
+  sha256: b54ce3edc746c0e361e0729b7d94fed7013af68d613f43cadd99739fd144172e
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -6526,7 +6526,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: aae02a4bb1daaa191e4f9579dc41dcea5b72b7ad22fd8e52ff40c73a0765d1f4
+  sha256: 46c6df329baaba0502c82c413b37492e2a078a53dbc4e300833ecc376672382d
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이

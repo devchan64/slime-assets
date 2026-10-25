@@ -143,22 +143,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.conifer-tree-compact-v1
     anchorX: -0.03
-    anchorY: -0.29
+    anchorY: 0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 520.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.08
-    shadowOffsetRow: -0.09
-    shadowScaleX: 1.67
-    shadowScaleY: 1.67
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.34
+    shadowScaleY: 3.34
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 260.0
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: conifer-tree-open-v1
   family: conifer-tree-open-v1
   asset_ref:
@@ -198,22 +198,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.conifer-tree-open-v1
     anchorX: -0.05
-    anchorY: -0.27
+    anchorY: 0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 631.26
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.02
-    shadowOffsetRow: -0.03
-    shadowScaleX: 1.69
-    shadowScaleY: 1.69
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.37
+    shadowScaleY: 3.37
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 315.63
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: dawn-overlook-conifer-tree-medium-v2
   family: dawn-overlook-conifer-tree-medium-v2
   asset_ref:
@@ -252,23 +252,23 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dawn-overlook-conifer-tree-medium-v2
-    anchorX: -0.14
-    anchorY: -0.1
+    anchorX: -0.1
+    anchorY: 0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 567.18
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.2
+    shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 3.81
+    shadowScaleY: 3.81
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 283.59
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: dawn-overlook-conifer-tree-tall-v2
   family: dawn-overlook-conifer-tree-tall-v2
   asset_ref:
@@ -308,30 +308,28 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dawn-overlook-conifer-tree-tall-v2
     anchorX: 0.01
-    anchorY: -0.34
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 596.46
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.02
-    shadowOffsetRow: -0.07
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 2.87
+    shadowScaleY: 2.87
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 298.23
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: dawn-overlook-pine-tree-windswept-v1
   family: dawn-overlook-pine-tree-windswept-v1
   asset_ref:
     management_id: image.scenery.dawn-overlook-pine-tree-windswept-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/dawn-overlook.yaml
-    texture_key_occurrences: 5
+  map_references: []
   source_file:
     path: assets/billboards/dawn-overlook-pine-tree-windswept-v1.png
     width: 200
@@ -388,9 +386,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-root-trail-rooted-tree-1-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/grove.yaml
-    texture_key_occurrences: 18
+  map_references: []
   source_file:
     path: assets/billboards/field-root-trail-rooted-tree-1-v1.png
     width: 179
@@ -497,22 +493,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-v2
     anchorX: 0.01
-    anchorY: -0.34
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 540.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 1.501
-    shadowScaleY: 1.501
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.73
+    shadowScaleY: 3.73
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 270.0
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-apple-tree-variant-1-v2
   family: orchard-apple-tree
   asset_ref:
@@ -565,22 +561,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-variant-1-v2
     anchorX: -0.03
-    anchorY: -0.12
+    anchorY: 0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 497.82
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: -0.04
     shadowOffsetRow: -0.02
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 4.0
+    shadowScaleY: 4.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 248.91
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-apple-tree-variant-2-v2
   family: orchard-apple-tree
   asset_ref:
@@ -633,22 +629,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-apple-tree-variant-2-v2
     anchorX: -0.04
-    anchorY: -0.28
+    anchorY: 0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 569.54
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.05
-    shadowOffsetRow: -0.06
-    shadowScaleX: 1.41
-    shadowScaleY: 1.41
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.09
+    shadowScaleY: 3.09
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 284.77
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-autumn-tree-v2
   family: orchard-autumn-tree
   asset_ref:
@@ -699,22 +695,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-autumn-tree-v2
     anchorX: 0.0
-    anchorY: -0.27
+    anchorY: 0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 535.04
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
-    shadowOffsetRow: -0.05
-    shadowScaleX: 1.71
-    shadowScaleY: 1.71
+    shadowOffsetRow: 0.0
+    shadowScaleX: 4.0
+    shadowScaleY: 4.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 267.52
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-autumn-tree-variant-1-v2
   family: orchard-autumn-tree
   asset_ref:
@@ -765,22 +761,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-autumn-tree-variant-1-v2
     anchorX: -0.03
-    anchorY: -0.28
+    anchorY: 0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 534.38
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
-    shadowOffsetRow: -0.03
-    shadowScaleX: 1.5
-    shadowScaleY: 1.5
+    shadowOffsetRow: 0.0
+    shadowScaleX: 4.0
+    shadowScaleY: 4.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 267.19
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-autumn-tree-variant-2-v2
   family: orchard-autumn-tree
   asset_ref:
@@ -831,22 +827,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-autumn-tree-variant-2-v2
     anchorX: 0.01
-    anchorY: -0.3
+    anchorY: 0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 588.28
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.05
-    shadowOffsetRow: -0.06
-    shadowScaleX: 1.41
-    shadowScaleY: 1.31
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.93
+    shadowScaleY: 3.93
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 294.14
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-dead-tree-v1
   family: orchard-dead-tree
   asset_ref:
@@ -892,22 +888,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-dead-tree-v1
     anchorX: 0.01
-    anchorY: -0.46
+    anchorY: -0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 440.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 1.21
-    shadowScaleY: 1.21
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.17
+    shadowScaleY: 3.17
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 220.0
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-dead-tree-v2
   family: orchard-dead-tree
   asset_ref:
@@ -960,22 +956,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-dead-tree-v2
     anchorX: -0.08
-    anchorY: -0.42
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 340.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.11
-    shadowScaleY: 1.11
+    shadowScaleX: 2.24
+    shadowScaleY: 2.24
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 170.0
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-dead-tree-variant-1-v2
   family: orchard-dead-tree
   asset_ref:
@@ -1030,22 +1026,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-dead-tree-variant-1-v2
     anchorX: 0.03
-    anchorY: -0.41
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 300.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 2.31
+    shadowScaleY: 2.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 150.0
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-dead-tree-variant-2-v2
   family: orchard-dead-tree
   asset_ref:
@@ -1096,22 +1092,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-dead-tree-variant-2-v2
     anchorX: 0.01
-    anchorY: -0.45
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 380.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 2.0
+    shadowScaleY: 2.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 190.0
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-old-tree-v2
   family: orchard-old-tree
   asset_ref:
@@ -1174,22 +1170,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-old-tree-v2
     anchorX: -0.05
-    anchorY: -0.28
+    anchorY: 0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 508.36
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
-    shadowOffsetRow: -0.02
-    shadowScaleX: 1.79
-    shadowScaleY: 1.79
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.57
+    shadowScaleY: 3.57
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 254.18
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-old-tree-variant-1-v2
   family: orchard-old-tree
   asset_ref:
@@ -1250,22 +1246,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-old-tree-variant-1-v2
     anchorX: -0.05
-    anchorY: -0.26
+    anchorY: 0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 539.06
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
-    shadowOffsetRow: -0.01
-    shadowScaleX: 2.19
-    shadowScaleY: 2.19
+    shadowOffsetRow: 0.0
+    shadowScaleX: 4.0
+    shadowScaleY: 4.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 269.53
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-old-tree-variant-2-v2
   family: orchard-old-tree
   asset_ref:
@@ -1324,22 +1320,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-old-tree-variant-2-v2
     anchorX: 0.0
-    anchorY: -0.22
+    anchorY: 0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 585.94
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.01
-    shadowOffsetRow: -0.03
-    shadowScaleX: 1.88
-    shadowScaleY: 1.88
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.77
+    shadowScaleY: 3.77
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 292.97
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-young-tree-v2
   family: orchard-young-tree
   asset_ref:
@@ -1404,22 +1400,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-young-tree-v2
     anchorX: 0.01
-    anchorY: -0.39
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 493.6
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.08
-    shadowOffsetRow: -0.1
-    shadowScaleX: 1.65
-    shadowScaleY: 1.65
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.3
+    shadowScaleY: 3.3
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 246.8
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-young-tree-variant-1-v2
   family: orchard-young-tree
   asset_ref:
@@ -1475,23 +1471,23 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-young-tree-variant-1-v2
-    anchorX: -0.03
-    anchorY: -0.3
+    anchorX: 0.0
+    anchorY: 0.0
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 555.46
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.03
-    shadowOffsetRow: -0.01
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 4.0
+    shadowScaleY: 4.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 277.73
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-young-tree-variant-1-v3
   family: orchard-young-tree-variant-1-v3
   asset_ref:
@@ -1531,22 +1527,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-young-tree-variant-1-v3
     anchorX: -0.05
-    anchorY: -0.21
+    anchorY: 0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 485.7
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.07
-    shadowOffsetRow: -0.02
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 2.87
+    shadowScaleY: 2.87
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 242.85
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: orchard-young-tree-variant-2-v2
   family: orchard-young-tree
   asset_ref:
@@ -1602,20 +1598,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-young-tree-variant-2-v2
-    anchorX: -0.03
-    anchorY: -0.25
+    anchorX: -0.1
+    anchorY: 0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 567.18
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.04
-    shadowOffsetRow: -0.09
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 3.43
+    shadowScaleY: 3.43
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 283.59
     size_variant: 기본 변형
     occupied_tile_count: 1
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가

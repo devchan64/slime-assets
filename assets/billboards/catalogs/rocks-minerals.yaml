@@ -703,7 +703,7 @@ billboards:
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 324.2
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.15
     shadowOffsetRow: 0.0
@@ -714,7 +714,7 @@ billboards:
     outdoorDisplayHeight: 162.1
     size_variant: 기본 변형
     occupied_tile_count: 2
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-guide-1x3-medium-v1
   family: crystal-cut-guide-1x3-medium-v1
   asset_ref:
@@ -760,7 +760,7 @@ billboards:
     groundFootprintColumns: 1
     groundFootprintRows: 3
     displayHeight: 294.12
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -771,7 +771,7 @@ billboards:
     outdoorDisplayHeight: 147.06
     size_variant: 기본 변형
     occupied_tile_count: 3
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-guide-1x3-tall-v1
   family: crystal-cut-guide-1x3-tall-v1
   asset_ref:
@@ -826,7 +826,7 @@ billboards:
     groundFootprintColumns: 1
     groundFootprintRows: 3
     displayHeight: 361.53
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.15
     shadowOffsetRow: 0.0
@@ -837,7 +837,7 @@ billboards:
     outdoorDisplayHeight: 180.765
     size_variant: 기본 변형
     occupied_tile_count: 3
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-guide-2x1-medium-v1
   family: crystal-cut-guide-2x1-medium-v1
   asset_ref:
@@ -883,7 +883,7 @@ billboards:
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 274.66
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -894,7 +894,7 @@ billboards:
     outdoorDisplayHeight: 137.33
     size_variant: 기본 변형
     occupied_tile_count: 2
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-guide-2x1-tall-v1
   family: crystal-cut-guide-2x1-tall-v1
   asset_ref:
@@ -949,7 +949,7 @@ billboards:
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 282.5
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -960,7 +960,7 @@ billboards:
     outdoorDisplayHeight: 141.25
     size_variant: 기본 변형
     occupied_tile_count: 2
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-guide-2x2-low-v1
   family: crystal-cut-guide-2x2-low-v1
   asset_ref:
@@ -1134,7 +1134,7 @@ billboards:
     groundFootprintColumns: 3
     groundFootprintRows: 1
     displayHeight: 298.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -1145,7 +1145,7 @@ billboards:
     outdoorDisplayHeight: 149.0
     size_variant: 기본 변형
     occupied_tile_count: 3
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-guide-3x1-tall-v1
   family: crystal-cut-guide-3x1-tall-v1
   asset_ref:
@@ -1200,7 +1200,7 @@ billboards:
     groundFootprintColumns: 3
     groundFootprintRows: 1
     displayHeight: 335.39
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.15
@@ -1211,7 +1211,7 @@ billboards:
     outdoorDisplayHeight: 167.695
     size_variant: 기본 변형
     occupied_tile_count: 3
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-guide-3x2-low-v1
   family: crystal-cut-guide-3x2-low-v1
   asset_ref:
@@ -1549,7 +1549,7 @@ billboards:
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 220.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.17
     shadowOffsetRow: -0.17
@@ -1560,7 +1560,7 @@ billboards:
     outdoorDisplayHeight: 110.0
     size_variant: 기본 변형
     occupied_tile_count: 2
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-medium-pockets-2x1-v1
   family: crystal-cut-medium-pockets-2x1-v1
   asset_ref:
