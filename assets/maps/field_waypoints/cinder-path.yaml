@@ -7,9 +7,9 @@ data:
     direction: north
     targetWaypointId: ash-edge-to-cinder-path
     edgeOffset: 16
-  - id: cinder-path-to-dawn-overlook
-    name: 남쪽 웨이포인트
-    target: dawn-overlook
-    direction: south
-    targetWaypointId: dawn-overlook-to-cinder-path
+  - id: cinder-path-to-old-boundary-gate
+    name: 서쪽 웨이포인트
+    target: old-boundary-gate
+    direction: west
+    targetWaypointId: old-boundary-gate-to-cinder-path
     edgeOffset: 16

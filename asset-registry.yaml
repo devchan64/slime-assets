@@ -661,7 +661,7 @@ assets:
 - managementId: config.field-tiles.index
   version: v2
   path: assets/maps/field_tiles/index.yaml
-  sha256: 8afdd60bb625c5a163fe44184c3b4d7781be6e28c91f977559f3d0a3e86df46d
+  sha256: e4dda67ca814f2e4ec4519cee82898606f901c5da14ecae5eb664d6d2a685421
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/index.yaml
@@ -773,7 +773,7 @@ assets:
 - managementId: config.field-waypoints.cinder-path
   version: v1
   path: assets/maps/field_waypoints/cinder-path.yaml
-  sha256: a100cc313295b1266ac4edeceeb8adb355005c6fc5dfffdb066dc13b0d165ab6
+  sha256: 2a464423d5150ae5b41a37498e9d79005de49d2a79c9f7295e796722e700e7c4
   source:
     repository: slime-backend
     path: config/field_waypoints/cinder-path.yaml
@@ -797,7 +797,7 @@ assets:
 - managementId: config.field-waypoints.dawn-overlook
   version: v1
   path: assets/maps/field_waypoints/dawn-overlook.yaml
-  sha256: be9ab55d8a0bb9214d4ab48cd40acd87ec1c90d65199174bb3e981055f3a49cd
+  sha256: 8b7bd5f57b04427dfb867bace763524172faac7ee08b43ab5969c99f19ab2840
   source:
     repository: slime-backend
     path: config/field_waypoints/dawn-overlook.yaml
@@ -831,7 +831,7 @@ assets:
 - managementId: config.field-waypoints.index
   version: v2
   path: assets/maps/field_waypoints/index.yaml
-  sha256: 80875c148a1ebe12a4249ae7d7bf0a34267420c1b29a4b7f54391a7bf4acb898
+  sha256: b2984f242fcc28f89c5ade9465cd853f878163b7a6c0149b18a9659258aa1ad1
   source:
     repository: slime-assets
     path: assets/maps/field_waypoints/index.yaml
@@ -1129,7 +1129,7 @@ assets:
 - managementId: config.terrain.index
   version: terrain-encounters-v1
   path: assets/maps/terrain/index.yaml
-  sha256: e897c1b3846fa936e9b25d45d772e0c8d48efe3c59b156ac2318a945690ef347
+  sha256: 0d71492ccd56f7421ab21eb7b297fbf89ca3a9cb5e7d8a57b34da03db386f1f8
   source:
     repository: slime-assets
     path: assets/maps/terrain/index.yaml
@@ -1381,7 +1381,7 @@ assets:
 - managementId: config.map-spawns.index
   version: v2
   path: assets/maps/map_spawns/index.yaml
-  sha256: 85486b1877ced190c2294979856d044edd1fdd06aa24efc2ed9fb0780b6938e8
+  sha256: fbe1d6a873568918f756647e04f83d4c4bae54111d0e2867a450cd0be03d299c
   source:
     repository: slime-assets
     path: assets/maps/map_spawns/index.yaml
@@ -1551,7 +1551,7 @@ assets:
 - managementId: config.map-names.index
   version: v2
   path: assets/maps/map_names/index.yaml
-  sha256: e160226ce87f535d03737aafbd62844eb489068938bd33e7a53f00d77349d77b
+  sha256: 8ed807eba028428159340797fedef70fd7b42b3a79f5a5a4a4dcd2df6a242589
   source:
     repository: slime-assets
     path: assets/maps/map_names/index.yaml
@@ -6795,7 +6795,7 @@ assets:
 - managementId: config.battlefield-encounters
   version: terrain-encounters-v1
   path: assets/maps/battlefield_encounters.yaml
-  sha256: edb31177061e74cc65acd5ae970a7e6bcb129b45f47838325cc0c7b2c00933df
+  sha256: 342d4d7347e05f8087df1323b3a895fb7a43f480d3417332177aa32a0d2471d0
   source:
     repository: slime-assets
     path: assets/maps/battlefield_encounters.yaml
@@ -7221,14 +7221,14 @@ assets:
 - managementId: config.ui.world-map.thumbnails
   version: v1
   path: assets/ui/world-map/thumbnails.yaml
-  sha256: 5987aea84ca81e3050be86b383fb4bd10670c3fa784477e0617419c4409dcf5e
+  sha256: 750bf272bd89fd4b203df3d000adc874655319bf7d1302bd183f32f900ae28a4
   source:
     repository: slime-workflow
     operation: 전체 31개 맵의 256px 썸네일 매핑 등록
 - managementId: config.world-map.presentation
   version: v1-compact-spacing-v1
   path: assets/maps/world-map.yaml
-  sha256: 99fbc0bd0401ec738dbb42500c60e5b9b468a2f225e1f9f6a7a5402525c9bf18
+  sha256: 47efe6bb0b61ab4074f3568dea84606bfcc08249ea4775cb6e8341f923c48d45
   source:
     repository: slime-backend
     operation: 기존 월드맵 상대 좌표를 표시 전용 원본으로 분리; 이동 연결은 기존 웨이포인트 원본 유지
@@ -8752,3 +8752,52 @@ assets:
     artifact: fallen-canopy-debris-flat-decay-1x1-v1.png
     original_sha256: eddc7b166ad82b778d17aed07222dbe394172ed0314116658afae25920bb3b1a
     processing: 사용자 갱신 승인. 알파·비율 유지 긴 변 512px 전달용 축소.
+- managementId: config.field-tiles.old-boundary-gate
+  version: v1
+  path: assets/maps/field_tiles/old-boundary-gate.yaml
+  sha256: 950a9e885f2f76030dc2a52d4d158108dd99c97ad02a9d1133998ffc4152fea1
+  source:
+    repository: slime-workflow
+    operation: 옛 경계문터 신규 지역으로 대체
+- managementId: config.field-waypoints.old-boundary-gate
+  version: v1
+  path: assets/maps/field_waypoints/old-boundary-gate.yaml
+  sha256: 0bbbde7a76e12432d2d9ae153341d43535543e272f56c4cbcd6c74f71e5562d1
+  source:
+    repository: slime-workflow
+    operation: 옛 경계문터 신규 지역으로 대체
+- managementId: config.map-names.old-boundary-gate
+  version: v1
+  path: assets/maps/map_names/old-boundary-gate.yaml
+  sha256: 323cada536d90f91e1db4a8e1447674f377f1ddee6daa1856dd871a22f61bf91
+  source:
+    repository: slime-workflow
+    operation: 옛 경계문터 신규 지역으로 대체
+- managementId: config.map-spawns.old-boundary-gate
+  version: v1
+  path: assets/maps/map_spawns/old-boundary-gate.yaml
+  sha256: 01c10ef2c74418d71cc8a51bc47d559a2177b1eeafa90715efdc8c2dab7be8bf
+  source:
+    repository: slime-workflow
+    operation: 옛 경계문터 신규 지역으로 대체
+- managementId: config.terrain.battlefields.old-boundary-gate-encounter
+  version: v1
+  path: assets/maps/terrain/battlefields/old-boundary-gate-encounter.yaml
+  sha256: d7439114afc50d1461ef5fe908f3b0a7dd7af4bd3d351fe817d9afb08f546a2f
+  source:
+    repository: slime-workflow
+    operation: 옛 경계문터 신규 지역으로 대체
+- managementId: config.terrain.maps.old-boundary-gate
+  version: v1
+  path: assets/maps/terrain/maps/old-boundary-gate.yaml
+  sha256: 9a0abb84b14421c8771e0329cb1a169b01636bc0a0ed3f497415541403a62e77
+  source:
+    repository: slime-workflow
+    operation: 옛 경계문터 신규 지역으로 대체
+- managementId: image.ui.world-map.old-boundary-gate
+  version: v1
+  path: assets/ui/world-map/thumbnails/old-boundary-gate-v1.png
+  sha256: f11aba973eacc3260571a7e4f59b492b08603d10a386e96c3184bf7490d44b5b
+  source:
+    repository: slime-workflow
+    operation: 옛 경계문터 신규 지역으로 대체

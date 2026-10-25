@@ -1,0 +1,111 @@
+managementId: config.field-tiles.old-boundary-gate
+data:
+  rows:
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggIIggggggggggggggg
+  - ggggggggggvvvvvIIvvvvggggggggggg
+  - gggggggggvvvvvvIIvvvvvgggggggggg
+  - gggggggvvvvvvvvIIvvvvvvvgggggggg
+  - ggggggvvvvvvvvvIIvvvvvvvvggggggg
+  - ggggggvvvvvvvvvIIvvvvvvvvggggggg
+  - gggggssssssssvvIIvvssssssssggggg
+  - gggggssssssssvvIIvvssssssssggggg
+  - ggggggvvvvvvvvvIIvvvvvvvvggggggg
+  - ggggggvvvvvvvvvIIvvvvvvvvggggggg
+  - ggggggvvvvvvvvvIIIIIIIIIIIIIIIII
+  - gggggggvvvvvvvvIIIIIIIIIIIIIIIII
+  - gggggggggvvvvvvIIvvvvvvvvggggggg
+  - ggggggggggvvvvvIIvvvvvvvvvvggggg
+  - gggggggggggggggIIvvvvvvvvvvvgggg
+  - ggggmmmmmggggggIIvvvvvvvvvvvgggg
+  - gggmmmmmmmgggggIIvvvvvvvvvvvgggg
+  - ggmmmmmmmmmggggIIvvvvvvvvvvvgggg
+  - ggmmmmmmmmmggggIIvvvvvvvvvvvgggg
+  - ggmmmmmmmmmggggIIvvvvvvvvvvvgggg
+  - ggmmmmmmmmmggggIIvvvvvvvvvvvgggg
+  - ggmmmmmmmmmggggIIvvvvvvvvvvggggg
+  - gggmmmmmmmgggggIIgvvvvvvvggggggg
+  - ggggmmmmmggggggIIggggggggggggggg
+  - gggggggggggggggIIggggggggggggggg
+  - gggggggggggggggIIggggggggggggggg
+  - gggggggggggggggIIggggggggggggggg
+  objects:
+  - id: ward-tower
+    kind: ward-tower
+    position:
+      column: 16
+      row: 16
+  - id: old-boundary-masonry-1
+    kind: decoration
+    textureKey: quarry-cut-blocks-v1
+    tileAnchor: center
+    position:
+      column: 10
+      row: 13
+  - id: old-boundary-masonry-2
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 20
+      row: 13
+  - id: old-boundary-masonry-3
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 7
+      row: 8
+  - id: old-boundary-masonry-4
+    kind: decoration
+    textureKey: quarry-cut-blocks-v1
+    tileAnchor: center
+    position:
+      column: 24
+      row: 14
+  - id: old-boundary-masonry-5
+    kind: decoration
+    textureKey: field-moss-clearing-boundary-stone-size-large-v1
+    tileAnchor: center
+    position:
+      column: 12
+      row: 8
+  - id: old-boundary-masonry-6
+    kind: decoration
+    textureKey: field-moss-clearing-boundary-stone-size-large-v1
+    tileAnchor: center
+    position:
+      column: 19
+      row: 8
+  - id: old-boundary-masonry-7
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 8
+      row: 19
+  - id: old-boundary-masonry-8
+    kind: decoration
+    textureKey: quarry-cut-blocks-v1
+    tileAnchor: center
+    position:
+      column: 23
+      row: 19
+  - id: old-boundary-masonry-9
+    kind: decoration
+    textureKey: field-moss-clearing-boundary-stone-size-large-v1
+    tileAnchor: center
+    position:
+      column: 12
+      row: 23
+  - id: old-boundary-masonry-10
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 19
+      row: 27

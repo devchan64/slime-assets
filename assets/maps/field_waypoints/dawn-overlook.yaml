@@ -1,9 +1,9 @@
 managementId: config.field-waypoints.dawn-overlook
 data:
   connections:
-  - id: dawn-overlook-to-cinder-path
+  - id: dawn-overlook-to-old-boundary-gate
     name: 북쪽 웨이포인트
-    target: cinder-path
+    target: old-boundary-gate
     direction: north
-    targetWaypointId: cinder-path-to-dawn-overlook
+    targetWaypointId: old-boundary-gate-to-dawn-overlook
     edgeOffset: 16
