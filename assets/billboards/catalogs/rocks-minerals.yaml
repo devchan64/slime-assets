@@ -405,11 +405,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.ash-edge-scorched-waystone-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/cinder-path.yaml
-    texture_key_occurrences: 2
+  map_references: []
   source_file:
     path: assets/billboards/ash-edge-scorched-waystone-v1.png
     width: 41
@@ -507,24 +503,24 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
+    vertical_classification: center
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-basalt-outcrop-v1
     anchorX: -0.02
-    anchorY: -0.01
-    groundFootprintColumns: 3
-    groundFootprintRows: 3
+    anchorY: 0.5
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
     displayHeight: 276.56
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 1.0
-    shadowOffsetRow: 1.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 138.28
     size_variant: 기본 변형
-    occupied_tile_count: 9
+    occupied_tile_count: 4
     movement: 내부 타일 통행 불가
 - texture_key: cinder-path-cooled-rocks-v1
   family: cinder-path-cooled-rocks-v1
@@ -582,8 +578,8 @@ billboards:
     displayHeight: 74.38
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
@@ -1606,7 +1602,7 @@ billboards:
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 242.13
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -1617,7 +1613,7 @@ billboards:
     outdoorDisplayHeight: 121.065
     size_variant: 기본 변형
     occupied_tile_count: 2
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-medium-strata-2x1-v1
   family: crystal-cut-medium-strata-2x1-v1
   asset_ref:
@@ -1720,7 +1716,7 @@ billboards:
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 216.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -1731,7 +1727,7 @@ billboards:
     outdoorDisplayHeight: 108.0
     size_variant: 기본 변형
     occupied_tile_count: 2
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: crystal-cut-quartz-1x1-band-v1
   family: crystal-cut-quartz-1x1-band-v1
   asset_ref:
@@ -2643,9 +2639,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.dawn-overlook-split-granite-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/dawn-overlook.yaml
-    texture_key_occurrences: 3
+  map_references: []
   source_file:
     path: assets/billboards/dawn-overlook-split-granite-v1.png
     width: 98
@@ -2809,25 +2803,25 @@ billboards:
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
+    vertical_classification: center
     source: assets/maps/sprite-display-properties.yaml#data.quarry-collapse-fan-v1
-    anchorX: 0.06
-    anchorY: 0.16
-    groundFootprintColumns: 2
+    anchorX: 0.1
+    anchorY: 0.5
+    groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 161.56
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.61
+    shadowScaleY: 1.71
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 80.78
     size_variant: 기본 변형
-    occupied_tile_count: 2
-    movement: 통행 가능
+    occupied_tile_count: 1
+    movement: 내부 타일 통행 불가
 - texture_key: quarry-fallen-limestone-v1
   family: quarry-fallen-limestone-v1
   asset_ref:
@@ -2879,21 +2873,21 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-fallen-limestone-v1
     anchorX: 0.01
-    anchorY: -0.17
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
+    anchorY: 0.1
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
     displayHeight: 158.82
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 2.61
+    shadowScaleY: 2.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 79.41
     size_variant: 기본 변형
-    occupied_tile_count: 4
+    occupied_tile_count: 1
     movement: 통행 가능
 - texture_key: quarry-weathered-boulders-v1
   family: quarry-weathered-boulders-v1
@@ -2946,20 +2940,20 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-weathered-boulders-v1
-    anchorX: 0.08
-    anchorY: 0.12
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
+    anchorX: 0.0
+    anchorY: 0.2
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
     displayHeight: 242.19
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.1
-    shadowOffsetRow: -0.4
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 2.31
+    shadowScaleY: 2.21
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 121.095
     size_variant: 기본 변형
-    occupied_tile_count: 4
-    movement: 통행 가능
+    occupied_tile_count: 1
+    movement: 내부 타일 통행 불가

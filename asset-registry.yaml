@@ -571,7 +571,7 @@ assets:
 - managementId: config.field-tiles.ash-edge
   version: 2026-10-20-ash-recovery-v1
   path: assets/maps/field_tiles/ash-edge.yaml
-  sha256: bb0bcb52718bfd2cd35a5b2f341763e740cda13a517c4655e913e44c7ced80aa
+  sha256: e0fb578289e18c33c18e105346c5bce682e6dd1ffbadd3fbaec232c062b79cd2
   source:
     repository: slime-backend
     path: config/field_tiles/ash-edge.yaml
@@ -595,7 +595,7 @@ assets:
 - managementId: config.field-tiles.cinder-path
   version: cinder-remodel-v1-basalt-ground-v1-ridge-remodel-v1-access-v1
   path: assets/maps/field_tiles/cinder-path.yaml
-  sha256: f313f6e8a39f6ad996ece59510904e189d642106a736a6ad9cd22b1ff989ad45
+  sha256: 1811029ba6285f8601adf01e391fe3f908a5889f9d31d51c31f70edb2cf39356
   source:
     repository: slime-backend
     path: config/field_tiles/cinder-path.yaml
@@ -627,7 +627,7 @@ assets:
 - managementId: config.field-tiles.dawn-overlook
   version: shared-material-codes-v2-dawn-v1-valley-v1-crossing-v1-ridge-v2-south-water-v3-ridge-v4-river-v5
   path: assets/maps/field_tiles/dawn-overlook.yaml
-  sha256: 036da8358c127960bb288a9117e42cbe177ae685cfd1c53d6391d4e63b8edf5b
+  sha256: 6bd4ef3ad56667c589f193d731892dc80cdd567cd42c8e2dc86ceb5fea6fad2d
   source:
     repository: slime-backend
     path: config/field_tiles/dawn-overlook.yaml
@@ -6526,7 +6526,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 46c6df329baaba0502c82c413b37492e2a078a53dbc4e300833ecc376672382d
+  sha256: b34ecbcdeb4cf1c5158bc269c4480b2ff68c9b3a72dc44c02166e2997b7482b3
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이

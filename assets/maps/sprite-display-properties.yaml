@@ -483,16 +483,16 @@ data:
     shadowSizeVersion: 2
   cinder-path-basalt-outcrop-v1:
     anchorX: -0.02
-    anchorY: -0.01
-    groundFootprintColumns: 3
-    groundFootprintRows: 3
+    anchorY: 0.5
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
     displayHeight: 276.56
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 1.0
-    shadowOffsetRow: 1.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.41
+    shadowScaleY: 1.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   cinder-path-buried-deadwood-v1:
@@ -517,8 +517,8 @@ data:
     displayHeight: 74.38
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
@@ -879,7 +879,7 @@ data:
     groundFootprintColumns: 2
     groundFootprintRows: 1
     displayHeight: 242.13
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -907,7 +907,7 @@ data:
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 216.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -2428,17 +2428,17 @@ data:
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   quarry-collapse-fan-v1:
-    anchorX: 0.06
-    anchorY: 0.16
-    groundFootprintColumns: 2
+    anchorX: 0.1
+    anchorY: 0.5
+    groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 161.56
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.61
+    shadowScaleY: 1.71
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   quarry-crevice-plants-v1:
@@ -2471,16 +2471,16 @@ data:
     shadowSizeVersion: 2
   quarry-fallen-limestone-v1:
     anchorX: 0.01
-    anchorY: -0.17
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
+    anchorY: 0.1
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
     displayHeight: 158.82
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 2.61
+    shadowScaleY: 2.31
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   quarry-hand-winch-v1:
@@ -2540,17 +2540,17 @@ data:
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   quarry-weathered-boulders-v1:
-    anchorX: 0.08
-    anchorY: 0.12
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
+    anchorX: 0.0
+    anchorY: 0.2
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
     displayHeight: 242.19
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.1
-    shadowOffsetRow: -0.4
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 2.31
+    shadowScaleY: 2.21
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   quarry-wooden-derrick-v1:
