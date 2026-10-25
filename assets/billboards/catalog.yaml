@@ -40,8 +40,8 @@ review_categories:
   large-trees: 큰 나무
   rocks-minerals: 암석광물
 review_category_guidance: 계열별 review_category를 검수 목록 분류의 기준으로 사용한다. 큰 나무는 large-trees,
-  꽃·풀·잎·갈대·덩굴은 herbaceous, 나머지 식물·자연 잔해는 vegetation, 작업 도구·안내 표시는 props다. 큰 나무는 검수로 지정한 계열이며 표시 높이를 바꿔도 자동
-  재분류하지 않는다.
+  꽃·풀·잎·갈대·덩굴은 herbaceous, 나머지 식물·자연 잔해는 vegetation, 작업 도구·안내 표시는 props다. 큰 나무는 검수로
+  지정한 계열이며 표시 높이를 바꿔도 자동 재분류하지 않는다.
 families:
   orchard-apple-tree:
     category: tree
@@ -2460,7 +2460,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.bramble-clump-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/bramble-clump-v1.png
     width: 116
@@ -3671,6 +3673,8 @@ billboards:
     texture_key_occurrences: 24
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 23
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 11
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 44
   source_file:
@@ -4509,6 +4513,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 21
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/grass-clump-v1.png
     width: 92
@@ -13901,7 +13907,7 @@ billboards:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 7
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 9
   source_file:
     path: assets/billboards/quarry-cut-blocks-v1.png
     width: 119
@@ -13967,7 +13973,7 @@ billboards:
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 11
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 21
   source_file:
     path: assets/billboards/quarry-broken-slabs-v1.png
     width: 121
@@ -14034,6 +14040,8 @@ billboards:
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 7
   source_file:
     path: assets/billboards/quarry-weathered-boulders-v1.png
     width: 104
@@ -18405,7 +18413,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.old-boundary-gate-pillar-left-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 1
   modeling:
     purpose: 옛 경계문터 왼쪽 높은 문기둥
     visual_description: 사용자 레퍼런스의 문양·돌쌓기·이끼·성벽 잔해를 유지한 독립 문기둥.
@@ -18431,14 +18441,35 @@ billboards:
     height: 512
     sha256: cfffc6ca507221fc65947207dd77e1fd3802d29853b986dd501ed6e20e127e5d
   placement:
-    status: 설정 필요
-    reason: 공용 배치 속성 없음. 구버전·애니메이션 등 별도 계약을 확인하고 기본값 등록 후 사용한다.
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.old-boundary-gate-pillar-left-v1
+    anchorX: -0.3
+    anchorY: 0.35
+    groundFootprintColumns: 4
+    groundFootprintRows: 2
+    displayHeight: 460.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1.15
+    shadowScaleY: 0.8
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 230.0
+    size_variant: 기본 변형
+    occupied_tile_count: 8
+    movement: 통행 가능
 - texture_key: old-boundary-gate-pillar-right-v1
   family: old-boundary-gate-pillar-right-v1
   asset_ref:
     management_id: image.scenery.old-boundary-gate-pillar-right-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/old-boundary-gate.yaml
+    texture_key_occurrences: 1
   modeling:
     purpose: 옛 경계문터 오른쪽 낮은 문기둥
     visual_description: 사용자 레퍼런스의 문양·돌쌓기·이끼·성벽 잔해를 유지한 독립 문기둥.
@@ -18464,8 +18495,27 @@ billboards:
     height: 511
     sha256: 7e3a0cc14f16dbb0cc072441450e769218c4ec46b80f643c76ccfc9ccc83b37b
   placement:
-    status: 설정 필요
-    reason: 공용 배치 속성 없음. 구버전·애니메이션 등 별도 계약을 확인하고 기본값 등록 후 사용한다.
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.old-boundary-gate-pillar-right-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 3
+    groundFootprintRows: 2
+    displayHeight: 365.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1.15
+    shadowScaleY: 0.8
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 182.5
+    size_variant: 기본 변형
+    occupied_tile_count: 6
+    movement: 통행 가능
 modeling_contract:
   purpose: 맵 제작용 에셋 선택·크기·접지·통행 참고 자료
   authoritative_properties: assets/maps/sprite-display-properties.yaml

@@ -3827,3 +3827,31 @@ data:
     billboardBlocksMovement: false
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
+  old-boundary-gate-pillar-left-v1:
+    anchorX: -0.3
+    anchorY: 0.35
+    groundFootprintColumns: 4
+    groundFootprintRows: 2
+    displayHeight: 460.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1.15
+    shadowScaleY: 0.8
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  old-boundary-gate-pillar-right-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 3
+    groundFootprintRows: 2
+    displayHeight: 365.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowScaleX: 1.15
+    shadowScaleY: 0.8
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
