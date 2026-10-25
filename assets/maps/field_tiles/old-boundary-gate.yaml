@@ -2,37 +2,37 @@ managementId: config.field-tiles.old-boundary-gate
 data:
   rows:
   - ggmmmmmmmggggggggggggggmmmsssmmm
-  - mmmsssssmmmggggggggggggmmsssssmm
-  - mmsssssssmmmggggggggggmmsssssssm
-  - msssssssssmmggggggggggmsssssssss
-  - sssssssssssmggggggggggmsssssssss
-  - ssssssssssvvvvsssvvvvvmsssssssss
-  - ssssssssssvvvvsssvvvvvmsssssssss
-  - msssssssssvvvvsssvvvvvmsssssssss
-  - mmsssssssssssvvssvvvvsmssssssssm
-  - mmmssssssssssvvssvvvvsssssssssmm
-  - ggmmmmmssssssvvssvvvvssssssssmmm
-  - ggggggggggvvvvvssvvvvvggmmmmmmmg
-  - ggggggggggvvvvsssvvvvvgggggggggg
-  - ggggggggggvvvvsssvvvvvgggggggggg
-  - ggggggggggvvvvsssvvvvvgggggggggg
-  - ggggggggggvvvvssssssssssssssssss
-  - ggggggggggvvvvssssssssssssssssss
-  - ggmmmmmmmgvvvvsssvvvvvgggggggggg
-  - gmmmmmmmmmvvvvsssvvvvvgggggggggg
-  - gmmmsssmmmvvvvsssvvvvvgggggggggg
-  - mmmsssssmmvvvvsssvvvvvgggggggggg
-  - mmsssssssmvvvvvsssvvvvgggggggggg
-  - mmsssssssmvvvvvsssvvvvgggggggggg
-  - mmsssssssmvvvvvssvvvvvgggggggggg
-  - mmsssssssmvvvvvssvvvvvgggggggggg
-  - mmsssssssmvvvvvssvvvvvgggggggggg
-  - mmmsssssmmvvvvvssvvvvvgggggggggg
-  - gmmmsssmmmvvvvvsssvvvvgggggggggg
-  - gmmmmmmmmmvvvvvsssvvvvgggggggggg
-  - ggmmmmmmmgvvvvvsssvvvvgggggggggg
-  - gggggggggggggggsssgggggggggggggg
-  - gggggggggggggggsssgggggggggggggg
+  - mssssmmmmmmggggggggggggmmmsssmmg
+  - msssmmmmsssmggggggggggmmmsssssmg
+  - mmmmggmssssmggggggggggggmmssssmm
+  - mmggggmmssssgmmmmmgggggggmsssmmm
+  - smgggggmmmmmmvcvvmggmmgggmmmgggm
+  - smggggmmmmggmvcvvmggggmmmmmggggg
+  - smmmmmmmssgmvvcccmmgggsssssggggg
+  - mmmmsgssssmcvmcccvvggcgggssmgggm
+  - mggmscssccmcmmcccvvmgccmgcccmmms
+  - ggmmscccccmccmvccvmmcccmgcccmssm
+  - ggggggmmmmvggmvccvggmmggmgggmmmg
+  - ggggggggssvggmcccmgggmgggmgggggg
+  - gggggggssssmgmccvmgggmgggmmmvmmm
+  - gggggggsmsgmmvccvmmmmvvmmccccccv
+  - ggggggssssgmvvcccvvccccvvccccccv
+  - ggggggsssggmvvccccccccvvvccccccc
+  - ggmmmmmmmgggmmccccccccvvvmmmmmmv
+  - gmmggggmmmgvgmvvcvvvvmmmmssvgggg
+  - gmgggggmmmmggmvvcvmmmggggssvgggg
+  - msmgggmmmmmgggmvccmgggggsssvgggg
+  - msmmmmmsmmmmgmmcccmmggggssvggggg
+  - mmmmssssmmgggmvcccmmgggvvvvggggg
+  - gggmsssssmmggvvcccmmgggvvvgggggg
+  - ggggmsssmmmggmvcccmggggggggggggg
+  - mgggmmsmsmgggmvcccmmmmgggggggggg
+  - mgmmmmssmmggggmcccvmmmgggggggggg
+  - gmsssssmmmgggggmvccvmmgggggggggg
+  - gmmssmmgmmmmmgmmvccvvggggggggggg
+  - ggmmmmmmmgmmmgmmcccmmggggggggggg
+  - ggggggggggggggmmcccmmggggggggggg
+  - gggggggggggggggvcccmgggggggggggg
   objects:
   - id: ward-tower
     kind: ward-tower
@@ -419,7 +419,7 @@ data:
       row: 3
   - id: gate-exposed-bedrock-3
     kind: decoration
-    textureKey: quarry-weathered-boulders-v1
+    textureKey: quarry-fallen-limestone-v1
     tileAnchor: center
     position:
       column: 4
@@ -433,7 +433,7 @@ data:
       row: 6
   - id: gate-exposed-bedrock-5
     kind: decoration
-    textureKey: quarry-weathered-boulders-v1
+    textureKey: quarry-fallen-limestone-v1
     tileAnchor: center
     position:
       column: 26
@@ -461,7 +461,7 @@ data:
       row: 6
   - id: gate-exposed-bedrock-9
     kind: decoration
-    textureKey: quarry-weathered-boulders-v1
+    textureKey: quarry-fallen-limestone-v1
     tileAnchor: center
     position:
       column: 4
@@ -475,7 +475,7 @@ data:
       row: 22
   - id: gate-exposed-bedrock-11
     kind: decoration
-    textureKey: quarry-weathered-boulders-v1
+    textureKey: quarry-fallen-limestone-v1
     tileAnchor: center
     position:
       column: 4
@@ -501,3 +501,164 @@ data:
     position:
       column: 3
       row: 6
+  - id: gate-ruin-cluster-0-3
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 8
+      row: 14
+  - id: gate-ruin-cluster-1-1
+    kind: decoration
+    textureKey: dry-grass-variant-2-v1
+    tileAnchor: center
+    position:
+      column: 11
+      row: 13
+  - id: gate-ruin-cluster-1-4
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 12
+      row: 14
+  - id: gate-ruin-cluster-2-2
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 21
+      row: 13
+  - id: gate-ruin-cluster-3-0
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 25
+      row: 12
+  - id: gate-ruin-cluster-3-4
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 27
+      row: 13
+  - id: gate-ruin-cluster-4-4
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 8
+      row: 22
+  - id: gate-ruin-cluster-5-0
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 7
+      row: 25
+  - id: gate-ruin-cluster-6-5
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 23
+      row: 6
+  - id: gate-roadside-remnant-0
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 12
+      row: 18
+  - id: gate-roadside-remnant-1
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 12
+      row: 20
+  - id: gate-roadside-remnant-2
+    kind: decoration
+    textureKey: dry-grass-variant-2-v1
+    tileAnchor: center
+    position:
+      column: 13
+      row: 23
+  - id: gate-roadside-remnant-3
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 14
+      row: 26
+  - id: gate-roadside-remnant-4
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 19
+      row: 24
+  - id: gate-roadside-remnant-5
+    kind: decoration
+    textureKey: dry-grass-variant-2-v1
+    tileAnchor: center
+    position:
+      column: 20
+      row: 25
+  - id: gate-roadside-remnant-6
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 21
+      row: 20
+  - id: gate-roadside-remnant-7
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 23
+      row: 18
+  - id: gate-roadside-remnant-8
+    kind: decoration
+    textureKey: dry-grass-variant-2-v1
+    tileAnchor: center
+    position:
+      column: 25
+      row: 19
+  - id: gate-roadside-remnant-9
+    kind: decoration
+    textureKey: quarry-crevice-plants-v1
+    tileAnchor: center
+    position:
+      column: 27
+      row: 18
+  - id: gate-roadside-remnant-10
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 9
+      row: 16
+  - id: gate-roadside-remnant-11
+    kind: decoration
+    textureKey: dry-grass-variant-2-v1
+    tileAnchor: center
+    position:
+      column: 10
+      row: 18
+  - id: gate-roadside-remnant-13
+    kind: decoration
+    textureKey: quarry-broken-slabs-v1
+    tileAnchor: center
+    position:
+      column: 24
+      row: 21
+  - id: gate-roadside-remnant-14
+    kind: decoration
+    textureKey: dry-grass-variant-2-v1
+    tileAnchor: center
+    position:
+      column: 25
+      row: 22
