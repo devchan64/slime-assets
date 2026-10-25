@@ -643,7 +643,7 @@ assets:
 - managementId: config.field-tiles.fallen-canopy
   version: retire-stump-v1-canopy-v1
   path: assets/maps/field_tiles/fallen-canopy.yaml
-  sha256: d9620121409c976d3c3fd150f24438e9647f89d1b6a1b43f109ec146c6598d13
+  sha256: 667e04c035ab2cc46cbc2bc00932b495a86383a0a159d11c3555115f366d0232
   source:
     repository: slime-backend
     path: config/field_tiles/fallen-canopy.yaml
@@ -6526,7 +6526,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 74df5ca524396ac32fe72fffd6d4509cce5ca949e55918b318e256b92568e953
+  sha256: 43f18e09e50436b91516ed8788c9b00faf3fe7b0542869aa8204b3857a6b1ca5
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8629,9 +8629,9 @@ assets:
   version: v1
   path: assets/billboards/fallen-canopy-giant-hollow-trunk-v1.png
   name: 이끼 낀 거대 속빈 도복목
-  width: 512
-  height: 396
-  sha256: 855f57c06fd38605e666830061de546ceaa707a45a494fea0a8120c8b0ebda1f
+  width: 384
+  height: 297
+  sha256: 560c38ad0a2bbb588d0e29042532712e1d837833c6fdfc3e0f1097d0cca22bfe
   source:
     repository: codex-imagegen
     artifact: fallen-canopy-giant-hollow-trunk-v1-original.png
@@ -8696,9 +8696,9 @@ assets:
   version: v1
   path: assets/billboards/fallen-canopy-whole-fallen-tree-v1.png
   name: 뿌리째 쓰러진 긴 부후목
-  width: 512
-  height: 256
-  sha256: bc3b50ff251897dd7b20603aaf29cb2c29e546d525990ef9314878996c8c8480
+  width: 384
+  height: 192
+  sha256: 395f0fb23cbff63ea7a6a39128e278bfd3209162a62ad9a13c29f9e7897fc43c
   source:
     repository: codex-imagegen
     artifact: fallen-canopy-whole-fallen-tree-v1.png
@@ -8708,9 +8708,9 @@ assets:
   version: v1
   path: assets/billboards/fallen-canopy-debris-branches-1x1-v1.png
   name: 짧게 부러진 가지 잔해
-  width: 512
-  height: 256
-  sha256: 1bb48ebbaa8ce5fb0881ac846f190b0de277c8ba48cb2d47eb2c064d71b871d3
+  width: 220
+  height: 142
+  sha256: 1af1a36f9b8a29656b039a1c3eb7ae829ff23b34a170c771738f6dc977ce2138
   source:
     repository: codex-imagegen
     artifact: fallen-canopy-debris-branches-1x1-v1.png
@@ -8720,9 +8720,9 @@ assets:
   version: v1
   path: assets/billboards/fallen-canopy-debris-thin-branches-1x1-v1.png
   name: 성긴 짧은 가지 잔해
-  width: 512
-  height: 256
-  sha256: 502f4fd02d313ef6a76278d81cb324e3361507ccf829794ff1dcc6d05d8036a6
+  width: 169
+  height: 127
+  sha256: 2ec2648b2a33255efef8e8dbb265beda05e66eab7c8a70778839982d6ac93faf
   source:
     repository: codex-imagegen
     artifact: fallen-canopy-debris-thin-branches-1x1-v1.png
@@ -8732,9 +8732,9 @@ assets:
   version: v1
   path: assets/billboards/fallen-canopy-debris-thick-break-1x1-v1.png
   name: 굵은 파단 가지 잔해
-  width: 512
-  height: 256
-  sha256: 610b5eaf7a114214876b0f6eee932d1328df0a1583ca31ededccbb7e4e8a8306
+  width: 165
+  height: 117
+  sha256: 9d2dd9fee67ab969ecf1dbef0e654c13d1d0a534cdbcf991f4829bc49f615b2c
   source:
     repository: codex-imagegen
     artifact: fallen-canopy-debris-thick-break-1x1-v1.png
@@ -8744,9 +8744,9 @@ assets:
   version: v1
   path: assets/billboards/fallen-canopy-debris-flat-decay-1x1-v1.png
   name: 납작한 부후목 잔해
-  width: 512
-  height: 256
-  sha256: fc36bc3af26a32696e204ec0f4826af8e18f13fd1fa662ae52c8f5476cd94707
+  width: 175
+  height: 88
+  sha256: 6d527352ed569f680011d39ca3b62a5390c9405ced87ee08946a67049ff48f08
   source:
     repository: codex-imagegen
     artifact: fallen-canopy-debris-flat-decay-1x1-v1.png
