@@ -8801,3 +8801,25 @@ assets:
   source:
     repository: slime-workflow
     operation: 옛 경계문터 신규 지역으로 대체
+- managementId: image.scenery.old-boundary-gate-pillar-left-v1
+  version: v1
+  path: assets/billboards/old-boundary-gate-pillar-left-v1.png
+  name: 옛 경계문터 왼쪽 높은 문기둥
+  width: 461
+  height: 512
+  sha256: cfffc6ca507221fc65947207dd77e1fd3802d29853b986dd501ed6e20e127e5d
+  source:
+    repository: slime-workflow
+    path: .tmp/test/old-boundary-gate-pillars/reference.png
+    operation: 사용자 첨부 원본 좌우 분리, 알파 5 이하 외곽 크롭, 비율 유지 긴 변 512px 축소
+- managementId: image.scenery.old-boundary-gate-pillar-right-v1
+  version: v1
+  path: assets/billboards/old-boundary-gate-pillar-right-v1.png
+  name: 옛 경계문터 오른쪽 낮은 문기둥
+  width: 512
+  height: 511
+  sha256: 7e3a0cc14f16dbb0cc072441450e769218c4ec46b80f643c76ccfc9ccc83b37b
+  source:
+    repository: slime-workflow
+    path: .tmp/test/old-boundary-gate-pillars/reference.png
+    operation: 사용자 첨부 원본 좌우 분리, 알파 5 이하 외곽 크롭, 비율 유지 긴 변 512px 축소
