@@ -648,6 +648,8 @@ assets:
     repository: slime-backend
     path: config/field_tiles/fallen-canopy.yaml
     operation: 맵 배치·통행 원본 이전
+    lifecycle_status: retired
+    retirement_reason: '사용자 요청: 역사적 세계관에 부적합하여 월드맵에서 폐기. 원본 보관.'
 - managementId: config.field-tiles.grove
   version: retire-stump-v1
   path: assets/maps/field_tiles/grove.yaml
@@ -659,7 +661,7 @@ assets:
 - managementId: config.field-tiles.index
   version: v2
   path: assets/maps/field_tiles/index.yaml
-  sha256: ba2ede6e053c55fc5704df6b7c68c5cc4194e1426082e44802514402d609912c
+  sha256: 8afdd60bb625c5a163fe44184c3b4d7781be6e28c91f977559f3d0a3e86df46d
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/index.yaml
@@ -771,7 +773,7 @@ assets:
 - managementId: config.field-waypoints.cinder-path
   version: v1
   path: assets/maps/field_waypoints/cinder-path.yaml
-  sha256: e7212801e0f1a1da5b054a21530f60809822df8698204be2f69b9f42550ab9cd
+  sha256: a100cc313295b1266ac4edeceeb8adb355005c6fc5dfffdb066dc13b0d165ab6
   source:
     repository: slime-backend
     path: config/field_waypoints/cinder-path.yaml
@@ -795,7 +797,7 @@ assets:
 - managementId: config.field-waypoints.dawn-overlook
   version: v1
   path: assets/maps/field_waypoints/dawn-overlook.yaml
-  sha256: 16bb24906e2eca63279be7978a7b622916b6e9b42f1a85ea8c3494aa09a8152b
+  sha256: be9ab55d8a0bb9214d4ab48cd40acd87ec1c90d65199174bb3e981055f3a49cd
   source:
     repository: slime-backend
     path: config/field_waypoints/dawn-overlook.yaml
@@ -816,6 +818,8 @@ assets:
     repository: slime-backend
     path: config/field_waypoints/fallen-canopy.yaml
     operation: 맵 배치·통행 원본 이전
+    lifecycle_status: retired
+    retirement_reason: '사용자 요청: 역사적 세계관에 부적합하여 월드맵에서 폐기. 원본 보관.'
 - managementId: config.field-waypoints.grove
   version: v1
   path: assets/maps/field_waypoints/grove.yaml
@@ -827,7 +831,7 @@ assets:
 - managementId: config.field-waypoints.index
   version: v2
   path: assets/maps/field_waypoints/index.yaml
-  sha256: 1858afda779eacb5f0ba9d3a3590c2fc8a83d89962448729600e217aae68c9ca
+  sha256: 80875c148a1ebe12a4249ae7d7bf0a34267420c1b29a4b7f54391a7bf4acb898
   source:
     repository: slime-assets
     path: assets/maps/field_waypoints/index.yaml
@@ -984,6 +988,8 @@ assets:
     repository: slime-backend
     path: config/terrain/battlefields/fallen-canopy-encounter.yaml
     operation: 맵 배치·통행 원본 이전
+    lifecycle_status: retired
+    retirement_reason: '사용자 요청: 역사적 세계관에 부적합하여 월드맵에서 폐기. 원본 보관.'
 - managementId: config.terrain.battlefields.grove-encounter
   version: battlefield-minimum-12-v1
   path: assets/maps/terrain/battlefields/grove-encounter.yaml
@@ -1123,7 +1129,7 @@ assets:
 - managementId: config.terrain.index
   version: terrain-encounters-v1
   path: assets/maps/terrain/index.yaml
-  sha256: 79ed27058e66c6385ab2f08ff0c1a240085af78a44ea556cfdbc78508bbcfb98
+  sha256: e897c1b3846fa936e9b25d45d772e0c8d48efe3c59b156ac2318a945690ef347
   source:
     repository: slime-assets
     path: assets/maps/terrain/index.yaml
@@ -1200,6 +1206,8 @@ assets:
     repository: slime-backend
     path: config/terrain/maps/fallen-canopy.yaml
     operation: 맵 배치·통행 원본 이전
+    lifecycle_status: retired
+    retirement_reason: '사용자 요청: 역사적 세계관에 부적합하여 월드맵에서 폐기. 원본 보관.'
 - managementId: config.terrain.maps.grove
   version: retire-stump-v1
   path: assets/maps/terrain/maps/grove.yaml
@@ -1360,6 +1368,8 @@ assets:
     repository: slime-backend
     path: config/map_spawns/fallen-canopy.yaml
     operation: 맵 배치·통행 원본 이전
+    lifecycle_status: retired
+    retirement_reason: '사용자 요청: 역사적 세계관에 부적합하여 월드맵에서 폐기. 원본 보관.'
 - managementId: config.map-spawns.grove
   version: ward-radius-reduced-v1
   path: assets/maps/map_spawns/grove.yaml
@@ -1371,7 +1381,7 @@ assets:
 - managementId: config.map-spawns.index
   version: v2
   path: assets/maps/map_spawns/index.yaml
-  sha256: c4e4c9ee14d4df8355ec40277e44d1bdf7e0f77725877ea1e33a3d70207b494c
+  sha256: 85486b1877ced190c2294979856d044edd1fdd06aa24efc2ed9fb0780b6938e8
   source:
     repository: slime-assets
     path: assets/maps/map_spawns/index.yaml
@@ -1528,6 +1538,8 @@ assets:
     repository: slime-backend
     path: config/map_names/fallen-canopy.yaml
     operation: 맵 배치·통행 원본 이전
+    lifecycle_status: retired
+    retirement_reason: '사용자 요청: 역사적 세계관에 부적합하여 월드맵에서 폐기. 원본 보관.'
 - managementId: config.map-names.grove
   version: v1
   path: assets/maps/map_names/grove.yaml
@@ -1539,7 +1551,7 @@ assets:
 - managementId: config.map-names.index
   version: v2
   path: assets/maps/map_names/index.yaml
-  sha256: 78ff4d9696ad4bf01f816f5c968b3de499e7afb48a30fb71cde1bb8a8892baf1
+  sha256: e160226ce87f535d03737aafbd62844eb489068938bd33e7a53f00d77349d77b
   source:
     repository: slime-assets
     path: assets/maps/map_names/index.yaml
@@ -6783,7 +6795,7 @@ assets:
 - managementId: config.battlefield-encounters
   version: terrain-encounters-v1
   path: assets/maps/battlefield_encounters.yaml
-  sha256: ce4121ecb8d3d57b108e4f5ab42bd3bed24ebf776d0c3e5f0aafeccefff88577
+  sha256: edb31177061e74cc65acd5ae970a7e6bcb129b45f47838325cc0c7b2c00933df
   source:
     repository: slime-assets
     path: assets/maps/battlefield_encounters.yaml
@@ -7216,7 +7228,7 @@ assets:
 - managementId: config.world-map.presentation
   version: v1-compact-spacing-v1
   path: assets/maps/world-map.yaml
-  sha256: cb3c921348d9f6025c2a68eccdb7c8712662d2fe495c90ac3c236e6e3678d8ea
+  sha256: 99fbc0bd0401ec738dbb42500c60e5b9b468a2f225e1f9f6a7a5402525c9bf18
   source:
     repository: slime-backend
     operation: 기존 월드맵 상대 좌표를 표시 전용 원본으로 분리; 이동 연결은 기존 웨이포인트 원본 유지
