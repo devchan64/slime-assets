@@ -1679,7 +1679,7 @@ assets:
 - managementId: config.field-tiles.brine-bank
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/brine-bank.yaml
-  sha256: 12c5a04dee6ef7f398c40c49635ee9ea0f1f600380c65b057dd7cad5029a61f2
+  sha256: add8654375d3353761dab5a3ef5250f03b688b230fbe228efe4fcc317e18d226
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/brine-bank.yaml
@@ -6526,7 +6526,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: ca2ab8cc10ea4f50c7b939550bebda80481099ee0147f1aa17b561557e0267a5
+  sha256: 8f7d44ff8bdc0fc625cf02c3e748f1dd512f9b0090a2f609c80a9e2b8e64e283
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7424,9 +7424,9 @@ assets:
   version: v1
   path: assets/billboards/field-mill-ridge-worn-millstone-1-v1.png
   name: 맷돌등성이 · 마모 맷돌 · 변형 1/5
-  width: 250
-  height: 250
-  sha256: 833bef416e1e2965e5b8945f128eb91b4160fc8f10632a484fdd6a55152302e0
+  width: 183
+  height: 228
+  sha256: 9b43094aa3ef46a1f143be3e6b7591aeed1eafe76e441b42228aa91a1f333077
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-18-6c512543/result.png
@@ -7446,9 +7446,9 @@ assets:
   version: v1
   path: assets/billboards/field-salt-flat-brine-barrel-1-v1.png
   name: 흰소금벌 · 염수 나무통 · 변형 1/5
-  width: 255
-  height: 245
-  sha256: b5f57826bdf72454c95f978c9a1ec350f5ef76b564dac09508e5ba5a3d529d0b
+  width: 145
+  height: 223
+  sha256: 3b1004ea882c0dfe35e2ae85afa9ffb9e1b065fae4b284f5e74198796be8e1ae
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-19-027f9ecd/result.png
@@ -7457,9 +7457,9 @@ assets:
   version: v1
   path: assets/billboards/field-grove-cargo-crate-4-v1.png
   name: 푸른 숲 · 운송 상자 · 변형 4/5
-  width: 250
-  height: 238
-  sha256: 0f10e647c5d2d884aec52b1ec6aa78f731bbf598dcc9d2196b95da62f05924db
+  width: 243
+  height: 191
+  sha256: 379c6a0d12e285ef165f20815fd3668a856e11cefb8fc65a8746b7a601b216a3
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-32-0ce263b1/result.png
@@ -7468,9 +7468,9 @@ assets:
   version: v1
   path: assets/billboards/field-lantern-wood-lantern-stand-4-v1.png
   name: 등불 숲 · 등불 받침 · 변형 4/5
-  width: 250
-  height: 254
-  sha256: 75c4ff1110219ae9034db45760b807717d24b8555989edc595dac7f2c9ee89ce
+  width: 184
+  height: 242
+  sha256: f23118357ab49955d7fd730344f96a70a55a1dddb7a24f43fca5e7527fd750ee
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-34-cf746b59/result.png
@@ -7490,9 +7490,9 @@ assets:
   version: v1
   path: assets/billboards/field-grove-cargo-crate-5-v1.png
   name: 푸른 숲 · 운송 상자 · 변형 5/5
-  width: 255
-  height: 236
-  sha256: 0b81214b89cb21cc85d22acdb00ab972efc8f41480813543ecd08bb85d4e5494
+  width: 188
+  height: 209
+  sha256: 9951ee1bd5a2b6a63d4c6e69a70fd6891ac79d13ca1d9fa44e83c406efb7add2
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-39-21d6532f/result.png
@@ -7501,9 +7501,9 @@ assets:
   version: v1
   path: assets/billboards/field-moss-clearing-boundary-stone-size-large-v1.png
   name: 이끼 공터 · 경계석 · 대형 보완
-  width: 255
-  height: 237
-  sha256: dff3bfbbf4c47319d2c42deea7e69c909983c2ee91870d8f4a114d22eae2cbf4
+  width: 168
+  height: 236
+  sha256: 834cd3a526115f774c56488c1ab0485c87bfc025248a2a5e5b71b6d38ff38ddf
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-22-34674a93/result.png
@@ -7512,9 +7512,9 @@ assets:
   version: v1
   path: assets/billboards/field-lantern-wood-lantern-stand-size-small-v1.png
   name: 등불 숲 · 등불 받침 · 소형 보완
-  width: 255
-  height: 248
-  sha256: 642713add4109141e0024d568a4ea0df7ec3970cb5c02a6bba4c7f3717ecb310
+  width: 174
+  height: 233
+  sha256: 7d227bf27973d867b255dd51859df48575c98e96487aa26d5f70104df0654038
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-24-c994d10f/result.png
@@ -7523,9 +7523,9 @@ assets:
   version: v1
   path: assets/billboards/field-mist-lake-mooring-stone-size-large-v1.png
   name: 안개 호수 · 계류석 · 대형 보완
-  width: 255
-  height: 244
-  sha256: 74dc2a77de9a207c34c4b9ef9a7f4a89a10366dc65f6ceb4409816240bdb24ed
+  width: 175
+  height: 156
+  sha256: 2f29801300aad7f5c95d446324434293bb45290ae13563fd2eaf1d549d38be5c
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-26-a84a09d6/result.png
@@ -7534,9 +7534,9 @@ assets:
   version: v1
   path: assets/billboards/field-pebble-shore-rope-coil-size-large-v1.png
   name: 조약돌 물가 · 해진 밧줄 · 대형 보완
-  width: 255
-  height: 244
-  sha256: a25ac6270ce742463abac3c720092db99d669badd57c15e818bbddfc603e59ba
+  width: 205
+  height: 146
+  sha256: ade565f141affc951edfbce862d160d35d6e7145f4336d3ead8ed7b1f03ba40f
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-31-78fc23a2/result.png
@@ -7556,9 +7556,9 @@ assets:
   version: v1
   path: assets/billboards/field-salt-causeway-repair-stakes-2-v1.png
   name: 소금둑길 · 보수 말뚝 · 변형 2/5
-  width: 250
-  height: 242
-  sha256: 59bdebd8ef298c50a73f399e1a84474e5eb3ac09294674a518090c2a5743c3a6
+  width: 128
+  height: 220
+  sha256: b27c79e3b18d69070a4d34bb1a0cb371cddf65dfab1e3aff2c8c50f0ee1def54
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_16-08-24-b4a150b5/result.png
@@ -7567,9 +7567,9 @@ assets:
   version: v1
   path: assets/billboards/field-mist-lake-mooring-stone-1-v1.png
   name: 안개 호수 · 계류석 · 변형 1/5
-  width: 254
-  height: 238
-  sha256: 4a93561dc910bc9dfa3ad76abf502338b601c223adcf3904ab8fe313f76f817e
+  width: 221
+  height: 141
+  sha256: fd441c17578bbeea22149c54f939a450212f7dad9aaaf952936b2909f442486a
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-30-7d28ca25/result.png
@@ -7578,9 +7578,9 @@ assets:
   version: v1
   path: assets/billboards/field-root-trail-wagon-wheel-4-v1.png
   name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 4/5
-  width: 250
-  height: 238
-  sha256: 489b676aeacf2bcbce24fdd81d2d1b2ab340d4065d9272518a45d444eebc1c0d
+  width: 141
+  height: 184
+  sha256: f52618c4efbaf12fc656fc38b45cce9adf08af5b007b84b613000698ada33a7b
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-30-bc9a87c2/result.png
@@ -7589,9 +7589,9 @@ assets:
   version: v1
   path: assets/billboards/field-wind-hills-rope-waymark-4-v1.png
   name: 바람 구릉 · 보강 길표식 · 변형 4/5
-  width: 249
-  height: 243
-  sha256: c2c884c01bd2be28ff88fbc94b8c86bb3bf63787fb83f6686e2df41c370721d9
+  width: 169
+  height: 236
+  sha256: 29dca958ea92c4cf8ecf32187309c3fa4c725199ade41ba28699366f2d2c689f
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-31-02d89bcd/result.png
@@ -7600,9 +7600,9 @@ assets:
   version: v1
   path: assets/billboards/field-mist-lake-mooring-stone-4-v1.png
   name: 안개 호수 · 계류석 · 변형 4/5
-  width: 250
-  height: 238
-  sha256: d752d91d5d7a1692811af17d541e5704a24d90c3fa11cb56e8bf5aab59ffe236
+  width: 214
+  height: 191
+  sha256: b886ef3befeb9c36903921ee4a6874245b70475c33500882899f91cbaa3d9740
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-31-c2c6fde4/result.png
@@ -7611,9 +7611,9 @@ assets:
   version: v1
   path: assets/billboards/field-grove-cargo-crate-size-large-v1.png
   name: 푸른 숲 · 운송 상자 · 대형 보완
-  width: 256
-  height: 243
-  sha256: 2b24a1cfa9dc53c7099a4985d01dde047c9712e8ceda7670adbf45b7f20651c1
+  width: 198
+  height: 214
+  sha256: e9f00e26ca9d008e958127445b307a7cd24f3f1c196abe00856c3ea678cf0069
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-32-167b6e54/result.png
@@ -7622,9 +7622,9 @@ assets:
   version: v1
   path: assets/billboards/field-lantern-wood-lantern-stand-size-large-v1.png
   name: 등불 숲 · 등불 받침 · 대형 보완
-  width: 250
-  height: 249
-  sha256: 34494fe39fbe7e6772d21fef5a514da65ac98689e230161fec247d2beab4de94
+  width: 150
+  height: 248
+  sha256: 4a65e9d251cb571d26738a698525e5ec09420cc76c3561029fec78424e221a45
   source:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-32-08283704/result.png
