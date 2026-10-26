@@ -705,7 +705,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-grove-cargo-crate-4-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/field-grove-cargo-crate-4-v1.png
     width: 243
@@ -765,7 +767,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-grove-cargo-crate-5-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/field-grove-cargo-crate-5-v1.png
     width: 188

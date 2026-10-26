@@ -1,552 +1,657 @@
 managementId: config.field-tiles.grove
 data:
   rows:
-  - mgmgmmmgmggmggmHHHmgmmgmmmgmmggm
-  - mmmmmmmmmmmmggmHHmmgmgmmmmgmmmmH
-  - mgmgmlllllmggmmHHmmgmmmmmmmmmmHH
-  - mmmllgllggglmmmHHmgmmmmmgmmmmHHH
-  - mmgllllllglllmmHHmmgmmmmgmmmHHHm
-  - gllllgllglglllHHHgmmmmmgmmHHHHmm
-  - mglllllgglllglHHmgmgmmgmHHHHHmmm
-  - gglllllggllllHHHmmmmgmmHHHHmmmmm
-  - gllllllllglllHHmmmmgmmHHHmmgmgmm
-  - llllllllglllHHHmmmgmmHHHmmmgmggm
-  - llgllllllllglHHmmmmmHHHmmmmmgmmm
-  - gglllllglllllHHmmgmHHHmmmmgggmmm
-  - mglllllgllgllHHmmmmHHmmmmggmmmmm
-  - gglllllglglllHHHmmHHHmmgmmmmmgmm
-  - mmllllgllglllmHHHHHHHmgggmmmmmmm
-  - HmmllllglgllgmmHHHHHmmmmmmmmmgmm
-  - HHHHHHllllmgmmmmmHHHmmlllllgmmmm
-  - HHHHHHHHmmmmgmmmHHHmllllglllggmm
-  - mmmmmHHHHmmmmmmHHHmggglllgllglmm
-  - mgmmgmmHHHHHHHHHHmlgllgllllllllm
-  - mmmmmmmmHHHHHHHHmmlllllllgllllgm
-  - mmgmmmgmmmHHHHHmmllllgllllllllgg
-  - mgmmmgmgmgmmgmgmglgllllllgglllll
-  - mmmggggmmgmmgmmgmlgglllllgllglll
-  - gmmmmmmmmmgmmmmmmllllllllllgllll
-  - mgmggmmmmmgmgmmmmlllggllllllllll
-  - mgggmmggmmmmmggggglllllgllllllgg
-  - mmmmgmggmmmgmmmgmmllllllllgglggg
-  - gmmmmmmmmmmmmmmmmmmggllllgllllmg
-  - gmmmgmmmmmmmgmmmmgmmlglllllllmmm
-  - mmmmmmmmmmgmmmmgmmmmgmllgllgmmmg
-  - mmmmmmmmmmmmmmmmmmmmmmmmmgmmmmmm
+  - ggmmmmmmmmmmmggHHHgggggggggggggg
+  - gmmmmmlllmmmmmgHHggggggggggggggH
+  - mmmmllllllmmmmmHHgggggggggggggHH
+  - mmmmlllmmmlmmmmHHggggggggggggHHH
+  - mmmlllllmlllmmmHHgggggggggggHHHg
+  - mmlmmmlllllllmHHHgggggggggHHHHgg
+  - mmllmllllllllmHHggggggggHHHHHggg
+  - mmlllllllmmmlHHHgggggggHHHHggggg
+  - mmmmmlmmmlmllHHmggggggHHHggggggg
+  - mmlmlllmllllHHHmgggggHHHgggggggg
+  - mmlllllllllllHHmggggHHHggggggggg
+  - mmlllllmmmlllHHmgggHHHgggggggggg
+  - mmlmmmllmllllHHmgggHHggggggggggg
+  - mmllmllllllllHHHggHHHggggggggggg
+  - mmmllllllmmmmmHHHHHHHggggggggggg
+  - HmmmllmmmlmmmmmHHHHHgggggggggggg
+  - HHHHHHlmlllmmmmggHHHgggggggggggg
+  - HHHHHHHHlmmmmmggHHHggmmmmmmmgggg
+  - ggmmmHHHHmmmmggHHHggmmmmmmmmmmmg
+  - gggmmmmHHHHHHHHHHgmmmmmmmmmmmmmg
+  - ggggmmmmHHHHHHHHggmmmmlmmmlmmmmg
+  - ggggggmmmgHHHHHggmmmllllmllmmmmm
+  - ggggggggggggggggmmmmllllllllmmmm
+  - ggggggggggggggggmmmmmmllllllllmm
+  - ggggggggggggggggmmmlmlmmmlllllmm
+  - ggggggggggggggggmmmllllmlllmmmmm
+  - gggggggggggggggmmmmlllllllllmlmm
+  - ggggggggggggggggmmmmmmllllllllmm
+  - ggggggggggggggggmmmmmlllllmmmmmm
+  - ggggggggggggggggmmmmlllmmmlmlmmm
+  - gggggggggggggggggmmmmmllmllmmmmg
+  - ggggggggggggggggggmmmmmmmmmmmmmg
   objects:
   - id: ward-tower
     position:
       column: 16
       row: 16
     kind: ward-tower
-  - id: grove-canopy-1
+  - id: grove-remodel-001
+    position:
+      column: 4
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-remodel-002
+    position:
+      column: 8
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-remodel-003
+    position:
+      column: 23
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-remodel-004
+    position:
+      column: 27
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: grove-remodel-005
+    position:
+      column: 8
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-remodel-006
+    position:
+      column: 4
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-remodel-007
+    position:
+      column: 20
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-remodel-008
+    position:
+      column: 28
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: grove-remodel-009
+    position:
+      column: 10
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-remodel-010
+    position:
+      column: 7
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-remodel-011
+    position:
+      column: 24
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-remodel-012
+    position:
+      column: 24
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: grove-remodel-013
+    position:
+      column: 3
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: grove-remodel-014
+    position:
+      column: 20
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: grove-remodel-015
+    position:
+      column: 28
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: grove-remodel-016
+    position:
+      column: 11
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-remodel-017
+    position:
+      column: 10
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-remodel-018
+    position:
+      column: 17
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-remodel-019
+    position:
+      column: 29
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: grove-remodel-020
+    position:
+      column: 7
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-remodel-021
+    position:
+      column: 11
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-remodel-022
+    position:
+      column: 16
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v3
+  - id: grove-remodel-023
     position:
       column: 3
       row: 5
     kind: decoration
     tileAnchor: center
-    textureKey: orchard-old-tree-v2
-  - id: grove-canopy-5
-    position:
-      column: 8
-      row: 8
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-1-v2
-  - id: grove-canopy-9
-    position:
-      column: 8
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-2-v2
-  - id: grove-canopy-13
-    position:
-      column: 27
-      row: 17
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-v2
-  - id: grove-canopy-17
-    position:
-      column: 27
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-1-v2
-  - id: grove-canopy-21
-    position:
-      column: 4
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-2-v2
-  - id: grove-canopy-25
-    position:
-      column: 29
-      row: 12
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-v2
-  - id: grove-understory-25
-    position:
-      column: 1
-      row: 6
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-variant-1-v1
-  - id: grove-understory-26
+    textureKey: fern-clump-v1
+  - id: grove-remodel-024
     position:
       column: 7
-      row: 6
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-27
-    position:
-      column: 10
-      row: 8
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-28
-    position:
-      column: 2
-      row: 9
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-chunky-shrub-v1
-  - id: grove-understory-29
-    position:
-      column: 6
-      row: 9
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-variant-1-v1
-  - id: grove-understory-30
-    position:
-      column: 8
-      row: 12
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-variant-1-v1
-  - id: grove-understory-31
-    position:
-      column: 11
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-chunky-shrub-v1
-  - id: grove-understory-32
-    position:
-      column: 1
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-33
-    position:
-      column: 3
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-chunky-shrub-v1
-  - id: grove-understory-34
-    position:
-      column: 18
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-variant-1-v1
-  - id: grove-understory-35
-    position:
-      column: 25
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-chunky-shrub-v1
-  - id: grove-understory-36
-    position:
-      column: 27
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-37
-    position:
-      column: 22
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-38
-    position:
-      column: 25
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-39
-    position:
-      column: 18
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-40
-    position:
-      column: 21
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-41
-    position:
-      column: 27
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-42
-    position:
-      column: 16
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-chunky-shrub-v1
-  - id: grove-understory-43
-    position:
-      column: 2
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-variant-1-v1
-  - id: grove-understory-44
-    position:
-      column: 4
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-clump-v1
-  - id: grove-understory-45
-    position:
-      column: 7
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: fern-variant-1-v1
-  - id: grove-understory-46
-    position:
-      column: 24
       row: 11
     kind: decoration
     tileAnchor: center
     textureKey: fern-clump-v1
-  - id: grove-understory-47
-    position:
-      column: 27
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-chunky-shrub-v1
-  - id: grove-fill-tree-0
-    position:
-      column: 2
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-1-v2
-  - id: grove-fill-tree-1
-    position:
-      column: 4
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-2
-    position:
-      column: 6
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-3
-    position:
-      column: 8
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-4
-    position:
-      column: 10
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-1-v3
-  - id: grove-fill-tree-5
-    position:
-      column: 12
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-6
-    position:
-      column: 12
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-7
-    position:
-      column: 16
-      row: 6
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-1-v3
-  - id: grove-fill-tree-8
-    position:
-      column: 16
-      row: 8
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-1-v2
-  - id: grove-fill-tree-9
-    position:
-      column: 4
-      row: 10
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-1-v2
-  - id: grove-fill-tree-10
-    position:
-      column: 8
-      row: 10
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-v2
-  - id: grove-fill-tree-11
-    position:
-      column: 16
-      row: 10
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-v2
-  - id: grove-fill-tree-12
-    position:
-      column: 4
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-v2
-  - id: grove-fill-tree-13
-    position:
-      column: 6
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-1-v3
-  - id: grove-fill-tree-14
-    position:
-      column: 24
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-15
-    position:
-      column: 10
-      row: 16
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-1-v3
-  - id: grove-fill-tree-16
-    position:
-      column: 22
-      row: 16
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-1-v3
-  - id: grove-fill-tree-17
-    position:
-      column: 24
-      row: 16
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-18
-    position:
-      column: 20
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-19
-    position:
-      column: 18
-      row: 20
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-20
-    position:
-      column: 16
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-fill-tree-21
-    position:
-      column: 22
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-1-v3
-  - id: grove-fill-tree-22
-    position:
-      column: 16
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-1-v2
-  - id: grove-fill-tree-23
-    position:
-      column: 18
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-v2
-  - id: grove-fill-tree-24
-    position:
-      column: 16
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-variant-1-v3
-  - id: grove-fill-tree-25
-    position:
-      column: 22
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-young-tree-v2
-  - id: grove-haul-remnant-1
-    position:
-      column: 18
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: log-variant-1-v1
-  - id: grove-haul-remnant-2
+  - id: grove-remodel-025
     position:
       column: 11
-      row: 6
+      row: 5
     kind: decoration
     tileAnchor: center
-    textureKey: old-stump-v1
-  - id: grove-haul-remnant-3
-    position:
-      column: 28
-      row: 8
-    kind: decoration
-    tileAnchor: center
-    textureKey: log-variant-1-v1
-  - id: grove-haul-remnant-4
-    position:
-      column: 22
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: old-stump-v1
-  - id: grove-haul-remnant-5
+    textureKey: fern-clump-v1
+  - id: grove-remodel-026
     position:
       column: 5
-      row: 20
+      row: 14
     kind: decoration
     tileAnchor: center
-    textureKey: log-variant-1-v1
-  - id: grove-dense-canopy-0
+    textureKey: fern-clump-v1
+  - id: grove-remodel-027
+    position:
+      column: 11
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-remodel-028
+    position:
+      column: 21
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-remodel-029
+    position:
+      column: 25
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-remodel-030
+    position:
+      column: 28
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-remodel-031
+    position:
+      column: 23
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: grove-remodel-032
     position:
       column: 29
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-2-v2
-  - id: grove-dense-canopy-1
-    position:
-      column: 26
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-v2
-  - id: grove-dense-canopy-2
-    position:
-      column: 24
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-v2
-  - id: grove-dense-canopy-3
-    position:
-      column: 29
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-v2
-  - id: grove-dense-canopy-4
-    position:
-      column: 27
       row: 19
     kind: decoration
     tileAnchor: center
-    textureKey: orchard-old-tree-variant-2-v2
-  - id: grove-dense-canopy-5
+    textureKey: fern-clump-v1
+  - id: grove-remodel-033
     position:
-      column: 29
+      column: 3
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-034
+    position:
+      column: 7
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-035
+    position:
+      column: 10
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-036
+    position:
+      column: 4
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-037
+    position:
+      column: 10
       row: 17
     kind: decoration
     tileAnchor: center
-    textureKey: orchard-old-tree-variant-2-v2
-  - id: grove-dense-canopy-6
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-038
+    position:
+      column: 20
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-039
+    position:
+      column: 24
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-040
     position:
       column: 27
       row: 27
     kind: decoration
     tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-dense-canopy-7
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-041
     position:
-      column: 28
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: orchard-old-tree-variant-2-v2
-  - id: grove-dense-canopy-8
-    position:
-      column: 25
+      column: 22
       row: 29
     kind: decoration
     tileAnchor: center
-    textureKey: orchard-old-tree-variant-2-v2
-  - id: grove-dense-canopy-9
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-042
+    position:
+      column: 28
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: grove-remodel-043
+    position:
+      column: 2
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-044
+    position:
+      column: 6
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-045
+    position:
+      column: 9
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-046
+    position:
+      column: 3
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-047
+    position:
+      column: 9
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-048
+    position:
+      column: 19
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-049
+    position:
+      column: 23
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-050
     position:
       column: 26
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-051
+    position:
+      column: 21
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-052
+    position:
+      column: 27
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: grove-remodel-053
+    position:
+      column: 3
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-054
+    position:
+      column: 7
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-055
+    position:
+      column: 10
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-056
+    position:
+      column: 4
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-057
+    position:
+      column: 10
       row: 15
     kind: decoration
     tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-dense-canopy-10
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-058
     position:
-      column: 20
+      column: 19
       row: 23
     kind: decoration
     tileAnchor: center
-    textureKey: orchard-young-tree-variant-2-v2
-  - id: grove-dense-canopy-11
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-059
+    position:
+      column: 24
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-060
+    position:
+      column: 27
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-061
+    position:
+      column: 23
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-062
+    position:
+      column: 28
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: broadleaf-weed-v1
+  - id: grove-remodel-063
+    position:
+      column: 3
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-remodel-064
+    position:
+      column: 11
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-remodel-065
     position:
       column: 5
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-remodel-066
+    position:
+      column: 19
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-remodel-067
+    position:
+      column: 29
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-remodel-068
+    position:
+      column: 25
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-shrub-v1
+  - id: grove-remodel-069
+    position:
+      column: 5
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: grove-remodel-070
+    position:
+      column: 22
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: grove-remodel-071
+    position:
+      column: 12
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: grove-remodel-072
+    position:
+      column: 8
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-2-v1
+  - id: grove-remodel-073
+    position:
+      column: 27
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-2-v1
+  - id: grove-remodel-074
+    position:
+      column: 9
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: old-stump-v1
+  - id: grove-remodel-075
+    position:
+      column: 21
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: old-stump-v1
+  - id: grove-remodel-076
+    position:
+      column: 9
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-grove-cargo-crate-4-v1
+  - id: grove-remodel-077
+    position:
+      column: 12
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-grove-cargo-crate-5-v1
+  - id: grove-remodel-078
+    position:
+      column: 21
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: wildflower-clump-v1
+  - id: grove-remodel-079
+    position:
+      column: 23
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: wildflower-clump-v1
+  - id: grove-remodel-080
+    position:
+      column: 25
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: wildflower-clump-v1
+  - id: grove-remodel-081
+    position:
+      column: 4
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: wildflower-clump-v1
+  - id: grove-remodel-082
+    position:
+      column: 6
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: wildflower-clump-v1
+  - id: grove-remodel-083
+    position:
+      column: 19
       row: 6
     kind: decoration
     tileAnchor: center
-    textureKey: orchard-old-tree-variant-2-v2
+    textureKey: fern-variant-3-v1
+  - id: grove-remodel-084
+    position:
+      column: 22
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-3-v1
+  - id: grove-remodel-085
+    position:
+      column: 27
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-3-v1
+  - id: grove-remodel-086
+    position:
+      column: 3
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-3-v1
+  - id: grove-remodel-087
+    position:
+      column: 6
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-3-v1
+  - id: grove-remodel-088
+    position:
+      column: 10
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-3-v1

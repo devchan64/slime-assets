@@ -570,7 +570,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 33
+    texture_key_occurrences: 18
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 6
   source_file:
@@ -634,7 +634,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 10
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/ash-edge-decomposer-log-v1.png
     width: 112
@@ -1255,7 +1255,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 18
+    texture_key_occurrences: 12
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 4
   source_file:
@@ -1319,7 +1319,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 18
+    texture_key_occurrences: 12
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 6
   source_file:
@@ -2458,7 +2458,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.log-variant-2-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/log-variant-2-v1.png
     width: 116
@@ -4557,7 +4559,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 10
+    texture_key_occurrences: 6
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/clover-bank.yaml

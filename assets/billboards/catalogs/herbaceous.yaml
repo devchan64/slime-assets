@@ -782,6 +782,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 20
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/broadleaf-weed-v1.png
     width: 104
@@ -843,7 +845,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 32
+    texture_key_occurrences: 20
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 10
   source_file:
@@ -1826,7 +1828,7 @@ billboards:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 21
   - path: assets/maps/field_tiles/grove.yaml
-    texture_key_occurrences: 11
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/fern-clump-v1.png
     width: 116
@@ -1890,11 +1892,11 @@ billboards:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 22
+    texture_key_occurrences: 10
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 18
   - path: assets/maps/field_tiles/grove.yaml
-    texture_key_occurrences: 6
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/fern-variant-1-v1.png
     width: 72
@@ -1959,6 +1961,8 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 12
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/fern-variant-2-v1.png
     width: 118
@@ -2020,9 +2024,11 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 16
+    texture_key_occurrences: 10
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 19
+  - path: assets/maps/field_tiles/grove.yaml
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/fern-variant-3-v1.png
     width: 99
@@ -2596,7 +2602,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
-    texture_key_occurrences: 29
+    texture_key_occurrences: 20
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 15
   - path: assets/maps/field_tiles/old-orchard.yaml
@@ -4650,6 +4656,8 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/clover-bank.yaml
+    texture_key_occurrences: 5
+  - path: assets/maps/field_tiles/grove.yaml
     texture_key_occurrences: 5
   source_file:
     path: assets/billboards/wildflower-clump-v1.png
