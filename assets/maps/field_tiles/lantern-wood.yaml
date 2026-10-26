@@ -3,34 +3,34 @@ data:
   rows:
   - llllllllllllllllllllllllllllllll
   - llllllllllllllllllllllllllllllll
-  - llmllmmmmllmllmlllmllmllmllmlmll
-  - lllmmmmmllllllllllllllllllllllll
-  - lllmmmmmmlllmlllllllllllllllllll
-  - llmmmmmmmmlmmmmlllmlmmmmmmmllmll
-  - llmmmmmmmmmmmmmlllllmmmmmmllllll
-  - llmmmmmmmmlmmmlllllmmmmmmmllllll
-  - lllmmmmmmmlmmllmlmlmmmmmmmmllmll
-  - lllmmmmmlllllllllllmmmmmmmllllll
-  - lllllmmmllllllllllllmmmmmmllllll
-  - llmllmlllmlmllmllmllmmmlmlmllmll
   - llllllllllllllllllllllllllllllll
   - llllllllllllllllllllllllllllllll
-  - lllllllllllllllllmlllmlmlmmllmll
-  - eeeeeeeeeemeelllllllllllmmmlllll
-  - HHHHHHHHHHHHHHHHHlmmlllmmmmmllll
-  - eeeeeeeemmmmmllHHlmmmmllmmmlllml
-  - lllllllllmmmllllHmmmmmlllmllllll
-  - lllllllmmmmlllllHmmmmmllllllllll
-  - llmllmlmmmmmlllmHmmmmmllmllmlmll
-  - llllllmmmmmmllleHmmmmlllmmmlllll
-  - llllmmmmmmmmllleHellllllmmmmmlll
-  - llmlmmmmmmmmmlleHellmllmmmmmmmll
-  - llllmmmmmmmmllleHelllllmmmmmmmll
-  - lllllmmmmmmmllleHellllmmmmmmmmll
-  - lllmlmmmmmmmllleHellmlmmmmmmmmml
-  - lllllllmmmllllleHellllmmmmmmllll
-  - llllllllllllllleHellllllmmmlllll
-  - llmlllmlmlllmlleHellmlllmmmllmll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - llllllllllllllllllllllllllllllll
+  - eeeeeeeeeeleelllllllllllllllllll
+  - HHHHHHHHHHHHHHHHHlllllllllllllll
+  - eeeeeeeelllllllHHlllllllllllllll
+  - llllllllllllllllHlllllllllllllll
+  - llllllllllllllllHlllllllllllllll
+  - llllllllllllllllHlllllllllllllll
+  - llllllllllllllleHlllllllllllllll
+  - llllllllllllllleHellllllllllllll
+  - llllllllllllllleHellllllllllllll
+  - llllllllllllllleHellllllllllllll
+  - llllllllllllllleHellllllllllllll
+  - llllllllllllllleHellllllllllllll
+  - llllllllllllllleHellllllllllllll
+  - llllllllllllllleHellllllllllllll
+  - llllllllllllllleHellllllllllllll
   - llllllllllllllleHellllllllllllll
   - llllllllllllllleHellllllllllllll
   objects:
@@ -420,7 +420,7 @@ data:
   - id: lantern-dark-understory-103
     position:
       column: 24
-      row: 15
+      row: 14
     kind: decoration
     tileAnchor: center
     textureKey: fern-clump-v1
@@ -504,7 +504,7 @@ data:
   - id: lantern-dark-understory-115
     position:
       column: 12
-      row: 27
+      row: 26
     kind: decoration
     tileAnchor: center
     textureKey: fern-variant-1-v1
@@ -545,43 +545,274 @@ data:
     textureKey: fern-variant-1-v1
   - id: lantern-glow-host-mushroom-01
     position:
-      column: 11
-      row: 19
+      column: 10
+      row: 14
     kind: decoration
     tileAnchor: center
     textureKey: mushroom-cluster-v1
   - id: lantern-glow-host-mushroom-02
     position:
-      column: 12
-      row: 20
+      column: 11
+      row: 14
     kind: decoration
     tileAnchor: center
     textureKey: mushroom-variant-2-v1
   - id: lantern-glow-host-mushroom-03
     position:
-      column: 17
-      row: 24
+      column: 12
+      row: 15
     kind: decoration
     tileAnchor: center
     textureKey: mushroom-variant-3-v1
   - id: lantern-glow-host-mushroom-04
+    position:
+      column: 10
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-05
+    position:
+      column: 12
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-glow-host-mushroom-06
+    position:
+      column: 24
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-3-v1
+  - id: lantern-glow-host-mushroom-07
+    position:
+      column: 25
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-08
+    position:
+      column: 26
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-glow-host-mushroom-09
+    position:
+      column: 24
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-3-v1
+  - id: lantern-glow-host-mushroom-10
+    position:
+      column: 10
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-11
+    position:
+      column: 11
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-glow-host-mushroom-12
+    position:
+      column: 12
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-3-v1
+  - id: lantern-glow-host-mushroom-13
+    position:
+      column: 11
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-14
+    position:
+      column: 13
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-interior-tree-01
+    position:
+      column: 8
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-interior-tree-02
+    position:
+      column: 9
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-interior-tree-03
+    position:
+      column: 8
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-interior-tree-04
+    position:
+      column: 21
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-interior-tree-05
+    position:
+      column: 22
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-interior-tree-06
+    position:
+      column: 21
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-interior-tree-07
+    position:
+      column: 11
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-interior-tree-08
+    position:
+      column: 12
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-interior-tree-09
+    position:
+      column: 11
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-glow-host-mushroom-15
+    position:
+      column: 18
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-16
+    position:
+      column: 19
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-glow-host-mushroom-17
+    position:
+      column: 20
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-3-v1
+  - id: lantern-glow-host-mushroom-18
     position:
       column: 18
       row: 25
     kind: decoration
     tileAnchor: center
     textureKey: mushroom-cluster-v1
-  - id: lantern-glow-host-mushroom-05
+  - id: lantern-glow-host-mushroom-19
     position:
-      column: 13
-      row: 27
+      column: 26
+      row: 25
     kind: decoration
     tileAnchor: center
     textureKey: mushroom-variant-2-v1
-  - id: lantern-glow-host-mushroom-06
+  - id: lantern-glow-host-mushroom-20
     position:
-      column: 14
-      row: 28
+      column: 28
+      row: 25
     kind: decoration
     tileAnchor: center
     textureKey: mushroom-variant-3-v1
+  - id: lantern-glow-host-mushroom-21
+    position:
+      column: 27
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-22
+    position:
+      column: 18
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-glow-host-mushroom-23
+    position:
+      column: 19
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-3-v1
+  - id: lantern-glow-host-mushroom-24
+    position:
+      column: 20
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-25
+    position:
+      column: 21
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-glow-host-mushroom-26
+    position:
+      column: 18
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-3-v1
+  - id: lantern-glow-host-mushroom-27
+    position:
+      column: 25
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-28
+    position:
+      column: 26
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-glow-host-mushroom-29
+    position:
+      column: 28
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-3-v1
+  - id: lantern-glow-host-mushroom-30
+    position:
+      column: 27
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1

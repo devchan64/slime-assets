@@ -669,7 +669,7 @@ assets:
 - managementId: config.field-tiles.lantern-wood
   version: retire-stump-v1
   path: assets/maps/field_tiles/lantern-wood.yaml
-  sha256: 363416488e82cadbc19b6388f871e2b7b72554d964389f890f3e3fe71d47640b
+  sha256: 8848b4d933cc9bf73ad2ef258c7db3543fccf736118ff3c965e9064671a6a207
   source:
     repository: slime-backend
     path: config/field_tiles/lantern-wood.yaml
@@ -1219,7 +1219,7 @@ assets:
 - managementId: config.terrain.maps.lantern-wood
   version: v1
   path: assets/maps/terrain/maps/lantern-wood.yaml
-  sha256: ccf6e286d6c9908b9745b868fadf00fff8c947b57355b61d5949eb2257b99e51
+  sha256: 38e4f161bba9268de69943fbcd0d592cfcd596729c5f907eb222ad9d3faba0fc
   source:
     repository: slime-backend
     path: config/terrain/maps/lantern-wood.yaml
@@ -9461,3 +9461,36 @@ assets:
     repository: codex-imagegen
     artifact: exec-1d73db30-04d6-4afd-b1ca-2ee998b52376.png
     processing: 투명 RGBA 원본; 상판·직선 보·낮은 난간·측면 판재 부품 시트
+- managementId: image.effects.terrain.glow-core-cyan-v1
+  version: source-v1
+  path: assets/sprites/effects/terrain/glow-core-cyan-sheet-v1.png
+  name: 갓 발광 8프레임 시트
+  width: 1774
+  height: 887
+  sha256: 6b4aaedb6ce24bd55c02a5cab6d4c61176a2e3356aeeacc068c44fd8aed962dc
+  source:
+    repository: slime-workflow
+    path: .tmp/lantern-wood-effects/sheets/glow-core-cyan-sheet-v1.png
+    operation: 내장 imagegen 생성·사용자 적용 요청
+- managementId: image.effects.terrain.glow-halo-lime-v1
+  version: source-v1
+  path: assets/sprites/effects/terrain/glow-halo-lime-sheet-v1.png
+  name: 군락 후광 8프레임 시트
+  width: 1774
+  height: 887
+  sha256: 3c0dabc0e8f5604c50ebdd6055c5b75a8de1ab5f7aa07e75fc7b04f0aba79c37
+  source:
+    repository: slime-workflow
+    path: .tmp/lantern-wood-effects/sheets/glow-halo-lime-sheet-v1.png
+    operation: 내장 imagegen 생성·사용자 적용 요청
+- managementId: image.effects.terrain.glow-spore-amber-v1
+  version: source-v1
+  path: assets/sprites/effects/terrain/glow-spore-amber-sheet-v1.png
+  name: 포자광 8프레임 시트
+  width: 1774
+  height: 887
+  sha256: 5146b7e1f735846cefb34a37dbafb82d703f24f79d1ee4d4f70dfbfdcf2ceb2e
+  source:
+    repository: slime-workflow
+    path: .tmp/lantern-wood-effects/sheets/glow-spore-amber-sheet-v1.png
+    operation: 내장 imagegen 생성·사용자 적용 요청
