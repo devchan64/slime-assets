@@ -9506,3 +9506,130 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-6d78f2cd-d061-4a9e-9d9f-6971fb1514b7.png
+- managementId: audio.map-bgm.catalog
+  version: v37
+  path: assets/audio/map-bgm.yaml
+  sha256: a42c6a20fa667f98beac565c1417fdda679f1dbba13c15dfbb486aaa2c9bcd04
+  source:
+    repository: slime-workflow
+    operation: 소금둑길 원곡·MR 배경음악 등록
+- managementId: audio.bgm.old-boundary-gate.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/old-boundary-gate/v1/old-boundary-gate-vocal.mp3
+  sha256: a7a46a8a60a1e2f8c24f7b3eb6378dac5ce3df4b750c21a8a423bf73f369c56b
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_22-35-48-7a202bd8
+    attempt: 22a604bd27004db39b779a0e179352ea
+    title: 무너진 경계 너머의 길 (보컬)
+    operation: 사용자 승인 · 옛 경계문터 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 61.44
+- managementId: audio.bgm.old-boundary-gate.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/old-boundary-gate/v1/old-boundary-gate-instrumental.mp3
+  sha256: 134b31116c95a28a511e7da9b5fd84b6786d403266ba07898b97791cd9437a49
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_22-35-48-7a202bd8
+    attempt: 22a604bd27004db39b779a0e179352ea
+    title: 무너진 경계 너머의 길 (MR)
+    operation: 사용자 승인 · 옛 경계문터 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 61.44
+- managementId: audio.bgm.salt-flat.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/salt-flat/v1/salt-flat-vocal.mp3
+  sha256: ec70eb3ad2c6c8c7b0379b1f4de38ef0354affdec2b96cbe20f0623842a1e83c
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_23-16-13-035c2005
+    attempt: 39a60f6cb22f4adf89e2e3dca7dc7700
+    title: 소금빛 너머 그늘에 (보컬)
+    operation: 사용자 승인 · 흰소금벌 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 78.4
+- managementId: audio.bgm.salt-flat.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/salt-flat/v1/salt-flat-instrumental.mp3
+  sha256: 5dd36b18f9bcb2af1f1763cdd72a05d501636f1edfa8611a685ab850d3f324e4
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_23-16-13-035c2005
+    attempt: 39a60f6cb22f4adf89e2e3dca7dc7700
+    title: 소금빛 너머 그늘에 (MR)
+    operation: 사용자 승인 · 흰소금벌 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 78.4
+- managementId: audio.bgm.pebble-shore.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/pebble-shore/v1/pebble-shore-vocal.mp3
+  sha256: 448aab31828c02516d5d32eefd751869321583a3a9fe967da9c5def30aa3137a
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_23-35-37-2c45623e
+    attempt: ad5d8fa19a8c4890a52131dc8a89aaaa
+    title: 물결에 담아 온 햇살 (보컬)
+    operation: 사용자 승인 · 조약돌 물가 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 91.04
+- managementId: audio.bgm.pebble-shore.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/pebble-shore/v1/pebble-shore-instrumental.mp3
+  sha256: f1a7e51d13a7ac71df9cb2b1b9dda2eb71a492693baaa566f66a39f6486b3543
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-25_23-35-37-2c45623e
+    attempt: ad5d8fa19a8c4890a52131dc8a89aaaa
+    title: 물결에 담아 온 햇살 (MR)
+    operation: 사용자 승인 · 조약돌 물가 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 91.04
+- managementId: audio.bgm.root-trail.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/root-trail/v1/root-trail-vocal.mp3
+  sha256: 181f4e2ceb2a99be30e2e88bc0080b458adb18e3fdfea27fa29815825cc918d3
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-26_00-17-00-8e2b8f0c
+    attempt: dc4a215eec8f4d72a5b6b56f5a985f28
+    title: 얽힌 길 끝에 열린 하늘 (보컬)
+    operation: 사용자 승인 · 뿌리 오솔길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 71.28
+- managementId: audio.bgm.root-trail.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/root-trail/v1/root-trail-instrumental.mp3
+  sha256: a846fc6b53780afed5164ca5ab3f3a5e80ceb4b44e837cc88ec955539ed4539c
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-26_00-17-00-8e2b8f0c
+    attempt: dc4a215eec8f4d72a5b6b56f5a985f28
+    title: 얽힌 길 끝에 열린 하늘 (MR)
+    operation: 사용자 승인 · 뿌리 오솔길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 71.28
+- managementId: audio.bgm.salt-causeway.vocal.mp3
+  version: v1
+  path: assets/audio/bgm/salt-causeway/v1/salt-causeway-vocal.mp3
+  sha256: 3f6882310328973e59cd74ada41056860e6fbf7d24694ab78a7f99061d27d744
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-26_00-17-00-b48d0f6b
+    attempt: 14a0b6b4a4914c9981837b8568922843
+    title: 마지막 디딤돌을 건너 (보컬)
+    operation: 사용자 승인 · 소금둑길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 91.2
+- managementId: audio.bgm.salt-causeway.instrumental.mp3
+  version: v1
+  path: assets/audio/bgm/salt-causeway/v1/salt-causeway-instrumental.mp3
+  sha256: 37fc8b067ccfb0439ce1b7a48ba271cb59e04001d43ce7d6f7a677af436c79e1
+  source:
+    repository: slime-workflow
+    generation_id: 2026-10-26_00-17-00-b48d0f6b
+    attempt: 14a0b6b4a4914c9981837b8568922843
+    title: 마지막 디딤돌을 건너 (MR)
+    operation: 사용자 승인 · 소금둑길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
+    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
+    duration_seconds: 91.2
