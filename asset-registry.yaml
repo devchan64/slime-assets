@@ -9633,3 +9633,43 @@ assets:
     operation: 사용자 승인 · 소금둑길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 91.2
+- managementId: image.scenery.town.grainstead-guild
+  version: v2
+  path: assets/buildings/town-grainstead-guild-v2.png
+  width: 512
+  height: 410
+  sha256: d2ddadb2fbcc0c44f45e5cc88331220de51d5d9fce23c7b731710f8f721d078c
+  source:
+    repository: codex-imagegen
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-guild-v2.png
+- managementId: image.scenery.town.grainstead-workshop
+  version: v2
+  path: assets/buildings/town-grainstead-workshop-v2.png
+  width: 512
+  height: 410
+  sha256: ee01fb13c31180b8a30887b3df31b58bc4e63fe35e2d3fa957ee9a0a48a33c84
+  source:
+    repository: codex-imagegen
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-workshop-v2.png
+- managementId: image.scenery.town.grainstead-farm-house
+  version: v2
+  path: assets/buildings/town-grainstead-farm-house-v2.png
+  width: 512
+  height: 410
+  sha256: eb4b8071066749e5bb6c3265ed41419eae4605ed6ab9d1ced87c56970c7357dd
+  source:
+    repository: codex-imagegen
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-farm-house-v2.png
+- managementId: image.scenery.town.grainstead-mill-house
+  version: v2
+  path: assets/buildings/town-grainstead-mill-house-v2.png
+  width: 512
+  height: 410
+  sha256: 9dbb3ed56e0b291696ef7aefcd2b93c1a5bfa1985ef32fac0b285db991e6e3fc
+  source:
+    repository: codex-imagegen
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-mill-house-v2.png
