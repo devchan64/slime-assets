@@ -3,39 +3,585 @@ data:
   rows:
   - llllllllllllllllllllllllllllllll
   - llllllllllllllllllllllllllllllll
-  - lllllmmmllllllllllllllllllllllll
+  - llmllmmmmllmllmlllmllmllmllmlmll
   - lllmmmmmllllllllllllllllllllllll
-  - lllmmmmmmlllflllllllllllllllllll
-  - llmmmmmmmmlfffllllllmmmmmmllllll
-  - llmmmmmmmmffffflllllmmmmmmllllll
-  - llmmmmmmmmlffflllllmmmmmmmllllll
-  - lllmmmmmmlllfllllllmmmmmmmllllll
+  - lllmmmmmmlllmlllllllllllllllllll
+  - llmmmmmmmmlmmmmlllmlmmmmmmmllmll
+  - llmmmmmmmmmmmmmlllllmmmmmmllllll
+  - llmmmmmmmmlmmmlllllmmmmmmmllllll
+  - lllmmmmmmmlmmllmlmlmmmmmmmmllmll
   - lllmmmmmlllllllllllmmmmmmmllllll
   - lllllmmmllllllllllllmmmmmmllllll
-  - llllllllllllllllllllmmmlllllllll
+  - llmllmlllmlmllmllmllmmmlmlmllmll
   - llllllllllllllllllllllllllllllll
   - llllllllllllllllllllllllllllllll
-  - lllllllllllllllllllllllllfllllll
-  - eeeeeeeeeefeelllllllllllffflllll
-  - HHHHHHHHHHHHHHHHHlmmlllfffffllll
-  - eeeeeeeefffffllHHlmmmmllffflllll
-  - lllllllllfffllllHmmmmmlllfllllll
-  - lllllllmmmflllllHmmmmmllllllllll
-  - lllllllmmmmmlllmHmmmmlllllllllll
+  - lllllllllllllllllmlllmlmlmmllmll
+  - eeeeeeeeeemeelllllllllllmmmlllll
+  - HHHHHHHHHHHHHHHHHlmmlllmmmmmllll
+  - eeeeeeeemmmmmllHHlmmmmllmmmlllml
+  - lllllllllmmmllllHmmmmmlllmllllll
+  - lllllllmmmmlllllHmmmmmllllllllll
+  - llmllmlmmmmmlllmHmmmmmllmllmlmll
   - llllllmmmmmmllleHmmmmlllmmmlllll
   - llllmmmmmmmmllleHellllllmmmmmlll
-  - llllmmmmmmmmllleHelllllmmmmmmlll
+  - llmlmmmmmmmmmlleHellmllmmmmmmmll
   - llllmmmmmmmmllleHelllllmmmmmmmll
   - lllllmmmmmmmllleHellllmmmmmmmmll
-  - lllllmmmmmmmllleHellllmmmmmmmmll
+  - lllmlmmmmmmmllleHellmlmmmmmmmmml
   - lllllllmmmllllleHellllmmmmmmllll
   - llllllllllllllleHellllllmmmlllll
-  - llllllllllllllleHellllllmmmlllll
+  - llmlllmlmlllmlleHellmlllmmmllmll
   - llllllllllllllleHellllllllllllll
   - llllllllllllllleHellllllllllllll
   objects:
   - id: ward-tower
-    kind: ward-tower
     position:
       column: 16
       row: 16
+    kind: ward-tower
+  - id: lantern-dark-tree-001
+    position:
+      column: 2
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-dark-tree-002
+    position:
+      column: 6
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-003
+    position:
+      column: 8
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-004
+    position:
+      column: 11
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-005
+    position:
+      column: 14
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-006
+    position:
+      column: 18
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-007
+    position:
+      column: 21
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-008
+    position:
+      column: 24
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-009
+    position:
+      column: 27
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-dark-tree-010
+    position:
+      column: 29
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-011
+    position:
+      column: 2
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-012
+    position:
+      column: 6
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-013
+    position:
+      column: 8
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-014
+    position:
+      column: 12
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-015
+    position:
+      column: 14
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-dark-tree-016
+    position:
+      column: 18
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-017
+    position:
+      column: 20
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-018
+    position:
+      column: 23
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-019
+    position:
+      column: 26
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-dark-tree-020
+    position:
+      column: 29
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-021
+    position:
+      column: 3
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-029
+    position:
+      column: 26
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-030
+    position:
+      column: 29
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-031
+    position:
+      column: 2
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-038
+    position:
+      column: 24
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-039
+    position:
+      column: 26
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-dark-tree-040
+    position:
+      column: 29
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-044
+    position:
+      column: 26
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-045
+    position:
+      column: 29
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-dark-tree-050
+    position:
+      column: 2
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-dark-tree-058
+    position:
+      column: 2
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: lantern-dark-tree-066
+    position:
+      column: 3
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: lantern-dark-tree-074
+    position:
+      column: 2
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: lantern-dark-understory-082
+    position:
+      column: 3
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-083
+    position:
+      column: 9
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-084
+    position:
+      column: 15
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-085
+    position:
+      column: 22
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-086
+    position:
+      column: 28
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-087
+    position:
+      column: 3
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-088
+    position:
+      column: 9
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-089
+    position:
+      column: 15
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-090
+    position:
+      column: 21
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-091
+    position:
+      column: 27
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-092
+    position:
+      column: 4
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-093
+    position:
+      column: 10
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-094
+    position:
+      column: 16
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-095
+    position:
+      column: 21
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-096
+    position:
+      column: 27
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-097
+    position:
+      column: 3
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-098
+    position:
+      column: 10
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-099
+    position:
+      column: 15
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-100
+    position:
+      column: 21
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-101
+    position:
+      column: 27
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-102
+    position:
+      column: 18
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-103
+    position:
+      column: 24
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-104
+    position:
+      column: 30
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-105
+    position:
+      column: 25
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-106
+    position:
+      column: 6
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-107
+    position:
+      column: 12
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-108
+    position:
+      column: 25
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-109
+    position:
+      column: 30
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-110
+    position:
+      column: 6
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-111
+    position:
+      column: 13
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-112
+    position:
+      column: 24
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: lantern-dark-understory-113
+    position:
+      column: 30
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-114
+    position:
+      column: 6
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-115
+    position:
+      column: 12
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-116
+    position:
+      column: 24
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-117
+    position:
+      column: 7
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-dark-understory-118
+    position:
+      column: 13
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-119
+    position:
+      column: 25
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: lantern-dark-understory-120
+    position:
+      column: 30
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-1-v1
+  - id: lantern-glow-host-mushroom-01
+    position:
+      column: 11
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-02
+    position:
+      column: 12
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-glow-host-mushroom-03
+    position:
+      column: 17
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-3-v1
+  - id: lantern-glow-host-mushroom-04
+    position:
+      column: 18
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-cluster-v1
+  - id: lantern-glow-host-mushroom-05
+    position:
+      column: 13
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: lantern-glow-host-mushroom-06
+    position:
+      column: 14
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-3-v1
