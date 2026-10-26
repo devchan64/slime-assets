@@ -4260,9 +4260,9 @@ assets:
 - managementId: image.scenery.mushroom-cluster-v1
   version: v1
   path: assets/billboards/mushroom-cluster-v1.png
-  width: 74
-  height: 88
-  sha256: dd69c84c8f4641c91b0a93c0ea950d3b1cc1e9614286cc7bf33adc06ddca9eff
+  width: 217
+  height: 256
+  sha256: 6f43b13042e16ab9dd143e0f3a5ce892a21e0a75c181fe3902ce8d8f61e4f016
   source:
     repository: codex-imagegen
     artifact: exec-c1d457c3-d940-4011-96d3-a15fd8e46020.png
@@ -5340,15 +5340,15 @@ assets:
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-stonewarm-market-v3.png
 - managementId: image.scenery.town.grainstead-guild
-  version: v3
-  path: assets/buildings/town-grainstead-guild-v3.png
+  version: v2
+  path: assets/buildings/town-grainstead-guild-v2.png
   width: 512
-  height: 427
-  sha256: 39af20247199ee70393b9059f2ce95bcade639d0eefea01ad7dd734500526c59
+  height: 410
+  sha256: d2ddadb2fbcc0c44f45e5cc88331220de51d5d9fce23c7b731710f8f721d078c
   source:
     repository: codex-imagegen
-    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
-    artifact: town-grainstead-guild-v3.png
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-guild-v2.png
 - managementId: image.scenery.town.grainstead-bookshop
   version: v2
   path: assets/buildings/town-grainstead-bookshop-v2.png
@@ -5370,15 +5370,15 @@ assets:
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-grainstead-inn-v2.png
 - managementId: image.scenery.town.grainstead-workshop
-  version: v3
-  path: assets/buildings/town-grainstead-workshop-v3.png
+  version: v2
+  path: assets/buildings/town-grainstead-workshop-v2.png
   width: 512
-  height: 427
-  sha256: 479a54e91f83f51d8b05dfc657405a4904ed741935238a7a9f6bcdf13bb9ec01
+  height: 410
+  sha256: ee01fb13c31180b8a30887b3df31b58bc4e63fe35e2d3fa957ee9a0a48a33c84
   source:
     repository: codex-imagegen
-    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
-    artifact: town-grainstead-workshop-v3.png
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-workshop-v2.png
 - managementId: image.scenery.town.grainstead-market
   version: v2
   path: assets/buildings/town-grainstead-market-v2.png
@@ -5918,25 +5918,25 @@ assets:
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-stonewarm-hearth-house-v3.png
 - managementId: image.scenery.town.grainstead-farm-house
-  version: v3
-  path: assets/buildings/town-grainstead-farm-house-v3.png
+  version: v2
+  path: assets/buildings/town-grainstead-farm-house-v2.png
   width: 512
-  height: 427
-  sha256: 08bf83d7559c16c746fee00f26b039571df9a70dc8a8d9a4320cb0ce5723ae99
+  height: 410
+  sha256: eb4b8071066749e5bb6c3265ed41419eae4605ed6ab9d1ced87c56970c7357dd
   source:
     repository: codex-imagegen
-    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
-    artifact: town-grainstead-farm-house-v3.png
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-farm-house-v2.png
 - managementId: image.scenery.town.grainstead-mill-house
-  version: v3
-  path: assets/buildings/town-grainstead-mill-house-v3.png
+  version: v2
+  path: assets/buildings/town-grainstead-mill-house-v2.png
   width: 512
-  height: 427
-  sha256: ae0e84c216ce027c5d977b50cd94f4bb9584d7238611c1741fbff47d0716fce8
+  height: 410
+  sha256: 9dbb3ed56e0b291696ef7aefcd2b93c1a5bfa1985ef32fac0b285db991e6e3fc
   source:
     repository: codex-imagegen
-    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
-    artifact: town-grainstead-mill-house-v3.png
+    operation: 바닥 그리드 직교투영 베이스라인 재생성
+    artifact: town-grainstead-mill-house-v2.png
 - managementId: image.scenery.town.saltford-shore-house
   version: v2
   path: assets/buildings/town-saltford-shore-house-v2.png
@@ -6440,6 +6440,46 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-reedhaven-plank-house-v3.png
+- managementId: image.scenery.town.grainstead-workshop
+  version: v3
+  path: assets/buildings/town-grainstead-workshop-v3.png
+  width: 512
+  height: 427
+  sha256: 479a54e91f83f51d8b05dfc657405a4904ed741935238a7a9f6bcdf13bb9ec01
+  source:
+    repository: codex-imagegen
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-workshop-v3.png
+- managementId: image.scenery.town.grainstead-guild
+  version: v3
+  path: assets/buildings/town-grainstead-guild-v3.png
+  width: 512
+  height: 427
+  sha256: 39af20247199ee70393b9059f2ce95bcade639d0eefea01ad7dd734500526c59
+  source:
+    repository: codex-imagegen
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-guild-v3.png
+- managementId: image.scenery.town.grainstead-farm-house
+  version: v3
+  path: assets/buildings/town-grainstead-farm-house-v3.png
+  width: 512
+  height: 427
+  sha256: 08bf83d7559c16c746fee00f26b039571df9a70dc8a8d9a4320cb0ce5723ae99
+  source:
+    repository: codex-imagegen
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-farm-house-v3.png
+- managementId: image.scenery.town.grainstead-mill-house
+  version: v3
+  path: assets/buildings/town-grainstead-mill-house-v3.png
+  width: 512
+  height: 427
+  sha256: ae0e84c216ce027c5d977b50cd94f4bb9584d7238611c1741fbff47d0716fce8
+  source:
+    repository: codex-imagegen
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-mill-house-v3.png
 - managementId: image.scenery.ash-edge-charred-regrowth-v1
   version: v1
   path: assets/billboards/ash-edge-charred-regrowth-v1.png
@@ -6476,7 +6516,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 33ba26c2d91ed70d5876334ece2212f7447b129d3952793d5680863cbbcaec13
+  sha256: d80b88203878396e36d7769abc744f145afc7dcb3d064785458a584f1da8206f
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -8786,12 +8826,12 @@ assets:
     duration_seconds: 68.95997916666667
     title: 버드나무 곁으로 (MR)
 - managementId: audio.map-bgm.catalog
-  version: v32
+  version: v37
   path: assets/audio/map-bgm.yaml
-  sha256: 4bee497a9cab09b963c0fb52cbcfabcdc7756385ca3b68c7f45a9af67dab091b
+  sha256: a42c6a20fa667f98beac565c1417fdda679f1dbba13c15dfbb486aaa2c9bcd04
   source:
     repository: slime-workflow
-    operation: 짠물둔덕 원곡·MR 배경음악 등록
+    operation: 소금둑길 원곡·MR 배경음악 등록
 - managementId: audio.bgm.meadow.mr.mp3
   version: v4
   path: assets/audio/bgm/meadow/v4/meadow-mr.mp3
@@ -8999,7 +9039,7 @@ assets:
 - managementId: catalog.effects
   version: v1
   path: assets/sprites/effects/catalog.yaml
-  sha256: e84de9907b1f960a30361b3791ea0d78026196d053a8f2919e2458e3450cb38a
+  sha256: d70b01762867c63f630a671161f4fdca7aecba9a2f240f691725c4e98db9e933
   source:
     operation: 웨이포인트·결계탑 오라를 빌보드와 분리
 - managementId: audio.bgm.mist-lake.vocal.mp3
@@ -9476,43 +9516,6 @@ assets:
     repository: slime-workflow
     path: .tmp/2026-10-26_lantern-candidates/moth-swarm-sheet.png
     operation: 내장 imagegen 생성·사용자 적용 승인
-- managementId: image.effects.terrain.glow-mushroom-single-v1
-  version: source-v1
-  path: assets/sprites/effects/terrain/glow-mushroom-single-sheet-v1.png
-  name: 버섯 참조 발광 single 8프레임
-  width: 1938
-  height: 812
-  sha256: d6499d28093199c8c5f9006d183950120822014a79fc779eb781cb45aa89afbb
-  source:
-    repository: codex-imagegen
-    artifact: exec-ce6d11e6-c94c-4dc4-8d00-8553cec964fc.png
-- managementId: image.effects.terrain.glow-mushroom-cluster-v1
-  version: source-v1
-  path: assets/sprites/effects/terrain/glow-mushroom-cluster-sheet-v1.png
-  name: 버섯 참조 발광 cluster 8프레임
-  width: 2181
-  height: 721
-  sha256: 09ca6eadb05552817be9fbb9033ad4941a0a4518e8f6b9507874d027818b1914
-  source:
-    repository: codex-imagegen
-    artifact: exec-99806418-85ba-4262-bb5c-b6b6897c1533.png
-- managementId: image.effects.terrain.glow-mushroom-group-v1
-  version: source-v1
-  path: assets/sprites/effects/terrain/glow-mushroom-group-sheet-v1.png
-  name: 버섯 참조 발광 group 8프레임
-  width: 1491
-  height: 1055
-  sha256: 646b22def5b86b4d561d99884823e69e93e07d1338da3e7c725882aaa027cb54
-  source:
-    repository: codex-imagegen
-    artifact: exec-6d78f2cd-d061-4a9e-9d9f-6971fb1514b7.png
-- managementId: audio.map-bgm.catalog
-  version: v37
-  path: assets/audio/map-bgm.yaml
-  sha256: a42c6a20fa667f98beac565c1417fdda679f1dbba13c15dfbb486aaa2c9bcd04
-  source:
-    repository: slime-workflow
-    operation: 소금둑길 원곡·MR 배경음악 등록
 - managementId: audio.bgm.old-boundary-gate.vocal.mp3
   version: v1
   path: assets/audio/bgm/old-boundary-gate/v1/old-boundary-gate-vocal.mp3
@@ -9633,43 +9636,33 @@ assets:
     operation: 사용자 승인 · 소금둑길 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 91.2
-- managementId: image.scenery.town.grainstead-guild
-  version: v2
-  path: assets/buildings/town-grainstead-guild-v2.png
-  width: 512
-  height: 410
-  sha256: d2ddadb2fbcc0c44f45e5cc88331220de51d5d9fce23c7b731710f8f721d078c
+- managementId: image.effects.terrain.glow-mushroom-single-v1
+  version: source-v1
+  path: assets/sprites/effects/terrain/glow-mushroom-single-sheet-v1.png
+  name: 버섯 참조 발광 single 8프레임
+  width: 1938
+  height: 812
+  sha256: b58b5cd8fd5a8e845cdd700194db85f8d517b73bb9f70d3f3b38b1289ef52269
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-grainstead-guild-v2.png
-- managementId: image.scenery.town.grainstead-workshop
-  version: v2
-  path: assets/buildings/town-grainstead-workshop-v2.png
-  width: 512
-  height: 410
-  sha256: ee01fb13c31180b8a30887b3df31b58bc4e63fe35e2d3fa957ee9a0a48a33c84
+    artifact: exec-ce6d11e6-c94c-4dc4-8d00-8553cec964fc.png
+- managementId: image.effects.terrain.glow-mushroom-cluster-v1
+  version: source-v1
+  path: assets/sprites/effects/terrain/glow-mushroom-cluster-sheet-v1.png
+  name: 버섯 참조 발광 cluster 8프레임
+  width: 1774
+  height: 887
+  sha256: 76f3c9dcf2833887c5f877a87f7397db6dbb8ccde568c6a172818823b11c9d9f
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-grainstead-workshop-v2.png
-- managementId: image.scenery.town.grainstead-farm-house
-  version: v2
-  path: assets/buildings/town-grainstead-farm-house-v2.png
-  width: 512
-  height: 410
-  sha256: eb4b8071066749e5bb6c3265ed41419eae4605ed6ab9d1ced87c56970c7357dd
+    artifact: exec-99806418-85ba-4262-bb5c-b6b6897c1533.png
+- managementId: image.effects.terrain.glow-mushroom-group-v1
+  version: source-v1
+  path: assets/sprites/effects/terrain/glow-mushroom-group-sheet-v1.png
+  name: 버섯 참조 발광 group 8프레임
+  width: 1491
+  height: 1055
+  sha256: 646b22def5b86b4d561d99884823e69e93e07d1338da3e7c725882aaa027cb54
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-grainstead-farm-house-v2.png
-- managementId: image.scenery.town.grainstead-mill-house
-  version: v2
-  path: assets/buildings/town-grainstead-mill-house-v2.png
-  width: 512
-  height: 410
-  sha256: 9dbb3ed56e0b291696ef7aefcd2b93c1a5bfa1985ef32fac0b285db991e6e3fc
-  source:
-    repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-grainstead-mill-house-v2.png
+    artifact: exec-6d78f2cd-d061-4a9e-9d9f-6971fb1514b7.png

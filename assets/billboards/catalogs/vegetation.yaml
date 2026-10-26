@@ -2591,9 +2591,9 @@ billboards:
     texture_key_occurrences: 11
   source_file:
     path: assets/billboards/mushroom-cluster-v1.png
-    width: 74
-    height: 88
-    sha256: dd69c84c8f4641c91b0a93c0ea950d3b1cc1e9614286cc7bf33adc06ddca9eff
+    width: 217
+    height: 256
+    sha256: 6f43b13042e16ab9dd143e0f3a5ce892a21e0a75c181fe3902ce8d8f61e4f016
   modeling:
     avoid:
     - 접지 영역의 서로 다른 고도
@@ -2626,11 +2626,11 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.mushroom-cluster-v1
-    anchorX: 0.01
-    anchorY: -0.4
+    anchorX: 0.0
+    anchorY: -0.47
     groundFootprintColumns: 1
     groundFootprintRows: 1
-    displayHeight: 88.0
+    displayHeight: 82.34
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
@@ -2639,7 +2639,7 @@ billboards:
     shadowScaleY: 0.55
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 44.0
+    outdoorDisplayHeight: 41.17
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
