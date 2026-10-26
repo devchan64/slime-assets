@@ -1,58 +1,44 @@
 managementId: config.field-tiles.granary-flats
 data:
   rows:
-  - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-  - FDDDDFrrFFDDDDDDDDDDDFDFrrFDDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFFrhhrFDDDF
-  - FDDDFrhhrFDDDDDDDDDDDFDFrrFDDDDF
-  - FFFFFFrrFFFFFHHHHHHHFFFFFFFFFFFF
-  - FFFFFFFFFFFFFHHHHHHHFFFFFFFFFFFF
-  - HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-  - HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-  - HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-  - FFFFFFFFFFFFFHHHHHHHFFFFFFFFFFFF
-  - FFFFFFFFFFFFFHHHHHHHFFFFFFFFFFFF
-  - FDDDDFrrFFDDDDDDDDDDDFDFrrFDDDDF
-  - FDDDFrhhrFEEEEEEEEEEEFFrhhrFDDDF
-  - FDDDFrhhrFEEEEEEEEEEEFFrhhrFDDDF
-  - FDDDFrhhrFEEEEEEEEEEEFFrhhrFDDDF
-  - FDDDFrhhrFEEEEEEEEEEEFFrhhrFDDDF
-  - FDDDFrhhrFEEEEEEEEEEEFFrhhrFDDDF
-  - FDDDFrhhrFEEEEEEEEEEEFFrhhrFDDDF
-  - FDDDFrhhrFEEEEEEEEEEEFFrhhrFDDDF
-  - FDDDFrhhrFEEEEEEEEEEEFFrhhrFDDDF
-  - FDDDFrhhrFEEEEEEEEEEEFFrhhrFDDDF
-  - FDDDDFrrFFEEEEEEEEEEEFDFrrFDDDDF
-  - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+  - FFFFFFhhFFFFFFFFFFFFFFFFhhFFFFFF
+  - FDDDDFhhFFDDDDDDDDDDDFDFhhFDDDDF
+  - FDDDFFhhFFDDDDDDDDDDDFFFhhFFDDDF
+  - FDDDFFhhFFFFFFFFDDFFFFFFhhFFDDDF
+  - FDDDFFhhhhhhhhhhhhhhhhhhhhFFDDDF
+  - FDDDFFhhFFFFFFFFDDFFFFFFhhFFDDDF
+  - FDDDFFhhFFDDDDDDDDDDDFFFhhFFDDDF
+  - FDDDFFhhFFDDDDDDDDDDDFFFhhFFDDDF
+  - FDDDFFhhFFDDDDDDDDDDDFFFhhFFDDDF
+  - FDDDFFhhFFDDDDDDDDDDDFFFhhFFDDDF
+  - FDDDFFhhFFDDDDDDDDDDDFFFhhFFDDDF
+  - FDDDFFhhFFDDDDDDDDDDDFFFhhFFDDDF
+  - FDDDFFhhFFDDDDDDDDDDDFDFhhFDDDDF
+  - FFFFFFhhFFFFFFFFFFFFFFFFhhFFFFFF
+  - FFFFFFhhFFFFFFFFFFFFFFFFhhFFFFFF
+  - FFFFFFhhFFFFFFFFFFFFFFFFhhFFFFFF
+  - HHHHHHhhHHHHHHHHHHHHHHHHhhHHHHHH
+  - FFFFFFhhFFFFFFFFFFFFFFFFhhFFFFFF
+  - FFFFFFhhFFFFFFFFFFFFFFFFhhFFFFFF
+  - FFFFFFhhFFFFFFFFFFFFFFFFhhFFFFFF
+  - FDDDDFhhFFDDDDDDDDDDDFDFhhFDDDDF
+  - FDDDFFhhFFEEEEEEEEEEEFFFhhFFDDDF
+  - FDDDFFhhFFEEEEEEEEEEEFFFhhFFDDDF
+  - FDDDFFhhFFEEEEEEEEEEEFFFhhFFDDDF
+  - FDDDFFhhFFEEEEEEEEEEEFFFhhFFDDDF
+  - FDDDFFhhFFEEEEEEEEEEEFFFhhFFDDDF
+  - FDDDFFhhFFEEEEEEEEEEEFFFhhFFDDDF
+  - FDDDFFhhFFFFFFFFEEFFFFFFhhFFDDDF
+  - FDDDFFhhhhhhhhhhhhhhhhhhhhFFDDDF
+  - FDDDFFhhFFFFFFFFEEFFFFFFhhFFDDDF
+  - FDDDDFhhFFEEEEEEEEEEEFDFhhFDDDDF
+  - FFFFFFhhFFFFFFFFFFFFFFFFhhFFFFFF
   objects:
   - id: ward-tower
     position:
       column: 16
       row: 16
     kind: ward-tower
-  - id: granary-flats-2-0
-    position:
-      column: 2
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
-  - id: granary-flats-6-0
-    position:
-      column: 4
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
   - id: granary-flats-10-0
     position:
       column: 10
@@ -60,30 +46,9 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-11-0
-    position:
-      column: 11
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
   - id: granary-flats-12-0
     position:
       column: 12
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-13-0
-    position:
-      column: 13
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-15-0
-    position:
-      column: 15
       row: 0
     kind: decoration
     tileAnchor: center
@@ -95,13 +60,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-stonewarm-dry-golden-grass-v1
-  - id: granary-flats-20-0
-    position:
-      column: 20
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
   - id: granary-flats-21-0
     position:
       column: 21
@@ -116,27 +74,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-27-0
-    position:
-      column: 27
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-29-0
-    position:
-      column: 29
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-0-1
-    position:
-      column: 0
-      row: 1
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
   - id: granary-flats-1-1
     position:
       column: 1
@@ -165,20 +102,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-5-1
-    position:
-      column: 8
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-7-1
-    position:
-      column: 9
-      row: 1
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
   - id: granary-flats-10-1
     position:
       column: 10
@@ -263,13 +186,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-24-1
-    position:
-      column: 21
-      row: 1
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
   - id: granary-flats-25-1
     position:
       column: 27
@@ -333,20 +249,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-5-2
-    position:
-      column: 9
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-8-2
-    position:
-      column: 9
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
   - id: granary-flats-9-2
     position:
       column: 9
@@ -417,20 +319,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-22-2
-    position:
-      column: 21
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-23-2
-    position:
-      column: 20
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-28-2
     position:
       column: 28
@@ -452,13 +340,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-31-2
-    position:
-      column: 30
-      row: 0
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
   - id: granary-flats-0-3
     position:
       column: 0
@@ -494,69 +375,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-10-3
-    position:
-      column: 10
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-11-3
-    position:
-      column: 11
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-12-3
-    position:
-      column: 12
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-13-3
-    position:
-      column: 13
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-14-3
-    position:
-      column: 14
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-17-3
-    position:
-      column: 17
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-18-3
-    position:
-      column: 18
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-19-3
-    position:
-      column: 19
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-21-3
-    position:
-      column: 21
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
   - id: granary-flats-22-3
     position:
       column: 18
@@ -564,13 +382,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-26-3
-    position:
-      column: 27
-      row: 3
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
   - id: granary-flats-28-3
     position:
       column: 28
@@ -592,13 +403,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-0-4
-    position:
-      column: 0
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
   - id: granary-flats-2-4
     position:
       column: 2
@@ -606,104 +410,13 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-4-4
-    position:
-      column: 0
-      row: 5
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-10-4
-    position:
-      column: 10
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-11-4
-    position:
-      column: 11
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-12-4
-    position:
-      column: 12
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-13-4
-    position:
-      column: 13
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-15-4
-    position:
-      column: 15
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
   - id: granary-flats-16-4
     position:
-      column: 16
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-17-4
-    position:
-      column: 17
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-18-4
-    position:
       column: 18
-      row: 4
+      row: 7
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-19-4
-    position:
-      column: 19
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-20-4
-    position:
-      column: 20
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-21-4
-    position:
-      column: 21
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-23-4
-    position:
-      column: 27
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-26-4
-    position:
-      column: 28
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
   - id: granary-flats-30-4
     position:
       column: 30
@@ -739,24 +452,10 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-5-5
-    position:
-      column: 9
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
   - id: granary-flats-8-5
     position:
       column: 9
       row: 6
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-9-5
-    position:
-      column: 9
-      row: 5
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-white-field-daisy-v1
@@ -837,27 +536,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-21-5
-    position:
-      column: 21
-      row: 5
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-23-5
-    position:
-      column: 21
-      row: 8
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-26-5
-    position:
-      column: 27
-      row: 6
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
   - id: granary-flats-27-5
     position:
       column: 27
@@ -914,20 +592,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-4-6
-    position:
-      column: 0
-      row: 8
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-5-6
-    position:
-      column: 9
-      row: 8
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
   - id: granary-flats-10-6
     position:
       column: 10
@@ -1012,20 +676,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-22-6
-    position:
-      column: 19
-      row: 8
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-23-6
-    position:
-      column: 27
-      row: 7
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-26-6
     position:
       column: 29
@@ -1082,27 +732,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-5-7
-    position:
-      column: 9
-      row: 11
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-8-7
-    position:
-      column: 11
-      row: 11
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-9-7
-    position:
-      column: 9
-      row: 7
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-10-7
     position:
       column: 10
@@ -1184,13 +813,6 @@ data:
     position:
       column: 21
       row: 10
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-23-7
-    position:
-      column: 18
-      row: 7
     kind: decoration
     tileAnchor: center
     textureKey: town-reedhaven-reed-young-v1
@@ -1320,13 +942,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-23-8
-    position:
-      column: 27
-      row: 10
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
   - id: granary-flats-27-8
     position:
       column: 27
@@ -1355,13 +970,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-0-9
-    position:
-      column: 0
-      row: 9
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
   - id: granary-flats-1-9
     position:
       column: 1
@@ -1390,13 +998,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-5-9
-    position:
-      column: 3
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-9-9
     position:
       column: 9
@@ -1481,13 +1082,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-21-9
-    position:
-      column: 21
-      row: 9
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
   - id: granary-flats-27-9
     position:
       column: 27
@@ -1509,13 +1103,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-31-9
-    position:
-      column: 28
-      row: 9
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
   - id: granary-flats-0-10
     position:
       column: 0
@@ -1551,20 +1138,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-5-10
-    position:
-      column: 8
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-8-10
-    position:
-      column: 10
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
   - id: granary-flats-9-10
     position:
       column: 9
@@ -1642,13 +1215,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-0-11
-    position:
-      column: 0
-      row: 11
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
   - id: granary-flats-1-11
     position:
       column: 1
@@ -1673,13 +1239,6 @@ data:
   - id: granary-flats-5-11
     position:
       column: 3
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-8-11
-    position:
-      column: 8
       row: 14
     kind: decoration
     tileAnchor: center
@@ -1747,27 +1306,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-21-11
-    position:
-      column: 21
-      row: 11
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-22-11
-    position:
-      column: 22
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-23-11
-    position:
-      column: 23
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-28-11
     position:
       column: 28
@@ -1817,20 +1355,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-5-12
-    position:
-      column: 7
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-9-12
-    position:
-      column: 9
-      row: 12
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
   - id: granary-flats-10-12
     position:
       column: 10
@@ -1894,13 +1418,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-21-12
-    position:
-      column: 21
-      row: 12
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
   - id: granary-flats-22-12
     position:
       column: 22
@@ -1908,27 +1425,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-23-12
-    position:
-      column: 24
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-24-12
-    position:
-      column: 25
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-26-12
-    position:
-      column: 26
-      row: 12
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-27-12
     position:
       column: 27
@@ -1957,13 +1453,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-31-12
-    position:
-      column: 30
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
   - id: granary-flats-0-13
     position:
       column: 0
@@ -1971,13 +1460,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-5-13
-    position:
-      column: 5
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-9-13
     position:
       column: 9
@@ -1999,13 +1481,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-26-13
-    position:
-      column: 26
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
   - id: granary-flats-28-13
     position:
       column: 28
@@ -2013,13 +1488,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-stonewarm-dry-golden-grass-v1
-  - id: granary-flats-29-13
-    position:
-      column: 29
-      row: 13
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
   - id: granary-flats-30-13
     position:
       column: 30
@@ -2027,79 +1495,9 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-1-14
-    position:
-      column: 1
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-4-14
-    position:
-      column: 4
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-5-14
-    position:
-      column: 5
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-6-14
-    position:
-      column: 6
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-9-14
-    position:
-      column: 9
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
   - id: granary-flats-10-14
     position:
       column: 10
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-22-14
-    position:
-      column: 22
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-23-14
-    position:
-      column: 23
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
-  - id: granary-flats-25-14
-    position:
-      column: 25
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-29-14
-    position:
-      column: 29
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-30-14
-    position:
-      column: 30
       row: 14
     kind: decoration
     tileAnchor: center
@@ -2111,27 +1509,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-2-18
-    position:
-      column: 2
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
-  - id: granary-flats-4-18
-    position:
-      column: 4
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-7-18
-    position:
-      column: 7
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
   - id: granary-flats-8-18
     position:
       column: 8
@@ -2139,51 +1516,9 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-9-18
-    position:
-      column: 9
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
   - id: granary-flats-10-18
     position:
       column: 10
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-11-18
-    position:
-      column: 11
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-20-18
-    position:
-      column: 20
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-22-18
-    position:
-      column: 22
-      row: 17
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-24-18
-    position:
-      column: 24
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-25-18
-    position:
-      column: 25
       row: 18
     kind: decoration
     tileAnchor: center
@@ -2195,13 +1530,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-27-18
-    position:
-      column: 27
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
   - id: granary-flats-29-18
     position:
       column: 29
@@ -2216,20 +1544,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-2-19
-    position:
-      column: 2
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-3-19
-    position:
-      column: 3
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
   - id: granary-flats-4-19
     position:
       column: 4
@@ -2237,20 +1551,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-5-19
-    position:
-      column: 5
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
-  - id: granary-flats-6-19
-    position:
-      column: 6
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
   - id: granary-flats-7-19
     position:
       column: 8
@@ -2258,13 +1558,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-10-19
-    position:
-      column: 10
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
   - id: granary-flats-21-19
     position:
       column: 20
@@ -2279,20 +1572,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-26-19
-    position:
-      column: 26
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
-  - id: granary-flats-31-19
-    position:
-      column: 30
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
   - id: granary-flats-0-20
     position:
       column: 0
@@ -2335,20 +1614,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-7-20
-    position:
-      column: 9
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-8-20
-    position:
-      column: 9
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
   - id: granary-flats-9-20
     position:
       column: 9
@@ -2447,27 +1712,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-23-20
-    position:
-      column: 21
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-25-20
-    position:
-      column: 23
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-26-20
-    position:
-      column: 28
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-27-20
     position:
       column: 27
@@ -2496,13 +1740,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-31-20
-    position:
-      column: 30
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
   - id: granary-flats-0-21
     position:
       column: 0
@@ -2524,27 +1761,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-4-21
-    position:
-      column: 4
-      row: 17
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-10-21
-    position:
-      column: 10
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-11-21
-    position:
-      column: 11
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
   - id: granary-flats-14-21
     position:
       column: 14
@@ -2552,20 +1768,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-v1
-  - id: granary-flats-18-21
-    position:
-      column: 18
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-27-21
-    position:
-      column: 27
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-29-21
     position:
       column: 29
@@ -2601,13 +1803,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-9-22
-    position:
-      column: 9
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
   - id: granary-flats-10-22
     position:
       column: 10
@@ -2615,27 +1810,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-v1
-  - id: granary-flats-11-22
-    position:
-      column: 11
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-12-22
-    position:
-      column: 12
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-14-22
-    position:
-      column: 14
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
   - id: granary-flats-16-22
     position:
       column: 15
@@ -2643,27 +1817,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-17-22
-    position:
-      column: 17
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-18-22
-    position:
-      column: 19
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-22-22
-    position:
-      column: 21
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
   - id: granary-flats-23-22
     position:
       column: 21
@@ -2734,34 +1887,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-10-23
-    position:
-      column: 10
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-11-23
-    position:
-      column: 11
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-14-23
-    position:
-      column: 14
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-15-23
-    position:
-      column: 15
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
   - id: granary-flats-22-23
     position:
       column: 20
@@ -2839,13 +1964,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-5-24
-    position:
-      column: 0
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
   - id: granary-flats-9-24
     position:
       column: 9
@@ -2853,41 +1971,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-10-24
-    position:
-      column: 10
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-13-24
-    position:
-      column: 13
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-14-24
-    position:
-      column: 14
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-15-24
-    position:
-      column: 15
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-16-24
-    position:
-      column: 16
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
   - id: granary-flats-17-24
     position:
       column: 17
@@ -2895,20 +1978,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-v1
-  - id: granary-flats-18-24
-    position:
-      column: 18
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-26-24
-    position:
-      column: 27
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
   - id: granary-flats-28-24
     position:
       column: 28
@@ -2930,13 +1999,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-0-25
-    position:
-      column: 0
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
   - id: granary-flats-2-25
     position:
       column: 2
@@ -2958,27 +2020,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-5-25
-    position:
-      column: 10
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-8-25
-    position:
-      column: 10
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-9-25
-    position:
-      column: 9
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
   - id: granary-flats-12-25
     position:
       column: 12
@@ -2993,34 +2034,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-17-25
-    position:
-      column: 17
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-20-25
-    position:
-      column: 20
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-21-25
-    position:
-      column: 21
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-23-25
-    position:
-      column: 21
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-26-25
     position:
       column: 27
@@ -3028,13 +2041,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-27-25
-    position:
-      column: 27
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
   - id: granary-flats-28-25
     position:
       column: 28
@@ -3063,13 +2069,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-0-26
-    position:
-      column: 0
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
   - id: granary-flats-1-26
     position:
       column: 1
@@ -3091,20 +2090,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-8-26
-    position:
-      column: 11
-      row: 25
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-9-26
-    position:
-      column: 9
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-11-26
     position:
       column: 11
@@ -3112,13 +2097,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-v1
-  - id: granary-flats-12-26
-    position:
-      column: 12
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
   - id: granary-flats-13-26
     position:
       column: 13
@@ -3182,13 +2160,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-5-27
-    position:
-      column: 9
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-8-27
     position:
       column: 9
@@ -3196,76 +2167,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-9-27
-    position:
-      column: 9
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-11-27
-    position:
-      column: 11
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-16-27
-    position:
-      column: 16
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-18-27
-    position:
-      column: 18
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-19-27
-    position:
-      column: 19
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-20-27
-    position:
-      column: 20
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-21-27
-    position:
-      column: 21
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-23-27
-    position:
-      column: 21
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-26-27
-    position:
-      column: 26
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-27-27
-    position:
-      column: 27
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
   - id: granary-flats-28-27
     position:
       column: 28
@@ -3322,69 +2223,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-8-28
-    position:
-      column: 10
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-9-28
-    position:
-      column: 9
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-10-28
-    position:
-      column: 10
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-11-28
-    position:
-      column: 11
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-14-28
-    position:
-      column: 14
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-16-28
-    position:
-      column: 16
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-19-28
-    position:
-      column: 19
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-20-28
-    position:
-      column: 20
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-22-28
-    position:
-      column: 21
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
   - id: granary-flats-26-28
     position:
       column: 27
@@ -3392,13 +2230,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: town-grainstead-white-field-daisy-v1
-  - id: granary-flats-27-28
-    position:
-      column: 27
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
   - id: granary-flats-28-28
     position:
       column: 28
@@ -3434,27 +2265,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-4-29
-    position:
-      column: 0
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-5-29
-    position:
-      column: 0
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-8-29
-    position:
-      column: 12
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
   - id: granary-flats-10-29
     position:
       column: 10
@@ -3462,13 +2272,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-v1
-  - id: granary-flats-11-29
-    position:
-      column: 11
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
   - id: granary-flats-13-29
     position:
       column: 13
@@ -3476,20 +2279,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-v1
-  - id: granary-flats-14-29
-    position:
-      column: 14
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-20-29
-    position:
-      column: 20
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
   - id: granary-flats-22-29
     position:
       column: 20
@@ -3553,41 +2342,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-6-30
-    position:
-      column: 12
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-7-30
-    position:
-      column: 12
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-8-30
-    position:
-      column: 8
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-river-sedge-tuft-v1
-  - id: granary-flats-11-30
-    position:
-      column: 11
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-12-30
-    position:
-      column: 12
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
   - id: granary-flats-13-30
     position:
       column: 13
@@ -3595,20 +2349,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-v1
-  - id: granary-flats-15-30
-    position:
-      column: 15
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-16-30
-    position:
-      column: 16
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
   - id: granary-flats-18-30
     position:
       column: 18
@@ -3616,20 +2356,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-v1
-  - id: granary-flats-19-30
-    position:
-      column: 19
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-21-30
-    position:
-      column: 21
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
   - id: granary-flats-22-30
     position:
       column: 22
@@ -3637,13 +2363,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-24-30
-    position:
-      column: 19
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-white-field-daisy-v1
   - id: granary-flats-28-30
     position:
       column: 28
@@ -3665,55 +2384,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: granary-flats-ripe-wheat-v1
-  - id: granary-flats-31-30
-    position:
-      column: 28
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
-  - id: granary-flats-0-31
-    position:
-      column: 0
-      row: 22
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
-  - id: granary-flats-2-31
-    position:
-      column: 11
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-3-31
-    position:
-      column: 13
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-3-v1
-  - id: granary-flats-4-31
-    position:
-      column: 13
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-6-31
-    position:
-      column: 14
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-reedhaven-reed-young-v1
-  - id: granary-flats-8-31
-    position:
-      column: 14
-      row: 27
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-golden-meadow-tuft-v1
   - id: granary-flats-11-31
     position:
       column: 15
@@ -3721,27 +2391,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-12-31
-    position:
-      column: 15
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-v1
-  - id: granary-flats-13-31
-    position:
-      column: 16
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-2-v1
-  - id: granary-flats-14-31
-    position:
-      column: 17
-      row: 30
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
   - id: granary-flats-15-31
     position:
       column: 17
@@ -3749,34 +2398,6 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-v1
-  - id: granary-flats-16-31
-    position:
-      column: 18
-      row: 29
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-straw-sheaves-v1
-  - id: granary-flats-23-31
-    position:
-      column: 18
-      row: 28
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-stonewarm-dry-golden-grass-v1
-  - id: granary-flats-24-31
-    position:
-      column: 19
-      row: 26
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-field-clover-cushion-v1
-  - id: granary-flats-27-31
-    position:
-      column: 20
-      row: 24
-    kind: decoration
-    tileAnchor: center
-    textureKey: dry-grass-variant-1-v1
   - id: granary-flats-29-31
     position:
       column: 19
@@ -3784,31 +2405,94 @@ data:
     kind: decoration
     tileAnchor: center
     textureKey: dry-grass-variant-1-v1
-  - id: granary-flats-work-22-19
+  - id: granary-remodel-339
     position:
-      column: 22
-      row: 19
+      column: 12
+      row: 23
     kind: decoration
     tileAnchor: center
     textureKey: town-harvest-cart-v1
-  - id: granary-flats-work-24-19
+  - id: granary-remodel-340
     position:
-      column: 24
-      row: 17
+      column: 15
+      row: 24
     kind: decoration
     tileAnchor: center
     textureKey: town-grain-sacks-v1
-  - id: granary-flats-work-19-21
+  - id: granary-remodel-341
+    position:
+      column: 18
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-threshing-bench-v1
+  - id: granary-remodel-342
+    position:
+      column: 18
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-grain-drying-v1
+  - id: granary-remodel-343
+    position:
+      column: 11
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: granary-remodel-344
+    position:
+      column: 12
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: granary-remodel-345
+    position:
+      column: 13
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: granary-remodel-346
+    position:
+      column: 11
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: granary-remodel-347
+    position:
+      column: 12
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: granary-remodel-348
+    position:
+      column: 14
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: granary-remodel-349
+    position:
+      column: 17
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: granary-remodel-350
+    position:
+      column: 18
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-straw-sheaves-v1
+  - id: granary-remodel-351
     position:
       column: 19
       row: 21
     kind: decoration
     tileAnchor: center
-    textureKey: town-threshing-bench-v1
-  - id: granary-flats-work-17-23
-    position:
-      column: 17
-      row: 23
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-grainstead-grain-drying-v1
+    textureKey: town-straw-sheaves-v1

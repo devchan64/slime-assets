@@ -653,7 +653,7 @@ assets:
 - managementId: config.field-tiles.grove
   version: retire-stump-v1
   path: assets/maps/field_tiles/grove.yaml
-  sha256: 4d7e21cad1238bb93a804130c32a7b07b41a1f8a6e78d68ba3262d53bde3e621
+  sha256: aebf3f04124e1c635e5ffc919db7842201ea071064f70a13d8e29ecafac01a2a
   source:
     repository: slime-backend
     path: config/field_tiles/grove.yaml
@@ -1677,7 +1677,7 @@ assets:
 - managementId: config.field-tiles.granary-flats
   version: shared-material-codes-v1-granary-v1-wheat-v1
   path: assets/maps/field_tiles/granary-flats.yaml
-  sha256: 9252f9b1487f3967a0da8a1b7798847d8f67a77f3e891209d6452875bfabbb0e
+  sha256: 29a42477631f2f0409360e6045befc22e21348d71263336b15d3f198f39c26e1
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/granary-flats.yaml
@@ -1885,7 +1885,7 @@ assets:
 - managementId: config.terrain.maps.granary-flats
   version: v1-granary-v1
   path: assets/maps/terrain/maps/granary-flats.yaml
-  sha256: af8f486ec1abc0b635887904e3464c24dc34c37e7bd184c2e97556aecc1ff1ff
+  sha256: c4428b47f5759ff34160924a33cb658e622ce26a35528ed56170dd96165af68e
   source:
     repository: slime-assets
     path: assets/maps/terrain/maps/granary-flats.yaml
@@ -9450,3 +9450,14 @@ assets:
     operation: 사용자 승인 · 짠물둔덕 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 98.64
+- managementId: image.scenery.bridge-farm-timber-components-v1
+  version: v1
+  path: assets/buildings/bridge-farm-timber-components-v1.png
+  name: 농수로용 낮은 직선 목교 부품
+  width: 512
+  height: 512
+  sha256: 727d5f52e01a640ce79c3f25c9124d02942e36fc43da8fbf8446264ad440a645
+  source:
+    repository: codex-imagegen
+    artifact: exec-1d73db30-04d6-4afd-b1ca-2ee998b52376.png
+    processing: 투명 RGBA 원본; 상판·직선 보·낮은 난간·측면 판재 부품 시트
