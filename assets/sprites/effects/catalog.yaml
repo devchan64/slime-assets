@@ -2,18 +2,263 @@ schema_version: 1
 category: effects
 name: 이펙트
 effects:
+- id: firefly-swarm-v1
+  name: 반딧불 무리
+  rows: 2
+  image: assets/sprites/effects/terrain/firefly-swarm-sheet-v1.png
+  frames: 8
+  columns: 4
+  renderer: swarm
+  alignment:
+    key: safe-terrain-firefly-swarm
+    alpha: 1
+    frames:
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    target:
+    - 0
+    - 0
+    - 1
+    - 1
+    texture: fireflies
+- id: glow-mushroom-cluster-v1
+  name: 버섯 군락 발광
+  rows: 2
+  image: assets/sprites/effects/terrain/glow-mushroom-cluster-sheet-v1.png
+  frames: 8
+  columns: 4
+  renderer: billboard-glow
+  alignment:
+    key: safe-terrain-glow-mushroom-cluster
+    alpha: 0.5
+    frames:
+    - - 0.13211
+      - 0.34722
+      - 0.84037
+      - 0.84722
+    - - 0.12661
+      - 0.33889
+      - 0.8422
+      - 0.84722
+    - - 0.11905
+      - 0.33611
+      - 0.84066
+      - 0.85278
+    - - 0.10826
+      - 0.32778
+      - 0.84404
+      - 0.85278
+    - - 0.1211
+      - 0.33518
+      - 0.8422
+      - 0.85042
+    - - 0.13028
+      - 0.34349
+      - 0.84037
+      - 0.84765
+    - - 0.13187
+      - 0.34626
+      - 0.83883
+      - 0.84488
+    - - 0.13211
+      - 0.34903
+      - 0.82385
+      - 0.84211
+    target:
+    - 0.02
+    - 0.29
+    - 0.98
+    - 0.8
+    texture: mushroom-cluster-v1
+- id: glow-mushroom-group-v1
+  name: 버섯 무리 발광
+  rows: 2
+  image: assets/sprites/effects/terrain/glow-mushroom-group-sheet-v1.png
+  frames: 8
+  columns: 4
+  renderer: billboard-glow
+  alignment:
+    key: safe-terrain-glow-mushroom-group
+    alpha: 0.5
+    frames:
+    - - 0.15282
+      - 0.45833
+      - 0.93566
+      - 0.79924
+    - - 0.13673
+      - 0.45265
+      - 0.93834
+      - 0.80492
+    - - 0.13172
+      - 0.44318
+      - 0.94086
+      - 0.80682
+    - - 0.12064
+      - 0.43371
+      - 0.94102
+      - 0.8125
+    - - 0.13673
+      - 0.34725
+      - 0.94102
+      - 0.72296
+    - - 0.13941
+      - 0.35484
+      - 0.93834
+      - 0.71537
+    - - 0.14247
+      - 0.37002
+      - 0.93817
+      - 0.71537
+    - - 0.14477
+      - 0.36812
+      - 0.93834
+      - 0.71347
+    target:
+    - 0.03
+    - 0.28
+    - 0.97
+    - 0.78
+    texture: mushroom-variant-3-v1
+- id: glow-mushroom-single-v1
+  name: 버섯 단독 발광
+  rows: 2
+  image: assets/sprites/effects/terrain/glow-mushroom-single-sheet-v1.png
+  frames: 8
+  columns: 4
+  renderer: billboard-glow
+  alignment:
+    key: safe-terrain-glow-mushroom-single
+    alpha: 0.65
+    frames:
+    - - 0.09711
+      - 0.39655
+      - 0.92355
+      - 0.62315
+    - - 0.08247
+      - 0.39655
+      - 0.91753
+      - 0.62562
+    - - 0.06186
+      - 0.39655
+      - 0.90515
+      - 0.67488
+    - - 0.04752
+      - 0.39655
+      - 0.90702
+      - 0.69951
+    - - 0.09298
+      - 0.33498
+      - 0.93182
+      - 0.62562
+    - - 0.08454
+      - 0.33744
+      - 0.91546
+      - 0.60099
+    - - 0.06804
+      - 0.33744
+      - 0.89897
+      - 0.57143
+    - - 0.05579
+      - 0.34236
+      - 0.88843
+      - 0.57143
+    target:
+    - 0.03
+    - 0.34
+    - 0.98
+    - 0.61
+    texture: mushroom-variant-2-v1
+- id: moth-swarm-v1
+  name: 나방 무리
+  rows: 2
+  image: assets/sprites/effects/terrain/moth-swarm-sheet-v1.png
+  frames: 8
+  columns: 4
+  renderer: swarm
+  alignment:
+    key: safe-terrain-moth-swarm
+    alpha: 1
+    frames:
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 0
+      - 1
+      - 1
+    target:
+    - 0
+    - 0
+    - 1
+    - 1
+    texture: moths
 - id: safe-barrier-aura-v2
   name: 결계탑 오라
-  image: assets/sprites/effects/safe-barrier/safe-barrier-aura-v2-source.png
-  renderer: safe-barrier-aura
-  columns: 4
   rows: 2
+  image: assets/sprites/effects/safe-barrier/safe-barrier-aura-v2-source.png
   frames: 8
+  columns: 4
+  renderer: safe-barrier-aura
 - id: waypoint-guide-v3
   name: 웨이포인트 안내
-  image: assets/sprites/effects/waypoint/waypoint-guide-v3.png
-  animation: assets/sprites/effects/waypoint/waypoint-guide-v3.animation.json
-  renderer: waypoint-animation
-  columns: 3
   rows: 2
+  image: assets/sprites/effects/waypoint/waypoint-guide-v3.png
   frames: 6
+  columns: 3
+  renderer: waypoint-animation
+  animation: assets/sprites/effects/waypoint/waypoint-guide-v3.animation.json

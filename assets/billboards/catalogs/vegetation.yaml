@@ -617,8 +617,8 @@ billboards:
     displayHeight: 84.12
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
@@ -682,8 +682,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.71
+    shadowScaleY: 0.71
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 38.0
@@ -744,8 +744,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.81
+    shadowScaleY: 0.81
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 43.82
@@ -804,8 +804,8 @@ billboards:
     displayHeight: 92.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 0.61
     shadowScaleY: 0.61
     shadowCoordinateVersion: 2
@@ -932,8 +932,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.99
+    shadowScaleY: 0.99
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 62.78
@@ -992,10 +992,10 @@ billboards:
     displayHeight: 67.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 33.845
@@ -1054,8 +1054,8 @@ billboards:
     displayHeight: 82.03
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
@@ -1109,16 +1109,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.bramble-variant-2-v1
     anchorX: 0.02
-    anchorY: -0.2
+    anchorY: -0.6
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 102.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.1
+    shadowScaleX: 0.64
+    shadowScaleY: 0.64
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 51.0
@@ -1176,10 +1176,10 @@ billboards:
     displayHeight: 116.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.87
+    shadowScaleY: 0.87
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 58.0
@@ -1238,10 +1238,10 @@ billboards:
     displayHeight: 65.63
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.15
-    shadowOffsetRow: -0.15
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: -0.1
+    shadowOffsetRow: -0.1
+    shadowScaleX: 0.76
+    shadowScaleY: 0.76
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 32.815
@@ -1304,8 +1304,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.71
+    shadowScaleY: 0.71
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 43.5
@@ -1359,17 +1359,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.cinder-path-split-stump-v1
-    anchorX: 0.01
-    anchorY: -0.2
+    anchorX: 0.0
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 94.53
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.74
+    shadowScaleY: 0.74
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 47.265
@@ -1426,18 +1426,18 @@ billboards:
     groundFootprintColumns: 2
     groundFootprintRows: 2
     displayHeight: 122.03
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.05
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.81
+    shadowScaleY: 0.81
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 61.015
     size_variant: 기본 변형
     occupied_tile_count: 4
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: dry-branches-v1
   family: dry-branches
   asset_ref:
@@ -1493,8 +1493,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.51
+    shadowScaleY: 0.91
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 42.89
@@ -1548,17 +1548,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-shrub-variant-1-v1
-    anchorX: 0.03
-    anchorY: -0.2
+    anchorX: 0.0
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 135.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.64
+    shadowScaleY: 0.64
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 67.905
@@ -1610,17 +1610,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-shrub-variant-2-v1
-    anchorX: 0.01
-    anchorY: -0.2
+    anchorX: 0.0
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 93.53
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.05
+    shadowScaleY: 1.05
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 46.765
@@ -1673,16 +1673,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.dry-shrub-variant-3-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.5
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 131.97
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.67
+    shadowScaleY: 0.67
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 65.985
@@ -1735,16 +1735,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-apples-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 54.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.2
-    shadowOffsetRow: 0.2
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.63
+    shadowScaleY: 0.63
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 27.345
@@ -2008,23 +2008,23 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-canopy-giant-hollow-trunk-v1
-    anchorX: -0.54
-    anchorY: 0.1
-    groundFootprintColumns: 4
+    anchorX: -0.2
+    anchorY: 0.2
+    groundFootprintColumns: 3
     groundFootprintRows: 1
-    displayHeight: 265.0
-    billboardBlocksMovement: false
+    displayHeight: 236.0
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.1
+    shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 1.16
+    shadowScaleY: 1.16
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-    outdoorDisplayHeight: 132.5
+    outdoorDisplayHeight: 118.0
     size_variant: 기본 변형
-    occupied_tile_count: 4
-    movement: 통행 가능
+    occupied_tile_count: 3
+    movement: 내부 타일 통행 불가
 - texture_key: fallen-canopy-whole-fallen-tree-v1
   family: fallen-canopy-whole-fallen-tree-v1
   asset_ref:
@@ -2068,7 +2068,7 @@ billboards:
     groundFootprintColumns: 1
     groundFootprintRows: 4
     displayHeight: 202.0
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
@@ -2079,7 +2079,7 @@ billboards:
     outdoorDisplayHeight: 101.0
     size_variant: 기본 변형
     occupied_tile_count: 4
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: fallen-leaves-v1
   family: leaves
   asset_ref:
@@ -2128,16 +2128,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.fallen-leaves-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 43.75
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.2
-    shadowOffsetRow: 0.2
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.5
+    shadowScaleY: 0.5
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 21.875
@@ -2252,16 +2252,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.leaves-variant-1-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 42.63
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.55
+    shadowScaleY: 0.55
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 21.315
@@ -2313,16 +2313,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.leaves-variant-2-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.5
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 50.63
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.54
+    shadowScaleY: 0.54
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 25.315
@@ -2374,16 +2374,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.leaves-variant-3-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 50.48
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.63
+    shadowScaleY: 0.63
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 25.24
@@ -2437,22 +2437,22 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.log-variant-1-v1
     anchorX: -0.02
-    anchorY: -0.27
+    anchorY: -0.2
     groundFootprintColumns: 1
     groundFootprintRows: 2
     displayHeight: 103.69
-    billboardBlocksMovement: false
+    billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.71
+    shadowScaleY: 0.71
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 51.845
     size_variant: 기본 변형
     occupied_tile_count: 2
-    movement: 통행 가능
+    movement: 내부 타일 통행 불가
 - texture_key: log-variant-2-v1
   family: log
   asset_ref:
@@ -2500,16 +2500,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.log-variant-2-v1
     anchorX: 0.13
-    anchorY: -0.2
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 54.38
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.84
+    shadowScaleY: 0.84
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 27.19
@@ -2561,16 +2561,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.log-variant-3-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 86.25
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.65
+    shadowScaleY: 0.65
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 43.125
@@ -2627,16 +2627,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.mushroom-cluster-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 88.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.55
+    shadowScaleY: 0.55
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 44.0
@@ -2693,16 +2693,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.mushroom-variant-2-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 89.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.79
+    shadowScaleY: 0.79
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 44.5
@@ -2757,16 +2757,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.mushroom-variant-3-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 86.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.57
+    shadowScaleY: 0.57
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 43.0
@@ -2829,8 +2829,8 @@ billboards:
     billboardAnchorMode: tile-intersection
     shadowOffsetColumn: 0.0
     shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 40.625
@@ -2887,16 +2887,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-chunky-dryshrub-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 114.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.86
+    shadowScaleY: 0.86
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 57.0
@@ -2949,16 +2949,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-chunky-mushroom-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 95.34
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.73
+    shadowScaleY: 0.73
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 47.67
@@ -3017,16 +3017,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.orchard-chunky-shrub-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 105.94
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.84
+    shadowScaleY: 0.84
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 52.97
@@ -3084,16 +3084,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.quarry-crevice-plants-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 80.27
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.74
+    shadowScaleY: 0.74
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 40.135
@@ -3150,16 +3150,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sapling-variant-1-v1
     anchorX: 0.0
-    anchorY: 0.22
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 151.88
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 75.94
@@ -3214,16 +3214,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sapling-variant-2-v1
     anchorX: -0.02
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 154.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.62
+    shadowScaleY: 0.62
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 77.345
@@ -3275,16 +3275,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.sapling-variant-3-v1
     anchorX: 0.05
-    anchorY: 0.22
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 136.41
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.87
+    shadowScaleY: 0.87
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 68.205
@@ -3337,16 +3337,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.stump-variant-1-v1
     anchorX: 0.04
-    anchorY: 0.22
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 79.22
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.6
+    shadowScaleY: 0.6
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 39.61
@@ -3398,16 +3398,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.stump-variant-2-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 81.25
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.86
+    shadowScaleY: 0.86
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 40.625
@@ -3459,16 +3459,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.stump-variant-3-v1
     anchorX: -0.01
-    anchorY: 0.21
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 104.61
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.39
+    shadowScaleY: 0.39
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 52.305
@@ -3521,15 +3521,15 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-green-field-hedge-v1
-    anchorX: 0.06
+    anchorX: 0.0
     anchorY: -0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 137.11
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 1.0
     shadowScaleY: 1.0
     shadowCoordinateVersion: 2
@@ -3587,16 +3587,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-hazel-leaf-shrub-v1
     anchorX: -0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 132.42
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.04
+    shadowScaleY: 1.04
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 66.21
@@ -3650,16 +3650,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-grainstead-wild-raspberry-bush-v1
     anchorX: -0.01
-    anchorY: -0.2
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 145.51
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.08
+    shadowScaleY: 1.08
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 72.755
@@ -3720,16 +3720,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-herb-planter-v1
     anchorX: 0.0
-    anchorY: 0.35
+    anchorY: -0.1
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 99.61
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.79
+    shadowScaleY: 0.79
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 49.805
@@ -3783,16 +3783,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-red-berry-bush-v1
     anchorX: -0.01
-    anchorY: -0.2
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 133.59
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.04
+    shadowScaleY: 1.04
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 66.795
@@ -3846,16 +3846,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-round-rose-shrub-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 139.45
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.03
+    shadowScaleY: 1.03
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 69.725
@@ -3909,16 +3909,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-iseulon-white-bloom-hedge-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.5
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 121.88
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.05
+    shadowScaleY: 1.05
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 60.94
@@ -3971,17 +3971,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-water-mint-bush-v1
-    anchorX: -0.02
-    anchorY: -0.2
+    anchorX: 0.0
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 107.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.87
+    shadowScaleY: 0.87
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 53.905
@@ -4035,16 +4035,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-willow-leaf-shrub-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 140.63
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.07
+    shadowScaleY: 1.07
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 70.315
@@ -4097,17 +4097,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-coastal-silver-shrub-v1
-    anchorX: -0.04
-    anchorY: -0.2
+    anchorX: 0.0
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 139.45
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.07
+    shadowScaleY: 1.07
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 69.725
@@ -4161,16 +4161,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-pale-coastal-heather-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 123.0
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.92
+    shadowScaleY: 0.92
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 61.5
@@ -4224,16 +4224,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-saltford-thick-leaf-bush-v1
     anchorX: 0.0
-    anchorY: -0.2
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 109.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.83
+    shadowScaleY: 0.83
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 54.845
@@ -4286,17 +4286,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-copper-leaf-bush-v1
-    anchorX: -0.01
-    anchorY: -0.2
+    anchorX: 0.0
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 134.77
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.93
+    shadowScaleY: 0.93
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 67.385
@@ -4349,17 +4349,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-rust-heather-bush-v1
-    anchorX: -0.03
-    anchorY: -0.2
+    anchorX: 0.0
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 111.56
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 55.78
@@ -4416,17 +4416,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-silver-sage-shrub-v1
-    anchorX: 0.02
-    anchorY: -0.2
+    anchorX: 0.0
+    anchorY: -0.4
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 104.06
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 52.03
@@ -4479,17 +4479,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-stonewarm-sturdy-juniper-shrub-v1
-    anchorX: -0.01
-    anchorY: -0.2
+    anchorX: 0.0
+    anchorY: -0.3
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 113.44
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.85
+    shadowScaleY: 0.85
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 56.72
@@ -4541,17 +4541,17 @@ billboards:
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.town-vegetable-planter-v1
-    anchorX: 0.02
-    anchorY: 0.34
+    anchorX: 0.0
+    anchorY: -0.2
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 79.69
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.78
+    shadowScaleY: 0.78
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 39.845
@@ -4610,16 +4610,16 @@ billboards:
     vertical_classification: top
     source: assets/maps/sprite-display-properties.yaml#data.young-sapling-v1
     anchorX: 0.01
-    anchorY: -0.2
+    anchorY: -0.5
     groundFootprintColumns: 1
     groundFootprintRows: 1
     displayHeight: 107.81
     billboardBlocksMovement: false
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.3
-    shadowOffsetRow: 0.3
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.52
+    shadowScaleY: 0.52
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
     outdoorDisplayHeight: 53.905
