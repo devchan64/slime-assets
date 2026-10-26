@@ -1530,16 +1530,6 @@ assets:
     repository: slime-backend
     path: config/map_names/dry-creek.yaml
     operation: 맵 배치·통행 원본 이전
-- managementId: config.map-names.fallen-canopy
-  version: v1
-  path: assets/maps/map_names/fallen-canopy.yaml
-  sha256: 749239f78a5dbe9a3d1ea06b195531c1678c6a8ce2ea2600423f3883d7d4ad8a
-  source:
-    repository: slime-backend
-    path: config/map_names/fallen-canopy.yaml
-    operation: 맵 배치·통행 원본 이전
-    lifecycle_status: retired
-    retirement_reason: '사용자 요청: 역사적 세계관에 부적합하여 월드맵에서 폐기. 원본 보관.'
 - managementId: config.map-names.grove
   version: v1
   path: assets/maps/map_names/grove.yaml
