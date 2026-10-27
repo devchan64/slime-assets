@@ -4713,9 +4713,9 @@ assets:
 - managementId: image.scenery.mushroom-variant-3-v1
   version: v1
   path: assets/billboards/mushroom-variant-3-v1.png
-  width: 77
-  height: 86
-  sha256: 9e43f727b8ea1622abd2a806aba50ae362a62082400791fa411bc488b744b53e
+  width: 512
+  height: 253
+  sha256: 8024a3049573ad06bee5aec74973c97d36dc4024fe1a7fd3bea7452ffdbec3e5
   source:
     repository: codex-imagegen
     artifact: exec-e904a7ff-8326-4038-a04c-914aa28b2646.png
@@ -9039,7 +9039,7 @@ assets:
 - managementId: catalog.effects
   version: v1
   path: assets/sprites/effects/catalog.yaml
-  sha256: d70b01762867c63f630a671161f4fdca7aecba9a2f240f691725c4e98db9e933
+  sha256: 5821d72a70ef4d05309d2495bd3d4215c1bd60577e701df019d21e178d63e7f1
   source:
     operation: 웨이포인트·결계탑 오라를 빌보드와 분리
 - managementId: audio.bgm.mist-lake.vocal.mp3
@@ -9660,9 +9660,9 @@ assets:
   version: source-v1
   path: assets/sprites/effects/terrain/glow-mushroom-group-sheet-v1.png
   name: 버섯 참조 발광 group 8프레임
-  width: 1491
-  height: 1055
-  sha256: 646b22def5b86b4d561d99884823e69e93e07d1338da3e7c725882aaa027cb54
+  width: 2048
+  height: 1024
+  sha256: a95044dde702557edf0724838811aeb78fdb15bd15b0d2f9df19fb9e49cb0524
   source:
     repository: codex-imagegen
     artifact: exec-6d78f2cd-d061-4a9e-9d9f-6971fb1514b7.png
