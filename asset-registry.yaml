@@ -669,7 +669,7 @@ assets:
 - managementId: config.field-tiles.lantern-wood
   version: retire-stump-v1
   path: assets/maps/field_tiles/lantern-wood.yaml
-  sha256: 73242ed70a80ff7129bff0407da85453768de784f5671e5975e802abcd82ca65
+  sha256: 96595f079f9294e0e885e0cbdd71eb76cb4f8883d36c913803b6bab17666c516
   source:
     repository: slime-backend
     path: config/field_tiles/lantern-wood.yaml
@@ -1219,7 +1219,7 @@ assets:
 - managementId: config.terrain.maps.lantern-wood
   version: v1
   path: assets/maps/terrain/maps/lantern-wood.yaml
-  sha256: f0df0b81dead8e85f2f868be7c7f9d70252709725dd03a91f7333b4a226963b0
+  sha256: 5b10cd8c293b345cadb0af7f642bf02cc5549d22c399e6c6ab84a76918c90d17
   source:
     repository: slime-backend
     path: config/terrain/maps/lantern-wood.yaml
@@ -1653,7 +1653,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3-grainstead-v19-billboard-blocking-v1
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: b54ce3edc746c0e361e0729b7d94fed7013af68d613f43cadd99739fd144172e
+  sha256: 3677c80aa0750f744c028267a54a19214c08117fda65a9e301022d2d1f5eda72
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -9039,7 +9039,7 @@ assets:
 - managementId: catalog.effects
   version: v1
   path: assets/sprites/effects/catalog.yaml
-  sha256: 5821d72a70ef4d05309d2495bd3d4215c1bd60577e701df019d21e178d63e7f1
+  sha256: d1a55d32fbffe80d77b1edaa641fd20fe67c8f8bb53e22b5ca7bd56cca12f8c4
   source:
     operation: 웨이포인트·결계탑 오라를 빌보드와 분리
 - managementId: audio.bgm.mist-lake.vocal.mp3
@@ -9500,10 +9500,10 @@ assets:
   name: 반딧불 무리 8프레임 시트
   width: 1774
   height: 887
-  sha256: 82701191fd787000459e7bb410320d4719f09e66dcbf8ac5c115124b29e83b50
+  sha256: 5613408c992483707bc1ed296228d3deab8f9fd0a7a6b52f2a7a094c2b29183e
   source:
     repository: slime-workflow
-    path: .tmp/2026-10-26_lantern-candidates/firefly-swarm-sheet-v2.png
+    path: .tmp/2026-10-28_firefly-redesign/firefly-swarm-sheet.png
     operation: 내장 imagegen 생성·사용자 적용 승인
 - managementId: image.effects.terrain.moth-swarm-v1
   version: source-v1
@@ -9511,10 +9511,10 @@ assets:
   name: 나방 무리 8프레임 시트
   width: 1774
   height: 887
-  sha256: c1845941effd55eb8eecf1e6e98d8562e2ab0bf8c901f231e419d7264a998592
+  sha256: 8a0cc4f84f9468989dd88c34a4be92e9ecd5302c1a4aaa83935b394f2e637387
   source:
     repository: slime-workflow
-    path: .tmp/2026-10-26_lantern-candidates/moth-swarm-sheet.png
+    path: .tmp/2026-10-28_moth-redesign/moth-swarm-glow-sheet.png
     operation: 내장 imagegen 생성·사용자 적용 승인
 - managementId: audio.bgm.old-boundary-gate.vocal.mp3
   version: v1
@@ -9662,7 +9662,7 @@ assets:
   name: 버섯 참조 발광 group 8프레임
   width: 2048
   height: 1024
-  sha256: a95044dde702557edf0724838811aeb78fdb15bd15b0d2f9df19fb9e49cb0524
+  sha256: e8e40188be507d1798173acc16d9503f6edc8859ff9afdb40063525c8e40d03f
   source:
     repository: codex-imagegen
     artifact: exec-6d78f2cd-d061-4a9e-9d9f-6971fb1514b7.png
