@@ -35,651 +35,651 @@ data:
   - gggggggggggggggvcccmgggggggggggg
   objects:
   - id: ward-tower
-    kind: ward-tower
     position:
       column: 16
       row: 16
+    kind: ward-tower
   - id: old-boundary-masonry-5
-    kind: decoration
-    textureKey: field-moss-clearing-boundary-stone-size-large-v1
-    tileAnchor: center
     position:
       column: 12
       row: 8
-  - id: old-boundary-masonry-6
     kind: decoration
-    textureKey: field-moss-clearing-boundary-stone-size-large-v1
     tileAnchor: center
+    textureKey: field-moss-clearing-boundary-stone-size-large-v1
+  - id: old-boundary-masonry-6
     position:
       column: 19
       row: 8
-  - id: old-boundary-masonry-9
     kind: decoration
-    textureKey: field-moss-clearing-boundary-stone-size-large-v1
     tileAnchor: center
+    textureKey: field-moss-clearing-boundary-stone-size-large-v1
+  - id: old-boundary-masonry-9
     position:
       column: 12
       row: 23
-  - id: old-boundary-gate-pillar-left
     kind: decoration
-    textureKey: old-boundary-gate-pillar-left-v1
     tileAnchor: center
+    textureKey: field-moss-clearing-boundary-stone-size-large-v1
+  - id: old-boundary-gate-pillar-left
     position:
       column: 12
       row: 12
-  - id: old-boundary-gate-pillar-right
     kind: decoration
-    textureKey: old-boundary-gate-pillar-right-v1
     tileAnchor: center
+    textureKey: old-boundary-gate-pillar-left-v1
+  - id: old-boundary-gate-pillar-right
     position:
       column: 18
       row: 12
-  - id: boundary-collapse-stone-1
     kind: decoration
-    textureKey: quarry-cut-blocks-v1
     tileAnchor: center
+    textureKey: old-boundary-gate-pillar-right-v1
+  - id: boundary-collapse-stone-1
     position:
       column: 8
       row: 12
-  - id: boundary-collapse-stone-2
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: boundary-collapse-stone-2
     position:
       column: 9
-      row: 12
-  - id: boundary-collapse-stone-3
+      row: 11
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: boundary-collapse-stone-3
     position:
       column: 10
       row: 12
-  - id: boundary-collapse-stone-4
     kind: decoration
-    textureKey: quarry-cut-blocks-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: boundary-collapse-stone-4
     position:
       column: 10
       row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
   - id: boundary-collapse-stone-5
-    kind: decoration
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
     position:
-      column: 11
-      row: 14
-  - id: boundary-collapse-stone-6
+      column: 12
+      row: 15
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: boundary-collapse-stone-6
     position:
       column: 21
       row: 12
-  - id: boundary-collapse-stone-7
     kind: decoration
-    textureKey: quarry-cut-blocks-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: boundary-collapse-stone-7
     position:
       column: 22
       row: 12
-  - id: boundary-collapse-stone-8
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
-    position:
-      column: 23
-      row: 12
-  - id: boundary-collapse-stone-9
-    kind: decoration
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
-    position:
-      column: 23
-      row: 13
-  - id: boundary-collapse-stone-10
-    kind: decoration
     textureKey: quarry-cut-blocks-v1
+  - id: boundary-collapse-stone-8
+    position:
+      column: 24
+      row: 12
+    kind: decoration
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: boundary-collapse-stone-9
+    position:
+      column: 25
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: boundary-collapse-stone-10
     position:
       column: 24
       row: 14
-  - id: boundary-collapse-stone-11
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: boundary-collapse-stone-11
     position:
       column: 6
       row: 25
-  - id: boundary-collapse-stone-12
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: boundary-collapse-stone-12
     position:
       column: 8
       row: 25
-  - id: boundary-reclaimed-plants-1
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: boundary-reclaimed-plants-1
     position:
       column: 6
       row: 8
-  - id: boundary-reclaimed-plants-2
     kind: decoration
-    textureKey: grass-clump-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: boundary-reclaimed-plants-2
     position:
       column: 8
       row: 7
-  - id: boundary-reclaimed-plants-3
     kind: decoration
-    textureKey: bramble-clump-v1
     tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: boundary-reclaimed-plants-3
     position:
       column: 3
       row: 12
-  - id: boundary-reclaimed-plants-4
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: bramble-clump-v1
+  - id: boundary-reclaimed-plants-4
     position:
       column: 7
       row: 14
-  - id: boundary-reclaimed-plants-5
     kind: decoration
-    textureKey: grass-clump-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: boundary-reclaimed-plants-5
     position:
       column: 8
       row: 15
-  - id: boundary-reclaimed-plants-6
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: boundary-reclaimed-plants-6
     position:
       column: 25
       row: 7
-  - id: boundary-reclaimed-plants-7
     kind: decoration
-    textureKey: grass-clump-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: boundary-reclaimed-plants-7
     position:
       column: 26
       row: 12
-  - id: boundary-reclaimed-plants-8
     kind: decoration
-    textureKey: bramble-clump-v1
     tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: boundary-reclaimed-plants-8
     position:
       column: 28
       row: 14
-  - id: boundary-reclaimed-plants-9
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: bramble-clump-v1
+  - id: boundary-reclaimed-plants-9
     position:
       column: 25
       row: 16
-  - id: boundary-reclaimed-plants-10
     kind: decoration
-    textureKey: grass-clump-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: boundary-reclaimed-plants-10
     position:
       column: 10
       row: 25
-  - id: boundary-reclaimed-plants-11
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: boundary-reclaimed-plants-11
     position:
       column: 7
       row: 26
-  - id: boundary-reclaimed-plants-12
     kind: decoration
-    textureKey: bramble-clump-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: boundary-reclaimed-plants-12
     position:
       column: 5
       row: 27
-  - id: boundary-reclaimed-plants-13
     kind: decoration
-    textureKey: grass-clump-v1
     tileAnchor: center
+    textureKey: bramble-clump-v1
+  - id: boundary-reclaimed-plants-13
     position:
       column: 13
       row: 20
-  - id: boundary-reclaimed-plants-14
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: boundary-reclaimed-plants-14
     position:
       column: 18
       row: 24
-  - id: gate-hillside-detail-1
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: gate-hillside-detail-1
     position:
       column: 6
       row: 12
-  - id: gate-hillside-detail-2
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-hillside-detail-2
     position:
       column: 6
       row: 13
-  - id: gate-hillside-detail-3
     kind: decoration
-    textureKey: grass-clump-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: gate-hillside-detail-3
     position:
       column: 7
       row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: grass-clump-v1
   - id: gate-hillside-detail-4
-    kind: decoration
-    textureKey: quarry-cut-blocks-v1
-    tileAnchor: center
     position:
-      column: 8
-      row: 13
-  - id: gate-hillside-detail-5
+      column: 6
+      row: 15
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: gate-hillside-detail-5
     position:
       column: 9
       row: 14
-  - id: gate-hillside-detail-6
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-hillside-detail-6
     position:
       column: 10
       row: 15
-  - id: gate-hillside-detail-7
     kind: decoration
-    textureKey: grass-clump-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: gate-hillside-detail-7
     position:
       column: 11
       row: 15
-  - id: gate-hillside-detail-8
     kind: decoration
-    textureKey: quarry-cut-blocks-v1
     tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: gate-hillside-detail-8
     position:
       column: 22
       row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
   - id: gate-hillside-detail-9
-    kind: decoration
-    textureKey: quarry-broken-slabs-v1
-    tileAnchor: center
     position:
-      column: 23
+      column: 21
       row: 14
-  - id: gate-hillside-detail-10
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-hillside-detail-10
     position:
       column: 24
-      row: 15
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
   - id: gate-hillside-detail-11
-    kind: decoration
-    textureKey: grass-clump-v1
-    tileAnchor: center
     position:
-      column: 25
+      column: 26
       row: 14
-  - id: gate-hillside-detail-12
     kind: decoration
-    textureKey: quarry-cut-blocks-v1
     tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: gate-hillside-detail-12
     position:
       column: 26
       row: 15
-  - id: gate-hillside-detail-13
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: gate-hillside-detail-13
     position:
       column: 24
       row: 13
-  - id: gate-hillside-detail-14
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-hillside-detail-14
     position:
       column: 6
       row: 26
-  - id: gate-hillside-detail-15
     kind: decoration
-    textureKey: grass-clump-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: gate-hillside-detail-15
     position:
       column: 8
       row: 26
-  - id: gate-hillside-detail-16
     kind: decoration
-    textureKey: quarry-cut-blocks-v1
     tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: gate-hillside-detail-16
     position:
       column: 9
       row: 26
-  - id: gate-hillside-detail-17
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: gate-hillside-detail-17
     position:
       column: 9
       row: 25
-  - id: gate-hillside-detail-18
     kind: decoration
-    textureKey: dry-grass-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-hillside-detail-18
     position:
       column: 22
       row: 11
-  - id: gate-hillside-detail-19
     kind: decoration
-    textureKey: grass-clump-v1
     tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: gate-hillside-detail-19
     position:
       column: 23
       row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: grass-clump-v1
   - id: gate-hillside-detail-20
-    kind: decoration
-    textureKey: quarry-cut-blocks-v1
-    tileAnchor: center
     position:
-      column: 10
-      row: 11
-  - id: gate-hillside-detail-21
+      column: 13
+      row: 10
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-cut-blocks-v1
+  - id: gate-hillside-detail-21
     position:
       column: 11
       row: 11
-  - id: gate-exposed-bedrock-1
     kind: decoration
-    textureKey: quarry-weathered-boulders-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-exposed-bedrock-1
     position:
       column: 3
       row: 3
-  - id: gate-exposed-bedrock-2
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-weathered-boulders-v1
+  - id: gate-exposed-bedrock-2
     position:
       column: 6
       row: 3
-  - id: gate-exposed-bedrock-3
     kind: decoration
-    textureKey: quarry-fallen-limestone-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-exposed-bedrock-3
     position:
       column: 4
       row: 5
-  - id: gate-exposed-bedrock-4
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: gate-exposed-bedrock-4
     position:
       column: 6
       row: 6
-  - id: gate-exposed-bedrock-5
     kind: decoration
-    textureKey: quarry-fallen-limestone-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-exposed-bedrock-5
     position:
       column: 26
       row: 2
-  - id: gate-exposed-bedrock-6
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: gate-exposed-bedrock-6
     position:
       column: 28
       row: 3
-  - id: gate-exposed-bedrock-7
     kind: decoration
-    textureKey: quarry-weathered-boulders-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-exposed-bedrock-7
     position:
       column: 25
       row: 5
-  - id: gate-exposed-bedrock-8
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-weathered-boulders-v1
+  - id: gate-exposed-bedrock-8
     position:
       column: 28
       row: 6
-  - id: gate-exposed-bedrock-9
     kind: decoration
-    textureKey: quarry-fallen-limestone-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-exposed-bedrock-9
     position:
       column: 4
       row: 21
-  - id: gate-exposed-bedrock-10
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: gate-exposed-bedrock-10
     position:
       column: 6
       row: 22
-  - id: gate-exposed-bedrock-11
     kind: decoration
-    textureKey: quarry-fallen-limestone-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-exposed-bedrock-11
     position:
       column: 4
       row: 24
-  - id: gate-exposed-bedrock-12
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: gate-exposed-bedrock-12
     position:
       column: 3
       row: 22
-  - id: gate-exposed-bedrock-13
     kind: decoration
-    textureKey: quarry-weathered-boulders-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-exposed-bedrock-13
     position:
       column: 8
       row: 4
-  - id: gate-exposed-bedrock-14
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-weathered-boulders-v1
+  - id: gate-exposed-bedrock-14
     position:
       column: 3
       row: 6
-  - id: gate-ruin-cluster-0-3
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-ruin-cluster-0-3
     position:
       column: 8
       row: 14
-  - id: gate-ruin-cluster-1-1
     kind: decoration
-    textureKey: dry-grass-variant-2-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-ruin-cluster-1-1
     position:
       column: 11
-      row: 13
-  - id: gate-ruin-cluster-1-4
+      row: 12
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: dry-grass-variant-2-v1
+  - id: gate-ruin-cluster-1-4
     position:
       column: 12
       row: 14
-  - id: gate-ruin-cluster-2-2
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-ruin-cluster-2-2
     position:
       column: 21
       row: 13
-  - id: gate-ruin-cluster-3-0
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-ruin-cluster-3-0
     position:
       column: 25
       row: 12
-  - id: gate-ruin-cluster-3-4
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-ruin-cluster-3-4
     position:
       column: 27
       row: 13
-  - id: gate-ruin-cluster-4-4
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-ruin-cluster-4-4
     position:
       column: 8
       row: 22
-  - id: gate-ruin-cluster-5-0
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-ruin-cluster-5-0
     position:
       column: 7
       row: 25
-  - id: gate-ruin-cluster-6-5
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-ruin-cluster-6-5
     position:
       column: 23
       row: 6
-  - id: gate-roadside-remnant-0
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-roadside-remnant-0
     position:
       column: 12
       row: 18
-  - id: gate-roadside-remnant-1
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-roadside-remnant-1
     position:
       column: 12
       row: 20
-  - id: gate-roadside-remnant-2
     kind: decoration
-    textureKey: dry-grass-variant-2-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-roadside-remnant-2
     position:
       column: 13
       row: 23
-  - id: gate-roadside-remnant-3
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: dry-grass-variant-2-v1
+  - id: gate-roadside-remnant-3
     position:
       column: 14
       row: 26
-  - id: gate-roadside-remnant-4
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-roadside-remnant-4
     position:
       column: 19
       row: 24
-  - id: gate-roadside-remnant-5
     kind: decoration
-    textureKey: dry-grass-variant-2-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-roadside-remnant-5
     position:
       column: 20
       row: 25
-  - id: gate-roadside-remnant-6
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: dry-grass-variant-2-v1
+  - id: gate-roadside-remnant-6
     position:
       column: 21
       row: 20
-  - id: gate-roadside-remnant-7
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-roadside-remnant-7
     position:
       column: 23
       row: 18
-  - id: gate-roadside-remnant-8
     kind: decoration
-    textureKey: dry-grass-variant-2-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-roadside-remnant-8
     position:
       column: 25
       row: 19
-  - id: gate-roadside-remnant-9
     kind: decoration
-    textureKey: quarry-crevice-plants-v1
     tileAnchor: center
+    textureKey: dry-grass-variant-2-v1
+  - id: gate-roadside-remnant-9
     position:
       column: 27
       row: 18
-  - id: gate-roadside-remnant-10
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: quarry-crevice-plants-v1
+  - id: gate-roadside-remnant-10
     position:
       column: 9
       row: 16
-  - id: gate-roadside-remnant-11
     kind: decoration
-    textureKey: dry-grass-variant-2-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-roadside-remnant-11
     position:
       column: 10
       row: 18
-  - id: gate-roadside-remnant-13
     kind: decoration
-    textureKey: quarry-broken-slabs-v1
     tileAnchor: center
+    textureKey: dry-grass-variant-2-v1
+  - id: gate-roadside-remnant-13
     position:
       column: 24
       row: 21
-  - id: gate-roadside-remnant-14
     kind: decoration
-    textureKey: dry-grass-variant-2-v1
     tileAnchor: center
+    textureKey: quarry-broken-slabs-v1
+  - id: gate-roadside-remnant-14
     position:
       column: 25
       row: 22
-  - id: gate-edge-tree-1
     kind: decoration
-    textureKey: orchard-old-tree-v2
     tileAnchor: center
+    textureKey: dry-grass-variant-2-v1
+  - id: gate-edge-tree-1
     position:
       column: 3
       row: 13
-  - id: gate-edge-tree-2
     kind: decoration
-    textureKey: orchard-old-tree-variant-1-v2
     tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: gate-edge-tree-2
     position:
       column: 2
       row: 16
-  - id: gate-edge-tree-3
     kind: decoration
-    textureKey: orchard-old-tree-variant-2-v2
     tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: gate-edge-tree-3
     position:
       column: 28
       row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
