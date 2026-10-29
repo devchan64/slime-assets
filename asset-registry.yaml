@@ -677,7 +677,7 @@ assets:
 - managementId: config.field-tiles.meadow
   version: shared-material-codes-v1
   path: assets/maps/field_tiles/meadow.yaml
-  sha256: 98af3839a0762642f04424ce39f3910b843d9df00d439f24e5b12bd9db1cd2d5
+  sha256: 6cb30d43a4c130e46a39ba048fe8cfded5f970af85121857b303bf2167a3ddba
   source:
     repository: slime-backend
     path: config/field_tiles/meadow.yaml
@@ -1227,7 +1227,7 @@ assets:
 - managementId: config.terrain.maps.meadow
   version: v1
   path: assets/maps/terrain/maps/meadow.yaml
-  sha256: 5d75a68a8250dea6f4d4f8f868ed33aa37a8b02504e3e6dbc80fb826f4060105
+  sha256: 494acf5e4472e9c40194205c0f37588640a7dd80533b989472cbabfca50d07a9
   source:
     repository: slime-backend
     path: config/terrain/maps/meadow.yaml
@@ -6516,7 +6516,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: d80b88203878396e36d7769abc744f145afc7dcb3d064785458a584f1da8206f
+  sha256: 2b20e84d219a2738d1f42858c1d18bece90aa5c7e11c32001c496af4c4101e49
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -9666,3 +9666,39 @@ assets:
   source:
     repository: codex-imagegen
     artifact: exec-6d78f2cd-d061-4a9e-9d9f-6971fb1514b7.png
+- managementId: image.billboards.meadow-daisy-groundcover-v1
+  version: v1
+  path: assets/billboards/meadow-daisy-groundcover-v1.png
+  name: 낮은 데이지 중심 군락
+  width: 512
+  height: 233
+  sha256: 5ff75636233dc7845b051804578cbb3402e431a3e262f5a2cf3bfa1f21029132
+  source:
+    repository: codex-imagegen
+    artifact: meadow-daisy-groundcover-v2.png
+    original_sha256: 74a243049d9b425569f297efdc6e20b1d6cc10d99b846090207176de982c914e
+    processing: 알파 64 기준 투명 여백 크롭 (404, 242, 1370, 681), 비율 유지 최대 512px. 내부 알파 보존.
+- managementId: image.billboards.meadow-daisy-fringe-v1
+  version: v1
+  path: assets/billboards/meadow-daisy-fringe-v1.png
+  name: 성긴 데이지 가장자리 군락
+  width: 512
+  height: 234
+  sha256: d520229dab17e5416029f610cc50c98d3a582803ff3d9b34442556f9262cfd07
+  source:
+    repository: codex-imagegen
+    artifact: meadow-daisy-fringe-v2.png
+    original_sha256: ef9a1595234f0cd7e2f9f2a60d5c9fb5beec2506d06a2ed7c2c44c763309a602
+    processing: 알파 64 기준 투명 여백 크롭 (436, 272, 1350, 690), 비율 유지 최대 512px. 내부 알파 보존.
+- managementId: image.billboards.meadow-daisy-small-v1
+  version: v1
+  path: assets/billboards/meadow-daisy-small-v1.png
+  name: 작은 비대칭 데이지 군락
+  width: 512
+  height: 311
+  sha256: 7903a453a6109aafdcebb7c6edf5690dbefbd55a4fbc97ee31c140d9eb062272
+  source:
+    repository: codex-imagegen
+    artifact: meadow-daisy-small-v2.png
+    original_sha256: 094d00ac90737407251af03904de7557dd4eb7d34f46acf95f6e4ca5045e9c7e
+    processing: 알파 64 기준 투명 여백 크롭 (559, 265, 1237, 677), 비율 유지 최대 512px. 내부 알파 보존.
