@@ -399,6 +399,22 @@ families:
     - 길게 흩어진 낮은 회색 판석 사이에 작은 상아색 석영 파편이 섞여 있다.
     - 낮은 판형·회색 암반과 상아색 석영
     review_category: rocks-minerals
+  mill-ridge-weathered-shelf-v1:
+    name: 낮고 넓은 풍화 암반
+    uses:
+    - 맷돌등성이의 넓은 평탄부에 배치하고 길과 단차를 비운다
+    category: rock
+    features:
+    - 낮고 넓은 풍화 암반
+    review_category: rocks-minerals
+  mill-ridge-weathered-rock-v1:
+    name: 자연 풍화 석회암
+    uses:
+    - 맷돌등성이의 넓은 평탄부에 배치하고 길과 단차를 비운다
+    category: rock
+    features:
+    - 자연 풍화 석회암
+    review_category: rocks-minerals
 billboards:
 - texture_key: ash-edge-scorched-waystone-v1
   family: ash-edge-scorched-waystone-v1
@@ -2706,6 +2722,8 @@ billboards:
     texture_key_occurrences: 31
   - path: assets/maps/field_tiles/meadow.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/mill-ridge.yaml
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/field-mill-ridge-weathered-stones-4-v1.png
     width: 124
@@ -2760,6 +2778,117 @@ billboards:
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
+- texture_key: mill-ridge-weathered-rock-v1
+  family: mill-ridge-weathered-rock-v1
+  asset_ref:
+    management_id: image.billboards.mill-ridge-weathered-rock-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/mill-ridge.yaml
+    texture_key_occurrences: 5
+  source_file:
+    path: assets/billboards/mill-ridge-weathered-rock-v1.png
+    width: 512
+    height: 281
+    sha256: a83d2b092218042847820a758c3c856ceb2beaf8f2c1fb09b8d511f96faffcfa
+  modeling:
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      guidance_only: true
+      runtime_profile: billboard-contact-v2
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 흰 들국화 · 낮은 식생·회복 식생
+    composition: 토양 경계·수목 사이에 크기와 밀도를 달리해 군락으로 배치한다.
+    recommended_uses:
+    - 마을 주거지와 정원 가장자리의 낮은 식생
+    - 통로·문 앞을 비운 군락 배치
+    visual_description: '자연 풍화 석회암 · 실제 이미지 검수: 낮고 넓은 형태, 투명 배경'
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.mill-ridge-weathered-rock-v1
+    anchorX: 0.0
+    anchorY: -0.15
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 140.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.2
+    shadowOffsetRow: 0.2
+    shadowScaleX: 0.65
+    shadowScaleY: 0.55
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 70.0
+    size_variant: 기본 변형
+    occupied_tile_count: 2
+    movement: 내부 타일 통행 불가
+- texture_key: mill-ridge-weathered-shelf-v1
+  family: mill-ridge-weathered-shelf-v1
+  asset_ref:
+    management_id: image.billboards.mill-ridge-weathered-shelf-v1
+    version: v1
+  map_references: []
+  source_file:
+    path: assets/billboards/mill-ridge-weathered-shelf-v1.png
+    width: 512
+    height: 160
+    sha256: c55e4aef2ef5ca79b7096e89da8bb4ec7040db011184aa9177bf0573df86f14d
+  modeling:
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 실제 생성 이미지 검수에 근거한 지침
+    shadow:
+      guidance_only: true
+      runtime_profile: billboard-contact-v2
+      contact_guidance: 아랫변 접지 영역에 옅은 그림자를 맞추고 주변 타일까지 과하게 번지지 않게 한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 낮고 넓은 풍화 암반
+    composition: 같은 높이의 넓은 평탄부에 군집 배치하고 단차와 통로를 비운다.
+    recommended_uses:
+    - 맷돌등성이 능선의 암반군·마른 풀 군락
+    visual_description: '낮고 넓은 풍화 암반 · 실제 이미지 검수: 낮고 넓은 형태, 투명 배경'
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.mill-ridge-weathered-shelf-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 3
+    groundFootprintRows: 3
+    displayHeight: 180.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.45
+    shadowOffsetRow: 0.45
+    shadowScaleX: 0.75
+    shadowScaleY: 0.75
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 90.0
+    size_variant: 기본 변형
+    occupied_tile_count: 9
+    movement: 내부 타일 통행 불가
 - texture_key: quarry-collapse-fan-v1
   family: quarry-collapse-fan-v1
   asset_ref:
@@ -2834,6 +2963,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/mill-ridge.yaml
+    texture_key_occurrences: 5
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
     texture_key_occurrences: 4
   source_file:
@@ -2903,6 +3034,8 @@ billboards:
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/dry-creek.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/mill-ridge.yaml
+    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
     texture_key_occurrences: 3
   source_file:

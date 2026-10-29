@@ -1685,7 +1685,7 @@ assets:
 - managementId: config.field-tiles.mill-ridge
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/mill-ridge.yaml
-  sha256: ce1a4b332cb03184ab48a9bc205dcae58a876c1686b0bbe3202fa1987b6dab07
+  sha256: a8c13c737ac2d6d8809301ba16f23a64fdf746b6b0cb94db5f911bb0e9f033fe
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/mill-ridge.yaml
@@ -1893,7 +1893,7 @@ assets:
 - managementId: config.terrain.maps.mill-ridge
   version: field-detail-v2
   path: assets/maps/terrain/maps/mill-ridge.yaml
-  sha256: ca38306c0c114d54c4ed3beb72707a5d7407cdc044e7a0ef2e60eba9368f97e9
+  sha256: dcd88373b01d720a5089ec9bc38b4ccdaf57da47c497bef0376134babfca5d7f
   source:
     repository: slime-assets
     path: assets/maps/terrain/maps/mill-ridge.yaml
@@ -6516,7 +6516,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 2b20e84d219a2738d1f42858c1d18bece90aa5c7e11c32001c496af4c4101e49
+  sha256: 934a907beb6c33fb910fc551e17690b515d7de742894401468ce677f51f74415
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -9702,3 +9702,63 @@ assets:
     artifact: meadow-daisy-small-v2.png
     original_sha256: 094d00ac90737407251af03904de7557dd4eb7d34f46acf95f6e4ca5045e9c7e
     processing: 알파 64 기준 투명 여백 크롭 (559, 265, 1237, 677), 비율 유지 최대 512px. 내부 알파 보존.
+- managementId: image.billboards.mill-ridge-dry-grass-mass-v1
+  version: v1
+  path: assets/billboards/mill-ridge-dry-grass-mass-v1.png
+  name: 황금빛 마른 풀 군락
+  width: 512
+  height: 241
+  sha256: 961b8ebda819b2dc19f436a0fe589fe26e9c3e419768d0984d3e97953c4382d0
+  source:
+    repository: codex-imagegen
+    artifact: mill-ridge-dry-grass-mass-v1.png
+    original_sha256: e1dcf75b65dc4942c8dfd200b0c6017130379518b5cbbe6b537e5cf61b085d43
+    processing: 알파 64 기준 투명 여백 크롭 (19, 44, 1757, 862), 비율 유지 최대 512px. 내부 알파 보존.
+- managementId: image.billboards.mill-ridge-weathered-shelf-v1
+  version: v1
+  path: assets/billboards/mill-ridge-weathered-shelf-v1.png
+  name: 낮고 넓은 풍화 암반
+  width: 512
+  height: 160
+  sha256: c55e4aef2ef5ca79b7096e89da8bb4ec7040db011184aa9177bf0573df86f14d
+  source:
+    repository: codex-imagegen
+    artifact: mill-ridge-weathered-shelf-v1.png
+    original_sha256: 802a153eda12a21552be1cd3adcc29e60969c381e6fa8418e5c1ea2ae3b48033
+    processing: 알파 64 기준 투명 여백 크롭 (22, 27, 2144, 691), 비율 유지 최대 512px. 내부 알파 보존.
+- managementId: image.billboards.mill-ridge-rooted-grass-v1
+  version: v1
+  path: assets/billboards/mill-ridge-rooted-grass-v1.png
+  name: 뿌리 분포 마른 풀 군락
+  width: 512
+  height: 478
+  sha256: 48732cd4817d10a9be3f05f9c273cc772727d27fef8d73f66cd5894f3f16b5e0
+  source:
+    repository: codex-imagegen
+    artifact: rooted-grass.png
+    original_sha256: 2a93550358867b16e3fcbebc1ed8cd6ff00e7bc88e7c1476116667b7bbf0eb6d
+    processing: 알파 51 기준 투명 여백 크롭 (235, 244, 1032, 988), 비율 유지 최대 512px. 내부 알파 보존.
+- managementId: image.billboards.mill-ridge-weathered-rock-v1
+  version: v1
+  path: assets/billboards/mill-ridge-weathered-rock-v1.png
+  name: 자연 풍화 석회암
+  width: 512
+  height: 281
+  sha256: a83d2b092218042847820a758c3c856ceb2beaf8f2c1fb09b8d511f96faffcfa
+  source:
+    repository: codex-imagegen
+    artifact: weathered-rock.png
+    original_sha256: de72320679c4b22c1111a2d59d8db513d70181a6750264d7672d1ab2e14749cc
+    processing: 알파 64 기준 투명 여백 크롭 (156, 203, 1380, 874), 비율 유지 최대 512px. 내부 알파 보존.
+- managementId: image.billboards.mill-ridge-golden-grass-cover-v1
+  version: v1
+  path: assets/billboards/mill-ridge-golden-grass-cover-v1.png
+  name: 바람에 누운 황금빛 마른 초지
+  width: 512
+  height: 230
+  sha256: 4f27b8e1042862faed0539fd55ef809794059c72e7984bb407674938856bb3e2
+  source:
+    repository: codex-imagegen
+    artifact: golden-grass-cover.png
+    original_sha256: 522faadbfae0ed946b6fee4b828b730ce42dbc45b40d717163b814a331a25364
+    processing: 알파 64 기준 투명 여백 크롭 (106, 88, 1670, 798), 비율 유지 최대 512px. 내부 알파 보존.

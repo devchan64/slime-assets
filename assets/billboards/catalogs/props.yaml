@@ -1071,7 +1071,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-mill-ridge-worn-millstone-1-v1
     version: v1
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/mill-ridge.yaml
+    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/field-mill-ridge-worn-millstone-1-v1.png
     width: 183
@@ -1854,6 +1856,8 @@ billboards:
     texture_key_occurrences: 14
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 11
+  - path: assets/maps/field_tiles/mill-ridge.yaml
+    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
     texture_key_occurrences: 28
   source_file:
@@ -2044,6 +2048,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/mill-ridge.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/quarry-mason-tools-v1.png
     width: 209
@@ -2942,6 +2948,8 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/cinder-path.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/mill-ridge.yaml
     texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-handcart-v1.png
@@ -3842,6 +3850,8 @@ billboards:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/mill-ridge.yaml
     texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-repair-rack-v1.png
