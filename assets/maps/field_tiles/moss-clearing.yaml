@@ -5,37 +5,940 @@ data:
   - mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
   - mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
   - mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-  - mmmmmmmmmmmmlllmmmlllmmmmmmmmmmm
-  - mmmmmmmmmllllllmmmlllllmmmmmmmmm
-  - mmmmmmmmmllllllmmmlllllmmmmmmmmm
-  - mmmmmmmlllllllmmmmmmllllmmmmmmmm
-  - mmmmmmmlllllllmmmmmmmlllllmmmmmm
-  - mmmmmmllllllmgggggggmlllllmmmmmm
-  - mmmmmmlllllgggggggggggmlllllmmmm
-  - mmmmmmlllmgggggggggggggmmlllmmmm
-  - mmmmlllmmmgggggggggggggmllllmmmm
-  - mmmmlllmmggggmmmmmmmgggglllmmmmm
-  - mmmmlllmmggggmmmmmmmgggglllmmmmm
-  - mmmmmmmmmggggmmmmmmmggggmmmmmmmm
-  - mmmmmmmmmggggmmmHHHHHHHHHHHHHHHH
-  - mmmmmmmmmggggmmmHHmmggggmmmmmmmm
-  - mmmmmmmmmggggmmmHmmmggggmmmmmmmm
-  - mmmmmlllmggggmmmHmmmggggmlllmmmm
-  - mmmmmlllmmggggggHgggggglllllmmmm
-  - mmmmmllllmggggggHgggggglllllmmmm
-  - mmmmmmlllllgggggHgggggmlllmmmmmm
-  - mmmmmmlllllllgggHgggmmmlllmmmmmm
-  - mmmmmmmmlllllmmmHmmmmlllllmmmmmm
-  - mmmmmmmmmmllllmmHmllllllllmmmmmm
-  - mmmmmmmmmmmlllmmHmllllllmmmmmmmm
-  - mmmmmmmmmmmlllmmHmlllmmmmmmmmmmm
+  - mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  - mmmmmmmmmgggggggmmmmmmmmmmmmmmmm
+  - mmmmmmmmggggmggggmmmmmmmmmmmmmmm
+  - mmmmmmmggmmmmmmmgmmmmmmmmmmmmmmm
+  - mmmmmmmggmmmmmmmgmmmmmmmmmmmmmmm
+  - mmmmmmmggmmmmgggggggmmmmmmmmmmmm
+  - mmmmmmmgmmmgggggggggggmmmmmmmmmm
+  - mmmmmmmgmmgggggggggggggmmmmmmmmm
+  - mmmmmmmgmmgggggggggggggmmmmmmmmm
+  - mmmmmmmgmggggmmmgmmmggggmmmmmmmm
+  - mmmmmmgggggggmmmgmmmggggmmmmmmmm
+  - mmmmmggggggggmmmgmmmggggmmmmmmmm
+  - mmmmmggmgggggmmgHmmmmmmmmmHHHHHH
+  - mmmmmgmmmgggggggHHmmggggHHHHmmmm
+  - mmmmmmmmmgggggggmHHHHggHHmmmmmmm
+  - mmmmmgggggggggmmmHHmHHHHmmmmmmmm
+  - mmmmmmmgmgggggggmgHggggmmmmmmmmm
+  - mmmmmmmmmmggggggmgHggggmmmmmmmmm
+  - mmmmmmmmmmmgggggmgHgggmmmmmmmmmm
+  - mmmmmmmmmmmmmgggmgHgmmmmmmmmmmmm
+  - mmmmmmmmmmmmmmmmmmHmmmmmmmmmmmmm
+  - mmmmmmmmmmmmmmmmmHHmmmmmmmmmmmmm
+  - mmmmmmmmmmmmmmmmHHmmmmmmmmmmmmmm
+  - mmmmmmmmmmmmmmmmHmmmmmmmmmmmmmmm
   - mmmmmmmmmmmmmmmmHmmmmmmmmmmmmmmm
   - mmmmmmmmmmmmmmmmHmmmmmmmmmmmmmmm
   - mmmmmmmmmmmmmmmmHmmmmmmmmmmmmmmm
   - mmmmmmmmmmmmmmmmHmmmmmmmmmmmmmmm
   objects:
   - id: ward-tower
-    kind: ward-tower
     position:
       column: 16
       row: 16
+    kind: ward-tower
+  - id: moss-clearing-regrowth-246
+    position:
+      column: 8
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: stump-variant-2-v1
+  - id: moss-clearing-regrowth-247
+    position:
+      column: 24
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: stump-variant-2-v1
+  - id: moss-clearing-regrowth-248
+    position:
+      column: 11
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: stump-variant-2-v1
+  - id: moss-clearing-regrowth-249
+    position:
+      column: 6
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: stump-variant-2-v1
+  - id: moss-clearing-regrowth-250
+    position:
+      column: 9
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: moss-clearing-ancient-stump-v1
+  - id: moss-clearing-understory-20-04
+    position:
+      column: 20
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-21-05
+    position:
+      column: 21
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: moss-clearing-understory-23-05
+    position:
+      column: 23
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: moss-clearing-understory-05-06
+    position:
+      column: 5
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-07-06
+    position:
+      column: 7
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-20-06
+    position:
+      column: 20
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-05-07
+    position:
+      column: 5
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-08-07
+    position:
+      column: 8
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-18-07
+    position:
+      column: 18
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: ivy-clump-v1
+  - id: moss-clearing-understory-25-07
+    position:
+      column: 25
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-06-08
+    position:
+      column: 5
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: moss-clearing-understory-11-08
+    position:
+      column: 11
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-mushroom-v1
+  - id: moss-clearing-understory-13-08
+    position:
+      column: 13
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-18-08
+    position:
+      column: 17
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-19-08
+    position:
+      column: 19
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: ivy-clump-v1
+  - id: moss-clearing-understory-20-08
+    position:
+      column: 20
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-25-08
+    position:
+      column: 25
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: moss-clearing-understory-26-08
+    position:
+      column: 26
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: berry-variant-2-v1
+  - id: moss-clearing-understory-27-08
+    position:
+      column: 27
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-11-09
+    position:
+      column: 10
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: moss-clearing-understory-12-09
+    position:
+      column: 12
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-13-09
+    position:
+      column: 14
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-18-09
+    position:
+      column: 17
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-19-09
+    position:
+      column: 19
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: moss-clearing-understory-09-10
+    position:
+      column: 8
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-14-10
+    position:
+      column: 15
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-21-10
+    position:
+      column: 21
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: moss-clearing-understory-08-11
+    position:
+      column: 8
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: ivy-clump-v1
+  - id: moss-clearing-understory-09-11
+    position:
+      column: 8
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-15-11
+    position:
+      column: 15
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: moss-clearing-understory-23-11
+    position:
+      column: 22
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-14-12
+    position:
+      column: 15
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-15-12
+    position:
+      column: 15
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-21-12
+    position:
+      column: 21
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-22-12
+    position:
+      column: 22
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: moss-clearing-understory-23-12
+    position:
+      column: 23
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-06-13
+    position:
+      column: 6
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-09-13
+    position:
+      column: 8
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: moss-clearing-understory-20-13
+    position:
+      column: 20
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-22-13
+    position:
+      column: 22
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-23-13
+    position:
+      column: 23
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: moss-clearing-understory-10-14
+    position:
+      column: 8
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-11-14
+    position:
+      column: 12
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-12-14
+    position:
+      column: 13
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: berry-shrub-v1
+  - id: moss-clearing-understory-22-14
+    position:
+      column: 22
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-04-15
+    position:
+      column: 4
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-05-15
+    position:
+      column: 5
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-06-15
+    position:
+      column: 6
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: moss-clearing-understory-09-15
+    position:
+      column: 9
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-10-15
+    position:
+      column: 10
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-11-15
+    position:
+      column: 11
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: berry-variant-2-v1
+  - id: moss-clearing-understory-06-16
+    position:
+      column: 6
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-mushroom-v1
+  - id: moss-clearing-understory-07-17
+    position:
+      column: 6
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: moss-clearing-understory-08-17
+    position:
+      column: 8
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: ivy-clump-v1
+  - id: moss-clearing-understory-07-18
+    position:
+      column: 7
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-23-19
+    position:
+      column: 23
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-25-19
+    position:
+      column: 25
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-26-19
+    position:
+      column: 26
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-23-20
+    position:
+      column: 23
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-25-20
+    position:
+      column: 25
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: moss-clearing-understory-10-21
+    position:
+      column: 10
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: ivy-clump-v1
+  - id: moss-clearing-understory-24-21
+    position:
+      column: 24
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-11-22
+    position:
+      column: 11
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-12-22
+    position:
+      column: 12
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: moss-clearing-understory-06-23
+    position:
+      column: 6
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-07-23
+    position:
+      column: 7
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-08-23
+    position:
+      column: 8
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: moss-clearing-understory-24-23
+    position:
+      column: 24
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-mushroom-v1
+  - id: moss-clearing-understory-25-23
+    position:
+      column: 25
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-07-24
+    position:
+      column: 7
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: ivy-clump-v1
+  - id: moss-clearing-understory-11-24
+    position:
+      column: 11
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-24-24
+    position:
+      column: 24
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-25-24
+    position:
+      column: 25
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: berry-shrub-v1
+  - id: moss-clearing-understory-12-25
+    position:
+      column: 11
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-23-25
+    position:
+      column: 23
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-24-25
+    position:
+      column: 24
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-25-25
+    position:
+      column: 25
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-iseulon-soft-fern-cluster-v1
+  - id: moss-clearing-understory-21-26
+    position:
+      column: 21
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: grass-clump-v1
+  - id: moss-clearing-understory-22-26
+    position:
+      column: 22
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-24-26
+    position:
+      column: 24
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-25-26
+    position:
+      column: 25
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-chunky-fern-v1
+  - id: moss-clearing-understory-20-27
+    position:
+      column: 20
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-21-27
+    position:
+      column: 21
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-clump-v1
+  - id: moss-clearing-understory-22-27
+    position:
+      column: 22
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: fern-variant-2-v1
+  - id: moss-clearing-understory-23-27
+    position:
+      column: 23
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: berry-variant-2-v1
+  - id: moss-clearing-understory-20-28
+    position:
+      column: 20
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: young-sapling-v1
+  - id: moss-clearing-understory-21-28
+    position:
+      column: 21
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: mushroom-variant-2-v1
+  - id: moss-clearing-regrowth-000
+    position:
+      column: 4
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: moss-clearing-regrowth-002
+    position:
+      column: 8
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v2
+  - id: moss-clearing-regrowth-003
+    position:
+      column: 11
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v2
+  - id: moss-clearing-regrowth-006
+    position:
+      column: 17
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v2
+  - id: moss-clearing-regrowth-007
+    position:
+      column: 20
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v2
+  - id: moss-clearing-regrowth-009
+    position:
+      column: 25
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v2
+  - id: moss-clearing-regrowth-013
+    position:
+      column: 3
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: moss-clearing-regrowth-015
+    position:
+      column: 6
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v2
+  - id: moss-clearing-regrowth-017
+    position:
+      column: 4
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: moss-clearing-regrowth-018
+    position:
+      column: 3
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: moss-clearing-regrowth-023
+    position:
+      column: 19
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: moss-clearing-regrowth-027
+    position:
+      column: 22
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v2
+  - id: moss-clearing-regrowth-031
+    position:
+      column: 24
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: moss-clearing-regrowth-033
+    position:
+      column: 27
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v2
+  - id: moss-clearing-regrowth-035
+    position:
+      column: 5
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: moss-clearing-regrowth-038
+    position:
+      column: 7
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: moss-clearing-regrowth-039
+    position:
+      column: 5
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: moss-clearing-regrowth-042
+    position:
+      column: 8
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: moss-clearing-regrowth-045
+    position:
+      column: 23
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: moss-clearing-regrowth-047
+    position:
+      column: 25
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-2-v2
+  - id: moss-clearing-regrowth-048
+    position:
+      column: 27
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: moss-clearing-regrowth-050
+    position:
+      column: 29
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: moss-clearing-regrowth-051
+    position:
+      column: 28
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-v2
+  - id: moss-clearing-regrowth-052
+    position:
+      column: 2
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-variant-1-v2
+  - id: moss-clearing-regrowth-053
+    position:
+      column: 2
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: moss-clearing-regrowth-056
+    position:
+      column: 4
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: moss-clearing-regrowth-057
+    position:
+      column: 3
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: moss-clearing-regrowth-058
+    position:
+      column: 7
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-2-v2
+  - id: moss-clearing-regrowth-059
+    position:
+      column: 19
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: moss-clearing-regrowth-074
+    position:
+      column: 25
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-old-tree-variant-1-v2
+  - id: moss-clearing-regrowth-078
+    position:
+      column: 28
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: moss-clearing-reclaimed-log-01
+    position:
+      column: 8
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: moss-clearing-reclaimed-log-02
+    position:
+      column: 8
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: moss-clearing-reclaimed-log-03
+    position:
+      column: 19
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: moss-clearing-reclaimed-log-04
+    position:
+      column: 18
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: moss-clearing-reclaimed-log-05
+    position:
+      column: 23
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1
+  - id: moss-clearing-reclaimed-log-06
+    position:
+      column: 12
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: log-variant-1-v1

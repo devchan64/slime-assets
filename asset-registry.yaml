@@ -693,7 +693,7 @@ assets:
 - managementId: config.field-tiles.moss-clearing
   version: retire-stump-v1
   path: assets/maps/field_tiles/moss-clearing.yaml
-  sha256: d7d61982fb875b5e1ad244a58df93d845df78ab6b980973b6c6b45188b141d98
+  sha256: 6fa6cbe90ff6c23818ace8ed6bce4d8c5cca98bd262be1b5f72e3cb333ec30c0
   source:
     repository: slime-backend
     path: config/field_tiles/moss-clearing.yaml
@@ -1243,7 +1243,7 @@ assets:
 - managementId: config.terrain.maps.moss-clearing
   version: v1
   path: assets/maps/terrain/maps/moss-clearing.yaml
-  sha256: 4731578c00dd4e15a4b8135f82c85ed5efa5e7a88e16e4e787e454e67ad8dabc
+  sha256: db85cb1c3194bb310b037c041d7881020f9dd1d0382c3b36916b915a6052d7ed
   source:
     repository: slime-backend
     path: config/terrain/maps/moss-clearing.yaml
@@ -6516,7 +6516,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 1e1c0e2ac3825df14c37cb302f16f8db5bacd960a5c454c9731dd9baa58c83ee
+  sha256: 4cc3a5f42d8034334f2265641e10362f1a6bf8d388d00c15019e51145c89dad6
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -9768,3 +9768,15 @@ assets:
     lifecycle_status: retired
     retirement_reason: 관리 UI에서 사용자 확인 후 폐기
     original_path: assets/billboards/mill-ridge-golden-grass-cover-v1.png
+- managementId: image.billboards.moss-clearing-ancient-stump-v1
+  version: v1
+  path: assets/billboards/moss-clearing-ancient-stump-v1.png
+  name: 이끼 공터의 오래된 큰 그루터기
+  width: 512
+  height: 256
+  sha256: 319cb7607f22d390f9da5083e9039c8473e16c2ee0dc1a8ae8d60cbc52b20809
+  source:
+    repository: codex-imagegen
+    artifact: moss-clearing-ancient-stump-v1.png
+    original_sha256: c6b1413c012262a1513d6d661a2f5b3121a7bf8484df9ce68ca8df7fbe3e14d9
+    processing: 투명 PNG 원본 보존. 2x2 타일 가이드 참조 제작.
