@@ -14,7 +14,7 @@
 
 ## 현재 지원하는 기존 경로
 
-모든 경로에 `Authorization: Bearer <서비스 토큰>` 인증을 적용한다. URL 접두사는 `/internal/v1/content`다.
+token 모드에서는 모든 경로에 `Authorization: Bearer <서비스 토큰>` 인증을 적용한다. 로컬 실행기의 local-loopback 모드에서는 토큰 없이 루프백 요청만 허용한다. URL 접두사는 `/internal/v1/content`다.
 
 | 메서드·경로 | 기능 |
 |---|---|
@@ -63,3 +63,28 @@
 `POST /internal/v1/content/snapshots/export?replay=true`는 이미 출력 완료한 현재 세대도 새 실행 ID로 전달한다. 세대 자체는 증가시키지 않으며 실행 중 lease와 공개 경로 검증은 동일하게 적용한다. 개발 원장 동기화의 로컬 영수증 유실을 복구하는 계약이며 과거 DB 백업 복원이 아니다.
 
 원장 출력까지 검증하려면 위 격리 검사에 `ASSET_TEST_LEDGER_SOURCE_ROOT`로 에셋 원본 경로를 추가한다. 테스트는 maps·billboards·effects·등록부를 임시 디렉터리에 복사하고 실제 workflow 출력기와 카탈로그 생성기를 실행한다. 속성 변경 반영·출력 해시·반복 출력 무변경을 검사하며 원본 저장소는 수정하지 않는다. 이는 에셋 사본 검증용 fixture이며 백업 기능이 아니다.
+
+## 단일 개발 서버 실행 스크립트
+
+DB 마이그레이션·런타임 LOGIN 계정과 비밀 파일 준비 후 저장소 루트에서 실행한다.
+
+```bash
+./scripts/install_asset_dependencies.sh
+# 최초 환경 파일이 없을 때만 예제를 복사한다.
+cp -n config/asset-service.env.example .local/asset-service.env
+# .local/asset-service.env의 계정·비밀 파일 경로를 실제 준비한 값으로 편집한다.
+./scripts/run_asset_server.sh --check
+./scripts/run_asset_server.sh
+```
+
+기본값은 local·127.0.0.1:25432·slime_assets_local, API 127.0.0.1:8791이다. `--start-db`를 추가하면 준비된 Compose DB를 시작한다. `--start-db --check`는 DB를 시작하고 사전 검사만 수행한다. 최초 스키마·계정·시드·의존성 설치는 자동 실행하지 않는다. 비밀 파일에는 소유자만 접근할 수 있어야 한다.
+
+API는 전경 실행하며 Ctrl+C로 이번 실행의 API만 종료한다. DB는 유지한다. 로그는 `.local/logs/asset-service/`에 실행별 저장하며 5초 간격으로 실행 상태를 기록한다. `ASSET_API_LISTEN_PORT`로 API 포트를 지정할 수 있다. 이 실행기는 local 전용이며 실서비스 실행·전환을 수행하지 않는다.
+
+의존성 설치기는 `.local/venvs/asset-service`에 전용 가상환경을 만들고 기존 requirements를 설치한다. 실행기는 기본으로 이 환경을 사용하므로 activate가 필요 없다. 시스템 Python과 다른 저장소 환경은 변경하지 않는다. 설치 실패 로그는 `.local/logs/asset-service/install-*.log`에서 확인한다. Ubuntu에서 venv 지원이 없으면 선택한 Python 버전에 맞는 venv 패키지를 먼저 설치한다.
+
+실행 설정은 `.local/asset-service.env`에서 읽는다. 파일에는 비밀값 대신 계정·접속 정보·비밀 파일 경로만 작성한다. 파일 값이 셸 환경변수보다 우선하며 다른 파일은 `ASSET_SERVICE_ENV_FILE`로 지정한다. `KEY=value` 형식만 지원하고 따옴표·export·변수/명령 치환·중복 키·미등록 키는 거절한다. 상대 파일 경로는 저장소 루트 기준이다. 예제의 asset_service_runtime 계정과 비밀 파일은 별도로 준비해야 하며 환경 파일 작성만으로 생성되지 않는다.
+
+현재 로컬 환경 파일은 `ASSET_SERVICE_AUTH_MODE=local-loopback`을 사용하며 API 토큰 파일은 필요 없다. 실행기는 127.0.0.1에 바인딩하고 프록시 전달 IP를 사용하지 않는다. 루프백 외 요청·다른 Origin은 거절한다. 무토큰 모드는 local에서만 허용하며 dev 원격 접속은 token 모드를 유지한다. 에셋 수정 API는 개발 서버(local/dev) 전용이고 prod 기동은 거절한다. DB 비밀번호 파일은 API 토큰과 별개로 필요하다.
+
+초기 개발 DB가 준비되지 않아 asset_runtime_password 파일이 없으면 `scripts/setup_asset_local.sh`로 준비한다. 이 명령은 local 127.0.0.1:25432의 전용 Compose DB만 대상으로 owner/런타임 비밀번호 파일을 생성하고 마이그레이션 및 LOGIN 계정·writer 권한을 설정한다. 기존 비밀번호는 재설정하지 않는다. 이후 `scripts/run_asset_server.sh --check`로 확인한다. 영구 DB·계정 생성 작업이며 시드·백업·게임 DB 변경은 수행하지 않는다.

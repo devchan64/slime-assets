@@ -314,3 +314,15 @@ class AssetServiceApiTests(unittest.TestCase):
             current_test_case.assertEqual(current_replay_record['payload'],current_export_record['payload'])
             current_test_case.assertNotEqual(current_replay_record['runId'],current_export_record['runId'])
             current_test_case.assertEqual(current_api_client.post('/internal/v1/content/snapshots/export?replay=true',json={}).status_code,409)
+
+    def test_local_loopback_access_without_token(current_test_case):
+        with patch.dict(os.environ, {'ASSET_SERVICE_AUTH_MODE':'local-loopback'}):
+            with TestClient(create_asset_service(current_test_case.open_runtime_connection),base_url='http://localhost',client=('127.0.0.1',50000)) as current_api_client:
+                current_test_case.assertEqual(current_api_client.get('/internal/v1/content/types').status_code,200)
+                current_test_case.assertEqual(current_api_client.get('/internal/v1/content/types',headers={'Origin':'https://other.example'}).status_code,403)
+            with TestClient(create_asset_service(current_test_case.open_runtime_connection),base_url='http://localhost',client=('192.0.2.1',50000)) as current_api_client:
+                current_test_case.assertEqual(current_api_client.get('/internal/v1/content/types').status_code,403)
+        with patch.dict(os.environ, {'ASSET_SERVICE_AUTH_MODE':'local-loopback','ASSET_DB_STAGE':'dev'}):
+            with current_test_case.assertRaisesRegex(ValueError,'local 개발'):
+                with current_test_case.open_asset_test_client():
+                    pass

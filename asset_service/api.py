@@ -103,10 +103,17 @@ def create_asset_service(current_connection_factory=None):
     async def manage_asset_service_lifetime(current_service_application):
         if os.environ.get('ASSET_DB_STAGE', 'local') not in ('local','dev'):
             raise ValueError('에셋 편집 서비스는 local/dev에서만 실행할 수 있습니다.')
-        current_secret_path = os.environ.get('SLIME_CONTENT_SERVICE_SECRET_FILE')
-        if not current_secret_path:
-            raise ValueError('SLIME_CONTENT_SERVICE_SECRET_FILE이 필요합니다.')
-        current_service_application.state.current_service_secret = read_asset_database_secret(current_secret_path)
+        current_auth_mode = os.environ.get('ASSET_SERVICE_AUTH_MODE', 'token')
+        if current_auth_mode not in ('token', 'local-loopback'):
+            raise ValueError('지원하지 않는 에셋 인증 모드입니다.')
+        if current_auth_mode == 'local-loopback' and os.environ.get('ASSET_DB_STAGE', 'local') != 'local':
+            raise ValueError('토큰 없는 실행은 local 개발 환경만 허용합니다.')
+        current_service_application.state.current_auth_mode = current_auth_mode
+        if current_auth_mode == 'token':
+            current_secret_path = os.environ.get('SLIME_CONTENT_SERVICE_SECRET_FILE')
+            if not current_secret_path:
+                raise ValueError('SLIME_CONTENT_SERVICE_SECRET_FILE이 필요합니다.')
+            current_service_application.state.current_service_secret = read_asset_database_secret(current_secret_path)
         with current_connection_factory() as current_database_connection:
             validate_asset_runtime_connection(current_database_connection)
             read_content_generation_state(current_database_connection)
@@ -114,9 +121,13 @@ def create_asset_service(current_connection_factory=None):
 
     def authenticate_asset_request(current_http_request: Request,
             current_authorization_value: Annotated[str,Header(alias='Authorization')]=''):
-        current_expected_value = 'Bearer ' + current_http_request.app.state.current_service_secret
-        if not hmac.compare_digest(current_authorization_value.encode(), current_expected_value.encode()):
-            raise HTTPException(status_code=401, detail='에셋 관리 서비스 인증이 필요합니다.')
+        if current_http_request.app.state.current_auth_mode == 'local-loopback':
+            if current_http_request.client is None or current_http_request.client.host not in ('127.0.0.1', '::1'):
+                raise HTTPException(status_code=403, detail='로컬 개발 서버의 루프백 접속만 허용합니다.')
+        else:
+            current_expected_value = 'Bearer ' + current_http_request.app.state.current_service_secret
+            if not hmac.compare_digest(current_authorization_value.encode(), current_expected_value.encode()):
+                raise HTTPException(status_code=401, detail='에셋 관리 서비스 인증이 필요합니다.')
         current_origin_value = current_http_request.headers.get('origin')
         if current_origin_value:
             current_origin_parts = urlsplit(current_origin_value)
