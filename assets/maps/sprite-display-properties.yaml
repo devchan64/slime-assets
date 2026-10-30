@@ -187,20 +187,6 @@ data:
     shadowScaleY: 0.71
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-  ash-edge-scorched-waystone-v1:
-    anchorX: 0.01
-    anchorY: 0.25
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 123.67
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
   berry-shrub-v1:
     anchorX: 0.0
     anchorY: -0.38
@@ -1251,34 +1237,6 @@ data:
     shadowScaleY: 2.87
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-  dawn-overlook-pine-tree-windswept-v1:
-    anchorX: 0.3
-    anchorY: -0.26
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 297.34
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-  dawn-overlook-split-granite-v1:
-    anchorX: 0.04
-    anchorY: 0.32
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 352.41
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.5
-    shadowOffsetRow: 0.5
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
   dry-branches-v1:
     anchorX: 0.09
     anchorY: -0.27
@@ -1671,48 +1629,6 @@ data:
     shadowScaleY: 0.81
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-  field-mist-lake-mooring-stone-1-v1:
-    anchorX: -0.01
-    anchorY: -0.33
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 47.39
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 0.81
-    shadowScaleY: 0.81
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-  field-mist-lake-mooring-stone-4-v1:
-    anchorX: 0.01
-    anchorY: -0.21
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 80.25
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.03
-    shadowOffsetRow: 0.09
-    shadowScaleX: 0.48
-    shadowScaleY: 0.56
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-  field-mist-lake-mooring-stone-size-large-v1:
-    anchorX: 0.01
-    anchorY: -0.32
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 63.93
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.02
-    shadowOffsetRow: -0.01
-    shadowScaleX: 0.47
-    shadowScaleY: 0.45
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
   field-moss-clearing-boundary-stone-size-large-v1:
     anchorX: 0.04
     anchorY: -0.2
@@ -1741,20 +1657,6 @@ data:
     shadowScaleY: 0.28
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
-  field-root-trail-rooted-tree-1-v1:
-    anchorX: -0.01
-    anchorY: 0.19
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 672.66
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.05
-    shadowScaleX: 1.0
-    shadowScaleY: 1.0
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
   field-root-trail-wagon-wheel-4-v1:
     anchorX: 0.0
     anchorY: -0.47
@@ -1767,20 +1669,6 @@ data:
     shadowOffsetRow: -0.17
     shadowScaleX: 0.53
     shadowScaleY: 0.53
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-  field-salt-causeway-repair-stakes-1-v1:
-    anchorX: 0.0
-    anchorY: -0.5
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 100.0
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.33
-    shadowScaleX: 0.44
-    shadowScaleY: 0.37
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   field-salt-causeway-repair-stakes-2-v1:
@@ -2509,6 +2397,76 @@ data:
     shadowOffsetRow: 0.0
     shadowScaleX: 3.43
     shadowScaleY: 3.43
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  pebble-shore-pebble-carpet-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 4
+    groundFootprintRows: 4
+    displayHeight: 300.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.01
+    shadowScaleY: 0.01
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  pebble-shore-pebble-crescent-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 3
+    groundFootprintRows: 2
+    displayHeight: 180.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.01
+    shadowScaleY: 0.01
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  pebble-shore-pebble-scatter-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 70.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.01
+    shadowScaleY: 0.01
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  pebble-shore-rounded-boulders-v1:
+    anchorX: 0.0
+    anchorY: 0.05
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 180.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.25
+    shadowOffsetRow: -0.25
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  pebble-shore-rounded-pair-v1:
+    anchorX: 0.0
+    anchorY: 0.05
+    groundFootprintColumns: 3
+    groundFootprintRows: 3
+    displayHeight: 220.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.25
+    shadowOffsetRow: -0.25
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   quarry-broken-slabs-v1:

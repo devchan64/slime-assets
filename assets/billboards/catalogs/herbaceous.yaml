@@ -2015,6 +2015,8 @@ billboards:
     texture_key_occurrences: 11
   - path: assets/maps/field_tiles/moss-clearing.yaml
     texture_key_occurrences: 13
+  - path: assets/maps/field_tiles/pebble-shore.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/fern-variant-2-v1.png
     width: 118
@@ -2081,6 +2083,8 @@ billboards:
     texture_key_occurrences: 19
   - path: assets/maps/field_tiles/grove.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/pebble-shore.yaml
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/fern-variant-3-v1.png
     width: 99
@@ -2694,7 +2698,7 @@ billboards:
   family: mill-ridge-rooted-grass-v1
   asset_ref:
     management_id: image.billboards.mill-ridge-rooted-grass-v1
-    version: v1
+    version: source-sha256-6f8a7f43bcefb7940d00574763c7bc4a3722044bf9f277676b1b5f04d9372875
   map_references:
   - path: assets/maps/field_tiles/mill-ridge.yaml
     texture_key_occurrences: 165
@@ -3996,6 +4000,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 18
+  - path: assets/maps/field_tiles/pebble-shore.yaml
+    texture_key_occurrences: 20
   source_file:
     path: assets/billboards/town-reedhaven-broad-marsh-fern-v1.png
     width: 126
@@ -4380,6 +4386,8 @@ billboards:
     texture_key_occurrences: 9
   - path: assets/maps/field_tiles/meadow.yaml
     texture_key_occurrences: 4
+  - path: assets/maps/field_tiles/pebble-shore.yaml
+    texture_key_occurrences: 9
   source_file:
     path: assets/billboards/town-reedhaven-reed-young-v1.png
     width: 113
@@ -4449,6 +4457,8 @@ billboards:
     texture_key_occurrences: 10
   - path: assets/maps/field_tiles/meadow.yaml
     texture_key_occurrences: 16
+  - path: assets/maps/field_tiles/pebble-shore.yaml
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/town-reedhaven-river-sedge-tuft-v1.png
     width: 125

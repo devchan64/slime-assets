@@ -709,7 +709,7 @@ assets:
 - managementId: config.field-tiles.pebble-shore
   version: field-objects-v1
   path: assets/maps/field_tiles/pebble-shore.yaml
-  sha256: 193c48a59d3a32692c5f1dc9d8e03620ff29e2d882a27bd3f372ba6b4b22d47c
+  sha256: 208b54221dabfdd8c92f213d1e8afe1518aea617feebff3cb1d1ee1044b23ce4
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/pebble-shore.yaml
@@ -1259,7 +1259,7 @@ assets:
 - managementId: config.terrain.maps.pebble-shore
   version: v1
   path: assets/maps/terrain/maps/pebble-shore.yaml
-  sha256: 68bacee998cb753a34b37af1ec411c3352d02a3c200bb9e68f143a05ee47f1a1
+  sha256: 4efb42399862687c39e0f7c35b02e6d30dcb0b1b6320fcfdab7c0a91bb8b5329
   source:
     repository: slime-backend
     path: config/terrain/maps/pebble-shore.yaml
@@ -4258,7 +4258,7 @@ assets:
     artifact: exec-68afc473-aece-4c4c-99c3-ffe350446a1f.png
     operation: 바닥 참조 식생 빌보드, 사용자 승인 128×128
 - managementId: image.scenery.mushroom-cluster-v1
-  version: v1
+  version: source-sha256-6f43b13042e16ab9dd143e0f3a5ce892a21e0a75c181fe3902ce8d8f61e4f016
   path: assets/billboards/mushroom-cluster-v1.png
   width: 217
   height: 256
@@ -4711,7 +4711,7 @@ assets:
     artifact: exec-cbd9f0ab-a8dc-48f9-aaa4-cf9126ab55d8.png
     operation: 과수원 식생 80종 확장, 128×128
 - managementId: image.scenery.mushroom-variant-3-v1
-  version: v1
+  version: source-sha256-8024a3049573ad06bee5aec74973c97d36dc4024fe1a7fd3bea7452ffdbec3e5
   path: assets/billboards/mushroom-variant-3-v1.png
   width: 512
   height: 253
@@ -6513,10 +6513,11 @@ assets:
     repository: slime-workflow
     path: output/imagegen/ash-edge-20261018/ash-edge-scorched-waystone-v1.png
     operation: 사용자 채택 이미지젠 결과, 비율·알파 유지하여 긴 변 512px 축소
+    lifecycle_status: retired
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 4cc3a5f42d8034334f2265641e10362f1a6bf8d388d00c15019e51145c89dad6
+  sha256: cdea92c2a14d2b15f7eda9fcb662f326fa8f1de78fd50921249c5f0acdb00ec6
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -7297,6 +7298,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-bd61753e-6067-4fcf-b9f6-fe2ef3c7a544.png
     processing: 128×128 RGBA; 비율 유지 Lanczos 축소·하단 정렬 투명 패딩
+    lifecycle_status: retired
 - managementId: image.scenery.bridge-timber-components-v1
   version: v1
   path: assets/buildings/bridge-timber-components-v1.png
@@ -7411,7 +7413,7 @@ assets:
     artifact: vegetation-generator/2026-10-20_07-06-17-8aefc31a/result.png
     processing: 생성 RGBA 원본의 비율·투명도 유지, 자연물 표준 128×128 축소
 - managementId: image.scenery.field-mill-ridge-worn-millstone-1-v1
-  version: v1
+  version: source-sha256-9b43094aa3ef46a1f143be3e6b7591aeed1eafe76e441b42228aa91a1f333077
   path: assets/billboards/field-mill-ridge-worn-millstone-1-v1.png
   name: 맷돌등성이 · 마모 맷돌 · 변형 1/5
   width: 183
@@ -7432,8 +7434,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-19-ef5de023/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-salt-flat-brine-barrel-1-v1
-  version: v1
+  version: source-sha256-3b1004ea882c0dfe35e2ae85afa9ffb9e1b065fae4b284f5e74198796be8e1ae
   path: assets/billboards/field-salt-flat-brine-barrel-1-v1.png
   name: 흰소금벌 · 염수 나무통 · 변형 1/5
   width: 145
@@ -7444,7 +7447,7 @@ assets:
     artifact: prop-generator/2026-10-20_09-33-19-027f9ecd/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-grove-cargo-crate-4-v1
-  version: v1
+  version: source-sha256-379c6a0d12e285ef165f20815fd3668a856e11cefb8fc65a8746b7a601b216a3
   path: assets/billboards/field-grove-cargo-crate-4-v1.png
   name: 푸른 숲 · 운송 상자 · 변형 4/5
   width: 243
@@ -7455,7 +7458,7 @@ assets:
     artifact: prop-generator/2026-10-20_09-33-32-0ce263b1/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-lantern-wood-lantern-stand-4-v1
-  version: v1
+  version: source-sha256-f23118357ab49955d7fd730344f96a70a55a1dddb7a24f43fca5e7527fd750ee
   path: assets/billboards/field-lantern-wood-lantern-stand-4-v1.png
   name: 등불 숲 · 등불 받침 · 변형 4/5
   width: 184
@@ -7477,7 +7480,7 @@ assets:
     artifact: vegetation-generator/2026-10-20_09-33-37-59a08ee1/result.png
     processing: RGBA 비율·알파 유지 128×128 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-grove-cargo-crate-5-v1
-  version: v1
+  version: source-sha256-9951ee1bd5a2b6a63d4c6e69a70fd6891ac79d13ca1d9fa44e83c406efb7add2
   path: assets/billboards/field-grove-cargo-crate-5-v1.png
   name: 푸른 숲 · 운송 상자 · 변형 5/5
   width: 188
@@ -7488,7 +7491,7 @@ assets:
     artifact: prop-generator/2026-10-20_09-33-39-21d6532f/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-moss-clearing-boundary-stone-size-large-v1
-  version: v1
+  version: source-sha256-834cd3a526115f774c56488c1ab0485c87bfc025248a2a5e5b71b6d38ff38ddf
   path: assets/billboards/field-moss-clearing-boundary-stone-size-large-v1.png
   name: 이끼 공터 · 경계석 · 대형 보완
   width: 168
@@ -7499,7 +7502,7 @@ assets:
     artifact: prop-generator/2026-10-20_09-37-22-34674a93/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-lantern-wood-lantern-stand-size-small-v1
-  version: v1
+  version: source-sha256-7d227bf27973d867b255dd51859df48575c98e96487aa26d5f70104df0654038
   path: assets/billboards/field-lantern-wood-lantern-stand-size-small-v1.png
   name: 등불 숲 · 등불 받침 · 소형 보완
   width: 174
@@ -7510,7 +7513,7 @@ assets:
     artifact: prop-generator/2026-10-20_09-37-24-c994d10f/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
 - managementId: image.scenery.field-mist-lake-mooring-stone-size-large-v1
-  version: v1
+  version: source-sha256-2f29801300aad7f5c95d446324434293bb45290ae13563fd2eaf1d549d38be5c
   path: assets/billboards/field-mist-lake-mooring-stone-size-large-v1.png
   name: 안개 호수 · 계류석 · 대형 보완
   width: 175
@@ -7520,8 +7523,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-26-a84a09d6/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-pebble-shore-rope-coil-size-large-v1
-  version: v1
+  version: source-sha256-ade565f141affc951edfbce862d160d35d6e7145f4336d3ead8ed7b1f03ba40f
   path: assets/billboards/field-pebble-shore-rope-coil-size-large-v1.png
   name: 조약돌 물가 · 해진 밧줄 · 대형 보완
   width: 205
@@ -7542,8 +7546,9 @@ assets:
     repository: slime-workflow
     artifact: imagegen/call_c3990a0aa5774462b7782d030e877295/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-salt-causeway-repair-stakes-2-v1
-  version: v1
+  version: source-sha256-b27c79e3b18d69070a4d34bb1a0cb371cddf65dfab1e3aff2c8c50f0ee1def54
   path: assets/billboards/field-salt-causeway-repair-stakes-2-v1.png
   name: 소금둑길 · 보수 말뚝 · 변형 2/5
   width: 128
@@ -7554,7 +7559,7 @@ assets:
     artifact: prop-generator/2026-10-20_16-08-24-b4a150b5/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-mist-lake-mooring-stone-1-v1
-  version: v1
+  version: source-sha256-fd441c17578bbeea22149c54f939a450212f7dad9aaaf952936b2909f442486a
   path: assets/billboards/field-mist-lake-mooring-stone-1-v1.png
   name: 안개 호수 · 계류석 · 변형 1/5
   width: 221
@@ -7564,8 +7569,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-30-7d28ca25/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-root-trail-wagon-wheel-4-v1
-  version: v1
+  version: source-sha256-f52618c4efbaf12fc656fc38b45cce9adf08af5b007b84b613000698ada33a7b
   path: assets/billboards/field-root-trail-wagon-wheel-4-v1.png
   name: 뿌리 오솔길 · 파손 수레바퀴 · 변형 4/5
   width: 141
@@ -7576,7 +7582,7 @@ assets:
     artifact: prop-generator/2026-10-20_17-17-30-bc9a87c2/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-wind-hills-rope-waymark-4-v1
-  version: v1
+  version: source-sha256-29dca958ea92c4cf8ecf32187309c3fa4c725199ade41ba28699366f2d2c689f
   path: assets/billboards/field-wind-hills-rope-waymark-4-v1.png
   name: 바람 구릉 · 보강 길표식 · 변형 4/5
   width: 169
@@ -7587,7 +7593,7 @@ assets:
     artifact: prop-generator/2026-10-20_17-17-31-02d89bcd/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-mist-lake-mooring-stone-4-v1
-  version: v1
+  version: source-sha256-b886ef3befeb9c36903921ee4a6874245b70475c33500882899f91cbaa3d9740
   path: assets/billboards/field-mist-lake-mooring-stone-4-v1.png
   name: 안개 호수 · 계류석 · 변형 4/5
   width: 214
@@ -7597,8 +7603,9 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-31-c2c6fde4/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-grove-cargo-crate-size-large-v1
-  version: v1
+  version: source-sha256-e9f00e26ca9d008e958127445b307a7cd24f3f1c196abe00856c3ea678cf0069
   path: assets/billboards/field-grove-cargo-crate-size-large-v1.png
   name: 푸른 숲 · 운송 상자 · 대형 보완
   width: 198
@@ -7609,7 +7616,7 @@ assets:
     artifact: prop-generator/2026-10-20_17-17-32-167b6e54/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
 - managementId: image.scenery.field-lantern-wood-lantern-stand-size-large-v1
-  version: v1
+  version: source-sha256-4a65e9d251cb571d26738a698525e5ec09420cc76c3561029fec78424e221a45
   path: assets/billboards/field-lantern-wood-lantern-stand-size-large-v1.png
   name: 등불 숲 · 등불 받침 · 대형 보완
   width: 150
@@ -8615,6 +8622,7 @@ assets:
     artifact: exec-2446b7d5-b02c-4338-bdc6-65a940c99c12.png
     original_sha256: 3d8d9e467512bbc4338a4f5e8f956d38b6149448c30b57d729fdccdd215dc6ac
     processing: 사용자 등록 요청. 투명도·비율 유지 긴 변 512px 정규화. 생성 원본은 워크플로우에 별도 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.fallen-canopy-giant-hollow-trunk-v1
   version: v1
   path: assets/billboards/fallen-canopy-giant-hollow-trunk-v1.png
@@ -9730,7 +9738,7 @@ assets:
     original_sha256: 802a153eda12a21552be1cd3adcc29e60969c381e6fa8418e5c1ea2ae3b48033
     processing: 알파 64 기준 투명 여백 크롭 (22, 27, 2144, 691), 비율 유지 최대 512px. 내부 알파 보존.
 - managementId: image.billboards.mill-ridge-rooted-grass-v1
-  version: v1
+  version: source-sha256-6f8a7f43bcefb7940d00574763c7bc4a3722044bf9f277676b1b5f04d9372875
   path: assets/billboards/mill-ridge-rooted-grass-v1.png
   name: 뿌리 분포 마른 풀 군락
   width: 512
@@ -9742,7 +9750,7 @@ assets:
     original_sha256: 2a93550358867b16e3fcbebc1ed8cd6ff00e7bc88e7c1476116667b7bbf0eb6d
     processing: 알파 51 기준 투명 여백 크롭 (235, 244, 1032, 988), 비율 유지 최대 512px. 내부 알파 보존.
 - managementId: image.billboards.mill-ridge-weathered-rock-v1
-  version: v1
+  version: source-sha256-a83d2b092218042847820a758c3c856ceb2beaf8f2c1fb09b8d511f96faffcfa
   path: assets/billboards/mill-ridge-weathered-rock-v1.png
   name: 자연 풍화 석회암
   width: 512
@@ -9769,7 +9777,7 @@ assets:
     retirement_reason: 관리 UI에서 사용자 확인 후 폐기
     original_path: assets/billboards/mill-ridge-golden-grass-cover-v1.png
 - managementId: image.billboards.moss-clearing-ancient-stump-v1
-  version: v1
+  version: source-sha256-319cb7607f22d390f9da5083e9039c8473e16c2ee0dc1a8ae8d60cbc52b20809
   path: assets/billboards/moss-clearing-ancient-stump-v1.png
   name: 이끼 공터의 오래된 큰 그루터기
   width: 512
@@ -9780,3 +9788,203 @@ assets:
     artifact: moss-clearing-ancient-stump-v1.png
     original_sha256: c6b1413c012262a1513d6d661a2f5b3121a7bf8484df9ce68ca8df7fbe3e14d9
     processing: 투명 PNG 원본 보존. 2x2 타일 가이드 참조 제작.
+- managementId: image.billboards.pebble-shore-rounded-boulders-v1
+  version: v1
+  path: assets/billboards/pebble-shore-rounded-boulders-v1.png
+  name: 조약돌 물가의 둥근 호숫돌 군집
+  width: 512
+  height: 254
+  sha256: 4039a96fce6930fd1ca15699f13f97724c9c1dd072d08b01aa77bb69923b4f09
+  source:
+    repository: codex-imagegen
+    artifact: pebble-shore-rounded-boulders-v1.png
+    original_sha256: 2bc396534c92cc27c27ca0414aaa6330bbe062276f04da100007a61d9e017b0e
+    processing: ImageGen 2x2 타일 가이드 참조 제작. 알파 경계 크롭 후 최대 512px 축소.
+- managementId: image.billboards.pebble-shore-pebble-scatter-v1
+  version: v1
+  path: assets/billboards/pebble-shore-pebble-scatter-v1.png
+  name: 조약돌 물가의 낮은 조약돌 군락
+  width: 512
+  height: 248
+  sha256: 745f95bdf329f14f50cbe63f17c57978bb226dfe2945b43866e70647c33e95c2
+  source:
+    repository: codex-imagegen
+    artifact: pebble-shore-pebble-scatter-v1.png
+    original_sha256: 4e9e13e7b2d9ae53c12357dfb183af90c15f86c1b0ca947be14c37b75600cc14
+    processing: ImageGen 2x2 타일 가이드 참조 제작. 알파 경계 크롭 후 최대 512px 축소.
+- managementId: image.billboards.pebble-shore-pebble-crescent-v1
+  version: v1
+  path: assets/billboards/pebble-shore-pebble-crescent-v1.png
+  name: 조약돌 물가의 굽은 자갈 퇴적 군락
+  width: 512
+  height: 347
+  sha256: 194396affebb7a809a3db55654f438a7c36e1ae5270f2d961b23682552a782a1
+  source:
+    repository: codex-imagegen
+    artifact: pebble-crescent-clean.png
+    original_sha256: 00e5076229874aea162735e5b076191896ea3e208e51ed465c10c69dacc89248
+    processing: ImageGen 3x2 저면 투영 지정 제작. 알파 경계 크롭 후 최대 512px 축소.
+- managementId: image.billboards.pebble-shore-pebble-carpet-v1
+  version: v1
+  path: assets/billboards/pebble-shore-pebble-carpet-v1.png
+  name: 조약돌 물가의 넓은 밝은 자갈밭
+  width: 512
+  height: 247
+  sha256: bd4e68736ebe380dc15eb2fc13185711a19b9f3c77a7a840d62056863150d554
+  source:
+    repository: codex-imagegen
+    artifact: pebble-carpet-ragged-candidate.png
+    original_sha256: d0f4edaed34f442876c7f08f69f3afd02328c079f9ec530e08ff6cb632e36df9
+    processing: ImageGen 저면 투영 보정. 알파 16 경계 크롭, 최대 512px 축소.
+- managementId: image.terrain.pebble-sand-sparse-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/pebble-sand-sparse-v1.png
+  sha256: 8c4eaf9537fa9c5d2f47383245d1947ff86fdbbc61fd108aaf347cb353cfcbea
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/pebble-sand-large-two-candidate.png
+    operation: ImageGen 모래 질감·색상 통일 및 자갈 불규칙 배치 보정, 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-sand-medium-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/pebble-sand-medium-v1.png
+  sha256: 113d680c2c787f6f278775c02ffa7d76a0069bc5e2e27b15a2aa508d93b6b22b
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/pebble-sand-large-three-candidate.png
+    operation: ImageGen 모래 질감·색상 통일 및 자갈 불규칙 배치 보정, 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-sand-scattered-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/pebble-sand-scattered-v1.png
+  sha256: c8c268336d7c02377fda41e1febf41f1c9054b0895ae8c431a060761f5ad336e
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/pebble-sand-neutral-candidate.png
+    operation: ImageGen 모래 질감·색상 통일 및 자갈 불규칙 배치 보정, 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-sand-base-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/pebble-sand-base-v1.png
+  sha256: 9fe022645c4ef8989762c662bfe15a3da7893d86ca9532387d95c41ee4358fa8
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/pebble-sand-base-candidate.png
+    operation: ImageGen 자갈 타일에서 돌을 제거하여 동일 모래 배경 생성. 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-lake-shallow-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/pebble-lake-shallow-v1.png
+  sha256: e3a83bcf7c7269c49ac4e53e7e253d023ad010d64e24b18f72d10f03df3fba1d
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/pebble-lake-shallow-candidate.png
+    operation: ImageGen 큰 수중 자갈 3개와 모래 바탕의 얕은 호수 생성. 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-lake-clear-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/pebble-lake-clear-v1.png
+  sha256: 35303b436eb994fe25fcab18602336c37b3aaeb4d5ae5196f4bdf106caa131cd
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/pebble-lake-clear-candidate.png
+    operation: ImageGen 수중 자갈 제거 후 동일 계열의 비어 있는 얕은 호수 생성. 128x128 LANCZOS 축소.
+- managementId: image.billboards.pebble-shore-rounded-pair-v1
+  version: v1
+  path: assets/billboards/pebble-shore-rounded-pair-v1.png
+  name: 조약돌 물가의 큰 둥근 호숫돌 두 개
+  width: 512
+  height: 252
+  sha256: a6f3f35bc22bbf7f4b96c980302504f556840a4f5db231340ce5067e6db3546f
+  source:
+    repository: codex-imagegen
+    artifact: pebble-shore-rounded-pair-candidate.png
+    original_sha256: a04b51c40cc62fa6a81d85eec18f294d178e3dff80d35f10f42d6e1658fa00eb
+    processing: ImageGen 2x2 타일 가이드 참조 제작. 알파 경계 크롭 후 최대 512px 축소.
+- managementId: image.terrain.pebble-lake-calm-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/pebble-lake-calm-v1.png
+  sha256: 47a8e66161c3dc9794a8da7647570fe777ec770796324afe41f1c15909ebe085
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/pebble-lake-calm-candidate.png
+    operation: ImageGen 낮은 대비의 잔잔한 호수 수면 생성. 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-lake-blue-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/pebble-lake-blue-v1.png
+  sha256: ba13b05831fc068f49df8c4a1e5f808ec5674aefd77e5bbd75e8169f599cabaf
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/pebble-lake-blue-candidate.png
+    operation: ImageGen 낮은 대비의 잔잔한 호수 수면 생성. 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-coarse-0-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/pebble-coarse-0-v1.png
+  sha256: 464d5deeaef7a1242f2f9f18c7e68903cdfbebfe616e5cc5c9fe2d0b950f9963
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/../pebble-repeat/coarse-pebbles-base.png
+    operation: ImageGen 굵은 자갈 반복 패턴 생성. 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-coarse-1-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/pebble-coarse-1-v1.png
+  sha256: fe3a7940d2dff131310e31ced325b8d20c64713acf641bf329eb353deaf230e3
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/../pebble-repeat/coarse-pebbles-variant-1.png
+    operation: ImageGen 굵은 자갈 반복 패턴 생성. 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-coarse-2-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/pebble-coarse-2-v1.png
+  sha256: edb3acdb21a0e6c920b684ac6d9310f647f0fb4525a3f5d32d56200c44337043
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-shore-ground/../pebble-repeat/coarse-pebbles-variant-2.png
+    operation: ImageGen 굵은 자갈 반복 패턴 생성. 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-natural-rounded-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/pebble-natural-rounded-v1.png
+  sha256: 5991709ff8112d78d76a39bf4d68b1e703e9ec0d1d6fbc5171a27b9c4e58a2cb
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-natural/natural-rounded-pebbles-balanced.png
+    operation: ImageGen 불규칙 자연석 생성·명암 보정. 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-submerged-rounded-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/pebble-submerged-rounded-v1.png
+  sha256: 193de4275623b3dcdca74340dc90f774222087205ab5d95460b74a34f2d57e74
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: output/imagegen/pebble-underwater/balanced-submerged-pebbles.png
+    operation: ImageGen 기존 자갈과 호수 참조 수중 자갈 생성·색 보정. 128x128 LANCZOS 축소.
+- managementId: image.terrain.pebble-submerged-stones-v1
+  version: v1
+  path: assets/tiles/decals/pebble-submerged-stones-v1.png
+  sha256: 9690897f1c0b09ce9ad930237304d0c84c4bb9904457a5596a7239c7443581f8
+  width: 256
+  height: 256
+  source:
+    repository: slime-workflow
+    path: .tmp/test/pebble-water-decal/source.png
+    operation: ImageGen 투명 수중 돌 생성 · 알파 여백 크롭 · 비율 유지 256px 패딩

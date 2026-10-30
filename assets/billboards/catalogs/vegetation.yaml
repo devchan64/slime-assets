@@ -2597,7 +2597,7 @@ billboards:
   family: moss-clearing-ancient-stump-v1
   asset_ref:
     management_id: image.billboards.moss-clearing-ancient-stump-v1
-    version: v1
+    version: source-sha256-319cb7607f22d390f9da5083e9039c8473e16c2ee0dc1a8ae8d60cbc52b20809
   map_references:
   - path: assets/maps/field_tiles/moss-clearing.yaml
     texture_key_occurrences: 1
@@ -2654,7 +2654,7 @@ billboards:
   family: mushroom
   asset_ref:
     management_id: image.scenery.mushroom-cluster-v1
-    version: v1
+    version: source-sha256-6f43b13042e16ab9dd143e0f3a5ce892a21e0a75c181fe3902ce8d8f61e4f016
   map_references:
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 2
@@ -2788,7 +2788,7 @@ billboards:
   family: mushroom
   asset_ref:
     management_id: image.scenery.mushroom-variant-3-v1
-    version: v1
+    version: source-sha256-8024a3049573ad06bee5aec74973c97d36dc4024fe1a7fd3bea7452ffdbec3e5
   map_references:
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 3
@@ -3058,6 +3058,8 @@ billboards:
     texture_key_occurrences: 14
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 22
+  - path: assets/maps/field_tiles/pebble-shore.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/orchard-chunky-shrub-v1.png
     width: 120
@@ -3629,6 +3631,8 @@ billboards:
     texture_key_occurrences: 17
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 4
+  - path: assets/maps/field_tiles/pebble-shore.yaml
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/town-grainstead-hazel-leaf-shrub-v1.png
     width: 120
@@ -4077,6 +4081,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 17
+  - path: assets/maps/field_tiles/pebble-shore.yaml
+    texture_key_occurrences: 10
   source_file:
     path: assets/billboards/town-reedhaven-willow-leaf-shrub-v1.png
     width: 124
@@ -4657,6 +4663,8 @@ billboards:
     texture_key_occurrences: 10
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 25
+  - path: assets/maps/field_tiles/pebble-shore.yaml
+    texture_key_occurrences: 9
   source_file:
     path: assets/billboards/young-sapling-v1.png
     width: 60

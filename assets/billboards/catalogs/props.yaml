@@ -704,7 +704,7 @@ billboards:
   family: field-grove-cargo-crate-4-v1
   asset_ref:
     management_id: image.scenery.field-grove-cargo-crate-4-v1
-    version: v1
+    version: source-sha256-379c6a0d12e285ef165f20815fd3668a856e11cefb8fc65a8746b7a601b216a3
   map_references:
   - path: assets/maps/field_tiles/grove.yaml
     texture_key_occurrences: 1
@@ -766,7 +766,7 @@ billboards:
   family: field-grove-cargo-crate-5-v1
   asset_ref:
     management_id: image.scenery.field-grove-cargo-crate-5-v1
-    version: v1
+    version: source-sha256-9951ee1bd5a2b6a63d4c6e69a70fd6891ac79d13ca1d9fa44e83c406efb7add2
   map_references:
   - path: assets/maps/field_tiles/grove.yaml
     texture_key_occurrences: 1
@@ -828,7 +828,7 @@ billboards:
   family: field-grove-cargo-crate-size-large-v1
   asset_ref:
     management_id: image.scenery.field-grove-cargo-crate-size-large-v1
-    version: v1
+    version: source-sha256-e9f00e26ca9d008e958127445b307a7cd24f3f1c196abe00856c3ea678cf0069
   map_references: []
   source_file:
     path: assets/billboards/field-grove-cargo-crate-size-large-v1.png
@@ -889,7 +889,7 @@ billboards:
   family: field-lantern-wood-lantern-stand-4-v1
   asset_ref:
     management_id: image.scenery.field-lantern-wood-lantern-stand-4-v1
-    version: v1
+    version: source-sha256-f23118357ab49955d7fd730344f96a70a55a1dddb7a24f43fca5e7527fd750ee
   map_references: []
   source_file:
     path: assets/billboards/field-lantern-wood-lantern-stand-4-v1.png
@@ -949,7 +949,7 @@ billboards:
   family: field-lantern-wood-lantern-stand-size-large-v1
   asset_ref:
     management_id: image.scenery.field-lantern-wood-lantern-stand-size-large-v1
-    version: v1
+    version: source-sha256-4a65e9d251cb571d26738a698525e5ec09420cc76c3561029fec78424e221a45
   map_references: []
   source_file:
     path: assets/billboards/field-lantern-wood-lantern-stand-size-large-v1.png
@@ -1010,7 +1010,7 @@ billboards:
   family: field-lantern-wood-lantern-stand-size-small-v1
   asset_ref:
     management_id: image.scenery.field-lantern-wood-lantern-stand-size-small-v1
-    version: v1
+    version: source-sha256-7d227bf27973d867b255dd51859df48575c98e96487aa26d5f70104df0654038
   map_references: []
   source_file:
     path: assets/billboards/field-lantern-wood-lantern-stand-size-small-v1.png
@@ -1070,7 +1070,7 @@ billboards:
   family: field-mill-ridge-worn-millstone-1-v1
   asset_ref:
     management_id: image.scenery.field-mill-ridge-worn-millstone-1-v1
-    version: v1
+    version: source-sha256-9b43094aa3ef46a1f143be3e6b7591aeed1eafe76e441b42228aa91a1f333077
   map_references:
   - path: assets/maps/field_tiles/mill-ridge.yaml
     texture_key_occurrences: 2
@@ -1128,193 +1128,11 @@ billboards:
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
-- texture_key: field-mist-lake-mooring-stone-1-v1
-  family: field-mist-lake-mooring-stone-1-v1
-  asset_ref:
-    management_id: image.scenery.field-mist-lake-mooring-stone-1-v1
-    version: v1
-  map_references: []
-  source_file:
-    path: assets/billboards/field-mist-lake-mooring-stone-1-v1.png
-    width: 221
-    height: 141
-    sha256: fd441c17578bbeea22149c54f939a450212f7dad9aaaf952936b2909f442486a
-  modeling:
-    avoid:
-    - 접지 영역의 서로 다른 고도
-    - 다른 오브젝트의 접지 점유와 중첩
-    - 출입구·시작점·주요 이동로 점유
-    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
-    shadow:
-      guidance_only: true
-      runtime_profile: billboard-contact-v2
-      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
-        미지원.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-    purpose: 안개 호수 · 계류석 · 변형 1/5 · 암석·지질 지표
-    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
-    visual_review:
-      date: '2026-10-22'
-      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
-      status: 원본 이미지 육안 확인
-      source_sha256: b6329de9d34aa4f10735ba603bbfc019c89aebf729234143aa30043837cf9959
-    recommended_uses:
-    - mist-lake 야외 필드 배치 후보
-    visual_description: 갈라진 낮은 회색 바위 두 덩어리 위에 어두운 금속 고리와 밧줄이 놓여 있다.
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-1-v1
-    anchorX: -0.01
-    anchorY: -0.33
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 47.39
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.1
-    shadowOffsetRow: -0.1
-    shadowScaleX: 0.81
-    shadowScaleY: 0.81
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-    outdoorDisplayHeight: 23.695
-    size_variant: 기본 변형
-    occupied_tile_count: 1
-    movement: 통행 가능
-- texture_key: field-mist-lake-mooring-stone-4-v1
-  family: field-mist-lake-mooring-stone-4-v1
-  asset_ref:
-    management_id: image.scenery.field-mist-lake-mooring-stone-4-v1
-    version: v1
-  map_references: []
-  source_file:
-    path: assets/billboards/field-mist-lake-mooring-stone-4-v1.png
-    width: 214
-    height: 191
-    sha256: b886ef3befeb9c36903921ee4a6874245b70475c33500882899f91cbaa3d9740
-  modeling:
-    avoid:
-    - 접지 영역의 서로 다른 고도
-    - 다른 오브젝트의 접지 점유와 중첩
-    - 출입구·시작점·주요 이동로 점유
-    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
-    shadow:
-      guidance_only: true
-      runtime_profile: billboard-contact-v2
-      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 공용 속성 shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은
-        미지원.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-    purpose: 안개 호수 · 계류석 · 변형 4/5 · 암석·지질 지표
-    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
-    visual_review:
-      date: '2026-10-22'
-      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
-      status: 원본 이미지 육안 확인
-      source_sha256: c40f7f36decb2489adc7d7e7f7df5b70d57fca7c16584f948b15c7e895b4c6ad
-    recommended_uses:
-    - mist-lake 야외 필드 배치 후보
-    visual_description: 네모난 받침돌 위의 회색 돌기둥 앞면에 금속 고리와 짧은 밧줄이 달려 있다.
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-4-v1
-    anchorX: 0.01
-    anchorY: -0.21
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 80.25
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.03
-    shadowOffsetRow: 0.09
-    shadowScaleX: 0.48
-    shadowScaleY: 0.56
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-    outdoorDisplayHeight: 40.125
-    size_variant: 기본 변형
-    occupied_tile_count: 1
-    movement: 통행 가능
-- texture_key: field-mist-lake-mooring-stone-size-large-v1
-  family: field-mist-lake-mooring-stone-size-large-v1
-  asset_ref:
-    management_id: image.scenery.field-mist-lake-mooring-stone-size-large-v1
-    version: v1
-  map_references: []
-  source_file:
-    path: assets/billboards/field-mist-lake-mooring-stone-size-large-v1.png
-    width: 175
-    height: 156
-    sha256: 2f29801300aad7f5c95d446324434293bb45290ae13563fd2eaf1d549d38be5c
-  modeling:
-    avoid:
-    - 접지 영역의 서로 다른 고도
-    - 다른 오브젝트의 접지 점유와 중첩
-    - 출입구·시작점·주요 이동로 점유
-    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
-    shadow:
-      guidance_only: true
-      runtime_profile: billboard-contact-v2
-      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-    purpose: 안개 호수 · 계류석 · 대형 보완 · 암석·지질 지표
-    composition: 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
-    visual_review:
-      date: '2026-10-22'
-      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
-      status: 원본 이미지 육안 확인
-      source_sha256: d4e23c51810f92030e2afe62ab40d42f8140606c3a12949899c11b6ccdc57224
-    recommended_uses:
-    - 지면 재질과 어울리는 암석 군락에 사용하며 큰 덩어리 주변에 작은 파편을 배치한다.
-    visual_description: 거칠고 둥근 회색 돌 윗면에 검은 금속 고리와 짧은 밧줄이 붙어 있다.
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.field-mist-lake-mooring-stone-size-large-v1
-    anchorX: 0.01
-    anchorY: -0.32
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 63.93
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.02
-    shadowOffsetRow: -0.01
-    shadowScaleX: 0.47
-    shadowScaleY: 0.45
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-    outdoorDisplayHeight: 31.965
-    size_variant: 대형 변형
-    occupied_tile_count: 1
-    movement: 통행 가능
 - texture_key: field-moss-clearing-boundary-stone-size-large-v1
   family: field-moss-clearing-boundary-stone-size-large-v1
   asset_ref:
     management_id: image.scenery.field-moss-clearing-boundary-stone-size-large-v1
-    version: v1
+    version: source-sha256-834cd3a526115f774c56488c1ab0485c87bfc025248a2a5e5b71b6d38ff38ddf
   map_references:
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
     texture_key_occurrences: 3
@@ -1376,7 +1194,7 @@ billboards:
   family: field-pebble-shore-rope-coil-size-large-v1
   asset_ref:
     management_id: image.scenery.field-pebble-shore-rope-coil-size-large-v1
-    version: v1
+    version: source-sha256-ade565f141affc951edfbce862d160d35d6e7145f4336d3ead8ed7b1f03ba40f
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 2
@@ -1438,7 +1256,7 @@ billboards:
   family: field-root-trail-wagon-wheel-4-v1
   asset_ref:
     management_id: image.scenery.field-root-trail-wagon-wheel-4-v1
-    version: v1
+    version: source-sha256-f52618c4efbaf12fc656fc38b45cce9adf08af5b007b84b613000698ada33a7b
   map_references: []
   source_file:
     path: assets/billboards/field-root-trail-wagon-wheel-4-v1.png
@@ -1495,71 +1313,11 @@ billboards:
     size_variant: 기본 변형
     occupied_tile_count: 1
     movement: 통행 가능
-- texture_key: field-salt-causeway-repair-stakes-1-v1
-  family: field-salt-causeway-repair-stakes-1-v1
-  asset_ref:
-    management_id: image.scenery.field-salt-causeway-repair-stakes-1-v1
-    version: v1
-  map_references: []
-  source_file:
-    path: assets/billboards/field-salt-causeway-repair-stakes-1-v1.png
-    width: 249
-    height: 226
-    sha256: b787c9629de9960a9cb65fc9203893028e21bd2441119e87a366fa08f1d96542
-  modeling:
-    avoid:
-    - 접지 영역의 서로 다른 고도
-    - 다른 오브젝트의 접지 점유와 중첩
-    - 출입구·시작점·주요 이동로 점유
-    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
-    shadow:
-      guidance_only: true
-      runtime_profile: billboard-contact-v2
-      contact_guidance: 밑면 접촉부에 짧고 부드러운 타원 그림자를 둔다.
-      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
-        않게 검수한다.
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
-        직사각형. 에셋별 농도 수동 조절은 미지원.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
-    purpose: 소금둑길 · 보수 말뚝 · 변형 1/5 · prop
-    composition: 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
-    visual_review:
-      date: '2026-10-22'
-      scope: 형태·색상·구성·화면상 방향. 정밀 알파 경계와 게임 접지 판정은 별도 검수.
-      method: 등록 PNG를 투명도 합성한 축소 검수 시트에서 외형 확인
-      status: 원본 이미지 육안 확인
-      source_sha256: 5569eeb43658d78f77ac054e762715b19567e2d871c9f134dae2937b924c5ccf
-    recommended_uses:
-    - 등록된 용도에 맞는 장소를 선택하고 주변 오브젝트와 간격을 조정한다.
-    visual_description: 길이와 굵기가 다른 갈색 나무 말뚝들이 세로로 모여 가운데를 밧줄로 묶었다.
-  placement:
-    status: 공용 속성 등록됨
-    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
-    vertical_classification: top
-    source: assets/maps/sprite-display-properties.yaml#data.field-salt-causeway-repair-stakes-1-v1
-    anchorX: 0.0
-    anchorY: -0.5
-    groundFootprintColumns: 1
-    groundFootprintRows: 1
-    displayHeight: 100.0
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.3
-    shadowOffsetRow: -0.33
-    shadowScaleX: 0.44
-    shadowScaleY: 0.37
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-    outdoorDisplayHeight: 50.0
-    size_variant: 기본 변형
-    occupied_tile_count: 1
-    movement: 통행 가능
 - texture_key: field-salt-causeway-repair-stakes-2-v1
   family: field-salt-causeway-repair-stakes-2-v1
   asset_ref:
     management_id: image.scenery.field-salt-causeway-repair-stakes-2-v1
-    version: v1
+    version: source-sha256-b27c79e3b18d69070a4d34bb1a0cb371cddf65dfab1e3aff2c8c50f0ee1def54
   map_references: []
   source_file:
     path: assets/billboards/field-salt-causeway-repair-stakes-2-v1.png
@@ -1619,7 +1377,7 @@ billboards:
   family: field-salt-flat-brine-barrel-1-v1
   asset_ref:
     management_id: image.scenery.field-salt-flat-brine-barrel-1-v1
-    version: v1
+    version: source-sha256-3b1004ea882c0dfe35e2ae85afa9ffb9e1b065fae4b284f5e74198796be8e1ae
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 3
@@ -1681,7 +1439,7 @@ billboards:
   family: field-wind-hills-rope-waymark-4-v1
   asset_ref:
     management_id: image.scenery.field-wind-hills-rope-waymark-4-v1
-    version: v1
+    version: source-sha256-29dca958ea92c4cf8ecf32187309c3fa4c725199ade41ba28699366f2d2c689f
   map_references: []
   source_file:
     path: assets/billboards/field-wind-hills-rope-waymark-4-v1.png
