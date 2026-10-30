@@ -1,0 +1,27 @@
+name: slime-assets-local
+services:
+  asset-db:
+    image: postgres:17.6-bookworm
+    environment:
+      POSTGRES_DB: slime_assets_local
+      POSTGRES_USER: asset_database_owner
+      POSTGRES_PASSWORD_FILE: /run/secrets/asset_database_password
+    secrets:
+      - asset_database_password
+    volumes:
+      - type: bind
+        source: ./.local/data/asset-postgres
+        target: /var/lib/postgresql/data
+        bind:
+          create_host_path: false
+    ports:
+      - "127.0.0.1:25432:5432"
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U asset_database_owner -d slime_assets_local"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    restart: unless-stopped
+secrets:
+  asset_database_password:
+    file: .local/secrets/asset_database_password
