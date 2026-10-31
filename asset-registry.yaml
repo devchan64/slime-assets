@@ -733,7 +733,7 @@ assets:
 - managementId: config.field-tiles.silver-marsh
   version: shared-material-codes-v1
   path: assets/maps/field_tiles/silver-marsh.yaml
-  sha256: 4830fbbc7855e37c1a98c32b364c83032f0d82c906fb2115540c1b2d69de99df
+  sha256: 7efc4d376464400ef97d59af8928c6b42d24ae924161fd1833620838daaae6e4
   source:
     repository: slime-backend
     path: config/field_tiles/silver-marsh.yaml
@@ -1283,7 +1283,7 @@ assets:
 - managementId: config.terrain.maps.silver-marsh
   version: v1
   path: assets/maps/terrain/maps/silver-marsh.yaml
-  sha256: 854fd72258abbcf6ecc3513f3ff3150d7c0438998b4a58ab8fba23d570cf0761
+  sha256: 8cd30981e65f43f44a844efc0ee04f6388712a7d57bdfe05f2c62c8f540f7f76
   source:
     repository: slime-backend
     path: config/terrain/maps/silver-marsh.yaml
@@ -6517,7 +6517,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 48c1578565cb57425bd9b146d6170d7377bd0930f703d15131197410405ebe31
+  sha256: 73bd9c29e02a4da9a1587b24646bfd286a6c3e9e5bccab3e5f0fdfa34961eaad
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10023,3 +10023,24 @@ assets:
     artifact: wind-ridge-variant-cropped.png
     original_sha256: c2f50fffd43d03886f6967417a7385765b83c7dfa33d27b5220d028ea844053a
     processing: ImageGen 풍화 암석 능선 생성 후 알파 경계 크롭과 최대 512px 축소.
+- managementId: image.billboards.silver-marsh-silver-reed-v1
+  version: v1
+  path: assets/billboards/silver-marsh-silver-reed-v1.png
+  name: 은빛 습지의 은백색 갈대 군락
+  width: 489
+  height: 512
+  sha256: 88146d2d005ee74d9f09efa8bf2b6c1ea9c509198c274b053a31cf00aa17b4cf
+  source:
+    repository: codex-imagegen
+    artifact: exec-f89cb3fa-5de4-4121-ac3d-4b371da6d266.png
+    original_sha256: 654b29cc7e0f3ff63bddd0b8469bf452df0896e1b9798a44b9f7359181955207
+    processing: ImageGen 은백색 이삭과 녹색 잎의 습지 갈대 제작. 알파 경계 크롭 후 최대 512px 축소.
+- managementId: image.terrain.silver-marsh-muddy-grass-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/silver-marsh-muddy-grass-v1.png
+  sha256: f259ec4f526ddb1889bb3b6569a1a99e6cb3a020aec6853b4f4748df94baf9b4
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    operation: ImageGen 습지 진흙과 초지 혼합 지면 생성 후 128px 축소.
