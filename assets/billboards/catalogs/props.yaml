@@ -708,6 +708,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/grove.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/windrow-road.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/field-grove-cargo-crate-4-v1.png
     width: 243
@@ -2381,6 +2383,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/windrow-road.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-grain-sacks-v1.png
     width: 105
@@ -2708,6 +2712,8 @@ billboards:
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/mill-ridge.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/windrow-road.yaml
     texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-handcart-v1.png

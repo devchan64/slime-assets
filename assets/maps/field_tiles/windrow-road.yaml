@@ -5,37 +5,1710 @@ data:
   - gggggggggggggggggggggggggggggggg
   - gggggggggggggggggggggggggggggggg
   - gggggggggggggggggggggggggggggggg
-  - gggfffffffffgggggggggggggggggggg
-  - gggfffffffffggggggggggbbbbgggggg
-  - gggfffffffffggggggggggbbbbgggggg
-  - gggfffffffffggggggggggbbbbgggggg
-  - gggfffffffffggggggggggbbbbgggggg
-  - gggfffffffffgggggggggggggggggggg
   - gggggggggggggggggggggggggggggggg
   - gggggggggggggggggggggggggggggggg
-  - ggggggggggggeeeeeeeeeggggggggggg
-  - ggggggggggggeHHHHHHHeggggggggggg
-  - eeeeeeegggeeeHHHHHHHeeeeeeeeeeee
-  - HHHHHHegggeHHHHHHHHHHHHHHHHHHHHH
-  - HHHHHHegggeHHHHHHHHHHHHHHHHHHHHH
-  - HHHHHHeeeeeHHHHHHHHHHHHHHHHHHHHH
-  - eeeHHHHHHHHHHHHHHHHHeeeeeeeeeeee
-  - ggeHHHHHHHHHHHHHHHHHeggggggggggg
-  - ggeHHHHHHHHHHHeeeeeeeggggggggggg
-  - ggeeeeeeeeeeeeeggggggggggggggggg
-  - gggggggggggggggggggggfffffffffgg
-  - ggggllllllgggggggggggfffffffffgg
-  - ggggllllllgggggggggggfffffffffgg
-  - ggggllllllgggggggggggfffffffffgg
-  - ggggllllllgggggggggggfffffffffgg
-  - ggggllllllgggggggggggfffffffffgg
-  - ggggllllllgggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggHHHHHHggggg
+  - gggggggggggggggggggHHHHHHHHHHggg
+  - ggggggggggggggggHHHHHHHHHHHHHHHg
+  - HggggggggggggggHHHHHHggggggHHHHH
+  - HHHggggggggggHHHHHHggggggggggHHH
+  - HHHHHggggggHHHHHHHgggggggggggggH
+  - gHHHHHHHHHHHHHHgHggggggggggggggg
+  - gggHHHHHHHHHHggggggggggggggggggg
+  - gggggHHHHHHggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
+  - gggggggggggggggggggggggggggggggg
   - gggggggggggggggggggggggggggggggg
   - gggggggggggggggggggggggggggggggg
   - gggggggggggggggggggggggggggggggg
   objects:
   - id: ward-tower
-    kind: ward-tower
     position:
       column: 16
       row: 16
+    kind: ward-tower
+  - id: windrow-road-grass-8-1
+    position:
+      column: 8
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-9-1
+    position:
+      column: 9
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-10-1
+    position:
+      column: 10
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-11-1
+    position:
+      column: 11
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-12-1
+    position:
+      column: 12
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-20-1
+    position:
+      column: 20
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-21-1
+    position:
+      column: 21
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-24-1
+    position:
+      column: 24
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-29-1
+    position:
+      column: 29
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-3-2
+    position:
+      column: 3
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-4-2
+    position:
+      column: 4
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-5-2
+    position:
+      column: 5
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-9-2
+    position:
+      column: 9
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-10-2
+    position:
+      column: 10
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-15-2
+    position:
+      column: 15
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-18-2
+    position:
+      column: 18
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-26-2
+    position:
+      column: 26
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-4-3
+    position:
+      column: 4
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-5-3
+    position:
+      column: 5
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-12-3
+    position:
+      column: 12
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-13-3
+    position:
+      column: 13
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-19-3
+    position:
+      column: 19
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-21-3
+    position:
+      column: 21
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-25-3
+    position:
+      column: 25
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-26-3
+    position:
+      column: 26
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-27-3
+    position:
+      column: 27
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-28-3
+    position:
+      column: 28
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-2-4
+    position:
+      column: 2
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-3-4
+    position:
+      column: 3
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-4-4
+    position:
+      column: 4
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-7-4
+    position:
+      column: 7
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-11-4
+    position:
+      column: 11
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-12-4
+    position:
+      column: 12
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-14-4
+    position:
+      column: 14
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-16-4
+    position:
+      column: 16
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-6-5
+    position:
+      column: 6
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-9-5
+    position:
+      column: 9
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-11-5
+    position:
+      column: 11
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-12-5
+    position:
+      column: 12
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-14-5
+    position:
+      column: 14
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-19-5
+    position:
+      column: 19
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-22-5
+    position:
+      column: 22
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-27-5
+    position:
+      column: 27
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-29-5
+    position:
+      column: 29
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-9-6
+    position:
+      column: 9
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-13-6
+    position:
+      column: 13
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-1-7
+    position:
+      column: 1
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-6-7
+    position:
+      column: 6
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-8-7
+    position:
+      column: 8
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-9-7
+    position:
+      column: 9
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-26-7
+    position:
+      column: 26
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-17-8
+    position:
+      column: 17
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-20-8
+    position:
+      column: 20
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-22-8
+    position:
+      column: 22
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-24-8
+    position:
+      column: 24
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-27-8
+    position:
+      column: 27
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-29-8
+    position:
+      column: 29
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-4-9
+    position:
+      column: 4
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-7-9
+    position:
+      column: 7
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-8-9
+    position:
+      column: 8
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-9-9
+    position:
+      column: 9
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-10-9
+    position:
+      column: 10
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-16-9
+    position:
+      column: 16
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-19-9
+    position:
+      column: 19
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-20-9
+    position:
+      column: 20
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-24-9
+    position:
+      column: 24
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-29-9
+    position:
+      column: 29
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-13-10
+    position:
+      column: 13
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-18-10
+    position:
+      column: 18
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-19-10
+    position:
+      column: 19
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-20-10
+    position:
+      column: 20
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-28-10
+    position:
+      column: 28
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-3-11
+    position:
+      column: 3
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-7-11
+    position:
+      column: 7
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-9-11
+    position:
+      column: 9
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-15-11
+    position:
+      column: 15
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-16-11
+    position:
+      column: 16
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-18-11
+    position:
+      column: 18
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-20-11
+    position:
+      column: 20
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-30-11
+    position:
+      column: 30
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-1-12
+    position:
+      column: 1
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-2-12
+    position:
+      column: 2
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-3-12
+    position:
+      column: 3
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-4-12
+    position:
+      column: 4
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-8-12
+    position:
+      column: 8
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-11-12
+    position:
+      column: 11
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-14-12
+    position:
+      column: 14
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-15-12
+    position:
+      column: 15
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-17-12
+    position:
+      column: 17
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-18-12
+    position:
+      column: 18
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-1-13
+    position:
+      column: 1
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-3-13
+    position:
+      column: 3
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-4-13
+    position:
+      column: 4
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-8-13
+    position:
+      column: 8
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-9-13
+    position:
+      column: 9
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-10-13
+    position:
+      column: 10
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-1-14
+    position:
+      column: 1
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-2-14
+    position:
+      column: 2
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-3-14
+    position:
+      column: 3
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-4-14
+    position:
+      column: 4
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-5-14
+    position:
+      column: 5
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-6-14
+    position:
+      column: 6
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-8-14
+    position:
+      column: 8
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-9-14
+    position:
+      column: 9
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-10-14
+    position:
+      column: 10
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-11-14
+    position:
+      column: 11
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-12-14
+    position:
+      column: 12
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-13-14
+    position:
+      column: 13
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-4-15
+    position:
+      column: 4
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-5-15
+    position:
+      column: 5
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-6-15
+    position:
+      column: 6
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-9-15
+    position:
+      column: 9
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-10-15
+    position:
+      column: 10
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-11-15
+    position:
+      column: 11
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-12-15
+    position:
+      column: 12
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-5-16
+    position:
+      column: 5
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-6-16
+    position:
+      column: 6
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-7-16
+    position:
+      column: 7
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-8-16
+    position:
+      column: 8
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-9-16
+    position:
+      column: 9
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-10-16
+    position:
+      column: 10
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-21-16
+    position:
+      column: 21
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-22-16
+    position:
+      column: 22
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-23-16
+    position:
+      column: 23
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-24-16
+    position:
+      column: 24
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-26-16
+    position:
+      column: 26
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-20-17
+    position:
+      column: 20
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-21-17
+    position:
+      column: 21
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-23-17
+    position:
+      column: 23
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-24-17
+    position:
+      column: 24
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-25-17
+    position:
+      column: 25
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-27-17
+    position:
+      column: 27
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-28-17
+    position:
+      column: 28
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-19-18
+    position:
+      column: 19
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-20-18
+    position:
+      column: 20
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-21-18
+    position:
+      column: 21
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-22-18
+    position:
+      column: 22
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-23-18
+    position:
+      column: 23
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-26-18
+    position:
+      column: 26
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-28-18
+    position:
+      column: 28
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-29-18
+    position:
+      column: 29
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-18-19
+    position:
+      column: 18
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-19-19
+    position:
+      column: 19
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-20-19
+    position:
+      column: 20
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-21-19
+    position:
+      column: 21
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-22-19
+    position:
+      column: 22
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-23-19
+    position:
+      column: 23
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-24-19
+    position:
+      column: 24
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-26-19
+    position:
+      column: 26
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-27-19
+    position:
+      column: 27
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-28-19
+    position:
+      column: 28
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-29-19
+    position:
+      column: 29
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-2-20
+    position:
+      column: 2
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-14-20
+    position:
+      column: 14
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-15-20
+    position:
+      column: 15
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-17-20
+    position:
+      column: 17
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-18-20
+    position:
+      column: 18
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-19-20
+    position:
+      column: 19
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-20-20
+    position:
+      column: 20
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-21-20
+    position:
+      column: 21
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-25-20
+    position:
+      column: 25
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-26-20
+    position:
+      column: 26
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-27-20
+    position:
+      column: 27
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-28-20
+    position:
+      column: 28
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-29-20
+    position:
+      column: 29
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-1-21
+    position:
+      column: 1
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-2-21
+    position:
+      column: 2
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-3-21
+    position:
+      column: 3
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-15-21
+    position:
+      column: 15
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-16-21
+    position:
+      column: 16
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-19-21
+    position:
+      column: 19
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-24-21
+    position:
+      column: 24
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-26-21
+    position:
+      column: 26
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-27-21
+    position:
+      column: 27
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-28-21
+    position:
+      column: 28
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-29-21
+    position:
+      column: 29
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-30-21
+    position:
+      column: 30
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-1-22
+    position:
+      column: 1
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-6-22
+    position:
+      column: 6
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-8-22
+    position:
+      column: 8
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-10-22
+    position:
+      column: 10
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-11-22
+    position:
+      column: 11
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-21-22
+    position:
+      column: 21
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-3-23
+    position:
+      column: 3
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-4-23
+    position:
+      column: 4
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-13-23
+    position:
+      column: 13
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-14-23
+    position:
+      column: 14
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-17-23
+    position:
+      column: 17
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-18-23
+    position:
+      column: 18
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-29-23
+    position:
+      column: 29
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-30-23
+    position:
+      column: 30
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-2-24
+    position:
+      column: 2
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-7-24
+    position:
+      column: 7
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-11-24
+    position:
+      column: 11
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-15-24
+    position:
+      column: 15
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-16-24
+    position:
+      column: 16
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-21-24
+    position:
+      column: 21
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-22-24
+    position:
+      column: 22
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-30-24
+    position:
+      column: 30
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-1-25
+    position:
+      column: 1
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-19-25
+    position:
+      column: 19
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-1-26
+    position:
+      column: 1
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-4-26
+    position:
+      column: 4
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-7-26
+    position:
+      column: 7
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-10-26
+    position:
+      column: 10
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-11-26
+    position:
+      column: 11
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-22-26
+    position:
+      column: 22
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-26-26
+    position:
+      column: 26
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-3-27
+    position:
+      column: 3
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-6-27
+    position:
+      column: 6
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-7-27
+    position:
+      column: 7
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-8-27
+    position:
+      column: 8
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-9-27
+    position:
+      column: 9
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-10-27
+    position:
+      column: 10
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-11-27
+    position:
+      column: 11
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-14-27
+    position:
+      column: 14
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-16-27
+    position:
+      column: 16
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-26-27
+    position:
+      column: 26
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-27-27
+    position:
+      column: 27
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-1-28
+    position:
+      column: 1
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-13-28
+    position:
+      column: 13
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-16-28
+    position:
+      column: 16
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-20-28
+    position:
+      column: 20
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-21-28
+    position:
+      column: 21
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-22-28
+    position:
+      column: 22
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-23-28
+    position:
+      column: 23
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-24-28
+    position:
+      column: 24
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: dry-grass-v1
+  - id: windrow-road-grass-27-28
+    position:
+      column: 27
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-1-29
+    position:
+      column: 1
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-2-29
+    position:
+      column: 2
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-22-29
+    position:
+      column: 22
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-29-29
+    position:
+      column: 29
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grainstead-golden-meadow-tuft-v1
+  - id: windrow-road-grass-3-30
+    position:
+      column: 3
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-4-30
+    position:
+      column: 4
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-grass-15-30
+    position:
+      column: 15
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: windrow-road-grass-25-30
+    position:
+      column: 25
+      row: 30
+    kind: decoration
+    tileAnchor: center
+    textureKey: granary-flats-ripe-wheat-v1
+  - id: windrow-road-handoff-0
+    position:
+      column: 12
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-handcart-v1
+  - id: windrow-road-handoff-1
+    position:
+      column: 11
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-grain-sacks-v1
+  - id: windrow-road-handoff-2
+    position:
+      column: 14
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-grove-cargo-crate-4-v1
