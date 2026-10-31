@@ -685,7 +685,7 @@ assets:
 - managementId: config.field-tiles.mist-lake
   version: shared-material-codes-v1
   path: assets/maps/field_tiles/mist-lake.yaml
-  sha256: 0d25b6e589d3252e1a1cb57a322e148a9c73db41a65b928bd52d79598a5b0412
+  sha256: 3ad7170b9204da6bf7e72f00fc01ee589444867bef5bc675c33901bbf897faca
   source:
     repository: slime-backend
     path: config/field_tiles/mist-lake.yaml
@@ -1235,7 +1235,7 @@ assets:
 - managementId: config.terrain.maps.mist-lake
   version: v1
   path: assets/maps/terrain/maps/mist-lake.yaml
-  sha256: 4969ac21fd4e4cc7cc0a763fd599eb9c6be015c9a097c4d17bc55923a4c23508
+  sha256: 07195757b85f461e93464338c66f00e038b5c3476f7c5cd63b5214ff4add5d16
   source:
     repository: slime-backend
     path: config/terrain/maps/mist-lake.yaml
@@ -9047,7 +9047,7 @@ assets:
 - managementId: catalog.effects
   version: v1
   path: assets/sprites/effects/catalog.yaml
-  sha256: d1a55d32fbffe80d77b1edaa641fd20fe67c8f8bb53e22b5ca7bd56cca12f8c4
+  sha256: 6eca65f1d65a1e081a546517d90bfa9f0da368b7c0034d2575e7883ed8102693
   source:
     operation: 웨이포인트·결계탑 오라를 빌보드와 분리
 - managementId: audio.bgm.mist-lake.vocal.mp3
@@ -10062,3 +10062,39 @@ assets:
   source:
     repository: slime-workflow
     operation: ImageGen 마른 개울 침식 모래 지면 생성.
+- managementId: image.terrain.mist-lake-silver-water-v2
+  version: v2
+  path: assets/tiles/terrain/blocked/mist-lake-silver-water-v2.png
+  sha256: 1ae0c0fd61b41fca5fd5eaa591af4996e2f42a5efbab196d23023ac59071ff5a
+  width: 1254
+  height: 1254
+  source:
+    repository: slime-workflow
+    operation: ImageGen 안개 호수 청회색 수면 생성.
+- managementId: image.effects.lake-fog-sheet-v1
+  version: v1
+  path: assets/sprites/effects/terrain/lake-fog-sheet-v1.png
+  sha256: 242f7b116a1a571d3e6bfe3170bb8b306233b813c24db37f30e9004b5a62d4bb
+  width: 1774
+  height: 887
+  source:
+    repository: slime-workflow
+    operation: ImageGen 호수 안개 8프레임 시트 생성
+- managementId: image.terrain.mist-lake-moss-bank-wall-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/mist-lake-moss-bank-wall-v1.png
+  sha256: 82522c7314e8512c8216151fcc6044a7d9eb2ce7b08a5e4a5a447984873e66a2
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    operation: ImageGen 안개호수 이끼 둔덕 벽면 생성 및 128px 정규화.
+- managementId: image.effects.lake-fog-sheet-v2
+  version: v2
+  path: assets/sprites/effects/terrain/lake-fog-sheet-v2.png
+  sha256: f0c85c42282e6467a5e01d60d53d57381660aa18312c6ad70a779efd37d15a91
+  width: 1774
+  height: 887
+  source:
+    repository: slime-workflow
+    operation: ImageGen 안개 시트 재생성 · 프레임 여백 보정

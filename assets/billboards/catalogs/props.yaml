@@ -1200,6 +1200,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/mist-lake.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/field-pebble-shore-rope-coil-size-large-v1.png
     width: 205
@@ -2254,6 +2256,8 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/mist-lake.yaml
     texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-fish-rack-v1.png
@@ -3423,6 +3427,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/mist-lake.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-reed-bundles-v1.png
     width: 111

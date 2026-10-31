@@ -198,6 +198,55 @@ effects:
     - 0.96
     - 0.61
     texture: mushroom-variant-2-v1
+- id: lake-fog-v1
+  name: 호수 안개
+  rows: 2
+  image: assets/sprites/effects/terrain/lake-fog-sheet-v2.png
+  frames: 8
+  columns: 4
+  renderer: fog
+  alignment:
+    key: safe-terrain-lake-fog
+    alpha: 0.55
+    frames:
+    - - 0.12
+      - 0.2
+      - 0.88
+      - 0.88
+    - - 0.12
+      - 0.2
+      - 0.88
+      - 0.88
+    - - 0.12
+      - 0.2
+      - 0.88
+      - 0.88
+    - - 0.12
+      - 0.2
+      - 0.88
+      - 0.88
+    - - 0.12
+      - 0.2
+      - 0.88
+      - 0.88
+    - - 0.12
+      - 0.2
+      - 0.88
+      - 0.88
+    - - 0.12
+      - 0.2
+      - 0.88
+      - 0.88
+    - - 0.12
+      - 0.2
+      - 0.88
+      - 0.88
+    target:
+    - 0
+    - 0
+    - 1
+    - 1
+    texture: fog
 - id: moth-swarm-v1
   name: 나방 무리
   rows: 2
