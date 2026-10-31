@@ -635,7 +635,7 @@ assets:
 - managementId: config.field-tiles.dry-creek
   version: shared-material-codes-v2-creek-v1-creek-v1
   path: assets/maps/field_tiles/dry-creek.yaml
-  sha256: 519d12e79b71d5f0cbc26879d4a5b694bbf2bf4ece7e9412159041a3651d52ab
+  sha256: df1e25156dda5d1ba9d7348541d79ac1ba3f273e5289819adec6fafd930e115b
   source:
     repository: slime-backend
     path: config/field_tiles/dry-creek.yaml
@@ -1193,7 +1193,7 @@ assets:
 - managementId: config.terrain.maps.dry-creek
   version: v1-creek-v1-creek-v1
   path: assets/maps/terrain/maps/dry-creek.yaml
-  sha256: 804c9fc71be7f3d972ba8b7b38eecb4520dddeebdfc7bfa6e4b75c575392df6e
+  sha256: 0caca73a5b6a19d324ead8c0ea46f7b1f7be6b2c9ccaf2c1dcfb17aa1643ea9e
   source:
     repository: slime-backend
     path: config/terrain/maps/dry-creek.yaml
@@ -10053,3 +10053,12 @@ assets:
   source:
     repository: slime-workflow
     operation: ImageGen 청록색 잔잔한 습지 수면 생성.
+- managementId: image.terrain.dry-creek-eroded-sand-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/dry-creek-eroded-sand-v1.png
+  sha256: d1796bb516bb9212251b509479217ab771926271597a958a7b61ed3d57739652
+  width: 1254
+  height: 1254
+  source:
+    repository: slime-workflow
+    operation: ImageGen 마른 개울 침식 모래 지면 생성.

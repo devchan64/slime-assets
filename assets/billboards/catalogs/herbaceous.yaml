@@ -1602,7 +1602,7 @@ billboards:
   - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 14
   - path: assets/maps/field_tiles/dry-creek.yaml
-    texture_key_occurrences: 24
+    texture_key_occurrences: 19
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 11
   - path: assets/maps/field_tiles/mill-ridge.yaml
@@ -1676,7 +1676,7 @@ billboards:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/dry-creek.yaml
-    texture_key_occurrences: 19
+    texture_key_occurrences: 23
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 12
   - path: assets/maps/field_tiles/mill-ridge.yaml
@@ -1817,6 +1817,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 12
+  - path: assets/maps/field_tiles/dry-creek.yaml
+    texture_key_occurrences: 25
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 11
   - path: assets/maps/field_tiles/mill-ridge.yaml
@@ -2720,6 +2722,8 @@ billboards:
     management_id: image.billboards.mill-ridge-rooted-grass-v1
     version: source-sha256-6f8a7f43bcefb7940d00574763c7bc4a3722044bf9f277676b1b5f04d9372875
   map_references:
+  - path: assets/maps/field_tiles/dry-creek.yaml
+    texture_key_occurrences: 43
   - path: assets/maps/field_tiles/mill-ridge.yaml
     texture_key_occurrences: 165
   source_file:
@@ -4886,7 +4890,7 @@ billboards:
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 20
   - path: assets/maps/field_tiles/dry-creek.yaml
-    texture_key_occurrences: 18
+    texture_key_occurrences: 22
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 5
   - path: assets/maps/field_tiles/mill-ridge.yaml
