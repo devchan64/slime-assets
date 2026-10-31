@@ -1,41 +1,2176 @@
 managementId: config.field-tiles.wind-hills
 data:
   rows:
-  - BBBBBBBBBBBBBBBBHBBBBBBBBBBBBBBB
-  - BBBBBBBBBBBBBBBBHBBBBBBdvBBBBBBB
-  - BBBBBBBBBBBBBBBBHBBBBBddvvBBBBBB
-  - BBBBBBBBBBBBBBHHHBBBBddCCdvBBBBB
-  - BBBBBBBBBBBBBBHBBBBBddvvvvddBBBB
-  - BBBBBBBddBBBBBHBBBBBdddxvdddBBBB
-  - BBBBBBddddBBBBHBBBBdddddddddBBBB
-  - BBBBBddddddBBBHBBBBddddvvddBBBBB
-  - BBBBddddddvdBBHBBBvddddvvvvBBBBB
-  - BBBBdddxdddvdBHBBBvvdxvvvvBBBBBB
-  - BBBBBdddddvvvBHBBBvvdvvdvBBBBBBB
-  - BBBBBdddddvCvdHHHBBvdvCdfffBBBBB
-  - BBBBBBdddvvCddBBHBBBdddfffffBBBB
-  - BBBBBBdddvvCCddBHBBBBdfffffffBBB
-  - BBBBBBBdddxCCddBHBBBBBfffffffBBB
-  - BBBBBBBdddvvCddBHBBBBBfffffffBBB
-  - BBBBBBBBdddvddBBHBBBBBfffffffBBB
-  - BBBBBBBBBddddBBBHBBBBBfffffffBBB
-  - BBBBBBBBBBvdBBBBHBBBBBBfffffBBBB
-  - BBBBBBBBBBBBBBBBHBBBBBBBfffBBBBB
-  - BBBBBBBBBBBBBBBBHBBBBBBdvvvBBBBB
-  - BBBBBfffffBBBBBBHBBBBBddvvvvBBBB
-  - BBBBfffffffBBBBBHBBBBddvvvvvdBBB
-  - BBBfffffffffBBBBHBBBddCCxCvvBBBB
-  - BBBfffffffffBBBBHBBBddCCCCddBBBB
-  - BBBfffffffffBBBBHBBddCCCCddBBBBB
-  - BBBBfffffffBBBBBHBBddvxCddBBBBBB
-  - BBBBBfffffBBBBBBHBBddvCddBBBBBBB
-  - BBBBBBBBBBBBBBBBHBBBddddBBBBBBBB
-  - BBBBBBBBBBBBBBBBHBBBBddBBBBBBBBB
-  - BBBBBBBBBBBBBBBBHBBBBBBBBBBBBBBB
-  - BBBBBBBBBBBBBBBBHBBBBBBBBBBBBBBB
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAHHHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAHHHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
+  - AAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAA
   objects:
   - id: ward-tower
-    kind: ward-tower
     position:
       column: 16
       row: 16
+    kind: ward-tower
+  - id: wind-hills-ridge-rock-22-5
+    position:
+      column: 22
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: mill-ridge-weathered-rock-v1
+  - id: wind-hills-ridge-rock-25-7
+    position:
+      column: 25
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: wind-hills-ridge-rock-7-9
+    position:
+      column: 7
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: mill-ridge-weathered-rock-v1
+  - id: wind-hills-ridge-rock-22-9
+    position:
+      column: 22
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-mill-ridge-weathered-stones-4-v1
+  - id: wind-hills-ridge-rock-24-9
+    position:
+      column: 24
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-mill-ridge-weathered-stones-4-v1
+  - id: wind-hills-ridge-rock-9-10
+    position:
+      column: 9
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: wind-hills-ridge-rock-7-11
+    position:
+      column: 7
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: wind-hills-ridge-rock-8-14
+    position:
+      column: 8
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: wind-hills-ridge-rock-23-23
+    position:
+      column: 23
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: mill-ridge-weathered-rock-v1
+  - id: wind-hills-ridge-rock-25-25
+    position:
+      column: 25
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: quarry-fallen-limestone-v1
+  - id: wind-hills-ridge-rock-23-27
+    position:
+      column: 23
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-mill-ridge-weathered-stones-4-v1
+  - id: wind-hills-ridge-rock-25-27
+    position:
+      column: 25
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: field-mill-ridge-weathered-stones-4-v1
+  - id: wind-hills-long-grass-2-2
+    position:
+      column: 2
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-4-2
+    position:
+      column: 4
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-5-2
+    position:
+      column: 5
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-7-2
+    position:
+      column: 7
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-8-2
+    position:
+      column: 8
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-10-2
+    position:
+      column: 10
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-11-2
+    position:
+      column: 11
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-13-2
+    position:
+      column: 13
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-19-2
+    position:
+      column: 19
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-26-2
+    position:
+      column: 26
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-29-2
+    position:
+      column: 29
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-3-3
+    position:
+      column: 3
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-5-3
+    position:
+      column: 5
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-10-3
+    position:
+      column: 10
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-12-3
+    position:
+      column: 12
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-19-3
+    position:
+      column: 19
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-22-3
+    position:
+      column: 22
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-23-3
+    position:
+      column: 23
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-26-3
+    position:
+      column: 26
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-29-3
+    position:
+      column: 29
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-2-4
+    position:
+      column: 2
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-7-4
+    position:
+      column: 7
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-8-4
+    position:
+      column: 8
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-12-4
+    position:
+      column: 12
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-21-4
+    position:
+      column: 21
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-23-4
+    position:
+      column: 23
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-24-4
+    position:
+      column: 24
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-2-5
+    position:
+      column: 2
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-6-5
+    position:
+      column: 6
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-9-5
+    position:
+      column: 9
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-10-5
+    position:
+      column: 10
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-16-5
+    position:
+      column: 16
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-18-5
+    position:
+      column: 18
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-24-5
+    position:
+      column: 24
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-25-5
+    position:
+      column: 25
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-29-5
+    position:
+      column: 29
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-2-6
+    position:
+      column: 2
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-4-6
+    position:
+      column: 4
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-16-6
+    position:
+      column: 16
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-18-6
+    position:
+      column: 18
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-20-6
+    position:
+      column: 20
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-21-6
+    position:
+      column: 21
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-23-6
+    position:
+      column: 23
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-24-6
+    position:
+      column: 24
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-29-6
+    position:
+      column: 29
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-2-7
+    position:
+      column: 2
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-4-7
+    position:
+      column: 4
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-6-7
+    position:
+      column: 6
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-7-7
+    position:
+      column: 7
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-8-7
+    position:
+      column: 8
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-9-7
+    position:
+      column: 9
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-11-7
+    position:
+      column: 11
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-16-7
+    position:
+      column: 16
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-18-7
+    position:
+      column: 18
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-20-7
+    position:
+      column: 20
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-21-7
+    position:
+      column: 21
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-22-7
+    position:
+      column: 22
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-27-7
+    position:
+      column: 27
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-29-7
+    position:
+      column: 29
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-6-8
+    position:
+      column: 6
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-8-8
+    position:
+      column: 8
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-9-8
+    position:
+      column: 9
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-18-8
+    position:
+      column: 18
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-23-8
+    position:
+      column: 23
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-27-8
+    position:
+      column: 27
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-29-8
+    position:
+      column: 29
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-3-9
+    position:
+      column: 3
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-5-9
+    position:
+      column: 5
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-10-9
+    position:
+      column: 10
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-12-9
+    position:
+      column: 12
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-16-9
+    position:
+      column: 16
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-29-9
+    position:
+      column: 29
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-3-10
+    position:
+      column: 3
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-5-10
+    position:
+      column: 5
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-10
+    position:
+      column: 6
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-12-10
+    position:
+      column: 12
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-17-10
+    position:
+      column: 17
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-19-10
+    position:
+      column: 19
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-21-10
+    position:
+      column: 21
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-26-10
+    position:
+      column: 26
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-28-10
+    position:
+      column: 28
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-29-10
+    position:
+      column: 29
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-3-11
+    position:
+      column: 3
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-10-11
+    position:
+      column: 10
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-19-11
+    position:
+      column: 19
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-26-11
+    position:
+      column: 26
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-28-11
+    position:
+      column: 28
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-29-11
+    position:
+      column: 29
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-3-12
+    position:
+      column: 3
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-12
+    position:
+      column: 6
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-12-12
+    position:
+      column: 12
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-14-12
+    position:
+      column: 14
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-20-12
+    position:
+      column: 20
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-21-12
+    position:
+      column: 21
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-24-12
+    position:
+      column: 24
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-25-12
+    position:
+      column: 25
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-28-12
+    position:
+      column: 28
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-13
+    position:
+      column: 6
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-7-13
+    position:
+      column: 7
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-22-13
+    position:
+      column: 22
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-23-13
+    position:
+      column: 23
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-27-13
+    position:
+      column: 27
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-28-13
+    position:
+      column: 28
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-29-13
+    position:
+      column: 29
+      row: 13
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-2-14
+    position:
+      column: 2
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-4-14
+    position:
+      column: 4
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-6-14
+    position:
+      column: 6
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-11-14
+    position:
+      column: 11
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-25-14
+    position:
+      column: 25
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-26-14
+    position:
+      column: 26
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-2-15
+    position:
+      column: 2
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-4-15
+    position:
+      column: 4
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-11-15
+    position:
+      column: 11
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-21-15
+    position:
+      column: 21
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-22-15
+    position:
+      column: 22
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-23-15
+    position:
+      column: 23
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-25-15
+    position:
+      column: 25
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-26-15
+    position:
+      column: 26
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-27-15
+    position:
+      column: 27
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-29-15
+    position:
+      column: 29
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-2-16
+    position:
+      column: 2
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-5-16
+    position:
+      column: 5
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-16
+    position:
+      column: 6
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-9-16
+    position:
+      column: 9
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-10-16
+    position:
+      column: 10
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-22-16
+    position:
+      column: 22
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-23-16
+    position:
+      column: 23
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-24-16
+    position:
+      column: 24
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-25-16
+    position:
+      column: 25
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-26-16
+    position:
+      column: 26
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-28-16
+    position:
+      column: 28
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-3-17
+    position:
+      column: 3
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-7-17
+    position:
+      column: 7
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-8-17
+    position:
+      column: 8
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-21-17
+    position:
+      column: 21
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-29-17
+    position:
+      column: 29
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-3-18
+    position:
+      column: 3
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-5-18
+    position:
+      column: 5
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-10-18
+    position:
+      column: 10
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-11-18
+    position:
+      column: 11
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-23-18
+    position:
+      column: 23
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-24-18
+    position:
+      column: 24
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-28-18
+    position:
+      column: 28
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-29-18
+    position:
+      column: 29
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-3-19
+    position:
+      column: 3
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-4-19
+    position:
+      column: 4
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-5-19
+    position:
+      column: 5
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-19
+    position:
+      column: 6
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-7-19
+    position:
+      column: 7
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-8-19
+    position:
+      column: 8
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-9-19
+    position:
+      column: 9
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-10-19
+    position:
+      column: 10
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-21-19
+    position:
+      column: 21
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-22-19
+    position:
+      column: 22
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-25-19
+    position:
+      column: 25
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-26-19
+    position:
+      column: 26
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-3-20
+    position:
+      column: 3
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-4-20
+    position:
+      column: 4
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-5-20
+    position:
+      column: 5
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-20
+    position:
+      column: 6
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-7-20
+    position:
+      column: 7
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-8-20
+    position:
+      column: 8
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-9-20
+    position:
+      column: 9
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-11-20
+    position:
+      column: 11
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-12-20
+    position:
+      column: 12
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-14-20
+    position:
+      column: 14
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-18-20
+    position:
+      column: 18
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-20-20
+    position:
+      column: 20
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-27-20
+    position:
+      column: 27
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-29-20
+    position:
+      column: 29
+      row: 20
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-3-21
+    position:
+      column: 3
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-4-21
+    position:
+      column: 4
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-7-21
+    position:
+      column: 7
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-8-21
+    position:
+      column: 8
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-9-21
+    position:
+      column: 9
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-10-21
+    position:
+      column: 10
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-11-21
+    position:
+      column: 11
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-12-21
+    position:
+      column: 12
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-13-21
+    position:
+      column: 13
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-14-21
+    position:
+      column: 14
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-18-21
+    position:
+      column: 18
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-20-21
+    position:
+      column: 20
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-22-21
+    position:
+      column: 22
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-23-21
+    position:
+      column: 23
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-24-21
+    position:
+      column: 24
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-25-21
+    position:
+      column: 25
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-27-21
+    position:
+      column: 27
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-29-21
+    position:
+      column: 29
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-4-22
+    position:
+      column: 4
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-5-22
+    position:
+      column: 5
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-6-22
+    position:
+      column: 6
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-13-22
+    position:
+      column: 13
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-14-22
+    position:
+      column: 14
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-22-22
+    position:
+      column: 22
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-24-22
+    position:
+      column: 24
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-25-22
+    position:
+      column: 25
+      row: 22
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-2-23
+    position:
+      column: 2
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-3-23
+    position:
+      column: 3
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-4-23
+    position:
+      column: 4
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-5-23
+    position:
+      column: 5
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-23
+    position:
+      column: 6
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-8-23
+    position:
+      column: 8
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-11-23
+    position:
+      column: 11
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-12-23
+    position:
+      column: 12
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-19-23
+    position:
+      column: 19
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-21-23
+    position:
+      column: 21
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-25-23
+    position:
+      column: 25
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-26-23
+    position:
+      column: 26
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-28-23
+    position:
+      column: 28
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-2-24
+    position:
+      column: 2
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-3-24
+    position:
+      column: 3
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-4-24
+    position:
+      column: 4
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-24
+    position:
+      column: 6
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-7-24
+    position:
+      column: 7
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-8-24
+    position:
+      column: 8
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-10-24
+    position:
+      column: 10
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-12-24
+    position:
+      column: 12
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-13-24
+    position:
+      column: 13
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-19-24
+    position:
+      column: 19
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-21-24
+    position:
+      column: 21
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-22-24
+    position:
+      column: 22
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-24-24
+    position:
+      column: 24
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-28-24
+    position:
+      column: 28
+      row: 24
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-2-25
+    position:
+      column: 2
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-3-25
+    position:
+      column: 3
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-4-25
+    position:
+      column: 4
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-5-25
+    position:
+      column: 5
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-6-25
+    position:
+      column: 6
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-7-25
+    position:
+      column: 7
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-8-25
+    position:
+      column: 8
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-9-25
+    position:
+      column: 9
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-11-25
+    position:
+      column: 11
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-14-25
+    position:
+      column: 14
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-19-25
+    position:
+      column: 19
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-21-25
+    position:
+      column: 21
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-22-25
+    position:
+      column: 22
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-23-25
+    position:
+      column: 23
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-28-25
+    position:
+      column: 28
+      row: 25
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-2-26
+    position:
+      column: 2
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-3-26
+    position:
+      column: 3
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-5-26
+    position:
+      column: 5
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-26
+    position:
+      column: 6
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-7-26
+    position:
+      column: 7
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-8-26
+    position:
+      column: 8
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-9-26
+    position:
+      column: 9
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-12-26
+    position:
+      column: 12
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-13-26
+    position:
+      column: 13
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-14-26
+    position:
+      column: 14
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-19-26
+    position:
+      column: 19
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-21-26
+    position:
+      column: 21
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-22-26
+    position:
+      column: 22
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-24-26
+    position:
+      column: 24
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-26-26
+    position:
+      column: 26
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-28-26
+    position:
+      column: 28
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-2-27
+    position:
+      column: 2
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-3-27
+    position:
+      column: 3
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-4-27
+    position:
+      column: 4
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-5-27
+    position:
+      column: 5
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-6-27
+    position:
+      column: 6
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-8-27
+    position:
+      column: 8
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-9-27
+    position:
+      column: 9
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-10-27
+    position:
+      column: 10
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-2-v1
+  - id: wind-hills-long-grass-13-27
+    position:
+      column: 13
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-14-27
+    position:
+      column: 14
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-2-28
+    position:
+      column: 2
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-3-28
+    position:
+      column: 3
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-4-28
+    position:
+      column: 4
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-5-28
+    position:
+      column: 5
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-8-28
+    position:
+      column: 8
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-variant-3-v1
+  - id: wind-hills-long-grass-10-28
+    position:
+      column: 10
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-11-28
+    position:
+      column: 11
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-13-28
+    position:
+      column: 13
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-14-28
+    position:
+      column: 14
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-18-28
+    position:
+      column: 18
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-20-28
+    position:
+      column: 20
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-22-28
+    position:
+      column: 22
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-27-28
+    position:
+      column: 27
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-29-28
+    position:
+      column: 29
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-2-29
+    position:
+      column: 2
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-3-29
+    position:
+      column: 3
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-4-29
+    position:
+      column: 4
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-5-29
+    position:
+      column: 5
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-10-29
+    position:
+      column: 10
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-11-29
+    position:
+      column: 11
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-13-29
+    position:
+      column: 13
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-14-29
+    position:
+      column: 14
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-18-29
+    position:
+      column: 18
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-long-grass-20-29
+    position:
+      column: 20
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: seed-grass-v1
+  - id: wind-hills-long-grass-27-29
+    position:
+      column: 27
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-windswept-grass-v1
+  - id: wind-hills-long-grass-29-29
+    position:
+      column: 29
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: wind-hills-stone-ridge-8-12
+    position:
+      column: 8
+      row: 12
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-low-stone-ridge-v1
+  - id: wind-hills-stone-ridge-22-10
+    position:
+      column: 22
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-low-stone-ridge-variant-v1
+  - id: wind-hills-stone-ridge-23-28
+    position:
+      column: 23
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: wind-hills-low-stone-ridge-v1

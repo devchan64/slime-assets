@@ -3897,3 +3897,45 @@ data:
     shadowScaleY: 0.52
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
+  wind-hills-windswept-grass-v1:
+    anchorX: 0.25
+    anchorY: 0.0
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 130.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0
+    shadowOffsetRow: 0
+    shadowScaleX: 0.65
+    shadowScaleY: 0.55
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  wind-hills-low-stone-ridge-v1:
+    anchorX: -0.25
+    anchorY: 0.0
+    groundFootprintColumns: 4
+    groundFootprintRows: 2
+    displayHeight: 160.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0
+    shadowOffsetRow: 0
+    shadowScaleX: 0.65
+    shadowScaleY: 0.55
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  wind-hills-low-stone-ridge-variant-v1:
+    anchorX: -0.25
+    anchorY: 0.0
+    groundFootprintColumns: 4
+    groundFootprintRows: 2
+    displayHeight: 120.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0
+    shadowOffsetRow: 0
+    shadowScaleX: 0.65
+    shadowScaleY: 0.55
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2

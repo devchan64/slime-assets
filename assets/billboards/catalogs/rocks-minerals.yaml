@@ -455,6 +455,22 @@ families:
     features:
     - 물에 닳은 밝은 회백색 둥근 바위 두 개
     review_category: rocks-minerals
+  wind-hills-low-stone-ridge-v1:
+    name: 바람구릉의 낮은 돌 능선
+    uses:
+    - 구릉 사면에 군락으로 배치하고 중앙 전투 공간과 길은 비운다
+    category: rocks-minerals
+    features:
+    - 낮고 불규칙한 회색 암석 능선
+    review_category: rocks-minerals
+  wind-hills-low-stone-ridge-variant-v1:
+    name: 바람구릉의 낮은 돌 능선 변형
+    uses:
+    - 구릉 사면에 군락으로 배치하고 중앙 전투 공간과 길은 비운다
+    category: rocks-minerals
+    features:
+    - 낮고 불규칙한 회색 암석 능선
+    review_category: rocks-minerals
 billboards:
 - texture_key: cinder-path-basalt-outcrop-v1
   family: cinder-path-basalt-outcrop-v1
@@ -2644,6 +2660,8 @@ billboards:
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/mill-ridge.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/wind-hills.yaml
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/field-mill-ridge-weathered-stones-4-v1.png
     width: 124
@@ -2706,6 +2724,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/mill-ridge.yaml
     texture_key_occurrences: 5
+  - path: assets/maps/field_tiles/wind-hills.yaml
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/mill-ridge-weathered-rock-v1.png
     width: 512
@@ -3161,6 +3181,8 @@ billboards:
     texture_key_occurrences: 5
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
     texture_key_occurrences: 4
+  - path: assets/maps/field_tiles/wind-hills.yaml
+    texture_key_occurrences: 5
   source_file:
     path: assets/billboards/quarry-fallen-limestone-v1.png
     width: 198
@@ -3285,4 +3307,116 @@ billboards:
     outdoorDisplayHeight: 121.095
     size_variant: 기본 변형
     occupied_tile_count: 1
+    movement: 내부 타일 통행 불가
+- texture_key: wind-hills-low-stone-ridge-v1
+  family: wind-hills-low-stone-ridge-v1
+  asset_ref:
+    management_id: image.billboards.wind-hills-low-stone-ridge-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/wind-hills.yaml
+    texture_key_occurrences: 2
+  source_file:
+    path: assets/billboards/wind-hills-low-stone-ridge-v1.png
+    width: 512
+    height: 223
+    sha256: 685508fa5cc14393ef7dbd38a2027a743fd989347341db4187c989d6abe7fc1b
+  modeling:
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      guidance_only: true
+      runtime_profile: billboard-contact-v2
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 바람구릉의 돌 능선
+    composition: 돌 능선 주변에 띠와 군락을 형성하고 빈 이동 공간을 남긴다.
+    recommended_uses:
+    - 바람이 부는 구릉의 돌 능선
+    visual_description: 바람구릉의 낮은 돌 능선 · 길게 이어진 풍화 암석
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.wind-hills-low-stone-ridge-v1
+    anchorX: -0.25
+    anchorY: 0.0
+    groundFootprintColumns: 4
+    groundFootprintRows: 2
+    displayHeight: 160.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0
+    shadowOffsetRow: 0
+    shadowScaleX: 0.65
+    shadowScaleY: 0.55
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 80.0
+    size_variant: 기본 변형
+    occupied_tile_count: 8
+    movement: 내부 타일 통행 불가
+- texture_key: wind-hills-low-stone-ridge-variant-v1
+  family: wind-hills-low-stone-ridge-variant-v1
+  asset_ref:
+    management_id: image.billboards.wind-hills-low-stone-ridge-variant-v1
+    version: v1
+  map_references:
+  - path: assets/maps/field_tiles/wind-hills.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/wind-hills-low-stone-ridge-variant-v1.png
+    width: 512
+    height: 164
+    sha256: c2f50fffd43d03886f6967417a7385765b83c7dfa33d27b5220d028ea844053a
+  modeling:
+    avoid:
+    - 접지 영역의 서로 다른 고도
+    - 다른 오브젝트의 접지 점유와 중첩
+    - 출입구·시작점·주요 이동로 점유
+    basis: 등록 명칭·계열에 근거한 배치 지침. 원본 외형과 지역 설정을 최종 확인한다.
+    shadow:
+      guidance_only: true
+      runtime_profile: billboard-contact-v2
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 정사각 점유는 타원, 열·행 수가 다른 점유는 점유 축을 따르는 둥근
+        직사각형. 에셋별 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 바람구릉의 돌 능선
+    composition: 돌 능선 주변에 띠와 군락을 형성하고 빈 이동 공간을 남긴다.
+    recommended_uses:
+    - 바람이 부는 구릉의 돌 능선
+    visual_description: 바람구릉의 낮은 돌 능선 변형 · 길게 이어진 풍화 암석
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.wind-hills-low-stone-ridge-variant-v1
+    anchorX: -0.25
+    anchorY: 0.0
+    groundFootprintColumns: 4
+    groundFootprintRows: 2
+    displayHeight: 120.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0
+    shadowOffsetRow: 0
+    shadowScaleX: 0.65
+    shadowScaleY: 0.55
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 60.0
+    size_variant: 기본 변형
+    occupied_tile_count: 8
     movement: 내부 타일 통행 불가

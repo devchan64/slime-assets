@@ -741,7 +741,7 @@ assets:
 - managementId: config.field-tiles.wind-hills
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/wind-hills.yaml
-  sha256: 51c045484939939c3bbdbbc24d7da379f01e5ffdab3709649647193613736b62
+  sha256: fbf7a8f9fe9cad55266ac396dd718486aa6c113520426807386fded5a473f56c
   source:
     repository: slime-backend
     path: config/field_tiles/wind-hills.yaml
@@ -1291,7 +1291,7 @@ assets:
 - managementId: config.terrain.maps.wind-hills
   version: wind-hills-ridges-v3
   path: assets/maps/terrain/maps/wind-hills.yaml
-  sha256: 23cb4095c8313fd43da186cb87c7d19693bcbecd9c3cae2cb22ea3e9a59cdb78
+  sha256: 7158552dc61022b29ee3fbafd29be6adbe8f7a482640deb3c8daff5096e51cce
   source:
     repository: slime-backend
     path: config/terrain/maps/wind-hills.yaml
@@ -6517,7 +6517,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: cdea92c2a14d2b15f7eda9fcb662f326fa8f1de78fd50921249c5f0acdb00ec6
+  sha256: 48c1578565cb57425bd9b146d6170d7377bd0930f703d15131197410405ebe31
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -9988,3 +9988,38 @@ assets:
     repository: slime-workflow
     path: .tmp/test/pebble-water-decal/source.png
     operation: ImageGen 투명 수중 돌 생성 · 알파 여백 크롭 · 비율 유지 256px 패딩
+- managementId: image.billboards.wind-hills-windswept-grass-v1
+  version: source-sha256-7bebe06d09eeb0f0c1d683c943b953a400696a514759bc818eafcc8406f64afa
+  path: assets/billboards/wind-hills-windswept-grass-v1.png
+  name: 바람구릉의 바람에 기운 황록색 긴 풀
+  width: 512
+  height: 350
+  sha256: 7bebe06d09eeb0f0c1d683c943b953a400696a514759bc818eafcc8406f64afa
+  source:
+    repository: codex-imagegen
+    artifact: exec-eca8bdb8-8ba6-46af-9f47-dcce3dc85917.png
+    processing: 기존 실루엣 유지, 자연스러운 올리브·황록색으로 색감 보정. 투명 배경 512×350 축소.
+- managementId: image.billboards.wind-hills-low-stone-ridge-v1
+  version: v1
+  path: assets/billboards/wind-hills-low-stone-ridge-v1.png
+  name: 바람구릉의 낮은 돌 능선
+  width: 512
+  height: 223
+  sha256: 685508fa5cc14393ef7dbd38a2027a743fd989347341db4187c989d6abe7fc1b
+  source:
+    repository: codex-imagegen
+    artifact: wind-ridge-cropped-candidate.png
+    original_sha256: 685508fa5cc14393ef7dbd38a2027a743fd989347341db4187c989d6abe7fc1b
+    processing: ImageGen 풍화 암석 능선 생성 후 알파 경계 크롭과 최대 512px 축소.
+- managementId: image.billboards.wind-hills-low-stone-ridge-variant-v1
+  version: v1
+  path: assets/billboards/wind-hills-low-stone-ridge-variant-v1.png
+  name: 바람구릉의 낮은 돌 능선 변형
+  width: 512
+  height: 164
+  sha256: c2f50fffd43d03886f6967417a7385765b83c7dfa33d27b5220d028ea844053a
+  source:
+    repository: codex-imagegen
+    artifact: wind-ridge-variant-cropped.png
+    original_sha256: c2f50fffd43d03886f6967417a7385765b83c7dfa33d27b5220d028ea844053a
+    processing: ImageGen 풍화 암석 능선 생성 후 알파 경계 크롭과 최대 512px 축소.
