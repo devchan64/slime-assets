@@ -685,7 +685,7 @@ assets:
 - managementId: config.field-tiles.mist-lake
   version: shared-material-codes-v1
   path: assets/maps/field_tiles/mist-lake.yaml
-  sha256: 3ad7170b9204da6bf7e72f00fc01ee589444867bef5bc675c33901bbf897faca
+  sha256: 004f73729c6620c46f6ff5f4e76879ae27d46e2bc4dba7966145e743d366ec8e
   source:
     repository: slime-backend
     path: config/field_tiles/mist-lake.yaml
@@ -10098,3 +10098,12 @@ assets:
   source:
     repository: slime-workflow
     operation: ImageGen 안개 시트 재생성 · 프레임 여백 보정
+- managementId: image.terrain.mist-lake-deep-water-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/mist-lake-deep-water-v1.png
+  sha256: 079fb5871187a7e4f9399485ae2b88b019a8f83ba362b293e1c30118fd20fbcf
+  width: 1254
+  height: 1254
+  source:
+    repository: slime-workflow
+    operation: ImageGen 안개 호수 깊은 물 수면 생성.
