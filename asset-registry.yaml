@@ -717,7 +717,7 @@ assets:
 - managementId: config.field-tiles.reed-crossing
   version: shared-material-codes-v1
   path: assets/maps/field_tiles/reed-crossing.yaml
-  sha256: e4d81506dfa58e49cd83c87f0db3c9bdda55dbcb56eadb6595292db5144a9b3c
+  sha256: cc994618313cf0bc97e35f6905a7b2016e8479c65e4bbdcf634a2f39695fa943
   source:
     repository: slime-backend
     path: config/field_tiles/reed-crossing.yaml
@@ -1267,7 +1267,7 @@ assets:
 - managementId: config.terrain.maps.reed-crossing
   version: v1
   path: assets/maps/terrain/maps/reed-crossing.yaml
-  sha256: 9983e4336c0b15b74a6b2e61e9a36ac0e13f959ed0efed5847a1a8cd72fa1ca0
+  sha256: 4858b13a1ee02dec48cbf0c5c95901d64c4d45fc9280db0de682d83b6fe8e26a
   source:
     repository: slime-backend
     path: config/terrain/maps/reed-crossing.yaml
@@ -10044,3 +10044,12 @@ assets:
   source:
     repository: slime-workflow
     operation: ImageGen 습지 진흙과 초지 혼합 지면 생성 후 128px 축소.
+- managementId: image.terrain.reed-crossing-calm-water-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/reed-crossing-calm-water-v1.png
+  sha256: e37377303a310049a7bc032a9bfd1a173f6c6dcf4d2107b4306c14eb78d18d14
+  width: 1254
+  height: 1254
+  source:
+    repository: slime-workflow
+    operation: ImageGen 청록색 잔잔한 습지 수면 생성.
