@@ -1661,7 +1661,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3-billboard-blocking-v1
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: 335742cfed8fa71f6b6bef6e9bd9b40322a404e7cf973040d23587890e70ffc3
+  sha256: 0ca74a82c9ca8617269930bc451839d3b75421a17d6137236a42a63e6e8e3133
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -1701,7 +1701,7 @@ assets:
 - managementId: config.field-tiles.salt-flat
   version: field-objects-v1
   path: assets/maps/field_tiles/salt-flat.yaml
-  sha256: 70b14535b25801bca0d208108a9f3e8e5b086610a8296111b7b27b674cd33022
+  sha256: f0d8435c67a1640f3808a720028e4ecf9d5bde207bd23e61cce11af84662ffb7
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/salt-flat.yaml
@@ -1749,7 +1749,7 @@ assets:
 - managementId: config.field-waypoints.salt-flat
   version: v1
   path: assets/maps/field_waypoints/salt-flat.yaml
-  sha256: c0e75e340b7c28fdbcc602cc6d85e724292afb40f6d375682856786ae6098f27
+  sha256: d6fe75e5a8295d92b90c266f5c106a05fff0fecca6bb4a96249f2138f92320c8
   source:
     repository: slime-assets
     path: assets/maps/field_waypoints/salt-flat.yaml
@@ -1909,7 +1909,7 @@ assets:
 - managementId: config.terrain.maps.salt-flat
   version: v1
   path: assets/maps/terrain/maps/salt-flat.yaml
-  sha256: 211cc1e11a17be4b54167acb4ae1f8a04087a5c20eca71474f337d3572bfd25c
+  sha256: 308fa4353d4a9808b85ce7cc99389148d2ce466a9f021ae5eb0f38c1d71410ec
   source:
     repository: slime-assets
     path: assets/maps/terrain/maps/salt-flat.yaml
@@ -7219,7 +7219,7 @@ assets:
 - managementId: config.world-map.presentation
   version: v1-compact-spacing-v1
   path: assets/maps/world-map.yaml
-  sha256: 47efe6bb0b61ab4074f3568dea84606bfcc08249ea4775cb6e8341f923c48d45
+  sha256: 7357f25b409e3ad51c5094eeb1cafc452fea883a8c81f71bc742af81f2c3f7b3
   source:
     repository: slime-backend
     operation: 기존 월드맵 상대 좌표를 표시 전용 원본으로 분리; 이동 연결은 기존 웨이포인트 원본 유지
@@ -10107,3 +10107,21 @@ assets:
   source:
     repository: slime-workflow
     operation: ImageGen 안개 호수 깊은 물 수면 생성.
+- managementId: image.terrain.salt-flat-crust-v2
+  version: v2
+  path: assets/tiles/terrain/non-road/salt-flat-crust-v2.png
+  sha256: 7448a5f067191129b49ec46c96597720c5dfa65b0ce9affc55e4b4ec449dfd29
+  width: 1254
+  height: 1254
+  source:
+    repository: slime-workflow
+    operation: ImageGen 흰소금벌 소금 지면 생성.
+- managementId: image.terrain.salt-flat-mixed-soil-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/salt-flat-mixed-soil-v1.png
+  sha256: 3beb170c383c41ebc93781a38a8b42ea71cabf47d9faaf2e663f90d9b11ea419
+  width: 1254
+  height: 1254
+  source:
+    repository: slime-workflow
+    operation: ImageGen 흰소금벌 염분 섞인 마른 지면 생성.

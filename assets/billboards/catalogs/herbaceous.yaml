@@ -4770,6 +4770,8 @@ billboards:
     management_id: image.scenery.town-saltford-wind-bent-sedge-v1
     version: v1
   map_references:
+  - path: assets/maps/field_tiles/salt-flat.yaml
+    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/wind-hills.yaml
     texture_key_occurrences: 88
   source_file:

@@ -1,834 +1,241 @@
 managementId: config.city-layouts.saltford
 data:
-  version: 16
+  rows: 24
   cityId: saltford
   columns: 24
-  rows: 24
+  version: 16
   safeTown: true
-  terrainRows:
-  - wdddddddddddpddddddddddw
-  - wdddddddddddpddddddddddw
-  - wdddddddddpppddddddddddw
-  - wpddddddddppdddddpppppdw
-  - wpddddddddppdddddddpdddw
-  - wpddddddpppppddddddpdddw
-  - wpddddddddppdddddddpdddw
-  - wppppppdddppppppppppdddw
-  - wdddpppdddppdddddddpdddw
-  - wdddpppdddppdddddddpdddw
-  - wpddpppdddppppdddddppddw
-  - wpddpdpdddpppddddddpdddw
-  - ppppppppppppppppdddppppw
-  - wppppppppppppppppppppppw
-  - wddddddpddppdddddddpdddw
-  - wddddddpddppdddddddpdddw
-  - wddddddpddppdddddddpdddw
-  - wddddddpddppdddddddpdddw
-  - wdddddddddppdddddddpdddw
-  - wdddddddddppdddddddpdddw
-  - wppppppppppppppppppppppw
-  - wdddddddddppdddddddddddw
-  - wwwwwwwwwwwwwwwwwwwwwwww
-  - wwwwwwwwwwwwwwwwwwwwwwww
-  startPoint:
-    column: 11
-    row: 12
   buildings:
   - id: saltford-guild
     name: 길드 회관
-    facilityId: saltford-guild
-    origin:
-      column: 4
-      row: 4
     width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 5
-      row: 7
     facing: south
+    floors: 1
+    height: 3
+    origin:
+      row: 4
+      column: 4
     sprite:
       textureKey: town-saltford-guild-v2
       contentWidth: 0.824536
+    entrance:
+      row: 7
+      column: 5
+    facilityId: saltford-guild
   - id: saltford-bookshop
     name: 서점
-    facilityId: saltford-bookshop
-    origin:
-      column: 16
-      row: 4
     width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 17
-      row: 7
     facing: south
+    floors: 1
+    height: 3
+    origin:
+      row: 4
+      column: 16
     sprite:
       textureKey: town-saltford-bookshop-v2
       contentWidth: 0.733238
+    entrance:
+      row: 7
+      column: 17
+    facilityId: saltford-bookshop
   - id: saltford-inn
     name: 여관
-    facilityId: saltford-inn
-    origin:
-      column: 3
-      row: 16
     width: 4
-    height: 3
-    floors: 1
-    entrance:
-      column: 7
-      row: 17
     facing: east
+    floors: 1
+    height: 3
+    origin:
+      row: 16
+      column: 3
     sprite:
       textureKey: town-saltford-inn-v2
       contentWidth: 0.720399
+    entrance:
+      row: 17
+      column: 7
+    facilityId: saltford-inn
   - id: saltford-workshop
     name: 대장간·공방
-    facilityId: saltford-workshop
-    origin:
-      column: 16
-      row: 16
     width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 19
-      row: 17
     facing: east
+    floors: 1
+    height: 3
+    origin:
+      row: 16
+      column: 16
     sprite:
       textureKey: town-saltford-workshop-v2
       contentWidth: 0.855207
+    entrance:
+      row: 17
+      column: 19
+    facilityId: saltford-workshop
   - id: saltford-market
     name: 시장
-    facilityId: saltford-market
-    origin:
-      column: 16
-      row: 10
     width: 3
-    height: 3
-    floors: 1
-    entrance:
-      column: 17
-      row: 13
     facing: south
+    floors: 1
+    height: 3
+    origin:
+      row: 10
+      column: 16
     sprite:
       textureKey: town-saltford-market-v2
       contentWidth: 0.891557
+    entrance:
+      row: 13
+      column: 17
+    facilityId: saltford-market
   - id: saltford-shore-house
+    kind: residence
     name: 일반 주택 가
-    kind: residence
-    facilityId: null
-    origin:
-      column: 8
-      row: 3
     width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 8
-      row: 5
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 3
+      column: 8
     sprite:
       textureKey: town-saltford-shore-house-v2
       contentWidth: 0.750357
+    entrance:
+      row: 5
+      column: 8
+    facilityId: null
   - id: saltford-dry-house
-    name: 일반 주택 나
     kind: residence
-    facilityId: null
-    origin:
-      column: 12
-      row: 3
+    name: 일반 주택 나
     width: 2
-    height: 2
-    floors: 2
-    entrance:
-      column: 12
-      row: 5
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 3
+      column: 12
     sprite:
       textureKey: town-saltford-dry-house-v2
       contentWidth: 0.733238
-  - id: saltford-residence-03
-    name: 일반 주택 3
-    kind: residence
-    facilityId: null
-    origin:
-      column: 1
-      row: 1
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 1
-      row: 3
+      row: 5
+      column: 12
+    facilityId: null
+  - id: saltford-residence-03
+    kind: residence
+    name: 일반 주택 3
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 1
+      column: 1
     sprite:
       textureKey: town-common-stone-house-v2
       contentWidth: 0.706847
-  - id: saltford-residence-04
-    name: 일반 주택 4
-    kind: residence
-    facilityId: null
-    origin:
-      column: 17
-      row: 1
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 17
       row: 3
+      column: 1
+    facilityId: null
+  - id: saltford-residence-04
+    kind: residence
+    name: 일반 주택 4
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 1
+      column: 17
     sprite:
       textureKey: town-common-timber-house-v2
       contentWidth: 0.706134
-  - id: saltford-residence-05
-    name: 일반 주택 5
-    kind: residence
-    facilityId: null
-    origin:
-      column: 21
-      row: 1
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 21
       row: 3
+      column: 17
+    facilityId: null
+  - id: saltford-residence-05
+    kind: residence
+    name: 일반 주택 5
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 1
+      column: 21
     sprite:
       textureKey: town-saltford-shore-house-v2
       contentWidth: 0.750357
-  - id: saltford-residence-06
-    name: 일반 주택 6
-    kind: residence
-    facilityId: null
-    origin:
-      column: 1
-      row: 8
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 1
-      row: 10
+      row: 3
+      column: 21
+    facilityId: null
+  - id: saltford-residence-06
+    kind: residence
+    name: 일반 주택 6
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 8
+      column: 1
     sprite:
       textureKey: town-common-stone-house-v2
       contentWidth: 0.706847
-  - id: saltford-residence-07
-    name: 일반 주택 7
-    kind: residence
-    facilityId: null
-    origin:
-      column: 13
-      row: 8
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 13
       row: 10
+      column: 1
+    facilityId: null
+  - id: saltford-residence-07
+    kind: residence
+    name: 일반 주택 7
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 8
+      column: 13
     sprite:
       textureKey: town-common-timber-house-v2
       contentWidth: 0.706134
-  - id: saltford-residence-08
-    name: 일반 주택 8
-    kind: residence
-    facilityId: null
-    origin:
-      column: 20
-      row: 8
-    width: 2
-    height: 2
-    floors: 2
     entrance:
-      column: 20
       row: 10
+      column: 13
+    facilityId: null
+  - id: saltford-residence-08
+    kind: residence
+    name: 일반 주택 8
+    width: 2
     facing: south
+    floors: 2
+    height: 2
+    origin:
+      row: 8
+      column: 20
     sprite:
       textureKey: town-saltford-dry-house-v2
       contentWidth: 0.733238
+    entrance:
+      row: 10
+      column: 20
+    facilityId: null
+  startPoint:
+    row: 12
+    column: 11
   connections:
   - id: saltford-to-salt-causeway
+    row: 12
+    column: 0
     target: salt-causeway
     direction: west
-    column: 0
-    row: 12
   - id: saltford-to-salt-flat
+    row: 0
+    column: 12
     target: salt-flat
     direction: north
-    column: 12
-    row: 0
-  objects:
-  - id: saltford-life-scene
-    kind: decoration
-    position:
-      column: 8
-      row: 10
-    textureKey: town-saltford-cargo-weighing-v1
-    tileAnchor: center
-  - id: saltford-life-scene-addition
-    kind: decoration
-    position:
-      column: 14
-      row: 18
-    textureKey: town-saltford-wet-cargo-drying-v1
-    tileAnchor: center
-  - id: saltford-prop-4
-    kind: decoration
-    position:
-      column: 6
-      row: 14
-    textureKey: town-record-chest-v1
-    tileAnchor: center
-  - id: saltford-prop-9
-    kind: decoration
-    position:
-      column: 21
-      row: 15
-    textureKey: town-coastal-stall-v1
-    tileAnchor: center
-  - id: saltford-prop-12
-    kind: decoration
-    position:
-      column: 12
-      row: 19
-    textureKey: town-fish-rack-v1
-    tileAnchor: center
-  - id: saltford-prop-13
-    kind: decoration
-    position:
-      column: 20
-      row: 19
-    textureKey: town-repair-rack-v1
-    tileAnchor: center
-  - id: saltford-garden-16
-    kind: decoration
-    position:
-      column: 17
-      row: 21
-    textureKey: town-saltmarsh-plants-v1
-    tileAnchor: center
-  - id: saltford-garden-23
-    kind: decoration
-    position:
-      column: 3
-      row: 21
-    textureKey: town-saltmarsh-plants-v1
-    tileAnchor: center
-  - id: saltford-prop-1
-    kind: decoration
-    position:
-      column: 8
-      row: 16
-    textureKey: town-layered-sign-v1
-    tileAnchor: center
-  - id: saltford-prop-2
-    kind: decoration
-    position:
-      column: 18
-      row: 19
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: saltford-prop-3
-    kind: decoration
-    position:
-      column: 8
-      row: 18
-    textureKey: town-ground-lantern-v1
-    tileAnchor: center
-  - id: saltford-prop-5
-    kind: decoration
-    position:
-      column: 9
-      row: 2
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: saltford-prop-8
-    kind: decoration
-    position:
-      column: 8
-      row: 19
-    textureKey: town-ground-lantern-v1
-    tileAnchor: center
-  - id: saltford-prop-11
-    kind: decoration
-    position:
-      column: 18
-      row: 15
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: saltford-prop-14
-    kind: decoration
-    position:
-      column: 20
-      row: 18
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: saltford-prop-15
-    kind: decoration
-    position:
-      column: 4
-      row: 19
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-prop-18
-    kind: decoration
-    position:
-      column: 3
-      row: 6
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: saltford-salt-marsh-grass
-    kind: decoration
-    position:
-      column: 19
-      row: 21
-    textureKey: town-saltford-salt-marsh-grass-v1
-    tileAnchor: center
-  - id: saltford-pale-coastal-heather
-    kind: decoration
-    position:
-      column: 22
-      row: 8
-    textureKey: town-saltford-pale-coastal-heather-v1
-    tileAnchor: center
-  - id: saltford-home-1-town-wood-bench-v1
-    kind: decoration
-    position:
-      column: 8
-      row: 2
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: saltford-home-3-town-herb-planter-v1
-    kind: decoration
-    position:
-      column: 3
-      row: 1
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: saltford-home-4-town-wood-bench-v1
-    kind: decoration
-    position:
-      column: 16
-      row: 1
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: saltford-home-6-town-herb-planter-v1
-    kind: decoration
-    position:
-      column: 1
-      row: 14
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: saltford-home-7-town-wood-bench-v1
-    kind: decoration
-    position:
-      column: 15
-      row: 9
-    textureKey: town-wood-bench-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-001
-    kind: decoration
-    position:
-      column: 22
-      row: 7
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-004
-    kind: decoration
-    position:
-      column: 2
-      row: 21
-    textureKey: town-saltford-thick-leaf-bush-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-007
-    kind: decoration
-    position:
-      column: 22
-      row: 11
-    textureKey: town-saltford-sea-lavender-clump-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-010
-    kind: decoration
-    position:
-      column: 6
-      row: 19
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-013
-    kind: decoration
-    position:
-      column: 20
-      row: 2
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-016
-    kind: decoration
-    position:
-      column: 15
-      row: 21
-    textureKey: town-saltford-thick-leaf-bush-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-019
-    kind: decoration
-    position:
-      column: 22
-      row: 9
-    textureKey: town-saltford-sea-lavender-clump-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-020
-    kind: decoration
-    position:
-      column: 5
-      row: 19
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-022
-    kind: decoration
-    position:
-      column: 21
-      row: 21
-    textureKey: town-saltford-salt-marsh-grass-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-025
-    kind: decoration
-    position:
-      column: 19
-      row: 1
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-028
-    kind: decoration
-    position:
-      column: 7
-      row: 21
-    textureKey: town-saltford-thick-leaf-bush-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-030
-    kind: decoration
-    position:
-      column: 7
-      row: 19
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-031
-    kind: decoration
-    position:
-      column: 22
-      row: 4
-    textureKey: town-saltford-sea-lavender-clump-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-034
-    kind: decoration
-    position:
-      column: 13
-      row: 21
-    textureKey: town-saltford-sea-lavender-clump-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-037
-    kind: decoration
-    position:
-      column: 21
-      row: 7
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-040
-    kind: decoration
-    position:
-      column: 6
-      row: 21
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-043
-    kind: decoration
-    position:
-      column: 18
-      row: 14
-    textureKey: town-saltford-sea-lavender-clump-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-046
-    kind: decoration
-    position:
-      column: 5
-      row: 21
-    textureKey: town-saltford-salt-marsh-grass-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-049
-    kind: decoration
-    position:
-      column: 19
-      row: 2
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-050
-    kind: decoration
-    position:
-      column: 3
-      row: 19
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-052
-    kind: decoration
-    position:
-      column: 12
-      row: 21
-    textureKey: town-saltford-thick-leaf-bush-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-055
-    kind: decoration
-    position:
-      column: 20
-      row: 7
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-058
-    kind: decoration
-    position:
-      column: 16
-      row: 21
-    textureKey: town-saltford-salt-marsh-grass-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-060
-    kind: decoration
-    position:
-      column: 9
-      row: 19
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-061
-    kind: decoration
-    position:
-      column: 22
-      row: 17
-    textureKey: town-saltford-sea-lavender-clump-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-064
-    kind: decoration
-    position:
-      column: 4
-      row: 21
-    textureKey: town-saltford-thick-leaf-bush-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-067
-    kind: decoration
-    position:
-      column: 20
-      row: 1
-    textureKey: town-saltford-sea-lavender-clump-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-070
-    kind: decoration
-    position:
-      column: 21
-      row: 18
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-073
-    kind: decoration
-    position:
-      column: 22
-      row: 6
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-076
-    kind: decoration
-    position:
-      column: 14
-      row: 21
-    textureKey: town-saltford-thick-leaf-bush-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-079
-    kind: decoration
-    position:
-      column: 22
-      row: 18
-    textureKey: town-saltford-sea-lavender-clump-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-080
-    kind: decoration
-    position:
-      column: 2
-      row: 19
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-082
-    kind: decoration
-    position:
-      column: 20
-      row: 21
-    textureKey: town-saltford-salt-marsh-grass-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-085
-    kind: decoration
-    position:
-      column: 22
-      row: 10
-    textureKey: town-low-fence-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-088
-    kind: decoration
-    position:
-      column: 8
-      row: 21
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-090
-    kind: decoration
-    position:
-      column: 6
-      row: 15
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-091
-    kind: decoration
-    position:
-      column: 21
-      row: 6
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-094
-    kind: decoration
-    position:
-      column: 12
-      row: 18
-    textureKey: town-saltford-salt-marsh-grass-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-097
-    kind: decoration
-    position:
-      column: 17
-      row: 15
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-100
-    kind: decoration
-    position:
-      column: 21
-      row: 19
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-103
-    kind: decoration
-    position:
-      column: 22
-      row: 5
-    textureKey: town-saltford-sea-lavender-clump-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-106
-    kind: decoration
-    position:
-      column: 1
-      row: 21
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-109
-    kind: decoration
-    position:
-      column: 21
-      row: 11
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-110
-    kind: decoration
-    position:
-      column: 9
-      row: 18
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-112
-    kind: decoration
-    position:
-      column: 9
-      row: 21
-    textureKey: town-saltford-salt-marsh-grass-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-115
-    kind: decoration
-    position:
-      column: 15
-      row: 1
-    textureKey: town-herb-planter-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-118
-    kind: decoration
-    position:
-      column: 18
-      row: 21
-    textureKey: town-saltford-salt-marsh-grass-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-120
-    kind: decoration
-    position:
-      column: 22
-      row: 19
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: saltford-atmosphere-121
-    kind: decoration
-    position:
-      column: 20
-      row: 4
-    textureKey: town-saltford-coastal-silver-shrub-v1
-    tileAnchor: center
-  - id: saltford-dry-storage-01
-    kind: decoration
-    position:
-      column: 12
-      row: 14
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-dry-storage-02
-    kind: decoration
-    position:
-      column: 13
-      row: 14
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: saltford-dry-storage-03
-    kind: decoration
-    position:
-      column: 14
-      row: 14
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-dry-storage-04
-    kind: decoration
-    position:
-      column: 15
-      row: 14
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: saltford-dry-storage-05
-    kind: decoration
-    position:
-      column: 12
-      row: 15
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-dry-storage-06
-    kind: decoration
-    position:
-      column: 13
-      row: 15
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
-  - id: saltford-dry-storage-07
-    kind: decoration
-    position:
-      column: 14
-      row: 15
-    textureKey: town-salt-barrels-v1
-    tileAnchor: center
-  - id: saltford-dry-storage-08
-    kind: decoration
-    position:
-      column: 15
-      row: 15
-    textureKey: town-rope-crates-v1
-    tileAnchor: center
   elevations:
   - - 0
     - 4
@@ -1406,3 +813,596 @@ data:
     - 0
     - 0
     - 0
+  terrainRows:
+  - wdddddddddddpddddddddddw
+  - wdddddddddddpddddddddddw
+  - wdddddddddpppddddddddddw
+  - wpddddddddppdddddpppppdw
+  - wpddddddddppdddddddpdddw
+  - wpddddddpppppddddddpdddw
+  - wpddddddddppdddddddpdddw
+  - wppppppdddppppppppppdddw
+  - wdddpppdddppdddddddpdddw
+  - wdddpppdddppdddddddpdddw
+  - wpddpppdddppppdddddppddw
+  - wpddpdpdddpppddddddpdddw
+  - ppppppppppppppppdddppppw
+  - wppppppppppppppppppppppw
+  - wddddddpddppdddddddpdddw
+  - wddddddpddppdddddddpdddw
+  - wddddddpddppdddddddpdddw
+  - wddddddpddppdddddddpdddw
+  - wdddddddddppdddddddpdddw
+  - wdddddddddppdddddddpdddw
+  - wppppppppppppppppppppppw
+  - wdddddddddppdddddddddddw
+  - wwwwwwwwwwwwwwwwwwwwwwww
+  - wwwwwwwwwwwwwwwwwwwwwwww
+  objects:
+  - id: saltford-life-scene
+    position:
+      column: 8
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-cargo-weighing-v1
+  - id: saltford-life-scene-addition
+    position:
+      column: 14
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wet-cargo-drying-v1
+  - id: saltford-prop-4
+    position:
+      column: 6
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-record-chest-v1
+  - id: saltford-prop-9
+    position:
+      column: 21
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-coastal-stall-v1
+  - id: saltford-prop-12
+    position:
+      column: 12
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-fish-rack-v1
+  - id: saltford-prop-13
+    position:
+      column: 20
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-repair-rack-v1
+  - id: saltford-garden-16
+    position:
+      column: 17
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: saltford-garden-23
+    position:
+      column: 3
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltmarsh-plants-v1
+  - id: saltford-prop-1
+    position:
+      column: 8
+      row: 16
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-layered-sign-v1
+  - id: saltford-prop-2
+    position:
+      column: 18
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: saltford-prop-3
+    position:
+      column: 8
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-ground-lantern-v1
+  - id: saltford-prop-5
+    position:
+      column: 9
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: saltford-prop-8
+    position:
+      column: 8
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-ground-lantern-v1
+  - id: saltford-prop-11
+    position:
+      column: 18
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: saltford-prop-14
+    position:
+      column: 20
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: saltford-prop-15
+    position:
+      column: 4
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-prop-18
+    position:
+      column: 3
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: saltford-salt-marsh-grass
+    position:
+      column: 19
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-pale-coastal-heather
+    position:
+      column: 22
+      row: 8
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-pale-coastal-heather-v1
+  - id: saltford-home-1-town-wood-bench-v1
+    position:
+      column: 8
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: saltford-home-3-town-herb-planter-v1
+    position:
+      column: 3
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: saltford-home-4-town-wood-bench-v1
+    position:
+      column: 16
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: saltford-home-6-town-herb-planter-v1
+    position:
+      column: 1
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: saltford-home-7-town-wood-bench-v1
+    position:
+      column: 15
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: saltford-atmosphere-001
+    position:
+      column: 22
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-004
+    position:
+      column: 2
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-thick-leaf-bush-v1
+  - id: saltford-atmosphere-007
+    position:
+      column: 22
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-atmosphere-010
+    position:
+      column: 6
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-atmosphere-013
+    position:
+      column: 20
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-016
+    position:
+      column: 15
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-thick-leaf-bush-v1
+  - id: saltford-atmosphere-019
+    position:
+      column: 22
+      row: 9
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-atmosphere-020
+    position:
+      column: 5
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-atmosphere-022
+    position:
+      column: 21
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-atmosphere-025
+    position:
+      column: 19
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: saltford-atmosphere-028
+    position:
+      column: 7
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-thick-leaf-bush-v1
+  - id: saltford-atmosphere-030
+    position:
+      column: 7
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-atmosphere-031
+    position:
+      column: 22
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-atmosphere-034
+    position:
+      column: 13
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-atmosphere-037
+    position:
+      column: 21
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-040
+    position:
+      column: 6
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-atmosphere-043
+    position:
+      column: 18
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-atmosphere-046
+    position:
+      column: 5
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-atmosphere-049
+    position:
+      column: 19
+      row: 2
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-050
+    position:
+      column: 3
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-atmosphere-052
+    position:
+      column: 12
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-thick-leaf-bush-v1
+  - id: saltford-atmosphere-055
+    position:
+      column: 20
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: saltford-atmosphere-058
+    position:
+      column: 16
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-atmosphere-060
+    position:
+      column: 9
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-atmosphere-061
+    position:
+      column: 22
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-atmosphere-064
+    position:
+      column: 4
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-thick-leaf-bush-v1
+  - id: saltford-atmosphere-067
+    position:
+      column: 20
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-atmosphere-070
+    position:
+      column: 21
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: saltford-atmosphere-073
+    position:
+      column: 22
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-076
+    position:
+      column: 14
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-thick-leaf-bush-v1
+  - id: saltford-atmosphere-079
+    position:
+      column: 22
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-atmosphere-080
+    position:
+      column: 2
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-atmosphere-082
+    position:
+      column: 20
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-atmosphere-085
+    position:
+      column: 22
+      row: 10
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-low-fence-v1
+  - id: saltford-atmosphere-088
+    position:
+      column: 8
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-090
+    position:
+      column: 6
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-atmosphere-091
+    position:
+      column: 21
+      row: 6
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-094
+    position:
+      column: 12
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-atmosphere-097
+    position:
+      column: 17
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-100
+    position:
+      column: 21
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: saltford-atmosphere-103
+    position:
+      column: 22
+      row: 5
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-atmosphere-106
+    position:
+      column: 1
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-109
+    position:
+      column: 21
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-atmosphere-110
+    position:
+      column: 9
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-atmosphere-112
+    position:
+      column: 9
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-atmosphere-115
+    position:
+      column: 15
+      row: 1
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: saltford-atmosphere-118
+    position:
+      column: 18
+      row: 21
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-atmosphere-120
+    position:
+      column: 22
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: saltford-atmosphere-121
+    position:
+      column: 20
+      row: 4
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-dry-storage-01
+    position:
+      column: 12
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-dry-storage-02
+    position:
+      column: 13
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: saltford-dry-storage-03
+    position:
+      column: 14
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-dry-storage-04
+    position:
+      column: 15
+      row: 14
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: saltford-dry-storage-05
+    position:
+      column: 12
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-dry-storage-06
+    position:
+      column: 13
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1
+  - id: saltford-dry-storage-07
+    position:
+      column: 14
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-salt-barrels-v1
+  - id: saltford-dry-storage-08
+    position:
+      column: 15
+      row: 15
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-rope-crates-v1

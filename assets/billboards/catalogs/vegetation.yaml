@@ -1208,6 +1208,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 22
+  - path: assets/maps/field_tiles/salt-flat.yaml
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/brine-bank-saltbush-v1.png
     width: 86
@@ -4146,6 +4148,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 11
+  - path: assets/maps/field_tiles/salt-flat.yaml
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/town-saltford-coastal-silver-shrub-v1.png
     width: 123

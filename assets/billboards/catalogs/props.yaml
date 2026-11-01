@@ -1322,7 +1322,9 @@ billboards:
   asset_ref:
     management_id: image.scenery.field-salt-causeway-repair-stakes-2-v1
     version: source-sha256-b27c79e3b18d69070a4d34bb1a0cb371cddf65dfab1e3aff2c8c50f0ee1def54
-  map_references: []
+  map_references:
+  - path: assets/maps/field_tiles/salt-flat.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/field-salt-causeway-repair-stakes-2-v1.png
     width: 128
@@ -1385,6 +1387,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 3
+  - path: assets/maps/field_tiles/salt-flat.yaml
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/field-salt-flat-brine-barrel-1-v1.png
     width: 145
