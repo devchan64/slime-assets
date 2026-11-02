@@ -3939,34 +3939,6 @@ assets:
     generation_id: exec-3be21d66-e8d4-45cb-b636-34078c53d49e
     editor_revision: 20261003T041629-5d1e579d
     previous_path: assets/characters/female/animations/walk-v1/down-left-12frames-v1
-- managementId: sprite.characters.default.walk-12frames-v1.source.yaml
-  version: down-left-12frames-v3
-  path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v3/source.yaml
-  sha256: 4a484452d3614d759d1466e4dec0afdbd8e2407c2d9cc843c9322b80d560b080
-  source:
-    repository: slime-workflow
-    path: codex-clipboard-0c9fa5eb-02fa-4c0b-892f-61d49e010697.png
-    operation: 사용자 첨부 시트 채택
-    previous_path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2
-- managementId: sprite.characters.default.walk-12frames-v1.walk-12frames-v1.animation.json
-  version: down-left-12frames-v3-6fps
-  path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v3/walk-12frames-v1.animation.json
-  sha256: 6367e933eca98e86a183d5583e2d21ad186452f916cb4705c76644b9d7b4a8ae
-  source:
-    repository: slime-workflow
-    path: codex-clipboard-0c9fa5eb-02fa-4c0b-892f-61d49e010697.png
-    operation: 사용자 첨부 시트 채택
-    previous_path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2
-    playback_fps: 6
-- managementId: sprite.characters.default.walk-12frames-v1.walk-12frames-v1.png
-  version: down-left-12frames-v3
-  path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v3/walk-12frames-v1.png
-  sha256: b3afadc30eaf6fdb5e819521d617b5035539fb0e60a9632b2ccd8b53f6d02a35
-  source:
-    repository: slime-workflow
-    path: codex-clipboard-0c9fa5eb-02fa-4c0b-892f-61d49e010697.png
-    operation: 사용자 첨부 시트 채택
-    previous_path: assets/characters/default/animations/walk-12frames-v1/down-left-12frames-v2
 - managementId: sprite.structures.guard-center-wood-v1.png
   version: v1
   path: assets/buildings/guard-center-wood-v1.png
@@ -10072,3 +10044,27 @@ assets:
     original_sha256: 769dba92608e40c3374e4dec245967704481644656c0f78ac162861f18aea82f
     processing: 투명 원본을 긴 변 512px로 정규화.
     lifecycle_status: retired
+- managementId: sprite.image.characters.default.walk-light-leather.front-left
+  version: v1
+  path: assets/characters/default/animations/walk-light-leather-v1/character-default-light-leather-walk-front-left-sprite-v1.png
+  sha256: a8ea5a2e817097c06bbcd5375bf2fc3f5b57d536e7bad4a1899602412218bb6c
+  source:
+    repository: slime-workflow
+    path: assets/character-baselines/character-default/baseline-v1/character-default-light-leather-walk-front-left-sprite-v1.png
+    operation: 사용자 승인 투명 걷기 스프라이트 등록
+- managementId: sprite.metadata.characters.default.walk-light-leather.front-left
+  version: v1
+  path: assets/characters/default/animations/walk-light-leather-v1/character-default-light-leather-walk-front-left-sprite-v1.yaml
+  sha256: c1964bdeb20da1293d7b4ed4c24e872900fe97bfdff78ed7936accb48191834e
+  source:
+    repository: slime-workflow
+    path: assets/character-baselines/character-default/baseline-v1/character-default-light-leather-walk-front-left-sprite-v1.png
+    operation: 사용자 승인 투명 걷기 스프라이트 등록
+
+- managementId: sprite.animation.characters.default.walk-light-leather.front-left
+  version: v1
+  path: assets/characters/default/animations/walk-light-leather-v1/walk-light-leather-v1.animation.json
+  sha256: 410d16056ea80a6a7211e6a4764dc700a0d7053d053ec498828287a88a83fc49
+  source:
+    repository: slime-workflow
+    operation: 승인된 8프레임 걷기 시트의 6fps 재생 좌표 등록

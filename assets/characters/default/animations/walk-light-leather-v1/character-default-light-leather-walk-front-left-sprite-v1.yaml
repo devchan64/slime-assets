@@ -1,0 +1,15 @@
+schema_version: 1
+image: character-default-light-leather-walk-front-left-sprite-v1.png
+description: 기본 캐릭터 경량 가죽 복장 · 왼쪽 앞 걷기
+width: 1302
+height: 1208
+background: transparent
+columns: 4
+rows: 2
+frame_count: 8
+playback_fps: 6
+loop: true
+frame_order: row-major
+anchor_status: 공통 셀 중심 x·바닥 y=590 기준. 게임 내 접지 시각 검수 필요
+notes: 정수 프레임 경계와 6fps 재생은 animation.json에서 정의한다.
+animation: walk-light-leather-v1.animation.json
