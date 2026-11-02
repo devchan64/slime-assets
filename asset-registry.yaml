@@ -1701,7 +1701,7 @@ assets:
 - managementId: config.field-tiles.salt-flat
   version: field-objects-v1
   path: assets/maps/field_tiles/salt-flat.yaml
-  sha256: f0d8435c67a1640f3808a720028e4ecf9d5bde207bd23e61cce11af84662ffb7
+  sha256: 78043db4e7be8a5fdbd154f45ba3772bf9a0dc838e57aa5e2c60f2f15cd77d0a
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/salt-flat.yaml
@@ -1909,7 +1909,7 @@ assets:
 - managementId: config.terrain.maps.salt-flat
   version: v1
   path: assets/maps/terrain/maps/salt-flat.yaml
-  sha256: 308fa4353d4a9808b85ce7cc99389148d2ce466a9f021ae5eb0f38c1d71410ec
+  sha256: 2aba7af77acc6ff829ea103fec62c6bf5331719d7fc19feb0894796a9f9fbce7
   source:
     repository: slime-assets
     path: assets/maps/terrain/maps/salt-flat.yaml
@@ -10125,3 +10125,12 @@ assets:
   source:
     repository: slime-workflow
     operation: ImageGen 흰소금벌 염분 섞인 마른 지면 생성.
+- managementId: image.terrain.salt-flat-calm-brine-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/salt-flat-calm-brine-v1.png
+  sha256: 8c5e53b52b5b4804b05f8485b87f83c41a680e7aaaed898a219ac4f1c454d947
+  width: 1254
+  height: 1254
+  source:
+    repository: slime-workflow
+    operation: ImageGen 흰소금벌 얕은 염수 수면 생성.

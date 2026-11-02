@@ -1611,6 +1611,8 @@ billboards:
     texture_key_occurrences: 11
   - path: assets/maps/field_tiles/old-orchard.yaml
     texture_key_occurrences: 44
+  - path: assets/maps/field_tiles/salt-flat.yaml
+    texture_key_occurrences: 7
   - path: assets/maps/field_tiles/windrow-road.yaml
     texture_key_occurrences: 20
   source_file:
@@ -4771,7 +4773,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/salt-flat.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 9
   - path: assets/maps/field_tiles/wind-hills.yaml
     texture_key_occurrences: 88
   source_file:

@@ -1209,7 +1209,7 @@ billboards:
   - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 22
   - path: assets/maps/field_tiles/salt-flat.yaml
-    texture_key_occurrences: 6
+    texture_key_occurrences: 12
   source_file:
     path: assets/billboards/brine-bank-saltbush-v1.png
     width: 86
@@ -1462,6 +1462,8 @@ billboards:
   map_references:
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 6
+  - path: assets/maps/field_tiles/salt-flat.yaml
+    texture_key_occurrences: 7
   source_file:
     path: assets/billboards/dry-branches-v1.png
     width: 110
@@ -1525,6 +1527,8 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 2
+  - path: assets/maps/field_tiles/salt-flat.yaml
+    texture_key_occurrences: 7
   source_file:
     path: assets/billboards/dry-shrub-variant-1-v1.png
     width: 66
@@ -4149,7 +4153,7 @@ billboards:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 11
   - path: assets/maps/field_tiles/salt-flat.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 8
   source_file:
     path: assets/billboards/town-saltford-coastal-silver-shrub-v1.png
     width: 123
