@@ -471,6 +471,14 @@ families:
     features:
     - 낮고 불규칙한 회색 암석 능선
     review_category: rocks-minerals
+  salt-causeway-stone-embankment-v1:
+    name: 소금둑길의 밝은 돌둑
+    uses:
+    - 소금둑길 가장자리에서 출입구를 피해 연속 배치한다
+    category: rocks-minerals
+    features:
+    - 밝은 석재를 이어 쌓은 낮은 돌둑
+    review_category: rocks-minerals
 billboards:
 - texture_key: cinder-path-basalt-outcrop-v1
   family: cinder-path-basalt-outcrop-v1
@@ -3362,8 +3370,8 @@ billboards:
     displayHeight: 160.0
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0
-    shadowOffsetRow: 0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 0.65
     shadowScaleY: 0.55
     shadowCoordinateVersion: 2
@@ -3418,8 +3426,8 @@ billboards:
     displayHeight: 120.0
     billboardBlocksMovement: true
     billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0
-    shadowOffsetRow: 0
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
     shadowScaleX: 0.65
     shadowScaleY: 0.55
     shadowCoordinateVersion: 2
