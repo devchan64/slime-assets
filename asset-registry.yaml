@@ -547,7 +547,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v7-billboard-blocking-v1
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 7d0fda29e1516c7cfb54f1fdcb74ba6d1724cdfaebf09b08b6954969ab28fb8b
+  sha256: bfb4ac3eda4a9dc9c5c76bcf1b99fca5cdf42bf674f94c73f8e7f4dc2c3189e6
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -5125,52 +5125,52 @@ assets:
   version: v2
   path: assets/buildings/town-iseulon-guild-v2.png
   width: 512
-  height: 410
-  sha256: d7927010add6c3ff5b557820dcabf1a89fd6b8f641da1047743360e3e336564c
+  height: 341
+  sha256: 12f18a742a59ea8113b9d6fa96d88797a8872b95f2313e49f9c1d5fffa390e52
   source:
     repository: codex-imagegen
-    operation: 3×3 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: exec-7d6bb030-4f2d-409e-ad8c-b69173949834.png
+    operation: 기존 건물 구도 가이드 이미지 교체
+    artifact: iseulon-guild-2026-11-03.png
 - managementId: image.scenery.town.iseulon-bookshop
   version: v2
   path: assets/buildings/town-iseulon-bookshop-v2.png
   width: 512
-  height: 410
-  sha256: f770b8b775b63638706a89fb2523d44d539ee19c20d1169cd47a4d75f98133fb
+  height: 341
+  sha256: f6f5e0fd5f285b829b0f141c9c6e9555a125cbb550b0c3d955c42531f6799fa9
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-iseulon-bookshop-v2.png
+    operation: 기존 건물 구도 가이드 이미지 교체
+    artifact: iseulon-bookshop-2026-11-03.png
 - managementId: image.scenery.town.iseulon-inn
   version: v2
   path: assets/buildings/town-iseulon-inn-v2.png
   width: 512
-  height: 410
-  sha256: 0f4a6f8668ce6cd73e4c65bed62c2deca35645d745f51e6c34b57d4e03af2d15
+  height: 341
+  sha256: 36110c1c981c50ea1d5ac36bea3d61a5f7985431e72ba7ddba3daf86aa835c98
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-iseulon-inn-v2.png
+    operation: 기존 건물 구도 가이드 이미지 교체
+    artifact: iseulon-inn-2026-11-03.png
 - managementId: image.scenery.town.iseulon-workshop
   version: v2
   path: assets/buildings/town-iseulon-workshop-v2.png
   width: 512
-  height: 410
-  sha256: 6e02e9cccd4e6288c5462da83a0821f4fab734f6cc9bfe45dda15c58f5c32372
+  height: 412
+  sha256: 37925c3f5857db4bd8aa644354e0335e41bad08b9d78f300f97cc18270ca1032
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-iseulon-workshop-v2.png
+    operation: 4×5 동향 가이드만 참조하여 대장간 재생성
+    artifact: exec-ad990958-e043-4e2c-a091-da041498e234.png
 - managementId: image.scenery.town.iseulon-market
   version: v2
   path: assets/buildings/town-iseulon-market-v2.png
   width: 512
-  height: 410
-  sha256: d08e3e8922050f5c705125d4e2aa59883c594d300317c4b1c575eda8e3662770
+  height: 341
+  sha256: f423a40e27378557bd380630ae1b126b85c525c22e98eed3909756c68a18d910
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-iseulon-market-v2.png
+    operation: 기존 건물 구도 가이드 이미지 교체
+    artifact: iseulon-market-2026-11-03.png
 - managementId: image.scenery.town.reedhaven-guild
   version: v3
   path: assets/buildings/town-reedhaven-guild-v3.png
