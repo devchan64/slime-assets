@@ -40,8 +40,8 @@ data:
     anchorX: 0.52
     anchorY: 0.97
   town-iseulon-inn-v2:
-    anchorX: 0.64
-    anchorY: 0.93
+    anchorX: 0.38
+    anchorY: 0.96
   town-iseulon-market-v2:
     anchorX: 0.53
     anchorY: 0.95
@@ -383,6 +383,48 @@ data:
     shadowScaleY: 0.4
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
+  brine-bank-painted-hill-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 5
+    groundFootprintRows: 4
+    displayHeight: 460.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.4
+    shadowScaleY: 0.4
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  brine-bank-painted-low-bank-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 5
+    groundFootprintRows: 4
+    displayHeight: 460.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.4
+    shadowScaleY: 0.4
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  brine-bank-painted-stones-v1:
+    anchorX: 0.0
+    anchorY: 0.05
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 180.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: -0.25
+    shadowOffsetRow: -0.25
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
   brine-bank-saline-pebble-mound-v1:
     anchorX: 0.0
     anchorY: 0.0
@@ -409,6 +451,20 @@ data:
     shadowOffsetRow: -0.1
     shadowScaleX: 0.76
     shadowScaleY: 0.76
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  brine-bank-salt-crust-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 160.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.01
+    shadowScaleY: 0.01
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   brine-bank-salt-drying-rack-v1:
@@ -3979,61 +4035,5 @@ data:
     shadowOffsetRow: 0.0
     shadowScaleX: 0.52
     shadowScaleY: 0.52
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-  brine-bank-painted-hill-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 5
-    groundFootprintRows: 4
-    displayHeight: 460.0
-    billboardBlocksMovement: true
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.4
-    shadowScaleY: 0.4
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-  brine-bank-painted-stones-v1:
-    anchorX: 0.0
-    anchorY: 0.05
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 180.0
-    billboardBlocksMovement: true
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: -0.25
-    shadowOffsetRow: -0.25
-    shadowScaleX: 0.8
-    shadowScaleY: 0.8
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-  brine-bank-salt-crust-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 2
-    groundFootprintRows: 2
-    displayHeight: 160.0
-    billboardBlocksMovement: false
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.01
-    shadowScaleY: 0.01
-    shadowCoordinateVersion: 2
-    shadowSizeVersion: 2
-  brine-bank-painted-low-bank-v1:
-    anchorX: 0.0
-    anchorY: 0.0
-    groundFootprintColumns: 5
-    groundFootprintRows: 4
-    displayHeight: 460.0
-    billboardBlocksMovement: true
-    billboardAnchorMode: tile-intersection
-    shadowOffsetColumn: 0.0
-    shadowOffsetRow: 0.0
-    shadowScaleX: 0.4
-    shadowScaleY: 0.4
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2

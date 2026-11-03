@@ -482,7 +482,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v7-billboard-blocking-v1
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: bfb4ac3eda4a9dc9c5c76bcf1b99fca5cdf42bf674f94c73f8e7f4dc2c3189e6
+  sha256: 029e63431381c66a442dcc07021b241ae69cca09397dd8e081e4bcd5962e2f29
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -5080,12 +5080,12 @@ assets:
   version: v2
   path: assets/buildings/town-iseulon-inn-v2.png
   width: 512
-  height: 341
-  sha256: 36110c1c981c50ea1d5ac36bea3d61a5f7985431e72ba7ddba3daf86aa835c98
+  height: 350
+  sha256: bccba9e9bc31976927b2f3089596fd9f3f46d33beeb6a24e07c26c2ee2b98737
   source:
     repository: codex-imagegen
     operation: 기존 건물 구도 가이드 이미지 교체
-    artifact: iseulon-inn-2026-11-03.png
+    artifact: iseulon-inn-orthographic-2026-11-04.png
 - managementId: image.scenery.town.iseulon-workshop
   version: v2
   path: assets/buildings/town-iseulon-workshop-v2.png
@@ -6384,7 +6384,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 45652e2cf817545670408b3e6d5faf7c171320a90c38bf6a45f96a9e1be3c6a4
+  sha256: f29594c904b4dc9379c0f52a003b24b86f7f7b5448e25731c05f8a6b76bee5cb
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이

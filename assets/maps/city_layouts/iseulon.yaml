@@ -3,7 +3,7 @@ data:
   rows: 30
   cityId: iseulon
   columns: 30
-  version: 23
+  version: 25
   safeTown: true
   buildings:
   - id: iseulon-guild
@@ -61,14 +61,14 @@ data:
     floors: 1
     height: 5
     origin:
-      row: 20
-      column: 21
+      row: 22
+      column: 23
     sprite:
       textureKey: town-iseulon-workshop-v2
       contentWidth: 0.841655
     entrance:
-      row: 22
-      column: 25
+      row: 24
+      column: 27
     facilityId: iseulon-workshop
   - id: iseulon-market
     name: 시장
@@ -230,14 +230,14 @@ data:
     floors: 2
     height: 2
     origin:
-      row: 22
-      column: 7
+      row: 26
+      column: 2
     sprite:
       textureKey: town-common-stone-house-v2
       contentWidth: 0.706847
     entrance:
-      row: 24
-      column: 8
+      row: 28
+      column: 3
     facilityId: null
   startPoint:
     row: 14
@@ -280,14 +280,14 @@ data:
   - ggpggggpgggggppppggggpgpgggggg
   - ggppppppggggpppppggggpppppgggg
   - ggppgpgggggggppggggggggggpgggg
-  - ggpggpgggggggpppppppgggggpgggg
-  - ggpggpgggggggppggggggggggpgggg
-  - ggpggpgggggggppggggggggggggggg
-  - ggpppppppggggppggggggggggggggg
-  - gggggggggggggppggggggggggggggg
-  - gggggggggggggppggggggggggggggg
-  - gggggggggggggppggggggggggggggg
-  - ggggggggggggggpggggggggggggggg
+  - ggpggpgggggggpppppppgggggpppgg
+  - ggpggpgggggggppggggggggggggpgg
+  - ggpggpgggggggppggggggggggggpgg
+  - ggppppggpggggppggggggggggggpgg
+  - ggggpgggpggggppggggggggggggggg
+  - ggggpggppggggppggggggggggggggg
+  - ggggpggggggggppggggggggggggggg
+  - gggppgggggggggpggggggggggggggg
   - ggggggggggggggpggggggggggggggg
   objects:
   - id: iseulon-garden-1
@@ -727,7 +727,7 @@ data:
   - id: iseulon-home-1-town-herb-planter-v1
     position:
       column: 7
-      row: 25
+      row: 23
     kind: decoration
     tileAnchor: center
     textureKey: town-herb-planter-v1
@@ -1329,7 +1329,7 @@ data:
   - id: iseulon-atmosphere-115
     position:
       column: 26
-      row: 21
+      row: 19
     kind: decoration
     tileAnchor: center
     textureKey: town-wood-bench-v1
