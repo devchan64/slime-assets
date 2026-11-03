@@ -5,11 +5,11 @@ data:
     name: 서쪽 웨이포인트
     target: pebble-shore
     direction: west
-    edgeOffset: 16
+    edgeOffset: 8
     targetWaypointId: pebble-shore-to-brine-bank
   - id: brine-bank-to-saltford
     name: 동쪽 웨이포인트
     target: saltford
     direction: east
-    edgeOffset: 16
+    edgeOffset: 24
     targetWaypointId: saltford-to-brine-bank

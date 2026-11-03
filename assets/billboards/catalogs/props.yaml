@@ -521,7 +521,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/salt-flat.yaml
     texture_key_occurrences: 1
   source_file:
@@ -583,9 +583,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.brine-bank-salt-drying-rack-v1
     version: v1
-  map_references:
-  - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 3
+  map_references: []
   source_file:
     path: assets/billboards/brine-bank-salt-drying-rack-v1.png
     width: 236
@@ -1201,7 +1199,7 @@ billboards:
     version: source-sha256-ade565f141affc951edfbce862d160d35d6e7145f4336d3ead8ed7b1f03ba40f
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/mist-lake.yaml
     texture_key_occurrences: 1
   source_file:
@@ -1388,7 +1386,7 @@ billboards:
     version: source-sha256-3b1004ea882c0dfe35e2ae85afa9ffb9e1b065fae4b284f5e74198796be8e1ae
   map_references:
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/salt-flat.yaml
     texture_key_occurrences: 1
   source_file:
@@ -2198,7 +2196,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 8
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 2
   source_file:
@@ -2718,6 +2716,8 @@ billboards:
   - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/cinder-path.yaml
     texture_key_occurrences: 1
@@ -3692,7 +3692,7 @@ billboards:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 10
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/cinder-path.yaml
@@ -3760,7 +3760,7 @@ billboards:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 14
   - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 4
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-salt-barrels-v1.png
     width: 102
@@ -3887,8 +3887,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/field_tiles/brine-bank.yaml
-    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/town-saltford-wet-cargo-drying-v1.png
     width: 226

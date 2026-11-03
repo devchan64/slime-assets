@@ -1669,7 +1669,7 @@ assets:
 - managementId: config.field-tiles.brine-bank
   version: shared-material-codes-v2
   path: assets/maps/field_tiles/brine-bank.yaml
-  sha256: 81e9d1c5bb79be233fa311159f5643acc9a1e4bd282ba338d2e3ab773d0038cb
+  sha256: a8ec3512f4b0631e737151115e43150648a3267dddb1795174c44d87e0b425c4
   source:
     repository: slime-assets
     path: assets/maps/field_tiles/brine-bank.yaml
@@ -1709,7 +1709,7 @@ assets:
 - managementId: config.field-waypoints.brine-bank
   version: v1
   path: assets/maps/field_waypoints/brine-bank.yaml
-  sha256: 9150cb8cb22485feab6180b88e1bef961c81f4847c9c685dcc68af47134692c9
+  sha256: 22402effcdcb52341423818ed4e12cd5bdac607f2acca3f949e23c8915948aea
   source:
     repository: slime-assets
     path: assets/maps/field_waypoints/brine-bank.yaml
@@ -1805,7 +1805,7 @@ assets:
 - managementId: config.map-spawns.brine-bank
   version: ward-radius-reduced-v1
   path: assets/maps/map_spawns/brine-bank.yaml
-  sha256: 5d9bff908ed12c2c5be100a81818116ef55f6e19c5e12fb8afd2448a3adba0ef
+  sha256: 3530b8c2b1e54428772befb704b9253c707dc4917db137de3a4fca25f4e0da2f
   source:
     repository: slime-assets
     path: assets/maps/map_spawns/brine-bank.yaml
@@ -1845,7 +1845,7 @@ assets:
 - managementId: config.terrain.maps.brine-bank
   version: field-detail-v2
   path: assets/maps/terrain/maps/brine-bank.yaml
-  sha256: 2ccbc504510809a0a5329210bdfa9d7514f16a917a00e4c04e9a0edb31debf94
+  sha256: 91c0346f8c4beebc506a36c4abf2de2184167cc056e500543d414485a3beff19
   source:
     repository: slime-assets
     path: assets/maps/terrain/maps/brine-bank.yaml
@@ -6449,7 +6449,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: a91a7096cd2298b2a1e1d6811ea1dcf3f26948edfe749d19e2bd60abff54e8a6
+  sha256: 45652e2cf817545670408b3e6d5faf7c171320a90c38bf6a45f96a9e1be3c6a4
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10044,6 +10044,50 @@ assets:
     original_sha256: 769dba92608e40c3374e4dec245967704481644656c0f78ac162861f18aea82f
     processing: 투명 원본을 긴 변 512px로 정규화.
     lifecycle_status: retired
+- managementId: image.billboards.brine-bank-saline-pebble-mound-v1
+  version: v1
+  path: assets/billboards/brine-bank-saline-pebble-mound-v1.png
+  name: 짠물둔덕의 밝은 자갈 무더기
+  width: 512
+  height: 256
+  sha256: cbfdd219a0ccf0ffba2fb04dbbeabedc32a0a7772ad83bf8529fc1750f06e3c7
+  source:
+    repository: codex-imagegen
+    artifact: mound-512.png
+    original_sha256: cbfdd219a0ccf0ffba2fb04dbbeabedc32a0a7772ad83bf8529fc1750f06e3c7
+    processing: ImageGen 투명 원본을 512px 이하로 축소.
+- managementId: image.terrain.brine-bank-saline-gravel-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/brine-bank-saline-gravel-v1.png
+  sha256: 57d66bf47af2ea477017ab0063ac1d0d5f3a8007366a7bd645bac1cc261290f9
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: /home/cbsim/.codex/generated_images/01a0e5f3-61d6-71b3-be62-d48436ea51cb/exec-e69dd4b2-b425-4623-8f71-1076b653cea9.png
+    operation: ImageGen 굵은 자갈 반복 패턴 생성. 128x128 LANCZOS 축소.
+- managementId: image.billboards.brine-bank-gravel-slope-v1
+  version: v1
+  path: assets/billboards/brine-bank-gravel-slope-v1.png
+  name: 짠물둔덕의 완만한 자갈 언덕
+  width: 512
+  height: 256
+  sha256: a3e4448d4f6325ee58d3daaff678b01a7be10f20619831e9becae7116a9aad41
+  source:
+    repository: codex-imagegen
+    artifact: gravel-hill-candidate.png
+    original_sha256: a3e4448d4f6325ee58d3daaff678b01a7be10f20619831e9becae7116a9aad41
+    processing: ImageGen 투명 원본을 512px 이하로 축소.
+- managementId: image.terrain.brine-bank-saline-gravel-variant-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/brine-bank-saline-gravel-variant-v1.png
+  sha256: 00a53bb9dd31d000bc4070961d39a0087758abf8b54281bd12ef95f49033725e
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    path: /home/cbsim/.codex/generated_images/01a0e5f3-61d6-71b3-be62-d48436ea51cb/exec-5adf4fbb-2704-4f31-8176-1cb7e55edd5d.png
+    operation: ImageGen 굵은 자갈 반복 패턴 생성. 128x128 LANCZOS 축소.
 - managementId: sprite.image.characters.default.walk-light-leather.front-left
   version: v1
   path: assets/characters/default/animations/walk-light-leather-v1/character-default-light-leather-walk-front-left-sprite-v1.png
@@ -10068,3 +10112,107 @@ assets:
   source:
     repository: slime-workflow
     operation: 승인된 8프레임 걷기 시트의 6fps 재생 좌표 등록
+- managementId: image.terrain.brine-bank-gravel-sheet-a-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/brine-bank-gravel-sheet-a-v1.png
+  sha256: 3a443d80ec6d7e4e09009cfce3d4197fdbf1dc9456f8236aed85771ccf692717
+  width: 512
+  height: 512
+  source:
+    repository: slime-workflow
+    path: generated_images/exec-2b3308ae-f4d1-42f0-a0c0-1f5927d8425e.png
+    operation: ImageGen 자갈 시트 생성 및 512×512 정규화
+- managementId: image.terrain.brine-bank-gravel-sheet-b-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/brine-bank-gravel-sheet-b-v1.png
+  sha256: b00e92e4543c3e845d011682b8d31a2b785a6f9b8b5639ddb044781ea981accd
+  width: 512
+  height: 512
+  source:
+    repository: slime-workflow
+    path: generated_images/exec-d6b8630b-7c71-4da3-99ce-ab554370372e.png
+    operation: ImageGen 자갈 시트 생성 및 512×512 정규화
+- managementId: image.terrain.brine-bank-road-sheet-v1
+  version: v1
+  path: assets/tiles/terrain/road/brine-bank-road-sheet-v1.png
+  sha256: 30668647fc720cf78c5e3f1b726f1cf09c5f3e54fdc78b27e96b5b9946448c6c
+  width: 512
+  height: 512
+  source:
+    repository: slime-workflow
+    operation: ImageGen 회화풍 자갈길 생성 및 512 크기 조정
+- managementId: image.billboards.brine-bank-painted-hill-v1
+  version: v1
+  path: assets/billboards/brine-bank-painted-hill-v1.png
+  name: 짠물둔덕의 회화풍 자갈 둔덕
+  width: 512
+  height: 256
+  sha256: a177e079b1bd8d7fc2ffc3e431e2b9c8fedc5052fc7818bcaf52979791a37cf2
+  source:
+    repository: codex-imagegen
+    artifact: painted-full-hill.png
+    original_sha256: a177e079b1bd8d7fc2ffc3e431e2b9c8fedc5052fc7818bcaf52979791a37cf2
+    processing: ImageGen 투명 원본을 512px 이하로 축소.
+- managementId: image.billboards.brine-bank-painted-stones-v1
+  version: v1
+  path: assets/billboards/brine-bank-painted-stones-v1.png
+  name: 짠물둔덕의 회화풍 둥근 돌 군락
+  width: 512
+  height: 256
+  sha256: 2c87a0f6f411dcb4c01ca44df48cdd706695accfab84b2959e512827fb7eb92a
+  source:
+    repository: codex-imagegen
+    artifact: painted-rock-mound.png
+    original_sha256: 2c87a0f6f411dcb4c01ca44df48cdd706695accfab84b2959e512827fb7eb92a
+    processing: ImageGen 투명 원본을 512px 이하로 축소.
+- managementId: image.billboards.brine-bank-salt-crust-v1
+  version: v1
+  path: assets/billboards/brine-bank-salt-crust-v1.png
+  name: 짠물둔덕의 소금 결정 퇴적
+  width: 512
+  height: 248
+  sha256: f9d13b30241e7f1aa4c17833fb602a7305b9c80ffafd5ab91cd91486955a67f0
+  source:
+    repository: codex-imagegen
+    artifact: painted-salt-crust.png
+    original_sha256: f9d13b30241e7f1aa4c17833fb602a7305b9c80ffafd5ab91cd91486955a67f0
+    processing: ImageGen 투명 원본을 512px 이하로 축소.
+- managementId: image.billboards.brine-bank-painted-low-bank-v1
+  version: v1
+  path: assets/billboards/brine-bank-painted-low-bank-v1.png
+  name: 짠물둔덕의 낮은 자갈 경사
+  width: 512
+  height: 256
+  sha256: 04fccf5c3fd1719fb92062107c5d82b8848dbe92799146b22e625e96de7bf2e7
+  source:
+    repository: codex-imagegen
+    artifact: painted-gravel-bank.png
+    original_sha256: 04fccf5c3fd1719fb92062107c5d82b8848dbe92799146b22e625e96de7bf2e7
+    processing: ImageGen 투명 원본을 512px 이하로 축소.
+- managementId: image.terrain.brine-bank-gravel-sparse-sheet-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/brine-bank-gravel-sparse-sheet-v1.png
+  sha256: 531b68ff99f779f1b6e9847e1692f7ea3f89178f8577e6c82ee18335ca9bd8a0
+  width: 512
+  height: 512
+  source:
+    repository: slime-workflow
+    operation: ImageGen 희소 굵은 자갈 시트 생성 및 512 크기 조정
+- managementId: image.terrain.brine-bank-shallow-water-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/brine-bank-shallow-water-v1.png
+  sha256: bbd5bb64e7cd9eb93523d4657dc48e5bcb8731f97e7d9129b361dfd799092af0
+  width: 128
+  height: 128
+  source:
+    repository: slime-workflow
+    operation: ImageGen 염수 변형 생성 및 128 크기 조정
+- managementId: image.terrain.brine-bank-gravel-wide-sheet-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/brine-bank-gravel-wide-sheet-v1.png
+  sha256: 971d3fcc5ab5efaf5bd0321c3a501600dae3e9da88be31a0976e1be576393ee8
+  width: 1024
+  height: 1024
+  source:
+    repository: slime-workflow
+    operation: ImageGen 넓은 자갈 시트 생성 및 1024 크기 조정
