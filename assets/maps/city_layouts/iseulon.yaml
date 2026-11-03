@@ -3,7 +3,7 @@ data:
   rows: 30
   cityId: iseulon
   columns: 30
-  version: 25
+  version: 27
   safeTown: true
   buildings:
   - id: iseulon-guild
@@ -306,8 +306,8 @@ data:
     textureKey: orchard-young-tree-variant-1-v2
   - id: iseulon-garden-3
     position:
-      column: 9
-      row: 3
+      column: 15
+      row: 8
     kind: decoration
     tileAnchor: center
     textureKey: orchard-young-tree-variant-2-v2
@@ -558,7 +558,7 @@ data:
     textureKey: town-herb-planter-v1
   - id: iseulon-prop-8
     position:
-      column: 11
+      column: 9
       row: 6
     kind: decoration
     tileAnchor: center
@@ -881,7 +881,7 @@ data:
   - id: iseulon-atmosphere-010
     position:
       column: 22
-      row: 17
+      row: 20
     kind: decoration
     tileAnchor: center
     textureKey: town-delivery-crates-v1
@@ -1056,7 +1056,7 @@ data:
   - id: iseulon-atmosphere-047
     position:
       column: 6
-      row: 11
+      row: 10
     kind: decoration
     tileAnchor: center
     textureKey: town-iseulon-violet-garden-tuft-v1
@@ -1258,8 +1258,8 @@ data:
     textureKey: town-low-fence-v1
   - id: iseulon-atmosphere-096
     position:
-      column: 17
-      row: 4
+      column: 16
+      row: 3
     kind: decoration
     tileAnchor: center
     textureKey: town-iseulon-round-rose-shrub-v1
@@ -1273,7 +1273,7 @@ data:
   - id: iseulon-atmosphere-098
     position:
       column: 25
-      row: 11
+      row: 10
     kind: decoration
     tileAnchor: center
     textureKey: town-iseulon-white-bloom-hedge-v1
@@ -1342,7 +1342,7 @@ data:
     textureKey: town-iseulon-white-bloom-hedge-v1
   - id: iseulon-atmosphere-119
     position:
-      column: 6
+      column: 4
       row: 12
     kind: decoration
     tileAnchor: center
