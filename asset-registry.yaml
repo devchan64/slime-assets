@@ -473,7 +473,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v7-billboard-blocking-v1
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: 1323a87d000198591ddd1a9a119fd6d91d858a645dc5e040a92e6c1b98711212
+  sha256: a6ae5441249a629dfc5d52a26f443215165364931e7845acb197866f8e0e0262
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -489,7 +489,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5-billboard-blocking-v1
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: c635b73fe86aeead0b6a574e3cb47a7b769e618561333602ad72e3e6bec9f8f3
+  sha256: 142412c4484296b25ce6324f95c3a04046bd6506cee61fabf600b9cf58ad9dea
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -5074,6 +5074,7 @@ assets:
     repository: codex-imagegen
     operation: 기존 건물 구도 가이드 이미지 교체
     artifact: iseulon-guild-2026-11-03.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.iseulon-bookshop
   version: v2
   path: assets/buildings/town-iseulon-bookshop-v2.png
@@ -5084,6 +5085,7 @@ assets:
     repository: codex-imagegen
     operation: 기존 건물 구도 가이드 이미지 교체
     artifact: iseulon-bookshop-2026-11-03.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.iseulon-inn
   version: v2
   path: assets/buildings/town-iseulon-inn-v2.png
@@ -5094,6 +5096,7 @@ assets:
     repository: codex-imagegen
     operation: 기존 건물 구도 가이드 이미지 교체
     artifact: iseulon-inn-orthographic-2026-11-04.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.iseulon-workshop
   version: v2
   path: assets/buildings/town-iseulon-workshop-v2.png
@@ -5104,6 +5107,7 @@ assets:
     repository: codex-imagegen
     operation: 4×5 동향 가이드만 참조하여 대장간 재생성
     artifact: exec-ad990958-e043-4e2c-a091-da041498e234.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.iseulon-market
   version: v2
   path: assets/buildings/town-iseulon-market-v2.png
@@ -5114,6 +5118,7 @@ assets:
     repository: codex-imagegen
     operation: 기존 건물 구도 가이드 이미지 교체
     artifact: iseulon-market-2026-11-03.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.reedhaven-guild
   version: v3
   path: assets/buildings/town-reedhaven-guild-v3.png
@@ -5174,6 +5179,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-stonewarm-guild-v3.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.stonewarm-bookshop
   version: v3
   path: assets/buildings/town-stonewarm-bookshop-v3.png
@@ -5184,6 +5190,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-stonewarm-bookshop-v3.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.stonewarm-inn
   version: v3
   path: assets/buildings/town-stonewarm-inn-v3.png
@@ -5194,6 +5201,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-stonewarm-inn-v3.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.stonewarm-workshop
   version: v3
   path: assets/buildings/town-stonewarm-workshop-v3.png
@@ -5204,6 +5212,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-stonewarm-workshop-v3.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.stonewarm-market
   version: v3
   path: assets/buildings/town-stonewarm-market-v3.png
@@ -5214,16 +5223,17 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-stonewarm-market-v3.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.grainstead-guild
-  version: v2
-  path: assets/buildings/town-grainstead-guild-v2.png
+  version: v3
+  path: assets/buildings/town-grainstead-guild-v3.png
   width: 512
-  height: 410
-  sha256: d2ddadb2fbcc0c44f45e5cc88331220de51d5d9fce23c7b731710f8f721d078c
+  height: 427
+  sha256: 39af20247199ee70393b9059f2ce95bcade639d0eefea01ad7dd734500526c59
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-grainstead-guild-v2.png
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-guild-v3.png
 - managementId: image.scenery.town.grainstead-bookshop
   version: v2
   path: assets/buildings/town-grainstead-bookshop-v2.png
@@ -5245,15 +5255,15 @@ assets:
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-grainstead-inn-v2.png
 - managementId: image.scenery.town.grainstead-workshop
-  version: v2
-  path: assets/buildings/town-grainstead-workshop-v2.png
+  version: v3
+  path: assets/buildings/town-grainstead-workshop-v3.png
   width: 512
-  height: 410
-  sha256: ee01fb13c31180b8a30887b3df31b58bc4e63fe35e2d3fa957ee9a0a48a33c84
+  height: 427
+  sha256: 479a54e91f83f51d8b05dfc657405a4904ed741935238a7a9f6bcdf13bb9ec01
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-grainstead-workshop-v2.png
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-workshop-v3.png
 - managementId: image.scenery.town.grainstead-market
   version: v2
   path: assets/buildings/town-grainstead-market-v2.png
@@ -5742,6 +5752,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-iseulon-garden-house-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.iseulon-courtyard-house
   version: v2
   path: assets/buildings/town-iseulon-courtyard-house-v2.png
@@ -5752,6 +5763,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-iseulon-courtyard-house-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.reedhaven-reed-house
   version: v3
   path: assets/buildings/town-reedhaven-reed-house-v3.png
@@ -5782,6 +5794,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-stonewarm-mason-house-v3.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.stonewarm-hearth-house
   version: v3
   path: assets/buildings/town-stonewarm-hearth-house-v3.png
@@ -5792,26 +5805,27 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-stonewarm-hearth-house-v3.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.grainstead-farm-house
-  version: v2
-  path: assets/buildings/town-grainstead-farm-house-v2.png
+  version: v3
+  path: assets/buildings/town-grainstead-farm-house-v3.png
   width: 512
-  height: 410
-  sha256: eb4b8071066749e5bb6c3265ed41419eae4605ed6ab9d1ced87c56970c7357dd
+  height: 427
+  sha256: 08bf83d7559c16c746fee00f26b039571df9a70dc8a8d9a4320cb0ce5723ae99
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-grainstead-farm-house-v2.png
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-farm-house-v3.png
 - managementId: image.scenery.town.grainstead-mill-house
-  version: v2
-  path: assets/buildings/town-grainstead-mill-house-v2.png
+  version: v3
+  path: assets/buildings/town-grainstead-mill-house-v3.png
   width: 512
-  height: 410
-  sha256: 9dbb3ed56e0b291696ef7aefcd2b93c1a5bfa1985ef32fac0b285db991e6e3fc
+  height: 427
+  sha256: ae0e84c216ce027c5d977b50cd94f4bb9584d7238611c1741fbff47d0716fce8
   source:
     repository: codex-imagegen
-    operation: 바닥 그리드 직교투영 베이스라인 재생성
-    artifact: town-grainstead-mill-house-v2.png
+    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
+    artifact: town-grainstead-mill-house-v3.png
 - managementId: image.scenery.town.saltford-shore-house
   version: v2
   path: assets/buildings/town-saltford-shore-house-v2.png
@@ -6299,46 +6313,6 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-reedhaven-plank-house-v3.png
-- managementId: image.scenery.town.grainstead-workshop
-  version: v3
-  path: assets/buildings/town-grainstead-workshop-v3.png
-  width: 512
-  height: 427
-  sha256: 479a54e91f83f51d8b05dfc657405a4904ed741935238a7a9f6bcdf13bb9ec01
-  source:
-    repository: codex-imagegen
-    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
-    artifact: town-grainstead-workshop-v3.png
-- managementId: image.scenery.town.grainstead-guild
-  version: v3
-  path: assets/buildings/town-grainstead-guild-v3.png
-  width: 512
-  height: 427
-  sha256: 39af20247199ee70393b9059f2ce95bcade639d0eefea01ad7dd734500526c59
-  source:
-    repository: codex-imagegen
-    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
-    artifact: town-grainstead-guild-v3.png
-- managementId: image.scenery.town.grainstead-farm-house
-  version: v3
-  path: assets/buildings/town-grainstead-farm-house-v3.png
-  width: 512
-  height: 427
-  sha256: 08bf83d7559c16c746fee00f26b039571df9a70dc8a8d9a4320cb0ce5723ae99
-  source:
-    repository: codex-imagegen
-    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
-    artifact: town-grainstead-farm-house-v3.png
-- managementId: image.scenery.town.grainstead-mill-house
-  version: v3
-  path: assets/buildings/town-grainstead-mill-house-v3.png
-  width: 512
-  height: 427
-  sha256: ae0e84c216ce027c5d977b50cd94f4bb9584d7238611c1741fbff47d0716fce8
-  source:
-    repository: codex-imagegen
-    operation: 직교투영 기준 재생성 · 풍차 공방 및 주택
-    artifact: town-grainstead-mill-house-v3.png
 - managementId: image.scenery.ash-edge-charred-regrowth-v1
   version: v1
   path: assets/billboards/ash-edge-charred-regrowth-v1.png
@@ -6376,7 +6350,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: a7532fe9fdc588d61feb961410f9e4398562ef2a64d35dc9b4fb77a96f2b96e5
+  sha256: 636f3bcfc8d9d3dc6ab4898b3cd2a153e5bb62fb669c406d2b169e1bc4003736
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10215,6 +10189,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-3bb4897f-0893-44d8-a0b4-9275102e2185.png
     operation: 3×3 직교투영 주택 생성 및 투명 크롭·512px 축소
+    lifecycle_status: retired
 - managementId: image.scenery.town-iseulon-residence-golden-v1
   version: v1
   path: assets/buildings/town-iseulon-residence-golden-v1.png
@@ -10225,3 +10200,200 @@ assets:
     repository: codex-imagegen
     artifact: exec-47d4079a-1277-4bb1-9d1b-9b7d710827c6.png
     operation: 3×3 직교투영 주택 생성 및 투명 크롭·512px 축소
+    lifecycle_status: retired
+- managementId: image.scenery.town-stonewarm-quarry-house-v1
+  version: v1
+  path: assets/buildings/town-stonewarm-quarry-house-v1.png
+  width: 375
+  height: 512
+  sha256: e8d8b102ff2266147df66aef817e28e0ac40805f605384d436fb48894ca93663
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-artisan-house-v1
+  version: v1
+  path: assets/buildings/town-stonewarm-artisan-house-v1.png
+  width: 403
+  height: 512
+  sha256: 85b4d4ed10776549f3be26fa0482c2f0ecc345263330e5d3861b81f10a983ced
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-guild-v4
+  version: v4
+  path: assets/buildings/town-stonewarm-guild-v4.png
+  width: 512
+  height: 450
+  sha256: e7544c5275a1f9489a20ccdf3afe6f2f0cb5e3e6300e05d4bbeb0adc7e91b86c
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+    lifecycle_status: retired
+- managementId: image.scenery.town-stonewarm-bookshop-v4
+  version: v4
+  path: assets/buildings/town-stonewarm-bookshop-v4.png
+  width: 512
+  height: 489
+  sha256: 9b011ae1616c22928ee01b5243cf856715122ff143606a00cb5ccde8083cc48c
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+    lifecycle_status: retired
+- managementId: image.scenery.town-stonewarm-inn-v4
+  version: v4
+  path: assets/buildings/town-stonewarm-inn-v4.png
+  width: 512
+  height: 480
+  sha256: 7b4d74f49c6f1811f50e231bbf4db698f8318a7629736b9678476b004a388e86
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+    lifecycle_status: retired
+- managementId: image.scenery.town-stonewarm-market-v4
+  version: v4
+  path: assets/buildings/town-stonewarm-market-v4.png
+  width: 512
+  height: 364
+  sha256: f63c9edbb1acc66ff12e7f1290a1a68d39ab04a95a81ba22251e2d1d8bb987da
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+    lifecycle_status: retired
+- managementId: image.scenery.town-stonewarm-workshop-v4
+  version: v4
+  path: assets/buildings/town-stonewarm-workshop-v4.png
+  width: 512
+  height: 392
+  sha256: 2c2b27a002b4680d185465942c9074a70ae32a2c0b7b614e40131109a5b237e4
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+    lifecycle_status: retired
+- managementId: image.scenery.town-stonewarm-guild-v5
+  version: v5
+  path: assets/buildings/town-stonewarm-guild-v5.png
+  width: 512
+  height: 341
+  sha256: f83b598b0cb6d55077fdf81adc1751eaf400016ce0e3cb5e66188e73c0c46073
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-bookshop-v5
+  version: v5
+  path: assets/buildings/town-stonewarm-bookshop-v5.png
+  width: 512
+  height: 341
+  sha256: 9c8679d77394d45f5d37fc9ab102a1ba90374b4c5d54ca7654853cf9184c313f
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-inn-v5
+  version: v5
+  path: assets/buildings/town-stonewarm-inn-v5.png
+  width: 512
+  height: 341
+  sha256: 3ef8747afb77f775c8e2ae58d141853f6613306094d8a632da40dfaa6c448d24
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-market-v5
+  version: v5
+  path: assets/buildings/town-stonewarm-market-v5.png
+  width: 512
+  height: 341
+  sha256: 62c1ff4942a40d1edd2a4185d748ec6a9430b141402cd3370f4c6309b76271ab
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+    lifecycle_status: retired
+- managementId: image.scenery.town-stonewarm-workshop-v5
+  version: v5
+  path: assets/buildings/town-stonewarm-workshop-v5.png
+  width: 512
+  height: 341
+  sha256: b987a8552e1edbb1f8509f314a88aef1ca6a8b662f1ea0b2e6c08aa4f12a55a7
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-market-v6
+  version: v6
+  path: assets/buildings/town-stonewarm-market-v6.png
+  width: 512
+  height: 374
+  sha256: 2d085830e32951c1b66517f5e95f8ec6c0cfd0dcb1e3a519a91476be72fdafb0
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+    lifecycle_status: retired
+- managementId: image.scenery.town-stonewarm-market-v7
+  version: v7
+  path: assets/buildings/town-stonewarm-market-v7.png
+  width: 512
+  height: 374
+  sha256: 4d57cc170343f4be1440eb20358d6022fb92f93f0f454b2b68540b76ec6e689b
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-iseulon-guild-guide-v1
+  version: v1
+  path: assets/buildings/town-iseulon-guild-guide-v1.png
+  width: 512
+  height: 507
+  sha256: b6e10dc837f16bae4844967d492f228f6a3f095ef8f15b1581c37f44c127e206
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-iseulon-market-guide-v1
+  version: v1
+  path: assets/buildings/town-iseulon-market-guide-v1.png
+  width: 502
+  height: 512
+  sha256: 1e01d834d1b42fed05947b8a26a4f00b89e82ca4e74a9a6b20339fefa76bfdfe
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-iseulon-bookshop-guide-v1
+  version: v1
+  path: assets/buildings/town-iseulon-bookshop-guide-v1.png
+  width: 512
+  height: 511
+  sha256: 7527405ce70786fc6e404e71c4a3c660223de95f7389c4d769f8df05cc7ef823
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-iseulon-inn-guide-v1
+  version: v1
+  path: assets/buildings/town-iseulon-inn-guide-v1.png
+  width: 512
+  height: 508
+  sha256: 6411158ddde4d539f0dfc07b096bacacc6118c6ce24227af1a643848673443b1
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-iseulon-workshop-guide-v1
+  version: v1
+  path: assets/buildings/town-iseulon-workshop-guide-v1.png
+  width: 510
+  height: 512
+  sha256: 4ed59147600ca0b37a58ba08a77f777059a953f82010287174e0d93837960f9d
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-iseulon-residence-golden-guide-v1
+  version: v1
+  path: assets/buildings/town-iseulon-residence-golden-guide-v1.png
+  width: 510
+  height: 512
+  sha256: e2ecbf46a2adfef624ebf63b4efb3db117fd7f3879e120b9cdf63f7dd64eac30
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-iseulon-residence-green-guide-v1
+  version: v1
+  path: assets/buildings/town-iseulon-residence-green-guide-v1.png
+  width: 505
+  height: 512
+  sha256: 0f71852bfe611e362de5b587a2c80fae267d2170b4367857fd05a32fec24118f
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록

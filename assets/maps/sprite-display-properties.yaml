@@ -27,33 +27,33 @@ data:
   town-grainstead-workshop-v3:
     anchorX: 0.5
     anchorY: 0.99
-  town-iseulon-bookshop-v2:
-    anchorX: 0.49
-    anchorY: 0.98
-  town-iseulon-courtyard-house-v2:
-    anchorX: 0.55
-    anchorY: 0.96
-  town-iseulon-garden-house-v2:
-    anchorX: 0.54
-    anchorY: 0.98
-  town-iseulon-guild-v2:
-    anchorX: 0.44
-    anchorY: 1.04
-  town-iseulon-inn-v2:
-    anchorX: 0.4
-    anchorY: 1.05
-  town-iseulon-market-v2:
-    anchorX: 0.4
-    anchorY: 1.0
-  town-iseulon-residence-golden-v1:
+  town-iseulon-bookshop-guide-v1:
     anchorX: 0.5
-    anchorY: 1.0
-  town-iseulon-residence-green-v1:
-    anchorX: 0.5
-    anchorY: 1.0
-  town-iseulon-workshop-v2:
-    anchorX: 0.44
-    anchorY: 1.03
+    anchorY: 0.85
+    displayWidthAdjustment: -9
+    displayHeightAdjustment: -1
+  town-iseulon-guild-guide-v1:
+    anchorX: 0.493
+    anchorY: 0.87
+    displayWidthAdjustment: -24
+    displayHeightAdjustment: 0
+  town-iseulon-inn-guide-v1:
+    anchorX: 0.509
+    anchorY: 0.91
+    displayWidthAdjustment: -17
+    displayHeightAdjustment: 0
+  town-iseulon-market-guide-v1:
+    anchorX: 0.51992
+    anchorY: 0.847656
+  town-iseulon-residence-golden-guide-v1:
+    anchorX: 0.50098
+    anchorY: 0.855469
+  town-iseulon-residence-green-guide-v1:
+    anchorX: 0.49703
+    anchorY: 0.880859
+  town-iseulon-workshop-guide-v1:
+    anchorX: 0.485294
+    anchorY: 0.847656
   town-reedhaven-bookshop-v3:
     anchorX: 0.5
     anchorY: 0.94
@@ -102,27 +102,33 @@ data:
   town-saltford-workshop-v2:
     anchorX: 0.49
     anchorY: 0.99
-  town-stonewarm-bookshop-v3:
-    anchorX: 0.51
-    anchorY: 0.92
-  town-stonewarm-guild-v3:
+  town-stonewarm-artisan-house-v1:
     anchorX: 0.5
-    anchorY: 0.92
-  town-stonewarm-hearth-house-v3:
-    anchorX: 0.51
-    anchorY: 0.95
-  town-stonewarm-inn-v3:
-    anchorX: 0.59
-    anchorY: 0.96
-  town-stonewarm-market-v3:
+    anchorY: 1.05
+    displayWidthAdjustment: -13
+    displayHeightAdjustment: 23
+  town-stonewarm-bookshop-v5:
     anchorX: 0.5
-    anchorY: 0.95
-  town-stonewarm-mason-house-v3:
+    anchorY: 1.0
+  town-stonewarm-guild-v5:
     anchorX: 0.5
-    anchorY: 0.95
-  town-stonewarm-workshop-v3:
+    anchorY: 1.0
+  town-stonewarm-inn-v5:
     anchorX: 0.5
-    anchorY: 0.97
+    anchorY: 1.0
+  town-stonewarm-market-v7:
+    anchorX: 0.45
+    anchorY: 1.05
+    displayWidthAdjustment: -50
+    displayHeightAdjustment: 0
+  town-stonewarm-quarry-house-v1:
+    anchorX: 0.49
+    anchorY: 1.03
+    displayWidthAdjustment: -26
+    displayHeightAdjustment: -28
+  town-stonewarm-workshop-v5:
+    anchorX: 0.5
+    anchorY: 1.0
   ash-edge-charred-regrowth-v1:
     anchorX: 0.02
     anchorY: -0.2
