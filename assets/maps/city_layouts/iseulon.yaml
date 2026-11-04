@@ -3,7 +3,7 @@ data:
   rows: 30
   cityId: iseulon
   columns: 30
-  version: 27
+  version: 28
   safeTown: true
   buildings:
   - id: iseulon-guild
@@ -274,8 +274,8 @@ data:
   - gggpggggggggggppgppggggpgggggg
   - ggppppppppppppppppppppppppppgg
   - pppppppppppppppppppppppppppppp
-  - ggpggggpppppppppgggggpgpgggggg
-  - ggpggggpggggppppgggggpgpgggggg
+  - ggpggggppppppppggggggpgpgggggg
+  - ggpggggpggggpppggggggpgpgggggg
   - ggpggggpggggpppggggggpgpgggggg
   - ggpggggpgggggppppggggpgpgggggg
   - ggppppppggggpppppggggpppppgggg
@@ -1202,8 +1202,8 @@ data:
     textureKey: town-iseulon-violet-garden-tuft-v1
   - id: iseulon-atmosphere-084
     position:
-      column: 20
-      row: 12
+      column: 15
+      row: 16
     kind: decoration
     tileAnchor: center
     textureKey: town-iseulon-round-rose-shrub-v1
