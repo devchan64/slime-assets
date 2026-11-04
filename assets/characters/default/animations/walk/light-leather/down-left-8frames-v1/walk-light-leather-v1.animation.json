@@ -1,9 +1,9 @@
 {
   "animationId": "character.default.light-leather.walk",
-  "version": "v1.6fps",
+  "version": "v1.6fps.edit-2026-11-04_22-13-24-7f29f5a2",
   "sheet": {
-    "width": 1302,
-    "height": 1208
+    "width": 977,
+    "height": 1812
   },
   "frames": [
     {
@@ -15,8 +15,8 @@
         "height": 604
       },
       "anchor": {
-        "x": 163.0,
-        "y": 590
+        "x": 164,
+        "y": 569
       }
     },
     {
@@ -28,8 +28,8 @@
         "height": 604
       },
       "anchor": {
-        "x": 162.5,
-        "y": 590
+        "x": 164,
+        "y": 569
       }
     },
     {
@@ -41,25 +41,12 @@
         "height": 604
       },
       "anchor": {
-        "x": 162.5,
-        "y": 590
+        "x": 164,
+        "y": 569
       }
     },
     {
       "frameId": "down_left.3",
-      "rect": {
-        "x": 976,
-        "y": 0,
-        "width": 326,
-        "height": 604
-      },
-      "anchor": {
-        "x": 163.0,
-        "y": 590
-      }
-    },
-    {
-      "frameId": "down_left.4",
       "rect": {
         "x": 0,
         "y": 604,
@@ -67,47 +54,60 @@
         "height": 604
       },
       "anchor": {
-        "x": 163.0,
-        "y": 590
+        "x": 164,
+        "y": 569
       }
     },
     {
-      "frameId": "down_left.5",
+      "frameId": "down_left.4",
       "rect": {
         "x": 326,
-        "y": 604,
-        "width": 325,
-        "height": 604
-      },
-      "anchor": {
-        "x": 162.5,
-        "y": 590
-      }
-    },
-    {
-      "frameId": "down_left.6",
-      "rect": {
-        "x": 651,
-        "y": 604,
-        "width": 325,
-        "height": 604
-      },
-      "anchor": {
-        "x": 162.5,
-        "y": 590
-      }
-    },
-    {
-      "frameId": "down_left.7",
-      "rect": {
-        "x": 976,
         "y": 604,
         "width": 326,
         "height": 604
       },
       "anchor": {
-        "x": 163.0,
-        "y": 590
+        "x": 164,
+        "y": 569
+      }
+    },
+    {
+      "frameId": "down_left.5",
+      "rect": {
+        "x": 652,
+        "y": 604,
+        "width": 325,
+        "height": 604
+      },
+      "anchor": {
+        "x": 164,
+        "y": 569
+      }
+    },
+    {
+      "frameId": "down_left.6",
+      "rect": {
+        "x": 0,
+        "y": 1208,
+        "width": 325,
+        "height": 604
+      },
+      "anchor": {
+        "x": 164,
+        "y": 569
+      }
+    },
+    {
+      "frameId": "down_left.7",
+      "rect": {
+        "x": 325,
+        "y": 1208,
+        "width": 326,
+        "height": 604
+      },
+      "anchor": {
+        "x": 164,
+        "y": 569
       }
     }
   ],

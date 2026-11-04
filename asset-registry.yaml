@@ -10037,9 +10037,9 @@ assets:
     path: /home/cbsim/.codex/generated_images/01a0e5f3-61d6-71b3-be62-d48436ea51cb/exec-5adf4fbb-2704-4f31-8176-1cb7e55edd5d.png
     operation: ImageGen 굵은 자갈 반복 패턴 생성. 128x128 LANCZOS 축소.
 - managementId: sprite.image.characters.default.walk-light-leather.front-left
-  version: v1
+  version: v1-edit-2026-11-04_22-13-24-7f29f5a2
   path: assets/characters/default/animations/walk/light-leather/down-left-8frames-v1/character-default-light-leather-walk-front-left-sprite-v1.png
-  sha256: a8ea5a2e817097c06bbcd5375bf2fc3f5b57d536e7bad4a1899602412218bb6c
+  sha256: a74df2e3e35516a69fe9cf539126d95e69a38721a5767a46f3c6dc1fae2023d2
   source:
     repository: slime-workflow
     path: assets/character-baselines/character-default/baseline-v1/character-default-light-leather-walk-front-left-sprite-v1.png
@@ -10053,9 +10053,9 @@ assets:
     path: assets/character-baselines/character-default/baseline-v1/character-default-light-leather-walk-front-left-sprite-v1.png
     operation: 사용자 승인 투명 걷기 스프라이트 등록
 - managementId: sprite.animation.characters.default.walk-light-leather.front-left
-  version: v1
+  version: v1-edit-2026-11-04_22-13-24-7f29f5a2
   path: assets/characters/default/animations/walk/light-leather/down-left-8frames-v1/walk-light-leather-v1.animation.json
-  sha256: 410d16056ea80a6a7211e6a4764dc700a0d7053d053ec498828287a88a83fc49
+  sha256: b0b0bbde5f5f18492b7409ff7b4c082c669e6d6c34ea502b8fdf2332798dedaa
   source:
     repository: slime-workflow
     operation: 승인된 8프레임 걷기 시트의 6fps 재생 좌표 등록
@@ -10164,25 +10164,25 @@ assets:
     repository: slime-workflow
     operation: ImageGen 넓은 자갈 시트 생성 및 1024 크기 조정
 - managementId: image.character.default.idle-v6.sheet
-  version: down-left-8frames-v5
+  version: down-left-8frames-v5-edit-2026-11-04_22-10-37-e06759f2
   path: assets/characters/default/animations/idle/light-leather/down-left-8frames-v5/idle-v6.png
-  sha256: 33a084171cebee4342bc66e09b48df10da24fec01110b9e8a79e4b9fea64f69b
+  sha256: e633cdae9ddbcca07ab9b393eaf9381729a7d13d0ae11bae610b5af2876e9139
   source:
     repository: slime-workflow
     path: codex-clipboard-b37a9012-4fcc-458b-8eee-8c98268466a5.png
     operation: 사용자가 첨부한 라이트 아머 대기 시트 채택
 - managementId: sprite.metadata.characters.default.idle-v6.anchor-v3
-  version: down-left-8frames-v5-6fps
+  version: down-left-8frames-v5-6fps-edit-2026-11-04_22-10-37-e06759f2
   path: assets/characters/default/animations/idle/light-leather/down-left-8frames-v5/idle-v6-anchor-v3.animation.json
-  sha256: ce6645976ee1b4b8ed2baada2ec3b60299e6fdddc95e0949e715d392f1ac30e1
+  sha256: 8739eff6c25e40648091845883f2de1a04577076d962b6bcfe2ba6855644151e
   source:
     repository: slime-workflow
     path: codex-clipboard-b37a9012-4fcc-458b-8eee-8c98268466a5.png
     operation: 8프레임 좌표와 초기 앵커 지정
 - managementId: sprite.metadata.characters.default.idle-v6.source.json
-  version: down-left-8frames-v5
+  version: down-left-8frames-v5-edit-2026-11-04_22-10-37-e06759f2
   path: assets/characters/default/animations/idle/light-leather/down-left-8frames-v5/source.json
-  sha256: eab5f8b6066004b3a912cf33713869ad9b1f4863d71881eaa33d422b9a7a8a3f
+  sha256: 58ca30570d7fe45959cb1f2bfe6b4e756520bcefcdccd917f4351ece6e71d1f1
   source:
     repository: slime-workflow
     path: codex-clipboard-b37a9012-4fcc-458b-8eee-8c98268466a5.png
