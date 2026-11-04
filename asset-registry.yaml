@@ -10037,9 +10037,9 @@ assets:
     path: /home/cbsim/.codex/generated_images/01a0e5f3-61d6-71b3-be62-d48436ea51cb/exec-5adf4fbb-2704-4f31-8176-1cb7e55edd5d.png
     operation: ImageGen 굵은 자갈 반복 패턴 생성. 128x128 LANCZOS 축소.
 - managementId: sprite.image.characters.default.walk-light-leather.front-left
-  version: v1-edit-2026-11-04_22-13-24-7f29f5a2
+  version: v1-edit-2026-11-04_22-13-24-7f29f5a2-edit-2026-11-04_22-25-46-7c0e05a8
   path: assets/characters/default/animations/walk/light-leather/down-left-8frames-v1/character-default-light-leather-walk-front-left-sprite-v1.png
-  sha256: a74df2e3e35516a69fe9cf539126d95e69a38721a5767a46f3c6dc1fae2023d2
+  sha256: bc6f2c4969cb84f79f4936840cdce9ec8ceb6d71c6d563dc3d28ee685a446cda
   source:
     repository: slime-workflow
     path: assets/character-baselines/character-default/baseline-v1/character-default-light-leather-walk-front-left-sprite-v1.png
@@ -10053,9 +10053,9 @@ assets:
     path: assets/character-baselines/character-default/baseline-v1/character-default-light-leather-walk-front-left-sprite-v1.png
     operation: 사용자 승인 투명 걷기 스프라이트 등록
 - managementId: sprite.animation.characters.default.walk-light-leather.front-left
-  version: v1-edit-2026-11-04_22-13-24-7f29f5a2
+  version: v1-edit-2026-11-04_22-13-24-7f29f5a2-edit-2026-11-04_22-25-46-7c0e05a8
   path: assets/characters/default/animations/walk/light-leather/down-left-8frames-v1/walk-light-leather-v1.animation.json
-  sha256: b0b0bbde5f5f18492b7409ff7b4c082c669e6d6c34ea502b8fdf2332798dedaa
+  sha256: ed72ce14199b3c4a7c9ee0d5b5bde60276514225ad86770075c0f60c22d5c8cd
   source:
     repository: slime-workflow
     operation: 승인된 8프레임 걷기 시트의 6fps 재생 좌표 등록
