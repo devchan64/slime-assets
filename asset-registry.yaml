@@ -6175,24 +6175,6 @@ assets:
     repository: codex-imagegen
     artifact: exec-8bd01166-c586-40ff-91b5-c71698a87632.png
     operation: 마을 식생·관목 투명 스프라이트 생성
-- managementId: animation.scenery.waypoint-guide
-  version: v3
-  path: assets/sprites/effects/waypoint/waypoint-guide-v3.animation.json
-  sha256: db2e732a4724c704e030ae83ff112626c7730ad63f95f3efb1bb1a99f3b6c56f
-  source:
-    repository: slime-workflow
-    generationId: 2026-10-17_21-08-13-df1e5c88
-    operation: 검수 승인된 6프레임 앵커 적용
-- managementId: image.scenery.waypoint-guide-v1
-  version: v3
-  path: assets/sprites/effects/waypoint/waypoint-guide-v3.png
-  width: 768
-  height: 512
-  sha256: 3ace014d96dcd6678aa8366aa3d9a788033cf7b499d295925219049c01d2d2ff
-  source:
-    repository: slime-workflow
-    generationId: 2026-10-17_21-08-13-df1e5c88
-    operation: 앵커 v3 메타데이터와 동일 버전 시트 연결, 이미지 변경 없음
 - managementId: image.terrain.sand-ground-v1
   version: v1
   path: assets/tiles/terrain/non-road/sand-ground-v1.png
@@ -8942,7 +8924,7 @@ assets:
 - managementId: catalog.effects
   version: v1
   path: assets/sprites/effects/catalog.yaml
-  sha256: 6eca65f1d65a1e081a546517d90bfa9f0da368b7c0034d2575e7883ed8102693
+  sha256: 29c42ead05c92b15d82b729d433459a71da1b6a8ff8eaeb9cdfd142587966118
   source:
     operation: 웨이포인트·결계탑 오라를 빌보드와 분리
 - managementId: audio.bgm.mist-lake.vocal.mp3
@@ -10218,3 +10200,21 @@ assets:
     repository: slime-workflow
     path: codex-clipboard-b37a9012-4fcc-458b-8eee-8c98268466a5.png
     operation: 첨부 원본 출처와 프레임 구성 기록
+- managementId: image.scenery.waypoint-guide-v1
+  version: v4
+  path: assets/sprites/effects/waypoint/waypoint-guide-v4.png
+  sha256: f22883719e1b1b084984be21ad76af203851681bdef3000032ca312a929c59fc
+  source:
+    repository: codex-imagegen
+    artifact: waypoint-droplet-ring-8-frame-candidate.png
+    operation: 사용자가 선택한 8프레임 원본 및 프레임 좌표 등록
+  width: 1774
+  height: 887
+- managementId: animation.scenery.waypoint-guide
+  version: v4
+  path: assets/sprites/effects/waypoint/waypoint-guide-v4.animation.json
+  sha256: 97724f0f30c5eed141ac0b2ce23a926c677bff2e17d59f9599466ca9082e6d52
+  source:
+    repository: codex-imagegen
+    artifact: waypoint-droplet-ring-8-frame-candidate.png
+    operation: 사용자가 선택한 8프레임 원본 및 프레임 좌표 등록

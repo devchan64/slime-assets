@@ -303,11 +303,11 @@ effects:
   frames: 8
   columns: 4
   renderer: safe-barrier-aura
-- id: waypoint-guide-v3
+- id: waypoint-guide-v4
   name: 웨이포인트 안내
   rows: 2
-  image: assets/sprites/effects/waypoint/waypoint-guide-v3.png
-  frames: 6
-  columns: 3
+  image: assets/sprites/effects/waypoint/waypoint-guide-v4.png
+  frames: 8
+  columns: 4
   renderer: waypoint-animation
-  animation: assets/sprites/effects/waypoint/waypoint-guide-v3.animation.json
+  animation: assets/sprites/effects/waypoint/waypoint-guide-v4.animation.json
