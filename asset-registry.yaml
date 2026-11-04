@@ -473,7 +473,7 @@ assets:
 - managementId: config.city-layouts.iseulon
   version: v7-billboard-blocking-v1
   path: assets/maps/city_layouts/iseulon.yaml
-  sha256: cfa76a45010e625945d41d82934591716e72061949a24e3ad00b504773f7cc3c
+  sha256: 1323a87d000198591ddd1a9a119fd6d91d858a645dc5e040a92e6c1b98711212
   source:
     repository: slime-backend
     path: config/city_layouts/iseulon.yaml
@@ -6376,7 +6376,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 00ee4d9271f5bd8f4f12cd8a075c9ecb4f1d22e39ae9bbb028f9e5522bcaed69
+  sha256: a7532fe9fdc588d61feb961410f9e4398562ef2a64d35dc9b4fb77a96f2b96e5
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10205,3 +10205,23 @@ assets:
     repository: codex-imagegen
     artifact: waypoint-droplet-ring-8-frame-candidate.png
     operation: 사용자가 선택한 8프레임 원본 및 프레임 좌표 등록
+- managementId: image.scenery.town-iseulon-residence-green-v1
+  version: v1
+  path: assets/buildings/town-iseulon-residence-green-v1.png
+  width: 406
+  height: 512
+  sha256: c83e696ab2864c9962b4056b0f2862511be7a03099611e903e09789ce6211d27
+  source:
+    repository: codex-imagegen
+    artifact: exec-3bb4897f-0893-44d8-a0b4-9275102e2185.png
+    operation: 3×3 직교투영 주택 생성 및 투명 크롭·512px 축소
+- managementId: image.scenery.town-iseulon-residence-golden-v1
+  version: v1
+  path: assets/buildings/town-iseulon-residence-golden-v1.png
+  width: 438
+  height: 512
+  sha256: 468682e6adcf987f6b9322963819d0e193551f3bb98a448b713dda70c9fc29aa
+  source:
+    repository: codex-imagegen
+    artifact: exec-47d4079a-1277-4bb1-9d1b-9b7d710827c6.png
+    operation: 3×3 직교투영 주택 생성 및 투명 크롭·512px 축소

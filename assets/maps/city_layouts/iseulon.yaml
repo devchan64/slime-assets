@@ -89,16 +89,16 @@ data:
   - id: iseulon-garden-house
     kind: residence
     name: 일반 주택 가
-    width: 2
+    width: 3
     facing: south
     floors: 2
-    height: 2
+    height: 3
     origin:
-      row: 3
+      row: 2
       column: 3
     sprite:
-      textureKey: town-iseulon-garden-house-v2
-      contentWidth: 0.748217
+      textureKey: town-iseulon-residence-green-v1
+      contentWidth: 1.0
     entrance:
       row: 5
       column: 4
@@ -106,16 +106,16 @@ data:
   - id: iseulon-courtyard-house
     kind: residence
     name: 일반 주택 나
-    width: 2
+    width: 3
     facing: south
     floors: 2
-    height: 2
+    height: 3
     origin:
-      row: 3
+      row: 2
       column: 7
     sprite:
-      textureKey: town-iseulon-courtyard-house-v2
-      contentWidth: 0.766762
+      textureKey: town-iseulon-residence-golden-v1
+      contentWidth: 1.0
     entrance:
       row: 5
       column: 8
@@ -123,16 +123,16 @@ data:
   - id: iseulon-residence-03
     kind: residence
     name: 일반 주택 3
-    width: 2
+    width: 3
     facing: south
     floors: 2
-    height: 2
+    height: 3
     origin:
-      row: 3
+      row: 2
       column: 11
     sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
+      textureKey: town-iseulon-residence-green-v1
+      contentWidth: 1.0
     entrance:
       row: 5
       column: 12
@@ -140,16 +140,16 @@ data:
   - id: iseulon-residence-04
     kind: residence
     name: 일반 주택 4
-    width: 2
+    width: 3
     facing: south
     floors: 2
-    height: 2
+    height: 3
     origin:
-      row: 3
+      row: 2
       column: 18
     sprite:
-      textureKey: town-common-timber-house-v2
-      contentWidth: 0.706134
+      textureKey: town-iseulon-residence-golden-v1
+      contentWidth: 1.0
     entrance:
       row: 5
       column: 19
@@ -157,16 +157,16 @@ data:
   - id: iseulon-residence-05
     kind: residence
     name: 일반 주택 5
-    width: 2
+    width: 3
     facing: south
     floors: 2
-    height: 2
+    height: 3
     origin:
-      row: 3
+      row: 2
       column: 22
     sprite:
-      textureKey: town-iseulon-garden-house-v2
-      contentWidth: 0.748217
+      textureKey: town-iseulon-residence-green-v1
+      contentWidth: 1.0
     entrance:
       row: 5
       column: 23
@@ -174,16 +174,16 @@ data:
   - id: iseulon-residence-06
     kind: residence
     name: 일반 주택 6
-    width: 2
+    width: 3
     facing: south
     floors: 2
-    height: 2
+    height: 3
     origin:
-      row: 8
+      row: 7
       column: 22
     sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
+      textureKey: town-iseulon-residence-golden-v1
+      contentWidth: 1.0
     entrance:
       row: 10
       column: 23
@@ -191,16 +191,16 @@ data:
   - id: iseulon-residence-07
     kind: residence
     name: 일반 주택 7
-    width: 2
+    width: 3
     facing: south
     floors: 2
-    height: 2
+    height: 3
     origin:
-      row: 17
+      row: 16
       column: 3
     sprite:
-      textureKey: town-common-timber-house-v2
-      contentWidth: 0.706134
+      textureKey: town-iseulon-residence-green-v1
+      contentWidth: 1.0
     entrance:
       row: 19
       column: 4
@@ -208,16 +208,16 @@ data:
   - id: iseulon-residence-08
     kind: residence
     name: 일반 주택 8
-    width: 2
+    width: 3
     facing: south
     floors: 2
-    height: 2
+    height: 3
     origin:
-      row: 22
+      row: 21
       column: 3
     sprite:
-      textureKey: town-iseulon-courtyard-house-v2
-      contentWidth: 0.766762
+      textureKey: town-iseulon-residence-golden-v1
+      contentWidth: 1.0
     entrance:
       row: 24
       column: 4
@@ -225,19 +225,19 @@ data:
   - id: iseulon-residence-09
     kind: residence
     name: 일반 주택 9
-    width: 2
+    width: 3
     facing: south
     floors: 2
-    height: 2
+    height: 3
     origin:
-      row: 26
-      column: 2
+      row: 25
+      column: 1
     sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
+      textureKey: town-iseulon-residence-green-v1
+      contentWidth: 1.0
     entrance:
       row: 28
-      column: 3
+      column: 2
     facilityId: null
   startPoint:
     row: 14
@@ -292,15 +292,15 @@ data:
   objects:
   - id: iseulon-garden-1
     position:
-      column: 8
-      row: 2
+      column: 6
+      row: 8
     kind: decoration
     tileAnchor: center
     textureKey: orchard-young-tree-v2
   - id: iseulon-garden-2
     position:
-      column: 5
-      row: 3
+      column: 4
+      row: 9
     kind: decoration
     tileAnchor: center
     textureKey: orchard-young-tree-variant-1-v2
@@ -313,36 +313,36 @@ data:
     textureKey: orchard-young-tree-variant-2-v2
   - id: iseulon-garden-4
     position:
-      column: 17
-      row: 3
+      column: 18
+      row: 8
     kind: decoration
     tileAnchor: center
     textureKey: orchard-young-tree-v2
   - id: iseulon-garden-5
     position:
-      column: 20
-      row: 3
+      column: 27
+      row: 2
     kind: decoration
     tileAnchor: center
     textureKey: orchard-young-tree-variant-1-v2
   - id: iseulon-garden-6
     position:
-      column: 22
-      row: 7
+      column: 27
+      row: 6
     kind: decoration
     tileAnchor: center
     textureKey: orchard-young-tree-variant-2-v2
   - id: iseulon-garden-7
     position:
-      column: 3
-      row: 16
+      column: 1
+      row: 15
     kind: decoration
     tileAnchor: center
     textureKey: daisy-variant-1-v1
   - id: iseulon-garden-8
     position:
-      column: 4
-      row: 21
+      column: 5
+      row: 20
     kind: decoration
     tileAnchor: center
     textureKey: daisy-variant-2-v1
@@ -356,7 +356,7 @@ data:
   - id: iseulon-garden-10
     position:
       column: 3
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: dandelion-variant-1-v1
@@ -370,14 +370,14 @@ data:
   - id: iseulon-garden-12
     position:
       column: 9
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: grass-clump-v1
   - id: iseulon-garden-13
     position:
       column: 18
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: clover-variant-2-v1
@@ -390,28 +390,28 @@ data:
     textureKey: sorrel-variant-1-v1
   - id: iseulon-garden-15
     position:
-      column: 22
-      row: 6
+      column: 21
+      row: 4
     kind: decoration
     tileAnchor: center
     textureKey: clover-variant-3-v1
   - id: iseulon-garden-16
     position:
-      column: 5
+      column: 7
       row: 18
     kind: decoration
     tileAnchor: center
     textureKey: berry-variant-1-v1
   - id: iseulon-garden-17
     position:
-      column: 2
-      row: 25
+      column: 1
+      row: 24
     kind: decoration
     tileAnchor: center
     textureKey: berry-variant-2-v1
   - id: iseulon-garden-19
     position:
-      column: 3
+      column: 1
       row: 21
     kind: decoration
     tileAnchor: center
@@ -426,14 +426,14 @@ data:
   - id: iseulon-garden-21
     position:
       column: 5
-      row: 6
+      row: 7
     kind: decoration
     tileAnchor: center
     textureKey: town-herb-planter-v1
   - id: iseulon-garden-22
     position:
       column: 11
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: yellow-dandelions-v1
@@ -447,7 +447,7 @@ data:
   - id: iseulon-garden-24
     position:
       column: 23
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: grass-clump-v1
@@ -467,7 +467,7 @@ data:
     textureKey: sorrel-variant-2-v1
   - id: iseulon-garden-27
     position:
-      column: 3
+      column: 0
       row: 25
     kind: decoration
     tileAnchor: center
@@ -495,8 +495,8 @@ data:
     textureKey: sorrel-clump-v1
   - id: iseulon-garden-31
     position:
-      column: 7
-      row: 6
+      column: 6
+      row: 7
     kind: decoration
     tileAnchor: center
     textureKey: orchard-chunky-flower-v1
@@ -510,20 +510,20 @@ data:
   - id: iseulon-garden-33
     position:
       column: 24
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: clover-variant-2-v1
   - id: iseulon-prop-1
     position:
-      column: 8
+      column: 9
       row: 7
     kind: decoration
     tileAnchor: center
     textureKey: town-notice-board-v1
   - id: iseulon-prop-3
     position:
-      column: 4
+      column: 7
       row: 16
     kind: decoration
     tileAnchor: center
@@ -551,15 +551,15 @@ data:
     textureKey: town-record-chest-v1
   - id: iseulon-prop-7
     position:
-      column: 5
+      column: 6
       row: 4
     kind: decoration
     tileAnchor: center
     textureKey: town-herb-planter-v1
   - id: iseulon-prop-8
     position:
-      column: 9
-      row: 6
+      column: 10
+      row: 7
     kind: decoration
     tileAnchor: center
     textureKey: town-ground-lantern-v1
@@ -615,7 +615,7 @@ data:
   - id: iseulon-prop-16
     position:
       column: 7
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: town-herb-planter-v1
@@ -671,20 +671,20 @@ data:
   - id: iseulon-garden-infill-2
     position:
       column: 4
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: daisy-variant-2-v1
   - id: iseulon-garden-infill-4
     position:
       column: 4
-      row: 7
+      row: 8
     kind: decoration
     tileAnchor: center
     textureKey: dandelion-variant-3-v1
   - id: iseulon-round-rose-shrub
     position:
-      column: 13
+      column: 14
       row: 4
     kind: decoration
     tileAnchor: center
@@ -761,8 +761,8 @@ data:
     textureKey: town-herb-planter-v1
   - id: iseulon-home-3-town-wood-bench-v1
     position:
-      column: 20
-      row: 4
+      column: 21
+      row: 3
     kind: decoration
     tileAnchor: center
     textureKey: town-wood-bench-v1
@@ -810,7 +810,7 @@ data:
     textureKey: town-wood-bench-v1
   - id: iseulon-home-7-town-herb-planter-v1
     position:
-      column: 9
+      column: 10
       row: 4
     kind: decoration
     tileAnchor: center
@@ -825,7 +825,7 @@ data:
   - id: iseulon-home-8-town-herb-planter-v1
     position:
       column: 22
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: town-herb-planter-v1
@@ -888,7 +888,7 @@ data:
   - id: iseulon-atmosphere-011
     position:
       column: 19
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: town-iseulon-violet-garden-tuft-v1
@@ -909,7 +909,7 @@ data:
   - id: iseulon-atmosphere-014
     position:
       column: 5
-      row: 25
+      row: 27
     kind: decoration
     tileAnchor: center
     textureKey: town-iseulon-white-bloom-hedge-v1
@@ -964,7 +964,7 @@ data:
     textureKey: town-iseulon-white-bloom-hedge-v1
   - id: iseulon-atmosphere-028
     position:
-      column: 5
+      column: 7
       row: 17
     kind: decoration
     tileAnchor: center
@@ -999,7 +999,7 @@ data:
     textureKey: town-iseulon-lemon-herb-clump-v1
   - id: iseulon-atmosphere-035
     position:
-      column: 13
+      column: 14
       row: 6
     kind: decoration
     tileAnchor: center
@@ -1007,13 +1007,13 @@ data:
   - id: iseulon-atmosphere-036
     position:
       column: 13
-      row: 3
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: town-iseulon-soft-fern-cluster-v1
   - id: iseulon-atmosphere-039
     position:
-      column: 24
+      column: 25
       row: 4
     kind: decoration
     tileAnchor: center
@@ -1090,8 +1090,8 @@ data:
     textureKey: town-charcoal-stack-v1
   - id: iseulon-atmosphere-061
     position:
-      column: 5
-      row: 16
+      column: 7
+      row: 15
     kind: decoration
     tileAnchor: center
     textureKey: town-iseulon-round-rose-shrub-v1
@@ -1139,7 +1139,7 @@ data:
     textureKey: town-iseulon-soft-fern-cluster-v1
   - id: iseulon-atmosphere-072
     position:
-      column: 24
+      column: 25
       row: 6
     kind: decoration
     tileAnchor: center
@@ -1238,7 +1238,7 @@ data:
   - id: iseulon-atmosphere-091
     position:
       column: 5
-      row: 2
+      row: 1
     kind: decoration
     tileAnchor: center
     textureKey: town-iseulon-white-bloom-hedge-v1
