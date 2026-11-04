@@ -1644,7 +1644,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 7
   - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 6
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/town-charcoal-stack-v1.png
     width: 98
@@ -2684,7 +2684,7 @@ billboards:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 3
   - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 8
+    texture_key_occurrences: 7
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 5
   source_file:
@@ -2876,7 +2876,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 3
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-ore-basket-v1.png
     width: 84
@@ -3584,9 +3584,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.town-stonewarm-repair-process-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 1
+  map_references: []
   source_file:
     path: assets/billboards/town-stonewarm-repair-process-v1.png
     width: 231
