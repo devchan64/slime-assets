@@ -50,6 +50,8 @@ assets:
   width: 128
   height: 128
   source:
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 미사용 타일 폐기
     repository: slime-workflow
     generation_id: 2026-10-09_21-12-50-c6ea8c74
     artifact: result.png
@@ -94,6 +96,8 @@ assets:
   width: 128
   height: 128
   source:
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 미사용 타일 폐기
     repository: slime-workflow
     generation_id: 2026-10-09_21-36-37-139d9808
     artifact: result.png
@@ -3664,6 +3668,8 @@ assets:
   height: 128
   sha256: 8ac15925fcca64933cbc62778d1cc54d38f0ae5c73a187416de5cb7c71851426
   source:
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 미사용 타일 폐기
     restored_git_commit: 0ea8af262aaa5a81c158e14256b7016b6d7dfbea
     restored_git_operation: Git 128×128 원본 바이트 복원
     restore_128_operation: 축소 전 원본에서 128×128 복원
@@ -3699,6 +3705,8 @@ assets:
   width: 128
   height: 128
   source:
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 미사용 타일 폐기
     repository: slime-workflow
     generation_id: 2026-10-09_15-35-29-1b67f210
     artifact: result.png
@@ -3947,6 +3955,7 @@ assets:
     output: result.png
     sha256: 7f6d32a9f666a1ba21afb62124da500764d1145df9f68e6a9d183e9e2048ac74
     operation: 사용자 승인 투명 원본 그대로 등록
+    lifecycle_status: retired
 - managementId: image.terrain.clustered-boulder-ground-v1
   version: v1
   path: assets/tiles/terrain/blocked/clustered-boulder-ground-v1.png
@@ -4424,6 +4433,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-d36806a5-5f6e-454d-89fb-36bc7cc1d86d.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.dandelion-variant-3-v1
   version: v1
   path: assets/billboards/dandelion-variant-3-v1.png
@@ -4524,6 +4534,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-e9346820-30f7-4633-812b-ef7a8e49ee4b.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.log-variant-1-v1
   version: v1
   path: assets/billboards/log-variant-1-v1.png
@@ -4554,6 +4565,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-eb336508-c22d-463c-a77c-2f7fe46a824c.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.mushroom-variant-1-v1
   version: v1
   path: assets/retired/billboards/mushroom-variant-1-v1.png
@@ -4597,6 +4609,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-213c1642-acab-42d9-b606-1dc0956e401c.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.leaves-variant-2-v1
   version: v1
   path: assets/billboards/leaves-variant-2-v1.png
@@ -4607,6 +4620,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-c15d340e-417c-4410-941f-57de5269c3c0.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.leaves-variant-3-v1
   version: v1
   path: assets/billboards/leaves-variant-3-v1.png
@@ -4617,6 +4631,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-395fe003-aab2-4daf-8628-d53da583e97f.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.apples-variant-1-v1
   version: v1
   path: assets/billboards/apples-variant-1-v1.png
@@ -4627,6 +4642,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-559199df-57ff-4484-9dd1-c67c11857eb8.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.apples-variant-2-v1
   version: v1
   path: assets/billboards/apples-variant-2-v1.png
@@ -4637,6 +4653,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-53297e51-4f44-45aa-acc0-e610bd8ae386.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.apples-variant-3-v1
   version: v1
   path: assets/billboards/apples-variant-3-v1.png
@@ -4647,6 +4664,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-d6fdd346-4870-4358-8db3-9a3d43ef5399.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.ivy-variant-1-v1
   version: v1
   path: assets/billboards/ivy-variant-1-v1.png
@@ -4707,6 +4725,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-8dae9152-1033-43ec-abb2-ada4da51aa3e.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.bramble-variant-1-v1
   version: v1
   path: assets/billboards/bramble-variant-1-v1.png
@@ -4727,6 +4746,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-454c70f1-f23b-4562-be8d-4f666ae8f142.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.bramble-variant-3-v1
   version: v1
   path: assets/billboards/bramble-variant-3-v1.png
@@ -4737,6 +4757,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-0b735b3d-b0ba-4db5-9ed9-15af05ec6d72.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.sorrel-variant-1-v1
   version: v1
   path: assets/billboards/sorrel-variant-1-v1.png
@@ -6209,6 +6230,8 @@ assets:
   width: 128
   height: 128
   source:
+    lifecycle_status: retired
+    retirement_reason: 사용자 요청으로 미사용 타일 폐기
     repository: slime-workflow
     path: .tmp/test/terrain-base-materials/2026-10-17/frost-ground-v1-source.png
     operation: ImageGen 생성 원본을 128x128 LANCZOS 축소, 사용자 맵 적용 승인
@@ -6384,7 +6407,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 5a993ed5c485f67a5f7b3091bdac445769a4795c668db54cb6ae7c956afd7bec
+  sha256: 00ee4d9271f5bd8f4f12cd8a075c9ecb4f1d22e39ae9bbb028f9e5522bcaed69
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -6680,6 +6703,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-cea7ea3b-9f0c-49e8-b081-efca1c4289d4.png
     processing: 이미지젠 제작; 투명 여백 정리, 비율 유지 256px 이내 축소 및 8px 여백
+    lifecycle_status: retired
 - managementId: image.scenery.brine-bank-saltbush-v1
   version: v1
   path: assets/billboards/brine-bank-saltbush-v1.png
@@ -7324,6 +7348,7 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-33-34-cf746b59/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-mill-ridge-weathered-stones-4-v1
   version: v1
   path: assets/billboards/field-mill-ridge-weathered-stones-4-v1.png
@@ -7368,6 +7393,7 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_09-37-24-c994d10f/result.png
     processing: RGBA 비율·알파 유지 256×256 축소. 미세 배경 잔여물 허용 기준 재검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-mist-lake-mooring-stone-size-large-v1
   version: source-sha256-2f29801300aad7f5c95d446324434293bb45290ae13563fd2eaf1d549d38be5c
   path: assets/billboards/field-mist-lake-mooring-stone-size-large-v1.png
@@ -7437,6 +7463,7 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-30-bc9a87c2/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-wind-hills-rope-waymark-4-v1
   version: source-sha256-29dca958ea92c4cf8ecf32187309c3fa4c725199ade41ba28699366f2d2c689f
   path: assets/billboards/field-wind-hills-rope-waymark-4-v1.png
@@ -7448,6 +7475,7 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-31-02d89bcd/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-mist-lake-mooring-stone-4-v1
   version: source-sha256-b886ef3befeb9c36903921ee4a6874245b70475c33500882899f91cbaa3d9740
   path: assets/billboards/field-mist-lake-mooring-stone-4-v1.png
@@ -7471,6 +7499,7 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-32-167b6e54/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
 - managementId: image.scenery.field-lantern-wood-lantern-stand-size-large-v1
   version: source-sha256-4a65e9d251cb571d26738a698525e5ec09420cc76c3561029fec78424e221a45
   path: assets/billboards/field-lantern-wood-lantern-stand-size-large-v1.png
@@ -7482,6 +7511,7 @@ assets:
     repository: slime-workflow
     artifact: prop-generator/2026-10-20_17-17-32-08283704/result.png
     processing: RGBA 알파와 비율 유지 256×256 해상도 정규화. 경미한 배경 잔여물 허용 검수.
+    lifecycle_status: retired
 - managementId: image.decal.boar-hoof-pair-v1
   version: v1
   path: assets/tiles/decals/boar-hoof-pair-v1.png
@@ -8001,6 +8031,7 @@ assets:
     artifact: exec-ef603443-7a3c-4cd8-8ed9-77ed4c4a5e74.png
     original_sha256: 584ad05b87317d9bd4d87ad474ad93ed33a7487a39f66415b062d5591084d443
     processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.crystal-cut-guide-2x1-tall-v1
   version: v1
   path: assets/billboards/crystal-cut-guide-2x1-tall-v1.png
@@ -8013,6 +8044,7 @@ assets:
     artifact: exec-a7766dcb-5873-4cbc-b4e0-e55730898d6a.png
     original_sha256: 67aab72cea94b8dde7a35d21689a6deeb256c68fa753ac90e6644372143bb447
     processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.crystal-cut-guide-1x2-tall-v1
   version: v1
   path: assets/billboards/crystal-cut-guide-1x2-tall-v1.png
@@ -8025,6 +8057,7 @@ assets:
     artifact: exec-ad3da8e0-f22a-411c-ba57-6887e9840b5e.png
     original_sha256: f1a9b3c4577004d03823b06e1e8647c1705f40c56ac4bb4ea329ae2c96ec5768
     processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.crystal-cut-guide-1x3-tall-v1
   version: v1
   path: assets/billboards/crystal-cut-guide-1x3-tall-v1.png
@@ -8037,6 +8070,7 @@ assets:
     artifact: exec-471e578d-c892-4476-908d-7973c0258fcb.png
     original_sha256: dcdcdec3b534c8ca181f43ee041465fe9802b9cb07788688013c3e7e38314e39
     processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.crystal-cut-guide-2x2-low-v1
   version: v1
   path: assets/billboards/crystal-cut-guide-2x2-low-v1.png
@@ -8061,6 +8095,7 @@ assets:
     artifact: exec-44f6173d-fc8a-414f-8d64-333d36517d2b.png
     original_sha256: b9424cc88f8d52b334fd7d45a9efaccf06b1ea6bd20a6716ba3373f4e0038092
     processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.crystal-cut-guide-3x2-low-v1
   version: v1
   path: assets/billboards/crystal-cut-guide-3x2-low-v1.png
@@ -8073,6 +8108,7 @@ assets:
     artifact: exec-2b1bd3c8-a6e4-4b61-a51d-9ad66f67cd24.png
     original_sha256: 71d0fa89edec84e626b85be872c28a9df692d56e96e5ce2efefe3dc36649d0bd
     processing: 사용자 카탈로그 추가 승인. 가이드 기반 재생성 원본 PNG와 투명 알파 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.crystal-cut-guide-1x1-low-v1
   version: v1
   path: assets/retired/billboards/crystal-cut-guide-1x1-low-v1.png
@@ -8184,6 +8220,7 @@ assets:
     artifact: exec-aa0cafe4-d408-436d-9144-91909219e355.png
     original_sha256: b3bee4253b65596cbd97dba1017781b1df432ce1b67a4f72716b45a8ab357f84
     processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.crystal-cut-quartz-1x1-fissure-v1
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-fissure-v1.png
@@ -8196,6 +8233,7 @@ assets:
     artifact: exec-3097dc5b-8d1e-4e2c-96b1-8fd2c5db731d.png
     original_sha256: 08350785f6d498e68ad97e44909803f941cd6a77acae142760eca3e98a649cda
     processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.crystal-cut-quartz-1x1-patches-v1
   version: v1
   path: assets/billboards/crystal-cut-quartz-1x1-patches-v1.png
@@ -8208,6 +8246,7 @@ assets:
     artifact: exec-6845f365-563d-47c0-8a53-786011d350df.png
     original_sha256: 280a775ca9864f889c1570b9482ccaa1bfd17d3010059a7e8e94dbe0efe629b6
     processing: 사용자 요청으로 생성·등록. 비율 유지 512px 축소, 투명 알파 보존.
+    lifecycle_status: retired
 - managementId: image.scenery.crystal-cut-quartz-detail-shelf-v1
   version: v1
   path: assets/billboards/crystal-cut-quartz-detail-shelf-v1.png
@@ -9569,6 +9608,7 @@ assets:
     artifact: mill-ridge-weathered-shelf-v1.png
     original_sha256: 802a153eda12a21552be1cd3adcc29e60969c381e6fa8418e5c1ea2ae3b48033
     processing: 알파 64 기준 투명 여백 크롭 (22, 27, 2144, 691), 비율 유지 최대 512px. 내부 알파 보존.
+    lifecycle_status: retired
 - managementId: image.billboards.mill-ridge-rooted-grass-v1
   version: source-sha256-6f8a7f43bcefb7940d00574763c7bc4a3722044bf9f277676b1b5f04d9372875
   path: assets/billboards/mill-ridge-rooted-grass-v1.png
@@ -9656,6 +9696,7 @@ assets:
     artifact: pebble-crescent-clean.png
     original_sha256: 00e5076229874aea162735e5b076191896ea3e208e51ed465c10c69dacc89248
     processing: ImageGen 3x2 저면 투영 지정 제작. 알파 경계 크롭 후 최대 512px 축소.
+    lifecycle_status: retired
 - managementId: image.billboards.pebble-shore-pebble-carpet-v1
   version: v1
   path: assets/billboards/pebble-shore-pebble-carpet-v1.png
@@ -9668,6 +9709,7 @@ assets:
     artifact: pebble-carpet-ragged-candidate.png
     original_sha256: d0f4edaed34f442876c7f08f69f3afd02328c079f9ec530e08ff6cb632e36df9
     processing: ImageGen 저면 투영 보정. 알파 16 경계 크롭, 최대 512px 축소.
+    lifecycle_status: retired
 - managementId: image.terrain.pebble-sand-sparse-v1
   version: v1
   path: assets/tiles/terrain/non-road/pebble-sand-sparse-v1.png
@@ -9991,6 +10033,7 @@ assets:
     artifact: mound-512.png
     original_sha256: cbfdd219a0ccf0ffba2fb04dbbeabedc32a0a7772ad83bf8529fc1750f06e3c7
     processing: ImageGen 투명 원본을 512px 이하로 축소.
+    lifecycle_status: retired
 - managementId: image.terrain.brine-bank-saline-gravel-v1
   version: v1
   path: assets/tiles/terrain/non-road/brine-bank-saline-gravel-v1.png
@@ -10013,6 +10056,7 @@ assets:
     artifact: gravel-hill-candidate.png
     original_sha256: a3e4448d4f6325ee58d3daaff678b01a7be10f20619831e9becae7116a9aad41
     processing: ImageGen 투명 원본을 512px 이하로 축소.
+    lifecycle_status: retired
 - managementId: image.terrain.brine-bank-saline-gravel-variant-v1
   version: v1
   path: assets/tiles/terrain/non-road/brine-bank-saline-gravel-variant-v1.png
