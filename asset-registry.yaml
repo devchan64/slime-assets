@@ -113,48 +113,35 @@ assets:
       - 128
     approval: 사용자 승인 대형 석회석 모자이크 도로 타일 등록
 - managementId: sprite.metadata.characters.default.rest-v2.rest-v2.animation.json
-  version: down-left-entry-exit-v2-6fps
-  path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v2/rest-v2.animation.json
+  version: down-left-entry-exit-v3-6fps
+  path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v3/rest-v2.animation.json
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.animation.json
-  sha256: 639073b0c41a2a61e027bb4dfd8248ffaa1b386e4d665e8bdadff8d39af4be48
+  sha256: a0fd3a158dfa11ae8f70cc610fb3fece77c65ca704332c7fdee2b78111fc5b52
   source:
     repository: slime-workflow
-    revision: 2026-10-01_15-18-46
-    path: .tmp/test/rest-batch-refinement-imagegen/2026-10-01_15-18-46/combined-384.png
-    sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
-    operation: 사용자 승인 휴식 진입·해제 시트 교체
-    previous_version: down-left-v1
-    editor_revision: 20261003T041118-05507be2
-    previous_path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1
-    playback_fps: 6
+    generation_id: 2026-11-04_11-10-58-f364a116
+    operation: 기본 캐릭터 라이트 아머 투명 시트 · 휴식시작 12장·휴식해제 12장 · 6fps
+    previous_path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v2/rest-v2.animation.json
 - managementId: image.frontend.src.assets.characters.character-default-white-shirt-rest-v2.rest-v2.png
-  version: down-left-entry-exit-v2
-  path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v2/rest-v2.png
+  version: down-left-entry-exit-v3
+  path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v3/rest-v2.png
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.png
-  sha256: 8db749f3adfc8e6646df750edb352aa383da67d3e4dd38542ebbbc4f698b9542
+  sha256: 4bdad858c7f5e4b75a77afdfbb559a365471b5f33f31e25b638f7c5afb855d9e
   source:
     repository: slime-workflow
-    revision: 2026-10-01_15-18-46
-    path: .tmp/test/rest-batch-refinement-imagegen/2026-10-01_15-18-46/combined-384.png
-    sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
-    operation: 사용자 승인 휴식 진입·해제 시트 교체
-    previous_version: down-left-v1
-    editor_revision: 20261003T041118-05507be2
-    previous_path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1
+    generation_id: 2026-11-04_11-10-58-f364a116
+    operation: 기본 캐릭터 라이트 아머 투명 시트 · 휴식시작 12장·휴식해제 12장 · 6fps
+    previous_path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v2/rest-v2.png
 - managementId: sprite.metadata.characters.default.rest-v2.source.json
-  version: down-left-entry-exit-v2
-  path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v2/source.json
+  version: down-left-entry-exit-v3
+  path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v3/source.json
   frontend_path: src/assets/characters/default/rest-v2/source.json
-  sha256: b907b536fc58f44062cd26d9e2b50f81e5ae6f0736c9a8199705b7262db7eca1
+  sha256: 1664add377837be8c79dcc90a322c14317d2723b6ad815fb167cd29e5e65067e
   source:
     repository: slime-workflow
-    revision: 2026-10-01_15-18-46
-    path: .tmp/test/rest-batch-refinement-imagegen/2026-10-01_15-18-46/combined-384.png
-    sha256: 54e95ce08282ef68ec70475e16c7eb18de4de19d4b6f0827950b309a1c4bf8a2
-    operation: 사용자 승인 휴식 진입·해제 시트 교체
-    previous_version: down-left-v1
-    editor_revision: 20261003T041118-05507be2
-    previous_path: assets/characters/default/animations/rest-v2/down-left-entry-exit-v1
+    generation_id: 2026-11-04_11-10-58-f364a116
+    operation: 기본 캐릭터 라이트 아머 투명 시트 · 휴식시작 12장·휴식해제 12장 · 6fps
+    previous_path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v2/source.json
 - managementId: sprite.metadata.monsters.standing-v1.ash-fox-idle-v1.animation.json
   version: ash-fox-idle-v1-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/ash-fox-idle-v1.animation.json

@@ -1,0 +1,23 @@
+{
+  "referenceBodyHeight": 353,
+  "gameBodyHeight": 80,
+  "version": "down-left-entry-exit-v3",
+  "image": "rest-v2.png",
+  "sha256": "4bdad858c7f5e4b75a77afdfbb559a365471b5f33f31e25b638f7c5afb855d9e",
+  "directionOrder": [
+    "down_left"
+  ],
+  "operation": "기본 캐릭터 라이트 아머 휴식시작 12프레임·휴식해제 12프레임 교체, 투명 배경, 공통 배율, 바닥 정렬, 6fps",
+  "playback": {
+    "enterAction": "rest-entry",
+    "holdAction": "idle",
+    "exitAction": "rest-exit",
+    "afterExitAnimationId": "character.default.white-shirt.idle",
+    "afterExitClipId": "idle.down_left"
+  },
+  "source": {
+    "repository": "slime-workflow",
+    "generation_id": "2026-11-04_11-10-58-f364a116",
+    "reference": "character-default-light-leather-four-directions-v1.png"
+  }
+}
