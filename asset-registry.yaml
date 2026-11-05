@@ -4310,6 +4310,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-d717eaa9-310b-4c05-b1aa-fb566c6e4e4d.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.seed-grass-variant-1-v1
   version: v1
   path: assets/billboards/seed-grass-variant-1-v1.png
@@ -4481,6 +4482,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-8d261341-cc5e-4867-ad68-6ca8e69ae8a2.png
     operation: 과수원 식생 80종 확장, 128×128
+    lifecycle_status: retired
 - managementId: image.scenery.dry-shrub-variant-3-v1
   version: v1
   path: assets/billboards/dry-shrub-variant-3-v1.png
@@ -5665,6 +5667,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-40c50e60-9277-4a76-b89a-8e6f4deb6c4d.png
     processing: 세계관 생활 장면 전용 투명 빌보드 원본
+    lifecycle_status: retired
 - managementId: image.scenery.town-grainstead-milling-dispatch-v1
   version: v1
   path: assets/billboards/town-grainstead-milling-dispatch-v1.png
@@ -6390,7 +6393,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 47fd6ce693ba92c517187a4a536c0ac9ac2100e32d597ecde95039ec906874e0
+  sha256: 0bf21801a0e75a42d0d9aba8218fcdfb7507506328ddbe7404829232a057d90a
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10250,6 +10253,7 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+    lifecycle_status: retired
 - managementId: image.scenery.town-stonewarm-artisan-house-v1
   version: v1
   path: assets/buildings/town-stonewarm-artisan-house-v1.png
@@ -10259,6 +10263,7 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+    lifecycle_status: retired
 - managementId: image.scenery.town-stonewarm-guild-v4
   version: v4
   path: assets/buildings/town-stonewarm-guild-v4.png
@@ -10318,6 +10323,7 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+    lifecycle_status: retired
 - managementId: image.scenery.town-stonewarm-bookshop-v5
   version: v5
   path: assets/buildings/town-stonewarm-bookshop-v5.png
@@ -10327,6 +10333,7 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+    lifecycle_status: retired
 - managementId: image.scenery.town-stonewarm-inn-v5
   version: v5
   path: assets/buildings/town-stonewarm-inn-v5.png
@@ -10336,6 +10343,7 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+    lifecycle_status: retired
 - managementId: image.scenery.town-stonewarm-market-v5
   version: v5
   path: assets/buildings/town-stonewarm-market-v5.png
@@ -10355,6 +10363,7 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+    lifecycle_status: retired
 - managementId: image.scenery.town-stonewarm-market-v6
   version: v6
   path: assets/buildings/town-stonewarm-market-v6.png
@@ -10374,6 +10383,7 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+    lifecycle_status: retired
 - managementId: image.scenery.town-iseulon-guild-guide-v1
   version: v1
   path: assets/buildings/town-iseulon-guild-guide-v1.png
