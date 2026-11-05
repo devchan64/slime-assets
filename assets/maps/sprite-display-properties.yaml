@@ -107,15 +107,27 @@ data:
     anchorY: 1.05
     displayWidthAdjustment: -13
     displayHeightAdjustment: 23
+  town-stonewarm-bookshop-guide-v1:
+    anchorX: 0.473320158102767
+    anchorY: 0.927734375
   town-stonewarm-bookshop-v5:
     anchorX: 0.5
     anchorY: 1.0
+  town-stonewarm-guild-guide-v1:
+    anchorX: 0.516064257028112
+    anchorY: 0.935546875
   town-stonewarm-guild-v5:
     anchorX: 0.5
     anchorY: 1.0
+  town-stonewarm-inn-guide-v1:
+    anchorX: 0.556503198294243
+    anchorY: 0.95703125
   town-stonewarm-inn-v5:
     anchorX: 0.5
     anchorY: 1.0
+  town-stonewarm-market-guide-v1:
+    anchorX: 0.47265625
+    anchorY: 0.882936507936508
   town-stonewarm-market-v7:
     anchorX: 0.45
     anchorY: 1.05
@@ -126,6 +138,15 @@ data:
     anchorY: 1.03
     displayWidthAdjustment: -26
     displayHeightAdjustment: -28
+  town-stonewarm-residence-artisan-guide-v1:
+    anchorX: 0.495049504950495
+    anchorY: 0.845703125
+  town-stonewarm-residence-small-guide-v1:
+    anchorX: 0.537190082644628
+    anchorY: 0.853515625
+  town-stonewarm-workshop-guide-v1:
+    anchorX: 0.42814371257485
+    anchorY: 0.876953125
   town-stonewarm-workshop-v5:
     anchorX: 0.5
     anchorY: 1.0
@@ -3571,5 +3592,19 @@ data:
     shadowOffsetRow: 0.0
     shadowScaleX: 0.52
     shadowScaleY: 0.52
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  stonewarm-limestone-outcrop-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 180.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2

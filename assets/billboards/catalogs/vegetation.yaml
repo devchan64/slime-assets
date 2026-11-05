@@ -1219,7 +1219,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 2
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/salt-flat.yaml
     texture_key_occurrences: 7
   source_file:
@@ -1281,9 +1281,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.dry-shrub-variant-2-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 2
+  map_references: []
   source_file:
     path: assets/billboards/dry-shrub-variant-2-v1.png
     width: 109
@@ -3096,8 +3094,6 @@ billboards:
     texture_key_occurrences: 15
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 4
-  - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 15
   source_file:
     path: assets/billboards/town-herb-planter-v1.png
     width: 92
@@ -3669,7 +3665,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 17
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/town-stonewarm-copper-leaf-bush-v1.png
     width: 106
@@ -3732,7 +3728,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 19
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/town-stonewarm-rust-heather-bush-v1.png
     width: 113
@@ -3795,7 +3791,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 14
+    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/dawn-overlook.yaml
@@ -3862,7 +3858,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 17
+    texture_key_occurrences: 4
   source_file:
     path: assets/billboards/town-stonewarm-sturdy-juniper-shrub-v1.png
     width: 121

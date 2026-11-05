@@ -527,6 +527,14 @@ families:
     features:
     - 밝은 자갈과 둥근 바위가 섞인 완만한 경사
     review_category: rocks-minerals
+  stonewarm-limestone-outcrop-v1:
+    name: 돌온재 넓은 석회암 암반
+    uses:
+    - 돌온재 외곽 암반과 작업장 경계
+    category: vegetation
+    features:
+    - 넓은 회백색 암반과 큰 균열
+    review_category: rocks-minerals
 billboards:
 - texture_key: brine-bank-painted-hill-v1
   family: brine-bank-painted-hill-v1
@@ -2872,6 +2880,54 @@ billboards:
     outdoorDisplayHeight: 121.095
     size_variant: 기본 변형
     occupied_tile_count: 1
+    movement: 내부 타일 통행 불가
+- texture_key: stonewarm-limestone-outcrop-v1
+  family: stonewarm-limestone-outcrop-v1
+  asset_ref:
+    management_id: image.scenery.stonewarm-limestone-outcrop-v1
+    version: v1
+  map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 9
+  source_file:
+    path: assets/billboards/stonewarm-limestone-outcrop-v1.png
+    width: 1774
+    height: 887
+    sha256: 8d0532bd9e4934ee1da9e87ade3179acb76ceff08e8acdaabc4df56859aa07cc
+  modeling:
+    purpose: 돌온재 외곽의 밝고 넓은 석회암 암반
+    composition: 2x2 동일 고도 위에 배치. 넓은 암반 면과 낮은 파편이 결합한 군락.
+    shadow:
+      runtime_profile: billboard-contact-tile-length-v3
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.stonewarm-limestone-outcrop-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 180.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 1.0
+    shadowScaleY: 1.0
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 90.0
+    size_variant: 기본 변형
+    occupied_tile_count: 4
     movement: 내부 타일 통행 불가
 - texture_key: wind-hills-low-stone-ridge-v1
   family: wind-hills-low-stone-ridge-v1

@@ -1194,6 +1194,8 @@ billboards:
     management_id: image.scenery.quarry-broken-slabs-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 14
   - path: assets/maps/field_tiles/dawn-overlook.yaml
@@ -1262,6 +1264,8 @@ billboards:
     management_id: image.scenery.quarry-cut-blocks-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 7
   - path: assets/maps/field_tiles/old-boundary-gate.yaml
@@ -1326,6 +1330,8 @@ billboards:
     management_id: image.scenery.quarry-hand-winch-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 2
   source_file:
@@ -1388,6 +1394,8 @@ billboards:
     management_id: image.scenery.quarry-mason-tools-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 2
   - path: assets/maps/field_tiles/mill-ridge.yaml
@@ -1452,6 +1460,8 @@ billboards:
     management_id: image.scenery.quarry-splitting-tools-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 5
   source_file:
@@ -1515,6 +1525,8 @@ billboards:
     management_id: image.scenery.quarry-stone-bearers-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 2
   source_file:
@@ -1578,6 +1590,8 @@ billboards:
     management_id: image.scenery.quarry-wooden-derrick-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/stonewarm.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
     texture_key_occurrences: 1
   source_file:
@@ -2683,8 +2697,6 @@ billboards:
     texture_key_occurrences: 7
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 3
-  - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 7
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 5
   source_file:
@@ -3782,7 +3794,7 @@ billboards:
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 4
   - path: assets/maps/city_layouts/stonewarm.yaml
-    texture_key_occurrences: 17
+    texture_key_occurrences: 6
   source_file:
     path: assets/billboards/town-wood-bench-v1.png
     width: 114

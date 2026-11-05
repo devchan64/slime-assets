@@ -489,7 +489,7 @@ assets:
 - managementId: config.city-layouts.stonewarm
   version: v5-billboard-blocking-v1
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: 142412c4484296b25ce6324f95c3a04046bd6506cee61fabf600b9cf58ad9dea
+  sha256: 196ade9e7eb4002ee425632f3faee079c09b41a81e04ee41ccf5e28a91c07864
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
@@ -6390,7 +6390,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 636f3bcfc8d9d3dc6ab4898b3cd2a153e5bb62fb669c406d2b169e1bc4003736
+  sha256: 47fd6ce693ba92c517187a4a536c0ac9ac2100e32d597ecde95039ec906874e0
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10437,3 +10437,76 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-guild-guide-v1
+  version: v1
+  path: assets/buildings/town-stonewarm-guild-guide-v1.png
+  width: 498
+  height: 512
+  sha256: 602db916ba2b2df4ba01de85788426cd51930447aeb4282a1a049b56434ba335
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-market-guide-v1
+  version: v1
+  path: assets/buildings/town-stonewarm-market-guide-v1.png
+  width: 512
+  height: 504
+  sha256: 758de068077ac0a5965b3b7ce0f578bc91b70fdecf643c2f6d64f5869dd73439
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-bookshop-guide-v1
+  version: v1
+  path: assets/buildings/town-stonewarm-bookshop-guide-v1.png
+  width: 506
+  height: 512
+  sha256: aaae38bac7cb578faaf8c1bde3487748b53030f5d6188fa1c3700436a8b6fc5c
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-residence-small-guide-v1
+  version: v1
+  path: assets/buildings/town-stonewarm-residence-small-guide-v1.png
+  width: 484
+  height: 512
+  sha256: 09cfde27bb0bcddd805987f614165b902295449d9139aa3508810fcf391e7c8a
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-residence-artisan-guide-v1
+  version: v1
+  path: assets/buildings/town-stonewarm-residence-artisan-guide-v1.png
+  width: 505
+  height: 512
+  sha256: f156db9541ac308ad68bbec45cc12fb9e4a64366d89ef778455d3f9abdcdb3e3
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-inn-guide-v1
+  version: v1
+  path: assets/buildings/town-stonewarm-inn-guide-v1.png
+  width: 469
+  height: 512
+  sha256: 9cdacb8b2548736db56d4208a00fb42c0e545674b93a2f0170b227ab2b8af2d4
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-stonewarm-workshop-guide-v1
+  version: v1
+  path: assets/buildings/town-stonewarm-workshop-guide-v1.png
+  width: 501
+  height: 512
+  sha256: 8b13281835cfd88c472f1e54ed7f523d83e01ff4b7e1d445d6f7887ddcb3e314
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.stonewarm-limestone-outcrop-v1
+  version: v1
+  path: assets/billboards/stonewarm-limestone-outcrop-v1.png
+  width: 1774
+  height: 887
+  sha256: 8d0532bd9e4934ee1da9e87ade3179acb76ceff08e8acdaabc4df56859aa07cc
+  source:
+    repository: slime-workflow
+    operation: ImageGen · 돌온재 썸네일 및 2x2 구도 가이드 참조
+    tool: image_gen
