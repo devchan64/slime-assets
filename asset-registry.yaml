@@ -481,7 +481,7 @@ assets:
 - managementId: config.city-layouts.reedhaven
   version: v4-billboard-blocking-v1
   path: assets/maps/city_layouts/reedhaven.yaml
-  sha256: 40870fa191ccdbeebe630387062e62f1bedcff9f239d97c6e020520b4db3e1ea
+  sha256: 89253fc24d72356dce909a3d345ea1595e3a2e181524bb666e9dac332e828b4a
   source:
     repository: slime-backend
     path: config/city_layouts/reedhaven.yaml
@@ -6393,7 +6393,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 0bf21801a0e75a42d0d9aba8218fcdfb7507506328ddbe7404829232a057d90a
+  sha256: 579b3dcd69947ed42cf4e92bfefe38520fa03789ee83a4363fb6d906eb49967e
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10520,3 +10520,106 @@ assets:
     repository: slime-workflow
     operation: ImageGen · 돌온재 썸네일 및 2x2 구도 가이드 참조
     tool: image_gen
+    lifecycle_status: retired
+- managementId: image.scenery.town-reedhaven-guild-guide-v1
+  version: v1
+  path: assets/buildings/town-reedhaven-guild-guide-v1.png
+  width: 512
+  height: 512
+  sha256: cc05912ce8ef0a2532a45a976ccc0f55ebf4598f52bee8180bb0b041bde52968
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-reedhaven-bookshop-guide-v1
+  version: v1
+  path: assets/buildings/town-reedhaven-bookshop-guide-v1.png
+  width: 512
+  height: 512
+  sha256: f58e5e085a36e0de75b31d27198e4dd5a56480a43ed28e27e2dc0131530b2f24
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-reedhaven-inn-guide-v1
+  version: v1
+  path: assets/buildings/town-reedhaven-inn-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 212683685eda7c8640670440805264cb25e17daebb129249d95bd64fafee592a
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-reedhaven-market-guide-v1
+  version: v1
+  path: assets/buildings/town-reedhaven-market-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 5e571820dfb76300be77305614a276de26041ea79c92eab8c2fa21daa7065342
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-reedhaven-workshop-guide-v1
+  version: v1
+  path: assets/buildings/town-reedhaven-workshop-guide-v1.png
+  width: 512
+  height: 384
+  sha256: 6f5e352dcbc91332d366c25d3d831edbfdc37ee70f552fb812c54c7da9164886
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-reedhaven-residence-thatch-guide-v1
+  version: v1
+  path: assets/buildings/town-reedhaven-residence-thatch-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 979e0631f1fbf147daf8fd13f4f7f6a522dca03a94acb075287ff3946b81c34e
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-reedhaven-residence-slate-guide-v1
+  version: v1
+  path: assets/buildings/town-reedhaven-residence-slate-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 2a76d2226aaed0fac83b11c2a897c564330b8bd724cd40a164b117d46e0b6591
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-reedhaven-residence-herbal-guide-v1
+  version: v1
+  path: assets/buildings/town-reedhaven-residence-herbal-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 04b7cfb4747069f62e78d97538c72f395c95d4ff7714702b5bacf76fb1814b58
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.stonewarm-limestone-outcrop-v1
+  version: source-sha256-1329b464bdb65ebce28536fa767615d97d0255d3dce9962a86e651e8f3b1227d
+  path: assets/billboards/versions/1329b464bdb65ebce28536fa767615d97d0255d3dce9962a86e651e8f3b1227d.png
+  width: 512
+  height: 256
+  sha256: 1329b464bdb65ebce28536fa767615d97d0255d3dce9962a86e651e8f3b1227d
+  source:
+    repository: slime-workflow
+    operation: ImageGen · 돌온재 썸네일 및 2x2 구도 가이드 참조
+    tool: image_gen
+- managementId: image.scenery.town-reedhaven-landing-pier-v1
+  version: '1'
+  path: assets/billboards/town-reedhaven-landing-pier-v1.png
+  name: 갈대나루 목재 나루터
+  width: 512
+  height: 256
+  sha256: 6f281d7066ccabaa8cad53479dfaf47be477e9de4b4a5c3f43b70c3e4b723113
+  source:
+    repository: slime-workflow
+    operation: ImageGen · 갈대나루 목재 접안대 생성
+- managementId: image.scenery.town-reedhaven-rowboat-v1
+  version: '1'
+  path: assets/billboards/town-reedhaven-rowboat-v1.png
+  name: 갈대나루 교역 목선
+  width: 512
+  height: 256
+  sha256: 545406fea1015a83f0e7b1f8bcf8684667ffccd83876c5706a18d02e1d52bfd7
+  source:
+    repository: slime-workflow
+    operation: ImageGen · 갈대나루 목선 생성

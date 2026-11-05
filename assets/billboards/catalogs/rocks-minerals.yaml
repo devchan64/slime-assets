@@ -2885,15 +2885,15 @@ billboards:
   family: stonewarm-limestone-outcrop-v1
   asset_ref:
     management_id: image.scenery.stonewarm-limestone-outcrop-v1
-    version: v1
+    version: source-sha256-1329b464bdb65ebce28536fa767615d97d0255d3dce9962a86e651e8f3b1227d
   map_references:
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 3
   source_file:
-    path: assets/billboards/stonewarm-limestone-outcrop-v1.png
-    width: 1774
-    height: 887
-    sha256: 8d0532bd9e4934ee1da9e87ade3179acb76ceff08e8acdaabc4df56859aa07cc
+    path: assets/billboards/versions/1329b464bdb65ebce28536fa767615d97d0255d3dce9962a86e651e8f3b1227d.png
+    width: 512
+    height: 256
+    sha256: 1329b464bdb65ebce28536fa767615d97d0255d3dce9962a86e651e8f3b1227d
   modeling:
     purpose: 돌온재 외곽의 밝고 넓은 석회암 암반
     composition: 2x2 동일 고도 위에 배치. 넓은 암반 면과 낮은 파편이 결합한 군락.

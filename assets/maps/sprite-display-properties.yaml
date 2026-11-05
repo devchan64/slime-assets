@@ -54,18 +54,30 @@ data:
   town-iseulon-workshop-guide-v1:
     anchorX: 0.485294
     anchorY: 0.847656
+  town-reedhaven-bookshop-guide-v1:
+    anchorX: 0.495
+    anchorY: 0.855
   town-reedhaven-bookshop-v3:
     anchorX: 0.5
     anchorY: 0.94
   town-reedhaven-dike-house-v3:
     anchorX: 0.5
     anchorY: 0.95
+  town-reedhaven-guild-guide-v1:
+    anchorX: 0.497
+    anchorY: 0.796
   town-reedhaven-guild-v3:
     anchorX: 0.5
     anchorY: 0.91
+  town-reedhaven-inn-guide-v1:
+    anchorX: 0.498
+    anchorY: 0.865
   town-reedhaven-inn-v3:
     anchorX: 0.53
     anchorY: 0.92
+  town-reedhaven-market-guide-v1:
+    anchorX: 0.498
+    anchorY: 0.782
   town-reedhaven-market-v3:
     anchorX: 0.5
     anchorY: 0.92
@@ -75,6 +87,18 @@ data:
   town-reedhaven-reed-house-v3:
     anchorX: 0.5
     anchorY: 0.94
+  town-reedhaven-residence-herbal-guide-v1:
+    anchorX: 0.5
+    anchorY: 0.752
+  town-reedhaven-residence-slate-guide-v1:
+    anchorX: 0.5
+    anchorY: 0.725
+  town-reedhaven-residence-thatch-guide-v1:
+    anchorX: 0.497
+    anchorY: 0.843
+  town-reedhaven-workshop-guide-v1:
+    anchorX: 0.441
+    anchorY: 0.904
   town-reedhaven-workshop-v3:
     anchorX: 0.5
     anchorY: 0.91
@@ -2979,6 +3003,20 @@ data:
     shadowScaleY: 0.56
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
+  town-reedhaven-landing-pier-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 4
+    groundFootprintRows: 3
+    displayHeight: 420.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.3
+    shadowScaleY: 0.15
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
   town-reedhaven-reed-autumn-v1:
     anchorX: 0.05
     anchorY: -0.37
@@ -3075,6 +3113,20 @@ data:
     shadowOffsetRow: -0.14
     shadowScaleX: 0.78
     shadowScaleY: 0.74
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  town-reedhaven-rowboat-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 3
+    groundFootprintRows: 1
+    displayHeight: 280.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.3
+    shadowScaleY: 0.15
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-reedhaven-water-mint-bush-v1:

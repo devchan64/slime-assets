@@ -513,6 +513,22 @@ families:
     features:
     - 문양이 새겨진 풍화된 석재 문기둥과 연결된 낮은 성벽 잔해
     review_category: props
+  town-reedhaven-landing-pier:
+    name: 갈대나루 목재 나루터
+    uses:
+    - 시장 앞 수변 접안 공간
+    category: prop
+    features:
+    - 낮은 널빤지 접안대와 계류 말뚝
+    review_category: props
+  town-reedhaven-rowboat:
+    name: 갈대나루 교역 목선
+    uses:
+    - 나루터 곁 수면에 계류
+    category: prop
+    features:
+    - 노와 화물 바구니가 있는 소형 목선
+    review_category: props
 billboards:
 - texture_key: brine-bank-carrying-buckets-v1
   family: brine-bank-carrying-buckets-v1
@@ -1719,6 +1735,8 @@ billboards:
     management_id: image.scenery.town-coastal-stall-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   source_file:
@@ -1785,6 +1803,8 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 8
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/brine-bank.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/broken-quarry.yaml
@@ -1914,6 +1934,8 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
+    texture_key_occurrences: 1
+  - path: assets/maps/city_layouts/reedhaven.yaml
     texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-food-stall-v1.png
@@ -2235,8 +2257,6 @@ billboards:
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 4
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 2
   - path: assets/maps/city_layouts/stonewarm.yaml
@@ -2440,7 +2460,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 7
+    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/town-herb-rack-v1.png
     width: 101
@@ -2625,8 +2645,6 @@ billboards:
     management_id: image.scenery.town-layered-sign-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   source_file:
@@ -2694,7 +2712,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 8
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 7
+    texture_key_occurrences: 3
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 3
   - path: assets/maps/field_tiles/clover-bank.yaml
@@ -2954,7 +2972,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 7
+    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
@@ -3020,7 +3038,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 6
+    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/mist-lake.yaml
     texture_key_occurrences: 1
   source_file:
@@ -3082,9 +3100,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.town-reedhaven-fiber-workbench-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
   source_file:
     path: assets/billboards/town-reedhaven-fiber-workbench-v1.png
     width: 99
@@ -3138,6 +3154,102 @@ billboards:
     outdoorDisplayHeight: 60.0
     size_variant: 기본 변형
     occupied_tile_count: 2
+    movement: 통행 가능
+- texture_key: town-reedhaven-landing-pier-v1
+  family: town-reedhaven-landing-pier
+  asset_ref:
+    management_id: image.scenery.town-reedhaven-landing-pier-v1
+    version: '1'
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-reedhaven-landing-pier-v1.png
+    width: 512
+    height: 256
+    sha256: 6f281d7066ccabaa8cad53479dfaf47be477e9de4b4a5c3f43b70c3e4b723113
+  modeling:
+    purpose: 시장 앞 접안대
+    composition: 둑길과 연결하고 수면 쪽으로 돌출 배치한다.
+    shadow:
+      runtime_profile: billboard-contact-tile-length-v3
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-landing-pier-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 4
+    groundFootprintRows: 3
+    displayHeight: 420.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.3
+    shadowScaleY: 0.15
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 210.0
+    size_variant: 기본 변형
+    occupied_tile_count: 12
+    movement: 통행 가능
+- texture_key: town-reedhaven-rowboat-v1
+  family: town-reedhaven-rowboat
+  asset_ref:
+    management_id: image.scenery.town-reedhaven-rowboat-v1
+    version: '1'
+  map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 1
+  source_file:
+    path: assets/billboards/town-reedhaven-rowboat-v1.png
+    width: 512
+    height: 256
+    sha256: 545406fea1015a83f0e7b1f8bcf8684667ffccd83876c5706a18d02e1d52bfd7
+  modeling:
+    purpose: 나루터의 소규모 수운 표현
+    composition: 나루터 옆 얕은 물에 배치하고 선체와 접안대를 구분한다.
+    shadow:
+      runtime_profile: billboard-contact-tile-length-v3
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      contact_guidance: 줄기 군락 밑에 작고 옅은 접지 그림자를 둔다. 잎 전체를 검은 원으로 채우지 않는다.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+      placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
+        않게 검수한다.
+      guidance_only: true
+  placement:
+    status: 공용 속성 등록됨
+    anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.
+    vertical_classification: top
+    source: assets/maps/sprite-display-properties.yaml#data.town-reedhaven-rowboat-v1
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 3
+    groundFootprintRows: 1
+    displayHeight: 280.0
+    billboardBlocksMovement: false
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.3
+    shadowScaleY: 0.15
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+    outdoorDisplayHeight: 140.0
+    size_variant: 기본 변형
+    occupied_tile_count: 3
     movement: 통행 가능
 - texture_key: town-reedhaven-water-record-v1
   family: town-reedhaven-water-record
@@ -3730,7 +3842,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 16
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 15
+    texture_key_occurrences: 3
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 4
   - path: assets/maps/city_layouts/stonewarm.yaml

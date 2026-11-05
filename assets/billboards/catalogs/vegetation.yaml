@@ -2113,8 +2113,6 @@ billboards:
     management_id: image.scenery.mushroom-variant-2-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 6
   - path: assets/maps/field_tiles/lantern-wood.yaml
@@ -3031,7 +3029,7 @@ billboards:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 15
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 15
+    texture_key_occurrences: 2
   - path: assets/maps/city_layouts/saltford.yaml
     texture_key_occurrences: 4
   source_file:
@@ -3284,7 +3282,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 16
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/silver-marsh.yaml
     texture_key_occurrences: 8
   source_file:
@@ -3349,7 +3347,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 17
+    texture_key_occurrences: 9
   - path: assets/maps/field_tiles/pebble-shore.yaml
     texture_key_occurrences: 10
   source_file:

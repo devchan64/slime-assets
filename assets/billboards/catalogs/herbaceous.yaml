@@ -387,9 +387,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.blue-flower-variant-1-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
   source_file:
     path: assets/billboards/blue-flower-variant-1-v1.png
     width: 67
@@ -449,9 +447,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.blue-flower-variant-2-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 2
+  map_references: []
   source_file:
     path: assets/billboards/blue-flower-variant-2-v1.png
     width: 63
@@ -511,9 +507,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.blue-flower-variant-3-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
   source_file:
     path: assets/billboards/blue-flower-variant-3-v1.png
     width: 112
@@ -573,9 +567,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.blue-wildflowers-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
   source_file:
     path: assets/billboards/blue-wildflowers-v1.png
     width: 76
@@ -635,9 +627,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.broadleaf-variant-1-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
   source_file:
     path: assets/billboards/broadleaf-variant-1-v1.png
     width: 84
@@ -698,8 +688,6 @@ billboards:
     management_id: image.scenery.broadleaf-variant-2-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
@@ -1754,8 +1742,6 @@ billboards:
     management_id: image.scenery.fern-clump-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 21
   - path: assets/maps/field_tiles/grove.yaml
@@ -1828,8 +1814,6 @@ billboards:
     management_id: image.scenery.fern-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/ash-edge.yaml
     texture_key_occurrences: 10
   - path: assets/maps/field_tiles/fallen-canopy.yaml
@@ -1898,8 +1882,6 @@ billboards:
     management_id: image.scenery.fern-variant-2-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 12
   - path: assets/maps/field_tiles/grove.yaml
@@ -2240,8 +2222,6 @@ billboards:
     management_id: image.scenery.ivy-variant-1-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/fallen-canopy.yaml
     texture_key_occurrences: 9
   source_file:
@@ -2303,9 +2283,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.ivy-variant-2-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
   source_file:
     path: assets/billboards/ivy-variant-2-v1.png
     width: 111
@@ -2365,9 +2343,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.ivy-variant-3-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
   source_file:
     path: assets/billboards/ivy-variant-3-v1.png
     width: 68
@@ -2658,8 +2634,6 @@ billboards:
     management_id: image.scenery.orchard-chunky-fern-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/boar-ridge.yaml
     texture_key_occurrences: 12
   - path: assets/maps/field_tiles/moss-clearing.yaml
@@ -3184,8 +3158,6 @@ billboards:
     texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/sorrel-clump-v1.png
     width: 92
@@ -3248,8 +3220,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 2
   source_file:
     path: assets/billboards/sorrel-variant-1-v1.png
     width: 95
@@ -3312,8 +3282,6 @@ billboards:
   map_references:
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/sorrel-variant-2-v1.png
     width: 58
@@ -3373,9 +3341,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.sorrel-variant-3-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 1
+  map_references: []
   source_file:
     path: assets/billboards/sorrel-variant-3-v1.png
     width: 107
@@ -3826,8 +3792,6 @@ billboards:
     management_id: image.scenery.town-low-reeds-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 3
   - path: assets/maps/field_tiles/meadow.yaml
     texture_key_occurrences: 16
   - path: assets/maps/field_tiles/mist-lake.yaml
@@ -3896,6 +3860,8 @@ billboards:
     management_id: image.scenery.town-reedhaven-blue-marsh-iris-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/reedhaven.yaml
+    texture_key_occurrences: 2
   - path: assets/maps/field_tiles/meadow.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/silver-marsh.yaml
@@ -3962,7 +3928,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 18
+    texture_key_occurrences: 5
   - path: assets/maps/field_tiles/pebble-shore.yaml
     texture_key_occurrences: 20
   - path: assets/maps/field_tiles/silver-marsh.yaml
@@ -4027,9 +3993,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.town-reedhaven-reed-autumn-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 7
+  map_references: []
   source_file:
     path: assets/billboards/town-reedhaven-reed-autumn-v1.png
     width: 97
@@ -4091,8 +4055,6 @@ billboards:
     management_id: image.scenery.town-reedhaven-reed-flower-clump-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 14
   - path: assets/maps/field_tiles/silver-marsh.yaml
     texture_key_occurrences: 24
   source_file:
@@ -4157,7 +4119,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 5
+    texture_key_occurrences: 8
   source_file:
     path: assets/billboards/town-reedhaven-reed-silver-v1.png
     width: 80
@@ -4287,7 +4249,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 8
+    texture_key_occurrences: 4
   - path: assets/maps/field_tiles/mill-ridge.yaml
     texture_key_occurrences: 34
   - path: assets/maps/field_tiles/reed-crossing.yaml
@@ -4354,7 +4316,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 6
+    texture_key_occurrences: 12
   - path: assets/maps/field_tiles/granary-flats.yaml
     texture_key_occurrences: 9
   - path: assets/maps/field_tiles/meadow.yaml
@@ -4426,8 +4388,6 @@ billboards:
     management_id: image.scenery.town-reedhaven-river-sedge-tuft-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/reedhaven.yaml
-    texture_key_occurrences: 9
   - path: assets/maps/field_tiles/dawn-overlook.yaml
     texture_key_occurrences: 8
   - path: assets/maps/field_tiles/granary-flats.yaml
