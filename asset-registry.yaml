@@ -1587,7 +1587,7 @@ assets:
 - managementId: config.city-layouts.saltford
   version: v3-billboard-blocking-v1
   path: assets/maps/city_layouts/saltford.yaml
-  sha256: d4a084d9e899407b5e89ea38bdfdb39668a38726ac9cf11cad4f904c58f65a4d
+  sha256: d630501a5083fc41d4e34d6035dd2bc9242f2f6511b60a9d95ffe93f33deaca6
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/saltford.yaml
@@ -6422,7 +6422,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: de4455beaef0122d349abeac92012069c23fffa5e1a379b7411f1ae641b08432
+  sha256: f4175bb6f2be6b8da0c5e2e0346bc21c9f0c200eb4809dcdab6a8f7062b7df87
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10542,9 +10542,9 @@ assets:
 - managementId: image.scenery.stonewarm-limestone-outcrop-v1
   version: v1
   path: assets/billboards/stonewarm-limestone-outcrop-v1.png
-  width: 1774
-  height: 887
-  sha256: 8d0532bd9e4934ee1da9e87ade3179acb76ceff08e8acdaabc4df56859aa07cc
+  width: 512
+  height: 256
+  sha256: 1329b464bdb65ebce28536fa767615d97d0255d3dce9962a86e651e8f3b1227d
   source:
     repository: slime-workflow
     operation: ImageGen · 돌온재 썸네일 및 2x2 구도 가이드 참조
@@ -10794,3 +10794,226 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+- managementId: image.scenery.town-saltford-guild-guide-v1
+  version: v1
+  path: assets/buildings/town-saltford-guild-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 8fb1981c9dbb0a4704f783b3b0b0c082f1c763e459d32b6a008f6f0e1149abb1
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-saltford-bookshop-guide-v1
+  version: v1
+  path: assets/buildings/town-saltford-bookshop-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 9f2ac0aa6c10d8561aaa499abdf4fb6421d864eaf74e16c25e7cebffa3b26c93
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-saltford-inn-guide-v1
+  version: v1
+  path: assets/buildings/town-saltford-inn-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 79e052ba5cf4cf741bbd9b02dd5afc5ae2724fcaccb893316916c4c20b10efee
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-saltford-market-guide-v1
+  version: v1
+  path: assets/buildings/town-saltford-market-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 1db1349c1d62625c3c47be022eae4d74dc9be9095a27c42f00bbdb268ad3f93a
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-saltford-workshop-guide-v1
+  version: v1
+  path: assets/buildings/town-saltford-workshop-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 426af194f795e384ba93da0e060868ff6fed2e570fb623d94a0a228b451c5e99
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-saltford-cottage-thatch-guide-v1
+  version: v1
+  path: assets/buildings/town-saltford-cottage-thatch-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 363df826e64f453d8461cb72237bc02b5b8a6d5cf374b2bf2a12bba24f3a1801
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-saltford-cottage-shingle-guide-v1
+  version: v1
+  path: assets/buildings/town-saltford-cottage-shingle-guide-v1.png
+  width: 512
+  height: 512
+  sha256: db293231db39c277d66741796be789bfc8605f9c187e5fcb0643f880da4f49f0
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-saltford-warehouse-guide-v1
+  version: v1
+  path: assets/buildings/town-saltford-warehouse-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 5b86335407b2b96f2314f6483d596f727371d11fc3d9e5ee31f4ce7409cbc0b8
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-saltford-stone-salt-bed-v1
+  version: v1
+  path: assets/billboards/town-saltford-stone-salt-bed-v1.png
+  name: 소금여울 낮은 석재 건조판
+  width: 512
+  height: 284
+  sha256: 709a8b97eba192f88f80060991e889ac21d422b2122c786b99bc28d3c43f553e
+  source:
+    repository: codex-imagegen
+    artifact: exec-c5f72de8-8969-455a-b877-1268ba40a4d4.png
+    processing: 알파 5 이하 외곽 여백만 크롭, 내부 픽셀 보존
+- managementId: image.scenery.town-saltford-salt-packing-bench-v1
+  version: v1
+  path: assets/billboards/town-saltford-salt-packing-bench-v1.png
+  name: 소금여울 소금 계량 포장대
+  width: 512
+  height: 484
+  sha256: bb12484127e5e1ed9b647c26ade98932bed8d4624d36efee083c59cb6fe03e90
+  source:
+    repository: codex-imagegen
+    artifact: exec-b6e4a9e4-5321-4fde-a67c-6363c9d9a8cf.png
+    processing: 알파 5 이하 외곽 여백만 크롭, 내부 픽셀 보존
+- managementId: image.scenery.town-saltford-limestone-parapet-v1
+  version: v1
+  path: assets/billboards/town-saltford-limestone-parapet-v1.png
+  name: 소금여울 낮은 석재 난간
+  width: 512
+  height: 344
+  sha256: cc39fda5fadd2e22bb96c1597e9ac757c090dddc22f03f4c140156bc998bba74
+  source:
+    repository: codex-imagegen
+    artifact: exec-9fe163d1-9e33-4b22-ac58-d18d58a3ef29.png
+    processing: 알파 5 이하 외곽 여백만 크롭, 내부 픽셀 보존
+- managementId: image.tile.saltford-ashlar-wall-v1
+  version: v1
+  path: assets/tiles/terrain/blocked/saltford-ashlar-wall-v1.png
+  sha256: 555febd4e6b2e7c2fed6eab7ea9857689a69e7e9ea2642ef1d940b37cbea4811
+  width: 1254
+  height: 1254
+  source:
+    type: imagegen
+    generation_id: exec-e67ed28c-658e-49a3-9620-cbd06a0d192f
+    note: 소금여울 돌둑용 큰 크림색 석재 블록. 생성 원본 그대로 등록.
+- managementId: image.scenery.town-saltford-limestone-parapet-v1
+  version: source-sha256-cc39fda5fadd2e22bb96c1597e9ac757c090dddc22f03f4c140156bc998bba74
+  path: assets/billboards/versions/cc39fda5fadd2e22bb96c1597e9ac757c090dddc22f03f4c140156bc998bba74.png
+  name: 소금여울 낮은 석재 난간
+  width: 512
+  height: 344
+  sha256: cc39fda5fadd2e22bb96c1597e9ac757c090dddc22f03f4c140156bc998bba74
+  source:
+    repository: codex-imagegen
+    artifact: exec-9fe163d1-9e33-4b22-ac58-d18d58a3ef29.png
+    processing: 알파 5 이하 외곽 여백만 크롭, 내부 픽셀 보존
+- managementId: image.scenery.town-saltford-salt-packing-bench-v1
+  version: source-sha256-bb12484127e5e1ed9b647c26ade98932bed8d4624d36efee083c59cb6fe03e90
+  path: assets/billboards/versions/bb12484127e5e1ed9b647c26ade98932bed8d4624d36efee083c59cb6fe03e90.png
+  name: 소금여울 소금 계량 포장대
+  width: 512
+  height: 484
+  sha256: bb12484127e5e1ed9b647c26ade98932bed8d4624d36efee083c59cb6fe03e90
+  source:
+    repository: codex-imagegen
+    artifact: exec-b6e4a9e4-5321-4fde-a67c-6363c9d9a8cf.png
+    processing: 알파 5 이하 외곽 여백만 크롭, 내부 픽셀 보존
+- managementId: image.scenery.town-saltford-stone-salt-bed-v1
+  version: source-sha256-709a8b97eba192f88f80060991e889ac21d422b2122c786b99bc28d3c43f553e
+  path: assets/billboards/versions/709a8b97eba192f88f80060991e889ac21d422b2122c786b99bc28d3c43f553e.png
+  name: 소금여울 낮은 석재 건조판
+  width: 512
+  height: 284
+  sha256: 709a8b97eba192f88f80060991e889ac21d422b2122c786b99bc28d3c43f553e
+  source:
+    repository: codex-imagegen
+    artifact: exec-c5f72de8-8969-455a-b877-1268ba40a4d4.png
+    processing: 알파 5 이하 외곽 여백만 크롭, 내부 픽셀 보존
+- managementId: image.tile.saltford-cream-paving-v1
+  version: v1
+  path: assets/tiles/terrain/road/saltford-cream-paving-v1.png
+  sha256: d92997e6872abea1feb32bee7b39d29e6244e7b65a46754f758c4ff116c53936
+  width: 128
+  height: 128
+  source:
+    type: imagegen
+    generation_id: exec-a587652d-6ec0-481f-8107-8031f939706d
+    note: 소금여울 밝은 대형 석회암 판석 도로. 생성 원본.
+- managementId: image.tile.saltford-calcareous-earth-v1
+  version: v1
+  path: assets/tiles/terrain/non-road/saltford-calcareous-earth-v1.png
+  sha256: 6466ed58b318cb0b1cf9774d83daa368fd529826700e9c1e185815e79635f7aa
+  width: 128
+  height: 128
+  source:
+    type: imagegen
+    generation_id: exec-5adf2838-73fa-474c-b7b9-073b7cd3e1b0
+    note: 소금여울 저채도 석회질 흙 지면. 생성 원본.
+- managementId: image.scenery.town-saltford-grand-balance-v1
+  version: v1
+  path: assets/billboards/town-saltford-grand-balance-v1.png
+  name: 소금여울 광장 대형 양팔저울
+  width: 512
+  height: 256
+  sha256: a98d7fe3bb6fa5bd24a07145a6d6dcce495bb8b3864ae8839e98f6a666c6cd6e
+  source:
+    repository: codex-imagegen
+    artifact: exec-af854964-20a2-4990-997f-14d85cbd903f.png
+    processing: 투명 원본 보존, 공용 크기 조절로 512px 전달
+- managementId: image.scenery.town-saltford-shallow-drying-bed-v1
+  version: v1
+  path: assets/billboards/town-saltford-shallow-drying-bed-v1.png
+  name: 소금여울 낮은 소금 건조판
+  width: 512
+  height: 341
+  sha256: 092a0f4fd63397c3d4f89b29bc0928e2105410dea9a39ee31878582a522ee827
+  source:
+    repository: codex-imagegen
+    artifact: exec-f5ee4376-72de-499c-b9f4-d066655c1458.png
+    processing: 투명 원본 보존, 공용 크기 조절로 512px 전달
+- managementId: image.scenery.town-saltford-packing-canopy-v1
+  version: v1
+  path: assets/billboards/town-saltford-packing-canopy-v1.png
+  name: 소금여울 차양 포장 작업대
+  width: 512
+  height: 341
+  sha256: 891fbccd149c975a80e9caf89c21e3bb5fa0ad0f8e58f09fe0cca7707fcf5482
+  source:
+    repository: codex-imagegen
+    artifact: exec-512db154-a51d-4123-8e6a-c97fd4bdf329.png
+    processing: 투명 원본 보존, 공용 크기 조절로 512px 전달
+- managementId: image.scenery.town-saltford-harvest-tools-v1
+  version: v1
+  path: assets/billboards/town-saltford-harvest-tools-v1.png
+  name: 소금여울 소금 더미·바구니·긁개
+  width: 512
+  height: 256
+  sha256: 02ccfc210db61a92b68145ad48157daf90997eb2bf113c9ac58b010cda2ed6d5
+  source:
+    repository: codex-imagegen
+    artifact: exec-b3c2c433-c198-44e4-a621-8afe4b9fa9d9.png
+    processing: 투명 원본 보존, 공용 크기 조절로 512px 전달
+- managementId: image.scenery.town-saltford-shallow-drying-bed-v1
+  version: source-sha256-22fa534935b97546792d12a2f57242e7046bcd9f6f82962a79433672dad5aa1b
+  path: assets/billboards/versions/22fa534935b97546792d12a2f57242e7046bcd9f6f82962a79433672dad5aa1b.png
+  name: 소금여울 낮은 소금 건조판
+  width: 422
+  height: 225
+  sha256: 22fa534935b97546792d12a2f57242e7046bcd9f6f82962a79433672dad5aa1b
+  source:
+    repository: codex-imagegen
+    artifact: exec-f5ee4376-72de-499c-b9f4-d066655c1458.png
+    processing: 투명 원본 보존, 공용 크기 조절로 512px 전달

@@ -3901,7 +3901,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
-    texture_key_occurrences: 8
+    texture_key_occurrences: 3
   source_file:
     path: assets/billboards/town-saltford-salt-marsh-grass-v1.png
     width: 122
@@ -3964,7 +3964,7 @@ billboards:
     version: v1
   map_references:
   - path: assets/maps/city_layouts/saltford.yaml
-    texture_key_occurrences: 9
+    texture_key_occurrences: 1
   source_file:
     path: assets/billboards/town-saltford-sea-lavender-clump-v1.png
     width: 125
@@ -4026,6 +4026,8 @@ billboards:
     management_id: image.scenery.town-saltford-wind-bent-sedge-v1
     version: v1
   map_references:
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 1
   - path: assets/maps/field_tiles/salt-flat.yaml
     texture_key_occurrences: 9
   - path: assets/maps/field_tiles/wind-hills.yaml
@@ -4090,9 +4092,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.town-saltmarsh-plants-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/saltford.yaml
-    texture_key_occurrences: 2
+  map_references: []
   source_file:
     path: assets/billboards/town-saltmarsh-plants-v1.png
     width: 101

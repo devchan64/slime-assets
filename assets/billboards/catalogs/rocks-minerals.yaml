@@ -2887,6 +2887,8 @@ billboards:
     management_id: image.scenery.stonewarm-limestone-outcrop-v1
     version: source-sha256-1329b464bdb65ebce28536fa767615d97d0255d3dce9962a86e651e8f3b1227d
   map_references:
+  - path: assets/maps/city_layouts/saltford.yaml
+    texture_key_occurrences: 3
   - path: assets/maps/city_layouts/stonewarm.yaml
     texture_key_occurrences: 3
   source_file:

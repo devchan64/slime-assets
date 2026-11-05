@@ -81,24 +81,48 @@ data:
   town-reedhaven-workshop-guide-v1:
     anchorX: 0.441
     anchorY: 0.904
+  town-saltford-bookshop-guide-v1:
+    anchorX: 0.49841
+    anchorY: 0.72488
   town-saltford-bookshop-v2:
     anchorX: 0.55
     anchorY: 0.98
+  town-saltford-cottage-shingle-guide-v1:
+    anchorX: 0.4992
+    anchorY: 0.68022
+  town-saltford-cottage-thatch-guide-v1:
+    anchorX: 0.4992
+    anchorY: 0.67863
   town-saltford-dry-house-v2:
     anchorX: 0.58
     anchorY: 0.98
+  town-saltford-guild-guide-v1:
+    anchorX: 0.49841
+    anchorY: 0.73126
   town-saltford-guild-v2:
     anchorX: 0.52
     anchorY: 0.99
+  town-saltford-inn-guide-v1:
+    anchorX: 0.53429
+    anchorY: 0.73206
   town-saltford-inn-v2:
     anchorX: 0.59
     anchorY: 0.95
+  town-saltford-market-guide-v1:
+    anchorX: 0.49442
+    anchorY: 0.72408
   town-saltford-market-v2:
     anchorX: 0.62
     anchorY: 0.96
   town-saltford-shore-house-v2:
     anchorX: 0.42
     anchorY: 0.97
+  town-saltford-warehouse-guide-v1:
+    anchorX: 0.4992
+    anchorY: 0.72249
+  town-saltford-workshop-guide-v1:
+    anchorX: 0.49841
+    anchorY: 0.72169
   town-saltford-workshop-v2:
     anchorX: 0.49
     anchorY: 0.99
@@ -3049,6 +3073,62 @@ data:
     shadowScaleY: 1.07
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
+  town-saltford-grand-balance-v1:
+    anchorX: 0.0
+    anchorY: 0.45
+    groundFootprintColumns: 2
+    groundFootprintRows: 1
+    displayHeight: 320.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.7
+    shadowScaleY: 0.7
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  town-saltford-harvest-tools-v1:
+    anchorX: 0.0
+    anchorY: 0.45
+    groundFootprintColumns: 1
+    groundFootprintRows: 1
+    displayHeight: 140.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.7
+    shadowScaleY: 0.7
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  town-saltford-limestone-parapet-v1:
+    anchorX: -0.49
+    anchorY: -0.01
+    groundFootprintColumns: 3
+    groundFootprintRows: 2
+    displayHeight: 190.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  town-saltford-packing-canopy-v1:
+    anchorX: 0.0
+    anchorY: 0.45
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 340.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.7
+    shadowScaleY: 0.7
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
   town-saltford-pale-coastal-heather-v1:
     anchorX: 0.0
     anchorY: -0.3
@@ -3077,6 +3157,20 @@ data:
     shadowScaleY: 0.6
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
+  town-saltford-salt-packing-bench-v1:
+    anchorX: 0.0
+    anchorY: 0.5
+    groundFootprintColumns: 2
+    groundFootprintRows: 2
+    displayHeight: 260.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
   town-saltford-sea-lavender-clump-v1:
     anchorX: -0.01
     anchorY: -0.57
@@ -3089,6 +3183,34 @@ data:
     shadowOffsetRow: -0.21
     shadowScaleX: 0.57
     shadowScaleY: 0.58
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  town-saltford-shallow-drying-bed-v1:
+    anchorX: 0.0
+    anchorY: 0.0
+    groundFootprintColumns: 3
+    groundFootprintRows: 2
+    displayHeight: 200.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.75
+    shadowScaleY: 0.75
+    shadowCoordinateVersion: 2
+    shadowSizeVersion: 2
+  town-saltford-stone-salt-bed-v1:
+    anchorX: -0.25
+    anchorY: 0.5
+    groundFootprintColumns: 3
+    groundFootprintRows: 2
+    displayHeight: 220.0
+    billboardBlocksMovement: true
+    billboardAnchorMode: tile-intersection
+    shadowOffsetColumn: 0.0
+    shadowOffsetRow: 0.0
+    shadowScaleX: 0.8
+    shadowScaleY: 0.8
     shadowCoordinateVersion: 2
     shadowSizeVersion: 2
   town-saltford-thick-leaf-bush-v1:

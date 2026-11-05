@@ -1,9 +1,9 @@
 managementId: config.city-layouts.saltford
 data:
-  rows: 24
+  rows: 36
   cityId: saltford
-  columns: 24
-  version: 16
+  columns: 32
+  version: 36
   safeTown: true
   buildings:
   - id: saltford-guild
@@ -13,14 +13,14 @@ data:
     floors: 1
     height: 3
     origin:
-      row: 4
-      column: 4
+      row: 6
+      column: 3
     sprite:
-      textureKey: town-saltford-guild-v2
-      contentWidth: 0.824536
+      textureKey: town-saltford-guild-guide-v1
+      contentWidth: 0.475
     entrance:
-      row: 7
-      column: 5
+      row: 9
+      column: 4
     facilityId: saltford-guild
   - id: saltford-bookshop
     name: 서점
@@ -29,14 +29,14 @@ data:
     floors: 1
     height: 3
     origin:
-      row: 4
-      column: 16
+      row: 1
+      column: 10
     sprite:
-      textureKey: town-saltford-bookshop-v2
-      contentWidth: 0.733238
+      textureKey: town-saltford-bookshop-guide-v1
+      contentWidth: 0.474
     entrance:
-      row: 7
-      column: 17
+      row: 4
+      column: 11
     facilityId: saltford-bookshop
   - id: saltford-inn
     name: 여관
@@ -45,14 +45,14 @@ data:
     floors: 1
     height: 3
     origin:
-      row: 16
-      column: 3
+      row: 1
+      column: 2
     sprite:
-      textureKey: town-saltford-inn-v2
-      contentWidth: 0.720399
+      textureKey: town-saltford-inn-guide-v1
+      contentWidth: 0.544
     entrance:
-      row: 17
-      column: 7
+      row: 2
+      column: 6
     facilityId: saltford-inn
   - id: saltford-workshop
     name: 대장간·공방
@@ -61,14 +61,14 @@ data:
     floors: 1
     height: 3
     origin:
-      row: 16
-      column: 16
+      row: 7
+      column: 25
     sprite:
-      textureKey: town-saltford-workshop-v2
-      contentWidth: 0.855207
+      textureKey: town-saltford-workshop-guide-v1
+      contentWidth: 0.475
     entrance:
-      row: 17
-      column: 19
+      row: 8
+      column: 28
     facilityId: saltford-workshop
   - id: saltford-market
     name: 시장
@@ -77,14 +77,14 @@ data:
     floors: 1
     height: 3
     origin:
-      row: 10
-      column: 16
-    sprite:
-      textureKey: town-saltford-market-v2
-      contentWidth: 0.891557
-    entrance:
       row: 13
-      column: 17
+      column: 20
+    sprite:
+      textureKey: town-saltford-market-guide-v1
+      contentWidth: 0.47
+    entrance:
+      row: 16
+      column: 21
     facilityId: saltford-market
   - id: saltford-shore-house
     kind: residence
@@ -94,14 +94,14 @@ data:
     floors: 2
     height: 2
     origin:
-      row: 3
-      column: 8
+      row: 1
+      column: 19
     sprite:
-      textureKey: town-saltford-shore-house-v2
-      contentWidth: 0.750357
+      textureKey: town-saltford-cottage-thatch-guide-v1
+      contentWidth: 0.32
     entrance:
-      row: 5
-      column: 8
+      row: 3
+      column: 20
     facilityId: null
   - id: saltford-dry-house
     kind: residence
@@ -111,14 +111,14 @@ data:
     floors: 2
     height: 2
     origin:
-      row: 3
-      column: 12
+      row: 1
+      column: 25
     sprite:
-      textureKey: town-saltford-dry-house-v2
-      contentWidth: 0.733238
+      textureKey: town-saltford-cottage-shingle-guide-v1
+      contentWidth: 0.32
     entrance:
-      row: 5
-      column: 12
+      row: 3
+      column: 26
     facilityId: null
   - id: saltford-residence-03
     kind: residence
@@ -128,14 +128,14 @@ data:
     floors: 2
     height: 2
     origin:
-      row: 1
-      column: 1
+      row: 7
+      column: 8
     sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
+      textureKey: town-saltford-cottage-thatch-guide-v1
+      contentWidth: 0.32
     entrance:
-      row: 3
-      column: 1
+      row: 9
+      column: 9
     facilityId: null
   - id: saltford-residence-04
     kind: residence
@@ -145,14 +145,14 @@ data:
     floors: 2
     height: 2
     origin:
-      row: 1
-      column: 17
+      row: 5
+      column: 22
     sprite:
-      textureKey: town-common-timber-house-v2
-      contentWidth: 0.706134
+      textureKey: town-saltford-cottage-shingle-guide-v1
+      contentWidth: 0.32
     entrance:
-      row: 3
-      column: 17
+      row: 7
+      column: 23
     facilityId: null
   - id: saltford-residence-05
     kind: residence
@@ -162,14 +162,14 @@ data:
     floors: 2
     height: 2
     origin:
-      row: 1
-      column: 21
+      row: 7
+      column: 19
     sprite:
-      textureKey: town-saltford-shore-house-v2
-      contentWidth: 0.750357
+      textureKey: town-saltford-cottage-thatch-guide-v1
+      contentWidth: 0.32
     entrance:
-      row: 3
-      column: 21
+      row: 9
+      column: 20
     facilityId: null
   - id: saltford-residence-06
     kind: residence
@@ -179,14 +179,14 @@ data:
     floors: 2
     height: 2
     origin:
-      row: 8
-      column: 1
+      row: 11
+      column: 3
     sprite:
-      textureKey: town-common-stone-house-v2
-      contentWidth: 0.706847
+      textureKey: town-saltford-cottage-shingle-guide-v1
+      contentWidth: 0.32
     entrance:
-      row: 10
-      column: 1
+      row: 13
+      column: 4
     facilityId: null
   - id: saltford-residence-07
     kind: residence
@@ -196,14 +196,14 @@ data:
     floors: 2
     height: 2
     origin:
-      row: 8
-      column: 13
+      row: 12
+      column: 7
     sprite:
-      textureKey: town-common-timber-house-v2
-      contentWidth: 0.706134
+      textureKey: town-saltford-cottage-thatch-guide-v1
+      contentWidth: 0.32
     entrance:
-      row: 10
-      column: 13
+      row: 14
+      column: 8
     facilityId: null
   - id: saltford-residence-08
     kind: residence
@@ -213,557 +213,1038 @@ data:
     floors: 2
     height: 2
     origin:
-      row: 8
-      column: 20
+      row: 14
+      column: 26
     sprite:
-      textureKey: town-saltford-dry-house-v2
-      contentWidth: 0.733238
+      textureKey: town-saltford-cottage-shingle-guide-v1
+      contentWidth: 0.32
     entrance:
-      row: 10
-      column: 20
+      row: 16
+      column: 27
+    facilityId: null
+  - id: saltford-salt-warehouse
+    kind: residence
+    name: 소금 창고
+    width: 3
+    facing: south
+    floors: 1
+    height: 3
+    origin:
+      row: 17
+      column: 7
+    sprite:
+      textureKey: town-saltford-warehouse-guide-v1
+      contentWidth: 0.475
+    entrance:
+      row: 20
+      column: 8
     facilityId: null
   startPoint:
-    row: 12
-    column: 11
+    row: 14
+    column: 15
   connections:
   - id: saltford-to-brine-bank
-    row: 12
+    row: 15
     column: 0
     target: brine-bank
     direction: west
   - id: saltford-to-salt-flat
     row: 0
-    column: 12
+    column: 15
     target: salt-flat
     direction: north
   elevations:
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
+  - - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  - - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  - - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  - - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  - - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  - - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+  - - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+  - - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+  - - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+  - - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+    - 7
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  - - 1
+    - 1
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 1
+  - - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 5
+    - 5
+    - 5
+    - 5
+    - 1
+  - - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
     - 1
     - 4
     - 4
     - 4
     - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 2
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 3
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
+    - 1
   - - 1
-    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
     - 3
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 0
-  - - 0
-    - 2
     - 3
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
+    - 3
+    - 3
+    - 1
+  - - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+  - - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
     - 0
   - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
     - 0
   - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
     - 0
   - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
     - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
     - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
     - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
     - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
     - 0
-  - - 0
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
-    - 4
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
     - 0
   - - 0
     - 0
@@ -783,6 +1264,14 @@ data:
     - 0
     - 0
     - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
     - 0
     - 0
     - 0
@@ -790,6 +1279,110 @@ data:
     - 0
     - 0
   - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 0
     - 0
     - 0
@@ -814,595 +1407,313 @@ data:
     - 0
     - 0
   terrainRows:
-  - wdddddddddddpddddddddddw
-  - wdddddddddddpddddddddddw
-  - wdddddddddpppddddddddddw
-  - wpddddddddppdddddpppppdw
-  - wpddddddddppdddddddpdddw
-  - wpddddddpppppddddddpdddw
-  - wpddddddddppdddddddpdddw
-  - wppppppdddppppppppppdddw
-  - wdddpppdddppdddddddpdddw
-  - wdddpppdddppdddddddpdddw
-  - wpddpppdddppppdddddppddw
-  - wpddpdpdddpppddddddpdddw
-  - ppppppppppppppppdddppppw
-  - wppppppppppppppppppppppw
-  - wddddddpddppdddddddpdddw
-  - wddddddpddppdddddddpdddw
-  - wddddddpddppdddddddpdddw
-  - wddddddpddppdddddddpdddw
-  - wdddddddddppdddddddpdddw
-  - wdddddddddppdddddddpdddw
-  - wppppppppppppppppppppppw
-  - wdddddddddppdddddddddddw
-  - wwwwwwwwwwwwwwwwwwwwwwww
-  - wwwwwwwwwwwwwwwwwwwwwwww
+  - ggddddddddddddpppggddddddddddggg
+  - ggddddddddddddpppggdddddddddgggg
+  - ggddddpdddddddpppggdddddddddgggg
+  - ggddddpppdddddpppggdpppppppdgggg
+  - gggdddpppppppdpppggdpppppppppggg
+  - ggdddddddddddppppgggddddddpppggg
+  - ggddddddddddpppppgdddddddddppggg
+  - ggdddddddddpppppggddddddddddppgg
+  - ggdddddddddppppdggddddddddddppgg
+  - ggdgdgggdddpppddddddddgdddddppgg
+  - gggggggggddpppddddddgggggddddggg
+  - dddddgggdddpppddddddddgddddddggg
+  - dddddddddddppppddddddddddddddggg
+  - ddddppdddddppppddddddddddddddggg
+  - ppppppppppppppppdddddddddddddggg
+  - ppppppppppppppppppdddddddddddggg
+  - pppppppppppppppppppppppddppppggg
+  - dgggggddddddddpdppppppppppdddggg
+  - ggggggddddddddddpppppppppppddggg
+  - gggggggdddddddddddddpppdpppppdgd
+  - dgggggddddddvvvvvvddddddppppppdd
+  - vvddddddddvvvvvvvvvvvvdddpppppvv
+  - vvvvvvvvvvvvvvvvvvvvvvvvvvvpppvv
+  - vvvvvvvvvvvvvvvvvvvvvvvvvvvpppvv
+  - vvvvvvvvvvvvvvvvvvvvvvvvvvvpppvv
+  - vvvvvvvvppppppppvvvvvvvvvpppppvv
+  - vvvvvvvvppppppppppppppppppppppvv
+  - vvvvvvvvpppvppppppppppppppppppvv
+  - wvvvvvvvvvvvvvpppppppppppppvvvvv
+  - wwvvvvvvvvwwvvvvvvvvvvvvvvvvvvvw
+  - wwwvvvvvvwwwwvvvvvvvvvvvvwwwvvww
+  - wwwwwvvvwwwwwwvvvvvvvvvvwwwwwwww
+  - wwwwwwwwwwwwwwwvvvvvvwwwwwwwwwww
+  - wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  - wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  - wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
   objects:
-  - id: saltford-life-scene
-    position:
-      column: 8
-      row: 10
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-cargo-weighing-v1
-  - id: saltford-life-scene-addition
-    position:
-      column: 14
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-wet-cargo-drying-v1
-  - id: saltford-prop-4
-    position:
-      column: 6
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-record-chest-v1
-  - id: saltford-prop-9
-    position:
-      column: 21
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-coastal-stall-v1
-  - id: saltford-prop-12
-    position:
-      column: 12
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-fish-rack-v1
-  - id: saltford-prop-13
-    position:
-      column: 20
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-repair-rack-v1
-  - id: saltford-garden-16
-    position:
-      column: 17
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltmarsh-plants-v1
-  - id: saltford-garden-23
-    position:
-      column: 3
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltmarsh-plants-v1
-  - id: saltford-prop-1
-    position:
-      column: 8
-      row: 16
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-layered-sign-v1
-  - id: saltford-prop-2
-    position:
-      column: 18
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-rope-crates-v1
-  - id: saltford-prop-3
-    position:
-      column: 8
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-ground-lantern-v1
-  - id: saltford-prop-5
-    position:
-      column: 9
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-wood-bench-v1
-  - id: saltford-prop-8
-    position:
-      column: 8
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-ground-lantern-v1
-  - id: saltford-prop-11
-    position:
-      column: 18
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-rope-crates-v1
-  - id: saltford-prop-14
-    position:
-      column: 20
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-rope-crates-v1
-  - id: saltford-prop-15
-    position:
-      column: 4
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-prop-18
-    position:
-      column: 3
-      row: 6
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-low-fence-v1
-  - id: saltford-salt-marsh-grass
-    position:
-      column: 19
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-salt-marsh-grass-v1
-  - id: saltford-pale-coastal-heather
-    position:
-      column: 22
-      row: 8
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-pale-coastal-heather-v1
-  - id: saltford-home-1-town-wood-bench-v1
-    position:
-      column: 8
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-wood-bench-v1
-  - id: saltford-home-3-town-herb-planter-v1
-    position:
-      column: 3
-      row: 1
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-herb-planter-v1
-  - id: saltford-home-4-town-wood-bench-v1
-    position:
-      column: 16
-      row: 1
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-wood-bench-v1
-  - id: saltford-home-6-town-herb-planter-v1
-    position:
-      column: 1
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-herb-planter-v1
-  - id: saltford-home-7-town-wood-bench-v1
-    position:
-      column: 15
-      row: 9
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-wood-bench-v1
-  - id: saltford-atmosphere-001
-    position:
-      column: 22
-      row: 7
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-004
+  - id: saltford-rework-0
     position:
       column: 2
-      row: 21
+      row: 23
     kind: decoration
     tileAnchor: center
-    textureKey: town-saltford-thick-leaf-bush-v1
-  - id: saltford-atmosphere-007
-    position:
-      column: 22
-      row: 11
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-sea-lavender-clump-v1
-  - id: saltford-atmosphere-010
+    textureKey: town-saltford-shallow-drying-bed-v1
+  - id: saltford-rework-1
     position:
       column: 6
-      row: 19
+      row: 23
     kind: decoration
     tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-atmosphere-013
+    textureKey: town-saltford-shallow-drying-bed-v1
+  - id: saltford-rework-2
     position:
-      column: 20
-      row: 2
+      column: 4
+      row: 27
     kind: decoration
     tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-016
+    textureKey: town-saltford-shallow-drying-bed-v1
+  - id: saltford-rework-3
+    position:
+      column: 17
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-shallow-drying-bed-v1
+  - id: saltford-rework-4
+    position:
+      column: 21
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-shallow-drying-bed-v1
+  - id: saltford-rework-5
+    position:
+      column: 19
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-shallow-drying-bed-v1
+  - id: saltford-rework-6
+    position:
+      column: 11
+      row: 18
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-grand-balance-v1
+  - id: saltford-rework-7
     position:
       column: 15
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-thick-leaf-bush-v1
-  - id: saltford-atmosphere-019
-    position:
-      column: 22
-      row: 9
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-sea-lavender-clump-v1
-  - id: saltford-atmosphere-020
-    position:
-      column: 5
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-atmosphere-022
-    position:
-      column: 21
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-salt-marsh-grass-v1
-  - id: saltford-atmosphere-025
-    position:
-      column: 19
-      row: 1
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-low-fence-v1
-  - id: saltford-atmosphere-028
-    position:
-      column: 7
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-thick-leaf-bush-v1
-  - id: saltford-atmosphere-030
-    position:
-      column: 7
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-atmosphere-031
-    position:
-      column: 22
-      row: 4
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-sea-lavender-clump-v1
-  - id: saltford-atmosphere-034
-    position:
-      column: 13
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-sea-lavender-clump-v1
-  - id: saltford-atmosphere-037
-    position:
-      column: 21
-      row: 7
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-040
-    position:
-      column: 6
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-atmosphere-043
-    position:
-      column: 18
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-sea-lavender-clump-v1
-  - id: saltford-atmosphere-046
-    position:
-      column: 5
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-salt-marsh-grass-v1
-  - id: saltford-atmosphere-049
-    position:
-      column: 19
-      row: 2
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-050
-    position:
-      column: 3
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-atmosphere-052
-    position:
-      column: 12
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-thick-leaf-bush-v1
-  - id: saltford-atmosphere-055
-    position:
-      column: 20
-      row: 7
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-herb-planter-v1
-  - id: saltford-atmosphere-058
-    position:
-      column: 16
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-salt-marsh-grass-v1
-  - id: saltford-atmosphere-060
-    position:
-      column: 9
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-atmosphere-061
-    position:
-      column: 22
       row: 17
     kind: decoration
     tileAnchor: center
-    textureKey: town-saltford-sea-lavender-clump-v1
-  - id: saltford-atmosphere-064
+    textureKey: town-saltford-packing-canopy-v1
+  - id: saltford-rework-8
     position:
-      column: 4
-      row: 21
+      column: 10
+      row: 17
     kind: decoration
     tileAnchor: center
-    textureKey: town-saltford-thick-leaf-bush-v1
-  - id: saltford-atmosphere-067
+    textureKey: town-salt-barrels-v1
+  - id: saltford-rework-9
     position:
-      column: 20
-      row: 1
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-sea-lavender-clump-v1
-  - id: saltford-atmosphere-070
-    position:
-      column: 21
-      row: 18
+      column: 10
+      row: 19
     kind: decoration
     tileAnchor: center
     textureKey: town-rope-crates-v1
-  - id: saltford-atmosphere-073
+  - id: saltford-rework-10
     position:
-      column: 22
-      row: 6
+      column: 24
+      row: 25
     kind: decoration
     tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-076
+    textureKey: town-handcart-v1
+  - id: saltford-rework-11
     position:
-      column: 14
-      row: 21
+      column: 8
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-harvest-tools-v1
+  - id: saltford-rework-12
+    position:
+      column: 23
+      row: 29
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-harvest-tools-v1
+  - id: saltford-rework-13
+    position:
+      column: 23
+      row: 19
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-wet-cargo-drying-v1
+  - id: saltford-rework-14
+    position:
+      column: 1
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-herb-planter-v1
+  - id: saltford-rework-15
+    position:
+      column: 10
+      row: 11
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-wood-bench-v1
+  - id: saltford-rework-16
+    position:
+      column: 1
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: saltford-rework-17
+    position:
+      column: 30
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: orchard-young-tree-v2
+  - id: saltford-rework-18
+    position:
+      column: 6
+      row: 10
     kind: decoration
     tileAnchor: center
     textureKey: town-saltford-thick-leaf-bush-v1
-  - id: saltford-atmosphere-079
+  - id: saltford-rework-19
     position:
-      column: 22
-      row: 18
+      column: 29
+      row: 2
     kind: decoration
     tileAnchor: center
-    textureKey: town-saltford-sea-lavender-clump-v1
-  - id: saltford-atmosphere-080
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-rework-20
+    position:
+      column: 1
+      row: 26
+    kind: decoration
+    tileAnchor: center
+    textureKey: stonewarm-limestone-outcrop-v1
+  - id: saltford-rework-21
+    position:
+      column: 11
+      row: 27
+    kind: decoration
+    tileAnchor: center
+    textureKey: stonewarm-limestone-outcrop-v1
+  - id: saltford-rework-22
+    position:
+      column: 27
+      row: 28
+    kind: decoration
+    tileAnchor: center
+    textureKey: stonewarm-limestone-outcrop-v1
+  - id: saltford-courtyard-23
+    position:
+      column: 18
+      row: 3
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-thick-leaf-bush-v1
+  - id: saltford-courtyard-24
+    position:
+      column: 30
+      row: 17
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
+  - id: saltford-courtyard-25
     position:
       column: 2
       row: 19
     kind: decoration
     tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-atmosphere-082
+    textureKey: town-saltford-sea-lavender-clump-v1
+  - id: saltford-courtyard-26
     position:
-      column: 20
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-salt-marsh-grass-v1
-  - id: saltford-atmosphere-085
-    position:
-      column: 22
+      column: 23
       row: 10
     kind: decoration
     tileAnchor: center
-    textureKey: town-low-fence-v1
-  - id: saltford-atmosphere-088
-    position:
-      column: 8
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-090
+    textureKey: town-herb-planter-v1
+  - id: saltford-courtyard-27
     position:
       column: 6
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-atmosphere-091
-    position:
-      column: 21
-      row: 6
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-094
-    position:
-      column: 12
-      row: 18
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-salt-marsh-grass-v1
-  - id: saltford-atmosphere-097
-    position:
-      column: 17
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-100
-    position:
-      column: 21
-      row: 19
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-rope-crates-v1
-  - id: saltford-atmosphere-103
-    position:
-      column: 22
-      row: 5
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-sea-lavender-clump-v1
-  - id: saltford-atmosphere-106
-    position:
-      column: 1
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-109
-    position:
-      column: 21
       row: 11
     kind: decoration
     tileAnchor: center
-    textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-atmosphere-110
+    textureKey: town-saltford-thick-leaf-bush-v1
+  - id: saltford-courtyard-28
     position:
-      column: 9
-      row: 18
+      column: 18
+      row: 10
     kind: decoration
     tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-atmosphere-112
+    textureKey: town-wood-bench-v1
+  - id: saltford-courtyard-29
     position:
-      column: 9
-      row: 21
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-saltford-salt-marsh-grass-v1
-  - id: saltford-atmosphere-115
-    position:
-      column: 15
+      column: 17
       row: 1
     kind: decoration
     tileAnchor: center
-    textureKey: town-herb-planter-v1
-  - id: saltford-atmosphere-118
+    textureKey: orchard-young-tree-v2
+  - id: saltford-transition-30
     position:
-      column: 18
-      row: 21
+      column: 1
+      row: 18
     kind: decoration
     tileAnchor: center
-    textureKey: town-saltford-salt-marsh-grass-v1
-  - id: saltford-atmosphere-120
+    textureKey: town-saltford-pale-coastal-heather-v1
+  - id: saltford-transition-31
     position:
-      column: 22
+      column: 4
       row: 19
     kind: decoration
     tileAnchor: center
-    textureKey: town-rope-crates-v1
-  - id: saltford-atmosphere-121
+    textureKey: town-saltford-thick-leaf-bush-v1
+  - id: saltford-transition-32
     position:
-      column: 20
-      row: 4
+      column: 17
+      row: 7
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-pale-coastal-heather-v1
+  - id: saltford-transition-33
+    position:
+      column: 30
+      row: 12
     kind: decoration
     tileAnchor: center
     textureKey: town-saltford-coastal-silver-shrub-v1
-  - id: saltford-dry-storage-01
+  - id: saltford-transition-34
     position:
-      column: 12
-      row: 14
+      column: 9
+      row: 23
     kind: decoration
     tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-dry-storage-02
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-transition-35
     position:
-      column: 13
-      row: 14
+      column: 10
+      row: 24
     kind: decoration
     tileAnchor: center
-    textureKey: town-rope-crates-v1
-  - id: saltford-dry-storage-03
-    position:
-      column: 14
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-dry-storage-04
-    position:
-      column: 15
-      row: 14
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-rope-crates-v1
-  - id: saltford-dry-storage-05
-    position:
-      column: 12
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-dry-storage-06
-    position:
-      column: 13
-      row: 15
-    kind: decoration
-    tileAnchor: center
-    textureKey: town-rope-crates-v1
-  - id: saltford-dry-storage-07
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-transition-36
     position:
       column: 14
-      row: 15
+      row: 24
     kind: decoration
     tileAnchor: center
-    textureKey: town-salt-barrels-v1
-  - id: saltford-dry-storage-08
+    textureKey: town-saltford-wind-bent-sedge-v1
+  - id: saltford-transition-37
     position:
-      column: 15
-      row: 15
+      column: 25
+      row: 23
     kind: decoration
     tileAnchor: center
-    textureKey: town-rope-crates-v1
+    textureKey: town-saltford-salt-marsh-grass-v1
+  - id: saltford-transition-38
+    position:
+      column: 0
+      row: 23
+    kind: decoration
+    tileAnchor: center
+    textureKey: town-saltford-coastal-silver-shrub-v1
