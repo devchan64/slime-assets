@@ -5302,6 +5302,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-saltford-guild-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.saltford-bookshop
   version: v2
   path: assets/buildings/town-saltford-bookshop-v2.png
@@ -5312,6 +5313,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-saltford-bookshop-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.saltford-inn
   version: v2
   path: assets/buildings/town-saltford-inn-v2.png
@@ -5322,6 +5324,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-saltford-inn-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.saltford-workshop
   version: v2
   path: assets/buildings/town-saltford-workshop-v2.png
@@ -5332,6 +5335,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-saltford-workshop-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.saltford-market
   version: v2
   path: assets/buildings/town-saltford-market-v2.png
@@ -5342,6 +5346,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-saltford-market-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town-delivery-crates-v1
   version: v1
   path: assets/billboards/town-delivery-crates-v1.png
@@ -5430,6 +5435,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-2d2bbdc8-a75f-4661-96bc-9c3293ff4672.png
     processing: 투명 배경 생성 원본; 마을 공용 빌보드
+    lifecycle_status: retired
 - managementId: image.scenery.town-grindstone-v1
   version: v1
   path: assets/billboards/town-grindstone-v1.png
@@ -5651,6 +5657,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-36e85fac-2339-4c58-9eab-07e0a8773bec.png
     processing: 투명 배경 생성 원본; 마을 공용 빌보드
+    lifecycle_status: retired
 - managementId: image.scenery.town-iseulon-jelly-counter-v1
   version: v1
   path: assets/billboards/town-iseulon-jelly-counter-v1.png
@@ -5859,6 +5866,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-saltford-shore-house-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.saltford-dry-house
   version: v2
   path: assets/buildings/town-saltford-dry-house-v2.png
@@ -5869,6 +5877,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-saltford-dry-house-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town-iseulon-round-rose-shrub-v1
   version: v1
   path: assets/billboards/town-iseulon-round-rose-shrub-v1.png
@@ -6253,6 +6262,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-common-timber-house-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town.common-stone-house
   version: v2
   path: assets/buildings/town-common-stone-house-v2.png
@@ -6263,6 +6273,7 @@ assets:
     repository: codex-imagegen
     operation: 바닥 그리드 직교투영 베이스라인 재생성
     artifact: town-common-stone-house-v2.png
+    lifecycle_status: retired
 - managementId: image.scenery.town-reedhaven-reed-tall-v1
   version: v1
   path: assets/billboards/town-reedhaven-reed-tall-v1.png
@@ -6422,7 +6433,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: f4175bb6f2be6b8da0c5e2e0346bc21c9f0c200eb4809dcdab6a8f7062b7df87
+  sha256: 21a905340d17b531a6451beb28d0efe9026bc30a1963320f614a66bf4f5c7353
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10920,6 +10931,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-9fe163d1-9e33-4b22-ac58-d18d58a3ef29.png
     processing: 알파 5 이하 외곽 여백만 크롭, 내부 픽셀 보존
+    lifecycle_status: retired
 - managementId: image.scenery.town-saltford-salt-packing-bench-v1
   version: source-sha256-bb12484127e5e1ed9b647c26ade98932bed8d4624d36efee083c59cb6fe03e90
   path: assets/billboards/versions/bb12484127e5e1ed9b647c26ade98932bed8d4624d36efee083c59cb6fe03e90.png
@@ -10931,6 +10943,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-b6e4a9e4-5321-4fde-a67c-6363c9d9a8cf.png
     processing: 알파 5 이하 외곽 여백만 크롭, 내부 픽셀 보존
+    lifecycle_status: retired
 - managementId: image.scenery.town-saltford-stone-salt-bed-v1
   version: source-sha256-709a8b97eba192f88f80060991e889ac21d422b2122c786b99bc28d3c43f553e
   path: assets/billboards/versions/709a8b97eba192f88f80060991e889ac21d422b2122c786b99bc28d3c43f553e.png
@@ -10942,6 +10955,7 @@ assets:
     repository: codex-imagegen
     artifact: exec-c5f72de8-8969-455a-b877-1268ba40a4d4.png
     processing: 알파 5 이하 외곽 여백만 크롭, 내부 픽셀 보존
+    lifecycle_status: retired
 - managementId: image.tile.saltford-cream-paving-v1
   version: v1
   path: assets/tiles/terrain/road/saltford-cream-paving-v1.png
