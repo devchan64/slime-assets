@@ -649,8 +649,6 @@ billboards:
     management_id: image.scenery.berry-variant-2-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 1
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 1
   - path: assets/maps/field_tiles/moss-clearing.yaml
@@ -2830,9 +2828,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.town-grainstead-green-field-hedge-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 26
+  map_references: []
   source_file:
     path: assets/billboards/town-grainstead-green-field-hedge-v1.png
     width: 123
@@ -2894,8 +2890,6 @@ billboards:
     management_id: image.scenery.town-grainstead-hazel-leaf-shrub-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 17
   - path: assets/maps/field_tiles/clover-bank.yaml
     texture_key_occurrences: 4
   - path: assets/maps/field_tiles/pebble-shore.yaml
@@ -2960,9 +2954,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.town-grainstead-wild-raspberry-bush-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 5
+  map_references: []
   source_file:
     path: assets/billboards/town-grainstead-wild-raspberry-bush-v1.png
     width: 124
@@ -3024,8 +3016,6 @@ billboards:
     management_id: image.scenery.town-herb-planter-v1
     version: v1
   map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 5
   - path: assets/maps/city_layouts/iseulon.yaml
     texture_key_occurrences: 15
   - path: assets/maps/city_layouts/reedhaven.yaml
@@ -3857,9 +3847,7 @@ billboards:
   asset_ref:
     management_id: image.scenery.town-vegetable-planter-v1
     version: v1
-  map_references:
-  - path: assets/maps/city_layouts/grainstead.yaml
-    texture_key_occurrences: 3
+  map_references: []
   source_file:
     path: assets/billboards/town-vegetable-planter-v1.png
     width: 110

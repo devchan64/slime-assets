@@ -1579,7 +1579,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3-grainstead-v19-billboard-blocking-v1
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: 3677c80aa0750f744c028267a54a19214c08117fda65a9e301022d2d1f5eda72
+  sha256: c9f3a1c9135f79a39b416a8db3486ffb9adb56f1978a32ab974923aa1a2d5c75
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -6393,7 +6393,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 579b3dcd69947ed42cf4e92bfefe38520fa03789ee83a4363fb6d906eb49967e
+  sha256: 5b54a003ac199f9bcb0b5ba9f7ccc43320ae6427e39a85570cb08dd6addbab67
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -6746,15 +6746,15 @@ assets:
     artifact: exec-7f86773a-03e6-48ad-8251-655b8893105b.png
     processing: RGBA 투명도 보존, 비율 유지 축소 및 투명 여백
 - managementId: image.ui.world-map.grainstead
-  version: v1
-  path: assets/ui/world-map/thumbnails/grainstead-v1.png
+  version: v2
+  path: assets/ui/world-map/thumbnails/grainstead-v2.png
   name: 곡온벌 월드맵 썸네일
   width: 256
   height: 256
-  sha256: 5d0cb1210b26d4a4258741d55dc1c46b2798d13e17b7f47fe29b3d7f9c309451
+  sha256: b8d8ef10985b7bb1ecb2bc307270ea7d19dde39959b5cbbf31a333f4fd1a7e84
   source:
     repository: codex-imagegen
-    artifact: exec-293eac89-a940-4e70-8dde-213fbe1e11cf.png
+    artifact: exec-8d44f30f-ab32-4e44-97d7-7c544c23d8e7.png
     processing: 사용자 요청으로 채택한 256×256 월드맵 특징 썸네일; Lanczos 축소
 - managementId: image.ui.world-map.saltford
   version: v1
@@ -7078,7 +7078,7 @@ assets:
 - managementId: config.ui.world-map.thumbnails
   version: v1
   path: assets/ui/world-map/thumbnails.yaml
-  sha256: 9695ff9cb1d0fd268d2e1877df9230fb0694be79d4a35827cd6567d7d3326a68
+  sha256: 2807421fe2444bcb8890fded2a9d729610d09b527e5c6585627220d09451461c
   source:
     repository: slime-workflow
     operation: 전체 31개 맵의 256px 썸네일 매핑 등록
@@ -10623,3 +10623,138 @@ assets:
   source:
     repository: slime-workflow
     operation: ImageGen · 갈대나루 목선 생성
+- managementId: image.scenery.town-grainstead-communal-granary-v1
+  version: v1
+  path: assets/buildings/town-grainstead-communal-granary-v1.png
+  width: 512
+  height: 341
+  sha256: 626baa270b5d191941c98c7f6cf26d74a1be82f9ea5794a78fdd268ca8b44c9c
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-workshop-guide-v1
+  version: v1
+  path: assets/buildings/town-grainstead-workshop-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 417a2edbbd13ef43914126d48b3c736dc3238b36e1d5a7d19db03af24198f5e9
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-cottage-thatch-guide-v1
+  version: v1
+  path: assets/buildings/town-grainstead-cottage-thatch-guide-v1.png
+  width: 512
+  height: 512
+  sha256: e1d9e8c2dd687f1e66047bc55ac702401b25cf2230889fc270f80a9bd8bdd664
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-guild-guide-v1
+  version: v1
+  path: assets/buildings/town-grainstead-guild-guide-v1.png
+  width: 512
+  height: 512
+  sha256: e3851ff53138a6b4cd4a46426a039e583d6b1adfdec14a490393990e9c72036f
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-bookshop-guide-v1
+  version: v1
+  path: assets/buildings/town-grainstead-bookshop-guide-v1.png
+  width: 512
+  height: 512
+  sha256: bb68edaece3c010f9de2b52b8b7eefe4cc3778b150cf8caf0274b31780cd65d3
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-inn-guide-v1
+  version: v1
+  path: assets/buildings/town-grainstead-inn-guide-v1.png
+  width: 512
+  height: 384
+  sha256: ffc7c7d12b05f0cec725df40d5415393f4d06366ac9367ac9325cd48629a3e20
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-market-guide-v1
+  version: v1
+  path: assets/buildings/town-grainstead-market-guide-v1.png
+  width: 512
+  height: 341
+  sha256: 755990396a3bed999dc273849ae3ea64766ba44b4e1e8c3c90c7deced9bc6806
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-cottage-shingle-guide-v1
+  version: v1
+  path: assets/buildings/town-grainstead-cottage-shingle-guide-v1.png
+  width: 512
+  height: 512
+  sha256: 80bdd0eabcf1f1c96af29a3ff48a3d2f815438e6db0ee58ddfad0f12d722865d
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-guild-guide-v2
+  version: v2
+  path: assets/buildings/town-grainstead-guild-guide-v2.png
+  width: 512
+  height: 512
+  sha256: 0d19cbd10168383705fdef42079987b42af7a80f588fa503dd5366df0ad3bf49
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-bookshop-guide-v2
+  version: v2
+  path: assets/buildings/town-grainstead-bookshop-guide-v2.png
+  width: 512
+  height: 512
+  sha256: 8d97d791fb3e0a47729c636746b258941212729e3e93d3c51324b5624fe6db3c
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-inn-guide-v2
+  version: v2
+  path: assets/buildings/town-grainstead-inn-guide-v2.png
+  width: 512
+  height: 512
+  sha256: 1814b6a81701add09d7f464f894f99bd5584abced4f0ef8bf86acf7523c9ee6c
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-market-guide-v2
+  version: v2
+  path: assets/buildings/town-grainstead-market-guide-v2.png
+  width: 512
+  height: 512
+  sha256: a806ad8cba50f2a64ae7bb45b2b4ac6d31b6324783ffb352b079c81e9ef8eb97
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-workshop-guide-v2
+  version: v2
+  path: assets/buildings/town-grainstead-workshop-guide-v2.png
+  width: 512
+  height: 512
+  sha256: 5b3c437704909b99eacf520eef24181f6f35f174378041e0565656dec1f082de
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-cottage-thatch-guide-v2
+  version: v2
+  path: assets/buildings/town-grainstead-cottage-thatch-guide-v2.png
+  width: 512
+  height: 512
+  sha256: 6fea888390f59ba7257994bdc7ada9d3f865396c820040ae4ed65ad8cd432f80
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
+- managementId: image.scenery.town-grainstead-cottage-shingle-guide-v2
+  version: v2
+  path: assets/buildings/town-grainstead-cottage-shingle-guide-v2.png
+  width: 512
+  height: 512
+  sha256: 91249341bf6f56ee0f705843f0d5496d893e6d52caf09a1454058c0060dd1f83
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
