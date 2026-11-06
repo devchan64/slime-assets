@@ -438,6 +438,8 @@ assets:
   frontend_path: src/assets/characters/default/cutins/default-punch-v1.png
   sha256: a62577881f3ccbead5890553750f461015b1b519664a3f1d0782891c1dceaa1b
   source:
+    lifecycle_status: retired
+    retirement_reason: 전투 컷인 시스템 폐기에 따라 신규 제작 및 런타임 사용 종료
     repository: slime-frontend
     commit: 5ae07ea2f4b69c1a7376967d8dea450f72569936
     path: src/assets/characters/default/cutins/default-punch-v1.png
@@ -453,6 +455,8 @@ assets:
   path: assets/ui/cutins.yaml
   sha256: 68839bd550424322eeabc9781ccf3d8cd470f6432d63906172283f2a5364271b
   source:
+    lifecycle_status: retired
+    retirement_reason: 전투 컷인 시스템 폐기에 따라 신규 제작 및 런타임 사용 종료
     repository: slime-frontend
     path: src/assets/cutins.yaml
 - managementId: frontend.ui.login.slime-welcome-v4.png
@@ -3908,6 +3912,8 @@ assets:
   path: assets/characters/female-a/battle-cutins/female-roundhouse-kick-v1.png
   sha256: 563b08d6f0d9d4d585252f8500e501dd9e5d76ca83cdd998ac902f18177e8ad0
   source:
+    lifecycle_status: retired
+    retirement_reason: 전투 컷인 시스템 폐기에 따라 신규 제작 및 런타임 사용 종료
     repository: slime-workflow
     revision: 2026-10-03_21-26-23
     path: .tmp/test/battle-cutins/2026-10-03_21-26-23/female-roundhouse-kick-v1.png
