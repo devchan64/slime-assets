@@ -1583,7 +1583,7 @@ assets:
 - managementId: config.city-layouts.grainstead
   version: v3-grainstead-v19-billboard-blocking-v1
   path: assets/maps/city_layouts/grainstead.yaml
-  sha256: c9f3a1c9135f79a39b416a8db3486ffb9adb56f1978a32ab974923aa1a2d5c75
+  sha256: 1d90575ffb15c3acc861b113125fd3462e10fb2d23c67933e84a3d746279d7d7
   source:
     repository: slime-assets
     path: assets/maps/city_layouts/grainstead.yaml
@@ -6439,7 +6439,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 21a905340d17b531a6451beb28d0efe9026bc30a1963320f614a66bf4f5c7353
+  sha256: 6916ceffa61d458e9727bfbbe11742c6ab3444c2b9ad2689f35e5272668794ec
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -10678,6 +10678,7 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+    lifecycle_status: retired
 - managementId: image.scenery.town-grainstead-workshop-guide-v1
   version: v1
   path: assets/buildings/town-grainstead-workshop-guide-v1.png
@@ -11037,3 +11038,12 @@ assets:
     repository: codex-imagegen
     artifact: exec-f5ee4376-72de-499c-b9f4-d066655c1458.png
     processing: 투명 원본 보존, 공용 크기 조절로 512px 전달
+- managementId: image.scenery.town-grainstead-communal-granary-v2
+  version: v2
+  path: assets/buildings/town-grainstead-communal-granary-v2.png
+  width: 512
+  height: 512
+  sha256: 27e88ca76171435866896604a6d9b460ce1969395b84edbd2ced862d78e42a06
+  source:
+    repository: user-provided
+    operation: 건물 관리 등록
