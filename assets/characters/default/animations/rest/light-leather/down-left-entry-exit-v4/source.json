@@ -1,13 +1,13 @@
 {
-  "referenceBodyHeight": 353,
+  "referenceBodyHeight": 295,
   "gameBodyHeight": 80,
   "version": "down-left-entry-exit-v4",
   "image": "rest-v2.png",
-  "sha256": "cbc1a0dc8e9c17cf6581ea87a507a0df80e36a907e12f5932e510b5e2e77e4f9",
+  "sha256": "c2839fdc98830d283f556e59af64dc6f49f892623f10c97319c291611091245e",
   "directionOrder": [
     "down_left"
   ],
-  "operation": "기본 캐릭터 라이트 아머 휴식시작 12프레임·휴식해제 12프레임 교체, 투명 배경, 공통 배율, 바닥 정렬, 6fps",
+  "operation": "라이트 아머 참조 일관성 보강 및 투명 배경 이미지로 교체. 기존 916x1673 좌표·앵커를 928x1695 해상도 비율로 변환. 재생 클립과 게임 표시 높이 유지.",
   "playback": {
     "enterAction": "rest-entry",
     "holdAction": "idle",
@@ -17,7 +17,7 @@
   },
   "source": {
     "repository": "slime-workflow",
-    "generation_id": "2026-11-04_21-28-46-1aeb7e02",
-    "reference": "character-default-light-leather-four-directions-v1.png"
+    "reference": "character-default-rest-start-end-front-left-sprite-v1.png",
+    "costumeReference": "character-default-light-leather-four-directions-v1.png"
   }
 }
