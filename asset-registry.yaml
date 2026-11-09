@@ -8758,36 +8758,34 @@ assets:
     path: .tmp/test/old-boundary-gate-pillars/reference.png
     operation: 사용자 첨부 원본 좌우 분리, 알파 5 이하 외곽 크롭, 비율 유지 긴 변 512px 축소
 - managementId: audio.bgm.iseulon.mr.mp3
-  version: v4
-  path: assets/audio/bgm/iseulon/v4/iseulon-mr.mp3
-  sha256: de85a7a27f2b17c285f31ce8244d3075de3e96b692010c62b568b338dca59c5e
+  version: v5
+  path: assets/audio/bgm/iseulon/v5/iseulon-mr.mp3
+  sha256: 6febc3c9b0f092b281bae3f01cfc4d42227a8b1a3de28344e540fb4efb814d57
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_18-57-07-667afc48
-    attempt: 623460baa6024a82a9d20435b4af7a82
-    operation: 사용자 승인 · MP3 ID3v2.3 제목 추가 · 오디오 데이터 보존
+    generation_id: 2026-11-09_20-43-04-659711dc
+    attempt: a7fd5febe19d4d079f798e1fc36061cd
+    operation: 사용자 승인 · 이슬온 원곡 및 MR 등록
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 68.95997916666667
-    title: 버드나무 곁으로 (MR)
+    duration_seconds: 148.96
 - managementId: audio.map-bgm.catalog
-  version: v37
+  version: v38
   path: assets/audio/map-bgm.yaml
-  sha256: f706309c1c061eb5376698c991f7572ed715affe8ccbda5f803c7bd337fd85b0
+  sha256: d62c33776b2a20df461ad35345946de805621ba2fd7854bbd205a4da02d59f70
   source:
     repository: slime-workflow
-    operation: 소금둑길 원곡·MR 배경음악 등록
+    operation: 이슬온·이슬초원 원곡·MR 배경음악 교체
 - managementId: audio.bgm.meadow.mr.mp3
-  version: v4
-  path: assets/audio/bgm/meadow/v4/meadow-mr.mp3
-  sha256: 3a9b6d3cda3ce1632ce9d0f94b6b804b82486377e0b0326d263e82e0f76e7297
+  version: v5
+  path: assets/audio/bgm/meadow/v5/meadow-mr.mp3
+  sha256: 733090a250202f5fe645db4034a797ddd846493510038091514ff0c5220178a8
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_18-57-07-a0fbd31d
-    attempt: ef14a9a60d5d49718674a65f53e4ba44
-    operation: 사용자 승인 · MP3 ID3v2.3 제목 추가 · 오디오 데이터 보존
+    generation_id: 2026-11-09_21-34-41-b1943dac
+    attempt: a447c28de0524237bff364ad3a61af77
+    operation: 사용자 승인 · 이슬초원 원곡 및 MR 등록
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 79.44
-    title: 초원길 끝의 저녁 (MR)
+    duration_seconds: 120.8
 - managementId: audio.bgm.wind-hills.vocal.mp3
   version: v2
   path: assets/audio/bgm/wind-hills/v2/wind-hills-vocal.mp3
@@ -8837,29 +8835,27 @@ assets:
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 62.88
 - managementId: audio.bgm.iseulon.vocal.mp3
-  version: v4
-  path: assets/audio/bgm/iseulon/v4/iseulon-vocal.mp3
-  sha256: a4ae8c31c63b83751bce37516a605f728e84a5df97091bef8a28fa095efa0343
+  version: v5
+  path: assets/audio/bgm/iseulon/v5/iseulon-vocal.mp3
+  sha256: 08a5a366234b6adf4c4d2656e6a2149dc0ef1411d9b185dd63fef4b3d88033d1
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_18-57-07-667afc48
-    attempt: 623460baa6024a82a9d20435b4af7a82
-    operation: 사용자 승인 · MP3 ID3v2.3 제목 추가 · 오디오 데이터 보존
+    generation_id: 2026-11-09_20-43-04-659711dc
+    attempt: a7fd5febe19d4d079f798e1fc36061cd
+    operation: 사용자 승인 · 이슬온 원곡 및 MR 등록
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 68.95997916666667
-    title: 버드나무 곁으로 (보컬)
+    duration_seconds: 148.96
 - managementId: audio.bgm.meadow.vocal.mp3
-  version: v4
-  path: assets/audio/bgm/meadow/v4/meadow-vocal.mp3
-  sha256: b7d7cf498f14597626fc47efa331f622d1d7745cd812ec37bd543d62dc8408ff
+  version: v5
+  path: assets/audio/bgm/meadow/v5/meadow-vocal.mp3
+  sha256: db57cb3aea396c7ea45365fdbb816710b6ea533d0a7727cfe4465f62b110d93a
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_18-57-07-a0fbd31d
-    attempt: ef14a9a60d5d49718674a65f53e4ba44
-    operation: 사용자 승인 · MP3 ID3v2.3 제목 추가 · 오디오 데이터 보존
+    generation_id: 2026-11-09_21-34-41-b1943dac
+    attempt: a447c28de0524237bff364ad3a61af77
+    operation: 사용자 승인 · 이슬초원 원곡 및 MR 등록
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 79.44
-    title: 초원길 끝의 저녁 (보컬)
+    duration_seconds: 120.8
 - managementId: audio.bgm.grove.vocal.mp3
   version: v1
   path: assets/audio/bgm/grove/v1/grove-vocal.mp3
