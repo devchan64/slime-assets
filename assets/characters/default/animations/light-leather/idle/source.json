@@ -1,0 +1,24 @@
+{
+  "referenceBodyHeight": 528,
+  "gameBodyHeight": 80,
+  "version": "baseline-light-leather-20261109-v1",
+  "image": "idle-v6.png",
+  "sha256": "63c7c88ddef2946fc2bd7d0521e4c67eee1fb8b4843c2992f55a2b6fc98d000d",
+  "directionOrder": [
+    "down_left"
+  ],
+  "operation": "기본복 베이스라인 포즈와 앵커를 기준으로 ImageGen 라이트 아머 적용 및 투명 배경 생성. 6 FPS와 기존 클립 유지.",
+  "sourceFile": "codex-clipboard-b37a9012-4fcc-458b-8eee-8c98268466a5.png",
+  "previousSource": "assets/characters/default/animations/idle-v6/down-left-8frames-v4",
+  "columns": 4,
+  "rows": 2,
+  "frameCount": 8,
+  "frameWidth": 362,
+  "frameHeight": 543,
+  "notes": "기본복 좌표와 앵커를 사용했다. 생성으로 달라진 부츠·포즈의 게임 내 접지를 확인한다.",
+  "baseline": {
+    "repository": "slime-workflow",
+    "path": "baseline/character-baselines/character-default/baseline-v1/character-default-baseline-idle-blink-front-left-v1.png",
+    "sha256": "5697fe0852ea48536f6700a9bded00d2783ae1dd698944eb65c5c62d5cc69cc8"
+  }
+}

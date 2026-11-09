@@ -1,0 +1,23 @@
+schema_version: 1
+image: character-default-light-leather-walk-front-left-sprite-v1.png
+description: 기본 캐릭터 경량 가죽 복장 · 왼쪽 앞 걷기
+width: 1474
+height: 1067
+background: transparent
+columns: 4
+rows: 2
+frame_count: 8
+playback_fps: 6
+loop: true
+frame_order: row-major
+anchor_status: 기본복 베이스라인 앵커 사용 · 게임 내 접지 검수 필요
+notes: 정수 프레임 경계와 6fps 재생은 animation.json에서 정의한다.
+animation: walk-light-leather-v1.animation.json
+referenceBodyHeight: 509
+baseline_repository: slime-workflow
+baseline_path: baseline/character-baselines/character-default/baseline-v1/character-default-walk-front-left-sprite-v1.png
+baseline_sha256: 3e8e5968a1b33da1c0b65ae2d5641f4488e9159681a545667d2e7bb0bde994fe
+style_revision: baseline-light-leather-20261109-v1
+sha256: 649123a4c109d6b8128b43f7001b75b9946c5910d6e48375f37ee3d693bea0d9
+gameBodyHeight: 80
+operation: 기본복 베이스라인 포즈와 앵커를 기준으로 ImageGen 라이트 아머 적용 및 투명 배경 생성. 6 FPS와 기존 클립 유지.
