@@ -10242,36 +10242,36 @@ assets:
     repository: slime-workflow
     operation: ImageGen 넓은 자갈 시트 생성 및 1024 크기 조정
 - managementId: image.character.default.idle-v6.sheet
-  version: baseline-light-leather-20261109-v1
+  version: baseline-light-leather-20261111-v3
   path: assets/characters/default/animations/light-leather/idle/idle-v6.png
-  sha256: 63c7c88ddef2946fc2bd7d0521e4c67eee1fb8b4843c2992f55a2b6fc98d000d
+  sha256: 30e8da680068e8d9c14ef43102c30367315563960a9f8392dbcff5385b0a6485
   source:
     repository: slime-workflow
-    path: codex-clipboard-b37a9012-4fcc-458b-8eee-8c98268466a5.png
+    path: baseline/player/default/idle-front-right-8frames-v1.png
     previous_operation: 사용자가 첨부한 라이트 아머 대기 시트 채택
-    operation: 기본복 베이스라인에 ImageGen 라이트 아머 적용 및 투명화 · 기존 클립 유지
+    operation: 기준 캐릭터 외형 보존을 우선한 라이트아머 대기 후보 적용
     previous_version: down-left-8frames-v5-edit-2026-11-04_22-10-37-e06759f2
     previous_sha256: e633cdae9ddbcca07ab9b393eaf9381729a7d13d0ae11bae610b5af2876e9139
 - managementId: sprite.metadata.characters.default.idle-v6.anchor-v3
-  version: baseline-light-leather-20261109-v1
+  version: baseline-light-leather-20261111-v3
   path: assets/characters/default/animations/light-leather/idle/idle-v6-anchor-v3.animation.json
-  sha256: f5deb0e7243b0b895c9631b7cb377f7f671598ccc2b318f2cec36fe6ddea0561
+  sha256: 54a13d8c3f0566188ab610b06de35bb0b92f0e9024896d900e0300b61fbc5c85
   source:
     repository: slime-workflow
-    path: codex-clipboard-b37a9012-4fcc-458b-8eee-8c98268466a5.png
+    path: baseline/player/default/idle-front-right-8frames-v1.png
     previous_operation: 8프레임 좌표와 초기 앵커 지정
-    operation: 기본복 베이스라인에 ImageGen 라이트 아머 적용 및 투명화 · 기존 클립 유지
+    operation: 기준 캐릭터 외형 보존을 우선한 라이트아머 대기 후보 적용
     previous_version: anchor-2026-11-07_00-42-19-7fa60936
     previous_sha256: e73eb0a9267292c9408cbc38e2277f208b5133b5c6a78abe190b50eaf0ace611
 - managementId: sprite.metadata.characters.default.idle-v6.source.json
-  version: baseline-light-leather-20261109-v1
+  version: baseline-light-leather-20261111-v3
   path: assets/characters/default/animations/light-leather/idle/source.json
-  sha256: 745030fcd603ba5c51c653732c4aa9ad19efd463ac51b6acabd437709adfb314
+  sha256: c5342bb8d8e2d7b4cee0bb2011783b2514eb961bd0cfcfdf2478b19e8e8b9357
   source:
     repository: slime-workflow
-    path: codex-clipboard-b37a9012-4fcc-458b-8eee-8c98268466a5.png
+    path: baseline/player/default/idle-front-right-8frames-v1.png
     previous_operation: 첨부 원본 출처와 프레임 구성 기록
-    operation: 기본복 베이스라인에 ImageGen 라이트 아머 적용 및 투명화 · 기존 클립 유지
+    operation: 기준 캐릭터 외형 보존을 우선한 라이트아머 대기 후보 적용
     previous_version: down-left-8frames-v5-edit-2026-11-04_22-10-37-e06759f2
     previous_sha256: 58ca30570d7fe45959cb1f2bfe6b4e756520bcefcdccd917f4351ece6e71d1f1
 - managementId: image.scenery.waypoint-guide-v1
