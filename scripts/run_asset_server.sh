@@ -13,7 +13,7 @@ print_asset_server_help() {
     cat <<'HELP'
 사용: scripts/run_asset_server.sh [--start-db] [--check]
   --start-db  준비된 로컬 Compose 에셋 DB를 시작한다.
-  --check     설정·비밀 파일·DB 런타임 권한을 검사하고 종료한다.
+  --check     설정·권한·원장 동기화를 검증하고 DB 변경은 롤백한다.
 설정 파일: .local/asset-service.env (ASSET_SERVICE_ENV_FILE로 경로 지정 가능)
 파일 설정이 기존 셸 환경변수보다 우선합니다.
 필수 설정:
@@ -24,7 +24,8 @@ print_asset_server_help() {
   ASSET_PYTHON_EXECUTABLE  의존성이 설치된 Python (기본 .local/venvs/asset-service/bin/python)
   ASSET_API_LISTEN_PORT   API 포트 (기본 8791)
 기본 DB: local / 127.0.0.1:25432 / slime_assets_local
-마이그레이션·계정 생성·시드·백업은 자동 실행하지 않는다.
+매 실행 시 Git 추적 원장을 DB에 동기화한다. 미반영 DB 편집은 시작을 중단한다.
+마이그레이션·계정 생성·백업은 자동 실행하지 않는다.
 HELP
 }
 for current_argument_value in "$@"; do
@@ -131,6 +132,12 @@ with open_asset_service_connection() as current_database_connection:
     validate_asset_runtime_connection(current_database_connection)
     read_content_generation_state(current_database_connection)
 PY
+emit_asset_server_trace ledger "Git 원장 검증·DB 동기화 (check=$current_check_only)"
+if "$current_check_only"; then
+    "$ASSET_PYTHON_EXECUTABLE" -m asset_service.ledger_sync --check
+else
+    "$ASSET_PYTHON_EXECUTABLE" -m asset_service.ledger_sync
+fi
 if "$current_check_only"; then
     emit_asset_server_trace ready '사전 검사 통과 (API 미실행)'
     exit 0

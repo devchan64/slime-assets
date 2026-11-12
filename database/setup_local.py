@@ -41,8 +41,8 @@ def initialize_local_asset_database():
         raise ValueError('런타임 비밀번호는 owner와 다른 절대 경로 파일이어야 합니다.')
     if ASSET_LOCAL_DATA_PATH.is_symlink():
         raise ValueError('DB 데이터 경로에 심볼릭 링크를 허용하지 않습니다.')
-    if ASSET_LOCAL_DATA_PATH.exists() and any(ASSET_LOCAL_DATA_PATH.iterdir()) and not ASSET_OWNER_SECRET_PATH.exists():
-        raise ValueError('기존 DB의 owner 비밀 파일이 없습니다. 기존 비밀번호는 변경하지 않습니다.')
+    if not ASSET_OWNER_SECRET_PATH.exists() and ASSET_LOCAL_DATA_PATH.exists():
+        raise ValueError('DB 데이터 경로가 있지만 owner 비밀 파일이 없습니다. 기존 비밀 파일을 복구하세요. 데이터와 비밀번호는 변경하지 않습니다.')
     current_owner_password = prepare_local_secret_file(ASSET_OWNER_SECRET_PATH)
     ASSET_LOCAL_DATA_PATH.mkdir(parents=True, exist_ok=True)
     print('에셋 전용 DB 준비 시작', flush=True)

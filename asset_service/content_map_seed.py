@@ -1,7 +1,7 @@
 """맵 원본 전달 묶음의 최초 적재와 세대 기록."""
 import hashlib
 import json
-import math
+from asset_service.content_building_properties import validate_building_property_values
 from psycopg.types.json import Jsonb
 from asset_service.content_map_documents import insert_map_document_records, split_map_document_records
 
@@ -15,8 +15,7 @@ def initialize_map_seed_bundle(current_database_connection,current_seed_bundle):
     for current_document_path,current_document_record in current_map_documents.items():
         split_map_document_records(current_document_path,current_document_record)
     for current_asset_identifier,current_property_values in current_building_properties.items():
-        if not isinstance(current_property_values,dict) or set(current_property_values)!={'anchorX','anchorY'} or any(type(current_numeric_value) not in (int,float) or not math.isfinite(current_numeric_value) for current_numeric_value in current_property_values.values()):
-            raise ValueError('건물 공용 앵커 형식 오류: '+current_asset_identifier)
+        validate_building_property_values(current_property_values)
     current_bundle_hash=hashlib.sha256(json.dumps(current_seed_bundle,ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False).encode()).hexdigest()
     current_generation_record=current_database_connection.execute('SELECT * FROM content.generations WHERE singleton=true FOR UPDATE').fetchone()
     if current_generation_record is None:raise ValueError('콘텐츠 스키마 초기화가 필요합니다.')
@@ -27,8 +26,8 @@ def initialize_map_seed_bundle(current_database_connection,current_seed_bundle):
     if current_database_connection.execute('SELECT 1 FROM content.map_documents LIMIT 1').fetchone():
         raise ValueError('기존 맵 DB에 최초 시드를 적용할 수 없습니다.')
     for current_asset_identifier,current_property_values in current_building_properties.items():
-        current_database_connection.execute('INSERT INTO content.building_properties VALUES(%s,%s,%s)',
-            (current_asset_identifier,current_property_values['anchorX'],current_property_values['anchorY']))
+        current_database_connection.execute('INSERT INTO content.building_properties(asset_id,anchor_x,anchor_y,display_adjustments) VALUES(%s,%s,%s,%s)',
+            (current_asset_identifier,current_property_values['anchorX'],current_property_values['anchorY'],Jsonb(validate_building_property_values(current_property_values))))
     for current_document_path,current_document_record in current_map_documents.items():
         insert_map_document_records(current_database_connection,current_document_path,current_document_record)
     current_next_generation=current_generation_record['current_generation']+1

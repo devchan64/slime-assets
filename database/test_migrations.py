@@ -38,7 +38,7 @@ class AssetDatabaseMigrationTests(unittest.TestCase):
         apply_asset_migrations(current_database_connection)
         current_database_connection.execute("INSERT INTO content.asset_types VALUES('tree','나무')")
         apply_asset_migrations(current_database_connection)
-        current_test_case.assertEqual(current_database_connection.execute('SELECT count(*) FROM asset_admin.schema_migrations').fetchone()[0], 2)
+        current_test_case.assertEqual(current_database_connection.execute('SELECT count(*) FROM asset_admin.schema_migrations').fetchone()[0], len(list(ASSET_MIGRATION_ROOT.glob('*.sql'))))
         current_test_case.assertEqual(current_database_connection.execute('SELECT display_name FROM content.asset_types').fetchone()[0], '나무')
         with current_database_connection.transaction():
             current_database_connection.execute('SET LOCAL ROLE asset_content_reader')
@@ -86,7 +86,7 @@ class AssetDatabaseMigrationTests(unittest.TestCase):
             current_migration_root = Path(current_directory_name)
             for current_migration_file in ASSET_MIGRATION_ROOT.glob('*.sql'):
                 (current_migration_root / current_migration_file.name).write_bytes(current_migration_file.read_bytes())
-            (current_migration_root / '003_invalid_schema.sql').write_text('SELECT nonexistent_column FROM content.asset_types;')
+            (current_migration_root / '004_invalid_schema.sql').write_text('SELECT nonexistent_column FROM content.asset_types;')
             with current_test_case.assertRaises(psycopg.errors.UndefinedColumn):
                 apply_asset_migrations(current_test_case.current_database_connection, current_migration_root)
         current_test_case.assertIsNone(current_test_case.current_database_connection.execute("SELECT to_regnamespace('content')").fetchone()[0])

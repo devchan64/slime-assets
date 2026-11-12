@@ -1,4 +1,5 @@
 """파일 경로 계약을 DB의 정규화된 맵·공용 속성 조회에 연결한다."""
+from asset_service.content_building_properties import decode_building_property_record
 import re
 from asset_service.content_asset_contracts import decode_billboard_property_record
 from asset_service.content_map_documents import read_map_document_records
@@ -10,7 +11,7 @@ def read_shared_property_document(current_database_connection):
     current_building_records=current_database_connection.execute('SELECT * FROM content.building_properties ORDER BY asset_id').fetchall()
     for current_building_record in current_building_records:
         if current_building_record['asset_id'] in current_property_catalog:raise ValueError('빌보드·건물 공용 ID 중복')
-        current_property_catalog[current_building_record['asset_id']]={'anchorX':float(current_building_record['anchor_x']),'anchorY':float(current_building_record['anchor_y'])}
+        current_property_catalog[current_building_record['asset_id']]=decode_building_property_record(current_building_record)
     return {'managementId':'map.sprite-display-properties','data':current_property_catalog}
 
 

@@ -1,4 +1,5 @@
 """DB 스냅샷 세대와 외부 파일 게시 완료를 추적한다."""
+from asset_service.content_building_properties import decode_building_property_record
 import hashlib
 import json
 from uuid import uuid4
@@ -47,7 +48,7 @@ def begin_content_snapshot_export(current_database_connection, current_replay_re
     current_snapshot_payload['mapDocuments']={current_path_record['document_path']:read_map_document_records(current_database_connection,current_path_record['document_path']) for current_path_record in current_document_paths}
     current_snapshot_payload['mapRevisions']={current_path_record['document_path']:current_path_record['document_revision'] for current_path_record in current_document_paths}
     current_building_records=current_database_connection.execute('SELECT * FROM content.building_properties ORDER BY asset_id').fetchall()
-    current_snapshot_payload['buildingProperties']={current_building_record['asset_id']:{'anchorX':float(current_building_record['anchor_x']),'anchorY':float(current_building_record['anchor_y'])} for current_building_record in current_building_records}
+    current_snapshot_payload['buildingProperties']={current_building_record['asset_id']:decode_building_property_record(current_building_record) for current_building_record in current_building_records}
     current_snapshot_payload['effects']=[current_effect_record['document'] for current_effect_record in current_database_connection.execute('SELECT document FROM content.effect_assets ORDER BY asset_id').fetchall()]
     validate_asset_export_boundary(current_snapshot_payload)
     current_payload_hash=hash_content_snapshot_payload(current_snapshot_payload)

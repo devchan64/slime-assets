@@ -1,3 +1,4 @@
 -r ../database/requirements.txt
 fastapi==0.116.1
 uvicorn[standard]==0.35.0
+PyYAML==6.0.3
