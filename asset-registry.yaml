@@ -113,44 +113,32 @@ assets:
       - 128
     approval: 사용자 승인 대형 석회석 모자이크 도로 타일 등록
 - managementId: sprite.metadata.characters.default.rest-v2.rest-v2.animation.json
-  version: baseline-light-leather-20261109-v1
+  version: light-armor-rest-20261112-v4-edit-2026-11-12_22-48-15-af466055
   path: assets/characters/default/animations/light-leather/rest/rest-v2.animation.json
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.animation.json
-  sha256: d099b8cfcaa1ebaac6b2088b96915676948ea42e241adbcaba5ed9791cc68260
+  sha256: 3f22cd2bbc8a9c49ba673b939d2aceb6efab9b3af7bdef5423f480ae6cc7dcb3
   source:
     repository: slime-workflow
-    generation_id: 2026-11-04_21-28-46-1aeb7e02
-    previous_operation: 기본 캐릭터 라이트 아머 투명 시트 · 해상도 비율 좌표 변환 · 휴식시작 12장·휴식해제 12장 · 6fps
-    operation: 기본복 베이스라인에 ImageGen 라이트 아머 적용 및 투명화 · 기존 클립 유지
-    previous_version: down-left-entry-exit-v4-6fps-edit-2026-11-04_23-14-15-3a16598b-edit-2026-11-07_17-05-22-f38229f7-edit-2026-11-07_17-54-47-e99b7a6b
-    previous_sha256: 29c8325ba07d1cd46828f98ac648a015d73cf792188f475959a3d030f07be4cf
-    previous_path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v3/rest-v2.animation.json
+    path: baseline/player/default/default-rest-front-right-16frames-v1.png
+    operation: 라이트 아머 적용 및 투명화 후 프레임 정렬
 - managementId: image.frontend.src.assets.characters.character-default-white-shirt-rest-v2.rest-v2.png
-  version: baseline-light-leather-20261109-v1
+  version: light-armor-rest-20261112-v4-edit-2026-11-12_22-48-15-af466055
   path: assets/characters/default/animations/light-leather/rest/rest-v2.png
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.png
-  sha256: a649b0b522c10f1a5e4d21119336713915bd312a86e35763cd20b6f9036513fb
+  sha256: ff628b45ef024f5c4ed08e89cc2fd9ccc4f21c445a3f4782a16eec274fe88847
   source:
     repository: slime-workflow
-    generation_id: 2026-11-04_21-28-46-1aeb7e02
-    previous_operation: 기본 캐릭터 라이트 아머 투명 시트 · 해상도 비율 좌표 변환 · 휴식시작 12장·휴식해제 12장 · 6fps
-    operation: 기본복 베이스라인에 ImageGen 라이트 아머 적용 및 투명화 · 기존 클립 유지
-    previous_version: down-left-entry-exit-v4-edit-2026-11-04_23-14-15-3a16598b-edit-2026-11-07_17-05-22-f38229f7-edit-2026-11-07_17-54-47-e99b7a6b
-    previous_sha256: ceb4b7baa2fba6e5b1bbe9d76a9cd3faf66d03e2379178870ac64102fb253c95
-    previous_path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v3/rest-v2.png
+    path: baseline/player/default/default-rest-front-right-16frames-v1.png
+    operation: 라이트 아머 적용 및 투명화 후 프레임 정렬
 - managementId: sprite.metadata.characters.default.rest-v2.source.json
-  version: baseline-light-leather-20261109-v1
+  version: light-armor-rest-20261112-v4-edit-2026-11-12_22-48-15-af466055
   path: assets/characters/default/animations/light-leather/rest/source.json
   frontend_path: src/assets/characters/default/rest-v2/source.json
-  sha256: 8382c372f46df90bf9181f50644ba083e25468dda68c73baa51493ad9a6e3d14
+  sha256: c7d5c83b76c5851506a7ae0ef4962e29eaaa63178c2349029ebc4c6f94125201
   source:
     repository: slime-workflow
-    generation_id: 2026-11-04_21-28-46-1aeb7e02
-    previous_operation: 기본 캐릭터 라이트 아머 투명 시트 · 해상도 비율 좌표 변환 · 휴식시작 12장·휴식해제 12장 · 6fps
-    operation: 기본복 베이스라인에 ImageGen 라이트 아머 적용 및 투명화 · 기존 클립 유지
-    previous_version: down-left-entry-exit-v4-edit-2026-11-04_23-14-15-3a16598b-edit-2026-11-07_17-05-22-f38229f7-edit-2026-11-07_17-54-47-e99b7a6b
-    previous_sha256: 80de94abcf2dd680665c8e955f994b536047947e02563d95342a6e34d5bcd76e
-    previous_path: assets/characters/default/animations/rest/light-leather/down-left-entry-exit-v3/source.json
+    path: baseline/player/default/default-rest-front-right-16frames-v1.png
+    operation: 라이트 아머 적용 및 투명화 후 프레임 정렬
 - managementId: sprite.metadata.monsters.standing-v1.ash-fox-idle-v1.animation.json
   version: ash-fox-idle-v1-eight-frames-v2-6fps
   path: assets/sprites/monsters/standing-v1/down-left-v1/ash-fox-idle-v1.animation.json
@@ -10105,7 +10093,7 @@ assets:
     path: /home/cbsim/.codex/generated_images/01a0e5f3-61d6-71b3-be62-d48436ea51cb/exec-5adf4fbb-2704-4f31-8176-1cb7e55edd5d.png
     operation: ImageGen 굵은 자갈 반복 패턴 생성. 128x128 LANCZOS 축소.
 - managementId: sprite.image.characters.default.walk-light-leather.v2
-  version: light-armor-20261112-v2
+  version: light-armor-20261112-v2-edit-2026-11-12_22-48-33-772273fd
   path: assets/characters/default/animations/light-leather/walk/walk-v2.png
   sha256: 637cb2df2fd470a6ffc8dc654f41629765d09ba25d3926715635a4be8f78161b
   source:
@@ -10115,7 +10103,7 @@ assets:
   width: 1248
   height: 1174
 - managementId: sprite.metadata.characters.default.walk-light-leather.v2
-  version: light-armor-20261112-v2
+  version: light-armor-20261112-v2-edit-2026-11-12_22-48-33-772273fd
   path: assets/characters/default/animations/light-leather/walk/source.yaml
   sha256: efe6fa63bc7f34950422cb518a68d78191df12048f553c338f874f7738aebd3b
   source:
@@ -10123,9 +10111,9 @@ assets:
     path: baseline/player/default/default-walk-front-right-8frames-v1.png
     operation: 라이트 아머 적용 및 투명화 후 프레임 정렬
 - managementId: sprite.animation.characters.default.walk-light-leather.v2
-  version: light-armor-20261112-v2
+  version: light-armor-20261112-v2-edit-2026-11-12_22-48-33-772273fd
   path: assets/characters/default/animations/light-leather/walk/walk-light-leather-v1.animation.json
-  sha256: ae48e90cb275f7fc99ff0e722f8621801893e67c964ff7e7b75427b31dee7334
+  sha256: 40395e71803c259193990f3e57b6c66e964ebb09b00be5501a81178b94410399
   source:
     repository: slime-workflow
     path: baseline/player/default/default-walk-front-right-8frames-v1.png
@@ -10235,9 +10223,9 @@ assets:
     repository: slime-workflow
     operation: ImageGen 넓은 자갈 시트 생성 및 1024 크기 조정
 - managementId: image.character.default.idle-v6.sheet
-  version: baseline-light-leather-20261111-v3
+  version: baseline-light-leather-20261111-v3-edit-2026-11-12_22-48-56-5b41fba1
   path: assets/characters/default/animations/light-leather/idle/idle-v6.png
-  sha256: 30e8da680068e8d9c14ef43102c30367315563960a9f8392dbcff5385b0a6485
+  sha256: b10140b8a90ca435c44b3c4263fbbcbed0a9482ef258a5bd4dcc378f4c6cadde
   source:
     repository: slime-workflow
     path: baseline/player/default/idle-front-right-8frames-v1.png
@@ -10246,9 +10234,9 @@ assets:
     previous_version: down-left-8frames-v5-edit-2026-11-04_22-10-37-e06759f2
     previous_sha256: e633cdae9ddbcca07ab9b393eaf9381729a7d13d0ae11bae610b5af2876e9139
 - managementId: sprite.metadata.characters.default.idle-v6.anchor-v3
-  version: baseline-light-leather-20261111-v3
+  version: baseline-light-leather-20261111-v3-edit-2026-11-12_22-48-56-5b41fba1
   path: assets/characters/default/animations/light-leather/idle/idle-v6-anchor-v3.animation.json
-  sha256: 54a13d8c3f0566188ab610b06de35bb0b92f0e9024896d900e0300b61fbc5c85
+  sha256: dcdd04ed99dde8f561b6e3cec2e2c339ad7af57c1cf906c8cba8a1ce15e27e6d
   source:
     repository: slime-workflow
     path: baseline/player/default/idle-front-right-8frames-v1.png
@@ -10257,9 +10245,9 @@ assets:
     previous_version: anchor-2026-11-07_00-42-19-7fa60936
     previous_sha256: e73eb0a9267292c9408cbc38e2277f208b5133b5c6a78abe190b50eaf0ace611
 - managementId: sprite.metadata.characters.default.idle-v6.source.json
-  version: baseline-light-leather-20261111-v3
+  version: baseline-light-leather-20261111-v3-edit-2026-11-12_22-48-56-5b41fba1
   path: assets/characters/default/animations/light-leather/idle/source.json
-  sha256: c5342bb8d8e2d7b4cee0bb2011783b2514eb961bd0cfcfdf2478b19e8e8b9357
+  sha256: abfec14559cab9149e3cca92660236898f778f83e05a152f80bc72441769768c
   source:
     repository: slime-workflow
     path: baseline/player/default/idle-front-right-8frames-v1.png

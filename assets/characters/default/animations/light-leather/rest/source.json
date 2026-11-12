@@ -1,13 +1,13 @@
 {
-  "referenceBodyHeight": 272,
+  "referenceBodyHeight": 402,
   "gameBodyHeight": 80,
-  "version": "baseline-light-leather-20261109-v1",
+  "version": "light-armor-rest-20261112-v4",
   "image": "rest-v2.png",
-  "sha256": "a649b0b522c10f1a5e4d21119336713915bd312a86e35763cd20b6f9036513fb",
+  "sha256": "ff628b45ef024f5c4ed08e89cc2fd9ccc4f21c445a3f4782a16eec274fe88847",
   "directionOrder": [
-    "down_left"
+    "down_right"
   ],
-  "operation": "기본복 베이스라인 포즈와 앵커를 기준으로 ImageGen 라이트 아머 적용 및 투명 배경 생성. 6 FPS와 기존 클립 유지.",
+  "operation": "원본 휴식 시트를 기준으로 복장 적용 시안 개선 및 프레임 정렬",
   "playback": {
     "enterAction": "rest-entry",
     "holdAction": "idle",
@@ -17,13 +17,13 @@
   },
   "source": {
     "repository": "slime-workflow",
-    "reference": "character-default-rest-start-end-front-left-sprite-v1.png",
-    "costumeReference": "character-default-light-leather-four-directions-v1.png"
+    "reference": "baseline/player/default/default-rest-front-right-16frames-v1.png",
+    "costumeReference": "baseline/player/default/default-light-armor-four-directions-v1.png"
   },
   "baseline": {
     "repository": "slime-workflow",
-    "path": "baseline/character-baselines/character-default/baseline-v1/character-default-rest-start-end-front-left-sprite-v1.png",
-    "sha256": "aae515196808a66c364505f86a7bde19edbe37d4ee2a2ddec8ce3b9a0180d425"
+    "path": "baseline/player/default/default-rest-front-right-16frames-v1.png",
+    "sha256": "ff74ee9ff1074055500e1abe442e4dd3ee9b31ecf991fe08c16d9841ac76e405"
   },
-  "notes": "기본복 좌표와 앵커를 사용했다. 생성으로 달라진 부츠·포즈의 게임 내 접지를 확인한다."
+  "notes": "이미지 생성으로 얼굴·머리·체형이 바뀔 수 있다. 원본은 가변 간격으로 추출됐고 게임은 6fps로 재생한다."
 }
