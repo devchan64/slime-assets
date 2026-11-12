@@ -1,152 +1,152 @@
 {
   "animationId": "character.default.light-leather.walk",
-  "version": "baseline-light-leather-20261109-v1",
+  "version": "light-armor-20261112-v2",
   "sheet": {
-    "width": 1474,
-    "height": 1067
+    "width": 1248,
+    "height": 1174
   },
   "frames": [
     {
-      "frameId": "down_left.0",
+      "frameId": "down_right.0",
       "rect": {
         "x": 0,
         "y": 0,
-        "width": 368,
-        "height": 534
+        "width": 312,
+        "height": 586
       },
       "anchor": {
-        "x": 193,
-        "y": 505
+        "x": 156,
+        "y": 560
       }
     },
     {
-      "frameId": "down_left.1",
+      "frameId": "down_right.1",
       "rect": {
-        "x": 368,
+        "x": 312,
         "y": 0,
-        "width": 369,
-        "height": 534
+        "width": 312,
+        "height": 586
       },
       "anchor": {
-        "x": 193,
-        "y": 505
+        "x": 156,
+        "y": 560
       }
     },
     {
-      "frameId": "down_left.2",
+      "frameId": "down_right.2",
       "rect": {
-        "x": 737,
+        "x": 624,
         "y": 0,
-        "width": 369,
-        "height": 534
+        "width": 312,
+        "height": 586
       },
       "anchor": {
-        "x": 193,
-        "y": 505
+        "x": 156,
+        "y": 560
       }
     },
     {
-      "frameId": "down_left.3",
+      "frameId": "down_right.3",
       "rect": {
-        "x": 1106,
+        "x": 936,
         "y": 0,
-        "width": 368,
-        "height": 534
+        "width": 312,
+        "height": 586
       },
       "anchor": {
-        "x": 193,
-        "y": 505
+        "x": 156,
+        "y": 560
       }
     },
     {
-      "frameId": "down_left.4",
+      "frameId": "down_right.4",
       "rect": {
         "x": 0,
-        "y": 534,
-        "width": 368,
-        "height": 533
+        "y": 586,
+        "width": 312,
+        "height": 588
       },
       "anchor": {
-        "x": 193,
-        "y": 504
+        "x": 156,
+        "y": 560
       }
     },
     {
-      "frameId": "down_left.5",
+      "frameId": "down_right.5",
       "rect": {
-        "x": 368,
-        "y": 534,
-        "width": 369,
-        "height": 533
+        "x": 312,
+        "y": 586,
+        "width": 312,
+        "height": 588
       },
       "anchor": {
-        "x": 193,
-        "y": 504
+        "x": 156,
+        "y": 560
       }
     },
     {
-      "frameId": "down_left.6",
+      "frameId": "down_right.6",
       "rect": {
-        "x": 737,
-        "y": 534,
-        "width": 369,
-        "height": 533
+        "x": 624,
+        "y": 586,
+        "width": 312,
+        "height": 588
       },
       "anchor": {
-        "x": 193,
-        "y": 504
+        "x": 156,
+        "y": 560
       }
     },
     {
-      "frameId": "down_left.7",
+      "frameId": "down_right.7",
       "rect": {
-        "x": 1106,
-        "y": 534,
-        "width": 368,
-        "height": 533
+        "x": 936,
+        "y": 586,
+        "width": 312,
+        "height": 588
       },
       "anchor": {
-        "x": 193,
-        "y": 504
+        "x": 156,
+        "y": 560
       }
     }
   ],
   "clips": [
     {
-      "clipId": "walk.down_left",
+      "clipId": "walk.down_right",
       "action": "walk",
-      "direction": "down_left",
+      "direction": "down_right",
       "frames": [
         {
-          "frameId": "down_left.0",
+          "frameId": "down_right.0",
           "durationMs": 167
         },
         {
-          "frameId": "down_left.1",
+          "frameId": "down_right.1",
           "durationMs": 166
         },
         {
-          "frameId": "down_left.2",
+          "frameId": "down_right.2",
           "durationMs": 167
         },
         {
-          "frameId": "down_left.3",
+          "frameId": "down_right.3",
           "durationMs": 167
         },
         {
-          "frameId": "down_left.4",
+          "frameId": "down_right.4",
           "durationMs": 166
         },
         {
-          "frameId": "down_left.5",
+          "frameId": "down_right.5",
           "durationMs": 167
         },
         {
-          "frameId": "down_left.6",
+          "frameId": "down_right.6",
           "durationMs": 167
         },
         {
-          "frameId": "down_left.7",
+          "frameId": "down_right.7",
           "durationMs": 166
         }
       ],

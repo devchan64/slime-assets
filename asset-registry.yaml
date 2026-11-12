@@ -10104,39 +10104,32 @@ assets:
     repository: slime-workflow
     path: /home/cbsim/.codex/generated_images/01a0e5f3-61d6-71b3-be62-d48436ea51cb/exec-5adf4fbb-2704-4f31-8176-1cb7e55edd5d.png
     operation: ImageGen 굵은 자갈 반복 패턴 생성. 128x128 LANCZOS 축소.
-- managementId: sprite.image.characters.default.walk-light-leather.front-left
-  version: baseline-light-leather-20261109-v1
-  path: assets/characters/default/animations/light-leather/walk/character-default-light-leather-walk-front-left-sprite-v1.png
-  sha256: 649123a4c109d6b8128b43f7001b75b9946c5910d6e48375f37ee3d693bea0d9
+- managementId: sprite.image.characters.default.walk-light-leather.v2
+  version: light-armor-20261112-v2
+  path: assets/characters/default/animations/light-leather/walk/walk-v2.png
+  sha256: 637cb2df2fd470a6ffc8dc654f41629765d09ba25d3926715635a4be8f78161b
   source:
     repository: slime-workflow
-    path: baseline/character-baselines/character-default/baseline-v1/character-default-light-leather-four-directions-v1.png
-    previous_operation: 사용자 승인 ImageGen 화풍·캐릭터 일관성 보정, 기존 8프레임·6fps·앵커 유지
-    operation: 기본복 베이스라인에 ImageGen 라이트 아머 적용 및 투명화 · 기존 클립 유지
-    previous_version: v2-baseline-style-2026-11-07
-    previous_sha256: 9ad60f9da78a966a23cc45d833c26a5355684e27e413bafd836c60c9e10440d1
-- managementId: sprite.metadata.characters.default.walk-light-leather.front-left
-  version: baseline-light-leather-20261109-v1
+    path: baseline/player/default/default-walk-front-right-8frames-v1.png
+    operation: 라이트 아머 적용 및 투명화 후 프레임 정렬
+  width: 1248
+  height: 1174
+- managementId: sprite.metadata.characters.default.walk-light-leather.v2
+  version: light-armor-20261112-v2
   path: assets/characters/default/animations/light-leather/walk/source.yaml
-  sha256: 40650bff1560b5ead2ced722633d64f9e52beae93417d065a6fb47ac7b551934
+  sha256: efe6fa63bc7f34950422cb518a68d78191df12048f553c338f874f7738aebd3b
   source:
     repository: slime-workflow
-    path: baseline/character-baselines/character-default/baseline-v1/character-default-light-leather-four-directions-v1.png
-    previous_operation: 사용자 승인 ImageGen 화풍·캐릭터 일관성 보정, 기존 8프레임·6fps·앵커 유지
-    operation: 기본복 베이스라인에 ImageGen 라이트 아머 적용 및 투명화 · 기존 클립 유지
-    previous_version: v2-baseline-style-2026-11-07
-    previous_sha256: 0c50c5be8e3f55d13c8842ccebdd3d00298c3b857e5746774d912948e14c5fc9
-- managementId: sprite.animation.characters.default.walk-light-leather.front-left
-  version: baseline-light-leather-20261109-v1
+    path: baseline/player/default/default-walk-front-right-8frames-v1.png
+    operation: 라이트 아머 적용 및 투명화 후 프레임 정렬
+- managementId: sprite.animation.characters.default.walk-light-leather.v2
+  version: light-armor-20261112-v2
   path: assets/characters/default/animations/light-leather/walk/walk-light-leather-v1.animation.json
-  sha256: 0e2f71d04484dc95613519322b04a2bf0a2eb8e74e36e7680f1f302ce82ead63
+  sha256: ae48e90cb275f7fc99ff0e722f8621801893e67c964ff7e7b75427b31dee7334
   source:
     repository: slime-workflow
-    path: baseline/character-baselines/character-default/baseline-v1/character-default-light-leather-four-directions-v1.png
-    previous_operation: 사용자 승인 ImageGen 화풍·캐릭터 일관성 보정, 기존 8프레임·6fps·앵커 유지
-    operation: 기본복 베이스라인에 ImageGen 라이트 아머 적용 및 투명화 · 기존 클립 유지
-    previous_version: v2-baseline-style-2026-11-07
-    previous_sha256: e7990b57ccb4285fed0fc40f2b6d5368a99a9724af138ace626dd57a4994ef56
+    path: baseline/player/default/default-walk-front-right-8frames-v1.png
+    operation: 라이트 아머 적용 및 투명화 후 프레임 정렬
 - managementId: image.terrain.brine-bank-gravel-sheet-a-v1
   version: v1
   path: assets/tiles/terrain/non-road/brine-bank-gravel-sheet-a-v1.png

@@ -1,8 +1,9 @@
 schema_version: 1
-image: character-default-light-leather-walk-front-left-sprite-v1.png
-description: 기본 캐릭터 경량 가죽 복장 · 왼쪽 앞 걷기
-width: 1474
-height: 1067
+version: light-armor-20261112-v2
+image: walk-v2.png
+description: 기본 캐릭터 라이트 아머 · 오른쪽 앞 걷기
+width: 1248
+height: 1174
 background: transparent
 columns: 4
 rows: 2
@@ -10,14 +11,18 @@ frame_count: 8
 playback_fps: 6
 loop: true
 frame_order: row-major
-anchor_status: 기본복 베이스라인 앵커 사용 · 게임 내 접지 검수 필요
-notes: 정수 프레임 경계와 6fps 재생은 animation.json에서 정의한다.
 animation: walk-light-leather-v1.animation.json
-referenceBodyHeight: 509
-baseline_repository: slime-workflow
-baseline_path: baseline/character-baselines/character-default/baseline-v1/character-default-walk-front-left-sprite-v1.png
-baseline_sha256: 3e8e5968a1b33da1c0b65ae2d5641f4488e9159681a545667d2e7bb0bde994fe
-style_revision: baseline-light-leather-20261109-v1
-sha256: 649123a4c109d6b8128b43f7001b75b9946c5910d6e48375f37ee3d693bea0d9
+referenceBodyHeight: 533
 gameBodyHeight: 80
-operation: 기본복 베이스라인 포즈와 앵커를 기준으로 ImageGen 라이트 아머 적용 및 투명 배경 생성. 6 FPS와 기존 클립 유지.
+anchor_status: 프레임별 발바닥 정렬 · 게임 내 접지 검수 필요
+baseline:
+  repository: slime-workflow
+  path: baseline/player/default/default-walk-front-right-8frames-v1.png
+  sha256: 3276217c8bd29095199c695cc60a3c96f120b9009160da0db2aa93e30039a399
+outfit:
+  repository: slime-workflow
+  path: baseline/player/default/default-light-armor-four-directions-v1.png
+  sha256: 0447b25ee9c0dace40998f4088e0f01751df62535579eca6b2602973135c76d2
+operation: ImageGen 라이트 아머 적용 및 투명화, 프레임 0.94배 축소와 중심·발바닥 정렬
+sha256: 637cb2df2fd470a6ffc8dc654f41629765d09ba25d3926715635a4be8f78161b
+notes: 프레임 간 움직임과 가장자리, 게임 내 크기·접지는 추가 검수가 필요하다.
