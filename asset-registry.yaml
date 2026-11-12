@@ -11052,3 +11052,27 @@ assets:
   source:
     repository: user-provided
     operation: 건물 관리 등록
+- managementId: image.character.default.light-leather.boxing-v1
+  version: boxing-light-armor-20261112-v1
+  path: assets/characters/default/animations/light-leather/boxing/boxing-v1.png
+  sha256: 57033a5417397b3e7185d213ae8765217de8d81148f77fea8bedc1fdbbd6bf2e
+  source:
+    repository: slime-workflow
+    path: baseline/player/default/default-boxing-8frames-v1.png
+    operation: 라이트아머 적용 및 8프레임 접지 앵커 정렬
+- managementId: sprite.animation.characters.default.light-leather.boxing-v1
+  version: boxing-light-armor-20261112-v1
+  path: assets/characters/default/animations/light-leather/boxing/boxing-v1.animation.json
+  sha256: 96aa96f6bf5ebecce35ad628c1b91b4452efd770162ec217c0f80ea2981b07cb
+  source:
+    repository: slime-workflow
+    path: baseline/player/default/default-boxing-8frames-v1.png
+    operation: 라이트아머 적용 및 8프레임 접지 앵커 정렬
+- managementId: sprite.metadata.characters.default.light-leather.boxing-v1
+  version: boxing-light-armor-20261112-v1
+  path: assets/characters/default/animations/light-leather/boxing/source.yaml
+  sha256: 3397caeeb82581447fd2c6a383527ae88098a13f9eae7c13885392b9fd6d16b0
+  source:
+    repository: slime-workflow
+    path: baseline/player/default/default-boxing-8frames-v1.png
+    operation: 라이트아머 적용 및 8프레임 접지 앵커 정렬

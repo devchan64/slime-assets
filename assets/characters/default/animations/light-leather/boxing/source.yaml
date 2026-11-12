@@ -1,0 +1,27 @@
+schema_version: 1
+version: boxing-light-armor-20261112-v1
+image: boxing-v1.png
+description: 기본 캐릭터 라이트아머 복싱 · 8프레임
+width: 1364
+height: 1106
+background: transparent
+columns: 4
+rows: 2
+frame_count: 8
+playback_fps: 6
+loop: false
+animation: boxing-v1.animation.json
+referenceBodyHeight: 512
+gameBodyHeight: 80
+anchor_status: 화면 왼쪽 부츠 접지점 기준 · 게임 내 접지 검수 필요
+baseline:
+  repository: slime-workflow
+  path: baseline/player/default/default-boxing-8frames-v1.png
+  sha256: 66ac00a46493702aad8150dc08f9e0279724584ea0101e70e491a0e6df41d38f
+outfit:
+  repository: slime-workflow
+  path: baseline/player/default/default-light-armor-four-directions-v1.png
+  sha256: 0447b25ee9c0dace40998f4088e0f01751df62535579eca6b2602973135c76d2
+operation: 라이트아머 적용·투명 배경·셀 경계 분리·발 접지 앵커 정렬
+sha256: 57033a5417397b3e7185d213ae8765217de8d81148f77fea8bedc1fdbbd6bf2e
+notes: 프레임 4→5의 방향 전환과 가장자리 잡색, 실제 접지는 검수 필요.

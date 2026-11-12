@@ -1,0 +1,157 @@
+{
+  "animationId": "character.default.light-leather.boxing",
+  "version": "boxing-light-armor-20261112-v1",
+  "sheet": {
+    "width": 1364,
+    "height": 1106
+  },
+  "frames": [
+    {
+      "frameId": "down_right.0",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 341,
+        "height": 552
+      },
+      "anchor": {
+        "x": 110,
+        "y": 531
+      }
+    },
+    {
+      "frameId": "down_right.1",
+      "rect": {
+        "x": 341,
+        "y": 0,
+        "width": 341,
+        "height": 552
+      },
+      "anchor": {
+        "x": 74,
+        "y": 532
+      }
+    },
+    {
+      "frameId": "down_right.2",
+      "rect": {
+        "x": 682,
+        "y": 0,
+        "width": 341,
+        "height": 552
+      },
+      "anchor": {
+        "x": 64,
+        "y": 531
+      }
+    },
+    {
+      "frameId": "down_right.3",
+      "rect": {
+        "x": 1023,
+        "y": 0,
+        "width": 341,
+        "height": 552
+      },
+      "anchor": {
+        "x": 115,
+        "y": 531
+      }
+    },
+    {
+      "frameId": "down_right.4",
+      "rect": {
+        "x": 0,
+        "y": 552,
+        "width": 341,
+        "height": 554
+      },
+      "anchor": {
+        "x": 75,
+        "y": 533
+      }
+    },
+    {
+      "frameId": "down_right.5",
+      "rect": {
+        "x": 341,
+        "y": 552,
+        "width": 341,
+        "height": 554
+      },
+      "anchor": {
+        "x": 114,
+        "y": 533
+      }
+    },
+    {
+      "frameId": "down_right.6",
+      "rect": {
+        "x": 682,
+        "y": 552,
+        "width": 341,
+        "height": 554
+      },
+      "anchor": {
+        "x": 112,
+        "y": 533
+      }
+    },
+    {
+      "frameId": "down_right.7",
+      "rect": {
+        "x": 1023,
+        "y": 552,
+        "width": 341,
+        "height": 554
+      },
+      "anchor": {
+        "x": 111,
+        "y": 533
+      }
+    }
+  ],
+  "clips": [
+    {
+      "clipId": "boxing.down_right",
+      "action": "boxing",
+      "direction": "down_right",
+      "frames": [
+        {
+          "frameId": "down_right.0",
+          "durationMs": 167
+        },
+        {
+          "frameId": "down_right.1",
+          "durationMs": 166
+        },
+        {
+          "frameId": "down_right.2",
+          "durationMs": 167
+        },
+        {
+          "frameId": "down_right.3",
+          "durationMs": 167
+        },
+        {
+          "frameId": "down_right.4",
+          "durationMs": 166
+        },
+        {
+          "frameId": "down_right.5",
+          "durationMs": 167
+        },
+        {
+          "frameId": "down_right.6",
+          "durationMs": 167
+        },
+        {
+          "frameId": "down_right.7",
+          "durationMs": 166
+        }
+      ],
+      "loop": false,
+      "nextClipId": null
+    }
+  ]
+}
