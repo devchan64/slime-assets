@@ -113,28 +113,28 @@ assets:
       - 128
     approval: 사용자 승인 대형 석회석 모자이크 도로 타일 등록
 - managementId: sprite.metadata.characters.default.rest-v2.rest-v2.animation.json
-  version: light-armor-rest-20261112-v4-edit-2026-11-12_22-48-15-af466055
+  version: light-armor-rest-20261114-v5
   path: assets/characters/default/animations/light-leather/rest/rest-v2.animation.json
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.animation.json
-  sha256: 3f22cd2bbc8a9c49ba673b939d2aceb6efab9b3af7bdef5423f480ae6cc7dcb3
+  sha256: 71414c34a06f93adaedde633b8c7068083958f528c8819d2e39a4eb21b885c58
   source:
     repository: slime-workflow
     path: baseline/player/default/default-rest-front-right-16frames-v1.png
     operation: 라이트 아머 적용 및 투명화 후 프레임 정렬
 - managementId: image.frontend.src.assets.characters.character-default-white-shirt-rest-v2.rest-v2.png
-  version: light-armor-rest-20261112-v4-edit-2026-11-12_22-48-15-af466055
+  version: light-armor-rest-20261114-v5
   path: assets/characters/default/animations/light-leather/rest/rest-v2.png
   frontend_path: src/assets/characters/default/rest-v2/rest-v2.png
-  sha256: ff628b45ef024f5c4ed08e89cc2fd9ccc4f21c445a3f4782a16eec274fe88847
+  sha256: 7d2c5e109be22cd5543057841ddf7a5f3a643b75c545f78bb1596bcc91f853bf
   source:
     repository: slime-workflow
     path: baseline/player/default/default-rest-front-right-16frames-v1.png
     operation: 라이트 아머 적용 및 투명화 후 프레임 정렬
 - managementId: sprite.metadata.characters.default.rest-v2.source.json
-  version: light-armor-rest-20261112-v4-edit-2026-11-12_22-48-15-af466055
+  version: light-armor-rest-20261114-v5
   path: assets/characters/default/animations/light-leather/rest/source.json
   frontend_path: src/assets/characters/default/rest-v2/source.json
-  sha256: c7d5c83b76c5851506a7ae0ef4962e29eaaa63178c2349029ebc4c6f94125201
+  sha256: 7c50b25242ff77f60880e05c9a40a016b255ef6a6b180e541c99f411da549797
   source:
     repository: slime-workflow
     path: baseline/player/default/default-rest-front-right-16frames-v1.png

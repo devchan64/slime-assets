@@ -1,13 +1,13 @@
 {
-  "referenceBodyHeight": 402,
+  "referenceBodyHeight": 381,
   "gameBodyHeight": 80,
-  "version": "light-armor-rest-20261112-v4",
+  "version": "light-armor-rest-20261114-v5",
   "image": "rest-v2.png",
-  "sha256": "ff628b45ef024f5c4ed08e89cc2fd9ccc4f21c445a3f4782a16eec274fe88847",
+  "sha256": "7d2c5e109be22cd5543057841ddf7a5f3a643b75c545f78bb1596bcc91f853bf",
   "directionOrder": [
     "down_right"
   ],
-  "operation": "원본 휴식 시트를 기준으로 복장 적용 시안 개선 및 프레임 정렬",
+  "operation": "휴식 16프레임 라이트아머 적용 및 행별 크기·중앙 앵커 정렬",
   "playback": {
     "enterAction": "rest-entry",
     "holdAction": "idle",
@@ -23,7 +23,7 @@
   "baseline": {
     "repository": "slime-workflow",
     "path": "baseline/player/default/default-rest-front-right-16frames-v1.png",
-    "sha256": "ff74ee9ff1074055500e1abe442e4dd3ee9b31ecf991fe08c16d9841ac76e405"
+    "sha256": "75079088b5c9a199d1a80f9c929e034407787ffcc869318a3b131352e0cb7de9"
   },
   "notes": "이미지 생성으로 얼굴·머리·체형이 바뀔 수 있다. 원본은 가변 간격으로 추출됐고 게임은 6fps로 재생한다."
 }
