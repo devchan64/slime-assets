@@ -10,7 +10,21 @@ if [[ $# -ne 0 ]]; then
 fi
 cd "$ASSET_SCRIPT_ROOT"
 source scripts/asset_server_environment.sh
-load_asset_server_environment "${ASSET_SERVICE_ENV_FILE:-$ASSET_SCRIPT_ROOT/.local/asset-service.env}" "$ASSET_SCRIPT_ROOT"
+default_asset_environment_path="$ASSET_SCRIPT_ROOT/.local/asset-service.env"
+if [[ -z "${ASSET_SERVICE_ENV_FILE:-}" && ! -e "$default_asset_environment_path" && ! -L "$default_asset_environment_path" ]]; then
+    mkdir -p .local
+    temporary_asset_environment_path="$(mktemp .local/.asset-service.env.XXXXXXXX)"
+    trap 'rm -f -- "$temporary_asset_environment_path"' EXIT
+    cat config/asset-service.env.example > "$temporary_asset_environment_path"
+    if ln -T -- "$temporary_asset_environment_path" "$default_asset_environment_path"; then
+        printf '기본 환경 파일 생성: %s\n' "$default_asset_environment_path"
+    elif [[ ! -f "$default_asset_environment_path" || -L "$default_asset_environment_path" ]]; then
+        exit 2
+    fi
+    rm -f -- "$temporary_asset_environment_path"
+    trap - EXIT
+fi
+load_asset_server_environment "${ASSET_SERVICE_ENV_FILE:-$default_asset_environment_path}" "$ASSET_SCRIPT_ROOT"
 ASSET_PYTHON_EXECUTABLE="${ASSET_PYTHON_EXECUTABLE:-$ASSET_SCRIPT_ROOT/.local/venvs/asset-service/bin/python}"
 mkdir -p .local/logs/asset-service
 current_setup_log="$ASSET_SCRIPT_ROOT/.local/logs/asset-service/setup-$(date -u +%Y%m%dT%H%M%SZ)-$$.log"

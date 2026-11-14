@@ -70,9 +70,7 @@ DB 마이그레이션·런타임 LOGIN 계정과 비밀 파일 준비 후 저장
 
 ```bash
 ./scripts/install_asset_dependencies.sh
-# 최초 환경 파일이 없을 때만 예제를 복사한다.
-cp -n config/asset-service.env.example .local/asset-service.env
-# .local/asset-service.env의 계정·비밀 파일 경로를 실제 준비한 값으로 편집한다.
+./scripts/setup_asset_local.sh
 ./scripts/run_asset_server.sh --check
 ./scripts/run_asset_server.sh
 ```
@@ -87,7 +85,7 @@ API는 전경 실행하며 Ctrl+C로 이번 실행의 API만 종료한다. DB는
 
 현재 로컬 환경 파일은 `ASSET_SERVICE_AUTH_MODE=local-loopback`을 사용하며 API 토큰 파일은 필요 없다. 실행기는 127.0.0.1에 바인딩하고 프록시 전달 IP를 사용하지 않는다. 루프백 외 요청·다른 Origin은 거절한다. 무토큰 모드는 local에서만 허용하며 dev 원격 접속은 token 모드를 유지한다. 에셋 수정 API는 개발 서버(local/dev) 전용이고 prod 기동은 거절한다. DB 비밀번호 파일은 API 토큰과 별개로 필요하다.
 
-초기 개발 DB가 준비되지 않아 asset_runtime_password 파일이 없으면 `scripts/setup_asset_local.sh`로 준비한다. 이 명령은 local 127.0.0.1:25432의 전용 Compose DB만 대상으로 owner/런타임 비밀번호 파일을 생성하고 마이그레이션 및 LOGIN 계정·writer 권한을 설정한다. 기존 비밀번호는 재설정하지 않는다. 이후 `scripts/run_asset_server.sh --check`로 확인한다. 영구 DB·계정 생성 작업이며 시드·백업·게임 DB 변경은 수행하지 않는다.
+초기 개발 DB는 `scripts/setup_asset_local.sh`로 준비한다. 기본 환경 파일이 없으면 이 명령이 `config/asset-service.env.example`을 `.local/asset-service.env`에 복사한다. 기존 파일은 보존하며, `ASSET_SERVICE_ENV_FILE`로 지정한 파일은 미리 준비해야 한다. 기존 DB에 별도 계정이나 비밀 파일 경로를 사용했다면 해당 설정을 복구한 후 실행한다. 이 명령은 local 127.0.0.1:25432의 전용 Compose DB만 대상으로 owner/런타임 비밀번호 파일을 생성하고 마이그레이션 및 LOGIN 계정·writer 권한을 설정한다. 기존 비밀번호는 재설정하지 않는다. 이후 `scripts/run_asset_server.sh --check`로 확인한다. 영구 DB·계정 생성 작업이며 시드·백업·게임 DB 변경은 수행하지 않는다.
 
 
 ## 시작 전 Git 원장 동기화

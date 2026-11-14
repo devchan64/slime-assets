@@ -19,6 +19,18 @@ from asset_service.content_building_properties import validate_building_property
 JSON_RECORD_COLUMN_NAMES = frozenset(('metadata', 'document', 'display_adjustments'))
 
 
+def is_initial_migration_state(current_database_connection, current_generation_record):
+    if current_generation_record['current_generation'] != 1 or current_generation_record['snapshot_generation'] != 0:
+        return False
+    current_tower_records = current_database_connection.execute('SELECT asset_id, anchor_x, anchor_y, display_adjustments FROM content.building_properties').fetchall()
+    if current_tower_records != [{'asset_id': 'ward-tower-v1', 'anchor_x': Decimal('0.5'), 'anchor_y': Decimal('0.8203125'), 'display_adjustments': {}}]:
+        return False
+    for current_table_name in ('asset_types', 'image_versions', 'billboard_assets', 'billboard_properties', 'map_documents', 'map_grid_cells', 'map_object_records', 'effect_assets', 'change_receipts', 'snapshot_runs'):
+        if current_database_connection.execute(sql.SQL('SELECT 1 FROM content.{} LIMIT 1').format(sql.Identifier(current_table_name))).fetchone():
+            return False
+    return True
+
+
 def upsert_ledger_record(current_database_connection, current_table_name, current_record_values, current_primary_columns, current_revision_column=None):
     current_filter_clause = sql.SQL(' AND ').join(sql.SQL('{}=%s').format(sql.Identifier(current_column_name)) for current_column_name in current_primary_columns)
     current_existing_record = current_database_connection.execute(
@@ -44,7 +56,8 @@ def synchronize_ledger_bundle(current_database_connection, current_seed_bundle, 
     current_generation_record = current_database_connection.execute('SELECT * FROM content.generations WHERE singleton=true FOR UPDATE').fetchone()
     if current_generation_record is None:
         raise ValueError('콘텐츠 스키마 초기화가 필요합니다.')
-    if current_generation_record['current_generation'] != current_generation_record['snapshot_generation']:
+    if (current_generation_record['current_generation'] != current_generation_record['snapshot_generation']
+            and not is_initial_migration_state(current_database_connection, current_generation_record)):
         raise ContentRevisionConflict('원장 미반영 DB 편집이 있어 시작을 중단합니다. 기존 원장 출력 기능으로 DB 편집을 보존·검수한 뒤 다시 실행하세요. '
                                       f"DB 세대={current_generation_record['current_generation']}, 원장 반영 세대={current_generation_record['snapshot_generation']}")
     if current_database_connection.execute("SELECT 1 FROM content.snapshot_runs WHERE state='running'").fetchone():

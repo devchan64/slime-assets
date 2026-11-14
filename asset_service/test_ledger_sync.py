@@ -44,23 +44,28 @@ class LedgerStartupSyncTests(unittest.TestCase):
 
     def test_initial_repeat_update_and_revert(current_test_case):
         current_first_result = current_test_case.execute_startup_sync()
-        current_test_case.assertEqual(current_first_result['generation'], 1)
+        current_test_case.assertEqual(current_first_result['generation'], 2)
         current_test_case.assertEqual(current_test_case.execute_startup_sync()['changes'], [])
         current_modified_bundle = deepcopy(current_test_case.current_seed_bundle)
         current_modified_bundle['billboards']['assets'][0]['properties']['anchorY'] = 0.5
         current_modified_bundle['maps']['documents']['city_layouts/index.yaml']['data']['cities'] = ['new-city']
         current_modified_bundle['effects'][0]['name'] = '수정 효과'
-        current_test_case.assertEqual(current_test_case.execute_startup_sync(current_modified_bundle)['generation'], 2)
+        current_test_case.assertEqual(current_test_case.execute_startup_sync(current_modified_bundle)['generation'], 3)
         current_test_case.assertEqual(current_test_case.execute_startup_sync(current_modified_bundle)['changes'], [])
-        current_test_case.assertEqual(current_test_case.execute_startup_sync()['generation'], 3)
+        current_test_case.assertEqual(current_test_case.execute_startup_sync()['generation'], 4)
         current_test_case.assertEqual(current_test_case.current_database_connection.execute('SELECT asset_revision FROM content.billboard_assets').fetchone()[0], 3)
 
     def test_pending_edit_blocks_even_unchanged_ledger(current_test_case):
         current_test_case.execute_startup_sync()
-        current_test_case.current_database_connection.execute('UPDATE content.generations SET current_generation=2')
+        current_test_case.current_database_connection.execute('UPDATE content.generations SET current_generation=3')
         with current_test_case.assertRaisesRegex(ContentRevisionConflict, '미반영'):
             current_test_case.execute_startup_sync()
         current_test_case.assertEqual(current_test_case.current_database_connection.execute('SELECT count(*) FROM content.change_receipts').fetchone()[0], 1)
+
+    def test_changed_migration_default_blocks_initial_sync(current_test_case):
+        current_test_case.current_database_connection.execute("UPDATE content.building_properties SET anchor_y=0.7 WHERE asset_id='ward-tower-v1'")
+        with current_test_case.assertRaisesRegex(ContentRevisionConflict, '미반영'):
+            current_test_case.execute_startup_sync()
 
     def test_invalid_effect_rolls_back_prior_updates(current_test_case):
         current_test_case.execute_startup_sync()
