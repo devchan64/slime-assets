@@ -11076,3 +11076,40 @@ assets:
     repository: slime-workflow
     path: baseline/player/default/default-boxing-8frames-v1.png
     operation: 라이트아머 적용 및 8프레임 접지 앵커 정렬
+
+- managementId: image.effects.battle.healing-v1
+  version: v1
+  path: assets/sprites/effects/battle/healing-v1.png
+  name: 전투 회복 빛 리본 효과
+  width: 1254
+  height: 1254
+  sha256: 871563e3c3703f0b3cf41ee06e3ff353b4c22d6ed05896cfd95d6d0b6fcae8b0
+  source:
+    repository: codex-imagegen
+    artifact: exec-9bae230f-932b-4cb1-b255-c5c6fcc3c9ea.png
+    reference: assets/sprites/effects/rest/rest-recovery-v1-source.png
+    processing: 투명 단일 이미지 원본; 회복 마커에서 부드럽게 확대·상승·소멸
+
+- managementId: image.effects.battle.impact-v1
+  version: v1
+  path: assets/sprites/effects/battle/impact-v1.png
+  name: 전투 피격 금빛 접촉광 효과
+  width: 1254
+  height: 1254
+  sha256: aea607be3a8fe50713c0dda1b4477b8dbe5cc44231cffdd6128f738ca4b1a9e8
+  source:
+    repository: codex-imagegen
+    artifact: exec-8f7ba954-71a5-43cd-8e84-b7073c669ceb.png
+    processing: 투명 단일 이미지 원본; 확정 타격 마커에서 확대·소멸
+
+- managementId: image.backgrounds.battle.forest-clearing-v1
+  version: v1
+  path: assets/backgrounds/battle/forest-clearing-v1.png
+  name: 전투 액션 숲 공터 배경
+  width: 1774
+  height: 887
+  sha256: f8fd255dfe9ed1c270c51cc0df5e05bdcf20bd03df5b63c994c0d5beca2dcc3d
+  source:
+    repository: codex-imagegen
+    artifact: exec-298984a8-c9e6-4dfd-ad39-45fc4b449b1c.png
+    processing: 가로형 배경 원본; 카메라 영역을 비율 유지하여 채움
