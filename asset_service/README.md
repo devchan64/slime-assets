@@ -130,3 +130,11 @@ AWS 배포·리소스·운영 비용에는 변화가 없다. 서버 코드를 �
 `python -m unittest asset_service.test_ledger_sync asset_service.test_api`로 실행한다.
 테스트 DB의 사용자 이름은 `asset_test_owner`여야 하며 운영 DB에는 실행하지 않는다.
 API 테스트에는 별도 테스트 의존성 `httpx==0.28.1`이 필요하다.
+
+### 건물 공용 속성
+
+인증된 `GET /internal/v1/content/buildings/{asset_id}/properties`는 DB의 앵커·크기 보정과 콘텐츠 세대를 반환한다. `POST /internal/v1/content/buildings/{asset_id}/anchor`는 `requestId`, `expectedGeneration`, `expected`, `properties`로 조건부 저장한다. 이전 값이나 세대 충돌은 거절하며 같은 요청 ID는 같은 결과를 반환한다. 앵커만 보내면 기존 크기 보정을 유지한다.
+
+`004_ward_tower_properties.sql`은 `ward-tower-v1`의 기존 표시 기준을 등록하며 이미 편집한 값을 덮어쓰지 않는다. 변경은 기존 DB 스냅샷·에셋 원장 동기화로 보존한다. 이 API는 기존 인증·내부 접근 제한을 유지하며 외부 공개 배포를 추가하지 않는다.
+
+건물 표시 속성은 선택적으로 `shadowShape`(circle/rectangle), `shadowOffsetColumn`·`shadowOffsetRow`(-4~4타일), `shadowScaleX`·`shadowScaleY`(0.1~4배)를 함께 저장한다. 위치는 점유 영역 중심 기준이며 크기는 점유 길이 대비 배율이다. 기존 JSONB 표시 속성에 보관하므로 추가 DB 열이나 마이그레이션은 필요 없다. 그림자 필드를 생략하는 이전 클라이언트는 저장된 그림자 값을 보존한다.

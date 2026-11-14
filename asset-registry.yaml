@@ -6436,7 +6436,7 @@ assets:
 - managementId: map.sprite-display-properties
   version: 2026-10-20-complete-billboard-properties-v1
   path: assets/maps/sprite-display-properties.yaml
-  sha256: 25fc26ca58bbeb7c33f4e958b0d82ac184a3e8eda2d439f10e678ab833c634d0
+  sha256: 47a0e90b9a80f05917e3342e05cd7430f9ae1c337b494a9573b26ebf71e5b020
   source:
     type: authored
     description: 에셋 공통 앵커·바닥 크기·표시 높이
@@ -11076,7 +11076,6 @@ assets:
     repository: slime-workflow
     path: baseline/player/default/default-boxing-8frames-v1.png
     operation: 라이트아머 적용 및 8프레임 접지 앵커 정렬
-
 - managementId: image.effects.battle.healing-v1
   version: v1
   path: assets/sprites/effects/battle/healing-v1.png
@@ -11089,7 +11088,6 @@ assets:
     artifact: exec-9bae230f-932b-4cb1-b255-c5c6fcc3c9ea.png
     reference: assets/sprites/effects/rest/rest-recovery-v1-source.png
     processing: 투명 단일 이미지 원본; 회복 마커에서 부드럽게 확대·상승·소멸
-
 - managementId: image.effects.battle.impact-v1
   version: v1
   path: assets/sprites/effects/battle/impact-v1.png
@@ -11101,7 +11099,6 @@ assets:
     repository: codex-imagegen
     artifact: exec-8f7ba954-71a5-43cd-8e84-b7073c669ceb.png
     processing: 투명 단일 이미지 원본; 확정 타격 마커에서 확대·소멸
-
 - managementId: image.backgrounds.battle.forest-clearing-v1
   version: v1
   path: assets/backgrounds/battle/forest-clearing-v1.png

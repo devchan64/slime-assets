@@ -2897,18 +2897,18 @@ billboards:
     height: 256
     sha256: 1329b464bdb65ebce28536fa767615d97d0255d3dce9962a86e651e8f3b1227d
   modeling:
-    purpose: 돌온재 외곽의 밝고 넓은 석회암 암반
-    composition: 2x2 동일 고도 위에 배치. 넓은 암반 면과 낮은 파편이 결합한 군락.
     shadow:
+      guidance_only: true
       runtime_profile: billboard-contact-tile-length-v3
-      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
-        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
       contact_guidance: 단단한 밑면 아래 중심은 조금 진하고 가장자리는 부드럽게 표현한다.
-      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
-        확정한다.
       placement_review: 타일 고도·상하 앵커·회전에 맞는 접지 위치를 확인하고 절벽 밖이나 다른 오브젝트 위로 그림자가 번지지
         않게 검수한다.
-      guidance_only: true
+      current_rendering: 공용 렌더러 3겹 접지 그림자. 모든 점유 형태에 타일 열·행 축을 따르는 둥근 직사각형. 공용 속성
+        shadowOffsetColumn/Row와 shadowScaleX/Y로 위치·크기를 조절한다. 농도 수동 조절은 미지원.
+      baked_shadow_review: 원본에 진한 그림자·지면 받침이 있으면 중복 음영을 확인한다. 원본별 그림자 포함 여부는 이미지 검수로
+        확정한다.
+    purpose: 돌온재 외곽의 밝고 넓은 석회암 암반
+    composition: 2x2 동일 고도 위에 배치. 넓은 암반 면과 낮은 파편이 결합한 군락.
   placement:
     status: 공용 속성 등록됨
     anchor_semantics: 이미지 사각형 아랫변 중앙의 타일 좌표. (.5,.5)는 중앙. 투명 여백 포함.

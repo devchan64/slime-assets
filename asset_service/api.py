@@ -225,6 +225,21 @@ def create_asset_service(current_connection_factory=None):
                 'effectProfiles': {current_effect_record['document']['alignment']['texture']: current_effect_record['document']['alignment'] for current_effect_record in current_database_connection.execute('SELECT document FROM content.effect_assets ORDER BY asset_id').fetchall() if 'alignment' in current_effect_record['document']},
                 **read_content_generation_state(current_database_connection)}
 
+    @current_service_application.get('/internal/v1/content/buildings/{current_asset_identifier}/properties')
+    def read_asset_building_properties(current_asset_identifier: str):
+        from asset_service.content_building_properties import decode_building_property_record
+        with current_connection_factory() as current_database_connection:
+            current_database_connection.execute('SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY')
+            current_building_record=current_database_connection.execute('SELECT * FROM content.building_properties WHERE asset_id=%s',(current_asset_identifier,)).fetchone()
+            if current_building_record is None:raise ValueError('등록되지 않은 건물입니다.')
+            return {'asset':current_asset_identifier,'properties':decode_building_property_record(current_building_record),**read_content_generation_state(current_database_connection)}
+
+    @current_service_application.post('/internal/v1/content/buildings/{current_asset_identifier}/anchor')
+    def save_asset_building_properties(current_asset_identifier: str,current_request_payload: dict):
+        from asset_service.building_editor_store import save_building_anchor_values
+        with current_connection_factory() as current_database_connection:
+            return save_building_anchor_values(current_database_connection,current_asset_identifier,current_request_payload)
+
     @current_service_application.post('/internal/v1/content/map-changes')
     def save_asset_map_documents(current_request_payload: dict):
         with current_connection_factory() as current_database_connection:
