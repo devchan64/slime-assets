@@ -8845,29 +8845,21 @@ assets:
     model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
     duration_seconds: 120.8
 - managementId: audio.bgm.grove.vocal.mp3
-  version: v1
-  path: assets/audio/bgm/grove/v1/grove-vocal.mp3
-  sha256: 414a400ee15bacef4d09023198d631f425687aa67dcf2caf3a000e878cd01261
+  version: v2
+  path: assets/audio/bgm/grove/v2/grove-vocal.mp3
+  sha256: 7db6086d1f6ac366acf5352f3ba632cfc1124194842f6c1cc265671288ed5bd6
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_18-57-07-3cd5514d
-    attempt: a10be9a2509044499b946603727f1576
-    title: 잎새와 햇살이 만나는 곳 (보컬)
-    operation: 사용자 승인 · 푸른 숲 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
-    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 68.95997916666667
+    operation: 사용자 채택 · 푸른 숲 배경음악 원곡
+    duration_seconds: 153.28
 - managementId: audio.bgm.grove.instrumental.mp3
-  version: v1
-  path: assets/audio/bgm/grove/v1/grove-instrumental.mp3
-  sha256: 7136b36148839374d6bd032fb3b88afbed63610ae53590f8b9747209a233196d
+  version: v2
+  path: assets/audio/bgm/grove/v2/grove-instrumental.mp3
+  sha256: 0a002cd00f79edfb7e1fbb3edcd746e2ac182a8cd2a74af2baaf67b1641aee14
   source:
     repository: slime-workflow
-    generation_id: 2026-10-25_18-57-07-3cd5514d
-    attempt: a10be9a2509044499b946603727f1576
-    title: 잎새와 햇살이 만나는 곳 (MR)
-    operation: 사용자 승인 · 푸른 숲 원곡·MR 등록 · 가사 기반 제목 ID3v2.3 추가
-    model: HeartMuLa/HeartMuLa-oss-3B-happy-new-year
-    duration_seconds: 68.95997916666667
+    operation: 사용자 채택 · 푸른 숲 배경음악 MR
+    duration_seconds: 153.28
 - managementId: audio.bgm.cinder-path.vocal.mp3
   version: v1
   path: assets/audio/bgm/cinder-path/v1/cinder-path-vocal.mp3

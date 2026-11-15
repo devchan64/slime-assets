@@ -47,14 +47,14 @@ maps:
   grove:
     vocal:
       management_id: audio.bgm.grove.vocal.mp3
-      version: v1
-      path: assets/audio/bgm/grove/v1/grove-vocal.mp3
-      sha256: 414a400ee15bacef4d09023198d631f425687aa67dcf2caf3a000e878cd01261
+      version: v2
+      path: assets/audio/bgm/grove/v2/grove-vocal.mp3
+      sha256: 7db6086d1f6ac366acf5352f3ba632cfc1124194842f6c1cc265671288ed5bd6
     instrumental:
       management_id: audio.bgm.grove.instrumental.mp3
-      version: v1
-      path: assets/audio/bgm/grove/v1/grove-instrumental.mp3
-      sha256: 7136b36148839374d6bd032fb3b88afbed63610ae53590f8b9747209a233196d
+      version: v2
+      path: assets/audio/bgm/grove/v2/grove-instrumental.mp3
+      sha256: 0a002cd00f79edfb7e1fbb3edcd746e2ac182a8cd2a74af2baaf67b1641aee14
   cinder-path:
     vocal:
       management_id: audio.bgm.cinder-path.vocal.mp3
