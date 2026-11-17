@@ -63,7 +63,7 @@ def synchronize_ledger_bundle(current_database_connection, current_seed_bundle, 
     if current_database_connection.execute("SELECT 1 FROM content.snapshot_runs WHERE state='running'").fetchone():
         raise ContentRevisionConflict('원장 출력 작업이 남아 있습니다. 완료 또는 실패 복구 후 다시 실행하세요.')
     if not current_database_connection.execute("SELECT 1 FROM information_schema.columns WHERE table_schema='content' AND table_name='building_properties' AND column_name='display_adjustments'").fetchone():
-        raise ValueError('003_building_display_adjustments 마이그레이션이 필요합니다. scripts/setup_asset_local.sh 실행 후 다시 시작하세요.')
+        raise ValueError('003_building_display_adjustments 마이그레이션이 필요합니다. scripts/asset.sh dev setup 실행 후 다시 시작하세요.')
     current_change_records = []
     current_billboard_bundle = current_seed_bundle['billboards']
     for current_type_identifier, current_type_label in current_billboard_bundle['types'].items():

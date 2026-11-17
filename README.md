@@ -6,6 +6,23 @@
 
 SLIME 게임에서 채택한 공개 에셋의 관리 저장소다.
 
+## 개발 환경 통합 명령
+
+`scripts/asset.sh`에서 의존성 설치, 로컬 DB 준비, 검사와 API 실행을 관리한다.
+
+`dev`는 로컬 개발 환경 준비와 검사를, `service`는 API 실행을 담당한다. 현재 `service start` 실행기는 local 전용이며 운영(prod) 서비스 실행은 지원하지 않는다.
+
+```bash
+./scripts/asset.sh --help
+./scripts/asset.sh help dev setup
+./scripts/asset.sh dev install
+./scripts/asset.sh dev setup
+./scripts/asset.sh dev check
+./scripts/asset.sh service start
+```
+
+`setup`은 로컬 DB·계정 생성과 마이그레이션을 수행한다. `start`는 원장을 DB에 동기화한 후 API를 실행한다. `check`는 동기화를 검사하고 DB 변경을 롤백한다. 상세 설정과 `--start-db` 옵션은 [개발 에셋 API 안내](asset_service/README.md)를 따른다.
+
 ## 초기 관리 범위
 
 | 디렉터리 | 대상 |

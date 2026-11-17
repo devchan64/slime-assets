@@ -66,14 +66,20 @@ token 모드에서는 모든 경로에 `Authorization: Bearer <서비스 토큰>
 
 ## 단일 개발 서버 실행 스크립트
 
-DB 마이그레이션·런타임 LOGIN 계정과 비밀 파일 준비 후 저장소 루트에서 실행한다.
+저장소 루트에서 통합 명령을 사용한다. `setup`은 로컬 DB·계정과 비밀 파일을 준비하고 마이그레이션한다.
+
+`dev`는 로컬 개발 환경 준비와 검사를, `service`는 API 실행을 담당한다. 현재 `service start` 실행기는 local 전용이며 운영(prod) 서비스 실행은 지원하지 않는다.
 
 ```bash
-./scripts/install_asset_dependencies.sh
-./scripts/setup_asset_local.sh
-./scripts/run_asset_server.sh --check
-./scripts/run_asset_server.sh
+./scripts/asset.sh --help
+./scripts/asset.sh help dev setup
+./scripts/asset.sh dev install
+./scripts/asset.sh dev setup
+./scripts/asset.sh dev check
+./scripts/asset.sh service start
 ```
+
+각 명령의 `--help`로도 사용법을 볼 수 있다. 각 명령은 통합 스크립트에서 직접 실행한다.
 
 기본값은 local·127.0.0.1:25432·slime_assets_local, API 127.0.0.1:8791이다. `--start-db`를 추가하면 준비된 Compose DB를 시작한다. `--start-db --check`는 DB를 시작하고 사전 검사만 수행한다. 스키마·계정·의존성 설치는 별도 수행하고, API 시작 전 Git 추적 원장을 DB에 자동 동기화한다. 비밀 파일에는 소유자만 접근할 수 있어야 한다.
 
@@ -85,12 +91,12 @@ API는 전경 실행하며 Ctrl+C로 이번 실행의 API만 종료한다. DB는
 
 현재 로컬 환경 파일은 `ASSET_SERVICE_AUTH_MODE=local-loopback`을 사용하며 API 토큰 파일은 필요 없다. 실행기는 127.0.0.1에 바인딩하고 프록시 전달 IP를 사용하지 않는다. 루프백 외 요청·다른 Origin은 거절한다. 무토큰 모드는 local에서만 허용하며 dev 원격 접속은 token 모드를 유지한다. 에셋 수정 API는 개발 서버(local/dev) 전용이고 prod 기동은 거절한다. DB 비밀번호 파일은 API 토큰과 별개로 필요하다.
 
-초기 개발 DB는 `scripts/setup_asset_local.sh`로 준비한다. 기본 환경 파일이 없으면 이 명령이 `config/asset-service.env.example`을 `.local/asset-service.env`에 복사한다. 기존 파일은 보존하며, `ASSET_SERVICE_ENV_FILE`로 지정한 파일은 미리 준비해야 한다. 기존 DB에 별도 계정이나 비밀 파일 경로를 사용했다면 해당 설정을 복구한 후 실행한다. 이 명령은 local 127.0.0.1:25432의 전용 Compose DB만 대상으로 owner/런타임 비밀번호 파일을 생성하고 마이그레이션 및 LOGIN 계정·writer 권한을 설정한다. 기존 비밀번호는 재설정하지 않는다. 이후 `scripts/run_asset_server.sh --check`로 확인한다. 영구 DB·계정 생성 작업이며 시드·백업·게임 DB 변경은 수행하지 않는다.
+초기 개발 DB는 `scripts/asset.sh dev setup`로 준비한다. 기본 환경 파일이 없으면 이 명령이 `config/asset-service.env.example`을 `.local/asset-service.env`에 복사한다. 기존 파일은 보존하며, `ASSET_SERVICE_ENV_FILE`로 지정한 파일은 미리 준비해야 한다. 기존 DB에 별도 계정이나 비밀 파일 경로를 사용했다면 해당 설정을 복구한 후 실행한다. 이 명령은 local 127.0.0.1:25432의 전용 Compose DB만 대상으로 owner/런타임 비밀번호 파일을 생성하고 마이그레이션 및 LOGIN 계정·writer 권한을 설정한다. 기존 비밀번호는 재설정하지 않는다. 이후 `scripts/asset.sh dev check`로 확인한다. 영구 DB·계정 생성 작업이며 시드·백업·게임 DB 변경은 수행하지 않는다.
 
 
 ## 시작 전 Git 원장 동기화
 
-`run_asset_server.sh`는 권한 검사 → 원장 검증 → DB 동기화 → API 시작 순서로 실행한다.
+`scripts/asset.sh service start`는 권한 검사 → 원장 검증 → DB 동기화 → API 시작 순서로 실행한다.
 빌보드 카탈로그·이미지 등록 참조·맵 문서·건물 공용 속성·이펙트 카탈로그가 대상이다.
 다른 이미지·캐릭터 파일 전체를 DB에 복제하는 기능은 아니다. 원본 이미지는 파일로 유지한다.
 Git 추적된 **현재 작업 트리**를 읽으며 fetch/pull/checkout은 하지 않는다. 커밋 전 편집도 반영된다.
@@ -114,10 +120,10 @@ Git 추적된 **현재 작업 트리**를 읽으며 fetch/pull/checkout은 하�
 기존 컬럼과 API 필드를 유지하며 선택적 보정값만 추가한다. 로컬 DB에서 먼저 다음을 실행한다.
 
 ```bash
-./scripts/install_asset_dependencies.sh
-./scripts/setup_asset_local.sh
-./scripts/run_asset_server.sh --check
-./scripts/run_asset_server.sh
+./scripts/asset.sh dev install
+./scripts/asset.sh dev setup
+./scripts/asset.sh dev check
+./scripts/asset.sh service start
 ```
 
 API 시작 시 관리자 권한으로 스키마를 자동 변경하지 않는다. 이 변경은 로컬 기동 경로만 대상으로 하며
