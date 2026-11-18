@@ -86,7 +86,8 @@ class AssetDatabaseMigrationTests(unittest.TestCase):
             current_migration_root = Path(current_directory_name)
             for current_migration_file in ASSET_MIGRATION_ROOT.glob('*.sql'):
                 (current_migration_root / current_migration_file.name).write_bytes(current_migration_file.read_bytes())
-            (current_migration_root / '004_invalid_schema.sql').write_text('SELECT nonexistent_column FROM content.asset_types;')
+            current_next_number = len(list(current_migration_root.glob('*.sql'))) + 1
+            (current_migration_root / f'{current_next_number:03d}_invalid_schema.sql').write_text('SELECT nonexistent_column FROM content.asset_types;')
             with current_test_case.assertRaises(psycopg.errors.UndefinedColumn):
                 apply_asset_migrations(current_test_case.current_database_connection, current_migration_root)
         current_test_case.assertIsNone(current_test_case.current_database_connection.execute("SELECT to_regnamespace('content')").fetchone()[0])

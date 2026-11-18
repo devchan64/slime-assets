@@ -85,16 +85,18 @@ class LedgerStartupSyncTests(unittest.TestCase):
         current_test_case.assertEqual(current_test_case.execute_startup_sync()['changes'], [])
 
     def test_dry_run_and_source_change_roll_back(current_test_case):
+        current_initial_generation = current_test_case.current_database_connection.execute('SELECT current_generation FROM content.generations').fetchone()[0]
         with current_test_case.open_runtime_connection() as current_database_connection:
             synchronize_ledger_bundle(current_database_connection, current_test_case.current_seed_bundle, lambda: None)
             current_database_connection.rollback()
-        current_test_case.assertEqual(current_test_case.current_database_connection.execute('SELECT current_generation FROM content.generations').fetchone()[0], 0)
+        current_test_case.assertEqual(current_test_case.current_database_connection.execute('SELECT current_generation FROM content.generations').fetchone()[0], current_initial_generation)
         def reject_changed_source():
             raise ValueError('원장 변경')
         with current_test_case.assertRaisesRegex(ValueError, '원장 변경'):
             with current_test_case.open_runtime_connection() as current_database_connection:
                 synchronize_ledger_bundle(current_database_connection, current_test_case.current_seed_bundle, reject_changed_source)
         current_test_case.assertEqual(current_test_case.current_database_connection.execute('SELECT count(*) FROM content.billboard_assets').fetchone()[0], 0)
+        current_test_case.assertEqual(current_test_case.current_database_connection.execute('SELECT current_generation FROM content.generations').fetchone()[0], current_initial_generation)
 
     def test_removal_retires_and_readdition_advances_revision(current_test_case):
         current_test_case.execute_startup_sync()

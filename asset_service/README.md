@@ -26,7 +26,10 @@ token 모드에서는 모든 경로에 `Authorization: Bearer <서비스 토큰>
 | POST `/seed/billboards` | 빌보드 최초 적재·동일 입력 재전송 |
 | POST `/seed/bundle` | 빈 DB에 빌보드·맵·선택 이펙트 원자 적재 |
 | GET `/effects` | 이펙트 원장 조회 |
+| POST `/effects` | 신규 이펙트 등록, ID·발광 연결 중복 방지 |
+| POST `/effects/reviewed` | 빌보드 리비전을 DB 트랜잭션에서 확인한 발광 등록 |
 | PATCH `/effects/{id}` | 해시 revision·UUID requestId 기반 정렬 편집 |
+| POST `/effects/{id}/replace` | revision·requestId 기반 웨이포인트 교체 |
 | POST `/seed/maps` | 맵·건물 앵커 최초 적재·동일 입력 재전송 |
 | GET `/map-document?path=...` | 맵·공용 속성 문서 조회 |
 | GET `/review-bundle?map=...` | 동일 DB 세대의 맵·이미지·revision 묶음 |
@@ -41,6 +44,8 @@ token 모드에서는 모든 경로에 `Authorization: Bearer <서비스 토큰>
 | POST `/snapshots/{runId}/fail` | 출력 실패 기록 |
 
 `snapshots`는 기존 클라이언트 URL 호환 이름이며 DB 백업 명령이 아니다. API는 파일을 쓰지 않는다. workflow의 기존 `map-assets database-sync`가 payload를 검증하고 에셋 저장소의 원장을 출력한 뒤 완료를 기록한다. 기존 클라이언트의 `SLIME_CONTENT_SERVICE_ORIGIN`을 이 서비스로 연결할 수 있지만 아래 미전환 명령이 필요한 전체 관리 화면의 일괄 전환은 아직 수행하지 않는다.
+
+이펙트 등록과 웨이포인트 교체는 DB 세대를 갱신하고 원장 출력을 대기시킨다. `/status`의 `capabilities.reviewedBillboardEffectRegistration`, `waypointEffectWrites`, `effectAlignmentUniqueness`는 각각 검토된 빌보드 발광 등록, 웨이포인트 등록·교체, 정렬 연결의 원자적 중복 차단 지원 여부를 표시한다. 등록 시 ID와 발광 텍스처·연결 키의 중복을 차단하며, 교체는 기존 revision과 요청 ID를 검사한다. 원본 이미지의 등록·해시와 게임 측 참조는 별도로 확인해야 한다.
 
 위 표에 없는 명령은 미지원이며 404를 반환한다. 백업·복구 구현은 보류 상태다. 기존 backend 구현은 전환 전 호환 경로로 남아 있으며 이 서비스가 백엔드 소스를 import하거나 우회 호출하지 않는다. 편집 후 게임 전체의 지형·효과 검증도 아직 이관하지 않았으므로 전체 게임 검증 완료를 의미하는 값을 반환하지 않는다.
 
@@ -58,7 +63,9 @@ token 모드에서는 모든 경로에 `Authorization: Bearer <서비스 토큰>
 
 현재 원장 검증은 관리도구의 기존 시드 생성기로 전달 JSON을 준비한 뒤 `ASSET_TEST_SEED_FILE`에 그 파일의 절대 경로를 지정해 격리 API 검사를 실행한다. 미지정 시 해당 검사는 건너뛰며 일반 fixture 검사만 수행한다. 테스트 자료는 원장 사본이며 공개 저장소에 추가하지 않는다.
 
-실제 HTTP 연결 회귀는 격리 DB 검사에 `ASSET_TEST_WORKFLOW_ROOT`를 명시하여 실행한다. 해당 경로의 `.venv-management/bin/python`과 `tools.review.tests.test_asset_service_http`를 사용하며, 배포 서비스의 런타임 의존성이 아니다. 검사는 임시 루프백 uvicorn과 공용 명령 게이트웨이 처리기를 사용하는 임시 HTTP 서버를 시작해 명령 봉투·CLI 상태 조회·잘못된 토큰 거절을 확인한 뒤 종료한다. GUI 렌더링이나 별도 호스트 TLS 검증은 포함하지 않는다.
+실제 HTTP 연결 회귀는 격리 DB 검사에 `ASSET_TEST_WORKFLOW_ROOT`를 명시하여 실행한다. 기본으로 해당 경로의 `.venv/bin/python`을 사용하며, 다른 검증 환경은 `ASSET_TEST_WORKFLOW_PYTHON`으로 명시한다. `tools.review.tests.test_asset_service_http`를 사용하며, 배포 서비스의 런타임 의존성이 아니다. 검사는 임시 루프백 uvicorn과 공용 명령 게이트웨이 처리기를 사용하는 임시 HTTP 서버를 시작해 명령 봉투·CLI 상태 조회·잘못된 토큰 거절을 확인한 뒤 종료한다. GUI 렌더링이나 별도 호스트 TLS 검증은 포함하지 않는다.
+
+기존 백엔드 콘텐츠 API 호환성 검사는 격리 DB와 `ASSET_TEST_WORKFLOW_ROOT`, `ASSET_TEST_LEGACY_BACKEND_ROOT`를 지정하고 `asset_service.test_api.AssetServiceApiTests.test_legacy_backend_waypoint_management_over_real_http`를 실행한다. 기존 API를 임시 루프백 서버로 시작하고 웨이포인트 신규 등록·교체·동일 요청 재확인, 안개 등록·동시 중복 차단, 빌보드 발광 등록과 동시 리비전 변경·비활성 대상 거부를 검증한다. 운영 DB나 서버를 사용하지 않는다.
 
 `POST /internal/v1/content/snapshots/export?replay=true`는 이미 출력 완료한 현재 세대도 새 실행 ID로 전달한다. 세대 자체는 증가시키지 않으며 실행 중 lease와 공개 경로 검증은 동일하게 적용한다. 개발 원장 동기화의 로컬 영수증 유실을 복구하는 계약이며 과거 DB 백업 복원이 아니다.
 
@@ -136,6 +143,12 @@ AWS 배포·리소스·운영 비용에는 변화가 없다. 서버 코드를 �
 API 테스트에는 별도 테스트 의존성 `httpx==0.28.1`이 필요하다.
 
 ### 건물 공용 속성
+
+개발 에셋 서비스는 인증된 `/internal/v1/content/building-lifecycle-capabilities`에서 건물 등록·폐기 지원을 알리고, 건물 생명주기 API에서 콘텐츠 세대와 요청 ID를 확인한다. 같은 요청은 기존 응답을 반환하고 다른 입력의 요청 ID 재사용과 오래된 세대는 거부한다. 빌보드 ID 충돌과 사용 중인 도시 맵 건물의 폐기를 차단하며 공용 결계탑은 등록·폐기하지 않는다. 등록·폐기 API는 건물 공용 속성과 콘텐츠 세대만 변경하며 이미지 파일·에셋 등록부는 관리도구가 별도로 처리한다. 두 단계 사이 장애 시 원본과 DB 상태를 확인해야 한다.
+
+격리 PostgreSQL과 로컬 HTTP API에서 관리도구의 등록·폐기 응답이 각각 유실된 상황을 모의하고 같은 입력과 요청 ID로 복구하여 이미지 보존, 등록부 폐기 표시, DB 접수 기록을 확인했다. 이 시험은 운영 DB와 소비자 잠금 갱신을 검증하지 않는다.
+
+같은 격리 환경에서 Hermes의 건물 앵커 검토·저장, 중복 접수 확인 및 저장 후 이전 콘텐츠 세대 거부를 실제 관리 게이트웨이와 콘텐츠 HTTP API로 검증했다. 게임 화면 렌더링과 운영 원장 반영을 확인한 것은 아니다.
 
 인증된 `GET /internal/v1/content/buildings/{asset_id}/properties`는 DB의 앵커·크기 보정과 콘텐츠 세대를 반환한다. `POST /internal/v1/content/buildings/{asset_id}/anchor`는 `requestId`, `expectedGeneration`, `expected`, `properties`로 조건부 저장한다. 이전 값이나 세대 충돌은 거절하며 같은 요청 ID는 같은 결과를 반환한다. 앵커만 보내면 기존 크기 보정을 유지한다.
 

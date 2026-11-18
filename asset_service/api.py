@@ -24,7 +24,7 @@ from asset_service.content_map_store import save_content_map_documents
 from asset_service.content_runtime_documents import read_runtime_map_document, read_review_document_bundle, read_billboard_image_manifest, collect_document_texture_keys
 
 from asset_service.content_seed_bundle import initialize_complete_seed_bundle
-from asset_service.content_effect_assets import save_effect_alignment_values
+from asset_service.content_effect_assets import save_effect_alignment_values, register_content_effect_asset, replace_waypoint_effect_asset
 
 from asset_service.content_asset_retirement import preview_content_asset_retirement, retire_content_asset_record
 
@@ -156,7 +156,7 @@ def create_asset_service(current_connection_factory=None):
     def read_asset_service_status():
         with current_connection_factory() as current_database_connection:
             current_database_connection.execute('SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY')
-            return read_content_snapshot_health(current_database_connection)
+            return {**read_content_snapshot_health(current_database_connection), 'capabilities': {'reviewedBillboardEffectRegistration': True, 'waypointEffectWrites': True, 'effectAlignmentUniqueness': True}}
 
     @current_service_application.get('/internal/v1/content/types')
     def read_asset_type_catalog():
@@ -225,6 +225,16 @@ def create_asset_service(current_connection_factory=None):
                 'effectProfiles': {current_effect_record['document']['alignment']['texture']: current_effect_record['document']['alignment'] for current_effect_record in current_database_connection.execute('SELECT document FROM content.effect_assets ORDER BY asset_id').fetchall() if 'alignment' in current_effect_record['document']},
                 **read_content_generation_state(current_database_connection)}
 
+    @current_service_application.get('/internal/v1/content/building-lifecycle-capabilities')
+    def read_asset_building_lifecycle_capabilities():
+        return {'register':True,'retire':True}
+
+    @current_service_application.post('/internal/v1/content/buildings/{current_asset_identifier}/lifecycle/{current_action_name}')
+    def change_asset_building_properties_lifecycle(current_asset_identifier: str,current_action_name: str,current_request_payload: dict):
+        from asset_service.content_building_lifecycle import change_asset_building_lifecycle
+        with current_connection_factory() as current_database_connection:
+            return change_asset_building_lifecycle(current_database_connection,current_asset_identifier,current_request_payload,current_action_name)
+
     @current_service_application.get('/internal/v1/content/buildings/{current_asset_identifier}/properties')
     def read_asset_building_properties(current_asset_identifier: str):
         from asset_service.content_building_properties import decode_building_property_record
@@ -259,6 +269,23 @@ def create_asset_service(current_connection_factory=None):
     def save_asset_effect_alignment(current_asset_identifier: str, current_request_payload: dict):
         with current_connection_factory() as current_database_connection:
             return save_effect_alignment_values(current_database_connection, current_asset_identifier, current_request_payload)
+
+    @current_service_application.post('/internal/v1/content/effects')
+    def register_asset_effect_record(current_effect_record: dict):
+        with current_connection_factory() as current_database_connection:
+            return register_content_effect_asset(current_database_connection, current_effect_record)
+
+    @current_service_application.post('/internal/v1/content/effects/reviewed')
+    def register_reviewed_asset_effect(current_request_payload: dict):
+        if set(current_request_payload) != {'effect', 'expectedBillboardRevision'} or type(current_request_payload['expectedBillboardRevision']) is not int or current_request_payload['expectedBillboardRevision'] < 1:
+            raise ValueError('이펙트와 검토한 빌보드 리비전이 필요합니다.')
+        with current_connection_factory() as current_database_connection:
+            return register_content_effect_asset(current_database_connection, current_request_payload['effect'], current_request_payload['expectedBillboardRevision'])
+
+    @current_service_application.post('/internal/v1/content/effects/{current_asset_identifier}/replace')
+    def replace_asset_waypoint_record(current_asset_identifier: str, current_request_payload: dict):
+        with current_connection_factory() as current_database_connection:
+            return replace_waypoint_effect_asset(current_database_connection, current_asset_identifier, current_request_payload)
 
     @current_service_application.post('/internal/v1/content/billboard-changes')
     def save_asset_billboard_batch(current_batch_request: AssetBillboardBatchRequest):

@@ -26,8 +26,15 @@ def initialize_map_seed_bundle(current_database_connection,current_seed_bundle):
     if current_database_connection.execute('SELECT 1 FROM content.map_documents LIMIT 1').fetchone():
         raise ValueError('기존 맵 DB에 최초 시드를 적용할 수 없습니다.')
     for current_asset_identifier,current_property_values in current_building_properties.items():
-        current_database_connection.execute('INSERT INTO content.building_properties(asset_id,anchor_x,anchor_y,display_adjustments) VALUES(%s,%s,%s,%s)',
-            (current_asset_identifier,current_property_values['anchorX'],current_property_values['anchorY'],Jsonb(validate_building_property_values(current_property_values))))
+        current_insert_result=current_database_connection.execute('''INSERT INTO content.building_properties(asset_id,anchor_x,anchor_y,display_adjustments)
+            VALUES(%s,%s,%s,%s) ON CONFLICT (asset_id) DO UPDATE
+            SET anchor_x=EXCLUDED.anchor_x,anchor_y=EXCLUDED.anchor_y,display_adjustments=EXCLUDED.display_adjustments
+            WHERE content.building_properties.asset_id='ward-tower-v1'
+              AND content.building_properties.anchor_x=0.5 AND content.building_properties.anchor_y=0.8203125
+              AND content.building_properties.display_adjustments='{}'::jsonb RETURNING asset_id''',
+            (current_asset_identifier,current_property_values['anchorX'],current_property_values['anchorY'],Jsonb(validate_building_property_values(current_property_values)))).fetchone()
+        if current_insert_result is None:
+            raise ValueError('기존 건물 속성이 있어 최초 시드를 적용할 수 없습니다.')
     for current_document_path,current_document_record in current_map_documents.items():
         insert_map_document_records(current_database_connection,current_document_path,current_document_record)
     current_next_generation=current_generation_record['current_generation']+1
