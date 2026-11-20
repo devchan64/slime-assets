@@ -1,0 +1,30 @@
+{
+  "referenceBodyHeight": 404,
+  "gameBodyHeight": 80,
+  "version": "light-armor-rest-20261120-v8-outfit-color",
+  "image": "rest-v5.png",
+  "sha256": "0d7dafa1acaf9c66ec6cb19377c79568bb163ae89042c408d96ab9c3cba225f1",
+  "directionOrder": [
+    "down_right"
+  ],
+  "operation": "라이트 아머 기준 색상에 맞춰 휴식 시트의 프레임별 의상 색상 보정",
+  "playback": {
+    "enterAction": "rest-entry",
+    "holdAction": "idle",
+    "exitAction": "rest-exit",
+    "afterExitAnimationId": "character.default.white-shirt.idle",
+    "afterExitClipId": "idle.down_left"
+  },
+  "source": {
+    "repository": "slime-workflow",
+    "reference": "baseline/player/default/default-rest-front-right-16frames-v2.png",
+    "costumeReference": "baseline/player/default/default-light-armor-four-directions-v1.png",
+    "characterReference": "baseline/player/default/default-outfit-four-directions-v1.png"
+  },
+  "baseline": {
+    "repository": "slime-workflow",
+    "path": "baseline/player/default/default-rest-front-right-16frames-v2.png",
+    "sha256": "e1475effa20186110fd1460816433f5fe62eb681e7b78cfd10de15903ccea68b"
+  },
+  "notes": "기존 프레임 접지 앵커와 재생 설정 유지; 이미지 보정 시 색상 외 세부 묘사에도 변화가 있을 수 있다."
+}

@@ -1,0 +1,29 @@
+{
+  "referenceBodyHeight": 404,
+  "gameBodyHeight": 80,
+  "version": "light-armor-rest-20261120-v6",
+  "image": "rest-v3.png",
+  "sha256": "fb0f69c84bffce30567073a9d18282b944e5d765265f1d6e99e3cdf878f477a1",
+  "directionOrder": [
+    "down_right"
+  ],
+  "operation": "휴식 16프레임 시트 적용, 투명 배경 및 프레임별 접지 앵커 정렬",
+  "playback": {
+    "enterAction": "rest-entry",
+    "holdAction": "idle",
+    "exitAction": "rest-exit",
+    "afterExitAnimationId": "character.default.white-shirt.idle",
+    "afterExitClipId": "idle.down_left"
+  },
+  "source": {
+    "repository": "slime-workflow",
+    "reference": "baseline/player/default/default-rest-front-right-16frames-v2.png",
+    "costumeReference": "baseline/player/default/default-light-armor-four-directions-v1.png"
+  },
+  "baseline": {
+    "repository": "slime-workflow",
+    "path": "baseline/player/default/default-rest-front-right-16frames-v2.png",
+    "sha256": "e1475effa20186110fd1460816433f5fe62eb681e7b78cfd10de15903ccea68b"
+  },
+  "notes": "프레임 접지 앵커는 양발 위치 추정; 10~12번은 손 접지와 구분해 추정했다."
+}

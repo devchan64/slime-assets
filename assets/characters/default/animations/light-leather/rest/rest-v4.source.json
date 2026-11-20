@@ -1,0 +1,30 @@
+{
+  "referenceBodyHeight": 404,
+  "gameBodyHeight": 80,
+  "version": "light-armor-rest-20261120-v7-face-consistency",
+  "image": "rest-v4.png",
+  "sha256": "ce2e94c235e522f182a3b252bf31c5ac09e9e5b2a74d27f5c153f7134022a31b",
+  "directionOrder": [
+    "down_right"
+  ],
+  "operation": "기본 캐릭터 기준의 얼굴 일관성 보정 및 16프레임 휴식 시트 적용",
+  "playback": {
+    "enterAction": "rest-entry",
+    "holdAction": "idle",
+    "exitAction": "rest-exit",
+    "afterExitAnimationId": "character.default.white-shirt.idle",
+    "afterExitClipId": "idle.down_left"
+  },
+  "source": {
+    "repository": "slime-workflow",
+    "reference": "baseline/player/default/default-rest-front-right-16frames-v2.png",
+    "costumeReference": "baseline/player/default/default-light-armor-four-directions-v1.png",
+    "characterReference": "baseline/player/default/default-outfit-four-directions-v1.png"
+  },
+  "baseline": {
+    "repository": "slime-workflow",
+    "path": "baseline/player/default/default-rest-front-right-16frames-v2.png",
+    "sha256": "e1475effa20186110fd1460816433f5fe62eb681e7b78cfd10de15903ccea68b"
+  },
+  "notes": "기존 프레임 접지 앵커와 재생 설정 유지; 얼굴 보정 과정에서 얼굴 외 픽셀도 변경됨."
+}
