@@ -125,7 +125,7 @@ class AssetServiceApiTests(unittest.TestCase):
             current_review_response = current_api_client.get('/internal/v1/content/review-bundle',params={'map':'test-city'})
             current_test_case.assertEqual(current_review_response.status_code,200,current_review_response.text)
             current_test_case.assertEqual(current_review_response.json()['documents']['city_layouts/test-city.yaml']['data']['rows'],['aa','aa'])
-            current_request_payload = {'requestId':'map-change-one','expectedGeneration':current_seed_response.json()['generation'],
+            current_request_payload = {'requestId':'😀'*180,'expectedGeneration':current_seed_response.json()['generation'],
                 'documents':[{'path':'map_names/test-city.yaml','revision':1,'document':{'managementId':'map.names.test-city','data':{'name':'변경 도시'}}}]}
             current_request_hash=hashlib.sha256(json.dumps(current_request_payload,sort_keys=True,ensure_ascii=False,allow_nan=False).encode()).hexdigest()
             current_receipt_query={'requestId':current_request_payload['requestId'],'requestSha256':current_request_hash}
