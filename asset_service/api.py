@@ -20,7 +20,7 @@ from asset_service.content_snapshots import begin_content_snapshot_export, compl
 
 from asset_service.content_asset_seed import ContentImageSeed, BillboardSeedBundle, initialize_billboard_seed_bundle
 from asset_service.content_map_seed import initialize_map_seed_bundle
-from asset_service.content_map_store import save_content_map_documents
+from asset_service.content_map_store import save_content_map_documents, read_content_map_receipt
 from asset_service.content_runtime_documents import read_runtime_map_document, read_review_document_bundle, read_billboard_image_manifest, collect_document_texture_keys
 
 from asset_service.content_seed_bundle import initialize_complete_seed_bundle
@@ -254,6 +254,11 @@ def create_asset_service(current_connection_factory=None):
     def save_asset_map_documents(current_request_payload: dict):
         with current_connection_factory() as current_database_connection:
             return save_content_map_documents(current_database_connection, current_request_payload)
+
+    @current_service_application.get('/internal/v1/content/map-change-receipt')
+    def read_asset_map_change_receipt(current_request_identifier: str = Query(alias='requestId'), current_request_hash: str = Query(alias='requestSha256')):
+        with current_connection_factory() as current_database_connection:
+            return read_content_map_receipt(current_database_connection,current_request_identifier,current_request_hash)
 
     @current_service_application.post('/internal/v1/content/seed/bundle')
     def seed_complete_asset_bundle(current_seed_bundle: dict):

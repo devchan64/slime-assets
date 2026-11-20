@@ -1,6 +1,12 @@
 """격리 DB에서 기존 API의 편집·원장 전달 및 인증 경계를 검증한다."""
 from contextlib import ExitStack
+import hashlib
+import json
 import os
+import sys
+import subprocess
+import threading
+from http.server import ThreadingHTTPServer
 import tempfile
 import unittest
 from pathlib import Path
@@ -14,6 +20,7 @@ from database.migrate import apply_asset_migrations, read_asset_database_secret
 from database.test_migrations import AssetDatabaseMigrationTests
 from asset_service.api import create_asset_service, ASSET_REQUEST_MAXIMUM_BYTES
 from asset_service.content_asset_seed import initialize_billboard_seed_bundle
+from asset_service.content_map_store import save_content_map_documents
 from asset_service.connection import validate_asset_runtime_connection
 
 
@@ -120,8 +127,120 @@ class AssetServiceApiTests(unittest.TestCase):
             current_test_case.assertEqual(current_review_response.json()['documents']['city_layouts/test-city.yaml']['data']['rows'],['aa','aa'])
             current_request_payload = {'requestId':'map-change-one','expectedGeneration':current_seed_response.json()['generation'],
                 'documents':[{'path':'map_names/test-city.yaml','revision':1,'document':{'managementId':'map.names.test-city','data':{'name':'변경 도시'}}}]}
+            current_request_hash=hashlib.sha256(json.dumps(current_request_payload,sort_keys=True,ensure_ascii=False,allow_nan=False).encode()).hexdigest()
+            current_receipt_query={'requestId':current_request_payload['requestId'],'requestSha256':current_request_hash}
+            current_test_case.assertEqual(current_api_client.get('/internal/v1/content/map-change-receipt',params=current_receipt_query).json(),{'state':'not_found'})
+            with current_test_case.open_runtime_connection() as current_pending_connection:
+                current_pending_response=save_content_map_documents(current_pending_connection,current_request_payload)
+                current_test_case.assertEqual(current_api_client.get('/internal/v1/content/map-change-receipt',params=current_receipt_query).json(),{'state':'not_found'})
+                current_pending_connection.commit()
             current_saved_response = current_api_client.post('/internal/v1/content/map-changes',json=current_request_payload)
             current_test_case.assertEqual(current_saved_response.status_code,200,current_saved_response.text)
+            current_test_case.assertEqual(current_saved_response.json(),current_pending_response)
+            current_test_case.assertEqual(current_api_client.get('/internal/v1/content/map-change-receipt',params=current_receipt_query).json(),{'state':'matched'})
+            current_test_case.assertEqual(current_api_client.get('/internal/v1/content/map-change-receipt',params={**current_receipt_query,'requestSha256':'a'*64}).json(),{'state':'mismatch'})
+            current_workflow_root=os.environ.get('ASSET_TEST_WORKFLOW_ROOT')
+            if current_workflow_root:
+                with patch.object(sys,'path',[current_workflow_root,*sys.path]):
+                    from tools.review.domains.map_assets import database_client
+                    current_original_content_request=database_client.execute_content_api_request
+                    def read_test_content_response(current_http_method,current_relative_path):
+                        current_test_case.assertEqual(current_http_method,'GET')
+                        current_response_value=current_api_client.get(current_relative_path)
+                        current_test_case.assertEqual(current_response_value.status_code,200,current_response_value.text)
+                        return current_response_value.json()
+                    with patch.object(database_client,'execute_content_api_request',side_effect=read_test_content_response):
+                        current_test_case.assertEqual(database_client.read_content_map_change_receipt(current_request_payload)['state'],'matched')
+                        current_test_case.assertEqual(database_client.read_content_map_change_receipt(current_request_payload | {'expectedGeneration':99})['state'],'mismatch')
+                        from tools.review.domains.hermes_agent.service import HermesServiceManager
+                        current_hermes_manager=HermesServiceManager()
+                        current_hermes_payload={'database_request_id':current_request_payload['requestId'],'request_sha256':current_request_hash}
+                        current_hermes_response=current_hermes_manager.execute_hermes_command('hermes-map-database-receipt',current_hermes_payload)
+                        current_test_case.assertEqual(current_hermes_response['state'],'matched')
+                        current_test_case.assertIn('보장하지 않습니다',current_hermes_response['note'])
+                        from tools.review.tests.test_hermes_mcp import hermes_module_value
+                        with patch.object(hermes_module_value,'run_hermes_mcp_command',side_effect=current_hermes_manager.execute_hermes_command):
+                            current_mcp_result=hermes_module_value.read_hermes_map_database_receipt(current_request_payload['requestId'],current_request_hash)
+                        current_test_case.assertEqual(current_mcp_result['state'],'matched')
+                        from tools.review.common.management_gateway import ManagementCommandGateway
+                        from tools.review.gateway_server import create_gateway_request_handler
+                        current_gateway_value=ManagementCommandGateway({'hermes-agent':current_hermes_manager.handle_hermes_request})
+                        current_gateway_server=ThreadingHTTPServer(('127.0.0.1',0),create_gateway_request_handler(current_gateway_value.handle))
+                        current_gateway_server.emit_gateway_trace=lambda *current_values:None
+                        current_gateway_thread=threading.Thread(target=current_gateway_server.serve_forever,daemon=True)
+                        current_gateway_thread.start()
+                        try:
+                            import socket
+                            import time
+                            import uvicorn
+                            current_asset_socket=socket.socket()
+                            current_asset_socket.bind(('127.0.0.1',0))
+                            current_asset_port=current_asset_socket.getsockname()[1]
+                            with patch.dict(os.environ,{'ASSET_SERVICE_ALLOWED_HOSTS':'localhost,127.0.0.1'}):
+                                current_asset_application=create_asset_service(current_test_case.open_runtime_connection)
+                            current_asset_server=uvicorn.Server(uvicorn.Config(current_asset_application,log_level='error',ws='none'))
+                            current_asset_thread=threading.Thread(target=current_asset_server.run,kwargs={'sockets':[current_asset_socket]},daemon=True)
+                            current_asset_thread.start()
+                            current_start_deadline=time.monotonic()+10
+                            while not current_asset_server.started:
+                                if not current_asset_thread.is_alive() or time.monotonic()>current_start_deadline:raise RuntimeError('격리 에셋 API 시작 실패')
+                                time.sleep(0.05)
+                            current_mcp_python=Path(current_workflow_root)/'.local/hermes-mcp/bin/python'
+                            current_mcp_program='''import asyncio,json,os,sys
+from mcp import ClientSession,StdioServerParameters
+from mcp.client.stdio import stdio_client
+async def verify_receipt_result():
+    current_parameters=StdioServerParameters(command=sys.executable,args=['tools/review/domains/hermes_agent/mcp_server.py'],cwd=os.getcwd(),env=dict(os.environ))
+    async with stdio_client(current_parameters) as (current_reader,current_writer):
+        async with ClientSession(current_reader,current_writer) as current_session:
+            await current_session.initialize()
+            current_result=await current_session.call_tool('read_hermes_map_database_receipt',{'database_request_identifier':os.environ['TEST_MAP_REQUEST_ID'],'request_sha256_value':os.environ['TEST_MAP_REQUEST_HASH']})
+            if current_result.is_error:raise RuntimeError(str(current_result))
+            current_record=current_result.structured_content or json.loads(current_result.content[0].text)
+            if current_record.get('state')!='matched':raise RuntimeError(str(current_record))
+asyncio.run(verify_receipt_result())'''
+                            current_asset_origin='http://127.0.0.1:'+str(current_asset_port)
+                            current_mcp_environment=dict(os.environ,SLIME_MANAGEMENT_GATEWAY_URL='http://127.0.0.1:'+str(current_gateway_server.server_port),PYTHONPATH=current_workflow_root,TEST_MAP_REQUEST_ID=current_request_payload['requestId'],TEST_MAP_REQUEST_HASH=current_request_hash)
+                            with patch.dict(os.environ,{'SLIME_CONTENT_SERVICE_ORIGIN':current_asset_origin}), patch.object(database_client,'execute_content_api_request',side_effect=current_original_content_request):
+                                current_mcp_process=subprocess.run([str(current_mcp_python),'-c',current_mcp_program],cwd=current_workflow_root,env=current_mcp_environment,capture_output=True,text=True,timeout=30)
+                                import shutil
+                                current_bwrap_path=shutil.which('bwrap')
+                                if current_bwrap_path:
+                                    from tools.review.domains.hermes_agent import management_bridge, management_status_client
+                                    with tempfile.TemporaryDirectory() as current_socket_directory, socket.socket(socket.AF_UNIX,socket.SOCK_STREAM) as current_listener_socket:
+                                        current_socket_path=Path(current_socket_directory)/'observer.sock'
+                                        current_listener_socket.bind(str(current_socket_path))
+                                        current_listener_socket.listen(1)
+                                        current_listener_socket.settimeout(10)
+                                        def handle_isolated_receipt_connection():
+                                            try:
+                                                current_client_socket,_=current_listener_socket.accept()
+                                                management_bridge.handle_hermes_observer_connection(current_client_socket)
+                                            except TimeoutError:
+                                                pass
+                                        current_observer_thread=threading.Thread(target=handle_isolated_receipt_connection,daemon=True)
+                                        current_observer_thread.start()
+                                        current_sandbox_request=json.dumps({'database_request_id':current_request_payload['requestId'],'request_sha256':current_request_hash})
+                                        current_sandbox_arguments=[current_bwrap_path,'--die-with-parent','--unshare-all','--clearenv','--ro-bind','/usr','/usr','--ro-bind','/lib','/lib','--ro-bind','/lib64','/lib64','--dir','/control','--ro-bind',str(current_socket_path),'/control/management-status.sock','--ro-bind',str(Path(management_status_client.__file__)),'/control/management-status.py','--proc','/proc','--dev','/dev','--','/usr/bin/python3','/control/management-status.py','map-database-receipt',current_sandbox_request]
+                                        current_sandbox_result=subprocess.run(current_sandbox_arguments,capture_output=True,text=True,timeout=12)
+                                        current_test_case.assertEqual(current_sandbox_result.returncode,0,current_sandbox_result.stderr)
+                                        current_test_case.assertEqual(json.loads(current_sandbox_result.stdout)['state'],'matched')
+                                        current_observer_thread.join(timeout=2)
+                                        current_test_case.assertFalse(current_observer_thread.is_alive())
+                            current_test_case.assertEqual(current_mcp_process.returncode,0,current_mcp_process.stderr[-4000:])
+                        finally:
+                            if 'current_asset_server' in locals():
+                                current_asset_server.should_exit=True
+                                current_asset_thread.join(timeout=10)
+                                current_asset_socket.close()
+                            current_gateway_server.shutdown()
+                            current_gateway_server.server_close()
+                            current_gateway_thread.join(timeout=5)
+                            if 'current_asset_server' in locals():current_test_case.assertFalse(current_asset_thread.is_alive(),'격리 에셋 API 종료 실패')
+                        from tools.review.ui.gradio import operations_history_app
+                        with patch.object(operations_history_app,'execute_remote_management_command',side_effect=lambda current_service_name,current_command_name,current_payload_value:current_hermes_manager.execute_hermes_command(current_command_name,current_payload_value)):
+                            current_display_record=operations_history_app.collect_operations_map_database_receipt(current_request_payload['requestId'],current_request_hash,'test-token')
+                        current_test_case.assertIn('동기화는 별도로',current_display_record['notice'])
             current_test_case.assertNotIn('validationErrors',current_saved_response.json())
             current_test_case.assertEqual(current_api_client.post('/internal/v1/content/map-changes',json=current_request_payload).json(),current_saved_response.json())
             current_test_case.assertEqual(current_api_client.post('/internal/v1/content/map-changes',json=current_request_payload | {'requestId':'map-stale'}).status_code,409)

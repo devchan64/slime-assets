@@ -1,9 +1,26 @@
 """맵 문서 묶음의 revision·세대 조건부 원자 저장."""
 import hashlib
 import json
+import re
 from psycopg.types.json import Jsonb
 from asset_service.content_asset_store import ContentRevisionConflict
 from asset_service.content_map_documents import insert_map_document_records, read_map_document_records, split_map_document_records, validate_public_map_path
+
+
+def read_content_map_receipt(current_database_connection,current_request_identifier,current_expected_hash):
+    """변경을 재전송하지 않고 접수 ID와 요청 해시의 일치 여부만 확인한다."""
+    if not isinstance(current_request_identifier,str) or not 1<=len(current_request_identifier)<=180:
+        raise ValueError('요청 ID 오류')
+    if not isinstance(current_expected_hash,str) or not re.fullmatch(r'[a-f0-9]{64}',current_expected_hash):
+        raise ValueError('요청 해시 오류')
+    current_receipt_record=current_database_connection.execute(
+        'SELECT request_sha256 FROM content.change_receipts WHERE request_id=%s',
+        (current_request_identifier,)).fetchone()
+    if current_receipt_record is None:
+        return {'state':'not_found'}
+    if current_receipt_record['request_sha256']!=current_expected_hash:
+        return {'state':'mismatch'}
+    return {'state':'matched'}
 
 
 def save_content_map_documents(current_database_connection,current_request_payload):

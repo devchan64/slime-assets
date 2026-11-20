@@ -2,6 +2,12 @@
 
 이 서비스는 `local/dev` 에셋 DB의 조회·빌보드 속성 및 맵 편집·최초 적재·원장 전달을 담당한다. 운영 환경에서는 기동을 거절한다. 개발 DB 저장이 운영 게임을 직접 갱신하지 않으며 원장 파일을 검토·버전 고정해 배포한다.
 
+`GET /internal/v1/content/map-change-receipt`는 `requestId`와 원래 `map-changes` 요청의 정렬 JSON SHA-256인 `requestSha256`을 받아 접수 해시의 `matched`, `mismatch`, `not_found`만 반환한다. 일반 관리 API와 같은 인증이 필요하며 저장을 실행하거나 접수 내용을 반환하지 않는다. `not_found`는 조회 시점의 결과이므로 진행 중인 트랜잭션의 향후 커밋이나 파일 원본과 DB의 일치를 배제하지 않는다. 이 조회를 추가해도 관리도구의 DB 모드 맵 저장 제한이 해제되지는 않는다.
+
+접수 조회는 격리 PostgreSQL에서 실제 맵 변경 전과 미커밋 중 `not_found`, 커밋 후 `matched`, 다른 해시의 `mismatch`를 확인했다. 워크플로 클라이언트가 같은 요청을 해시해 인증된 에셋 API를 조회하는 경로도 테스트했다. 실행 중인 서비스의 코드 갱신이나 운영 화면 연결은 별도다.
+
+격리 통합 검사에서는 별도 MCP stdio 프로세스, 임시 관리 게이트웨이와 인증된 에셋 HTTP 서버를 거쳐 테스트 PostgreSQL 접수를 확인했다. 운영 서버나 현재 Codex 연결의 갱신 여부는 확인하지 않는다.
+
 ## 실행 준비
 
 1. 이 저장소의 Python 환경에 `asset_service/requirements.txt`를 설치한다. 통합 검사는 별도로 `httpx==0.28.1`이 필요하다.
