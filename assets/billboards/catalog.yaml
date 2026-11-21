@@ -80,7 +80,7 @@ modeling_contract:
     catalog_role: modeling.shadow는 제작·검수 지침이다. 이 지침만 편집해도 런타임은 바뀌지 않는다. 위치·크기는 공용
       속성 편집기에서 shadowOffsetColumn/Row(-4~4타일), shadowScaleX/Y(점유 열·행 배율 0.001~4),
       1은 해당 점유 축 전체이며 표시 높이는 크기에 곱하지 않음를 저장한다.
-  validation: slime-workflow/tools/management/maintenance/sync_billboard_catalog.py --check
+  validation: slime-workflow/workflow/maintenance/sync_billboard_catalog.py --check
 catalog_files:
   herbaceous: catalogs/herbaceous.yaml
   large-trees: catalogs/large-trees.yaml

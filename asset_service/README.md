@@ -69,7 +69,7 @@ token 모드에서는 모든 경로에 `Authorization: Bearer <서비스 토큰>
 
 현재 원장 검증은 관리도구의 기존 시드 생성기로 전달 JSON을 준비한 뒤 `ASSET_TEST_SEED_FILE`에 그 파일의 절대 경로를 지정해 격리 API 검사를 실행한다. 미지정 시 해당 검사는 건너뛰며 일반 fixture 검사만 수행한다. 테스트 자료는 원장 사본이며 공개 저장소에 추가하지 않는다.
 
-실제 HTTP 연결 회귀는 격리 DB 검사에 `ASSET_TEST_WORKFLOW_ROOT`를 명시하여 실행한다. 기본으로 해당 경로의 `.venv/bin/python`을 사용하며, 다른 검증 환경은 `ASSET_TEST_WORKFLOW_PYTHON`으로 명시한다. `tools.management.tests.test_asset_service_http`를 사용하며, 배포 서비스의 런타임 의존성이 아니다. 검사는 임시 루프백 uvicorn과 공용 명령 게이트웨이 처리기를 사용하는 임시 HTTP 서버를 시작해 명령 봉투·CLI 상태 조회·잘못된 토큰 거절을 확인한 뒤 종료한다. GUI 렌더링이나 별도 호스트 TLS 검증은 포함하지 않는다.
+실제 HTTP 연결 회귀는 격리 DB 검사에 `ASSET_TEST_WORKFLOW_ROOT`를 명시하여 실행한다. 기본으로 해당 경로의 `.venv/bin/python`을 사용하며, 다른 검증 환경은 `ASSET_TEST_WORKFLOW_PYTHON`으로 명시한다. `workflow.tests.test_asset_service_http`를 사용하며, 배포 서비스의 런타임 의존성이 아니다. 검사는 임시 루프백 uvicorn과 공용 명령 게이트웨이 처리기를 사용하는 임시 HTTP 서버를 시작해 명령 봉투·CLI 상태 조회·잘못된 토큰 거절을 확인한 뒤 종료한다. GUI 렌더링이나 별도 호스트 TLS 검증은 포함하지 않는다.
 
 기존 백엔드 콘텐츠 API 호환성 검사는 격리 DB와 `ASSET_TEST_WORKFLOW_ROOT`, `ASSET_TEST_LEGACY_BACKEND_ROOT`를 지정하고 `asset_service.test_api.AssetServiceApiTests.test_legacy_backend_waypoint_management_over_real_http`를 실행한다. 기존 API를 임시 루프백 서버로 시작하고 웨이포인트 신규 등록·교체·동일 요청 재확인, 안개 등록·동시 중복 차단, 빌보드 발광 등록과 동시 리비전 변경·비활성 대상 거부를 검증한다. 운영 DB나 서버를 사용하지 않는다.
 

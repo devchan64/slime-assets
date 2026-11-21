@@ -25,8 +25,8 @@
 slime-workflow 루트에서 실행한다.
 
 ```bash
-PYTHONPATH=. .venv-management/bin/python tools/management/maintenance/sync_billboard_catalog.py --write
-PYTHONPATH=. .venv-management/bin/python tools/management/maintenance/sync_billboard_catalog.py --check
+PYTHONPATH=. .venv-management/bin/python workflow/maintenance/sync_billboard_catalog.py --write
+PYTHONPATH=. .venv-management/bin/python workflow/maintenance/sync_billboard_catalog.py --check
 ```
 
 신규 등록·공용 크기 변경·맵 재배치 후 실행한다. 검증은 원본 이미지 존재·SHA-256, 중복 키·ID, 공용 속성 계약, 카탈로그 최신 여부를 검사한다. 미등록 속성은 명시적인 `설정 필요` 상태로 보존한다. 맵의 접지 충돌·이동 가능성과 최종 시각 검수는 별도로 수행한다.
