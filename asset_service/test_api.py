@@ -142,7 +142,7 @@ class AssetServiceApiTests(unittest.TestCase):
             current_workflow_root=os.environ.get('ASSET_TEST_WORKFLOW_ROOT')
             if current_workflow_root:
                 with patch.object(sys,'path',[current_workflow_root,*sys.path]):
-                    from tools.review.domains.map_assets import database_client
+                    from tools.management.domains.map_assets import database_client
                     current_original_content_request=database_client.execute_content_api_request
                     def read_test_content_response(current_http_method,current_relative_path):
                         current_test_case.assertEqual(current_http_method,'GET')
@@ -152,18 +152,18 @@ class AssetServiceApiTests(unittest.TestCase):
                     with patch.object(database_client,'execute_content_api_request',side_effect=read_test_content_response):
                         current_test_case.assertEqual(database_client.read_content_map_change_receipt(current_request_payload)['state'],'matched')
                         current_test_case.assertEqual(database_client.read_content_map_change_receipt(current_request_payload | {'expectedGeneration':99})['state'],'mismatch')
-                        from tools.review.domains.hermes_agent.service import HermesServiceManager
+                        from tools.management.domains.hermes_agent.service import HermesServiceManager
                         current_hermes_manager=HermesServiceManager()
                         current_hermes_payload={'database_request_id':current_request_payload['requestId'],'request_sha256':current_request_hash}
                         current_hermes_response=current_hermes_manager.execute_hermes_command('hermes-map-database-receipt',current_hermes_payload)
                         current_test_case.assertEqual(current_hermes_response['state'],'matched')
                         current_test_case.assertIn('보장하지 않습니다',current_hermes_response['note'])
-                        from tools.review.tests.test_hermes_mcp import hermes_module_value
+                        from tools.management.tests.test_hermes_mcp import hermes_module_value
                         with patch.object(hermes_module_value,'run_hermes_mcp_command',side_effect=current_hermes_manager.execute_hermes_command):
                             current_mcp_result=hermes_module_value.read_hermes_map_database_receipt(current_request_payload['requestId'],current_request_hash)
                         current_test_case.assertEqual(current_mcp_result['state'],'matched')
-                        from tools.review.common.management_gateway import ManagementCommandGateway
-                        from tools.review.gateway_server import create_gateway_request_handler
+                        from tools.management.common.management_gateway import ManagementCommandGateway
+                        from tools.management.gateway_server import create_gateway_request_handler
                         current_gateway_value=ManagementCommandGateway({'hermes-agent':current_hermes_manager.handle_hermes_request})
                         current_gateway_server=ThreadingHTTPServer(('127.0.0.1',0),create_gateway_request_handler(current_gateway_value.handle))
                         current_gateway_server.emit_gateway_trace=lambda *current_values:None
@@ -190,7 +190,7 @@ class AssetServiceApiTests(unittest.TestCase):
 from mcp import ClientSession,StdioServerParameters
 from mcp.client.stdio import stdio_client
 async def verify_receipt_result():
-    current_parameters=StdioServerParameters(command=sys.executable,args=['tools/review/domains/hermes_agent/mcp_server.py'],cwd=os.getcwd(),env=dict(os.environ))
+    current_parameters=StdioServerParameters(command=sys.executable,args=['tools/management/domains/hermes_agent/mcp_server.py'],cwd=os.getcwd(),env=dict(os.environ))
     async with stdio_client(current_parameters) as (current_reader,current_writer):
         async with ClientSession(current_reader,current_writer) as current_session:
             await current_session.initialize()
@@ -206,7 +206,7 @@ asyncio.run(verify_receipt_result())'''
                                 import shutil
                                 current_bwrap_path=shutil.which('bwrap')
                                 if current_bwrap_path:
-                                    from tools.review.domains.hermes_agent import management_bridge, management_status_client
+                                    from tools.management.domains.hermes_agent import management_bridge, management_status_client
                                     with tempfile.TemporaryDirectory() as current_socket_directory, socket.socket(socket.AF_UNIX,socket.SOCK_STREAM) as current_listener_socket:
                                         current_socket_path=Path(current_socket_directory)/'observer.sock'
                                         current_listener_socket.bind(str(current_socket_path))
@@ -237,7 +237,7 @@ asyncio.run(verify_receipt_result())'''
                             current_gateway_server.server_close()
                             current_gateway_thread.join(timeout=5)
                             if 'current_asset_server' in locals():current_test_case.assertFalse(current_asset_thread.is_alive(),'격리 에셋 API 종료 실패')
-                        from tools.review.ui.gradio import operations_history_app
+                        from tools.management.ui.gradio import operations_history_app
                         with patch.object(operations_history_app,'execute_remote_management_command',side_effect=lambda current_service_name,current_command_name,current_payload_value:current_hermes_manager.execute_hermes_command(current_command_name,current_payload_value)):
                             current_display_record=operations_history_app.collect_operations_map_database_receipt(current_request_payload['requestId'],current_request_hash,'test-token')
                         current_test_case.assertIn('동기화는 별도로',current_display_record['notice'])
@@ -416,7 +416,7 @@ asyncio.run(verify_receipt_result())'''
                         ASSET_LEDGER_SOURCE_ROOT=os.environ['ASSET_TEST_LEDGER_SOURCE_ROOT'])
                     current_workflow_python=os.environ.get('ASSET_TEST_WORKFLOW_PYTHON',str(current_workflow_root/'.venv/bin/python'))
                     current_test_result=subprocess.run([current_workflow_python,'-m','unittest',
-                        'tools.review.tests.test_asset_ledger_roundtrip','-v'],cwd=current_workflow_root,
+                        'tools.management.tests.test_asset_ledger_roundtrip','-v'],cwd=current_workflow_root,
                         env=current_environment_values,capture_output=True,text=True,timeout=30)
                     current_test_case.assertEqual(current_test_result.returncode,0,current_test_result.stdout+current_test_result.stderr)
             current_test_case.assertEqual(current_export_payload['mapDocuments'],current_seed_bundle['maps']['documents'])
@@ -439,13 +439,13 @@ asyncio.run(verify_receipt_result())'''
         current_workflow_root=Path(os.environ['ASSET_TEST_WORKFLOW_ROOT']).resolve()
         sys.path.insert(0,str(current_workflow_root))
         current_test_case.addCleanup(sys.path.remove,str(current_workflow_root))
-        from tools.review.domains.map_assets import building_editor
-        from tools.review.domains.hermes_agent import building_operations
-        from tools.review.domains.hermes_agent.delegation_store import HermesDelegationStore
-        from tools.review.domains.hermes_agent.service import HermesServiceManager
-        from tools.review.domains.map_assets import resize
-        from tools.review.common.management_gateway import ManagementCommandGateway, execute_management_command
-        from tools.review.gateway_server import create_gateway_request_handler
+        from tools.management.domains.map_assets import building_editor
+        from tools.management.domains.hermes_agent import building_operations
+        from tools.management.domains.hermes_agent.delegation_store import HermesDelegationStore
+        from tools.management.domains.hermes_agent.service import HermesServiceManager
+        from tools.management.domains.map_assets import resize
+        from tools.management.common.management_gateway import ManagementCommandGateway, execute_management_command
+        from tools.management.gateway_server import create_gateway_request_handler
         from http.server import ThreadingHTTPServer
         with current_test_case.open_runtime_connection() as current_database_connection:
             current_seed_result=initialize_map_seed_bundle(current_database_connection,{'documents':{
@@ -586,7 +586,7 @@ asyncio.run(verify_receipt_result())'''
                     ASSET_HTTP_WRONG_TOKEN_FILE=str(current_wrong_token_path),
                     SLIME_CONTENT_SERVICE_ORIGIN='http://127.0.0.1:'+str(current_service_port))
                 current_test_result=subprocess.run([os.environ.get('ASSET_TEST_WORKFLOW_PYTHON',str(current_workflow_root/'.venv/bin/python')),'-m','unittest',
-                    'tools.review.tests.test_asset_service_http','-v'],cwd=current_workflow_root,env=current_environment_values,
+                    'tools.management.tests.test_asset_service_http','-v'],cwd=current_workflow_root,env=current_environment_values,
                     capture_output=True,text=True,timeout=25)
                 current_test_case.assertEqual(current_test_result.returncode,0,current_test_result.stdout+current_test_result.stderr)
         finally:
@@ -626,7 +626,7 @@ asyncio.run(verify_receipt_result())'''
                 current_environment_values=os.environ.copy()
                 current_environment_values.update(ASSET_HTTP_LEGACY_TEST='1',SLIME_CONTENT_SERVICE_ORIGIN='http://127.0.0.1:'+str(current_service_port))
                 current_workflow_python=os.environ.get('ASSET_TEST_WORKFLOW_PYTHON',str(current_workflow_root/'.venv/bin/python'))
-                current_test_result=subprocess.run([current_workflow_python,'-m','unittest','tools.review.tests.test_asset_service_http.LegacyAssetServiceHttpTests','-v'],cwd=current_workflow_root,env=current_environment_values,capture_output=True,text=True,timeout=25)
+                current_test_result=subprocess.run([current_workflow_python,'-m','unittest','tools.management.tests.test_asset_service_http.LegacyAssetServiceHttpTests','-v'],cwd=current_workflow_root,env=current_environment_values,capture_output=True,text=True,timeout=25)
                 current_test_case.assertEqual(current_test_result.returncode,0,current_test_result.stdout+current_test_result.stderr)
                 from concurrent.futures import ThreadPoolExecutor, TimeoutError
                 from threading import Event
