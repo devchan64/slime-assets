@@ -488,9 +488,9 @@ assets:
     path: config/city_layouts/reedhaven.yaml
     operation: 맵 배치·통행 원본 이전
 - managementId: config.city-layouts.stonewarm
-  version: v5-billboard-blocking-v1
+  version: v5-no-shield-v1
   path: assets/maps/city_layouts/stonewarm.yaml
-  sha256: acf92acf045c07ef63f1c8e11fb46c446ed9ffb45b814f6180e82813d14b59a6
+  sha256: d63ce4d58bd3015aaadad13676b175ee7b90e85206b38d392599d96f2c83be6c
   source:
     repository: slime-backend
     path: config/city_layouts/stonewarm.yaml
